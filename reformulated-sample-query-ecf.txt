@@ -1,0 +1,30 @@
+171138	container icontainers method roster collection rosterview roster view system view hook containermanager container manager bug static created ontainers needed
+181506	presence providers remy messages forms view messagesview messages view nice migrate chats bug messages
+125572	sync socontainer client initiator time ecf thread container provider version bug generic thread interlock int erlock
+193415	view create window roster container onfiguration service menu Bug Contacts view menu entries disabled logged logged press chevron contacts view Add Account disconnect accounts shouldn disabled logged
+183492	server container shared create supported context args application Bug ECF Server Application launch config
+192778	eclipse abstract contacts functionality search class ctrl clients shortcut bug easy browse key dialog
+195275	Bug   � can t connect to MSN StringIndexOutOfBoundsException
+197005	xmpp provider manager bug invitation xmppchatroommanager xmppchat room manager invitation xmpp getinvitationsender invitation sender xmppchat xmppc hat room sender supported
+258252	Bug   �  Discovery SLP  Colons in path portion of ServiceURL cause SLE when  optional  port is missing ServiceLocationException
+232530	Bug   �  MSN  Session and subclasses needs to handle whitespace and exceptions better StringIndexOutOfBoundsException
+134483	ecfplugin client factory clientapplication client application containerfactory container factory application eclipse standalone container exception bug standalone breaks ecfp lugin
+174480	nls message container ecf file sun boot arguments vendor log bug missing
+112599	user room chat invitation message presence add remove Bug XMPP Room subject updated xmpp chat updated remotely xmpp server title room updated dynamically
+172952	implementation provider ichatroommanager ichat room manager ichat manager xmpp xmpp room createchatroom create chat room chat bug implement create
+254687	Bug   �  Discovery SLP  ClassCircularityError during bundle activation BundleException runWithException
+172958	channel room message handle user container chat invitation Bug IRC Patch commands Root Channel Containers commands work Channel Container setup command containers patch acceptable write mode commands Mark
+216478	Bug   � Make use of IProxyService optional
+237726	Bug   �  patch  Smack in ECF discards non ASCII VCard data SAXParseException
+188583	Bug   �  msn  Msn retrieve Buddy List error ArrayIndexOutOfBoundsException
+119206	message room set text chat tab view endpoint Bug Add event history hyperlinks collab text chat output problem shared editor collab history participant opens shared editor receiver record shared editor opening replay event control shared editor ECF collab features display editor opening editor selection events chat text output hyperlinks ability receiver click hyperlinks locally remotely replay event receiver preference received events executed shared editor executed presented text chat history Provide additional events resources share key board
+195824	getproperty property iservice idiociy service property jmdnsdiscoverycontainer jmdnsdiscovery container properties jmdnsdiscovery rule service bug jmdnsd iscovery container doesn ward
+193136	service server container message register invitation context room Bug IRC Add IRC server populate fields collaboration groups IRC encourage people join irc freenode net eclipse
+165815	paul bug address access woodward service https registered iconcat bug local local remoteservicereference remoteservice reference implemented impl emented
+192756	room message channel user handle string chat container Bug IRC channel join rid entered spam join big channel ton xxx entered channel entry don messages messages server tab irc freenode net IRC clients
+194101	service set event info listener ecf configuration add Bug Increase user info pop time delay hover contacts popup user info great popup fast difficult click user longer delay popup
+164154	Bug   � GenericContainerInstantiator throws ContainerCreateException ContainerCreateException BindException
+192762	create connect invitation server revoked granted client room Bug IRC Support common operations usernames voice lot IRC clients support commands usernames listed examples voice deop aim
+197049	Bug   � NPE in contacts browse dialogt NullPointerException
+146622	Bug   � deserializeSharedObjectMessage with custom Class problem EOFException
+192574	list privacy dialog create input authentication socket set Bug Communications preference isn empty Restore Defaults Apply buttons settings affect
