@@ -1,0 +1,122 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BLIZZARDRunner",
+            "request": "launch",
+            "mainClass": "blizzard.core.items.BLIZZARDRunner",
+            "projectName": "BLIZZARD-Generalized_e68caa37"
+        },
+        {
+            "type": "java",
+            "name": "IndexLucene",
+            "request": "launch",
+            "mainClass": "blizzard.lucenecheck.IndexLucene",
+            "projectName": "BLIZZARD-Generalized_e68caa37"
+        },
+        {
+            "type": "java",
+            "name": "LuceneSearcher",
+            "request": "launch",
+            "mainClass": "blizzard.lucenecheck.LuceneSearcher",
+            "projectName": "BLIZZARD-Generalized_e68caa37"
+        },
+        {
+            "type": "java",
+            "name": "TFIDFManager",
+            "request": "launch",
+            "mainClass": "blizzard.lucenecheck.TFIDFManager",
+            "projectName": "BLIZZARD-Generalized_e68caa37"
+        },
+        {
+            "type": "java",
+            "name": "BLIZZARDQueryManager",
+            "request": "launch",
+            "mainClass": "blizzard.query.BLIZZARDQueryManager",
+            "projectName": "BLIZZARD-Generalized_e68caa37"
+        },
+        {
+            "type": "java",
+            "name": "BLIZZARDQueryProvider",
+            "request": "launch",
+            "mainClass": "blizzard.query.BLIZZARDQueryProvider",
+            "projectName": "BLIZZARD-Generalized_e68caa37"
+        },
+        {
+            "type": "java",
+            "name": "PEKeywordSelector",
+            "request": "launch",
+            "mainClass": "blizzard.query.PEKeywordSelector",
+            "projectName": "BLIZZARD-Generalized_e68caa37"
+        },
+        {
+            "type": "java",
+            "name": "PETextElementExtractor",
+            "request": "launch",
+            "mainClass": "blizzard.query.PETextElementExtractor",
+            "projectName": "BLIZZARD-Generalized_e68caa37"
+        },
+        {
+            "type": "java",
+            "name": "TextElementExtractor",
+            "request": "launch",
+            "mainClass": "blizzard.query.TextElementExtractor",
+            "projectName": "BLIZZARD-Generalized_e68caa37"
+        },
+        {
+            "type": "java",
+            "name": "TextKeywordSelector",
+            "request": "launch",
+            "mainClass": "blizzard.query.TextKeywordSelector",
+            "projectName": "BLIZZARD-Generalized_e68caa37"
+        },
+        {
+            "type": "java",
+            "name": "BLIZZARDRankProvider",
+            "request": "launch",
+            "mainClass": "blizzard.query.evaluation.BLIZZARDRankProvider",
+            "projectName": "BLIZZARD-Generalized_e68caa37"
+        },
+        {
+            "type": "java",
+            "name": "BLIZZARDResultProvider",
+            "request": "launch",
+            "mainClass": "blizzard.query.evaluation.BLIZZARDResultProvider",
+            "projectName": "BLIZZARD-Generalized_e68caa37"
+        },
+        {
+            "type": "java",
+            "name": "ReportedPerformanceProvider",
+            "request": "launch",
+            "mainClass": "blizzard.query.evaluation.ReportedPerformanceProvider",
+            "projectName": "BLIZZARD-Generalized_e68caa37"
+        },
+        {
+        "type": "java",
+        "name": "Launch BLIZZARDRunner",
+        "request": "launch",
+        "mainClass": "blizzard.core.items.BLIZZARDRunner",
+        // "projectName": "BLIZZARD-Tool-New",
+        "args": "-task reformulateQuery -repo ecf -bugIDFile sample-bugs-ecf.txt -queryFile reformulated-sample-query-ecf.txt"
+    },
+    {
+        "type": "java",
+        "name": "Launch BLIZZARDRunner getResult",
+        "request": "launch",
+        "mainClass": "blizzard.core.items.BLIZZARDRunner",
+        // "projectName": "BLIZZARD-Tool-New",
+        "args": "-task getResult -repo ecf -queryFile reformulated-sample-query.txt -topk 10 -resultFile sample-results.txt"
+    }
+    ]
+}
