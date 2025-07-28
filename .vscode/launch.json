@@ -104,7 +104,7 @@
         },
         {
         "type": "java",
-        "name": "Launch BLIZZARDRunner",
+        "name": "Launch BLIZZARDRunner: ecf",
         "request": "launch",
         "mainClass": "blizzard.core.items.BLIZZARDRunner",
         // "projectName": "BLIZZARD-Tool-New",
@@ -112,11 +112,11 @@
     },
     {
         "type": "java",
-        "name": "Launch BLIZZARDRunner getResult",
+        "name": "Launch BLIZZARDRunner getResult: ecf",
         "request": "launch",
         "mainClass": "blizzard.core.items.BLIZZARDRunner",
         // "projectName": "BLIZZARD-Tool-New",
-        "args": "-task getResult -repo ecf -queryFile reformulated-sample-query.txt -topk 10 -resultFile sample-results.txt"
+        "args": "-task getResult -repo ecf -queryFile reformulated-sample-query-ecf.txt -topk 10 -resultFile sample-results-ecf.txt"
     }
     ]
 }
