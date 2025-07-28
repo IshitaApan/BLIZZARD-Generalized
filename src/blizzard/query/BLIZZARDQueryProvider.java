@@ -43,7 +43,7 @@ public class BLIZZARDQueryProvider {
 
 		// System.out.println(title);
 		ArrayList<String> blizzardKeywords = new ArrayList<>();
-		System.out.println("Report group : " + reportGroup);
+		System.out.println("Bug Id:"+ bugID+ " Report group : " + reportGroup);
 
 		switch (reportGroup) {
 		case "ST":
