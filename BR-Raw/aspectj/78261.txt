@@ -1,0 +1,3 @@
+field pattern with "void" type should be compile-time error
+
+We really should barf early on get(void i) as opposed to just compiling through and treating it as something that'll never match. I rated this as minor since this is just an error message issue.

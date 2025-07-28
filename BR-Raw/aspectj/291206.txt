@@ -1,0 +1,3 @@
+Allow declare error & declare warning to support type expressions
+
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729) Build Identifier: declare error & declare warning currently only support pointcut expressions; it would be nice if they also supported type expressions. See http://www.nabble.com/declare-error---type-pattern--ts25619498.html#a25619498 for mailing list discussion. Reproducible: Always

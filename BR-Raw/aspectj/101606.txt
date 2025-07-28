@@ -1,0 +1,3 @@
+AspectJ compiler does not process unused code compiler options properly for aspects
+
+In Eclipse (3.0) click 'Window' > 'Preferences' > 'Java' > 'Compiler'. Select the 'Unused Code' tab on the compiler preference page. Change 'Unused or unread private members' to Warning or Error. Create a project that contains an aspect with some private pointcuts. You will see warnings or errors for these pointcuts saying that they are unused.

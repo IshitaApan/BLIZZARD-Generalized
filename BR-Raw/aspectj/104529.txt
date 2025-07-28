@@ -1,0 +1,3 @@
+@SuppressWarnings( "unchecked" ) is not ignoring type safety checks
+
+AJDT is ignoring the @SuppressWarnings( "unchecked" ) annotation. It is giving me a type safety warning when I don't specify the type when declaring a generic even though I have the @SuppressWarnings( "unchecked" ) annotation specified.

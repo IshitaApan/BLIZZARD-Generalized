@@ -1,0 +1,3 @@
+unsynchronized access to WeakHashMap
+
+Created attachment 90955 patch to World.java Build ID: M20071023-1652 Steps To Reproduce: 1. org.aspectj.weaver.World.expendableMap is defined as a java.util.WeakHashMap 2. java.util.WeakHashMap is not thread safe 3. we have observed that expendableMap can be updated concurrently by multiple threads under load which will corrupt the internal hashmap structure resulting in infinite loops when get() is called More information:

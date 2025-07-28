@@ -1,0 +1,3 @@
+Private members introduced via an interface are visible to the class
+
+If private members are introduced via an interface to classes, the introduced members are visible inside the classes themselves, although the visibility is supposed to be relative to the aspect. Here's a sample: public class Sample { public static void main(String[] args) { Sample s = new Sample(); s.aMethod(); } public void aMethod() { // x is introduced by the following aspect as private // so it should not be accessible here System.out.println("I have " + x); } } aspect SampleAspect { private interface Tag {}; private int Tag.x = 0; declare parents: Sample implements Tag; }

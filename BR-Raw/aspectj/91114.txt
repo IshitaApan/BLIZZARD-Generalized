@@ -1,0 +1,3 @@
+[jdt-parser] Parser error on System.out.printf("..." + (after-before) + "...")
+
+Following code fragment: ***************************** class Foo { public void bar () { long before = 0; long after = 0; System.out.println("... " + (before - after) + " ..."); } } ***************************** leads to following parser error ***************************** [...].java:25 [error] Syntax error on token "-", invalid AssignmentOperator System.out.println("... " + (before - after) + " ..."); ***************************** Problems seems to vanish when I rename the before variable.

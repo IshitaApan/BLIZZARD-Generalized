@@ -1,0 +1,3 @@
+Bad generics signature generated
+
+Please see http://jira.springsource.org/browse/SPR-5949. The bug ID https://bugs.eclipse.org/bugs/show_bug.cgi?id=284297 was raised for this issue and fixed in version 1.6.6. We were using AspectJ version 1.7.1 and got hit by this bug today. During investigation we have found that the problem does not occur with AspectJ versions 1.6.6 - 1.6.8 but it resurfaces with version 1.6.9 and can be reproduced all the way up to the current version 1.7.1.

@@ -1,0 +1,3 @@
+AJC Compiler generates invalid class files under certain circunstances.
+
+I made a package (I will attach it to this bug with the name bug.zip) which shows a sample Java program that correctly runs when compiled with javac and have classloading problems every time it is compiled with ajc. Please see the file README.TO.DEMONSTRATE.BUG inside the bug.zip archive for detailed (although simple) instructions on reproducing the bug. There are two shell scripts attached to make things easier. Please keep me informed of the status of this issue.

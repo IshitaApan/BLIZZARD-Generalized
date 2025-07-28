@@ -1,0 +1,3 @@
+[compiling] Problem with -XterminateAfterCompilation
+
+Reported on the mailing list by Simone: I tried disabling pipelining as described in bug 146781, that is using -Xset:pipelineCompilation=false, but unfortunately I get this error while compiling with -XterminateAfterCompilation : java.lang.NullPointerException at org.aspectj.weaver.ReferenceType.isAspect(ReferenceType.java:160) at org.aspectj.ajdt.internal.core.builder.AjBuildManager$4.addAspectName(AjBuildManager.java:1108) at org.aspectj.ajdt.internal.core.builder.AjBuildManager$4.acceptResult(AjBuildManager.java:1047) at

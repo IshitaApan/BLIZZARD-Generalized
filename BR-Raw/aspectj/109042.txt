@@ -1,0 +1,3 @@
+parameter ajc_aroundclosure is never read
+
+Similar to [http://dev.eclipse.org/newslists/news.eclipse.technology.ajdt/ msg00691.html] I get the following warning in the attached test project: Severity	Description	Resource	In Folder	Location	Creation Time 1	The parameter ajc_aroundClosure is never read	PlaylistAspect.aj	Jukebox/ src/playlist	line 1	8. September 2005 14:10:12

@@ -1,0 +1,3 @@
+Unclosed stream in org.aspectj.weaver.bcel.ExtensibleURLClassLoader
+
+Created attachment 147527 Eclipse workspace patch that closes the stream The method getBytes() gets a fresh stream from ClassFile and should close it after using it. Right now, the stream is left open. A patch is attached that closes the stream.

@@ -1,0 +1,3 @@
+-classpath entries in .lst files overwrite command-line -classpath entries
+
+If the command-line specifies both a -classpath entry and a .lst file with a -classpath entry, the .lst file entry seems to replace rather than supplement the command-line entry. I expect options to be cumulative. See tests/bugs/options/classpath

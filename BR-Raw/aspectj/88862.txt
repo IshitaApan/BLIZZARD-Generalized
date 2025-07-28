@@ -1,0 +1,3 @@
+Declare annotation on ITDs
+
+I'll use this bug to capture info on the implementation...

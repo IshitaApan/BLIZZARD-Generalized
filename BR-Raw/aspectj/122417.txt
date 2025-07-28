@@ -1,0 +1,3 @@
+[waiting-on-website-doc-refresh] Typo in org.aspectj.lang.JoinPoint String constant symbolic name
+
+Methinks the n_a_m_e of the preinitialization constant is misspelled JoinPoint.PREINTIALIZATION is lacking an "I" between the N and the T JoinPoint.PREINITIALIZATION might be the correct version Note: The value of the constant ("preinitialization") is spelled correctly. Sorry for the inconvenience. Harald

@@ -1,0 +1,3 @@
+Compilation error on generic member introduction
+
+The compiler aborts with the following introduction code: aspect introductionToA{ private ArrayList<B> A.m_Array = new ArrayList<B>(); public void A.addB(B tmp){ m_Array.add(tmp); } } The error message is "[error] The method add(E) in the type ArrayList<E> is not applicable for the arguments (B) m_Array.add(tmp)" Compiling with AspectJ Development version (2005/02/18).

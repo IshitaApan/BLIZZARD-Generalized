@@ -1,0 +1,3 @@
+Wildcarding in ITDs needs clearer compiler error message.
+
+If a user attempts to define an ITD using a type pattern (illegal since AspectJ 1.1) they get back a compiler error message of the following form :- MyAspect.java:4 error Syntax error on token "*", around expected public String foo.bar.*.name; A clearer error message informing the user of their use of illegal syntax would help.

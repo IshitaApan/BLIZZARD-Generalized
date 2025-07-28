@@ -1,0 +1,3 @@
+Problems resolving type name inside generic class
+
+ajc reports an error when compiling the following code: interface Base<T> { static interface Inner { } } class Test<T extends Test.InnerTest> implements Base<T> { static class InnerTest implements Inner { } } $ ajc -1.5 Test.java Test.java:14 [error] Inner cannot be resolved to a type static class InnerTest implements Inner { Sun's javac compiles it without any error. The error can be avoided by simply writing "Base.Inner" instead of just "Inner". Also, it compiles fine if the constraint "extends Test.InnerTest" is left away.

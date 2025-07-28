@@ -1,0 +1,3 @@
+import static fails when importing a method
+
+I got the following error: ============================================== MyClass2.java:3 [error] The import MyClass.myMethod cannot be resolved import static MyClass.myMethod; ============================================== other import static statements (Strings/Enums) appear to work.

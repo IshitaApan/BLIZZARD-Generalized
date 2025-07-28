@@ -1,0 +1,2 @@
+suspected problem with handling of multiple aop.xml files
+
