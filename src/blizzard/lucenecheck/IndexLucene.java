@@ -122,7 +122,7 @@ public class IndexLucene {
 
 	public static void main(String[] args) {
 		long start = System.currentTimeMillis();
-		String repoName = "tomcat70";
+		String repoName = "ecf";
 
 		String docs = StaticData.HOME_DIR + "/Corpus/" + repoName;
 		String index = StaticData.HOME_DIR + "/Lucene-Index/" + repoName;
