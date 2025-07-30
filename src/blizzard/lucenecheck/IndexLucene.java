@@ -98,6 +98,7 @@ public class IndexLucene {
 					writer.addDocument(doc);
 
 					totalIndexed++;
+					System.out.println(totalIndexed + ": " + file.getPath());
 
 				} catch (UnsupportedEncodingException e) {
 
@@ -122,7 +123,7 @@ public class IndexLucene {
 
 	public static void main(String[] args) {
 		long start = System.currentTimeMillis();
-		String repoName = "ecf";
+		String repoName = "aspectj";
 
 		String docs = StaticData.HOME_DIR + "/Corpus/" + repoName;
 		String index = StaticData.HOME_DIR + "/Lucene-Index/" + repoName;
