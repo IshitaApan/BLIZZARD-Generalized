@@ -16,8 +16,12 @@ public class TraceCollector {
 	public ArrayList<String> extractStackTraces(String bugReport) {
 		// extract the stack traces from the bug report
 		ArrayList<String> traces = new ArrayList<>();
+
+		// original regex used in BLIZZARD
 		String stackRegex = "(.*)?(.+)\\.(.+)(\\((.+)\\.java:\\d+\\)|\\(Unknown Source\\)|\\(Native Method\\))";
-		Pattern p = Pattern.compile(stackRegex);
+		// modified regex to match stack traces more accurately
+		String stackRegexAltered = "([A-Za-z0-9_\\.$<>]+)\\((?:[A-Za-z0-9_]+\\.java:\\d+|Unknown Source|Native Method)\\)";
+		Pattern p = Pattern.compile(stackRegexAltered);
 		Matcher m = p.matcher(bugReport);
 		while (m.find()) {
 			String entry = bugReport.substring(m.start(), m.end());
