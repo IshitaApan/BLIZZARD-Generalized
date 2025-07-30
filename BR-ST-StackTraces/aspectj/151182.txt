@@ -1,0 +1,11 @@
+org.aspectj.weaver.bcel.BcelWeaver.weaveParentTypeMungers
+org.aspectj.weaver.bcel.BcelWeaver.weaveParentsFor
+org.aspectj.weaver.bcel.BcelWeaver.weave
+org.aspectj.weaver.tools.WeavingAdaptor.getWovenBytes
+org.aspectj.weaver.tools.WeavingAdaptor.weaveClass
+org.aspectj.weaver.loadtime.Aj.preProcess
+org.aspectj.weaver.loadtime.ClassPreProcessorAgentAdapter.transform
+sun.instrument.TransformerManager.transform
+sun.instrument.InstrumentationImpl.transform
+java.lang.ClassLoader.defineClass1
+java.lang.ClassLoader.defineClass

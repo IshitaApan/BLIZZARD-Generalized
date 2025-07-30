@@ -1,0 +1,5 @@
+lWorld
+ild
+org.aspectj.tools.ajc.Main.run
+org.aspectj.tools.ajc.Main.runMain
+org.aspectj.tools.ajc.Main.main

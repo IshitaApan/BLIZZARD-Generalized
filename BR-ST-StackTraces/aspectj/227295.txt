@@ -1,0 +1,4 @@
+org.aspectj.ajdt.internal.compiler.lookup.EclipseFactory.makeTypeBinding1
+org.aspectj.ajdt.internal.compiler.lookup.EclipseFactory.makeTypeBinding
+org.aspectj.ajdt.internal.compiler.lookup.EclipseFactory.makeTypeBinding1
+org.aspectj.ajdt.internal.compiler.lookup.EclipseFactory.makeTypeBinding

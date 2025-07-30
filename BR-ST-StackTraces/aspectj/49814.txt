@@ -1,0 +1,11 @@
+org.aspectj.util.ConfigParser.addFiles
+org.aspectj.util.ConfigParser.addFileOrPattern
+org.aspectj.util.ConfigParser.parseOneArg
+org.aspectj.util.ConfigParser.parseArgs
+org.aspectj.util.ConfigParser.parseCommandLine
+org.aspectj.ajdt.ajc.AjdtCommand.genBuildConfig
+org.aspectj.ajdt.ajc.AjdtCommand.doCommand
+org.aspectj.ajdt.ajc.AjdtCommand.runCommand
+org.aspectj.tools.ajc.Main.run
+org.aspectj.tools.ajc.Main.runMain
+org.aspectj.tools.ajc.Main.main

@@ -1,0 +1,10 @@
+org.aspectj.weaver.UnresolvedType.forGenericTypeSignature
+org.aspectj.weaver.bcel.BcelWorld.addSourceObjectType
+org.aspectj.weaver.loadtime.ClassLoaderWeavingAdaptor.accept
+org.aspectj.weaver.tools.WeavingAdaptor.shouldWeave
+org.aspectj.weaver.tools.WeavingAdaptor.weaveClass
+org.aspectj.weaver.loadtime.Aj.preProcess
+org.aspectj.weaver.loadtime.ClassPreProcessorAgentAdapter.transform
+sun.instrument.TransformerManager.transform
+sun.instrument.InstrumentationImpl.transform
+java.lang.ClassLoader.defineClass1

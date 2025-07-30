@@ -1,0 +1,12 @@
+java.io.FileOutputStream.open
+java.io.FileOutputStream.<init>
+java.io.FileOutputStream.<init>
+org.aspectj.util.FileUtil.makeOutputStream
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.writeResource
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.copyResourcesFromFile
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.copyResourcesToDestination
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.doBuild
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.doBuild
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.incrementalBuild
+org.aspectj.ajde.internal.CompilerAdapter.compile
+org.aspectj.ajde.internal.AspectJBuildManager$CompilerThread.run

@@ -1,0 +1,11 @@
+org.aspectj.weaver.bcel.BcelWorld.fromBcel
+org.aspectj.weaver.bcel.BcelWorld.makeJoinPointSignatureForArrayConstruction
+org.aspectj.weaver.bcel.BcelShadow.makeArrayConstructorCall
+org.aspectj.weaver.bcel.BcelClassWeaver.match
+org.aspectj.weaver.bcel.BcelClassWeaver.match
+org.aspectj.weaver.bcel.BcelClassWeaver.weave
+org.aspectj.weaver.bcel.BcelClassWeaver.weave
+org.aspectj.weaver.bcel.BcelWeaver.weave
+org.aspectj.weaver.bcel.BcelWeaver.weaveWithoutDump
+org.aspectj.weaver.bcel.BcelWeaver.weaveAndNotify
+org.aspectj.weaver.bcel.BcelWeaver.weave

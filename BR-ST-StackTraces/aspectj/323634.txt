@@ -1,0 +1,7 @@
+org.aspectj.weaver.ReferenceType.getPerClause
+org.aspectj.weaver.patterns.PerFromSuper.lookupConcretePerClause
+org.aspectj.weaver.patterns.PerFromSuper.concretize
+org.aspectj.weaver.CrosscuttingMembers.setPerClause
+org.aspectj.weaver.ResolvedType.collectCrosscuttingMembers
+oBuildJob.run
+org.eclipse.core.internal.jobs.Worker.run

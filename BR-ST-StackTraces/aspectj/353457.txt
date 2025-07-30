@@ -1,0 +1,4 @@
+org.aspectj.weaver.ShadowMunger.getBinaryFile
+org.aspectj.weaver.ShadowMunger.getBinarySourceLocation
+org.aspectj.weaver.model.AsmRelationshipProvider.createAdviceChild
+org.aspectj.weaver.model.AsmRelationshipProvider.addChildNodes

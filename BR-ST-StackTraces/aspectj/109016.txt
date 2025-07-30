@@ -1,0 +1,4 @@
+org.aspectj.ajde.internal.CompilerAdapter.configureBuildOptions
+org.aspectj.ajde.internal.CompilerAdapter.genBuildConfig
+org.aspectj.ajde.internal.CompilerAdapter.compile
+org.aspectj.ajde.internal.AspectJBuildManager$CompilerThread.run

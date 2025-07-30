@@ -1,0 +1,17 @@
+org.aspectj.weaver.patterns.IfPointcut.concretize1
+org.aspectj.weaver.patterns.IfPointcut.concretize
+org.aspectj.weaver.patterns.Pointcut.concretize
+org.aspectj.weaver.Checker.concretize
+addShadowMunger
+addAdviceLikeDeclares
+addAdviceLikeDeclares
+completeTypeBindings
+org.eclipse.jdt.internal.compiler.Compiler.compile
+performCompilation
+doBuild
+batchBuild
+org.aspectj.ajdt.ajc.AjdtCommand.doCommand
+org.aspectj.ajdt.ajc.AjdtCommand.runCommand
+org.aspectj.tools.ajc.Main.run
+org.aspectj.tools.ajc.Main.runMain
+org.aspectj.tools.ajc.Main.main

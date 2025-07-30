@@ -1,0 +1,4 @@
+org.aspectj.weaver.bcel.BcelTypeMunger.createBridgeMethod
+org.aspectj.weaver.bcel.BcelTypeMunger.createAnyBridgeMethodsForCovariance
+org.aspectj.weaver.bcel.BcelTypeMunger.mungeNewMethod
+org.aspectj.weaver.bcel.BcelTypeMunger.munge

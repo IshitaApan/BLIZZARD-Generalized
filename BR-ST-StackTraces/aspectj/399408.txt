@@ -1,0 +1,11 @@
+org.aspectj.weaver.patterns.ExactAnnotationTypePattern.matches
+org.aspectj.weaver.patterns.ExactAnnotationTypePattern.matches
+org.aspectj.weaver.patterns.AnyWithAnnotationTypePattern.matchesExactly
+org.aspectj.weaver.patterns.TypePattern.matchesStatically
+org.aspectj.weaver.patterns.DeclareParents.match
+org.aspectj.weaver.patterns.DeclareParents.findMatchingNewParents
+org.aspectj.ajdt.internal.compiler.lookup.AjLookupEnvironment.doDeclareParents
+org.aspectj.ajdt.internal.compiler.lookup.AjLookupEnvironment.weaveInterTypeDeclarations
+org.aspectj.ajdt.internal.compiler.lookup.AjLookupEnvironment.weaveIntertypes
+org.aspectj.ajdt.internal.compiler.lookup.AjLookupEnvironment.weaveIntertypes
+org.aspectj.ajdt.internal.compiler.lookup.AjLookupEnvironment.completeTypeBindings

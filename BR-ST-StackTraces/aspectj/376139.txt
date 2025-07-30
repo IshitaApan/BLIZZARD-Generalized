@@ -1,0 +1,5 @@
+org.aspectj.org.eclipse.jdt.internal.compiler.ast.SwitchStatement.analyseCode
+org.aspectj.org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.analyseCode
+org.aspectj.org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.internalAnalyseCode
+oBuildJob.run
+org.eclipse.core.internal.jobs.Worker.run

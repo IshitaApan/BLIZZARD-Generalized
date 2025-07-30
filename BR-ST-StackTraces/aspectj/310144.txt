@@ -1,0 +1,4 @@
+org.aspectj.asm.AsmManager.removeSingleNode
+org.aspectj.asm.AsmManager.removeRelationshipsTargettingThisType
+org.aspectj.weaver.bcel.BcelWeaver.weave
+org.aspectj.ajdt.internal.compiler.AjPipeliningCompilerAdapter.weaveQueuedEntries

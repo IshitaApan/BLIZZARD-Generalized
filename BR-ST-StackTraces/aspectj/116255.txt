@@ -1,0 +1,11 @@
+javax.xml.parsers.FactoryFinder.newInstance
+javax.xml.parsers.FactoryFinder.find
+org.apache.tomcat.util.digester.Digester.getParser
+org.apache.tomcat.util.digester.Digester.parse
+org.apache.catalina.startup.TldConfig.tldScanTld
+org.apache.catalina.startup.TldConfig.execute
+org.apache.catalina.core.StandardHost.addChild
+org.apache.catalina.startup.HostConfig.start
+org.apache.catalina.core.ContainerBase.start
+org.apache.catalina.core.StandardHost.start
+org.apache.catalina.core.ContainerBase.start

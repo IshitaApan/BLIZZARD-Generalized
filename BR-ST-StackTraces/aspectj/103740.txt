@@ -1,0 +1,8 @@
+org.aspectj.weaver.bcel.BcelRenderer.visit
+org.aspectj.weaver.ast.Literal.accept
+org.aspectj.weaver.bcel.BcelRenderer.recur
+org.aspectj.weaver.bcel.BcelAdvice.implementOn
+org.aspectj.weaver.Shadow.implementMungers
+org.aspectj.weaver.Shadow.implement
+org.aspectj.weaver.bcel.BcelWeaver.weave
+org.aspectj.weaver.bcel.BcelWeaver.weave

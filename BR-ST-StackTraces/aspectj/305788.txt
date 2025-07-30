@@ -1,0 +1,7 @@
+java.util.HashMap$HashIterator.nextEntry
+java.util.HashMap$KeyIterator.next
+org.aspectj.asm.internal.AspectJElementHierarchy.updateHandleMap
+org.aspectj.asm.AsmManager.removeStructureModelForFiles
+org.aspectj.asm.AsmManager.processDelta
+un
+org.eclipse.core.internal.jobs.Worker.run

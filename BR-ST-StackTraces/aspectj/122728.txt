@@ -1,0 +1,9 @@
+java.util.ArrayList.RangeCheck
+java.util.ArrayList.get
+org.aspectj.tools.ajdoc.StubFileGenerator.processMembers
+org.aspectj.tools.ajdoc.StubFileGenerator.processTypeDeclaration
+org.aspectj.tools.ajdoc.StubFileGenerator.processMembers
+org.aspectj.tools.ajdoc.StubFileGenerator.processTypeDeclaration
+org.aspectj.tools.ajdoc.StubFileGenerator.processFile
+org.aspectj.tools.ajdoc.StubFileGenerator.doFiles
+org.aspectj.tools.ajdoc.Main.main

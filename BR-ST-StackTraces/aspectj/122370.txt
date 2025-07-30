@@ -1,0 +1,5 @@
+moody.MoodTester.testAnnotation
+sun.reflect.NativeMethodAccessorImpl.invoke0
+sun.reflect.NativeMethodAccessorImpl.invoke
+sun.reflect.DelegatingMethodAccessorImpl.invoke
+moody.MoodTester.main

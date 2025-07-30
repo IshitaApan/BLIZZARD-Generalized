@@ -1,0 +1,7 @@
+org.aspectj.weaver.tools.WeavingAdaptor$WeavingAdaptorMessageHolder.handleMessage
+org.aspectj.bridge.MessageUtil.error
+org.aspectj.weaver.tools.WeavingAdaptor.error
+org.aspectj.weaver.tools.WeavingAdaptor.addAspectLibrary
+org.aspectj.weaver.tools.WeavingAdaptor.registerAspectLibraries
+org.aspectj.weaver.tools.WeavingAdaptor.init
+org.aspectj.weaver.tools.WeavingAdaptor.<init>

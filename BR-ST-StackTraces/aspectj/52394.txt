@@ -1,0 +1,4 @@
+COM.jrockit.vm.RNI.toNative
+COM.jrockit.vm.RNI.clinitTrampoline
+com.vms.adbase.jvmcrashtest.SimpleClass.<init>
+com.vms.adbase.jvmcrashtest.SimpleClass.main

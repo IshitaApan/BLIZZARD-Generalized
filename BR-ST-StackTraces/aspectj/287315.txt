@@ -1,0 +1,8 @@
+org.aspectj.weaver.bcel.BcelObjectType.hasAnnotation
+org.aspectj.weaver.ReferenceType.hasAnnotation
+org.aspectj.weaver.patterns.ExactAnnotationTypePattern.matches
+org.aspectj.weaver.patterns.ExactAnnotationTypePattern.matches
+org.aspectj.weaver.patterns.AnyWithAnnotationTypePattern.matchesExactly
+org.aspectj.weaver.patterns.TypePattern.matchesStatically
+org.aspectj.weaver.patterns.DeclareAnnotation.matches
+org.aspectj.weaver.bcel.BcelWeaver.applyDeclareAtType

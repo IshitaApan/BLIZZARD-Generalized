@@ -1,0 +1,10 @@
+org.aspectj.weaver.IntMap.get
+org.aspectj.weaver.patterns.Pointcut.concretize
+org.aspectj.weaver.patterns.Pointcut.concretize
+org.aspectj.weaver.Advice.concretize
+org.aspectj.weaver.bcel.BcelWeaver.weave
+eClassFiles
+org.aspectj.ajdt.ajc.AjdtCommand.runCommand
+org.aspectj.tools.ajc.Main.run
+org.aspectj.tools.ajc.Main.runMain
+org.aspectj.tools.ajc.Main.main

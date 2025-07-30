@@ -1,0 +1,4 @@
+org.aspectj.ajdt.internal.compiler.problem.AjProblemReporter.methodMustOverride
+org.aspectj.org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements
+org.aspectj.org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve
+org.aspectj.ajde.internal.AspectJBuildManager$CompilerThread.run

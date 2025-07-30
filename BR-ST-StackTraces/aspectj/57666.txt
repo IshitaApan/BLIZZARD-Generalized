@@ -1,0 +1,12 @@
+java.util.zip.ZipOutputStream.putNextEntry
+java.util.jar.JarOutputStream.putNextEntry
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.writeResource
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.copyResourcesFromJarFile
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.copyResourcesToDestination
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.doBuild
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.batchBuild
+org.aspectj.ajdt.ajc.AjdtCommand.doCommand
+org.aspectj.ajdt.ajc.AjdtCommand.runCommand
+org.aspectj.tools.ajc.Main.run
+org.aspectj.tools.ajc.Main.runMain
+org.aspectj.tools.ajc.Main.main

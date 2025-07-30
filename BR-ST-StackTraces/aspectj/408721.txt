@@ -1,0 +1,17 @@
+java.util.ArrayList$Itr.checkForComodification
+java.util.ArrayList$Itr.next
+org.aspectj.weaver.ReferenceType.findDerivativeType
+org.aspectj.weaver.TypeFactory.createParameterizedType
+org.aspectj.weaver.ResolvedType.parameterize
+org.aspectj.weaver.ReferenceType.getDeclaredInterfaces
+org.aspectj.weaver.ResolvedType.getDirectSupertypes
+org.aspectj.weaver.patterns.TypePattern.matchesSubtypes
+org.aspectj.weaver.patterns.ExactTypePattern.matchesSubtypes
+org.aspectj.weaver.patterns.TypePattern.matchesStatically
+org.aspectj.weaver.patterns.KindedPointcut.fastMatch
+org.aspectj.weaver.internal.tools.PointcutExpressionImpl.couldMatchJoinPointsInType
+org.springframework.aop.aspectj.AspectJExpressionPointcut.matches
+org.springframework.aop.support.AopUtils.canApply
+org.springframework.aop.support.AopUtils.canApply
+org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply
+org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply

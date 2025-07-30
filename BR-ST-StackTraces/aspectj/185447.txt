@@ -1,0 +1,5 @@
+org.aspectj.weaver.bcel.AtAjAttributes$LazyResolvedPointcutDefinition.getPointcut
+org.aspectj.weaver.ShadowMunger.addChildNodes
+org.aspectj.weaver.ShadowMunger.createHierarchy
+org.aspectj.weaver.AsmRelationshipProvider.adviceMunger
+org.aspectj.weaver.Shadow.implementMungers

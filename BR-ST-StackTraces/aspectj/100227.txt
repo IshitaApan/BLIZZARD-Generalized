@@ -1,0 +1,7 @@
+org.aspectj.ajdt.internal.compiler.lookup.EclipseFactory.fromBinding
+org.aspectj.ajdt.internal.compiler.ast.InterTypeFieldDeclaration.build
+org.aspectj.ajdt.internal.compiler.ast.AspectDeclaration.buildInterTypeAndPerClause
+org.aspectj.ajdt.internal.compiler.lookup.AjLookupEnvironment.buildInterTypeAndPerClause
+org.aspectj.ajdt.internal.compiler.lookup.AjLookupEnvironment.completeTypeBindings
+org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.beginToCompile
+org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.compile

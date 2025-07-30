@@ -1,0 +1,6 @@
+org.aspectj.bridge.SourceLocation.validLine
+org.aspectj.bridge.SourceLocation.<init>
+org.aspectj.bridge.SourceLocation.<init>
+org.aspectj.bridge.SourceLocation.<init>
+org.aspectj.ajdt.internal.core.builder.EclipseSourceContext.makeSourceLocation
+org.eclipse.core.internal.jobs.Worker.run

@@ -1,0 +1,4 @@
+org.aspectj.weaver.patterns.ExactTypePattern.resolveBindings
+org.aspectj.weaver.patterns.OrTypePattern.resolveBindings
+org.aspectj.weaver.bcel.AtAjAttributes.handleDeclareParentsAnnotation
+org.aspectj.weaver.bcel.AtAjAttributes.readAj5ClassAttributes

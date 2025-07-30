@@ -1,0 +1,11 @@
+AccessForInlineVisitor.endVisit
+org.aspectj.ajdt.internal.compiler.ast.AccessForInlineVisitor.endVisit
+org.aspectj.ajdt.internal.compiler.ast.AdviceDeclaration.resolveStatements
+org.aspectj.ajdt.internal.compiler.ast.AspectDeclaration.resolve
+org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.process
+org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.compile
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.doBuild
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.doBuild
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.incrementalBuild
+org.aspectj.ajde.internal.CompilerAdapter.compile
+org.aspectj.ajde.internal.AspectJBuildManager$CompilerThread.run

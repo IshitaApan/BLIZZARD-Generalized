@@ -1,0 +1,7 @@
+org.aspectj.weaver.bcel.BcelWeaver.raiseUnboundFormalError
+org.aspectj.weaver.bcel.BcelWeaver.validateSingleBranch
+org.aspectj.weaver.bcel.BcelWeaver.validateBindings
+org.aspectj.weaver.bcel.BcelWeaver.rewritePointcuts
+org.aspectj.weaver.bcel.BcelWeaver.prepareForWeave
+oBuildJob.run
+org.eclipse.core.internal.jobs.Worker.run

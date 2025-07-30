@@ -1,0 +1,10 @@
+ind
+ind
+org.aspectj.weaver.patterns.Pointcut.resolve
+org.aspectj.weaver.bcel.BcelMethod.<init>
+org.aspectj.weaver.bcel.LazyClassGen.<init>
+org.aspectj.weaver.bcel.BcelWeaver.weave
+org.aspectj.weaver.bcel.BcelWeaver.weave
+org.aspectj.weaver.loadtime.Aj.preProcess
+java.lang.ClassLoader.defineClass1
+java.lang.ClassLoader.defineClass

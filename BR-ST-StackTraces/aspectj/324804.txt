@@ -1,0 +1,6 @@
+org.aspectj.asm.internal.AspectJElementHierarchy.getCanonicalFilePath
+org.aspectj.asm.internal.AspectJElementHierarchy.updateHandleMap
+org.aspectj.asm.AsmManager.removeStructureModelForFiles
+org.aspectj.asm.AsmManager.processDelta
+oBuildJob.run
+org.eclipse.core.internal.jobs.Worker.run

@@ -1,0 +1,16 @@
+org.aspectj.weaver.AsmAdaptor.findOrCreateBodyNode
+org.aspectj.weaver.AsmAdaptor.getNode
+org.aspectj.weaver.AsmAdaptor.noteMunger
+org.aspectj.weaver.Shadow.implementMungers
+org.aspectj.weaver.Shadow.implement
+org.aspectj.weaver.bcel.BcelClassWeaver.implement
+org.aspectj.weaver.bcel.BcelClassWeaver.weave
+org.aspectj.weaver.bcel.BcelClassWeaver.weave
+org.aspectj.weaver.bcel.BcelWeaver.weave
+org.aspectj.weaver.bcel.BcelWeaver.weave
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.weaveAndGenerateClassFiles
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.batchBuild
+org.aspectj.ajdt.ajc.AjdtCommand.runCommand
+org.aspectj.tools.ajc.Main.run
+org.aspectj.tools.ajc.Main.runMain
+org.aspectj.tools.ajc.Main.main

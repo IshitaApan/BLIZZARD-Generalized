@@ -1,0 +1,5 @@
+sun.applet.AppletPanel.run
+java.lang.Thread.run
+java.lang.SecurityManager.checkPermission
+java.lang.System.getProperty
+org.aspectj.runtime.internal.CFlowStack.<clinit>

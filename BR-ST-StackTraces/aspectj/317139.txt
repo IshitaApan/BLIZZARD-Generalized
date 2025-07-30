@@ -1,0 +1,5 @@
+org.aspectj.weaver.bcel.BcelObjectType.ensureGenericSignatureUnpacked
+org.aspectj.weaver.bcel.BcelObjectType.getSuperclass
+org.aspectj.weaver.ReferenceType.getSuperclass
+org.aspectj.weaver.bcel.AtAjAttributes.handleAspectAnnotation
+org.aspectj.weaver.bcel.AtAjAttributes.readAj5ClassAttributes

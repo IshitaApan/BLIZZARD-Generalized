@@ -1,0 +1,5 @@
+org.aspectj.weaver.model.AsmRelationshipProvider.addRelationship
+org.aspectj.weaver.bcel.BcelTypeMunger.munge
+org.aspectj.weaver.bcel.BcelClassWeaver.weave
+org.aspectj.weaver.bcel.BcelClassWeaver.weave
+org.aspectj.weaver.bcel.BcelWeaver.weave

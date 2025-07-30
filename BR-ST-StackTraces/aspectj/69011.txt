@@ -1,0 +1,4 @@
+java.io.FileInputStream.open
+java.io.FileInputStream.<init>
+java.io.FileReader.<init>
+org.aspectj.tools.ajdoc.Main.main

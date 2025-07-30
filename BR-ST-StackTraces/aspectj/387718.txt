@@ -1,0 +1,5 @@
+org.aspectj.weaver.NameMangler.makeVisibilityName
+org.aspectj.weaver.NameMangler.interMethod
+org.aspectj.weaver.AjcMemberMaker.interMethod
+org.aspectj.ajdt.internal.compiler.problem.AjProblemReporter.methodMustOverride
+org.eclipse.core.internal.jobs.Worker.run

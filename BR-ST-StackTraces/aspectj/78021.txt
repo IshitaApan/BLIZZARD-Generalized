@@ -1,0 +1,2 @@
+nz.govt.moh.test.MainClass.doSomething
+nz.govt.moh.test.MainClass.main

@@ -1,0 +1,7 @@
+org.aspectj.weaver.bcel.Utility.makeJavaClass
+ion
+org.aspectj.ajdt.ajc.AjdtCommand.doCommand
+org.aspectj.ajdt.ajc.AjdtCommand.runCommand
+org.aspectj.tools.ajc.Main.run
+org.aspectj.tools.ajc.Main.runMain
+org.aspectj.tools.ajc.Main.main

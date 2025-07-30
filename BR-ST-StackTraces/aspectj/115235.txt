@@ -1,0 +1,17 @@
+java.lang.StringBuffer.append
+org.aspectj.weaver.UnresolvedType.nameToSignature
+org.aspectj.weaver.UnresolvedType.forName
+org.aspectj.ajdt.internal.compiler.lookup.EclipseFactory.fromBinding
+org.aspectj.ajdt.internal.compiler.lookup.EclipseFactory.fromEclipse
+org.aspectj.ajdt.internal.compiler.lookup.EclipseSourceType.getSuperclass
+org.aspectj.weaver.ReferenceType.getSuperclass
+org.aspectj.weaver.ResolvedType.getDirectSupertypes
+org.aspectj.weaver.ResolvedType$6.get
+org.aspectj.weaver.Iterators$4.next
+org.aspectj.weaver.Iterators$3$1.hasNext
+org.aspectj.weaver.Iterators$3.hasNext
+org.aspectj.weaver.ResolvedType.findPointcut
+org.aspectj.weaver.patterns.ReferencePointcut.concretize1
+org.aspectj.weaver.patterns.Pointcut.concretize
+org.aspectj.weaver.patterns.ReferencePointcut.concretize1
+org.aspectj.weaver.patterns.Pointcut.concretize

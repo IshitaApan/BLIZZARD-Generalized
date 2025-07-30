@@ -1,0 +1,5 @@
+org.aspectj.ajdt.internal.core.builder.AsmHierarchyBuilder.visit
+org.aspectj.org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.traverse
+org.aspectj.org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.traverse
+oBuildJob.run
+org.eclipse.core.internal.jobs.Worker.run

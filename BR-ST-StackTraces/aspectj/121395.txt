@@ -1,0 +1,10 @@
+java.io.FileInputStream.open
+java.io.FileInputStream.<init>
+org.aspectj.weaver.bcel.BcelWeaver.addAspectsFromJarFile
+org.aspectj.weaver.bcel.BcelWeaver.addLibraryJarFile
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.initBcelWorld
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.doBuild
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.doBuild
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.incrementalBuild
+org.aspectj.ajde.internal.CompilerAdapter.compile
+org.aspectj.ajde.internal.AspectJBuildManager$CompilerThread.run

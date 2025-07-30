@@ -1,0 +1,6 @@
+org.aspectj.ajdt.internal.core.builder.AsmBuilder.visit
+org.aspectj.ajdt.internal.core.builder.AsmBuilder.build
+org.aspectj.ajdt.internal.compiler.AjCompiler.process
+org.eclipse.jdt.internal.compiler.Compiler.compile
+org.aspectj.ajdt.internal.core.builder.AjBuildManager$BatchBuilder.run
+org.aspectj.ajde.internal.CompilerAdapter.compile

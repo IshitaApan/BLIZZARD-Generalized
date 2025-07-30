@@ -1,0 +1,6 @@
+java.lang.ClassLoader.defineClass1
+java.lang.ClassLoader.defineClass
+org.jboss.classloader.spi.base.BaseClassLoader.access$200
+org.jboss.classloader.spi.base.BaseClassLoader$2.run
+org.jboss.classloader.spi.base.BaseClassLoader$2.run
+java.security.AccessController.doPrivileged

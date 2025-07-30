@@ -1,0 +1,13 @@
+org.aspectj.ajdt.internal.core.builder.EclipseAdapterUtils.makeLocationContext
+org.aspectj.ajdt.internal.core.builder.EclipseAdapterUtils.makeSourceLocation
+org.aspectj.ajdt.internal.core.builder.EclipseAdapterUtils.makeMessage
+org.aspectj.ajdt.internal.core.builder.AjBuildManager$4.acceptResult
+org.aspectj.ajdt.internal.compiler.AjPipeliningCompilerAdapter.acceptResult
+org.aspectj.ajdt.internal.compiler.AjPipeliningCompilerAdapter.afterProcessing
+org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.process
+org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.compile
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.performCompilation
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.doBuild
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.batchBuild
+org.aspectj.ajde.internal.CompilerAdapter.compile
+org.aspectj.ajde.internal.AspectJBuildManager$CompilerThread.run

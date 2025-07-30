@@ -1,0 +1,6 @@
+java.lang.String.substring
+org.aspectj.ajdt.ajc.ConfigParser.stripWhitespaceAndComments
+org.aspectj.ajdt.ajc.ConfigParser.parseConfigFileHelper
+org.aspectj.ajdt.ajc.ConfigParser.parseImportedConfigFile
+org.aspectj.ajdt.ajc.ConfigParser.parseOneArg
+org.eclipse.core.internal.jobs.Worker.run

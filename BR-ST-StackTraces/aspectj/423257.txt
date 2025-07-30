@@ -1,0 +1,8 @@
+com.betfair.marketupdates.Main.start
+org.vertx.java.platform.Verticle.start
+org.vertx.java.platform.impl.DefaultPlatformManager$19.run
+org.vertx.java.core.impl.DefaultContext$3.run
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks
+io.netty.channel.nio.NioEventLoop.run
+io.netty.util.concurrent.SingleThreadEventExecutor$2.run
+java.lang.Thread.run

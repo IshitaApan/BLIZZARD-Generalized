@@ -1,0 +1,7 @@
+org.aspectj.ajdt.internal.compiler.lookup.InterTypeScope.makeSourceTypeBinding
+org.aspectj.ajdt.internal.compiler.lookup.InterTypeScope.<init>
+org.aspectj.ajdt.internal.compiler.ast.InterTypeDeclaration.resolve
+org.aspectj.ajdt.internal.compiler.ast.InterTypeFieldDeclaration.resolve
+org.aspectj.org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve
+org.aspectj.ajdt.internal.compiler.ast.AspectDeclaration.resolve
+org.aspectj.org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve

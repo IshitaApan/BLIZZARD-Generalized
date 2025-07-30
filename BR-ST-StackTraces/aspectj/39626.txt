@@ -1,0 +1,4 @@
+java.lang.String.<init>
+org.eclipse.jdt.internal.compiler.ast.Block.traverse
+org.aspectj.ajdt.internal.compiler.AjCompiler.process
+org.eclipse.jdt.internal.compiler.Compiler.compile

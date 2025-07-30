@@ -1,0 +1,11 @@
+java.lang.Class.getDeclaredMethods0
+java.lang.Class.privateGetDeclaredMethods
+java.lang.Class.getDeclaredMethod
+org.logicalcobwebs.cglib.proxy.Enhancer.getCallbacksSetter
+org.logicalcobwebs.cglib.proxy.Enhancer.setCallbacksHelper
+org.logicalcobwebs.cglib.proxy.Enhancer.setThreadCallbacks
+org.logicalcobwebs.cglib.proxy.Enhancer.createUsingReflection
+org.logicalcobwebs.cglib.proxy.Enhancer.firstInstance
+org.logicalcobwebs.cglib.core.AbstractClassGenerator.create
+org.logicalcobwebs.cglib.proxy.Enhancer.createHelper
+org.logicalcobwebs.cglib.proxy.Enhancer.create

@@ -1,0 +1,4 @@
+org.aspectj.weaver.bcel.BcelWeaver.weave
+org.aspectj.ajdt.internal.compiler.AjCompilerAdapter.weave
+org.aspectj.ajdt.internal.compiler.AjCompilerAdapter.afterCompiling
+org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.compile

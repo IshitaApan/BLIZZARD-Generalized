@@ -1,0 +1,9 @@
+org.aspectj.weaver.bcel.LazyMethodGen.remap
+org.aspectj.weaver.bcel.LazyMethodGen.addExceptionHandlers
+org.aspectj.weaver.bcel.LazyMethodGen.packBody
+org.aspectj.weaver.bcel.LazyMethodGen.pack
+org.aspectj.weaver.bcel.LazyMethodGen.getMethod
+org.aspectj.weaver.bcel.LazyClassGen.writeBack
+org.aspectj.weaver.bcel.LazyClassGen.getJavaClassBytesIncludingReweavable
+org.aspectj.weaver.bcel.BcelWeaver.getClassFilesFor
+org.aspectj.weaver.bcel.BcelWeaver.weaveAndNotify

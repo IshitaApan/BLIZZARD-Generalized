@@ -1,0 +1,6 @@
+Foo.initVal
+Foo.<init>
+AfterThrowingCtor.main
+Foo.initVal
+Foo.<init>
+AfterThrowingCtor.main

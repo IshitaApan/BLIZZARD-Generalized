@@ -1,0 +1,7 @@
+java.util.zip.ZipOutputStream.putNextEntry
+java.util.jar.JarOutputStream.putNextEntry
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.writeOutxmlFile
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.doBuild
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.batchBuild
+org.aspectj.ajde.internal.CompilerAdapter.compile
+org.aspectj.ajde.internal.AspectJBuildManager$CompilerThread.run

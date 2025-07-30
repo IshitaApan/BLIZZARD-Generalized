@@ -1,0 +1,9 @@
+org.aspectj.weaver.ResolvedMemberImpl.parameterizedWith
+org.aspectj.weaver.ResolvedMemberImpl.parameterizedWith
+org.aspectj.weaver.ReferenceType.getDeclaredMethods
+org.aspectj.weaver.ResolvedType$4.get
+org.aspectj.weaver.Iterators$3$1.hasNext
+org.aspectj.weaver.Iterators$5.hasNext
+org.aspectj.weaver.Iterators$3.hasNext
+org.aspectj.weaver.ResolvedType.lookupMember
+org.aspectj.weaver.ResolvedType.lookupMethod

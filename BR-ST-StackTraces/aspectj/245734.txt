@@ -1,0 +1,4 @@
+org.aspectj.ajdt.internal.compiler.lookup.EclipseResolvedMember.getAnnotations
+org.aspectj.ajdt.internal.compiler.lookup.AjLookupEnvironment.doDeclareAnnotations
+org.aspectj.ajdt.internal.compiler.lookup.AjLookupEnvironment.weaveInterTypeDeclarations
+org.eclipse.core.internal.jobs.Worker.run

@@ -1,0 +1,9 @@
+java.lang.AbstractStringBuilder.insert
+java.lang.StringBuffer.insert
+org.aspectj.tools.ajdoc.HtmlDecorator.insertDeclarationsDetails
+org.aspectj.tools.ajdoc.HtmlDecorator.addAspectDocumentation
+org.aspectj.tools.ajdoc.HtmlDecorator.decorateHTMLFile
+org.aspectj.tools.ajdoc.HtmlDecorator.decorateHTMLFromDecl
+org.aspectj.tools.ajdoc.HtmlDecorator.decorateHTMLFromDecls
+org.aspectj.tools.ajdoc.HtmlDecorator.decorateHTMLFromInputFiles
+org.aspectj.tools.ajdoc.Main.main

@@ -1,0 +1,8 @@
+org.aspectj.asm.internal.AspectJElementHierarchy.findCloserMatchForLineNumber
+org.aspectj.weaver.model.AsmRelationshipProvider.addRelationship
+org.aspectj.weaver.bcel.BcelTypeMunger.munge
+org.aspectj.weaver.bcel.BcelClassWeaver.weave
+org.aspectj.asm.internal.AspectJElementHierarchy.findCloserMatchForLineNumber
+org.aspectj.weaver.model.AsmRelationshipProvider.addRelationship
+org.aspectj.weaver.bcel.BcelTypeMunger.munge
+org.aspectj.weaver.bcel.BcelClassWeaver.weave

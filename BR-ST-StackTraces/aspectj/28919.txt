@@ -1,0 +1,9 @@
+org.aspectj.weaver.bcel.LazyMethodGen.<init>
+org.aspectj.weaver.bcel.LazyClassGen.<init>
+org.aspectj.weaver.bcel.BcelObjectType.getLazyClassGen
+org.aspectj.weaver.bcel.BcelWeaver.weave
+org.aspectj.weaver.bcel.BcelWeaver.weave
+org.aspectj.ajdt.ajc.AjdtCommand.runCommand
+org.aspectj.tools.ajc.Main.run
+org.aspectj.tools.ajc.Main.runMain
+org.aspectj.tools.ajc.Main.main

@@ -1,0 +1,5 @@
+org.aspectj.weaver.World.resolve
+org.aspectj.weaver.World.resolve
+org.aspectj.weaver.World.resolve
+org.aspectj.weaver.TypeFactory.createParameterizedType
+org.aspectj.weaver.reflect.JavaLangTypeToResolvedTypeConverter.fromType

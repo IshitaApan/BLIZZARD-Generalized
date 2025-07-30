@@ -1,0 +1,17 @@
+org.aspectj.weaver.patterns.TypePattern.resolveExactType
+org.aspectj.weaver.patterns.ReferencePointcut.resolveBindings
+org.aspectj.weaver.patterns.Pointcut.resolve
+org.aspectj.ajdt.internal.compiler.ast.PointcutDesignator.finishResolveTypes
+org.aspectj.ajdt.internal.compiler.ast.AdviceDeclaration.resolveStatements
+org.aspectj.org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve
+org.aspectj.org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve
+org.aspectj.ajdt.internal.compiler.ast.AspectDeclaration.resolve
+org.aspectj.org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve
+org.aspectj.org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve
+org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.process
+org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.compile
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.performCompilation
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.doBuild
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.incrementalBuild
+org.aspectj.ajde.internal.CompilerAdapter.compile
+org.aspectj.ajde.internal.AspectJBuildManager$CompilerThread.run

@@ -1,0 +1,5 @@
+org.aspectj.weaver.patterns.WildAnnotationTypePattern.resolveAnnotationValues
+org.aspectj.weaver.patterns.WildAnnotationTypePattern.resolveBindings
+org.aspectj.weaver.patterns.WildTypePattern.resolveBindings
+org.aspectj.weaver.patterns.SignaturePattern.resolveBindings
+n

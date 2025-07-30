@@ -1,0 +1,6 @@
+org.aspectj.weaver.bcel.BcelWorld.isAspectIncluded
+org.aspectj.weaver.ShadowMunger.match
+org.aspectj.weaver.Advice.match
+org.aspectj.weaver.bcel.BcelAdvice.match
+org.aspectj.weaver.bcel.BcelClassWeaver.match
+org.aspectj.weaver.bcel.BcelClassWeaver.match

@@ -1,0 +1,13 @@
+org.aspectj.weaver.bcel.BcelShadow.deleteNewAndDup
+org.aspectj.weaver.bcel.BcelShadow.prepareForMungers
+org.aspectj.weaver.Shadow.implement
+org.aspectj.weaver.bcel.BcelClassWeaver.implement
+org.aspectj.weaver.bcel.BcelClassWeaver.weave
+org.aspectj.weaver.bcel.BcelClassWeaver.weave
+org.aspectj.weaver.bcel.BcelWeaver.weave
+org.aspectj.weaver.bcel.BcelWeaver.weaveWithoutDump
+org.aspectj.weaver.bcel.BcelWeaver.weaveAndNotify
+org.aspectj.weaver.bcel.BcelWeaver.weave
+org.aspectj.weaver.tools.WeavingAdaptor.getWovenBytes
+org.aspectj.weaver.tools.WeavingAdaptor.weaveClass
+org.aspectj.weaver.loadtime.Aj.preProcess

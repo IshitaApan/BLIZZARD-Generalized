@@ -1,0 +1,11 @@
+org.aspectj.ajdt.internal.core.builder.AjState.recordClassFile
+org.aspectj.ajdt.internal.core.builder.AjState.noteResult
+org.aspectj.ajdt.internal.core.builder.AjBuildManager$3.acceptResult
+org.aspectj.ajdt.internal.compiler.AjCompilerAdapter.afterProcessing
+org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.process
+org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.compile
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.performCompilation
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.doBuild
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.incrementalBuild
+org.aspectj.ajde.internal.CompilerAdapter.compile
+org.aspectj.ajde.internal.AspectJBuildManager$CompilerThread.run

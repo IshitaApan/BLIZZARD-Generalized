@@ -1,0 +1,6 @@
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.findOutputDirsForAspects
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.writeOutxmlFile
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.performBuild
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.batchBuild
+on$1.run
+org.eclipse.core.internal.jobs.Worker.run

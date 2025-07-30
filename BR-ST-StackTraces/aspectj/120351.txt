@@ -1,0 +1,9 @@
+org.aspectj.weaver.Shadow.implement
+org.aspectj.tools.ajc.Main.run
+org.aspectj.tools.ajc.Main.runMain
+org.apache.tools.ant.Task.perform
+org.apache.tools.ant.Task.perform
+org.apache.tools.ant.Task.perform
+org.apache.tools.ant.Target.execute
+org.apache.tools.ant.Main.runBuild
+org.apache.tools.ant.Main.startAnt

@@ -1,0 +1,10 @@
+org.aspectj.weaver.Advice.concretize
+s
+org.aspectj.tools.ajc.Main.run
+org.aspectj.tools.ajc.Main.runMain
+org.apache.tools.ant.Task.perform
+org.apache.tools.ant.Target.execute
+org.apache.tools.ant.Target.performTasks
+org.apache.tools.ant.Main.runBuild
+org.apache.tools.ant.Main.start
+org.apache.tools.ant.Main.main

@@ -1,0 +1,11 @@
+org.aspectj.ajdt.internal.compiler.lookup.AjLookupEnvironment.doDeclareAnnotations
+org.aspectj.ajdt.internal.compiler.lookup.AjLookupEnvironment.weaveInterTypeDeclarations
+org.aspectj.ajdt.internal.compiler.lookup.AjLookupEnvironment.weaveIntertypes
+org.aspectj.ajdt.internal.compiler.lookup.AjLookupEnvironment.completeTypeBindings
+org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.beginToCompile
+org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.compile
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.performCompilation
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.doBuild
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.incrementalBuild
+org.aspectj.ajde.internal.CompilerAdapter.compile
+org.aspectj.ajde.internal.AspectJBuildManager$CompilerThread.run

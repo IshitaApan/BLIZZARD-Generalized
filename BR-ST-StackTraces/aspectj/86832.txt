@@ -1,0 +1,16 @@
+org.aspectj.org.eclipse.jdt.internal.compiler.lookup.ClassScope.detectHierarchyCycle
+org.aspectj.org.eclipse.jdt.internal.compiler.ast.ParameterizedSingleTypeReference.internalResolveType
+org.aspectj.org.eclipse.jdt.internal.compiler.ast.ParameterizedSingleTypeReference.resolveType
+org.aspectj.org.eclipse.jdt.internal.compiler.ast.TypeReference.resolveSuperType
+org.aspectj.org.eclipse.jdt.internal.compiler.lookup.ClassScope.findSupertype
+org.aspectj.org.eclipse.jdt.internal.compiler.lookup.ClassScope.connectSuperclass
+org.aspectj.org.eclipse.jdt.internal.compiler.lookup.ClassScope.connectTypeHierarchy
+org.aspectj.org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.connectTypeHierarchy
+org.aspectj.ajdt.internal.compiler.lookup.AjLookupEnvironment.completeTypeBindings
+org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.beginToCompile
+org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.compile
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.performCompilation
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.doBuild
+org.aspectj.ajdt.internal.core.builder.AjBuildManager.batchBuild
+org.aspectj.ajde.internal.CompilerAdapter.compile
+org.aspectj.ajde.internal.AspectJBuildManager$CompilerThread.run
