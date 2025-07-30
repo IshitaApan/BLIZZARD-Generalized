@@ -1,4 +1,0 @@
-@interface ViewProperties {
-
-    String[] val();
-}

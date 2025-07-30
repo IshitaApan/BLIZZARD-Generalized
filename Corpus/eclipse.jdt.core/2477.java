@@ -1,4 +1,0 @@
-package Sample;
-
-class Sample {
-}
