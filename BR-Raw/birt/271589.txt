@@ -1,0 +1,3 @@
+Part of the table border is not drawn in PDF [1200]
+
+Created attachment 131250 screenshot Description: Part of the table border is not drawn in PDF. Build number: 2.5.0.v20090408-0630 Steps to reproduce: 1. Preview the attached report design. Expected result: All the borders are drawn. Actual result: Part of the border is not drawn (see the screenshot). Error log: N/A

@@ -1,0 +1,3 @@
+The generated XLS file with date time type data without format setting can not be opened when start eclipse under locale zh_CN [1203]
+
+Created attachment 130486 report design Description: The generated XLS file with date time type data without format setting can not be opened when start eclipse under locale zh_CN. Build number: 2.5.0.v20090401-0630 Steps to reproduce: 1. Integrate language pack, and start eclipse under locale zh_CN. 2. New a date type data with no format setting. 3. Preview the report as XLS. Expected result: The data is with format "yyyy-m-dd". Actual result: The data is with format "nullyyyy-M-d" and the generated xls can not be opened. Error log: N/A

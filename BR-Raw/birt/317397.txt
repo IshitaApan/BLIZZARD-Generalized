@@ -1,0 +1,3 @@
+[Automation][Regression] Pagebreak does not work when preview in DOC/PDF/PPT/PostScript
+
+Created attachment 172304 Report Description: [Regression] Pagebreak on chart does not work when preview in DOC/PDF/PPT/PostScritp Build: 2.6.1.v20100621-0630 Steps to reproduce: 1. New a label and chart, label is before chart 2. Set page break before-always on chart 3. Preview on PDF/web viewer/DOC Actual result: Page break works in web viewer but not work in DOC/PDF/PPT/PostScritp Expect result: Chart Page break works in DOC/PDF/PPT/PostScritp

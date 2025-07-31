@@ -1,0 +1,3 @@
+Stacked state should not be reset when opening select type page
+
+Use this report in https://bugs.eclipse.org/bugs/attachment.cgi?id=139758. The chart in report has 6 series, and all of them except two series are stacked. When opening select type page, all series become stacked. If opening other pages at first, the series stacked states are correct.

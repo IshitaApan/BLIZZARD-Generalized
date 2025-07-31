@@ -1,0 +1,3 @@
+The "Filters..." button in Edit Chart tab of Chart Builder should be enabled though the filter condition can not be edited [1102]
+
+Description: The "Filters..." button in Edit Chart tab of Chart Builder should be enabled though the filter condition can not be edited. Build number: 2.3.1.v20080903-0630 Steps to reproduce: 1. New a crosstab binding to a cube, add filters for the Crosstab. 2. Create a Chart View for the Crosstab or new a chart share the result set of Crosstab. 3. Check the "Filters..." button in Edit Chart tab of Chart Builder. Expected result: The button should be enabled though the filter condition can not be edited. Actual result: The filter button is disabled (see the screenshot). Error log: N/A

@@ -1,0 +1,3 @@
+Support geneic URI schema in URIUtil.resolveAbsolutePath()
+
+Currently the URIUtil.resolveAbsolutePath() only work for File based paths. For other generic path using schema like "jndi", "http", etc, the support is incomplete. Basically following cases are expected to be supported for method resolveAbsolutePath( String base, String relativePath ) 1. The "base" is a generic URI, e.g. "jndi://server/path", or "http://server/path", "relativePath" is a valid relative path like "/sub", "./sub", "../sub". 2. The "relativePath" is another full generic URI with same or different schema against "base" path. In these cases, the "relativePath" can be directly returned.

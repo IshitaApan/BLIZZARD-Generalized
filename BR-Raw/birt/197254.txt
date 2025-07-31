@@ -1,0 +1,3 @@
+[Regression] Pie Charts labels overlap
+
+Testing with latest nightly build (2.2.1-N20070718) we bug 119068 reappears. Pie charts with thin slices Labels are overlapping. I think this regression happens because of bug 195887 recently fixed.

@@ -1,0 +1,3 @@
+Exception in chart builder when using a dataset with script.
+
+Created attachment 106394 report design description: Exception in chart builder when using a dataset with script. build id: 2.3.1 v20080703-0630 steps to reproduce: 1. New a dataset with script or just download the attached report design.In the attached report design, dataset has two computed column and has script in beforeOpen and onFetch method. 2. New a chart and use the dataset. Actual result: Exception in chart builder. See attached screenshot. But preview the chart is ok. Expected result: Since the dataset can be correctly previewed in dataset editor.There should not be error when using it in chart builder.

@@ -1,0 +1,3 @@
+Improve usability of Chart Scripting editor
+
+This is a follow up of bug148405 The enhancements left to implement are: - Make the dropdown a navigation control in the script, by showing the implemented methods in bold (requires SWT support to bold items in a dropdown) - Disable this and reportContext in the Context of palette, not applicable for chart scripts - Error reporting in script using problems view and error markers in editor (not only for charts but all report items) - javadoc to be displayed as tooltips on known methods.

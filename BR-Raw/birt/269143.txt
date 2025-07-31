@@ -1,0 +1,3 @@
+[Regression] The borders in table does not work correctly in PDF [1200]
+
+Created attachment 129178 the pdf file generated from the attached report design Description: The borders in table does not work correctly in PDF. Build number: 2.5.0.v20090318-0630 Steps to reproduce: 1. Run the attached report design in PDF. Expected result: The borders are drawn correctly. Actual result: See the screenshot. Error log: N/A

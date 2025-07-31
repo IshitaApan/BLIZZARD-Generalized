@@ -1,0 +1,3 @@
+TVT33:TCT554: DE : BIRT, Default "data item" needs to be externalized
+
+<response_by> Ruth Nestvold at 2007.06.01.13.08.25 </response_by> Description: Default "data item" needs to be externalized OS : Windows Must fix or not a must fix: Yes Build date: 0531 Component name = BIRT Blocking: no Language: de Bitmap Location: \defects\gr1\de\04.001030.jpg Tester Name: Ruth Nestvold Problem Description: In the Property Editor, click on the Binding tab Select the Add... button The default name "data item" here needs to be externalized Please see attached screen shot for more details. <response_by> Cam-Thu Le at 2007.06.01.13.30.31 </response_by> This article was reassigned from Category:''TVT Testcases''.

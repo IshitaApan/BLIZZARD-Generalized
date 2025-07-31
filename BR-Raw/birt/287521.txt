@@ -1,0 +1,3 @@
+[Automation][Regression]Label with a backgroud color disappeared in PDF
+
+Created attachment 145517 report design Description: Label with a backgroud color disappeared in PDF. Test Build: BIRT2.5.1 v20090825-0630 Step to reproduce: 1. Use the report attached. 2. Preview it in PDF Expect result: The label show on PDF page. Actual result: A blank PDF page.

@@ -1,0 +1,3 @@
+[Regression] It keeps processing when preview a report with inline labels in Web Viewer [0002]
+
+Created attachment 149201 report design Description: It keeps processing when preview a report with inline labels in Web Viewer. Build number: 2.5.2.v20090928-0630 Steps to reproduce: 1. Preview the attached report design. Expected result: The result is shown. Actual result: It keeps prcessing. Error log: N/A

@@ -1,0 +1,3 @@
+Preview with format is not correct for cascading parameter.
+
+Created attachment 127279 screenshot description: Preview with format is not correct for cascading parameter. build id: 2.5.0 v20090303-0630 steps to reproduce: 1. New a cascading parameter group. 2. Add a numeric parameter. 3. Click Change button. Select Format as Currency and select a symbol. 4. Click OK in Format Builder and click Change button. Actual result: The currency symbol is preview as Currency. See attached screenshot.

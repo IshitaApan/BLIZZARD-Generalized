@@ -1,0 +1,3 @@
+Error message still show even if correcting the error
+
+Created attachment 153413 screenshot Steps: 1. New a Bubble chart and specify bindings in required Value Y and Category Series. 2. Change the chart type to Gantt (error message occurred, please correct the data type) 3. Correct the data type of Value Y series After step3, the error message is still shown. see screenshot Build Info: 2.5.2 v20091201-0630

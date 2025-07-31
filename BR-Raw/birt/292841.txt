@@ -1,0 +1,3 @@
+[Automation]List should be affected with inline display in PDF/DOC/PS/PPT and Linux html
+
+Created attachment 150047 screenshot Description: [Regression] List should be affected with inline display in PDF/DOC/PS/PPT and birt internal preview. Steps to reproduce: 1. New a style with border setting and inline display. 2. Apply it to a list 3. Preview Expected result: Two list display inline. Actual result: List displayed in two lines and list with full size.

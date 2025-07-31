@@ -1,0 +1,3 @@
+A sample chart has no data
+
+Created attachment 235511 chart_4.3.0.png This is a regresion agains 4.3.0 Reproduce steps: 1. unzip the birt rcp; 2. Select Show Viewer->Other… from Window main menu; 3. Select Chart Examples from Report and Chart Design category; 4. Expand the 'Data operations' group, double click the last sample 'Working with BIRT Data Engine'. Actual reslts: see the attached screenshot 'chart_4.3.0.png', there is no data in the chart. Expected results: see the screenshot 'chart_4.3.1.png'

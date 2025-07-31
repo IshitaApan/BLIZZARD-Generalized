@@ -1,0 +1,3 @@
+[Regression] Filter Value should no be formatted [0004]
+
+Created attachment 77201 screenshot Description: Filter Value should no be formatted. Build number: 2.2.1.v200708027-0939 Steps to reproduce: 1. New a sample source and a data set with float value. 2. Add Filters Condition to the float column and choose select value. Expected result: The value is not formatted. Actual result: The value is formatted and it can not be recognized. Error log: N/A

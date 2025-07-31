@@ -1,0 +1,3 @@
+Request for a pie chart starting at the 90 degrees and rotating clockwise.
+
+Is the following thread's problem solved? (I couldn't find the request.) http://dev.eclipse.org/newslists/news.eclipse.birt/msg13414.html If not, please implement the enhancement. Thanks in advance.

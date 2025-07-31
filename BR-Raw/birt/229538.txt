@@ -1,0 +1,3 @@
+Big number display issue in chart builder.
+
+Created attachment 98109 screenshot1 description: Big number display issue in chart builder. build id: 2.3.0 v20080430-0630 steps to reproduce: 1. New a dataset with decimal type data, containing larger numbers. 2. New a chart using the dataset. 3. On select data tab, check the data preview. Expected result: Data can be displayed correctly, just like in dataset preview. See screenshot1. Actual result: For number larger than double.MaxValue, the Infinity symbol is displayed. For larger numbers, fowlling with a lot of zeros, display is not proper. See screenshot2.

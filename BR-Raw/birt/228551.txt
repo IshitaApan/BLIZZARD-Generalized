@@ -1,0 +1,3 @@
+Ability for extenders to override Result History Fitlering in a SQB Dialog
+
+Created attachment 97331 Proposed Patch The SQB dialog currently uses a default ResultsHistoryFilter. An extender might want to apply its own filtering criteria based on the need of its application. The attached patch contains minor refactoring to allow an extender to specify its own filter(s) for the SQL Results tab in the SQB dialog.

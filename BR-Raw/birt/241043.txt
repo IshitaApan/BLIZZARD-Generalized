@@ -1,0 +1,3 @@
+[Regression] Error shows up in Chart Builder when binding the chart to a data set [13]
+
+Created attachment 107571 screenshot Description: Error shows up in Chart Builder when binding the chart to a data set. Build number: 2.3.1.v20080716-0630 Steps to reproduce: 1. New a report with data source and data set. 2. Drag a chart from the Palette to the Layout. 3. Binding the chart to the data set. Expected result: No exception. Actual result: See the screenshot. Error log: N/A

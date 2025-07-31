@@ -1,0 +1,3 @@
+Hyperlink item has Incorrect Double under line in PPT
+
+Created attachment 162124 PPT file Description: Hyperlink item has Incorrect Double under line in PPT Build: 2.6.0.v20100315-1900 Steps to reproduce: 1. New a label with hyperlink 2. Preview in PPT Actaul result: Label with Double under line Expect result: Label with single under line

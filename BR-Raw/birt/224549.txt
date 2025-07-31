@@ -1,0 +1,3 @@
+The first aggregation value is empty other than 0 if all values are filtered.
+
+Created attachment 93954 report design description: The first aggregation value is empty other than 0 if all values are filtered. build version: 2.3.0 v20080328-1122 steps to reproduce: 1. New sample data source and dataset from ORDERDETAILS where ORDERNUMBER <10103. 2. Insert a table, bind it to dataset. 3. Add a group on ORDERLINENUMBER. 4. Insert aggregation to group header,Function: SUM, Data Field: row["QUANTITYORDERED"], Filter Condition: row["ORDERLINENUMBER"]%2==0, Aggregate On Group. 5. Preview. Expected result: The aggregation value of first and third group is 0. Actual result: The aggregation value of the first group is empty and the aggregation value of the third group is 0.

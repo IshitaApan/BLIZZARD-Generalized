@@ -1,0 +1,3 @@
+Xtab set show empty rows drawn incorrectly in web viewer when page break happen
+
+Created attachment 141971 report design Description: Xtab set show empty rows drawn incorrectly in web viewer when page break happen Build: 2.5.1.v20090720-0630 Steps to reproduce: 1. Download attached report design 2. Preview in web viewer and go to page 2 Actual result: See the screenshot Error log: N/A

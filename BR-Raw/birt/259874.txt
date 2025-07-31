@@ -1,0 +1,3 @@
+IDataExtractionExtension has method initilize
+
+The initilize method in this interface should be deprecated and replaced by the correctly spelled initialize.

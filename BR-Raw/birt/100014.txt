@@ -1,0 +1,3 @@
+Tool references in the doc
+
+RC2 We have the following references to editing tools in the meta data of the following files: org.eclipse.platform.doc.isv\porting\3.0\faq.html org.eclipse.platform.doc.isv\porting\3.0\incompatibilities.html org.eclipse.platform.doc.isv\porting\3.0\recommended.html org.eclipse.platform.doc.isv\porting\eclipse_3_0_porting_guide.html org.eclipse.platform.doc.isv\porting\eclipse_3_1_porting_guide.html org.eclipse.platform.doc.isv\reference\misc\about_customization.html \org.eclipse.platform.doc.isv\reference\misc\help_preferences.html

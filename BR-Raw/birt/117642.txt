@@ -1,0 +1,3 @@
+Template Report Item should not be an available element to be inserted
+
+Description: Template Report Item should not be an available element to be inserted Steps to reproduce: 1.New a template 2.Switch to outline view, right click body and choose insert Expected result: Template Report Item is not a availabe element be inserted Actual result: Template Report Item is in the insert element list

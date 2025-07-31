@@ -1,0 +1,3 @@
+The chart share the result set of a crosstab is not shown when preview [1302] [0004]
+
+Created attachment 113651 report design Description: The chart share the result set of a crosstab is not shown when preview. Build number: 2.3.2.v20080927-0630 Steps to reproduce: 1. New a crosstab binding to a data cube, show the measure as chart and create chart view for the crosstab. 2. New a chart share the binding of the crosstab. 3. Preview. Expected result: Chart is shown correctly. Actual result: The chart is not shown. Error log: N/A

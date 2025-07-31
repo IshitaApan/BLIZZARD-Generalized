@@ -1,0 +1,3 @@
+Chart Variables are still in the bottom right pane when select other categories [13]
+
+Created attachment 76276 screenshot Description: Chart Variables are still in the bottom right pane when select other categories. Build number: 2.2.1.v20070814-0934 Steps to reproduce: 1. New a Pie Chart, in "Format Chart" tab, select "Value Series" node, click "Interactivity" button, select Event as "Mouse Click", Action as "Invoke Script". 2. Invoke the Expression Builder, select "Chart Variable" in the bottom left pane, select "Data Points" in the bottom middle pane, then change to select "Operators" in the bottom left pane. Expected result: Chart Variables disappear when select other categories. Actual result: See the screenshot. Error log: N/A

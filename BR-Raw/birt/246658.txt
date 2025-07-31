@@ -1,0 +1,3 @@
+Poor UI for report design's Bidi property
+
+Build 2.3.1 RC1 1. The UI for the report design's Bidi property on the General Properties page should match the UI in the Preferences->Report Design->Bidirectional Properties page. Both the label and the available values are not clear to a user. Expected: Bidi property appears as: Report Orientation: Left to Right Right to Left Actual: Bidi property appears as: Bidi Layout Orientation: ltr rtl 2. Similarly, the label for the Bidi property on the second page of the New Report wizard does not match the Preferences->Report Design->Bidirectional Properties page. Expected: Label for Bidi property is: Report Orientation Actual: Label for Bidi property is: Set Orientation of Report

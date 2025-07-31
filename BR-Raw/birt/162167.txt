@@ -1,0 +1,3 @@
+Add API IResultIterator.isEmpty to Data Engine.
+
+Current DTE api do not have a method that can be directly used to tell the client whether an IResultIterator is empty or not.We need to add this api for the convenience sake.

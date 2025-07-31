@@ -1,0 +1,3 @@
+[Automation][Linux] <ul><li>effect in postscript doesn't display with dot.[1201]
+
+Created attachment 81814 design file Description: <ul><li>effect in postscript doesn't display with dot.Question mark is displayed. Build number:2.2.2.v20071101-0630 Steps to reproduce: 1. Insert a text item, set type as html. 2. Input content as <ul> <li>first</li><li>second</li><li>third</li> </ul> 3. Preview in postscript. Expected result: Dot before list item content. Actual result: Question mark before list item content in postscript. Error log:N/A

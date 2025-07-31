@@ -1,0 +1,3 @@
+Dataset-Parameter-Settings deleted on SQL changes
+
+Once the SQL is changed in Dataset Editor, all parameters and their bindings are thrown away (at least not shown any more)

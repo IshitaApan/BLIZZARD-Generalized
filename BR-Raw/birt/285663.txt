@@ -1,0 +1,3 @@
+Page break on crosstab does not work when using a parameter to control its visibility.
+
+Created attachment 143474 test report description: Page break on crosstab does not work when using a parameter to control its visibility. build id: 2.5.1 v20090805-0630 steps to reproduce: 1. Insert a label and a cross tab. Add page break before/always to the cross tab. Preview now and the cross tab is displayed on the second page. 2. New a boolean type parameter and use it as visibility expression of the cross tab. In my case, check the box to display the cross tab. 3. Preview the report and check the box. Actual result: The cross tab is displayed on the first page, which means the page break does not work.

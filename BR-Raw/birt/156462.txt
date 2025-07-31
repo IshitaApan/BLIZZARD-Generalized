@@ -1,0 +1,3 @@
+Warning message shows up when open RCP Designer
+
+Warning message shows up when open REC Designer Steps to reproduce: open BIRT RCP Designer Expected result: no error message Actual result: warning message shows up: NLS missing message: ReportSettingPageDesc in: org.eclipse.birt.report.designer.ui.rcp.nls.messages

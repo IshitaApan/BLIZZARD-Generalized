@@ -1,0 +1,3 @@
+[Automation][Regression]Text alignment of grid does not work correctly in PDF
+
+Created attachment 116239 report design Description: Text alignment of grid does not work correctly in PDF. Test Date: 20081028 Test Build: BIRT2.5.0 v20081028-0630 Step to reproduce: 1. Use the report attached 2. Preview it as PDF format Expect result: Text alignment should work correctly. Actual result: The text is messed as screenshot.

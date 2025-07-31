@@ -1,0 +1,3 @@
+getExpressionValue fails
+
+The following script fails on Row OnCreate if (this.getRowData().getExpressionValue("row[CREDITLIMIT]") > 80000 ){ this.getStyle().backgroundColor = "red"; }

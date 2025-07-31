@@ -1,0 +1,3 @@
+Live preview becomes blank after setting format for legend items.
+
+description: Live preview becomes blank after setting format for legend items. build id: 2.3.2 v20081215-0630 steps to reproduce: 1. New a chart with optional Y grouping.Be sure its grouped by linear type data. 2. On Format Chart page, select Legend node and click Entries button. In the pop-up, set a format for the the labels. Acutal result: The live preview area becomes blank.

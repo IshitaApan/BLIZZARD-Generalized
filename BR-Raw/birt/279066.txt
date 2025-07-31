@@ -1,0 +1,3 @@
+Incorrect message pops up after you new a library in resouces.
+
+Created attachment 138254 screenshot description: Incorrect message pops up after you new a library in resouces. build id: 2.5.0 v20090604-0630 steps to reproduce: 1. In Resource Explorer, right click Shared Resources folder and select New->Library. Actual result: A message will pop up. See attached screenshot. It's strange.

@@ -1,0 +1,3 @@
+Need switch to available external browser when embedded browser is not available
+
+In some OS, the embedded browser is not supported, in this case, need to select one of the available external browser to handle report preview. If no any browser is available, should pop up warning to end user.

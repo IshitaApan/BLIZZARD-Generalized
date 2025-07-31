@@ -1,0 +1,3 @@
+Legend for bar stick stock chart should be updated.[13]
+
+Created attachment 164940 screen shot description: Legend for bar stick stock chart should be updated. build id: 2.6.0 v20100415-0630 steps to reproduce: 1. Insert a chart. 2. Select type as stock and subtype as bar-stick. Actual result: The legend icon should be updated to bar-stick, other than candle-stick.See attached screen shot.

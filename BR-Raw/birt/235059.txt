@@ -1,0 +1,3 @@
+Preview is not correct for chart in crosstab if the crosstab has only one dimension and has a filter.
+
+Created attachment 103072 screenshot description: Preview is not correct for chart in crosstab if the crosstab has only one dimension and has a filter. build id: 2.3.0 v20080602-0930 steps to reproduce: 1. New a datasource with sample db and new a dataset with table customers. 2. New a cube with the dataset, select customernnumber as dimension, creditlimit as measure. 3. Drag the cube to layout and it turns to be a crosstab. 4. Add a filter to the crosstab, like customernumber<129. 5. Show measure as chart view. 6. Preview. Expected result: Each customernumber corresponds to a bar. Actual result: Several bars corresponds to a customernumber. See screenshot.

@@ -1,0 +1,3 @@
+[Automation][Regression]Embedded Image and image from resource folder disappeared in Doc file
+
+Created attachment 121732 report design Description: When export report to DOC format, Embedded image and image from resource folder disappear. Test Date: 20080107 Test Build: BIRT2.5.0 v20080107-0630 Step to reproduce: 1. Use the report attached 2. Preview it in webviewer 3. Export it to DOC format Expect result: All the image can show up in DOC file. Actual result: Some images disappear.

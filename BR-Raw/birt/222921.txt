@@ -1,0 +1,3 @@
+Enhance to set script lib path when running genReport[00]
+
+Some script file need to use the script lib folder, and enhance to set script lib path when running genReport

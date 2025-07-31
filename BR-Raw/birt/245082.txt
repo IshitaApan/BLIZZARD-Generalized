@@ -1,0 +1,3 @@
+[Automation][Regression]OutofMemory is thrown out when preview report as PPT format
+
+Created attachment 110772 report design Description: OutofMemory is thrown out when preview report as PPT format. Test date: 20080825 Test Build: BIRT2.3.1 v20080825-0630 Step to reproduce: 1. Use the report attached 2. Preview it as PPT format Error log: OutOfMemory is thrown out.

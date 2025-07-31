@@ -1,0 +1,3 @@
+Background image position with percent value is not displayed correctly in layout when reopen the report.[0300]
+
+Created attachment 155212 screenshot description: Background image position with percent value is not displayed correctly in layout when reopen the report. build id: 2.5.2 v20090104-0630 steps to reproduce: 1. New a label and add a background image to it.(Property Editor->Advanced -> Background) 2. Set Background repeat as 'No Repeat'. 3. Set Horizontal position as '50%'.See the background image move to the center. 4. Close and reopen the report. Actual result: The background image re-move to the left. But when you preview, it is displayed at the center.

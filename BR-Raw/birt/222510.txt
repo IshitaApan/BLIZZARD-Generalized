@@ -1,0 +1,3 @@
+Chart preview is not correct after change the orientation of the crosstab.
+
+Created attachment 92390 screenshot description: Chart preview is not correct after change the orientation of the crosstab. build version: 2.3.0 v20080313-0800 steps to reproduce: 1. New a crosstab. 2. Show measure as chart. 3. Change the chart orientaion by select the alternative dimension as category. 4. In Properties Editor->General, change the crosstab orientation of the crosstab.(from horizontal to vertical by default) Expected result: The chart should extend vertically. Actual result: Display the same chart for all groups. See screenshot.

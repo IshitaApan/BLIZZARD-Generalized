@@ -1,0 +1,3 @@
+[BIDI][Automation] [Regression] The "direction: ltr" should not be output to html by default [00]
+
+Created attachment 101006 report design Description: The "direction: ltr" should not be output to html by default . Build number: 2.3.0.v20080520-0630 Steps to reproduce: 1. Preview the attached report design and view the html source. Expected result: <div id="label" style=" color: rgb(0, 0, 255);">#0000FF</div>. Actual result: <div id="label" style=" direction: ltr; color: rgb(0, 0, 255);">#0000FF</div> Error log: N/A

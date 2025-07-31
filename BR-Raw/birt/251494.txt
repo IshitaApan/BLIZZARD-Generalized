@@ -1,0 +1,3 @@
+The separator of Concatenate doesn't work correctly if it has multiple characters
+
+Created attachment 115651 report Description: The separator of Concatenate doesn't work correctly if it has multiple characters Build number: 2.3.2.v20081021-0630 Steps to reproduce: 1, Using Concatenate aggregation and specify "==" as the separator 2, Preview(Or preview attached report design) Expected result: All the string is separated by the "==", and the last string doesn't be ended by "=" Actual result: In the end of last string, it also has the separator like: a==b==c= Error log:

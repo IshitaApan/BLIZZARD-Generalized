@@ -1,0 +1,3 @@
+Unexpected wrap in HTML/Formatting Text in DOC
+
+Created attachment 162128 DOC file Description: Unexpected wrap in HTML/Formatting Text in DOC Build: 2.6.0.v20100315-1900 Steps to reproduce: 1. New a HTML/Formatting Text 2. Inpurt <H2>Actuate</H2> 3. Preview in DOC Actual result: See the attached DOC file Expect result: No wrap after "Actuate"

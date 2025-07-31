@@ -1,0 +1,3 @@
+sql parameter binding error
+
+Created attachment 79699 Sample rptdesign, which shows the error I'm using BIRT 2.2.1-all-in-one: (a) create a new report (b) put sample db data source on it (c) create a report parameter p1 with data type integer (d) put data set with query: select	CLASSICMODELS.EMPLOYEES.EMPLOYEENUMBER, 		CLASSICMODELS.EMPLOYEES.LASTNAME from	CLASSICMODELS.EMPLOYEES where	CLASSICMODELS.EMPLOYEES.EMPLOYEENUMBER = ? order by 1 and bind data-set-parameter (type integer) to report parameter (e) drag'n'drop data set to layout (e) view report with valid employeenumber ===> no records are shown!!! Replacing data type integer with string ==> everything works fine, BUT employeenumber IS an integer in the database!! I attached the sample rptdesign

@@ -1,0 +1,3 @@
+[AS5]Two preview tabs in layout
+
+Description: [AS5]Two preview tabs in layout Build number: 2.3.0.v20080610-0630 Steps to reproduce: 1, Start BIRT in linux AS5 2, Check the preview tab in layout Expected result: Only one preview tab Actual result: two preview tabs Error log:

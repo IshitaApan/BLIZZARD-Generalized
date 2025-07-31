@@ -1,0 +1,3 @@
+[Automation][Regression]NPE thrown out while previewing the report in PDF format
+
+Created attachment 131737 report design Description: NPE thrown out while previewing the report in PDF format. Test Build: BIRT2.5.0 v20090414-0630 Step to reproduce: 1. Use the report attached 2. Preview it in PDF format Error log: Caused by: java.lang.NullPointerException 	at org.eclipse.birt.report.engine.nLayout.area.impl.TextArea.calculateText(TextArea.java:124) 	at org.eclipse.birt.report.engine.nLayout.area.impl.TextArea.getText(TextArea.java:186) 	at org.eclipse.birt.report.engine.nLayout.area.impl.LineArea.ignoreRightMostWhiteSpace(LineArea.java:133)

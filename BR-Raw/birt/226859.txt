@@ -1,0 +1,3 @@
+Failures occur in Junit test of org.eclipse.birt.report.engine.emitter.html.tests in 2.3 daily build 20080414
+
+Created attachment 95848 test report-20080414 Failures occur in Junit test of org.eclipse.birt.report.engine.emitter.html.tests in 2.3 daily build 20080414. Please see the attachments for details.

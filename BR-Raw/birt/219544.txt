@@ -1,0 +1,3 @@
+Chart freezes when handle very big number
+
+Created attachment 90141 report design Steps To Reproduce: 1.Edit the Chart in the attached report design. 2.Resize the Edit Chart Window.

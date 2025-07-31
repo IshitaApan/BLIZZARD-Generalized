@@ -1,0 +1,3 @@
+[BIDI]Borders not displayed properly in pdf format when using BIDI = rtl
+
+Created attachment 106687 PDF with no problem Build ID: 2.3 Steps To Reproduce: 1. A table has a border 2. When I export to PDF with BIDI = rtl the border isn't displayed properly.(doesn't close on bottom and on the side) 3. When I set BIDI to ltr it is displayed ok 3. More information:

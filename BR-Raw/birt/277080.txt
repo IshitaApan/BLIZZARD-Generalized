@@ -1,0 +1,3 @@
+Background image lost with both 'No Repeat' and 'Horizontal Position' set.
+
+Created attachment 136453 test report description: Background image lost with both 'No Repeat' and 'Horizontal Position' set. build id: 2.5.0 v20090520-0630 steps to reproduce: 1. New a label. 2. In Advanced view, add a background image. 3. Set repeat mode as 'No Repeat'. The background is displayed if you preview now. 4. Set Horizontal Position as '1 in'. 5. Preview in emitters except html. Actual result&#65306; The background image is not displayed in all emitters except html.

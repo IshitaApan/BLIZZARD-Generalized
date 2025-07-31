@@ -1,0 +1,3 @@
+Cube Measure/Aggregation - Function list
+
+Measure and aggregation functions for Cross tab support folliwng SUM, COUNT,AVERAGE,WEIGHTEDAVG,MAX,MIN,STDDEV,FIRST,LAST,MODE, MOVINGAVE,MEDIAN,VARIANCE,RUNNINGSUM,IRR,MIRR,NPV,RUNNINGNPV,COUNTDISTINCT,RUNNINGCOUNT. Model - Changes to return the list abolve. Please reassignt to UI team after chagnes are done. UI - Make sure this entire list returned in cube builder measure dialog, sub total, grand total dialog, add/ecit data binding dialog.

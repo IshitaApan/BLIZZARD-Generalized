@@ -1,0 +1,3 @@
+The report design name should not be "1" under the script node [00]
+
+Created attachment 121784 screenshot Description: The report design name should not be "1" under the script node. Build number: 2.3.2.v20090107-0730 Steps to reproduce: 1. New a report. 2. Go to the Script tab, add script for report initialize. 3. Save the report and check the Scripts node in Outline view. Expected result: Report name in the "()" is correct. Actual result: Report name in the "()" is "1" (see the screenshot). Error log: N/A

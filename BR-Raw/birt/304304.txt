@@ -1,0 +1,3 @@
+[Accessibility] Focus is not correct in chart builder Customer Properties dlg
+
+Created attachment 160576 Screenshot Description: [Accessibility] Focus is not correct in chart builder Customer Properties dlg Build: Steps to reproduce: 1. New a chart 2. Switch to Format chart->Chart Area->Customer Properties 3. Add some property key: a, b,c 4. Select c and remove it Actual result: After step4, Focus lost but Remove button is still enabled. Expect result: Focus on other property key or disable Remove button

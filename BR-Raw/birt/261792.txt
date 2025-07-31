@@ -1,0 +1,3 @@
+[Accessibility] Shortcut keys are missing and the static text can be accessed in "Errors Encountered" dialogue [17]
+
+Created attachment 123203 screenshot Description: Shortcut keys are missing and the static text can be accessed in "Errors Encountered" dialogue. Build number: 2.5.0.v20090119-0630 Steps to reproduce: 1. New a chart without binding and click "Finish". 2. Navigate using keyboard and check the shortcut key in "Errors Encountered" dialogue. Expected result: Shortcut keys are provided and the static text is not available when use keyboard to navigate. Actual result: See the screenshot. Error log: N/A

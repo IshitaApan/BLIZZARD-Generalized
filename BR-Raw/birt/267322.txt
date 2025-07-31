@@ -1,0 +1,3 @@
+[Accessibility] 'Insert Group' menu item is disabled in outline context menu for list group.
+
+Created attachment 127782 screenshot description: 'Insert Group' menu item is disabled in outline context menu for list group. build id: 2.5.0 v20090305-0630 steps to reproduce: 1. New a list. 2. In Outline,select the Groups node of the list and right click. Actual result: The 'Insert Group' menu item is disabled. Expected result: The menu item should be enabled. The same case works for table. And insert groups works if you insert from the main menu or right click the list.

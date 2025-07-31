@@ -1,0 +1,3 @@
+Update "Use Series Palette As Line Color" for Gantt Chart [13]
+
+Created attachment 169795 screenshot Description: Update "Use Series Palette As Line Color" for Gantt Chart. Build number: 2.6.0.v20100525-1629 Steps to reproduce: 1. New a Gantt Chart. 2. Go to Format Chart->Series->Value Expected result: Update the text. Actual result: For the "line", it means "Bar" (see the screenshot). Error log: N/A

@@ -1,0 +1,3 @@
+Support text-indent in word emitter.
+
+Created attachment 140347 screenshot description: Other emitters, like pdf and postscript, support text-indent property. But word does not. And since word support text-indent, so hope this can be enhanced. steps to reproduce: 1. Insert a text in layout. 2. In advanced view of Property Editor, set the text-indent, eg. 30mm. 3. Preivew in word format. Actual result: The indent does not work. Sceenshot and test report are attached. Expected result: The indent works just like in other emitters.

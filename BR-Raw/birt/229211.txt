@@ -1,0 +1,3 @@
+The group column is not with highlight effect when it is specified by context menu[13]
+
+Created attachment 97890 screenshot Description: The group column is not with highlight effect when it is specified for Optional Y Series Grouping. Build number: 2.3.0.v20080428-1354 Steps to reproduce: 1. New a table with group. 2. New a chart share the table's data. 3. Specify the group column for Optional Y Series Grouping. Expected result: The group column is highlighted. Actual result: The column used for table group key is highlighted (see the screenshot). Error log: N/A

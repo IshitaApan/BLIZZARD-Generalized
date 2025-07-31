@@ -1,0 +1,3 @@
+DateFormatter must only use timezone for datetime values, not single date or time values
+
+The method applyTimeZone() in org.eclipse.birt.core.format.DateFormatter uses the timezone even for single date and time values, which makes no sense. This must be changed, so that only datetime values have a timezone applied.

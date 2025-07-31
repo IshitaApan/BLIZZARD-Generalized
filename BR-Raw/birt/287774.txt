@@ -1,0 +1,3 @@
+[Compatibility] Exception is thrown out when preview results of the joint data set in sample report Membership [0706] [0901]
+
+Created attachment 145753 zip file of report design, report library and the csv files used Description: Exception is thrown out when preview results of the joint data set in sample report Membership. Build number: 2.5.1.v20090827-0630 Steps to reproduce: 1. Put the report and the library in the same folder. 2. Edit the path of the csv file used in the library data source. 3. Open the attached report design and double click the joint data set and preview results. Expected result: No exception. Actual result: Exception is thrown out.

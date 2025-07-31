@@ -1,0 +1,3 @@
+Total page on print pdf issue[1200]
+
+Created attachment 90725 report design Description: Total page on print pdf issue[1200] Step: 1. Create a report that contain a total page master page. 2. Preview as web view. 3. Print repot, and select PDF, select Page and input the page number which preview. 4. Click OK Actual result: All the total page in pdf is 1.

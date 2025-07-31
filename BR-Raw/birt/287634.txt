@@ -1,0 +1,3 @@
+[Regression] The Task Label is a number but when click Format button, Date/Time type format is shown [13]
+
+Created attachment 145624 report design Description: The Task Label is a number but when click Format button, Date/Time type format is shown. Regression of #209799 Build number: 2.5.1.v20090826-0630 Steps to reproduce: 1. Open the attached report design and double click the gantt chart. 2. Go to "Format Chart->Value (Y) Series", click "Labels" button, select "Task Label" and click "Format" button. Expected result: Either the "Format" button is disabled or Number type format is shown. Actual result: Date/Time type format is shown. Error log: N/A

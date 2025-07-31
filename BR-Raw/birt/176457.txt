@@ -1,0 +1,3 @@
+Use container's column bindings in chart editor
+
+According to https://bugs.eclipse.org/bugs/show_bug.cgi?id=147977, Engine team had made up the enhancement, please update GUI correspondingly.

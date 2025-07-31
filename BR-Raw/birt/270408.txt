@@ -1,0 +1,3 @@
+The type of the same column are different for table and its chart view [0002]
+
+Created attachment 130204 zip file of report design and generated csv Description: The type of the same column are different for table and its chart view. Build number: 2.5.0.v20090327-1033 Steps to reproduce: 1. Preview the attached report design and export data with data type. 2. Check the type of the column "Aggregation". Expected result: Type of aggregation is "Int". Actual result: Type for table is "Int" and for table's chart view is "Any". Error log: N/A

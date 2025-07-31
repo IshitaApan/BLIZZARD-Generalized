@@ -1,0 +1,3 @@
+[Automation][Regression]Problem occurs when open xls file eported by report
+
+Created attachment 122899 report design Description: Problem occurs when open xls file exported by report. Test Date: 20090119 Test Build: BIRT2.5.0 v20090119-0630 Step to reproduce: 1. Use the report attached 2. Export it to XLS format Expect result: Xls file can be opened without any errors. Actual result: Please refer to the xls file attached.

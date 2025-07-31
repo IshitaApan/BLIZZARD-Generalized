@@ -1,0 +1,3 @@
+A report parameter with type Date can not pass value to a data set parameter with type Any [0705]
+
+Created attachment 85035 report design Description: A report parameter with type Date can not pass value to a data set parameter with type Any. Build number: 2.3.0.v20071212-0800 Steps to reproduce: 1. New a data set with a parameter with type Any, link it to a report parameter. Expected result: The data set parameter can accept report parameter's value. Actual result: The data set parameter can not accept report parameter's value. Error log: N/A

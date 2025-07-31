@@ -1,0 +1,3 @@
+[Automation][Regression] decimal number was truncated incorrectly
+
+steps to reproduce: - use the attached report design - preview, and check decimal number expected behavior: - e.g. 0.00000242 should be output as 0.00000242 actual behavior: - e.g. 0.00000242 was output as 0, note it did not happen in build 20070601

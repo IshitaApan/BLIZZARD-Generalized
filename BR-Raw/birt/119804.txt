@@ -1,0 +1,3 @@
+[Smoke]Drill-through link doesn't work in BIRT PDF Emitter.
+
+Description: Drill-through link doesn't work in BIRT PDF Emitter. Steps to reproduce: 1. Define a drill-through link in design file. 2. Preview in pdf using birt pdf emitter. 3. Click the drill-through link Expected result: The target report opens. Actual result: Nothing happened.

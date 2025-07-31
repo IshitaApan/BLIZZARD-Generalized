@@ -1,0 +1,3 @@
+The masterpage and style defined in report design can not be exported to the library [01]
+
+Created attachment 119120 screenshot Description: The masterpage defined in report design can not be exported to the library. Build number: 2.3.2.v20081201-0730 Steps to reproduce: 1. New a report with a master page with name "masterpage". 2. In "Outline" View, select the master page and check the context menu. Expected result: The master page can be exported to the library. Actual result: See the screenshot. Error log: N/A

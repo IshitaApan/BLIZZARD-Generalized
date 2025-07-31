@@ -1,0 +1,3 @@
+Compile error found in 2.6.0 daily build v20100422-0630
+
+Created attachment 165678 error report in 2.6.0 daily build v20100422-0630 Compile error found in 2.6.0 daily build v20100422-0630. Please see the attachment for details.

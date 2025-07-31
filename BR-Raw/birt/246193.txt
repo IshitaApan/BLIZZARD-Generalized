@@ -1,0 +1,3 @@
+Inconsistent UI Aggregation Builder for chart and table
+
+BuildId: 2.3.1.v20080904-0630 Steps to reproduce: 1. New a chart binding to a dataset 2. Switch to 'Select Data' tab of chart builder, click "Data Binding..." button. 3. Click "Add Aggregation..." button in the pop-up "Select Data Binding" dialog. 4. Check the pop-up "Aggregation Builder" dialog Expected result: The "Aggregate On" radio button should have description for each option. Actual result: The "Aggregate On" radio button have nothing for 1st radio button.(see snapshot 1) The same dialog for table do not have this problem (see snapshot 2) Error Log: N/A

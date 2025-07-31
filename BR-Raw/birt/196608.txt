@@ -1,0 +1,3 @@
+Compile error when i switch jdk from 1.5 to 1.6
+
+When i switch jdk from 1.5 to 1.6, there are 2 compile errors in plugin: org.eclipse.birt.report.data.oda.jdbc here is the error message: - The type SqlBlobUtil.BlobHelper must implement the inherited abstract method Blob.free() - The type SqlBlobUtil.BlobHelper must implement the inherited abstract method Blob.getBinaryStream(long, long) One more thing, the jdk version is 1.6.0_02. Thanks.

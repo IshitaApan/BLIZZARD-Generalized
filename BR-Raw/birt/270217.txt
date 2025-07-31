@@ -1,0 +1,3 @@
+"Inline" on grid inside list detail band does not work when preview in HTML using IE7 [03]
+
+Created attachment 130060 report design Description: "Inline" on grid inside list detail band does not work when preview in HTML using IE7. Build number: 2.5.0.v20090327-1033 Steps to reproduce: 1. Preview the attached report design in HTML using IE7. Expected result: The result is the same as preview in Web Viewer. Actual result: "Inline" works when preview in Web Viewer and HTML using Firefox and IE6, also works when preview in Web Viewer using IE7, but it does not work when preview in HTML using IE7. Error log: N/A

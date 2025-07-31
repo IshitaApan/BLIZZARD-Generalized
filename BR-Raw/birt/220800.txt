@@ -1,0 +1,3 @@
+Cancelling a report request still leaves some files on the disk
+
+Build ID: 2.2 Release Candidate Steps To Reproduce: BIRT 2.2 Web Viewer 1. Run a report 2. While the report is generating, monitor the temp location where goalFile and other temp files are stored. 3. Once some of the temp files are generated, cancel the report request 4. The files generated in step #2 are left on the disk even after cancellation. Jason has requested that a bug be logged for this. http://www.eclipse.org/newsportal/article.php?id=26383&group=eclipse.birt#26383 More information:

@@ -1,0 +1,3 @@
+[Crosstab improvements] Crosstab: Add the Rank function in the aggregations
+
+In the crosstab, add rank functions in the aggregation builder.

@@ -1,0 +1,3 @@
+Crosstab gives wrong default for Totals on Count
+
+Created attachment 81485 Sample based on CM If you add a "COUNT" measure to a crosstab and also include the "Totals" using the dropdown in the crosstab, it actually creates Aggregation with a "COUNT" function. This gives the wrong results. the aggregation should be "SUM". See attached sample

@@ -1,0 +1,3 @@
+The proportion of JDBC Dataset editor layout is not good.
+
+Description: The proportion of JDBC Dataset editor layout is not good. I think the height of the wizard is too long. Build number: 2.3.1.v20080807-0630 Steps to reproduce: 1, New a dataset from sampleDB 2, The layout's proportion is not good.

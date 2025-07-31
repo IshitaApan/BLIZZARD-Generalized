@@ -1,0 +1,3 @@
+[Automation][Regression]Sorting does not work correctly
+
+Created attachment 121376 report design Description: Sorting does not work correctly. Test Build: BIRT2.5.0 v20081231-0630 Step to reproduce: 1. Use the report attached 2. Preview it Expect result: The column Num has been sorted. Actual result: Please refer to the screen shot.

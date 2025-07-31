@@ -1,0 +1,3 @@
+Documentation of possible values/objects of property IDeviceRenderer.FILE_IDENTIFIER
+
+Jason Weatherby suggested to file a bug about this: http://www.eclipse.org/forums/index.php/mv/msg/373826/910960/#msg_910960 The javadoc, the name and all examples imply that the property IDeviceRenderer.FILE_IDENTIFIER has to be a String and specifies a file path. I think in most cases Birt Chart Api will be integrated in some bigger api and hence a file output is somewhat useless. To make a long story short: The documentation and at least one (simple) example should bespeak that IDeviceRenderer.FILE_IDENTIFIER can be an OutpuStream (for all output types - dv.png, dv.svg...).

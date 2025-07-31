@@ -1,0 +1,3 @@
+[Automation][Regression] chart using inherited dataset did not work properly
+
+steps to reproduce: - use the attached report design - preview in html, pdf and viewer expected behavior: - attached report should be previewed properly actual behavior: - return empty report

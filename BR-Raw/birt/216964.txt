@@ -1,0 +1,3 @@
+JavaScript debugger flags incorrect error
+
+Created attachment 88180 Error screenshot I am using - Version: 2.3.0.v20080129-0800 Build id: v20080129-0800 In the attached report design, I have scripting code as follows - var ii = 1 * reportContext.getGlobalVariable("nr"); this.text = ii; //printWriter.println( "Table.onRender for label in Detail Row 2" + ii); The line with // is commented out. Yet when I debug this I get an error. A screenshot of the error is attached.

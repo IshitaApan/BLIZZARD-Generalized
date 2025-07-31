@@ -1,0 +1,3 @@
+Support drag/drop cube to layout
+
+We will support drag/drop cube from Data Explorer to layout editor, this will automatically create a crosstab and bind the cube with it. The crosstab will have all dimensions in row area, and all measures in detail area.

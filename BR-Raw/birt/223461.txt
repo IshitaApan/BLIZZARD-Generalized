@@ -1,0 +1,3 @@
+Fail to preview report with Chinese name[0002]
+
+Description: Fail to preview report with Chinese name Build number:2.3.0.v20080321 Steps to reproduce: 1. New a report with Chinese name. 2. Preview Expected result: Display report content. Actual result: The report file : D:\workspace\230\M6\??.rptdesign does not exist or contains errors. Error log:n/a

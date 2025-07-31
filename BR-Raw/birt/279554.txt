@@ -1,0 +1,3 @@
+Xtab is in mess when show grandtotal as chart after switch measure from text view to chart view
+
+Created attachment 138635 screenshot Description: Xtab is in mess when show grandtotal as chart after switch measure from text view to chart view. Build: <2.5.0.v20090605-0630> steps to reproduce: 1. New a crosstab with row grandtotal. 2. Show measure as chart view. 3. Show grandtotal area as chart view. Actual result: Xtab is in mess. See the screenshot. Expect result: See the screenshot. Error log: N/A

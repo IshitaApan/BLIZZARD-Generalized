@@ -1,0 +1,3 @@
+Contain and Cover of background image size take no effect in layout
+
+Description: Contain and Cover of background image size take no effect in layout, please refer to the ‘background-size’ property in http://www.w3.org/TR/css3-background/#the-background-image Build number: 2.5.1.v20090623-0630 Steps to reproduce: 1, New a background image in master page 2, Set its size to contain or cover 3, Check the background image size in layout

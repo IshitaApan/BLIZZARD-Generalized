@@ -1,0 +1,3 @@
+[Automation][Regression]Background image horizontal position does not work in PDF
+
+Created attachment 138090 report design Description: Set background image horizontal position to left, center and right, but it does not work in PDF. Test Build: BIRT2.5.0 v20090603-0630 Step to reproduce: 1. Use the report attached 2. Preview it in PDF. Expect result: The background image should in right place. Actual result: The background image horizontal position does not work.

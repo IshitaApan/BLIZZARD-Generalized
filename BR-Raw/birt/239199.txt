@@ -1,0 +1,3 @@
+Chinese Yuan currency symbol issues when export report as excel
+
+Created attachment 106283 report design BuildId: 2.3.0 release Steps to reproduce: 1. Open the attached report designer. 2. Export report in excel. Expected result: Chinese Yuan symbol can be displayed correctly. Actual result: Chinese Yuan symbol in SBC case are exported with '#' character. The issue also exist using the default chinese yuan symbol in DBC case. Error log: N/A

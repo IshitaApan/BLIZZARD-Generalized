@@ -1,0 +1,3 @@
+Z-order does not work correctly for tube/cone and bar combination.[13]
+
+Created attachment 145757 screen shot description: Z-order does not work correctly for tube/cone and bar combination.[13] build id: 2.5.1 v20090827-0630 steps to reproduce: 1. New a chart. 2. On Chart Type page, select Dimension as '2D with Depth', select Secondary Axis in Multiple Y Axes and select second series type as Cone series. 2. One Select Data page, define one series on each Y axis. 3. One Format Chart page, change color for each series to differentiate. 4. Set Z-order value of series 2(cone series )higher than series 1(bar series). Actual result: The cone series is still behind the bar series.See attached screen shot. If you change cone series to pyramid or bar type, it works correctly.

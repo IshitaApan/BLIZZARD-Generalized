@@ -1,0 +1,3 @@
+[Smoke] Error occurs when insert a table binding to data set.[0004]
+
+Created attachment 164159 screen shot description: Error occurs when insert a table binding to data set. build id: 2.6.0 v20100408-0630 steps to reproduce: 1. New a data set. 2. Insert table, binding to the data set. Actual result: Error occurs. See attached screen shot.

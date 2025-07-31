@@ -1,0 +1,3 @@
+Extra cell on the first page when crosstab is previewed in web viewer.
+
+Created attachment 138650 screenshot description: Extra cell on the first page when crosstab is previewed in web viewer. build id: 2.5.0 v20090609-0630 steps to reproduce: 1. New a crosstab. 2. Set pagebreak on column area. 3. Preview in web viewer. Actual result: There's an extra cell on the first page. See attached screenshot.

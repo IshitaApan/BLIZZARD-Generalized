@@ -1,0 +1,3 @@
+ArrayOutOfBoundsException when using percentile on column with no data
+
+Created attachment 79059 A sample report showing the bug Build ID: I20070625-1500 Steps To Reproduce: 1. Create data set (f.ex. using classic data source), with an decimal column with only null values (create it as a computed column) 2. Create a table based on the dataset 3. Create an aggregation with a percentile on the "empty column" as data field. set percentage to something (like 0.8) 4. Run the report. More information:

@@ -1,0 +1,3 @@
+Warning message is incorrect of inserting a MODE Function aggregation
+
+Description: Warning message is incorrect of inserting a MODE Function aggregation Build number: 2.3.1.v20080822-0630 Steps to reproduce: 1, New a table binding with dataset 2, Insert a aggregation in table's footer 3, Select function to MODE and specify the data field 4, Click OK Expected result: No warning message show up Actual result: The warning message is very strange: The recommended data type for current function is "" Error log:

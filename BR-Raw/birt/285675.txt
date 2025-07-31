@@ -1,0 +1,3 @@
+NPE occurred when run crosstab which shows empty row and shows measure as chart
+
+Created attachment 143482 report design Description: NPE occurred when run crosstab which shows empty row and shows measure as chart Build number: 2.5.1.v20090805-0630 Steps to reproduce: 1, New a Crosstab has year-quarter level 2, Show measure as chart 3, Show empty rows on quarter level 4, Preview the report Expected result: No NPE occurred Actual result: NPE Blocks the preview Error log:

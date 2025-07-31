@@ -1,0 +1,3 @@
+BIRT Model - Enhancments to the level defintion
+
+Please refer to https://bugs.eclipse.org/bugs/show_bug.cgi?id=183681 Soltuion agreed ---------------- 1) We will add a new Boolean flag to each “level” called “isUnique”. If “isUnique” = true, then DtE will use the level key as the unique key to identify the member. If “isUnique”=false, then DtE will use the compound key = all the parent keys uniquely identify the member. Model – Will be enhanced to levelView to add the new Boolean flag “isUnique”. By default it is false.

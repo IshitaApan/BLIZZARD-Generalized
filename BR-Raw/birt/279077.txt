@@ -1,0 +1,3 @@
+Chart can not get parent container's group binding when this chart is multi-nested
+
+Created attachment 138264 test report description: When doing regression on bug #246174, I found that the groups are not inherited. Since we support such case, the groups should be inherited also. build id: 2.5.0 v20090604-0630 steps to reproduce: 1. Add a list,binding to a data set. Add a group on the list. 2. Insert a table into the list, without binding to any data set. 3. Insert a chart into the table and go to Select Data page. Actual result: Group binding is not there. Also, data preview is empty. Test report is attached.

@@ -1,0 +1,3 @@
+Issues of Total.count()
+
+Created attachment 94316 report design Description: Issues of Total.count() Build number: 2.3.0.v20080401-0630 Steps to reproduce: Case1: 1, New a table binding with CUSTOMERS dataset 2, New a dataitem in table footer 3, Specify the expression: Total.count(row["CUSTOMERNUMBER"]>120) Case2: 1, New a table binding with CUSTOMERS dataset 2, Group the table on CITY and group name is city 3, New a dataitem in group footer 4, Specify the expression: Total.count(row["CUSTOMERNUMBER"]>150, "city") Actual result: 1, in Case1, the filter doesn't work 2, in Case2, exception occurs: "A BIRT exception occurred: Can not convert the value of city to Boolean type.. See next exception for more information. Can not convert the value of city to Boolean type."

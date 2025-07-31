@@ -1,0 +1,3 @@
+[Regression] Error occors when preview the attached report design as XLS [1203]
+
+Created attachment 78268 report design Description: Error occors when preview the attached report design as XLS. Build number: 2.2.1.v20070913-0630 Steps to reproduce: 1. Preview the attached report design as XLS. Expected result: Preview works correctly. Actual result: The xls file generated can not be opened (see the screenshot). Error log: N/A

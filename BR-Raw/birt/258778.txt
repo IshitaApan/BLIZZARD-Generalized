@@ -1,0 +1,3 @@
+The icon of the extended embedded image does not have the link [01]
+
+Created attachment 120441 screenshot Description: The icon of the extended embedded image does not have the link Build number: 2.3.2.v20081215-0730 Steps to reproduce: 1. New a library with an embedded image. 2. Extend the embedded image from the library. 3. Open the Outline view and check the icon under the "Embedded Images" node. Expected result: The icon has the link. Actual result: See the screenshot. Error log: N/A

@@ -1,0 +1,3 @@
+Aggregation Builder Screen/Modal dialog needs scroll capability
+
+Created attachment 120710 screen capture Build ID: M20071023-1652 Steps To Reproduce: 1. Create a customized aggregate function that takes 7 or more parameters. 2. Build the plugin and place it within the eclipse plugins folder. 3. Restart eclipse. 4. Insert an aggregation item into a report and select the function created in step 1. If your aggregation function has a total of 7 params, you can't get to the Aggregate On: section to set the grouping. More information: Can this dialog/screen be scrollable?

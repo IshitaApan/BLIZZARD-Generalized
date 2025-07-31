@@ -1,0 +1,3 @@
+[Automation][Smoke][Regression] preview the attached report design in pdf, out of memory exception was thrown out
+
+Created attachment 88655 report design steps to reproduce: - use the attached report design - preview in pdf expected behavior: - report was rendered properly actual behavior: - out of memory exception was thrown out

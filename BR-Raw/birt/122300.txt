@@ -1,0 +1,3 @@
+"NaN" is displayed when select value from an invalid column in data set filter page.
+
+Description: "NaN" is displayed when select value from an invalid column in data set filter page. Steps to reproduce: 1. Add filter in data set dialog. 2. Add Expression "row["account_nm"]/row["Test"]", operator "equals", then select values, it displayed "NaN". Strange. See attached design file.

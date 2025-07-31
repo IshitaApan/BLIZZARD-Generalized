@@ -1,0 +1,3 @@
+remove "avoid" from pagebreak choices.
+
+BIRT doesn't support page-break: avoid since 2.2. Should remove "avoid" from pagebreak drop-down list. "avoid" value in the old design file should not lose.

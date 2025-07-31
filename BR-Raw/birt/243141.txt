@@ -1,0 +1,3 @@
+Text alignment should inherit the direction of text.
+
+description: Text alignment should inherit the direction of text. build id: 2.3.1 v20080805-1440 step to reproduce: 1. New a style, set the Bidi text direction of Text block to rtl. 2. New a label. 3. Apply the style to the label. Expected result: Since the text direction is rtl, text alignment should be to the right. Actual result: Text alignment is to the left. But when you preview, text alignment changes to the right.

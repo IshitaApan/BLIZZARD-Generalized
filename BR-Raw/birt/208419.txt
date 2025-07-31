@@ -1,0 +1,3 @@
+NullPointerException at CubeResultSet close
+
+Created attachment 81858 A stacktrace with the NullPointerException When viewing a report there is a null-pointer exception and also an assertion which fails, obviously because of that error. It happens at "CubeResultSet close". This happens when running the ExampleReportViewer in JBoss 4.2.1GA on a report created with Eclipse BIRT Designer Framework SDK 2.2.1.v20070709-7K7K7_6ksyQhofEt15UN1fhnm38DW. It doesn't happen when running a report created with an earlier version of the Eclipse SDK. The report is correctly shown with contents from the database if assertions aren't enabled. Otherwise, it crashes on the assert.

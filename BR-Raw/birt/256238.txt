@@ -1,0 +1,3 @@
+Shouldn't update figure before inserting extended item such as Chart in library editor
+
+In Library editor, if inserting an extended item such as Chart from Palette, a dummy Chart figure will display below the chart builder. If this action is in report designer, there's no dummy chart in editor. The dummy chart indicates the null chart model in extended item handle, but this figure(dummy chart) shouldn't display before it's created, just like in report designer. Expected behavior: No dummy chart before chart is created. Current behavior: Dummy chart displays when drag-and-dropping chart from Palette.

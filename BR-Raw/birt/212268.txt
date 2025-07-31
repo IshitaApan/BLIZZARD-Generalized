@@ -1,0 +1,3 @@
+Bar Chart: A title of Axis-Y renders incorrent if the title is too long
+
+Created attachment 84734 Bar Chart: A title of Axis-Y renders incorrent if the title is too long The bar chart with very long Axis Y title overlaps(renders title over) a legend area in the case if the legend area located below plot area. See attachment.

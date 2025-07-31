@@ -1,0 +1,2 @@
+Effects in viewer and PDF are not the same
+

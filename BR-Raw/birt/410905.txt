@@ -1,0 +1,3 @@
+ISODate to DateTime
+
+Created attachment 232427 error I am using Birt M7 with the new MongoDB driver, with a collection of documents that has a field with ISODate data e.g. "date" : ISODate("2013-06-11T14:18:14.157Z"), Birt has trouble converting ISODate to DateTime in some situations, e.g. changing the type of on outputted column containing ISODate to DateTime, or changing the type for the grouping/sorting in a chart Though the driver does understand the ISODate format, as if you use the string type, it formats and converts to the user's timezone e.g. Tue Jun 11 16:18:14 CEST 2013

@@ -1,0 +1,3 @@
+The contents on the button can not be shown completely in "Select Data" tab of Chart Builder for Radar Chart
+
+Created attachment 164799 screenshot Description: The contents on the button can not be shown completely in "Select Data" tab of Chart Builder for Radar Chart. Build number: 2.6.0.v20100414-0630 Prerequisite: Set Font Size to "Extra Large Fonts" in Display Properties. Steps to reproduce: 1. New a radar chart and open Chart Builder for edit. Expected result: All the contents are shown completely. Actual result: See the screenshot. Error log: N/A

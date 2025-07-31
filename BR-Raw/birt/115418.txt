@@ -1,0 +1,3 @@
+"LibraryView.defaultText.notAvailable" is displayed in library explorer when creating a new rptlibrary file.
+
+Description: "LibraryView.defaultText.notAvailable" is displayed in library explorer when creating a new rptlibrary file. Steps to reproduce: 1. Create/Open a library file. 2. Open library explorer view. Actual result: "LibraryView.defaultText.notAvailable" is displayed.

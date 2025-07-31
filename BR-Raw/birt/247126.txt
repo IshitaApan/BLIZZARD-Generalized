@@ -1,0 +1,3 @@
+Skip breakpoint doesn't work in script debugging.
+
+Description: Skip breakpoint doesn't work in script debugging. Build number: 2.3.0.v20080912-0630 Steps to reproduce: 1, Debugging a script in report 2, Set the Skip breakpoint on all the break points 3, Press resume or F6 to continue Expected result: All the breakpoints are skipped. Actual result: The breakpoint still work. Error log:

@@ -1,0 +1,3 @@
+Group pagebreak-avoid works different between export to all-page and pages
+
+Created attachment 132583 report design Description: Group pagebreak-avoid works different between export to all-page and pages Build: Build <2.5.0.v20090421-0630> Steps to reproduce: 1. Download attached report, which set Group pagebreak inside-avoid 2. Preview in web viewer 3. Export to PDF with All page and pages:1 separately Expect result: The two behavious should be the same Actual result: In first page, there's no pagebreak between table header and group header in All Page, while pagebreak happened in pages:1. Error Log: N/A

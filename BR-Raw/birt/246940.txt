@@ -1,0 +1,3 @@
+The bottom border of the table in the attached report design  is not shown when preview in PDF [1200]
+
+Created attachment 112280 report design Description: The bottom border of the table in the attached report design is not shown when preview in PDF. Build number: 2.3.1.v20080910-0630 Steps to reproduce: 1. Preview the attached report design in PDF. Expected result: The bottom border of the table in the bottom part of the last page is shown. Actual result: The border is not shown (see the screenshot). Error log: N/A.

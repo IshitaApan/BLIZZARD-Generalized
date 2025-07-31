@@ -1,0 +1,3 @@
+get relative file path of linkage library
+
+As required by https://bugs.eclipse.org/bugs/show_bug.cgi?id=176099, the GUI should how the relative path for the linkage libraries on outline view. <list-property name="libraries"> <structure> <property name="fileName">lib/new_library.rptlibrary</property> <property name="namespace">new_library</property> </structure> </list-property> This path should be the fileName property on the above pieces of source from the host handle. So the libraryHandle.getFileName should return different path by context.

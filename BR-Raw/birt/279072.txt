@@ -1,0 +1,3 @@
+[Regression] The icon of the template item for chart and crosstab is not shown in Layout [02]
+
+Created attachment 138259 screenshot Description: The icon of the template item for chart and crosstab is not shown in Layout. Build number: 2.5.0.v20090603-0630 Steps to reproduce: 1. New a template with a chart and a crosstab. 2. Select the chart/crosstab, and create template item. 3. Check the template item in the Layout. Expected result: The icon is shown as the template item for other elements. Actual result: See the screenshot. Error log: N/A

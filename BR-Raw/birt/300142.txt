@@ -1,0 +1,3 @@
+The generated file can not be opened when preview a report with huge number of lines as XLS [1203]
+
+Created attachment 156602 report design Description: The generated file can not be opened when preview a report with huge number of lines as XLS. Build number: 2.5.2.v20100120-0630 Steps to reproduce: 1. Preview the attached report design in Web Viewer. Expected result: The generated file can be opened. Actual result: The generated file can not be opened. Error log: XML PARSE ERROR: Null or missing attribute value Error occurs at or below this element stack: <ss:Workbook> <ss:Worksheet> <ss:Table> <ss:Row> <ss:Cell>

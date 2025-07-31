@@ -1,0 +1,3 @@
+Comment should be output when preview as DOC/PPT/XLS [1202] [1205] [1203]
+
+Created attachment 150787 report design Description: Comment should be output when preview as DOC/PPT/XLS. Build number: 2.5.2.v20091029-0630 Steps to reproduce: 1. Preview the attached report design in DOC/PPT/PS/XLS. 2. Check the properties Comment in the generated files. Expected result: Comment is output into the generated files. Actual result: Comment is not output. Error log: N/A

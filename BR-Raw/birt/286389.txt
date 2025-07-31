@@ -1,0 +1,3 @@
+Close stream option causes samba output stream to be very slow
+
+Hi In the EmitterUtil class a new EmitterOutputStream is created. This outputstream is a filtered stream which overrides the samba streams methods and thus causing it to be slow. Regards Lourens

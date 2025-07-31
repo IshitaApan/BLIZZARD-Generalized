@@ -1,0 +1,3 @@
+Remove duplicated implementation from BIRT oda.flatfile.ui
+
+The BIRT oda.flatfile.ui currently duplicates/copies the implementation of DTP oda.flatfile.ui, which makes it difficult to maintain. Also, it is confusing to the open source community, seeing 2 versions of almost the same implementation in BIRT and DTP. The BIRT oda.flatfile.ui plugin should either be removed, or have it either directly use or extend the DTP oda.flatfile.ui implementation; similar to BIRT oda.flatfile extending DTP oda.flatfile.

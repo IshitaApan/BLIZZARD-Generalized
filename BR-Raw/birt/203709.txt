@@ -1,0 +1,3 @@
+NullPointerException in TableAreaLayout
+
+Created attachment 78625 NPE in TableAreaLayout Build ID: 2.2.1-N20070911 Steps To Reproduce: I am using RunTask and RenderTask to generate PDF document, but NullPointerException is thrown. But I am not sure what kind of rptdesign structure or data will cause this NPE Please see the attached screenshot of debugger In 2.2.0, the same rptdesign will cause out of memory error. attched rptdesign can reproduce this problem

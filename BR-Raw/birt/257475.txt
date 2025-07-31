@@ -1,0 +1,3 @@
+The report item share the result set of other should not be able to be extended by report [01] [0005]
+
+Created attachment 119471 report library Description: The report item share the result set of other should not be able to be extended by report. Build number: 2.3.2.v20081201-0730 Steps to reproduce: 1. New a library. 2. New a grid "G1" with a chart binding to the data set in a cell and a table "T1" share the result set of the chart in another cell. 3. New a table "T2" binding to the data set. 4. New a report, extend G1 and T2. Expected result: Either both T1 and T2 can be extended or neither of them can be extended. Actual result: T1 can be extended with G1 but T2 can not be extended. Error log: N/A

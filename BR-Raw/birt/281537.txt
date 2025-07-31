@@ -1,0 +1,3 @@
+Incorrect results in Cross tab with show empty rows and the Display Field set to an expression in the Data Cube
+
+Created attachment 140125 Sample report showing the bug Build ID: I20090611-1540 Steps To Reproduce: 1. Open attached report 2. View report Explanation: Data Set has a computed column: Q_CAT = 1000 * Math.floor(row["QUANTITYINSTOCK"] / 1000) Data Cube dimension Q_CAT has a display field: dataSetRow["Q_CAT"] + "-" + (dataSetRow["Q_CAT"] + 1000) The cross tab without "show empty rows" correctly shows 0-1000 1000-2000 2000-3000 ... 9000-10000 The cross tab with "show empty rows" incorrectly shows 9000-10000 9000-10000 9000-10000 ... 9000-10000 See attached screenshots. Thanks, Zoltan

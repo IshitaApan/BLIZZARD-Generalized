@@ -1,0 +1,3 @@
+Font "‘v‘Ì" cause error under some special situation.
+
+Reproduce step: 1. new a report; 2. insert 3 labels, input "Arial","Bodoni MT","Bodoni MT Black" respectively, set fonts to "Arial","Bodoni MT","Bodoni MT Black"; 3. preview as postscript. Result: Error.

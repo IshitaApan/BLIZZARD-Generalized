@@ -1,0 +1,3 @@
+Text should be clipped if it is longer that label's width in fix layout
+
+Created attachment 132175 report Description: Text should be clipped if it is longer that label's width in fix layout Build number: 2.5.0.v20090417-0630 Steps to reproduce: 1, New a label in fix layout report 2, Specify label's height and width to 2in*2in 3, Input a long text Expected result: If the long text hasn't line break, it should be clipped in layout and result is as same as result preview in PDF Actual result: The long text is not clipped and continue to write in the next line Error log:

@@ -1,0 +1,3 @@
+CachedQueryResults should also implement IQueryService.
+
+Created attachment 76434 design file CachedQueryResults should also implement IQueryService. Otherwise there is a ClassCastException in report item result sharing. Run attached design, you'll find it.

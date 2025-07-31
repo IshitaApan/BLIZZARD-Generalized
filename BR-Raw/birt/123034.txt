@@ -1,0 +1,3 @@
+Move primitive type serialization to BIRT.core
+
+Move primitive type serialization/deserialization to BIRT.core. Engine needs to use them too.

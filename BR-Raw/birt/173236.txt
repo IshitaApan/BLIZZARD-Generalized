@@ -1,0 +1,3 @@
+NPE is thrown when opening a design file that is created by a higher version BIRT
+
+1. New a report, switch to xml-source view. 2. Edit the version number in line 2, from 3.2.10 to 3.2.11 and save. 3. Close the report and reopen it. The xml-source view is opened automatically. Switch to lay-out view, there's an error message window, and NPE is thrown in error-log view. When user is trying to open a design file that is created by a higher version BIRT, model will throw an exception and stop parsing the report design file. UI should 1. Prevent the NPE 2. Telling user that he is using a higher version design file that this build does not support. (Catch the exception and reflect the message in the exception to end user)

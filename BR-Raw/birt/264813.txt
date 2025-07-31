@@ -1,0 +1,3 @@
+Menu item is not displayed correctly.
+
+Created attachment 125613 screenshot description: Menu item is not displayed correctly. build id: 2.3.2.v20090213-1009 steps to reproduce: 1. New a report. 2. Switch to XML source and right click. 3. Check the third menu item. Acutal result: It's 'Editor.Save.label'. See attached screenshot. Expected result: It should be 'Save'.

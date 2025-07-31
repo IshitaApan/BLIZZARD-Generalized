@@ -1,0 +1,3 @@
+The Legend Title also overlap the icon when set Bidi text direction to rtl [13]
+
+Created attachment 100855 report design Description: The chart title is not shown correctly when set Bidi test direction to rtl. Build number: 2.3.0.v20080519-0630 Steps to reproduce: 1. Preview the attached report design. Expected result: The chart title is shown correctly. Actual result: See the screenshot. Error log: N/A

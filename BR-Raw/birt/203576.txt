@@ -1,0 +1,3 @@
+NullPointerException when preview report in PDF
+
+Created attachment 78534 rptdesign with text Build ID: 2.2.0 Steps To Reproduce: 1. I have some dynamic text in report design, which will query some html content 2. I invoke runTask and renderTask to publish it to PDF result: NullPointerException occurs I put content of the dynamic text in text and preview it in PDF will not appear NPE, but in Page3, the <br/> tag is not effective to insert line break I could not locate the problem, but if I delete all the '{', '}' in the content, it will not appear NPE attachment1 is the reportdesign with text attachment2 is the stack trace, hope it will be helpful

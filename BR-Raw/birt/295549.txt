@@ -1,0 +1,3 @@
+[Regression] Specify value of series using context menu does not work [13]
+
+Created attachment 152559 screenshot Description: Specify value of series using context menu does not work. Build number: 2.5.2.v20091119-0630 Steps to reproduce: 1. New a chart binding to the data set. 2. Specify value of series using context menu. Expected result: Values are set. Actual result: No values are set (see the screenshot). Error log: N/A

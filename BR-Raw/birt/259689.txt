@@ -1,0 +1,3 @@
+[Automation][Regression]A blank page with master page in PDF
+
+Created attachment 121244 report design Description: The report attached have 2 pages with different page, but in latest build, there are 3 pages. The first page is not expected. Test Build: BIRT2.5.0 v20081225-1110 Step to reproduce: 1. Use the report attached. 2. Preview it in web viewer. Expect result: There are 2 pages. Actual result: There are 3 pages.

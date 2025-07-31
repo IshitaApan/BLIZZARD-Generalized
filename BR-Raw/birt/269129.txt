@@ -1,0 +1,3 @@
+[Accessibility] There's no alt text for chart image in chart-viewer-sample page.
+
+description: There's no alt text for chart image in chart-viewer-sample page. build id: 2.5.0 v20090318-0630 steps to reproduce: 1. Deploy chart-viewer-sample.war under tomcat. 2. Disable image in browser. 3. Access the sample page at: http://host:port/chart-viewer-sample. Expected result: If the image fail to display, alt text should be displayed. Either the index.jsp or the *.chart should be updated to support alt text for chart image. Actual result: No alt text for chart image.

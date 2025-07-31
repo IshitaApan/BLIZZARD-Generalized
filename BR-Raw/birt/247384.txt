@@ -1,0 +1,3 @@
+Long Legend title should be wrapped
+
+Build ID: I20080617-2000 Steps To Reproduce: 1.Open the attached report design, we can see that very long legend title can cause problem. 2. 3. More information: The origin of this bug is TED #2483. We make a Bugzilla entry here, so that it can be scheduled to 2.5.0.

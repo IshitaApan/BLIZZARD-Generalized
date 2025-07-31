@@ -1,0 +1,3 @@
+Update Existing Data Source Design to link to Exported Connection Profile
+
+When an user exports an existing data source to a connection profile (bug #206104), it should also update the data source design to link to the exported profile. 1. To clarify the intended action of the menu item, change the menu label to "Externalize to Connection Profile..." 2. In its dialog, add an UI checkbox option for user to un-check the default behavior: "Use the externalized connection profile in the data source."

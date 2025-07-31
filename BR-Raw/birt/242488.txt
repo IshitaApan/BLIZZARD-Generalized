@@ -1,0 +1,3 @@
+Part of the left border of the crosstab is not shown when preview in PDF [1102] [1200]
+
+Created attachment 108709 report design Description: Part of the left border of the crosstab is not shown when preview in PDF. Build number: 2.3.1.v20080730-0630 Steps to reproduce: 1. Preview the attached report design. Expected result: All the borders are shown. Actual result: Part of the left border is not shown (see the screenshot). Error log: N/A

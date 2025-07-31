@@ -1,0 +1,3 @@
+[Regression] "M Dial S Region Meter" is not shown in the Preview pane [1501]
+
+Created attachment 119583 screenshot Description: "M Dial S Region Meter" is not shown in the Preview pane [1501]. Build number: 2.5.0.v20081205-0630 Steps to reproduce: 1. Open "Chart Examples" view. 2. Select "M Dial S Region Meter" and check the Preview pane.. Expected result: Chart is shown. Actual result: Chart is not shown (see the screenshot). Error log: N/A

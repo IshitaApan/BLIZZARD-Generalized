@@ -1,0 +1,3 @@
+Aggregation in charts
+
+Build ID: I20070625-1500 Steps To Reproduce: 1. New chart 2. Select data 3. Data binding... 4. Add aggregation 5. Select COUNT or COUNTDISTINCT function 6. Select a data field with a datatype equal to date Result: the aggregation type is equal to date (i.e. the data type of the selected field) instead of integer

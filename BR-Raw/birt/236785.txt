@@ -1,0 +1,3 @@
+[Localiztion] In Chinese locale, chart extended from library is error in report .
+
+Created attachment 104607 screenshot description: 2.3.0 v20080612-0630 steps to reproduce: 1. Start birt in chinese locale. 2. New a library with a chart. 3. New a report and drag the chart from library to report. Actaul result: Chinese characters like title and legend are garbled. See screenshot.

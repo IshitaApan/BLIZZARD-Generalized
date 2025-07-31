@@ -1,0 +1,3 @@
+[Regression] The text with content type as HTML and without any content throws exception when preview in PDF [0000] [1200]
+
+Created attachment 128657 report design Description: The text with content type as HTML and without any content throws exception when preview in PDF. Build number: 2.5.0.v20090312-0630 Steps to reproduce: 1. New a text, set content type as HTML. 2. Preview in PDF. Expected result: No exception. Actual result: Exception is thrown out.

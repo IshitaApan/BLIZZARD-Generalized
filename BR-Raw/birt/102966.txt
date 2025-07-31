@@ -1,0 +1,3 @@
+Some bars are lost when the chart is transposed.
+
+Description: Some bars are lost when the chart is transposed. Steps to reproduce: 1. Create a side-by-side bar chart. 2. Transpose it and compare to the orginial chart when previewed. Actual result: some bars are lost when the chart is transposed in preview.

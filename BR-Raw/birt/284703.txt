@@ -1,0 +1,3 @@
+Background image size set to 'Cover' does not work correctly in layout.
+
+Created attachment 142626 sceen shot description: Background image size set to 'Cover' does not work correctly in layout. build id: 2.5.1 v20090727-0630 steps to reproduce: 1, Add a background image in master page 2, Set its size to Cover actual result: See attached screenshot. More info: http://www.w3.org/TR/css3-background/#the-background-size

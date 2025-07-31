@@ -1,0 +1,3 @@
+Widows does not work correctly if its value exceeds the line number of the report item [0301]
+
+Created attachment 129036 report design Description: Widows does not work correctly if its value exceeds the line number of the report item. Build number: 2.5.0.v20090317-0630 Steps to reproduce: 1. Preview the attached report design in PDF. Expected result: The grid is drawn in the first page. Actual result: Part of the grid is drawn in the second page. Error log: N/A

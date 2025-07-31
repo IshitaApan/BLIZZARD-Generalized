@@ -1,0 +1,3 @@
+Stacked area chart bug
+
+Created attachment 106569 Report design On stacked area chart, legend interactivity doesn't correspond appropriate areas on chart (interactivity methods: highlight, toggle visibility, functions: onmouseover, onclick) Run the attachment and click on a legend element - elements on chart are binded in reverse order

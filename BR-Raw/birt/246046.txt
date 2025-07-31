@@ -1,0 +1,3 @@
+[acceptance] Changing template image during publish process doesn't take effect
+
+BuildId: 2.3.1.v20080903-1357 Description: Changing template imaging during publish process doesn't take effect Steps to reproduce: 1. New a template and set the thumbnail. 2. Click 'File' -> 'Register Template with New Report Wizard'... 3. Fill the "Display Name" and click "Browser.." button for Template Image 4. Choose another image and click "Finish" 5. New a report using the template Expected result: The new image should be used as template image while choosing template. Actual result: The template still use the image in step #1. Error Log: N/A

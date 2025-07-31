@@ -1,0 +1,3 @@
+Add Run In Debug
+
+It would be really good to be able to run a report from the Report Designer Perspective without having to go to the Java Perspective. It seems like in the Run Report drop down (where you can choose other emitters) one of the options should be to debug the current report.

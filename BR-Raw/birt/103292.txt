@@ -1,0 +1,3 @@
+No error message when group key dismatches the interval
+
+Description: No error message when group key dismatches the interval Steps to reproduce: 1.Add a table and bind with data set 2.Add a goup and group key is double type 3.Select Interval as hour, and range as 10 4.Save and preview Expected result: Error message to show the unmatched type Actual result: No error message

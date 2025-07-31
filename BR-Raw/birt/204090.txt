@@ -1,0 +1,3 @@
+render a small rptdocument to PDF will be OutofMemory
+
+Created attachment 78829 rptdocument Build ID: 2.2.0 Steps To Reproduce: render this very small rptdocument to PDF will throw OutOfMemory error. to Word will be OK.

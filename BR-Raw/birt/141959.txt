@@ -1,0 +1,3 @@
+Changing data set didn't clean old column bindings
+
+Steps to reproduce: 1.Add two data sets, "ds1" and "ds2" 2.Add a table, binding with "ds1". All "ds1" column bindings generate automatically, that's good 3.Change "ds1" to None Expected result: All "ds1" column bindings should be cleaned Actual result: All "ds1" column bindings are still there. If changing to "ds2", "ds2" column bindings will be added after them.

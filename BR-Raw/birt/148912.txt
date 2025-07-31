@@ -1,0 +1,3 @@
+BIRT Data - BirtComp.anyOf function does not work as expected.
+
+BIRT Data - BirtComp.anyOf function does not work as expected. BirtComp.anyOf( row["STATUS"] , "Shipped", "Disputed" )

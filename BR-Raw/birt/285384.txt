@@ -1,0 +1,3 @@
+"Created by" in Property Editor is not updated when save a report created by an old version [00]
+
+Created attachment 143234 screenshot Description: "Created by" in Property Editor is not updated when save a report created by an old version. Build number: 2.5.1.v20090803-0630 Steps to reproduce: 1. Open the attached report design. 2. Make some modification and save. 3. A "Confirm" dialogue pops up to confirm the save, click "OK". 4. Check "Created by" in Property Editor and in XML. Expected result: "Created by" in Property Editor and XML is updated. Actual result: "Created by" in Property Editor is not updated but is updated in XML. Error log: N/A

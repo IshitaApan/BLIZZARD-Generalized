@@ -1,0 +1,3 @@
+Hiding chart when there's no data does not work if the chart inherits data from crosstab.[13]
+
+Created attachment 146358 test report description: Hiding chart when there's no data does not work if the chart inherits data from crosstab. build id: 2.5.1 v20090903-0630 steps to reproduce: 1. New a cross tab with name. 2. New a chart inheriting data from the crosstab. 3. Add a filter on cube to filter all data. 4. Preview. Actual result: The chart is displayed with plot area empty. If you use data directly from the cube, the chart is hidden. Expected result: The chart should be hidden.

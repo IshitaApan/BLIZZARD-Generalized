@@ -1,0 +1,3 @@
+"Display Name Key" should be shown in Output Columns [0704]
+
+Created attachment 155572 screenshot Description: "Display Name Key" should be shown in Output Columns. Build number: 2.5.2.v20100106-0630 Steps to reproduce: 1. New a script data set. 2. Go to "Output Columns" page, edit columns. Expected result: "Display Name Key" is shown and can be set. Actual result: See the screenshot. Error log: N/A

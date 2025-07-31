@@ -1,0 +1,3 @@
+Engine.destroy does not close documents
+
+Can we change the engine.destroy function to close open report docuemnts document = engine.openReportDocument("c:\\test\\customers.rptdocument"); I can call document.close(), but engine.destory() does not close the file.

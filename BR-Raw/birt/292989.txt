@@ -1,0 +1,3 @@
+List width will be ineffected if list is setted display-inline in html [0004]
+
+Created attachment 150193 report design Description: List width will be ineffected if list is setted display-inline Build: 2.5.2.v20091022-0630 Steps to reproduce: 1. Insert a list and set width as 3in 2. Set list display-inlline 3. Preview in web viewer Actual result: List width is full size not 3in. It works fine in PDF. Expect result: List width should be 3in.

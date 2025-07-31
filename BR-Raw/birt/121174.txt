@@ -1,0 +1,3 @@
+Bookmark url is not correct.
+
+When generating the url with bookmark, current url will be http://xxxxxx#XXX. This is a standard html bookmark,which only works with http GET method. When using POST method, most of app server can not recognize bookmark. They simply treat it as part of parameter value. In web viewer, all requets are posted as soap message exception 1st url and exporting data request. Therefore, bookmark in birt is not bookmark in standard html. Expected url to be generated as http://xxxxxxxxxxx&bookmark=XXX.

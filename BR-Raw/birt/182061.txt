@@ -1,0 +1,3 @@
+Data engine changes to support result set sharing
+
+This bugzilla entry tracks Data Engine changes required to support Result Set Sharing (BPS80): http://wiki.eclipse.org/index.php/BPS80

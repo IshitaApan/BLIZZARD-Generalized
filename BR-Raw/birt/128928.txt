@@ -1,0 +1,3 @@
+[Build2.0.1][Eclipse 3.0]: Interactivity-ToggleVisibility work incorrectly.
+
+[Build2.0.1][Eclipse 3.0][Firefox 1.5]: Interactivity-ToggleVisibility work incorrectly. Steps: 1.Create a bar chart 2.Open chart builder, go to "Format Chart" tab, select chart area, select "Series Toggle visibility" 3.Preview in web viewer Actual Results: 1.Click the legend, the series is unvisible, then click again, the series is still unvisible Expected Results: 1.ToggelVisibility can work correctly.

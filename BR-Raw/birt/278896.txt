@@ -1,0 +1,3 @@
+Error when opening a bubble chart created with BIRT 2.2.0.
+
+Created attachment 138095 screenshot description: Error when opening a bubble chart created with BIRT 2.2.0. build id: 2.5.0 v20090603-0630 steps to reproduce: 1. Open the attached report design. 2. Open chart builder and switch to Select Data page. Actual result: '-1' error in chart builder. See attached screenshot. If you click 'Finish' and reopen the chart builder, the error disappears.

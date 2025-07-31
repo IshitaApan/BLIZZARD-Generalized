@@ -1,0 +1,3 @@
+Justified works incorrectly in PDF
+
+Created attachment 142231 screenshot Description: Justified works incorrectly in PDF Build: 2.5.1.v20090721-0630 Steps to reproduce: 1. Download attached report which set text justified and set width on text 2. Preview in PDF Actual result: See screenshot Error log: N/A

@@ -1,0 +1,3 @@
+Background image doesn't work for html preview
+
+Created attachment 139835 report Description: Background image doesn't work for html preview Build number: 2.5.0.v20090623-0630 Steps to reproduce: 1, New a label 2, Specify background image 3, Preview in html and pdf Expected result: Background image of label can shown in both html and pdf Actual result: PDF worked but failed to show background image in HTML preview Error log:

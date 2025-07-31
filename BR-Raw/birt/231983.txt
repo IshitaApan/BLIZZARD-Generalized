@@ -1,0 +1,3 @@
+[Regression] The icon of chart is not the same as other report items in the library [01] [13]
+
+Created attachment 100097 screenshot Description: The icon of chart is not the same as other report items in the library. Build number: 2.3.0.v20080514-0630 Steps to reproduce: 1. New a library with all the report items. 2. Check the icons in the Outline View. Expected result: The icons are shown correctly. Actual result: The icon of chart is not the same with others (see the screenshot). Error log: N/A

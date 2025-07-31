@@ -1,0 +1,3 @@
+Error happens when run SwingChartViewerSelector
+
+Created attachment 166908 screenshot Description: Error happens when run SwingChartViewerSelector. Build number: 2.6.0.v20100504-0630 Steps to reproduce: 1. Run /org.eclipse.birt.chart.examples/src/org/eclipse/birt/chart/examples/api/viewer/SwingChartViewerSelector.java. 2. Select Scatter, 2D with Depth and click "Update". Expected result: 2D+ is disabled and no exception. Actual result: Exception is thrown out (see the screenshot). Error log: org.eclipse.birt.chart.exception.chartException

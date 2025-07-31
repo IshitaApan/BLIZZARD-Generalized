@@ -1,0 +1,3 @@
+Comments does not work for pre-defined style but custom style.
+
+Created attachment 140075 test report description: Comments does not work for pre-defined style but custom style. build id: 2.5.1 v200625-0630 steps to reproduce: 1. New two labels. 2. New a custom style. Add some comments in the style. 3. Apply to a label. The label will get the comments. 4. New a pre-defined label style. Also add some comments in the style. Actual result: The label does not get the comments defined in pre-defined style. Expected result: All labels will get the comments defined in pre-defined label style, just like other properties.

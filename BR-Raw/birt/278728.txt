@@ -1,0 +1,3 @@
+<VALUE-OF > returns nothing in this case.
+
+Created attachment 137957 test report description: Ran into a piece of script that returns nothing by <VALUE-OF >, but works in data expression. build id: 2.5.0 v20090602-0630 steps to reproduce: 1. New an HTML/Dynamic Text text and insert the following script. <VALUE-OF > importPackage(Packages.com.ibm.icu.util); var tz = reportContext.getTimeZone(); var cal = Calendar.getInstance(tz); cal.set( Calendar.HOUR_OF_DAY, 0 ) cal.clear( Calendar.MINUTE ); cal.clear( Calendar.SECOND ); cal.clear( Calendar.MILLISECOND ) new java.util.Date(cal.getTimeInMillis());</VALUE-OF> 2. Preview. Actual result: It returns nothing. If you use the same script as data expression, it works. Please see the attached test report.

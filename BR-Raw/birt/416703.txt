@@ -1,0 +1,3 @@
+Mongodb : Display correctly the Number data type
+
+Birt cannot display correctly the Mongo number data type (http://api.mongodb.org/perl/current/MongoDB/DataTypes.html): For instance let say we have a field with these values in 2 mongo documents (52.3, 27) : If in BIRT the type of the output column is integer then 52.3 is rendered by 0 (27 is rendered correctly). If the type of the output column is float 27 is rendered by 0 (and 52.3 is rendered correctly)

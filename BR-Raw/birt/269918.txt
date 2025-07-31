@@ -1,0 +1,3 @@
+Status of crosstab icon is not refreshed
+
+Created attachment 129785 screenshot Description: Status of crosstab icon is not refreshed Build number: 2.5.0.v20090325-0630 Steps to reproduce: 1, New a crosstab in layout without binding any data cube 2, Save the report and the icon of crosstab is a redcross 3, Drag a dimension from cube into crosstab row area 4, Save the report 5, Move the mouse between row area dimension and crosstab icon Expected result: The icon should be always shown as normal status Actual result: In step5, the icon is shown as red cross when moving over the dimension and if moving over the whole crosstab the icon is shown as normal status, see screenshot. Error log:

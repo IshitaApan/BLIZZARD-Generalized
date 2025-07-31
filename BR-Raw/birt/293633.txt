@@ -1,0 +1,3 @@
+"java.lang.ArrayIndexOutOfBoundsException: 2" is thrown out when double click a joint data set [0706]
+
+Created attachment 150789 report design Description: "java.lang.ArrayIndexOutOfBoundsException: 2" is thrown out when double click a joint data set. Build number: 2.5.2.v20091029-0630 Steps to reproduce: 1. Open the attached report design. 2. Double click to open the data set "joinAllandFailandDS". Expected result: Correct error message. Actual result: "java.lang.ArrayIndexOutOfBoundsException: 2" is thrown out.

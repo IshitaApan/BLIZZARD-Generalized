@@ -1,0 +1,3 @@
+PDF doesn't display bottom Border in inner group footer properly
+
+Description: PDF doesn't display bottom Border in inner group footer properly Steps to reproduce: 1. Open attached report in bug #142117 2. Set bottom border to the inner group product 3. Preview in Web Viewer and pdf Expected result: Bottom border displays at the end of each inner group Actual result: Bottom border appeared twice in each inner group content, see attached pic.

@@ -1,0 +1,3 @@
+Tooltip "Double-click to edit" is not shown for "Data Cube" and "Variable" in Data Explorer view [00]
+
+Created attachment 150332 screenshot Description: Tooltip "Double-click to edit" is not shown for "Data Cube" and "Variable" in Data Explorer view. Build number: 2.5.0.v20091023-0630 Steps to reproduce: 1. New a report with data source, data set, data cube, report parameter, variable. 2. In Data Explorer view, hover over the items. Expected result: Tooltip is shown for data cube and variable. Actual result: When over data source, data set and report parameter, tooltip "Double-click to edit" is shown, but when over data cube and variable, there is no tooltip. Error log: N/A

@@ -1,0 +1,3 @@
+Span over column for xtab detail cell in multiple measure case is not working
+
+Created attachment 91852 Report to reproduce When a xtab has two measures on vertical direction, put two charts in each measure detail cell, and set them span over column. The preview result indicates the span over column is not working. However, span over row for horizontal measure case is working. Please preview attached report to reproduce it.

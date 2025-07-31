@@ -1,0 +1,3 @@
+Xtab with defined width displayed inconsistently in PDF and HTML
+
+Created attachment 131483 report design Description: Xtab with defined width displayed inconsistently in PDF and HTML Build: <2.5.0.v20090410-0630> Steps to reproduce: 1. Download attached report with a crosstab 2. Set the width of the year to 0.6in and the measure cells to be 0.5in (total xtab width will be 3.6in) 3. Copy and paste the Xtab 4. Set the first Xtab whole width to 5in(>3.6in) in advance 5. Preview in PDF and HTML Expect result: I think the behavior in PDF is correct, and HTML should be consistent with PDF. After step4, xtab cell width will change to fit the whole xtab width(5in), that means year cell width will be longer than 0.6in. Actual result: See the screenshots Error Log: N/A

@@ -1,0 +1,3 @@
+Hide stack track in viewer should change text to Hide Exception Stack Track.[0002]
+
+Description: Hide stack track in viewer should change text to Hide Exception Stack Track Build number:2.2.0.v20061220 Steps to reproduce: 1. New a report with report parameter. 2. Preview in Web Viewer. 3. Click Cancel in popped up parameter dialog, and then click Export Data button. 4. In popped up error dialog, click Show Exception Stack Track, and then reclick it. Expected result: "Show Exception Stack Track" to display stack trace, and then text should change to "Hide Exception Stack Track" to hide stack trace Actual result: "Show Exception Stack Track" to hide stack trace Error log:N/A

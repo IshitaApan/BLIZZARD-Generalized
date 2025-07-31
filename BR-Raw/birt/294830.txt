@@ -1,0 +1,3 @@
+Failures occurs in junit test of org.eclipse.birt.report.engine.tests in 2.5.2 daily build v20091111-0630
+
+Created attachment 151901 test report in daily build v20091111-0630 Failures occurs in junit test of org.eclipse.birt.report.engine.tests in 2.5.2 daily build v20091111-0630. Please see the attachment for details.

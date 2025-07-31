@@ -1,0 +1,3 @@
+[Automation][Regression]Exception is thrown when running reportdesign
+
+Created attachment 76853 report design Description: A exception is thrown when running a reportdesign. TestDate: 20080824 steps to reproduce: - use the attached report design - preview Expected Result: There isn't any exception. Actual Result: Please refer to the screenshot attached

@@ -1,0 +1,3 @@
+Failures occurs in Junit test of org.eclipse.birt.chart.tests in 2.5.0 daily build v20090511-0630
+
+Created attachment 135103 test report in 2.5.0 daily build v20090511-0630 Failures occurs in Junit test of org.eclipse.birt.chart.tests in 2.5.0 daily build v20090511-0630. Please see the attachment for details.

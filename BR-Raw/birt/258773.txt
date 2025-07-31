@@ -1,0 +1,3 @@
+Buggy "Flip axis" behavior when switching chart type
+
+Created attachment 120434 Report with chart Build: BIRT 2.3.2 (v20081211-0730) Steps to reproduce: 1. Open the attached report in the designer. 2. Edit the chart's properties. 3. Have a look at the chart preview 4. Select "Line chart". 5. Then select again "Bar chart" 6. Have a look at the chart preview Expected result: The chart looks the same in 3. and 6: the Y-axis label is always horizontal. Actual result: At step 3, the Y-axis label is horizontal. At step 6, the Y-axis label is suddenly vertical. More information: The problem might be in the behavior according to the already checked "Flip axis". Because at step 3 and step 6, the checkbox is checked, but at step 4, it isn't.

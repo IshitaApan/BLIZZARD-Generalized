@@ -1,0 +1,3 @@
+Cannot view report document from web viewer
+
+Put a report document under the root folder of web viewer deployment, using following URL to view it: http://localhost:8888/birt_web/frameset?__document=customer1p-1kr.rptdocument got error message "The design file c:\work\tomcat41\webapps\birt_web\ has error and can not be run." in the browser. It seems the report document name is missed in the full path of the document when web viewer wants to open it.

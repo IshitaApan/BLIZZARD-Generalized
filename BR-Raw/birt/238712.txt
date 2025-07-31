@@ -1,0 +1,3 @@
+[Automation][Regression]Dynamic image shrink to a small image in PDF & Postscript
+
+Description: Dynamic image shrink to a small image in PDF & Postscript. Test Date: 20080627 Test Build: BIRT2.3.1 v20080627-0952 Step to reproduce: 1. Use the report attached. 2. Preview it in PDF or Postscript. Expect result: Please refer to the golden file attached. Actual result: Please refer to the failed screen shot attached.

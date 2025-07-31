@@ -1,0 +1,3 @@
+[Automation][Regression]Table cell alignment does not work correctly in second page of PDF
+
+Created attachment 131202 report design Description: Table cell alignment does not work correctly in second page of PDF. Test Build: BIRT2.5.0 v20090408-0630 Step to reproduce: 1. Use the report attached 2. Preview it in PDF Expect result: Every table cell's alignment is center Actual result: The alignment in second page is right.

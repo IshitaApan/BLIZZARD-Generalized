@@ -1,0 +1,3 @@
+Reports switching will run the previewed report again
+
+Description: Reports switching will run the previewed report again Build number: 2.3.1.v20080728-0630 Steps to reproduce: 1, Open two reports A and B 2, Preview B in layout 3, Switch to report A 4, Switch to report B again Expected result: After step4, the report B should not preview again. Actual result: After step4, the report B previewed again. Error log:

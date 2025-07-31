@@ -1,0 +1,3 @@
+Log files produced even with the log level set to Level.OFF
+
+Build ID: N/A Steps To Reproduce: 1. Use EngineConfig.setLogConfig() to change the logging level to Level.OFF 2. Start the engine, run some reports, shutdown the engine 3. Log files will have been created in ReportEngine\workspace\.metadata\.plugins\org.eclipse.birt.chart.engine More information: see also http://www.eclipse.org/newsportal/article.php?id=32283&group=eclipse.birt#32283 No logfiles should be created.

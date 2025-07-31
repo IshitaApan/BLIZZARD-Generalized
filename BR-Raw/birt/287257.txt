@@ -1,0 +1,3 @@
+[Smoke]Failed to show crosstab in Web viewer preview
+
+Created attachment 145224 report design Description: [Smoke]Failed to show crosstab in Web viewer preview Build number: 2.5.1.v20090821-0630 Steps to reproduce: 1, New a simple crosstab 2, Run it in web viewer Expected result: Preview is OK Actual result: Nothing is shown in web viewer preview Error log:

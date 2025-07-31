@@ -1,0 +1,3 @@
+Option to specify name of exported Connection profile
+
+The oda DataSourceDesignSession#convertDesignToProfile API method in oda.design.ui uses the name of the specified data source design to be the name of the exported connection profile. The use case in bug #275621 likes to have an option to specify a different name for the connection profile. The conversion method also currently updates the data source design to link to the exported profile. It would be more user friendly to make it an option to whether to do such update.

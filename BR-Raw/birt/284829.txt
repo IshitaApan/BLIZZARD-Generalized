@@ -1,0 +1,3 @@
+[Automation] Label's caption was shortened with ellipsis
+
+Created attachment 142735 screenshot Description: [Automation] Label's caption was shortened with ellipsis Build: <2.5.1.v20090728-0630> Steps to reproduce: 1. Insert a chart with long text caption 2. Run the report in automation Actual result: Caption was shortened with ellipsis. See the screenshot. Expect result: Caption should display full text and not shortened with ellipsis.

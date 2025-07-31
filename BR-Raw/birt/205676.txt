@@ -1,0 +1,3 @@
+org.eclipse.birt.data.tests has compile error in rolling build of 20071008
+
+org.eclipse.birt.data.tests has compile error in rolling build of 20071008. Please see the attachment for details

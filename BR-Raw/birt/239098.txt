@@ -1,0 +1,3 @@
+Hide multiple series using legend interactivity
+
+I added some more series to show in the SwtInteractivityViewer(.java) of the birt charts examples plugin: - can hide one series - cannot hide multiple series at the same time 	- when selecting a second series (to hide) the first one will be visible again I assume this to be a bug, because it does not make any sense to hide only one series at the same time (you can use the highlight functionality for this). I could not find any reliable workaround...

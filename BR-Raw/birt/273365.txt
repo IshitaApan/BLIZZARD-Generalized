@@ -1,0 +1,3 @@
+Aggregation layout is incorrect when selecting Rank function in crosstab
+
+Created attachment 132866 screenshot Description: Aggregation layout is incorrect when selecting Rank function in crosstab Build number: 2.5.0.v20090423-0630 Steps to reproduce: 1, New a crosstab which has measure 2, Modify the measure binding or add a aggregation binding 3, Select Rank function and check the layout of Aggregation builder Expected result: Layout is correct Actual result: Layout is incorrect, see screenshot Error log:

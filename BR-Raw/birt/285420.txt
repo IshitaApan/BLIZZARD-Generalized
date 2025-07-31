@@ -1,0 +1,3 @@
+Outline properties of plot area  does not work after adding marker range.
+
+Created attachment 143257 sceen shot description: Outline properties of plot area does not work after adding marker range. build id: 2.5.1 v20090803-0630 steps to reproduce: 1. New a chart. 2. Add a marker range. 3. Change the outline properties, style/width/color.(Format Chart->Chart Area->Plot->Area Within Axes) Actual result: The outline changes to red and style/width does not work anymore. See attached screenshot.

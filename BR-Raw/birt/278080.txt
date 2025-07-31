@@ -1,0 +1,3 @@
+Grid with images cannot be made seamless
+
+User tried to create a grid with some images within it where the intent is to seamlessly join them together. This is similar to the web technique where rectangular images are stitched together to construct a page. User placed Image controls within the Cells of a Grid, and set the rows and columns to be the exact size desired. All padding and margins for the Image, Cell, Row/Column, and Grid are set to zero, yet there are still unwanted gaps between the images in HTML and PDF output. See also discussion on BIRT Exchange: http://www.birt-exchange.org/forum/designing-birt-reports/15195-grid-images-no-gaps.html

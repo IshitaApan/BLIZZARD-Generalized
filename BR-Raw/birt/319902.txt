@@ -1,0 +1,3 @@
+Internal API Usage of the ODA framework components
+
+Fix the Internal API Usage of the following ODA framework bundles, as reported by the API Usage report for Helios: http://download.eclipse.org/eclipse/pde/apitools/helios/html * org.eclipse.datatools.connectivity.oda.design.ui * org.eclipse.datatools.connectivity.oda.profile

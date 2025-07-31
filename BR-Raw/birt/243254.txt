@@ -1,0 +1,3 @@
+[Automation][Regression]Cannot find function doubleValue error
+
+Created attachment 109244 report design Description: Cannot find function doubleValue error thrown out when preview report. Test Date: 20080806 Test Build: BIRT2.3.1 v20080806-0630 Step to reproduce: 1. Use the report attached 2. Preview it Error log: Please refer to attachment.

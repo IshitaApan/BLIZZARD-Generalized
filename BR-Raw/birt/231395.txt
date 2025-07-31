@@ -1,0 +1,3 @@
+Chart Output Format should have a display type field
+
+The org.eclipse.birt.chart.engine.devicerenderers extension point should have a field for a format's "display name". This would be the name for the output format that would be presented to the user in the "Output Format" dropdown in the UI. This field would be different from the "format" field because it is meant to be human readable whereas "format" is processed internally by BIRT.

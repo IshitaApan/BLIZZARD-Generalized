@@ -1,0 +1,3 @@
+Need uniform and clear tip when  JavaScript expression references a inexsistent output parameter of a data set
+
+Created attachment 103482 Test Case Build ID: I20080523-0100 Steps To Reproduce: run attached report More information: Data set has no output parameter "none" For JavaScript expression: outputParams["none"]" nothing is shown For JavaScript expression: "This is " + outputParams["none"] show "This is undefined"

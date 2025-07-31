@@ -1,0 +1,3 @@
+The list of operator for Chart filter does not provide 30 visible items
+
+Created attachment 168502 screenshot Description: The list of operator for Chart filter does not provide 30 visible items. Build number: 2.6.0.v20100514-0630 Steps to reproduce: 1. New a chart binding to the data set. 2. In Property Editor, add filter for the chart and check the operator list. Expected result: Please refer to bug #292453. Actual result: See the screenshot. Error log: N/A

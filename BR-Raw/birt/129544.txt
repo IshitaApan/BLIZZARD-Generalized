@@ -1,0 +1,3 @@
+Move preview preference from ui plugin to preview plugin
+
+With new plugin structure, the preview are in seperate plug-in. Need move preview preference related classed from ui plug-in to new preview plug-in.

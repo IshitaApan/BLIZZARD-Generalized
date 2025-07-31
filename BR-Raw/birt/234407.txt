@@ -1,0 +1,3 @@
+Trying to build Joint Data Set off of 2 scripted Datasets fails
+
+Created attachment 102416 example problem Attached a Java project that contains two classes and a report. The report has two scripted datasets, one for each java class. I can not build a joint data set from the two scripted datasets.

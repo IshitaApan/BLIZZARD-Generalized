@@ -1,0 +1,3 @@
+Sorting in data pane does not work the same way as Select Data Binding dialog.
+
+Created attachment 129933 screenshot description: Sorting in data pane does not work the same way as Select Data Binding dialog. build id: 2.5.0 v20090326-0630 steps to reproduce: 1. New a chart. 2. Show data pane in column view. 3. Open the select Data Binding dialog and sort by column name ascendingly. Actual result: Columns are not sorted in the same way in the case that there's lowercase.See attached screenshot. Expected result: They should work in the same way that it will be easier to compare.Please also take the bindings in properties editor into account.The three views are expected to sort in the same manner.

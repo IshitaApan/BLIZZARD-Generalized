@@ -1,0 +1,3 @@
+Javascript debugger does not stop at breakpoint
+
+Created attachment 90536 Report Template In the attached report, I set the breakpoint in the code in the report beforefactory. But when I run it in debug execution never stops at this breakpoint. Build: Version: 2.3.0.v20080117-7Y7q-DrZgLbose4Zaa4mT3252 Build id: v20080218-1354

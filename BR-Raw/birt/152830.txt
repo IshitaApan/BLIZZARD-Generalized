@@ -1,0 +1,3 @@
+Need model's support to add jar files
+
+To fix bug 150684, we need model's support. We need a property or an API to add jar files for report design and library.

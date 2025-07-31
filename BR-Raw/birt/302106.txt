@@ -1,0 +1,3 @@
+[Automation] NPE thrown out when preview a report with datasource property binding [0703]
+
+Created attachment 158430 Report Description: [Automation] NPE thrown out when preview a report with datasource property binding [0703] Build: 2.5.2.v20100208 Steps to reproduce: 1. Download attached report 2. Preview Actual result: NPE thrown out Expect result: No NPE

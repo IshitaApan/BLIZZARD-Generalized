@@ -1,0 +1,3 @@
+The chart is not generated when debug a report containing a chart with an event handler [0800] [13]
+
+Created attachment 98548 report design Description: The chart is not generated when debug a report containing a chart with an event handler. Build number: 2.3.0.v20080504-0931 Steps to reproduce: 1. Debug the attached report, set Task type: "Run and Render", Debug type: "Java", Ouput: html&Open generated file when finished. Expected result: The chart is shown. Actual result: The image is not shown. Error log: N/A

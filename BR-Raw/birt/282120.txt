@@ -1,0 +1,3 @@
+[Regression] Set locale on data item does not work correctly in excel output.
+
+Created attachment 140578 report design description: Set locale on data item does not work correctly in excel output. build id: <2.5.1.v20090630-0630> steps to reproduce: 1. Set locale in preference to English(United States). 2. Set different locale to data item in format page in Proety Editor. 3. Preview in excel. Expected result: Data items are formated in the specified locale format, just like the web viewer preview. Actual result: Data items are formated in the default locale format, different other emitters. See attached screenshot. Error: N/A

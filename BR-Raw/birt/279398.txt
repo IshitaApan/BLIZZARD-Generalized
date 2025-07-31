@@ -1,0 +1,3 @@
+Enable Y optional combo list after deleting group from host table
+
+Please refer to bug #257001, in comment #1 Heng said: Fixed by enabling Y optional combo list when there is expression in Y optional, so user can delete the expression. In 2.5.0 v20090608-0630 build, after re-test this issue I found, the Y optional combo list is not allowed for editing. And the preview result is incorrect. Steps to reproduce: 1. Open attached report in https://bugs.eclipse.org/bugs/attachment.cgi?id=119110 2. Delete the group in table. 3. Go to chart and edit it. 4. Preview the chart view Actual result: After step4, Y optional combo list can not be edit and the preview result isn't correct because the label of serires1 is USA

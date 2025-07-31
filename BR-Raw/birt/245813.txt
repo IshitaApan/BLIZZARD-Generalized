@@ -1,0 +1,3 @@
+[regression]Chart interactivity-hyperlink doesn't work in pdf.[13]
+
+Description: Chart interactivity-hyperlink doesn't work in pdf. Build number:2.3.1.v20080901 Steps to reproduce: 1. Insert a chart. 2. Define interactive hyperlink to chart series, legend or someother place. 3. Preview in pdf. 4. Click the link. Expected result: Link to target. Actual result: Nothing happened. Error log:n/a

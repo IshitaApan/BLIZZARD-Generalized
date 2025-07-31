@@ -1,0 +1,3 @@
+Support extension for Aggregation functions
+
+Currently Dte provieded several buildin aggregation functions. But nobody could say that can meet all the user requirements. A better solution is to provide an extension point on this area, allowing user to write their own business logic aware aggregation functions. Note BIRT Chart Engine has already defined an extension point for aggreation functions.

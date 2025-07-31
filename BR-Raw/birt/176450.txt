@@ -1,0 +1,3 @@
+Support link to CSS Feature(Model Part)
+
+To fix bug 140619, GUI and Model should implement the feature together. This bug is to track the process of Model team. Another bug to brack GUI team is 176449, which is blocked by this one. The milestone is M6.

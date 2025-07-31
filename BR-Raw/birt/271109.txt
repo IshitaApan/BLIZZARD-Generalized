@@ -1,0 +1,3 @@
+chart auto scale labels not working correctly
+
+Created attachment 130810 report design file and xml datasource to reproduce problem Chart labels on x-axis work not correct when using auto scale (see attached report and xml datasource). In my report I want to display datetime values with a range of 20 days. Values are displayed correctly in chart but labels end after about 10 days. There is no chance to use step size in the report. regards Rainer

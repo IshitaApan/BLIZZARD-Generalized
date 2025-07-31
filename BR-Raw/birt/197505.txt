@@ -1,0 +1,3 @@
+Add Design Handle to Scriptable Objects
+
+Currently in a report design, you can modify the design file by calling: reportContext.getReportRunnable().designHandle.getDesignHandle() Adding an object that is available by default called the DesignHandle would make this process significantly easier and more intuitive. The DesignHandle should be available at all of the same points that ReportContext is available.

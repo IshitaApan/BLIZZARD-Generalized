@@ -1,0 +1,3 @@
+[Regression]Selecting value from Blob type column should be warned.
+
+Description: This is a regression of bug #207892, according to the fixing, when user select value from a Blob column we should pops up a warning message to indicate this operation is disallowed. Now, we get the value list. Build number: 2.3.1.v20080902-0630 Steps to reproduce: 1, New a sample dataset from PRODUCTLINES 2, New a filter on row["IMAGE"] and select value Expected result: When the user attempts to use “select value” function while the expression references to a Blob type column, we’ll pop up a message dialog with error message to indicate that this kind of operation is unsupported now. Actual result: User can get the value list, when previewing in dataset, error occurs. Error log:

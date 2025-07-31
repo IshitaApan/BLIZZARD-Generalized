@@ -1,0 +1,3 @@
+Lost content in first group header[0001]
+
+Created attachment 142841 report Description: Content in group header in the first page is missing. Build number:2.5.1.v20090729 Steps to reproduce: 1. Preview attached report in web viewer Expected result: Display content. Actual result: Content in group header in the first page is missing.Only a blank line with bg-color

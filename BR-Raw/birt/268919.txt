@@ -1,0 +1,3 @@
+[Automation][Regression]Report content disappeared in PDF format
+
+Created attachment 129037 report design Description: Report content disappeared in PDF format. This bug can only reproduce in Linux. In windows platform, it works correctly. Test Date: 20090317 Test Build: BIRT 2.5.0 v20090317-0630 Step to reproduce: 1. Use the report attached 2. Preview it in PDF at linux.

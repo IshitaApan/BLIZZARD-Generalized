@@ -1,0 +1,3 @@
+Need to know if the library is referenced by the module handle.
+
+Need add a API, if the library(absolute file name ) is referenced by the module handle.

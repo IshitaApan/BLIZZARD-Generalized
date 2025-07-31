@@ -1,0 +1,3 @@
+The report contents extend the border of library page width can not be selected and edit [00]
+
+Created attachment 119469 screenshot Description: The report contents extend the border of library page width can not be selected and edit. Build number: 2.3.2.v20081201-0730 Steps to reproduce: 1. New a library containing a grid with multiple columns. 2. Add contents in the cells and some columns extend the border of the library page. Expected result: The report items in the cells extend the border of library page can not be selected and edit. Actual result: Though the report items in can be selected from the Outline view, it can not be edit (see the screenshot). Error log: N/A

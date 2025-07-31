@@ -1,0 +1,3 @@
+Support BORDER style for table rows
+
+According to bug 156450, we need to support border style for table rows. And this enhancement needs Engine team, Designer team and model team work together to implement it. This bug is for Designer team. Please implement it in milestone 2.2.0 M2.

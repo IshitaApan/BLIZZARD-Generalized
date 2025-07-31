@@ -1,0 +1,3 @@
+[Scripting Usability ] BIRT Model, Designer changes to support expression in default value
+
+Please refer to enhancement https://bugs.eclipse.org/bugs/show_bug.cgi?id=124950 This bugzilla entry is logged to track model and designer changes.

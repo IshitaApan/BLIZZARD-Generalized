@@ -1,0 +1,3 @@
+Need WebViewer provide cancel function
+
+Need WebViewer provide a cancel function, this will be used to cancel current report execution during designer preview.

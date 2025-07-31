@@ -1,0 +1,3 @@
+Chart is empty when the table shares the bindings of its inner chart.
+
+Created attachment 112639 report design description: Chart is empty when the table shares the bindings of its inner chart. build id: 2.3.1 v20080916-0630 steps to reproduce: 1. New a dataset. 2. New a table, NOT binding to the dataset. 3. Insert a chart to the header of the table.The chart binds to the dataset. 4. Table shares bindings of the chart. 5. Preview. Expected result: The chart can be previewed correctly. Actual result: The chart is empty. The report design is attached.

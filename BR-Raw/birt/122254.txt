@@ -1,0 +1,3 @@
+Not Like operator is missing in the Filter tab of Data Set window
+
+Not Like operator is missing in the list of available filter operators in Edit Data Set window. Steps to reproduce: Open the Edit Data Set window Navigate to the Filters tab Open the list of available filters: Only Like operator is shown, Not Like - is missing. Note that Not Between and Not Equal operators are listed. --- originally reported by zsher@actuate.com. Internal Ref id SCR79999 ---

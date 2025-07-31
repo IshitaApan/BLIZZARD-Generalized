@@ -1,0 +1,3 @@
+Crosstab aggregation expression is not shown completely and show from the last character
+
+Created attachment 133042 screenshot Description: Crosstab aggregation expression can not show completely when editing or show expression from the last character. Build number: 2.5.0.v20090424-0630 Steps to reproduce: 1, New a crosstab with measures 2, Edit the measure 3, Check the measure expression Or Expected result: Expression is shown completely Actual result: Expression is not shown completely (see screenshot) Error log:

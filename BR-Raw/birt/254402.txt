@@ -1,0 +1,3 @@
+Corresponding legend item and datapoint have different labels after resersing category.
+
+Created attachment 117167 screenshot description: Corresponding legend item and datapoint have different labels after resersing category. build id: 2.3.2 v20081106-0730 steps to reproduce: 1. New a chart. 2. On Format Chart page, select series node and select Color by Categories. 3. Select X axis and tick the Reverse Categories option. Actual result: For corresponding datapoint and legend item, they share the same color but with different label.Please see attached screenshot.

@@ -1,0 +1,3 @@
+Add model api to support renaming handle whose name is not required
+
+In bug 271815, Chart item is not name required any longer. However in chart measure view case, axis chart must use name to reference to plot chart. This case is name required, so chart engine must specify a name to plot chart. But currently model doesn't have API to specify an unique name to chart handle.

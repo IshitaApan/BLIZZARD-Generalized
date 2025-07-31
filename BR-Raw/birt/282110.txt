@@ -1,0 +1,3 @@
+The hyperlink menu does not show up after changing its position to relative.
+
+Created attachment 140571 test report description: The hyperlink menu does not show up after changing its position to relative. build id: 2.5.1 v20090701-0630 steps to reproduce: 1. Disable Enable SVG chart option in preferences because position only takes effect in non-SVG format. 2. New a chart. 3. Add interactivity with two hyperlinks. 4. Edit the properties of hyperlink menu.Change the value of position to 'relative' and add another property 'left' with value '20px'. 5. Preview the chart and invoke interactivity. Actual result: The menu does not show up. Expected result: The menu should show up at a position with a 20 pixels left offset comparing to its default position.

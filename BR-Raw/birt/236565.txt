@@ -1,0 +1,3 @@
+Support java.sql.Connection as ODA JDBC java connection provider.
+
+At current stage to dynamically switch the data source of JDBC driver, BIRT provides following means: 1.Property binding 2.JNDI 3.Script data set 4.DataSource.beforeOpen() event. However, it turns out that in real world user may want to pass in a java.sql.connection directly, which is expected to be used by BIRT ODA JDBC during runtime.This requirement is valid for lots of POJO may be able to provide jdbc connections. Suggest to add appContext support to ODA JDBC. Specifically, OdaJdbcDriver.setAppContext() should be activated. So that user can pass the java.sql.Connection during runtime.

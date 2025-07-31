@@ -1,0 +1,3 @@
+Master page header height doesn't work in fixed layout
+
+Created attachment 166049 report design BuildId: 2.6.0.v20100426-0630 Steps to reproduce: 1. Open the attached report design and preview Expected result: -The image in the master page header should be cut while the master page header height is 0.1cm and the report layout is fixed layout. - If I changed the height to 10cm, there should be space between the label and image from masterpage Actual result: No matter how I change the height of master page header, the label always listed right under the image of master page header.

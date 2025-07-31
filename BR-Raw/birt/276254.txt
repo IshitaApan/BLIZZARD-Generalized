@@ -1,0 +1,3 @@
+There is no error in Outline/Problems view when Library contains list/table without binding [0004] [01]
+
+Created attachment 135748 screenshot Description: There is no error in Outline/Problems view when Library contains list/table without binding. Build number: 2.5.0.v20090514-0630 Steps to reproduce: 1. New a library with list/table/crosstab without binding. 2. Check the Outline/Problems view. Expected result: Error is shown for them all. Actual result: Error is shown only for Crosstab. Error log: N/A

@@ -1,0 +1,3 @@
+Part of data lost in the xtab which has set show empty row
+
+Created attachment 125873 report design BuildId: <2.3.2.v20090217-0730> Steps to reproduce: 1.Open the attached report design, which has a xtab and set show empty row 2.Preview Expected result: All states should be listed Actual result: Only state "CA" "CT" were listed. And the rest state columns were merged and without data. Error Log: N/A

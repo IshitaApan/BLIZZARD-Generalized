@@ -1,0 +1,3 @@
+Problem occurs when set the masterpage margin with ems/exs/pixcel units.
+
+Created attachment 86089 massagebox description: Problem occurs when set the masterpage margin with ems/exs/pixcel units. build version: 2.3.0 v20080103-0800 steps to reproduce: 1. New a report. 2. Select the masterpage in outline. 3. Swtich to properites editor->Margin, change the units to ems/exs/pxcels unit. 4. Click the save button. Expected result: No problem occurs. Actual result: Problem occurs. See attached message box.

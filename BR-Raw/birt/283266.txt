@@ -1,0 +1,3 @@
+[Automation][Regression]Empty cell does not show as expect.
+
+Created attachment 141387 report design Description: Set crosstab's empty cell show as "-", it does not work while preview report in HTML, but in web viewer it works. Test Build: BIRT2.5.1 v20090713-0630 Step to reproduce: 1. Use the report attached 2. Preview it in HTML Expect result: All the empty cell show as "-". Actual result: The empty cell show nothing.

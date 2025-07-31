@@ -1,0 +1,3 @@
+Viewer export issues(Word,Excel,PDF)
+
+Build ID: 2.3.1 Steps To Reproduce: 1.Certian PDF reports won't open 2. Cerrtian Word reports won't open (Usually with complex fonts and formats) 3. Excel exported report does not get bullets or numbering from report 4. BGColor not passed to Word/Excel 5. Excel does not display entire cell content (One would expect the cell to fit all content in it and not only a single row) More information:

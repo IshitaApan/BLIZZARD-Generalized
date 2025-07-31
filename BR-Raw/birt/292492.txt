@@ -1,0 +1,3 @@
+[Regression] The "Add" button in Filters dialogue is enabled when the chart shares a table's result set [0005] [13]
+
+Created attachment 149712 screenshot Description: The "Add" button in Filters dialogue is enabled when the chart shares a table's result set. Build number: 2.5.2.v20091015-0630 Steps to reproduce: 1. New a table named "t1" binding to the data set. 2. New a chart share the result set of "t1". 3. Click "Filters..." button to open the "Filters dialogue". Expected result: "Add" button is disabled. Actual result: "Add" button is enabled. Error log: N/A

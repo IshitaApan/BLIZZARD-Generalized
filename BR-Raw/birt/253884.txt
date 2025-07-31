@@ -1,0 +1,3 @@
+Part of the curve fitting line of "Curve Fitting Script" is missing in the Preview pane [1502]
+
+Created attachment 117049 screenshot Description: Part of the curve fitting line of "Curve Fitting Script" is missing in the Preview pane. Build number: 2.3.2.v20081105-0730 Steps to reproduce: 1. Open "Chart Examples" view. 2. Select Script Charts->Curve Fitting Script. Expected result: The curve fitting line is drawn completely. Actual result: Part of the curve fitting line of "Curve Fitting Script" is missing in the Preview pane (see the screenshot). Error log: N/A

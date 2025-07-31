@@ -1,0 +1,3 @@
+Excel can't process big data which type is Decimal.
+
+Created attachment 79935 design Failed to preview the attached report design as XLS.

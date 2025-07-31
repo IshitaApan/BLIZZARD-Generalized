@@ -1,0 +1,3 @@
+Fail to export report to library when table with group share result set[01]
+
+Created attachment 114994 report Description: Fail to export report to library when table with group share result set Build number:2.3.2.v20081014 Steps to reproduce: 1. Insert a table, add a group 2. Insert another table and share result set from the first table 3. Export the report to library Expected result: Report can be exported to library Actual result: Fail to export. A BIRT exception occurred. Plug-in Provider:Eclipse.org Plug-in Name:BIRT Model Plug-in ID:org.eclipse.birt.report.model Version:2.5.0.v20081014-0730 Error Code:Error.ContentException.GROUPS_CHANGE_FORBIDDEN Error Message:Element "Table" has report item sharing, can not add, remove or move its groups. Error log:n/a

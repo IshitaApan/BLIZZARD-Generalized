@@ -1,0 +1,3 @@
+Error occurs when switch to bubble chart.[13]
+
+Created attachment 166436 screen shot description: Error occurs when switch to bubble chart. build id: 2.6.0 v20100429-0630 steps to reproduce: 1.Insert a chart. 2.On Select Chart Type page, select Secondary Axis in Multiple Y Axis. 3.Select chart type from Bar to Bubble one by one. Actual result: When come to Bubble chart, error occurs. See attached screen shot.

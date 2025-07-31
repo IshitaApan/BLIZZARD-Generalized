@@ -1,0 +1,3 @@
+[Acceptance] Chart resize does not work correctly if input invalid value
+
+Created attachment 167089 screenshot Description: Chart resize does not work correctly if input invalid value. Build number: 2.6.0.v20100505-0630 Steps to reproduce: 1. New a chart, in Property Editor->General, input -10 for Width, and press enter, check the size of the chart. Expected result: Input invalid value, default will be used. Actual result: Input invalid value, 0 is used (see the screenshot). Error log: N/A

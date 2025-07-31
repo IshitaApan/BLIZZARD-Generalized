@@ -1,0 +1,3 @@
+Aggregaton for List can not aggregate on group [0001]
+
+Created attachment 77779 report design Description: Aggregaton for List can not aggregate on group. Build number: 2.2.1.v20070906-0630 Steps to reproduce: 1. New a report with a list binding to a data set. 2. Add a group for the list and drag an Aggregation from the Palette to the list group header, set Data Field and select Aggregate On Group and click OK. 3. Reopen the aggregation Builder. Expected result: Aggregate On Group. Actual result: Aggregate On List. Error log: N/A

@@ -1,0 +1,3 @@
+Variable can not be pasted if the focus is on variable item
+
+Created attachment 137942 screenshot Description: Variable can not be pasted if the focus is on variable item, while it can be pasted successfully if the focus is on variables node. Build: <2.5.0.v20090602-0630> Steps to reproduce: 1. New a report and switch to Data explorer view 2. New a variable "a" 3. Select "a", Ctrl+C and Ctrl+V 4. Select variables node, Ctrl+V Actual result: After step3, variable "a" 's copy is not shown up. After step4, variable "a2" shows up under variables node. See the screenshot. Expect result: Variable can be pasted even if the focus is on variable item

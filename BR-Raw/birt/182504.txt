@@ -1,0 +1,3 @@
+Icon of library in library explorer is error[00]
+
+Details: Icon of library in library explorer is error[00] Actual result: The icon of library in library explorer is the same as report design's Please correct the icon

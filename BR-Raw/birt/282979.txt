@@ -1,0 +1,3 @@
+Background image size doesn't work in Doc preview
+
+Created attachment 141173 report design Description: Background image size doesn't work in Doc preview Build number: 2.5.1.v20090708-0630 Steps to reproduce: 1, Specify background image in master page 2, Set to no repeat and set the size to 1in*1in 3, Preview in DOC Expected result: Background image size works in doc preview Actual result: Background image size failed to work in doc preview Error log:

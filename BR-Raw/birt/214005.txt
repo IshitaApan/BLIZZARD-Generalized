@@ -1,0 +1,3 @@
+[regression]In pdf, master page content lost.[1200]
+
+Description: In pdf, master page content lost. Build number:2.3.0.v20071229 Steps to reproduce: 1. Preview attached report in Web Viewer. report attached in bug #214003 2. Click Print Report, select pdf, actual size, click OK. Expected result: Master page content displays after body data. Actual result: Master page content lost. Error log:n/a

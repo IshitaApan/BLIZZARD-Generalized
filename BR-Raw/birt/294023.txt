@@ -1,0 +1,3 @@
+Missing 'Use group Y series' menu item when chart uses cube.[13]
+
+Created attachment 151160 screen shot description: When the chart uses cube, right click levels, it only displays the Use as category(X) axis. build id: 2.5.2 v20091103-0630 steps to reproduce: 1. New a cube. 2. Insert chart, use the cube. 3. Right click a level. Actual result: It only displays 'Use as category(X) axis' menu item. If you select a level from the list for Optional Y grouping, then you will see the 'Use to group Y series' menu.

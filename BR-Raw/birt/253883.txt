@@ -1,0 +1,3 @@
+3D Tube, Cone and Pyramid examples should be added under 3D Charts [1501]
+
+Created attachment 117048 screenshot Description: 3D Tube, Cone and Pyramid examples should be added under 3D Charts. Build number: 2.3.2.v20081105-0730 Steps to reproduce: 1. Open "Chart Examples" view. 2. Select 3D Charts. Expected result: 3D Tube, Cone and Pyramid examples should be added under 3D Charts. Actual result: Only Bar, Line, Area are listed under 3D Charts (see the screenshot). Error log: N/A

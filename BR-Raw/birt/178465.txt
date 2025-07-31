@@ -1,0 +1,3 @@
+Group change causes failure in the Web Viewer
+
+Attached report has script on the group onprepare method which determines the keyexpr based a on a report parameter. When ran in the M5 build this fails in the Web Viewer. Jason

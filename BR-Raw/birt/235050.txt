@@ -1,0 +1,3 @@
+SVG image shows incompletely in HTML
+
+Created attachment 103067 svg image Description: Preview the attached svg image, it shows incompletely in HTML, while works in PDF. build version: 2.3.0.v20080602-0930

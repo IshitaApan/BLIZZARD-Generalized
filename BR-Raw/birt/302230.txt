@@ -1,0 +1,3 @@
+List width does not supportted in DOC [0004]
+
+Created attachment 158558 Report Description: List width does not supportted in DOC [0004] Build: <2.5.2.v20100209-0630> Steps to reproduce: 1. Insert a list and set width as 3in 2. Preview in DOC Actual result: List width does not works Expect result: Support list width in DOC

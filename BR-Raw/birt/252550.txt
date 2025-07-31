@@ -1,0 +1,3 @@
+Label-Element in table header does not get displayed in PDF output when in merged cell and header height specified
+
+Created attachment 116395 Sample report demonstrating the bug Build ID: M20080911-1700 Steps To Reproduce: 1. Create a sample DataSource (e.g. ClassicModels) 2. Create a sample DataSet 3. Create a table using the DataSet from step 2 4. Add a table header row 5. Merge table header cells in column 1 6. Set vertical align in merged cell to "BOTTOM" 7. Set line height of table header row 1 to "0.5cm" 8. Set line height of table header row 2 to "1cm" 9. Create PDF report --> The label in the table header (first columnn!) is not displayed More information: Sample report attached

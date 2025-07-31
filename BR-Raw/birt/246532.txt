@@ -1,0 +1,3 @@
+The outline of chart area for chart in PNG format is not shown completely [13]
+
+Created attachment 111930 report design Description: The outline of chart area for chart in PNG format is not shown completely. Build number: 2.3.1.v20080902-0630 Steps to reproduce: 1. Preview the attached report design. 2. Check the border of the second chart in PNG format. Expected result: The border are shown correctly. Actual result: Only the top and left border is shown when preview (see the screenshot). Error log: N/A.

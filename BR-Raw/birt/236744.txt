@@ -1,0 +1,3 @@
+Excel Emitter Not Setting the Header/Footer
+
+Build ID: M20080221-1800 Steps To Reproduce: 1. Create a report design with a master page having some content in the header and/or footer. 2. View the report on web viewer. 4. Export to Excel. 5. In Excel, go to Print Preview. The header and footer only appear once. More information: This bug has been reported in the newsgroups (http://dev.eclipse.org/newslists/news.eclipse.birt/msg28293.html), but no one replied if it was really a bug, an unsupported feature or a user error. We'd like to get this feature in order to print page numbers. I believe the header and footer can be set up in File > Page Setup > Header/Footer in Excel.

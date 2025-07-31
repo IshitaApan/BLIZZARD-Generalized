@@ -1,0 +1,3 @@
+There are two option in the drop-down list while the cube has only one measure [1302]
+
+Created attachment 88529 screenshot Description: There are two option in the drop-down list while the cube has only one measure. Build number: 2.3.0.v20080201-0800 Steps to reproduce: 1. Open the attached report design. 2. Double click to open the chart view and go to "Select Data" tab. 3. Drop the Value (Y) Series drop down list. Expected result: There is only one option. Actual result: There are two (See the screenshot). Error log: N/A

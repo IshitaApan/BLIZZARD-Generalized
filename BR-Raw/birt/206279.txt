@@ -1,0 +1,3 @@
+Removed computed cols listed in expression builder[07]
+
+Description: Removed computed column listed in expression builder inside DataSet Editor dialog Build number:2.2.2.v20071011 Steps to reproduce: 1. New data source and dataset. 2. Add a computed column in dataset and click OK. 3. Open the dataset, remove the computed column. 4. Add a new computed column and check columns in available Data Sets. Expected result: The removed computed column isn't there. Actual result: The removed computed column is still there for selection. Error log:n/a

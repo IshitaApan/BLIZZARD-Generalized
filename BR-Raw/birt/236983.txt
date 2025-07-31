@@ -1,0 +1,3 @@
+Integer Type Dataset Parameters return Double Type
+
+Build ID: I20080330-1350 Birt Version: 2.3 M6 All-In-One. Steps To Reproduce: 1. Create a scripted Dataset with a java eventhandler and add an integer dataset parameter to the dataset. Set the default value to zero 2. In the Java EventHandler.Open method get the parameter using the new IDataSetInstance.getDataSetParameter("MyIntegerParam") method 3. Notice that the value returned is 0.0 and that the type of the return variable is a java.lang.Double, not a java.lang.Integer. More information:

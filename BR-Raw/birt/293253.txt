@@ -1,0 +1,3 @@
+Missing color in bar chart
+
+Created attachment 150456 NonGroupOnXSeries.rptdesign

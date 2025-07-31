@@ -1,0 +1,3 @@
+Page break before-avoid in group header row does not work
+
+Created attachment 128169 report design Description: Page break before-avoid in group header row does not work Build: <2.5.0.v20090310-0630> Steps to reproduce: 1. Download the attached report which has ticked off "repeat header" in group 2. Select second group header row, set pagebreak before-avoid, after-avoid 3. Set interval=0 on table page break 4. Preview in PDF Actual result: The two group header rows are seperated to two page. Expect result: Page break won't happen in group header. Error: N/A

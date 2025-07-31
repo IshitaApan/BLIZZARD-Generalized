@@ -1,0 +1,3 @@
+Provides UI supports for Highlight rule refer to Style element
+
+A new feature of Highlight rule refer to Style element has been supported by BIRT model, can be refer to bug 146642. Now it needs to provide supports on the UI where a highlight rule is created and edited.

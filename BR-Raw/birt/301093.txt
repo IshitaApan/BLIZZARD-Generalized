@@ -1,0 +1,3 @@
+[Regression] Value Series is not specified but the text is filled when New Series [13]
+
+Created attachment 157501 screenshot Description: Value Series is not specified but the text is filled when New Series. Build number: 2.5.2.v20100128-0630 Steps to reproduce: 1. New a chart binding to the data set. 2. Specify Category Series and Value Series. 3. New Series, check the text of Series 2. Expected result: The text is not filled. Actual result: The text is filled up but when click "Finish", error pops up indicating Series 2 is undefined. Error log: N/A

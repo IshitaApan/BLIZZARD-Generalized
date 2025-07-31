@@ -1,0 +1,3 @@
+Expect to set/get interval range with a 'String' param in GroupHandle.
+
+I'm fixing the bug https://bugs.eclipse.org/bugs/show_bug.cgi?id=160279, I called 'void org.eclipse.birt.report.model.api.GroupHandle.setIntervalRange(double intervalRange)' to pass a double value, and called 'double org.eclipse.birt.report.model.api.GroupHandle.getIntervalRange() ' to retrieve it for displaying. But them maybe differ sometime(e.g. input 1.234567, output 1.234566999900003245). I guess if set/get interval range with a 'String' param in GroupHandle, we will avoid the trouble.

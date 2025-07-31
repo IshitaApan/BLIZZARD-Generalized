@@ -1,0 +1,3 @@
+[Automation] [Regression] A text in the bottom of the page is missing when preview in PDF [1200]
+
+Created attachment 147418 zip file of report design and the outputs Description: A text in the bottom of the page is missing when preview in PDF. Build number: 2.5.1.v20090917-0630 Steps to reproduce: 1. Preview the attached report design as PDF. Expected result: All the contents are shown. Actual result: A text in the bottom of the first page disappears(see the screenshot). Error log: N/A

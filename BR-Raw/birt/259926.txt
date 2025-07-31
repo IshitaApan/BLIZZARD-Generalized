@@ -1,0 +1,3 @@
+Error message shows incompletely in Chart Edit Dialog Box
+
+Created attachment 121504 screenshot Description: Error message shows incompletely in Chart Edit Dialog Box Build number: 2.3.2.v20090105-0730 Steps to reproduce: 1.Create a report design project and new a library, 2.Add a sample data source and add a data set with table "PRODUCTLINES", 3.Insert a chart to the library binding to the data set, 4.In Edit Chart dialog box, drag row["PRODUCTLINE"] to Category(X)Series, drag row["IMAGE"] to Value(Y)Series Expected result: An error message should be showed completely in the dialog Actual result: Only "X" pattern and letter "B" show up, error message is incomplete. Please refer to the screenshot. Error logs: N/A

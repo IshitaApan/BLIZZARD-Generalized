@@ -1,0 +1,3 @@
+The altText of an image is not shown in doc when the image is not shown [17]
+
+Created attachment 149418 rptdesign Description: AltText not show in doc when the image is not shown [17] Build: 2.5.2.v20091013-0630 Steps to reproduce: 1. Preview attached report in doc Actual result: Nothing is shown. Expect reuslt: Alt Text shown up.

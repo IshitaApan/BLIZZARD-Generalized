@@ -1,0 +1,3 @@
+Swt Renderer consumes too many os handles -> org.eclipse.swt.SWTError: No more handles
+
+I encounter this swt error when drawing charts with points having tooltips. When there are more than 9000 handles created the app will crash (observed with the swt sleak plugin). This is due to the swt renderer consuming too much os handles, e.g. there is always a 'Region' created for each data point which shows up a tooltip. The generated charts consist of 'many' data points (I do not think that) I think tooltip creation should not depend on creating swt regions to show them...

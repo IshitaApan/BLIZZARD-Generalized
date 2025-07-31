@@ -1,0 +1,3 @@
+[Accessibility]Press 'Tab' doesn't focus on the next report item when adding relative period aggregation.
+
+Created attachment 221634 Press tab in relative time period.png Steps to reproduce: 1: Launch OS build, new a report in your project; 2: New datasource,dataset datacube with datatime dimension in the report,drag datacube from palette to layout; 3: Select the measure and add relative time period aggregation; 4: Click to select 'Last date in the period' for Reference Date, press 'Tab' key; Actual result: The focus switch to the inputbox of 'This date', which is the pre report item. Expected result: If the 'OK' is enabled, focus on it, else on the 'Cancel' button.

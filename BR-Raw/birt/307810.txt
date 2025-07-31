@@ -1,0 +1,3 @@
+Error message need update when switch axis type from numeric to date.[13]
+
+Created attachment 163603 screen shot description: Error message need update when switch axis type from numeric to date. build id: 2.6.0 v20100401-0630 steps to reproduce: 1. New a data set with number and data time column. 2. Define number type as category series. 3. Go to Format Chart page, select X axis and click scale button. Set min and max. 4. On select data page, use data time as category series. Actual result: Error message shows some source code, this is not expected. See attached screen shot. Expected result: The message should be updated like: Invalid minimum scale value: 100.0 specified for axis type DateTime

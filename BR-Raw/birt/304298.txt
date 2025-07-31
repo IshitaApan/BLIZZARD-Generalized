@@ -1,0 +1,3 @@
+[Regression] Press Enter does not work for live preview when specify value series using expression
+
+Created attachment 160572 screenshot Description: Press Enter does not work for live preview when specify value series using expression. Build number: 2.6.0.v20100302-0630 Steps to reproduce: 1. New a chart, binding to the data set. 2. Specify Category(X) Serires "row["CONTACTFIRSTNAME"]" and Value (Y) Series "row["CREDITLIMIT"]". 3. Change "row["CREDITLIMIT"]" to "row["CREDITLIMIT"]/1000" and press enter. Expected result: Live preview changed. Actual result: Live preview does not change. Error log: N/A

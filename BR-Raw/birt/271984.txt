@@ -1,0 +1,3 @@
+Fixed row height doesn't work in HTML [03]
+
+Created attachment 131614 report design Description: Row height does not work in Fix Layout when preview in HTML. Build number: 2.5.0.v20090413-0907 Steps to reproduce: 1. Preview the attached report design in HTML. Expected result: The result is the same as when preview as PDF. Actual result: The row height does not work if there is one chart higher in the cell. Error log: N/A

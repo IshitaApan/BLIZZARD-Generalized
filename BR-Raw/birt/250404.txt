@@ -1,0 +1,3 @@
+Marker selecting boxes are empty.
+
+Created attachment 114770 screenshot description: Marker selecting box is empty. build id: 2.3.2.v20081009-1200 steps to reproduce: 1. New a line or scatter chart. 2. On Format Chart tab, select Series->Value series and click Markers button. Actual result: See that the markers are not there, boxes are empty. See attached screenshot.

@@ -1,0 +1,3 @@
+Chart title does not change after switch to other chart type.[13]
+
+Created attachment 163352 screen shot description: Switch to radar chart and switch to bar chart, chart title is still radar. build id: 2.6.0 v20100330-0630 steps to reproduce: 1. Insert a chart, switch to type Radar. 2. Switch to bar chart. Actual result: Chart title is still radar.See attached screen shot.

@@ -1,0 +1,3 @@
+Positive/Negative color does not work in pie chart.[13]
+
+Created attachment 165703 screen shot description: Positive/Negative color does not work in pie chart. build id: 2.6.0 v20104021-0630 steps to reproduce: 1.New a data set from table customers in sample db. 2.New a pie chart, using the data set. 3. Select country as category series, select 'creditlimit - 100000'as value series. 4. On Format chart page, select positive/negative color in series palette. Actual result: Though the series value is negative, positive is used. See attached screenshot.

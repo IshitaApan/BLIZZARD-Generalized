@@ -1,0 +1,3 @@
+Enhance ODA framework integration with Database (JDBC) Connection Profile Category
+
+The ODA framework's current integration with DTP JDBC connection profile types (implemented for bug #204343) requires the use of a persisted database connection profile. Such requirement limits the usability of this type of profiles in an ODA consumer application. This enhancement aims to remove such requirement by supporting the automatic creation of a transient db connection profile instance based on a set of saved profile properties. The related ODA designer implementation will be enhanced as well to enable editing and saving the properties of a JDBC database profile, instead of an external profile reference, in its data source design.

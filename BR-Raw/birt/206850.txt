@@ -1,0 +1,3 @@
+[Regression] Error pops up when select value for a map or highlight rule to group header row [0302]
+
+Created attachment 80733 screenshot Description: Error pops up when select value for a map or highlight rule. Build number: 2.2.1.v20071019-0630 Steps to reproduce: 1. New a table binding to a data set. 2. Select one row and add a map/highlight rule and select "Select value...". Expected result: Value can be select. Actual result: Error pops up (see the attached screenshot) and no data can be retrieved. Error log: N/A

@@ -1,0 +1,3 @@
+Group header doesn't repeat when pagebreak happens in Web Viewer
+
+Created attachment 146134 report design Description: Group header doesn't repeat when pagebreak happens in Web Viewer, in other emitters the header is repeated correctly. Build number: 2.5.1.v20090901-0630 Steps to reproduce: 1, New a table with group or use attached report 2, Run in Web viewer 3, Check the CA Group header in the third page Expected result: The header is repeated rather than showing a empty header Actual result: When pagebreak happens group header doesn't repeat. Error log:

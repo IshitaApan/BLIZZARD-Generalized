@@ -1,0 +1,3 @@
+The chart in the "Preview" pane does not work correctly after "Save XML Source" and resize eclipse [1501]
+
+Created attachment 134196 screenshot Description: The chart in the "Preview" pane does not work correctly after "Save XML Source" and resize eclipse. Build number: 2.5.0.v20090429-1218 Steps to reproduce: 1. Open "Chart Examples" view. 2. Select one example and "Save XML Source". 3. Minimize or Restore Down eclipse and check the chart in the "Preview" pane. Expected result: The chart is drawn correctly. Actual result: See the screenshot. Error log: N/A

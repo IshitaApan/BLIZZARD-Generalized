@@ -1,0 +1,3 @@
+org.eclipse.birt.chart.engine has compile error in 2.5.0 daily build v20081027-0630
+
+Created attachment 116154 error report in daily build v20081027-0630 org.eclipse.birt.chart.engine has compile error in 2.5.0 daily build v20081027-0630. please see the attachment for details.

@@ -1,0 +1,3 @@
+[Automation][Regression]Exception is thrown out when click toc of report
+
+Created attachment 117027 report design Description: "The bookmark: __TOC_0 is Invalid. Please check and reset the link." is thrown out when click toc of report. Test Date: 20081105 Test Build: BIRT2.5.0 v20081105-0630 Step to reproduce: 1. Use the report attached 2. Preview it in webviewer 3. Click toc. Error log: The bookmark: __TOC_0 is Invalid. Please check and reset the link.

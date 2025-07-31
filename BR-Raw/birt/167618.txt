@@ -1,0 +1,3 @@
+Use ICU4J's DateFormat class in BIRT's Date/Time processing
+
+Current version of ICU4j (3.4) has problems in multithread date/time parsing, which is reported in http://bugs.icu-project.org/trac/ticket/5541 . To eliminate the multithread problem we temperorily use java's DateFormat class for date/time parsing.After ICU fix the above bug we should go back to ICU's DateFormat fot it is more powerful.

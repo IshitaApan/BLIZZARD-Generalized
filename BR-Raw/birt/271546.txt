@@ -1,0 +1,3 @@
+[Automation][Regression]Blank line in text disappeared in PDF
+
+Created attachment 131201 report design Description: Blank line in text disappeared in PDF. Test Build: BIRT2.5.0 v20090408 Step to reproduce: 1. Use the report attached. 2. Preview it in PDF Expect result: The blank line show on pdf document. Actual result: The blank line disappeared.

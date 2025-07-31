@@ -1,0 +1,3 @@
+Enhance Chart Engine to process grouped, uni-dimensional Data
+
+After bug208409 is implemented, the Chart Engine must be enhance to use the new interfaces that contain grouped data. The following changes are to be done: - Overload the bindData methods to use the new interface - Internally modify the series data binding in the Chart Engine if the data is already grouped - Make sure the old interface follows the original code path and is still supported. This is for uni-dimensional data coming from a dataset. Another enhancement is filed for multi-dimensional data.

@@ -1,0 +1,3 @@
+Vertical position of background image wasn't calculated correctly in postscript emitter
+
+Created attachment 166046 report design BuildId: 2.6.0.v201004260630 Steps to reproduce: 1. Preview the attached report design in postscript emitter Expected result: The background image should appear in the middle of Label. Vertical position: 50% Horizontal position: 50% Actual result: The background image is not in the middle of Label. The Vertical position seems not correctly.

@@ -1,0 +1,3 @@
+Highlight works differently when run SvgInteractivityViewer.java [13]
+
+Created attachment 168085 screenshot Description: Highlight works differently when run SvgInteractivityViewer.java. Build number: 2.6.0.v20100512-0630 Steps to reproduce: 1. Run /org.eclipse.birt.chart.examples/src/org/eclipse/birt/chart/examples/api/interactivity/SvgInteractivityViewer.java 2. Choose "Highlight Series" and click "Show". 3. Click the tube 5 times. Expected result: Highlight works the same as other format. Actual result: There are 4 status, and the 1st and the 2nd will only appear once. Error log: N/A

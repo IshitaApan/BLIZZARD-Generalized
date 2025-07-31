@@ -1,0 +1,3 @@
+Report title didn't appear on PDF
+
+Steps to reproduce: 1.New a report, set title to "abc" 2.Preview in PDF Expected result: "abc" appears as the report title Actual result: URL appears as the report title, such as "http://XXX/viewer/frameset?__report=D%3A%5Cworkspace_smoke%5Caa%5Cnew_report_28.rptdesign&__format=html&__svg=true&__locale=en_US&__designer=true&__masterpage=true&__rtl=false&__maxrows=500&-2032019958"

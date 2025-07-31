@@ -1,0 +1,3 @@
+[Automation][Regression]Style of grid disappeared
+
+Created attachment 123326 report design Description: Style of grid disappeared when preview report in html. Test Date: 20090122 Test Build: BIRT2.5.0 v20090122-0630 Step to reproduce: 1. Use the report attached 2. Preview it in html. Expect result: Golden file attached Actual result: Screen shot attached

@@ -1,0 +1,3 @@
+Exception is thrown out when preview a crosstab with column width and row height settings as XLS [1102] [1203]
+
+Created attachment 140660 report design Description: Exception is thrown out when preview a crosstab with column width and row height settings as XLS. Build number: 2.5.1.v20090702-0630 Steps to reproduce: 1. Preview the attached report design as XLS. Expected result: No exception. Actual result: Exception is thrown out.

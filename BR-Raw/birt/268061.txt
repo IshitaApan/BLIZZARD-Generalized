@@ -1,0 +1,3 @@
+Style name started with number created in previous version of Birt is not converted to valid style name.
+
+Created attachment 128347 test report description: Style name started with number created in previous version of Birt is not converted to valid style name. build id: 2.5.0 v20090311-0630 steps to reproduce: 1. New a report in Birt 2.3.1 and new a style with a name "123style". 2. Open the report in test build. Expected result: The style name will be converted to a valid one. Actual result: The style name is not converted and thus cause some issue when preview. The test report is attached.

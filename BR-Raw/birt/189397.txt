@@ -1,0 +1,3 @@
+Columns for exported should be listed as display order or order in binding pane.[0001]
+
+Description: Columns for exported should be listed as display order or order in binding pane. Build number:2.2.0.v200705281033 Steps to reproduce: 1. New sample db and dataset from OFFICES. 2. Drag the dataset to layout 3. Preview in Web Viewer 4. Click Export Data button. Expected result: Columns are listed as display orders Actual result: Columns are listed in meaningless order. Error log:N/A

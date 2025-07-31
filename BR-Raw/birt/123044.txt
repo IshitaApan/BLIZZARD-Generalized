@@ -1,0 +1,3 @@
+Preview attached file in PDF and the page break in the first item didn't happen.
+
+Description: Preview attached file in PDF and the page break in the first item didn't happen. Steps to reproduce: 1. Open attached file in bug #122898 2. Preview in PDF. Expected result: The first page should be blank because the first item set page-break-before to always. Actual result: The page break before action didn't happen.

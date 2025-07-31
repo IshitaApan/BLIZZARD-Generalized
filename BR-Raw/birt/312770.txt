@@ -1,0 +1,3 @@
+[Accessibility] Can not insert X/Y values in chart by shortcut key.
+
+Created attachment 168363 Screenshot Description: [Accessibility] Can not insert X/Y values in chart by shortcut key. Build: 2.6.0.v20100513-0630 Steps to reproduce: 1. New a chart 2. Tick off "Show data preview" in Select Data 3. Try to insert X/Y values by shortcut key Actual result: Can not insert X/Y values in chart by shortcut key.

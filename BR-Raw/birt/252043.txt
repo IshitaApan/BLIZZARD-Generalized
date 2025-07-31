@@ -1,0 +1,3 @@
+Cannot send report parameters when defininig interactive drilldown on the legend
+
+I looked at trying to create a drill down link on a legend item and pass a row context as a report parameter to the sub report. I don't think this feature is supported on the legend even though you're able to specify the row binding in the chart interactivity dialog. I'm attaching a screen shot that shows you that the user is able to specify the row context so that you know what i'm talking about. I'm also attaching the workspace that demonstrates this problem.

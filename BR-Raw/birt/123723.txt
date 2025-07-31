@@ -1,0 +1,3 @@
+I18n Problem
+
+I18n Problem Steps: a.properties b=abc a_zh_CN.properties b=\u8FD0\u884C\u6216\u8C03\u8BD5\u62A5\u8868 Java \u7A0B\u5E8F Eclipse Locale: zh_CN System Locale: en 1.Create a new report 2.Open Property Editor view, select report, select a in Resource File 3.Create a bar chart 4.Open chart builder, go to "Format Chart" tab, select Chart Area 5.Title, click "..." button, tick "Externalize Text", Select Key :b 6.Preview in html Actual Results: 1.The title is displayed as "abc" and URL: http://127.0.0.1:58190/viewer/run?__report=C%3A%2FDocuments+and+Settings%2Fjmo%2Fworkspace10%2Fgg%2Fapple.rptdesign&__format=html&__svg=true&__locale=null&__designer=true&__masterpage=true locale is null Expected Results: 1.The title is displayed as Chinese

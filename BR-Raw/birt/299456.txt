@@ -1,0 +1,3 @@
+The Sort direction should be disabled if there is any Sorting in "Filters and Sorting" [0004]
+
+Created attachment 155949 screenshot Description: The Sort direction should be disabled if there is any Sorting in "Filters and Sorting". Build number: 2.5.2.v20100113-0630 Steps to reproduce: 1. New a table binding to the data set. 2. Add group for the table, add Sorting in "Filters and Sorting", "Sort direction" is disabled. 3. Click "OK" to close the dialogue and reopen. Expected result: "Sort direction" is disabled. Actual result: "Sort direction" is enabled (see the screenshot). Error log: N/A

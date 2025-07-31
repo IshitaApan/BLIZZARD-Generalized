@@ -1,0 +1,3 @@
+[Automation][Regression]Blank row of table header disappers in PDF
+
+Created attachment 127436 report design Description: Blank row of table header disappers in PDF Test Date: 20090304 Test Build: BIRT2.5.0 v20090304-0630 Step to reproduce: 1. Use the report attached 2. Preview it in PDF format Expect result: The table header should show a blank row in PDF. Actual result: The table header disappeared.

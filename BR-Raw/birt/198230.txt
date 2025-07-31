@@ -1,0 +1,3 @@
+The long xtab will bring on the word error[1102]
+
+Created attachment 74901 report design Description: The long xtab will bring on the word error[1102] Please see the attached report. It contain a long width xtab. When preview as DOC, and it will pop up an word error.

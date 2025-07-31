@@ -1,0 +1,3 @@
+Function is not displayed for added aggregation in Select Data Binding in chart builder.[13]
+
+Created attachment 146042 screen shot description: Function is not displayed for added aggregation in Select Data Binding in chart builder. steps to reproduce: 1. Insert a chart, binding to a data set. 2. On Select Data page, click the Data Binding button, and add an aggregation. Actual result: The aggregation function is not displayed.See attached screen shot.

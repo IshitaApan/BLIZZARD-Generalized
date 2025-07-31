@@ -1,0 +1,3 @@
+Border width property with value 'thin/media/thick'  does not work in CSS shorthand.[0000]
+
+Created attachment 145523 test report description: Border width property with value 'thin/media/thick' does not work in CSS shorthand. build id: 2.5.1 v20090825-0630 steps to reproduce: 1. Insert a html text, set border width with CSS shorthand. eg: <p style = "border: thick double #ff0000">borders thick</p> 2. Preview in pdf or html. Actual result: The border is not displayed. If you change width to 10px or do not use shorthand, it works.

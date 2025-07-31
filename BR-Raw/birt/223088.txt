@@ -1,0 +1,3 @@
+PDF Pagination
+
+Created attachment 92802 Report Created with BIRT 2.2.2 I just updated to BIRT 2.2.2. Now PDF Reports created with the Report Designer are shrinked to fit a single page. For my prupose most Reports are created as multipage PDF with dynamic Grids and Tables. Pagination was conotrolled with Page Break propertie Auto, Avoid, Always. Now only always seems to work. I Attach PDF's created with BIRT 2.2.1.1 and BIRT 2.2.2 Franzi

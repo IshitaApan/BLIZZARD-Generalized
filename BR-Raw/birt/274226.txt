@@ -1,0 +1,3 @@
+[Regression] Exception is thrown out after update BIRT from update site and restart [00]
+
+Description: Exception is thrown out after update BIRT from update site and restart. Build number: 2.5.0.v20090427-0630 Steps to reproduce: 1. Download BIRT all-in-one and start. 2. Click top menu Help->Install New Software, add site "http://qa-build/UpdateSite/2_5_0/" and select "Eclipse BIRT Report Designer Framework" and click OK. 3. After the installation, it is recommended to restart eclipse. Expected result: No exception after restart. Actual result: Exception is thrown out.

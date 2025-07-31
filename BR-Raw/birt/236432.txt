@@ -1,0 +1,3 @@
+How to change pdf output file name
+
+I'm looking for an easy way to change pdf output file name and concatenate it with datetime stamp,such as "reportname_06-06-2008-14:22:32" or something like that. It would be nice if user could define a output file name and if he/she whish, somewhere in code, can concatenate anything else as a string to output filename.

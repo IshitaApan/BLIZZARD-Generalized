@@ -1,0 +1,3 @@
+Multithreads issue
+
+a static hashmap in class HTMLServerImageHandler has not been synchronized which may leads to that the same images are handled(eg: write to disk) multiple times.

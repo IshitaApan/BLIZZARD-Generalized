@@ -1,0 +1,3 @@
+Table/List Display Inline does not work in HTML/WORD in Linux [0300]
+
+Created attachment 158130 Report Description: Table Display Inline does not work in HTML/WORD in Linux [0300] Build: 2.5.2.v20100203-0630 Steps to reproduce: 1. New a report with some table and label 2. Set display inline 3. Preview in HTML/PDF/WORD Actual result: Table/List Display Inline does not work in HTML/WORD in Linux, works fine in PDF

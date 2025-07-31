@@ -1,0 +1,3 @@
+Preview <blockquote> tag in PDF and PPT fails with NullPointerException
+
+Previewing an .rtpdesign file that contains text or dynamic text widgets that use <blockquote> tags in PDF or powerpoint formats will fail with a NullPointerException if there are further HTML tags within the <blockquote>. Steps to reproduce: 1. Open the attached blockquote_failure.rptdesign file in the Report Design perspective. 2. Click Run > View Report > As PDF, or Run > View Report > As PPT 3. An Error dialog appears with the message: "+ org.eclipse.birt.report.service.api.ReportServiceException: Error happened while running the report.; nested exception is: java.lang.NullPointerException"

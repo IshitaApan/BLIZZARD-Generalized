@@ -1,0 +1,3 @@
+The grouping unit text box is empty when reopening the dialog in Chinese locale.
+
+Created attachment 117038 screenshot description: The unit text box is empty when reopening the dialog in Chinese locale. build id: 2.3.2 v20081105-0730 steps to reproduce: 1. Start birt in Chinese locale. 2. New a chart with a text type X axis. 3. Open the sort and groping dialog of X series. Enable grouping. 4. Select string as grouping unit, close and reopen the dialog. Acutal result: In step3 and step4, the grouping unit text box is empty.Please see attached screenshot.

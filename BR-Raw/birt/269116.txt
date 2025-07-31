@@ -1,0 +1,3 @@
+image in text is not clipped in fix layout if its height is larger than text height
+
+Created attachment 129159 report design Description: image in text is not clipped in fix layout if its height is larger than text height Build number: 2.5.0.v20090318-0630 Steps to reproduce: 1, New text 2, Set height and width of text to 200px and 200px 3, Insert a image in text: <img src="book.jpg" width="500" height="500" /> 4, Set the report layout to fix layout 5, Preview in PDF (or use attached reports) Expected result: The image height is clipped. Actual result: Image height is not clipped. Error log:

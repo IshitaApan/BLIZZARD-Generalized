@@ -1,0 +1,3 @@
+Junit test of org.eclipse.birt.report.engine.tests can't generate test result in 2.5.0 daily build v20090327-1033
+
+Created attachment 130073 test report in 2.5.0 daily build v20090327-1033 Junit test of org.eclipse.birt.report.engine.tests can't generate test result in 2.5.0 daily build v20090327-1033¡£ Please see the attachment for details.

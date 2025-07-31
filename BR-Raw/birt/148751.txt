@@ -1,0 +1,3 @@
+[regression]Page break in data inside detail of list with group will cause issue in pdf
+
+Description: Page break in data inside detail of list with group will cause issue in pdf. Steps to reproduce: 1. Insert a list, add a group 2. Insert a data to list detail, set page-break-after always to it. 3. Preview in web viewer and pdf Expected result: Data are displayed with correct page break Actual result: In pdf, data are lost. The group contains 5 data rows but in pdf only 2 data rows are displayed.

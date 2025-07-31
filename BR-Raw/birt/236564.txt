@@ -1,0 +1,3 @@
+Set initial size when create image item
+
+When create a new image item, we need set the initial size according to the image content size. If the image is dynamic or we cannot get the correct content size, we still set the initial size to the size from the dummy image.

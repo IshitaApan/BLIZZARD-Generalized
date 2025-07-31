@@ -1,0 +1,3 @@
+IsHostPage doesn't work for birt:report tag.[0603]
+
+Description: IsHostPage doesn't work for birt:report tag. Build number:2.2.0.v20061216 Steps to reproduce: 1. New A BIRT Web project, new a jsp file based on BIRT template 2. Input content in body as: <birt:report id="1" 			 contextRoot="wtp_jsp_tags" reportDesign="birt_tag_sample.rptdesign" isHostPage="true"> </birt:report> <birt:report id="2" 	 contextRoot="wtp_jsp_tags" reportDesign="birt_tag_sample.rptdesign" isHostPage="true"> </birt:report> 3. Start the server and input http://host:port/wtp_jsp_tags/jspfile to run the jsp file. Expected result: Only one report displays. Actual result: Two report contents show up. Error log:N/A

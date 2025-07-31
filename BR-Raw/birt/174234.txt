@@ -1,0 +1,3 @@
+Master pages don't work in Word emitter
+
+A document that formats with first page as an envelope and subsequent pages as letter sized paper only formats as envelope through out in the Word emitter.

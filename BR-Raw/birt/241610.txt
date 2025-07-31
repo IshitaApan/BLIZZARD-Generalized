@@ -1,0 +1,3 @@
+Column level pagebreak doesn't repeat the first level's header
+
+Created attachment 108019 exported pdf Description: Column level pagebreak doesn't repeat the first level's header Build number: 2.3.1.v20080722-0630 Steps to reproduce: 1, Download attached report or New a crosstab with two dimensions 2, The column dimensions has at least two levels like year and quarter 3, In column area, set year and quarter pagebreaks and always including first 4, Preview in WebViewer or PDF Expected result: If repeat row header is true, the first level should be repeated in each pagebreak. Actual result: The first level was not repeated, please see attached PDF or screenshot

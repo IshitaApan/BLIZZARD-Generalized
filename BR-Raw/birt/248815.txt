@@ -1,0 +1,3 @@
+The table cell border does not work correctly in PDF [1200]
+
+Created attachment 113643 report design Description: The table cell border does not work correctly in PDF. Build number: 2.3.1.v20080918-0630 Steps to reproduce: 1. Preview the attached report design in PDF. Expected result: Border does not work correctly. Actual result: Some of the cells without border are shown with borders (see the attached screenshot). Error log: N/A

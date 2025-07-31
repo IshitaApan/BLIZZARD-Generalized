@@ -1,0 +1,3 @@
+[Automation][Regression]ReportElementInstance.getNamedExpressionValue does not work properly.
+
+Created attachment 150064 report design steps to reproduce: - use the attached report design and Java class - preview report expected behavior: - the Java script is executed correctly, output "succeed" actual behavior: - there were nothing on preview page

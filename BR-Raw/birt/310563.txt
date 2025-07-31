@@ -1,0 +1,3 @@
+Exception is thrown out when create chart view for crosstab.[13]
+
+Created attachment 166155 test report description: Exception is thrown out when create chart view for crosstab. build id: 2.6.0 v20100427-0630 steps to reproduce: 1. New a crosstab. 2. Create chart view for the crosstab and click Finish in chart builder. Actual result: Exception is thrown out in error log.

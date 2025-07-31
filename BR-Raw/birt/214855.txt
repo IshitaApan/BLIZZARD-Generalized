@@ -1,0 +1,3 @@
+Add new chart types in examples view
+
+The chart examples view needs to be updated with the new chart types: Gannt, Bubble, Cone, Tube, Difference

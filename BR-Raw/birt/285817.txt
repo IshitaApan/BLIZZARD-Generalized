@@ -1,0 +1,3 @@
+Failures found in junit test of org.eclipse.birt.report.tests.engine in daily build 20090806-0630
+
+Created attachment 143602 unit test report Failures found in junit test of org.eclipse.birt.report.tests.engine in daily build 20090806-0630. Please see the attachment for details.

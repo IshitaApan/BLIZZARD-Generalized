@@ -1,0 +1,3 @@
+Schema name is not included in the generated text from Drag and Drop
+
+Build ID: I20080617-2000 Steps To Reproduce: 1.edit a JDBC data set 2.input filter text and apply filter 3.drag a table, view or SP node into query text. 4.you will find that its schema name is not automatically genereated before its name. More information:

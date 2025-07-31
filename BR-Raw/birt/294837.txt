@@ -1,0 +1,3 @@
+Marker label is not displayed correctly when axis label is formatted.[13]
+
+Created attachment 151914 screen shot description: Marker label is not displayed correctly when axis label is formatted. build id: 2.5.2 v20091111-0630 steps to reproduce: 1. Insert a chart. 2. On Format Chart page, select X-Axis node and click Format button. Select Upper Case for axis label. 3. Click the Markers button to add a marker line or range.And check marker label as visible. Actual result: Marker label is not displayed correctly. See attached screen shot.

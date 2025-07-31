@@ -1,0 +1,3 @@
+[Automation][Regression]Image file from shared resources folder can not show correctly in designer
+
+Created attachment 116390 report design Description: Image file from shared resources folder can not show correctly in designer. Test Build: 20081029 Test Date: BIRT2.5.0 v20081029-0630 Step to reproduce: 1. Create a image item using a image file from shared resources folder Expect result: This image can show on designer layout. Actual result: Please refer to the screenshot attached

@@ -1,0 +1,3 @@
+The series order of 3D Chart is not correct [13]
+
+Created attachment 134362 screenshot Description: The subtype icon of 3D Bar Chart is not correct. Build number: 2.2.0.v20070621-0630 Steps to reproduce: 1. Drag Chart from the Palette to the Layout, add one more series, select type as Bar, change Dimension to 3D, check the subtype icon. Expected result: The subtype icon works the same as live preview. Actual result: For the subtype icon, the second series is drawn after the first one. For the live preview, the second series is drawn before the first one. Error log: N/A

@@ -1,0 +1,3 @@
+Marker range should not exceed the plot area even its range is out of the axis scale.
+
+Created attachment 143255 screen shot description: Marker range should not exceed the plot area even its range is out of the axis scale. build id: 2.5.1 v20090803-0630 steps to reproduce: 1. New a chart. 2. Add marker range, with its range out of the axis scale. Actual result: The marker is displayed out of the plot area within axis.

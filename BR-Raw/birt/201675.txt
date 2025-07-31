@@ -1,0 +1,3 @@
+[Automation][Smoke][Regression]Visibility does not work.
+
+Created attachment 77324 report design Test Date: 20070830 Steps to reproduce: 1. Use the attached report design 2. Preview it Expected result: Visibility should work correctly Actual result: An exception is thrown out. Error log: org.eclipse.birt.report.service.api.ReportServiceException: Error happened while running the report; nested exception is: java.lang.ArrayIndexOutOfBoundsException: -1

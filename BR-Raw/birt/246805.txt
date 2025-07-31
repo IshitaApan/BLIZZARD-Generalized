@@ -1,0 +1,3 @@
+[Regression] "The choice value 'any' is not found" exception is thrown out when new a Mysql data set with a parameter [0703]
+
+Created attachment 112150 screenshot Description: "The choice value 'any' is not found" exception is thrown out when new a Mysql data set with a parameter . Build number: 2.3.1.v20080909-0630 Steps to reproduce: 1. New a Mysql data source: Driver Class: com.mysql.jdbc.Driver (v3.1) Drover URL: jdbc:mysql://spmdb/test User Name / Password: root 2. New a data set: select * from accident where accident.id=?, click Finish. Expected result: No exception and data set is created correctly. Actual result: Exception is thrown out and data set can not be created. Error log: See the screenshot.

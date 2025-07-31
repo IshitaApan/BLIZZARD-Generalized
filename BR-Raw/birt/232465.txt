@@ -1,0 +1,3 @@
+Exception shows in chart builder using joint data set
+
+Created attachment 100617 report design Description: Exception shows in chart builder using joint data set. Build number: 2.3.0.v20080516-0630 Steps to reproduce: 1. Create a crosstab using joint dataset 2. Create chart view from the crosstab 3. In "Select data" panel, select value for Y-series from listbox. Expected result: The Y-series could be set without errors. Actual result: Exceptions show up in the top of chart builder. Error log: N/A Note that, the same behaviour is correct with the crosstab with normal dataset. And though there is exception in UI, the report can still be previewed. Please see the attached report design for details.

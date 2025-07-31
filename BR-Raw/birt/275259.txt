@@ -1,0 +1,3 @@
+Table does not work correctly in Web Viewer if horizontal page break happens [0002] [0301]
+
+Created attachment 134743 screenshot Description: Table does not work correctly in Web Viewer if horizontal page break happens. Build number: 2.5.0.v20090507-0630 Steps to reproduce: 1. Preview the attached report design in Web Viewer. 2. Go to the 6 page and check the first table row. Expected result: The first cell should be blank. Actual result: The content of the second cell take the place of the first (see the screenshot). Error log: N/A

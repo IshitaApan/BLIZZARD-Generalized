@@ -1,0 +1,3 @@
+Error occurs in Junit test of org.eclipse.birt.report.engine.emitter.html.tests
+
+Created attachment 99876 test report Error occurs in Junit test of org.eclipse.birt.report.engine.emitter.html.tests. Please see the attachment for details.

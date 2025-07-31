@@ -1,0 +1,3 @@
+[Regression] The xtab second row level takes the place of the first in some pages when preview in Web Viewer [0002] [1102]
+
+Created attachment 146719 report design Description: The xtab second row level takes the place of the first in some pages when preview in Web Viewer. Build number: 2.5.1.v20090909-0630 Steps to reproduce: 1. Preview the attached report design in Web Viewer. Expected result: The crosstab is drawn correctly. Actual result: The second level takes the place of the first level in the 3rd and 13th page. Error log: N/A

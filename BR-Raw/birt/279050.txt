@@ -1,0 +1,3 @@
+[Automation]Image size in HTML should keep identical with PDF
+
+Created attachment 138233 report design Description: Image size in HTML should keep identical with PDF when image width is 0. Step to reproduce: 1. Create a image in a report. 2. Set image width to 0. 3. Leave image height as blank. 4. Preview report in both PDF and HTML. Expect result: The behavior of PDF and HTML should be identical. Actual result: Image disapperaed in HTML but shows actual size in PDF.

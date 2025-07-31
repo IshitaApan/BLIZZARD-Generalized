@@ -1,0 +1,3 @@
+Inconsistent constant values for SortType defintion
+
+In rom.def, the allowed values for SortType is "sort-on-group-key" and "complex-sort", but in DesignChoiceConstants, it's "sortOnGroupkey" and "complexSort". These values should be consistent.

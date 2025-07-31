@@ -1,0 +1,3 @@
+The image is cut when set page-break-after:avoid for the label before it [0301] [1200]
+
+Created attachment 128001 report design Description: The image is cut when set page-break-after:avoid for the label before it. Build number: 2.5.0.v20090309-0630 Steps to reproduce: 1. Preview the attached report design as PDF. Expected result: The image is shown completely. Actual result: The image is cut. Error log: N/A

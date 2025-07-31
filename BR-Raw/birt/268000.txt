@@ -1,0 +1,3 @@
+Page break and blank page happened if image which has fit to container with another report item in a cell
+
+Created attachment 128300 reports Description: Page break and blank page happened if image which has fit to container with another report item in a cell Build number: 2.5.0.v20090311-0630 Steps to reproduce: 1, Open attached report or insert a 1*1 grid in layout 2, Insert a enlarged image in the cell and set the fit to container of image to true 3, Set the height of image to 6in 4, Insert a text in front of the image in cell and set the height of text to 3in 5, Preview in PDF Expected result: No pagebreak and empty page happened. Actual result: Pagebreak happened between text and image and there has an empty page left behind the image. Error log:

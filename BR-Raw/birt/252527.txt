@@ -1,0 +1,3 @@
+There is an extra cell border when set the border of the crosstab measure header cell in PDF [1200] [1102]
+
+Created attachment 116380 report design Description: There is an extra cell border when set the border of the crosstab measure header cell in PDF. Build number: 2.3.2.v20081029-0730 Steps to reproduce: 1. Preview the attached report design as PDF. Expected result: Only the border of the crosstab measure header cell is drawn. Actual result: There is an extra cell border (see the screenshot). Error log: N/A

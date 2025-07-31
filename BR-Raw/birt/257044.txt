@@ -1,0 +1,3 @@
+Refresh problem when the dataset used by the chart is updated.
+
+Created attachment 119131 screenshot description: Refresh problem when chart uses a dataset from library. build id: 2.3.2 v20081201-0730 steps to reproduce: 1. New a library with a dataset and create a chart with the dataset. 2. New a report, use the chart from the library. 3. Modify the dataset in the library, like using another table. 4. Switch to the report and open the chart builder, on select data tab, click data binding and click refresh. Actual result: The data preview table will become disabled and you can not re-define the series. Please see attached screenshot.

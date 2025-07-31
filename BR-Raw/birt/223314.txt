@@ -1,0 +1,3 @@
+Crosstab border works differently in HTML and PDF [1102]
+
+Created attachment 93002 screenshot Description: Crosstab border works differently in HTML and PDF. Build number: 2.3.0.v20080320-0800 Steps to reproduce: 1. Preview the attached report design in HTML and PDF. Expected result: The border works the same. Actual result: See the screenshot. Error log: N/A.

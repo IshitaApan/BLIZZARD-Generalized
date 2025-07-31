@@ -1,0 +1,3 @@
+Property Editor for chart report item: deferred
+
+Property Editor for chart report item(BPS16): deferred

@@ -1,0 +1,3 @@
+Switch between the window of  two design file. The display of the binding list is abnormal.
+
+Description: Switch the window of between two design file. The display of the binding list is abnormal. Step to reproduce: please refer to the screenshot Actual result: The first design file’s binding data set list will display the second one’s.

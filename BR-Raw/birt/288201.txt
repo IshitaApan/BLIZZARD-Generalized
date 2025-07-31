@@ -1,0 +1,3 @@
+Border of cell shouldn't be applied on the chart in the cell[1203]
+
+Created attachment 146138 report design Description: Unexpected split cell is generated in XLS preview when report has a chart[1203] Build number: 2.5.1.v20090901-0630 Steps to reproduce: 1, Open attached report design 2, Run in XLS emitter 3, Check the third cell in first row Expected result: It is not split Actual result: It is split unexpectedly. Error log:

@@ -1,0 +1,3 @@
+Horizontal page break with crosstab is not user expected result
+
+Created attachment 101920 report design Description: There are two measures in crosstab and if we do the page break on column level, the measures of one level will be splited in two pages. Build number: 2.3.0.v20080523-0630 Steps to reproduce: 1, Open attached report design 2, Preview in web viewer Expected result: There are two measures in crosstab, when page break happen, they should be in the same page Actual result: The measures under one level will be in two pages. Error log:

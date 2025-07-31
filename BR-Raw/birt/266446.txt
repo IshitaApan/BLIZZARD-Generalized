@@ -1,0 +1,3 @@
+[Automation][Regression]Grid in Masterpage footer block the preview in web viewer
+
+Created attachment 126964 reports Description: [Automation][Regression]Grid in Masterpage footer block the preview in web viewer Build number: 2.5.0.v20080227-0630 Steps to reproduce: 1, New a report 2, Insert a Grid into Master page footer 3, Preview report in web viewer Expected result: Preview successfully Actual result: The report keeps running without ending and the CPU is 100% used Error log:

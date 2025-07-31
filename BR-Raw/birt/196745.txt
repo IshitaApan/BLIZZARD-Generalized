@@ -1,0 +1,3 @@
+Data Engine implementation of BPS80- Result Set Sharing
+
+This Bugzilla task tracks the Data Engine implementation of the following BPS for 2.2.1 release. http://wiki.eclipse.org/BPS80

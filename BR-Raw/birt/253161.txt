@@ -1,0 +1,3 @@
+Invalid parameter of aggregation should throw exception rather than print out error message
+
+Description: Invalid parameter of aggregation should throw exception rather than print out error message Build number: 2.3.2.v20081103-1221 Steps to reproduce: 1, New a CONCATENATE Aggregation 2, Set the max length to 0 3, Preview Expected result: Throw exception to tell user the parameter of max length is invalid Actual result: The error message is printed out in html content. Error log:

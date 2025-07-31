@@ -1,0 +1,3 @@
+Tooltip for two different series always show the same
+
+Created attachment 163354 report Description: In chart with two series in y-series, the tooltip always the same. Build number:2.6.0.v20100330-0630 Steps to reproduce: 1. Open attached chart. 2. Select first series, move mouse over the expression, see average(row["creditilimit"]) tooltip. 3. Select second series, tooltip still shows the same as step2 Expected result: Tooltip reflect different series focus Current behavior: Always display the first focused series tooltip content

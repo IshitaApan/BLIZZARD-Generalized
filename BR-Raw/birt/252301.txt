@@ -1,0 +1,3 @@
+can not support Numbering and Bulleting in exel report
+
+can not support Numbering and Bulleting in exel report. Please preview attached report in excel, can not get the numbering and bulleting.

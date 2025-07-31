@@ -1,0 +1,3 @@
+[Automation][Regression]Can not set show/hide group levels to show and hide levels in crosstab
+
+Created attachment 115008 report design Description: Can not set show/hide levels to show and hide levels in crosstab. Test Date: 20081014 Test Build: BIRT2.5.0 v20081014-0630 Step to reproduce: 1. Use the report attached 2. Click rows "year" to set show/hide group levels 3. Tick the box before quarter 4. Click ok button Expect result: The levels can be set correctly Actual result: The action to set show/hide group levels does not take any effect.

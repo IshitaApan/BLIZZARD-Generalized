@@ -1,0 +1,3 @@
+Error happened while preview the report with event handler as PDF
+
+Created attachment 140750 Java Object and reprot design Description: Error happened while preview the report with event handler as PDF Build: <2.5.1.v20090703-0932> Steps to reproduce: 1. Download attached reprot and java object 2. Preview in PDF Actual result: Error happend when the xtab with several group levels. If change group level to one level or two level, there's no exception. Expect result: No exception. Error log: In attached zip.

@@ -1,0 +1,3 @@
+Problem with "Select Value" in "Edit Filter Condition" dialog of Crosstab[1102]
+
+Description: The double quotation mark is missed when choose a string value from "Select Value" in "Edit Filter Condtion" dialog. Build verison:2.2.0.v20070530-0630 Steps to reproduce: 1. Create a sample datasource and dataset. Bind with a cube. 2. Create a crosstab in the layout, set "Filters" on property editor view. In the "Edit Filter Condition" dialog, use "Select Value" to choose a string type value from dataset. Exception throws out when preview. 3. But if add double quotation mark on the value, preview is ok. Expected Result: Double quotation mark will be added automatically on the string type value.

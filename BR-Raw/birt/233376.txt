@@ -1,0 +1,3 @@
+The content only resides in the bottom right part of the page when export report as PPT with actual size [1205]
+
+Created attachment 101424 report design Description: The content only resides in the bottom right part of the page when export report as PPT with actual size. Build number: 2.3.0.v20080522-0630 Steps to reproduce: 1. Preview the attached report design and export report as PPT with actual size. Expected result: The content are in the right place. Actual result: The content only resides in the bottom right part of the page (see the screenshot) Error log: N/A

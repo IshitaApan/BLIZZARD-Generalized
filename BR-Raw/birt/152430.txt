@@ -1,0 +1,3 @@
+Key can modify to empty string
+
+When fixing bug 150579, I found this problem. Steps to produce: 1.Drag a table to layout; 2.On property editor page, select "Sorting" tab; 3.Click "Add" button, then an item is added; 4.Modify key column to empty string, and no exception is thrown. It menas that the key column of this item CAN be set to empty. But in step 3, when adding a sortkey, if I modify the source code to set key property to be empty, then this item can NOT be added, and it throws an exception to tell me that the "key" can not be empty. they're inconsistent. Can you forbid to set empty string to key property or throw an exception when setting empty string. The same problem occurs in the "Expression" column on page "Filter".

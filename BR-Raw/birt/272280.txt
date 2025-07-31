@@ -1,0 +1,3 @@
+Text of label is not clipped when preview in HTML if label has height and width in fix layout
+
+Created attachment 131904 report and generated HTML file Description: Text of label is not clipped when preview in HTML if label has height and width in fix layout Build number: 2.5.0.v20090415-0630 Steps to reproduce: 1, New a fix layout report 2, Insert a label and specify its width and height 3, Input some text and text is over the width and height of label 4, Set background color of the label 5, Preview in HTML Expected result: The over part text is clipped. Actual result: The background color fit for the size of label, but the text is not clipped see attached report and generated HTML File Error log:

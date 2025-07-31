@@ -1,0 +1,3 @@
+IEngineTask getErrors()
+
+Method getErrors() in org.eclipse.birt.report.engine.api.IEngineTask returns a java.util.List. There's no doc which types can be contained in this list - only (sub)types of java.lang.Exception? Or really everything? Please make javadoc for this item clearer.

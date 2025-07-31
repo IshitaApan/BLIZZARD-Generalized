@@ -1,0 +1,3 @@
+[Accessibility]Underline of shortcut character for POJO datasource properties are not displayed.
+
+Created attachment 230841 Shortcut underline Branch:BIRT OS branch. Steps to reproduce: 1.Open OS build, new a report, create a POJO data source; 2.View the 'Runtime Properties' and 'Design Time Preperties' tab; Actual Result: Shortcut 'R' for 'Runtime Properties' and 'P' for 'Design Time Preperties' don't display the underline below shortcut character.

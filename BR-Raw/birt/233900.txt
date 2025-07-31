@@ -1,0 +1,3 @@
+Interactivity on minimum slice does not work correctly.
+
+Created attachment 101922 report design description: Interactivity on exploded slice does not work correctly. build id: 2.3.0 v20080523-0630 steps to reproduce: 1. New a pie chart. 2. Explode one of its slice. 3. Set an interactivity on value series: Event: Mouse Click, Action: Hyperlink to URI:"http://www.actuate.com" 4. Preview and click the exploded slice. Actual result: Will link to a blank page.If you set showtooltip action on it, it also works differenly. Expected result: Will link to actuate.com, just like clicking on other slice.

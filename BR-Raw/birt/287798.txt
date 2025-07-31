@@ -1,0 +1,3 @@
+Default Axis line color is transparent.[13]
+
+Created attachment 145765 screen shot description: Default Axis line color is transparent build id: 2.5.1 v20090827-0630 steps to reproduce: 1. New a chart, check the color of axis. Actual result: It's transparent. This is not correct. If you set to transparent explicitly, it will be invisible. See attached screen shot.

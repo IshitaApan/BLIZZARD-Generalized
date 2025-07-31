@@ -1,0 +1,3 @@
+Issue about the drop down list in the extraction box of the online BIRT-viewer
+
+I am using the N20060911 build of BIRT. I've deployed a report online using hte BIRT-viewer. When i select the export data icon the export box comes up with a drop down listing of all the datasets used in the reports. The problem is that the names of the datasets in the dropdown list names everything as ELEMENT_1146, ELEMENT_1234, ELEMENT_3456, etc... and not as the names that i used for the datasets themselves like CUSTOMER_QUERY, PAYMENTS_QUERY, etc... Is there any way to have the BIRT-viewr display the dataset names instead? Would it also be possble to hide some datasets so they don't appear in the export box?

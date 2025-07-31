@@ -1,0 +1,3 @@
+Error found in junit test of   org.eclipse.birt.report.engine.emitter.html.tests in daily build 20090806-0630
+
+Created attachment 143605 unit test report of daily build 20090806-0630 Error found in junit test of org.eclipse.birt.report.engine.emitter.html.tests in daily build 20090806-0630. Please see the attached html for details.

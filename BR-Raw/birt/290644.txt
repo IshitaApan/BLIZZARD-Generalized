@@ -1,0 +1,3 @@
+[Automation][Regression]Xls file can not be opened
+
+Created attachment 148197 report design Description: Export report to xls format, error happened while opening xls file. Test Build: BIRT2.5.2 v20090927-0630 Step to reproduce: 1. Use the report attached 2. Export report to xls format Expect result: Xls file can be opened without error. Actual result: Xls file contains error.

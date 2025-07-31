@@ -1,0 +1,3 @@
+Blank column on visibility column in excel[0300]
+
+Created attachment 78948 report design Description: Visibility column in excel issue[0300] Set a specific visibility as excel on a column. When preview as Excel, it will produce a blank column. Expected result: The blank column will not produce in excel.

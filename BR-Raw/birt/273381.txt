@@ -1,0 +1,3 @@
+The first level position is incorrect when level pagebreak happened
+
+Created attachment 132893 report Description: Preview attached report in Web viewer, check the 5th page, 2003 year should belong to the first 4 page, but it displayed in the 5th page and 2004 year is disappeared. Attached report has a crosstab and I set pagebreak on year and quarter level, the interval is 1. Build number: 2.5.0.v20090423-1014

@@ -1,0 +1,3 @@
+Provide a horizontal scroll bar when the contents in chart build is not shown completely [13]
+
+Created attachment 153315 screenshot Description: Provide a horizontal scroll bar when the contents in chart build is not shown completely. Build number: 2.5.2.v20091130-0630 Steps to reproduce: 1. New a chart, in "Select Data" tab, drag the chart builder to a smaller width. Expected result: There is a horizontal scroll barn to indicate contents are not shown completely. Actual result: See the screenshot. Error log: N/A

@@ -1,0 +1,3 @@
+[Regression] Hyperlink can not work in PPT
+
+Description: Hyperlink can not work in PPT, and it works in other emitters. Build: <2.5.0.v20090526-0630> Steps to reproduce: 1. New a report and insert a label 2. Add the label hyperlink as "http://www.google.com" 3. Preview in ppt Actual result: Hyperlink does not work. Error log N/A

@@ -1,0 +1,3 @@
+Problem when export the attached report design with different format.
+
+Created attachment 86079 report design There're several problem when export the attached report design. build version: 2.3.0 v20070103-0800 steps to reproduce: 1. Download the attached report design. 2. Preview the design file with web viewer. 3. Click the export report button. 4. Export report in Excel/Postscript/PDF/Powerpoint. Expected result: The report can be exported in different format correctly. Actual result: When export in excel format, problem occurs. See attachment:excel. When export in Postscript/PDF, some text are clipped. When export in Powerpoint, some text are displayed in the space between two pages.

@@ -1,0 +1,3 @@
+[regression]no field assist for label span in chart[13]
+
+Description: In chart builder, no field assist icon for label span It's a regression of bug #267586 Build number:2.5.1.v20090826 Steps to reproduce: 1. Insert a chart, go to Format Chart->X-axis->label span, tick on Fixed Expected result: field assist icon for label span, refer to #267586 Actual result: No field assist Error log:n/a

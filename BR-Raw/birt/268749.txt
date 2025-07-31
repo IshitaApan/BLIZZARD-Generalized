@@ -1,0 +1,3 @@
+[Accessibility] Headers/Scope does not work for crosstab cell [17]
+
+Created attachment 128896 report design Description: Headers/Scope does not work for crosstab cell. Build number: 2.5.0.v20090316-0939 Steps to reproduce: 1. New a crosstab binding to the data cube. 2. Select one row header cell and go to Property Editor->Advanced. 3. Set value for Headers/Scope. 4. Preview the report in HTML and check the HTML source. Expected result: Headers/Scope works. Actual result: Headers/Scope does not work. Error log: N/A

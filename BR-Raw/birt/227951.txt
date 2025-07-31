@@ -1,0 +1,3 @@
+Empty sheets in preview output.
+
+Created attachment 96773 report design Get down the attached sample report and preview. In pdf, postscript and ppt emitter, there'are empty sheets. Please see attached pdf for example.

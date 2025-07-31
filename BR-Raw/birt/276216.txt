@@ -1,0 +1,3 @@
+Table dragged from library is corrupted after changing the namespace of library
+
+Created attachment 135717 report and library files Description: Table dragged from library is corrupted after changing the namespace of library Build number: 2.5.0.v20090514-0630 Steps to reproduce: 1, Download attached three reports: libA.rptdesign, libA.rptlibrary and libB.rptlibrary 2, Copy them into your BIRT Project 3, Open libA.rptdesign 4, Go to Resource Explorer, drag table from libB.rptlibrary into libA.rptdesign 5, After step4, a dialog popped up said the namespace is in use, so change the namespace to libC and click OK Expected result: After step5, the table is show completed but not to be corrupted Actual result: After step5, the table is corrupted. Error log:

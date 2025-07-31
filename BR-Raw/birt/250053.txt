@@ -1,0 +1,3 @@
+altText for chart and image does not work correctly when preview as PPT [1205]
+
+Created attachment 114518 report design Description: altText for chart and image does not work correctly when preview as PPT. Build number: 2.3.2.v20081007-0630 Steps to reproduce: 1. Put the .properties file in the resource folder. 2. Preview the attached report design as PPT. Expected result: All the altText for chart and image are shown. Actual result: 1. The alt text is not shown in Format Picture dialogue (see the screenshot). 2. There are four chart and image, but only three are shown (see the attached ppt file). Error log: N/A

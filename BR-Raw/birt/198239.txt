@@ -1,0 +1,3 @@
+Memory leak using script and also localized strings
+
+see discussion http://dev.eclipse.org/newslists/news.eclipse.birt/msg21782.html

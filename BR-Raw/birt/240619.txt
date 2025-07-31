@@ -1,0 +1,3 @@
+Can not remove space between images.
+
+Created attachment 107284 report design Please refer to attached report design. User can not remove the spacing between the adjoining images in the grid. The padding, margin and border had been set to zero.

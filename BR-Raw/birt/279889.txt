@@ -1,0 +1,3 @@
+Expression lost in aggregation builder when measure is removed from crosstab.
+
+Created attachment 138879 screenshot description: Expression lost in aggregation builder when measure is removed from crosstab. build id: 2.5.0 v20090611-0630 steps to reproduce: 1. New a crosstab. 2. Right click the measure area and remove the measure from the crosstab. 3. Double click the measure binding in Property Editor. Actual result: The expression is lost.See attached screenshot.

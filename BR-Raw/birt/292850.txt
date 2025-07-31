@@ -1,0 +1,3 @@
+[Automation][Regression] More detail information should be provided in error message
+
+Created attachment 150059 report design Attached is an empty report with the Report.initialize script containing an invalid reference to undefined variable "a". Preview the report in BIRT designer, or run it in the Web viewer, a browser dialog pops us with the following text: org.eclipse.birt.report.engine.api.EngineException No other detail about the error is available. EXPECTED BEHAVIOR: the error should be reported with detailed information about the script error, such as the name of the script, and the error message from the Rhino script engine. Such as There are errors evaluating script "a": ReferenceError: "a" is not defined.

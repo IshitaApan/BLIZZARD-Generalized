@@ -1,0 +1,3 @@
+Unexpected empty page generated in PDF preview
+
+Created attachment 129915 reports Description: Attached report has two text items which display images. When previewing in PDF, an unexpected empty page is generated. Build number: 2.5.0.v20090326-0630 Steps to reproduce: 1, Use attached report preview in PDF 2, Check whether there has unexpected empty page. Expected result: Generated PDF has only one page Actual result: Unexpected empty page generated. Error log:

@@ -1,0 +1,3 @@
+"Unspecified error" happens when click the series with a hyperlink menu in PDF
+
+Created attachment 163471 screenshot Description: "Unspecified error" happens when click the series with a hyperlink menu in PDF. Build number: 2.6.0.v20100331-0630 Steps to reproduce: 1. Preview the attached report design in PDF. 2. Click value series. Expected result: No error. Actual result: See the screenshot. Error log: N/A

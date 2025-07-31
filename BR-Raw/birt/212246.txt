@@ -1,0 +1,3 @@
+Browsers keep poping up when click the series with interactivity Focus-Hyperlink [13]
+
+Description: Browsers keep poping up when click the series with interactivity Focus-Hyperlink. Build number: 2.3.0.v20071207-0800 Steps to reproduce: 1. New a report with a chart. 2. Set Chart Series interactivity Event: Focus, Action: Hyperlink, URL: "http://www.actuate.com". 3. Preview and click value series. Expected result: Only one browser pops up. Actual result: Browsers keep poping up. Error log: N/A

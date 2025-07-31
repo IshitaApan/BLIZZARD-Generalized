@@ -1,0 +1,3 @@
+text-align property not being applied properly in HTML reports
+
+My headerstyle has <property name="textAlign">center</property>, yet when report is made the header isn't centered. If I run the same xml report in the rcp designer I get the proper results. I have to set this in my java for it to behave like the rcp designer: htmlOps.setEnableAgentStyleEngine(true); If I try to add the property directly to the header (without using a style) it still does not work unless the setEnableAgentStyleEngine() is set to true.

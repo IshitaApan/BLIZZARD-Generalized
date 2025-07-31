@@ -1,0 +1,3 @@
+font size in pdf and doc od text and dynamic text
+
+Created attachment 170476 a report with problem in font size first a new report a grid in body in a cell a text element or an dynamic text element take a html font tag the size is ever the size of cell not of the font tag in pdf and doc in preview and html is is ok norbert lamprecht

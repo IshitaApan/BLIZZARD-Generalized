@@ -1,0 +1,3 @@
+"A data definition entry for Y Series is undefined." is thrown out even the value series is defined [13]
+
+Created attachment 119865 report design Description: "A data definition entry for Y Series is undefined." is thrown out even the value series is defined. Build number: 2.3.2.v20081209-0730 Steps to reproduce: 1. Open the attached report design, double click the chart to open the chart builder. 2. Click Finish. Expected result: No error. Actual result: "A data definition entry for Y Series is undefined." is thrown out even the value series is defined (see the screenshot). Error log: N/A

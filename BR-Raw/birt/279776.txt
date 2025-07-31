@@ -1,0 +1,3 @@
+Error when opening a data set whose datasource is  absent of driver class.
+
+Created attachment 138769 screenshot description: Error when opening a data set whose datasource is absent of driver class. build id: 2.5.0 v20090610-0630 steps to reproduce: 1. New a datasource with sample db. 2. New a dataset with the datasource. 3. Edit the datasource to clear the driver class. No warning when you close the dialog. 4. Double click the data set. Actual result: An empty error message pops up. See attached screenshot. Preview result will lead to another error message.

@@ -1,0 +1,3 @@
+Outer grid's border disappears in excel.
+
+Created attachment 139606 test report Build ID: I20090611-1540 Steps To Reproduce: 1.The attachement is a test report which contains two nested grids.The inner has red borders and the outer has black borders. 2.Run the report as excel format.The outer grid's black border disappears. More information:

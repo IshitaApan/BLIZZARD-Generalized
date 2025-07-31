@@ -1,0 +1,3 @@
+Exception is thrown out when trying to delete a non-existent measure in crosstab.
+
+Created attachment 136617 screenshot description: Exception is thrown out when trying to delete a non-existent measure in crosstab. build id: 2.5.0 v20090521-0630 steps to reproduce: 1. New a cube. 2. Drag it to layout. 3. Edit the cube to delete the measure. 4. In crosstab, click the measure and try to remove it. Actual result: The menu invoked is not correct and exception in error log view. See attached screenshot.

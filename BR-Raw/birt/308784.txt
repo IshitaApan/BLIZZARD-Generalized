@@ -1,0 +1,3 @@
+[Automation]Total Page number does not show actual Total Page number in Exported PDF files
+
+Created attachment 164516 Report Description: Total Page number does not show actual Total Page number in Exported PDF files Build: 2.6.0.v20100412-0630 Steps to reproduce: 1. Preview a 6 page report in web viewer 2. Export current page as PDF Actual result: Total Page number is 6 Expect result: Total Page number should be 1.

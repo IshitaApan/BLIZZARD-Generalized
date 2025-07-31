@@ -1,0 +1,3 @@
+Axis step should be integer number in attached report
+
+Created attachment 99644 Report to reproduce Preview the attached report, you will find the axis scale is a long decimal number. Since I chose auto scale, the axis scale should be integer number as much as possible.

@@ -1,0 +1,3 @@
+[Regression] The added column binding is not exported [0002]
+
+Created attachment 93748 zip file of report design and exported csv file Description: The added column binding is not exported. Build number: 2.3.0.v20080326-0800 Steps to reproduce: 1. Preview the attached report design in Web Viewer. 2. Export Column Binding. 3. Check the exported csv file. Expected result: There is data exported. Actual result: There is not data for Column Binding. Error log: N/A

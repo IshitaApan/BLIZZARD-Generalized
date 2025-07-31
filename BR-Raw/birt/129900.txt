@@ -1,0 +1,3 @@
+Designer unit test has failures and errors in daily build 20060301
+
+please see attached log file.

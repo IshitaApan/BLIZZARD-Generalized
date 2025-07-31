@@ -1,0 +1,3 @@
+PasteAction is diabled
+
+About the deatil about the problem, please see bug 175795. Users may find that: In library 1. in outline, select a style under a theme and click "copy" from the context menu; 2. select the theme, and see the context menu, user may find that the "paste" action is disabled; In Report 1. in outline, select a style and click "copy" from the context menu; 2. select styles, and see the context menu, user may find that the "paste" action is enbaled; The two actiosn are inconsistent. I studied the code, the reason is that the method canContain returns different values. So I discussed with Xingjie, the problem does exist. So I file model a bug to resolve this problem. ps: This problem exist not only in 2.1.2, but also 2.3.

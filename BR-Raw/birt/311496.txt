@@ -1,0 +1,3 @@
+Background Pattern does not work for SVG chart
+
+Created attachment 166917 screenshot Description: Background Pattern does not work for SVG chart. Build number: 2.6.0.v20100504-0630 Steps to reproduce: 1. Preview the attached report design. Expected result: The pattern works for both SVG and PNG chart. Actual result: See the screenshot. Error log: N/A

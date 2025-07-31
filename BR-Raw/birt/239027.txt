@@ -1,0 +1,3 @@
+Setting the parent classloader gives an error
+
+Build ID: I20080617-2000 Steps To Reproduce: 1. Set the parent classloader in the task or in the EngineConfig. 2. Ex: <EngineConfig>.getAppContext().put(EngineConstants.APPCONTEXT_CLASSLOADER_KEY, WebReportActionBean.class.getClassLoader()); 3. Log output: 02:01:12,752 ERROR [STDERR] 27/Jun/2008 2:01:12 org.eclipse.birt.report.engine.api.impl.EngineTask isDeprecatedEntry WARNING: PARENT_CLASSLOADER could not be set in appContext of IEngineTask, please set it in appContext of IReportEngine More information: http://www.eclipse.org/newsportal/article.php?id=29042&group=eclipse.birt#29042

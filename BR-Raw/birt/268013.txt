@@ -1,0 +1,3 @@
+[Automation][Regression]Format DateTime doesn't work on Date Time type data
+
+Created attachment 128312 report design Description: [Automation][Regression]Format DateTime doesn't work on Date Time type data Build number: 2.5.0.v20090311-0630 Steps to reproduce: 1, New a DateTime type data item 2, Specify the value to "2009-11-01" 3, Set Format DateTime of the data item 4, Preview Expected result: Format DateTime works on the DateTime type data Actual result: Format DateTime failed to work Error log:

@@ -1,0 +1,3 @@
+ILevel's getFilterconditions return null when using it in crosstab[1102]
+
+Created attachment 93548 report design Description: ILevel's getFilterconditions return null when using it in crosstab which has filter conditions. When debugging, I found I get one filter condition, but the filter condition is null. May be it is a issue of getElement() in ElementUtil. Steps to reproduce: 1, New a report with a crosstab which has filter 2, Using Eventhandler to get all the filter conditions

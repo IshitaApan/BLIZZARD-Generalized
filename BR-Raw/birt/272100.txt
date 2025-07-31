@@ -1,0 +1,3 @@
+[Regression]Fit to container failed to work when export report to PDF
+
+Created attachment 131725 reports Description: [Regression]Fit to container failed to work when export report to PDF Build number: 2.5.0.v20090414-0630 Steps to reproduce: 1, Copy attached image to resource folder 2, Preview attached report in web viewer 3, Export the report to PDF Expected result: Exported PDF is as same as the result when previewing in PDF Actual result: Fit to container doesn't work when export report as PDF but work when previewing report in PDF. Error log:

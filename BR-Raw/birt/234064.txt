@@ -1,0 +1,3 @@
+Show measure as chart view, data sort of chart in preview is different with the output
+
+Created attachment 102089 report design Description: Show measure as chart view, the data sort in chart preview page is different with the output. build version:2.3.0.v20080527-0630 Steps to reproduce: 1.Get the attached report design file. 2.Click the measure which show as chart. 3.In the chart preview window, the data is sort as des. 4.Preview the report, the data is sort as asc. Those two shall share the same sort type.

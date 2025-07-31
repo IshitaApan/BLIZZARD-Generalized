@@ -1,0 +1,3 @@
+[Automation][Regression]Chart legend title's auto wrapping is incorrect
+
+Created attachment 120278 report design Description: Chart legend title's auto wrapping is incorrect. Test Date: 20081212 Test Build: BIRT2.5.0 v20081212-0630 Step to reproduce: 1. Use the report attached 2. Preview it Expect result: Please refer to the golden file attached. Actual result: Please refer to the screen shot attached.

@@ -1,0 +1,3 @@
+[Regression]Can not retrieve the value of outputParameter in storedProcedure dataset
+
+Description: [Regression]Can not retrieve the value of outputParameter in storedProcedure dataset Build number: 2.3.0.v20080610-0630 Steps to reproduce: 1, New a stored procedure including a output parameter 2, New a stored procedure dataset 3, Retrieve the value of output parameter Expected result: Be able to get the value Actual result: No value retrieved Error log:

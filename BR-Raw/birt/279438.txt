@@ -1,0 +1,3 @@
+Description is inconsistent with the implementation in Chart Examples.
+
+Created attachment 138558 screenshot description: Description is inconsistent with the implementation in Chart Examples. build id: 2.5.0 v20090608-1147 steps to reproduce: 1. Open Chart Examples view. 2. Go to Formatted Charts->Series Value Format. Actual result: The format in description is 'MM/dd/yyyy' but the X-axis label is formatted in 'MMMM/dd/yyyy'.See attached screenshot. Expected result: Either the description or the chart preview should be updated.

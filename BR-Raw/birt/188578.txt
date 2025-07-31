@@ -1,0 +1,3 @@
+Add "displayColumnName" on TabularLevel
+
+Add Property "displayColumnName" on TabbularLevel and corresponding APIs on handle. Property Type: expression.

@@ -1,0 +1,3 @@
+[Accessiblity] Axis or axis labels are invisible under high contrast mode.
+
+Created attachment 102557 screenshot description: Axis or axis labels are invisible under high contrast mode. build id: 2.3.0 v20080529-0630 steps to reproduce: 1. Go to Control Panel - Accessibility Options. On the Display tab, check the option to "Use High Contrast". Select the "Settings" button and select a high contrast scheme such as "High Contrast Black". Click the OK button. 2. Switch focus back to BIRT. 3. New a chart and new a chart in crosstab. Actual result: Please see attached screenshot. See that for normal chart, axis is invisible. Axis labels are visible because I set the color to red. Butfor chart in crosstab, axis labels are invisible as you can not change its color.

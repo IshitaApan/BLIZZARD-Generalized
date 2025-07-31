@@ -1,0 +1,3 @@
+[Improve Page Break Management] Wrong page number position started from second page
+
+Steps: 1. Installed the BIRT run time 2.3.1 with tomcat 6.x 2. Change the test1.rptdesign report along with the BIRT run time package by adding the page number to the master page footer. The alignment is algin to right. 3. Save the file as test2.rptdesign. Run the test2.rptdesign with the url as http://localhost:8080/Rosters/run?__report=test2.rptdesign&__format=pdf 4. The page number is on the right side of the page 1, which is right. However start from page 2, the page number aligns to center. 2 screen shoots and the design file are attached.

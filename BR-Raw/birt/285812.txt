@@ -1,0 +1,3 @@
+Problems of Multiple Y Axis and Flip Axis option  for chart view of measure.
+
+Created attachment 143590 test report Problems: 1. Multiple Y Axis should be disabled because you can not define series on second Y Axis for chart view of measure. 2. Multiple Y Axis will be disabled once you set the option to More Axes. 3. Flip Axis will be disabled once you check it. build id: 2.5.1 v20090806-0630

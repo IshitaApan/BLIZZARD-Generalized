@@ -1,0 +1,3 @@
+[Regression]Fail to center a text item
+
+Description: Fail to center a text item. build version:2.3.1.v20080717-0630 Steps to reproduce: 1.new a text item, and in "General" tab of "Properties" editor view, center the item. Error occurred. Error message: A BIRT exception occurred. Plug-in Provider:Eclipse.org Plug-in Name:BIRT Model Plug-in ID:org.eclipse.birt.report.model Version:2.3.1.v20080717-1004 Error Code:Error.PropertyValueException.CHOICE_NOT_FOUND Error Message:The choice value "center" is not found.

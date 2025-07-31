@@ -1,0 +1,3 @@
+BIRT Cross tab Model Change - Support for filter on measures
+
+TO support filter condition on cross tab measure, Model changes are needed to support filter condition list on cross tab report item.

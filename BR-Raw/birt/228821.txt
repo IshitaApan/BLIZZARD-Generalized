@@ -1,0 +1,3 @@
+[Automation][Regression]STDDVE on a dateTime value should return a double value
+
+Created attachment 97561 report design Description: STDDVE on a dateTime value should return a double value Build number: 2.3.0.v20080425-1021 Steps to reproduce: 1, New a table with a datetime type column 2, Drag a aggregation in table footer 3, Do STDDEV on the datetime type column and the aggregation data type is float 4, Preview Expected result: The aggregation value should be a double value but not a date value Actual result: The preview value is a date type value. Error log:

@@ -1,0 +1,3 @@
+Marker line should be draw above the series.[13]
+
+Created attachment 146364 test report description: Marker line should be draw above the series. build id: 2.5.1 v20090903-0630 steps to reproduce: 1. Get the attached test report. 2. Open chart builder or preview. Actual result: You will see the marker line is covered by the bar series. Expected result: Marker line is expected to be over the bar series.

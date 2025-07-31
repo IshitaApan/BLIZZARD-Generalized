@@ -1,0 +1,3 @@
+Table column is not rendered in pdf if its width is set in ems
+
+Created attachment 80547 a report design to reproduce the bug Try this with the attached report design: 1) preview in preview pane as html. You will see both columns "hello" and "world" 2) preview as pdf. The "hello" column is not rendered. The only difference between the columns is that col "hello"'s width has been defined in ems.

@@ -1,0 +1,3 @@
+Custom sort column on optional Y grouping series ignored
+
+Case: 1) Bind data evaluated by a IDataRowExpressionEvaluator to a chart. 2) Set a Y grouping sort key that doesn't occur in the value series data definitions. Result: The sorting key is ignored. For base series definition, there is a method GroupingLookupHelper.addCommonSortKey() that adds a data expression containing the sort key if it wasn't added in method GroupingLookupHelper.addLookupForBaseSeries(). Could the GroupingLookupHelper work the same way if the sort key wasn't added in GroupingLookupHelper.addLookupForOrthogonalSeries()?

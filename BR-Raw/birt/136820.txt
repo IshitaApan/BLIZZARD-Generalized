@@ -1,0 +1,3 @@
+viewer supports render report in pdf format
+
+viewer does not support render report in pdf format, so the following request, http://host:port/birt/frameset?document=ProductCatalog.rptdocument&__format=pdf can't be used to view pdf report.

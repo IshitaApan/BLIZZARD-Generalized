@@ -1,0 +1,3 @@
+Hour is changed after reopen the dialog.
+
+description: Hour is changed after reopen the dialog. build id: 2.3.0 v20080715-0630 steps to reproduce: 1. Make sure your system time format uses a 24-hour format. 2. New a chart and render axis with Datetime type data. 3. Try to change the Min/Max value of scale, adjust the hour larger than 12, eg 15. 4. Close and reopen the scale dialog. Actual result: The hour changes, eg, from 15 to 3.

@@ -1,0 +1,3 @@
+Parameter value is not correct when set Allow Multiple Values
+
+Created attachment 143867 report design Description: Parameter value is not correct when set Allow Multiple Values Build: <2.5.1.v20090810-0630> Steps to reproduce: 1. New a list param with several values and tick on Allow Multiple Values 2. Preview and select only one value in param request dialog 3. Check the output Actual result: [Ljava.lang.Object;@1c0b835 Expect result: Selected value should be displayed.

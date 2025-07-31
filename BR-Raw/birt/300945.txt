@@ -1,0 +1,3 @@
+[Automation][Regression]Some letters overlapped while previewing report in pdf
+
+Created attachment 157365 report design Description: Dynamic text are messed in PDF, some letters overlapped. Test Build: BIRT2.5.2 v20100127-0630 Step to reproduce: 1. Use the report attached 2. Preview it in PDF Expect result: Please refer to the golden file attached. Actual result: Please refer to the screen shot attached.

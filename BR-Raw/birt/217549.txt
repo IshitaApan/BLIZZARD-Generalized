@@ -1,0 +1,3 @@
+[Automation] The client area of legend disappears in the result file.
+
+Created attachment 88663 java description: The client area of legend disappears in the result file. build version: 2.3.0 v20080202-0800 steps to reproduce: 1. Run the attached java file. 2. Check the result. expected result: See attached golden file. actual result: See attached output file.

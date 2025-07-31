@@ -1,0 +1,3 @@
+[Accessibility] The chart axis are not shown under High Contrast mode "High Contrast White (large)"
+
+Created attachment 169269 screenshot Description: [Accessibility] The chart axis are not shown under High Contrast mode "High Contrast White (large)". Build number: 2.6.0.v20100304-0630 Steps to reproduce: 1. Control Panel->Accessibility Options->Display, tick "Use High Contrast" and click "Settings", select "High Contrast White (large)" and click "OK". 2. New a Chart. Expected result: The axis are shown. Actual result: See the screenshot. Error log: N/A

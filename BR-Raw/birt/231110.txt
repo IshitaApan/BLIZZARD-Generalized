@@ -1,0 +1,3 @@
+Datetime in excel cannot display locale specified format[1203]
+
+Description: Datetime in excel cannot display locale specified format Build number:2.3.0.v20080508 Steps to reproduce: 1. Insert a data item, datetime type with datetime value. 2. In preferences, set locale to thai. 3. Preview in xls. Expected result: Display datetime with specified locale format as other preview formats do. Actual result: Display datetime without specified locale format. Error log:n/a

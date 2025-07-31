@@ -1,0 +1,3 @@
+Can not preview attached report in Excel
+
+Created attachment 102555 report design Description: Can not preview attached report in Excel Build number: 2.3.0.v20080529-0630 Steps to reproduce: 1, Open attached report design 2, Preview in excel Expected result: The preview should be ok Actual result: Failed to preview in excel. Error log:

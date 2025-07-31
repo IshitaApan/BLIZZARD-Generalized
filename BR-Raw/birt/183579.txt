@@ -1,0 +1,3 @@
+Model need hold on DimensionConditionHandle and DimensionJoinConditionHandle signleton or overwrites the equals and hashcode method
+
+The Dataset Joint Editor need join two Editparts which have the same model. But the DimensionConditionHandle and the DimensionJoinConditionHandle are create a new instance erery time when I get them. So model need hold on them signleton or overwrites the equals and hashcode method.

@@ -1,0 +1,3 @@
+org.eclipse.birt.data has compile error in 2.3 daily build 20080123
+
+Created attachment 87591 compile log org.eclipse.birt.data has compile error in 2.3 daily build 20080123. Please see the attachment for details.

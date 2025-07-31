@@ -1,0 +1,3 @@
+[Bidi] Text alignment should be consistent with text direction in BIRT Designer
+
+Build ID: 2_3_1-N20080815 Following https://bugs.eclipse.org/bugs/show_bug.cgi?id=185957#c8, we need to make text alignment consistent with the text direction in BIRT Designer. A similar bug was filed against Report Engine: bug 244375.

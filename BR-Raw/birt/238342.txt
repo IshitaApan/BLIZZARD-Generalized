@@ -1,0 +1,3 @@
+Large Template Image File Causes Memory Exception
+
+If you attach a large file to a rpttemplate to be used as an image, i.e. you embed a large image in a report template than you will get a memory exception when trying to look at the source of the rpttemplate. I have added a JPG that causes the error. I realize that no one should be using a file this big for an image file, but if they do the Designer needs to handle this better.

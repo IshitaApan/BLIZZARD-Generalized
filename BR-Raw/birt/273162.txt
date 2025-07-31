@@ -1,0 +1,3 @@
+Part of border of report item in a cell disappeared in doc preview
+
+Created attachment 132697 report and generated word Description: Part of border of report item in a cell disappeared in doc preview Build number: 2.5.0.v20090422-0630 Steps to reproduce: 1, New a 1*1 grid 2, Insert a label or data item 3, Add border on label and data item 4, Preview report in doc Expected result: All the borders are shown in doc preview Actual result: Part of border disappeared. Error log:

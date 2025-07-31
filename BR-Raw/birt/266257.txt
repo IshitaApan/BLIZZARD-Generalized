@@ -1,0 +1,3 @@
+The error massage should be shown in "Select Data" tab to warn for the stacked series on a date-time axis [13]
+
+Created attachment 126808 screenshot Description: The error massage should be shown in "Select Data" tab to warn for the stacked series on a date-time axis. Build number: 2.5.0.v20090225-0630 Steps to reproduce: 1. New a chart with type of Stacked Bar. 2. Specify the first series with integer type of data and the second with date type of data. 3. Check the "Select Chart Type" tab. Expected result: The error massage should be shown to warn for the stacked series on a date-time axis. Actual result: The error massage is only shown in "Select Chart Type" tab (see the screenshot). Error log: N/A

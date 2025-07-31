@@ -1,0 +1,3 @@
+Excel warning when preview attached report with xml datasource[1203]
+
+Created attachment 157859 zip file Steps to reproduce: 1. Edit attached report's xml data source path to attached xml file path 2. preview in xls and open it Expected result: Display table without error Actual result:see attached.

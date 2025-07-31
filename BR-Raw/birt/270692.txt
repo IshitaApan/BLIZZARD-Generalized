@@ -1,0 +1,3 @@
+The tooltip for data preview is too long and exceed the window width.
+
+Created attachment 130488 screenshot description: 2.5.0 v20090401-0630 steps to reproduce: 1. New a dataset with table PRODUCTLINES in sample db. 2. New a chart, using the dataset.Untick the Show data preview option. 3. Mouse over the TEXTDESCRIPTION column. Actual result: The tooltip is displayed without wrapping and exceeds the window width . See attached screenshot. Expected result: The tooltip should be wrapped for better appearance and easy reading.

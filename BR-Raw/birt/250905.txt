@@ -1,0 +1,3 @@
+When delete the style, the reference count is wrong.
+
+1:New a report design file. 2:Add a label to the body. 3:Add a style name 'test'. 4:The label apply the 'test' style. 5:Copy the label, then paste(to the body too). 6:Uodo. 7:Delete the 'test' style. Expect result: The popup dialog has one reference. Actual result: The popup dialog has two references.

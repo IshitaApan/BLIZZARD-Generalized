@@ -1,0 +1,3 @@
+Preview the sample report in pdf format is not correct.
+
+Created attachment 124940 report design description: Preview the sample report in pdf format is not correct. build id: 2.5.0 v20090206-1116 steps to reproduce: 1. Get the attached sample report. 2. Preview in pdf. Actual result: The output pdf has 266 pages while most of the pages are duplicated.See attached pdf. Expected result: see attached 231 output which contains only 15 pages.

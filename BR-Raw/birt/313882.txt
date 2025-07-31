@@ -1,0 +1,3 @@
+[Regression]pageoverflow plus pagebreakinternal shows different pdf pages in web viewer and preview
+
+Created attachment 169483 report Build number:2.6.0.v20100521-0630 Steps to reproduce: 1. Attatch report has page-break-internal 60, fixed-layout 2. Preview in WEb viewer and print pdf, select Auto pageoverflow 3. Preview in pdf Expected result: Same pages for two pdf files Actual result: Step2 generate pdf with three pages. Step3 generate pdf with five pages.

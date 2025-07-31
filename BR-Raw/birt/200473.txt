@@ -1,0 +1,3 @@
+Microsoft JScript compilation error pops up when click pie slice [13]
+
+Created attachment 76404 report design Description: Microsoft JScript compilation error pops up when click pie slice. Build number: 2.2.1.v200708010-0630 Steps to reproduce: 1. New a data source from CUSTOMERS. 2. New a Pie chart binding with the data set, and set its value series label visible. 3. In Value Series Interactivity, set Mouse Click as Event, Invoke Script as Action, and alert("row["CUSTOMERNAME"]") as Script. 4. Preview and click pie slices. Expected result: No errors. Actual result: Microsoft JScript compilation error pops up. Error log: Expected ')' line: 459, column: 91 Object expected line: 1, column: 0

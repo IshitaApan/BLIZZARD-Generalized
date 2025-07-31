@@ -1,0 +1,3 @@
+No error message should be shown when using Running Count aggregation on value series.
+
+Created attachment 140446 screenshot description: No error message should be shown when using Running Count aggregation on value series. build id: 2.5.1 v20090630-0630 steps to reproduce: 1. New chart. 2. Define string type column on value series and select Running Count as aggregation function. Actual result: Error message is shown on the top. But live preview and preview is OK. Expected result: No error message. The result of running count is number, so it is acceptable for value series.

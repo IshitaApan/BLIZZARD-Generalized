@@ -1,0 +1,3 @@
+Data set component returns no rows for the JDBC driver
+
+Hello, We have tested our JDBC driver StelsDBF (http://www.csv-jdbc.com/stels_dbf/) in BIRT ("Edit data set" window) and encountered with the following issue: BIRT loads the driver successfully and allows to read the column names in the database file. However, when we are setting SQL in the "Query" item, BIRT returns only columns and no rows in the "Preview results" item. Could you advise why does it occur? Thanks. -- Best regards, Sergey Kutsygin, J-Stels Software mailto: info@csv-jdbc.com

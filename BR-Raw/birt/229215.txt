@@ -1,0 +1,3 @@
+The "data[""]" in the drop down list is only partly shown when create chart view for crosstab [1302]
+
+Created attachment 97894 report design Description: The "data[""]" in the drop down list is only partly shown when create chart view for crosstab. Build number: 2.3.0.v20080428-1354 Steps to reproduce: 1. Open the attached report design. 2. Create chart view for the crosstab. 3. Selct one data from the drop-down list. Expected result: The "data[""]" are completely shown since the beginning part of the choices are the same. Actual result: The "data[""]" is only partly shown (see the screenshot). Error log: N/A

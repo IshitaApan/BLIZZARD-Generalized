@@ -1,0 +1,3 @@
+Hidden Report Parameters sub nodes in Script Palette for Chart[0801][1300]
+
+Description: Hidden Report Parameters sub nodes in Script Palette for Chart Build number:2.3.2.v20081201 Steps to reproduce: 1. Insert a parameter and chart. 2. Select a chart item and go to script. 3. In palette, Report Context under context is hidden Expected result: parameter under Report Parameters node should be hidden. Actual result: parameter under Report Parameters node isn't hidden and double click it will add params[] to chart script. Error log:n/a

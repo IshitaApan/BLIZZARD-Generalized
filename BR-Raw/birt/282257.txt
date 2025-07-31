@@ -1,0 +1,3 @@
+[Automation][Regression]Report library style does not work in web viewer
+
+Created attachment 140671 report design Description: Report library style does not work in web viewer, but it works while previewing report as html. Test Build: BIRT2.5.1 v20090702-0630 Step to reproduce: 1. Use the report attached 2. Preview it in web viewer Expect result: Style works in report. Actual result: Style does not works in web viewer.

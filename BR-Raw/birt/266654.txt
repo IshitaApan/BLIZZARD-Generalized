@@ -1,0 +1,3 @@
+The color does not change after click the text with hyperlink in excel [1203]
+
+Created attachment 127137 report design Description: The color does not change after click the text with hyperlink in excel. Build number: 2.5.0.v20090302-0630 Steps to reproduce: 1. New a report with a label link to "http://www.actuate.com". 2. Preview the report as XLS. 3. Open the generated xls file and click the link. 4. Check the color of the text. Expected result: After click on the link, the color text should change to purple. Actual result: 1. Open the generated xls in EXCEL 2003, and click the link, the color of the text changes to purple. 2. Open the generated xls in EXCEL 2007, and click the link, the color of the text is still blue. Error log: N/A

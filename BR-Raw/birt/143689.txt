@@ -1,0 +1,3 @@
+Add build script to PDF plugin
+
+PDF chart renderer plugin should havea buildXXX.xml script.

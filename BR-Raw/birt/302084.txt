@@ -1,0 +1,3 @@
+[Regression] Error occurs when switching to 'Parameters' page in data set.[0705]
+
+Created attachment 158409 screen shot description: Error occurs when switching to 'Parameters' page in data set. build id: 2.5.2 v20100208-0630 steps to reproduce: 1. New a data set with a query using parameter,like: select * from CLASSICMODELS.CUSTOMERS where CLASSICMODELS.CUSTOMERS.CUSTOMERNUMBER = ? 2. New a report parameter. 3. Open the data set and switch to Parameters page. Actual result: NPE occurs. See attached screen shot.

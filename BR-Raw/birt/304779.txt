@@ -1,0 +1,3 @@
+Long Dynamic Text does not show in web viewer
+
+Created attachment 161083 Report Description: Long HTML Text does not show in web viewer Build: 2.6.0.v20100305-0630 Steps to reproduce: 1. New a report with dynamic text 2. Input a long html text 3. Preview in web viewer Actual result: Dynamic Text does not show in web viewer. But other emitters are fine

@@ -1,0 +1,3 @@
+Report Engine API should tell us what the engine version is
+
+It would be very useful to be able to get the BIRT runtime version via the engine or core api so that an application using BIRT is able to log or display on screen to the user the BIRT version being used

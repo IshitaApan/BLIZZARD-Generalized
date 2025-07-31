@@ -1,0 +1,3 @@
+[Automation][Smoke]Image doesn't work
+
+Created attachment 137930 reports Description: Image in master page header/footer doesn't work and if user constant URI, NPE will be thrown out Build number: 2.5.0.v20090602-0630 Steps to reproduce: Scenario2: 1, New a report 2, Insert a image(URI or embedded) 3, Preview in html and pdf Scenario2: 1, New a report 2, Insert a URI image and specify constant: http://www.google.cn/intl/zh-CN/images/logo_cn.gif 3, Preview in html Expected result: image in Both scenarios are working Actual result: Image of master page in scenario1 can not be shown when previewing Image of master page in scenario2 leads NPE Error log:

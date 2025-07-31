@@ -1,0 +1,3 @@
+Legend entries overlap
+
+Created attachment 84327 Screenshot of overlapping legend labels We have a stacked bar chart with a variable number of series (grouped according to one of the returned columns). I'd like the legend to be displayed in one or more columns underneath the chart. No matter which permutation of legend layout options I try, I always end up with overlapping text as shown in the attached screenshot. One tidbit that might be important: in the beforeGeneration() script for the chart, we modify the legend label using code like this: series.get(i).setSeriesIdentifier("Blocking"); But since we're doing it in beforeGeneration(), I wouldn't think that would affect the layout. More information:

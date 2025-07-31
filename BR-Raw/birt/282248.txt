@@ -1,0 +1,3 @@
+Diagonal line for cell which inner grid work incorrectly in XLS preview
+
+Created attachment 140661 report Description: Diagonal line for cell which inner grid work incorrectly in XLS preview Build number: 2.5.1.v20090702-0630 Steps to reproduce: 1, New a table 2, Add diagonal line in table header cell 3, Insert a 2*2 grid in table header cell 4, Preview in XLS Expected result: Please refer to result in PDF Actual result: See attached Error log:

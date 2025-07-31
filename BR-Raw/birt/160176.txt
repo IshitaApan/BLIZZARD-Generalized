@@ -1,0 +1,3 @@
+Create design by a template
+
+When fixing bug 157934, we should create a report design from a template, model told me that we can use ReportDesignHandle createDesign( String templateName ), but in fact it doesn't work at all. After discussing with Xingjie, I sent Model a bug. ps: Would you please fix this bug in a short time, for I should fix 157924 in M1, thank you very much.

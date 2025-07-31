@@ -1,0 +1,3 @@
+Scatter chart, Y series data is negative, marker type is crosshair, the marker can not be displayed
+
+Scatter chart, Y series data is negative, marker type is crosshair, the marker can not be displayed Steps: 1.Create a scatter chart, bind the data set, y series datas contain negative datas 2.Set marker type to crosshair 3.Preview Actual Rerulst: 1.When the data is negative, the marker can not be displayed Expected Results: 1.The marker can be displayed

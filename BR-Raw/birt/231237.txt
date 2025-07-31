@@ -1,0 +1,3 @@
+[Accessibility] Scrolling with keyboard does not work for Data Preview in chart builder.
+
+description: Scrolling with keyboard does not work for Data Preview in chart builder. build id: 2.3.0 v20080508-1254 steps to reproduce: 1. New a datasource with sample db and new a dataset with table customers. 2. New a chart, on select data tab, select the dataset, see that the scroll bar in Data Preview appear. 3. Use keyboard shortcuts PageUp/PageDown/Ctrl+left arrow/Ctrl+right arrow to scroll the view area. Expected result: These keyboard shortcuts should work. Actual result: These keyboard shortcuts does not work.

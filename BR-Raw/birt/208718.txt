@@ -1,0 +1,3 @@
+Exception is thrown out when exported data with column's data type [0002]
+
+Created attachment 82070 report design Description: Exception is thrown out when exported data with column's data type. Build number: 2.2.2.v20071105-0630 & 2.3.0.v20071105-0800 Steps to reproduce: 1. Preview the attached report design in Web Viewer, export data of the first result and tick "Export column's data type". Expected result: The exported data is correct. Actual result: The exported data is not correct and exception is thrown out(see the attached csv file). Error log: N/A

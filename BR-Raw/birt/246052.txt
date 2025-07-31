@@ -1,0 +1,3 @@
+[linux]Different font between pdf from runandrender and pdf from document[1202]
+
+Description: PDF generated directly uses different font with pdf from document in Linux Build number:2.3.1.v200809031357 Steps to reproduce: 1. Use genreport to generate report to pdf directly. 2. Generate pdf from document 3. Compare two pdf files. Expected result: Same size. Actual result: two files using different font that cause different size Error log:n/a

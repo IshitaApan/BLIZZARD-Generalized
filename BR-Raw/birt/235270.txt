@@ -1,0 +1,3 @@
+[BIDI] BIDI does not support for 3D Axis label [13]
+
+Created attachment 103248 report design Description: BIDI does not support for 3D Axis label. Build number: 2.3.0.v20080603-0630 Steps to reproduce: 1. New a chart 3D with Axis label "begin חלךשחגלחצט end". 2. Preview. Expected result: It works the same way with 2D chart. Actual result: See the screenshot. Error log: N/A

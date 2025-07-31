@@ -1,0 +1,3 @@
+view in PDF error
+
+Created attachment 75897 PDF output Build ID: M20050929-0840 Steps To Reproduce: 1.create rpt design in Birt-all-in-One 2.0.1 using birt runtime 2.1.3 report view in HTML is fine but when view in pdf, althe setting gone. More information:

@@ -1,0 +1,3 @@
+[Improve emitters] Add support for emitter UI extenion
+
+<response_by> Moravia IT at 2007.05.31.15.54.48 </response_by> Subject: pl: View Report -> items not externalized OS: Linux only Build date: 20070530 Component name: BIRT Blocking: no Tester Name: Kamil Ignacak (PL) Steps to recreate the problem: - open any report, click in editor area to set focus on editor - go to main menu -> File -> View Report Problem description: Following strings are not externalized: DOC XLS PROTOTYPE HTML PDF POSTSCRIPT Please externalize them. Kamil <response_by> Cam-Thu Le at 2007.05.31.16.06.51 </response_by> This article was reassigned from Category:''TVT Testcases''. <response_by> Moravia IT at 2007.05.31.16.15.08 </response_by> this problem is for both Windows and Linux

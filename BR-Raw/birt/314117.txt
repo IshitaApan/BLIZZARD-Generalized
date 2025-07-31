@@ -1,0 +1,3 @@
+[Automation][Regression]"col width" tag of dynamic text doesn't work when preview as pdf
+
+Created attachment 169677 test report Description: "col width" tag of dynamic text doesn't work when preview as pdf Test Build: BIRT2.6.0 v20100524-1222 Step to reproduce: 1. Use the report attached 2. Preview it as xls Expect result: "col width" tag works well Actual result: "col width" tag doesn't work

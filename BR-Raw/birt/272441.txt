@@ -1,0 +1,3 @@
+Designer and Engine works different when the sum of the column width is larger than the table width [03]
+
+Created attachment 132023 report design Description: Designer and Engine works different when the sum of the column width is larger than the table width. Build number: 2.5.0.v20090416-0630 Steps to reproduce: 1. New a grid with 5 columns in Fixed Layout. 2. Set the width of the Grid to 5in. 3. Set the width of the columns as follows: 1in, 40%, 1.5in, 1.5in, 1.5in. 4. Preview. Actual result: 1. In designer, the second column width is 2in. 2. When preview, the second column width is 0. Error log: N/A

@@ -1,0 +1,3 @@
+Duplicate Grandtotals happened when grandtotal's position is before
+
+Created attachment 132700 report and screenshot Description: Duplicate Grandtotals happened when grandtotal's position is before Build number: 2.5.0.v20090422-0630 Steps to reproduce: 1, New a crosstab 2, Make sure in Row area includes one dimension which has two levels 3, Add a grandtotal on this dimension and position is before 4, Preview Expected result: The grandtotal position is only shown before the level Actual result: Duplicate grandtotal appeared in both before and after position Error log:

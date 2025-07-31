@@ -1,0 +1,3 @@
+2D+ Bar Chart does not work correctly [13]
+
+Created attachment 94686 report design Description: 2D+ Bar Chart does not work correctly. Build number: 2.3.0.v20080403-1020 Steps to reproduce: 1. Preview the attached report design. Expected result: The chart works correctly. Actual result: See the screenshot. Error log: N/A

@@ -1,0 +1,3 @@
+Title of second title is not displayed if its origin value is not Max or Min.[13]
+
+Created attachment 149948 screen shot description: Check title and set origin value for second axis, the title can not be displayed. build id: 2.5.2 v20091020-0630 steps to reproduce: 1. New a chart with two axis. 2. Show title of second axis. 3. Set origin value for second axis. Actual result: Title of second title is not displayed.See attached screen shot.

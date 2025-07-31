@@ -1,0 +1,3 @@
+java event handler does not work with cross tab item
+
+Created attachment 114077 rptdesign file Data set event handler class, which is wrote in Java, doesn't fire when it's linked to a report data set object, which is used, to create a cross tab. It was work fine in version 2.2

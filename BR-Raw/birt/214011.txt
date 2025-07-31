@@ -1,0 +1,3 @@
+No standard deviation in Aggregation Builder in a Crosstab
+
+Build ID: I20070625-1500 Steps To Reproduce: 1. Add a crosstab 2. Insert an aggregation in a crosstab aggregation cell 3. Try to select standard deviation in the 'function' field. More information: This is really important, I just assumed that the standard aggregate functions would be functional for a crosstab just as they are elsewhere. Are there plans to implement this? Thanks!

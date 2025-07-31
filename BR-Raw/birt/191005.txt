@@ -1,0 +1,3 @@
+PDF preview hangs up with attached xtab.[1102]
+
+Description: PDF preview hangs up with attached xtab. Build number:2.2.0.v20070605 Steps to reproduce: 1. Open attached report in bug #191001.(xtab setting: page break, repeat column header and data in column header larger than one page) 2. Preview in pdf. Expected result: PDF display content without hard page break effect. Actual result: PDF preview hangs up, I waited for ten minutes still saw nothing display. Error log:N/A

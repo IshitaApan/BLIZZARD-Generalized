@@ -1,0 +1,3 @@
+Exception is thrown out when click "Ctrl+Y" after add an aggregation in crosstab and click "Ctrl+Z" [1102]
+
+Created attachment 146641 report design Description: Exception is thrown out when click "Ctrl+Y" after add an aggregation in crosstab and click "Ctrl+Z". Build number: 2.5.1.v20090908-1029 Steps to reproduce: 1. New a crosstab binding to the cube. 2. Drag an aggregation to the crosstab measure cell. 3. Click "Ctrl+Z", then click "Ctrl+Y". Expected result: No exception. Actual result: Exception is thrown out.

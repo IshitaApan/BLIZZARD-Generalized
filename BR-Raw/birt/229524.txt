@@ -1,0 +1,3 @@
+populateExtendedAggrInfo in AggregationManager may cause NPE
+
+Created attachment 98097 plugin Description: Attached zip is a user defined aggregation which extends the old Aggregation framework. I found the NPE throws out when using it. After debugging, we found aggrWrapper.setParameterDefn( null ) in populateExtendedAggrInfo of AggregationManager caused this NPE. Build number: 2.3.0.v20080430-0630

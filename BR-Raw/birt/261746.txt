@@ -1,0 +1,3 @@
+Eclipse is hang up if save the report when workspace is building
+
+Created attachment 123153 screenshot Description: Eclipse is hang up if save the report when workspace is building, the operation can not be canceled. Build number: 2.5.0.v20090121-0630 Steps to reproduce: 1, start BIRT in a workspace which has some un-build java projects 2, When workspace is building, modify a report and save it Expected result: See attached, the user can cancel the operation and eclipse is not hang up Actual result: Eclipse is hang up and user can not cancel the operation Error log:

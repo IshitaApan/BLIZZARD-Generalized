@@ -1,0 +1,3 @@
+[regression] page break not working properly
+
+step to reproduce: preview the attached report design of bug #121875 in PDF expected bahavior: there should be only one page actual behavior: there are two pages

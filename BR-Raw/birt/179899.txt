@@ -1,0 +1,3 @@
+org.eclipse.birt.report.designer.tests has compile error in daily build 20070329-0630
+
+org.eclipse.birt.report.designer.tests has compile error in daily build 20070329-0630. Please see the attachment. This build ran from HEAD version.

@@ -1,0 +1,3 @@
+Crosstab in library is fragmentary when add a derived measure[1302]
+
+Created attachment 93353 screen print Description: Crosstab in library is fragmentary when add a derived measure[1302] Step: 1. Add a crosstab in library and show as chart. 2. Add a derived measure. Actual result: Pleasee the attached image, the cell on right down is lost.

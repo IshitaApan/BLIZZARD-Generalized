@@ -1,0 +1,3 @@
+Right Justified Text problem
+
+Created attachment 120269 screenshot of problem Issue found when running reports in PDF mode only. When text is right aligned, spaces are not being removed from the text, so the alignment is not working properly. See attachment.

@@ -1,0 +1,3 @@
+[Automation][Regression]Grid border was messed in PDF
+
+Created attachment 170619 report design Description: Set report direction to RTL, grid border was messed while previewing report in PDF. Step to reproduce: 1. Use the report attached 2. Preview it in PDF Expect result: The border display as report design. Actual result: The border was totally messed.

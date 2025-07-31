@@ -1,0 +1,3 @@
+Enhance the format of Prompt text in Export dialog
+
+Created attachment 135116 screenshot Description: Prompt text of Export dialog is not in proper format Build number: 2.5.0.v20090511-0630 Steps to reproduce: 1, New a jdbc data source 2, Right click the data source 3, Check the format of prompt text: You are exporting "XXX" to Data Source Explorer Expected result: The text if too large and a little inconsistent with other dialog's text Actual result: See attached screenshot Error log:

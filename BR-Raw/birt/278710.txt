@@ -1,0 +1,3 @@
+Error when running report using createDataBinding().
+
+Created attachment 137935 test report description: Error when running report using createDataBinding(). build id: 2.5.0 v20090602-0630 steps to reproduce: 1. Get the attached report and preview. Actual result: Error related to createDataBinding() occurs.

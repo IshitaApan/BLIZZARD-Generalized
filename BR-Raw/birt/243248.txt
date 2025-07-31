@@ -1,0 +1,3 @@
+[Regression]Schemas are hidden when editing or creating a dataset
+
+When creating a dataset or editing a dataset, the schemas are hidden, it is very confuse, and if I click Apply Filter button, the schemas are shown. Build Id: v20080806-0630 Steps to reproduce: 1, New a sampleDB Datasource 2, New a dataset based on the datasource 3, Check the Available Items in Query page 4, Click Apply Filter button Expected result: By default we should show all the schemas Actual result: The schemas are hidden, only if the user click apply filter button

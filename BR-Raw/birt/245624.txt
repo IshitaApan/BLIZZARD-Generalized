@@ -1,0 +1,3 @@
+Image disappear in layout if cancel "Edit Image Item" dialog[0001]
+
+Description: There is an image in the report. Reopen the report, click on the image to open the "Edit image item", click "Cancel". The image turn to blank in the report layout. build version:2.3.1.v20080829-0630 Steps to reproduce: 1.Insert an image from shared resources. 2.Preview the report, it works well. 3.Then click on the image to pop up "Edit image item" dialog, click "cancel". 4.The image turn to blank in the layout.

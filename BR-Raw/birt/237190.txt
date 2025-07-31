@@ -1,0 +1,3 @@
+Created Connections will not be closed (mysql, jdbcDriver 5)
+
+birt-report-designer-all-in-one-2.3RC4 I created a new BIRT JDBC Data Source, with the driverClass: com.mysql.jdbc.Driver (v5.0) with valid a driverURL, UserName and Passwort, nothing else. Then I created a dataset and did some reports. Every data access (preview etc.) is opening a database connection, which will not be closed. So I ended with: too many connections Solution: The connections should be closed automatically.

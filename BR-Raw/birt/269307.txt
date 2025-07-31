@@ -1,0 +1,3 @@
+Charts and page footer overlap when previewing in PDF
+
+Created attachment 129311 report design Description: Charts and page footer overlap when previewing in PDF Build number: 2.5.0.v20090319-0630 Steps to reproduce: 1, Preview attached report which has several Charts in PDF 2, Check the page footer from second page Expected result: Chart and page footer didn't overlap Actual result: They overlap from the second page Error log:

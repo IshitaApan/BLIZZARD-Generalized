@@ -1,0 +1,3 @@
+[Regression] The chart view of the column area grand total is not in line with the row in Web Viewer [1302]
+
+Created attachment 111390 report design Description: The chart view of the column area grand total is not in line with the row when preview in Web Viewer. Build number: 2.3.0.v20081529-0630 Steps to reproduce: 1. Preview the attached report design in Web Viewer. Expected result: The chart is in line with the row. Actual result: The chart is not in line with the row see the screenshot. Error log: N/A

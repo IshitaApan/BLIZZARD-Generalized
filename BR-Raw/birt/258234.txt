@@ -1,0 +1,3 @@
+"Don't show this message again" in crosstab's Remove unused binding dialog doesn't work
+
+Description: "Don't show this message again" in crosstab's Remove unused binding dialog doesn't work Build number: 2.5.0.v20081210-0630 Steps to reproduce: 1, New a crosstab with dimension 2, Drag one dimension from column area to row area 3, Remove Unused Bindings dialog pops up and tick Don't show this message again checkbox on 4, Click OK 5, Drag that dimension from row area to column area Expected result: Remove Unused Bindings dialog never pops up and in Preference->Report Design->Crosstab the choice of "Remove unused... "is "Never" Actual result: The dialog still pops up Error log:

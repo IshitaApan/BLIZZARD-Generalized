@@ -1,0 +1,3 @@
+Truncated labels problems in 3D
+
+Created attachment 75487 Screenshot View attached picture to see the problem. For 2D and 2D With Depth, chart labels are not truncated, but chart area is adjusted. For 3D charts, labels are truncated.

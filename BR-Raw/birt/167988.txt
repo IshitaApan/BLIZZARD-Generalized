@@ -1,0 +1,3 @@
+org.eclipse.birt.tests.data has compile error in daily build 20061214
+
+org.eclipse.birt.tests.data has compile error in daily build 20061214. Please see the attachments for details.

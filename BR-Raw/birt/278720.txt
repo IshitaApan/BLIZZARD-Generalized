@@ -1,0 +1,3 @@
+Error occurs when preview  a report variable
+
+Created attachment 137944 report design Description: Define a report variable "a", with default value as "text" (expression type). And and add a data item with expression as a. Error occurs when preview it. See the attached report design. Build version:2.5.0.v20090602-0630

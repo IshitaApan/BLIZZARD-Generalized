@@ -1,0 +1,3 @@
+ODA Dynamic Query Result Specification Enhancements
+
+The ODA dynamicResultSet extension point and related API were first introduced as experimental API in the 1.7 release (bug #262874) and enhanced in 1.7.1 (bug #280892). This entry is open for further enhancements and re-factoring of the related experimental API and framework.

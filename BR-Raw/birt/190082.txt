@@ -1,0 +1,3 @@
+ID and Message does not match
+
+org.eclipse.birt.report.designer.core\src\org\eclipse\birt\report\designer\nls\messages.properties, following ID and message is found: ColorBuilder.text.None=Auto The ID said None, but the text is Auto. If the text is Auto, ID should be ColorBuilder.text.Auto. More information:

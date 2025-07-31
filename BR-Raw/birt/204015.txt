@@ -1,0 +1,3 @@
+BRIT is not Picking up Vendor JDBC Drivers
+
+Created attachment 78774 JDBC Jar Build ID: I20070625-1500 Steps To Reproduce: 1. Create New Data Source 2. Give Datasource a Name 3. Select JDBC Data Source 4. Select Manage Drivers 5. Add the Jars by pressing add (in this case com.yolus.api.yes.jdbc.jar). Also include extra 3 extra jars, which are required for connection. 6. Look at the Driver List and nothing appears. Tested JDBC Jar using Squirrel JDBC Client and works fine. (i.e. it was albe to find the JDBCDriver in the jar). More information: This Jar is used in a range of Vendor software (easysoft, openlink, etc) plus you can connect to it directly using plain java. Maybe i have missed a configuration detail somewhere, but i can not see how.

@@ -1,0 +1,3 @@
+[regression]Edit dataset from library cannot work properly[01]
+
+Description: Edit dataset from library cannot work properly Build number:2.2.0.v20070604 Steps to reproduce: 1. New a library, create sample data source and dataset from OFFICES table. 2. Use this library in a report design. 3. Drag the data source and data set to Data Explorer 4. Modify the dataset to point to another table ORDERS in query text, click OK. 5. Expand dataset node to see columns. 6. Select the dataset and right click, select refresh. Expected result: Always display columns from ORDERS Actual result: After step5, see ORDERS columns. After step6, see OFFICES columns Error log:N/A regression of bug #164568

@@ -1,0 +1,3 @@
+Part of the instruction text are in italic in "Interactivity" dialogue under locale zh_CN [13]
+
+Created attachment 129559 screenshot Description: Part of the instruction text are in italic in "Interactivity" dialogue under locale zh_CN. Build number: 2.5.0.v20090323-0630 Steps to reproduce: 1. In "Chart Builder", open "Interactivity" dialogue and select "Hyperlink" and add. 2. Click "Advanced" and check the instruction text. Expected result: The whole instruction text are with the same style. Actual result: Part of the instruction text are in italic. Error log: N/A

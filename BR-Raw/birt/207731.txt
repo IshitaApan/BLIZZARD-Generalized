@@ -1,0 +1,3 @@
+There is an element "AutoText" only exists in Insert Element dialogue in Ouline View context menu [05]
+
+Created attachment 81424 screenshot Description: There is an element "AutoText" only exists in Insert Element dialogue in Ouline View context menu. Build number: 2.3.0.v20071029-0800 Steps to reproduce: 1. New a report with a grid in master page footer. 2. In Outline View select one grid cell and right click to select "Insert Element". Expected result: If "AutoText" can be added, it should be added from both Layout and Outline. Actual result: "AutoText" is only shown in Insert Element dialogue in Ouline View context menu.. Error log: N/A

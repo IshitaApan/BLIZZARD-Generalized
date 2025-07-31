@@ -1,0 +1,3 @@
+Aggregation functions do not work on number constants in charts
+
+Created attachment 140110 Sample report showing the bug Build ID: I20090611-1540 Steps To Reproduce: See the attached report or follow these steps: Trying to create a chart that counts rows grouped by the values of a column: 1. Create a chart 2. Drag a column to the Category (X) series field 3. Type "1" into the Value (Y) series field Expected result: The "1"-s of the value series are summed, thus giving the count. Real result: "1" for every X If you type an expression for Y instead, like "1/1", then it works correctly. Please see attached screenshots for easier understanding. Thanks, Zoltan

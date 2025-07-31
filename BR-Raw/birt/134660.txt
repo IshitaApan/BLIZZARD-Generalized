@@ -1,0 +1,3 @@
+[RCP]Layout got tricky view when refreshing
+
+Steps to reproduce: 1.New a library, add a label and a text 2.New a report, extend lib.label and lib.text 3.Modify the content of label in library 4.Refresh the report Actual result: Only a label in the layout view but outline view is ok. Switch to XML Source, the code is library file(see the screenshot)

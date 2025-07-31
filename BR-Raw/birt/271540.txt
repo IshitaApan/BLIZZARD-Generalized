@@ -1,0 +1,3 @@
+[Automation][Regression]Master page background color does not work in PDF
+
+Created attachment 131198 report design Description: Master page background color does not work in PDF. Test Build: BIRT2.5.0 v20090408-0630 Step to reproduce: 1. Use the report attached 2. Preview it in PDF Expect result: The background color is gray. Actual result: The background color lost.

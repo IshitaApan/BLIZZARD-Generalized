@@ -1,0 +1,3 @@
+"The table *** has inconsistent column count." is shown if split cell in table group header with inline contents [0004]
+
+Created attachment 153035 screenshot Description: "The table *** has inconsistent column count." is shown if split cell in table group header with inline contents. Build number: 2.5.2.v20091125-0630 Steps to reproduce: 1. New a table binding to the data set. 2. Add group for the table, and insert a label in to the table header cell. 3. Merge the first two cells of the table header row, and set "Inline" to both of the contents. 4. Select the cell and split. Expected result: No error. Actual result: "The table *** has inconsistent column count." is shown. Error log: N/A

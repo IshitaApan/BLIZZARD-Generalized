@@ -1,0 +1,3 @@
+"Unable to use a non-datetime data to render a datetime axis" is shown when set the binding for a chart in a grid cell using context menu [13]
+
+Created attachment 146135 screenshot Description: "Unable to use a non-datetime data to render a datetime axis" is shown when create a chart in a grid cell. Build number: 2.5.1.v20090828-0630 Steps to reproduce: 1. New a flat file data source from the attached csv file. 2. New a grid, add a chart in one cell, binding to the data set, and select values for series (please refer to the attached screenshot). Expected result: No error. Actual result: "Unable to use a non-datetime data to render a datetime axis" is shown (see the screenshot). Error log: N/A

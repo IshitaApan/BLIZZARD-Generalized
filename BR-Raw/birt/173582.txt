@@ -1,0 +1,3 @@
+Run servlet should not be affected by values in document.[0000]
+
+Description: Run servlet result should not be affected by values in document. Build number:2.2.0.v20070209 Steps to reproduce: 1. Deploy birt. 2. type http://host:port/frameset?__report=test.rptdesign&sample=my+parameter. 3. Change parameter value to "abc" using Run Report button in frameset toolbar. 4. type http://host:port/run?__report=test.rptdesign&sample=my+parameter&__overwrite=false. Expected result: Display value "my paramter" instead of "abc". Actual result: Display "abc" as parameter value. But if delete __overwrite from url, it will display "my parameter". Here run servlet should not be affected by document. Error log:N/A

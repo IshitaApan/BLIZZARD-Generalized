@@ -1,0 +1,3 @@
+Need locale-dependent api version of StringUtil.doubleToString()
+
+Need model provide an API as locale-dependent version of StringUtil.doubleToString(). The value returned by this method should be valid when parsed by DimensionValue.parseInput().

@@ -1,0 +1,3 @@
+2D+ Pie chart with sample data has a pixel width of wrong color.
+
+Created attachment 100767 Screenshot from pie with sample data Take a look at attached screenshot from 2D+ Pie chart with sample data, pie has a pixel width of wrong color. This is an obvious defect that we must fix.

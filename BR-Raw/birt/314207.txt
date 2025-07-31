@@ -1,0 +1,3 @@
+[Regression]Preview result is incorrect when report content is more than one page
+
+Created attachment 169776 report design Description: Preview result is incorrect when report content has auto page break Build number: 2.6.0.v20100525-1129 Steps to reproduce: 1, Insert a text 2, Insert a image to make sure text content + image content is larger than master page height, it will be auto pagebreak when running in web viewer 3, Run it in web viewer Expected result: Page break happened if content height is larger than master page height. Actual result: Text in front of image disappeared but image was shown. I have tested this case in the morning build(2.6.0.v20100525-0630), the result is correct, page break happened between text and image

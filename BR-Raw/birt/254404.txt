@@ -1,0 +1,3 @@
+Report script error not correctly reported
+
+Created attachment 117169 report design Attached is an empty report with the Report.initialize script containing an invalid reference to undefined variable "a". Preview the report in BIRT designer, or run it in the Web viewer, a browser dialog pops us with the following text: Unhandled exception when executing script. No other detail about the error is available. EXPECTED BEHAVIOR: the error should be reported with detailed information about the script error, such as the name of the script, and the error message from the Rhino script engine. This appears to be a regression since I recall seeing more detailed script errors from earlier BIRT builds. Tested build: 2.3.2.v20081031-1200

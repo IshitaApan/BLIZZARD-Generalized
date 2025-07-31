@@ -1,0 +1,3 @@
+Excel ODA
+
+Build Identifier: M20110210-1200 BIRT doesn't provide a straight forward way to use Microsoft excel file as a source. This extension will provide a simple and straight forward mechanism to use Microsoft Excel files as Data Source. The plugin project is hosted at: http://code.google.com/a/eclipselabs.org/p/excel-oda/ Reproducible: Always

@@ -1,0 +1,3 @@
+Set origin value for second Y axis does not work.[13]
+
+Created attachment 145766 screen shot description: 2.5.1 v20090827-0630 steps to reproduce: 1. Insert a chart with two Y axis. 2. Set value for origin of second Y axis.(Format Chart->Chart Area->Y axis-> Origin/value) Actual result: The value does not work, it is always displayed at the left. See attached screen shot.

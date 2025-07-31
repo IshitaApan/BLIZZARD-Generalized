@@ -1,0 +1,3 @@
+[Regression] Not all of the data exported can be shown [07]
+
+Created attachment 80634 report design 1.rptdesign Description: Not all of the data exported can be shown. Build number: 2.2.1.v20071016-0630 Steps to reproduce: 1. Preview the attached 1.rptdesign in Web Viewer and export all of the data. 2. Use the exported data in the attached 1_1.rptdesign and preview result. Expected result: All the column are shown. Actual result: The time column is not shown. Error log: N/A

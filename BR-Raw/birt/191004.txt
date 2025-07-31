@@ -1,0 +1,3 @@
+[Smoke][AS4] Can not debug [0001]
+
+Description: Can not debug. Build number: 2.2.0.v20070605-0630 Steps to reproduce: 1. new a Java project: create a Java class using BIRT's scripting API. 2. new a report project, create a report, and add a Label element, map the Java class to the Label via event handler panel in property editor, and preview. 3. open debug launcher dialog from toolbars. 4. create a new report debug profile. 5. select Report Projectsand the Java Projects, click on Debug. Expected result: The preview and debug can be done. Actual result: Exception is thrown out when preview and debug. Error log: See the screenshot.

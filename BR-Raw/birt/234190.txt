@@ -1,0 +1,3 @@
+"(Auto)" on the Curve Fitting Line dialog is not externalized.
+
+Created attachment 102187 Screen shot "(Auto)" on the Curve Fitting Line dialog is not externalized so it's displayed in English. Please check the attached screen shot for detail.

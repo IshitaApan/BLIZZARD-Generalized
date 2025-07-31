@@ -1,0 +1,3 @@
+[Regression] The hidden TOC is shown in the TOC pane, but exception is thrown out when click [0002]
+
+Created attachment 117870 zip file of report design, report library, and flat file used Description: The hidden TOC is shown in the TOC pane, but exception is thrown out when click. Build number: 2.5.0.v20081114-0600 Steps to reproduce: 1. Put file1.csv, file2.csv and CSVDataSources.rptlibrary in resource folder. 2. Modify flatfile data source path in library file. 3. Preview Memberships.rptdesign in Web Viewer, and check the TOC pane. Expected result: The TOC of some hidden items are not shown. Actual result: The TOC of some hidden items are shown and when click exception is thrown out. Error log: N/A

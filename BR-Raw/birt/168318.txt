@@ -1,0 +1,3 @@
+[regression]Print doesn't work correctly when preview attached file through external browser[00]
+
+[regression]Print doesn't work correctly when preview attached file through external browser[00] Build number: 2.1.2.v20061214 Steps to reproduce: 1. Open attached design file in designer. 2. Select window-->Preference.., check always using external browser in BIRT- >Preview. 3. Preview in html and select Print Preview from browser's menu. Expected result: It should be 9 pages in IE or FierFox Actual result: In IE there are 12 pages In FireFox there are 8 pages Error log: N/A

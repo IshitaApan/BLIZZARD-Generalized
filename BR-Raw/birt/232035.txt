@@ -1,0 +1,3 @@
+[Accessibility] High contrast mode does not take effect in edit view of Birt.
+
+Created attachment 100139 screenshot1 description: High contrast mode does not take effect in edit view of Birt. build id: 2.3.0 v20080514-0630 steps to reproduce: 1. Go to Control Panel - Accessibility Options. On the Display tab, check the option to "Use High Contrast". Select the "Settings" button and select a high contrast scheme such as "High Contrast Black". Select the OK button. 2. Switch focus back to BIRT. Expected result: user interface controls and client area are displayed using the new contrast scheme. Actual result: The editor view is not displayed in contrast mode. Please see attached screenshot1.

@@ -1,0 +1,3 @@
+Filter evaluation should throw exception when invalid binding is meet.
+
+Please refer to bug 234765. For a filter Conditional Expression evaluation, we should always throw an exception if an invalid binding is meet, rather than return a "DataExceptionMocker" object.

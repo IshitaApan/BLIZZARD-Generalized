@@ -1,0 +1,3 @@
+[Automation][Regression]Fit to page does not work in PDF
+
+Created attachment 129039 report design Description: Fit to page does not work in PDF when preview report in linux platform. Test build: 20090317 Test Build: BIRT2.5.0 v20090317-0630 Step to reproduce: 1. Use the report attached 2. Preview it in webviewer 3. Export report to pdf format selected fit to page option. Expect result: The chart should fit to page in PDF. Actual result: The chart is clipped.

@@ -1,0 +1,3 @@
+Auto text "Page Number" and "Total Page" does not work correctly when preview as XLS [1203]
+
+Created attachment 110077 report design Description: Auto text "Page Number" and "Total Page" does not work correctly when preview as XLS. Build number: 2.3.1.v20080815-0630 Steps to reproduce: 1. Preview the attached report design as XLS and check print preview. Expected result: The auto text "Page Number" and "Total Page" works. Actual result: The auto text "Page Number" and "Total Page" are both shown as 1 in the first and second page. Error log: N/A

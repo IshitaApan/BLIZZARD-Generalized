@@ -1,0 +1,3 @@
+Java based scripting -> row&col span of a cell does not work properly when preview in pdf
+
+steps to reproduce: - use attached class, which sets row&col span of a cell in onRender event - preview attached report in HTML, PDF, Viewer expected behavior: - row&col span take effect actual behavior: - it simply didn't in PDF report

@@ -1,0 +1,3 @@
+Icon used to invoke expression builder should be consistent(DTE part)
+
+Please modify the part of DTE team, thanks.

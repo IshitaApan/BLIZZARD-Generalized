@@ -1,0 +1,3 @@
+[Accessibility] Shortcut keys is missing and does not work in Value Series page for Pie Chart [17]
+
+Created attachment 130091 screenshot Description: Shortcut keys is missing and does not work in Value Series page for Pie Chart. Build number: 2.5.0.v20090327-1033 Steps to reproduce: 1. New a Pie Chart. 2. Open chart builder, in "Format Chart->Series->Value Series" page, check the shortcut keys. Expected result: 1. Shortcut key is proviede for "Pie Rotation". 2. Shortcut key "P" works. Actual result: 1. Shortcut key for "Pie Rotation" is missing. 2. Shortcut key "P" does not work. See the screenshot. Error log: N/A

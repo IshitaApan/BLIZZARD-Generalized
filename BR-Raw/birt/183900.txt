@@ -1,0 +1,3 @@
+Image in preview pane will not show until you reopen the "Edit Image Item" dialogue [0001]
+
+Description: Image in Preview Pane will not show until you reopen the "Edit Image Item" dialogue. Build number: 2.2.0.v20070425-0630 Steps to reproduce: 1. Drag an image item from Palette to Layout. 2. Input "http://www.baidu.com/img/logo.gif". Expected result: The image will show in the preview pane. Actual result: The image will not show in the preview pane until you reopen the "Edit Image Item" dialogue or input the URI in expression builder. Error log: N/A

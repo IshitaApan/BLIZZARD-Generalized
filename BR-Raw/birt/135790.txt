@@ -1,0 +1,3 @@
+ClassCastException in RowData.
+
+ClassCastException is thrown in RowData line 81(IBaseExpression expr = ( IBaseExpression ) valueExpressions.get( index - 1 );).

@@ -1,0 +1,3 @@
+[Regression]Drop of Group cell doesn't work
+
+Created attachment 130643 reports Preview attached report which has a table with a group, I set drop to All property on the cell of group, when previewing, drop didn't work at all. Build Info: 2.5.0 v20090402-0630

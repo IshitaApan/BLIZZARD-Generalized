@@ -1,0 +1,3 @@
+No line number in script editor
+
+The script editor doesn't show any line number, even when the eclipse "show line number" setting for text editors is set. This prevents the user to identify script errors when they are reported by line number. The chart script error reporting actually mentions the line number of the error, so it would be useful to show the line numbers in this scenario.

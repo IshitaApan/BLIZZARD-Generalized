@@ -1,0 +1,3 @@
+Linked Report parameter type is dynamic and refer to the host dataset
+
+Description: Linked Report parameter type is dynamic and refer to the host dataset Build number: 2.3.2.v20081104-0630 Steps to reproduce: 1, New a dataset with query select * from customers where customernumber<? 2, Goto dataset parameter page and open the expression builder of Linked To Report Parameter Expected result: The new parameter is a static type parameter rather than a dynamic parameter which refer to the the host dataset, it will cause the circular dependence.

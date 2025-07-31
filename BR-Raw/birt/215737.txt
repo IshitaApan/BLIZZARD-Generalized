@@ -1,0 +1,3 @@
+The colspan is wrong for merged cells in a grid that spans hidden columns
+
+Created attachment 87218 Sample report that illustrates the problem If a grid contains a merged cell that spans multiple columns, the colspan for the generated <td> in the html output includes columns that are hidden, even though no columns were created for them in the output. I've attached a sample report that illustrates this. In the report, col2 is hidden, but the colspan for the merged cell is 3.

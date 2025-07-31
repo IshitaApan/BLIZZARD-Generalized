@@ -1,0 +1,3 @@
+text-anchor style in svg chart is not right.
+
+In svg, text-anchor style support start, middle and end values. But in the attached svg chart, there is a wrong value like left. So when use batik to tranfer the svg to be a image, the batik throw a NPE.

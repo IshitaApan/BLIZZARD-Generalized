@@ -1,0 +1,3 @@
+Optimize chart drawing using several series but less data points
+
+This is related to bug 117059. Summary: - I figured out that one line series containing 10000 points will be rendered fast enough. Though, when rendering 5 series containing each 100 points or less will take too long. - chart engine (2.3RC0) used in RCP product - could not find a manageable optimization solution by profiling the chart built/rendering

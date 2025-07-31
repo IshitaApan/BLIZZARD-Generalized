@@ -1,0 +1,3 @@
+linked libraries in outline should not show absolute path
+
+When a report design or report template or library uses another library it is shown under 'libraries' in outline view. Mouse hover at this library node in ouline view shows the absolute path. Instead it show show the relative path as it is linked with BIRT Resource folder.

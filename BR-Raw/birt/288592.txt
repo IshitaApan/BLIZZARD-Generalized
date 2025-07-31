@@ -1,0 +1,3 @@
+Series order is not correct after setting z-order and switching to 2D+.[13]
+
+Created attachment 146464 screen shot description: Series order is not correct after setting z-order and switching to 2D+.[13] build id: 2.5.1 v20090904-0630 steps to reproduce: 1. New a chart. 2. On Select Data page, new another series. 3. On Format Chart page, set z-order of series 1 higher than series 2. 4. On Select Chart Type page, select dimension as 2D+. Actual result: The series order is not correct. See attached screen shot.

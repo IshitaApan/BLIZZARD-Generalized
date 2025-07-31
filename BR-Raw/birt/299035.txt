@@ -1,0 +1,3 @@
+WebService: Pagebreak in dynamic text with big HTML: Inline brings NPE
+
+Build Identifier: 20090920-1017 I'm using a WebService as datasource. My report contains simply a title label and a dynamic text field. In the dynamic text field html data are display. If the html text becomes very long (more than one page) I get a pagebreak before the dynamic text field. So I have one page with the title and another page (or more) with the html text. I would prefer the html text would start on the first page. But if I use Inline for Display I get a NullPointerException. This works if I use an XML datasource but not for my webservice ds. see also: http://www.birt-exchange.org/forum/designing-birt-reports/17803-pagebreak-dynamic-text-big-html.html Reproducible: Always

@@ -1,0 +1,3 @@
+The name in the Outline view will not refresh after rename a report design [00]
+
+Created attachment 137776 screenshot Description: The name in the Outline view will not refresh after rename a report design. Regression of #131667 Build number: 2.5.0.v20090529-0630 Steps to reproduce: 1. New a report design with name a.rptdesign. 2. Rename it to a.rpttemplate or b.rptdesign. 3. Check the report name in Outline view. Expected result: The name will refresh. Actual result: See the screenshot. Error log: N/A

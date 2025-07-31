@@ -1,0 +1,3 @@
+Crosstab reports error in preview but works in web viewer
+
+Created attachment 103723 th report design and library Build ID: birt 2.3rc2 Steps To Reproduce: 1.Open attached report 2.click preview - error 3.open in webviewer - no error More information:

@@ -1,0 +1,3 @@
+Crosstab Text/Chart view support displays chart for every level
+
+Created attachment 91074 Report design with crosstab In attached report design, I switch from text view to chart view. I then get the same chart displayed for every quarter. I would expect 1 bar for every quarter.

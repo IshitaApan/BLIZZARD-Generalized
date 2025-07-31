@@ -1,0 +1,3 @@
+Only first row of items are displayed when items are set to display inline.
+
+Created attachment 133513 generated pdf description: Only first row of items are displayed when items are set to display inline. build id: 2.5.0 v20090428-0630 steps to reproduce: 1. New a chart, keeping the default size. 2. In Property Editor, select advanced tab, set display in section to inline. 3. Copy&paste the chart several times. 4. Preivew in pdf/ps/ppt. Actual result: Only first three charts are displayed.The generated pdf and test report are attached. Expected result: The items should be displayed in the second row if the width exceeds the page width.

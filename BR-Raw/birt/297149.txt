@@ -1,0 +1,3 @@
+"Axis Line Color" should be disabled after tick "Hide Axis Line" [13]
+
+Created attachment 153976 screenshot Description: "Axis Line Color" should be disabled after tick "Hide Axis Line". Build number: 2.5.2.v20091208-0630 Steps to reproduce: 1. New a chart, go to "Format Chart->Chart Area->Axis->Y-Axis", click "Gridlines" button, tick "Hide Axis Line". Expected result: "Axis Line Color" is disabled. Actual result: Change "Axis Line Color" does not work after tick "Hide Axis Line". Error log: N/A

@@ -1,0 +1,3 @@
+[Automation][Regression]A DataException is thrown out when preview reportdesign
+
+Description: A DataException is thrown out when preview reportdesign Test Date: 20071030 Test Build: BIRT2.2.2 v20071029 Step to reproduce: 1. Use the reportdesign attached 2. Preview it Expect result: Report can be previewed without any exception. Actual result: A DataException is thrown out.

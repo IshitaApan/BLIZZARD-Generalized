@@ -1,0 +1,3 @@
+Bubbles will be missing under specific condition.[13]
+
+Created attachment 152822 report design build id: 2.5.2 v20091123-0630 steps to reproduce: 1. Get the attached report design and CSV file. 2. Preview the report design. Actual result: The bubbles are missing. Note that the X axis origin value was set to 0, otherwise the bug can not be reproduced. Also, the bubbles will be displayed if you set the chart height to 3 inches.

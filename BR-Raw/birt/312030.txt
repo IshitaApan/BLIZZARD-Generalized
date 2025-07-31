@@ -1,0 +1,3 @@
+Marker label is not displayed correctly after format axis label.[13]
+
+Created attachment 167450 screen shot description: Marker label is not displayed correctly after format axis label. build id: 2.6.0 v20100507-0630 steps to reproduce: 1. New a bubble chart. 2. In Format Chart page, format axis label as Uppercase. 3. Add a marker line. Actual result: The marker line label is not displayed correctly.

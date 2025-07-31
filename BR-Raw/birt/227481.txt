@@ -1,0 +1,3 @@
+Plot chart doesn't align with axis chart in xtab
+
+Created attachment 96382 Data point of 12 iin plot chart s not aligned with axis In xtab, Plot chart doesn't align with axis chart, not only in preview, but also in layout editor. Please look at attached screenshot

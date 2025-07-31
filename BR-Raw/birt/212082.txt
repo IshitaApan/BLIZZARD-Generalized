@@ -1,0 +1,3 @@
+Aggregate Palette Item with Aggregate Extensions
+
+Created attachment 84572 aggregate extension plug-in. This is a continuation on a previous bug, but I would prefer to leave that closed and start new bug. The aggregate palette now picks up my aggregate extensions and shows them in the dialog, but I can not figure out how to get it to accept the control. It keeps throwing a null pointer handle. I will attach the project that has two extension points, the Concatenate extension is probably a little easier to work with.

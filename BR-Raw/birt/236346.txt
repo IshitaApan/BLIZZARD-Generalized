@@ -1,0 +1,3 @@
+[Automation][Regression]Label is clipped in PDF
+
+Description: Create a label at the end of inline chart, but the label was clipped when preview report as PDF. Test Date: 20080610 Test Build: BIRT2.3.0 v20080610-0630 Step to reproduce: 1. Use the report attached 2. Preview it as PDF Expect result: The "End of inline chart" label should show in PDF. Actual result: The label was clipped.

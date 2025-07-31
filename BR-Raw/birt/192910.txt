@@ -1,0 +1,3 @@
+Parameter named "page" confuses the Viewer
+
+A report parameter called "page" in BIRT works fine in Preview, however I receive "Invalid Page Number" when looking at the same report in the Report Viewer. I think the Viewer passed the parameter correctly AND then tries to use that same value to set the location within the report.

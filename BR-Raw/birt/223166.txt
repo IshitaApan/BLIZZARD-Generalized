@@ -1,0 +1,3 @@
+"summary" is not in the function list for table item in Script tab [0801]
+
+Created attachment 92872 screenshot Description: "summary" is not in the function list for table item in Script tab. Build number: 2.3.0.v20080319-0800 Steps to reproduce: 1. New a report with a table. 2. Select the table, switch to Script tab, after input "this." the function list appears. Expected result: "summary" is listed. Actual result: "summary" is not in the list. Error log: N/A

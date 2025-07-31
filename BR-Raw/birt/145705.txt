@@ -1,0 +1,3 @@
+[regression]Tooltip of chart cannot display completely
+
+Description: Tooltip of chart cannot display completely Steps to reproduce: 1. Set tooltip "abcdef\ndeeeeee" to X-Axis 2. preview Expected result: tooltip can be displayed completely Actual result: Only can see the first line of tooptip

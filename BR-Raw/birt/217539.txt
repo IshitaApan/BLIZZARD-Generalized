@@ -1,0 +1,3 @@
+The nested crosstab result is wrong when preview in frameset mode[1102]
+
+Created attachment 88649 report design Description: Open the attached report design, preview it in frameset mode and compare the result between frameset and preview modes. Build Number: v20080202-0800 build.

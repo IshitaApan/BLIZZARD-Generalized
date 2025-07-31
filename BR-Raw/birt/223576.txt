@@ -1,0 +1,3 @@
+viewer print as HTML ignores page breaks
+
+Created attachment 93213 zip of image of html report just before it is printed.You can see remarks I added for the repeating header and footer in middle of page Build ID: 2.2.2 Steps To Reproduce: 1.Build any report (landscape or portaite oreintatation) that is more than 1 page long (insert page breaks). 2. view report in Viewer. The viewer displays the paging properly (just like the PDF) 3. Print report as HTML - page breaks are ignored and footer of pages appears in middle of printed page and more info (from page 2) is printed in the first page after the footer. 4. Printed report as HTML should use page breaks just as PDF format uses the page breaks for pagination. More information:

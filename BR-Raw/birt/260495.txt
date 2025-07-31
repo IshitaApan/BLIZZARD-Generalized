@@ -1,0 +1,3 @@
+org.eclipse.birt.report.tests.engine has compile error in 2.5.0 daily build v20090109-0630
+
+Created attachment 122046 error report in 2.5.0 daily build v20081118-0630. org.eclipse.birt.report.tests.engine has compile error in 2.5.0 daily build v20090109-0630. please see the attachment for details.

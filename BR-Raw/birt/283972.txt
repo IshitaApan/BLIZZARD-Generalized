@@ -1,0 +1,3 @@
+Image marker will become invisible in chart builder if series line color is transparent.
+
+Created attachment 141981 test report description: Image marker will become invisible in chart builder if series line color is transparent. build id: 2.5.1 v20090720-0630 steps to reproduce: 1. New a scatter chart. 2. Use image as marker.(Format Chart->Series->Value(Y)Series->Markers) 3. Change the series line color to transparent.(Format Chart->Series->Value(Y)Series->Color) Actual result: The markers disappears in chart builder. But in preview, markers are displayed.

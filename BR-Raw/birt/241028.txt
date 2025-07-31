@@ -1,0 +1,3 @@
+No warning message when previewing if dataset's parameter has no default value
+
+Description: I specify the query like "select * from table where number < ?" and do not input the default value of dataset parameter. When previewing, no warning message occurs to tell me the input parameter has no default value. Build number: 2.2.1.v20080716-0630 Steps to reproduce: 1, New a dataset 2, Specify the query like: select * from customer where customernumber < ? 3, Preview in dataset Expected result: Pops up a warning message to tell user the parameter has no default value when previewing. Actual result: The preview is ok Error log:

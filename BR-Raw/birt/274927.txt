@@ -1,0 +1,3 @@
+[Regression] Crosstab whose column width are set does not work correctly in HTML [1102]
+
+Created attachment 134359 the zip file of report design, generated htm and pdf files Description: Crosstab whose column width are set does not work correctly in HTML. Build number: 2.5.0.v20090504-1541 Steps to reproduce: 1. Preview the attached report design with a crosstab whose column width are set in HTML. Expected result: Column width takes effect and works the same in HTML and PDF. Actual result: Column width does not work correctly in HTML. Error log: N/A

@@ -1,0 +1,2 @@
+Default name of parameter and theme is not displayed as setting in preference.
+

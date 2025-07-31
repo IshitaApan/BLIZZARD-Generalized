@@ -1,0 +1,3 @@
+NPE throws out when click on data item in layout[0001]
+
+Created attachment 78045 report design Description: Get the attached report design file. Click on data item in layout, NPE throws out. Build version:2.2.0.v20070911-0630 Steps to reproduce: 1. Open the attached report design, click on "STATUS" data item. 2. Click "OK" button, then NPE throws out. Error log: An unexpected internal exception occurred. Please see log for detail. Plug-in Provider:Eclipse.org Plug-in Name:BIRT Designer UI Plug-in ID:org.eclipse.birt.report.designer.ui Version:2.2.1.r221_v20070907 Error Code:Error.GUIException.invokedByUnexpectedException Error Message:Caused by java.lang.NullPointerException.

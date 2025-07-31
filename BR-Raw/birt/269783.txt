@@ -1,0 +1,3 @@
+Errors occurs in Junit test of org.eclipse.birt.data.tests in 2.5.0 daily build v20090324-1433
+
+Created attachment 129676 test report in 2.5.0 daily build v20090324-1433 Errors occurs in Junit test of org.eclipse.birt.data.tests in 2.5.0 daily build v20090324-1433. Please see the attachment for details.

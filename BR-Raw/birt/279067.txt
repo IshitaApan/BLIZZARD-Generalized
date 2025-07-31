@@ -1,0 +1,3 @@
+Constant type URI for chart interactivity does not work.
+
+Created attachment 138257 screenshot description: Constant type URI for chart interactivity does not work. build id: 2.5.0 v20090604-0630 steps to reproduce: 1. New a chart. 2. Add an interactivity to the chart, using constant type URI as hyperlink. Actual result: Error in chart builder and the interactivity does not work when preview. The same works with hyperlink on label. See attached screenshot and test report. Expected result: No error in chart builder and hyperlink works when preview.

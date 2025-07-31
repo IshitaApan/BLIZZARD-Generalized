@@ -1,0 +1,3 @@
+Null value is shown as 'NaN' in legend.
+
+Created attachment 119463 flat file description: Null value is shown as 'NaN' in legend. build id: 2.3.2 v20081204-0730 steps to reproduce: 1. New a dataset with attached flat file. 2. New a difference chart, using the dataset, select Value1 as Positive value and Value2 as Negative value. 3. On Format chart, select Legend node and select Show Value option. 4. Check the live preview or preview the chart. Expected result: Null value should be shown as 'null' or empty. Actual result: Null value is shown as 'NaN'.Please attached screenshot.

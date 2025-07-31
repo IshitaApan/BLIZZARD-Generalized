@@ -1,0 +1,3 @@
+[Regression] The first record in the sub table is missed and the last is doubled [0004]
+
+Created attachment 140169 screenshot Description: The first record in the sub table is missed and the last is doubled. Build number: 2.5.1.v20090624-0630 Steps to reproduce: 1. Preview the attached report design. Expected result: The sub table show the records correctly. Actual result: The first record is missed and the last is doubled. Error log: N/A

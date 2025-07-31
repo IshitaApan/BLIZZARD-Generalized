@@ -1,0 +1,3 @@
+locale based font config file support
+
+Regarding to discussion in Bug 134037, we need the locale-based font config file support like the locale-based font.properties implementation in Java. The locale-based font config file feature will help BIRT report engine to decide what the correct font to be used in the runtime locale. Please see details at Bug 134037. Regards, Suwit

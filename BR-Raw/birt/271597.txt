@@ -1,0 +1,3 @@
+Error in chart builder when trying to set value for axis origin.
+
+Created attachment 131256 screenshot description: Error in chart builder when trying to set value for axis origin. build id: 2.5.0 v20090408-0630 steps to reproduce: 1. New a chart with a Date type Y axis and a Linear type X axis. 2. On Format Chart page, select X-Axis, and select value for Origin. Actual result: Error occurs in chart builder. See attached screenshot. Expected result: Enable to set value for Origin, which should be a Date type value.

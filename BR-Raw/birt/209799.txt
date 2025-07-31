@@ -1,0 +1,3 @@
+Gantt chart series lable does not display suffix for task label
+
+Created attachment 82871 Report design in the attached report design, take a look at the series lable. i specify a suffix for the task label. however when i preview the report the suffix is not displayed.

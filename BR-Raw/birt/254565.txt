@@ -1,0 +1,3 @@
+The series label is not shown completely for the "Scatter" in Chart Examples View [1502]
+
+Created attachment 117290 screenshot Description: The series label is not shown completely for the "Scatter" in Chart Examples View. Build number: 2.3.2.v20081106-0730 Steps to reproduce: 1. Open "Chart Examples" view. 2. Select Primitive Charts->Scatter. Expected result: The label is drawn completely. Actual result: See the screenshot. Error log: N/A

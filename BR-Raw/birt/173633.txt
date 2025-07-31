@@ -1,0 +1,3 @@
+BPS43 - Chart Web Components(JSP Tag library)
+
+Provide a JSP tag and Chart AJAX API to embed charts into web applications. Spec available here: http://wiki.eclipse.org/index.php/BPS43

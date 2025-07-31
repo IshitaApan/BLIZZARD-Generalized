@@ -1,0 +1,3 @@
+A blank page is generated if there is a large margin and preview as PDF
+
+Created attachment 169054 report design Description: A blank page is generated if there is a large margin and preview as PDF. Build number: 2.6.0.v20100519-0630 Steps to reproduce: 1. New a text and go to Property Editor->Padding and Property Editor->Margin. 2. Set top margin to 1000000 %. 3. Preview as PDF. Expected result: If the margin is larger than the page size, it is removed and the text is generated. Actual result: See the screenshot. Error log: N/A

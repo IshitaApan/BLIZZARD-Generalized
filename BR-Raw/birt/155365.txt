@@ -1,0 +1,3 @@
+Can not set data type to "date time" when editing  "Data Item"
+
+Description: Can not set data type to "date time" when editing "Data Item" Steps to reproduce: 1. Insert a data item to the layout 2. Name it and set the expression to "a = new Date()" 3. Select the data type to date time 4. Press ok Actual result: An Birt Exception is thrown out. Expected result: No NPE thrown out

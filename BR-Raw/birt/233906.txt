@@ -1,0 +1,3 @@
+Interactivity using report parameter does not work as expected.
+
+Created attachment 101929 report design description: Interactivity using report parameter does not work as expected. build id: 2.3.0 v20080523-0630 steps to reproduce: 1. New a bar chart. 2. New a report parameter. 3. Add an interactivity to value sereis: event: Mouse click, action: invoke script: alert("params["NewParameter"].value") 4. Preview the chart, input paramter as "this is param" and click on bar. Expected result: On Mouse click, alert will pop as "this is param" Actual result: Alert pops as "this is param.value".

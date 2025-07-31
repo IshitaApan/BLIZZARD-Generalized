@@ -1,0 +1,3 @@
+Using Resource key as map value does not work in XLS
+
+Created attachment 162123 Report and xls Description: Using Resource key as map value does not work in XLS Build: 2.6.0.v20100315-1900 Steps to reproduce: 1. New a report and use test.properties 2. Insert a data 3. Set Map on it: row["CUSTOMERNAME"] like "%a%" and map value use Resource key 4. Preview in xls Actual result: Data Map value is null Expect result: Data shows Map value as "lable1"

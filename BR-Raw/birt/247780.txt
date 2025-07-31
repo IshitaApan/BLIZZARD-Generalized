@@ -1,0 +1,3 @@
+The chart view should either not be able to exported to library or can be export to library and can be edit by the user [1302]
+
+Created attachment 112865 report design Description: The chart view should either not be able to exported to library or can be export to library and can be edit by the user. Build number: 2.3.1.v20080918-0630 Steps to reproduce: 1. New a crosstab, show its measure as chart. 2. Select the chart view and export to library. 3. Check the chart exported in the library. Expected result: The chart view can be exported but the exported chart can not be edit. Actual result: Either the chart view can not be exported to library or can be export to library and can be edit by the user. Error log: N/A.

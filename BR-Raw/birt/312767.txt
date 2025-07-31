@@ -1,0 +1,3 @@
+Chart background image only can be previewed once in chart builder
+
+Created attachment 168362 Screenshot Description: Chart background image only can be previewed once in chart builder Build: 2.6.0.v20100513-0630 Steps to reproduce: 1. New a chart 2. Format Chart->Chart Area->Background 3. Embedded a image and preview 4. Reopen Background image and check the preview Actual result: Preview button is disabled Expect result: Support Embedded image preview commonly

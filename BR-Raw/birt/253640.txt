@@ -1,0 +1,3 @@
+Support the complementary function to getCurrentView()
+
+Steps To Reproduce: More information: For example, I can get a Chart handle from a table's getCurrentView(). For some reason, I've only kept this Chart handle. So I need a way to get the table through the Chart.

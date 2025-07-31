@@ -1,0 +1,3 @@
+Time parameter default value has not been display on Enter Parameters dialog[0002]
+
+Descript: Time parameter default value has not been display on Enter Parameters window[0002] Step: 1.New a Time parameter and input "00:00:00 AM" in default value 2.Preview and the Enter Parmeter dialog Actual result: The default value has not been show in it. Exception result: The default value show in it.

@@ -1,0 +1,3 @@
+[Automation][Smoke]Exception occurred when preview attached report in Excel
+
+Created attachment 142840 report design Description: [Automation]Exception occurred when preview attached report in Excel Build number: 2.5.1.v20090729-0630 Steps to reproduce: 1, Run attached report in excel Expected result: No exception occurred Actual result: Error occurred Error log:

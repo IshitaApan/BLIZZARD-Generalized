@@ -1,0 +1,3 @@
+Predefined Style crosstab's border setting works incorrectly in PDF
+
+Created attachment 144184 report design Description: Predefined Style crosstab's border setting works incorrectly in PDF Build: 2.5.1.v20090811-0630 Steps to reproduce: 1. New a crosstab with content 2. Create a predifine style crosstab with solid border and delete other styles 3. Preview in PDF Actual result: Some redundant border drawn in PDF Error log: N/A

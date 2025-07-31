@@ -1,0 +1,3 @@
+Two reports in different jsp tag are overlapped in firefox.[0603]
+
+Description: Two reports in different jsp tag are overlaped in firefox.[0603] Build number:2.3.0.v20071210 Steps to reproduce: 1. Deploy birt or create a birt web project. 2. Preview attached jsp file in Firefox2.0 Expected report: Display two same reports one by one. Actual result: They are overlapped, see attached. Error log:n/a

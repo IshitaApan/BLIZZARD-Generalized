@@ -1,0 +1,3 @@
+Combo boxes should provide 30 visible items [00]
+
+Created attachment 152683 screenshot Description: Combo boxes should provide 30 visible items. Build number: 2.5.2.v20091120-0630 Steps to reproduce: Please refer to bug #292453.

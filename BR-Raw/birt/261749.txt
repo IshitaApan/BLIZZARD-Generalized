@@ -1,0 +1,3 @@
+[Automation][Regression]Crosstab results have inconsistent number format between frameset and preview mode
+
+Created attachment 123154 report design Description: [Automation][Regression]Crosstab results have inconsistent number format between frameset and preview mode Build number: 2.5.0.v20080121-0630 Steps to reproduce: 1, Preview a report in frameset mode and preview mode 2, Check the result, especially the number format between these two modes Expected result: Results are same in both modes Actual result: The result in preview mode is 1234. and result in frameset mode is 1234.0 Error log:

@@ -1,0 +1,3 @@
+Repeat header issue when measure shows as chart
+
+Created attachment 138886 reports Description: Download attached report and run in web viewer. In second page the header doesn't repeat completely. If measure shows as text the header repeat well. Build number: 2.5.0.v20090611-0630

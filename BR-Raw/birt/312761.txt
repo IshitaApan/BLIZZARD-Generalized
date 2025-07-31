@@ -1,0 +1,3 @@
+It makes no difference changing the series labels position in Radar chart.[13]
+
+Created attachment 168359 screen shot description: It makes no difference changing the series labels position. build id: 2.6.0 v20100513-0630 steps to reproduce: 1. New a radar chart. 2. Show series labels. 3. Select different value as its position. Above/Below/Left/Right Actual result: It makes no difference.

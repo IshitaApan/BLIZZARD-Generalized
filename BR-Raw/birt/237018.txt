@@ -1,0 +1,3 @@
+Failures occurs in Junit test of org.eclipse.birt.report.tests.engine
+
+Created attachment 104826 test report Failures occurs in Junit test of org.eclipse.birt.report.tests.engine. please see the attachment for details.

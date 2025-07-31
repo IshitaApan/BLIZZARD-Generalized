@@ -1,0 +1,3 @@
+Legend script chart example need to be updated.
+
+description: Legend script chart example need to be updated. build id: 2.3.1 v20080724-0630 steps to reproduce: 1. Open the Chart Examples view. 2. Check Legend script example under Scripted Charts category. Actual result: The description and Java source use function beforeDrawLegendEntry(), but actually only the function beforeDrawLegendItem() is available in current chart script. Expected result: The description and Java source need to be updated.

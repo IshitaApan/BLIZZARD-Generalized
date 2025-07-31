@@ -1,0 +1,3 @@
+Greek letters are rendered big in pdf
+
+Created attachment 81031 a report design to demonstrate the problem When rendering a report containing greek letters (see attached example), the letters are rendered ok in doc format, but in pdf they appear big and stand out from the surrounding text. If you copy paste the text from the pdf to a word doc, you'll notice that the greek letters do not use the same font settings as the surrounding text; surrounding text: Normal + 9 pt, Times New Roman greek letters: Normal + MS Gothic, 9 pt, MS Gothic When rendered as word doc, the greek letters use the same font settings as the surrounding text and look better.

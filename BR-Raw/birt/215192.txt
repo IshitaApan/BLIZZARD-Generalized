@@ -1,0 +1,3 @@
+Syntax highlighting doesn't work properly in data sets
+
+Build ID: v20070626-0630 Steps To Reproduce: 1.with query: ROWCONCAT( 'SELECT PTY.name provider FROM rygt_ctgrypty PTY WHERE fk_resource_id = ' || bsn.id ) as provider_list "... provider" and "From..." belong to 2 different lines Highlight un-correctly 2. bsnResourceRel.rtype = '{http://systinet.com/2005/05/soa/model/property}targetResource' when doublet of slashes is used, highlight un-correctly More information:

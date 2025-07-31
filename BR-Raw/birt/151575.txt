@@ -1,0 +1,3 @@
+X series grouping problem
+
+Steps: 1.Create a bar chart, bind the numeric type data to X series, includes duplicate datas in this column 2.Open chart builder, go to "Format chart" tab,select X series, tick grouping, type select "Numeric", interval set to 0 3.preview Actual Results: 1.in the chart, same values can not be grouped. Expected Results: 1.Can be grouped.

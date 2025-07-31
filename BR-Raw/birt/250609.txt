@@ -1,0 +1,3 @@
+Can not Toggle break point in script dataset's script
+
+Description: Can not Toggle break point in script dataset's script Build number: 2.5.0.v20081013-0630 Steps to reproduce: 1, New a script dataset 2, Specify script 3, Try to add a break point Expected result: The break point can be added by both double clicking and right selecting Actual result: The break point can not be added. Error log:

@@ -1,0 +1,3 @@
+NPE when export data from attached report[0002]
+
+Created attachment 101214 exception dialog Description: When table inside crosstab header cell, export data will throws NPE Build number:2.3.0.v20080521 Steps to reproduce: 1. Preview attached report in WEb Viewer 2. Export Data Expected result: No Exception. Actual result: NPE Error log: attached

@@ -1,0 +1,3 @@
+NPE thrown out when preview report using two library
+
+Created attachment 102134 report design BuildId: 2.3.0.v20080527-1838 Steps to reproduce: 1. Add the attached 2 library and 1 report design 2. Preview the report design Expected result: Report can be preview successfully Actual result: NPE exception thrown out. Please see the attach error log Error Log: See attachment Note that if we removed unsed library (xtab_static.library), report can be previewed. And the problem only exists when we use cube from library (xtab_dynamic.library)

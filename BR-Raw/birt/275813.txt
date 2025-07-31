@@ -1,0 +1,3 @@
+The style applied on table group toc can not be deleted [0002] [03]
+
+Created attachment 135295 report design Description: The style applied on table group toc can not be deleted. Build number: 2.5.0.v20090512-0630 Steps to reproduce: 1. New a table binding to the data set, add group for the table. 2. New a style, apply the style on the table group toc. 3. Delete the style from Layout/Context Menu..., and click "Yes" in "Reference Found" dialogue. Expected result: The style can be deleted. Actual result: The style can not be deleted. Error log: N/A

@@ -1,0 +1,3 @@
+[AS5]Failed to load document occurs when preview the attached report in PDF[1200]
+
+Created attachment 78406 attached design file Description: [AS5]Failed to load document occurs when preview the attached report in PDF[1200] Build number: 2.2.1.v20070914-0630 Steps to reproduce: In Red Hat5(AS5), Previe the attached report design in PDF, open the generated PDF. Expected result: The attached report design can preview in PDF well Actual result: Error occurs: Failed to load document. Error log:

@@ -1,0 +1,3 @@
+Border in pdf is overlap[00]
+
+Details: Border in pdf is overlap[00] Step: Please see the attached report and pdf. Actual result: The border is overlap.

@@ -1,0 +1,3 @@
+It isn't possible to put a html comment into the report using a text element
+
+I need the following conditional comment at the beginning of the generated report (ideally within the header): <!--[if IE]><style type="text/css">img {margin-bottom: -3pt;}</style><![endif]--> Jason suggested to use a text element. The result was: - Design file entry: <text id="1265"> <property name="contentType">html</property> <text-property name="content"><![CDATA[<!--[if IE]><style type="text/css">img {margin-bottom: -3pt;}</style><![endif]-->]]></text-property> </text> - Created entry in the html report: <div></div> I don't know a way to put the html comment without transformation into the content.

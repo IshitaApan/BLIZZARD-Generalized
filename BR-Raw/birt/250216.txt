@@ -1,0 +1,3 @@
+"\n" and "\r" does not work correctly in XLS[1202]
+
+Created attachment 114624 report design Description: "\n" and "\r" does not work correctly in XLS. Build number: 2.3.2.v20081008-1200 Steps to reproduce: 1. Preview the attached report design in XLS and PDF. Expected result: works the same in XLS and PDF. Actual result: "\n" and "\r" does not work correctly in XLS . Error log: N/A

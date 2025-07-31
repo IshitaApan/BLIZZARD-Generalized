@@ -1,0 +1,3 @@
+NPE throws out when preview an unexisting chart item
+
+Descritpion: A report using a chart item from library, and then rename the chart name in the library. NPE throws out when preview the report. build version:2.3.1.v20080813-0630 Steps to reproduce: 1.New a chart in library, and use the chart in a report design. 2.Rename the chart name in library. 3.Click "OK" to reload the changes in report design. 4.Preview the report, NPE throws out. Expected result: If the chart item does not exist in the library, the preview output shall be blank instead of poping up NPE. It's just like preview a chart without any data binding.

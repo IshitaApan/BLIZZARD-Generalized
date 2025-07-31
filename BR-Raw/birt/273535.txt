@@ -1,0 +1,3 @@
+Derived measure's label should not be added in grandtotal section
+
+Created attachment 133043 screenshot Description: Derived measure's label should not be added in grandtotal section when crosstab's orientation is vertical Build number: 2.5.0.v20090424-0630 Steps to reproduce: 1, New a crosstab which has row area dimension and column area dimension 2, Add a derived measure 3, Add grandtotal for both area dimension 4, Check Row area grandtotal Expected result: Label of derived measure is not added in Row area grandtotal if the crosstab is vertical Actual result: Label of derived measure is added in Row area grandtotal if the crosstab is vertical(see screenshot) Error log:

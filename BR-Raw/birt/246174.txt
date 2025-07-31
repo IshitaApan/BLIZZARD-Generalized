@@ -1,0 +1,3 @@
+Chart can not get parent container's binding when this chart is multi-nested
+
+BuildId: 2.3.1.v20080904-0630 Description: Chart can not get parent container's binding when this chart is multi-nested. Steps to reproduce: 1. Add a list and add binding for the list 2. Insert a table into the list and did not edit its binding. 3. Insert a chart into the table. Double click the chart. Expected behavior: The chart should use list's binding as its container's binding Actual behavior: The chart's container's binding is empty. Error Log: N/A

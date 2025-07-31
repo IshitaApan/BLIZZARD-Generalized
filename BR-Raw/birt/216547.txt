@@ -1,0 +1,3 @@
+[Regression] One of the chart is missing when preview as POSTSCRIPT [1201]
+
+Created attachment 87838 zip file Description: One of the chart is missing when preview as POSTSCRIPT. Build number: 2.3.0.v20080125-1136 Steps to reproduce: 1. Preview the attached report design in POSTSCRIPT. Expected result: There are two charts as preview in PDF. Actual result: There is only one chart. Error log: N/A

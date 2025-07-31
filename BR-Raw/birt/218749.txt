@@ -1,0 +1,3 @@
+Update xtab contents once level changes.
+
+When user changes the dimension with multiple levels, should provide a method to let its inner items update correctly. Just like IAggregationCellViewProvider, add one more method to update items once level changes.

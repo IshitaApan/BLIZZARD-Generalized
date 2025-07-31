@@ -1,0 +1,3 @@
+Marker change to beforeDrawMarker doesn't apply to the marker in legend.
+
+Created attachment 135306 Report to verify. Some charts, such as Line, Bubble, Scatter and Gantt, supports marker in both data point hints and legend items. However, the marker change in beforeDrawMarker script method only apply to data point hints, not to legend items. In addition, user must check null for dph in script so as to avoid NPE in script execution. Run the following report to get the expected behavior.

@@ -1,0 +1,3 @@
+[Accessibility] Can not use keyboard to select chart bindings in Chart Builder
+
+Created attachment 164670 screenshot Description: Can not use keyboard to select chart bindings in Chart Builder. Build number: 2.6.0.v20100412-0630 Steps to reproduce: 1. New a data source and a data set and a data cube. 2. New a chart, in "Select Data" tab, use keyboard to select the data cube. Expected result: Keyboard access works. Actual result: When it comes to "<New Data Set...>" using the down button, "New Data Set" dialogue pops up and the cube can not be selected. Error log: N/A

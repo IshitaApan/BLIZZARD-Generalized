@@ -1,0 +1,3 @@
+[Regression] The sample report can not be previewed as pdf on linux
+
+Created attachment 146926 sample report BuildId: 2.5.1.v20090911-0630 Steps to reproduce: 1. Install BIRT all-in-one on linux 2. Preview the attached sample report as pdf Expected result: The report can be previewed as pdf Actual result: The preview page just hang up and keep processing. For more than 20 mins. More info: This report can be previewed on windows. This report can be previewed on linux using 2.5.1RC2 build. Error Log: N/A

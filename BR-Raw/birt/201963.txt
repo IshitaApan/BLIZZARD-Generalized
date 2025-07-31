@@ -1,0 +1,2 @@
+Move aggregation from detail to group header does not change Aggregate On value
+

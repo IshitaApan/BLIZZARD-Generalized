@@ -1,0 +1,3 @@
+Error creating a chart that uses cross tab data
+
+Created attachment 130429 Report design See attached report. The chart uses data from the cross tab. When the report is previewed, there are errors and the chart is not generated.

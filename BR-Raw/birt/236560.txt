@@ -1,0 +1,3 @@
+Sorting groups based on an aggregation does not seem to work?
+
+Created attachment 104422 Report Design In the attached report, I have a table for top 5 customers. I am grouping by customer and aggregating prior and current year sales. I also am doing a top 5 filter on the group definition. I added a sort by descending on current year sales. This does not seem to work for some reason.

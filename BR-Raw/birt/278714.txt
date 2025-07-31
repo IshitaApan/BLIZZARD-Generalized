@@ -1,0 +1,3 @@
+The icon for the "Variables" node, report variable and page variable should be updated [05]
+
+Created attachment 137937 screenshot Description: The icon for the "Variables" node, report variable and page variable should be updated. Build number: 2.5.0.v20090602-0630 Steps to reproduce: 1. New a report with a report variable and a page variable. 2. Check the icons in the Data Explorer view. Expected result: Please refer to the BPS1127. Actual result: The icon should be updated (see the screenshot). Error log: N/A

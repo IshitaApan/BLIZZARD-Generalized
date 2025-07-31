@@ -1,0 +1,3 @@
+Radar chart should not be used in crosstab measure view.[13]
+
+Created attachment 163357 screen shot description: Radar chart should not be used in crosstab measure view. build id: 2.6.0 v20100330-0630 steps to reproduce: 1. New a crosstab. 2. Switch its measure to chart view, select type as radar. Actual result: Error occurs. See attached screen shot. Expected result: Chart type like pie should not be used in crosstab measure view.

@@ -1,0 +1,3 @@
+[Linux AS5] Columns in Data Preview are in center alignment
+
+Created attachment 134923 screenshot Description: [Linux AS5] Columns in Data Preview are in center alignment Build number: 2.5.0.v20090508-0630 Steps to reproduce: 1, Install BIRT Allinone in Linux AS5 2, New a chart and specify dataset 3, Check the columns alignment Expected result: They should be in Left alignment as layout in windows. Actual result: In windows, columns are in left alignment, but in linux they are strange in center alignment.(See screenshot) Error log:

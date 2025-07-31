@@ -1,0 +1,3 @@
+Live preview is not correct in chart view for crosstab which shows its inner level.
+
+Created attachment 117294 screenshot description: Live preview is not correct in chart view for crosstab which shows its inner level. build id: 2.3.2 v20081107-0630 steps to reproduce: 1. New a crosstab, with its inner level shown, like year->quarter. 2. Create a chart view for the crosstab, select the data for outer level as value series. Actual result: Please see attached screenshot.The report design is also attached. Expected result: The live preview should be the same as layout preview.

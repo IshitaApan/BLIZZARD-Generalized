@@ -1,0 +1,3 @@
+[Regression] [2.1.3] Inconsistent behaviors occur when preview in Fire Fox and IE[17]
+
+Description: Inconsistent behaviors occur when preview in Fire Fox and IE Step to reproduce: 1. Download the attachment 2. Preview it in Web Viewer (Fire Fox and IE) Expected result: Same behaviors occur when preview in Fire Fox and IE. Actual result: Inconsistent behaviors occur when preview in Fire Fox and IE. Error log: N/A

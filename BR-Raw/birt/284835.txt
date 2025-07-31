@@ -1,0 +1,3 @@
+[Automation] [Regression] Exception is thrown out when preview a report us js file [08]
+
+Created attachment 142746 zip file of the report design, report library and the js files used. Description: Exception is thrown out when preview a report us js file. Build number: 2.5.1.v20090728-1518 Steps to reproduce: 1. Preview the attached report design. Expected result: No exception. Actual result: Exception is thrown out.

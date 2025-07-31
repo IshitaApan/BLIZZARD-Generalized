@@ -1,0 +1,3 @@
+Stack overflow using XML data source
+
+For some XML schemas, I get a stack overflow exeception when defining the result set. One example is the BPEL 1.1 schema http://schemas.xmlsoap.org/ws/2003/03/business-process/

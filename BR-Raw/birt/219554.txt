@@ -1,0 +1,3 @@
+[regression]Resource folder in web.xml doesn't work for frameset[0601]
+
+Description: Resource folder in web.xml doesn't work for frameset Build number:2.3.0.v20080220 Steps to reproduce: 1. Deploy birt. 1. Specify resource folder in web.xml to an absolute path or relative path, copy an image to it. 2. Design a report to display the image from resource folder 3. Type http://host:port/birt/frameset?__report=... to preview report. 4. Type http://host:port/birt/preview?__report=... to preview report. Expected result: Both works and display Image. Actual result: Fail to display image in frameset servlet while it's ok for preview servlet Error log:n/a

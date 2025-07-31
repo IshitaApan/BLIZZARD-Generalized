@@ -1,0 +1,3 @@
+Background image does not work in inline style in html text.
+
+description: Background image does not work in inline style in html text. build id: 2.5.1 v20090821-0630 steps to reproduce: 1. New a html text, insert some text with background image, eg: <p style= "background-image:url(http://www.google.com/intl/zh-CN_ALL/images/logo.gif)"> background image</p> 2. Preview in html. Actual result: The background image does not work. But it works in pdf output.

@@ -1,0 +1,3 @@
+Default date format on Axis label is inconsistent with format preview.
+
+Created attachment 85887 screenshot description: Default date format on Axis label is inconsistent with format preview. build version: 2.2.2 v20071218-1951 steps to reproduce: 1. New a report. 2. New a datasource with sample DB and new a dataset with table PAYMENTS. 3. New a chart, bind the dataset, select CHECKNUMNER as category, select PAYMENTDATE as value series. 4. On Format Chart tab, select Chart Area->Axis->Y-Axis, invoke format specifier editor, compare the format preview and the label shown on Y-Axis. Expected result: Labels on Y-Axis should be formatted as previewed format. Actual result: Lable format is different from the previewed format. See attached screenshot.

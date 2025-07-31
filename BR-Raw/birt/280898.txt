@@ -1,0 +1,3 @@
+Issue about variable value with IE
+
+Created attachment 139620 report design Description: Cannot pass variable content to label when preview with IE Build: <2.5.0.v20090617-0630> Steps to reproduce: 1. Download attached report which has a variable with default value and set value in onPageStart, then a label get the variable value through this.text 2. Preview with firfox and IE Actual result: Label shows up as "123" in IE, and "set value in onPageStart" in Firefox Expect result: Label shows up as "set value in onPageStart" in IE Error log: N/A

@@ -1,0 +1,3 @@
+Axis labels are covered when select dimension as 2D+.
+
+Created attachment 89956 screenshot description: Axis labels are covered when select dimension as 2D+. build version: 2.3.0 v20080218-0800 steps to reproduce: 1. New a crosstab. 2. Show measure as chart view, change the chart orientation and select dimension as 2D with depth. 3. Preview. Expected result: Axis label should be displayed clearly. Actual result: Axis labels are covered and illegible.

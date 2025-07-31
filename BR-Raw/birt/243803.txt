@@ -1,0 +1,3 @@
+Excel export fails on crosstab
+
+Created attachment 109696 example report Export the attached report to excel and it fails.

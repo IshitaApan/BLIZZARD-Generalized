@@ -1,0 +1,3 @@
+Support for report parameter in dataset parameter definition ( default value )
+
+Currently we do not allow user to set 'report parameter' as the default value in the 'dataset parameter' definition - If the dataset is executed, the default value of the report parameters are used. If a report parameter does not have a default value, then the default value for the report parameter type should be used. - Right now the dataset editor UI shows errors for the above use case. Note: This is also required for the cascading parameter enchancment feature

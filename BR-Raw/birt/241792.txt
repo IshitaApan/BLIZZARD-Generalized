@@ -1,0 +1,3 @@
+Unanticipated BIRT exception if one computed column expression uses Total and another  is an aggregation
+
+Build ID: Build id: I20080617-2000 Steps To Reproduce: 1."Data Set Preview" for the attached report 2. 3. More information:

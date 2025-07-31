@@ -1,0 +1,3 @@
+The table row height does not work correctly in PDF
+
+Created attachment 169655 report design Description: The table row height does not work correctly in PDF. Build number: 2.6.0.v20100524-1222 Steps to reproduce: 1. Preview the attached report design in PDF. Expected result: The row height in the second page is 2in. Actual result: Page break does not work correctly between the 3rd and the 4th page. Error log: N/A

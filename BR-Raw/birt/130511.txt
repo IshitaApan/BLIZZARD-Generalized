@@ -1,0 +1,3 @@
+Move RunReportAction from IDE plugin to Preview plugin
+
+RunReportAction need InputParameterDialog which will move to Preview plugin, but IDE plugin is not depends on Preview plugin, so this action must move to Preview plugin

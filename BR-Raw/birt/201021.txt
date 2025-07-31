@@ -1,0 +1,3 @@
+Map rule does not take effect on all elements match the condition when preview as XLS [1203]
+
+Created attachment 76856 report design Description: Map rule does not take effect on all elements match the condition when preview as XLS. Build number: 2.2.1.v200708024-0630 Steps to reproduce: 1. New a table binding to a data set. 2. Select the table and add a map rule. 3. Preview as XLS. Expected result: Map rule takes effect on all elements match the condition. Actual result: It does not take effect on the first one. Error log: N/A

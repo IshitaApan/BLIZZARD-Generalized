@@ -1,0 +1,3 @@
+Data Set beforeOpen script execute twice when two table shares one data set.
+
+Please see attached report design, in which a script data set is designed and there are two tables share the data set. As can be observed from the report design that the beforeOpen Script of report design has been executed multiple times. This is however not expected. Throughout the report execution the beforeOpen() script of each data set should only be executed once.

@@ -1,0 +1,3 @@
+"Sort Locale" and "Sort Strength" should be added for chart sorting [13]
+
+Created attachment 155150 screenshot Description: "Sort Locale" and "Sort Strength" should be added for chart sorting. Build number: 2.5.2.v20091231-0630 Steps to reproduce: BIRT should support collation when sorting data. Please refer to 121149. Expected result: "Sort Locale" and "Sort Strength" should be added for chart sorting . Actual result: See the screenshot. Error log: N/A

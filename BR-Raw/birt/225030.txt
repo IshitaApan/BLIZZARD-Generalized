@@ -1,0 +1,3 @@
+The measure data item will not disappear when show two measure as chart[1302]
+
+Created attachment 94306 screen shot Description: The measure data item will not disappear when show two measure as chart[1302] Step: 1. Add a crosstab contain two measure. 2. Show two measure as chart. Actual result: One measure data item has been disappear, but another measure data item is still exist.

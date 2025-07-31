@@ -1,0 +1,3 @@
+[RCP][Regression] Exception when trying to convert a template item to a report item.[02]
+
+Created attachment 157987 screen shot description: Exception when trying to convert a template item to a report item. build id: 2.5.2 v20100203-0630 steps to reproduce: 1. New a template. 2. New a data set. 3. Insert a table, binding to the data set. 4. Right click the table and select Create Template Report Item.Enter name and click OK. 5. Double click the template item. Actual result: Exception is thrown out.See attached screen shot.

@@ -1,0 +1,3 @@
+Failures and Errors occurs in Junit test of org.eclipse.birt.report.tests.model
+
+Created attachment 104827 test report Failures and Errors occurs in Junit test of org.eclipse.birt.report.tests.model. please see the attachment for details.

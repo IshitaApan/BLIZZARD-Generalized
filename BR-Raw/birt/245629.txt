@@ -1,0 +1,3 @@
+The three column "Function", "Filter" and "Aggregate On" should be shown in the Binding tab of Property Editor for Grid [0000]
+
+Created attachment 111270 screenshot Description: The three column "Function", "Filter" and "Aggregate On" should be shown in the Binding tab of Property Editor for Grid. Build number: 2.3.1.v20080829-0630 Steps to reproduce: 1. Insert an aggregation item in one of the grid's cell and check the Binding tab of Property Editor for Grid. Expected result: The three column "Function", "Filter" and "Aggregate On" are shown. Actual result: The columns are not shown (see the screenshot). Error log: N/A.

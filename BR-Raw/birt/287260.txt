@@ -1,0 +1,3 @@
+Exception occurred when refreshing bindings in Chart which uses old data set
+
+Description: Exception occurred when refreshing bindings in Chart which uses old data set Build number: 2.5.1.v20090821-0630 Steps to reproduce: 1, Download report from https://bugs.eclipse.org/bugs/attachment.cgi?id=144782 2, Insert a chart 3, Go to Select Data page and Open Data Bindings 4, Click refresh Expected result: Show a warning message that the bindings are unavailable rather than throwing out a unclear Exception Actual result: An unclear Exception happened. Error log:

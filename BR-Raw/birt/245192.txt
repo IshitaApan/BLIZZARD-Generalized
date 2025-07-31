@@ -1,0 +1,3 @@
+Add result set extraction instruction in BIRT Model
+
+This issue tracks the Model implementation of BUG 158644. We need a new boolean property AllowExport on the data binding structure. See comment #7 (https://bugs.eclipse.org/bugs/show_bug.cgi?id=158644#c7) for the proposed change.

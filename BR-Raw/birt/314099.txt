@@ -1,0 +1,3 @@
+[Regression] Exception is thrown out when preview a report with a HTML table as DOC
+
+Created attachment 169663 report design Description: Exception is thrown out when preview a report with a HTML table as DOC. Regression of #299037 Build number: 2.6.0.v20100524-1222 Steps to reproduce: 1. Preview the attached report design as DOC. Expected result: No exception. Actual result: Exception is thrown out.

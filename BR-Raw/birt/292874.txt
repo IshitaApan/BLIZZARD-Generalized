@@ -1,0 +1,3 @@
+[Regression] Exception is thrown out when preview the sample report design with chart [13]
+
+Created attachment 150086 report design Description: Exception is thrown out when preview the sample report design with chart. Build number: 2.5.2.v20091021-0630 Steps to reproduce: 1. Preview the attached report design. Expected result: No exception. Actual result: Exception is thrown out.

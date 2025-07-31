@@ -1,0 +1,3 @@
+[Accessibility] Help content should be added for Chart Examples view [17]
+
+Created attachment 126519 screenshot Description: Help content should be added for Chart Examples view. Build number: 2.5.0.v20090224-0630 Steps to reproduce: 1. Open the Chart Examples view. 2. Click "F1" and Help view opens, check the help contents. Expected result: Help content is shown. Actual result: No help content. Error log: N/A

@@ -1,0 +1,3 @@
+[Regression] The exported xls file is not correct for table with horizontal page break [0301]
+
+Created attachment 101447 report design Description: The exported xls file is not correct for table with horizontal page break. Build number: 2.3.0.v20080522-0630 Steps to reproduce: 1. Preview the attached report design in Web Viewer and export report as XLS. Expected result: Horizontal page break does not take effect. Actual result: See the screenshot. Error log: N/A

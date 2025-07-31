@@ -1,0 +1,3 @@
+Enter Parameters dialog shows unnecessary scroll bars
+
+Created attachment 142049 Screenshot of Enter Parameters dialog See attached screenshot. The Enter Parameters dialog obscures part of the OK and Cancel buttons, and includes scroll bars that aren't necessary. Revert this dialog to its appearance in previous releases.

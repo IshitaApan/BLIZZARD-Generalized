@@ -1,0 +1,3 @@
+[Regression] [Automation] Set input parameter value of the script data set through JAVA code does not work [0800]
+
+Created attachment 92996 report design Description: Set input parameter value of the script data set through JAVA code does not work. Build number: 2.3.0.v20080320-0800 Steps to reproduce: 1. Preview the attached report design with event handler for a script data set. Expected result: Column a value should be 2. Actual result: Column a value is 5. Error log: N/A

@@ -1,0 +1,3 @@
+NPE at ScriptDebuggerPropertyTester.test()
+
+Created attachment 92192 stack trace Build ID: I20080207-1530 (3.4M5) + BIRT 2.3M5 Steps To Reproduce: 1. right-click on a project > Debug As

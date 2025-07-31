@@ -1,0 +1,3 @@
+There is an extra chart drawn in the second page when preview as Web Viewer in Fiexed Layout [0002] [0007]
+
+Created attachment 140479 report design Description: There is an extra chart drawn in the second page when preview as Web Viewer in Fiexed Layout. Build number: 2.5.1.v20090630-0630 Steps to reproduce: 1. Preview the attached report design in Web Viewer and exported as PDF. 2. Preview the attached report design in PDF Expected result: The exported PDF is the same with the result in Web Viewer. Actual result: The chart in the bottom left cell is shown in both page when preview in Web Viewer. Error log: N/A

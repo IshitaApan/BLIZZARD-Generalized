@@ -1,0 +1,3 @@
+tooltip text not working correctly
+
+If using optional grouping on a chart and adding two interactive events: mouse click alert( valueSeriesName + categoryData + valueData ); mouse over tooltip valueSeriesName + categoryData + valueData; The mouse click works but the mouse over only shows the value.

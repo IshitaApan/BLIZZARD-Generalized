@@ -1,0 +1,3 @@
+[Improve Page Break Management] Widow/Orphans
+
+As demanded in http://dev.eclipse.org/newslists/news.eclipse.birt/msg08942.html In which release will the topic of widows and orphans be addressed? (Filled bug just to be trackable.)

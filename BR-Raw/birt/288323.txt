@@ -1,0 +1,3 @@
+3D Area Chart is not drawn correctly [13]
+
+Created attachment 146249 screenshot Description: 3D Area Chart is not drawn correctly. Build number: 2.5.1.v20090902-1105 Steps to reproduce: 1. Preview a report design in HTML. Expected result: The two series are drawn correctly. Actual result: Part of the second series covers the first (see the screenshot). Error log: N/A

@@ -1,0 +1,3 @@
+It seems Onpagestart was called twice[0801]
+
+Created attachment 139241 report design Description: It seems Onpagestart was called twice Build number:2.5.0.v20090615 Steps to reproduce: 1. New a page variable. 2. In master page, insert the variable. 3. In master page onpagestart, set var["pv"]=var["pv"]+1; 4. Insert items to layout and set page break 5. Preview in web viewer Expected result: First page 1 and second two,... Actual result: First page 2 and second 4,...

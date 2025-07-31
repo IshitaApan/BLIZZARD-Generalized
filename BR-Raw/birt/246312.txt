@@ -1,0 +1,3 @@
+Customized series identifier of Chart with multiple Y-Axes will be lost in UI
+
+Created attachment 111754 the report design Build ID: I20080617-2000 Steps To Reproduce: 1.Open the attached report design and edit the chart. 2.Switch to Format Chart tab, note that the Identifier of the 2nd Series is "Series 2", which actually should be "bbbbb". 3.Cancel the dialog. 4.Open the edit dialog again, note that the Identifier of the 2nd Series is now correct. 5.Switch to other tab, and return to the "Format Chart" tab again, the series identifier is lost again. More information:

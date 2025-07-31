@@ -1,0 +1,3 @@
+[Bidi] HTML_ENABLE_AGENTSTYLE_ENGINE setting doesn't fix column header problems
+
+In 2.2.1, setting HTML_ENABLE_AGENTSTYLE_ENGINE to false would fix column headers so that they appear left-aligned. Now, this setting does not fix the column header problem. The headers appear in bold and right-aligned. I am using IE7.

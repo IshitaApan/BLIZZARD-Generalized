@@ -1,0 +1,3 @@
+[Automation][Regression]There are errors evaluating script
+
+Created attachment 129043 report design Description: There are errors evaluating script. Test Date: 20090317 Test Build: BIRT2.5.0 v20090317-0630 Step to reproduce: 1. Use the report attached. 2. Preview it. Error log: Caused by: org.eclipse.birt.core.exception.CoreException: There are errors evaluating script "Total.count()": ReferenceError: "Total" is not defined. (<inline>#1) at org.eclipse.birt.core.script.ScriptContext.eval(ScriptContext.java:307) at org.eclipse.birt.core.script.ScriptContext.eval(ScriptContext.java:335) at org.eclipse.birt.core.script.ScriptContext.eval(ScriptContext.java:244)

@@ -1,0 +1,3 @@
+"element, struct, structref" is not supported for a property type.
+
+Description: "element, struct, structref" is not supported for a property type. Steps to reproduce: 1. Add a user property. 2. "element, struct, structref" is not supported for a property type.

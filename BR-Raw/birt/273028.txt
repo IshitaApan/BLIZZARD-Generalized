@@ -1,0 +1,3 @@
+The inline item with "Width: 100%" does not work correctly in Layout [03]
+
+Created attachment 132565 screenshot Description: The inline item with "Width: 100%" does not work correctly in Layout. Build number: 2.5.0.v20090421-0630 Steps to reproduce: 1. New two inline labels, and set "Width: 100%" to one of them. Expected result: The label is shown in the Layout. Actual result: Only one border of the label is shown in the Layout (see the screenshot). Error log: N/A

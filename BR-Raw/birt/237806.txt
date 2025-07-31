@@ -1,0 +1,3 @@
+Chart - setConnectMissingValue doesnt work for ScatterSeries
+
+Build ID: BIRT 2.2.2 Steps To Reproduce: 1. I am using the Chart Engine API to create a ScatterSeries chart. 2. I use the following code to show the lines between the points in the series: scatterSeries.getLineAttributes().setVisible(true); 3. I have null data points in my data set. 4. I use the following code to disconnect the line at null data points: scatterSeries.setConnectMissingValue(false); 5. Note: The setConnectMissingValue method works as expected for a LineSeries. The problem being reported is for a ScatterSeries. More information:

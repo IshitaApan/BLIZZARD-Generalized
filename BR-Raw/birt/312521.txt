@@ -1,0 +1,3 @@
+[Automation][Regression]lable content in grid disappear when preview as xls
+
+Created attachment 168077 test report Description: lable content in grid disappear when preview as xls, preview as html,web view etc are fine. Test Build: BIRT2.3.2 v20100115-1545 Step to reproduce: 1. Create a report (see the attachment test report) 2. create a grid(2 x 1),create a lable in the second cell of grid,lable content set to test 3. the second colunm's width in grid set to 100% 4. preview as xls Expect result: lable content can display Actual result: lable content disappear

@@ -1,0 +1,3 @@
+[Accessibility] Keyboard does not work correctly in Edit Data Set dialog.
+
+Created attachment 127277 screenshot description: Keyboard does not work correctly in Edit Data Set dialog. build id: 2.5.0 v20090303-0630 steps to reproduce: 1. Right click a dataset and select Edit. 2. Press Ctrl+Tab to navigate the dilaog. 3. Focus the left pane and then use arrow keys to try to select items one by one. Actual result: Not able to select items one by one. The left pane will lost focus after you press arrows keys. Expected result: Using arrows keys can navigate the items in left pane.

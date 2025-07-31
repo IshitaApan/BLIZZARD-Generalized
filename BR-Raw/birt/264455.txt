@@ -1,0 +1,3 @@
+Report layout is incorrect when opening a report which orientation is RTL
+
+Created attachment 125348 screenshot Description: Report layout is incorrect when opening a report which orientation is RTL Build number: 2.3.2.v20090211-0730 Steps to reproduce: 1, Open attached report design from https://bugs.eclipse.org/bugs/attachment.cgi?id=114526 2, Check the report orientation 3, Change the Orientation to Left to Right and check the report layout 4, Change the Orientation to Right To Left and check the report layout Or after step2, close and reopen the report Actual result: After step1, the text are Right to Left but the Grid is still Left to Right(See screenshot). If reopen the report or modify the Orientation, both text and Grid are changed to Right To Left. Error log:

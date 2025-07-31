@@ -1,0 +1,3 @@
+assert condition off by one in ReportEngineService
+
+The following assertion appears around line 516 in org.eclipse.birt.report.viewer\birt\WEB-INF\classes\org\eclipse\birt\report\services\ReportEngineService.java assert pageNumber > 0 && pageNumber < reportDocument.getPageCount( ); However, since page numbers start at 1 instead of 0, pageNumber could equal reportDocument.getPageCount(). So the assertion should be assert pageNumber > 0 && pageNumber <= reportDocument.getPageCount( );

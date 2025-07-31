@@ -1,0 +1,3 @@
+displayText for hidden Report parameter
+
+Created attachment 221640 displayText usage displayText for Hidden Report Parameter displays the actual Value instead of the selected DisplayText. Please verify the report attached, it contains 2 Report Parametes with following values Display text - value - hidden 1. AAAA - aaaa - NO 2. BBBB - bbbb - YES Then there are two variables first displaying both report parameted actual selected value and second diplaying the displayText value. Logical display should be : aaaa, bbbb AAAA, BBBB but instead, for the hidden variable, the displayText value is bbbb. Please consider this on priority!! Its urgent. Please fix the displayText value for hidden report parameters. Please let me know if you need any further information. Thanks!!

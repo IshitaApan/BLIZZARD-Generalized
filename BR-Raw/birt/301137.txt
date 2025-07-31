@@ -1,0 +1,3 @@
+Curve fitting line
+
+Created attachment 157524 The rar archive contains the report and screenshots An Overlay Line chart access data from a database by using SQL. When only one series of data is displayed, the curve fitting line is positioned properly, but when the second data series is added to the same chart, both curve fitting lines move below the the data series curves. ( please see attached screen shots) Regards, Nenad

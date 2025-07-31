@@ -1,0 +1,3 @@
+Expose evaluate() method in IReportContext
+
+Need Engine expose evaluate() method in IReportContext interface, this will be used to evaluate global Javascript expression in case there's no resultset bound to current report item.

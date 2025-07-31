@@ -1,0 +1,3 @@
+A default width larger than 1 pixels should be provided for the the crosstab measure header after change the orientation [03] [1102]
+
+Created attachment 131088 report design Description: A default width larger than 1 pixels should be provided for the the crosstab measure header after change the orientation. Build number: 2.5.0.v20090407-0630 Steps to reproduce: 1. New a crosstab binding to the data cube in Fixed Layout. 2. Set the width and height of the levels and change the orientation of the crosstab. Expected result: The measure header has a default width larger than 1 pixels. Actual result: The width of the measure header is 1 pixels. Error log: N/A

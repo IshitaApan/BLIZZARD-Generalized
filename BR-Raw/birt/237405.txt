@@ -1,0 +1,3 @@
+Data type of Outputcolumn are not translated to chinese
+
+Created attachment 105118 screenshot Description: Data type of Outputcolumn are not translated to chinese Build number: 2.3.0.v20080617-0630 Steps to reproduce: 1, Install NL packaged 2, Start BIRT by -nl zh_cn 3, New a dataset has output columns Expected result: The data type of output columns are translated to chinese

@@ -1,0 +1,3 @@
+Underline and strikethrough line are invisible if label rotation is 45 degree.[13]
+
+Created attachment 165692 screen shot description: Underline and strikethrough line are invisible if label rotation is 45 degree. build id: 2.6.0 v20100421-0630 steps to reproduce: 1. Insert a chart. 2. Go to Format Chart page and select X axis node, click Font Editor. 3. Enable underline and strikethrough line, then set rotation as 45 degree. Actual result: Underline and strikethrough line are invisible. See attached screen shot.

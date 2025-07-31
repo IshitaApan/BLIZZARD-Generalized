@@ -1,0 +1,3 @@
+[Regression] Exception is thrown out when preview a report containing a crosstab with subtotal shown as chart as XLS [1203] [1302]
+
+Created attachment 147070 report design Description: Exception is thrown out when preview a report containing a crosstab with subtotal shown as chart as XLS. Build number: 2.5.1.v20090914-0630 Steps to reproduce: 1. Preview the attached report design as XLS Expected result: No exception. Actual result: Exception is thrown out.

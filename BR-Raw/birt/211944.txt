@@ -1,0 +1,3 @@
+Tag and '<sup></sup>' does not work when preview as DOC [1202]
+
+Created attachment 84477 report design Description: Tag and '<sup></sup>' does not work when preview as DOC. Regression of #123185 Build number: 2.3.0.v20071205-0800 Steps to reproduce: 1. Preview the attached report design. Expected result: Tag '<sup></sup>' works. Actual result: Tag '<sup></sup>' does not work. Error log: N/A

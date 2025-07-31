@@ -1,0 +1,3 @@
+[Automation][Regression]Dynamic text alignment does not work correctly in PDF
+
+Created attachment 130043 report design Description: Set the dynamic text alignment to center, but part of dynamic text alignment is still left in PDF format. Test Build: BIRT2.5.0 v20090327-0630 Step to reproduce: 1. Use the report attached 2. Preview it as PDF format. Expect result: Please refer to the golden file attached. Actual result: Please refer to the screen shot attached.

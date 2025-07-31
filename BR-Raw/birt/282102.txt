@@ -1,0 +1,3 @@
+Exception is thrown out when preview a chart with two no-link hyperlinks.
+
+Created attachment 140561 test report description: Exception is thrown out when preview a chart with two no-link hyperlinks. build id: 2.5.1 v20090701-0630 steps to reproduce: 1. New a chart. 2. Add an interactivity. Add two hyperlinks in the interactivity and the two hyperlinks should be No Link type. 3. Preview the chart. Actual result: Exception throws out. Test report is attached. Expected result: The chart could be previewed correctly even the hyperlink has no link.

@@ -1,0 +1,3 @@
+The error message should not be shown when the Aggregate Expression is correct [13]
+
+Created attachment 131490 report design Description: The error message should not be shown when the Aggregate Expression is correct. Build number: 2.5.0.v20090410-0630 Steps to reproduce: 1. New a gantt chart. 2. Enable X Series Grouping (leave the Aggregate Expression: Sum). 3. Set the Aggregate Expression to "First" for Start Date and End Date. 4. Finish then reopen the chart builder. Expected result: The error message is not shown because the Aggregate Expression can be accepted. Actual result: The error message is shown. Error log: N/A

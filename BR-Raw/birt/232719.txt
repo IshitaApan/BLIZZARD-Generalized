@@ -1,0 +1,3 @@
+X-Axis title does not work the same as Y-Axis tilte and Chart title in the Layout [13]
+
+Created attachment 100857 report design Description: X-Axis title does not work the same as Y-Axis tilte and Chart title in the Layout. Build number: 2.3.0.v20080519-0630 Steps to reproduce: 1. New a chart with Title: "Bar Chart חלךשחגלחצט Title", X-Axis Title: "X-Axis חלךשחגלחצט Title" and Y-Axis Title: "Y-Axis חלךשחגלחצט Title". 2. Set the Bidi test direction of Chart to rtl. Expected result: The titles work in the same way. Actual result: See the screenshot. Error log: N/A

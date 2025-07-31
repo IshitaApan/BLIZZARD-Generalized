@@ -1,0 +1,3 @@
+Not able to select table column and row when the table has a chart view.[0004]
+
+Created attachment 146159 screen shot description: Not able to select table column and row when the table has a chart view. build id: 2.5.1 v20090901-0630 steps to reproduce: 1. New a table. If you select the table icon in layout, column and row selector will appear. See the screen shot. 2. Create a chart view for the table. (Right click and select Create Chart View). 3. Try to select the table column or row. Actual result: Column and row selector can not activated.

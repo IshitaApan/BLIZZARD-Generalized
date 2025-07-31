@@ -1,0 +1,3 @@
+[Automation][Regression]Default font style is changed in cross table
+
+Created attachment 123164 report design Description: Default font style is changed in cross table comparing with Build20090119-0630. Test Date: 20090121 Test Build: BIRT2.5.0 v20090121-0630 Step to reproduce: 1. Use the report attached 2. Preview it 3. Compare the result with build20090119-0630.

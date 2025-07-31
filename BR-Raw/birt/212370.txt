@@ -1,0 +1,3 @@
+[Regression] Negative value can not be shown both in chart builder and when preview [13]
+
+Created attachment 84835 report design Description: Negative value can not be shown both in chart builder and when preview. Build number: 2.3.0.v20071210-0800 Steps to reproduce: 1. Double click the chart in the attached report design to open the chart builder. 2. Preview. Expected result: Negative values can be shown. Actual result: Negative values are cut. Error log: N/A

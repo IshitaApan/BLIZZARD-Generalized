@@ -1,0 +1,3 @@
+In the web project wizard, the "BIRT Chart Component" preset is only visible for web module 2.4
+
+Same as https://bugs.eclipse.org/bugs/show_bug.cgi?id=240262 for the BIRT chart component You must add a new dynamic preset which generates a preset based on the web module version. Have a look at /org.eclipse.birt.integration.wtp.ui/src/org/eclipse/birt/integration/wtp/ui/project/facet/BirtFacetPresetFactory.java and also the plugin.xml and plugin.properties.

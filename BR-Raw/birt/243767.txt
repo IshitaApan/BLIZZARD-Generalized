@@ -1,0 +1,3 @@
+AfterDataSet event does not have access to ReportContext
+
+The afterdatasetfilled event does not have access to the report context. Calling icsc.getExternalContext().getScriptable() returns an error stating that you can not call getScriptable on a null.

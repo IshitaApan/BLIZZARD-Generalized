@@ -1,0 +1,3 @@
+Interactivity in Gantt series doesn't work[13]
+
+Description: Inconsistent behaviors occur when (Y) Series and Legend Interactivity [Series Color By: Value Series] Build number: 2.2.1.v20070720-0630 Steps: 1. Create a Gantt Chart, Set Color By: Value Series. 2. Set Interavtivity Event: Mouse Click, Action: Highlight at (Y) Series and Legend. 3. Preview and Click. (Y) Series and Legend. Expected result: (Y) Series change color. Actual result: Chart Area change color. Error log: N/A

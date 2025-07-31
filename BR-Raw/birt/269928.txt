@@ -1,0 +1,3 @@
+[Automation][Regression]Table caption is on top-left of the table in PDF
+
+Created attachment 129795 report design Description: Table caption default position is top-center of the table, but in the latest build table caption is on top-left. Test Date: 20090325 Test Build: BIRT2.5.0 v20090325-0630 Step to reproduce: 1. Use the report attached 2. Preview it in PDF

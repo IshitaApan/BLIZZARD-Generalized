@@ -1,0 +1,3 @@
+NPE thrown when exporting a resource that exists outside of workspace
+
+Created attachment 162703 patch FilterExtensionsParticipant checks whether a file's name has an extension that should be ignored for export. However, it assumes the file is an IFile. This causes a NPE to occur anytime the resource is not in the workspace.

@@ -1,0 +1,3 @@
+BIDI3.6:In-line component positioning problem in RTL Reports
+
+Created attachment 163205 RTL report with Inline labels Steps: Create a new blank Report Change the orientation to RTL Insert 2 In-line labels Change the text of the 2 labels to make it easy to differentiate between them Check the report preview Expected Results: The In-Line components are mirrored according to the RTL orientation in both Designer and Preview Actual Results: In-Line labels are misplaced in Preview.

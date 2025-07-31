@@ -1,0 +1,3 @@
+New added row in parent level is merged in the first row of child level in excel preview
+
+Created attachment 135245 report Description: New added row in parent level is merged in the first row of child level Build number: 2.5.0.v20090512-0630 Steps to reproduce: 1, Preview attached crosstab in excel 2, check Quater1, it has two rows 3, Insert a label in year dimension and preview in excel again 4, check Quater1, it is merged by three rows Expected result: The Qurter1 row height is equals to other quarter row, the new added label should be in the next row but not merged in the first quarter row. Actual result: If I added multiple labels in year dimension, all of them will be merged in the first quarter. Error log:

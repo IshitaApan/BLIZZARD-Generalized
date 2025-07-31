@@ -1,0 +1,3 @@
+Modify display value at BIRT viewing time
+
+Build ID: N/A Steps To Reproduce: Need a way to change the display value of a data element through javascript, that is IDataItemInstance. This provides User more control over data elements dynamically. More information:

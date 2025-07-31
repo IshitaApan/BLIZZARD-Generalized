@@ -1,0 +1,3 @@
+[Regression] Only the value series selected is shown in context menu and others are disabled [13]
+
+Created attachment 158670 screenshot Description: Only the value series selected is shown in context menu and others are disabled. Build number: 2.5.2.v20100210-0630 Steps to reproduce: 1. New a data source and a data set. 2. New a chart, binding to the data set, add one series. 3. Select one column and invoke the context menu, check the sub menu of "Plot as Value (Y) series". Expected result: All the series are enabled. Actual result: Only the series selected is enabled. Error log: N/A

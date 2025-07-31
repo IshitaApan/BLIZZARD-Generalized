@@ -1,0 +1,3 @@
+When the chart title, axis title and legend title are very long and set "Max Percent" to a large number, the chart is in a mess [13]
+
+Created attachment 121193 report design Description: When the chart title, axis title and legend title are very long and set "Max Percent" to a large number, the chart is in a mess. Build number: 2.3.2.v20081222-0730 Steps to reproduce: 1. Preview the attached report. Expected result: When the chart title, axis title and legend title are very long, the chart is still drawn correctly. Actual result: The chart is in a mess. Error log: N/A

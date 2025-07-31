@@ -1,0 +1,3 @@
+Reload image should trim the front space of URI
+
+Description: Reload image should trim the front space of URI Build number: 2.5.0.v20090325-0630 Steps to reproduce: 1, New a URI Image and input URI e.g."http://a.espncdn.com/photo/2009/0322/nba_illustration_pt1_sw_203.jpg" 2, Input some space in front of the URI 3, Click Reload Image button Expected result: The front space can be trimmed and display the image Actual result: After clicking Reload Image, the space was not trimmed and image couldn't display, if Clicking OK button to finish the image, the space was trimmed and image displayed. Error log:

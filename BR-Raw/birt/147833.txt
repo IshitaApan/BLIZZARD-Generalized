@@ -1,0 +1,3 @@
+Render attached report to pdf from document failed
+
+Description: Render attached report to pdf from document failed Step to reproduce: 1. download the attachment https://bugs.eclipse.org/bugs/attachment.cgi?id=38860 2. preview it in Web Viewer and click Print button Actual result: HTTP Status 500 - type Exception report message description The server encountered an internal error () that prevented it from fulfilling this request.

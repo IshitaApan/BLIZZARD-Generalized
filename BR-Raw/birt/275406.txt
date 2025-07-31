@@ -1,0 +1,3 @@
+The tooltip does not work for image hyperlink when preview in Web Viewer using IE [04]
+
+Created attachment 134913 report design Description: The tooltip does not work for image hyperlink when preview in Web Viewer using IE. Build number: 2.5.0.v20090508-0630 Steps to reproduce: 1. New a image and a label, set both hyperlink to "http://www.baidu.com", and with Tooltip "URI". 2. Preview in Web Viewer using IE and hover over the image and the label. Expected result: Tooltip works for both the image and the label. Actual result: Tooltip works for the image when preview in HTML using IE and when preview in Web Viewer using Firefox, but it does not work for when preview in Web Viewer using IE. Error log: N/A

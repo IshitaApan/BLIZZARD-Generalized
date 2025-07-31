@@ -1,0 +1,3 @@
+[Accessibility] The contents can not be shown completely in Chart builder Select data page under High Contrast Black (Extra large)
+
+Created attachment 169770 Screenshot Description: [Accessibility] The contents can not be shown completely in Chart builder Select data page under High Contrast Black (Extra large) Build: <2.6.0.v20100525-1139> Steps to reproduce: 1. Activate the HighContrast function using the keyboard shortcut (Left-Alt+Left-Shift+PrintScreen). 2. New a chart and go to Select data page. Expected result: The contents are shown completely or there is a scroll bar. Actual result: See the screenshot. Error log: N/A

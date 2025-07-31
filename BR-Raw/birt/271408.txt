@@ -1,0 +1,3 @@
+The data in crosstab top left header cell use the crosstab's binding does not work correctly [1102]
+
+Created attachment 131090 report design Description: The data in crosstab top left header cell use the crosstab's binding does not work correctly. Build number: 2.5.0.v20090407-0630 Steps to reproduce: 1. New a crosstab binding to the data cube. 2. Insert a data item in crosstab top left header cell and change the bindings. Expected result: If the binding of crosstab can not be used by the data item, it should not be able to selected by the user, if it can be bind to the data, it should work. Actual result: The data returns null or exception.

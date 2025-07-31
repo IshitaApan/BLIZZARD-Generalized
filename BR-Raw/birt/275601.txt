@@ -1,0 +1,3 @@
+[Regression] The alignment does not work correctly when preview as PPT [1205]
+
+Created attachment 135106 report design Description: The alignment does not work correctly when preview as PPT. Build number: 2.5.0.v20090511-0630 Steps to reproduce: 1. Preview the attached report design in PPT. Expected result: The alignment of each column works. Actual result: Please refer to the attached ppt file and the alignment of the content in one column does not work correctly. Error log: N/A

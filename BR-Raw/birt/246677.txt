@@ -1,0 +1,3 @@
+problem when define dynamic XML data source
+
+Hi, I try the Birt 2.3.1RC1 (I need this version) and I use XML data source. When I define my datasource by the standard way : in the "XML DataSource Connection Properties" (I give the xml file in the first field) my report work perfectly. but when I try to use the "Properties Binding" (I filled the first field) I have an error "Some connection properties are missing." (even if I dont use report parameters (I wan't to use parameters for switch XML), and I only give the URL of the XML file) in other version of birt this behaviour is not present than'ks for your help mortierm

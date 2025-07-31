@@ -1,0 +1,3 @@
+[Accessibility] The "Rotation" value can not be increase/decrease using keyboard in "Edit Font" dialogue [17]
+
+Created attachment 130071 screenshot Description: The "Rotation" value can not be increase/decrease using keyboard in "Edit Font" dialogue. Build number: 2.5.0.v20090327-1033 Steps to reproduce: 1. Open chart builder, in "Edit Font" dialogue, use keyboard to increase/decrease "Rotation" value. Expected result: Keyboard access works correctly. Actual result: Can use keyboard to increase/decrease "Rotation" value. Error log: N/A

@@ -1,0 +1,3 @@
+org.eclipse.birt.report.engine.tests has compile error in daily build 20080415
+
+Created attachment 96025 compile log-20080415 org.eclipse.birt.report.engine.tests has compile error in daily build 20080415. Please see the attachment for details.

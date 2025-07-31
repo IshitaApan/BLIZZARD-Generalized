@@ -1,0 +1,3 @@
+Unwanted lines appear on chart after invoking interactivity.
+
+description: Unwanted lines appear on chart after invoking interactivity. 1. Make sure the Enable svg chart option in preference is not selected. 2. New a pie chart, select output format as PNG. 3. Add a hyperlink interactivity to the value series of the chart. 4. Preview in layout and click on pie slice. Actual result: Unwanted lines appear. Please see attached screenshot.

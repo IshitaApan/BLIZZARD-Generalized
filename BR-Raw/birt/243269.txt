@@ -1,0 +1,3 @@
+The bars of crosstab measure chart view are not in line with its row header when preview in PDF [1200] [1302]
+
+Created attachment 109271 report design Description: The bars of crosstab measure chart view are not in line with its row header when preview in PDF. Build number: 2.3.1.v20080804-0630 Steps to reproduce: 1. Preview the attached report design in PDF. Expected result: The bars are in line with its row header. Actual result: The bars are not in line with its row header. Error log: N/A

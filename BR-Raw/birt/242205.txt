@@ -1,0 +1,3 @@
+Data binding type is not refreshed immediately after modification.
+
+description: Data binding type is not refreshed immediately after modification. build id: 2.3.1 v20080728-0630 steps to reproduce: 1. New a chart. 2. Open the chart builder and click the Data Binding button on Select Data tab. 3. In Select Data Binding dialog, edit one of the column by changing its data type, eg. from 'Integer' to 'String'. Click OK in the Edit Data Binding dialog. Expected result: The new data type is displayed in Select Data Binding dialog.Referring to the bindings of table, data type is refreshed immediately in this case. Actual result: The old data type is displayed in Select Data Binding dialog untill you click the 'Refresh' button.

@@ -1,0 +1,3 @@
+Help content for Positive/Negative colors editor is not correct.
+
+Created attachment 140829 screenshot description: Help content for Positive/Negative colors editor is not correct. build id: 2.5.1 v20090706-0630 steps to reproduce: 1. New a chart. 2. On Format Chart page, select Series node and click Series Palette button. 3. Click Positive/Negative mode and click '?' button in Positive/Negative Colors Editor. Actual result: The help content is for Gradient color Editor.See attached screenshot.

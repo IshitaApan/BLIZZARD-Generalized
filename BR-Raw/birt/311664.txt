@@ -1,0 +1,3 @@
+Background image for SVG chart does not work when preview
+
+Created attachment 167082 report design Description: Background image for SVG chart does not work when preview. Build number: 2.6.0.v20100505-0630 Steps to reproduce: 1. Enable SVG Chart in Preferences. 2. Edit the background image path in the attached report design. 3. Preview the report design. Expected result: Background image works. Actual result: Background image does not work. Error log: N/A

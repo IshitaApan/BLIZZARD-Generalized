@@ -1,0 +1,3 @@
+[Automation][Regression]Grid cell padding does not work in PDF
+
+Created attachment 130512 report design Description: Set grid cell's bottom padding as 10 picas, but it does not work in PDF. Test Build: BIRT2.5.0 v20090401-0630 Step to reproduce: 1. Use the report attached 2. Preview it as PDF Expect result: The bottom padding works. Actual result: The bottom padding is zero.

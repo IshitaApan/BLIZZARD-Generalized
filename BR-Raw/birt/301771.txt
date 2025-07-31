@@ -1,0 +1,3 @@
+[Regression] [Automation] List width does not work in WORD/PDF/PPT/PS when setted display inline[0300]
+
+Created attachment 158132 Report Description: [Regression] [Automation] List width does not work in HTML/WORD/PDF/PPT/PS when setted display inline[0300] Build: 2.5.2.v20100203-0630 Steps to reproduce: 1. New a report with some list and label 2. Set display inline 3. Preview in HTML/WORD/PDF/PPT/PS Actual result: List width does not work in HTML/WORD/PDF/PPT/PS

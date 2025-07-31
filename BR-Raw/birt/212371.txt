@@ -1,0 +1,3 @@
+[Regression] Auto-scale does not work correctly and gridline is not shown anymore when run the attached java file [13]
+
+Created attachment 84837 java file Description: Auto-scale does not work correctly and gridline is not shown anymore when run the attached java file. Build number: 2.3.0.v20071210-0800 Steps to reproduce: 1. Run the attached java file. Expected result: See the golden. Actual result: See the output. Error log: N/A

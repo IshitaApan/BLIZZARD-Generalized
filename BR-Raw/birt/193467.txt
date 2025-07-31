@@ -1,0 +1,3 @@
+URL hyperlink can't work in chart viewer
+
+There is a chart file with URL hyperlink interactivity, when previewed by chart viewer, the URL hyperlink is in a mess, and it can't redirect to the right page. For example, URL inputed before is "http://localhost", but it's "<structure name=&quot;action&quot;> <property name=&quot;linkType&quot;>hyperlink</property> <expression name=&quot;uri&quot;>&quot;http://localhost:8080&quot;</expression> <property name=&quot;targetWindow&quot;>_blank</property> </structure>" in preview. It looks like Action value of URL redirect is not evaluated in chart viewer.

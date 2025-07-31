@@ -1,0 +1,3 @@
+StackOverflowError
+
+Created attachment 120184 stack trace when using reporting engine API, sometimes appears exception which stack trace is attached. we have 5 datasets in our report. One of them contains script in beforeOpen method. Script looks like this: code ... /* text */ it means some code followed by commentary at the end of the script.

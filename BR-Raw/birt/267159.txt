@@ -1,0 +1,3 @@
+Should enable to select which theme of the library will the style exported from the report
+
+Description: User should be able to select to which theme of the library will the style be exported from the report. Build number: 2.5.0.v20090305-0630 Steps to reproduce: 1. New a report with a style. 2. Export the style to a library. Expected result: User should be able to select to which theme of the library will the style be exported from the report. Actual result: Currently, when exporting a style from a report to a library, the style will be exported to the default theme of the library. Error log: N/A

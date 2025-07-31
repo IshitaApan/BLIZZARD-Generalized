@@ -1,0 +1,3 @@
+large image in table is clipped in PDF
+
+Created attachment 82155 rptdesign Build ID: 2.2.1 Steps To Reproduce: run the attached rptdesign to PDF the resulting PDF contains incomplete images

@@ -1,0 +1,3 @@
+__bookmark doesn't work in pdf with frameset servlet
+
+Description: __bookmark doesn't work in pdf with frameset servlet Steps to reproduce: 1. Deploy birt 2. New a report with bookmark definition inside. 3. Preview the report with url like: http://spm2003:8080/birt20060904/frameset?__report=sample.rptdesign&__format=pdf&__bookmark=bk Expected result: Link to target bookmark page. Actual result: Cannot link to target bookmark page but it works in pdf with run servlet

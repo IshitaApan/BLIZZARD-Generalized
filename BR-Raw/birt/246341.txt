@@ -1,0 +1,3 @@
+[Regression] The data format for date type value should not be shown in the "Enter Prameter" dialogue for the integer type display value [0705]
+
+Created attachment 111791 report design Description: The data format for date type value should not be shown in the "Enter Prameter" dialogue for the integer type display value. Build number: 2.3.1.v20080905-0630 Steps to reproduce: 1. New a report with a date time dynamic parameter. 2. Set date time type column for Value column and integer type column for Display text. 3. Set Format as Custom->Short Date. 4. Preview. Expected result: Format does not take effect. Actual result: String "M/d/yy" is add before each integer in the list. Error log: N/A

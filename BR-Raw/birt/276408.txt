@@ -1,0 +1,3 @@
+org.eclipse.birt.report.model.adapter.oda.tests has compile error in 2.5.0 daily build  v2009515-0630
+
+Created attachment 135900 error report in 2.5.0 daily build v20090515-0630. org.eclipse.birt.report.model.adapter.oda.tests has compile error in 2.5.0 daily build v2009515-0630. Please see the attachment for details.

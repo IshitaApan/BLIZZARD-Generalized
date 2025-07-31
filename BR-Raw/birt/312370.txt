@@ -1,0 +1,3 @@
+Color preview for Positive/Negative color using two patterns does not work.[13]
+
+Created attachment 167864 screen shot description: Color preview for Positive/Negative color using two patterns does not work. build id: 2.6.0 v20100511-0630 steps to reproduce: 1. New a chart. 2. On Format Chart page, select series node and click Series Palette button. 3. Select Positive/Negative color and select two patterns. Actual result: When you select the patterns in series palette, preview does not work. See attached screen shot.

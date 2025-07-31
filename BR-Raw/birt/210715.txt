@@ -1,0 +1,3 @@
+Need following functions exposed in Data api package
+
+Need dte provide similar function like CubeQueryUtil.getReferencedLevels() in api package. The passed in arguments and return value can change to other types, which just providing the same info should be also sufficient.

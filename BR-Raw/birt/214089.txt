@@ -1,0 +1,3 @@
+[Automation][Regression]Page Break within nested table or list works in web viewer, not in PDF
+
+Description: Page Break within nested table or list works in web viewer, not in PDF. Test Date: 20080102 Test Build: BIRT2.3.0 Daily Build: v20080102-1021 Step to reproduce: 1. Use the report attached. 2. Preview it in PDF Expect result: Page break should take effect after data item of nested list. Actual result: Page break takes effect after every row.

@@ -1,0 +1,3 @@
+[Regression] Value series should allow string type if the aggregation function is COUNT.
+
+Created attachment 135096 screenshot description: Value series should allow string type if the aggregation function is COUNT. steps to reproduce: 1. New a dataset with table customers in sample db. 2. New a chart. 3. Select country as category and select aggregation as COUNT. 4. Select customername as value series. Actual result: Error in chart builder. Expected result: No error. String type should be allowed in this case.

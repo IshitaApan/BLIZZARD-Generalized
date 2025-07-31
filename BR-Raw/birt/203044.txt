@@ -1,0 +1,3 @@
+Invoke Script does not work correctly for two similar charts [13]
+
+Created attachment 78156 report design Description: Invoke Script does not work correctly. Build number: 2.2.1.v20070912-1343 Steps to reproduce: 1. Preview the attached report design with two chart with different script to invoke. 2. Click value series. Expected result: "aaa" pops up for the first and "0" for the second. Actual result: "0" pops up for both. Error log: N/A

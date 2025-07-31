@@ -1,0 +1,3 @@
+Cannot print Postscript file with non-standard font
+
+Created attachment 113109 Design file Steps To Reproduce: 1. Create a report with a label field, using an extra font (in my case, a Barcode 3 of 9 font). 2. Export the report as Postscript. 3. Print that postscript file to postscript printer. I used Linux and a Xerox workcentre 5050. 4. The printout will show an error: ERROR: invalidfont OFFENDING COMMAND: awidthshow STACK: 0.0 , 0 , 32 , 0.0 , 0 , ( 3 7 8 6 8 9 6 ) More information: Ghostscript/Ghostview is able to show the file properly. I can also use the command-line utility gs to convert the Postscript file to PCL and print that successfully. We use 2.2.1, but I also tried this in 2.3.0 with similar results.

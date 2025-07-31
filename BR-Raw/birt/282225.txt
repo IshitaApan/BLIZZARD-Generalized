@@ -1,0 +1,3 @@
+Redundant border was generated in PDF when Crosstab Orientation is Vertical
+
+Created attachment 140633 report Description: Part of borders are missing in PDF when Crosstab Orientation is Vertical Build number: 2.5.1.v20090702-0630 Steps to reproduce: 1, New a Crosstab which has one row dimension and one measure 2, Change the Orientation of Crosstab to Vertical 3, Preview in PDF Expected result: No redundant border is generated Actual result: See attached pdf Error log:

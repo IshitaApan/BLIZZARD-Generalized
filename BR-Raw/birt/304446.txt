@@ -1,0 +1,3 @@
+[Accessibility] Some of the contents are not shown completely in Chart Builder under High Contrast mode
+
+Created attachment 160726 screenshot 1 Description: Some of the contents are not shown completely in Chart Builder under High Contrast mode. Build number: 2.6.0.v20100303-0630 Steps to reproduce: Prerequisite: 1. Activate the HighContrast function using the keyboard shortcut (Left-Alt+Left-Shift+PrintScreen). 2. New a chart, go to "Format Chart" tab. Scenario 1: Check the contents of "Outline" and "Insets" section. Scenario 2: Check the contents of drop-down value list. Expected result: The contents are shown completely. Actual result: See the screenshot. Error log: N/A

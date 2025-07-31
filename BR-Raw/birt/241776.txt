@@ -1,0 +1,3 @@
+o.e.b.report.data.oda.jdbc.dbproifle.sampledb should have explicit plugin dependency
+
+The implementation in o.e.b.report.data.oda.jdbc.dbproifle.sampledb requires that the org.eclipse.birt.report.data.oda.sampledb plugin is available. This plugin dependency should have been explicitly defined in the manifest.mf.

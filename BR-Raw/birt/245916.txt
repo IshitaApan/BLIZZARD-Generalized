@@ -1,0 +1,3 @@
+The concatenated value for multi-level dimension does not work in chart builder [1301]
+
+Created attachment 111441 report design Description: The concatenated value for multi-level dimension does not work in chart builder. Build number: 2.3.1.v20080902-0630 Steps to reproduce: 1. Open the attached report design and double click the chart to open the chart builder. 2. Preview the attached report design. Expected result: The chart in chart builder and preview are the same. Actual result: The concatenated value for multi-level dimension does not work in chart builder (see the screenshot). Error log: N/A.
