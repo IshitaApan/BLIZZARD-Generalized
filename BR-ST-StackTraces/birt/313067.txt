@@ -1,0 +1,17 @@
+org.eclipse.emf.common.util.BasicEList.get
+org.eclipse.birt.chart.reportitem.ChartReportItemImpl.validate
+org.eclipse.birt.report.model.api.validators.ExtensionValidator.doValidate
+org.eclipse.birt.report.model.api.validators.ExtensionValidator.validate
+org.eclipse.birt.report.model.validators.ValidationNode.perform
+org.eclipse.birt.report.model.validators.ValidationExecutor.perform
+org.eclipse.birt.report.model.core.DesignElement.validateWithContents
+org.eclipse.birt.report.model.core.DesignElement.validateWithContents
+org.eclipse.birt.report.model.core.Module.semanticCheck
+org.eclipse.birt.report.model.core.LayoutModuleImpl.semanticCheck
+org.eclipse.birt.report.model.core.LayoutModuleImpl.doClone
+org.eclipse.birt.report.model.elements.ReportDesignImpl.doClone
+org.eclipse.birt.report.model.api.ModuleHandle.copy
+org.eclipse.birt.report.engine.api.impl.ReportRunnable.cloneRunnable
+org.eclipse.birt.report.engine.api.impl.EngineTask.prepareDesign
+org.eclipse.birt.report.engine.api.impl.RunAndRenderTask.doRun
+org.eclipse.birt.report.engine.api.impl.RunAndRenderTask.run

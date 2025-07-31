@@ -1,0 +1,4 @@
+org.eclipse.birt.report.engine.executor.ExecutionContext.evaluate
+org.eclipse.birt.report.engine.executor.ExecutionContext.evaluate
+org.eclipse.birt.report.engine.executor.ImageItemExecutor.handleURIImage
+org.eclipse.birt.report.engine.executor.ImageItemExecutor.handleImage

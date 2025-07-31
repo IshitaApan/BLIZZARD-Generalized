@@ -1,0 +1,17 @@
+com.ibm.icu.util.ULocale$IDParser.<init>
+com.ibm.icu.util.ULocale$IDParser.<init>
+com.ibm.icu.util.ULocale$IDParser.<init>
+com.ibm.icu.util.ULocale.getName
+com.ibm.icu.util.ULocale.<init>
+org.eclipse.birt.report.engine.executor.ExecutionContext.getNumberFormatter
+org.eclipse.birt.report.engine.presentation.LocalizedContentVisitor.format
+org.eclipse.birt.report.engine.presentation.LocalizedContentVisitor.processData
+org.eclipse.birt.report.engine.presentation.LocalizedContentVisitor.localizeData
+org.eclipse.birt.report.engine.presentation.LocalizedContentVisitor.localize
+org.eclipse.birt.report.engine.internal.executor.l18n.LocalizedReportItemExecutor.execute
+org.eclipse.birt.report.engine.layout.html.HTMLBlockStackingLM.layoutNodes
+org.eclipse.birt.report.engine.layout.html.HTMLStackingLM.layoutChildren
+org.eclipse.birt.report.engine.layout.html.HTMLAbstractLM.layout
+org.eclipse.birt.report.engine.layout.html.HTMLInlineStackingLM.resumeLayout
+org.eclipse.birt.report.engine.layout.html.HTMLInlineStackingLM.layoutNodes
+org.eclipse.birt.report.engine.layout.html.HTMLStackingLM.layoutChildren

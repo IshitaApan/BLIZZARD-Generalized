@@ -1,0 +1,3 @@
+org.eclipse.birt.report.service.ReportEngineService.throwDummyException
+org.eclipse.birt.report.service.ReportEngineService.renderReport
+org.eclipse.birt.report.service.BirtViewerReportService.getPage

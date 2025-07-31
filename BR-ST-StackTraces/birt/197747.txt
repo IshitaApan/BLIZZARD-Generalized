@@ -1,0 +1,4 @@
+org.eclipse.birt.report.engine.api.HTMLActionHandler.getRenderContext
+org.eclipse.birt.report.engine.api.HTMLActionHandler.getURL
+org.eclipse.birt.report.engine.emitter.excel.ExcelEmitter.parseHyperLink
+org.eclipse.birt.report.engine.emitter.excel.ExcelEmitter.startLabel

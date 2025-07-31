@@ -1,0 +1,16 @@
+org.eclipse.birt.report.engine.script.internal.ScriptExecutor.addException
+org.eclipse.birt.report.engine.script.internal.ScriptExecutor.addClassCastException
+org.eclipse.birt.report.engine.script.internal.LabelScriptExecutor.getEventHandler
+org.eclipse.birt.report.engine.script.internal.LabelScriptExecutor.handleOnPrepare
+org.eclipse.birt.report.engine.api.impl.ScriptedDesignHandler.handleOnPrepare
+org.eclipse.birt.report.engine.api.impl.ScriptedDesignVisitor.visitLabel
+org.eclipse.birt.report.model.api.DesignVisitor$Forwarder.visitLabel
+org.eclipse.birt.report.model.elements.Label.apply
+org.eclipse.birt.report.model.api.DesignVisitor.apply
+org.eclipse.birt.report.engine.api.impl.ScriptedDesignVisitor.visitReportDesign
+org.eclipse.birt.report.model.api.DesignVisitor$Forwarder.visitReportDesign
+org.eclipse.birt.report.model.elements.ReportDesign.apply
+org.eclipse.birt.report.model.api.DesignVisitor.apply
+org.eclipse.birt.report.engine.api.impl.EngineTask.prepareDesign
+org.eclipse.birt.report.engine.api.impl.RunAndRenderTask.doRun
+org.eclipse.birt.report.engine.api.impl.RunAndRenderTask.run

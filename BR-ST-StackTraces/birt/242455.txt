@@ -1,0 +1,9 @@
+org.eclipse.birt.chart.render.DeferredCacheManager.createDeferredCache
+org.eclipse.birt.chart.factory.Generator.render
+com.initiatesystems.workbench.analysis.queries.ScoreDistributionChart.paintControl
+org.eclipse.swt.widgets.TypedListener.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Composite.WM_PAINT

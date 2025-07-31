@@ -1,0 +1,12 @@
+org.eclipse.birt.data.engine.odaconsumer.PreparedStatement$SequentialResultSetHandler.throwInvalidArgException
+org.eclipse.birt.data.engine.odaconsumer.PreparedStatement$SequentialResultSetHandler.getResultSet
+org.eclipse.birt.data.engine.odaconsumer.PreparedStatement.getResultSet
+org.eclipse.birt.data.engine.executor.DataSourceQuery.execute
+org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery$OdaDSQueryExecutor.executeOdiQuery
+org.eclipse.birt.data.engine.impl.QueryExecutor.execute
+org.eclipse.birt.data.engine.impl.ServiceForQueryResults.executeQuery
+org.eclipse.birt.data.engine.impl.QueryResults.getResultIterator
+org.eclipse.birt.report.designer.data.ui.dataset.ResultSetPreviewPage.populateRecords
+org.eclipse.birt.report.designer.data.ui.dataset.ResultSetPreviewPage.access$2
+org.eclipse.birt.report.designer.data.ui.dataset.ResultSetPreviewPage$5.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

@@ -1,0 +1,6 @@
+java.io.FileOutputStream.open
+java.io.FileOutputStream.<init>
+java.io.FileOutputStream.<init>
+ize
+ze
+tEmitter

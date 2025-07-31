@@ -1,0 +1,6 @@
+org.eclipse.birt.report.model.api.validators.StructureListValidator.doCheckStructureList
+org.eclipse.birt.report.model.api.validators.StructureListValidator.validateForAdding
+org.eclipse.birt.report.model.core.DesignElement.checkStructureList
+org.eclipse.birt.report.model.command.PropertyCommand.addItem
+org.eclipse.birt.report.model.api.DesignElementHandle.setPropertyBinding
+org.eclipse.birt.report.designer.internal.ui.dialogs.DataSourcePropertyBindingPage.performOk

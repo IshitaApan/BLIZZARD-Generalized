@@ -1,0 +1,7 @@
+org.eclipse.birt.data.engine.impl.ResultIterator.validateManualBindingExpressions
+org.eclipse.birt.data.engine.impl.ResultIterator.<init>
+org.eclipse.birt.data.engine.impl.QueryResults.getResultIterator
+org.eclipse.birt.report.designer.data.ui.dataset.ResultSetPreviewPage.populateRecords
+org.eclipse.birt.report.designer.data.ui.dataset.ResultSetPreviewPage.access$2
+org.eclipse.birt.report.designer.data.ui.dataset.ResultSetPreviewPage$5.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

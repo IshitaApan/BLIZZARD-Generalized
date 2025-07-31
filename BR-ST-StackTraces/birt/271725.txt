@@ -1,0 +1,4 @@
+org.eclipse.birt.report.engine.nLayout.area.impl.ContainerArea.updateBackgroundImage
+org.eclipse.birt.report.engine.nLayout.area.impl.InlineContainerArea.close
+org.eclipse.birt.report.engine.nLayout.area.impl.InlineContainerArea.close
+org.eclipse.birt.report.engine.nLayout.area.impl.InlineTextArea.layout

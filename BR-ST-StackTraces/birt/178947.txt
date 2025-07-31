@@ -1,0 +1,3 @@
+org.eclipse.birt.report.engine.api.impl.EngineTask.setupRenderOption
+org.eclipse.birt.report.engine.api.impl.RunAndRenderTask.doRun
+org.eclipse.birt.report.engine.api.impl.RunAndRenderTask.run

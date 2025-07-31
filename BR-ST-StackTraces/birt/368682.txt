@@ -1,0 +1,5 @@
+org.eclipse.birt.report.designer.ui.editors.ReportEditorProxy.getEditorInput
+org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection
+org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels
+org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$2.run
+org.eclipse.core.internal.jobs.Worker.run

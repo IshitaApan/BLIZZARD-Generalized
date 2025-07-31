@@ -1,0 +1,3 @@
+org.eclipse.birt.report.designer.internal.ui.editors.schematic.border.TableBorderHelper.initialize
+org.eclipse.birt.report.designer.internal.ui.editors.schematic.border.TableBorderHelper.updateCellBorderInsets
+org.eclipse.birt.report.designer.internal.ui.layout.TableLayout.layout

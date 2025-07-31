@@ -1,0 +1,8 @@
+org.eclipse.birt.report.designer.internal.ui.dialogs.BindingDialogHelper.initDialog
+org.eclipse.birt.report.designer.internal.ui.dialogs.DataColumnBindingDialog.initDialog
+org.eclipse.birt.report.designer.internal.ui.dialogs.BaseDialog.open
+org.eclipse.birt.report.designer.internal.ui.views.attributes.provider.AggregateOnBindingsFormHandleProvider.doEditItem
+org.eclipse.birt.report.designer.internal.ui.views.attributes.provider.AbstractFormHandleProvider.edit
+org.eclipse.birt.report.designer.internal.ui.views.attributes.widget.FormPropertyDescriptor.edit
+org.eclipse.birt.report.designer.internal.ui.views.attributes.widget.FormPropertyDescriptor.handleTableMouseDoubleClickEvent
+org.eclipse.birt.report.designer.internal.ui.views.attributes.widget.FormPropertyDescriptor$3.mouseDoubleClick

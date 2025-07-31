@@ -1,0 +1,10 @@
+java.lang.Class.getDeclaredConstructors0
+java.lang.Class.privateGetDeclaredConstructors
+java.lang.Class.getConstructor0
+java.lang.Class.newInstance0
+java.lang.Class.newInstance
+org.eclipse.birt.report.data.oda.jdbc.ui.util.JDBCDriverInformation.newInstance
+org.eclipse.birt.report.data.oda.jdbc.ui.util.JdbcToolKit.getJDBCDriverInfoList
+org.eclipse.birt.report.data.oda.jdbc.ui.util.JdbcToolKit.getDriverByJar
+org.eclipse.birt.report.data.oda.jdbc.ui.dialogs.JdbcDriverManagerDialog.okPressedProcess
+org.eclipse.birt.report.data.oda.jdbc.ui.dialogs.JdbcDriverManagerDialog.okPressed

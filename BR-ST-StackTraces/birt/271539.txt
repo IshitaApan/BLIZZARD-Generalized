@@ -1,0 +1,3 @@
+org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter.removeMargin
+org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter.getPageWidth
+org.eclipse.birt.report.engine.emitter.html.HTMLReportEmitter.startPage

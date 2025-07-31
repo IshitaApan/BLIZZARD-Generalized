@@ -1,0 +1,13 @@
+org.eclipse.birt.data.engine.core.DataException.wrap
+org.eclipse.birt.data.engine.expression.ExprEvaluateUtil.evaluateExpression
+org.eclipse.birt.data.engine.impl.BindingColumnsEvalUtil.evaluateValue
+org.eclipse.birt.data.engine.impl.BindingColumnsEvalUtil.getColumnsValue
+org.eclipse.birt.data.engine.impl.ResultIterator.prepareCurrentRow
+org.eclipse.birt.data.engine.impl.ResultIterator.next
+org.eclipse.birt.report.designer.data.ui.dataset.ResultSetPreviewPage.populateRecords
+org.eclipse.birt.report.designer.data.ui.dataset.ResultSetPreviewPage.access$2
+org.eclipse.birt.report.designer.data.ui.dataset.ResultSetPreviewPage$5.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run
+org.eclipse.birt.core.data.DataTypeUtil.toBoolean
+org.eclipse.birt.core.data.DataTypeUtil.convert
+org.eclipse.birt.data.engine.expression.ExprEvaluateUtil.evaluateExpression

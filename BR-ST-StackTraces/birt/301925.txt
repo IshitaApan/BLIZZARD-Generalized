@@ -1,0 +1,9 @@
+org.eclipse.birt.chart.reportitem.ChartReportItemPresentationBase.setModelObject
+org.eclipse.birt.report.engine.extension.ReportItemPresentationBase.init
+org.eclipse.birt.chart.reportitem.ChartReportItemPresentationProxy.init
+org.eclipse.birt.report.engine.presentation.LocalizedContentVisitor.processExtendedContent
+org.eclipse.birt.report.engine.presentation.LocalizedContentVisitor.localizeForeign
+org.eclipse.birt.report.engine.presentation.LocalizedContentVisitor.localize
+org.eclipse.birt.report.engine.internal.executor.l18n.LocalizedReportItemExecutor.execute
+org.eclipse.birt.report.engine.layout.html.HTMLBlockStackingLM.layoutNodes
+org.eclipse.birt.report.engine.layout.html.HTMLPageLM.layout

@@ -1,0 +1,12 @@
+org.eclipse.birt.report.designer.core.runtime.GUIException.createGUIException
+org.eclipse.birt.report.designer.internal.ui.util.ExceptionHandler.handle
+org.eclipse.birt.report.designer.internal.ui.util.ExceptionHandler.handle
+org.eclipse.birt.report.designer.internal.ui.util.ExceptionHandler.handle
+org.eclipse.birt.report.designer.data.ui.dataset.DataSetEditor.addCustomPageODAV3
+org.eclipse.birt.report.designer.data.ui.dataset.DataSetEditor.<init>
+org.eclipse.birt.report.designer.internal.ui.views.data.providers.DataSetNodeProvider.performEdit
+org.eclipse.birt.report.designer.internal.ui.views.DefaultNodeProvider.performRequest
+org.eclipse.birt.report.designer.internal.ui.views.actions.EditAction.doAction
+org.eclipse.birt.report.designer.internal.ui.views.actions.AbstractElementAction.run
+org.eclipse.birt.report.designer.internal.ui.views.RenameListener.doubleClick
+org.eclipse.jface.viewers.StructuredViewer$1.run

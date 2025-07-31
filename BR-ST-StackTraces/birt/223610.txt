@@ -1,0 +1,14 @@
+org.mozilla.javascript.DefaultErrorReporter.runtimeError
+org.mozilla.javascript.DefaultErrorReporter.error
+org.mozilla.javascript.Parser.addError
+org.mozilla.javascript.Parser.reportError
+org.mozilla.javascript.Parser.statementHelper
+org.mozilla.javascript.Parser.statement
+org.mozilla.javascript.Parser.parse
+org.mozilla.javascript.Parser.parse
+org.mozilla.javascript.Context.compileImpl
+org.mozilla.javascript.Context.compileString
+org.mozilla.javascript.Context.compileString
+org.eclipse.birt.report.debug.internal.core.vm.js.BreakableSourceChecker.check
+org.eclipse.birt.report.debug.internal.core.vm.js.JsUtil.checkBreakable
+org.eclipse.birt.report.debug.internal.script.model.ScriptLineBreakpointAdapter.canToggleLineBreakpoints

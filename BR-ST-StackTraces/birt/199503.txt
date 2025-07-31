@@ -1,0 +1,11 @@
+org.eclipse.birt.data.engine.impl.ComputedColumnHelperInstance.process
+org.eclipse.birt.data.engine.impl.ComputedColumnHelper.process
+org.eclipse.birt.data.engine.executor.cache.RowResultSet.processFetchEvent
+org.eclipse.birt.data.engine.executor.cache.RowResultSet.next
+org.eclipse.birt.data.engine.executor.cache.ExpandableRowResultSet.next
+org.eclipse.birt.data.engine.executor.cache.SmartCacheHelper.populateData
+org.eclipse.birt.data.engine.executor.cache.SmartCacheHelper.initInstance
+org.eclipse.birt.data.engine.executor.cache.SmartCacheHelper.getResultSetCache
+org.eclipse.birt.data.engine.executor.cache.SmartCache.<init>
+org.eclipse.birt.data.engine.executor.transform.pass.PassUtil.populateOdiResultSet
+org.eclipse.birt.data.engine.executor.transform.pass.PassUtil.pass

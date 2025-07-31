@@ -1,0 +1,14 @@
+java.util.HashMap.getEntry
+java.util.LinkedHashMap.get
+org.eclipse.birt.report.model.metadata.ElementDefn.getProperty
+org.eclipse.birt.report.model.core.DesignElement.getPropertyDefn
+org.eclipse.birt.report.model.core.DesignElement.getStringProperty
+org.eclipse.birt.report.model.api.DesignElementHandle.getStringProperty
+org.eclipse.birt.report.model.api.DesignElementHandle.isDirectionRTL
+org.eclipse.birt.report.model.api.DesignElementHandle.isDirectionRTL
+org.eclipse.birt.report.model.api.DesignElementHandle.isDirectionRTL
+org.eclipse.birt.report.model.api.DesignElementHandle.isDirectionRTL
+org.eclipse.birt.report.model.api.DesignElementHandle.isDirectionRTL
+org.eclipse.birt.report.model.api.DesignElementHandle.isDirectionRTL
+org.eclipse.birt.report.model.api.DesignElementHandle.isDirectionRTL
+org.eclipse.birt.report.model.api.DesignElementHandle.isDirectionRTL

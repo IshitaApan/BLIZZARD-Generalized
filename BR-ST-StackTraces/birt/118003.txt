@@ -1,0 +1,16 @@
+org.eclipse.birt.report.engine.api.impl.RunAndRenderTask.run
+org.eclipse.birt.report.engine.api.ReportRunner.runAndRenderReport
+org.eclipse.birt.report.engine.api.ReportRunner.execute
+org.eclipse.birt.report.engine.api.ReportRunner.main
+org.eclipse.birt.report.engine.ir.TextItemDesign.getExpressions
+org.eclipse.birt.report.engine.data.dte.ReportQueryBuilder$QueryBuilderVisitor.visitTextItem
+org.eclipse.birt.report.engine.ir.TextItemDesign.accept
+org.eclipse.birt.report.engine.data.dte.ReportQueryBuilder$QueryBuilderVisitor.handleCell
+org.eclipse.birt.report.engine.data.dte.ReportQueryBuilder$QueryBuilderVisitor.handleRow
+org.eclipse.birt.report.engine.data.dte.ReportQueryBuilder$QueryBuilderVisitor.visitGridItem
+org.eclipse.birt.report.engine.ir.GridItemDesign.accept
+org.eclipse.birt.report.engine.data.dte.ReportQueryBuilder$QueryBuilderVisitor.buildQuery
+org.eclipse.birt.report.engine.data.dte.ReportQueryBuilder.build
+org.eclipse.birt.report.engine.data.dte.DteDataEngine.prepare
+org.eclipse.birt.report.engine.executor.ReportExecutor.execute
+org.eclipse.birt.report.engine.api.impl.RunAndRenderTask.run

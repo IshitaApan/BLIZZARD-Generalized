@@ -1,0 +1,12 @@
+org.eclipse.birt.report.item.crosstab.internal.ui.editors.editpolicies.CrosstabCellFlowLayoutEditPolicy.getCreateCommand
+org.eclipse.gef.editpolicies.LayoutEditPolicy.getCommand
+org.eclipse.birt.report.designer.internal.ui.editors.schematic.editpolicies.ReportFlowLayoutEditPolicy.getCommand
+org.eclipse.gef.editparts.AbstractEditPart.getCommand
+org.eclipse.birt.report.item.crosstab.internal.ui.dnd.DimensionHandleDropAdapter.performDrop
+org.eclipse.birt.report.designer.internal.ui.dnd.DNDService.performDrop
+org.eclipse.birt.report.designer.internal.ui.dnd.DNDService.performDrop
+org.eclipse.birt.report.designer.internal.ui.palette.ReportTemplateTransferDropTargetListener.handleDrop
+org.eclipse.gef.dnd.AbstractTransferDropTargetListener.drop
+org.eclipse.jface.util.DelegatingDropAdapter$3.run
+org.eclipse.core.runtime.SafeRunner.run
+org.eclipse.core.runtime.Platform.run

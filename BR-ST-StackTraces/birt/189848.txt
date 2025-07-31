@@ -1,0 +1,7 @@
+org.eclipse.birt.data.engine.olap.impl.query.CubeCursorImpl.populateLevel
+org.eclipse.birt.data.engine.olap.impl.query.CubeCursorImpl.validateBindings
+org.eclipse.birt.data.engine.olap.impl.query.CubeCursorImpl.
+org.eclipse.birt.data.engine.olap.impl.query.CubeQueryResults.getCubeCursor
+org.eclipse.birt.report.engine.data.dte.CubeResultSet.
+org.eclipse.birt.report.engine.data.dte.DteDataEngine.doExecuteCube
+org.eclipse.birt.report.engine.data.dte.DteDataEngine.doExecuteQuery

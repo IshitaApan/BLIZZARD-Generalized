@@ -1,0 +1,11 @@
+org.eclipse.birt.report.engine.layout.pdf.emitter.ConcreteImageLayout.<init>
+org.eclipse.birt.report.engine.layout.pdf.emitter.ImageLayout.initialize
+org.eclipse.birt.report.engine.layout.pdf.emitter.PDFLayoutEmitter.startContent
+org.eclipse.birt.report.engine.layout.pdf.emitter.PDFLayoutEmitterProxy.startContent
+org.eclipse.birt.report.engine.emitter.ContentEmitterAdapter.startImage
+org.eclipse.birt.report.engine.emitter.CompositeContentEmitter.startImage
+org.eclipse.birt.report.engine.emitter.ContentEmitterUtil.startContent
+org.eclipse.birt.report.engine.layout.html.buffer.HTMLPageBuffer.startContent
+org.eclipse.birt.report.engine.layout.html.buffer.TableBreakBuffer.startContent
+org.eclipse.birt.report.engine.layout.html.HTMLLeafItemLM.start
+org.eclipse.birt.report.engine.layout.html.HTMLAbstractLM.layout

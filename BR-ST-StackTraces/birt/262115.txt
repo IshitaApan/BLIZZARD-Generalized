@@ -1,0 +1,10 @@
+org.eclipse.birt.report.data.adapter.impl.DataRequestSessionImpl.execute
+org.eclipse.birt.report.engine.data.dte.AbstractDataEngine.getCachedQueryResult
+org.eclipse.birt.report.engine.data.dte.DteDataEngine.doExecuteQuery
+org.eclipse.birt.report.engine.data.dte.AbstractDataEngine.execute
+org.eclipse.birt.report.engine.executor.ExtendedGenerateExecutor.executeQueries
+org.eclipse.birt.report.engine.executor.ExtendedGenerateExecutor.execute
+org.eclipse.birt.data.engine.impl.CacheResultIterator.<init>
+org.eclipse.birt.data.engine.impl.CachedQueryResults.<init>
+org.eclipse.birt.data.engine.impl.PreparedQueryUtil$DummyPreparedQuery.execute
+org.eclipse.birt.report.data.adapter.impl.DataRequestSessionImpl.execute

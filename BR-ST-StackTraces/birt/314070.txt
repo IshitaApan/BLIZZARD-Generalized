@@ -1,0 +1,8 @@
+org.eclipse.birt.chart.extension.datafeed.BubbleDataSetProcessorImpl.populate
+org.eclipse.birt.chart.internal.datafeed.DataProcessor.fillSeriesDataSet
+org.eclipse.birt.chart.internal.datafeed.DataProcessor.generateRuntimeSeries
+org.eclipse.birt.chart.internal.datafeed.DataProcessor.generateRuntimeSeries
+org.eclipse.birt.chart.internal.datafeed.DataProcessor.generateRuntimeSeries
+org.eclipse.birt.chart.factory.Generator.bindData
+org.eclipse.birt.chart.reportitem.ChartReportItemPresentationBase.bindData
+org.eclipse.birt.chart.reportitem.ChartReportItemPresentationBase.onRowSets

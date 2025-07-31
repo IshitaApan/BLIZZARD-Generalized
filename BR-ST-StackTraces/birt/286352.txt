@@ -1,0 +1,17 @@
+org.eclipse.birt.core.script.function.bre.BirtDateTime.diffSecond
+org.eclipse.birt.core.script.function.bre.BirtDateTime.diffHour
+org.eclipse.birt.core.script.function.bre.BirtDateTime.access$16
+org.eclipse.birt.core.script.function.bre.BirtDateTime$Function_DiffHour.getValue
+org.eclipse.birt.core.script.function.bre.Function_temp.execute
+org.eclipse.birt.core.script.function.bre.BirtDateTime.execute
+org.eclipse.birt.core.script.functionservice.impl.ScriptFunction.execute
+org.eclipse.birt.core.script.functionservice.impl.CategoryWrapper$1.call
+org.mozilla.javascript.Interpreter.interpretLoop
+org.mozilla.javascript.Interpreter.interpret
+org.mozilla.javascript.InterpretedFunction.call
+org.mozilla.javascript.ContextFactory.doTopCall
+org.mozilla.javascript.ScriptRuntime.doTopCall
+org.mozilla.javascript.InterpretedFunction.exec
+org.eclipse.birt.data.engine.expression.BytecodeExpression.evaluate
+org.eclipse.birt.data.engine.expression.ExprEvaluateUtil.evaluateCompiledExpression
+org.eclipse.birt.data.engine.expression.ExprEvaluateUtil.evaluateCompiledExpression

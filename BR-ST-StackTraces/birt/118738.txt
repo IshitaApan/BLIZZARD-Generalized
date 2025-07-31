@@ -1,0 +1,3 @@
+org.eclipse.birt.chart.render.DialRenderer.<init>
+org.eclipse.birt.chart.render.Dial.compute
+org.eclipse.birt.chart.factory.Generator.build

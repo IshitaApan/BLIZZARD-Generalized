@@ -1,0 +1,10 @@
+org.eclipse.birt.report.data.oda.jdbc.JDBCDriverManager.doConnect
+org.eclipse.birt.report.data.oda.jdbc.JDBCDriverManager.getConnection
+org.eclipse.birt.report.data.oda.jdbc.ui.util.DriverLoader.getConnection
+org.eclipse.birt.report.data.oda.jdbc.ui.provider.JdbcMetaDataProvider.connect
+org.eclipse.birt.report.data.oda.jdbc.ui.provider.JdbcMetaDataProvider.connect
+org.eclipse.birt.report.data.oda.jdbc.ui.editors.SQLDataSetEditorPage.connectMetadataProvider
+org.eclipse.birt.report.data.oda.jdbc.ui.editors.SQLDataSetEditorPage.initialJdbcInfo
+org.eclipse.birt.report.data.oda.jdbc.ui.editors.SQLDataSetEditorPage.createPageControl
+org.eclipse.birt.report.data.oda.jdbc.ui.editors.SQLDataSetEditorPage.createPageCustomControl
+org.eclipse.datatools.connectivity.oda.design.ui.wizards.DataSetWizardPage.createControl

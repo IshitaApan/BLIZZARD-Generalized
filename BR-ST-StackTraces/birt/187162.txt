@@ -1,0 +1,12 @@
+org.eclipse.birt.report.data.oda.jdbc.ui.editors.SQLDataSetEditorPage.refreshPage
+org.eclipse.birt.report.data.oda.jdbc.ui.editors.SQLDataSetEditorPage.initializeControl
+org.eclipse.birt.report.data.oda.jdbc.ui.editors.SQLDataSetEditorPage.createPageCustomControl
+org.eclipse.datatools.connectivity.oda.design.ui.wizards.DataSetWizardPage.createControl
+org.eclipse.datatools.connectivity.oda.design.internal.ui.DataSetEditorPageCore.createContents
+org.eclipse.jface.preference.PreferencePage.createControl
+org.eclipse.birt.report.designer.data.ui.dataset.PropertyPageWrapper.createPageControl
+org.eclipse.birt.report.designer.data.ui.property.PropertyNode.createPageControl
+org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.showPage
+org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.showSelectionPage
+org.eclipse.birt.report.designer.data.ui.dataset.DataSetEditor.showSelectionPage
+org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog$2.run

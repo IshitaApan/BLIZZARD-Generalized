@@ -1,0 +1,16 @@
+org.eclipse.birt.report.engine.executor.ScriptableParameter.get
+org.mozilla.javascript.ScriptableObject.getProperty
+org.mozilla.javascript.ScriptRuntime.getPropFunctionAndThis
+org.mozilla.javascript.optimizer.OptRuntime.callProp0
+org.mozilla.javascript.ContextFactory.doTopCall
+org.mozilla.javascript.ScriptRuntime.doTopCall
+org.eclipse.birt.core.script.JavascriptEvalUtil.evaluateRawScript
+org.eclipse.birt.core.script.JavascriptEvalUtil.evaluateScript
+org.eclipse.birt.data.engine.script.ScriptEvalUtil.evaluateJSAsExpr
+org.eclipse.birt.data.engine.impl.ComputedColumnHelperInstance.process
+org.eclipse.birt.data.engine.impl.ComputedColumnHelper.process
+org.eclipse.birt.data.engine.executor.cache.RowResultSet.processFetchEvent
+org.eclipse.birt.data.engine.executor.cache.RowResultSet.next
+org.eclipse.birt.data.engine.executor.cache.ExpandableRowResultSet.next
+org.eclipse.birt.data.engine.executor.cache.SmartCacheHelper.populateData
+org.eclipse.birt.data.engine.executor.cache.SmartCacheHelper.initInstance

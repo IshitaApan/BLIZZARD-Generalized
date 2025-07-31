@@ -1,0 +1,5 @@
+org.eclipse.birt.report.engine.nLayout.area.impl.TableLayout.resolveAll
+org.eclipse.birt.report.engine.nLayout.area.impl.TableArea.close
+org.eclipse.birt.report.engine.nLayout.LayoutEngine.closeContainer
+org.eclipse.birt.report.engine.nLayout.LayoutEngine._endContainer
+org.eclipse.birt.report.engine.nLayout.LayoutEngine.endContainer

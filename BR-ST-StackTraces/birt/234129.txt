@@ -1,0 +1,5 @@
+org.eclipse.birt.report.engine.script.internal.ScriptExecutor.addException
+org.eclipse.birt.report.engine.script.internal.ScriptExecutor.addException
+org.eclipse.birt.report.engine.script.internal.LabelScriptExecutor.handleOnRender
+org.eclipse.birt.report.engine.script.internal.OnRenderScriptVisitor.visitLabelItem
+org.eclipse.birt.report.engine.ir.LabelItemDesign.accept

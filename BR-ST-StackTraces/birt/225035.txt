@@ -1,0 +1,11 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Combo.setText
+org.eclipse.birt.report.designer.internal.ui.dialogs.BindingDialogHelper.initDataFields
+org.eclipse.birt.report.designer.internal.ui.dialogs.BindingDialogHelper.handleFunctionSelectEvent
+org.eclipse.birt.report.designer.internal.ui.dialogs.BindingDialogHelper.initFunction
+org.eclipse.birt.report.designer.internal.ui.dialogs.BindingDialogHelper.initDialog
+sun.reflect.GeneratedMethodAccessor50.invoke
+sun.reflect.DelegatingMethodAccessorImpl.invoke

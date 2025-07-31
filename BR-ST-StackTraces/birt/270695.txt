@@ -1,0 +1,2 @@
+org.eclipse.birt.report.engine.content.impl.ListContent.isHeaderRepeat
+org.eclipse.birt.report.engine.layout.html.HTMLListingBandLM.intializeHeaderContent

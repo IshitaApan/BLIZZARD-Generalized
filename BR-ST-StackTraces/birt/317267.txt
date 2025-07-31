@@ -1,0 +1,11 @@
+org.eclipse.birt.chart.extension.datafeed.GanttDataSetProcessorImpl.validateGanttEntryData
+org.eclipse.birt.chart.extension.datafeed.GanttDataSetProcessorImpl.populate
+org.eclipse.birt.chart.internal.datafeed.DataProcessor.fillSeriesDataSet
+org.eclipse.birt.chart.internal.datafeed.DataProcessor.generateRuntimeSeries
+org.eclipse.birt.chart.internal.datafeed.DataProcessor.generateRuntimeSeries
+org.eclipse.birt.chart.internal.datafeed.DataProcessor.generateRuntimeSeries
+org.eclipse.birt.chart.factory.Generator.bindData
+org.eclipse.birt.chart.reportitem.ChartReportItemPresentationBase.bindData
+org.eclipse.birt.chart.reportitem.ChartReportItemPresentationBase.onRowSets
+org.eclipse.birt.chart.reportitem.ChartReportItemPresentationProxy.onRowSets
+org.eclipse.birt.report.engine.presentation.LocalizedContentVisitor.processExtendedContent

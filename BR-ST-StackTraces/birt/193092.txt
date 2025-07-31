@@ -1,0 +1,6 @@
+org.eclipse.birt.data.engine.olap.data.util.CompareUtil.compare
+org.eclipse.birt.data.engine.olap.util.filter.DimensionFilterEvalHelper.evaluateFilter
+org.eclipse.birt.data.engine.olap.data.api.CubeQueryExecutorHelper.applyAggrFilter
+org.eclipse.birt.data.engine.olap.data.api.CubeQueryExecutorHelper.generateLevelFilters
+org.eclipse.birt.data.engine.olap.data.api.CubeQueryExecutorHelper.applyAggrFilters
+org.eclipse.birt.data.engine.olap.data.api.CubeQueryExecutorHelper.execute

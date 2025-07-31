@@ -1,0 +1,17 @@
+org.eclipse.birt.report.service.ReportEngineService.setEngineContext
+org.eclipse.birt.report.servlet.ViewerServlet.doGet
+javax.servlet.http.HttpServlet.service
+org.apache.axis.transport.http.AxisServletBase.service
+javax.servlet.http.HttpServlet.service
+weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run
+weblogic.servlet.internal.StubSecurityHelper.invokeServlet
+weblogic.servlet.internal.ServletStubImpl.execute
+weblogic.servlet.internal.ServletStubImpl.execute
+weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run
+weblogic.security.acl.internal.AuthenticatedSubject.doAs
+weblogic.security.service.SecurityManager.runAs
+weblogic.servlet.internal.WebAppServletContext.securedExecute
+weblogic.servlet.internal.WebAppServletContext.execute
+weblogic.servlet.internal.ServletRequestImpl.run
+weblogic.work.ExecuteThread.execute
+weblogic.work.ExecuteThread.run

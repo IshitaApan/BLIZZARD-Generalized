@@ -1,0 +1,8 @@
+org.eclipse.birt.report.designer.internal.ui.palette.BasePaletteFactory.getAbstractToolHandleExtendsFromPaletteName
+org.eclipse.birt.report.designer.internal.ui.palette.ReportTemplateTransferDropTargetListener.handleDrop
+org.eclipse.gef.dnd.AbstractTransferDropTargetListener.drop
+org.eclipse.jface.util.DelegatingDropAdapter$3.run
+org.eclipse.core.runtime.SafeRunner.run
+org.eclipse.core.runtime.Platform.run
+org.eclipse.ui.internal.JFaceUtil$1.run
+org.eclipse.jface.util.SafeRunnable.run

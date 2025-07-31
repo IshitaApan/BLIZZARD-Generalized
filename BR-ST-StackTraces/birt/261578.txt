@@ -1,0 +1,15 @@
+org.eclipse.birt.report.designer.internal.ui.command.CommandWrap4DE.getLabel
+org.eclipse.gef.ui.actions.StackAction.getLabelForCommand
+org.eclipse.gef.ui.actions.UndoAction.refresh
+org.eclipse.gef.ui.actions.WorkbenchPartAction.update
+org.eclipse.birt.report.designer.internal.ui.editors.parts.GraphicalEditorWithFlyoutPalette.updateActions
+org.eclipse.birt.report.designer.internal.ui.editors.parts.GraphicalEditorWithFlyoutPalette.updateStackActions
+org.eclipse.birt.report.designer.ui.editors.pages.ReportLayoutEditorFormPage$1.stackChanged
+org.eclipse.birt.report.model.activity.ActivityStack.sendNotifcations
+org.eclipse.birt.report.model.activity.ActivityStack.commit
+org.eclipse.birt.report.designer.internal.ui.command.WrapperCommandStack.execute
+org.eclipse.gef.ui.actions.WorkbenchPartAction.execute
+org.eclipse.gef.ui.actions.DeleteAction.run
+org.eclipse.birt.report.designer.internal.ui.editors.parts.GraphicalEditorWithFlyoutPalette$3.run
+org.eclipse.jface.action.Action.runWithEvent
+org.eclipse.jface.commands.ActionHandler.execute

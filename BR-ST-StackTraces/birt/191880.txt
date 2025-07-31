@@ -1,0 +1,7 @@
+org.eclipse.birt.report.designer.ui.editors.LibraryLayoutEditorFormPage.dispose
+org.eclipse.birt.report.designer.ui.editors.MultiPageReportEditor.dispose
+org.eclipse.birt.report.designer.ui.editors.IDEMultiPageReportEditor.dispose
+org.eclipse.birt.report.designer.ui.editors.ReportEditorProxy.dispose
+org.eclipse.birt.report.designer.ui.editor.pages.xml.ReportXMLSourceEditorFormPage.reloadEditorInput
+org.eclipse.birt.report.designer.ui.editor.pages.xml.ReportXMLSourceEditorFormPage.access$1
+org.eclipse.birt.report.designer.ui.editor.pages.xml.ReportXMLSourceEditorFormPage$1.stackChanged

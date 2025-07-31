@@ -1,0 +1,6 @@
+org.eclipse.birt.data.engine.odaconsumer.ColumnHint.setDataType
+org.eclipse.birt.data.engine.executor.DataSourceQuery.prepareOdiHint
+org.eclipse.birt.data.engine.executor.DataSourceQuery.addColumnHints
+org.eclipse.birt.data.engine.executor.DataSourceQuery.prepareColumns
+org.eclipse.birt.data.engine.executor.DataSourceQuery.prepare
+org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery$OdaDSQueryExecutor.prepareOdiQuery

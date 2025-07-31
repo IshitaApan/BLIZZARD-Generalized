@@ -1,0 +1,3 @@
+org.eclipse.birt.report.engine.nLayout.area.impl.TextArea.calculateText
+org.eclipse.birt.report.engine.nLayout.area.impl.TextArea.getText
+org.eclipse.birt.report.engine.nLayout.area.impl.LineArea.ignoreRightMostWhiteSpace

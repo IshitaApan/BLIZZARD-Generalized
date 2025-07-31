@@ -1,0 +1,13 @@
+java.lang.String.substring
+org.eclipse.birt.report.debug.internal.ui.script.launcher.sourcelookup.ScriptDirectorySourceContainer.findSourceElements
+org.eclipse.debug.core.sourcelookup.containers.CompositeSourceContainer.findSourceElements
+org.eclipse.debug.core.sourcelookup.containers.CompositeSourceContainer.findSourceElements
+org.eclipse.debug.core.sourcelookup.AbstractSourceLookupParticipant.findSourceElements
+org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector$SourceLookupQuery.run
+org.eclipse.core.runtime.SafeRunner.run
+org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector.doSourceLookup
+org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector.getSourceElement
+org.eclipse.debug.internal.ui.sourcelookup.SourceLookupFacility.lookup
+org.eclipse.debug.ui.DebugUITools.lookupSource
+org.eclipse.debug.internal.ui.elements.adapters.StackFrameSourceDisplayAdapter$SourceLookupJob.run
+org.eclipse.core.internal.jobs.Worker.run

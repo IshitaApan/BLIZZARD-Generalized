@@ -1,0 +1,15 @@
+org.eclipse.birt.report.model.command.PropertyCommand.setMember
+org.eclipse.birt.report.model.api.MemberHandle.setValue
+org.eclipse.birt.report.model.api.StructureHandle.setProperty
+org.eclipse.birt.report.model.adapter.oda.impl.DataSetParameterAdapter.updateROMDataSetParamWithNewParam
+org.eclipse.birt.report.model.adapter.oda.impl.DataSetParameterAdapter.updateRomDataSetParamsWithNewParams
+org.eclipse.birt.report.model.adapter.oda.impl.ModelOdaAdapter.updateROMDataSetParams
+org.eclipse.birt.report.model.adapter.oda.impl.ModelOdaAdapter.updateDataSetHandle
+org.eclipse.birt.report.model.adapter.oda.impl.ModelOdaAdapter.updateDataSetHandle
+org.eclipse.birt.report.model.adapter.oda.ModelOdaAdapter.updateDataSetHandle
+org.eclipse.birt.report.designer.data.ui.util.DTPUtil.updateDataSetHandle
+org.eclipse.birt.report.designer.data.ui.dataset.PropertyPageWrapper.canLeave
+org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.showPage
+org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.showSelectionPage
+org.eclipse.birt.report.designer.data.ui.dataset.DataSetEditor.showSelectionPage
+org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog$2$1.run

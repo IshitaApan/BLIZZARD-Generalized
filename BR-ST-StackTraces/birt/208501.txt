@@ -1,0 +1,8 @@
+org.eclipse.birt.report.data.adapter.impl.DataRequestSessionImpl.prepare
+org.eclipse.birt.report.engine.data.dte.DteDataEngine.doPrepareQuery
+org.eclipse.birt.report.engine.data.dte.AbstractDataEngine.prepare
+org.eclipse.birt.report.engine.executor.ReportExecutor.execute
+org.eclipse.birt.report.engine.internal.executor.wrap.WrappedReportExecutor.execute
+org.eclipse.birt.report.engine.internal.executor.dup.SuppressDuplciateReportExecutor.execute
+org.eclipse.birt.report.engine.internal.executor.wrap.WrappedReportExecutor.execute
+org.eclipse.birt.report.engine.api.impl.RunAndRenderTask.doRun

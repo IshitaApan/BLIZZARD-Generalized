@@ -1,0 +1,6 @@
+org.eclipse.birt.chart.factory.Generator.build
+org.eclipse.birt.chart.ui.swt.wizard.internal.ChartPreviewPainter.updateBuffer
+org.eclipse.birt.chart.ui.swt.wizard.internal.ChartPreviewPainter.renderModel
+org.eclipse.birt.chart.ui.swt.wizard.TaskSelectData.doLivePreview
+org.eclipse.birt.chart.ui.swt.wizard.TaskSelectData.changeTask
+org.eclipse.birt.chart.ui.swt.wizard.ChartAdapter.notifyChanged

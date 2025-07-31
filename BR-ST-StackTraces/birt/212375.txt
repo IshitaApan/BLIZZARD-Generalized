@@ -1,0 +1,7 @@
+org.eclipse.birt.report.engine.executor.ExecutionContext.addException
+org.eclipse.birt.report.engine.executor.ExecutionContext.addException
+org.eclipse.birt.report.engine.data.dte.DteDataEngine.doExecuteQuery
+org.eclipse.birt.report.engine.data.dte.AbstractDataEngine.execute
+org.eclipse.birt.report.engine.executor.ExecutionContext.executeQuery
+org.eclipse.birt.report.engine.executor.QueryItemExecutor.executeQuery
+org.eclipse.birt.report.engine.executor.DataItemExecutor.execute

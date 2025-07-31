@@ -1,0 +1,6 @@
+org.eclipse.birt.report.designer.core.runtime.GUIException.createGUIException
+org.eclipse.birt.report.designer.internal.ui.util.ExceptionHandler.handle
+org.eclipse.birt.report.designer.internal.ui.util.ExceptionHandler.handle
+org.eclipse.birt.report.designer.internal.ui.util.ExceptionHandler.handle
+org.eclipse.birt.report.designer.internal.ui.util.WidgetUtil.processError
+org.eclipse.birt.report.item.crosstab.ui.views.dialogs.CrosstabFilterConditionBuilder.okPressed

@@ -1,0 +1,14 @@
+org.mozilla.javascript.DefaultErrorReporter.runtimeError
+org.mozilla.javascript.Context.reportRuntimeError
+org.mozilla.javascript.Context.reportRuntimeError
+org.eclipse.birt.data.engine.olap.script.JSCubeBindingObject.get
+org.mozilla.javascript.ScriptableObject.getProperty
+org.mozilla.javascript.ScriptRuntime.getObjectElem
+org.mozilla.javascript.ScriptRuntime.getObjectElem
+org.mozilla.javascript.ContextFactory.doTopCall
+org.mozilla.javascript.ScriptRuntime.doTopCall
+org.eclipse.birt.report.engine.javascript.JavascriptEngine.evaluate
+org.eclipse.birt.core.script.ScriptContext.evaluate
+org.eclipse.birt.report.engine.executor.ExecutionContext.evaluate
+org.eclipse.birt.report.engine.executor.ExecutionContext.evaluate
+org.eclipse.birt.report.engine.executor.ExecutionContext.evaluate

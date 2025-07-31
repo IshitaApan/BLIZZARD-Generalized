@@ -1,0 +1,4 @@
+org.eclipse.birt.report.engine.executor.ExtendedGenerateExecutor.generateContent
+org.eclipse.birt.report.engine.executor.ExtendedGenerateExecutor.execute
+org.eclipse.birt.report.engine.executor.ExtendedItemExecutor.execute
+org.eclipse.birt.report.engine.internal.executor.dup.SuppressDuplicateItemExecutor.execute

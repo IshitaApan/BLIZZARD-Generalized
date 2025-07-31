@@ -1,0 +1,17 @@
+org.eclipse.birt.data.engine.core.DataException.wrap
+org.eclipse.birt.data.engine.expression.BytecodeExpression.evaluate
+org.eclipse.birt.data.engine.expression.ExprEvaluateUtil.evaluateCompiledExpression
+org.eclipse.birt.data.engine.expression.ExprEvaluateUtil.evaluateCompiledExpression
+org.eclipse.birt.data.engine.expression.ExprEvaluateUtil.evaluateExpression
+org.eclipse.birt.data.engine.impl.BindingColumnsEvalUtil.evaluateValue
+org.eclipse.birt.data.engine.impl.BindingColumnsEvalUtil.getColumnsValue
+org.eclipse.birt.data.engine.impl.ResultIterator.prepareCurrentRow
+org.eclipse.birt.data.engine.impl.ResultIterator.next
+org.eclipse.birt.report.engine.data.dte.QueryResultSet.next
+org.eclipse.birt.report.engine.executor.QueryItemExecutor.executeQuery
+org.eclipse.birt.report.engine.executor.DataItemExecutor.execute
+org.eclipse.birt.report.engine.internal.executor.dup.SuppressDuplicateItemExecutor.execute
+org.eclipse.birt.report.engine.internal.executor.wrap.WrappedReportItemExecutor.execute
+org.eclipse.birt.report.engine.internal.executor.l18n.LocalizedReportItemExecutor.execute
+org.eclipse.birt.report.engine.layout.html.HTMLBlockStackingLM.layoutNodes
+org.eclipse.birt.report.engine.layout.html.HTMLPageLM.layout

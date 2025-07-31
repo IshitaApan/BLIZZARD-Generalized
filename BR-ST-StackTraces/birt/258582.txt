@@ -1,0 +1,12 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Widget.checkWidget
+org.eclipse.swt.widgets.Widget.getData
+org.eclipse.birt.chart.ui.swt.wizard.data.BaseDataDefinitionComponent.isTableSharedBinding
+org.eclipse.birt.chart.ui.swt.wizard.data.BaseDataDefinitionComponent.getDisplayExpression
+org.eclipse.birt.chart.ui.swt.wizard.data.BaseDataDefinitionComponent.setColor
+org.eclipse.birt.chart.ui.swt.wizard.data.BaseDataDefinitionComponent.saveQuery
+org.eclipse.birt.chart.ui.swt.wizard.data.BaseDataDefinitionComponent.focusLost
+org.eclipse.swt.widgets.TypedListener.handleEvent

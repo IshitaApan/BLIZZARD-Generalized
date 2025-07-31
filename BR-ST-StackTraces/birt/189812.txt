@@ -1,0 +1,7 @@
+org.eclipse.birt.data.engine.olap.data.impl.aggregation.sort.AggregationSortHelper.createMatchedAggrRow
+org.eclipse.birt.data.engine.olap.data.impl.aggregation.sort.AggregationSortHelper.populateAggrDiskArray
+org.eclipse.birt.data.engine.olap.data.impl.aggregation.sort.AggregationSortHelper.sort
+org.eclipse.birt.data.engine.olap.data.impl.aggregation.sort.AggrSortHelper.sort
+org.eclipse.birt.data.engine.olap.data.api.CubeQueryExecutorHelper.applyAggrSort
+org.eclipse.birt.data.engine.olap.data.api.CubeQueryExecutorHelper.execute
+org.eclipse.birt.data.engine.olap.query.view.QueryExecutor.populateRs

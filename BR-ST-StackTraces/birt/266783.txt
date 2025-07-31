@@ -1,0 +1,7 @@
+org.eclipse.birt.report.model.api.util.DimensionUtil.convertTo
+org.eclipse.birt.report.engine.ir.DimensionType.convertTo
+org.eclipse.birt.report.engine.emitter.excel.ExcelUtil.covertDimensionType
+org.eclipse.birt.report.engine.emitter.excel.layout.LayoutUtil.createTable
+org.eclipse.birt.report.engine.emitter.excel.ExcelEmitter.startTable
+org.eclipse.birt.report.engine.presentation.ContentEmitterVisitor.visitTable
+org.eclipse.birt.report.engine.content.impl.TableContent.accept

@@ -1,0 +1,12 @@
+java.io.FileOutputStream.open
+java.io.FileOutputStream.<init>
+java.io.FileOutputStream.<init>
+org.eclipse.birt.report.engine.emitter.pdf.PDFEmitter.initialize
+org.eclipse.birt.report.engine.layout.impl.ReportLayoutEngine.initialize
+org.eclipse.birt.report.engine.presentation.WrappedEmitter.initialize
+org.eclipse.birt.report.engine.presentation.LocalizedEmitter.initialize
+org.eclipse.birt.report.engine.api.impl.RunAndRenderTask.createContentEmitter
+org.eclipse.birt.report.engine.api.impl.RunAndRenderTask.run
+com.ibm.xtools.analysis.reporting.internal.editor.ReportEditor$1.runInWorkspace
+org.eclipse.core.internal.resources.InternalWorkspaceJob.run
+org.eclipse.core.internal.jobs.Worker.run

@@ -1,0 +1,7 @@
+org.eclipse.birt.report.designer.core.commands.CreateCommand.execute
+org.eclipse.birt.report.designer.internal.ui.command.WrapperCommandStack.execute
+org.eclipse.gef.dnd.AbstractTransferDropTargetListener.handleDrop
+org.eclipse.gef.dnd.TemplateTransferDropTargetListener.handleDrop
+org.eclipse.birt.report.designer.internal.ui.palette.ReportTemplateTransferDropTargetListener.handleDrop
+org.eclipse.gef.dnd.AbstractTransferDropTargetListener.drop
+org.eclipse.jface.util.DelegatingDropAdapter$3.run

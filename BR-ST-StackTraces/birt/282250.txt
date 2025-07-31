@@ -1,0 +1,7 @@
+org.eclipse.birt.report.engine.nLayout.area.impl.LineArea.align
+org.eclipse.birt.report.engine.nLayout.area.impl.LineArea.close
+org.eclipse.birt.report.engine.nLayout.area.impl.LineArea.endLine
+org.eclipse.birt.report.engine.nLayout.area.impl.LineArea.update
+org.eclipse.birt.report.engine.nLayout.area.impl.InlineContainerArea.close
+org.eclipse.birt.report.engine.nLayout.area.impl.InlineContainerArea.endLine
+org.eclipse.birt.report.engine.nLayout.area.impl.InlineContainerArea.endLine

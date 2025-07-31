@@ -1,0 +1,12 @@
+org.eclipse.birt.report.engine.layout.pdf.util.ShortHandProcessor$3.process
+org.eclipse.birt.report.engine.layout.pdf.util.ShortHandProcessor.process
+org.eclipse.birt.report.engine.layout.pdf.util.HTMLStyleProcessor.execute
+org.eclipse.birt.report.engine.layout.pdf.util.HTMLStyleProcessor.execute
+org.eclipse.birt.report.engine.layout.pdf.util.HTMLStyleProcessor.execute
+org.eclipse.birt.report.engine.layout.pdf.util.HTMLStyleProcessor.execute
+org.eclipse.birt.report.engine.layout.pdf.util.HTMLStyleProcessor.execute
+org.eclipse.birt.report.engine.layout.pdf.util.HTML2Content.processForeignData
+org.eclipse.birt.report.engine.layout.pdf.util.HTML2Content.html2Content
+org.eclipse.birt.report.engine.nLayout.LayoutEngine.startForeign
+org.eclipse.birt.report.engine.emitter.CompositeContentEmitter.startForeign
+org.eclipse.birt.report.engine.emitter.ContentEmitterUtil.startContent

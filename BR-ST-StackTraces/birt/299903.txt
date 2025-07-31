@@ -1,0 +1,10 @@
+org.eclipse.birt.data.aggregation.impl.TotalSum$MyAccumulator.onRow
+org.eclipse.birt.data.engine.olap.data.impl.aggregation.AggregationCalculator.newAggregationResultRow
+org.eclipse.birt.data.engine.olap.data.impl.aggregation.AggregationCalculator.onRow
+org.eclipse.birt.data.engine.olap.data.impl.aggregation.AggregationExecutor.execute
+org.eclipse.birt.data.engine.olap.data.api.CubeQueryExecutorHelper.onePassExecute
+org.eclipse.birt.data.engine.olap.data.api.CubeQueryExecutorHelper.execute
+org.eclipse.birt.data.engine.olap.query.view.QueryExecutor.populateRs
+org.eclipse.birt.data.engine.olap.query.view.QueryExecutor.execute
+org.eclipse.birt.data.engine.olap.query.view.BirtCubeView.createCubeCursor
+org.eclipse.birt.data.engine.olap.query.view.BirtCubeView.getCubeCursor

@@ -1,0 +1,4 @@
+org.eclipse.birt.data.engine.core.DataException.wrap
+org.eclipse.birt.data.engine.script.ScriptEvalUtil.evaluateJSAsExpr
+org.eclipse.birt.data.engine.script.ScriptEvalUtil.evalExpr
+org.eclipse.birt.data.engine.script.ScriptEvalUtil.evalExpr

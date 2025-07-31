@@ -1,0 +1,3 @@
+org.eclipse.birt.report.engine.adapter.ExpressionUtil.createConditionalExpression
+org.eclipse.birt.report.engine.data.dte.ReportQueryBuilder$QueryBuilderVisitor.addRuleExpression
+org.eclipse.birt.report.engine.data.dte.ReportQueryBuilder$QueryBuilderVisitor.getNewExpressionBindings

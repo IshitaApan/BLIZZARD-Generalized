@@ -1,0 +1,4 @@
+org.apache.axis.AxisFault.makeFault
+org.eclipse.birt.report.soapengine.processor.AbstractBaseComponentProcessor.process
+org.eclipse.birt.report.soapengine.endpoint.BirtSoapBindingImpl.getUpdatedObjects
+sun.reflect.NativeMethodAccessorImpl.invoke0

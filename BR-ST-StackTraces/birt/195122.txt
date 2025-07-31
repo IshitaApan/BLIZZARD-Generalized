@@ -1,0 +1,5 @@
+org.eclipse.birt.report.designer.core.runtime.GUIException.createGUIException
+org.eclipse.birt.report.designer.internal.ui.util.ExceptionHandler.handle
+org.eclipse.birt.report.designer.internal.ui.util.ExceptionHandler.handle
+org.eclipse.birt.report.designer.internal.ui.dialogs.ImportValueDialog.refreshValues
+org.eclipse.birt.report.designer.internal.ui.dialogs.ImportValueDialog.refreshColumns

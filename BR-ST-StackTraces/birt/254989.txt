@@ -1,0 +1,4 @@
+org.eclipse.birt.report.engine.api.impl.RenderTask.<init>
+org.eclipse.birt.report.engine.api.impl.RenderTask.<init>
+org.eclipse.birt.report.engine.api.impl.ReportEngineHelper.createRenderTask
+org.eclipse.birt.report.engine.api.impl.ReportEngine.createRenderTask

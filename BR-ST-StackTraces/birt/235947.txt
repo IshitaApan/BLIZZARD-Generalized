@@ -1,0 +1,16 @@
+org.eclipse.birt.report.engine.executor.ExecutionContext.addException
+org.eclipse.birt.report.engine.api.impl.ScriptedDesignHandler.visitExtendedItem
+org.eclipse.birt.report.model.api.DesignVisitor$Forwarder.visitExtendedItem
+org.eclipse.birt.report.model.elements.ExtendedItem.apply
+org.eclipse.birt.report.model.api.DesignVisitor.apply
+org.eclipse.birt.report.engine.api.impl.ScriptedDesignVisitor.visitReportDesign
+org.eclipse.birt.report.model.api.DesignVisitor$Forwarder.visitReportDesign
+org.eclipse.birt.report.model.elements.ReportDesign.apply
+org.eclipse.birt.report.model.api.DesignVisitor.apply
+org.eclipse.birt.report.engine.api.impl.EngineTask.prepareDesign
+org.eclipse.birt.report.engine.api.impl.RunAndRenderTask.doRun
+org.eclipse.birt.report.engine.api.impl.RunAndRenderTask.run
+org.eclipse.birt.report.service.ReportEngineService.runAndRenderReport
+org.eclipse.birt.report.service.BirtViewerReportService.runAndRenderReport
+org.eclipse.birt.report.service.actionhandler.BirtGetPageAllActionHandler.__execute
+org.eclipse.birt.report.service.actionhandler.AbstractBaseActionHandler.execute

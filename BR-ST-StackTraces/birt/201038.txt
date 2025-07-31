@@ -1,0 +1,13 @@
+org.eclipse.birt.report.model.command.AbstractPropertyCommand.setupStructureContext
+org.eclipse.birt.report.model.command.AbstractPropertyCommand.makeLocalCompositeValue
+org.eclipse.birt.report.model.command.ComplexPropertyCommand.doRemoveItem
+org.eclipse.birt.report.model.command.ComplexPropertyCommand.removeItem
+org.eclipse.birt.report.model.api.PropertyHandle.removeItem
+org.eclipse.birt.report.model.api.SimpleValueHandle.removeItem
+org.eclipse.birt.report.model.api.JointDataSetHandle.removeDataSet
+org.eclipse.birt.report.designer.data.ui.dataset.JointDataSetPage.modifyJointCondition
+org.eclipse.birt.report.designer.data.ui.dataset.JointDataSetPage.canLeave
+org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.showPage
+org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.showSelectionPage
+org.eclipse.birt.report.designer.data.ui.dataset.DataSetEditor.showSelectionPage
+org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog$3.run

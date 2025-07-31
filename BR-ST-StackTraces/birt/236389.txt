@@ -1,0 +1,14 @@
+org.eclipse.birt.data.engine.api.DataEngineContext.getOutputStream
+org.eclipse.birt.data.engine.impl.document.BaseSave.saveNamingRelation
+org.eclipse.birt.data.engine.impl.ResultIterator$RDSaveHelper.saveNamingRelation
+org.eclipse.birt.data.engine.impl.ResultIterator$RDSaveHelper.access$2
+org.eclipse.birt.data.engine.impl.ResultIterator.saveNamingRelation
+org.eclipse.birt.data.engine.impl.ResultIterator.close
+org.eclipse.birt.data.engine.impl.ResultIterator.finalize
+java.lang.ref.Finalizer.invokeFinalizeMethod
+java.lang.ref.Finalizer.runFinalizer
+java.lang.ref.Finalizer.access$100
+java.lang.ref.Finalizer$FinalizerThread.run
+org.eclipse.birt.core.archive.compound.ArchiveFile.getEntry
+org.eclipse.birt.core.archive.compound.ArchiveWriter.openRandomAccessStream
+org.eclipse.birt.data.engine.api.DataEngineContext.getOutputStream

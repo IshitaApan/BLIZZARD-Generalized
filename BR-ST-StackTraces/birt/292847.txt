@@ -1,0 +1,9 @@
+org.eclipse.birt.chart.reportitem.ChartReportItemPresentationPlotImpl.computeBounds
+org.eclipse.birt.chart.reportitem.ChartReportItemPresentationBase.buildChart
+org.eclipse.birt.chart.reportitem.ChartReportItemPresentationBase.generateRenderObject
+org.eclipse.birt.chart.reportitem.ChartReportItemPresentationBase.onRowSets
+org.eclipse.birt.chart.reportitem.ChartReportItemPresentationProxy.onRowSets
+org.eclipse.birt.report.engine.presentation.LocalizedContentVisitor.processExtendedContent
+org.eclipse.birt.report.item.crosstab.core.de.CrosstabReportItemHandle.getColumnWidth
+org.eclipse.birt.chart.reportitem.ChartReportItemPresentationPlotImpl.getColumnCellWidth
+org.eclipse.birt.chart.reportitem.ChartReportItemPresentationPlotImpl.computeBounds

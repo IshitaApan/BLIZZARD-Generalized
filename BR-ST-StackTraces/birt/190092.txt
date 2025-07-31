@@ -1,0 +1,8 @@
+org.eclipse.birt.data.engine.olap.data.impl.dimension.DimensionFilterHelper.find
+org.eclipse.birt.data.engine.olap.data.impl.dimension.DimensionFilterHelper.find
+org.eclipse.birt.data.engine.olap.data.impl.dimension.Dimension.find
+org.eclipse.birt.data.engine.olap.data.api.CubeQueryExecutorHelper.getSimpleFilterResult
+org.eclipse.birt.data.engine.olap.data.api.CubeQueryExecutorHelper.getFilterResult
+org.eclipse.birt.data.engine.olap.data.api.CubeQueryExecutorHelper.onePassExecute
+org.eclipse.birt.data.engine.olap.data.api.CubeQueryExecutorHelper.applyAggrFilter
+org.eclipse.birt.data.engine.olap.data.api.CubeQueryExecutorHelper.execute
