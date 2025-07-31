@@ -1,0 +1,593 @@
+216067	introduction math point aspectj aspect typo wikipedia method aspect triangle sin
+339974	NPE when accessing static class inside of an ITIT NullPointerException processInterTypeMemberTypes IntertypeMemberClassDeclaration processIntertypeMemberTypes AjLookupEnvironment completeTypeBindings resolveOnType AspectDeclaration internalBeginToCompile Type AjBuildManager Member
+386049	filter project message jtidy basicfilter basic filter aspect getlogmessage log message xomunclutterfilter xomunclutter filter ajdt errors error implement abstract inter type declaration build fine
+34820	ajc  aspectpath fails with NPE for cflow pointcuts NullPointerException compile Compiler AjdtCommand runCommand Main Command run runMain main Ajdt
+67592	args point advice arg lottery system laurie join println array thisjoinpoint join point changed decl updated values
+220172	compiler  NullpointerException during compile NullpointerException NullPointerException toResolvedString findResidueInternal findResidue findResidueNoEllipsis BcelAdvice ArgsPointcut Shadow BcelShadow Pointcut specializeOn prepareForMungers
+152589	bug timer advice pack hawkinsh aspect advicedidnotmatch advice match ajc event runtime pipeline adding whitespace match warning
+11280	view node set structure action file children rogram View Mgmt Switching perspectives loses view maximized Open CVS repository view Java perspective click title bar maximize resource perspective Java perspective CVS repository view longer maximized view maximized stay maximized
+116755	pointcut expr match parser configuration pointcutparser pointcut parser pointcut classpath exception expression configurable config urable
+80916	relationship test system pointcut map aspect helloclass class model test void cases structure doesn matches declare
+39959	set dir test create include compiler options dump AJC Compiler generates invalid files circunstances attach bug bug zip sample Java program correctly runs compiled javac classloading problems time compiled ajc file README DEMONSTRATE BUG bug zip archive detailed simple instructions reproducing bug shell scripts attached easier informed status issue
+50200	jar file aspectjrt meta websphere web sphere case ibm development manifest sun manifest changing upper
+43033	Compiler crash in ajc head  post       rc   on erroneous program RuntimeException convertCheckedException NullPointerException AjdtCommand concretize Command doCommand runCommand Pointcut Ajdt Main run runMain
+233497	StringIndexOutOfBoundsException thrown in BcelWeaver StringIndexOutOfBoundsException substring String addLibraryJarFile AjBuildManager BcelWeaver addAspectsFromDirectory addIfAspect initBcelWorld batchBuild AjdtCommand add
+289816	stream aspectj bcelworld bcel class lookup attachment classparser class parser workspace bcel method unclosed org weaver bcel
+289818	stream patch file urlclass bytes aspectj class attachment method loader unclosed org weaver bcel extensibleurlclassloader extensible urlclass loader extensible
+90143	test type aspects method pointcut annotation vars parameterized itds Problem method declared anonymous returned result compiler generates error xxx calls anonymous project nested problem occurs kind error occur declared normal
+101407	NullPointerException when selecting Save As in top menu NullPointerException getSelectionCells til calculateEnabled sendEvent Selection Cells canMerge ditPart handleEvent EventTable setActiveControl
+132130	method file role ctors marker types program bankaccount bank account amount bank missing relationship declare annotating located
+101411	classes field andy alex fields ltw programmer enhancement uid uid serialversionuid serial version uid handling serial version
+39974	Some strange error when compiling the observer example with JBuilder  integrated AJDE NullPointerException AsmBuilder AjBuildManager BatchBuilder visit Builder Compiler build AjCompiler CompilerAdapter compile Asm
+231467	Cant Compile new Statement for the Generic Class ArrayIndexOutOfBoundsException ResolvedType getMemberParameterizationMap getInterTypeMungersIncludingSupers collectInterTypeMungers checkInterTypeMungers Type weaveInterTypeDeclarations getDeclaredInterfaces getDirectSupertypes ReferenceType AjLookupEnvironment
+86057	error aspect pointcut walk args point void join pointcut thisjoinpoint join point expect overriding final pointcuts point cuts
+71723	foo aspect itds class members void package foo target dostuff stuff inconsistency scoping protected
+34858	Weaver crash ArrayIndexOutOfBoundsException IntMap AjdtCommand get runCommand Command Map concretize BcelWeaver Ajdt Main Pointcut
+138286	perthis  causes ClassCastException ClassCastException PerThisOrTargetPointcutVisitor getPerTypePointcut PerObjectInterfaceTypeMunger getTestTypePattern ConcreteTypeMunger Pointcut Type AndPointcut visit matches accept
+82989	test declare weave outjar messages pointcut debug binary Compiler error wrong exception check blocks Compiler error correct code aspect performs method introdiction method introduction invocation method invocation block ajc compiler performs wrong check exception types understand attached
+55341	test type method load create annotation signature array error Type mismatch convert java lang String java lang String compiling binary concrete aspect library LTW consisting aspect performs target exposed weaver error error Type mismatch convert java lang String java lang String error oocur complete build weave performed Testcase attached
+109614	waiting on build   iajc task  java lang RuntimeException  Ranges must be updated with an enclosing instructionList RuntimeException updateTarget BcelShadow deleteNewAndDup Range prepareForMungers update Target BcelClassWeaver retargetFrom implement BcelWeaver
+297013	method output dataoutputstream data output stream stream bytes ajattribute attribute bytearrayoutputstream byte array output stream stream call data unclosed attribute
+111667	outjar deleted file spec error path test jars Produce compile warning advice precedence applied propose compiler spit warning anytime apply advice precedence spit recommendation ordering guaranteed release release compiler thread aspectj dev titled change runtime execution order aspectj users titled AJDT aspectj reasoning good
+152631	Problem with decp on an aspect using cflow RuntimeException logError NullPointerException testLoggingError NoAspectBoundException SoftException enforceDecpRule1 abstractMethodsImplemented BcelTypeMunger AjPipeliningCompilerAdapter BcelWeaver weave mungeNewParent weaveQueuedEntries weaveWithoutDump BcelClassWeaver munge
+399408	NPE in ExactAnnotationTypePattern matches NullPointerException ExactAnnotationTypePattern AnyWithAnnotationTypePattern weaveInterTypeDeclarations AjLookupEnvironment matches findMatchingNewParents matchesStatically DeclareParents Type TypePattern matchesExactly
+323634	NPE parameterizing perclause NullPointerException ReferenceType lookupConcretePerClause getPerClause collectCrosscuttingMembers setPerClause ResolvedType Clause CrosscuttingMembers oBuildJob PerFromSuper Type
+64568	aspect error message user compiler pattern type string java myaspect aspect wildcarding itds clearer
+114744	NPE at CaptureBinding java on wildcard in intertype field type NullPointerException initializeBounds CaptureBinding ParameterizedTypeBinding resolve SingleNameReference resolveType resolveStatements MessageSend AbstractMethodDeclaration Declaration Binding
+39993	getid hashcode hash code aspect code return int npe user setid set ajc stack trace declaring hashcode hcode method
+149560	aspect aspect obj factory code ajc class class initialization org aspectj aspect spec incorrect weaving static join point
+102459	info showweaveinfo weave info program places weave case work record detail advice provide messages
+353349	NPE in deleteNewAndDup NullPointerException deleteNewAndDup BcelShadow prepareForMungers BcelWeaver BcelClassWeaver implement weave weaveWithoutDump Shadow Bcel delete
+132160	NPE in SingleTypeReference NullPointerException SingleTypeReference Type genLabelAndKind AsmElementFormatter AsmHierarchyBuilder getTypeBinding getTypeBindingPublic QualifiedAllocationExpression TypeReference traverse TypeDeclaration
+124999	method getsomething useinheritedmethod inherited method lang somemethod method void advice inherited aspect generics incorrect call generic inherited method
+140357	type pointcut resolve overflow npe void stackoverflow stack overflow aspectj pointcut tools stack resolving reference point cut reflectionworld reflection reflection
+36936	Error when introducing members of type Class ajc interFieldInit Asp Trg member Field Init inter init main
+238666	test type aspect config build declare jar source ltw configuration discovered classpath property org aspectj weaver loadtime configuration set ltw configuration file loadtime weaver searches META INF aop xml META INF aop ajc xml org aspectj aop xml weaver searches classpath xml files matching possibilities typical override Dorg aspectj weaver loadtime configuration META INF overhere xml weaver classpath environments ltw user aop config file forced include classpath suggestion protocol based support file file prefix treated direct reference file searched change existing override fine users exploit flexibility naming configuration
+29769	support aspectj aspect options aspect interface ajde ide buildoptionsadapter build options adapter compiler org spec
+119882	BCException when deleting a java source file BCException BcelWeaver AjBuildManager weave AjCompilerAdapter AspectJBuildManager CompilerThread performCompilation Compiler incrementalBuild CompilerAdapter compile
+120909	Test failures using IBM Java Assert ReflectionBasedReferenceTypeDelegateTest testCompareSubclassDelegates fail assertTrue NativeMethodAccessorImpl DelegatingMethodAccessorImpl invoke Test TestResult TestCase
+104529	suppresswarnings suppress warnings suppress safety type warnings ignoring ajdt unchecked checks annotation
+44117	NPE on compile NullPointerException match CompilerAdapter BcelClassWeaver Checker BcelWeaver weave Compiler compile Adapter Weaver Bcel
+57430	write dir test message exp print string num exception printing Exceptions thrown compiler printed submit bug header printed header CVS version
+57436	beta java docs ajc techniques classes error class reports format fails produced
+336997	IllegalStateException for generic ITD usage IllegalStateException TypeVariable Type weaveInterTypeDeclarations addInterTypeMunger checkLegalOverride ResolvedType clashesWithExistingMember canBeBoundTo createBinaryTypeFrom AjLookupEnvironment isAssignableFrom
+61536	shouldn java println system test match foo bug advice passes front patterns form
+49250	getcause exception compatibility runtime print soft comments support ramnivas remoteexception remote exception alias getwrappedthrowable wrapped throwable wrapped throwable softexception soft exception
+185447	plan   ataspectj  Abstract  Aspect causing problems NullPointerException AtAjAttributes LazyResolvedPointcutDefinition addChildNodes AsmRelationshipProvider getPointcut ShadowMunger Pointcut createHierarchy adviceMunger implementMungers Attributes
+321641	No way to exclude Proxool classes although excluded from AOP  Causing Veryfy error getDeclaredMethods0 privateGetDeclaredMethods getDeclaredMethod Class Enhancer Declared setThreadCallbacks setCallbacksHelper getCallbacksSetter createUsingReflection Callbacks
+34925	compiler crash on yesterday s rc  build RuntimeException PersistenceException dException IOException checkException AjdtCommand runCommand Command Ajdt Main run runMain main
+146546	getfilename file dependency file aspect bug manager jelement asm methods hierarchy remove hard coded code
+96371	xml test loader aop xmls resources file loadtime jar enumeration patch support loading properly
+404594	Assertion failed at ResolvedType java lookupResolvedMember ResolvedType JoinPointSignatureIterator findSignaturesFromSupertypes Resolved matchInternal SignaturePattern Pointcut Type Member lookup
+170102	set test file dir message create list log iajc Ant task doesn support warn options iajc Ant task supports options ajc compiler nice support builds Ant task generate errors warnings Eclipse IDE
+70773	aspect eclipse conncurrent compilation change conncurrentmodificationexception conncurrent modification exception modification typing exception comment aspectj aspect spec error thrown null
+112756	counter test assertion pointcut aspect compiler void assert assertionfailederror assertion failed error assertions ajdt generate false warnings
+51320	ClasscastException on concretization of if false ClasscastException ClassCastException IfPointcut concretize compile Compiler Pointcut concretize1 Checker
+51322	Introduce Unknown Type to class causes Null pointer exception NullPointerException beginToCompile Compiler AjBuildManager performCompilation compile Compile AjdtCommand batchBuild doBuild Build Command
+274559	message sample util test exts messages locations exceptions Compile exception debug info project compiler exception project property Add variable attributes generated files turned
+151673	method exception method return problem input code lang subroutine areturn incorrect weaving returning bytecode strange form
+184447	AjLookupEnvironment java NullPointerException AjLookupEnvironment weaveInterTypeDeclarations doDeclareAnnotations AutoBuildJob Declare Annotations Environment Lookup run Inter Type
+404600	Unhandled RuntimeException RuntimeException removeRelationshipsTargettingThisType AsmManager AjPipeliningCompilerAdapter weaveQueuedEntries BcelWeaver sameType weave Type Manager Asm Queued
+352389	class attribute weaver weaverstate weaver step kind overweaving isn attributes kind weaving duplicate deserialize correctly
+142466	test aspect methods jar error declare module aspects ltw Fail runtime methods implemented hierarchy finishes XML aspect copying test good basis test bug don check defining concrete aspect unimplemented methods aspect concretizing
+91267	NPE at EclipseFactory java   when using generic methods in aspects NullPointerException EclipseFactory buildInterTypeAndPerClause makeResolvedMember EclipseSourceType fillDeclaredMembers AjLookupEnvironment fromBinding getDeclaredPointcuts AspectDeclaration fromBindings completeTypeBindings
+71811	set path project file output dir files source AJDoc set encoding javadoc ajdoc doesn support encoding docencoding charset options javadoc doesn pass encoding ajc project source file encoding UTF differing form platform standard java identifiers characters byond standard ASCII range won ajdoc
+34951	test jar advice path aspect weave names aspects NPE compiling aspectjrt jar Compiling spacewar aspectjrt jar classpath NPE Expected error message aspectjrt jar required Steps reproduce install latest doc examples java jar lib aspectjtools jar verbose spacewar debug lst RESULT NPE attached log
+106634	argument aspectj aspect vector java type signature util bcel wednesday test regression bcelgenericsignaturetotypexconverter bcel generic signature type xconverter generic converter xconverter
+150671	type target struct itializer ner join itds execution declare error set field work aspect declare error statement involving pointcut captures setting field compilation error produced bug reproduced foo aspect aspect FSM declare error set Changing setting field method foo result compilation error expected originally noticed bug AJDT Eclipse reproduced confirmed aspectj compiler
+82062	message aspect weavemessage weave message class time dependency management load provide weaving weave
+138384	method lang impl eclipse classformaterror class format error format reason problem weaver class java class error invalid code length file org jdt internal compiler constant
+54421	error warning string code warningsample warning sample sample time concatenation message illegalcall illegal call compile declarations warning accept
+408721	java util ConcurrentModificationException when multiple threads enter the weaver ConcurrentModificationException ArrayList Itr checkForComodification Type createParameterizedType findDerivativeType ReferenceType ResolvedType getDeclaredInterfaces matchesSubtypes getDirectSupertypes
+58520	ajdoc convention javadoc anchor cases html setting target link convertcheckedexception convert checked exception doesn navigate details
+159896	provider advice kind advice aspect aspectpath jdtlike injars unique handles jdtlikehandleprovider jdtlike handle provider jdtl ike handle
+376990	declaration type warn declare set options compliance method iajc support source compliance level Build Identifier Version Build AspectJ changed examples build xml source compliance level verbose iajc destdir classes dir verbose source argfiles list ant bean iajc source aspectj doc examples build xml running compiler ajc source works large development project AspectJ migrated Java project ant builds critical iajc support project built Java features source files defeats purpose moving Java Reproducible Steps Reproduce Change examples build xml source compliance level verbose iajc destdir classes dir verbose source argfiles list ant bean iajc source aspectj doc examples build xml
+84122	set classpath path dir source test files mode aspectPath directories aspectpath option compiler jar zip files directories inpath classpath directories capability improve handling aspects spanning multiple projects Eclipse AJDT support jar zip files aspect path requires projects create outjar writing bin directory usual iajc ant task enhanced support aspectpath directories
+58524	manager symbolmanager symbol manager declaration funtion effort symbol org wrapper html ajdoc classes
+33948	constructor compiler bugs arg declaration weaver declaration constructor constructordeclaration constructor declaration constructors inter type conflict generated
+37021	set declare file create test type dir source source path wrong declare warning binary files declare warning messages targeting files injars source path listed form app Main app Main java tests binaryWarnings code problem Limitations tests tests positives detecting error filename checking enabled harness verification messages filenames tests reproduce problem AJDT filename sense AJDT AJDT simply omits
+309402	icommand field order command ant ajdt org holder integration change main java
+44191	class org message test type list cutoff sometest test iajc xxx error find
+93345	unresolved joinpoint in cflow causes ClassCastException on BcelWeaver ClassCastException BcelWeaver AjCompilerAdapter weave afterCompiling Weaver Bcel Compiler Adapter Compiling compile
+116899	message set messages add list xml command test verbose aop xml yield info messages interpretation verbose option LTW consistent AspectJ ajc iajc info warining error messages output option parser testcase updated
+41123	obj monitor model injars executionmonitor execution monitor string java bus ajee monitoreditem monitored item weaving failure
+308386	error hasmethod npe import hasfield eclipseresolvedmember eclipse resolved member annotation member process matching field evaluating eval uating annotations unresolved
+73895	resolvedtypex resolved type type method getdeclaredmethods declared methods implementations cast case org resolved coerceable unnecessary causing problems
+52394	inter type declarations cause JRockit Crash clinitTrampoline RNI toNative SimpleClass Trampoline clinit init main Simple
+125101	jar error isassignablefrom assignable ajc referencetype reference type flow aspects message reference stackoverflow stack flow stack type assignable
+374964	expensiveness call ltw startup target sense build exacttypepattern exact type pattern evaluation patch performance improve pointcut point cut exp ensiveness calculation
+62642	proper handling of ExceptionInIntializer inside  clinit  in presence of after throwing advice ExceptionInIntializerError NoClassDefFoundError ExceptionInInitializerError NoAspectBoundException clinit Main
+353457	NPE when saving an aspect   Aspectj Internal Compiler Error NullPointerException ShadowMunger getBinarySourceLocation getBinaryFile AsmRelationshipProvider createAdviceChild addChildNodes Binary File Munger Shadow Child
+384189	test advice dir array file input member command ajcore file creation optional cores situations working reporting unable pick version includes situations helpful creation cores optional sys prop
+133307	interface test parents aspect class type testaspect test aspect class aspect testif test declare implementing impl ementing generic referencing
+43194	tree java jar error verify node verifyerror verify error lang treenode tree node verifybug verify bug generated code
+112830	test set jar path build message nonstandard source Warning couldn find aspectjrt jar classpath compiler warning aspectrt jar file aspectrt jar compiling maven
+67774	Nullpointer exception in pointcuts using withincode  clause NullPointerException match ShadowMunger NotPointcut AndPointcut Pointcut Checker Munger Shadow
+324804	NullPointerException at AspectJElementHierarchy java NullPointerException AspectJElementHierarchy getCanonicalFilePath updateHandleMap removeStructureModelForFiles AsmManager oBuildJob processDelta Canonical Path File Aspect
+107713	string property property field bean void import support change getname classcastexception class cast exception class cast exception popup
+113861	test return aspect field integer error member intsset ints set generics java problems generic
+78021	Injecting exception into while loop with break statement causes catch block to be ignored SQLException SimpleException MainClass doSomething main Main
+71878	windows project injar jar linux aspect tree testing abstract test bad aspect
+46280	dosomething capsule capsule aspect interface aspect class void pub int compiler issues error aspects privilieged
+74952	trace level cflow traceclass trace class int point aspect class cflowbelow pointcut prints
+280783	JavaDocRunner fails on System setSecurityManager in Netbeans ExitSecurityException SecurityException checkSetSecurityManager TopSecurityManager callJavadoc setSecurityManager0 setSecurityManager checkPermission Security JavadocRunner Manager System check
+272591	test set jar path build message nonstandard source WARNING couldn find aspectjrt jar classpath aspectj runtime jar spring source bundle repository renamed jar match naming conventions causing warning occur bundle named springsource org aspectj runtime RELEASE jar nice warning printed
+59596	Null pointer exception while weaving java awt Label NullPointerException EclipseAdapterUtils makeLocationContext AjBuildManager AjCompilerAdapter acceptResult makeSourceLocation WeaverAdapter makeMessage weave Location Adapter
+36046	inter type declaration bug with abstract classes AbstractMethodError Driver main
+59599	path test jar tests harness update incremental addition Race condition test suite incremental faster machines linux desktop andy tests ajcTests xml failing suite attached appears race condition checking directory contents waiting compilation complete environment test candidate fixes pointer tweak
+41170	set test path file classpath check dir source classpath entries lst files overwrite command classpath entries command specifies classpath entry lst file classpath entry lst file entry replace supplement command entry expect options cumulative tests bugs options classpath
+116949	waitingOnAJDTdrop Exception thrown from AspectJ compiler ClassCastException IllegalProgramArgumentException SimulationException NumberFormatException BcelWeaver weaveWithoutDump weave weaveAndNotify CompilerAdapter Dump Weaver Bcel Notify Compiler compile
+269522	test view file generics anno messages missing decp handles Cross reference view markers mix joinpoints assigned advice Build Steps Reproduce pieces advice aspect cross reference view joinpoints advice selecting advice statements select advice statement joinpoints select marker piece advice joinpoints pieces advice open perform clean compile attached project open xref view select note joinpoints select note joinpoints click marker choose advises note joinpoints click marker choose advises note joinpoints
+47318	irelationship kind inter array arrayindexoutofboundsexception array bounds exception kinds advice org bounds array aspectj asm elationship
+148693	attribute org number method void method class mypackage testclass test class class woven pass apache bcel verifier statics pass verifier
+82134	test type aop array decp anno element rogram AspectJ implement compatibility binary aspect form Adrian detailed explanation compatibility questions explains problem observed AspectJ program aspectjrt jar runtime library accompanies distribution compiler weaver build Interesting point compile weave IOException nice message aspect produced version AspectJ read load pre aspectj aspect AspectJ weaver IOException odds detect level loaders read bug track update weaver weaving runtime load weave asepects compiled AJDT versions AJDT AJDT
+46298	exception ajc exceptioncatcher exception catcher code exceptionhandler exception handler catcher aspect class handler void aspectj generate compile cleanly
+391384	WildAnnotationTypePattern java RuntimeException WildAnnotationTypePattern resolveBindings resolveAnnotationValues WildTypePattern SignaturePattern Pattern Annotation resolve Wild Type Values
+399590	test type advice annotation aspect error method pointcut Bad generics signature generated http jira springsource org browse SPR bug https bugs eclipse org bugs bug cgi raised issue fixed version AspectJ version hit bug today investigation problem occur AspectJ versions resurfaces version reproduced current version
+134371	ClassCastException in AjState recordClassFile ClassCastException recordClassFile AjBuildManager AjState noteResult acceptResult performCompilation Compiler AjCompilerAdapter incrementalBuild Build afterProcessing
+222437	file dir build jar set message zip result MANIFEST copying reliable AJDT project meta inf manifest file fails destination folder
+101606	set options test warn build source message compiler AspectJ compiler process unused code compiler options properly aspects Eclipse click Window Preferences Java Compiler Select Unused Code tab compiler preference Change Unused unread members Warning Error Create project aspect pointcuts warnings errors pointcuts unused
+382189	NPE in BcelTypeMunger createBridgeMethod NullPointerException BcelTypeMunger createAnyBridgeMethodsForCovariance createBridgeMethod mungeNewMethod create Bridge Method munge Covariance Methods Munger
+156904	warning innerpointcut class mymethod method method poincut println method type system incorrect advising private
+128237	AspectJ  NPE on  AJ code with pointcut which contains logical OR operation NullPointerException IOException BcelWeaver validateOrBranch validateBindings rewritePointcuts prepareForWeave AjCompilerAdapter AjBuildManager validate performCompilation afterCompiling Compiler
+29934	runtime NullPointerException when applying around advice to other around advice NullPointerException ajc around 3b6 aroundBody3 CflowCycles Body3 run aroundBody4 main aroundBody6 Target
+44272	test target struct itializer ner join itds execution retitle warning circular advice dependency writing aspects cycles advice precedence warning circular dependency join point circular advice dependency circular advice precedences join point reorder advice aspect FWIW circularity advice precedence aspect pointcut crun execution crun returning crun crun proceed programming guide discussion circularity advice precedence
+87282	error array introduction aspect development tmp list arraylist array list member method compilation generic int roduction
+38131	subpackage command java javac test class eclipse compiler change ajc option correctly compiling classes package
+148727	aspect asp client jar error call aspectof aspect java system methods synthetic method library
+153845	generics  Problem with signature for generic type IllegalStateException GenericSignatureParser Signature parseFieldTypeSignature Type maybeParseTypeArguments BcelObjectType parseTypeArgument parseClassTypeSignature initializeFromJavaclass parseAsClassSignature getGenericClassTypeSignature
+28919	waever tries to weave into native methods RuntimeException LazyMethodGen init BcelObjectType LazyClassGen getLazyClassGen Lazy Gen BcelWeaver AjdtCommand weave runCommand
+398588	aspect class hasunsatisfieddependency unsatisfied dependency aspects bcel aspectrequiredtypes aspect required types map aspect clauses time requires clause loaded
+82171	java element ijava column path core source javacore java core ijavaelements ijava elements dev enable asm interoperability int eroperability uniform element handles
+147711	user jaxb type xmltransient xml transient option members xml cases field add generate synthetics true synthetic flag
+130300	users aspect ltw xnoweave xno weave xno source aspectj aspect problems maintenance development remove hide obfuscate weave
+40192	test build annotation type module progress aspect declare build cancel weaving build cancelled bytecode weaving stage
+152835	ArrayIndexOutOfBoundsException in EclipseAdapterUtils makeLocationContext ArrayIndexOutOfBoundsException EclipseAdapterUtils makeLocationContext AjPipeliningCompilerAdapter acceptResult makeSourceLocation AjBuildManager makeMessage Compiler Location afterProcessing performCompilation
+148737	IllegalStateException for non generic type IllegalStateException StackOverflowException ResolvedMemberImpl parameterizedWith ResolvedType getDeclaredMethods Iterators ReferenceType hasNext lookupMember Resolved Type Member
+246021	store findbugs find bugs optimization method ben hale read bugs variable dead find reporting
+29959	super call in intertype method declaration body causes VerifyError main Main
+232712	ClassFormatError during LTW using annotation approach defineClass URLClassLoader defineClass1 ClassLoader Loader access 000 AccessController SecureClassLoader loadClass Launcher AppClassLoader doPrivileged findClass define run URLClass Class1 Privileged Access Controller Secure find load App
+220430	java class finder member situation case annotationfinder annotation finder bcel spr org mixup retrieving annotation
+269578	test advice output type file incremental model path Resource deletion source folder full build source output folders clean full aspectj build resources removed output folder output source folder resources deleted source folder source output folders resources deleted
+108816	AspectJ       Development Compiler Chokes on Advice with Cflow NullPointerException NoAspectBoundException AjdtCommand BcelAdvice Command implement implementOn doCommand implementMungers runCommand BcelWeaver Shadow Bcel
+104720	test java switch jar class classpath lang loader body source verifyerror verify error verify error weaving trivial statement
+129298	memory weaver member analysis getdeclaredsignature declared signature signature system pin consuming declared contribution remove
+322832	test type aspects pointcut vars parameterized annotation matching early field resolution leading problems ITDs declare parents type expected specifies upper bound type obeys upper bound declare parents applied intertype declaration field applied work clashes existing fields existing fields resolved resolution triggers bounds check declare parents type declare parents applied problem raised Basically target declare processed intertype luck based declare parents declare annotation intertype declarations trigger extra resolution
+77076	classes jar spring aspect bug application aspect aspectj aspect class source weaving fails referred erred unavailable
+76055	pointcut pointcuts members nodes tree pointcut syntax module weaver definition patternnodes pattern nodes pattern missing getters ters traverse
+91417	set test dir aspect create add message file Xreweavable order facilitate widespread LTW ensure code compiled –Xreweavable rely developers flag current code bloat unacceptable large projects
+228633	pointcut ast default match test definitions pattern type support pointcutdesignators pointcut designators designators
+371998	org aspectj weaver BCException compiling  DeclareParents with value using BCException resolveBindings ExactTypePattern handleDeclareParentsAnnotation OrTypePattern readAj5ClassAttributes AtAjAttributes Pattern Type Exact resolve Bindings
+108826	error type code public aspect eclipse type array class method ajdt error find
+165148	code type xml doesn resolve class exception isnt gen check ltw unnecessary exceptions concretization aspects aop
+394535	Java throws OutOfMemory in call to Class getGenericSuperclass  on woven class copyOf ArrayList SignatureParser Arrays ensureCapacity parseFormalTypeParameters parseZeroOrMoreFormalTypeParameters copy parse parseClassSignature parseClassSig
+84260	strings method error method class myclass class work import enums java static fails importing
+41254	node kind string getname jelement iaspectjelement iaspect jelement iaspect gettargets targets getkind kind element revise asm create interfaces
+151845	eclipse project project aspectj aspect ajdt building aspect clipse springide spring ide removeunnecessaryproblems remove unnecessary problems npe building
+111915	illegal change to pointcut declaration BCException concretize ReferencePointcut BcelAdvice addShadowMunger addShadowMungers Pointcut CrosscuttingMembers concretize1 collectCrosscuttingMembers Advice ResolvedType
+317743	type prefixes import scope lookup issues simplescope simple scope scope peter style handling
+152873	match xml aspects style shouldweaveannotationstyleaspect weave annotation style aspect annotation overhead cpu parsing aop optimize weave annotation style spec patch aspect
+82218	fails to doc spacewar using AJDT      M StringIndexOutOfBoundsException HtmlDecorator insertDeclarationsDetails AbstractStringBuilder insert addAspectDocumentation StringBuffer decorateHTMLFromInputFiles decorateHTMLFromDecl decorateHTMLFromDecls decorateHTMLFile decorate
+138540	ant xset options support memory activatelightweightdelegates activate lightweight delegates set permgen condition configuration patch add
+28974	ibm bean amc ejb demo inter demobean demo bean type field verbose compiler error introducing int roducing final
+148786	new array construction join point can fail for freaky array constructors NullPointerException makeJoinPointSignatureForArrayConstruction Bcel makeArrayConstructorCall BcelWorld BcelShadow BcelWeaver fromBcel BcelClassWeaver weave weaveWithoutDump Array
+85297	type annotation output dir building file message record Improvements incremental compilation bug track compiler improvements incremental compilation multiple scenarios focus changing source file Aspect compile weave instantly response times reported seconds worse reasonable improvements today Caching classpath calculations performing repeatedly Improved logic detect weaver completion Removed unnecessary serialization structure model dev builds ajdt interested user feedback noticeable improvements projects improvements follow shortly
+49457	pointcut aspect void class ron error string target object overloaded loaded pointcuts point cuts binding variables
+58681	set test options add message list source build output options ajc emit options request java traffic feedback experimental options
+103740	Compiler failure on  annotation BCException BcelRenderer BcelAdvice Bcel visit recur implement implementMungers accept BcelWeaver implementOn Literal
+74048	warnings type aspect code pattern references java constructor call control ajdt reports unnecessary compile time private static aspects
+76096	class interfacea interface error aspect concreteclassa concrete class abstractclassa abstract class void system compiler interface anonymous classes unaware introductions int roductions abstract find type local
+40257	file dir test set config files path string parsing paths LST files broken Relative paths longer parser properly AJDE
+57666	duplicate manifests cause resource copying to gack ZipException AjBuildManager ZipOutputStream putNextEntry JarOutputStream copyResourcesFromJarFile copyResourcesToDestination writeResource batchBuild AjdtCommand Output Stream
+155972	signature member constructorsignature constructor signature constructor constructor lang getconstructor constructor null point exception nullpointerexception null pointer exception pointer
+61768	type aspect void scope class aspect foo int messages rules intertype ertype methods
+30026	object ptr void null nullptr null ptr aspect program source finalize string nullpointerexception null pointer exception pointer exception compiling
+348488	register definition failed  with NullPointerException NullPointerException AtAjAttributes AjAttributeMethodStruct getMethodArgumentNames readAj5MethodAttributes extractBindings access 000 handleAroundAnnotation unpackAjAttributes getArgumentNames BcelMethod
+123212	Skip subversion resources when copying files from input to output folders FileNotFoundException FileOutputStream AjBuildManager makeOutputStream copyResourcesFromFile copyResourcesToDestination FileUtil init writeResource File open Output
+376139	AspectJ throws Nullpointer after its IDE plugin update NullPointerException analyseCode SwitchStatement MethodDeclaration internalAnalyseCode TypeDeclaration oBuildJob Code Statement Declaration analyse run
+144717	org aspectj weaver BCException  Do not call nameToSignature with something that looks like a signature  descriptor   Ljava lang String BCException UnresolvedType Java15ReflectionBasedReferenceTypeDelegate getDeclaredPointcuts nameToSignature Type ResolvedType Iterators ReferenceType hasNext findPointcut forName
+87376	expression eclipsefactory eclipse factory java type eclipse var project factory pointcut mini npe unresolved bound point cut
+107858	illegal argument to proceed crashes the parser NullPointerException AccessForInlineVisitor getAccessibleField FieldReference endVisit MessageSend traverse Field MethodDeclaration Accessible Visitor Access
+114005	field test string sampleannotation sample annotation annotation property interface class field sample annotated fields interfaces annotation
+389456	NPE in EclipseTypeMunger mungeNewMethod NullPointerException EclipseTypeMunger weaveInterTypeDeclarations createBinaryTypeFrom AjLookupEnvironment Type mungeNewMethod LookupEnvironment UnresolvedReferenceBinding munge BinaryTypeBinding askForType
+418129	method field aspect string retention interface type aspect elementtype element type type introduce annotation introduced trait patterned
+108886	log location source error exception lang compiler runtime bug runtimeexception runtime exception compilation java internal error unexpected null passed
+98646	parse comments integer pointcutvisitortest pointcut visitor test int adrian testtemp test temp test parser parser varargs correctly
+84312	annotation fixme type source pattern bindingannotationtypepattern binding annotation type pattern resolve eclipse implementation retention finish runtime checking
+147801	ibm method statement class stdout runtime java capturesqlstatement capture sqlstatement parameter lang classformaterror class format error class format error repetitive signature
+108892	aspect message methods weave weaving register file method Load Time Weaving problem Aspect Definition Levels Hierarchy weave Tomcat system level aspect META INF aop xml jar system classpath Web application aop xml properly deployed system level aspects work remove system level aspect jar classpath application level aspects work reasonable isolate test simple system jar app war file Tomcat debugging making simple standalone version aop xml files app classloader works fine
+423257	LTW   java lang VerifyError  Bad return type with generics and local variables start run DefaultPlatformManager Main SingleThreadEventExecutor NioEventLoop Verticle DefaultContext runAllTasks Event Thread
+339300	attribute classes scala library class innerclasses classes aspectj aspect outerclass classnames breaks problem weaving anonymous member owned
+54625	jar test build outjar file source classpath arg Incremental support work outjar file deleting work jars batch build working outjars
+340323	NPE when weaving java lang Object at org aspectj weaver bcel BcelTypeMunger createAnyBridgeMethodsForCovariance BcelTypeMunger java createAnyBridgeMethodsForCovariance BcelTypeMunger Type Bcel Munger Covariance create Bridge Methods
+83303	method error class visibility java polymorphism inheritance scenario implemts interface complier comp lier mixing overriding
+108902	observer observer collection subject void getobservers observers type observers statechange change change mismatch convert
+77163	message aspect test set weaving file adaptor options Load time weaver verbose setting setting load time weaver produce weaving messages ignore changed ignore override setting Daj weaver versose implied syntax docs examples build xml changed build xml updated weaver fixed
+84333	BCException  Bad type name  TypeX nameToSignature TypeX java BCException TypeX nameToSignature EclipseFactory makeResolvedMember AjProblemReporter fromBinding abstractMethodMustBeImplemented forName fromBindings Signature MethodVerifier
+266602	Problem with incremental itd compilation BCException BcelTypeMunger AjPipeliningCompilerAdapter weave mungeNewField BcelWeaver weaveQueuedEntries munge weaveWithoutDump BcelClassWeaver Bcel queueForWeaving
+125295	test ajdt failures message capability bug int view lines model caused
+192877	type error set impl implementation test interface method parents default ataspectj aspectj aspect spec style inter declaration false compiler incremental build aspect
+387444	exception resources ioexception ajdt aspect aspectj aspect error java invocation code softening
+420210	source type data declare error tar binding node Support additional message insert declare error warning good insert enclosing enclosing member joinpoint
+264563	set test handle model file method type create handles Remove trailing source path handles bug noticed classpath entry classpathentry kind src path src classpathentry kind src path src AspectJ handles include extra JDT handles AJDT side fixed Bug kind classpath entry created AJDT consistency good idea AspectJ handle kinds paths JDT AspectJ handle source folder Spacewar classpath entry extra Spacewar src JDT handle Spacewar src
+80249	test type advice annotation error aspect weave binary Order types passed compiler determines weaving behavior order types passing compiler affect woven aspect declare parents Serializable depending serializable weave type weave supertype superinterfaces passed compiler problematic construct declare parents process types special order declare parents decp binary weaving order processing logic source weaving pipeline
+70008	problem with ajdoc  public FileNotFoundException FileInputStream init FileReader open File Input Stream Reader main Main
+68991	field int initialisers point join string system class pointcuts set intertype ertype initial isers match point cuts
+151938	test file model type set element structure handle Handle Duplicate javaagent entries gracefully start java AspectJ load time weaver javaagent flag aop xml file defined chokes badly reweave woven AspectJ code emits massive amounts bytecode AspectJ detected warning disabled agents Failing fail error message emit bytecode issue automated installer adds javaagent flag startup commands script wrapped generate duplicate making scripts intelligent avoid issue people hit issue manually edits setclasspath bat catalina bat add flag Tomcat instance
+291206	type windows support expressions error gecko build pattern net clr declare warning
+118149	AspectJ compiler crahses possibly due to poincut context binding issue NullPointerException makeInstanceof Test findResidueInternal findResidue Pointcut AndPointcut Residue find OrPointcut IfPointcut Internal
+147845	base aspect interface mybase base program type test specification error middle generic abstract hierarchies deep higher fail parameters bounds
+114054	createcontentprovider create content provider ccontent workbench outline getactiveworkbenchwindow active workbench window null ccontentoutlinepage ccontent outline cuiplugin content getactivepage active npe create provider
+237962	migration  Unexpected problem loading an aspect built with BCException MemberKind read SignaturePattern Kind Member Pattern Signature
+122248	BUG for ajdt     for eclipse     zip IllegalStateException createParameterizedType Type classTypeSignature2TypeX BcelGenericSignatureToTypeXConverter BcelObjectType TypeFactory AjCompilerAdapter getSuperclass BcelWeaver unpackGenericSignature ReferenceType
+314766	NPE when using aop xml for compile time config NullPointerException isAspectIncluded BcelWorld match Bcel ShadowMunger BcelAdvice BcelClassWeaver Included Aspect Advice Munger
+50570	signature handler app businessexception business exception problem println exception parameter class system catchclausesignature catch clause signature catch clause broken operation
+36234	annotation build test thread executor memory local annotations memory error compiling memory error compiling Ajc descriptive point direction output additional Code base medium size classfiles removed aspects receive error Running command ajc classpath whateveritis sourceroots whateveritis whateveritis
+384398	error type innera types classes aspectjinnerclassingenerictypebug aspect jinnerclass generic type bug mismatch src bug project contained generic itds
+136585	NullPointerException in PerObjectInterfaceTypeMunger java NullPointerException PerObjectInterfaceTypeMunger BcelTypeMunger AjLookupEnvironment equals collectAllITDsAndDeclares addOrReplaceAspect completeTypeBindings addCrosscuttingStructures CrosscuttingMembersSet AbstractList CrosscuttingMembers
+134541	advice number regression advicedidnotmatch advice match didn insert project match stays warning match doesn
+41359	match type aspect data node residue thread variable percflow aspects compiled jars share instance entry points percflow aspect woven source code jar aspectPath compiler option produces instance aspect entrypoint defined source code
+152979	url loader cache bcel configuration types glassbox classes test memory optimization reference caching classloader class loader class loader repository
+69011	ajdoc fails when using default package FileNotFoundException FileInputStream init FileReader open File Input Stream Reader main Main
+256400	core aspect coresource core source pointer lang aspectj aspect null nullpointerexception null pointer exception source error internal occurred delete update spec markers
+384401	point join lang pointcut mailing aspectj annotation org advice style npe point cut afterthrowing throwing
+149908	NPE in org aspectj weaver MemberImpl getModifiers MemberImpl java NullPointerException MemberImpl LazyClassGen getModifiers getMethodSignatureString getJavaClassBytesIncludingReweavable addAjcInitializers getSignatureString initializeAllTjps initializeTjp writeBack BcelWeaver
+318878	aspect ajc void aspects threads target pertarget class method aspect instantiation ins tantiation thread safe
+112027	void test tis class pointcut system perthistest test test development unexpected error unboundformalinpc unbound formal unbound formal
+230817	LazyMethodGen remap  NullPointerException NullPointerException LazyMethodGen getJavaClassBytesIncludingReweavable addExceptionHandlers LazyClassGen packBody getMethod pack BcelWeaver writeBack remap Method
+160167	NPE when using crossrefs option for iajc ant task CoreException NullPointerException AjBuildManager batchBuild Build doBuild AjdtCommand AjcTask UnknownElement execute runCommand Command doCommand
+159143	method foo subtype error aspectj aspect aspect pattern method type foo working declare annotation
+82340	type pointcut binding generate read print missed field Visibility selector pointcuts ajdoc AJDT AspectJ commandline aspect problems aspect Aspect pointcut privatePointcut pointcut protectedPointcut pointcut publicPointcut privateMethod protectedMethod publicMethod pointcuts Aspect entry wrong Aspect Methods inherited leading comma clone equals finalize
+71076	comments aspect warnings javadoc advice pointcut system java compiler ajdt missing missing
+151978	message imessage stack parameters program package generics object generics darimont compiler fails compile
+368046	classloader jspclassloaders jsp class loaders load jsp loaders mailing aop ltw xml loader configure set class loader weavers created scenario
+148911	NPR compiling Spring NullPointerException SingleTypeReference AsmElementFormatter Type genLabelAndKind getTypeBinding resolveType AsmHierarchyBuilder setParameters TypeReference QualifiedAllocationExpression traverse
+148908	files source signature java badinterface bad interface bad ajdt html expression initializers incorrect field ipe qualified allocation
+113073	method annotation anothermethod method aspect messages class weaveinfo method void reported applying app lying declare
+45489	file aspects classes iterator kinds list structure util tree list model wrong opened
+131505	aspects aspect projects ajdt xml option outxml manager list names generated aop files built
+310704	type returntype return type return getcorrespondingtype type getfullyqualifiedtype fully qualified type program element string code bug programelement program element
+78261	test type advice error method aspect annotation matching field pattern type compile time error barf early opposed compiling treating match rated minor error message issue
+151991	Missing copyright license in recently added modules BuildModule BuildModuleTest NativeMethodAccessorImpl testNoDuplicates DelegatingMethodAccessorImpl invoke build doTask execute Build Module
+318899	NPE with  args matching Argument by Type NullPointerException ShadowMatchImpl RuntimeTestEvaluator matchesJoinPoint matches visit Impl Shadow Match Instanceof accept Join
+40380	eclipse jdk aspect java project aspectj aspect test properties project apis spec honour libraries defined
+251326	case pkgb pkg test causeing illegalaccesserror illegal access error package class pkg method illegal anonymous classes declare cce error access
+349636	AspectJ reports  abort trouble  while instrumenting a class on startup NullPointerException appendConversion appendConvertableArrayLoad createConvertableArrayLoad implement BcelShadow append Utility makeClosureClassAndReturnConstructor BcelVar BcelAdvice Bcel
+288198	version langutils lang utils java detection gecko jvm intel utils build identifier lang handle
+164288	build option code jdeveloper return class interface java project compiler longer compile jdk projects apsectj eveloper
+341446	java lang UnsupportedClassVersionError when running Java defineClass1 ClassLoader BaseClassLoader defineClass access 200 Loader define AccessController run Class1
+161217	NPE in BcelAdvice NullPointerException BcelAdvice implement BcelClassWeaver implementOn implementMungers Bcel Shadow Advice Weaver weave Mungers
+117189	performance objects avoids overhead reflectionworld reflection adaptor loader resolution reflection weaving contribution reduce head aspects define
+229829	SourceTypeBinding sourceStart  NPE NullPointerException sourceStart SourceTypeBinding MethodBinding EclipseSourceType fillDeclaredMembers Binding Source Type Start source Method
+419279	message xlintfile xlint level change match advicedidnotmatch advice match ajc pluginmanagement plugin management script option
+362956	neo j NPE NullPointerException matches ExactAnnotationTypePattern AnyWithAnnotationTypePattern couldEverMatch Pattern AndAnnotationTypePattern TypePattern getMatchingSubset SignaturePattern Type BcelClassWeaver
+259528	test build type file aspect advice files incremental incremental build declared full builds structural change full build incremental build compiler drops full build
+56779	set declare test create declared rel panel type ajdoc add ajdoc support inter type declarations declare forms ajdoc exposes Advises Advised relationships structure model support inter type field member declarations Javadoc presents inherited members support declare forms error warning soft parents precedence
+373195	weaving compilationandweavingcontext compilation weaving context context context memory contextmap context map map class loader issue leak compilation leading permgen perm gen perm gen oome
+77269	exception aspect view exceptions handleexception handle exception classes bug test advice pointcuts outline gutter
+92630	Null Pointer Exception thrown by ajc compiler NullPointerException deleteRealFile UnwovenClassFile AjBuildManager deleteClassFile File noteResult AjCompilerAdapter AjState performCompilation afterProcessing batchBuild
+72150	test type advice error annotation aspect pointcut method AJC bug nested classes AJC fails find nested classes binary weaving analysis classes compiled javac compiler options source target Note nested classes subject bytecode weaving AJC fails detect JARS analysis issue disappears java sources pre compiled source target javac compiler distribution issue distinct form Bug source code processing required AJC Hristo
+117209	Runtime error   Stack size too large  Bug   related MyClass ch16 main
+30168	Error with certain combination of advice NullPointerException ajc afterReturning test Log 30d Returning main Test3
+109016	NullPointerException when building configuration NullPointerException configureBuildOptions CompilerAdapter genBuildConfig AspectJBuildManager CompilerThread Build Compiler compile Options configure Adapter
+327134	ivolist pointcut list target void object type ajwarning build updatelist update list suppress raw types warning point cut
+136665	Bug  ajc fails on missing classpath entries with fix ZipException BCException resolve hodDeclaration UnitDeclaration World tion Declaration hod Unit
+72154	test dump message aspect set ajc parse cuts Support simple dump file compiler terminates abnormally exception behaves unexpectedly warning error abort simple dump compiler produced aid problem diagnosis content conditions dump produced configurable user facility enabled exceptions inclusion negligible impact compiler performance footprint file attached bug reports complete objective description user’s environment support problem resolution testcase approach write uniquely file time current directory “ajcore txt” human readable zipped large user diagnose problems remove sensitive data submission basic AspectJ version system properties command failure full exception stack trace compiler messages internal compiler
+72157	sce exception exception statement class constructor call monday program development declare soft programs invalid behaviour generated
+90588	barry class constructor default barry verifyerror verifyerror verify error case list compiler verify error npe
+209372	Compile error  IllegalArgumentException thrown  negative line IllegalArgumentException SourceLocation validLine EclipseSourceContext makeSourceLocation init Source valid Location Context Eclipse Worker
+113118	ClassFormatException with tracing aspect ClassFormatException typeOfSignature createMethodGen BcelShadow Utility extractMethod weaveAroundInline getTypeInternal Type type Signature makeBcelType
+121312	reflection ltwworld performance types weaving ireflectionworld ireflection interface classloaderweavingadaptor class loader weaving adaptor sets methods contribution refactoring support ltw delegates bootstrap
+293351	RuntimeException weaving roo app with advice based on execution pointcut RuntimeException ResolvedType getAnnotations AbstractAnnotationAJ ensureAtTargetInitialized retrieveAnnotationOnAnnotation specifiesTarget Annotations Type Resolved Annotation Target
+49638	exception logging  after  throwing advice can t convert Throwable obj to string and ajc aborts TextException TestException BCException appendConversion appendLoadAndConvert getAdviceArgSetup BcelAdvice append Utility getAdviceInstructions implement weaveAfterReturning BcelShadow Conversion
+122347	tests types weaver map heap references memory map bytes type contribution memory efficient expendable
+132591	Duplicate exception with aop xml file on aspectpath ZipException ZipOutputStream putNextEntry JarOutputStream AjBuildManager writeOutxmlFile AspectJBuildManager CompilerThread batchBuild CompilerAdapter Output Stream
+148972	test type declare annotation methods binary pointcut weaving problems binary weaving declare parents mixed environment reported large system intricate weaving classes Binary weaving declare parents refuses modification hierarchy sees clash methods cases fixing signatures types differ problem consistent syntheticness methods relationship isn determined correctly
+124399	AJDT AspectJ Internal Compiler Error BCException getLazyMethodGen LazyClassGen implement Lazy Gen BcelAdvice BcelClassWeaver weaveAroundInline BcelShadow Shadow Bcel
+407017	call server core imessage aspectj noise imessagehandler imessage handler ajdt builder trace stack printed mute
+32239	Dumps assembly code if Object  used in args  BcelRenderer java ClassCastException BcelRenderer renderTest BcelAdvice getTestInstructions Bcel weaveAroundInline implement visit recur BcelShadow Shadow
+285172	controller attempt referencetype reference type pointcut type type cache reference weaver match load time weaving objects
+322039	aspect work aspect class aspectj aspect thisclass class project doesn identifier fully qualified incorrect handle
+109042	ajc test eclipse msg parameter aspect folder org technology resource aroundclosure closure read
+129525	test dump aspect jar message declare ajc aspects Don Dump Bytecodes Syserr LTW load time weaving system produce massive quantities output weaving error system dumps bytecode syserr produce ajcore file point log
+71159	method methods subclass aspect behaviour points pointcut calls subpackages package point cut call methodpattern method pattern method pattern matches visible parent class
+49657	Weaver results in rt error if affected base class not exposed AbstractMethodError ExceptionInInitializerError NoAspectBoundException init Derived main
+104957	org java instruction bcel aspectj gen trace target bcel map nullpointerexception null pointer exception null pointer exception running ajc gij
+74238	Applet which uses cflow pointcut gets AccessControlException ExceptionInInitializerError AccessControlException SecurityException getSystemPropertyWithNoSecurityException AppletPanel run checkPermission SecurityManager Thread Panel Applet getProperty CFlowStack System check
+136707	set test declare advised create aspect tracing include iajc print summary javac iajc ant task produce summary javac task javac Compiling source files project classes
+29186	ajc  emacssym chokes on pointcut that includes an intertype method NullPointerException findOrCreateBodyNode AsmAdaptor noteMunger getNode Node implement BcelClassWeaver implementMungers Shadow find Create
+122370	AspectJ   DeclareParents declare parents not equivalent MoodTester testAnnotation NativeMethodAccessorImpl DelegatingMethodAccessorImpl invoke test Annotation Tester main Mood invoke0
+115204	WildAnnotationTypePattern java   NPE after renaming method annotation class NullPointerException NoAspectBoundException WildAnnotationTypePattern SignaturePattern matches matchesAnnotations matchInternal Pattern matchesExactly WithincodePointcut Pointcut Wild Annotation
+59909	stack cflowstack cflow stack threads memory threads table checks scheme cflow cycle removesthreads removes threads removes late
+186884	Unhandled Kind of New Exception when have advice for Pointcut call Throwable new ServletException RuntimeException NoClassDefFoundError IOException ClassNotFoundException deleteNewAndDup BcelShadow prepareForMungers BcelWeaver BcelClassWeaver implement weave weaveWithoutDump Shadow Bcel delete
+39436	test declare advised thread iterator age aspect status Tasks summary status build tasks view summary number tasks errors warnings infos status missing reworked view
+220686	map java expendablemap expendable map aspectj threads access structure util weaver hashmap unsynchronized weakhashmap weak hash map weak hash
+155148	jdk  trace deadlock in oc j SearchPolicy SearchSequence loadClass loadClassInternal run getClass WorkWrapper Search WorkConsumer ClassLoader load
+108050	servlet request code execution mock post httpservlet http servlet mockservlet mock servlet method ajdt execution matching override doubly derived
+42515	NPE When compiling intertype declaration NullPointerException Compiler compile AjdtCommand Command doCommand runCommand Ajdt
+269840	type model test file element set structure declare model search fails binary aspect source type type advised aspect aspectpath model search logic breaks finding hits node stops
+102933	class jdk foo project test aspect clone compatibility type object problem arrays
+376351	attribute problems with Java   compilation RuntimeException ensureAspectJAttributesUnpacked BcelObjectType Type Bcel Object ensure Unpacked JAttributes Aspect
+120351	cflowbelow issue when binding  in  AJ RuntimeException NoSuchAlgorithmException IOException implement Shadow Main startAnt runBuild perform run runMain execute Task Build
+116255	XML Linkage Error with LTW FactoryFinder newInstance tldScanTld TldConfig StandardHost addChild find Instance getParser Digester HostConfig
+116254	environment type loader class class system time user api ajtypesystem type system type interface ltw
+108062	NPE when opening resources from CVS resources history NullPointerException JavaEditorErrorTickUpdater MylarJavaElementDescriptor Image MylarCompilationUnitEditor drawCompositeImage updatedTitleImage CompositeImageDescriptor createImage MylarImages getImageData ImageDescriptor
+115235	StackOverflowError on circular pointcut iff aspect parameterized StringBuffer UnresolvedType EclipseFactory getSuperclass append EclipseSourceType Type ResolvedType getDirectSupertypes ReferenceType String
+39458	Compiler crash in ajc NullPointerException initializeConstructorAccessor AjdtCommand Command doCommand runCommand Constructor initialize Accessor init Ajdt
+324135	ArrayIndexOutOfBoundsException at AjState java ArrayIndexOutOfBoundsException AjState AjBuildManager recordClassFile hasStructuralChanges noteResult acceptResult Structural Result record File run
+415266	aspect management jmx jvm dcom aspects trgr instrumentation jars jmxremote ltw working enabled
+148007	servlet test advice return test log logpointcut log pointcut writer ioexception response boolean methods incorrect result jrockit ock wls
+120356	view set warn source file generate input action decl err warn cross structure view issue ASM struct DEOW cross struct empty AJDT error warning gutter message
+121385	around advice does not work when LTW NullPointerException AbortException getAdviceArgSetup BcelAdvice implement BcelClassWeaver weave weaveAroundClosure Bcel Shadow implementMungers implementOn Advice
+120363	test aspect type method weaving jar declare error LTW weaver include exclude behave correctly specification http eclipse org aspectj doc adk notebook ltw configuration html set types woven types matched weaver include element matched weaver exclude element includ elemement fast matched foo exclude elements bug explicit test harness feature
+44586	After throwing advice on ctors doesn t execute for inter type decls IllegalStateException initVal init Foo AfterThrowingCtor main Val Ctor Throwing
+44587	Erroneous exception conversion RuntimeException NoClassDefFoundError ExceptionInInitializerError main Main
+42539	exception method test bug code ajc exceptionbugtest exception bug test aspect throw derivative pointcuts point cuts advised
+138798	BCException on invalid annotation match RuntimeException normalException IOException BCException NormalException BcelRenderer renderTest BcelAdvice getTestInstructions getAdviceInstructions Bcel visit recur BcelShadow weaveBefore accept
+274986	DocumentParser incorrectly caches DTD InputStream inflateBytes Bytes inflate Inflater
+269867	Non synchronized access to WeakHashMap causes infinite loop WeakHashMap ReflectionBasedReferenceTypeDelegateFactory Java15ReflectionBasedReferenceTypeDelegate AjTypeSystem get Type getAjType createDelegate Delegate Hash Weak
+122417	website preinitialization typo point org doc string version note lang waiting web site refresh aspectj joinpoint join point join constant symbolic
+121395	invalid aspectj path throws filenotfoundexception FileNotFoundException FileInputStream addAspectsFromJarFile addLibraryJarFile AjBuildManager AspectJBuildManager CompilerThread BcelWeaver initBcelWorld File init incrementalBuild
+120375	jvm hot cross transformations ltw java file hotswapped hot swapped implementation number support load time weaving hotswap hot swap swap
+143930	ipes string arguments ipe methods source enhancement locations bug int create constructor method
+119353	Inconsistent Implementations of ReferenceType getDeclaredMethods ReflectionBasedReferenceTypeDelegateTest testCompareSubclassDelegates failNotEquals Assert assertEquals fail Equals Test TestResult TestCase runTest
+119352	supertype type superclass test getsupertype supertype ajtype type super serializablesuper serializable super objectsuper object super breaks null
+118337	class code loader type weaver aspectj aspect aspect usingclassloader class loader class reflection classloader class loader factory
+349764	type test set aspect declare dec overweaving handler Repeated output ASPECTJ aspectj overweaving overweaving switched Build Identifier message repeated time loader load weaving configuration Dorg aspectj tracing factory system property display check lazily initialized cached Reproducible Steps Reproduce Dorg aspectj tracing factory Daspectj overweaving properties place JAR aop xml aspects weaving options loaded visible loaders runt application check STDOUT output
+109124	list node class test aspect field void system verifyerror verify error java verify error classes
+91719	type car aspect examples andrew super bugzilla work covbaseprogram cov base program work oli pull generating lint messages
+269902	NPE in AsmRelationshipProvider addRelationship NullPointerException AsmRelationshipProvider addRelationship Relationship BcelTypeMunger BcelClassWeaver add Provider Asm Bcel BcelWeaver weave
+88652	match touple object type java array warning signature aspect type parameter varargs declared method
+42573	file classpath config directory arg lst aspectpath boot bootclasspath build entries resolved relative list extdirs ext dirs
+36430	jar option transactions aspectpath app transaction command aspects workaround ramnivas support xreweavable
+155213	time pain underpinning dateformatters formatters info weaver loadtime version string initializer ltw static
+49743	string tostring string signature string method classes impl library method methodsignatureimpl method signature impl performance improvements runtime
+120401	add signature to UnresolvedType parameterize  exception UnsupportedOperationException parameterizeWith TypePatternList ExactTypePattern Type UnresolvedType DeclareParents ResolvedType addOrReplaceAspect collectCrosscuttingMembers CrosscuttingMembersSet ReferenceType
+116305	Unexpected error  can t determine implemented interfaces of missing type AbortException MessageUtil error match ShadowMunger Message Util BcelAdvice Pointcut Advice Munger Shadow
+279120	NPE determining annotation target kind during weaving NullPointerException Pointcut resolve LazyClassGen BcelMethod BcelWeaver init preProcess weave defineClass1 ClassLoader Bcel
+108117	aspect type annotation build declare test change loader Complete implementation aspects requires completion parameterizeWith implementation pointcut AST nodes exhaustive test suite
+293457	NPE on multiple declare  methods NullPointerException AsmHierarchyBuilder oBuildJob MethodDeclaration TypeDeclaration visit traverse Builder Hierarchy Asm Declaration run
+40534	error dosomething aspect void detail code projects class don enforcement declare warning output required
+287315	NPE using declare  type NullPointerException BcelObjectType Type ExactAnnotationTypePattern hasAnnotation matches AnyWithAnnotationTypePattern ReferenceType Annotation applyDeclareAtType DeclareAnnotation TypePattern
+108118	pointcut operations lint suppress ajwarnings suppressajwarnings suppress ajwarnings suppressajwarnings suppress warnings implementation warnings wrapping complete
+76374	class aspect class myclass class package myinnerclass class declaration runnableaspect runnable aspect java runnable problem declare parents public classes
+50776	class method aspect void aspectj aspect compiler introduction exception pst jul fail compiling overriding int roduction throws clause
+108120	bcelworld bcel runtime javalangreflectobjecttype java lang reflect object type lang object place weaver parsing approach pointcut complete implemenation impl emenation point cut matching
+104024	test type advice parse error annotation pointcut aspect combining varargs classes crashes parser Bug varargs Object varargs test varargs works varargs crashes
+324190	NullPointerException in AjBuildManager findOutputDirsForAspects when compiling AspectJ project generated with Maven NullPointerException findOutputDirsForAspects AjBuildManager writeOutxmlFile performBuild batchBuild Build Dirs find Output Aspects run
+122458	java lang StringIndexOutOfBoundsException when compiling  build no StringIndexOutOfBoundsException substring String createTypeFromSignature UnresolvedType makeResolvedMember EclipseFactory AsmHierarchyBuilder genBytecodeInfo TypeFactory makeArray fromBinding
+269912	build message config command set context compiler structure wasted time building message context command builds context message created AspectJ AJDT context printing messages System AJDT
+70241	test view handle declare method create file node outline view anonymous classes jdt outline screenshots
+311910	AspectJ internal Compiler Error NullPointerException AsmRelationshipProvider createSourceLocation createHierarchyForBinaryAspect addPointcuts create Source Location Provider Relationship Asm add
+244321	aspect eclipse macro code encoding aspectj aspect ajc jar version foo aspect written sjpp based encoding
+152161	sets xset time debugger configuration runminimalmemory minimal memory test memory support set contribution load weaving
+203367	bug void interface generic system class doit string class src generic type match calls methods
+155238	system hashcode hash code code identityhashcode identity hash code obj hash change code application loader trace identity hash
+135780	java java point string impl test lang thisjoinpoint join point runtime dependency aspectjrt jar bug
+83563	pertypewithin  handing of inner classes NoSuchMethodError bar Test main
+128618	ffdc class advice aspect aspectj aspect file project warning change compilation incremental xlint int warnings wrong place
+83565	BCException  bad type name  thrown when compiling BCException TypeX EclipseFactory nameToSignature AsmHierarchyBuilder makeResolvedMember fromBinding fromBindings TypeDeclaration ConstructorDeclaration CompilationUnitDeclaration forName
+60015	interface tree pointcut npe code import dozens datastorereader datastore reader time datastore incorrect xlint int unmatchedsupertypeincall unmatched super type call unmatched super type call warning
+112243	Compiler Core Dump with Apparent Fix ClassCastException Main run runMain main
+389750	interface persistable default string string aspect package type error aspect inconsistent classfile class file encountered undefined type parameter xxx referenced yyy
+109173	class osgi aop loader implementation configuration xml files weaver weaving adaptor enhancements performance diagnosis
+73334	test type weaving declared register aspect point method Avoid clashes org eclipse namespace renaming duplicates renamed copy BCEL prefix version clashes version users system enhancement copy org eclipse jdt code shadows project packaging shadows project create jdtcore jar files bin src rename packages org eclipse jdt org aspectj org eclipse jdt nice side version compiler accessible IDE AJDT work closely features eager parsing work Care don accidentally merge process nightmare
+305788	Exception was thrown when I saved a file in Eclipse ConcurrentModificationException HashMap HashIterator KeyIterator removeStructureModelForFiles updateHandleMap AspectJElementHierarchy nextEntry Map AsmManager processDelta Hash
+203384	type declaration dom itmd org method tree type java field ast exposed itfd
+141945	test pointcut anno aspect type dynamic error field Compiler issues message aop xml LTW mailing list executing command COMMAND ajc inpath woven jar aspectpath aspect jar outjar woven jar error woven jar error aspect aspect woven declared aop xml file source aspect aspect CLASSPATH system variable shouldn putting messages aop xml LTW message points user solution work
+389752	type bug jpa string type persistable interface string storetype store type properties declare parents matching annotation enum types
+350855	urlclass insight weaving loader subclassing classloader aspect spring weavingurlclassloader weaving urlclass loader weave overweaving weaving misbehaving classing
+387718	RuntimeException when trying to compile broken code RuntimeException interMethod NameMangler makeVisibilityName AjcMemberMaker AjProblemReporter methodMustOverride Visibility Mangler inter Method Maker
+354947	url exception documentparser document parser string definition file inputstream input stream parsedfiles parsed files files cache nullpointer parsing definition aop xml document parser
+141956	Null Pointer Exception when trying to skip Parent Mungers NullPointerException ResolvedType addAndRecurse JoinPointSignatureIterator lookupResolvedMember findSignaturesFromSupertypes getMethodsWithoutIterator SignaturePattern matchInternal Resolved Recurse add
+103051	softenadvice soften advice ioexception execution aspect advice test soft explicit error ioexcept declare adviceexecution
+47754	illegal method modifier URLClassLoader defineClass defineClass0 ClassLoader access 100 AccessController Loader Launcher AppClassLoader loadClass
+260751	java lang StringIndexOutOfBoundsException StringIndexOutOfBoundsException substring String ConfigParser stripWhitespaceAndComments parseConfigFileHelper parseImportedConfigFile parseOneArg parse Config File Comments
+151182	NPE in BcelWeaver using LTW NullPointerException weaveParentTypeMungers BcelWeaver ClassPreProcessorAgentAdapter weave WeavingAdaptor getWovenBytes preProcess weaveParentsFor transform TransformerManager weaveClass
+171667	When ordering a Clean with Build Automatico I receive the error below NullPointerException AjProblemReporter methodMustOverride AspectJBuildManager CompilerThread AbstractMethodDeclaration MethodDeclaration resolveStatements method Override Reporter Problem
+49814	ConfigParser java NullPointerException ConfigParser addFileOrPattern addFiles genBuildConfig AjdtCommand parseOneArg parseArgs parseCommandLine Command parse add
+263837	test entry bad cache command xlint incremental error Error Delete Markers Error AJDT mailing list LTW weaving error raising AJDT
+119451	main aspect work tree generating ajdocpackageaspect ajdoc package aspect building file files workspace ajdoc ajd produces incorrect warning package accessed aspects
+114332	method method billing type telecom rate callrate call rate getname charge reflection api detecting correctly circumstances
+123553	aspect par type pointcut aspect par advice bindingtypepattern binding type pattern checkpoint named point cut decl dec generic
+264869	file source getpath path class path file type path getdeclaringtype declaring type source aspectj aspect spec depends class files dot attribute aspect
+79523	BCException  illegal change to pointcut declaration  calls nothing BCException ReferencePointcut addAdviceLikeDeclares concretize CrosscuttingMembers Pointcut addShadowMunger AjLookupEnvironment CrosscuttingMembersSet concretize1 completeTypeBindings addDeclare
+130722	test pointcut pointcut test class source aspect model package instantiation poincut references percflow cflow ins tantiation aspects resolved
+92837	aspect build test annotation change cancel output element compilation Incremental Compilation Fails Aspects project save aspect calls inter type declaration defined incremental compiler message method logError String Exception undefined type Foo Foo java Running full build clears error compiler bug AJDT command incremental compilation don simple test cases extracts aspects reproducing issue spend time create small isolated version issue
+32421	transaction java monitor getcount count string test count executionmonitor execution monitor monitoreditem monitored item type resolve nested public interfaces
+129704	BCException BCException initializeKindedAnnotationVars BcelShadow findResidueInternal getKindedAnnotationVar Annotation findResidue Kinded AnnotationPointcut Pointcut Shadow Bcel
+83626	Andy patch format bugzilla work funny license issue drafted
+261808	test dir message file jar build copy list iajc Ant Task fails type defined Created attachment Eclipse project export demonstrates error attachment find simple Eclipse Project reproduces error project structure consists packages anttest anttest test included build exclude dirset work configuration iajc fails defined error type aspect comment included simple workaround problem iajc task workaround job reuse source path definition
+219830	java lang NullPointerException in Java AnnotationFinder when using SWT NullPointerException ReflectionBasedResolvedMemberImpl Java15AnnotationFinder getAnnotations ExactAnnotationTypePattern unpackAnnotations Annotations matchInternal match hasAnnotation ShadowMunger Java15Annotation
+54965	note time getfilestocompile files compile ajstate file fact outjar files support incremental compilation work
+101047	string foo test method table signature java system println mystring string weaver produces wrong local variable bytecode
+128699	declare test code annotation type spec flow annotated Incorrect error declare statements error declare construct incorrect current message expected error warning parents soft dominates dominates changed precendence annotation declararions mentioned suggestion expected error warning parents soft precedence type method constructor field
+145086	NPE when weak reference set in signature NullPointerException SignatureImpl CacheImpl Impl Signature set toString Cache String
+43709	structure view crash when extending library aspects NullPointerException doUpdateItem TreeViewer sendEvent BusyIndicator TypedListener wmNotifyChild handleEvent EventTable run Tree Event
+31423	adviceexecution test beta aspect execution string system program problem thisjoinpoint join point pointcut work
+52928	aspect sample interface tag void class members system method string private introduced visible
+224962	ajctask ajc task string task inputs java milestone ajc target work ant doesn
+33474	source weaver file getsourcelocation source location order shadow location eclipse error change bad locations declare warning
+413378	A constructor added by ITD cannot invoke the method of its super class Child init MainProgram Program main Main
+59076	jvm instantiation project cross strings objects join lead heap reduce footprint foo tprint joinpoint join point point staticpart static static
+120521	pointcut aspect pertarget void doit error package bug bugs pointcuts named point cut resolved target
+39626	Compiler error when compiling a buggy class NullPointerException init String AjCompiler traverse Block Compiler process compile
+158412	Pointcut in declare error results in NPE NullPointerException concretize concretize1 Pointcut addShadowMunger ReferencePointcut NotPointcut AndPointcut CrosscuttingMembers addDeclare Checker add
+32463	class test error order compiler file ajc compiler handleorder handle order bug reports encountering static declaration nested classes
+71377	method privatemethod private method test join joinpointinaroundadvice join point advice system publicmethod public method pointcut publiccalls public calls void advise private method call advice
+155347	NPE during compilation of class file with pointcuts ArrayIndexOutOfBoundsException findResidueInternal findResidue Pointcut IfPointcut AndPointcut Residue find Internal
+91858	NullPointerException when declare  type is spelt with capital letter NullPointerException
+36564	java code compiler exceptions org error thisjoinpoint join point compiler exception obj internal
+270033	build file type set binary output record files incremental Incremental compilation aspects incoming classpath aspectpath time address encountered bug annoying improvements incremental annoying hands air full build hit aspect defined classpath aspectpath project inpath benefits great
+122580	Fix   Bug  Circularity Failure for Verbose Loading on JRockit         Agent PrivilegedException IllegalArgumentException
+317139	NullPointerException during weaving NullPointerException ensureGenericSignatureUnpacked BcelObjectType getSuperclass handleAspectAnnotation ReferenceType readAj5ClassAttributes AtAjAttributes Type ensure Unpacked Signature
+125657	NullPointerException from BcelShadow java NullPointerException ensureTargetTypeIsCorrect BcelShadow findResidueInternal initializeTargetVar Target findResidue getTargetVar Pointcut ThisOrTargetPointcut BcelAdvice AndPointcut
+73433	jdt classpath aspect jar lib aspectj aspect processing point inpath spec correctly support
+211674	level style level error log annotatedmethods annotated methods signature ashley annotation catch ataspectj throwing sensitive parameter positions pos itions
+51929	method sun error aspect advice error case ajc tests class advice calling protected super causing java lang verifyerror verify error verify bad access data
+161502	aspect java list org lang exception compiler aspectj class parameterize unsupportedoperationexception unsupported operation exception unsupported operation thrown unable param eterize unresolved type pjava util ljava object
+123612	ArrayIndexOutOfBoundsException with incremental and declare  type ArrayIndexOutOfBoundsException AjLookupEnvironment weaveInterTypeDeclarations doDeclareAnnotations AjBuildManager completeTypeBindings weaveIntertypes performCompilation incrementalBuild Compiler doBuild Build
+53981	proceed used as method name in around advice NullPointerException MakeDeclsPublicVisitor endVisit Visit Decls Visitor
+154332	marker deprecated marker bodkin retention program lang foo pointcut baz annotations incorrect handling java matching
+120543	message aspectj aspect instance version aspect weaver load weaving versions time issue weaving
+109283	enumset enum set foo aspectj aspect projects access aspect enum java doesn string invalid indirect static warning set noneof
+354022	code buildsettings build settings inlining call trips loop practice aspectj aspect constructors track constructor fail groovy built
+31460	class loader mailing list thinking aspects loading time weaving urlclassloader urlclass loader weaving
+30439	error void foo dependency number errors printing compiler aspect beta spurious circular
+128744	eclipse jre work command aspectj ltw eclipse daj doesn aop
+92906	info method showweaveinfo weave info field weave option message type constructor declare annotations
+124654	annotation aspect annotation error type somemethod method call retention java generic capture method generic compile
+53999	test type advice error pointcut aspect method annotation bind type message type declare soft cosmetic mistake error message expected bind type unknown Error actual bind type unknown Error munged Test main String args test test Error aspect declare soft unknown Error call test
+266996	AspectJElementHierarchy java   NullPointerException NullPointerException findCloserMatchForLineNumber AspectJElementHierarchy AsmRelationshipProvider BcelTypeMunger addRelationship BcelClassWeaver weave Relationship munge JElement Aspect
+160496	declare test enclosing aspect build annotated record format ajdoc Main refactoring ease ajdoc bugs confusing read main ajdoc method didn include refactoring patches bugs mearly ease raising enhancement cover
+103157	advice println system object object foo time type return instance returning bind null
+42740	declare error fails on pointcuts composed from multiple classes SampleException RuntimeException dumpStack AjdtCommand Thread Command doCommand Stack dump runCommand concretize Ajdt Pointcut
+148219	getresourcestring resource string warning string eclipse resource messages plugin aspectj common code wrong reported
+95992	test error base class ajc type interface innertest test java constraint problems resolving generic
+288505	file dir path entry type member close environment failure close inputstream
+150271	showweaveinfo weave info info configuration dorg info ltw classes level weave loaders multiple levels
+86789	precedence developers dev notebook premium mhonarc form http html partner annotations circularity declare
+382723	An package level abstract generic privileged aspect  which extends an abstract generic aspect  gives a IlligalStateException on a method call in around advice IllegalStateException IlligalStateException AjPipeliningCompilerAdapter ResolvedTypeMunger addOrReplaceAspect PrivilegedAccessMunger init addPrivilegedAccesses ensureWeaverInitialized collectCrosscuttingMembers weaveQueuedEntries CrosscuttingMembersSet prepareForWeave
+279298	class test aspect cobertura ant error problem target javac debug aspectj aspect spec ltw
+43783	AJDT not very stable when confronted with java aspect errors NullPointerException RunnableLock Runnable run Lock
+222987	More NPEs in Java AnnotationFinder NullPointerException Java15ReflectionBasedReferenceTypeDelegate Java15AnnotationFinder getParameterNamesFromLVT getDeclaredPointcuts tryToDiscoverParameterNames getParameterNames ResolvedType Iterators Names Parameter ReferenceType
+91912	type test model declare structure file annotation source Request type relationship structure model Declare soft relationships advises advised relationships add softens softened softens exception exception softened relationships structure model
+282379	plan  spaces in file names causes AspectJ weaver to fail AbortException WeavingAdaptor WeavingAdaptorMessageHolder handleMessage addAspectLibrary registerAspectLibraries MessageUtil Message error Adaptor Weaving Aspect
+121616	AspectJ Lacking import for JoinPoint crahes the compiler NullPointerException convertToPointcutDeclaration aration traverse AjdtCommand Command sitor doCommand runCommand convert Pointcut Declaration
+62227	message abortexception abort exception messages matthew testcase exception message user boolean blow load time weaving aborts kind warning declare xlint
+130837	Exception while trying to edit Annotation based Aspect Class  normal Java class NullPointerException ValidateAtAspectJAnnotationsVisitor buildFormalAdviceBindingsFrom resolveAndSetPointcut validateAdvice CompilationUnitDeclaration traverse MethodDeclaration TypeDeclaration AjCompilerAdapter Advice Declaration
+53012	aspect error declareprecedence declare precedence println targetclass target class class precedence system mistake declare precedence class compile time
+104212	method test println signature method aspect string getmethod method typename type static call subclass signature wrong
+314130	aspect test project change test method hot eclipse org file plan ltw hcr ltw reweaving code replace reflected lected saves files
+88862	test annotation annotated exec binding annotations type dec Declare annotation ITDs bug capture info implementation
+107299	inpath ajc jar test paths error drive aspectpath windows test arguments fail letter ter
+298786	test anno decp method aop array intertype problem suspected problem handling multiple aop xml files
+47910	file build jar test outjar dir path output ajc outjar jarfile MANIFEST call ajc sourceroots mydir outjar jar output file created jar extension valid jar file MANIFEST file text ajc outjar file output classes zip file file imply supposed zip file parameter called outjar creates zip file doesn sense outjar file valid jar file META INF MANIFEST file
+65319	test void target program class args crashes binding ajc string compiling
+152366	test jar type aspect declare pattern data aspects LTW Patterns Accept Consistency load time weaving definition system accepts addition amp amp pointcuts silently accepts fails work type patterns type patterns creating exceptions excluding weblogic amp amp weblogic jdbc helpful attached patch support tests working
+149293	declare annotation problem  AIOOBE at ProblemReporter java ArrayIndexOutOfBoundsException ProblemReporter invalidType EclipseSourceType Type resolveType reportInvalidType TypeReference resolveAnnotations isAnnotationStyleAspect getAnnotationTypes Annotation
+86832	Internal compiler error  generics NullPointerException connectTypeHierarchy detectHierarchyCycle ClassScope ParameterizedSingleTypeReference Type CompilationUnitScope findSupertype internalResolveType AjLookupEnvironment connectSuperclass completeTypeBindings
+75568	ajc class ant demo compilation folder attempt adapter compiler timestamp classfile file timestamps times tamps fails regression
+99125	Repetitive method name signature in class file URLClassLoader defineClass defineClass1 ClassLoader access 100 AccessController Loader Launcher AppClassLoader loadClass
+348979	type test set pointcut aspect signature field binding type map fixed expendable problems Discovered working Steve Ash build projects consuming Gigs heap recover memory Steve activated type demotion didn Steve projects aspectpath aspectpath scanning discover aspects inadvertently making types discovered aspectpath permanent types expendable demoted evicted types permanent aspect demoted turns Roo petclinic spel dependency aspectpath parsed simple expression exaggerate problem leaving types fixed area typemap correctly scanning aspectpath demoting aspects reduced
+132926	Compiler crashes processing annotations NullPointerException ensureAtTargetInitialized AnnotationX BcelWeaver specifiesTarget weaveParentTypeMungers applyDeclareAtType AjCompilerAdapter weave verifyTargetIsOK Target weaveParentsFor
+59196	aspect advice int args call pick aroundclosure closure adviceexecution closure parameter pcd execution match
+38717	lst error file sourceline bug message source check ajde sourcelocation source location parsing errors include source
+114495	pointcut type error aspect pointcut bugs parameterizedtypeinpointcut parameterized type pointcut package advice interfaces unqualified superaspect super point cut sortafunny sort afunny subaspect
+99136	set suppression kind lint incrementing issued object messages xlint advice applied appears cflows code aspect call cflow execution advice appied xlint messages produced advice cflow advice
+82755	set test declare create panel ajdoc mode java ajdoc update ajdoc support Java language features Java langauge features enums annotations supported ajdoc
+340806	Race condition in JavaLangTypeToResolvedTypeConverter  potentially exposed through Spring AOP NullPointerException resolve World JavaLangTypeToResolvedTypeConverter createParameterizedType TypeFactory Type fromType Factory Parameterized create Java
+40771	org swing ajde editormanager editor manager manager editor apis ajde aspectj unnecessariy coupled couple
+88900	aspect warning impl weaver runnable type runnabledefaultimpl runnable default impl default void bug unnecessary itds
+102212	child intertype modifier interface interface method void declaration problem parent itds abstract synchronized compile error expected
+193348	NPE on attempt to compile raiseUnboundFormalError NullPointerException raiseUnboundFormalError BcelWeaver validateSingleBranch rewritePointcuts validateBindings prepareForWeave oBuildJob validate Formal raise Unbound
+152388	NPE in MessageUtil addExtraSourceLocations NullPointerException addExtraSourceLocations enforceDecpRule1 abstractMethodsImplemented WeavingAdaptor WeavingAdaptorMessageHandler Message handleMessage BcelTypeMunger MessageWriter MessageUtil render
+59208	Weaver fails in BCEL for large classes ClassFormatException readAttribute Attribute read init BcelWeaver FieldOrMethod ClassParser makeJavaClass AjdtCommand Field parse
+353100	loader hierarchy class warning build loader urlclass identifier definition urlclassloader urlclass loader demote demo ignoring duplicate debug
+389967	test aspect message weave cache methods set file Weaved aspects mechanism account modified classes current caching mechanism assumes encountered cached weaved version mechanism fully qualified identify account fact bytes changed user compiled deployed
+112458	set add list options file string skip message Property Editor properties layout items Master viewer Description Property Editor properties layout items Master viewer Steps reproduce report insert label Select label Property Editor label properties Master Expected result Property Editor changs reflect Master properties Actual result label properties confuse customers thought Master Editor set properties click Master viewer
+64331	java lang NullPointerException in WeaverMessageHandler class NullPointerException WeaverMessageHandler buildSeeAlsoProblems checkInterTypeMungers BcelWeaver handleMessage ResolvedTypeX weave AjCompilerAdapter weaveWithoutDump Message weaveAndNotify
+47952	flag initcause init initialization soft softexceptions soft exceptions delegation stack exception init class softexception soft exception printstacktrace print stack trace print trace wrapped throwable
+72528	around advice throws java lang VerifyError at runtime VerifyError main HelloWorld
+72531	method return methods files array returns println reality type warnings declare warning warns war wrong points
+69459	methods instance error instance introduction time java class language acccording hiding methods static
+108377	Verify Error on intertype field indirection in intertype method init main
+135001	NPE at at org aspectj weaver bcel BcelShadow weaveAroundInline NullPointerException weave implement weaveAroundInline BcelShadow BcelWeaver BcelClassWeaver BcelAdvice Shadow Bcel weaveWithoutDump implementMungers
+323417	Sometimes StackOverflow is got while weaving String indexOf getRawType Type createTypeFromSignature UnresolvedType TypeFactory ResolvedType forSignature ReferenceType isAssignableFrom
+112476	lib class bytecode java source code couldn unpack http super declare parents work weaving
+131932	list model bar method import relationship program util class return structure bug generic
+48990	pointcuts match case fastmatch fast match pattern pool oimplementations implemented provide false special require dynamic test
+55134	weaver source class file classes ajstate compilation output files incremental delete generated
+131933	grotty ClassCastException on referring to pointcut in generic type ClassCastException resolve finishResolveTypes resolveExactType TypePattern PointcutDesignator Declaration AbstractMethodDeclaration TypeDeclaration Type CompilationUnitDeclaration AspectDeclaration
+99168	generics itds  ITD on generic inner class crashes ajc RuntimeException makeSourceTypeBinding InterTypeScope Type InterTypeFieldDeclaration InterTypeDeclaration resolve Declaration TypeDeclaration Inter AspectDeclaration init
+103266	object void return context npe requestcontext request context worker workerexample worker ajcore aspect syntax error
+33635	test notifbugaspect bug aspect negation pointcut aspect ajc move println system execution negation point cut work
+113511	definitions aspectj performance oct loader bcel matthew java getmessagehandler message handler ltw enhancements
+113510	readAspect define goal readAspect reading NPE test current impl hashcode aspect classloader unstable startups
+122728	ajdoc crashes IndexOutOfBoundsException ArrayList RangeCheck StubFileGenerator processTypeDeclaration processMembers processFile get process Check Range doFiles
+37739	warning void withincode class aspect java test class unresolvablemember unresolvable member xlint unexpected unresolvable member code
+249710	compiling  Problem with  XterminateAfterCompilation NullPointerException ReferenceType AjBuildManager isAspect addAspectName Aspect acceptResult Reference Type add Manager Build
+388971	declared declare attribute test type method binary attributes Synthetic attributes advice members support members aspects Synthetic attributes compiled aspect library JVMs flag verify error simply check adding attribute isn
+158573	jdtlike advicedidnotmatch advice match aspect jdtlikehandleprovider jdtlike handle provider warning provider doesn advice default bug changing variable match
+117614	ajc crashes on common logging       jar BCException getModifiers match warnOnConfusingSig World KindedPointcut ShadowMunger Member Modifiers BcelClassWeaver Pointcut AndPointcut
+125809	declaration ajdt visitor failure subtype perclause clause dom aspect aspectdeclaration aspect declaration aspectj ajtypedeclaration type declaration type shouldn properties type spec
+120693	time lint configuration parts aspectj performance warnings suppressions sample clearsuppressions clear suppressions contribution efficient increase
+99191	field error interface aninterface interface nosuchfield field field interface nosuchclass class aspect fields declare allowed existent
+122742	AspectJ  VerifyError with  AfterThrowing AfterReturning and extra JoinPoint argument getDeclaredMethods0 Class privateGetDeclaredMethods XMLBasedAjcTestCase getMethod0 runTest testError AjcTestCase getMethod Declared NativeMethodAccessorImpl
+111481	myclass class constructors system program class bug argv doesn work println varargs
+40824	test type declare annotation binding create source structure asm treats declare parents methods declare parents member declarations report kind method
+308093	parents type itds rod class errors representation binarytypebinding binary type binding file mix incremental build problem mixing declare
+124803	generics  mixing and matching numbers of type variables parameters in a hierarchy IllegalStateException ResolvedMemberImpl parameterizedWith JoinPointSignatureIterator ResolvedType lookupResolvedMember addAndRecurse findSignaturesFromSupertypes getDeclaredMethods ReferenceType getMethodsWithoutIterator Resolved
+100227	generics itds  inner class with generic enclosing class NullPointerException EclipseFactory buildInterTypeAndPerClause fromBinding AjLookupEnvironment InterTypeFieldDeclaration completeTypeBindings AspectDeclaration Binding Eclipse Factory Type
+112514	ajc compile crash  not giving information which class file cause it UnhandledException ClassFormatException readConstantPool ConstantPool Constant ClassParser addClassFile readConstant UnwovenClassFile AjBuildManager init BcelWeaver read
+310144	java lang RuntimeException at AsmManager java RuntimeException removeSingleNode removeRelationshipsTargettingThisType AsmManager AjPipeliningCompilerAdapter weaveQueuedEntries BcelWeaver remove Node Single weave Manager
+94086	time test aspect pointcut execution seconds lines log exploding compile statements point cut
+124808	test ints gettingmembercollection member collection collection mprv foo generics aspect test integer detecting field parameterized type
+35725	aimpl bimpl intf class java package base interface aspect inter type declaration derived
+206732	aspectpath bugs type types task itds jar class josh itds problem appearing app earing applied lied clashing binary
+68494	test declare advised file output path aspect call ajdoc support files addition accepting java source files ajdoc accept files
+116626	Load time weaving   exception from the weaver NullPointerException preProcess URLClassLoader access 100 defineClass AccessController ClassLoader defineClass1 Process pre Launcher AppClassLoader Loader doPrivileged loadClass findClass run URLClass define Privileged Access Controller Class1 find App load
+92053	lang verifyerror verify error retention aspect args aspectj aspect class string jre error verify unable pop operand empty stack
+115607	type test model structure declare file annotation node Incorrect structure model simple declare type program program Simple aspect declare type Simple file called java open editor built incorrect gutter markers headed arrow Simple implying annotates outgoing declare statement incoming Simple type
+135068	ltw aspect style aspect sun error function stype ibm development verifyerror verify error verify aspects
+41888	type method aspectj aspect subsub call guide aspect case super signature pcd fails subtype defining
+359332	NPE in AjBuildManager java   after non Java AJ file was renamed FileNotFoundException FileInputStream AjBuildManager copyResourcesFromFile copyResourcesToDestination open init File performBuild Input Stream copy
+108448	type case illegal test projects beta hiding sourceforge warnings types illegalstateexception illegal exception exception undeclared variable
+158624	Compiler Error  generics and arrays UnsupportedOperationException ResolvedMemberImpl UnresolvedType parameterize ResolvedType parameterizedWith ReferenceType getDeclaredMethods Type Iterators hasNext Resolved
+120739	aspect aspects aspects classloader class loader class loader class case optimization loader ltw optimization disable
+39842	set compiler dir test message source build options environment variable set compiler arguments create special jsp compilation servlet Tomcat aspectj compiler plug compiler adapter don control ant code invoke compiler environment variable mechanism support pass aspectpath weave aspects compiled jsp servlet
+210848	object aspectj org point proceedingjoinpoint proceeding join point point proceeding join context javadoc proceed proc eed
+100260	method class methods field child integer bug type int types generics itds inherited generic parent
+148388	test file code begining weaving weaver result bug acceptresult accept result main ltw produces debug message
+120743	path test service classes caching impl generated map Improvements define server wizard panel server location button install server couple usability improvements choose browse choose location hit install server browser brought hitten browse selected location location chosen server server downlodable classpath validation errors message stating server installed selecting install server button
+145322	Failure of testCompareSubclassDelegates  on J        SR Assert ReflectionBasedReferenceTypeDelegateTest testCompareSubclassDelegates fail assertTrue NativeMethodAccessorImpl DelegatingMethodAccessorImpl invoke Test TestResult TestCase
+38824	interface interfacec interface declarations aspect class aspect base inter type pattern anomalous handling abstract base classes aspectj
+118698	test type advice error access annotation aspect method Allowing Access Nested Type AspectJ failing access field type nested aspect inconsistent Java access rules source follow patch tests integrates ajc test suite aspect prUnknown Marker Foo Marker Foo bar allowed listener allowed listener Marker listener Marker listener Object Marker listener Object bar
+91053	subject aspect jdk problem collections observer compliance level warnings aspectj aspect generics set compile spec
+109486	Internal compiler error  ClassParser java ClassFormatException AjdtCommand makeJavaClass Command doCommand runCommand Utility Java Main Ajdt run runMain
+117681	test audit string lang updated class aspect aspectj error testaspect test aspect verifyerror verify error verify annotations define inter type annotation
+81846	compiler dump lang eclipseadapterutils eclipse adapter utils arrayindexoutofboundsexception array bounds exception adapter array exception eclipse java utils
+318397	cache annotations issue annotation types eclipsesourcetype eclipse source type change roo source annotation caching eclipse type aggressive
+118715	xlint patch weaving lint class time problem values option files load wipes
+148409	generics  ClassCastException in UnresolvedType java ClassCastException addSourceObjectType forGenericTypeSignature UnresolvedType ClassPreProcessorAgentAdapter Type WeavingAdaptor ClassLoaderWeavingAdaptor preProcess transform TransformerManager InstrumentationImpl
+175039	ArrayIndexOutOfBoundException Bug with Nested Type in TypeParameters ArrayIndexOutOfBoundException ArrayIndexOutOfBoundsException getMemberParameterizationMap ResolvedType getDirectSupertypes TypePattern getDeclaredInterfaces matchesSubtypes ClassLoaderWeavingAdaptor ReferenceType ClassPreProcessorAgentAdapter matchesStatically Type
+153535	string class standard bcel member object type match pointcut method bug reflection reflect ion delegate signature array object type
+61374	exception constant data spec output input file stream Version BCEL libraries graceful failure wrong version bugs reported bug bug bugs relate problem compiler locates wrong version BCEL libraries version methods AspectJ calls don exist parameter lists error user sees horrible internal compiler error versioned BCEL libraries changed check version compiler startup verify expected version doesn match report nice readable error message tells user
+36803	BCException thrown by AspectJ    rc BCException Main performTasks runBuild Advice concretize perform run runMain start Target execute
+81863	entity aspect aspect annotation aspectj instance doesn class myclass class org annotation matching pcd working
+30663	method type annotation formal field declare outjar handle lame error message negation doesn binding AspectJ Compiler beta program aspect Foo pointcut call produces error messages negation doesn binding formal unbound pointcut errors binding allowed based pointcuts print file number Doug
+48072	model test type structure file declare node create Complete relationship structure model Complete set relationships surfaced structure model including support declare parents Mik document listing
+320468	ModifiersPattern getModifierFlag  is not thread safe BeanCreationException ConcurrentModificationException FactoryBeanRegistrySupport Bean Factory preInstantiateSingletons AbstractBeanFactory AccessController DefaultListableBeanFactory finishBeanFactoryInitialization getObjectForBeanInstance getObjectFromFactoryBean doGetObjectFromFactoryBean
+395221	method error pjp aspect parameter count error execution counteraspect counter aspect counter weird unbound formals form als mixing generics annotation style
+391123	cache test bytes command handler entry file remove support cache backing Created attachment Asynchronous file cache backing patch support asynchronouse cache backings flat model cache backing updates background ZIP file hold cached bytes Attached patch file feature
+94167	method method test import input work test type implementation getdeclaringtype declaring type npe reflect
+163802	Compilation error NullPointerException collectInterTypeMungers getInterTypeMungersIncludingSupers ResolvedType AspectJBuildManager CompilerThread checkInterTypeMungers Type Mungers Inter collect Resolved
+70619	outjar aspect struct target ner join itds execution compiler aborts conflicting dominates orders circular declare precedences program ajc abort Conflict main String args aspect Conflict declare precedence Conflict Conflict execution aspect Conflict declare precedence Conflict Conflict execution
+48091	advice point body join joinpoint join point objects flag thisjoinpoint join point testing portion lazy instantiation ins tantiation
+374745	type types derivativetypes derivative types ltw hashset hash set regression resolvedtype resolved type arraylist array list list referencetype reference type performance
+227295	AJC error  somehow connected with generics ClassCastException EclipseFactory makeTypeBinding makeTypeBinding1 Type Eclipse Factory Binding Binding1
+106461	org aspectj weaver patterns WildTypePattern maybeGetCleanName WildTypePattern java WildTypePattern maybeGetCleanName Clean Pattern Type Wild
+83935	binding point join joinpoint join point cases myadvice advice target issue string formal mal impl
+72671	document exception dom string project normalizedocument normalize document domimplementation class jar bootclasspath specification compiling
+54238	cancel build progress result change upt set popup Restore build cancelling Swing based IDEs Core compiler implementation incompatability AJDE build cancelling mechanism core canceling behavior stabilizes restored
+29662	verifyerror verify error error program void class object argument weaver verify type accessing objects accessible incompatible object invokespecial invoke special
+41952	type reference void call xlint user method time level class int warning pcd subtype defining
+371684	type signature type typefactory type factory factory foo parameter construction array exception mistakes wildcards
+29665	string method program thisone code otherone work height comment cls inconsistant stack
+61411	test project source coverage path dir ialise absolute AJDoc launch script Windows lose arguments AspectJ Windows report highlights problem ajdoc bat Windows issue applies equally ajc bat ajbrowser bat files ASPECTJ bin ajdoc bat file users launch ajdoc tool imposes limit command arguments passed org aspectj tools ajdoc Main scenarios sourcepath classpath options easy eat list arguments passed JVM list packages entered ajdoc bat command truncated error message output telling user classes packages order prevent limit number arguments passed launched JVM invocation list proposed confirm sort problem ajdoc bat file semi colon delimited paths supplied arguments sourcepath classpath options split passed JVM separate arguments entire path list supplied quotes batch file processor interprets semi colons path list delimiters arguments element path list treated separate argument big string representing sourcepath classpath
+245734	AJDT throws a RuntimeException from EclipseResolvedMember getAnnotations RuntimeException EclipseResolvedMember weaveInterTypeDeclarations AjLookupEnvironment getAnnotations doDeclareAnnotations Annotations Eclipse Resolved Member Declare Inter
+112615	member ajdt option point xhas bean interface aspect boundpoint bound point type xhasmember xhas member processed correctly passed
+77799	manager project structure exception findmatches find matches default null nullpointerexception null pointer exception ajde pointer structuresearchmanager structure search manager search
+91114	system parser error bar java void assignment parser assignmentoperator assignment operator operator jdt printf print
+138223	Compiler crash on two binding  xxx pcds in one compound expression AssertionFailedError BCException findResidueInternal Pointcut findResidue AnnotationPointcut AndPointcut IfPointcut Residue find Annotation Internal
+42993	key container aspectbug aspect bug aspect regression bug containerloader container loader loader pointcut abstractcaching abstract caching language language lang uage improvement
+98290	sayhello entry package class reference cross map execution java void matches declare structure model single warning statement
+132087	NPE from unbound variable in advice NullPointerException AsmHierarchyBuilder traverse buildStructureForCompilationUnit QualifiedAllocationExpression internalBuild TypeDeclaration MethodDeclaration LocalDeclaration CompilationUnitDeclaration Declaration visit
+314365	elements form rewriter handler pointcuts compilation components pointcut problem core point cut rewrite issues large hashcode hash code values
+72699	test type advice error aspect method annotation matching Bogus error message method ajc pointcut tracingScope type Tracing defined attempting compile aspect error message method pointcut tracingScope type Tracing defined aspect aspect Tracing pointcut tracingScope
+67578	return aspect void irum godil error access packages problem object privileged spec
+394234	class table stackmaptable stack map table parent child classnotfoundexception class exception map childb child class entries invalid stack generated java
+123901	NPE in AccessForInlineVisitor endVisit AccessForInlineVisitor java NullPointerException AccessForInlineVisitor endVisit AjBuildManager AspectDeclaration AdviceDeclaration resolveStatements incrementalBuild doBuild Compiler resolve Visit
+118781	waiting on build VerifyError in AspectJ ObligorManager testGetObligorDetailsUsingGroups GetObligorDetailsGroupingTest Obligor NativeMethodAccessorImpl clinit DelegatingMethodAccessorImpl Manager Details invoke Impl
+133117	tjp guard noguardforlazytjp guard lazy tjp lazy lots option warning warnings point advice
+76798	class version attribute file versions weaver aspect aspectj aspect encounter files add woven enabling war compatibility
