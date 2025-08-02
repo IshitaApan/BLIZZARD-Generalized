@@ -1,0 +1,1 @@
+es from my thread on the eclipse.birt newsgroup. I have configured the Birt RunAndRenderTask to use FORenderOption options with the TailoredForFOP option set to true. Using the generated .fo file 
