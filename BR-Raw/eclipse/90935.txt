@@ -1,0 +1,3 @@
+Feature details dialog resize is strange
+
+in M6 open the feature details dialog and notice there is a large area of grey at towards the bottom. Resize vertically and notice that the feature list gets smaller but the large grey area remains the same. Suggest that the grey area be eliminated completely. Failing that, on resize it should be the first to go.

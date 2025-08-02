@@ -1,0 +1,3 @@
+[Contributions] missing mnemonics in the main menu bar
+
+When I press ALT to access the main menu bar, some mnemonics are missing: * 'R' for the "Run" menu * 'W' for the "Window" menu There are also missing mnemonics within some of the menus: * all Resources in the File>New submenu * File > Convert Line Delimiters To * Navigate > Goto > Type... * Navigate > Goto > Package... * Navigate > Show In and all its subentries * Search > Read Access * Search > Write Access * Project > Build Working Set * all perspectives within Window > Open Perspective * all views within Window > Show View * Window > Navigation > Maximize active View or Editor * Window > Navigation > Minimize active View or Editor

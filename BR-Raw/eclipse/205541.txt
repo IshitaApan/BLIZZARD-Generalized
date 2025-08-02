@@ -1,0 +1,3 @@
+view becomes non-responsive after fastview/close/open in two perspectives
+
+Build ID: 120070625-1500 Steps To Reproduce: 1. Pick a view, open it in two different perspectives 2. Go to one of the two perspectives (doesn't matter which one) 3. Close the view in the perspective you picked in step 2 4) Open the view from the FastView icon at bottom left hand corner 5) close the view using the View's "X" button 6) Open the view from Windows menu --> Show Views 7) Now the view is not selectable and not responsive More information: This only happens when the same view is open in more than one perspectives. This happens in both Redhat Linux and Windows XP

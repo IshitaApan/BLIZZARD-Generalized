@@ -1,0 +1,3 @@
+[CSS] Provide the editor ID as a CSS class
+
+I think it would be useful to have the Part ID as CSS class to allow that I can style individual parts. Boris Bokowski mentioned that this was intended in the original design and the place to implement it would be in ContributedPartRenderer.

@@ -1,0 +1,3 @@
+[Linked Resources] unable to create a linked source folder
+
+Build I20021210 1. Create a new project named P1. 2. Select P1 and open its Properties, and go to Java Build Path. 3. Hit Add Existing Folders on source tab. 4. In Source Folder Selection, hit Create New Folder 5. In New Folder dialog, enter "src2", check "link", and Browse to some place (C:\temp\junk\) 6. Hit Ok on New Folder. 7. Hit Ok on Source Folder Selection. 8. Hit Ok on Properties Dialog. Observe: Folder /P1/src2 is not a linked resource. Expectation: It should be a linked resource.

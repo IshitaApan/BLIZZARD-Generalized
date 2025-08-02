@@ -1,0 +1,3 @@
+[Keybindings]  Ctrl+a to select all text in the Find/Replace window does not work
+
+Ctrl+a to select all text in the Find/Replace window does not work (this window is popped by hitting ctrl+f in the C/C++ editor window )

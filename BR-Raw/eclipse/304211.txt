@@ -1,0 +1,3 @@
+StackRenderer does not set eagerly created controls to the item
+
+Right-clicking on a Java element and then using 'Open Declaration' opens an editor on the specified file but its content is not shown. Switching tabs or selecting items in the 'Outline' view does _not_ help. Seems to be calling IWorkbenchPage's APIs properly. No idea yet as to what's going on over here.

@@ -1,0 +1,3 @@
+[WorkingSets] isApplicable needs to be used in the UI
+
+The new isApplicable API needs to be hooked up to the ModifyWorkingSetDelegate

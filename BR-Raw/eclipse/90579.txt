@@ -1,0 +1,3 @@
+[Preferences] unable to search DBCS on Properties and Preferences
+
+Driver M6, WindowsXP Japanese Steps 1. Install 3.0's NL pack 2. open a properties or the preferences 3. enter DBCS to filter result No item hit

@@ -1,0 +1,3 @@
+[Progress] Widgets in Wizards get enabled without cause
+
+I20040527-0800 - open a source class and select the class name - Refactor > Rename -> Rename Type Dialog comes up => after some tenths of a second, all widgets on the Wizard page get enabled => expected: disabled widgets stay disabled Was OK in I200405260800, confirmed to be broken since I20040526-2000.

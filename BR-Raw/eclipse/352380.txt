@@ -1,0 +1,3 @@
+[Compatibility] Empty 'Team' menu shows up in context menus
+
+The 'Team' submenu is present albeit with no items in 4.x. This doesn't seem to happen in 3.x.

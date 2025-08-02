@@ -1,0 +1,3 @@
+[Viewers] Javadoc change about multiple equal elements in StructuredViewer and AbstractTreeViewer
+
+See bug 140941. We need to document that multiple equal elements are only supported when setUseHashlookup(true) has been called.

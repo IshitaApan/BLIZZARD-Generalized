@@ -1,0 +1,3 @@
+[About] About Eclipse dialog: Feature buttons not properly voiced
+
+In the About Eclipse Platform dialog (Help -> About Eclipse Platform), the graphical buttons representing installed features are not voiced by screen readers (such as Jaws 5.10) except as "button". MS Inspect Objects indicates that there is no Name attribute.

@@ -1,0 +1,3 @@
+[Markers] MarkerView leaks a Clipboard
+
+The clipboard created by the MarkerView is leaked (not disposed).

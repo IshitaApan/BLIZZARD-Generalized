@@ -1,0 +1,3 @@
+[Jobs]NPE during "Redraw"??
+
+Build: I-20030903 I found the following NPE in my log. I'm not sure what "Redraw" means. Error Sep 08, 2003 14:09:27.433 An internal error occurred during: "Redraw". java.lang.NullPointerException at org.eclipse.swt.widgets.Display.asyncExec(Display.java:461) at org.eclipse.ui.progress.UIJob.run(UIJob.java:73) at org.eclipse.core.internal.jobs.Worker.run(Worker.java:61)

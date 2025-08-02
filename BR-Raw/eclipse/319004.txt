@@ -1,0 +1,3 @@
+CCE caused by PartRenderingEngine assuming a parent eContainer() is an MElementContainer
+
+An MMenu's container could be an MPart, which leads to a CCE in createGui(MUIElement).

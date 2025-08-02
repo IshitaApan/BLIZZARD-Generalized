@@ -1,0 +1,3 @@
+[Markers] Marker views update on each resource delta (was: Problems view flashes when launching anything)
+
+3.3 M1 Steps: 1. create a new Java project 2. import JUnit into it (http://www.eclipse.org/jdt/ui/smoke-test/junit3.8.1src.zip) 3. in the Package Explorer select 'MoneyTest.java' 4. (optional - makes it easier to see the problem) uncheck the preference Run/Debug > Console > [] Show when program writes to standard out 5. Run > Run As > Java Application ==> Problems view flashes 6. click on the Run tool bar button ==> Problems view flashes each time step 6 is repeated NOTES: 1) there is no flashing if problem grouping is set to 'None' 2) there is no flashing if the following preference is unchecked: Run/Debug > Launching > [] Build (if required) before launching

@@ -1,0 +1,3 @@
+[Trim] can't drag a trim bar at all
+
+N20060425 - I am able to drag views around and re-order the main coolbar but unable to start a drag with any trim items.

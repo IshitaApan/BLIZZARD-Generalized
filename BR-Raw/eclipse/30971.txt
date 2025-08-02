@@ -1,0 +1,3 @@
+Step actions disabled
+
+Build: I20030205 The step functions are disabled when debugging in this build. The shortcut keys (F5-F8) don't work, and the actions are greyed out in the menu. The toolbar buttons still work however.

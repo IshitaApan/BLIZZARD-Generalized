@@ -1,0 +1,3 @@
+[Viewers] ListViewer without a selection loses scrolled state when refreshed
+
+When the ListViewer does not contain a selection and is refreshed it loses its vertically scrolled to position. This is because AbstractListViewer removes all items and adds them back (it has to) when a refresh occurs. This is remedied in the use cases where there is a selection because the selected item is revealed after the refresh occurs. Without a selection no reveal can occur therefore it loses its position.

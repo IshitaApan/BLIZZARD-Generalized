@@ -1,0 +1,3 @@
+[Compatibility] Move the UI Editor into a separate window
+
+The current placement of the UI Editor in the compatibility layer is causing some confusion (the Java perapective doesn't look right, the editor area is too small...). We should move this into the E4 equivalent of a Detached Window; an MWindow that is a child element of the main window. We'll also have to hook up a command to re-open the editor should it get closed (we can't simply re-open the view since the editor isn't contributed through the legacy mechanisms...).

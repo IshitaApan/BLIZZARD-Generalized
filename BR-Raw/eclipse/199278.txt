@@ -1,0 +1,3 @@
+[Contributions] control element does not have a visibleWhen option in org.eclipse.ui.menus extension point
+
+Build ID: I20070625-1500 A recently added extension point org.eclipse.ui.menus allows the contribution of custom controls to workbench toolbars. This is done by using "control" element. However, unlike for other elements, the visibility of controls cannot be controlled using a visibleWhen subelement. This makes the contribution of context-dependent controls close to useless. To me it looks like an omission.

@@ -1,0 +1,3 @@
+[Font/Colour] Import/Export Preferences does not use dialog font
+
+Reached through Window/Preferences/Export...

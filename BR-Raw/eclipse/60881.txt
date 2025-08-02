@@ -1,0 +1,3 @@
+[Commands] Ctrl+S does not work
+
+In I20040504-0800 Ctrl+S in a jave editor does not work.

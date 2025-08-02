@@ -1,0 +1,3 @@
+DND does not work on I20111129-2100
+
+With the latest build DND does not appear to work on Windows 7 and Linux/gtk+. This bug presumably affects all platforms.

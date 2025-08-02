@@ -1,0 +1,3 @@
+Regression: File associations to an external program broken
+
+I20031007 I always have *.html files from Eclipse open in Dreamweaver. As of this build this seems to be broken. This had always been configured in my workspace so I checked the preferences and saw that now *.html was no longer associated with an editor. It got lost during my upgrade to this build. No big deal. Well to fix this I added Dreamweaver.exe (e.g. external program) again the Associated Editors list. When I clicked OK on the preferences then re-opened the page, the association was gone. It seems that the associations are not being saved.

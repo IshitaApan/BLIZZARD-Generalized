@@ -1,0 +1,3 @@
+Need to move the "configure activities" menu item + dialog to be a  Workbench preference page.
+
+The PMC has decided that this should be a preference page rather than a menu entry

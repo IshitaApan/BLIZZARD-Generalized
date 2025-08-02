@@ -1,0 +1,3 @@
+[Import/Export] Problems with reading long file names in tar files
+
+The code which performs a read() on a LongLink name in TarInputStream does not check if it has read the entire name. This causes errors when importing tar files with long names.

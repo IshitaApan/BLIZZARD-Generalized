@@ -1,0 +1,3 @@
+[Preferences] JAWS7.0 not working correctly for Eclipse preferences: not stating the results of filter
+
+Here is the steps for how to recreate this problem. 1.Install ScreenReader JAWS7.0, 2.User1 logs in UIM and opens preferences page from File->Preferences.... 3.Now the focus located in the edit "type filter text", then user1 inputs a letter, such as "l". 4.All the matched preferences title filtered out. Please refer to the following picture. Bug: JAW7.0 doesn't state any entry in the list directly, and there is not any indication about the result of filter. Expected Result: JAW7.0 should give a notification such as "There are 3 preferences filtered out, please navigate them with TAB key."

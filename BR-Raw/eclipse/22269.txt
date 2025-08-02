@@ -1,0 +1,3 @@
+[Navigator] File->Rename while already renaming hangs Navigator
+
+Scenario: Select a file in the Navigator then File->Rename. While the name-editor window is in focus, select File->Rename again. The name-editor window won't close, and the Navigator will become completely unresponsive.

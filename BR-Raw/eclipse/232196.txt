@@ -1,0 +1,3 @@
+Workspace chooser cancel button results in crash on Linux
+
+Hitting cancel on the Workspace Launcher in the Linux Motif build, I get a crash (attaching logfile).

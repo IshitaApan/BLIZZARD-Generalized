@@ -1,0 +1,3 @@
+[StatusHandling] Cannot generally plug status support into ErrorDialogs
+
+M5 Currently we have several ways to get ErrorDialogs that do not go through the status handling - we can either call the constructor or use our own class (there are 10 in the SDK alone). Our strategy of overriding the static method hits many cases but there are many quite common ones we will miss (like CVS errors for instance). I think we want to look at a way to extend the current error dialog rather than override the static method.

@@ -1,0 +1,3 @@
+[EditorMgmt] Need ability to open a file in eclipse from the command line
+
+We need to be able to register eclipse as the default editor for a file type with the OS. This will allow double clicking on a file and opening it in eclipse. This is important for being able to view a .java file in a zip etc. I don't think it should be a problem to get the file name from the command line through to the workbech application which will be able to determine what editor to use. The question is where to put it in the workspace. I think the easiest answer is to just create a "miscellaneous" project mapped to the file's location. Remember this is not a project for "real work", its just a way of allowing the file to be viewed/edited using an eclipse editor.

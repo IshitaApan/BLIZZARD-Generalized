@@ -1,0 +1,3 @@
+auto-save job dies if an exception occurs while running
+
+I20130505-2000. The workbench auto-save job dies if an exception occurs while running. The code is not protected.

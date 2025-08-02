@@ -1,0 +1,3 @@
+[Compatibility] Editor toolbars not rendered with SWT.FLAT
+
+When running WinXP with the classic theme (or at least with the classic style used for buttons), some toolbars render incorrectly while other toolbars are unaffected by changing themes. In some cases, the rendering is just visually different than other toolbars, while in other cases there is also an issue with buttons being rendered with overly-large dimensions. This can be seen by setting WinXP's theme to classic and using any of these editors (there could be others): - JSF Tools Project's Faces Config Editor - JSF Tools Project's Web Page Editor - Plug-In Manifest Editor - GEF examples "Logic Diagram" editor

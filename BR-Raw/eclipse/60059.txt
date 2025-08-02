@@ -1,0 +1,3 @@
+[Intro] not to return to Introduction
+
+OS:		windows 2003, RHEL 3.0 Language:	Japanese Build level: 	I20040422-200404231600 JDK version: IBM JDK 1.4.2 Beta Test case #: Steps to recreate problem: 1-Help > Introduction, select Fast view from the context menu of the Intro view 2-click the Intro at the Fast View icon area 3-click "Return to Intoroduction" at the Intro view Error: The Intro view windows is maxmized. Expected Result: return to Intro main menu

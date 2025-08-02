@@ -1,0 +1,3 @@
+[Wizards] New folder wizard is very large if you are creating the folder in a container with a very long path
+
+F1 1) Create a folder with a very long name 2) Select the folder and open the new folder wizard, it is very wide. Similar with new file The Java creation wizards do not have this problem.

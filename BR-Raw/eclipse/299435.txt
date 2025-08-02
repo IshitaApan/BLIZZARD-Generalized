@@ -1,0 +1,3 @@
+NPE closing contacts demo with a dirty part
+
+Created attachment 155930 Exception stack

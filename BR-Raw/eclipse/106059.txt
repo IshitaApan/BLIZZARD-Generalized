@@ -1,0 +1,3 @@
+[Viewers] Disappearing icon in problem view when selecting the row
+
+Using I20050803-0800, sometimes the icon disappears when I select a problem in the problem view. If it is unselected, it works fine. See attached screenshot.

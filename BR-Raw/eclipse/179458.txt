@@ -1,0 +1,3 @@
+[Presentations] EditorArea shown when application restored
+
+Reproduce: 1. Create the mail-template 2. Add the following functions to ApplicationWorkbenchAdvisor: @Override public void initialize(IWorkbenchConfigurer configurer) { super.initialize(configurer); configurer.setSaveAndRestore(true); PlatformUI.getPreferenceStore().setDefault(IWorkbenchPreferenceConstants.ENABLE_NEW_MIN_MAX,false); PlatformUI.getPreferenceStore().setDefault(IWorkbenchPreferenceConstants.ENABLE_DETACHED_VIEWS, false); } On the second start you'll notice that the editor area is restored. For RCP application this is a major problem.

@@ -1,0 +1,3 @@
+[Tasks] No tooltips on Problems/Tasks/Bookmarks view toolbar items
+
+build 20030605 I don't get tooltips when I hover the mouse over enabled toolbar items in the Problems, Tasks and Bookmarks view. The view menu and close button do show tooltips.

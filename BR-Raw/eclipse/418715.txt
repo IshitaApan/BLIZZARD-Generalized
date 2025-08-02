@@ -1,0 +1,3 @@
+[IDE] navigator: show file/folder on linux show parent of folder
+
+When you select and open a folder on linux, nautilus opens the parent of the folder. This doesn't seem like the correct behaviour. Also, to support older nautilus file managers linux is the only system that find the parent of the selection and opens it. It might be moot. One can edit the preference in Preferences>General>Workspace and switching it to something like [1] would fix the problem. PW [1] dbus-send --dest=org.freedesktop.FileManager1 /org/freedesktop/FileManager1 org.freedesktop.FileManager1.ShowItems array:string:'file://${selected_resource_loc}'

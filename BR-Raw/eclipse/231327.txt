@@ -1,0 +1,3 @@
+Tabbing into table sets focus to first column regardless of its visibility
+
+Created attachment 99490 snippet that shows the problem When you tab into a table for the first time, the focus cell is set to the first column regardless of its visibility. This creates a strange effect when you down arrow, as you cannot see the focus cell. See the snippet for an example of the problem. To reproduce: 1) Run snippet, tab into table, hit down arrow. Focus cell is visible in the 2nd row of the 1st column. 2) Run snippet, click button, tab into table, hit down arrow. Focus cell is not invisible in the 2nd row of the 1st column.

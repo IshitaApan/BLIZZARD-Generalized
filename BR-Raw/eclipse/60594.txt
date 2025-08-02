@@ -1,0 +1,3 @@
+[RCP] updateLayoutDataForContents fails if the application does not call createDefaultContents
+
+I20040428 If an RCP application does not call WorkbenchWindow.createDefaultContents() (via the default implementation to WorkbenchAdvisor.createWindowContents() then updateLayoutDataForContents will fail with an NPE because defaultLayout has not been initialized. Bounce back to me if you'd like

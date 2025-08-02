@@ -1,0 +1,3 @@
+[Dialogs] Review the design of MessageDialogWithToggle.createButtonsForButtonBar
+
+I200406090800. Tod has mentioned some concerns over the large if statement structure used to look up labels and match them to identifiers. This seems cumbersome, and should be looked over again.

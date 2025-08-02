@@ -1,0 +1,3 @@
+[Browser] NullPointerException in MozillaBrowser.openURL()
+
+In MozillaBrowser.openURL() there is no check to see if the argument url2 is null before calling url2.toExternalForm(). So passing in null to this method results in a NullPointerException.

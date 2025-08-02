@@ -1,0 +1,3 @@
+[Compatibility] Missing "none" grouping in Problems view
+
+Version: 4.1.0 Build id: I20110316-1035 In my Problems view I configure the contents to show only markers with Error severity. Then I like to turn off Grouping because there is no need to have all the error collapsed in the view. But there is no way to turn off the grouping in the e4 Problems view.

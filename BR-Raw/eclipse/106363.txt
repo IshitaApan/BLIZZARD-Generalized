@@ -1,0 +1,3 @@
+[Decorators] Decorator schema inconsistent with extension point
+
+We currently do not allow decorators with no enablement. The schema does allow for it so we should fix this up. The state should be always on for decorators that have no enablement to be consistent with the rest of the workbench.

@@ -1,0 +1,3 @@
+[RCP][Progress] Clicking on the progress button generates an error
+
+org.eclipse.ui.workkbench doesn't include the progress view definition in it's plugin.xml file. However, the job completed button that appears in the progress viewer region in the status line tries to open the progress view even in the view isn't available. It should be smarter. Either allow an application to provide the view id to open when this button is pressed, or disable the buttons action when the IDE plug-in is not available.

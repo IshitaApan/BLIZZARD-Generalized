@@ -1,0 +1,3 @@
+[KeyBindings] Ctrl+Enter for preview does not work (maximizes editor)
+
+I20070206-0010. Ctrl+Enter for preview does not work (maximizes editor). This should be fixed as it is prominent in the new Rename popup.

@@ -1,0 +1,3 @@
+[CSS] Illegal state exc from tab-height
+
+If you just type a space in the CSS Editors SWT example you will get traces in the console failing on CSSValue.getFloatValue() for tab-height.

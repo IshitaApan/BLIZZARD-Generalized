@@ -1,0 +1,3 @@
+[EFS] Provide IFileStoreEditorInput (+ impl) for new IFileStore
+
+N20051007-0010 Now that we have an abstraction for file systems it would be good to have an editor input for IFileStore. I'd like to see an IFileStoreEditorInput along with a default implementation FileStoreEditorInput. This would allow clients like Platform Text to get rid of there own implementations used to open external and non-existent files. For details about the new layer see bug 106176.

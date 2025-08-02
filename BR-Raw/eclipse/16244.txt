@@ -1,0 +1,3 @@
+NPE when changing pages in preference dialog
+
+nightly build 0517, likely happens on all platforms - open the preferences dialog - click on any top-level preference page tree item (eg.- Java) and get the attached exception - the exception does not occur if preference pages in the tree are traversed using the arrow keys instead of the mouse

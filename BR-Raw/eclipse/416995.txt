@@ -1,0 +1,2 @@
+[Code review] The "perspective" string should be turned into a constant on E4Application
+

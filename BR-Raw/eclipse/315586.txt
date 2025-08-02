@@ -1,0 +1,3 @@
+API typo: IResourceUtiltities
+
+There is an unfortunate series of typos in several API types: IResourceUtiltities ResourceUtiltities ISWTResourceUtiltities

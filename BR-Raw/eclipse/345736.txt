@@ -1,0 +1,3 @@
+[Compatibility] Opening an HTML page goes external
+
+When I click on one of our about.html in 4.1 it opens externally in FF. When I do the same in 3.7, it opens in an internal web browser editor. Remy, do you know if this is something we wired off in the compat layer? PW

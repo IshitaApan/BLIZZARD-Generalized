@@ -1,0 +1,3 @@
+[Navigator] Open Resource should not offer to open derived resources
+
+1) Navigate>Open Resource... ->observe the dialog shows generated class files and copied resource files in the output folder These are both derived resources and it is almost never helpful to navigate to them. The simplest solution is to filter out resources which are marked as derived (search is using the same approach to avoid searching in derived resources)

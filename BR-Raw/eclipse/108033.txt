@@ -1,0 +1,3 @@
+[WorkbenchParts] regression: View Tab Orders lost after restart
+
+This is was working in 3.1, but as of 3.2M1, my view tabs no longer stay in order after I restart. For example, at the bottom of my screen, I have [Problems, Tasks, Console, Debug, Breakpoints, ...] in a single tab group. After restart, they are in a different order. It almost seems like they are being grouped by the folders the views are selected from in the "Show View" window. - The above gets reordered to Problems, Console, Tasks, Debug, Breakpoints. - I tried moving Debug to the beginning, and it got moved between tasks and breakpoints. - I added "Ant" between Problems and Console, and it got moved to the end.

@@ -1,0 +1,3 @@
+[Preferences] PreferenceLinkArea uses java.security.InvalidParameterException
+
+20050329 PreferenceLinkArea uses java.security.InvalidParameterException which is 'designed for use by the JCA/JCE engine classes'. I guess IllegalArgumentException was meant

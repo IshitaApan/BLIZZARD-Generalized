@@ -1,0 +1,3 @@
+[Decorators] Need collision detection for decorators with the same id
+
+The DecoratorsRegistryReader should do a check to see if a new decorator definition has the same id as a previous one. As we have now added API that looks up base on id uniqueness is a requirement.

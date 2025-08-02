@@ -1,0 +1,3 @@
+[Compatibility] Get prompted once for each dirty file when closing workbench
+
+Instead of an aggregate dialog, you get one message dialog per dirty file when you are closing Eclipse. This is very annoying.

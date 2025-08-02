@@ -1,0 +1,3 @@
+Cleartext proxy password shown in Help->About->Configuration Details
+
+Build ID: M20060921-0945 Steps To Reproduce: 1. Windows -> Preferences -> Internet -> Proxy Settings 2. Click "Enable proxy auth" 3. Enter name & password 4. Hit 'OK' then goto Help -> About -> Configuration Details 5. Scroll down until you see the following lines: http.proxyHost= http.proxyPassword= http.proxyPort=8080 http.proxySet=true http.proxyUserName= The password will be listed here in plain text. More information: On networks using authenticated proxies, this allows anyone to easily see your name/password if you leave your desk. It should be displayed using a masking character(*). I've only checked this on WinXP

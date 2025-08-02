@@ -1,0 +1,3 @@
+[Field Assist] - StringIndexOutOfBoundsException when backspacing out of a filter
+
+from Dani (bug #120237) - if I continue typing the Backspace key after above scenario (after typing several keys) I get a StringIndexOutOfBoundsException each time (see attached log.txt). Same happens if I open code assist, enter 'a', type Backspace more than once.

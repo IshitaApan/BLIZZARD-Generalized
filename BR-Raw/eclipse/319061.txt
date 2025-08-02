@@ -1,0 +1,3 @@
+StackRenderer's showTab(MUIElement) method is invoked twice when showing a part
+
+1. Launch your inner. 2. Put a breakpoint in StackRenderer's showTab(MUIElement) method. 3. Show a view that's not in any of the existing stacks. 4. The breakpoint is hit twice. The problem is because of LazyStackRenderer's 'lazyLoader' EventHandler instance. As there is a PerspectiveStackRenderer and a StackRenderer, both of these instances are hooked to the event broker and two notifications get fired.

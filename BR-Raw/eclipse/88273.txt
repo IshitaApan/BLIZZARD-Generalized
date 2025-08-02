@@ -1,0 +1,3 @@
+[ViewMgmt] (regression) Show view dialog does not remember last selection or expanded state
+
+build I20050315 + latest from head - window > show view > other - collapse all categories - expand Ant - expand Java - double-click on Hierarchy - window > show view > other - it should have Ant and Java expanded (only), with Hierarchy selected, but it does not This is a recent regression. It was working in the I-build. For historical interest, see bug 77491.

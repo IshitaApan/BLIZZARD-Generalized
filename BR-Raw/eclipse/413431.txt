@@ -1,0 +1,2 @@
+Contact demo update to use dependency injection for MApplication in processors
+

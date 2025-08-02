@@ -1,0 +1,3 @@
+[ViewMgmt] Remove F2 from ShowViewDialog
+
+I20080327-2251. Since M1 the ShowViewDialog has an F2 hint to show the view description (see bug 128529), however there are no (i.e. 0) views in the SDK that have a description. I assume same applies to most of our clients. Giving users the impression to get some info and then failing for all our views is not nice and forcing all SDK components and upstream plug-ins to add this seems overkill given that this attribute is optional. Either we remove that new feature completely or at least remove the hint in the view. Boris I can take care of that if you want. Just let me know which approach you prefer (remove all or only remove the label).

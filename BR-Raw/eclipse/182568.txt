@@ -1,0 +1,3 @@
+[EditorMgmt] SaveableHelper has an empty task name
+
+SaveableHelper line 177 has the following code monitorWrap.beginTask("", dirtyModels.size()); //$NON-NLS-1$ This monitor is frequently blocked by workspace operations like plug-in import or builds and results in an unlabelled entry in the blocked jobs dialog (see Bug 176419).

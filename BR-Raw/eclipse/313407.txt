@@ -1,0 +1,3 @@
+EPartService needs to use EModelService's bringToTop method
+
+The EMS variant considers shared parts, the EPS should delegate accordingly.

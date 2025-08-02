@@ -1,0 +1,3 @@
+Make org.eclipse.e4.ui.di free from SWT
+
+The bundle should not depend on SWT because this leads to a dependency on SWT for org.eclipse.e4.ui.workbench which is violating the core design of e4.

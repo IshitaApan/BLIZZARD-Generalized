@@ -1,0 +1,3 @@
+[Dialogs] Setting help has uncleared busy cursor
+
+Build 20021105. Currently if one uses existing JFace dialogs (e.g., ElementSelectionTreeDialog) there is no way to set the F1 help for the dialog. The help listener would have to be added on the shell, but the shell is not created until the open method is called (at which point the modal nature of the dialog prohibits setting anything for the shell). So to set help for one of these dialogs, the user would have to subclass the dialog. Quite a heavyweight operation for a simple thing.

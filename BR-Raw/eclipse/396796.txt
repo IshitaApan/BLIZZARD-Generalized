@@ -1,0 +1,3 @@
+org.eclipse.ui.menus appears to be broken
+
+Created attachment 224825 example plugin that demonstrates the problem I have a plugin that uses org.eclipse.ui.menus extension point to contrinute additional actions to JDT debug view and other places where UI allows context menu on IJavaStackFrame instances. This works with eclipse 3.8 and 4.2 but does not work with 4.3M4. Attached small standalone example demonstrates the problem.

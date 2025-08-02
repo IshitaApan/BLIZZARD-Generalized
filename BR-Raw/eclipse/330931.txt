@@ -1,0 +1,3 @@
+[Compatibility] IWorkbenchPage's getSortedPerspectives() may not be updated if perspective is set from the model
+
+We should use an event handler to update the list instead of relying on the call to setPerspective(IPerspectiveDescriptor).

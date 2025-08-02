@@ -1,0 +1,3 @@
+[JFace] StructuredSelection.toList(...) allows modification to original selection
+
+3.4 The implementation of StructuredSelection.toList() looks like this: "return Arrays.asList(elements == null ? new Object[0] : elements);" This returns a list with the actual underlying array of selected elements. Changes to the list returned by this method write through to the underlying array and change the original selection. I don't think this is intentional?

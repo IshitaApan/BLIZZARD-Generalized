@@ -1,0 +1,3 @@
+[Preferences] Preference filter text filed not in dialog font
+
+I20050509-2010 The filter text field for the preference pages does not honor the dialog font setting.

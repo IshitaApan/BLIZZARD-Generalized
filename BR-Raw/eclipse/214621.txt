@@ -1,0 +1,3 @@
+[Viewers] Make ComboViewer non-final
+
+This would enable overriding methods like handleInvalidSelection, see bug 187263.

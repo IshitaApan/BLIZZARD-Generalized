@@ -1,0 +1,3 @@
+EPS cannot handle being asked for from the application's context
+
+Right now we have this... @Inject @Named(EPartService.PART_SERVICE_ROOT) private MElementContainer<MUIElement> rootContainer; ...which will be 'null' if the question was posed to the application's context. Right now, I cannot use EPS in the SaveHandler because I get an (effectively) useless EPartService (filled with null fields).

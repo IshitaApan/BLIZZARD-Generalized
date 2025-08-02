@@ -1,0 +1,3 @@
+[Preferences/Properties Dialogs] Using old version of disabled arrow icon
+
+WinXP Preferences and Properties dialogs are using old version of disabled arrow icon. Update with latest version of disabled arrow icon. Will add attachment.

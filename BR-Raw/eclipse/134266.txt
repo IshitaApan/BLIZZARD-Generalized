@@ -1,0 +1,3 @@
+[Wizard] Page description not set if page message already set
+
+Since page messages such as errors and warnings used to be displayed in the same widget as the page description, code was put in place in WizardDialog#updateDescriptionMessage() to avoid setting the page description if there was already a message. As of 3.2 M6 there is a separate widget for displaying error and warning messages and so the page description should always be set.

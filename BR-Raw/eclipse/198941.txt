@@ -1,0 +1,3 @@
+[About] About dialogue should use "name" (i.e. plug-in name) instead of provider name for hover-over popup
+
+Build ID: V3.0.2 Steps To Reproduce: 1.Click on Help / About 2.Move cursor over plugin icons 3.Popup shows provider name (such as IBM) instead of the plugin name. More information: For the WebSphere Message Broker ToolKit, there are a number of plugins available from IBM. Having a hover-over that simply shows "IBM" doesn't really help you know what the plugin is for. It would be more useful if the hover-over popup showed the plugin name rather than the provide-name.

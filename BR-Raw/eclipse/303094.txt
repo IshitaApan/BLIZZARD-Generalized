@@ -1,0 +1,3 @@
+[EditorMgmt] Save operation does not seem to be closed appropriately in the face of failures
+
+Created attachment 159344 Screenshot depicting the problem in question. Build id: I20100209-2300 1. Create a new plug-in project using the xml editor template. 2. Change the generated XMLEditor code and override doSave(IProgressMonitor), just throw a 'throw new RuntimeException();' in there. 3. Launch your second Eclipse. 4. Create a project and xml file. Open it with the xml editor. 5. Make the file dirty. Try to save, it fails as expected. 6. Dismiss the dialog. Notice that the progress bar at the bottom is still present.

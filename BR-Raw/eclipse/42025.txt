@@ -1,0 +1,3 @@
+Status line update job running too often?
+
+Build: I20030826 (second one) Turn on the following in .options to see job tracing: org.eclipse.core.runtime/debug=true org.eclipse.core.runtime/jobs=true Using this, it is easy to see that when a background task is running (such as background build or background sync), the "status line update" job is running much more often than the status line is changing. I think it must be firing when the subTask changes, even though the subtask is not visible.

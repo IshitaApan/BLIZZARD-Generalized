@@ -1,0 +1,3 @@
+[KeyBindings] Do not allow duplicate key bindings
+
+In the new keybinding page you can bind a key to an already used one. i.e. you can bind content assist to ctrl-insert. which is already occupied by copy. There should be at least a warning in some way. Please take the scope into account such that there is an information when changing a binding for a more specific scope.

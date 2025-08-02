@@ -1,0 +1,3 @@
+[DataBinding] NPE in when disposing MultiValidator instance
+
+Build ID: I20080502-0100 Steps To Reproduce: 1.Creating an instance of a subclass of MultiValidator e.g. MultiValidator myValidator = new MultiValidator() { validate() { return Status.OK; }} 2.Calling dispose before calling getValidationStatus() -> NPE in dispose() method (unmodifiableValidationStatus.dispose();) More information:

@@ -1,0 +1,3 @@
+[Tasks] Problems View should 'filter' more efficiently
+
+Each time a change occurs in the Problems View, the filtering mechanism is called too often (3 times at least). Each time getElements() is called, all the problem markers are retrieved and the filters applied to the whole list. This happens even for updating the title of the view (to tell you how many items are in the view). This is causing serious performance degradation if there are many problem markers in total (i.e. about 1000 problems). See also: bug 44069 - [Problems View] Time response while debugging slows down when several perspectives are opened bug 39436 - [Tasks] No summary shown in status line bug 43721 - Performance regression on Mac

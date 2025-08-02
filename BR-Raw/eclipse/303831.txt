@@ -1,0 +1,3 @@
+Warnings logged when trying to merge changes to an MPart's 'closeable' attribute
+
+Warnings are printed out to syserr. --- WARNING: Unknown feature found, reconciliation may fail: Part#closeable

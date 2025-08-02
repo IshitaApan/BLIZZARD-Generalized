@@ -1,0 +1,3 @@
+View toolbars don't go away when the view is closed
+
+1. Run the compatibility layer. 2. Close the 'Package Explorer' view. 3. Its toolbar is still there.

@@ -1,0 +1,3 @@
+[DataBinding] internal tree content provider does not work
+
+I broke the tree content providers while trying to update them to use TreePaths. It would be good to have a working implementation again...

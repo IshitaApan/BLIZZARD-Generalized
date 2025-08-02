@@ -1,0 +1,3 @@
+[Dialogs] Font to text control of InputDialog is not set
+
+Look at org.eclipse.jface.dialogs.InputDialog.createDialogArea()

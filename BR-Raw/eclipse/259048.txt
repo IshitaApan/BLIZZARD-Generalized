@@ -1,0 +1,3 @@
+[Contributions] toolbar control contributions cause plugin startup
+
+From bug 201589: > As an aside, there is no lazy-loading implemented for a control contribution. > As soon as it is populated into a piece of trim (even if invisible) then it > will load that plugin. > To show a control we had to instantiate it (there was no other way). An > optimization that could be added is that we proxy the control contribution so > that we don't load the plugin as long as nothing ever calls fill(*). That > won't make it into 3.4, however, and would need to be requested in a new bug. For a minute there I thought bug 246999 would have addressed this issue, but it doesn't appear to be the case.

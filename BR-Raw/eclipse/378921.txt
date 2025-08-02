@@ -1,0 +1,3 @@
+Incorrect drag and drop behavior.
+
+Build Identifier: I20120503-1800 When I try to split the shared area horizontally it splits vertically. After that, if I close one of the tabs the shared area is shrunk to half its size. See attached video. Reproducible: Always Steps to Reproduce: See the attached video.

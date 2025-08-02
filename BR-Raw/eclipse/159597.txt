@@ -1,0 +1,3 @@
+[Viewers] getRowPart(Point) behaves differently on Table than on Tree
+
+getRowPart(Point) is reacting different between on TableViewer and TreeViewer: TableViewer: ------------ protected Item getItem(int x, int y) { return table.getItem(new Point(x, y)); } TreeViewer: ----------- protected Item getItem(int x, int y) { return getTree().getItem(getTree().toControl(new Point(x, y))); }

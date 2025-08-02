@@ -1,0 +1,3 @@
+[Markers] [Dialogs] TableSortDialog does not use dialog font
+
+Problems view toolbar; Sorting...

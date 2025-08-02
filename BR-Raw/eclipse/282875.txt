@@ -1,0 +1,3 @@
+[UI] Allow parts of models to be rendered
+
+We need to change the rendering protocol to allow a 'createGui' to specify the container it should be created under (in SWT-land this would be a Composite). This is necessary to facilitate unit tests and to allow the ad-hoc rendering of chunks of a model within an arbitrary container (i.e. a Dialog or Wizard). In order to do this we'll have to make an API change to the PartFactory's 'createWidget' so that it will get the parent container as a parameter. In order to 'upgrade' an existing PartFactory you would simply replace the code you're currently using to find the correct container with the new parameter's value.

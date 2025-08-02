@@ -1,0 +1,3 @@
+[Compatibility] new wizard toolitem doesn't have dropdown
+
+It now appears, but doesn't have the dropdown menu item. For now, pass through dropdown action contribution items. PW

@@ -1,0 +1,3 @@
+[Perspectives] Promote deletePerspective( ) from PerspectiveRegistry to IPerspectiveRegistry
+
+IWorkbenchPage provides the public API savePerspectiveAs(IPerspectiveDescriptor) which will save the updated perspective in the users workspace as a custom perspective. It would be a more consistent API if deletePerspective(IPerspectiveDescriptor) were promoted from the internal class PerspectiveRegistry to the API interface IPerspectiveRegistry. I want to avoid using internal classes, but I need to be able to delete a cached perspective.

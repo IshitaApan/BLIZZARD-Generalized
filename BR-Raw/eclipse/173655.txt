@@ -1,0 +1,3 @@
+[Browser] web browser preference page text does not flow
+
+3.3M5, just an aestetic thing The text at the top of the preference page does not look good on linux because it appears to have a hard return after its comma, which is in the middle of a line. Also, when the dialog's size is expanded the text does not re-lay itself out, which makes it look more awkward. The Label should have SWT.WRAP style, no hard return after the comma, and _may_ need some layout data to tell it to grab available horizontal space.

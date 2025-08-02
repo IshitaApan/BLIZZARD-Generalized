@@ -1,0 +1,3 @@
+[ErrorHandling] Hooking the error handling into jobs again
+
+Previous trial was a troublemaker.

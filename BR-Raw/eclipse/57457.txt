@@ -1,0 +1,3 @@
+Should "Customize Perspective..." show non-enabled activities.
+
+M8 - turn off the PDE actvities - open the Window > Customize Perspective... dialog - note that the PDE items appear in the list should they? If so why?

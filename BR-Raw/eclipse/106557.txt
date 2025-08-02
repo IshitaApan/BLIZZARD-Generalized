@@ -1,0 +1,3 @@
+[Contributions] Context Menu ordering reversed for files
+
+It appears that menu ordering has been reversed for files in I20050808-2000. I tried both the packages explorer and the navigator and any file based item has the Team menu after the Compare With and Replace With menus. Projects and folders are still in the correct order. The order was correct in 3.1 so this must be the result of a recent change.

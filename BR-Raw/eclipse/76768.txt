@@ -1,0 +1,3 @@
+[RCP] [ViewMgmt] [EditorMgmt] Need ability to provide custom save prompt when view implements ISaveablePart
+
+Our RCP applications need the ability to provide an application defined custom dialog when prompting the user to save. This is specific to ViewParts that implement the ISaveablePart interface. Patch to follow.

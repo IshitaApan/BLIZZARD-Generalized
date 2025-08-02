@@ -1,0 +1,3 @@
+[Contributions] [ActivityMgmt] new menu story does not acknowledge activities
+
+The new menu story is not currently activity aware. This needs to happen before 3.3 ships.

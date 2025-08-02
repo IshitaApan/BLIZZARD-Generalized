@@ -1,0 +1,3 @@
+[Markers] ProblemsView constantly busy when empty
+
+20060412 The problems view is constantly busy when there are no entries - the tab goes italic all of the time.

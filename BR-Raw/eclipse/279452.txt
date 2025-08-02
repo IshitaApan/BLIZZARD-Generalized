@@ -1,0 +1,3 @@
+[Compatibility] Parameterized command mechanism support
+
+Parameterized commands like showView need to be able to access their parameters (like the view ID) PW

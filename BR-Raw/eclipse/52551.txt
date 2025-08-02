@@ -1,0 +1,3 @@
+[Commands] Debug information left in code
+
+HEAD on 20040219 System.out.println(enabledContextIds); in processEnabledSubmissionsByContextId(boolean) - org.eclipse.ui.internal.contexts.ws.WorkbenchContextSupport is printing to the console constantly

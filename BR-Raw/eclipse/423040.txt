@@ -1,0 +1,2 @@
+activePart within SelectionAggregator is not set to null if all parts are closed
+

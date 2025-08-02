@@ -1,0 +1,3 @@
+[JFace] Hyperlink colors all black
+
+PDE editors use platform UI settings for hyperlink colors. Since driver 1127 (or maybe driver or two earlier, but this is where we noticed it), these colors are all black. The actual colors shown in the preference page are correct (dark blue and blue for standard and active hyperlink colors), but the actual Color object we get from JFace colors has RGB 0,0,0.

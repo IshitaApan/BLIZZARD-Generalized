@@ -1,0 +1,3 @@
+[Viewers] Tweak ColumnViewer-API
+
+- Rename getRowPart(Point point) => getViewerRow() - Rename getCell(Point point) => getViewerCell() - Rename setViewerColumn(final int columnIndex, ViewerColumn viewer) => setupEditingSupport - Make setupEditingSupport() private no one from external needs to use this API to set the EditingSupport for an ViewerColumn

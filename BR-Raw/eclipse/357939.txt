@@ -1,0 +1,3 @@
+Fade animations for Maximize
+
+This bugzilla is to capture feedback on making the Eclipse 4 user experience more up to date. We've just introduced a fade animation for min/max in M2 and expect to be adding some more effects of this type as we proceed through 4.2. Any input is welcome as well as any suggestions you may have about other ways we can make eclipse look more like a 2011 application...

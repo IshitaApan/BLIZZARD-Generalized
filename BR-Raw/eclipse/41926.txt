@@ -1,0 +1,3 @@
+Ctrl+V getting the wrong focus
+
+20030825 When I try and do a paste into a find dialog Ctrl+V always pastes into the editor behind it and not into the dialog. STEPS 1) Open an editor 2) Copy something 3) Hit Ctrl+F to open the Find Dialog 4) Highlight on of the fields 5) Hit Ctrl+V - it will paste into the dialog behind

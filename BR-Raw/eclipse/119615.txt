@@ -1,0 +1,3 @@
+[PropertiesDialog] Can no longer change read-only property
+
+I20051206-1200 1. open the properties for a file 2. change the read-only property 3. close 4. open the properties dialog again ==> state did not change

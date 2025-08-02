@@ -1,0 +1,3 @@
+IDE plugin broken due to missing dependency on runtime compatibility
+
+The dependency upon org.eclipse.core.runtime.compatibility was removed from org.org.eclipse.core.resources. This breaks our application since org.eclipse.ui.ide depends upon the compatibility plugin for the ResourceNavigator view. The dependency was broken due to https://bugs.eclipse.org/bugs/show_bug.cgi?id=162402.

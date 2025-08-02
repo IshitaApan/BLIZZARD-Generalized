@@ -1,0 +1,3 @@
+[Compatibility] WorkbenchPage is not uninjected when closed
+
+We unhook the page from the window when the page is closed but never actually uninject it.

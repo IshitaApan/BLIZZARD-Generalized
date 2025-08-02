@@ -1,0 +1,3 @@
+photo demo: should use square corners
+
+With the fixing of Bug 263741 - Support rectangular selection corners and once we close bug #264277, we'll be able to change the corner styling in the thumbnails to square corners as per Linda's design. Ultimately this would be a CSS property change but for now the easiest thing is to just change Thumbnails.java to set the property 	ir.setShowRoundedSelectionCorners(false);

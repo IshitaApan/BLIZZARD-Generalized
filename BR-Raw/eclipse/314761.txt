@@ -1,0 +1,3 @@
+components.e4xmi should be processed in bundle-dependency order
+
+BuildId: HEAD components.e4xmi files contributed through the org.eclipse.e4.workbench.model extension point are processed in no defined order. As a result, a components.e4xmi cannot reliably depend on elements defined in another components.e4xmi file. The following patch (to follow) ensures that the extensions are topologically sorted by their contributor's dependencies. With this patch, components.e4xmi can depend on other components.e4xmi files -- providing their containing plugins have a direct dependency. This will likely be a necessary piece to help with bug 309867.

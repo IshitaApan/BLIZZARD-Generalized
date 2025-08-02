@@ -1,0 +1,3 @@
+[IntroMgmt] Workbench does not handle switching Intro into standby mode gracefully.
+
+In the case where an intro part does a long UI operation when switching into standby mode, the workbench gives a "frozen" effect, and the UI is not painted gracefully.

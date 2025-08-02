@@ -1,0 +1,3 @@
+[FastViews] 'Context menu > Close' on 'Restore' button does nothing
+
+I20070321-1800 'Context menu > Close' on the 'Restore' button of a new fast view bar does nothing.

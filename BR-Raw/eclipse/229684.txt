@@ -1,0 +1,3 @@
+[Progress] Potential bug in ProgressManagerUtil#getModalShellExcluding
+
+The method getModalShellExcluding allows the client to pass in a shell that should be excluded from the search. However, the body of the method actually does this: if (shells[i].equals(shell)) { 	break; } This completely aborts the search for a modal shell if the excluded shell is encountered. If there is another modal shell that comes after the excluded shell in the shell array, it won't be returned. I'm assuming this is a bug, since it means the result of the method is somewhat random depending on whether there is a modal shell before versus after the excluded shell in the array. I suspect it should be: if (shells[i].equals(shell)) { 	continue; }

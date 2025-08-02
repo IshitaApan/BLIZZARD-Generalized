@@ -1,0 +1,3 @@
+NPEs and other errors loading custom perspective
+
+I20040324 (0800) 1) Create a new workspace 2) Close all perspectives 3) Import a 2.1 preference file that has a custom perspective (pref file attached) 4) Using the "open a perspectivee" button, open the "Sumatra" perspective -> Error A) the workbench window resizes -> Error B) Concurrent modification exception in the log file 5) Click the "open a perspective" button again -> Error C) NPE in log file, dialog fails to open 6) File -> Exit -> Error D) Problems occurred saving the workbench

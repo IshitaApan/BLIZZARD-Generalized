@@ -1,0 +1,3 @@
+[Services] Provide the IWorkbenchLocationService
+
+Created attachment 97813 Rogue implementation Instead of sticking IWorkbench, IWorkbenchWindow, etc into the ServiceLocator provide a simple service tied to the workbench model. The first attachment is a rogue implementation for safe keeping, complete with a different service pattern ... to dangerous. PW

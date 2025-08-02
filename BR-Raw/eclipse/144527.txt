@@ -1,0 +1,3 @@
+[Wizards] WizardDialog should have the maxmize button
+
+RC6 Many of our wizards show up quite scrunched initially in High Contrast mode. When they are expanded the size is quite good. We should set the maximize flag so that we get a maximize button on the dialog shell.

@@ -1,0 +1,3 @@
+[Compatibility] Perspective events are fired even if the perspective hasn't actually changed
+
+If you try to set the perspective of a page to whatever it's currently showing, perspective events are fired. This shouldn't be the case.

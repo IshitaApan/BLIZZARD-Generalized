@@ -1,0 +1,3 @@
+[Working Sets] Select Working Sets dialog nitpicks
+
+List has no border. If empty Edit... and Remove should be disabled.

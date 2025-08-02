@@ -1,0 +1,3 @@
+[Perspectives] Minimized stacks in 'perspectiveExtensions' use the old behavior
+
+Testing for M6 revealed a regression in the desired effect (i.e. using the old min/max behavior).

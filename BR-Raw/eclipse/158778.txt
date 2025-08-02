@@ -1,0 +1,3 @@
+[Viewers] request for remove(parent, index) API on tree viewer
+
+3.3 It would be helpful to have a 'remove(Object parent, int index)' method on the tree viewer to complement that 'replace(...)' and 'setChildCount(...)' APIs. The debug platform requires such a method to implement filtering in virtual tree views. Rather than performing a 'replace/remove' based on elements, the content provider can make one atomic call to remove an element at a specific index.

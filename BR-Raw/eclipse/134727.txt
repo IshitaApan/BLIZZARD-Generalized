@@ -1,0 +1,3 @@
+[WorkbenchParts] Double save prompt with view that implements ISaveablePart
+
+I have a view that implements ISaveablePart. Eclipse 3.1 prompted the user to save changes when closing the view. In 3.2M6, I get two prompts to save. In WorkbenchPage.hideView(IViewReference), persp.canCloseView(view) prompts the user to save changes. If the user clicks the No button, Perspective.canCloseView(IViewPart) returns true. Then, hideView gets the reference count (which is 1), gets the saveablesList, and calls savablesList.preCloseParts(...,true,...) which prompts the user to save a second time.

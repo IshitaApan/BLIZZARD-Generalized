@@ -1,0 +1,3 @@
+[Preferences] PlatformUIPreferenceListener should log exceptions instead of printing them
+
+Please refer to line 152 and line 158. A rather trivial bug that someone from the community can help with. :)

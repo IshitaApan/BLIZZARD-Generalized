@@ -1,0 +1,3 @@
+Navigator View context menu not showing Open/Close Project options
+
+The Navigator View no longer shows an Open and Close Project options in context menu (i.e. menu that appears when right-cliking on a project folder). Up until M4 both menu options were there. I just installed M5 and the options are no longer available. This is a big usability booster, please put it back. :- )

@@ -1,0 +1,3 @@
+[KeyBindings] [KeyBindings] New Keys pref page: should have useful secondary sort order
+
+I20070503-1400 The table on the new Keys pref page should have a useful secondary sort order. E.g. when I sort by Category, the items inside 'Compare' are randomly sorted. They should either be sorted by Command or by the last chosen sort key as secondary sort criterion.

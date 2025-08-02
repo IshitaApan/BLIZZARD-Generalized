@@ -1,0 +1,3 @@
+[UI] Search Bar and Perspective switcher should always be on the same line
+
+Right now if you resize the window it will first place the Perspetive Switcher onto the second line (where it is *not* left-aligned because the spacer control is still on the first line...).

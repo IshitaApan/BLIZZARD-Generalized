@@ -1,0 +1,3 @@
+[Markers] MarkerView tests should not have filters enabled by default
+
+I20060301-0800, GTK+ While debugging Bug 126901, I noticed that the Problems view repaints and there appear to be several update jobs kicked off. This happens simply on editor activation, not on actual marker changes. In the case of the Java editor activation tests, this amounts to about 15% of the total time (on my machine, using sampling in OptimizeIt).

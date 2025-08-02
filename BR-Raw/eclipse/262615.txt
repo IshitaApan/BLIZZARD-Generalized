@@ -1,0 +1,3 @@
+[Commands] Add test for TextActionHandler
+
+Created attachment 123909 TextActionHandler tests v01 Add some validation tests. PW

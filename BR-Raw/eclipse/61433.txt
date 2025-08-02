@@ -1,0 +1,3 @@
+[Javadoc] IWorkbenchPart.addPropertyListener() doc
+
+The doc for this method doesn't take into account the new API constants. Also, could these constants be in the new IWorkbenchPart2 interface instead?

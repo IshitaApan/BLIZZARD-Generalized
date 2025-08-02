@@ -1,0 +1,3 @@
+[Progress] Elements not refreshing on completion
+
+When we complete a progress item we are not refreshing the title or the icon so we are getting finished jobs with wait icons and cancel requested for jobs that actually cancelled. Steps 1) Create 3 sequential jobs using the progress example 2) Cancel them

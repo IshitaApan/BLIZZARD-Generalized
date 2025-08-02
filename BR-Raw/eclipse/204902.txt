@@ -1,0 +1,3 @@
+[Markers] Quick FIx dialog should select all markers by default
+
+Currently we select no markers by default

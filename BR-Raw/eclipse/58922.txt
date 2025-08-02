@@ -1,0 +1,3 @@
+[RCP] Texts created with unsupported styles
+
+- org.eclipse.ui.internal.presentations.AbstractTableInformationControl creates a Text with style SWT.FLAT - org.eclipse.ui.internal.ide.dialogs.SystemSummaryDialog.createDialogArea creates a Text with style SWT.NO_FOCUS

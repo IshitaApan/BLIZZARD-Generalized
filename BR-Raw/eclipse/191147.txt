@@ -1,0 +1,3 @@
+[CommonNavigator] Problem with selection causes view to fail to load
+
+Regression: see bug 138149 comment 6.

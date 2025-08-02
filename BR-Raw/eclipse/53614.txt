@@ -1,0 +1,3 @@
+[Progress] Need a way to prioritize job display
+
+Currently we only prioritize jobs to be displayed by whether they are system or not. The sorter should 1) Put build jobs first 2) Then sort by priority. Any other suggestions?

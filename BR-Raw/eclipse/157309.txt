@@ -1,0 +1,3 @@
+[Viewers] ListViewer should provide insert-method
+
+TableViewer and TreeViewers provide methods to insert a model element and so should ListViewer

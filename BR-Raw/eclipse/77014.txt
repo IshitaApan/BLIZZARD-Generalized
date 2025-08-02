@@ -1,0 +1,3 @@
+[Commands] request: Provide close view command and binding
+
+In Eclipse 3.0.1, the key sequence CTRL+F4 will close an editor view. However, the same key sequence will not close a non-editor view. I think that CTRL+F4 should close the active view; editor view or non-editor view.

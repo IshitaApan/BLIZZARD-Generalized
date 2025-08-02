@@ -1,0 +1,2 @@
+[Viewers] ColumnViewer#getColumnViewerOwner() doesn't respects column count
+

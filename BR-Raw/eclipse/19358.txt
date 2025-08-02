@@ -1,0 +1,3 @@
+NPE in WorkbenchPage.busyResetPerspective
+
+F2 See the log in bug 19238.

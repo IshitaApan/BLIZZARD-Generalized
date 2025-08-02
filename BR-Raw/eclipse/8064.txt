@@ -1,0 +1,3 @@
+working set: can enter all-spaces names
+
+i think working set names that consist of only spaces should be disallowed. also, names should be trimmed - otherwise you can have a set named 'a' and another one named 'a '

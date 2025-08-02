@@ -1,0 +1,3 @@
+NPE in GotoActionGroup
+
+Lines 57-58 of org.eclipse.ui.views.navigator.GotoActionGroup are: ----------- IStructuredSelection resourceSelection = ResourceSelectionUtil.allResources (selection, IResource.PROJECT); if (!resourceSelection.isEmpty()) { ----------- ResourceSelectionUtil.allResources() can return null in several cases, resulting in a NPE on line 58 of GotoActionGroup. I don't believe this occurs in the Navigator, however, I am reusing GotoActionGroup in my own navigator class which displays non-Resource elements. The NPE occurs when it encounters a non-Resource element. Simple fix: ---cut-'n-paste-------- if (resourceSelection != null && !resourceSelection.isEmpty()) { ---cut-'n-paste-------- Thanks.

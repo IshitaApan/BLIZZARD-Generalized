@@ -1,0 +1,3 @@
+[Progress] Strange build behaviour when autobuild is off and workspace locked
+
+RC1 - auto build off - clean workspace, but don't build - create job that locks workspace - Build All observe: a background Job gets scheduled Expected bahviour: I get a blocked dialog with the following options - cancel background - cancel foreground - run build in background The same happens when changing the workspace compiler settings via Preferences- >Java->Compiler.

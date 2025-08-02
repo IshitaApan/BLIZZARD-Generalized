@@ -1,0 +1,3 @@
+[PopupDialog] Keybindings lost after using PopupDialog
+
+I20051214-0800 We found this when verifying bug 120656. Does not happen on WindowsXP. 1. open Quick Outline (Ctrl+O) 2. choose "Move" or "Resize" from view menu 3. move/resize 4. click into editor ==> key binding for Ctrl+O no longer working Tom: please clarify here: is it just Ctrl+O or all key bindings.

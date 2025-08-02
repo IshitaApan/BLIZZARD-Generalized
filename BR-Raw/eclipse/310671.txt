@@ -1,0 +1,3 @@
+[LinkedResources] "New > Folder" wizard: Bad dialog resizing when clicking "Advanced"
+
+I20100426-0852 The "New > Folder" wizard: Clicking the "Advanced" button should keep the button at the same location on the screen and resize the dialog such that the new options fit in. It also wasn't perfect before, but in I20100426-0852, the "Advanced" button jumps a huge distance (is not under the mouse any more) and the dialog only gets a tiny bit taller.

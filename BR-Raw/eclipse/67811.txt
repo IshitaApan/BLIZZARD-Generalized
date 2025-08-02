@@ -1,0 +1,2 @@
+Need support for adding separators to the help menu
+

@@ -1,0 +1,3 @@
+[ErrorHandling] Possibility of accessing the status manager before workbench starts up
+
+I20070205-1300 Take a look at bug 172912 - for whatever reason there was a problem getting the workspace location set on startup. In this case we try and open a message dialog. This touches the status manager which touches the workbench before it's been initialized. Status manager can't do this. It either has to to work seperate from the workbench or we cant rely on it this early in the app lifecycle.

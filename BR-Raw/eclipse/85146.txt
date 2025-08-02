@@ -1,0 +1,3 @@
+[Preferences] keywords: Only first word taken
+
+20050214 As discussed, I was adding keywords like: <page name="%compliancePrefName" category="org.eclipse.jdt.ui.preferences.JavaBasePreferencePage" class="org.eclipse.jdt.internal.ui.preferences.CompliancePreferencePage" id="org.eclipse.jdt.ui.preferences.CompliancePreferencePage"> <keywordReference id="org.eclipse.jdt.ui.compiler"/> </page> <extension point="org.eclipse.ui.keywords"> <keyword label="%preferenceKeywords.compiler" id="org.eclipse.jdt.ui.compiler"/> </extension> preferenceKeywords.compiler=Compliance Compatibilty 5.0 The filter dialog only reacts on 'Compliance', but not on 'Compatibilty'

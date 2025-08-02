@@ -1,0 +1,3 @@
+[Import/Export] wizard lists not filtered according to capabilities
+
+I noticed this in 3.2 and wondered if it also existed in 3.1 - it does. 1. Start eclipse SDK with all (both) capabilities enabled, Development and Team. 2. File > Import Notice team stuff in the list, like Team project set 3. Preferences > Capabilities. Disable the Team stuff 4. File > Import BUG: notice the team stuff still in the list. If you were to compare the new wizard before and after disabling the Team stuff notice the Team items no longer appear.

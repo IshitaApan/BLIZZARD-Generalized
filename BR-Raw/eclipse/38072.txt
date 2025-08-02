@@ -1,0 +1,3 @@
+[Wizards] Broken layout in the Logic Example creation wizard
+
+See the attached screenshots. On the first screenshot, the layout is cut off at the top and right side (the title area). Moreover, there is a lot of wasted space below the "Logic Model Samples" group in the lower part (this is how the dialog opens, it is not resizable). The second screenshot shows what happens after clicking on "Advanced >>" twice. The "Advanced" part does not disappear but is cut in half.

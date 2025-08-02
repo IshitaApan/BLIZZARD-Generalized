@@ -1,0 +1,3 @@
+Extra space above welcome view.
+
+Tested with... Build id: I20100426-0852 1) Start a fresh Eclipse install on a new workspace 2) You should see the Welcome page filling the entire content area of the shell 3) Click on the "increase font size" icon. 4) Notice that space is inserted between the top of the Welcome page and the shell titlebar. (It looks like this would be the space for the coolbar.) Chris G indicates that this does not occur on Windows.

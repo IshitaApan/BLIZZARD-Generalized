@@ -1,0 +1,3 @@
+[GlobalActions] Leak: 2 Retarget actions leaked for each Java Editor open/close
+
+N20050525 Open a JavaEditor Close a JavaEditor Repeat For each open / close two org.eclipse.ui.actions.RetargetAction are leaked. The instances remain as they are registered as property change listeners of the action bars

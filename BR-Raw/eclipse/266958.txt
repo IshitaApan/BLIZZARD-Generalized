@@ -1,0 +1,3 @@
+[CSS] Add ToolBar to SWT example
+
+We need a ToolBar as part of the SWT example so we can explore styling it.

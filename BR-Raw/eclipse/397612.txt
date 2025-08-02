@@ -1,0 +1,3 @@
+Need support for multi-instance views
+
+Our current support for multi instance views lacks the ability to add wildcard placeholders into a perspective (i.e. ":*").

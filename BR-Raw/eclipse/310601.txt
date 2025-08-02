@@ -1,0 +1,3 @@
+[FieldAssist] ContentAssistCommandAdapter enablement not toggled when field has focus
+
+I20100426-0852 The fix for bug 301196 made bug 199127 reappear (Mac only).

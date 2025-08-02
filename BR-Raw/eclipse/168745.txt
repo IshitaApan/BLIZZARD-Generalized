@@ -1,0 +1,3 @@
+[Forms] Section title not visible after creation
+
+Build ID: 3.2.1 Linux GTK2 32bits Steps To Reproduce: createSection(composite, Section.TWISTIE | Section.TITLE_BAR | SWT.BORDER); sectionPlot.setExpanded(true); sectionPlot.setText("Plot preview"); 2. after running title gets show after "toggling" the section at least once More information: I have use VE to create the section code and it works perfectly until I want this section to be expandable/collapsable.

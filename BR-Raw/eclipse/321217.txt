@@ -1,0 +1,3 @@
+[Compatibility] Toolbar updates from hidden view hijacks the tab folder
+
+Created attachment 175488 Screenshot depicting the problem in question. 1. Launch a "hello world" console application. 2. The 'Console' view appears as expected. 3. Turn off the 'Show Console When Standard Out Changes' and 'Show Console When Standard Error Changes' settings. 4. Activate another view so that the 'Console' view is now in the back. 5. Run your application again. You will see the toolbar overlapping with one another. As Eric suspected, this is caused by the code in the action bars. See org.eclipse.ui.internal.e4.compatibility.ActionBars.updateActionBars().

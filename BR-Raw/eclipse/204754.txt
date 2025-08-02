@@ -1,0 +1,3 @@
+[DataBinding] BeanObservableValueDecorator.equals method implementation is incorrect
+
+Build ID: I20070621-1340 Steps To Reproduce: The equals() method implementation is not reflexive (a.equals(a) returns false). The decorator is delegating the equals method to the decorated IObservableValue, but first it should check whether the other object to which the decorator is compared is another BeanObservableValueDecorator, if so delegate to check the equality of the decorated IObservableValue. More information:

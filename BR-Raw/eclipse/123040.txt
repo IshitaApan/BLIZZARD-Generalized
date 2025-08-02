@@ -1,0 +1,3 @@
+[Commands] request: display help topic
+
+I'm going to attach a patch to "command-ify" the opening of help topics. The command takes a parameter which is the href of a help topic. The default handler uses IWorkbenchHelpSystem.displayHelpResource(String) with the href parameter. If no parameter was given, the default handler calls IWorkbenchHelpSystem.displayHelp() instead to simply open the help system. Note that this looks like it should be opened against User Assistance, but the plugins that should be patched (I think) are org.eclipse.ui and org.eclipse.ui.workbench, so I opened against UI.

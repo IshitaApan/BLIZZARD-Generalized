@@ -1,0 +1,3 @@
+[Linked resources] testing for empty path in link locations
+
+build 20030114 IWorkspace.validateLinkLocation now tests if the specified path is absolute or a path variable, this is good. When I pass in an empty path (because the user did not type a link target yet) I get an error with code IResourceStatus.VARIABLE_NOT_DEFINED and a message stating that '"" is not a valid location', this could be better. A message like "A Link target must be specified" would be more appropriate. I currently work around this by checking for error code VARIABLE_NOT_DEFINED and then checking if the link target is empty.

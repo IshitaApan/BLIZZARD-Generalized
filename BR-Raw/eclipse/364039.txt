@@ -1,0 +1,3 @@
+[Markers] Add "Delete All Markers" in severity group context menu in Problems view
+
+The Problems view allows deleting markers, individual or selected group. However, when there are a few thousands needed to be deleted it is cumbersome to do so. Is it possible to add "Delete" item in context menu for severity group (Errors/Warnings/Infos) to be able to delete all in the group?

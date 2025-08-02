@@ -1,0 +1,3 @@
+[Viewers] ClassCastException opening file from Navigator
+
+I get a class cast exception when I open a file from the navigator. The problem is that there is a cast to StructuredSelection instead of IStructuredSelection in the ResourceNavigator class (and the object being cast is a TreeSelection). Here are the interesting lines of the trace. Caused by: java.lang.ClassCastException: org/eclipse/jface/viewers/TreeSelection incompatible with org/eclipse/jface/viewers/StructuredSelection 	at org.eclipse.ui.views.navigator.ResourceNavigator$8.run(ResourceNavigator.java:726)

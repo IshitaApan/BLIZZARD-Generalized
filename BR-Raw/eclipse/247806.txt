@@ -1,0 +1,3 @@
+[ErrorHandling] [plan item] configurable statushandlers
+
+user should be able to select which statushandler should be used using command line. Currently only one status handler can be present in the application, and if there is more, random one is selected.

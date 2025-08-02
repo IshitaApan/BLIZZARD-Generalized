@@ -1,0 +1,3 @@
+Hidden menu items are not updated on perspective switches
+
+Found when checking the new Customize Perspective Dialog behavior... If you have both the Java and Debug perspective open and hide a menu or toolbar item that is visible in both (i.e. the Search->Search tb item) then it won't get hidden/shown when you switch perspectives.

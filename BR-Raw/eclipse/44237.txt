@@ -1,0 +1,3 @@
+[Jobs] Progress View: finished jobs not removed from view
+
+I20030930 No steps, but I can observe this all the time: After many jobs have run, some zombies are still displayed in the progress view and will remain so until another job is run, or the "verbose" preference is checked.

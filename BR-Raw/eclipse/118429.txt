@@ -1,0 +1,3 @@
+[DataBinding] Validation should use IStatus, not just Strings
+
+In order to use data binding in Workbench or IDE dialogs and preference pages, we need validation in terms of IStatus objects. Using strings is too simplistic. For example, look at the wizard for creating a new class. You will get a warning if the class name does not start with an uppercase letter, or if you don't provide a package name, but you will still be able to click "Finish" to proceed anyway. (Note that IStatus is currently not on the classpath, we need to re-introduce the dependency on org.eclipse.equinox.common, which contains IStatus etc.)

@@ -1,0 +1,3 @@
+[Themes] Make org.eclipse.ui.internal.themes.ColorUtils public API
+
+Make the org.eclipse.ui.internal.themes.ColorUtils part of the public API

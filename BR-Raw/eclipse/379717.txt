@@ -1,0 +1,3 @@
+All views lost after a New Window
+
+I20120515-2200 (but also present in earlier builds) Repro steps: 1. Start up a new workspace 2. Close the Welcome page 3. Try minimizing (and restoring) the Package Explorer => works 4. Window > New Window 5. Close the old window 6. Try minimizing the Package Explorer => fails (nothing minimized to the trim and no way to bring it back ever, except full restart)

@@ -1,0 +1,3 @@
+[RCP] Toolbars with 0 items should not be set into ViewForm
+
+If a toolbar does not have any items, it should not be placed in a ViewForm. Instead the ViewForm slot (e.g. setTopCenter()) should be set to null until the toolbar has items.

@@ -1,0 +1,3 @@
+Contributed Trim is not sited correctly
+
+Trim contributed using the location information: <location> <order position="after" relativeTo="command2"/> <bar type="trim"/> </location> Shows up at the beginning of the main command line (i.e. to the left of the CBanner. It should be showing up to the right.

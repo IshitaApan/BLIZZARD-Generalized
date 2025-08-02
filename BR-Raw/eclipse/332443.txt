@@ -1,0 +1,3 @@
+Logged exceptions from IPresentationEngine's removeGui(MUIElement) should include information about the element being unrendered
+
+We currently just get an arbitrary stack trace. This makes debugging problems like bug 330662 very difficult. We should include information about the element being unrendered into our logged message to provide some more context about the error.

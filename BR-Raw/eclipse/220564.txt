@@ -1,0 +1,3 @@
+[Preferences] IWorkbenchPreferenceConstant#SHOW_MULTIPLE_EDITOR_TABS is mutable
+
+IWorkbenchPreferenceConstant#SHOW_MULTIPLE_EDITOR_TABS is mutable. Raised this to P2 as this is API.

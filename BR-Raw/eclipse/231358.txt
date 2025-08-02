@@ -1,0 +1,3 @@
+[Contributions] Provide a core expression to check for bundle activation
+
+To help with situations like bug 228445 we need to enhance the id = org.eclipse.core.expressions.bundlePropertyTester property tester. It currently supports properties = product,isBundleInstalled. I propose to add isBundleActive PW

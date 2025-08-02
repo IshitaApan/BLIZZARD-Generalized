@@ -1,0 +1,3 @@
+Errors in ResourceManager JavaDoc
+
+In the doc of createImage method you read: Creates an image, given an image descriptor. Images allocated in this manner must be disposed by disposeImage, and never by calling Image.dispose(). disposeImage is not present, maybe it should be destroyImage? The same error for the other creation methods.

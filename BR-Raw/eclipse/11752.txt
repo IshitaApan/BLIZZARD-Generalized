@@ -1,0 +1,3 @@
+Internal error building project with cycles
+
+Build 20020319 1) Create java project P1 2) Create java project P2 3) Add P1 as project reference for P2 4) Add P2 as project reference for P1 5) Select both projects in navigator, Rebuild All An internal error occurs (UnsupportedOperationException). A glance at the code shows the error in BuildAction.pruneResources: 	List ordered = Arrays.asList(prereqs[0]); 	ordered.addAll(Arrays.asList(prereqs[1])); Arrays.asList returns an immutable list, so the addAll() call is guaranteed to fail if the parameter list (prereqs[1]) has any elements.

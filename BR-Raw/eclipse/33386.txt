@@ -1,0 +1,3 @@
+[Working Sets] ok disabled in working set selection dialog after editing working set
+
+build RC1 -open the working set selection dialog and create a new working set -select the new working set and close the selection dialog -open the selection dialog again and edit the selected working set without changing the selection -close the working set edit dialog by selecting ok ->The ok button in the working set selection dialog is still disabled. It should be enabled. I have to change the selection for the button to be enabled.

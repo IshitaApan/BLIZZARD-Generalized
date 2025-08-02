@@ -1,0 +1,3 @@
+[Markers] Column orientation not stored when markers views are closed
+
+If we re-order view columns by drag and drop or add/remove them using the preferences the values we ended up with are not restored on restart.

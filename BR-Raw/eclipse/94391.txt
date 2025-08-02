@@ -1,0 +1,3 @@
+[Preferences] preference filter does not like compound names
+
+i200505092010 The preference page filter does not like compound names. For instance, "Code Assist" will show no hits, although there are two pages with this name.

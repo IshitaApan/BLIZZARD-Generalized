@@ -1,0 +1,3 @@
+[LinkedResources] LinkedResourceDecorator shows wrong decoration for non-local targets
+
+LinkedResourceDecorator.decorate uses resource.getLocation to check if the target of a link exists. This returns null when the target is on a non-local (EFS) filesystem, and as a consequence linked resources pointing to non-local files or folders are displayed with a warning overlay. It seems that using getLocationURI instead would fix the problem?

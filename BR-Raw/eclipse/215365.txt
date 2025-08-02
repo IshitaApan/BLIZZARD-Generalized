@@ -1,0 +1,3 @@
+[About] Migrate about dialog to new signed content API
+
+Created attachment 86951 patch The about dialog is using an internal/provisional package to access signer information about the installed bundles in the system (org.eclipse.osgi.internal.provisional.verifier). This package is being replaced by an API package in 3.4 (org.eclipse.osgi.internal.signedcontent). This patch migrates the org.eclipse.update.core bundle to the new API.

@@ -1,0 +1,3 @@
+[Decorators] Remove DecoratorUpdateListener class from IDE plug-in
+
+DecoratorUpdateListener class should be removed as it is just experimental in 3.2 (see org.eclipse.ui.ide plugin)

@@ -1,0 +1,3 @@
+[ActivityMgmt] Selecting an option from filtered contributions should optionally enable activities
+
+When you select an entry that is not in the filtered list in any of our dialogs we should prompt to see if the user wants to wake up the activity. They also need a "do not ask again" option.

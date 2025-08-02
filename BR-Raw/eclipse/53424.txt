@@ -1,0 +1,3 @@
+[RCP] Workbench should not dispose the display
+
+build I20040225 Currently the Workbench disposes the display passed in to PlatformUI.createAndRunWorkbench when the Workbench is closed. This should be left up to the caller, since it created the display.

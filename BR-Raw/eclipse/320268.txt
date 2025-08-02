@@ -1,0 +1,3 @@
+[Compatibility] Icons missing in the markers view's context menu
+
+In 3.x, the 'Copy' and 'Delete' menu items have icons.

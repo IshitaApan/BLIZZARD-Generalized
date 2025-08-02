@@ -1,0 +1,3 @@
+[ActivityMgmt] IActivity still uses "activity activity bindings"
+
+build I20050413 IActivity.getActivityRequirementBindings still uses "activity activity bindings" in a few places, even though we changed the API to IActivityRequirementBinding.

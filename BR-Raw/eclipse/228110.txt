@@ -1,0 +1,3 @@
+[Markers] Problems view: Improve 'Warnings on Selection'
+
+20080421 The problems view has a built-in configuration 'Warnings on Selection'. I wonder how useful this is. Wouldn't it be more useful to change this to 'Error/Warnings on Selection'? That's something I often use. Other useful configuration worthy to be built-in: 'Error/Warnings on Same Project'

@@ -1,0 +1,3 @@
+[WorkingSets] working set selection wizard page has faulty layout
+
+The layout for the Working set type: label of the New/Edit WorkingSetTypePage wizard page is not correct. If you select a type, then go back, you will see the label's layout is grabbing excess vertical space when it shouldn't be. I have a patch to fix this.

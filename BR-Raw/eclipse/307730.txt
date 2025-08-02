@@ -1,0 +1,3 @@
+[Compatibility] Workbench window selection not available to 3.x handlers
+
+HandlerUtil's getCurrentSelection(ExecutionEvent) returns null. 1. Select a project. 2. Context menu > Export... 3. General > File System > Next 4. The project is not preselected.

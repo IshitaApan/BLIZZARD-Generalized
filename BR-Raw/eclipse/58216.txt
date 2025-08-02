@@ -1,0 +1,3 @@
+[Progress] should show busy cursor first when #showInDialog
+
+It seems that when a user job runs the dialog shows immediately. It results in a flashy dialog when the jobs run quickly. I thought you had suggested that the busy cursor should be shown for a while first.

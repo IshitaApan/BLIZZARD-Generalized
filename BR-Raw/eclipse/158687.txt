@@ -1,0 +1,3 @@
+[Databinding] WritableValue throws ValueChange events when a change has not occurred
+
+WritableValue currently throws a ValueChange event anytime the value is set rather than just when the value changes. Attaching patch...

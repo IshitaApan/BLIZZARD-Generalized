@@ -1,0 +1,3 @@
+[FieldAssist]  Wrong location calculation of proposal popup shell if content control is near bottom in the screen
+
+Created attachment 118794 snippet that shows the problem If the content control's location of the proposal popup is near the bottom of the screen, the shell location calculation is wrong (over the content control). Please move the popup shell over the top of the content control if the popup shell is to close to the bottom of the screen. Please see the attached snippet and screenshots.

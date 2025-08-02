@@ -1,0 +1,3 @@
+[Viewers] Viewer#setComparator(ViewerComparator) has no effect
+
+Version: 3.2.0 Build id: I20060428-1315 Setting a Comparator in setComparator is actually not triggering any sorting in my viewer. It works when I call setComparator(ViewerSorter). Any ideas? Ben

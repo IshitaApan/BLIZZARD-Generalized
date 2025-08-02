@@ -1,0 +1,3 @@
+[DataBinding] Correctly set the staleness state of the validation status observable of the MultiValidator
+
+For Bindings, the validation status observable should be stale whenever either the target or model observable is stale. For the MultiValidator, the validation status observable should be stale whenever any of its dependencies accessed from within the MultiValidator#validate() is stale.

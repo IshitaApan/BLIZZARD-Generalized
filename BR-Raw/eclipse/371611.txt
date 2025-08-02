@@ -1,0 +1,3 @@
+LinkageError in DynamicToolBarContributionItem can cause workbench startup to fail
+
+The org.eclipse.mylyn.tasks.ui bundle contributes a control on a trim: pre. <extension point="org.eclipse.ui.menus"> 	 <menuContribution locationURI="toolbar:org.eclipse.ui.trim.command2"> 	 <toolbar id="org.eclipse.mylyn.tasks.ui.trim.container"> 	 <control 	 class="org.eclipse.mylyn.internal.tasks.ui.TaskTrimWidget" 	 id="org.eclipse.mylyn.tasks.ui.trim.control"/> 	 </toolbar> 	 </menuContribution> 	</extension> When loading of the TaskTrimWidget class fails the entire workbench fails to start. A sample stack trace is on bug 371599.

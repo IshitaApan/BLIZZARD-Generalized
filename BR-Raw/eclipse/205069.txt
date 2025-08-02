@@ -1,0 +1,3 @@
+[Trim] Dragging a maximized editor's tab restores editor
+
+I20070925-1406 Dragging a maximized editor's tab immediately restores (unmaximizes) the editor area. I would expect that I can reorder tabs also while an editor is maximized.

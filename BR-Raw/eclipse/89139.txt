@@ -1,0 +1,3 @@
+[JFace] - API Review - DerivedImageDescriptor not complete
+
+while reviewing the API for DerivedImageDescriptor, I noticed that the constructor parameter originalImage is never assigned in the constructor to the instance variable originalImage, which is used in all the creation methods. I doubt this class works...?? Also, the #createResource method doesn't throw the DeviceResourceException as documented.

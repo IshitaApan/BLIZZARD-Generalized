@@ -1,0 +1,3 @@
+[CSS] second failure in css tests
+
+http://build.eclipse.org/eclipse/e4/build/e4/downloads/drops/4.0.0/I20090226-1545/I20090226-1545/results/html/org.eclipse.e4.ui.tests.css.core_linux.gtk.ppc.html There was a failure in testImportantRule() in my test build, might be in tonight's build. PW

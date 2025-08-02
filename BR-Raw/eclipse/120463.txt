@@ -1,0 +1,3 @@
+Need to integrate ICU4J into platform
+
+Now that ICU4J will be in the build for M4, we need to work on getting the required changes into the platform. Doug will submit the changes as a set of patches which I will delegate to plugin owners.

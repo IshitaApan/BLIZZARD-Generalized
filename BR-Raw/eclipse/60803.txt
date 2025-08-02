@@ -1,0 +1,3 @@
+Can't build manually if build automatically turned on
+
+I have a PDE plugin project with a long running ant builder attached to it. The ant builder compiles and creates a native library. I tell the ant builder to run only on manual build but I want the Java and plugin stuff to build automatically. If I turn build automatically on, I don't seem to have a way to invoke a manual build. Am I unrealistically mixing both worlds or just plain missing something.

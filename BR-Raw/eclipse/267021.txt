@@ -1,0 +1,3 @@
+[DataBinding] NotUsedLocally errors in org.eclipse.core.databinding
+
+Created attachment 127471 Remove unused methods v01 For example: Description	Resource	Path	Location	Type The method doAddListener(Object, INativePropertyListener) from the type DelegatingListProperty.NullListProperty is never used locally	DelegatingListProperty.java	org.eclipse.core.databinding/src/org/eclipse/core/databinding/property/list	line 99	Java Problem Caused by the fix for bug 265561 and bug 262287 PW

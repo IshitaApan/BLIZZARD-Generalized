@@ -1,0 +1,3 @@
+[Dialogs] Make long PopupDialog titles readable
+
+I20051116-1332 The titles of some PopupDialogs (e.g. Quick Type Hierarchy Ctrl+T) can become rather long. They can only be read after having resized the dialog. I see two ways to overcome the problem (I'd prefer to do both of them): a) don't use that big title font, but the normal font, boldened b) add a tooltip to the title (to show long titles without having to resize)

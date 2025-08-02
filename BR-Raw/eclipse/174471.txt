@@ -1,0 +1,3 @@
+[Viewers] [Snippet] Demonstrate Extended Custom Tooltips for TableViewer with multiple selection support
+
+Provides a snippet similar to Snippet023TreeViewerCustomTooltips.java that provides tooltips for a table viewer. Furthermore, this example assumes that the table allows multiple selection.

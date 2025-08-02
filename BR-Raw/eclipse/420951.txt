@@ -1,0 +1,3 @@
+[CSS] Height of part header background is too small when shadow is disabled
+
+Created attachment 237154 screenshot showing the problem In the proposed fix for bug 420238, the style for .MPartStack in e4_basestyle.css is changed like this: -	swt-shadow-visible: true; +	swt-shadow-visible: false; With this, the part header has a 1 pixel glitch as can be seen in the attached screenshot: The height of the background is too small, leading to a white line in some parts.

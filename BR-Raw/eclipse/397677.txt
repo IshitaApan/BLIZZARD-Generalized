@@ -1,0 +1,3 @@
+HandledToolItem in Toolbar without defined command and tooltip leads to NPE
+
+If a new element of type HandledToolItem is created as child of Toolbar, this leads to java.lang.NullPointerException 	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.getToolTipText(HandledContributionItem.java:547) 	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.updateToolItem(HandledContributionItem.java:531) 	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.update(HandledContributionItem.java:475) .. unless the xml respective entry at least features <tooltip="">.

@@ -1,0 +1,3 @@
+[Min/Max] Toolbar and Perspective bar should not be default locations for fast view trim
+
+When either minimizing a stack or maximizing another, we compute the default locations for the trim. Two possible destinations are the toolbar and the perspective bar. In practice its quite odd and confusing for the FVB trim to show up there: in the former case its easy to visually lose the trim in the noise of all the toolbar icons, and in both cases its confusing because they are not either tools or perspectives (respectively). We should avoid using these locations as default locations. I'm not keen on permitting them as a manual D&D location either but that should be considered separately.

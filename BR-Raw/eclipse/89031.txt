@@ -1,0 +1,3 @@
+[Undo/Redo] IWorkbench#getOperationSupport() marked  experimental
+
+IWorkbench#getOperationSupport() marked experimental

@@ -1,0 +1,3 @@
+TextCellEditor.isSelectAllEnabled() is expensive (1GFBITI)
+
+TextCellEditor.isSelectAllEnabled() does text.getText().length. This is expensive. It's common to have Select All enabled even when the widget is empty. Compare with Notepad and Windows Explorer. Should change it to just return true. NOTES:

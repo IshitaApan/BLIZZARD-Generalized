@@ -1,0 +1,3 @@
+Key Bindings pref needs to be real
+
+Build 20020521 Need to move it out of Work in Progress page.

@@ -1,0 +1,3 @@
+[Import/Export] Import exisiting should pre-check for project already in workspace
+
+While it is good that it lets you import projects in the default workspace location, it should not let you select projects that already exist in the workspace (since importing such a project will fail). When searching for .project files in the file system, it could use IWorkspaceRoot.findFilesForLocation followed by checking IFile.exists() to filter out .project files for existing projects.

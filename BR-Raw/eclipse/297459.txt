@@ -1,0 +1,3 @@
+Properties dialog for Virtual Folder shows Type: Group
+
+The dialog should show Type: Virtual Folder.

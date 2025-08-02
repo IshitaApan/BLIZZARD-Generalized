@@ -1,0 +1,3 @@
+[Forms] ColumnLayoutData javadoc for CENTER and RIGHT constants are interchanged
+
+Very simple "bug". The javadoc for CENTER and RIGHT constants of the org.eclipse.ui.forms.widgets.ColumnLayoutData class are exchanged. Change this: /** 	 * Horizontal alignment constant - control will be aligned to the right. 	 */ 	public static final int CENTER = 2; 	/** 	 * Horizontal alignment constant - control will be centered. 	 */ 	public static final int RIGHT = 3; to this: /** 	 * Horizontal alignment constant - control will be centered. 	 */ 	public static final int CENTER = 2; 	/** 	 * Horizontal alignment constant - control will be aligned to the right. 	 */ 	public static final int RIGHT = 3; and all is fine :-)

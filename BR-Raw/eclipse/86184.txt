@@ -1,0 +1,3 @@
+[KeyBinding] registry: Missing key binding for paste in emacs scheme
+
+3.1 M5a 1. start fresh workspace 2. Window > Preferences > General > Keys 3. switch to "Modify" 4. select emacs scheme 5. select "Edit" category 6. select "Paste" command ==> all key bindings are missing, only the binding provided by "Editing Text" is there. This might be caused by the fact that Ctrl+Y is already declared in org.eclipse.ui/plugin.xml for the redo command.

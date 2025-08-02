@@ -1,0 +1,3 @@
+[FilteredItemsSelectionDialog] FilteredItemsSelectionDialog: history size off by 1 and Javadoc clarifications
+
+Created attachment 79664 Fix I20071002-1342 The FilteredItemsSelectionDialog.SelectionHistory logic is off by 1, i.e. 61 elements are retained instead of 60. Furthermore, the patch contains some (unrelated) Javadoc clarifications.

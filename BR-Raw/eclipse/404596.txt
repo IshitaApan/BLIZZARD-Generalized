@@ -1,0 +1,3 @@
+The Display should be in the context before PostContextCreate is called
+
+Currently, the Display isn't added to the context until after workbench.createAndRunUI() is called. Thus you are unable to use the Display with any of the workbench lifecycle hooks such as PostContextCreate. (Calling Display.getDefault() isn't very clean and at some point could introduce bugs.) Furthermore, resources such as Realm & UISynchronize which depend on Display are available in the context before PostContextCreate is invoked. After the default context is created, the workbench Display should be placed into the context before any dependent resources are.

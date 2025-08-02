@@ -1,0 +1,3 @@
+[DataBinding] Add API: WorkbenchObservables
+
+... for things like listening to ISelectionService

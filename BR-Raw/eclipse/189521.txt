@@ -1,0 +1,3 @@
+[QuickAccess] Ctrl+3 popup doesn't handle Home and End keys
+
+3.3 RC2: If you type Ctrl+3 to open the new commands window, type something, and type Home/End to move the cursor to the beginning/end of string, this is handled by the editor instead of the popup. Unfortunatelly the cursor is not shown, so so can see the effect by testing using Shift+Home/End, and the line on editor will be selected, instead of the popup textbox. Strange to see that is happens on Java editor, but it doesn't on Mylar task editor (perhaps something related to generic text editor itself?).

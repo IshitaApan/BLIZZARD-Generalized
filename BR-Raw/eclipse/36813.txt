@@ -1,0 +1,3 @@
+[MPE] MultiEditorInput does not override the equals method
+
+The org.eclipse.ui.part.MultiEditorInput class does not override the equals method. The LaunchView class checks if the input for the current frame is the same as for the last frame using the equals method and does not reload if it is. Thus when using the MultiEditorInput, the editor is told to reload because equals always returns false. The other input types, e.g. FileEditorInput, do override the equals method. I could subclass MultiEditorInput but the java doc says not to.

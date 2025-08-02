@@ -1,0 +1,3 @@
+[Compatibility] Perspective activation events are fired incorrectly as deactivation events
+
+Whoops.

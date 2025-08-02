@@ -1,0 +1,3 @@
+FilteredItemsSelectionDialog should remove history items with Delete key
+
+I20070228-0930 The FilteredItemsSelectionDialog should support removing selected history items with the Delete key (like the old Open Type).

@@ -1,0 +1,3 @@
+Unable to cancel exit of workbench while external tools are running
+
+When an external tool is running, and one exits the workbench, a popup appears to warn about the external tool still running. However, there is only an OK button to continue exiting the workbench. We prefer having a cancel button as well to prevent the workbench from exiting.

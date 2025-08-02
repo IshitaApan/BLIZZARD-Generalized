@@ -1,0 +1,3 @@
+[CSS] Styling Engine should be able to parse SWT color constants
+
+SWT provides access to specific OS-theme colors and these are currently used in the 3.x UI. We should provide a way for them to be used directly in stylesheets.

@@ -1,0 +1,3 @@
+[Markers] The Problem view does not update the status line
+
+Build ID: M20090211-1700 Steps To Reproduce: 1. Set the "Build Automatically" property to true 1. Edit a JAVA file and introduce an error on purpose 2. Save the file => The error is displayed in the Problems View 3. Click on that error in the Problems view => the status line is updated to show the error description 4. Fix the problem in the JAVA file and save it => the Problems view is cleared 5. Set the focus on the Problems view = > the status line is updated to show the error description although this error was fixed More information:

@@ -1,0 +1,3 @@
+Extra "Writable" indicators in status bar
+
+Build: 20020409 Open two editors on writable files in the Resource perspective, switch between them many times. Each time you switch, you will get another "Writable" indicator in the status bar. I have seen this on both Windows 2000 and Linux Motif.

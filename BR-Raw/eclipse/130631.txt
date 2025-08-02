@@ -1,0 +1,3 @@
+Sliding job should be a system job
+
+20050306 The title are dialog sliding job is showing up in my progress view. It should be a system job.

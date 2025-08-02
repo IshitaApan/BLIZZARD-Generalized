@@ -1,0 +1,3 @@
+[UI] Refactor the rendering class names
+
+In order to bring the model closer to the way in which we talk about it we should re-factor it to remove references to 'factory'. For now the re-factoring will to replace 'PartRenderer' with 'PartRenderingEngine' and to replace '<xxx>Factory' with '<xxx>Renderer'. Post 0.9 we expect to change these again but this will make the initial story clearer.

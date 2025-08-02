@@ -1,0 +1,3 @@
+Sash layout corrupted by dragging into the editor area
+
+Found this testing the DnD behavior. When you drag a view into the shared area you get two different affordances; 50/50 and 34/66 depending how close to the edge of the shared area you are. If you drop when the rectangles are the same size then the shared area shrinks to zero width. The is the result of the attempt of a new sash to 'adopt' the containerData (weight) of the shared area being done in the wrong place, *after* the sash is added into the model (and given a default value).

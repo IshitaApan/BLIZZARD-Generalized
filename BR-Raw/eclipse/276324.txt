@@ -1,0 +1,3 @@
+[ViewMgmt] CycleBaseHandler throws NPE if no workbench parts available
+
+Build id: I20090512-2000 1. Check that Ctrl+F8 shows at least two perspectives. If not, switch to another perspective and then try again. As it should remember your previous one, you should now have two choices. 2. Close all the views and editors in your perspective so you have no workbench parts. 3. Try Ctrl+F8 again. 4. Nothing happens. An NPE is logged. java.lang.NullPointerException 	at org.eclipse.ui.internal.CycleBaseHandler.openDialog(CycleBaseHandler.java:132) 	at org.eclipse.ui.internal.CycleBaseHandler.execute(CycleBaseHandler.java:118) 	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:294) 	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)

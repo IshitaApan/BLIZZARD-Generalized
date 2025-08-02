@@ -1,0 +1,3 @@
+perspective bar not resized
+
+1. Set perspective switcher to be Top Right, with text showing. 2. Change it to be on the left. 3. Change it to not show text. ==> Perspective Switcher is not resized. 4. Reset perspective ==> Perspective Switcher is not reset to top right, and it is not resized.

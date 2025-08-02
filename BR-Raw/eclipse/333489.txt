@@ -1,0 +1,3 @@
+PartSashContainers prevent re-rendering a previously-opened window
+
+BuildId: e4 4.1M4 Attempting to re-open a window with a PartSashContainer fails as the contents of the PartSashContainers are not re-created. The direct problem is that the PartSashContainer elements don't have their widget fields nulled out on close. Thus the widgets are not re-rendered during the IPresentationEngine/PartRenderingEngine.createGui(). The widget field actually contains a Rectangle instance. The field isn't nulled out as SashRenderer inherits bindWidget from SWTPartRenderer, which only installs the unbindWidget-on-dispose (and thus null the widget field) when the widget actually is a control.

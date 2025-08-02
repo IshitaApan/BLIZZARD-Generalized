@@ -1,0 +1,3 @@
+[PopupDialog] Quick Outline stays up after opening "view" menu
+
++++ This bug was initially created as a clone of Bug #55650 +++ I20060105-0800 - show the quick Outline - with the mouse, click on the black triangle ("view" menu) - click into the editor area -> expected: outline disappears -> was: outline stays on top, deactivated NOTE: the original bug has been fixed by using the new PopupDialog, however, it is now not working using Linux-GTK and potentially Linux-Motif.

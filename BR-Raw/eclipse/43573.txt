@@ -1,0 +1,3 @@
+[Contributions] Support icon in <menu>
+
+Can we have support for the icon attribute in the <menu> tag under <extension point="org.eclipse.ui.popupMenus"> That way menu groups can have support for their own icons?

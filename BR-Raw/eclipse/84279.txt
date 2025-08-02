@@ -1,0 +1,3 @@
+[KeyBindings] assist: Leaks Shell and EnabledSubmissions
+
+N20050202-0010 For each KeyAssistDialog realized a Shell and 2 EnabledSubmissions are leaked. I believe this is because the dialog does not call IWorkbenchContextSupport.unregisterShell to correspond to the IWorkbenchContextSupport.registerShell call.

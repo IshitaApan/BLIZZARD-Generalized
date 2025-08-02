@@ -1,0 +1,3 @@
+[Progress] New JFace API methods missing @since
+
+I20040226 ProgressMonitorDialog has several new API methods that have been added since the 2.1 release, but are missing @since tags. The following API methods were added since 2.1: aboutToRun cancelPressed clearCursors decrementNestingDepth finishedRun getNestingDepth getOpenOnRun incrementNestingDepth open (overrides Window.open) setOpenOnRun

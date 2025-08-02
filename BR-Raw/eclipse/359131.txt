@@ -1,0 +1,3 @@
+Fixing the dual-monitor issue has broken two tests
+
+testWindow_X and testWindowY are broken now. This is the result of the fix for bug 358627. I've added code to force the shell back into the display if the following test fails: modelBounds.intersects(displayBounds) Unfortunately it appears that rectangles that have zero width and zero height don't 'intersect' anything...

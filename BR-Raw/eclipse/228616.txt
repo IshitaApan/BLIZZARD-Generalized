@@ -1,0 +1,3 @@
+[KeyBindings] Show View Menu command should not open view menu when dialog is up
+
+I20080422-0800 (already occurs in 3.3.2) The 'Show View Menu' command should not open view menu when a dialog is up. Steps: - Give focus to a view that has a view menu (check by pressing Ctrl+F10) - Window > Preferences - Ctrl+F10 => Expected: Does nothing (or opens the new preferences menu in HEAD) => Was: Opens view menu in workbench window When fixing this, make sure you don't break Ctrl+F10 in other dialogs such as Open Type and Quick Outline.

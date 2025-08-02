@@ -1,0 +1,3 @@
+[CommonNavigator] CommonViewerSorter gets NPE when misconfigured
+
+I20090127-0100 Have a sorter configured in a content extension, and have objects contributed by the content extension that are not trigger points for any content extension. The sorter will get an NPE. This has manifested in bug 262675 for example.

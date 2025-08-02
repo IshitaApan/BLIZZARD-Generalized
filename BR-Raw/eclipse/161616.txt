@@ -1,0 +1,3 @@
+[Undo] - AdvancedValidationUserApprover should allow suppression of prompts during testing
+
+AdvancedValidationUserApprover is installed by the workbench to validate undo/redo operations and report problems to the user. We need automated tests that check for invalid conditions found by the approver, but we do not want any user prompting to occur. So we need a flag akin to ErrorDialog.AUTOMATED_MODE that suppresses UI when we are doing automated testing.

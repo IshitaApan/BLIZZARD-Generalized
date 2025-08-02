@@ -1,0 +1,3 @@
+[Perspectives] GDI leak: Each time you create a perspective switcher an image is leaked
+
+To recreate. Open a new perspective and close it. Notice your GDIs increase by 1 each time you do this. The PerspectiveSwitcher creates a PerspectiveBarManager but doesn't dispose it. The PerspectiveBarNewContributionItem does implement a dispose() method that does the right thing, but the method is never called. The following patch disposes the PerspectiveBarManager when the PerspectiveSwitcher is disposed.

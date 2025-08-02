@@ -1,0 +1,3 @@
+[StatusHandling] Perspective registry hides message from WorkbenchException's status
+
+Perspective registry hides message from WorkbenchException's status by overriding it with predefined message

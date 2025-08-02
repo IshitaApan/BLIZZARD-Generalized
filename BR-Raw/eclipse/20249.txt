@@ -1,0 +1,3 @@
+[Help] Change editor/view/perspective F1 help
+
+Build F2 When the change editor menu is open, pressing F1 will display some help. However, the help window closes immediately, before the contents can be read. If there is supposed to be F1 defined for the change editor menu, then the help window should stay open for the user to read. If there is no F1 help defined, then prssing F1 should not display anything so that there is no flashing. The same problem exists for the change viewer and change perspective menus. None of the actions under Window->Keyboard Shortcuts have any F1 help defined on them to describe what they do.

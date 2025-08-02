@@ -1,0 +1,3 @@
+API tests block with dialog
+
+Created attachment 179133 Saveable dialog While running org.eclipse.ui.tests.api.IViewPartTest.testOpenAndCloseSaveNotNeeded() it opens a dialog (it's not supposed to) and blocks the tests.

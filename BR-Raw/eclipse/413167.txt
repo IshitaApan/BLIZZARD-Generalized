@@ -1,0 +1,3 @@
+Make Quick Access smaller
+
+Creating a new bug to avoid the swirl in bug 362420. I think we can afford to make the Quick Access text area smaller. Once you start typing, all the useful information appears in the dropdown anyway. You rarely need to type more than a couple of characters in the box to find what you want. As long as the box is wide enough to fit the hint words "Quick Access" I think we could afford to cut about a 3rd of its current width.

@@ -1,0 +1,3 @@
+[JFace] DialogSettings does not handle null cases, replaces tabs with spaces
+
+The tests attached to bug 98325 do not pass because there are two bugs in the class DialogSettings. One is similar to a bug I found in XMLMemento (see bug 93720). DialogSettings does not escape tab, newline, and carriage return characters in XML attributes. These characters will be converted to spaces on deserialization. As for the second bug, this is a corner case. If you call put() with an array of strings where some of the array entries are null, these will be converted to empty strings on deserialization. I am attaching a patch to fix both bugs.

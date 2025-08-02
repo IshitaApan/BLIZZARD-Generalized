@@ -1,0 +1,3 @@
+[Import/Export] wizard: Order of group nodes
+
+20050920 I think it would be best if the 'General' node is always first, and the 'Other' node always last. All other nodes would be in-between and sorted by name. It seem to me that currently all nodes are sorted by name. Maybe it would also make sense to not have a 'General' node, but to keep these entries top level, and always at the top.

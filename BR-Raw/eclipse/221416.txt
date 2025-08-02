@@ -1,0 +1,3 @@
+[Dialogs] button id not correct for DETAILS in MessageDialogWithToggle
+
+The code in MessageDialogWithToggle.mapButtonLabelToButtonID doesn't contain a check for mapping the SHOW_DETAILS_LABEL to DETAILS_ID. I think this was overlooked when fixing bug #66526 since there are two different labels that can map to the id.

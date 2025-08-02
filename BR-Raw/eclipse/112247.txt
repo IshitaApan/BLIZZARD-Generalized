@@ -1,0 +1,3 @@
+[Preferences] [RCP] Should remove unused prefs for showing action bars
+
+3.1 In WorkbenchPreferenceInitializer, we have: node.putBoolean(IPreferenceConstants.SHOW_SHORTCUT_BAR, true); node.putBoolean(IPreferenceConstants.SHOW_STATUS_LINE, true); node.putBoolean(IPreferenceConstants.SHOW_TOOL_BAR, true); but these prefs are never read anywhere. Should delete this code and the corresponding constants.

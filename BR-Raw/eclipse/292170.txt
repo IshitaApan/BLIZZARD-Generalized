@@ -1,0 +1,3 @@
+[CSS] Missing license headers in org.eclipse.e4.ui.css.legacy and org.eclipse.e4.ui.examples.css.rcp
+
+Will fix this after M1 is declared.

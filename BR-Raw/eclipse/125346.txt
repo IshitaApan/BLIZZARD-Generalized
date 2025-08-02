@@ -1,0 +1,3 @@
+Delete IDE copy of CompositeResourceMapping
+
+Build: I20060125 Both core.resources and IDE have a CompositeResourceMapping class. Since the core class is now API, the copy in the IDE plugin should be deleted for consistency. The IDE copy is not API.

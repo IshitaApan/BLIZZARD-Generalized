@@ -1,0 +1,3 @@
+Part in shared area finds wrong parent context during shutdown
+
+Build: 4.1 M2. After working for a couple of days, I attempted to shutdown and got an NPE. I was unable to close the application normally and had to kill the process. Complete log to follow but here is a snippet: java.lang.NullPointerException 	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1322) 	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1059) 	at org.eclipse.ui.internal.WorkbenchWindow.access$9(WorkbenchWindow.java:1038) 	at org.eclipse.ui.internal.WorkbenchWindow$6.run(WorkbenchWindow.java:1085) 	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)

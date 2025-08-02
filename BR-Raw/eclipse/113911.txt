@@ -1,0 +1,3 @@
+FilteredTree - category with no matching children should not appear in Show View dialog
+
+Open the Show View dialog and type Java as the filter text. Notice there is a category that appears that has no children (Java Browsing). A category that has no matching children should not appear in the tree since in this case selecting a category is meaningless, unlike in the Preferences dialog.

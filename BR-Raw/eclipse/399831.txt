@@ -1,0 +1,3 @@
+Many broken shortcuts in multi-page editors
+
+First - it's neither SpringSource Tool Suite nor WTP's fault. I've upgraded from 4.3m4 to 4.3m5 (and few days earlier to some I-build) and in XML Editors (HTML Editors are fine) I can't use many shortcuts such as: Delete line (CTRL+D), move line up/down (ALT+up/down) or duplicate line up/down (ALT+CTRL+up/down). I've not upgraded WTP - just Eclipse SDK. Key bindings are OK. E.g., CTRL+D is in "Editing Text" - that's why I chose "Component = Text" regards Grzegorz Grzybek

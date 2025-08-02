@@ -1,0 +1,3 @@
+Invisible Eclipse window
+
+In workspace/.metadata/org.eclipse.ui/workbench.xml the window x and y values sometimes get set to 3000 if there is little memory available and the Eclipse window is temporarily out of focus. As a result, the window remains hidden and can only be seen in the task bar, even after restarting. Manually changing the values back to something more reasonable such as 0 fixes the problem.

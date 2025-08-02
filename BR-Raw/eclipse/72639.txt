@@ -1,0 +1,3 @@
+Maximize/Minimize animations slow and annoying
+
+Eclipse 3.1 I200308241200 The feature "Enable animations" results in an animation every time I maximize or minimize an editor or view. 1) It is way too slow - I am waiting to type or do something while the rectangles draw over my screen 2) It doesn't help me in any way. I know what maximize and minimize are supposed to do and I do not need an animation to make it more obvious. Maximize and minimize are pretty standard Window Manager actions and I don't think any user needs them made more obvious. I have turned this feature off in the preferences page but there may be other animations that are useful that I would like to see. Please restrict the use of animations to areas where they are useful.

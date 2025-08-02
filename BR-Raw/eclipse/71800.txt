@@ -1,0 +1,3 @@
+[IDE] Clean action should be background operation
+
+build R3.0 When the user selects "Clean..." from the Project menu, it pops up a modal dialog which shows progress. After the "clean" part is done, then the build is done in the background. The "clean" action should also be done in the background. The inconvenience of having it in the foreground is magnified when you have many projects with lots of source files (so it does real work and takes many seconds...up to a minute)

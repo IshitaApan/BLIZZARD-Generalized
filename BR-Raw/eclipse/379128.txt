@@ -1,0 +1,3 @@
+Wrong editor is activated
+
+I have a couple of Java editors open in the same tabbed pane. The funny bug is every second time I select another tab, the edittor in the first tab is actually selected. The outline shows the right file. "Open type" is broken as well, same with following hyperlinks.

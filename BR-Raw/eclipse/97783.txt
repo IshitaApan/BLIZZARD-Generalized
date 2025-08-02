@@ -1,0 +1,3 @@
+[About] Configuration Details Dialog - Error log does not display on some win platforms
+
+3.1 RC1, WinXP - choose the menu Help>About Eclipse Platform - Select the button for "Configuration Details" - Inside that dialog, push the button "View Error Log" - Dialog blinks (loses/gains focus) and nothing happens There are entries in my log, so I'm not sure where these are supposed to be shown. Did I miss something obvious? I can provide the log or further configuration info if this is surprising...

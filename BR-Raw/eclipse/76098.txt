@@ -1,0 +1,3 @@
+[PerspectiveBar] [DND] Leaking workbench windows
+
+I200410050800, Windows XP DragUtil is leaking workbench windows through its defaultTargets array. The defaultTargets ends up holidng on to a PerspectiveSwitcher, which holds on to the old window.

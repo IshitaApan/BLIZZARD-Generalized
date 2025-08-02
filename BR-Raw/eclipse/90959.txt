@@ -1,0 +1,3 @@
+[Commands] parameters: Duplicate commands for opening views: should old-style be deleted?
+
+I20050405-0800 The command "org.eclipse.ui.views.showView" from org.eclipse.ui.ide can now be used (with a parameter) to define keybindings for opening views. Therefore, the old-style commands for opening individual views (bug 62243) are IMO not necessary any more, and they clutter the commands list in the Views category of the Keys preference page. Should eclipse plugins remove these commands for 3.1 and convert the default keybindings to parameterized org.eclipse.ui.bindings->key extensions? If so, then we should inform all known clients of the old method about this (search for bugs with summary "Polish patch: support view activation via a keyboard shortcut").

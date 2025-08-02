@@ -1,0 +1,3 @@
+[Wizards] [Javadoc] Review of org.eclipse.jface.wizard
+
+This package is very clean and well written. ProgressMonitorPart: - clearBlocked() is undocumented. - setBlocked() is undocumented. - setTaskName() is undocumented. WizardDialog: - close() is undocumented.

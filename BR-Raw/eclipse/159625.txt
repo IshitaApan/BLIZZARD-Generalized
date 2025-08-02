@@ -1,0 +1,3 @@
+[Snippets] Update Snippet011CustomTooltips to reflect new API
+
+Method names not changed with API

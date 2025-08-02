@@ -1,0 +1,3 @@
+[Preferences] Colors and Fonts preference page opens extremely wide due to Java properties file compare text font
+
+I20050610-1757, GTK+ 2.6.4. Window > Preferences > General > Appearance > Colors and Fonts This preference page opens with all of the top-level items in the tree expanded. The width of the tree when it opens seems to be sized to be large enough to show the full text of the longest entry, namely the ridiculously long string: "Java properties file compare text font (defaults to Properties File Editor Text Font)" This makes the Preferences dialog resize to almost the entire width of my screen.

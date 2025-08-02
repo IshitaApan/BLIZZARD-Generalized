@@ -1,0 +1,3 @@
+[About] Code to open error log has non-Foundation reference
+
+build N20050622 The code to fix bug 97783 introduced a reference to a constructor that does not exist in the JCL/Foundation profile: FileWriter(File, boolean). Should use FileWriter(File) instead. Without this change the View Error Log button in the Configuration Details dialog will fail when running on JCL/Foundation.

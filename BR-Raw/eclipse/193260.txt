@@ -1,0 +1,3 @@
+[Databinding] Incorrect javadoc for TextObservableValue
+
+Build ID: I20070525-1350 Steps To Reproduce: The javadoc for the constructor public TextObservableValue(final Text text, int updateEventType) incorrectly states that one of the valid values for the parameter updateEventType is SWT.NONE. This should be SWT.None, as the former is a bitmask and the latter is an event type. More information: Note that due to the fact that SWT.NONE and SWT.None are both 0, the code would behave correctly anyway.

@@ -1,0 +1,3 @@
+Tests - OutOfMemoryError
+
+There have been OOM errors since I20060327-1600 in the UI tests. One was caused by a leak in the WorkbenchMenuManager (dispose menu authority). Investigation is continuing. PW

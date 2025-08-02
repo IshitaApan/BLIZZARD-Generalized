@@ -1,0 +1,3 @@
+[Viewers] getControl() contains no javadoc
+
+AbstractListViewer.getControl() contains no javadoc, and is still declared abstract. It serves no purpose in this class. If it needs to remain, it should have javadoc to outline the requirement that an org.swt.widgets.List is expected.

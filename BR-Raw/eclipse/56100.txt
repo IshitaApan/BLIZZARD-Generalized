@@ -1,0 +1,3 @@
+[Perspectives] [RCP] NPEs in WorkbenchWindow when  perspective bar not showing
+
+build I20040324-0800 + latest from head - run the browser example with the BrowserAdvisor.createWindowControls method deleted, and with setShowPerspectiveBar(false) (the default) - you get an NPE in WorkbenchWindow.createDefaultContents when it tries to add a mouse listener to the perspective bar's control - if this one's fixed, you then get one in WorkbenchWindow.addPerspectiveShortcut The problem is that if the perspective bar is not showing initially, then perspectiveBar exists but its control does not. This is not properly handled in all cases.

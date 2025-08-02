@@ -1,0 +1,3 @@
+[KeyBindings] Extra entries appear in Keys preference page after pressing "restore command"
+
+Version: 3.3.0 Build id: I20070525-1350 1. Open the new keys preference page 2. Filter down to the copy command 3. Press "Restore Command" 4. Observe bindings from the emacs scheme appear NewKeysPreferencePage#bindingRestore should be checking that the schemes match before adding the binding to the collection.

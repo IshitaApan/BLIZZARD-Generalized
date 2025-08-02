@@ -1,0 +1,3 @@
+[Perspectives] Customize Perspective dialog: Warning for invisible items needs polish
+
+Created attachment 128182 Screenshot I20090310-0100 Customize Perspective dialog, click on the checkbox of a disabled item. A warning dialog appears with several problems: - Dialog title should be name of an action, not a message - String concatenation is not the right means to compose strings (see CustomizePerspectiveDialog.UnavailableContributionItemCheckListener.checkStateChanged(..)). Especially not if there's no space between sentences... - The dialog is not really helpful. Why would I want to expand the item if I still cannot do anything afterwards? You should better ask me if I would like to go to the command group to actually make it visible.

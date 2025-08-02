@@ -1,0 +1,3 @@
+[Forms] Non-editable fields draw gray
+
+Build id: I20070424-0930 Something happens this week that started causing non-editable fields to look like disabled fields. This has a very ugly gray effect in Forms, particularly when you see a mixture of disabled text fields and combo boxes. Screenshot to follow.

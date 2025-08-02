@@ -1,0 +1,3 @@
+Moving view has different reveal order than close (1GENS04)
+
+- new resource perspective - show Bookmarks view - it appears docked with Navigator and Repositories view - close Bookmarks view - the Navigator view is revealed - show Bookmarks view - drag it over outline view - the Repositories view is revealed It's surprising that a different view is revealed for close and drag. NOTES:

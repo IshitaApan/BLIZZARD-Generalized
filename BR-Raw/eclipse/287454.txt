@@ -1,0 +1,3 @@
+[KeyBindings] F16-F19 unusable as shortcut keys in General -> Keys
+
+Add support for binding F16-F19 +++ This bug was initially created as a clone of Bug #276416 +++ Build ID: I20090430-2300 Steps To Reproduce: Using an Apple keyboard with extra function keys: 1. Open Eclipse Preferences 2. Go to General -> Keys 3. Attempt to bind the F16-F19 keys to commands (I used the Show Perspective commands) More information: F16 displays as a space in the text field but doesn't perform the action when pressed. F17-F19 don't do anything when pressed in the text field. F13-F15 work as normal. This also happens on Eclipse 3.4.2.

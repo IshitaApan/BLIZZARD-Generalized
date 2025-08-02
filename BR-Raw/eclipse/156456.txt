@@ -1,0 +1,3 @@
+[Forms] widgets accept focus even though they can't do anything with it
+
+Many of the widgets in the Forms library (Section, BusyIndicator, FormHeading) will accept keyboard focus even though they can't do anything with it. The impact is that when someone calls setFocus on a Form that contains a FormHeading at its top (which is quite common), keyboard focus ends up nowhere. Looking at the patterns in SWT, it appears that the correct protocol is for controls to return false from setFocus if they can't do anything with the focus so that the caller can try assigning focus somewhere else.

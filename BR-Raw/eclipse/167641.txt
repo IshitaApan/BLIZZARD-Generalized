@@ -1,0 +1,3 @@
+[ErrorHandling] MessageDialog.showError(...)  not opening a dialog
+
+I20061212-0010 * Select a project with no applets * Run As > Java Applet > nothing happens and there is no information dialog telling the user that no applets were found.

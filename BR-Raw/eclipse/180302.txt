@@ -1,0 +1,3 @@
+[StatusHandling] Protect the StatusManager code from faulty StatusHandler
+
+I developed my StatusHandler and when I tested it, the Dialog did not open I debuged it and realized I was throwing a NullPointerException in my code We should wrap our call to the handle() and createSupportPart() method and gracely fall back to a default ErrorDialog is the StatusHandler throws an Exception I am not sure if we should catch Exception ... Maybe we should, and if the Exception is a runtimeException we rethrow it ?

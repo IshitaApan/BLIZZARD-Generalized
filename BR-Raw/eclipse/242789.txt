@@ -1,0 +1,3 @@
+[Markers]If you hit escape on the delete markers dialog it deletes them anyway
+
+Right click on a problem marker in the problems view and select delete. You get the confirmation dialog. Hit escape. The marker is deleted anyway. The problem looks to be in org.eclipse.ui.internal.views.markers.DeleteHandler.execute(ExecutionEvent): 		if (dialog.open() == Window.CANCEL) { 			return view; 		} It should probably be 		if (dialog.open() != Window.OK) { 			return view; 		}

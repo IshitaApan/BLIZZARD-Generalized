@@ -1,0 +1,3 @@
+[Viewers] ColorAndFontCollector javadoc is wrong
+
+Original: The ColorAndFontManager collects fonts and colors without a a color or font provider. Notice the reference to "ColorAndFontManager". It should probably be "ColorAndFontCollector" instead.

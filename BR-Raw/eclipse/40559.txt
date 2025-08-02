@@ -1,0 +1,3 @@
+[Preferences] Need to make the PreferencesPage accessible
+
+We are currently using a CLabel for the preferences page to show the title or errors. This cannot be navigated to currently and needs to be replaced by something that can take focus.

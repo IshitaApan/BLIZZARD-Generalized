@@ -1,0 +1,3 @@
+Restarting causes the New menu cascade to be empty
+
+Start with a fresh WS Right click in the Package Explorer and expand the 'New' cascade...looks OK Close Restart, do *not* clear the WS Right click again, you get a disabled menu item reading '<No Applicable Items>' I originally saw this while testing 'Install new software' and was blaming the changes on the installation not working but it appears to be more basic than that.

@@ -1,0 +1,3 @@
+[ErrorHandling] [StatusHandling] Fatal error appears twice when reported from JOB
+
+When a job reports fatal error (f.e. OutOfMemoryException) it is reported twice (and the window prompting the user to close the workbench appears). I have investigated that it is reported directly once in ProgressManager internal listener done method, and the second report is picked from log via StatusManager StatusManagerLogListener.

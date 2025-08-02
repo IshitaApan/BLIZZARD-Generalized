@@ -1,0 +1,3 @@
+[ui] NPE on photo demo shutdown
+
+NPE because the restore location is not set. PW

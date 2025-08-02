@@ -1,0 +1,3 @@
+[RCP] IWorkbenchWindowConfigurer.setTitle has no effect if shell not created
+
+3.0 M5 If IWorkbenchWindowConfigurer.setTitle is called before the window's shell has been created, e.g. it's called from preWindowOpen, then it's a no-op.

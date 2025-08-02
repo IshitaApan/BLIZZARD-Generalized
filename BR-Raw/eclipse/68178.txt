@@ -1,0 +1,3 @@
+[ActivityMgmt] Capabilities Preference Page Resizing
+
+Resizing the Capabilities preference page should give most of the extra space to the tree view on the top, and little to the description area on the bottom; currently all extra space goes to the bottom area.

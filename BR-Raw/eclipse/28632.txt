@@ -1,0 +1,3 @@
+[Wizards] New project dialog has "Project contents:" as group title
+
+build I20021217 - File / New / Simple / Project - the dialog has a group box with "Project contents:" as its label Group box labels should not use ':'. Also the label would be clearer if we used the term "location". Recommend changing it to: "Project location"

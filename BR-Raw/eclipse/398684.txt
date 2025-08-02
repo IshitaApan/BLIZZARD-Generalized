@@ -1,0 +1,3 @@
+[Workbench] Initial size from IWorkbenchWindowConfigurer is not used to create the workbench window
+
+In our application (IBM Installation Manager), we override 'preWindowOpen()' in 'WorkbenchWindowAdvisor' to set initial size to IWorkbenchWindowConfigurer (e.g. IWorkbenchWindowConfigurer.setInitialSize(lastSessionIMSize)) . But this initial size is not used to create the workbench window after we moved our target environment to Eclipse 4.2.1. It used to work before our E4 adoption.

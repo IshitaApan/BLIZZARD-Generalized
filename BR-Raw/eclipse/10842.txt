@@ -1,0 +1,3 @@
+[Contributions] ordering: ActionFactories should support groups
+
+Build 20020305 JDT uses groups to control the positioning of menu items in context menus. JDT would like to reuse some of the UI's action factories. But currently they simply add the entries to the end of the menu. It would be helpful if a action factory would support an additional group. If specified the factory adds the items to that group, if not specified it addes the items to the end of the menu.

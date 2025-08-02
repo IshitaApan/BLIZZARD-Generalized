@@ -1,0 +1,3 @@
+Leak from ProgressManager.runnableMonitors
+
+ProgressManager and its static var runnableMonitor cause many objects to be leaked. On line 438 of ProgressManager, the JobMonitor is stored in the map with a key of the job. The only remove that occurs is on line 175 but the key that is used to remove is the JobManager instance and not the job. I believe line 175 should be changed to: runnableMonitors.remove(job)

@@ -1,0 +1,3 @@
+[Preferences] Are dynamic projects supposed to just become referenced projects?
+
+I'm playing with the new get/set dynamicProjects API on IProjectDescription. I can add/remove via API as long as I remember to set the description back to the project. What I noticed is the following: - Dynamic projects show up in the Project References page. Ok, maybe this is fine (but these are not set by user/nor can they remove). - If another project is referenced on the page - all entries are then saved as normal project references in the .project file. This means they show up on getReferencedProjects calls and are not removed when the dynamic refs are removed.... Should dynamic refs actually be visible on the prop page?

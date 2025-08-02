@@ -1,0 +1,3 @@
+[Compatibility] Internal activation list never removes closed parts
+
+We add things when they come up but never remove them when they're closed.

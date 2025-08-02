@@ -1,0 +1,3 @@
+[CSS] theme extension point's "basestylesheeturi" should allow a platform URI
+
+The code in bundles/org.eclipse.e4.ui.css.swt.theme/src/org/eclipse/e4/ui/css/swt/inte rnal/theme/ThemeEngine.java assumes that the stylesheet contributed through the 'basestylesheeturi' attribute via the 'org.eclipse.e4.ui.css.swt.theme' extension point are relative to the contributing plugin. As it can be useful for these stylesheets to be provided through a different plugin, this code should also handle a platform-style URL.

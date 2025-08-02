@@ -1,0 +1,3 @@
+[Contributions] toolbar updates don't cause a re-layout
+
+Commands in toolbars in trim or in the main coolbar get added and deleted correctly as their visibleWhen clause is evaluated, but the toolbars parents are not correctly re-layed out. PW

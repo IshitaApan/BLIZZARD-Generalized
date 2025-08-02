@@ -1,0 +1,3 @@
+[Import/Export] tar import/export does not preserve file permissions
+
+3.1M4 Similar to bug 79887, the tar.gz import and export wizards do not preserve the permissions of the files. The tar file format supports UNIX-style permissions, so we can at least support the executable and read-only bits.

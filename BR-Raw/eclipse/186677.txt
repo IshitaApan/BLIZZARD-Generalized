@@ -1,0 +1,3 @@
+[PerspectiveBar] Perspective switcher "show text" enables after saving prefs.
+
+1) Start with a clean install 2) Use pop menu on perspective switcher to "Dock On" -> "Left", and uncheck "Show Text" 3) Open Preferences ([optional?] expand "General" and click on "Appearance" in tree) 4) Click "Ok" in Preferences 5) Notice that text labels are now showing in the perspective switcher. (build:I20070511-0010)

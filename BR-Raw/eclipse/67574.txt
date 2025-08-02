@@ -1,0 +1,3 @@
+[Progress] KEEPONE doesn't remove duplicate jobs from the progress view
+
+3.0 RC2 It seems that duplicate sync jobs are not removed from the progress view. I've investigated and noticed that the specification for IProgressConstants#KEEPONE property state that duplicate jobs are removed when a job is finished. But in the FinishedJob class it doesn't seem to be calling checkForDuplicates when a job is done. And in my case, adding a breakpoint in the belongsTo() method of my job shows that it is never called. Shouldn't the remove() method in FinishedJob call checkForDuplicates? Adding this line will fix the problem. But it may be a bug somewhere else. This was found when fixing bug 67573.

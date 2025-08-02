@@ -1,0 +1,3 @@
+[Jobs] Progress View: Cannot cancel a waiting job
+
+I had a waiting job that I wanted to cancel but I couldn't. The menu item is disabled. I know that this may not technically be a cancel but I wanted to unschedule the job.

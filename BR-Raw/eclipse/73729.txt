@@ -1,0 +1,3 @@
+[Workbench] [Mac] Dual preferences menu items
+
+On Mac OS X, the preferences menu item appears in the Eclipse menu. This is correct. However, the same menu item that does the same thing also appears in the Window menu, which is correct on other platforms but not the Mac. It should be removed from the Window menu.

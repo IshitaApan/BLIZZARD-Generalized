@@ -1,0 +1,3 @@
+[Compatibility] Saved perspective loses its minimized trim stacks
+
+1. Minimize a part stack. 2. Save the perspective. 3. Close the perspective. 4. Reopen it. The minimized stack is gone. Views in that stack cannot be opened/shown.

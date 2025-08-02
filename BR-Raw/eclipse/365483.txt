@@ -1,0 +1,3 @@
+Generated wrong deprecated constant name in UIEvents
+
+When fixing Bug 363961 I generated the wrong old deprecated constant name ALL instead of TOPIC for each model element. This did not show up as a compile error in the patch since I also fixed all our code to NOT use the now deprecated constant. However, this will break anybody that is using the deprecated TOPIC constant

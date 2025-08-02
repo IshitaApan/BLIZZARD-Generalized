@@ -1,0 +1,3 @@
+[Progress] Be more resilient to null args in StatusLine's progress monitor
+
+3.2 In an editor's save method, do the following with the progress monitor: monitor.setTaskName(null); monitor.subTask("foo"); It fails with an NPE on the second line of subTask, which is: if (fTaskName.length() == 0) { Although IProgressMonitor is not spec'ed to accept null, several clients do pass null (e.g. Workspace.run, see bug 161464). StatusLine protects itself against null in beginTask, and should probably also do so in setTaskName and subTask.

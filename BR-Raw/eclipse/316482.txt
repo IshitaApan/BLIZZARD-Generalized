@@ -1,0 +1,3 @@
+Active tab colour flickers when bringing up the context menu on a view
+
+The tab's colour will flicker between blue and white when you right-click on it.

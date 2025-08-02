@@ -1,0 +1,3 @@
+[Min/Max] Un-detaching a View restores to maximized perspective
+
+Open the Jave Perspective, detach the Outline view Maximize the editor area un-detach the Outline view The stack containing the Outline view gets restored to the presentation but the EA still has the maximized state. I'll mark this for RC1 pending review (I don't see it as particularly serious).

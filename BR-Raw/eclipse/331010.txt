@@ -1,0 +1,3 @@
+Track Model-Element contributors
+
+We need to track which bundle contributed an model element to e.g. look up translations in the right package

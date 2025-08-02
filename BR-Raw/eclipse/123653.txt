@@ -1,0 +1,3 @@
+Ctrl-Shift-D does not work  in dialogs
+
+Display is mapped to M1+M2+D on all platforms plus M1+M2+V on gtk. The "D" binding will not work in dialogs on GTK, but it's the first binding we find so the display popup still says to press Ctrl-Shift-D to move to the display view. Moving the "V" binding above the D binding, might be sufficient, though I'm not sure order is guaranteed.

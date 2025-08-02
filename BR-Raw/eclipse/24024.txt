@@ -1,0 +1,3 @@
+[Viewers] Error in Javadoc for AbstractTreeViewer::setAutoExpandLevel()
+
+from Javadoc for AbstractTreeViewer::setAutoExpandLevel() : * Sets the auto-expand level. * The value 0 means that the root's children are not visible; * 1 means that the root is expanded so that its children are visible, * but the root's grandchildren are not; and so on. That's off by one. 0 means auto-expand is off. 1 means that roots are not expanded. 2 means that children of the roots are expanded, but not grandchildren; etc. * The value <code>EXPAND_ALL</code> means that all subtrees should be * expanded. The constant should read ALL_LEVELS Note that some other expansion-methods need these comment updates too.

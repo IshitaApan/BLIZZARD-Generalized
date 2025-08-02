@@ -1,0 +1,3 @@
+[FastViews] View menu keyboard shortcut not working in fast views
+
+I200405140800 (and for some time back) The view menu shortcut (Ctrl+F10) doesn't work in fast views. Test case: - Open Navigator view (or any other view) as non-fast view. - Press Ctrl+F10 -> View menu opens - Change Navigator view to fast view. - Press Ctrl+F10 -> Nothing happens. In JDT UI's pop up outline and type hierarchy the view menu keyboard short doesn't work either. This may not be related to this issue. I'm willing to open another bug report if that's the case.

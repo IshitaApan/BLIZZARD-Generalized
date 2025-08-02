@@ -1,0 +1,3 @@
+[Dialogs] DCR: ErrorDialog should not always show the error icon (1GJU7TK)
+
+The class org.eclipse.jface.dialogs.ErrorDialog is used to display errors 	contained in an IStatus. The problem with the dialog is that it shows an 	error icon (red/cross) even though IStatus only has warnings or infos. 	The dialog would be more usable if the icon would correspond to the severity 	of IStatus and/or the dialog would offer to specify the image type (error, warning, info). NOTES:

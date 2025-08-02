@@ -1,0 +1,3 @@
+[GlobalActions] regression: command link to go to preference page broken
+
+I20090526-2000, works in R3.4.2. The help command to open a preference page no longer works (opens on last opened page instead of correct one) unless it is clicked/used inside the preference dialog itself.

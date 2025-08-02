@@ -1,0 +1,3 @@
+[Preferences] Build Order preference dialog is misleading
+
+Build 200301211004 1. Open a workspace containing several projects. 2. Create a new simple project named "Junk" 3. Open Build Order preference page 4. Uncheck "Use default build order" 5. Select Junk and move it up or down in the list. 6. Check "Use default build order" Observe: "Junk" is still where you moved it. Expectation: When "Use default build order" is checked, the Project build order control should show the default build order. 7. Close Preferences dialog 8. Reopen Build Order preference page Observe: "Junk" is shown where it belongs.

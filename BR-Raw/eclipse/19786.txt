@@ -1,0 +1,3 @@
+multiple status items when opening editors
+
+clean 0610. opening editors cause multiple status line panels (read/write, insert/overwrite, line:column) to appear.

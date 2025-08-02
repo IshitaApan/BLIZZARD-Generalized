@@ -1,0 +1,3 @@
+[Progress] Progress indicator shows 0% while active job shows 51%
+
+build I20040512-0800 - clicked the sync button in the sync view - it started a sync - pressed Run in Background - did the same again - in the progress view, it showed two sync jobs, but only one was active - terminated the other one - it did not get cleared from the list - it also showed "Synchronizing: (0%) null" - while the other job continued to make progress, the progress indicator at bottom right kept showing 0%.

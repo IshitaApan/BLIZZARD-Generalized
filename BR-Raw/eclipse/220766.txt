@@ -1,0 +1,3 @@
+[JFace] ImageRegistry.get does not work as expected (crashes with NullPointerException)
+
+Created attachment 91017 Snippet demonstrating the described behaviour Build ID: I20080207-1530 With the latest CVS sources, when trying to retrieve a (previouly stored) image from an ImageRegistry using ImageRegistry.get(), this operation crashes with a NullPointerException inside Activator.getURLConverter(). I've attached a snippet demonstrating this. (Note that an example image called 'eclipse.png' needs to be present in the snippet's package directory for this to work.)

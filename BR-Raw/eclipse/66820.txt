@@ -1,0 +1,3 @@
+[Workbench] Perspective bar empty after restart
+
+3.0 RC 2 The perspective bar appears empty after restarting Eclipse. The only button visible is "Open a perspective" (see screenshot). When dragging the bar to the left (I have it top-right), the buttons of the other opened perspective appear again.

@@ -1,0 +1,3 @@
+[Markers] 'Queuing Viewer Updates' in Problems view
+
+Created attachment 151396 Screenshot I20091103-0941 Recently, the Problems view started to write 'Queueing Viewer Updates' into the content description. This message is distracting and should be removed again. Sometimes, it even stays when the view is not longer busy.

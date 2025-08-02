@@ -1,0 +1,3 @@
+[Compatibility] Workbench will not come up when trying to restore editors that were not persisted correctly
+
+Created attachment 182300 both logs full of NPE errors Once I got bug 329355, I could not open a new editor anymore. So I decide to restart and now the whole workspace doesn't start properly: no toolbar, no key binding, I cannot open new editors,...

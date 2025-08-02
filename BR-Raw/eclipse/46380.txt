@@ -1,0 +1,3 @@
+[KeyBindings] key widget: Keyboard navigation does not allow insert of special keys
+
+Someone using only a keyboard does not have the ability to insert "Backspace", "Tab" and "Shift+Tab" as it is right now. The last two are not important, but "Backspace" is. The problem is that tabbing into the widget selects all the text. Ideally, tabbing into the widget *from the buttonAddKey only* should not select the text, but should position the cursor at the end of the text widget.

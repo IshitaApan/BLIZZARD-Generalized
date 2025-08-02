@@ -1,0 +1,3 @@
+Need to investigate using the platform progress icon
+
+We should see what the platform progress icon looks like

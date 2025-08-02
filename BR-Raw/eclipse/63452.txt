@@ -1,0 +1,3 @@
+[Activities]  ActivityRequirementBindingDefinition still has referneces to activityId and childId
+
+I as browsing through the “ActivityRequirementBindingDefinition” and I noticed that the constructor still has "childActivityId" and "parentActivityId" as parameters. Everything else in the code seems to have changed to "requiredActivityId" and "activityId". It's just parameter naming, not a big deal, but I thought you might want to know. I am using Build id: 200405211200.

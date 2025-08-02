@@ -1,0 +1,3 @@
+[CSS][UI] Style newly created widgets in tab folders/stacks
+
+Widgets created in tabs in CTabFolders aren't being styled because there's no widget creation notification (see bug #260406). We should explicitly style them.

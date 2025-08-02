@@ -1,0 +1,3 @@
+Use IResource#setDerived(boolean, IProgressMonitor) instead of IResource#setDerived(boolean)
+
+IResource#setDerived(boolean) is deprecated. See bug 45805.

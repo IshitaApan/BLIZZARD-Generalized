@@ -1,0 +1,3 @@
+[Field Assist] - Decorated Field attachments not centering images horizontally
+
+DecoratedField is supposed to center decorations horizontally on each side. The current attachments are not doing so. Also consider whether grid would have been a better choice for internal implementation.

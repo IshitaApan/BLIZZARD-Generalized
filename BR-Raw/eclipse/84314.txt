@@ -1,0 +1,3 @@
+[Viewers] Need to allow mapping elements to multiple widgets/items
+
+One of the projects I am working on is using an essentially graph structured dependancy model and we use TableTreeViewer for browsing (drilling down) through this graph. The nature of the model is such that the same model element can occur in multiple positions (paths) of the three. Current implementation of the TreeViewer and TableTreeViewer do not support such one-to-many mapping of model elements to widgets, leading to loads of unnecessary overhead to enshure that correct items will get updated. Suggestion: Element -> Item mapper should allow returning of more than one item per model element that is associated with this element.

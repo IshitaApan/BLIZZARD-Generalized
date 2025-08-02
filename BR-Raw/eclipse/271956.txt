@@ -1,0 +1,3 @@
+[Forms] SharedHeaderFormEditor should check for null header
+
+The SharedHeaderFormEditor should be coded to handle null header. A null header may happen in some cases: although it is hard for me to pinpoint the exact cases, I did encounter a NullPointerException resulting from the following method: 	public boolean isDirty() { 		return headerForm.isDirty() || super.isDirty(); 	} I believe a simple null check (defaulting to false) would solve this situation.

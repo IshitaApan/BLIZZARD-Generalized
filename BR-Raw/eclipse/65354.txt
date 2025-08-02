@@ -1,0 +1,3 @@
+[Perspectives] Perspective bar incorrectly updated when opening new perspective
+
+build I20040529-0105 - dock perspective bar on left - Window > New Window - open a different perspective - it replaces the previous perspective icon in the bar (wrong) - change the docking location - it updates properly

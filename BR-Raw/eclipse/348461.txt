@@ -1,0 +1,3 @@
+Perspective switcher tool items need to be accessible
+
+Created attachment 197446 Patch to make Perspective Switcher buttons accessible Build id: I20110604-2201 The Perspective Switcher tool items need to have an accessible name in order to be read by screen readers. The attached patch makes it so.

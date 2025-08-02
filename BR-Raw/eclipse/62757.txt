@@ -1,0 +1,3 @@
+[Progress] busyCursorWhile uses a null shell
+
+20040514 The busyCursorWhile API creates a dialog with no shell. We should see if we can create it with parent shell if possible. This may not be possible if the shell gets disposed while we are waiting however so we should be careful.

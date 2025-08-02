@@ -1,0 +1,3 @@
+[StatusHandling] View with an error opens an error dialog
+
+Views with errors are opening error dialogs and then opening a view with empty contents. In previos releases we did not bring up the error dialog - we should be consistent with this behaviour. Also the empty view should give some indication that it is empty because an error has occured

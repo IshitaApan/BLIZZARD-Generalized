@@ -1,0 +1,3 @@
+[Preferences] FileEditorsPreferencePage reuses a GridData instance for two different controls
+
+Around the line 210 range, the same GridData instance is used for both groupComponent and addResourceTypeButton.

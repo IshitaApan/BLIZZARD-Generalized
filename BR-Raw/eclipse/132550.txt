@@ -1,0 +1,3 @@
+[FastViews] BIDI:Fast Views become hidden when selected
+
+Scenario: 1. Launch eclipse using -rtl attribute 2. Create a java file and java class and made some syntax error in purpose and save it. 3. Now select Window->Show view->problems Result: The problems view is displayed on the right side of workbench (on the navigator view). When trying to select some problem or to broaden the view width, the view is become hidden. Note: This bug occurs only in RTL orientation.

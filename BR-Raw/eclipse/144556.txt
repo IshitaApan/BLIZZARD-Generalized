@@ -1,0 +1,3 @@
+[Dialogs] TitleAreaDialog fails to properly recreate when an instance is reopened
+
+When a TitleAreaDialog is created, opened, closed and opened again on the same instance the messageArea is not properly checked against disposal when it is accessed in setWarningMessage throwing an SWTException for disposed when the message area is updated the second time the dialog is opened.

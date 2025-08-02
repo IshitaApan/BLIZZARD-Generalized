@@ -1,0 +1,3 @@
+Remove empty Activators and replace Activator.ID Strings with dynamic Bundle symbolic name
+
+I have deleted empty Activators and replaced the String literal of ID with FrameworkUtil.getBundle(...class).getSymbolicName().

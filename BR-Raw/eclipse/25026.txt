@@ -1,0 +1,3 @@
+[GlobalActions] Typo: RetargetAction.propogateChange
+
+build 20021016 this should be propagateChange

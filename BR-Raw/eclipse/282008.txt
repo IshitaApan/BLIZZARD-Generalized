@@ -1,0 +1,3 @@
+[Compatibility] Support for 'sticky' views
+
+We need to support the legacy 'sticky' view mechanism. This is used for Help, Cheat Sheets and such that need to remain visible across perspective switches.

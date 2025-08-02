@@ -1,0 +1,3 @@
+Unrendering container with invalid selectedElement can cause target element to be unrendered
+
+Caused by the fix for bug 326699. Fix is to check that the selected element is actually one of the container's children before unrendering.

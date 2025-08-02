@@ -1,0 +1,3 @@
+leaked refcount warnings in log
+
+Build: I20050419-1200 On every startup with this build, I get the following warnings printed to my log. Let me know if more details are needed... !ENTRY org.eclipse.ui 2 0 2005-04-19 14:07:10.87 !MESSAGE WorkbenchPage leaked a refcount for view org.eclipse.jdt.junit.ResultView !ENTRY org.eclipse.ui 2 0 2005-04-19 14:07:10.87 !MESSAGE WorkbenchPage leaked a refcount for view org.eclipse.team.sync.views.SynchronizeView !ENTRY org.eclipse.ui 2 0 2005-04-19 14:07:10.87 !MESSAGE WorkbenchPage leaked a refcount for view org.eclipse.ui.views.ResourceNavigator !ENTRY org.eclipse.ui 2 0 2005-04-19 14:07:10.87 !MESSAGE WorkbenchPage leaked a refcount for view org.eclipse.team.ccvs.ui.RepositoriesView

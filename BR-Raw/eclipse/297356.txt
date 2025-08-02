@@ -1,0 +1,3 @@
+[Progress] Exporting with workspace compiled files logs problems twice
+
+1. New plug-in project using a template (plug-in with a view works) 2. Put some random text or other problem into Activator.java 3. Export > Plug-ins and Fragments 4. Turn on "Use class files compiled from the workspace" option 5. Run the export Result: The compile problems are reported in a popup dialog, but they are logged twice in the log.

@@ -1,0 +1,3 @@
+[DataBinding] Issues with IDiff
+
+I was having a look at the databinding code and noticed there was an IDiff. The name of this implies comparison (e.g. Compare as a DiffNode and Team has an IDiff for decribing the difference between two elements or trees being compared. Perhaps IChange would be a better name. I also noticed that the interface had no methods. Doesn't really seem like having it buys you much. Yes, you can only use IDiffs with the binding event but clients would still need to look for a specific type of diff. Also, in talking to Boris, I think the intent is to not allow clients to implement the interface. The javadoc should spec this.

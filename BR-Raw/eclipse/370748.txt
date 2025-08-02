@@ -1,0 +1,3 @@
+[Compatibility] With CDT, instruction stepping mode does not work
+
+Using eclipse-cpp-juno-M5-win32-x86_64 1. Create a hello world project 2. Build the project 3. Debug the project, it should stop at main 4. In the Debug view, in the tree, click on the thread or process, then on the Step Instruction button. Nothing happens. With 3.8M5, when the button is pressed, the button becomes enabled, the disassembly view opens and step over steps through instructions in Disassembly view.

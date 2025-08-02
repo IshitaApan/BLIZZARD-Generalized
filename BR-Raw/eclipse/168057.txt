@@ -1,0 +1,3 @@
+Fast view bar shared between perspectives after restart
+
+I20061214-0010, default (not 3.3!) presentation - new workspace - close welcome - click "+" button in fast view bar and add Navigator - switch to Debug perspective - switch to Java Perspective - restart Eclipse => Navigator view is in fast view bar: good - switch to Debug perspective => Navigator view is still in fast view bar: Should not be there. When I tried to use fast views in my customized perspectives, I had strange situations where a view was visible in the perspective and at the same time in the fast view bar. I think this must be fixed for 3.3 M4.

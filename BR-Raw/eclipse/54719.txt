@@ -1,0 +1,3 @@
+Examples wizard is always empty
+
+I20040304 Win2k As I understand it, if a plugin contributes example wizards, the UI will display "Examples..." in the "File -> New >" menu (and the "new" toolbar icon). However, the wizard dialog is always empty, even if I have example wizards. You can use the Hyades or VE examples from the tools subprojects to see this. Note, if you go to New -> Other..., you'll see the "Examples" category is present and contains items.

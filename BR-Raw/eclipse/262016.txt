@@ -1,0 +1,3 @@
+[Snippets][Viewers] Snippet to demonstrate a combined TextAndDialogCellEditor
+
+Created attachment 123375 The cell editor class See attached TextAndDialogCellEditor class and snippet class.

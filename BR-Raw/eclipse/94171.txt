@@ -1,0 +1,3 @@
+[WorkbenchParts] (regression) Close and other editor-sensitive actions not enabled if editor opened but not activated
+
+build N20050409 - change to single-click mode (in the General prefs page) - close all editors - from the Navigator, select a file - the editor for it opens - File > Close is still disabled I suspect this is because the action is not receiving a partBroughtToTop event, which CloseEditorAction and other ActiveEditorActions expect.

@@ -1,0 +1,3 @@
+Activity preference page grows uncontrolably
+
+The Activities Preferences page is forcing the main preferences dialog to stretch vertically if there are a lot of categories and activities. The activities preferences page should make the tree view scrollable. Currently this dialog is unusable because we have a lot of preferences. Please note that I saw this on linux but doubt it matters.

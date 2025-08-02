@@ -1,0 +1,3 @@
+Cannot mark a task as completed without the mouse
+
+The only place that a task can be marked as completed is via a double click on the completed check box. Ditto for setting the severity. This should be addressed when the table navigation is implemented.

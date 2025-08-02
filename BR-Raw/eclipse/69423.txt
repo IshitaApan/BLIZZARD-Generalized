@@ -1,0 +1,3 @@
+[Tasks] TVT3.0:  Multiple Mnemonics in Tasks -> Sorting screen
+
+From the main Workbench view, click the Task menu (drop down arrow) and select Sorting. There are duplicated mnemonics for (D) and (A). See the attached screenshot.

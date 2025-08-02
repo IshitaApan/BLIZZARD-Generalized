@@ -1,0 +1,3 @@
+[Forms] Border calculation in FormToolkit.initializeBorderStyle looks wrong
+
+3.3 It has: 			// Check for Windows Classic. If not used, set the style to BORDER 			RGB rgb = colors.getSystemColor(SWT.COLOR_WIDGET_BACKGROUND); 			if (rgb.red != 212 && rgb.green != 208 && rgb.blue != 200) 				borderStyle = SWT.BORDER; If it's trying to see if the background is something other than (212, 208, 200), then the &&s should be ||s.

@@ -1,0 +1,3 @@
+Loss of old cool bar layout
+
+Openning an old workspce in any integration build after I20031210 will cause pre-existing cool bar layout(cool item order) to be erased. The user will need to re-customize the cool bar layouts on each perspective to ensure its persistance when eclipse is shutdown.

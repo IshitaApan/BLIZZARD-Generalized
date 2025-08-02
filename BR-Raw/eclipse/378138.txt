@@ -1,0 +1,3 @@
+'Reset Perspective...' must not dispose and reopen parts that remain in the perspective
+
+4.2-I20120429-1800. 'Reset Perspective...' must not dispose and reopen parts as this destroys the existing state of the view. If a part will still be visible after resetting the perspective then it should not be closed/disposed and reopened, but simply placed as defined by the perspective layout. This used to work as expected in 3.x.

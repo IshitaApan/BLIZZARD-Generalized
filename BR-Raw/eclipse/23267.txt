@@ -1,0 +1,3 @@
+[Import/Export] Import Project should have a default folder
+
+R201 When importing an existing Eclipse project on XP and clicking the Browse button I get a dialog that does not have a good default folder. It shows me the desktop, my computer, etc... It would be nice if it could remember the last folder I've imported a project from. If none, it could point to the default content location.

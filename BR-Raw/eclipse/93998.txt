@@ -1,0 +1,3 @@
+[Editor Mgmt] [MPE] MultiPageEditorSite.registerContextMenu methods are inconsistent in whether they delegate
+
+build N20050505 In MultiPageEditorPartSite, the old registerContextMenu methods delegate to the parent part, but the new ones (the ones with the boolean for editorInput) are handled locally. They should probably all work locally, but unfortunately this is contrary to the spec. Alternatively, the new ones should be changed to delegate to the parent. It's not a great problem that they're not handled locally, as long as all parts within the MPE use different ids.

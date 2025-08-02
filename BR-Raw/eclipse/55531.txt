@@ -1,0 +1,3 @@
+Single click mode opens on collapse
+
+I20040318 - do a New Java Search - set Group by Project - expand tree to see a method containing a match - select the method - collapse the project containing the selection observe: the node collapses, the selection is set to the project node and the node is expanded again. I have single selection enabled.

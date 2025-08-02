@@ -1,0 +1,3 @@
+[Min/Max] Two 'drag MockEditor...' tests fail under the new presentation
+
+The scenarios for these test cases choose an arbitrary point relative to the upper right corner of the editor stack to determine the drag 'start' operation. We need to adjust this choice to account for the possibility that (in the new presentation) editor stacks my not be showing min/max buttons...

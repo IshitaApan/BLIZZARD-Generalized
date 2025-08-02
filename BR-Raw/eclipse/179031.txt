@@ -1,0 +1,3 @@
+Breakpoints View showing Search results
+
+build i0322-1800 - I have my Breakpoints view and Search view stacked and minimized - I opened an editor and did a search - Search view popped up (as a fast view) - I selected the "restore" button for the stack - stack was restored with the Breakpoints view getting focus and containing my search results. Will attach screen shot.

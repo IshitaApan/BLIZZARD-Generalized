@@ -1,0 +1,3 @@
+model reconciler tests need rework
+
+They need re-work as there is a level of indirection between a binding container and the bindings. PW

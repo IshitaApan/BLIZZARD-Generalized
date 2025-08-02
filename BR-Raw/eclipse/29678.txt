@@ -1,0 +1,3 @@
+[Decorators] Resource decorators should be pervasive
+
+Build I20020115 Resource decorations should appear wherever resources appear in dialogs. The nature decorator always appears, but the others do not. Here are some dialogs that do not obey resource decorations: - New file/folder wizard, the pane where the parent should be selected from the tree - FileSelectionDialog, ResourceSelectionDialog, ResourceListSelectionDialog

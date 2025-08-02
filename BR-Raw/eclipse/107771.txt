@@ -1,0 +1,3 @@
+[WorkingSets] Working Set selection dialogs have thier own image caches
+
+M1 WorkingSetTypePage and WorkingSetSelectionDialog both have image caches thatshould be replaced by Resource managers

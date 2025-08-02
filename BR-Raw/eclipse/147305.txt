@@ -1,0 +1,3 @@
+[Workbench] Fix detection of early event loop spinning in debug mode
+
+Workbench.runUI uses currently checks for early spinning of the event loop if WorkbenchPlugin.DEBUG is true, but WorkbenchPlugin.DEBUG is only set to true later in the initialization of the Workbench. Should use WorkbenchPlugin.getDefault().isDebugging() instead.

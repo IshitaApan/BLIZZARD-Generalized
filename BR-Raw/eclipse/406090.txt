@@ -1,0 +1,3 @@
+Workbench window flickers, frequent view redraws
+
+I20130416-0800 With recent E4 builds I often see unjustified flickering in the workbench window. I haven't seen this before. Could be related to the new code to show busy state etc. in the view title. E.g. when I save a Java editor, the counters in the JUnit view and the whole Javadoc view are cleared and redrawn.

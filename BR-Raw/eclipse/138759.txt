@@ -1,0 +1,3 @@
+[Dialogs] Compile errors against foundation 1.0: org.eclipse.jface
+
+build n0426 I set org.eclipse.jface to compile against the Foundation 1.0 libraries and I got the following compile errors. They can be fixed by fully-qualifying the method reference. (either by "super" or "className.this") The method setImage is defined in an inherited type and an enclosing scope org.eclipse.jface/src/org/eclipse/jface/dialogs	StatusDialog.java line 106 The method setImage is defined in an inherited type and an enclosing scope org.eclipse.jface/src/org/eclipse/jface/dialogs	StatusDialog.java line 112

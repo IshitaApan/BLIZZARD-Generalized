@@ -1,0 +1,3 @@
+[Field Assist] - Pressing Backspace at offset 0 should not reload field assist popup
+
+N20060322-0010. After migrating the Find/Replace dialog to the new field assist support I found the following blooper: pressing the Backspace key at offset 0 reloads the field assist popup. Test Case: 1. in a text editor press Ctrl+F 2. enable regex search 3. in the Find filed press Ctrl+Space 4. continuously press Backspace ==> each time the proposal list is reloaded.

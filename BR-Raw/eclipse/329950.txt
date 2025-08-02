@@ -1,0 +1,2 @@
+'Close Others' and 'Close All' may cause bundle activation
+

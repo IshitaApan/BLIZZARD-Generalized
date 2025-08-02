@@ -1,0 +1,3 @@
+Open With menu should use radio items, not checkbox items
+
+Build 20011116. In the Navigator and Packages views, the Open With submenu should use radio items, not checkbox items. Only one item can be selected at a time, therefore radio items are more appropriate.

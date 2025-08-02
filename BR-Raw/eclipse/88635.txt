@@ -1,0 +1,3 @@
+[EditorMgmt] add performance tracking for content type resolution
+
+This operation could be expensive and should be tracked.

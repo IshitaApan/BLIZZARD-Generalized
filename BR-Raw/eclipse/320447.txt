@@ -1,0 +1,3 @@
+[Compatibility] Selection in Outline view not picked up by Ctrl-Shift-G
+
+It looks like the selection coming from the Outline view, for purposes of Search References (Ctrl-Shift-G), is taken only from the first editor / pagebookview page. 1. Open two Java files, e.g. A.java and B.java 2. Open A.java and select a member of A in the Outline view. Hit Ctrl-Shift-G. 3. Open B.java and select a member of B in the Outline view. Hit Ctrl-Shift-G. -> Search is performed on the member of A, not on the member of B.

@@ -1,0 +1,3 @@
+[CommonNavigator] Add core expression to determine initial activation for NCE
+
+Build ID: 20090619-0625 Steps To Reproduce: Currently, the definition of the Navigator Content Extension via plugin.xml allows to specify the boolean attribute allowByDefault which controls if the contributed content is active by default. It makes sence to change the type of the attribute from boolean to core expression, which will allow to evaluate the default context and show content depending on it. This will ease the control of content and enhance the declarative configuration of CNF and NCEs. More information:

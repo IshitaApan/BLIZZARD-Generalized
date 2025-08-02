@@ -1,0 +1,3 @@
+Run time workbench wizard has title cut off for large fonts.
+
+If the Header font is set to a large (24 point) font then the titles of the Run with Workbench Wizard are cut off. STEPS 1) Select Preferences-> Fonts 2) Set the Header font to 24 point 3) Select Run with - Runtime Workbench 4) Title will be cut off

@@ -1,0 +1,3 @@
+[Workbench] After closing all perspectives, Project Explorer will never show content
+
+I closed all my perspective and then opened the Resource perspective. I then opened the Project Explorer but it was empty. Now, no matter what I do (i.e. restart, disable and reenable content), I cannot get the view to show any content.

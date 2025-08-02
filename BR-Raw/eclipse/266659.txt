@@ -1,0 +1,3 @@
+[StatusHandling] Minimalize WSDM API changes
+
+I do not believe it has sufficient adoption from community.

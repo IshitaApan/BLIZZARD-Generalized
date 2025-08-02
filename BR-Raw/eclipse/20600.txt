@@ -1,0 +1,3 @@
+TVT2:'About...' page:garbled char in "System info" page
+
+Language: Japanese Language: Japanese Build driver: F2 Reporter: Yurina Imamura General catch all: Y Test case #: 10.001050 Summary: TVT2: 'About...' page problems Description: From the menu bar in the main Workbench panel, click on Help -> About Websphere Studio Workbench. When you click 'System Info' button, some lines are not translated, and also contains some garbage characters. Please refer the image.

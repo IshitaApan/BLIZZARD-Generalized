@@ -1,0 +1,3 @@
+[DI] InjectorImpl.findExtendedSupplier does not use correct PrimaryObjectSupplier
+
+InjectorImpl.findExtendedSupplier uses its defaultSupplier to inject values into the ExtendedObjectSupplier. It is possible that defaultSupplier is NULL, in which case no injection happens. This is unnesessary, since a valid PrimaryObjectSupplier gets passed to findExtendedSupplier, which can be used for the injection in this case.

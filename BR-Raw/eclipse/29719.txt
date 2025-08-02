@@ -1,0 +1,3 @@
+[Linked Resources] comments about mini new folder dialog
+
+Build: I20030115 From linked resource retrospective with Jeem and Chris Mc. The following comments are about org.eclipse.ui.dialogs.NewFolderDialog 1. This should have a similar look to the new folder wizard. I.e., it should have an advanced button that conceals or reveals the link to file system part. 2. This dialog doesn't allow creating of a linked folder that doesn't exist in the file system. I.e., when IFolder.createLink is called, it should pass the ALLOW_MISSING_LOCAL flag.

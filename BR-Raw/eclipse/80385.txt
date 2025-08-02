@@ -1,0 +1,3 @@
+[DynamicUI] Basic project property pages are gone
+
+200412070800 The basic property info page on projects is no longer there. Possibly caused by introduced by the registry changes or the preference changes.

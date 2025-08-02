@@ -1,0 +1,3 @@
+[PerspectiveBar] [Perspectives] Perspective Bar - Dock On Left throws IndexOutOfBoundsException
+
+Build ID: M20090211-1700 Steps To Reproduce: 1. Create a new Plug-in Project (Rich Client Application -> RCP Mail Template). 2. Add the following lines to ApplicationWorkbenchWindowAdvisor#preWindowOpen(): PlatformUI.getPreferenceStore().setValue(IWorkbenchPreferenceConstants.SHOW_OPEN_ON_PERSPECTIVE_BAR, false); configurer.setShowPerspectiveBar(true); 3. Run the application. 4. Right click on the perspective bar and choose Dock On Left => empty perspective bar and "java.lang.IndexOutOfBoundsException: inserting Test.perspective at 1" in stacktrace.

@@ -1,0 +1,2 @@
+[ErrorHandling] [StatusHandling] Hooking into JFace dialogs
+

@@ -1,0 +1,3 @@
+QuickAccess popup: remembering size and position does not work
+
+I20060906-1200 QuickAccess (Ctrl+E) popup: remembering size and position does not work. - The state of the menu 'Remember Size an Postion' is always checked when the dialog comes up, even after I've switched it off - The position and size of the dialog is not remembered

@@ -1,0 +1,3 @@
+[CSS] Measure.getCssText() with float value results in IllegalStateException
+
+In theory we should be able to provide percentages as part of the gradients, e.g. CTabFolder:selected { background-color: #FF0000 #0000FF 30% } But this generates IllegalStateException calling getCSSText() on org.apache.batik.css.parser.CSSLexicalUnit$FloatLexicalUnit from Measure.getCSSText().

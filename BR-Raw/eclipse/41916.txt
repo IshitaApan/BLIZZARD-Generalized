@@ -1,0 +1,3 @@
+Progress View: Status Line updates too much in verbose mode
+
+When there is an animation going on the status line update runs constantly when verbose mode is on as it is constantly showing the Animation job. We should make sure that the update only occurs if there has been a change and not honour the debug mode as it is not interesting for the status line.

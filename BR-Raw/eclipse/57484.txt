@@ -1,0 +1,3 @@
+[Progress] User jobs should be top priority
+
+We should set user jobs to highest priority in our sorting for the progress viewers

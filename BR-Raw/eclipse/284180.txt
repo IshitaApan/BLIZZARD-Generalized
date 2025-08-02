@@ -1,0 +1,3 @@
+e4 doesn't start when workspace path contains a space
+
+Attempting to run e4 with a workspace location containing a space fails to start. ava.net.URISyntaxException: Illegal character in path at index 18: file:/C:/Documents and Settings/jarthorn/test/ 	at java.net.URI$Parser.fail(Unknown Source) 	at java.net.URI$Parser.checkChars(Unknown Source) 	at java.net.URI$Parser.parseHierarchical(Unknown Source) 	at java.net.URI$Parser.parse(Unknown Source) 	at java.net.URI.<init>(Unknown Source) 	at java.net.URL.toURI(Unknown Source) 	at org.eclipse.e4.workbench.ui.internal.Workbench.<init>(Workbench.java:103)

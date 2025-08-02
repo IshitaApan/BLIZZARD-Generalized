@@ -1,0 +1,3 @@
+AboutPlugins dialog and AboutFeaturesDialog have %Appname in title
+
+build 20020517 AboutPlugins dialog and AboutFeaturesDialog have %Appname in title Should not be using app name

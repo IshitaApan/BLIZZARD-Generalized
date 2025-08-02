@@ -1,0 +1,3 @@
+Part that cannot be closed should not react to middle mouse clicks
+
+If a part is not closeable or has been defined as such by the perspective, a middle mouse click should not close the part.

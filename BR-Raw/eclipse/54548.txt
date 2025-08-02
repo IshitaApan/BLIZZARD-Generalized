@@ -1,0 +1,3 @@
+[About] About dialog should obtain info from IProduct and IBundleGroup instead of platform configuration
+
+build I20040310 As with bug 54547, the About dialog should be changed to get info from IProduct and IBundleGroup rather than the platform configuration.

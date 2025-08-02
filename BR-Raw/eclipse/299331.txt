@@ -1,0 +1,2 @@
+[CommonNavigator] Compile errors in new CNF tests
+

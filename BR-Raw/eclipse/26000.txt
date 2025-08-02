@@ -1,0 +1,3 @@
+[Dialogs] Need to remove markedItemsStartIndex in BuildOrderPreferencePage
+
+20021112 markedItemsStartIndex in BuildOrderPreferencePage is now obsolete with the new circular projects support. We should remove it.

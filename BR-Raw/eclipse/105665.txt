@@ -1,0 +1,3 @@
+[Dialogs] "Open resource" dialog doesnt remember it position and size
+
+really annoying thing, especially when you're working with 2 monitors. "Open resource" dialog (CTRL-R) should not to forget position and size after closing it. "Open type" dialog (CTRL-T) is working correcly.

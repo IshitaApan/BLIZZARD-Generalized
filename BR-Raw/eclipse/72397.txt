@@ -1,0 +1,3 @@
+[Dialogs] DialogSettings Javadoc example needs <pre> and </pre> tags
+
+The Javadoc for the class DialogSettings includes an example, but when displayed as HTML is displayed word-wrapped. This example, as with all code examples, should be considered preformatted by the browser. To do this, add a <pre> tag before the example and a </pre> tag after the example.

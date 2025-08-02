@@ -1,0 +1,3 @@
+[Editor Mgmt] Opening editor can trigger autobuild with no progress
+
+By convention opening an editor does a refreshFromLocal. This can trigger an autobuild as a side effect. I had a workspace that was not built and and autobuild got triggered when opening the first editor. Since there is no progress the workbench was not responsive during around 10 minutes.

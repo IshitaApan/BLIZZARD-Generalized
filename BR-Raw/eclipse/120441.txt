@@ -1,0 +1,3 @@
+[DnD] Cancelling the Drag places trim in the wrong place
+
+Right now if you are dragging trim around, docking and undocking it then either cancelling the trim (or 'dropping' it in an invalid location) will 'restore' it to its last 'docked' location. It should restore the trim to its -original- docked location.

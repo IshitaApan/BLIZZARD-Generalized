@@ -1,0 +1,3 @@
+[Markers] Unused NLS messages reported in log
+
+Build: Running from HEAD as of 20051117, 2pm. I get these errors in my log. messages.properties contains MarkerResolutionDialog_CannotFixMessage but MarkerMessages.java contains MarkerResolution_CannotFixMessage. !ENTRY org.eclipse.osgi 2 1 2005-11-17 13:57:51.890 !MESSAGE NLS unused message: MarkerResolutionDialog_CannotFixMessage in: org.eclipse.ui.views.markers.internal.messages !ENTRY org.eclipse.osgi 2 1 2005-11-17 13:57:51.890 !MESSAGE NLS missing message: MarkerResolution_CannotFixMessage in: org.eclipse.ui.views.markers.internal.messages

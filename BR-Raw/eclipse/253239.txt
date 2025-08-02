@@ -1,0 +1,3 @@
+[PropertiesDialog] Wrong title for a file property
+
++++ This bug was initially created as a clone of Bug #222967 +++ 1. Open a php file(for example DebugDemo.php) 2. Go to Menu bar > File > Properties. The properties dialog is opened Expected result: The title is "Properties for DebugDemo.php" Actual result: The title is "Properties for"

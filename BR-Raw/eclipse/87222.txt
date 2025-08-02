@@ -1,0 +1,3 @@
+[KeyBindings] preference page: Duplicate bindings masked by the preference page
+
+Version: 3.1.0 Build id: I20050301-1230 After installing Web Tools I noticed that a few of the java editing keybindings disappeared: - Select Enclosing Element - Restore Selection - Select Next element - Select Previous element - probably some others WTP defines its own versions of these commands (same name, different ID) but assigns the key bindings to a "structued text editor scope". The Java key bindings are in a "Java editing scope". WTP should probably use the existing commands (they would have to be pushed down first), but I don't think it was right for the Java key bindings to be removed/hidden.

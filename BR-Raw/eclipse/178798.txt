@@ -1,0 +1,3 @@
+[FastViews] Duplicated new FVB after moving around
+
+I20070321-1800 - new workspace - close intro - move original FVB from bottom to left by drag-and-drop - minimize Package Explorer - context menu on new FVB's dotted line > Dock On > Right - move new FVB from right to left by DnD - move new FVB from left to bottom by DnD -> remnants of the new FVB remain in the left trim -> does not seem to be a persistent problem; the spooky FVB disappears on restart

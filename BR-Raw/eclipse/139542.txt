@@ -1,0 +1,3 @@
+[Progress] Infrastructure jobs should not be shown in System jobs mode
+
+RC2 It turns out the more people show system jobs that originally thought. We should only show those for updating the problems view and the animation when an options file is set.

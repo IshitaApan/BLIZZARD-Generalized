@@ -1,0 +1,3 @@
+[Navigator] F2/F5 actions not enabled/disabled properly when closing/opening project
+
+If we fix bug 33151 the rename and refresh actions will have the following problem when invoked using the F2/F5 accelerator keys. -open the context menu on an open project -observe that rename is enabled, F2 works for rename -close the project -F2 still pops up the rename text editor even though the project is closed -open the context menu on the closed project -F2 is now disabled properly The problem is that the F2/F5 key handlers use the enabled state of their respective actions to determine if the action can be executed. The enabled state is only update when the context menu is shown.

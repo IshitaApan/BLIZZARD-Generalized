@@ -1,0 +1,3 @@
+[Compatibility] IWorkbenchPartReference's getTitle() doesn't return underlying part's title
+
+I20101209-0255 When using Ctrl+F7, you should see 'Problems (0 items)' instead of just 'Problems'. The label doesn't contain the view's content description.

@@ -1,0 +1,3 @@
+[Compatibility] Parts need local IPartService implementations
+
+We should use a slave IPartService implementation for parts.

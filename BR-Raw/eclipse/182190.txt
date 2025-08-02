@@ -1,0 +1,3 @@
+[StatusHandling] [Wizards] getControl assert on wizard page has no message
+
+M6 If you forget to set the control on your wizard page our assert gives no feedback. We need an error message.

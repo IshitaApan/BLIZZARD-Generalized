@@ -1,0 +1,3 @@
+[statushandling] Exception message is not displayed.
+
+Created attachment 97444 Fix See tests (testWithStatusAdapter3()) attached to bug 210750

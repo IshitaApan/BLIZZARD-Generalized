@@ -1,0 +1,3 @@
+[CommonNavigator] change "Navigator" view perspective links
+
+According to bug 208693 comment 3: please change "Resource" perspective view links (Window->Show View) from "Navigator" view to the "Project Explorer" view, as it should be the full featured replacement for the old "legacy" navigator view. Other affected perspectives: "Team Synchronizing", "Plugin Developement", "Java", "Java browsing", "Java type hierarchy", "CVS Repositories".

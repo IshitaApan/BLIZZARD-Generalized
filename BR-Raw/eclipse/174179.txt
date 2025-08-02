@@ -1,0 +1,3 @@
+[Forms] FormToolkit should use SWT.BORDER style in Vista
+
+We should not paint our own borders in Vista but the method for initializing border style in FormToolkit only checks for Windows XP. We should expand this check to include Vista.

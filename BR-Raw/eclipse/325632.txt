@@ -1,0 +1,3 @@
+[Compatibility] Slave selection services required for parts
+
+ISelectionServiceTest's testLocalSelectionService() is failing because the ISelectionService returned from a part's site is the same as the one returned from the workbench window.

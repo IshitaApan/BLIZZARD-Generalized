@@ -1,0 +1,3 @@
+[Dialogs] opening a dialog on top of PopupDialog closes the popup
+
+N20051021-linux-gtk + patches from bug 113104 - open the quick outline - from the view menu, choose "Filters..." > expected: the filter dialog opens and stays visible < actual: the filter dialog quickly shows, then both the dialog and the popup disappear probably stems from different event ordering on the linux/gtk platform (I remember observing the activate/focus events to come in different order).

@@ -1,0 +1,3 @@
+[Wizards] New wizard "Show All Wizards" selection change collapses tree
+
+I do File-->New and the New wizard comes up. I drill down the category tree to find and expand the category I want. Oops, the wizard I'm looking for isn't visible, so I select "Show All Wizards". The category tree is replaced by a totally collapsed tree, so I now have to drill down the category tree again to find and expand the category I want. Annoying. Deselecting "Show All Wizards" also collapses the tree. What should happen, IMHO, is that the expansion state of the tree should be preserved across "Show All Wizards" selection changing.

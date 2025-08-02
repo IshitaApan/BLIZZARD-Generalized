@@ -1,0 +1,3 @@
+[Viewers] Collapsed expandable nodes in a TreeViewer are needlessly expensive
+
+In the Expressions view, the debug platform TreeViewer needlessly causes the model to be queried for all children of collapsed expandable items. This can have serious performance repercussions. This can be easily seen in a CDT gdb debug session. Create a simple C project with the following main(). Launch a debug session and add 'arr1' and 'arr2' in the Expressions view. Don't expand them. Simple step through the loop. Every step takes about 3-4 seconds on a relatively fast machine. Close the Expressions view, stepping becomes instantaneous. int main() { int arr1[100]; int arr2[100]; while (1) { int i = 1; i++; } return arr1[0] + arr2[0]; }

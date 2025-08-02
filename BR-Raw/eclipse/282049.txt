@@ -1,0 +1,3 @@
+Pass old context value to ContextChangeEvent
+
+We should provide the "old value" for add and remove context change events. Knowing the old value will help listeners make more informed update decisions (i.e., they can accurately determine if the change effects them or not).

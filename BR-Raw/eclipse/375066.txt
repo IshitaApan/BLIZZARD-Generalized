@@ -1,0 +1,3 @@
+[Compatibility] Show Views dialog is always empty
+
+Build Id: I20120321-0610 Window > Show Views > Other is empty.

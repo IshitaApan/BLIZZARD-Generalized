@@ -1,0 +1,3 @@
+[Preferences] some pages cannot be displayed in high contrast
+
+STEPS 1) Switch to High Contrast by selecting Window->Control Panl->Accessibility Resources 2) Start Eclipse 3) Open the preferences page 4) Select Colors and Fonts 5) Select a diffrent page 6) new page not displayed.

@@ -1,0 +1,3 @@
+[Markers] Progress message: Queueing viewer updates
+
+Build: I20060228-1207 I saw this message flash by in the status line: "Queueuing viewer updates". 1) I think "queueing" is spelled wrong. Dictionary.com spells it "queuing". 2) This sounds like it should be a system job. A user likely won't even know what a "viewer" is, let alone what viewer is being updated. I actually had no idea what viewer it was referring to.

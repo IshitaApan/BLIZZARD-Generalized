@@ -1,0 +1,3 @@
+[Working Sets] API to get the image associated with an IWorkingSet
+
+I would like an API to get the image associated with an IWorkingSet Background: I'm trying to create a viewer that lets the user select a working set. The WorkingSetSelectionDialog isn't what I need (I need a viewer, not a dialog), and I haven't found API to get at the viewer used in the dialog, so I'm writing my own. I can get the working sets from the working set manager and my label provider can get the text from the working set names, but I haven't found any API to get the images.

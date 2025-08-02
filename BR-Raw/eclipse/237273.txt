@@ -1,0 +1,3 @@
+[About] About dialog does not change about.mappings for dynamic product
+
+Build ID: I20080613-2000 Steps To Reproduce: Our rcp application has an IProductProvider to create IProduct dynamically. In our product, IProduct.getDefiningBundle() returns different result per window. Problem: Once about.mapping is loaded, that mapping is always used, and never updated, even if IProdut.getDefiningBundle() returns a different bundle later.

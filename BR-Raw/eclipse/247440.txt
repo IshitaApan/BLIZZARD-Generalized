@@ -1,0 +1,3 @@
+API error in IWorkbenchPreferenceConstants
+
+Caused by the checkin for Bug 84603 PW

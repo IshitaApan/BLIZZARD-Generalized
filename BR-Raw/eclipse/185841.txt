@@ -1,0 +1,3 @@
+Colour treatement of active non-focus tabs
+
+We need a new color treatement for active non-focus tabs (the one you get when another window other than the workbench has focus). This goal is a better match with the active tabs so the transition is less jarring. Presently we have a new look for the focus tab but the old 3.2 dark-on-top look for the non case tab.

@@ -1,0 +1,3 @@
+[Preferences] [Dialogs] FieldEditors should relax requirements to support DialogPages
+
+It is currently the case that a FieldEditor is forced to be part of preference pages. DialogPage is all that we need as field editors are now being used outside of the preference dialog (see Bug 77832)

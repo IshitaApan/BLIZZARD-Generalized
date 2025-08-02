@@ -1,0 +1,3 @@
+[Viewers] performance problem in AbstractTreeViewer.internalExpandToLevel
+
+If you expand to ALL_LEVELS, internalExpandToLevel will call createChildren even if the element has no children, i.e. it does not check if the element is expandable. Found this while experimenting with the Quick Access feature (enter "con", then delete all three characters one at a time).

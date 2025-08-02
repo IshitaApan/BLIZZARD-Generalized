@@ -1,0 +1,3 @@
+LRU working set contains removed working set
+
+The last recently list is not updated when one of its working sets is deleted.

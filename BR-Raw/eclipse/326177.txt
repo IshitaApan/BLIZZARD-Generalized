@@ -1,0 +1,3 @@
+EPartService's getActivePart() does not appear to work properly for an application with multiple windows
+
+Based on the code in PartServiceCreationFunction, the EPartService implementation being returned when an application's context is queried seems to be a window-level EPartService implementation.

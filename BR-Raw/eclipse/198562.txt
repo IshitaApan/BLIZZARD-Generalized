@@ -1,0 +1,3 @@
+[Contributions] Change ActionContributionItem + CommandContributionItem to use event coordinates
+
+In order to enable RTL support on Linux, we have changed the recommended way of determining the location of a Toolitem pop up menu. Attaching a patch for UI.

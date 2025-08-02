@@ -1,0 +1,3 @@
+[Commands] Update CommandAction
+
+Update CommandAction to use the new ParameterizedCommand.generateCommand(*) method instead of doing the work itself. Also, initialize it with images if they are available from the ICommandImageService. Check out how it's done in CommandContributionItem. This might have to wait until next week after I've committed the ParameterizedCommand changes. PW

@@ -1,0 +1,3 @@
+TVT1: Hardcoded String - Export Error Message
+
+Error message in english when exporting to a zip file. Test Case: http://jumpstart.raleigh.ibm.com/jumpstart/TVTDOCS/eclipsewbtvt.htm#_Toc52795485 3

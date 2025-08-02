@@ -1,0 +1,3 @@
+[Undo] - AbstractOperation toString() appends bogus comma
+
+The toString() on AbstractOperation puts commas between undo contexts, and also puts one at the end. It looks pretty bogus in the operation history view. Should clean up to not add the very last comma.

@@ -1,0 +1,3 @@
+[Viewers] ViewerSorter need not be abstract
+
+build I20030927 Kim Horne asks: Can ViewerSorter be made concrete? It's perfectly usable as it is as an alphabetical sorter... there doesn't seem to be any reason for it to be abstract. I've attached a patch that'll do it if it's OK. If not...why not? :)

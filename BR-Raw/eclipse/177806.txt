@@ -1,0 +1,3 @@
+[Trim] Provide a way for a trim control to participate in commands/handler
+
+When a trim control has focus, it should be able to specify that its handlers are active. PW

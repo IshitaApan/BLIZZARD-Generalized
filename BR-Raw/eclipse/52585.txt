@@ -1,0 +1,3 @@
+[About] "more info" on plugin in about box puts up error dialog
+
+Select Help | About | Plug-In Details. In the dialog select the Plug-In Core Boot. Click "More Info" Get an error dialog with title "bundleentry://16/about.html" and text "Windows cannot access the specified device path or file. You may not have the appropriate permissions to access the item."

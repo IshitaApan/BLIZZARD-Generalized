@@ -1,0 +1,3 @@
+obsolete CSS layout methods in SWTPartRenderer
+
+we still have these methods in SWTPartRenderer createWrapperForStyling addLayoutForStyling configureForStyling they are not used anymore. OK to just delete them?

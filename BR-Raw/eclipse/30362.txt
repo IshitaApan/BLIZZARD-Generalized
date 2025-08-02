@@ -1,0 +1,3 @@
+[Preferences] DBCS:Scroll bar doesn't appear when resize "Preferences" window
+
+Reporter: Richmond Language: (Korean/Simplfied Chinese/Traditional Chinese) Build driver: 20030122 Severity: 	 Normal OS: <RedHat8> JDK Ver.: IBM JDK1.3.1 + SR3 Test case #: Summary: DBCS:Scroll bar doesn't appear when resize "Preferences" window Description:<description of problem.> Steps to recreate problem: 1-CLick "Windows>Preferences". 2-Select "Workbench>Perspectives". 3-Resize the "Preferences" windows. <<Error>> There is no scroll bar in panel "Available perspectives:" (scrollbar.jpg) 	 <<Expected Result>> There should be scroll bar in panel "Available perspectives:"

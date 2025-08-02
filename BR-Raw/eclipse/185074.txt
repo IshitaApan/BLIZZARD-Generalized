@@ -1,0 +1,3 @@
+[KeyBindings] New Keys preference page: should enlarge combo like old page did
+
+I20070502-0010 The "When" combo (and probably also the "Scheme" combo) should have combo.setVisibleItemCount(20) called, such that more than the default 5 contexts are visible. Has been fised for old page with bug 64496.

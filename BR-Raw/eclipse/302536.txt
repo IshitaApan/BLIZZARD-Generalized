@@ -1,0 +1,3 @@
+[Markers] Broken double checked locking in MarkerSupportRegistry
+
+Build Identifier: Trunk version In method "public static MarkerSupportRegistry getInstance()" of class MarkerSupportRegistry, double checked locking idiom is used. But the field "singleton" involved in the idiom is not declared with volatile modifier which is incorrect. Simply add volatile modifier in field annotations declaration can quickly fix the problem. Below link and description explain the details. http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.html#dcl Reproducible: Didn't try Steps to Reproduce: This kind of concurrency error depends on thread interleaving in runtime, it may occur surprisingly in certain run which is very difficult to track the bug.

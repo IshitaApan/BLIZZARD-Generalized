@@ -1,0 +1,3 @@
+Actions rely on localization support.
+
+Accelerators that use Spaces (Content assist and parameter assist) do not work in Locales other than English (tested in German and Italian with the same results).

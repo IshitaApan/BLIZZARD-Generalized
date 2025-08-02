@@ -1,0 +1,3 @@
+[Compatibility] Event notifications need to be wrapped in an ISafeRunnable
+
+At the moment, one bad listener can spell the end of all event notifications.

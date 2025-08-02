@@ -1,0 +1,3 @@
+[Viewers] Regression: decorator of DecoratingLabelProvider completely replaces label provider
+
+HEAD (including fix for bug 165650), works fine in 3.2.1 The decorator of an DecoratingLabelProvider completely replaces the base label provider as soon as it implements IColorDecorator or IFontDecorator. See the attached example. In 3.2.1, returning null from the I*Decorator methods made the viewer take the color/font from the base label provider. Now, null overrides the original value.

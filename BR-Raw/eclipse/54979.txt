@@ -1,0 +1,3 @@
+[Wizards] Export create empty file when Out of Sync
+
+SCENARIO: 1. Create a Simple Project in Eclipse 2. Create a file in the simple project 3. Go outside of Eclipse and edit the file (using Notepad or some such) 4. Go back to Eclipse, and export the file that has been edited (without doing a refresh first) EXPECTED RESULTS: export fails with out of sync message, no file generated ACTUAL RESULTS: export fails with out of sync message, a file of size 0 was created P.S. As a bonus, if Bug 54018 (https://bugs.eclipse.org/bugs/show_bug.cgi?id=54018) is implemented, that would be really nice.

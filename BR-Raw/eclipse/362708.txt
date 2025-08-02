@@ -1,0 +1,3 @@
+[Compatibility] Views that cannot be instantiated may not have a stack trace shown in the error part
+
+Due to a mistake in the chaining of CoreException statuses, an error part may not actually show a detailed stack trace.

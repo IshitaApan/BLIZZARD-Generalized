@@ -1,0 +1,3 @@
+Icons not centered in minimized trim stack
+
+N20070301-0010 In a vertically oriented minimized trim stack, the icons aren't centered and are a little too far left. It is easier to see by looking at the little horizontal bar (maybe its just the bar thats not centered?) See screenshot.

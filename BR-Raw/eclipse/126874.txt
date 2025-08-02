@@ -1,0 +1,3 @@
+[Viewers] Apidoc for setting ITableColorProvider missing
+
+I wanted to add some color to my table. First i found out about ITableColorProvider, but didnt know where to register it. After digging into the eclipse source code, i found out that org.eclipse.jface.viewers.TableViewer has a method named setLabelProvider with one argument IBaseLabelProvider. In the code, but not the javadoc, it says that you can also register ITableFontProvider and ITableColorProvider with it, assuming the instance implements these types, too. Please consider documentating this feature in the corresponding javadoc, as its part of the methods functionality and contract.

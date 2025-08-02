@@ -1,0 +1,3 @@
+[Viewers] SWT/JFace: TreeViewer unable to show same image in different columns
+
+Build ID: I20070503-1400 Steps To Reproduce: 1. see atached snippet 2. 3. More information: If the same image is returned by the label provider, the tree viewer shows the image only in the first column. A table viewer shows the image in all columns. If separate images are used for the first and for all following columns, it works.

@@ -1,0 +1,3 @@
+[About] About dialog scrollbar does not operate correctly
+
+The About dialog allows there to be an image on the left and text on the right, given the image has a small enough width. The height of the dialog is determined by whichever has the greater height. We can coordinate the size of the image with the amount of text, but the font can change on different platforms or machines, and different languages may require the text to be even larger. Could we make the text scrollable, such that the height of the dialog is solely based on the height of the image? That would give the dialog a more consistent look across platforms, instead of having the dialog size vary based on the font/text size.

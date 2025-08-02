@@ -1,0 +1,3 @@
+[JFace] - API - access to images and colors for standard field decorations
+
+It has been proposed while discussing bug #120238 that JFace provide access to the visuals being designed for: - required fields (color and decoration) - error indicators (color and decoration) - warning indicator (decoration) - content assist cue (decoration) - currently in workbench API

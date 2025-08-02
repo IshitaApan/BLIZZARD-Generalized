@@ -1,0 +1,3 @@
+[EditorMgmt] WorkbenchEditorsDialog's save operation simply reuses a progress monitor repeatedly for every editor to be saved
+
+The progress monitor is passed to the editor's doSave(IProgressMonitor) without any regard for what the previous editor might've called on the editor.

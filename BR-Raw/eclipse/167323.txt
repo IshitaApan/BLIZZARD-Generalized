@@ -1,0 +1,3 @@
+[Viewers]Open AbstractTreeViewer for external widget implementors
+
+As reported by Ross Camara AbstractTreeViewer would work for nebula if we would open the API a bit. Boris and I decided that we will do this in 2 steps: 1. open the API 2. moving the Virtual-Support bits from TreeViewer to AbstractTreeViewer when the nebula grid provides virtual support.

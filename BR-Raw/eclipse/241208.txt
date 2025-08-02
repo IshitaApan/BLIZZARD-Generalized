@@ -1,0 +1,3 @@
+[Markers] [Problems View] Restore Defaults is not working in the preferences
+
++++ This bug was initially created as a clone of Bug #240300 +++ 1. In the Problems view go to the view menu -> Preferences 2. Move a column for example from Show to Hide 3. Click Restore Defaults button - nothing happens

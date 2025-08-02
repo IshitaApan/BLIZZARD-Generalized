@@ -1,0 +1,3 @@
+[open type] problem with incomplete results
+
+20070118 It seems that sometimes no search matches are shown, only the history entries. - Open the dialog on a larger workspace - Quickly enter two characters and then remove the second one with backspace - You can see that the search is interrrupted at 60% and doesn't start again after the backspace - the result only contains history entries

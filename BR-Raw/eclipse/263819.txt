@@ -1,0 +1,3 @@
+[CSS] Wrong background color in preview in photo demo
+
+The background color should be white, this is the CSS: #preview { 	color: #e5e5e5; 	background-color: #ffffff; } Presently it's a gray.

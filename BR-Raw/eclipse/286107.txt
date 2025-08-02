@@ -1,0 +1,3 @@
+[ViewMgmt] [GlobalActions] Closing project ignores Saveables
+
+CloseResourceAction saves only Editors, while other Saveables (part or non-part) are ignored. This causes data loss (because changes made in f.e. view cannot be saved to closed project on workbench exit).

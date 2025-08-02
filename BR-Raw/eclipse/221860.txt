@@ -1,0 +1,3 @@
+[Workbench] Workbench should use transient start to activate UI
+
+Created attachment 91875 use START_TRANSIENT flag to activate ui The WorkbendhPlugin currently has some "hack" code that the core team supplied a while back to transiently activate the org.eclipse.ui bundle by loading the UI's bundle activator class. This code should be migrated to the new Bundle.start(START_TRANSIENT) method that has been added to OSGi R4.1 (implemented in Eclipse 3.3). Here is a patch.

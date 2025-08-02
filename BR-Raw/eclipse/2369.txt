@@ -1,0 +1,3 @@
+[Workbench] Would like to be able to save workspace without exiting (1GEUMKI)
+
+Currently, there is no way to perform a full save of the workspace without exiting and restarting, which can take a while. I would like a menu option allowing to perform a full save action when I feel it necessary. Then I can zip the corresponding folder manually. Ideally a save-as would be even better. NOTES:

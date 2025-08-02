@@ -1,0 +1,3 @@
+[HELP] IHelpContextIds has two contexts declared on the same line
+
+20020612 The following contexts are defined on a single line (missing //$NON-NLS-1$ and cr) public static final String RESET_TOOLBAR_ACTION = PREFIX + "reset_toolbar_action_context";	public static final String TOGGLE_EDITORS_VISIBILITY_ACTION = PREFIX + "target_editors_visibility_action_context"; //$NON-NLS-1$

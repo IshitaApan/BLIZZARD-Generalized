@@ -1,0 +1,3 @@
+[Contributions] Patch for adding ResourceMapping support to object contributions
+
+I have modifed the UI to support object contributions on resource mappings. I will attach the patches for workbench, ide and tests. It would be nice if we could have these in for the next integration build so we could also release the changes for CVS.

@@ -1,0 +1,3 @@
+[DnD] DND should reorder or detach perspectives.
+
+As suggested by mvm the perspectivebar should reorder perspective buttons on drag and drop over another perspective button, similar to what ViewStacks do with views. Additionally, if you drag a perspective button outside of the main eclipse window (or initiate by some other method of detachment), it would be useful if that perspective would spawn in a new WorkbenchWindow with the same state it would have had you restored it normally.

@@ -1,0 +1,3 @@
+Create a Scale field editor
+
+Create a Field Editor based on a Slider control.

@@ -1,0 +1,3 @@
+[PropertiesDialog] No info is shown for the New text file line delimiter inherited from container
+
+1. Go to Project->Properties->Resource 2. Notice that the label of the "Inherited from container" new text file line delimiter does not give you any information what line delimiter is inherited. Note: Take a look at the "Inherited from container" text file encoding for a good example of displaying the information. Screen-shot is attached.

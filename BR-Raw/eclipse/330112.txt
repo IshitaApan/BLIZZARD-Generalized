@@ -1,0 +1,3 @@
+[Compatibility] Outline view menu only shows up once per switch
+
+It shows up once after switching to a specific java editor, and then it won't show up again until you switch editors. PW

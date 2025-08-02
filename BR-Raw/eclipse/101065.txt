@@ -1,0 +1,3 @@
+[Markers] Marker image lookup not nl enabled
+
+RC3 Our marker image lookup is not nl enabled (see Bug 100767). Currently this is not an issue and no on is trying to nl marker icons but it could be.

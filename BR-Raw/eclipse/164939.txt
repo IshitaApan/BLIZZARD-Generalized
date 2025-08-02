@@ -1,0 +1,3 @@
+[Forms] Form-based editor horizontal scroll pagesize too small
+
+This is a copy of Bug 159898. In form-based editors (like Mylar task editor or PDE plugin.xml editor), the horizontal scrollbar behaves strangely. Clicking on the scoll pane, the content is scrolled horizontally by the same amount as when clicking on the arrow symbols. Expected behaviour is to scroll for a bigger amount (page size). Vertical scrollbar behaves normally.

@@ -1,0 +1,3 @@
+[Preferences] Preference dialog should disable OK when okPressed
+
+We should disable the OK button when it has been pressed as certain preferences pages may take a while to process (see Bug 64937).

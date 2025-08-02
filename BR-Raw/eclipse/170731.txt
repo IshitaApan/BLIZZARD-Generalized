@@ -1,0 +1,3 @@
+[About] Improve layout behavior "About Eclipse SDK Features"
+
+Build ID: 200609210005 Steps To Reproduce: 1. click Help -> About Eclipse SDK 2. In the dialog "About Eclipse SDK", click Button "Feature Detail" 3. A Dialog named "About Eclipse SDK Features" is shown 4. Maximize the dialog, the Table doesn't take all the spaces below it. More information: I hope the table take all the spaces when we resize the dialog

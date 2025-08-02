@@ -1,0 +1,3 @@
+[About] Plug-ins table from About dialog should show sort arrows
+
+3.3RC4 - Help -> About Eclipse SDK - press Plug-in Details button - click on a table header in the resulting Plug-ins table -> this sorts the column's entries but does not give a visual indication in the column header (Table.setSortColumn(...) and Table.setSortDirection(...) needed)

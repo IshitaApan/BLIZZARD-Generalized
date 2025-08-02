@@ -1,0 +1,3 @@
+Make Logging stuff available on a per class configuration
+
+Created attachment 172059 Patch The current logger stuff is always logging as the logger from the ui.workbench bundle. It should be possible to create a logger configured on a per class or at least per bundle level. The attached patch adds a ILoggerProvider service and a default implementation which creates a logger on a bundle level.

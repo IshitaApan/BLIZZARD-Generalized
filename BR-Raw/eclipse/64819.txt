@@ -1,0 +1,3 @@
+[Activities] [Preferences] The term activities is still used in the preferences
+
+Windows>Preferences>Workbench page has the option: "Prompt when enabling _activities_" activities should be changed to _capabilities_. Also since there is now a separate "Capabilities" preference page I suggest to move this option to this page.

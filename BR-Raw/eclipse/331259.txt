@@ -1,0 +1,3 @@
+[Compatibility] 3.x commands no longer have states available to them
+
+A large majority of the EGit views will not work because it can't initialize a RepositoriesViewContentProvider as the Command is returning null for getState(String). Caused by the changes to CommandPersistence for bug 329646. java.lang.NullPointerException at org.eclipse.egit.ui.internal.repository.RepositoriesViewContentProvider.<init>(RepositoriesViewContentProvider.java:87) at org.eclipse.egit.ui.internal.clone.GitSelectRepositoryPage.createControl(GitSelectRepositoryPage.java:96) at org.eclipse.jface.wizard.Wizard.createPageControls(Wizard.java:170)

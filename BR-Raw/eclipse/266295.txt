@@ -1,0 +1,3 @@
+[Contributions] ShowInContext.getSelection() should only be called when needed
+
+I20090224-0800, but like that since at least R3.3. For some editors computing the selection for the ShowInContext can be expensive, e.g. the Java editor needs to reconcile the Java Model with the current document state. For that reason the selection should only be queried when the ShowIn menu is opened or the ShowIn handler called. Currently, each time a Java editor is activated it has to reconcile in the UI thread. NOTE: We could do the same for the input but given that the input of a part is already present calling getInput() should really be a NOP.

@@ -1,0 +1,3 @@
+Conflicting handler activations not detected
+
+I20120503-1800 Bug 375744 comment 9 added conflicting handlers for the "org.eclipse.ui.file.exit" command, but this is not logged. Major because this lets hard-to-detect conflicts go undetected.

@@ -1,0 +1,3 @@
+[ViewMgmt] [RCP] Other views may be docked with standalone views
+
+RC2 Steps to reproduce: 1) Modify the Browser example plugin.xml so that the Browser perspective is not fixed. 2) Modify the first line of BrowserPerspectiveFactory.createInitialLayout to be: layout.addStandaloneView(BrowserApp.BROWSER_VIEW_ID, false, IPageLayout.RIGHT, .25f, IPageLayout.ID_EDITOR_AREA); 2) Launch the Browser 3) Show the history view 4) Drag the history view on top of the Browser view. This should not be possible should it?

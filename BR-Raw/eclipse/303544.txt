@@ -1,0 +1,3 @@
+Don't set the drag host MWindow's perspective
+
+Start dragging a part using the e4-legacy-ide.product and you'll notice that the semi-transparent shell will have a Java perspective (not just the part you're dragging). We're too eager in the code in WorkbenchPlugin that hijacks all MWindows and sets their perspective. To safe this up for now, I'll just check if the parent of the MWindow is the MApplication.

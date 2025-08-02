@@ -1,0 +1,3 @@
+[Progress] Wrong assertion in DeferredTreeContentManager
+
+Lines 87 to 92 from org.eclipse.ui.progress.DeferredTreeContentManager: public boolean mayHaveChildren(Object element) { 	IDeferredWorkbenchAdapter adapter = getAdapter(element); 	Assert.isNotNull(element, ProgressMessages ^^^^^^^ .getString("DeferredTreeContentManager.NotDeferred")); //$NON-NLS-1$ 	return adapter.isContainer(); } Isn't "element" be "adapter"?

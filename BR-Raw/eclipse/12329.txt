@@ -1,0 +1,3 @@
+[Cell Editors] Request:ComboBoxCellEditor READ_ONLY style
+
+Although CCombo accepts SWT.READ_ONLY style, there is no way to specify style when it is used in ComboBoxCellEditor. How about adding createControl(Composite parent, int style) method to ComboBoxCellEditor class?

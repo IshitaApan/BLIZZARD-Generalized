@@ -1,0 +1,3 @@
+[About] feature icons have been removed from "eclipse about" box
+
+Perhaps this is intentional, but I noticed that the feature icons are not visible in the 3.0 about box.

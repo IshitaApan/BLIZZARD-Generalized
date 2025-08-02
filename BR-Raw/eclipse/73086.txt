@@ -1,0 +1,3 @@
+[Encoding] Remove hard coded encodings
+
+When we have an encoding extension point the current hard coded values should be moved to it in both the ide and the workbench.

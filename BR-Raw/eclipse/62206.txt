@@ -1,0 +1,3 @@
+[Progress] Blocked save shows window title in progress dialog
+
+build I20040513-1200 - my laptop crashed - on restart of Eclipse, did a Ctrl+B (auto-build is off), and ran it in the bg - this was a full build due to the crash - while this was going on, edited and saved a file (ViewFactory.java) - the save was blocked by the build and the blocked progress dialog came up - the build job was the first one and was working - the second job was the save, I guess, but its label was the same as the window title: Java - ViewFactory.java - d:\eclipse-new\plugins - Eclipse Platform Perhaps this is because Save uses the window as its runnable context? A better label would be "Saving ViewFactory.java". Not sure if this is achievable though.

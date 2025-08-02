@@ -1,0 +1,3 @@
+[StatusHandling]  Addition of StatusAdapter#EXPLANATION_PROPERTY and #HINT_PROPERTY is not binary compatible
+
+If this class can be subclassed by the clients, the addition of the two fields org.eclipse.ui.statushandlers.StatusAdapter#EXPLANATION_PROPERTY and org.eclipse.ui.statushandlers.StatusAdapter#HINT_PROPERTY is not binary compatible. So the specification of this class should explicitely say that the class cannot be subclassed by the clients.

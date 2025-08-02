@@ -1,0 +1,3 @@
+IMemento#getString(String) removes formatting
+
+If a String with formatting (tabs, new lines) is stored into an IMemento using putString(String, String), when the String is retrieved during IViewPart#init (IViewSite, IMemento), the "control" characters have been replaced with spaces. Currently impacts the Debugger DisplayView

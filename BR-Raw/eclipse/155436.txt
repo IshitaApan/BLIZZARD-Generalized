@@ -1,0 +1,3 @@
+[IDE] Project>Clean dialog should not use a question-mark icon
+
+I20060822-1200 The clean dialog displays a question mark icon to explain what clean in this context means. Since this dialog is not a message box and does not ask a question, the icon should be an info icon, or better yet, no icon to not suggest that this could be a message box.

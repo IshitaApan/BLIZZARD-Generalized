@@ -1,0 +1,3 @@
+[LinkedResources] Can the New->File->Advanced->Link to file in the file system default to the file name?
+
+When one does "New->File->Advanced->Link to file in the file system", the "file name" field is always blank. It'd be nice if it would default to the file name on the file system.

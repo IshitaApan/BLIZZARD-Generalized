@@ -1,0 +1,3 @@
+[Browser] Error message should be improved
+
+I got the following error in my log. The message is probably allright except for the trailing null. eclipse.buildId=I20060428-1315 java.fullversion=J2RE 1.4.2 IBM build cxia32142-20050609 (JIT enabled: jitc) BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US Command-line arguments: -os linux -ws gtk -arch x86 -debug -consolelog Warning Mon May 01 12:39:50 EDT 2006 Internal browser is not available: null

@@ -1,0 +1,3 @@
+[Dialogs] SelectionDialog should not return an initial selection of null
+
+F3 The JavaDoc for SelectionDialog.getInitialSelection does not state that null is a valid return value. If we think that clients are acutally using the null case to avoid performing some real work then we should fix the javadoc. Otherwise we should an empty list.

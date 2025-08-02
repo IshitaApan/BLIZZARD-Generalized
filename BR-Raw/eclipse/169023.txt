@@ -1,0 +1,3 @@
+[WorkingSets] "Add to working set" drop down should include a "new working set" option
+
+On Eclipse 3.3 M4 there is a working set toolbar/menu. The "Add to working set" menu should include a "New Working Set" action as a shortcut, in case none of existing working sets fits my needs.

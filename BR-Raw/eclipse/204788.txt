@@ -1,0 +1,3 @@
+[Contributions] Second context menu created from MenuManager does not show
+
+Build ID: I20070621-1340 Steps To Reproduce: 1. Create a MenuManager m with some menu items. 2. Call c.setMenu(m.createContextMenu(c)) on some Control c. 3. Observe that right-clicking on c produces the menu. 4. Dispose the menu. 5. Repeat step 2. (Alternatively, install m on a different control.) 6. The menu now doesn't appear. More information: I'm using Linux/GTK. The debugger tells me that the menu is created and handleAboutToShow() is called. I can't see a problem in the Java code, but nothing appears on the screen. Maybe something is wrong in the native code? If I use a different MenuManager to create the second menu, it works fine.

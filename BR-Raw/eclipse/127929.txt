@@ -1,0 +1,3 @@
+[DnD] Change Preferences option for draggable trim should be removed in M5
+
+This is not a very polished entry and given that Milestones get a decent amount of attention I think we should pull the menu.

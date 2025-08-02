@@ -1,0 +1,3 @@
+[DataBinding] Policy.getLog().log() could be a bit more informative
+
+By default this logger only prints the error message. It should log all informations it gets from the Status-Object. Another question is why the databinding plugin is not holding an Activator replacing the dummLogger when booted in RCP-Applications?

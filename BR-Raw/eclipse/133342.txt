@@ -1,0 +1,3 @@
+[Commands] handlers: Global keybindings don't work (Open Type, Search, ...)
+
+I20060327-0010 Several important keybindings don't work in this build, although their menu items are enabled and show a shortcut: - Open Type (Ctrl+SHift+T) - Open Type Hierarchy - Search (Ctrl+H) - Organize Imports (in Package Explorer)

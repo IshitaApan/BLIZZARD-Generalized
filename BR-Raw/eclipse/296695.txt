@@ -1,0 +1,3 @@
+[Markers] Problems view does not update on selection change
+
+I20091201-1600 Problems view does not update any more on selection change. I have a 'Warnings on Selection' filter, but I always see the same warnings, even after I opened an editor or selected something in the Package Explorer.

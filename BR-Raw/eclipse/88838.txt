@@ -1,0 +1,3 @@
+[Undo] - API cleanup - remove IContextConsultingOperationApprover
+
+Early on this was involved in scenarios where editors examined other operations. This is no longer used. Operation approvers generally apply to all contexts and are installed at the OperationHistory level. Until there is a concrete need for this API it should be removed. It is gratuitous at this point.

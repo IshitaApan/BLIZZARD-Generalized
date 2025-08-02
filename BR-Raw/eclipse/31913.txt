@@ -1,0 +1,3 @@
+Editor Workbook does not keep selected item visible when switching perspectives
+
+Build id: RC1 Open lots (24 files). Open two perspectives (A and B) in the same window. Layout perspective A to have the outline in the right size of the editor area. Layout perspective B without any view in the right size of the editor area. Select the last editor in perspective A. Switch to perspective B. Switch back to A. The Selected editor tab is not visible anymore.

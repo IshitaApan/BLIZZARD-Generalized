@@ -1,0 +1,3 @@
+[Contributions] IStatusLineManager.setErrorMessage
+
+IStatusLineManager.setMessage(String message) doesn't get updated after using IStatusLineManager.setErrorMessage(String message).

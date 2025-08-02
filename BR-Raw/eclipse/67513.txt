@@ -1,0 +1,3 @@
+[R21PRES] view tab tool tip inconsistent with 2.1
+
+In 2.1, the tab item tool tip appeared in the stack's title bar, not on the tab item itself. The r21presentation currently puts the tip on the tab item. I'll attach a patch that fixes the problem.

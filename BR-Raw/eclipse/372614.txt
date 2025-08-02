@@ -1,0 +1,3 @@
+[Compatibility] [Intro] Welcome does not occupy full screen on window without any perspectives
+
+Created attachment 211647 Screenshot showing welcome position Version: 4.2.0 Build id: I20120222-2200 But reproduced with the latest source too We have a product with no default perspective defined. When the welcome is brought up on start, the welcome occupied a quarter of the screen to the right.

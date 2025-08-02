@@ -1,0 +1,3 @@
+[Viewers] ComboViewer#setSelection does't select element w/o equals override
+
+I use a ComboViewer to show elements of a class that does not override Object#equals and #hashCode. Therefore I specified an IElementComparer via ComboViewer#setComparer to do the job. My expectation was that the comparer would be used in setSelection to find the element to be selected. Apparently this is not the case. To me this looks like a bug, or is this behaviour desired? The attached test case reproduces this behaviour.

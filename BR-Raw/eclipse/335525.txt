@@ -1,0 +1,3 @@
+[CSS] Perspective Switcher doesn't pick up style
+
+I20110125-2200 The perspective switcher is not picking up the CSS styling.

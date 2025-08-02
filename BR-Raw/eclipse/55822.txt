@@ -1,0 +1,3 @@
+[CoolBar] CoolBarManager.setLayout is poor API
+
+build I20040323 CoolBarManager.setLayout has a couple of problems: 1. its Javadoc talks about internals 2. it takes an ArrayList of unspec'ed element type instead of IContributionItem[] 3. it talks about order, but really it allows the whole set of items to be replaced, not just reordered. Should change to take an IContributionItem[] (and copy the array).

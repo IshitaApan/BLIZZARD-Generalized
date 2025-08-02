@@ -1,0 +1,3 @@
+[Model] Add accessibilityPhrase-Attribute to UIElement
+
+copied from bug 324957: I've also just realized that we should augment the model with an 'accessibilityPhrase' text field on MUIElement. This is need to allow screen readers to 'speak' the string, providing context for the visually impaired.

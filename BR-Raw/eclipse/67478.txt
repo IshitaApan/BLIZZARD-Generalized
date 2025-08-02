@@ -1,0 +1,3 @@
+[Workbench] Title does not change when closing projects
+
+A small bug: When I close a project, open editors close, but the main Eclipse title bar do not change the title (and it still show the name of the resource which was edited before). My setup: WinXP SP1, Eclipse 3.0 RC2. Also, some editors (e.g. EclipseUML) do not close at all (but maybe it's their fault).

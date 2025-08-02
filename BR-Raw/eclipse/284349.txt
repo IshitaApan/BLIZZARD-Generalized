@@ -1,0 +1,3 @@
+org.eclipse.ui.menus.ExtensionContributionFactory setInitializationData must declare "throws CoreException"
+
+...or otherwise subclasses can no longer throw CoreExceptions when overwriting this method.

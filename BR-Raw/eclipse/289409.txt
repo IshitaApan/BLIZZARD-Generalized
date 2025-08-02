@@ -1,0 +1,3 @@
+[Viewers] ILazyTreePathContentProvider documentation request
+
+I believe the JavaDoc for ILazyTreePathContentProvider#updateElement() should mention that the implementation can call TreeViewer#setHasChildren() instead of TreeViewer#setChildCount() if the content provider can more efficiently determine the has-children status than it can the actual number of children. This optimization was made possible by 156883. I think it needs to be advertised so clients can take advantage of it in their implementation of ILazyTreePathContentProvider#updateElement(). In fact, I think clients that use ILazyTreeContentProvider also have access to that optimization. If so, that JavaDoc should be updated, too.

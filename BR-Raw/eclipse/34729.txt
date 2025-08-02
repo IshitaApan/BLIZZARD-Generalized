@@ -1,0 +1,3 @@
+[Tasks] [Bookmarks] [Help] F1 help missing for Sort actions
+
+2.1 RC2 build I20030307 The Sort By and Ascending/Descending actions in the view menu of the Tasks view are missing F1 help. Need to ensure they have a help context id for RC3. Content can go in later for 2.1. They can all share the same help context id.

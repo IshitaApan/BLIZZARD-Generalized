@@ -1,0 +1,3 @@
+[WorkingSets] Working set selection dialog should support specific working sets
+
+The working set selection dialog shold allow to select a specific type of working set. The breakpoints view would benefit from this feature to restrict users to breakpoint working sets when selecting a default breakpoint working set. The Java tooling may also benefit from this feature.

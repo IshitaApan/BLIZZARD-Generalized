@@ -1,0 +1,3 @@
+Closing maximized Editor should restore Views
+
+Not sure how easy this is to implement, but I think it would make sense if all Views that got minimized to a FVB from a maximized Editor automatically get restored as soon as the Editor is closed. That said, I am just realizing that the editor area stays maximized, even if no editor is visible.

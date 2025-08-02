@@ -1,0 +1,3 @@
+[Preferences] WorkbenchPreferenceManager mishandles dynamic contributions
+
+The WorkbenchPreferenceManager has issues handling dynamic contributions when a PreferenceNode is created programmatically. ClassCastExceptions get generated because WPM assumes that everything is of type WorkbenchPreferenceNode, where TestPreferenceNode is simply a PreferenceNode. I will attach a test case. By the way, I also noticed that the tree doesn't refresh properly if stuff is added dynamically.

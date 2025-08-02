@@ -1,0 +1,3 @@
+[FastView]  Difficult to move a view to the fastview bar when docked on the bottom
+
+I200303040800 Linux-GTK Dock the fastview bar on the bottom of the window, then try to drag'n'drop a view in it. You have to drop the view on an existing button of the fastview bar, otherwise the view is moved on the bottom of the perspective. It would be easier to add views to the fastview bar if it was possible to drop the views in a longer area.

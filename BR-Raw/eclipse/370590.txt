@@ -1,0 +1,3 @@
+[Compatibility] In CDT, the buttons inside the macro explorer are disabled
+
+Using Build id: 20120202-1513 (Juno M5 C/C++) 1. Create a c++ project and paste this code #define FOO(a) a++ #define BAR(a) FOO(a) int main() { int b; BAR(b); // hover on BAR return 0; } 2. Hover on BAR in main, click on the hover window to open macro explorer. 3. Buttons are disabled at the bottom the window. It works correctly with Indigo SR2-RC2.

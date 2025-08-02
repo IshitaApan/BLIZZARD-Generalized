@@ -1,0 +1,3 @@
+[Contributions] Update code to reflect supported extension attributes
+
+In the code, there are constants with attribute names which we do not support (and are also not in the documentation). These should be removed. See bug 19833 for more details.

@@ -1,0 +1,3 @@
+Passing in parameter PRESENTATION_URI_ARG at startup
+
+Created attachment 163373 PRESENTATION_URI_ARG correctly set I believe the current e4 code does not allow that "presentationURI" is correctly added to the application. If if clause is in my opinion incorrect. Patch attached.

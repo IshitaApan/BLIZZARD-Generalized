@@ -1,0 +1,3 @@
+Export Select Types does not filter but uses entire workbench
+
+The select types function in Export currently doies not filter on the current selection but rather selects all files of the filtered type. STEPS 1) Create 2 Java Projects with classes 2) Select one of them 3) Select export - the selected one is selected 4) Filter on.java - java files in both are selected

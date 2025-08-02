@@ -1,0 +1,3 @@
+[Viewers] TableViewer setSelectionToWidget always scrolls to widget
+
+The current implementation uses setSelection(TableItem[]) which always scrolls to the selection so the reveal-flags has no effect.

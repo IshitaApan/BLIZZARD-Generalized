@@ -1,0 +1,3 @@
+[Tests] RCP test suite hangs on GTK
+
+The RCP tests do not finish, WorkbenchWindowConfigurerTest.est104558() hangs in eventLoopIdle().

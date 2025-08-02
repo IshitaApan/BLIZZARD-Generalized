@@ -1,0 +1,3 @@
+[Compatibility] Ctrl+W closes a non-active editor
+
+1. Prepare a program that goes two files deep. 2. Put a breakpoint in the second file. 3. Close all opened editors. 4. Open the first file with the main method. 5. Start a debugging session. 6. From the 'Debug' view, go up the stack frame and click on the first file. 7. Ctrl+W 8. The editor behind (the second file) is closed instead of the currently active editor (the first file).

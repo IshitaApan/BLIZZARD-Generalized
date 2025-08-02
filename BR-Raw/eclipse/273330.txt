@@ -1,0 +1,3 @@
+[JFace] Add API to MessageDialog to enable clients to use SWT.SHEET
+
+A new style constant SWT.SHEET was added recently. Without adding new API in JFace, clients who are currently using the convenience methods MessageDialog.openWarning/Error/Information/Question/Confirmation would not be able to open these dialogs as sheets.

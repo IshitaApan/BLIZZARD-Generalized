@@ -1,0 +1,3 @@
+[Workbench] remove comment about experimental status from IProductConstants
+
+Three constants in IProductConstants are still marked experimental although they are not.

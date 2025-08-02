@@ -1,0 +1,3 @@
+[Compatibility] Lots of separators in the global debug toolbar
+
+We have an excessive amount of separators in the global debug toolbar for stepping actions when compared against 3.x.

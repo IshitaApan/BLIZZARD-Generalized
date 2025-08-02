@@ -1,0 +1,3 @@
+Quick access in dialogs broken
+
+Build: I20061017 1) Open a dialog 2) Invoke Quick Access (Ctrl+e) -> The quick access shell is parted off the workbench window rather than the active shell (the dialog). Therefore, it does not obtain focus and cannot be used.

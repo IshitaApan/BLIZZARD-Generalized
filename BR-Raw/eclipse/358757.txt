@@ -1,0 +1,3 @@
+Detached windows loose their size when you switch perspectives
+
+1) Open a Java perspective 2) Detach the package explorer 3) Open a Debug perspective 4) Switch back to the Java perspective. Notice that the detached package explorer comes up in its smallest size.

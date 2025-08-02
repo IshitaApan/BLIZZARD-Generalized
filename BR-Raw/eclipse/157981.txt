@@ -1,0 +1,3 @@
+Open resource dialog: Missing colons in labels
+
+M2 - Navigate > Open Resource - Both labels need a colon(':') at the end and mnemonics

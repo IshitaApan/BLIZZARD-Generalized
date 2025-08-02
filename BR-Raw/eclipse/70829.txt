@@ -1,0 +1,3 @@
+[Workbench] Perspective names not sorted in preference page
+
+Eclipse R3.0. open the preferneces dialog and go to Workbench > Perspectives page. Note that they names are not sorted. This might get difficult to search if there were a lot of perspectives.

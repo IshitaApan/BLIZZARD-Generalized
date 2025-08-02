@@ -1,0 +1,3 @@
+Close/Close Others/Close All menu in editor
+
+It would be nice to have a submenu on editor tabs for the close functions. For those who aren't used to the key bindings, we make it hard to figure out how to do it because: - there is no menu - there is no key assist dialog (to look it up) - we've removed the keys pref page (to look it up) close others doesn't have a binding by default anyway...

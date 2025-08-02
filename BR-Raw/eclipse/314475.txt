@@ -1,0 +1,3 @@
+Advanced button not working again
+
+This is caused by the fix for bug 312888. See also bug 311599, comment 19 and the following comments.

@@ -1,0 +1,3 @@
+[Markers] Disabling a marker type disables the whole filter
+
+20050825 When you disable a marker type it disables the whole dialog.

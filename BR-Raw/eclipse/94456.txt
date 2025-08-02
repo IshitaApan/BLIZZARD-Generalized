@@ -1,0 +1,3 @@
+[Undo] - Resource Navigator not showing workspace undo actions
+
+The Resource Navigator is not showing the workspace undo actions. Package Explorer is correctly working. Need to look at the difference in the way the action handlers are set up.

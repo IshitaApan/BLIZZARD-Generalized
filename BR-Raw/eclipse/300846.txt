@@ -1,0 +1,3 @@
+Add "Resolve Values" switch to Path Variables property page
+
+HEAD Table showing path variables for a resource has 3 columns: Name, Value and Resolved Value. Given the fact that values are rather long the third column is hardly visible. My suggestion is to remove the third column and add a switch to resolve variables in the second column. I'll put up a mockup in a minute...

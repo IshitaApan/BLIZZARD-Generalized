@@ -1,0 +1,3 @@
+Build order pref page should show default list
+
+Build 20011112. - Window / Preferences / Build Order - notice that the list is empty - clear the 'Use Defaults' check box - projects appear in the list - select the check box again - the list is still shown The dialog should open in this way, ensuring that the list shown is actually the default order (apparently it's a random order currently).

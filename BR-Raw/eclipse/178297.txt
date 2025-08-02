@@ -1,0 +1,3 @@
+[Dialogs] - remove required field color
+
+There are still some dialogs using the (now deprecated) class FieldAssistColors. We shouldn't color the required fields anymore in these dialogs: NewFolderDialog CreateLinkedResourceGroup ResourceWorkingSetPage ContainerSelectionGroup ResourceAndContainerGroup

@@ -1,0 +1,3 @@
+Progress indicator stays red after error is cleared.
+
+In the eclipse-SDK-I20030806-macosx-carbon.tar.gz build, I got an error in a CVS background job. The Progress view appeared, and I selected the error and picked Delete in the context menu. At this point, the error indicator went grey, since no other jobs were running. However, now whenever a new job runs, the progress indicator draws in red, even though there are no new errors visible in the Progress view. If I select "Clear All Errors", the progress indicator goes back to drawing in blue. However, I should not have had to do this, since there were no errors to clear.

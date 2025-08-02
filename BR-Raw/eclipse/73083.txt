@@ -1,0 +1,3 @@
+[Encoding] Need to verify encodings and indicate unavailable ones
+
+When the encodings are set up we need to ensure that they are in the list of valid encodings available from the VM. Those that are not should be indicated as such and not be selectable in the UI.

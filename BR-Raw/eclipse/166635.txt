@@ -1,0 +1,3 @@
+[Viewers] DelegatingCellLabelProvider breaks OwnerDrawLabelProvider
+
+OwnerDrawLabelProviders are now being wrapped in DelegatingCellLabelProviders so the event handling code fails as we can no longer access the label provider CellLabelProvider provider = viewer 		.getViewerColumn(event.index).getLabelProvider(); Object element = event.item.getData(); if (provider instanceof OwnerDrawLabelProvider) ((OwnerDrawLabelProvider) provider).measure(event, element);

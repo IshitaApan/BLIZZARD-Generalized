@@ -1,0 +1,3 @@
+Change buttons order in PathVariableDialog
+
+IMHO more intuitive order for buttons in PathVariableDialog would be [File...][Folder...][Variable...] instead of [File...][Variable...][Folder...]. I can provide a patch if the swap makes sense to you too ;)

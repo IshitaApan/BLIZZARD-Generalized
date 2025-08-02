@@ -1,0 +1,3 @@
+[KeyBindings] Esc Ctrl+F does not work properly
+
+I200410190800, GTK+ 2.4.9, KDE 3.3.0, Linux 2.6.8.1 If you press "Esc" to start a multi-stroke key binding, "Esc" appears in the status line. Before the pop-up appears, press "Ctrl" and "Esc" disappears. So, pressing "Esc Ctrl+F" is not possible (unless you wait for the pop-up to appear). I've made rather significant changes to WorkbenchKeyboard in the past few days, so this is likely the cause.

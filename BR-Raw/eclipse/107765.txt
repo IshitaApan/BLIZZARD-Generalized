@@ -1,0 +1,3 @@
+[EditorMgmt] Editor Manager has unused Hashtable
+
+M1 There is a hashtable called imgHashTable in the EditorManager that is never used but is cleaned up on dispose

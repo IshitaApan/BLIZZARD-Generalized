@@ -1,0 +1,3 @@
+[RCP] Need to get product branding elements from IProduct rather than platform configuration
+
+build I20040310 The new IProduct APIs should be used to obtain the product name and window image used in the generic workbench, rather than the platform configuration info for the primary features. The platform configuration mechanism is specific to Update's feature story. The API for it is only in the org.eclipse.core.runtime.compatibility plugin, the dependency on which we want to remove for at least the RCP components (org.eclipse.ui and below).

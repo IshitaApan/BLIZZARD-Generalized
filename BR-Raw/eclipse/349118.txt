@@ -1,0 +1,3 @@
+'Outline' view disappeared after maximizing a view
+
+1. Split the shared area vertically into two stacks with the 'Outline' view with the 'Outline' view on the top. You will now have the stack on top and an empty stack on the bottom. 2. Open an editor, it will appear in the same stack as the 'Outline' view (the top stack). 3. Window > Reset Perspective > OK 4. Activate the 'Package Explorer'. 5. Ctrl+M. Notice that the 'Outline' view cannot be seen in the trim. Also note that the shared area's icon is not in the trim. Instead, you will get the icon of the file you opened. 6. Ctrl+M. 7. The 'Outline' view cannot be seen on the right hand side anymore. It seems that its parent part stack is invisible.

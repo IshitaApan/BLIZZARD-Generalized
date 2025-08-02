@@ -1,0 +1,3 @@
+[KeyBindings] performance: Lots of garbage when editor gains/loses focus
+
+build i0208 Not sure where to enter this report. Adding Tod and John to CC as they will be involve in performance work this release. I have the Platform/UI heap usage plug-in installed. I notice that when I switch focus from the editor to a view (e.g. Outline), the heap usage increases by a meg or 2. Putting focus back to the editor does the same. This happens with both the text editor and more prominatly with the Java editor. It doesn't matter if the view is docked or is a fast view.

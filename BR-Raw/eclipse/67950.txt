@@ -1,0 +1,3 @@
+[RCP] [doc] ui.workbench.compatibility methods should have deprecation warnings
+
+Build 3.0 RC3 The old IWorkbenchPage methods declared in o.e.ui.workbench.compatibility.ICompatibleWorkbenchPage should have deprecation warnings in case someone imports the plug-in fragment into the workspace and arranges to compile code against it.

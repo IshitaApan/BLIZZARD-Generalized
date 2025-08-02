@@ -1,0 +1,3 @@
+[Compatibility] Views cannot save/restore state via IMemento
+
+At the moment, a null memento is passed to views during construction.

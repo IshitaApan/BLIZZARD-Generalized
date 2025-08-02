@@ -1,0 +1,3 @@
+[EditorMgmt] "Next Editor" functionality should allow the window list to move locations
+
+When using the key command to access the "Next Editor" functionality and with Eclipse split across multiple monitors, the list of editors is split directly down the middle of the screen. The editor selection list should either center itself in the middle of the active editor (instead of the application itself) or should allow the user to move the list and the list remember it's location. See attached screenshot for an example of the problem - the red-line indicates the screen split.

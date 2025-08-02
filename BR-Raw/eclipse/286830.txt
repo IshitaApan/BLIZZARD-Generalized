@@ -1,0 +1,3 @@
+[QuickAccess] Should be able to tell Views with same name apart
+
++++ This bug was initially created as a clone of Bug #172614 +++ If I have two plug-ins installed that use the same title for contributed views, JDT's and JSDT's "Declaration" views for example, it's difficult to tell them apart. I'd rather not change the JSDT Declaration view's name to include a redundant mention of JS when it's already contributed into the JavaScript category.

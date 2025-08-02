@@ -1,0 +1,3 @@
+Examples wizard is initially empty
+
+I20040318 Win2k This is related to #54719. When the user brings up the Examples wizard, by going to File -> New -> Example... (assuming you have examples available), a dialog shows up. However, the dialog is initially empty. In order to see the examples, the user has to click on "Show All Wizards". And, even in doing so, not all wizards are shown (only examples). The example wizards should initially be shown in the dialog, rather than forcing the user to click on "Show all Wizards".

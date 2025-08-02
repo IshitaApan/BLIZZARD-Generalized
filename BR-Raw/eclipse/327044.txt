@@ -1,0 +1,3 @@
+EPartService's hidePart(*) should unset the part's parent element if the part is the selected element
+
+It is not valid to have a selected element that's TBR flag is 'false'.

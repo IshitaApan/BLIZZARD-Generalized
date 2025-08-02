@@ -1,0 +1,3 @@
+[Linked Resources] New Folder and New File dialogs
+
+1. The New Folder and New File dialogs have no mnemonic for the Advanced button, and its seems that the 'Link to..' mnemonic 'L' can not be invoked (tried pressing Alt-L). 2. Attempting to create a link to a folder already linked (overlapping) gives a very long warning message in the white title area of the dialog - so long that it can not be read in its entirety.

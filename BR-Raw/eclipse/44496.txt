@@ -1,0 +1,3 @@
+Typo 'pagee' in WorkbenchWindow log message
+
+public IStatus restoreState(... if (factory == null) { WorkbenchPlugin.log("Unable to restore pagee - cannot instantiate input factory: " + factoryID); //$NON-NLS-1$ result.add(unableToRestorePage(pageMem)); continue; }

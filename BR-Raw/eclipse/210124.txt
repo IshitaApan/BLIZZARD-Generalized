@@ -1,0 +1,3 @@
+[Markers] MarkersView not listening to the build jobs
+
+The markers view needs to listen to the build jobs to show italics when running

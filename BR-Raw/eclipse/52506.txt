@@ -1,0 +1,3 @@
+[Workbench] minimize needs keyboard shortcut and menu entry
+
+I20040219 1. I start to like the new look - a lot more polished than the previews a couple weeks back. 2. I *love* the minimze capabilities of views - this enables a "docking" like interaction with, say, the console when put to the bottom of the screen. -> Minimize needs a shortcut as Maximize has Ctrl+M. How about Ctrl+Shift+M? -> Minimize is also not yet present in the view menu.

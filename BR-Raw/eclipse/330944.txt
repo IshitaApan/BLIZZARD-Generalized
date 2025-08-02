@@ -1,0 +1,3 @@
+[Compatibility] IWorkbenchPage's setEditorAreaVisible(boolean) and isEditorAreaVisible() methods are unimplemented
+
+SSIA

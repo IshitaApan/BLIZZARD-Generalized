@@ -1,0 +1,3 @@
+Dialog on drop should indent dependent UI elements
+
+I20100414-1200. The dialog which asks for copy or linking on drop should indent the dependent UI elements (the checkbox and combo).

@@ -1,0 +1,3 @@
+[Navigator] Open/Close project not always available (1GFKW5S)
+
+Create two projects P1 and P2. Select P2 and close it. Now select 	both P1 and P2. Notice the Open Project menu item is available but 	the Close Project is not. Either both should be available or neither 	one should be enabled. NOTES:

@@ -1,0 +1,3 @@
+Externalization/translation of strings in xmi files
+
+Currently our e4xmi files have various hard-coded English strings that are presented to the user (in particular the "label" attributes). Is there some mechanism already defined for externalization/translation of NLS strings from these xmi files? If not, we need to define one. Creating a new xmi file from scratch for each language won't scale, and won't allow switching languages after the product is installed.

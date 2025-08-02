@@ -1,0 +1,2 @@
+[Wizards] Wizard dialog doesn't react to changes properly in runnable context
+

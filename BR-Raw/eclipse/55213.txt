@@ -1,0 +1,3 @@
+[FastView] The "orientation" option for fastviews is too hard to find
+
+I20040317 Title says it all. It happened after updating and old workspace to I20040317. After starting it I had the fast view bar at the bottom, also I closed the workbench the last time with having the bar at the left

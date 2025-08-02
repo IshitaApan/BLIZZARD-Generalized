@@ -1,0 +1,3 @@
+[Decorators] Content type decorator: Updating missing
+
+20080325 - Create a file 'a.xml' - in the editor paste <project name="Eclipse Views" default="export" basedir=".."> </project> as content - observe that the file image is still the original image - close the editor and reopen the file - now the editor shows the 'ANT' image

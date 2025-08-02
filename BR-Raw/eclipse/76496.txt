@@ -1,0 +1,3 @@
+[Dialogs] "Open Resource" folder sorting gets reversed
+
+Build 20041013 1. Press ctrl+shift+r to open the "Open Resource" dialog. 2. Type "plugin.xlm" 3. Notice the typo, delete the last two characters, and then type "ml" to fix the typo. 4. The "In Folders:" area now shows with reversed sorting (!!).

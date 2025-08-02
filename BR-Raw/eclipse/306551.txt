@@ -1,0 +1,3 @@
+[Compatibility] ViewReferences are being eagerly instantiated
+
+We made a mistake of instantiating VRs for every single MPart without regard as to whether it was being rendered or not. This caused Ctrl+(Shift+)F7 to show every single view that was in the perspective even if it was just a "placeholder".

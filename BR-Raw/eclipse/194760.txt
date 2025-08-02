@@ -1,0 +1,3 @@
+[CellEditors] [Viewers] JavaDoc DialogCellEditor updateLabel mistake
+
+Build ID: I20070608-1718 Steps To Reproduce: DialogCellEditor's javadoc contains this: -------------- Subclasses may override the following method: createButton: creates the cell editor's button control openDialogBox: opens the dialog box when the end user presses the button updateLabel: updates the cell editor's label after its value has changed ------------ UpdateLabel method doesn't exist, probably there should be updateContents. More information:

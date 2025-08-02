@@ -1,0 +1,3 @@
+Enable API tools for the e4.ui bundles
+
+With all of the new API work happening for M6 and M7 we should enable API tools to make sure the API we are creating is correct - i.e. properly tagged, not leaking internal types, etc. I enabled the tooling in my workspace for only the *.e4.ui.* bundles and there are 51 API errors, 9 of which are the incorrect use of API tools javadoc tags. http://wiki.eclipse.org/ApiTools_Architecture#API_Javadoc_Tags

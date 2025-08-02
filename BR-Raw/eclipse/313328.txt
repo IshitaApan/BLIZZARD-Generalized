@@ -1,0 +1,3 @@
+Close parts under part stacks with middle mouse click
+
+e4 renderer variant of bug 258511.

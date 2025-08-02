@@ -1,0 +1,3 @@
+[WorkingSets] Selection dialog should use radio buttons, not a combo
+
+The working set dialog should use a series of radio buttons, not a combo. It should also be resizable.

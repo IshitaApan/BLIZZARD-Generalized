@@ -1,0 +1,3 @@
+[Dialogs] Need API to get appropriate parent shell for a dialog
+
+There is code all over Eclipse trying to figure out the right parent for a dialog. Should this code simply be using null as the parent and let the framework do it? Or should we have an API that is called to do it? For examples see bug #229668 and bug #229331. For problems see bug #198527 Once this is done, we should encourage people to get rid of the code that's trying to do the right thing (ProgressManagerUtil, ErrorDialog, etc. etc.). There is discussion in bug #229668 of problems with various implementations.

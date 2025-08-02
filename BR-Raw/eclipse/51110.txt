@@ -1,0 +1,3 @@
+[Preferences]  Error notifying a preference listener on font change.
+
+M6 Create a font definition with no defaultsTo attribute. Go in to preferences and change the value of Text Font and hit OK you will get an error because you try call JFaceResources.getFontRegistry().put() with a null value.

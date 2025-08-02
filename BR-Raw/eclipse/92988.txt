@@ -1,0 +1,3 @@
+[Viewers] potential NPE in AbstractTreeViewer
+
+I0426, found with FindBugs 1. AbstractTreeViewer line 832 invokes "siblings.length", but the "if" statement above implies that siblings could be null here. 2. StringFieldEditor line 187 does an unnecessary null check since Text.getText() never returns null (FindBugs was using this to point to line 190 as a potential NPE).

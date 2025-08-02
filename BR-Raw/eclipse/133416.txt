@@ -1,0 +1,3 @@
+Open with references should only prompt if necessary
+
+Build: I20060327-1200 While watching a demo at EclipseCon I noticed a user selecting "open project" on a workspace with only one project. It then prompted to ask if referenced projects should also be opened. This drew some laughter from the crowd - clearly it doesn't need to prompt if there is nothing to open. This is an easy polish item

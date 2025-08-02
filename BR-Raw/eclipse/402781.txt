@@ -1,0 +1,3 @@
+[API] Extend the EModelService to provide factory capabilities for model elements
+
+We need to move away from exposing the EMF factory pattern. The obvious replacement is to extend the EModelService. Rather than implementing 'n' discreet methods (one for each concrete class) we'll just implement a generic factory capable of taking a class and (if possible) returning an instance of that class: MPartStack newStack = modelService.createUIElement(MPartStack.class); This has the advantage of allowing us to add new element types (or even deprecate others) without having to modify the API itself.

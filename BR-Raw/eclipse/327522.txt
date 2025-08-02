@@ -1,0 +1,3 @@
+Several main menus gone
+
+I20101007-1949. 1. start new workspace 2. paste this snippet into Package Explorer: "class A {}" 3. close the editor (doesn't matter if you save or not) ==> several main menus (e.g. 'Refactor') are gone. ==> selecting another element in the view does not bring it back Nothing in .log.

@@ -1,0 +1,3 @@
+[Import/Export] Spaces in a tar file checksum confuse the tar importer
+
+3.2M3 The spacebar character is special in tar header files, and should generally be ignored. Space characters at the beginning the checksum field can confuse the current tar code, causing otherwise valid tar files to fail.

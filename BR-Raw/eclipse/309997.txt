@@ -1,0 +1,3 @@
+Duplicate mnemonics on Linked Resources preference page
+
+I20100414-2000. Duplicate mnemonics on Linked Resources preference page. LinkedResourcesPreference_link=&Link linkedResourcesPreference_copy=&Copy LinkedResourcesPreference_linkAndVirtualFolder=Link and create &virtual folders Are used for two different UI widgets and hence the mnemonics collide.

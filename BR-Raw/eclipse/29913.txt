@@ -1,0 +1,3 @@
+[linked resources] moving file to linked alias deletes file
+
+Build 20030121 1. Create project P1 2. Create folder P1/F1 link to existing folder c:\junk\ 3. Create folder P1/F2 link to same folder 4. Create file P1/F1/foo.txt Observe: navigator shows a foo.txt in both folders. 5. Drag P1/F1/foo.txt to P1/F2 Answer "yes" when it asks if you want to overwrite P1/F2/foo.txt Observe: foo.txt disappears from both folders! Expectation: Either the operation succeeds but is a no-op, or fails with an error like "file busy".

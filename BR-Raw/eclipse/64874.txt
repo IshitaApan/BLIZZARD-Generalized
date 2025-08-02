@@ -1,0 +1,3 @@
+[Themes] [Preferences] Colors and Fonts preference page: Doubleclick should edit
+
+RC1 Double clicking an entry in the 'Colors and Fonts' preference page could open the edit dialog

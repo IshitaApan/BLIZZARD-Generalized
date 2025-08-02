@@ -1,0 +1,3 @@
+[ViewMgmt] View menu is shown even if all of its items are invisible
+
+build I20040318 - show the Outline view - open a Java editor - it has view toolbar contributions and view menu contributions - the view menu triangle shows correctly - close the editor - the contributions are gone, but the triangle still shows - click on the triangle - it disappears

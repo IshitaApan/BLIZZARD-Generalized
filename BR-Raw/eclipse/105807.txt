@@ -1,0 +1,3 @@
+Toolbars are floating in the middle of views
+
+20050802 I am not sure how this occured but I ended up with an outline view with 2 toolbars - one in the correct place and one floating in the middle of my view (screenshot to come). Switching perspective back and forth clears this one up.

@@ -1,0 +1,3 @@
+ToolBarManagerRenderer should not dispose of items that weren't created by the rendering engine
+
+1. Window > Open Perspective > CVS Repository Exploring 2. The 'CVS Repositories' view doesn't have the 'Add CVS Repository' tool item. 3. Resizing the view doesn't help. 4. Close the view. 5. Reopen it. 6. Now it's there. Or maybe not, it didn't come back for Paul anyway.

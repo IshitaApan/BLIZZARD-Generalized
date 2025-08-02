@@ -1,0 +1,3 @@
+[Compatibility] PartInitException must be thrown if parts are not initialized with their part site correctly
+
+We need to assert this to ensure that clients have their implementations setup properly.

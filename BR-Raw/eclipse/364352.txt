@@ -1,0 +1,3 @@
+Launching inner Eclipse instance is broken on Mac
+
+Created attachment 207309 Exception details On Mac using current code from " org.eclipse.ui.cocoa" bundle launching inner instance results in the following exception: Eclipse quit unexpectedly while using libswt-pi-coco-3811.jnilib plugin. Invalid memory access of location 0x20 rip-0x7fff8297b6df Attached file with exception details.

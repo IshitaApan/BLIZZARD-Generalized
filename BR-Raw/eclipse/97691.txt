@@ -1,0 +1,3 @@
+[Perspectives] Customize Perspective Dialog has no mnemonics
+
+RC1 The Customize Perspective Dialog has no mnemonics. Cycle around with the tab key and you will see that nothing is there.

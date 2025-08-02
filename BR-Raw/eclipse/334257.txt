@@ -1,0 +1,3 @@
+[Compatibility] "org.eclipse.core.runtime.Platform" variable cannot be found in the context
+
+This snippet will show up once in the 'Problems' view and then disappear. It is always there in 3.x. See bug 332246. <extension point="org.eclipse.ui.menus"> <menuContribution locationURI="popup:org.eclipse.ui.popup.any?after=additions"> <command commandId="org.eclipse.ui.file.save" label="Save Test..."> <visibleWhen> <with variable="org.eclipse.core.runtime.Platform"> <test property="org.eclipse.core.runtime.bundleState" args="org.eclipse.ui" value="ACTIVE"/> </with> </visibleWhen> </command> </menuContribution> </extension>

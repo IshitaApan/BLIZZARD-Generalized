@@ -1,0 +1,3 @@
+Two progress dialogs when building WS + dragging a file into the navigator
+
+build N20040503 - start the workspace - delete a view_menu.gif file from org.eclipse.ui\icons... - note for me that a build starts now - drag another file from the file system while the build is happening - drop it on the folder where the first file was deleted from two progress dialogs appear... see attachment.

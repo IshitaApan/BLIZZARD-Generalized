@@ -1,0 +1,3 @@
+Regression to 4.2.1: Cancel button for window progress bar is gone!
+
+4.2.2 and M6. Works in 4.2.1. The cancel button for the window progress bar is gone! This means, one can no longer cancel long-running jobs and has to wait until it is finished. In very bad scenarios, one has to kill the IDE. NOTE: You need to test on a fresh workspace. In older workspaces the button might appear.

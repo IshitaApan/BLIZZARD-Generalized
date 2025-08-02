@@ -1,0 +1,3 @@
+[RCP] Remove dependency on org.eclipse.update.core
+
+Build: 3.4 final I noticed while browsing code that IDEWorkbenchAdvisor has a method "checkUpdates" which makes a call to update manager API (SiteManager.handleNewChanges()). Looking through the history, I see this SiteManager.handleNewChanges() method has had an empty body since the 3.0 release, so it's a no-op to call it. This reference should be removed because it allows org.eclipse.ui.ide.application to remove its dependency on org.eclipse.update.*. We will be gradually removing dependencies on classic update and this one is an easy place to start.

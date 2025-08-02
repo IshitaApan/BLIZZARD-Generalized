@@ -1,0 +1,3 @@
+[Trim] Extra space added by the Trim 'group' layout
+
+Trim controls correctly designed to fit into the 'standard' status line height (22) don't fit because the Composite represetning the 'group' adds margin space.

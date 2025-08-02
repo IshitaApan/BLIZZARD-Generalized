@@ -1,0 +1,3 @@
+[Progress] Progress Dialog for jobs no longer opens
+
+I have not enabled "Always run in background so I expect to see a progress dialog each time I run an operation. However, I got into a state where this is not occuring for me in I200406110010.

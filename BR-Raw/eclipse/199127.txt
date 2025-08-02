@@ -1,0 +1,3 @@
+[Commands] ContentAssistCommandAdapter#setEnabled(..) does not update handler activation
+
+I20070807-0010 ContentAssistCommandAdapter#setEnabled(..) does not enable/disable the command handlers on the Mac. To reproduce, open the Find/Replace dialog on a text editor and then toggle the Regular Expressions checkbox. The lightbulb on the find field is correctly added/removed, but the availability of Ctrl+Space to open the content assist proposals popup is only updated when the field has lost focus. The problem is not reproducible on Windows, probably because the find field always loses focus on Windows when the checkbox is toggled.

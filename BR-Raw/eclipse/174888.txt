@@ -1,0 +1,3 @@
+Java 5 references in EvaluationAuthority
+
+Latest from HEAD as of 2007/02/20 EvaluationAuthority has two refs to the Java 5 method Arrays.toString(Object[])

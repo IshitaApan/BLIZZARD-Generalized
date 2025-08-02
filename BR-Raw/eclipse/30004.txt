@@ -1,0 +1,3 @@
+[Linked Resources] Mini new folder dialog doesn't have room for warning message
+
+Build: I20030122 1) The warning or error message line is too short in the NewFolderDialog. Some of the warning messages will not fit in this space. For example, the warning about a linked resource overlapping another resource does not fit. The warning should be allowed to wrap, or minimally the user should be able to resize the dialog to see the entire message. 2) The overlapping link warning message is missing its warning icon (the yellow triangle). This may be because it just didn't fit.

@@ -1,0 +1,3 @@
+[DND] Previously maximized view can get into a state where it can no longer be maximized
+
+1. Open an editor. 2. Activate the 'Package Explorer'. 3. Ctrl+M 4. Click the 'Restore' button for the editor area on the side. 5. Activate the editor (it's not activated automatically, not sure if that's right or wrong, see bug 323700). 6. Ctrl+M to maximize the editor. 7. Ctrl+M to unmaximize and restore everything back to normal. 8. See now that the 'Package Explorer' has the 'Restore' icon. 9. Clicking on it does nothing. 10. Ctrl+M does nothing. 11. Double-clicking on the view's tab does nothing. At the moment, the only way to correct it that I know of is to reset your perspective.

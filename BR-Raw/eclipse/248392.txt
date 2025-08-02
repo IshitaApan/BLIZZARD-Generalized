@@ -1,0 +1,3 @@
+View becomes disabled and completly nonfunctional
+
+Eclipse 3.4 Steps to reproduce: 1.) Have a view visible in one perspective 2.) Have the same view as fast view in another perspective 3.) Right click on the fast view icon and select "Close" 4.) Go back to the first perspective Actual results: The view is not responding to mouse clicks anymore. You have to close and reopen it to make it functional again.

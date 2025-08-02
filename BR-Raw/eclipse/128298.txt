@@ -1,0 +1,3 @@
+ViewerSorter.compare() does not need to be overridden from superclass
+
+The ViewerComparator class was added as a superclass of ViewerSorter (for ICU4J). ViewerSorter overrides compare() from ViewerComparator, but this is not necessary if in the superclass implementation getComparator().compare() is called, instead of comparator.compare().

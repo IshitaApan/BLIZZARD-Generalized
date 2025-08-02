@@ -1,0 +1,3 @@
+Disabled icons not being used from extension definition
+
+I have declared a toolbar menu contribution command, and the "disabledIcon" property does not seem to be respected. I even tried the org.eclipse.ui.commandImages extension point to verify if the "disabledIcon" from that extension (and not org.eclipse.ui.menus) would be respected, but still no success. What I get on my GUI is the automatically generated version of my disabled icons, which for some images do not look good so I had generated them myself. While running on top of Eclipse 3.7.2 everything looked fine, but now I cannot get it to work.

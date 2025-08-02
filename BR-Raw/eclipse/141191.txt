@@ -1,0 +1,3 @@
+[WorkbenchParts] ISaveablePart2 prompting does not happen when closing a perspective
+
+From bug 137924, comment #20: ISaveablePart2 implementors are not being notified to prompt to save when the perspective and or view is closed. It is being notified to prompt when the workbench is closed.

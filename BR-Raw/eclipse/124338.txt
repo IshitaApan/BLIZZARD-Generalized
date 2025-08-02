@@ -1,0 +1,3 @@
+[Dialogs] ResourceSelectionDialog should allow to implement custom acceptance criteria
+
+I suggest to refactor ResourceSelectionDialog so there will be methods to access checked items and enable OK button respectively. This should allow to implement custom strategy to accept selected elements.

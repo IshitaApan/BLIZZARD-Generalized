@@ -1,0 +1,3 @@
+[Forms] Graphics disposed in form editor due to redraw of disabled image
+
+It appears that since 3.7 Forms is disposing of an image it later tries to repaint. We have a special task editor with an image appearing on-hover. If one hovers once, then submits the editor, immediatelya graphic is disposed exception is thrown. Further investigation showed that the disabled image is getting disposed, but something is triggering a repaint afterwards not checking for disposed widgets.

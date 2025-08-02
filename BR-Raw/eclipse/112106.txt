@@ -1,0 +1,3 @@
+[KeyBindings] Changed shortcut keys don't take effect
+
+I have just changed the shortcut key mapping for a few commands, but they don't all seem to take effect. For example, I just mapped Source > Format to F11, and it shows up that way in Window > Preferences > General > Keys as well as in Help > Key Assist, but the F11 key doesn't format, and the shortcut key displayed in the Source menu is still Ctrl+Shift+F. I mapped Incremental Reverse Find to Ctrl+Shift+F and still have the same problem. I think the whole key mapping part of Eclipse needs to be redesigned, as it is difficult to use and doesn't even seem to work. It's very frustrating.

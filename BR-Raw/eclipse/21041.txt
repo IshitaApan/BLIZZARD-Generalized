@@ -1,0 +1,3 @@
+[Update] Force welcome page first time a new feature is installed
+
+When a new feature is installed if it has a welcome.xml there is no way to force it to show up the first time the eclipse is launched after installing the feature. Now that the user has this new handy dandy function products would like the user to be able to see the welcome page without having to go to the welcome dialog. This is of course in the case of the addition of a feature with a older workspace not a fresh workspace.

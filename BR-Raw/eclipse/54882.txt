@@ -1,0 +1,3 @@
+[Fonts] Font definition needs a getBold and getItalic
+
+We need to be able to get the bold and italic version of a font for use in progress among other things. This needs to be wiped out when the definition changes. Kim please point me at where to start.

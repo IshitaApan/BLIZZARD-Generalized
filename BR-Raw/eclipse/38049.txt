@@ -1,0 +1,3 @@
+[KeyBindings] Action.setText needs to document/support @ escaping
+
+Eclipse 2.1 1. Perform a text search for any of the JavaDoc @ tags, such as @return, @author, etc. 2. Bring down the Search view's history list and you'll see each search displayed as ''. See the attached screen shot.

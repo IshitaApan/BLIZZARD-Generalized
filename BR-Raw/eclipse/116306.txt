@@ -1,0 +1,3 @@
+[WorkingSets] views that make use of working sets should use the window set by default
+
+Currently the user has to touch every view they want to use the window working set in. It'd be nice if this happened for free in the SDK - all views could use the window set by default. The problem with this is that non-SDK views will be out of synch with this behaviour. They would require code changes to have consistency with our views. As a result, the SDK should only use this behaviour if it is reasonable to do so. This could be accomplished via preference or other trickery.

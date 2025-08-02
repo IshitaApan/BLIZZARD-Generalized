@@ -1,0 +1,3 @@
+[CommonNavigator] Remove CommonDropAdapter.setCurrentOperation
+
+This has been replaced by overrideOperation() which does the same thing. Note that setCurrentOperation() was added in M5 so it's never really been API yet.

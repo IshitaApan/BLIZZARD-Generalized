@@ -1,0 +1,3 @@
+[Workbench] Impossible to copy project
+
+Version: 3.4.0 Build id: I20080330-1350 Steps: * empty workspace * create simple project "foo" * copy (context menu/key binding doesn't matter) * paste it (package explorer/navigator doesn't matter) * see: "Copy of foo", OK is enabled. Changing the name of the project (in whatever fasion) leads to the "Project name must be specified message". No way to sucessfully copy the project.

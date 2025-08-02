@@ -1,0 +1,3 @@
+[Workbench] org.eclipse.ui.IWorkbenchPreferenceConstants should update its specifications
+
+The specifications of this interface should mention that it should not be implemented by clients.

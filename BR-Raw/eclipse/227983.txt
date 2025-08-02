@@ -1,0 +1,3 @@
+[Viewers] FilteredItemsSelectionDialog should obey colored labels preference
+
+I20080415-1646 The FilteredItemsSelectionDialog should obey the colored labels preference. Currently, labels are always colored. Javadoc of FilteredItemsSelectionDialog.setListLabelProvider(ILabelProvider) should then also tell that styles will only be used if enabled.

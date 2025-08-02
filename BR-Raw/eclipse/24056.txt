@@ -1,0 +1,3 @@
+[Preferences] File association preferences are not exported
+
+The preferences for associating files (and file types) with editors are not exported correctly and thus cannot be imported. These preferences should be exported/imported like other preferences.

@@ -1,0 +1,3 @@
+javadoc warning in N200703160010
+
+builds/N200703160010/src/plugins/org.eclipse.platform.doc.isv/../org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/fieldassist/ContentAssistField.java:39: warning - Tag @link: Class or Package not found: ControlDecoration

@@ -1,0 +1,3 @@
+[Contributions] Accelerators in menus are not installed until menu shown
+
+Created attachment 109667 Test for the bug Build ID: I20080617-2000 Steps To Reproduce: 1. Run the supplied test case 2. Press Ctrl-Q when the window appears The app won't quit. It will quit if you select the menu manually or when you use Alt-F, Q. Search for "TODO" in the example and enable the if(). Now, Ctrl-Q will work right away. If there is a menubar, ApplicationWindow should make sure that accelerators are correctly installed in open().

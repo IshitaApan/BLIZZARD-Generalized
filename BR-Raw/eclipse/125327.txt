@@ -1,0 +1,3 @@
+[Dialogs] Error message shown in the InputDialog is not fully visible
+
+When an error message returned by InputValidator is long, InputDialog displays it partially. My suggestion is to create error label with SWT.WRAP flag, or something like this.

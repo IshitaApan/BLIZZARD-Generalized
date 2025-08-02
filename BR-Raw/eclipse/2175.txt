@@ -1,0 +1,3 @@
+[Navigator] Changing the default editor does not refresh the navigator (1GEX9PY)
+
+1) install the UI examples 2) create a project 3) create a file file.people the icon is a 'E' 4) go to Window->Preferences->Workbench->File Editor and change the default editor for .people 5) Apply The icon has not changed in the navigator NOTES: KH (9/10/2001 3:53:03 PM) 	See also: 1GC2VOL: ITPUI:WIN2000 - Icons in navigator not updated on default editor change

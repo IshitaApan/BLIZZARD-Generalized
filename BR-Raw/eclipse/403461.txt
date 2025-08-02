@@ -1,0 +1,3 @@
+Allow toggling toolbar on per-window basis
+
+Originally reported to me on IRC a while back, but I didn't quite understand the point at the time. Bug 387002 fixed some of the issues in persisting and restoring the toolbar-visible mode. This fix used the same pattern as from 3.x, where the result of the latest visibility change is stored a single preference value. This approach doesn't work well in a multi-window setup.

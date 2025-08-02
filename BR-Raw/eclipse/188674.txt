@@ -1,0 +1,3 @@
+[ViewMgmt] Bad page layout when there are many views in a perspective
+
+Build ID: 3.2.2 Steps To Reproduce: Create a perspective and add 15 or more views to the page layout (not a folder layout) to the right of the editor area with ".3f" ratio. Results: The views do not fit and the layout is unusable. Sorry if this has already been reported. I searched and couldn't find anything. More information:

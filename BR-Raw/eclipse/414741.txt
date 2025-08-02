@@ -1,0 +1,3 @@
+ToolbarControl in own ToolBar throws NPE
+
+Created attachment 234247 NPE Fix If i use a own ToolBarControl in my own Toolbar, i get a NPE. Extension Point <menuContribution allPopups="false" locationURI="toolbar:mytoolbar"> <control class="MyControl" id="myControl"> </control> </menuContribution> Problem is the CompatibilityWorkbenchWindowControlContribution provides only Controls in a MTrimBar, i don't understand why. while (!(parent instanceof MTrimBar)) { parent = parent.getParent(); } I patch it

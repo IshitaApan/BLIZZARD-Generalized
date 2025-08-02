@@ -1,0 +1,3 @@
+[JFace] improve usability of DefaultToolTip
+
+DefaultToolTip should provide setters for the commonly-customized properties of the tooltip rather than rely on method subclassing.

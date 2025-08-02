@@ -1,0 +1,3 @@
+Possibility to take out editor as standalone shell
+
+Build Identifier: M20100211-1343 I would like to have possiblity to drag editor outside workbench and to have standalone editor (similar to firefox or chrome tab behaviour). Reproducible: Always

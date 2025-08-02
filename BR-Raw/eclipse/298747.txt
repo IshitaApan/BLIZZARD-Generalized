@@ -1,0 +1,3 @@
+[EditorMgmt] Bidi Incorrect file type direction in mirrored "Editor Selection" dialog
+
+Build Identifier: I20091210-1301 Bidi bug. When Eclipse is run with Hebrew locale (-nl iw), file types in "Editor Selection" dialog are displayed incorrect (for example, ndl. instead of .ndl) This bug is one of the cases that are described in Bug 130587. It is excluded to a separate bug, since bug 130587 contains different cases that needed different fixes. Reproducible: Always Steps to Reproduce: 1.Run Eclipse with Hebrew locale (-nl iw), eclipse is mirrored 2.Open Preferences-> General-> Editors -> File Associations ->Add assosiated editors 3.Select External programs Expected result .ndl Actual result ndl.

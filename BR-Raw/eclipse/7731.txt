@@ -1,0 +1,3 @@
+Page::init(IPageSite pageSite) never called on JavaOutlinePage
+
+consequently, getSite() on JavaOutlinePage returns null, which is against API and prevents accessing things like IActionBars

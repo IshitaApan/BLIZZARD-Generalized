@@ -1,0 +1,3 @@
+[Markers] Marker context menu should not be team menu
+
+Created attachment 85377 Wrong context menu for marker Build 3.4M4 When opening the context menu on a problem in problem view, it opens the team menu. See attached snapshot. Interestingly, when watching properties, you get to CVS sharing properties... (used to show marker details)

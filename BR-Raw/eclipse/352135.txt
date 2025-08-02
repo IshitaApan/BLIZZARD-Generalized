@@ -1,0 +1,3 @@
+[ViewMgmt] Selection listeners are not notified before part activation notifications
+
+When reproducing bug 352076, the 3.x stack trace of bug 352079 does not match ours. This is because the selection listeners are notified of the active part having changed after the part listeners have been notified. The selection listeners should be fired first.

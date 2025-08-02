@@ -1,0 +1,3 @@
+[Compatibility] ViewReference's getSecondaryId() is unimplemented
+
+It just returns 'null' at the moment.

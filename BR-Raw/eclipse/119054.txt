@@ -1,0 +1,3 @@
+TVT3.1.x:TCT223: variable value not set
+
+OS : Windows XP Must fix or not a must fix: YES for next release Build date: 20051201 Blocking: NO Language: Bitmap Location: V:\defects\pt Tester Name: Sara Santa Clara Problem Description: The variable {0} in the string is not set The string is the following properties file: eclipse\plugins\org.eclipse.core.resourses\org\eclipse\core\internal\utils\messages.properties and the key is pathvar_invalidChar I have attached two screen caps - on for the EN and one for the PT. This article was reassigned from Category:''Legacy Project,TVT,Uncategorized''.

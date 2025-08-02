@@ -1,0 +1,3 @@
+[About] Clicking below link in About dialog activates link
+
+20020521 1) Open the about dialog 2) Note that the about text ends in a link 3) Note that the hand cursor only appears when you move ofer the link 4) Click the dialog 1cm below the link, the link activates

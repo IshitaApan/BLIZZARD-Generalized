@@ -1,0 +1,3 @@
+PreferenceDialog can reopen empty
+
+20031209 When you close the Preferences dialog with an entry other than the default selected you will get an empty entry in the dialog when you reopen STEPS 1) Open the preferences dialog 2) Select the Appearances page 3) Close the dialog 4) Reopen - Workbench will be selected and the contents will be empty

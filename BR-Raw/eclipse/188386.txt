@@ -1,0 +1,3 @@
+[QuickAccess] CTRL-3 and Right-to-left don't play well
+
+When in right-to-left mode, the window that opens when CTRL-3 is pressed does not display test properly. I will attach a screen shot.

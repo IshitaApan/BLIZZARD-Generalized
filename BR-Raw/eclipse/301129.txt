@@ -1,0 +1,3 @@
+F1 help for Linked Resources property page
+
+Build: 3.6 M5 Open the Linked Resources property page for a project and hit F1. No help is found. I think that the description from the Path Variables tab may be moved to the help tray.

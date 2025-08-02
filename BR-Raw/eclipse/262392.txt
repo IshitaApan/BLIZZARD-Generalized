@@ -1,0 +1,3 @@
+[DataBinding] CompositeMap constructor should use this.firstMap
+
+Using EclEmma, I noticed that large portions of BidiObservableMap are not run, indicating a problem in CompositeMap. This needs more thought. I am attaching a patch, it includes one test case but we may want to add more tests.

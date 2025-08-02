@@ -1,0 +1,3 @@
+Some actions still enabled when project closed (1GFJB19)
+
+Close a project. Notice from the project's popup menu, that copy 	and move are still enabled. But they fail with an error message 	saying project is not opened (duh!) 	Same applies to 		Go Into 		Go To? 		Open Perspective? 		 NOTES:

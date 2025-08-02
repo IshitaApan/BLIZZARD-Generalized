@@ -1,0 +1,3 @@
+closing the WorkbenchWindow causes the RectangleAnimation to fail
+
+Created attachment 115368 Proposed fix This is because RectangleAnimation extends Job, which can be sheduled and executed after the WorkbenchWindow is closed. I think it would be good to check in every step at least if the parent shell was not disposed.

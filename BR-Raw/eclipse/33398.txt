@@ -1,0 +1,3 @@
+[DND] Disable drag copy when multiple selected items do not have the same parent
+
+build RC1 In a file structure: P1 F1 file1 F2 When file1 and F2 are selected the copy menu item is disabled. Drag copy is allowed and works fine. The copy menu item should be enabled. Package Explorer has the same problem.

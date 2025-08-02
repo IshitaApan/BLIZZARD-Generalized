@@ -1,0 +1,3 @@
+Eclipse property sheet needs enhanced functionality on multiple selection
+
+The existing functionality of the Properties component in Eclipse is such that on multiple selection only those common properties of same name are displayed. It is not possible to edit their values, however. Eclipse should support the editing of a common property of multiply selected components, which applies to all selected components.

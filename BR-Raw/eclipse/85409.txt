@@ -1,0 +1,3 @@
+Decorator enablement relies on objectClass
+
+20040206 The decorator enablement currently relies on the enablement for objectClass being set and filters the decorator if it is not. This should use enabledDefinitions[i].getEnablement().isEnabledFor(element) rather than enabledDefinitions[i].getEnablement().isEnabledForExpression ((OBJECT_CLASS,element)

@@ -1,0 +1,3 @@
+Cannot manually un/render a window that's directly under the application
+
+Setting the 'toBeRendered' flag for a window that's a direct child of an application does nothing. The workaround is to manually de/construct it via the IPresentationEngine.

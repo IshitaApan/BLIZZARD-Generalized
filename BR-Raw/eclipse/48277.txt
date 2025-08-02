@@ -1,0 +1,3 @@
+[RCP] Progress Window accessible in Rich Client Project
+
+I run the RCP example. When the cursor was moved to the lower left corner of the application window (left of the status bar) a tool tip appeared: "Double click to open Progress Window" ... ...which really happened. This should not be possible by default in an RCP application.

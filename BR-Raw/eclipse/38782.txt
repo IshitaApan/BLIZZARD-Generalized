@@ -1,0 +1,3 @@
+TreeViewer add calls a refresh
+
+Our implementation of TreeViewer.add is naive and can all a refresh of the entire tree. It should be more like TableViewer.

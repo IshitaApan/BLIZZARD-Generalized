@@ -1,0 +1,3 @@
+Export dialog does not populate list if element is preselected
+
+If the current selection for export is a file that is in the root of a project selecting that project the first time in the export dialog won't do anything. If you select a second time it will. STEPS 1) Create a Project Foo 2) Create a file bar.txt in Foo 3) Select bar.txt 4) Choose export 5) Select Foo in the dialog - no contents 6) CLick off and click again - contents

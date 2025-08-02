@@ -1,0 +1,3 @@
+[Viewers] TableViewer in conjunction with SWT.VIRTUAL throws exception when updating with less elements
+
+I created a snippet using a singlecolumn table with a tableviewer. Internaly I use an ArrayList for my table rows. While adding+viewer.refresh() works fine, removing or filter is causing an exception. This only happens in conjunction with a SWT.VIRTUAL table. (Test on 3.1M4)

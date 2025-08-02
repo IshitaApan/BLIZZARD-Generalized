@@ -1,0 +1,3 @@
+contributed part name should change when the model changes
+
+Currently, the name will not be updated until the part is instantiated. PW

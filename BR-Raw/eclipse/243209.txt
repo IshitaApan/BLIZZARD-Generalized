@@ -1,0 +1,3 @@
+[ActivityMgmt] NPE in org.eclipse.ui.internal.activities.Identifer prevents menu contributions from showing up
+
+Build ID: I20080617-2000 (Version 3.4.0) In the code of Identifier.removeIdentifierListener(), only part of the code is guarded aganist NPEs. When the NPE occurs, menu contributions don't show up. A patch is attached to fix the problem.

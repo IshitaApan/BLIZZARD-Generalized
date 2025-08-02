@@ -1,0 +1,3 @@
+[RCP] [Progress] NullPointerException in ProgressManagerUtil.java
+
+A NullPointerException is thrown in ProgressManagerUtil.java when and RCP application overrides createWindowContents and does not provide/specify a progress region. Code snippet to reproduce the problem to follow.

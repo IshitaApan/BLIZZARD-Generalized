@@ -1,0 +1,3 @@
+BIDI:Eclipse editors should be RTL except those that are generally used for typing English text
+
+Tested on Win2K Arabic default locale, Version: 3.1.0 Build id: I20050111-1300 with Arabic Translation Fragments and launched with rtl direction. Generally all editors in the Arabic translated Eclipse must be RTL oriented, except for the following editors will be accepted LTR since they are generally used for typing English text: 1.Java editor 2.Java Visual editor 3.C/C++ editor 4.Make file editor 5.XML editor 6.Properties File editor And the following Views: 1.Console (Java Perspective & C/C++ Perpective) 2.Declaration (Java Perspective) Please take the appropriate action to apply the requested changes.

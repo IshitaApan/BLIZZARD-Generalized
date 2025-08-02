@@ -1,0 +1,3 @@
+[WorkbenchParts] PageBook documentation should tell users not to set layouts
+
+PageBook is one of those Composites where it does not make sense to set a layout - it does it for you. However, it doesn't warn you about this anywhere, and the result is strange behavior. It should clearly state that you should not set a layout, like TabFolder.

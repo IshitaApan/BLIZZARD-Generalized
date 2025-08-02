@@ -1,0 +1,3 @@
+[Import/Export] - Import existing projects into workspace - didn't copy files
+
+I20051101-1204 (setup) - launch a runtime workspace - in that workspace, create a plug-in project called "Scratch". Accept all the defaults of the wizard and choose "Custom plug-in wizard" as the template - when the project has been created, quit the runtime workspace (bug) - now from the host workspace, choose import/export > import > existing projects into workspace - select the folder the contains the runtime workspace - you'll see "Scratch" in the list of projects - check the checkbox for "copy into workspace" - the project appears in the workspace as a java project, but it has no contents at all.

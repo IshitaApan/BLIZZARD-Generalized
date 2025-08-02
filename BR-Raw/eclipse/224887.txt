@@ -1,0 +1,3 @@
+[Browser] internal browser new window should be resizeable
+
+When new window/popup is opened from internal browser, it should be resizeable. It's good practice to open new windows resizeable unless they're explicitely required to be fixed size. To open a popup I use following html: <a href="bla.html" target="_blank">click</a>

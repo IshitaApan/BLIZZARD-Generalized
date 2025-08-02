@@ -1,0 +1,3 @@
+[DataBinding] Realm.ensureWorkerThreadIsRunning() doesn't start a new thread
+
+From Thread.ensureWorkerThreadIsRunning()... workerThread = new Thread() { 	public void run() { 		//snip... 	} }; workerThread.run(); The thread needs to be started via start(). From the newsgroup: http://www.eclipse.org/newsportal/article.php?id=60864&group=eclipse.platform#60864

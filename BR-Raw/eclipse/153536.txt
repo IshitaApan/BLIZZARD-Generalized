@@ -1,0 +1,3 @@
+[Wizards] Description in wizard does not wrap
+
+Build: 3.3 M1 Something happened at the Platform/UI level between 3.2 and 3.3M1 since the same PDE code now shows weird behaviour on M1. 1. Open the New plug-in project wizard. 2. Once you get to the templates page of the wizard, choose the 'Hello World' template, press Next. Note how the description of the page does not wrap and the wizard becomes very wide. When I run the same PDE code against 3.2, the description wraps nicely onto two lines.

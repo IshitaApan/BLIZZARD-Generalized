@@ -1,0 +1,3 @@
+Double-click does not properly select strings
+
+Build 20020402 - new .txt file - enter "fred" - double-click between " and f - it selects "fred It should select either "fred" or fred. Likewise for double-clicking between d and ".

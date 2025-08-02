@@ -1,0 +1,3 @@
+[Viewers] Potential NPE in FilteredItemsSelectionDialog.ContentProvider.getFilteredItems
+
+Build ID: I20090313-0100 Steps To Reproduce: More information: getFilteredItems is very careful about ensuring that the IProgressMonitor is not null. Yet you have this snippet of code: if (filteredElements == null || monitor.isCancelled()) { if (monitor != null) monitor.done(); return new Object[0]; } So why not start the method with if (monitor == null) { monitor = new NullProgressMonitor(); } Anyway, as it is, you can get an NPE there.

@@ -1,0 +1,3 @@
+[Viewers] AbstractTreeViewer uses HashSet to remember expansion state
+
+I20030216 The custom hash table should be used instead. Otherwise expansion state may be lost due to a different equals implementation of the element and the IElementComparer.

@@ -1,0 +1,3 @@
+[JavaDoc] [Viewers] AbstractTableViewer#replace(Object, int) JavaDoc misses description for arguments
+
+- The arguments are not described - The description text is strange: ... Note that this method will create a TableItem for all of the elements provided. => There's only one element passed to this method!

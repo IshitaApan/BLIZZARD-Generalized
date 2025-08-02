@@ -1,0 +1,3 @@
+[Editor Mgmt] Flickering cursor in Navigator.
+
+I'm not sure if this is UI or JDTUI. Entering it here, since I demo'ed it for NE... If you double click on a Java file in the navigator to open it, and watch closely, you will see the cursor rapidly change between the selection arrow and the busy cursor several times, before the UI settles.

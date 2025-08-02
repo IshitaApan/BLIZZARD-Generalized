@@ -1,0 +1,3 @@
+[Compatibility] Menu items from WAB needs to have images
+
+We need to convert [URL]ImageDescriptors into a "meaningful" URI that can be consumed by the renderer.

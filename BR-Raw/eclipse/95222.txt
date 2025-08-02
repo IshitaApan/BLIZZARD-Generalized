@@ -1,0 +1,3 @@
+[KeyBindings] Bindings stop working (no shell activation event)
+
+Build 20050513-0010 Linux-GTK I don't have steps to reproduce yet, but while working on today's build various keys have randomly stopped functioning. Earlier today I was trying to copy/paste with ctrl+c/v and it wasn't working. Then I used the context menu items and it started working again. Just now, I was trying to delete a block of text by highlighting it and pressing backspace, but pressing backspace had no effect. After typing in my browser window and switching back to Eclipse, the problem went away. It could be that the window needs to lose focus for the keys to start working again. So maybe it's just a window focus problem.

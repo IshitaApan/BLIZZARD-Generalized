@@ -1,0 +1,3 @@
+UIJobTest has potential concurrency failure
+
+The UIJobTest is testing flags prematurely. The assertions wait until while (!testJobRan) { 	 	 } Is complete testJobRan is set to true within testJob so it is possible for the while loop to break out before the join is completed here: delayJob.join(); thereby checking the flag before the job is done and preventing backgroundThreadFinished from getting set. Removing this test altogether fixes this and keeps the main test (for a join). Also all of the booleans should be volatile to prevent copies being created in dual processors.

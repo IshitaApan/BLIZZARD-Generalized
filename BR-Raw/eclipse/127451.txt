@@ -1,0 +1,3 @@
+[Mapping] Model provider and working set mappings must be dynamic
+
+The model provider and working set mappings must be dynamic. Currently they use CompositeResourceMapping which means that changes to the projects of the model provider or the contents of the working set get missed if someone holds onto a mapping.

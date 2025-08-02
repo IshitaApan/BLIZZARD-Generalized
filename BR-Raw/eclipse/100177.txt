@@ -1,0 +1,3 @@
+[Import/Export] Importing existing project with different case over existing project fails with empty error dialog
+
+I20050610-1757 1. Have a Java project 'p' (lower-case p) on disk 2. Create a Java project 'P' (upper-case P) in your workspace 3. File > Import > Existing Projects Into Workspace 4. Select the directory that contains 'p' on disk 5. Finish Observe: You get an empty error dialog

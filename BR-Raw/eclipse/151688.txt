@@ -1,0 +1,3 @@
+[GlobalActions] [IDE] Allow to extend RefreshAction
+
+I bug 82406, we're asked to replace our instance of a RefreshAction with RefreshAction from org.eclipse.ui.actions: - run refresh in the background - use the same prompting dialog As a difference, the RefreshAction in jdt.ui additionally refreshes external Java libraries. Best would be if we could extend the RefreshAction and overwrite 'execute' to add the additional calls to the Java model. execute is currently final and package protected.

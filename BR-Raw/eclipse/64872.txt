@@ -1,0 +1,3 @@
+[Progress] Progress reporting in wizard dialog doesn't use dialog font
+
+RC1 - change dialog font - open a new wizard (for example new Java project) - create one observer: progress reporting (the task name....) doesn't use the dialog font.

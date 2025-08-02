@@ -1,0 +1,3 @@
+[EditorMgmt] [BiDi] BIDI3.5:HCG_Incorrect text orientation of "Path" column of list view on "Swithch To Editor" page.
+
+Created attachment 133263 Snapshot illustrating the problem. Build ID: I20090313-0100 Steps To Reproduce: Use the Bidi (Arabic/Hebrew) enabled version of Windows. 1. Start eclipse with following arguments: "-nl en -dir rtl". 2. Select "Window->Navigation->Swithch To Editor". Result: Entries in "Path" column of list view on "Swithch To Editor" page shown distorted due to its right-to-left text orientation (inherited from top level frame). (see switchtoeditor.jpg) The rule of thumb should be that controls which are supposed to hold non Bidi data should have left-to-right orientation and be left justified. More information:

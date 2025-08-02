@@ -1,0 +1,3 @@
+[View Mgmt] Inconsistency dragging fast views
+
+Build: 20020521 Steps: 1. Make a view a fast view (leaving several views as non-fast views). 2. Maximize an editor. 3. Minimize the fast view. 4. Drag the fast view icon over the maximized editor. The editor should be restored to it's original size so the user has the oppertunity to drag the fast view over one of the other views. This is what occurs when the user drags the icon of an active (non-minimized) fast view when an editor is maximized.

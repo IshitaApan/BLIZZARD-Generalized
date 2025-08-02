@@ -1,0 +1,3 @@
+API with @noreference needs class comment
+
+Javadoc generation doesn't support @noreference tag on classes. As a result, all of our @noreference classes/interfaces have no indication in the javadoc that they should not be used. I think we should add an English sentence in the class javadoc to make it crystal clear that these types are off limits. Something like this: * This [class|interface] must not be referenced by clients. * This API may be deleted in a future release * @noreference

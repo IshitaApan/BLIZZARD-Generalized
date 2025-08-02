@@ -1,0 +1,3 @@
+[KeyBindings] "Alt + Enter" does not open breakpoint properties
+
+The "Alt + Enter" key combo is not opening the breakpoint properties for Java breakpoints. The action is invoked, but it has no "active" breakpoint. It appears the action is not getting selection change notifications.

@@ -1,0 +1,3 @@
+View titlebars waste 1 pixel
+
+When a view toolbar is aligned with the tabs, there is 1 pixel of empty space below the toolbar.

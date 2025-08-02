@@ -1,0 +1,3 @@
+[EditorMgmt] Default editor ignored when opening file
+
+Found in 3.1rc2 When opening a .java file for the first time, the default editor is ignored and the file is opened with the Colorer Editor (plugin). The File Association has 'Java Editor' marked as default. The Colorer Editor is first, alphabetically speaking, in the Associated Editors list. The same outcome is not found with other file types. If Java Editor is selected from Open With, Eclipse remembers which editor opened the file and continues to use the Java Editor until told to do otherwise.

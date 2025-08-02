@@ -1,0 +1,3 @@
+[Viewers] FilteredTree job delay should be overridable
+
+The FilteredTree is very useful, but there are cases where clients or subclasses know that the list will be very big and/or filtering will be expensive. In this case it would be useful to be able to override the filter job delay so that the user can get more typing in.

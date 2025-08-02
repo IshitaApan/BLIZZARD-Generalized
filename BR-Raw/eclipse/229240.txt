@@ -1,0 +1,3 @@
+CachedMarkerBuilder writes to console
+
+I20080429-0100. CachedMarkerBuilder writes to console.

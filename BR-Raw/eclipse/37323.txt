@@ -1,0 +1,3 @@
+[Dialogs] Wrong Javadoc for TypeFilteringDialog
+
+R2.1 The Javadoc for TypeFilteringDialog reads: /** * The TypeSelectionDialog is a ... ^^^^^^^^^

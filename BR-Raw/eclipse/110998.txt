@@ -1,0 +1,3 @@
+[Problems] Remove the working set selection and switch to using global working sets
+
+M2 We need to remove the working sets option in the filter and switch to using the current list of working sets. We should move this to a preference that says only "Use Working Sets"

@@ -1,0 +1,3 @@
+[Compatibility] Invoking getPart(true) on a WorkbenchPartReference returns null
+
+1. Launch your inner. 2. Ctrl+F7. 3. Pick a view that's not active like the 'Declaration' view. 4. Nothing happens.

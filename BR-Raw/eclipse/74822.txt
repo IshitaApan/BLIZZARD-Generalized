@@ -1,0 +1,3 @@
+[Preferences] Update spec for property change events
+
+See bug 74756 for a full description of the problem. We need to spec that the type of value in property change events can be a wrapped object, a string, or null depending on the situation.

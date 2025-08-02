@@ -1,0 +1,3 @@
+[WorkbenchParts] OpenCloseEditorTest failing
+
+See "http://fullmoon.ottawa.ibm.com/eclipse/downloads/drops/I20050324-1400/performance/win/org.eclipse.ui.tests.performance.OpenCloseEditorTest.testOpenAndCloseEditors_java().html" "http://fullmoon.ottawa.ibm.com/eclipse/downloads/drops/I20050324-1400/performance/win/org.eclipse.ui.tests.performance.OpenCloseEditorTest.testOpenAndCloseEditors_perf_basic().html" http://fullmoon.ottawa.ibm.com/eclipse/downloads/drops/I20050324-1400/performance/win/org.eclipse.ui.tests.performance.OpenCloseEditorTest.testOpenAndCloseEditors_perf_outline().html The problem seems to have been introduced between I20050315-1100 and I20050324-1400.

@@ -1,0 +1,3 @@
+ElementTreeSelectionDialog unnecessarily hinders using styled label providers
+
+The constructor of ElementTreeSelectionDialog only accespt ILabelProvider instances. This prevents clients from using an IStyledLabelProvider. I suggest to change the constructor to accept IBaseLabelProvider. This would also enable styled label providers.

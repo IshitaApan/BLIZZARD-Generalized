@@ -1,0 +1,3 @@
+[Progress] No prompting on errors from jobs
+
+3.3 M4 1. do some major work in a CVS shared project to which you DO NOT have commit rights (but you forgot this because you have commit rights on many projects) 2. select the project and then Team > Commit... to commit the project ==> no dialog, no indication in progress area ==> you think it worked just fine 3. delete the workspace since this was just some special work OBSERVE: all work from step 1 is lost. When repeating these steps I found out that an error is silently written to .log

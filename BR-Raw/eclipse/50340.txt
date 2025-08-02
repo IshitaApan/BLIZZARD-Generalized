@@ -1,0 +1,3 @@
+[Contributions] Large toolbar buttons under Windows XP
+
+200401201132 - enable SWT to use Windows XP widgets (provide java.exe.manifest file; for details see SWT mailing list) - observe: the toolbar buttons are really large !! See attached screen shot

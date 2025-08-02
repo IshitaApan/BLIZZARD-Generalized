@@ -1,0 +1,3 @@
+[EditorMgmt] Ctrl+PageDown in editor area should select next editor also when menu is open
+
+N20090216-2000 Ctrl+PageDown in the editor area (or in a view stack) should select the next editor (view) also after the menu has been opened. Currently, I can use Ctrl+PageDown to traverse the editor tabs in visual order (except for bug 199499), but when I'm on the last tab, a menu opens, and the shortcut does not work any more. I would expect that when I'm on the last tab, Ctrl+PageDown opens the menu and pre-selects the next part in the list. Pressing Ctrl+PageDown again while the switcher is open should select the next element in the list, etc. .

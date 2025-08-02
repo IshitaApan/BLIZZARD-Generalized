@@ -1,0 +1,3 @@
+[Viewers] binary incompatibility (adding public fields) reported against jface.viewers
+
+I2080513-2000. jace.viewers breaks binary compatibility by adding public fields which is defined in http://wiki.eclipse.org/Evolving_Java-based_APIs_2. Also, the API tooling reports this as errors in my workspace. org.eclipse.jface.viewers.CellEditor.LayoutData.minimumHeight org.eclipse.jface.viewers.CellEditor.LayoutData.verticalAlignment org.eclipse.jface.viewers.ColumnViewerEditorDeactivationEvent.eventType org.eclipse.jface.viewers.IDecoration.REPLACE org.eclipse.jface.viewers.IDecoration.ENABLE_REPLACE

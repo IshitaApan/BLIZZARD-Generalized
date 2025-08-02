@@ -1,0 +1,3 @@
+[legacy] Load the model with commands and handlers
+
+The legacy fragment should be able to load the commands model with commands and the handlers model with handlers. PW

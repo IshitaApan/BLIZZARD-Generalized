@@ -1,0 +1,3 @@
+[KeyBindings] Conflicts should be accessible through API
+
+See org.eclipse.jface.bindings.BindingManager.setActiveBindings(Map, Map, Map, Map) We currently use org.eclipse.jface.internal.InternalPolicy.currentConflicts to transport the conflicts around, it should be available through the BindingManager (and probably the IBindingService API) PW

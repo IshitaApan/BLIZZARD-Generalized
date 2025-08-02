@@ -1,0 +1,3 @@
+[Editor Mgmt] HANG - Drag .java file from package explorer to editor hangs eclipse
+
+Version: 2.1 Build id: 200212161439 To reproduce this just open eclipse and then close all open java files. Drag a java file from the package explorer to the editor and it will hang eclipse. The drag icon will hang around even if you switch to another applcation. This works fine on GTK and Windows.

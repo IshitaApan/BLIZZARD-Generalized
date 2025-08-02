@@ -1,0 +1,3 @@
+[Commands] handlers: Inspect doesn't work
+
+I20060131-1200 The keybindings for inspect & display do not work

@@ -1,0 +1,3 @@
+[Field Assist] - API - Specification of invoking key stroke/sequence
+
+from an email: Doug - I'm looking for the best way (see ContentProposalAdapter) for clients to specify the triggering key for content assist. It needs to be specified at the JFace level, but in a way that workbench-level code could look up the standard key binding. I chose KeyStroke, but perhaps it should be KeySequence. If KeySequence is a better choice, it would be great if SWTKeySupport could provide a method to look at a key event and tell me if it's a match....

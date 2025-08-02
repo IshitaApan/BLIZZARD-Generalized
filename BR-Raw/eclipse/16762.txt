@@ -1,0 +1,3 @@
+[Editor Mgmt] Fast view and editor activation inconvenience
+
+- use the JUnit view as fast view - run a testsuite - doubleclick on a test in the hierarchy or on a line from a stacktrace of a failure - the appropriate editor gets focused - minimize the JUnit view - the previously active editor gets the focus, which is not the expected behaviour

@@ -1,0 +1,3 @@
+EPartService leaks previously active part
+
+A reference is kept to the previously active part. This is unnecessary. We only need it to fire events. After the deactivation events have been fired, we should no longer need to keep it lying around.

@@ -1,0 +1,3 @@
+[Markers] "Filters" menu doesn't remember the last selected filter
+
+When I was playing with this it was a true pain. I'd change somes ettings to see what effect it had and then re-open the dialog to try some other settings I had to re-select my filter (it selects the first one always)...

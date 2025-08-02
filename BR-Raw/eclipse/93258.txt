@@ -1,0 +1,3 @@
+[Preference] new bolding of pages in filtered preference tree uses wrong font
+
+The bolding in the preference tree leaves does not honour dialog font but the rest of the tree does. Screencap forthcoming.

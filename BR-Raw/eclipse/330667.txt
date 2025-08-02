@@ -1,0 +1,3 @@
+IWorkbenchPage's openEditors(IEditorInput[], String[], int) method materializes all editors
+
+It pretty much goes against the purpose of why we introduced this method in 3.x in the first place...

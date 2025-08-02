@@ -1,0 +1,3 @@
+[Preferences] Always Run in background not restored to default in Workbench preference page
+
+R 3.0 If you select Restore defaults on the Workbench preference page always Run in background is not affected.

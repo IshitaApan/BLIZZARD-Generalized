@@ -1,0 +1,3 @@
+[Preferences] switching between erroneous preferences pages should generate error, not warning.
+
+if i enter invalid data on any preference pages (and it red flags me on the ui), if i try to select a another page without fixing the problem, i get the following warning dialog: "warning the currently displayed page contains invalid values" this should be an "error" dialog considering one is not allowed to leave the page without fixing the mistake.

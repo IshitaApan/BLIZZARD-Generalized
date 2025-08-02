@@ -1,0 +1,3 @@
+Perspective icon tooltips should indicate "Perspective"
+
+Build 20020521 The tooltip you get when hovering over a perspective icon should indicate "{0} Perspective" to distinguish them from fast views. E.g. "Java Perspective" instead of just "Java". A small change, but it's important to distinguish between perspectives and fast views.

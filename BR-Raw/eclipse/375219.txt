@@ -1,0 +1,3 @@
+[CSS Spy] CSS values sometimes don't seem to take effect
+
+There have been occasions where attempting to set a value using CSS Spy doesn't seem to have any effect -- the old value is returned. Seen most often when setting background-color on an element where the CSS definitions have set a background-color.

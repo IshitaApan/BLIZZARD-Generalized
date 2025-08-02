@@ -1,0 +1,3 @@
+[Workbench] Way too many selection change events are being fired
+
+There are way to many selection change events being sent. Since much of the UI is based on responding to selection changes any optimizations in this code path will have a significant benefit. To recreate: Start with the "Hello World" example but write something to the console on every selection change event. Launch the example and activate the action set. Start clicking around in the UI and notice: In several views you get multiple selection change events being processed for single clicks. REALLY IMPORTANT: Try extending selection in an editor and notice that you get tons of events.

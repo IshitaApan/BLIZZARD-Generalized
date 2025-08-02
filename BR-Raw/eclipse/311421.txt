@@ -1,0 +1,3 @@
+[Compatibility] Some multi-keystroke keybindings don't work
+
+What works: Alt+Shift+Q, Q brings up the view dialog. Alt+Shift+X, J runs Java applications. What doesn't work: Ctrl+2, L to assign a method's return value to a new local variable. Alt+Shift+Q, ? to bring up a specific view.

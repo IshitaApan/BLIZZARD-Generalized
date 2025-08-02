@@ -1,0 +1,3 @@
+[CommonNavigator] Sync view changesets no longer show outgoing changes
+
+Created attachment 161304 Sync view I have I20100307-2000 and I have 3 outgoing changes. They show up under "all" but in my default where I have change sets selected, the tree is not expandable. See attached pic. PW

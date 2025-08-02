@@ -1,0 +1,3 @@
+Disposing parent context does not cause objects injected by a child context to be destroyed
+
+The test below fails. static class Target { int pc = 0; int pd = 0; @Inject @Named("o") Object o; @PostConstruct void pc() { pc++; } @PreDestroy void pd() { pd++; } } public void testV() { IEclipseContext context = EclipseContextFactory.create(); IEclipseContext child = EclipseContextFactory.create(context, null); child.set("o", new Object()); Target target = (Target) ContextInjectionFactory.make(Target.class, child); assertEquals(1, target.pc); ((IDisposable) context).dispose(); assertEquals(1, target.pd); }

@@ -1,0 +1,3 @@
+NPE in HandlerService on Show View (any view)
+
+Menu Window -> Show View -> select any view NPEs: Caused by: java.lang.NullPointerException 	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:122) 	at org.eclipse.ui.handlers.ShowViewHandler.execute(ShowViewHandler.java:55) 	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:293)

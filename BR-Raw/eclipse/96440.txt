@@ -1,0 +1,3 @@
+Tables laying out 3 times when trying to determine sizes
+
+20050522 See Bug 93611 When we attempt to layout a table we are scaling columns with table.getClientArea().width. In M6 this returned the width of the table - post M6 it is returning a much smaller value and making all of our columns very small in the Table Layout. STEPS 1) Put a breakpoint in the JFace TableLayout class 2) Launch a self hosted workspace 3) Open Preferences-> Ant Runtime 4) You will see a client area size of about 81 5) Do the same in M6 - it will be about 320 or so.

@@ -1,0 +1,3 @@
+Remove IFocusable
+
+There is currently an interface org.eclipse.e4.workbench.ui.behaviors.IFocusable. There are no references to this API anywhere, so it should just be deleted. Bug 310199 says this will likely be replaced with an annotation.

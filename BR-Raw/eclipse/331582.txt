@@ -1,0 +1,3 @@
+binding context processing should be done in binding Contexts addon
+
+org.eclipse.e4.ui.model.application.commands.MBindings.getBindingContexts() is currently processed in E4Workbench but should be done by the binding contexts model processing add on, and should add the event broker to listen to additions. PW

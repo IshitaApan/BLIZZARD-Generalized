@@ -1,0 +1,3 @@
+[Preferences] Editors preference page shortly shows error status on first display
+
+I20050509-2010: Steps to reproduce: - Restart workbench or make sure that last visited preference page is not the Editors preference page - Open the Editors preference page -> For a very short time, the preference displays an error status below the preference page caption

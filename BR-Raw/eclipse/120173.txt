@@ -1,0 +1,3 @@
+[Field Assist] - beef up and release example
+
+I have an example app for field assist that should be beefed up and released for 3.2. It exercises all the various combinations of function (explicit keystroke invoke, auto-invoke, different kinds of decorations, etc.). However the target dialog itself is really dumb (username/password fields), and should be beefed up to contain a more realistic example with decorations on fields other than text.

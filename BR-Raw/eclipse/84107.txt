@@ -1,0 +1,3 @@
+[DnD] DragCursors should be shared
+
+Can the cursors defined in org.eclipse.ui.internal.DragCursors be exposed? We'd like to re-use these cursors but don't want to use internal API. Perhaps something like ISharedImages can be set up to share cursors as well. Can this be fixed in time for the 3.1 release?

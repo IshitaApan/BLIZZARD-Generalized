@@ -1,0 +1,3 @@
+Retire org.eclipse.e4.demo.split.* plug-ins
+
+Once the work on Bug 378298 has been finished, we need to update or retire the org.eclipse.e4.demo.split.* plug-ins.

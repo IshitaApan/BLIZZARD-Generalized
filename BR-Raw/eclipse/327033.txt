@@ -1,0 +1,3 @@
+Workbench doesn't relayout after a stack disappears
+
+If you close all the views of a stack, you just get an empty rectangle of space now. Resizing your window will adjust the layout properly. Note that reopening the views don't help, you still have to resize something to force a layout.

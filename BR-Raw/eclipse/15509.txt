@@ -1,0 +1,3 @@
+Wrong input for import/export actions
+
+build 20020502 + newer JDT code Open a file in the editor Select the project in the navigator ==> import/export are fed with the editor element instead of the navigator selection. Note: same applies if the selection is in another view (e.g. Packages view)

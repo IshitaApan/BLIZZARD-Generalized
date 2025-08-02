@@ -1,0 +1,3 @@
+Error ticks on editor tab not updated for inactive editors
+
+I200408120010 (could not reproduce on M200408111300) - disable autobuild - open CU1, add an error, save, build -> error tick appears on CU1 editor tab - remove error, save - open CU2, build -> error tick on CU1 editor tab stays Switching back to CU1 editor and dirtying it triggers an update of the error tick.

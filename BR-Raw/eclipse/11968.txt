@@ -1,0 +1,3 @@
+ActionContributionItem update not working correctly
+
+The update method was failing to set the enablement correctly in the case of a newly made item.

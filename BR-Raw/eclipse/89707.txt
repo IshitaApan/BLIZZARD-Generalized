@@ -1,0 +1,3 @@
+Undo menu item missing text and wrongly enabled when undo history is 0
+
+Build: I20050330-0500 From a new workspace 1) Set the text editor undo history size to 0. 2) Create a simple project 3) Create a text file 4) Type some text in the text file 5) Right click in the text editor. -> The "Undo" action text is missing - showing just a blank space in the menu. When I increase the history size it reappears.

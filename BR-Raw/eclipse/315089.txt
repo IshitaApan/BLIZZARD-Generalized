@@ -1,0 +1,3 @@
+HandledMenuItem can inherit command name
+
+If you specify a command you don't have to specify a label. PW

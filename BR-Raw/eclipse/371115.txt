@@ -1,0 +1,3 @@
+Dependency Injection should not auto-gen an object (without @Creatable annotation)
+
+Currently if I have a non-arg constructor in an Object dependency injection will automatically create an instance and will inject this. I think this is more confusing then helpful and suggest we turn it of.

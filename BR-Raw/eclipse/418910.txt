@@ -1,0 +1,3 @@
+Run clean up action on org.eclipse.e4.ui.css.core for whitespace
+
+Mickael Istria had issues with the trailing whitespace in https://git.eclipse.org/r/#/c/14712. As platform UI discourages trailing whitespace in http://wiki.eclipse.org/Platform_UI/How_to_Contribute I suggest we run the clean-up action for whitespace on org.eclipse.e4.ui.css.core

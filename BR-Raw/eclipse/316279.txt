@@ -1,0 +1,3 @@
+MCommand's 'parameters' feature is not being persisted correctly
+
+SSIA

@@ -1,0 +1,3 @@
+Action is always disabled
+
+Created attachment 156911 Test Case This is action with 2-step shortcut (Ctrl+G,R). If the key assist dialog appears, the action will not be triggered. It works fine on Windows, but not on Ubuntu nor Solaris. It is reproducible on 3.5.1 and 3.6. After enabling command tracing, handlers are not computed if the key assist dialog appears.

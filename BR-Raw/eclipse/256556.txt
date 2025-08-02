@@ -1,0 +1,3 @@
+[Progress] Possibly broken code in DetailedProgressViewer.setFocus
+
+I20081125-0840 While doing the dead-code analysis I found this code in org.eclipse.ui.internal.progress.DetailedProgressViewer.setFocus(): 	for (int i = 0; i < children.length; i++) { 		ProgressInfoItem item = (ProgressInfoItem) children[i]; 		item.setButtonFocus(); 		return; 	} Obviously the loop is useless as it will at most set the focus on children[0].

@@ -1,0 +1,3 @@
+MenuHelper#getIconURI() should be more specific when rewriting URLs
+
+MenuHelper#getIconURI(ImageDescriptor) rewrites URIs extracted from a URLImageDescriptor to the more stable platform:/plugin form. But it doesn't check that the URI is actually a form where this is applicable (i.e., a bundleentry: or bundleresource: URI). It's not impossible that an icon could be fetched via the interwebs or specified as an RFC 2397-style data: URI.

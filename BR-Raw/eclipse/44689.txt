@@ -1,0 +1,3 @@
+[KeyBindings] Alt+[A-Z] do not work to change view, editor or perspective
+
+Eclipse M3 have bug that don't be modified Ctrl+F6->Ctrl+Tab. so, I modified keybinding Ctrl+F6 -> Alt+Q Ctrl+F7 -> Alt+S Unexpect!, This position is so comfortalble. but, Eclipse M4 don't perfectly be modified expectly operation keybinding.

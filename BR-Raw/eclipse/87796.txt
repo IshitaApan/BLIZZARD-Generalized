@@ -1,0 +1,3 @@
+[WorkbenchParts] IWorkbenchSite.getShell() returns null / every text-based editor is leaked
+
+I20050311-1510 When the editor gets closed (AbstractTextEditor.dispose()) we do the following: 	Shell shell= getSite().getShell(); 	if (shell != null && !shell.isDisposed()) 		shell.removeShellListener(fActivationListener); The bad thing is that getSite().getShell() returns null (which it did not in previous released like 3.0.2). This now causes every single editor to be kept in memory until the workbench window gets closed. This is most likely also the cause for bug 76077.

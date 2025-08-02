@@ -1,0 +1,3 @@
+[Presentations] bad tooltips in r21 presentation on Linux
+
+The tooltips for the view menu and close buttons contain the "&" character on GTK.

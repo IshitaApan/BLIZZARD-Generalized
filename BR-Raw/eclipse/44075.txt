@@ -1,0 +1,3 @@
+Busy progress does not lock out all shells
+
+The new showBusyWhile API does not lock all of the workbench windows while working. Look at how application window does this to decide what to do. We should consider if we want to lock the entire window or not while doing this. I think we do as this is API meant for jobs that are modal.

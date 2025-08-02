@@ -1,0 +1,3 @@
+[Wizards] Help icon showing up twice in the new wizard
+
+RC6 We have 2 help icons showing up in the new dialog currently - one of which is disabled.

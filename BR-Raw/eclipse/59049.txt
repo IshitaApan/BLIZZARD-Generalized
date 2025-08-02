@@ -1,0 +1,3 @@
+[Contexts] WorkbenchContextSupport doesn't register new dialog shells as TYPE_DIALOG
+
+There are a few bug reports regarding keybinding context activation (bug 58078, bug 58661, maybe others), which I think are all caused by the same error in WorkbenchContextSupport#checkWindowType(Shell): New dialog shells are *not* registered as TYPE_DIALOG. Therefore, clients who create a new Shell must currently call PlatformUI.getWorkbench().getContextSupport().registerShell(shell, IWorkbenchContextSupport.TYPE_DIALOG) as a workaround to enable the correct context. As I understand it, this should not be necessary, since WorkbenchContextSupport should automatically register all parented shells as dialogs.

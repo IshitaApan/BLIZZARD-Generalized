@@ -1,0 +1,3 @@
+Table columns dialog list selection length looks odd
+
+3.4 M7 0501-0100 The accessibility dialog for table columns widths has an odd selection look: you can see that the there is a right hand justification where selection just ends, prior to the right edge of the list. We tend to have two selection behaviours for lists, either the entire line is highlighted, or only the text itself is highlighted.

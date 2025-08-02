@@ -1,0 +1,3 @@
+[Progress] Details of Operation blocked dialog is empty is blocked by a system job
+
+I tried to delete a project and got an Operation blocked dialog. However, the blocking job was a system job so it did not appear in the dialog. In this case, it may be worth while to show the system jobs.

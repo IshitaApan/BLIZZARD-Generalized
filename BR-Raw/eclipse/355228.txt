@@ -1,0 +1,3 @@
+Modifications to the EModelService.cloneElement() API
+
+1) The clone API should not make any assumptions about which clone container to save the clone too. Instead, I caller should pass in the container to store the clone in, null if the clone need not be stored. Although the current snippet container is an MUIElement, I suspect this should be changed to make clone containers a first class concept. 2) After cloning a perspective there could be an arbitrary number of elements that caller will want to modify in the clone, not just the clone's ID. The clone API should just make, optionally store, and return the clone. The caller will modify the clone as appropriate.

@@ -1,0 +1,3 @@
+[FieldAssist] Duplicate javadoc in DecoratedField
+
+Eclipse 3.2 M4 There seems to be a duplication in the parameter definitions for two methods DecoratedField#indexForPosition(int position) DecoratedField#createFormDataForIndex(int index) They both describe the parameter "position" in their javadoc but only the first method should describe it. The second method should describe the parameter "index".

@@ -1,0 +1,3 @@
+[Compatibility] WTP Source Editor "Source" context menu missing items
+
+Bug 358672 seems to have corrected the missing "Source" context menu item within SSE. However, it appears now that there are several items missing from the context menu, but not for all editors. In the XML editor, the Comment section and formatting section tend to be missing frequently; however, sometimes they show up with most all items disabled except for "Cleanup document" The JSP editor is missing the entire category related to commenting. Additionally the "Cleanup document..." item is disabled.

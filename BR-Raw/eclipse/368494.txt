@@ -1,0 +1,3 @@
+[Compatibility] Preference mnemonic doesn't appear
+
+Created attachment 209418 Screen cap of menu The underline for the mnemonic for the Preference menu doesn't 'appear' even though the String for the menu item (I think it is WorkbenchMessages.OpenPreferences_text) has it. If you open up the Window menu, and then press 'P', the Preference dialog does actually launch. The Windows setting to show/hide mnemonics is on...so I am able to see the mnemonics for the other items in that menu.

@@ -1,0 +1,3 @@
+[Viewers] internalRefresh(Object)
+
+AbstractListViewer.internalRefresh(Object) does not wrap calls to setRedraw on its org.eclipse.swt.widgets.List within a try-finally block. There are many methods between the two calls to setRedraw that subclasses could throw Exceptions on which could cause setRedraw(true) not to be called. The most likely is the call to the LabelProvider through AbstractLabelViewer.getLabelProviderText(ILabelProvider, Object)

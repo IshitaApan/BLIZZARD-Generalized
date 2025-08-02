@@ -1,0 +1,3 @@
+[Compatibility] IHandlerService's createContextSnapshot(boolean) does not actually return a snapshot
+
+Since we just arbitrarily spawn a new ExpressionContext under the current context, the values are actually dynamic.

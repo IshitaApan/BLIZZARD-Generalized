@@ -1,0 +1,3 @@
+[Compatibility] 'forcePluginActivation' attribute not honoured for property testers
+
+It seems like we don't honour the allowPluginActivation/forcePluginActivation any more. <visibleWhen checkEnabled="false"> <iterate operator="or"> <or> <test forcePluginActivation="true" property="z.ex.rcp.mail.propertyTester1.test"> </test> <test forcePluginActivation="true" property="z.ex.rcp.mail.propertyTester2.test"> </test> </or></iterate> </visibleWhen> PW

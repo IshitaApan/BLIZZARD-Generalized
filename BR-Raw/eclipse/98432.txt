@@ -1,0 +1,3 @@
+[Perspectives] javadoc: IPageLayout needs update for secondary id format
+
+In 3.1 you can now specify "primary:secondary" format in IPageLayout.addView() but the javadoc in IPageLayout wasn't updated.

@@ -1,0 +1,3 @@
+Wrong placement of list of opened editors
+
+Build Identifier: 20120614-1722 Placement of vertial buffer list ("Show List" in editor menu) ignores screen boundaries. Placemet in Eclipse 3.7 is fine, in 4.2 there is a bug. Reproducible: Always Steps to Reproduce: 1. Open several editors so that you have the "show List" icon available 2. Try to click "Show List" button 3. Placement of the popup-window presenting editors is misplaced often running off the screen

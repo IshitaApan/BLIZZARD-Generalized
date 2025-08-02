@@ -1,0 +1,3 @@
+Multi-instance support code has broken some UI Tests
+
+The code to check for ':' within part ids wasn't checking if the id was null, leading to a number of the automated tests to fail...

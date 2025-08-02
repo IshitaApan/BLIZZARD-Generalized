@@ -1,0 +1,3 @@
+[Colors/Fonts]  DefaultPartPresentation.init() explicitly sets the font on each tab
+
+I200405200010 The initTab method sets the font on each tab irregardless of the busy state of that tab. Because of this, when our preference listener hears of a font change we're updating the folder but that value doesn't take effect on all tabs because they have explicitly defined fonts.

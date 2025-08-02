@@ -1,0 +1,3 @@
+[Preferences] Preferences tree flickers heavily while typing into the filter field
+
+When you type into the filter dialog you can observe how the tree refreshes after each keystroke. This results in a lot of flickering and might also result in bad performance with large preference trees.

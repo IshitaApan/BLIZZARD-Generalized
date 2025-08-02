@@ -1,0 +1,3 @@
+[Trim] Restore detached view over maximized view part throws NullPointerException
+
+Build ID: I20070621-1340 Steps To Reproduce: 1.On a RCP application with 3 viewparts, detach one of them, then close the view. 2.Maximize one of the remaining views. 3.Re-open the closed view. An exception is thrown: java.lang.NullPointerException 	at org.eclipse.ui.internal.Perspective.showView(Perspective.java:2160) More information: Somehow the Perspective showView method is trying to show the detached view on a trim stack

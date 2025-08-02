@@ -1,0 +1,3 @@
+MToolItemTest's testActionSetAddedToMyToolbar fails
+
+junit.framework.ComparisonFailure: null expected:<group[2]> but was:<group[1]> 	at junit.framework.Assert.assertEquals(Assert.java:81) 	at junit.framework.Assert.assertEquals(Assert.java:87) 	at org.eclipse.e4.ui.menu.tests.MToolItemTest.testActionSetAddedToMyToolbar(MToolItemTest.java:198) I originally thought it might have been due to the changes for bug 331662 but that doesn't seem to be the case. I suppose that change only affected view actions and not the main toolbar. http://git.eclipse.org/c/platform/eclipse.platform.ui.git/commit/?id=9954a5ef4e59a5d39a1a491f7272446ce76c590a

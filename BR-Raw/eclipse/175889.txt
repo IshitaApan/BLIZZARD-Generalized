@@ -1,0 +1,3 @@
+Allow early splash bundles to participate in ui splashHandler
+
+If an early bundle created a display and shell to do early splash content, then the ui does not do its standard splash handling. Currently the early splash bundle looses control after the application starts and the display event loop is no longer spun. We should allow a mechanism where an early splash bundle can still participate once the workbench starts. I would suggest the following: anyone wishing to do this must also contribute an AbstractSplashHandler to the org.eclipse.ui.splashHandler extension point. The extension must know about the early content and be capable of initializing itself based on that early content, the workbench would call AbstractSplashHandler.getSplash() to get the shell.

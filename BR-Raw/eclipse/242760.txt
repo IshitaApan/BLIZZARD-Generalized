@@ -1,0 +1,3 @@
+[Browser] Delete key is eaten in Internal Web Browser
+
++++ This bug was initially created as a clone of Bug #234875 +++ I20080530-0100 - happens on all platforms with Browser support - open the Internal Web Browser view - go to google.com - type some chars in the page's text box, arrow-back a few characters, then press the Delete key to delete the next character -> eclipse eats the key - this was likely introduced when the Browser began sending key events properly on all platforms during the 3.4 cycle

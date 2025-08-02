@@ -1,0 +1,3 @@
+[Compatibility] Application context is notified that the application has started twice
+
+I20110522-2200 (4.1). When I start Eclipse with -debug I get this in the console: Time to load bundles: 203 Starting application: 33751 Application Started: 43470 Application Started: 52439 This looks fishy: is the application is started twice?

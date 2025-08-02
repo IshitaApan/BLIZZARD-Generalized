@@ -1,0 +1,3 @@
+[Compatibility] ModeledPageLayout should not die if a view could not be found
+
+In 3.x, views that cannot be found are simply ignored. In 4.x, an exception is thrown which means the perspective will not be opened even if the rest of the perspective's definition is valid. We should just log a warning instead.

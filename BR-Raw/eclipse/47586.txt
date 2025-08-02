@@ -1,0 +1,3 @@
+[Jobs] EventLoopProgressMonitor should use an exception handler
+
+3.0 M5 Most components that spin an event loop install an exception handler to deal with exceptions thrown out of the event loop. EventLoopProgressMonitor just propagates these exceptions to the caller of IProgressMonitor methods. It is unreasonable for clients of IProgressMonitor to have to sheild themselves from arbitrary exceptions being thrown by the progress monitor. See bug 47404 for more discussion.

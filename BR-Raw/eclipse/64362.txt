@@ -1,0 +1,3 @@
+Dialogs that are delayed open should not open on a disposed parent
+
+Anything with setOpenOnRun() to false needs to be sure that it does not open if the parentShell is disposed. The preferred method of repair is to just reset the parentShell if it is disposed but this would be an API change which it is too late to do. I am going to change the open method of ProgressMonitorFocusJobsDialog to only open if the parent shell is null or disposed. This affects callers of busyCursorWhile. If they call this from a dialog we will not open the progress monitor dialog if it has been closed. As a result callers of it should disable thier buttons or close thier dialog (I will update the javadoc).

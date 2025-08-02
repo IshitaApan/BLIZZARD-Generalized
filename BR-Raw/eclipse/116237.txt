@@ -1,0 +1,3 @@
+[Markers] Performance Tests Failing: OpenCloseViewTest#showView:org.eclipse.ui.views.BookmarkView()
+
+3.2 M3 OpenCloseViewTest#showView:org.eclipse.ui.views.BookmarkView() This test is %27 slower and it appears to have slowed down on I20051018

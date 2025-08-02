@@ -1,0 +1,3 @@
+[context] Separate code into API / SPI / internal
+
+Created attachment 123248 Proposed minimalistic patch (API/SPI/internals split only) The context implementation submitted under the bug 257429 has all code open. I think we should refactor it into API / SPI/ internal parts. The parts would be: -> API + IEclipseContext get / set / unget/ isSet / ... + EclipseContextFactory create(IEclipseContext parent) create(IEclipseContext parent, IEclipseContextStrategy strategy) -> SPI + IEclipseContextStrategy [SPI] schedule(Runnable runnable) + IComputedValue [SPI] compute(IEclipseContext context) And the implementation going into an internal package.

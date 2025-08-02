@@ -1,0 +1,3 @@
+[Trim] locationURI "before" and "after" don't work for status trim
+
+I would like to position a toolbar on the far left of the status trim. From the documentation, "toolbar:org.eclipse.ui.trim.status?before=org.eclipse.jface.action.StatusLineManager" should put it before the status line manager. However, the queries have no effect and my toolbar is always added at the end. Test case is attached. TrimContributionManager#update(boolean, boolean) does not seem to read the query part of my location when it reads my contribution. Is this handled somewhere else? I am attaching a test case.

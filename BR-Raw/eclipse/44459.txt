@@ -1,0 +1,3 @@
+First Link (Help > Welcome...) on Welcome Page doesn't work
+
+I20031008 - start eclipse with new workspace - in the Eclipse Platform Welcome page, click on the first link "Help > Welcome..." !ENTRY org.eclipse.ui 4 4 Oct 08, 2003 17:34:25.512 !MESSAGE Unable to load class org.eclipse.ui org.eclipse.ui.internal.QuickStartAction Unable to load class org.eclipse.ui org.eclipse.ui.internal.QuickStartAction

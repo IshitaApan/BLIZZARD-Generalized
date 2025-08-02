@@ -1,0 +1,3 @@
+[DnD] Feedback overlay is clipped when dragging in detached windows
+
+The overlay shell should *not* adopt the size/position of the top-level shell but rather the shell that the overlay is supplying feedback for...

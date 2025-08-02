@@ -1,0 +1,3 @@
+[Help][Commands] new IWorkbenchHelpSystem already deprecated
+
+The new IWorkbenchHelpSystem already contains a deprecation - it uses ICommand to create a help listener in createHelpListener. Given that the implementation for this method (taken from the old WorkbenchHelp static class) seems to be bogus would it be sensible to just remove the method from the new interface? Or would it make sense to update the interface to use the new Command class (and provide an implementation for the method that actually does something sensible)?

@@ -1,0 +1,3 @@
+Incorrect Javadoc in org.eclipse.jface.preference.PreferenceNode
+
+The javadoc for the field classname in PreferenceNode states: /** * Name of class that implements <code>IPreferenceNode</code>, or * <code>null</code> if none. */ The class name stored in this variable actually implements IPreferencePage as used in createPage(): page = (IPreferencePage) createObject(classname);

@@ -1,0 +1,3 @@
+[Fonts/Colors] Part tab font is not applied until a tab is selected
+
+1) Set your part tab font to something larger than normal. Note that all of the tab fonts are updated 2) Restart eclipse 3) Note that the tab font is not applied until you click on a tab.

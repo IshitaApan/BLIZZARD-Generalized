@@ -1,0 +1,3 @@
+[Markers] Unchecking filter does not update
+
+I20071218-0800. 1. Show > TODO ==> filter is applied 2. Show > TODO ==> nothing happens, old filter stays but view menu looks like this: [ ] TODO ---- [x] Show All

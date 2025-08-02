@@ -1,0 +1,3 @@
+[Dialogs] TypeFilterDialog UI and API not same
+
+The UI shows the extensions as "*.txt" while the API expects "txt" only. This is confusing. The format of the extension is not specified. The dialog should be able to tread "*.txt" as input as well and also be able to return "*.txt" (instead or in addition to "txt").

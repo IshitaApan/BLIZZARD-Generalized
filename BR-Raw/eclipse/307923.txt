@@ -1,0 +1,3 @@
+[Compatibility] Workbench's saveAllEditors(boolean) method is implemented incorrectly
+
+1. Select an Ant file. 2. Context menu > Run As > Ant Build 3. Nothing happens. There's a launching code path that'll try to save all editors before launching. We're returning false incorrectly here.

@@ -1,0 +1,3 @@
+[KeyBindings] misc: Wrong shortcut displayed in menu for copy using Emacs
+
+Version: 3.1.0 Build id: 200412070800 Copy in Emacs is "Alt-W", the shortcut works perfectly but all the menus in Eclipse show "Ctrl-c" as the copy shortcut, which has other semantics in the Emacs configuration. Similarly, the standard shortcuts to cut and paste text are "Ctrl-w" and "Ctrl-y", but the menus indicate "Shift-Delete" and "Shift-Insert" instead, which work as well but are more difficult to perform and probably less common.

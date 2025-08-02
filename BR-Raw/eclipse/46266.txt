@@ -1,0 +1,3 @@
+Unnecessary workbench casts
+
+Chris has promoted IActivityManager/IRoleManager to IWorkbench API (at least until the new stuff is ironed out). I was doing casts to Workbench in order to access them. These casts are no longer necessary. Patch forthcoming.

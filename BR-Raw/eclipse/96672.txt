@@ -1,0 +1,3 @@
+Startup complete reported twice
+
+Build: N20050524-0010 When -debug is enabled in this build, I see the "Startup complete" message appearing twice: Time to load bundles: 15 Reading registry cache: 16 Starting application: 1221 Startup complete: 6292ms Startup complete: 12646ms This is caused by Workbench.runStartupWithProgress, which calls endSplash() an extra time. This is the cue we use for the "startup complete" debug statement. Either the extra call to endSplash() should be removed or we should find some other way to determine when startup is complete. Boris: is this new code in workbench likely to be staying in 3.1?

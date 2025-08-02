@@ -1,0 +1,3 @@
+[Preferences] Success message appears when importing a dummy "epf" file
+
+I created a dummy "epf" file containing random characters and another empty "epf" file. I imported both of them on M7, M8 and Build id: 200405040800. I only received an error message on M7. For the subsequent builds, the standard successful import message appeared. Error message in M7: "Unable to import preferences from file "C:\temp\MyEclipseSettings.epf" Reason: Error while importPreferences." Success message in M8 and Build id: 200405040800: "Preferences imported from file "C:\temp\MyEclipseSettings.epf"".

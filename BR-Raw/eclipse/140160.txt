@@ -1,0 +1,3 @@
+[Field Assist] - JAVADOC ONLY- FieldDecorationRegistry API should specify that null dec description is allowed
+
+DecoratedField documents that a null decoration description is permissible. But the methods in FieldDecorationRegistry that create a decoration in the registry do not specify so. Javadoc should be updated to indicate that a null description is permissible. This confusion caused the problem in bug #139894.

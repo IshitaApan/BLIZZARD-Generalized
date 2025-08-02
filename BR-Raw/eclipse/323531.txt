@@ -1,0 +1,3 @@
+[Compatibility] <enabledWhen> definitions for handlers are always ignored
+
+Ctrl+W should only be enabled if there's an editor. However, this is not the case and it ends up always being enabled.

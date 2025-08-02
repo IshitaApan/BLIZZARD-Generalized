@@ -1,0 +1,3 @@
+Window > Navigation > Maximize does not work for Intro view
+
+Version: 4.2.0 (for M4) Build id: I20111205-2330 Neither Window > Navigation > Maximize Active View or Editor nor Minimize work for the Intro/Welcome view, though both items are enabled in the menu. If I DND the intro to a different stack, Min/Max then works fine.

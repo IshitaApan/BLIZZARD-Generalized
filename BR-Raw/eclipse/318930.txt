@@ -1,0 +1,3 @@
+Be lazy: Convert HandlerActivation from RunAndTrack to ContextFunction (pull instead of push)
+
+This is a followup to bug 318633 comment 23. I'll attach my patch here.

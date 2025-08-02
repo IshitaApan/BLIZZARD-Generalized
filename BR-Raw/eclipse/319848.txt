@@ -1,0 +1,3 @@
+[Compatibility] Support <control> contributions to the trim
+
+SSIA Note that nobody uses this in the SDK so testing will require a spinning of your own plug-in.

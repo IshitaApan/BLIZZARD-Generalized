@@ -1,0 +1,3 @@
+[Markers] All labels in tasks and breakpoints views are  bold
+
+I20060926 We are applying the bold font to everything in the tasks and breakpoints view

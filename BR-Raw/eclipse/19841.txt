@@ -1,0 +1,3 @@
+[HELP] WorkbenchHelp calling depricated IHelp API
+
+20020610 WorkbenchHelp should call displayContext, displayHelp has been deprecated

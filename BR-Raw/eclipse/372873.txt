@@ -1,0 +1,3 @@
+Duplicate 'Plug-in Development' entries in Customize perspective dialog
+
+Created attachment 211816 screen shot Version: 4.2.0 Build id: I20120223-2200 Steps: 1. Open the Customize perspective dialog 2. go to the 'Shortcuts' tab 3. select 'Show View' from the Submenus option 4. notice there are two Plug-in Development entries - one has content the other does not, and you cannot check the empty one See attached screen shot

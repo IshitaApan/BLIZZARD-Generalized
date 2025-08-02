@@ -1,0 +1,3 @@
+[IDE] RefreshAction needs to remove reference to java.io.file
+
+M3 RefreshAction needs to remove reference to java.io.file for the flexibile workspaces work

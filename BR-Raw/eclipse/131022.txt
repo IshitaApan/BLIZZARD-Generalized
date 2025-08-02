@@ -1,0 +1,3 @@
+[Markers] Filters view shows duplicate marker when super different from problem marker
+
+I have defined a custom marker called validationmarker whose super type is problemmarker. I have another custom marker called ejbvalidationmarker who super type is validationmarker and not problemmarker. When i launch the Filter dialog from the problems view I see 2 check boxes for the same ejbvalidationmarker with one selected and one unselected. The validationmaker shows up as only one check box. Is there a problem in the check box table view in the Filters dialog ? Or is the requirement that all markers should always have the super type as the core problemmaker ?

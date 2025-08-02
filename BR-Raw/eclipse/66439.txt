@@ -1,0 +1,3 @@
+Copy of Class causes update error in package explorer
+
+RC1 RHEL JDK 1.4.2_02 Motif I have experienced a problem where I copy a java file and paste it into the same package, accepting the default new name (CopyOfClass.java) However, the package view does not list the class, but it does list 2 instances of the last class in the package (note that I am using the hierarchical view). The file is aparently inserted in the correct location, but the name->class mapping is incorrect: clicking on classes that appear before where the new class should be inserted brings up the correct class, but clicking on classes that appear after the inserted class brings up a different class than the one selected. Restarting eclipse causes the problem to go away

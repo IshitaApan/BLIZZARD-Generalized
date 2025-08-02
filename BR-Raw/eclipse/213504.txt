@@ -1,0 +1,3 @@
+[Markers] Problems View no longer supports dragging into the Editor Area
+
+I20071218-0800. You used to be able to drag an error into the Editor Area in order to open the associated file. I commonly use the DnD gesture to open a 'problem' but it appears that this isn't working in the new version...

@@ -1,0 +1,3 @@
+[DataBinding] Convert scenarios to official APIs
+
+We need to convert the scenarios (http://wiki.eclipse.org/index.php/JFace_Data_Binding_Scenarios) to the nonprovisional APIs.

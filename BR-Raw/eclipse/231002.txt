@@ -1,0 +1,3 @@
+Add Javadoc tags to UA projects for API Visibilities & Restrictions
+
+See http://wiki.eclipse.org/PDE_UI_Incubator_ApiTools#Javadoc_Tags.2C_API_Visibilities_.26_Restrictions Eclipse 3.4 now has API checking tooling and in order for this to work correctly tags such as @noextend and @noimplement need to be added to classes and interfaces whose comments indicate restrictions on how they can be used.

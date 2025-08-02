@@ -1,0 +1,3 @@
+[HeapStatus] Heap status indicator accesses the preference store too often
+
+There are calls to HeapStatus.this.prefStore.getInt(IHeapStatusConstants.PREF_UPDATE_INTERVAL) that happen far too frequently. This value should be cached and a preference listener should be added. This is accessed so often that running the preference debug options for "get" is useless.

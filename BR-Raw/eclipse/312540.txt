@@ -1,0 +1,3 @@
+[LinkedResources] Copy resource in Navigator and Project Explorer always shows dialog
+
+N20100511-2000. When copying an IFile from one to another folder in the Navigator or Project Explorer, I always get the dialog no matter how I've set the preferences on the 'Linked Resources' page (even if I disable linked resources).

@@ -1,0 +1,3 @@
+problems view: automatically disable marker limits when in group mode
+
+20060123 When in the problem view shows groups, the marker limits should be automatically disabled. Or the limits should specify the maximum numbers of all markers in a group, not for the total number of problems.

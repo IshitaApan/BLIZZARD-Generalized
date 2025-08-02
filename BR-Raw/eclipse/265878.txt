@@ -1,0 +1,3 @@
+[DataBinding] Compile errors ("never used locally") in tests and examples
+
+using I20090217-2200.

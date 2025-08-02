@@ -1,0 +1,3 @@
+[compatibility] Workbench#close never called
+
+Build: 32 When exiting the Eclipse 4.0 SDK, Workbench#close is never invoked. A major conseqence is that the workbench advisor pre/post close methods are never called, and therefore the IWorkspace is never saved. On subsequent starts the workspace needs to perform a crash recovery which makes the startup slower.

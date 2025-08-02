@@ -1,0 +1,3 @@
+Fix warnings in UA plugins
+
+We have many warnings in the UA plugins, most of them from org.eclipse.ua.tests as it uses internal code from the other plugins. In addition, there are unused imports, accessing a static method from an instance, unused local variables and deprecated code.

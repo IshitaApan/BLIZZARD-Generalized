@@ -1,0 +1,3 @@
+[Field Assist] - Remove experimental and deprecated class ComboControlCreator
+
+In 3.3 M1, we introduced ComboControlCreator as a convenience class for creating combos via DecoratedField. Now that DecoratedField is deprecated, the IControlCreator concept is also deprecated, and there is no need to ship this class at all in 3.3. Once FindReplaceDialog migrates to the new class, we should remove this class. It has been marked experimental throughout 3.3, the approval for deprecating it is in bug #163345, so I assume this bug is preapproved once FindReplaceDialog is migrated.

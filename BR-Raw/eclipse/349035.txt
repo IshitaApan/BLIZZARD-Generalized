@@ -1,0 +1,3 @@
+No tool tip for Restore fast view icons
+
+Created attachment 197782 Restore fast view icons All other fast view icons have tooltips, except the 3 Restore fast view icons.

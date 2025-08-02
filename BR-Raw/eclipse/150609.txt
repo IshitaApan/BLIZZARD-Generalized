@@ -1,0 +1,3 @@
+[Properties dialog][EFS] File properties for custom filesystem not shown
+
+While implementing a custom filesystem, we came across the following problem: the properties 'last modified', 'location' and 'size' receive the value '<resource does not exist>'. The problem is due to the use of IResource#getLocation() in ResourcePropertySource and FilePropertySource which returns null in case of resources that are not stored on the default local filesystem. IResource#getLocationURI() should be used instead. In fact, this already happens in IDEResourceInfoUtils, which contains static versions of the same property retrieval methods implemented in ResourcePropertySource and FilePropertySource.

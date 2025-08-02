@@ -1,0 +1,3 @@
+[Import/Export] Filtering the imported files don't work
+
+Using the latest M5, setting the filtering don't work when importing. Import filesystem, Filter Types -> select a bunch of them, pressing OK should trigger the filtering (in 3.1 it works). In 3.2 it doesn't. Tracing this leads us to that the parentLabel is always null and with this value, the system tries to construct Path object which fails on Windows platform with NullPointerException. After this everything collapse and no filtering occurs.

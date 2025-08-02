@@ -1,0 +1,3 @@
+[Field Assist] - API - Provide ControlDecoration constructor without specifying decoration
+
+Currently you can only create a ControlDecoration by specifying the control and the decoration in the constructor. This works nicely when the decoration is static (ie, always content assist). But there are use cases where the decoration changes depending on the state of the field, and at creation time, it's not clear which decoration will be set. Having a constructor that doesn't require a decoration would be nice.

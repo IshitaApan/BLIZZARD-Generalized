@@ -1,0 +1,3 @@
+[Viewers] ViewerRow should be reused instead of connected to the Item
+
+Currently we create a ViewerRow ver every Item we create this can degrade performance, we should cache the row and reuse it

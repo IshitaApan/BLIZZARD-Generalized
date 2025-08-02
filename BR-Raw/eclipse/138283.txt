@@ -1,0 +1,3 @@
+[KeyBindings] Action set with accelerator causes conflict
+
+Build: 3.2 RC1a 1) Installed the attached plugin 2) Switch to the Java perspective 3) Type Ctrl+Shift+T -> Nothing happens. There is a conflict between the JDT's "Open Type" action, and the action set defined by the attached plugin. The conflict occurs even though the action set in question is not enabled in the Java perspective. Actions from a disabled action set should not be stealing key bindings from actions that do apply in that perspective. This occurs if you install the Eclipse Callisto release with JDT and BIRT. BIRT defines an action set with an action bound to Ctrl+Shift+T. This causes the JDT "Open Type" action to not be reachable by the Ctrl+Shift+T binding in the Java perspective.

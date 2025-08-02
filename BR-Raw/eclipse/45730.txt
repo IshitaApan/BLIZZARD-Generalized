@@ -1,0 +1,3 @@
+Properties dialog not respecting activity enablement.
+
+The workbench property dialog is not respecting the role/activity system.

@@ -1,0 +1,3 @@
+o.e.ui.tests.browser needs to be updated.
+
+Currently I get an error when I have o.e.ui.tests.browser in my workspace: Description	Resource	Path	Location	Type This instance method cannot override the static method from TestSuite	OrderedTestSuite.java	/org.eclipse.ui.tests.browser/src/org/eclipse/ui/tests/browser/internal	line 87	Java Problem We should fix that, and probably convert it to a MANIFEST.MF plugin so we can set a BREE PW

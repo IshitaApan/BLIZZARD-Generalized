@@ -1,0 +1,3 @@
+[FieldAssist] ContentAssistField: proposal popup and additional info should have different bg color
+
+I20060328-0010 ContentAssistField's proposal popup and additional info should have different background colors. They currently have the same yellow background (I guess the system info bg color, but the info color is not really suitable for the list). The Java editor already lets the user configure the proposal list colors (Preferences > Java > Editor). I think the colors should be the same in the Java editor and in the editor's Find/Replace dialog. 2 solutions: a) use the system default color for the proposals list (white on WinXP) b) Platform/UI adds the colors for the proposal popup to the Colors and Fonts preferences page and offers API to retrieve the default colors

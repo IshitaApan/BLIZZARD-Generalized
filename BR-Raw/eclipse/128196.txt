@@ -1,0 +1,3 @@
+[Presentation] Refactor or Deprecate the existing Trim API
+
+We still have a 'public' trim API (IWindowTrim and ITrimManager) and the 'getTrimManager' method we've added to IWorkbenchWindow. We should either deprecate these or remove them.

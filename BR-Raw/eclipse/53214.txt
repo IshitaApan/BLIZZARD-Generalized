@@ -1,0 +1,3 @@
+[nl] Out of Memory error dialog incorrectly NLS'd
+
+See the attached picture

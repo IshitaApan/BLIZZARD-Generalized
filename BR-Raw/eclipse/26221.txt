@@ -1,0 +1,3 @@
+[Perspectives] Noticeable menubar "flash" when switching perspectives
+
+Build 20021113 Note this is Windows XP. Open a Java Perspective. Open a Java Browsing Perspective. Switch back and forth between the two. On my XP machine I can visibly see the menu bar "shrink" as menu items are removed, then "expand" as menu items are added. It actually looks like it's animated. Anyway, very noticeable and somewhat strange since I'm switching between two perspectives that have the same base menus (i.e., the menu bar for each perspective is the same).

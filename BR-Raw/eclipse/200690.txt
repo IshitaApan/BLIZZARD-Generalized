@@ -1,0 +1,3 @@
+[Forms] Investigate resource sharing for section header gradients
+
+From Andre: While doing some handle/memory leak tracking, we found that every section header allocates an image for the gradient. Since we use quite a few section headers in the work item editor, it would bring our handle count down if the images could be shared. In addition we would like to share the FormToolkit (since it allocates resources that can be shared too).

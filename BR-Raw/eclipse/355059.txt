@@ -1,0 +1,3 @@
+[Compatibility] Mylyn's activate task trim is not shown
+
+Steps: 1. Open Mylyn/Tasks preference page 2. Select Show active task on window trim The trim is not being displayed.

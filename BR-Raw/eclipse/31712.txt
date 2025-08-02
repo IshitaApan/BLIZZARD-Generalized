@@ -1,0 +1,3 @@
+[Icons] Decorator icon for linked resource with missing/undefined target
+
+Bug 29446 requests feedback when a linked resource has a missing target location (e.g., it points to c:\temp and that directory does not exist). A linked resource can also be bound to a path variable that does not exist. These two scenarios are similar and should probably have the same icon. File name will be org.eclipse.ui\icons\full\ovr16\linkwarn_ovr.gif Size should be 7x8, like the existing linked resource decorator.

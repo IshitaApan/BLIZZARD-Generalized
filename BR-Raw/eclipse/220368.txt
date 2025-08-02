@@ -1,0 +1,3 @@
+[ErrorHandling] Javadoc warnings in N20080226-0010
+
+/builds/N200802260010/src/plugins/org.eclipse.platform.doc.isv/../org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/statushandlers/WorkbenchStatusDialog.java:831: warning - Tag @see: can't find refresh() in org.eclipse.ui.statushandlers.WorkbenchStatusDialog 1 warning

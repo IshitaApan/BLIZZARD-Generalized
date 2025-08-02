@@ -1,0 +1,3 @@
+[FieldAssist]  API - ContentProposalAdapter needs hasProposalPopupFocus() method
+
+Please implement a method ContentProposalAdapter.hasProposalPopupFocus() like org.eclipse.jface.text.contentassist.ContentAssistant.hasProposalPopupFocus(). The method should return a boolean whether the content assistant proposal popup has the focus or not.

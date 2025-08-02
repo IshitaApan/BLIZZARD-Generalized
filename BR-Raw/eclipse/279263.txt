@@ -1,0 +1,3 @@
+[Compatibility] Consider addition of legacy view / editor containers
+
+While working on the debug view, it became apparent that this view expects to have an intermediary Composite container between itself and the CTabItem. In this particular case absence of the intermediary causes loss of the initial layout message. One possible "real" solution to this is to create such an intermediary container for legacy views. (For instance, in the LegacyViewFactory.) Generalizing this, chances are that E4 will need to do some special processing for "legacy" views and editors: generate extra notifications, alter context information, and so on. Having an "official" container around legacy parts will provide a logical place for all that special code.

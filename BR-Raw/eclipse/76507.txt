@@ -1,0 +1,3 @@
+[Encoding] properties dialog show BOM when there is no BOM
+
+n20041017 The properties dialog for a file will say: Byte Order Mark is ... whenever the encoding for a file is determined from its contents (regardless a BOM was found or not). Test case: check with any *.properties files - it will say the file has a ISO 8859-1 BOM, which cannot true.

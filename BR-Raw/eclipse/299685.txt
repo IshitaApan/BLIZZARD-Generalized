@@ -1,0 +1,3 @@
+Empty iconURI's cause 'MalformedURLException' failures rather than being ignored
+
+One of the issues Lars' found is that if you fill in a field (i.e. iconURI) and subsequently clear it you don't end up in the same model state. Once the value has been set in the editor it will never be 'null' again, clearing the field just sets it to an empty string.

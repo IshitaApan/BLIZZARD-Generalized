@@ -1,0 +1,3 @@
+"Source | Format" scrolls to the top of the file
+
+"Source | Format" on a java file. Instead it scrolls to the top of the file even though the cursor remains at its position before formatting.

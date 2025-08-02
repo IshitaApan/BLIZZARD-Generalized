@@ -1,0 +1,3 @@
+[R21PRES] Flash on tab switch
+
+I200405210800 The r21presentation suffers from the same effect as bug 59528 where there is an annoying flash on tab switch. Luckily, the fix is the same. Patch attached.

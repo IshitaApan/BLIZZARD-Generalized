@@ -1,0 +1,3 @@
+Quick Access does not display list when activated
+
+I20100921-1710. Quick Access (Ctrl+3 or Window > Navigation > Quick Access) does not work.

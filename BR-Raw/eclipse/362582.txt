@@ -1,0 +1,3 @@
+Focus is lost after switching perspectives on OS X 10.6.8
+
+OSX 10.6.8 Eclipse SDK 4.2.0.I20111028-1100 - open Java Perspective - give focus to a view (e.g. Error Log view) - switch to Debug view - give Variables view focus - command-shift-R to Open Type dialog - cancel it - switch to the Java perspective Now when I try and do a command-shift-R to Open Resource, nothing happens. If I give focus to the editor, then the key binding works ok. Also works ok if I switch to another app and then back to Eclipse.

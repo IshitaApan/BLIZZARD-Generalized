@@ -1,0 +1,3 @@
+Export to file system should preselect active editor file
+
+build 20011206 When I do an export to file system and I have a file open and active in the editor I would expect that file to be preselected. It currently is not.

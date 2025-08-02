@@ -1,0 +1,3 @@
+[Contributions] [Doc] CompoundContributionItem's getContributionItems() method has no javadocs
+
+getContributionItems() is an abstract protected method that people are supposed to subclass. Unfortunately, there are no javadocs to state what are some valid return values. Looking at the code in CompoundContributionItem itself, returning a null would cause an NPE in the fill(Menu, int) method. This should be noted.

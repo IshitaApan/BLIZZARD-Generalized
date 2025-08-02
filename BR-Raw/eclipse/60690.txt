@@ -1,0 +1,3 @@
+[Decorators] Decorator enablement does not work for super-interfaces
+
+Build 200404281424. I have defined a lightweight decorator (my class implements ILightweightLabelDecorator). Setting enablement objectClass to a concrete class works as expected. Changing the objectClass to an interface that this concrete class indirectly implements does not work - decorate(...) does not get invoked. The class hierarchy is as follows: interface Foo interface Bar extends Foo class ConcreteBar implements Bar setting objectClass to Bar or ConcreteBar works, however for Foo it does not.

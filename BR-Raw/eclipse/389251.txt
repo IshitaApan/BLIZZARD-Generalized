@@ -1,0 +1,3 @@
+[Performance] Idle Eclipse constantly allocates hundreds of objects per second
+
+M20120909-2000. The idle Eclipse constantly allocates hundreds of objects (mostly char[], int[], String and others) per second even though the IDE is idle. Test Case: 1. start a new workspace 2. close the Welcome page 3. wait until all is idle 4. start to profile the memory ===> see never ending allocation of hundred of objects per second (and then GCed later).

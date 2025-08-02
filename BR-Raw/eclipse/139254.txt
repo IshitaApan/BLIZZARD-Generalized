@@ -1,0 +1,3 @@
+[Progress] Sleeping Jobs shown as running
+
+3.2 20060428 We are currently showing sleeping jobs as running as we are: 1) Not using thier icon 2) Using the finished string when it is sleeping. We should use the sleeping string

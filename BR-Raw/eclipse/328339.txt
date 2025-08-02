@@ -1,0 +1,3 @@
+Part activation history seems to ignore detached windows
+
+1. Detach a view. 2. Drag another view into said detached window. 3. Activate the two views alternatively. 4. Close one of them. 5. A part in the workbench window is activated instead of the other view in the detached window.

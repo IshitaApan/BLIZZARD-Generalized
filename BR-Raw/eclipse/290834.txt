@@ -1,0 +1,3 @@
+[JFace] Unnecessary call in every saferunner invocation
+
+In JFaceUtil.initializeJFace() an ISafeRunnableRunner() is set as the singleton runner. Thing is, the implementation uses the deprecated method Platform#run. That simply calls SafeRunner#run(), and is deprecated mentioning that developers should call that instead. So, we basically have an extraneous call in every use of SafeRunner. Considering how often that is used, and how easy it is to avoid the extraneous method call, seems like a no-brainer to just adjust this.

@@ -1,0 +1,3 @@
+[Import/Export] File -> Import filesystem w/cyclical symbolic folder links causes OOME
+
+The original bug was fixed in 3.5.1. I guess this needs to be fixed in 3.6 as well +++ This bug was initially created as a clone of Bug #285804 +++ Build ID: M20090211-1700 Steps To Reproduce: With a their source code base (55K files spread across the directory structure), the customer tried to import the File tree into a new (and empty) eclipse workspace. The OOM gets hit even with -Xmx1024M. Closing Eclipse and copying the files directly into the workspace root and restarting Eclipse works, so the issue seems isolated to the memory complexity of the Resources UI dialog. We encourage this workflow in Jazz SCM, is there something else we should be doing?

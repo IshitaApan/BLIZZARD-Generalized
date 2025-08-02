@@ -1,0 +1,3 @@
+The View Menu needs to be accessible
+
+Created attachment 197444 Patch to make View Menu button accessible Build id: I20110604-2201 The "View Menu" tool item needs to have an accessible name in order to be read by screen readers. The attached patch makes it so.

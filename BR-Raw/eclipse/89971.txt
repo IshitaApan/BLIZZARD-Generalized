@@ -1,0 +1,3 @@
+[Viewers] Viewers that use IViewerLabelProvider do too many instanceof checks
+
+M6 Checking our viewer the calls to buildLabel are doing too many instanceof checks. As a result certain viewers (such as the table viewer) are twice as slow as they were in 3.0 due to these checks. I have written some performance suites to test the Table, Tree, List and Combo viewers. Table and Tree have this issue.

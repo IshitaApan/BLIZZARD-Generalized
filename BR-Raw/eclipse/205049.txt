@@ -1,0 +1,3 @@
+Other plug-ins should be able to define default content generator
+
+Currently only the content generator can define which plug-ins it can be the default for - we need a way for plug-ins to refer back to the marker support for thier own generator.

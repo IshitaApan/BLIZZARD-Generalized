@@ -1,0 +1,3 @@
+[Compatibility] Java search menu is disabled
+
++++ This bug was initially created as a clone of Bug #326056 +++ Using I20100922-0843, I don't have a java search menu I can use in the Java perspective. The java search menu is always disabled. I need to use Ctrl + H in order to open the search dialog.

@@ -1,0 +1,3 @@
+[Compatibility] some invalid menubarPaths are being re-routed
+
+If they come in and have a trailing '/' you get a message: "****MC: bad pie: navigate/" Instead, that should be treated as navigate/additions PW

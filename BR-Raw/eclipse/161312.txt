@@ -1,0 +1,3 @@
+[Presentations] Intro broken with the 3.3 presentation
+
+When 3.3 presentation is used, intro does not show.

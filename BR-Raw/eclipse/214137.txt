@@ -1,0 +1,3 @@
+[Markers] Unbound system filters should be bound to problems view.
+
+In 3.3 we supported systemFilters which are not currently picked up by the problems view. We should pick these up for compatiblity.

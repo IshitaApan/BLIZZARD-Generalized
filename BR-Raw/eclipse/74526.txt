@@ -1,0 +1,3 @@
+[Examples] deprecated methods in  PropertySheet UI Example
+
+The type IPluginDescriptor is deprecated PropertySheetPlugin.java org.eclipse.ui.examples.propertysheet/Eclipse UI Examples PropertySheet/org/eclipse/ui/examples/propertysheet line 13 The type IPluginDescriptor is deprecated PropertySheetPlugin.java org.eclipse.ui.examples.propertysheet/Eclipse UI Examples PropertySheet/org/eclipse/ui/examples/propertysheet line 29 The constructor AbstractUIPlugin(IPluginDescriptor) is deprecated PropertySheetPlugin.java org.eclipse.ui.examples.propertysheet/Eclipse UI Examples PropertySheet/org/eclipse/ui/examples/propertysheet line 30 Note: This example requires the compatibility plugin currently.

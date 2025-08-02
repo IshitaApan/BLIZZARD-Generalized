@@ -1,0 +1,3 @@
+[Wizards] Progress not shown in Wizards
+
+20021016 Wizards have the same problem with not showing updated Text during a progress done within the UI thread as the ProgressMonitorDialog had. It should use the same sort of fix as 21382 where Control.update() is called when running in the UI Thread.

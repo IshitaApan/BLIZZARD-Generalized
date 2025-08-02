@@ -1,0 +1,3 @@
+[Markers] Filtering problems by working set doesn't take into account new files
+
+Build ID: I20080617-2000 Steps To Reproduce: 1.Create a Java project 2.Create a working set that contains only a subset of source files 3.Create a filter in the problems view, whose scope is set to the working set 4.The filter works ok 5.Create a new source file that is included inside the working set 6.No errors are shown for this file 7.Deactivate the filter and activate it again 8.The errors are now shown. More information: I expect to get the step 8 result without doing the 7th step.

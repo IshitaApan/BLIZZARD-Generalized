@@ -1,0 +1,3 @@
+Header/Banner background in Preferences page
+
+The background color of the header in the Preferences page is not being set, but it seems that the foreground is set. In some color themes on AIX, the header title is not visible because the chosen foreground happens be the same as the default background. Plus, the image in the right/top corner has white background. It might be better to set the header background to white, so that the image can blend with the header.

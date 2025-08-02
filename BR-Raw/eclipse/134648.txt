@@ -1,0 +1,3 @@
+[Intro] IDEWorkbenchWindowAdvisor should not call Bundle#start
+
+IDEWorkbenchWindowAdvisor#openWelcomeEditors calls Bundle#start explicitly. This causes the bundle to be started eagerly the next time Eclipse comes up. We should change it so that this does not happen. Tom, what is the recommended way of dealing with this? The reason for starting the bundle at that time (before showing the welcome editor) is to give it a chance to perform first-time initialization tasks. Should we use deprecated methods from core.compatibility? Just for context: Welcome editors are deprecated and have been replaced by the "intro" support for some time now. (I believe intro was introduced in 3.0).

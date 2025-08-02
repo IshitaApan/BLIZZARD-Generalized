@@ -1,0 +1,3 @@
+[Compatibility] Synchronize with CVS triggers save on saveables even if they are not dirty
+
+I20101001-0854 - Fresh workspace - Check out 'o.e.ui.editors' from CVS - Enable Save Actions : Preferences > Java > Editor > Save Actions (Format all Lines, Organize imports, Additional actions) - Open few files in java editor (I had opened the first 5 files in the first package DefaultEncodingSupport.java, DocumentReader.java,EditorsUI.java, EncodingActionGroup.java, FileBufferOperationAction.java) - Synchronize 'o.e.ui.editors' with CVS, you will have outgoing changes in all the open editors because of the Save Action This does not happen with 3.x (I20101005-0800). Marking as major as this is just frustrating...

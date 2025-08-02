@@ -1,0 +1,3 @@
+[Contributions] Customize Perspective dialog removes menu entires
+
+I20080429-0100. (works in 3.4 M6a) 1. start fresh workspace 2. verify that the 'Edit' menu contains, e.g. Cut, Copy, Paste 3. Window > Customize Perspective... 4. click 'Cancel' (alternatively you can go and edit, then click 'OK') 5. observe: menu entries are gone from the 'Edit' menu The user has to restart in order to get the menu working again.

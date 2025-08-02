@@ -1,0 +1,3 @@
+[Working Sets] Working sets are initialized too soon
+
+On startup, the WorkingSetManager restores the full state of all the working sets, even though many are not needed. In particular, working sets created by factories from other plugins will trigger code in those plugins. Is it possible to only create partial/proxy WorkingSet's and have their state restored lazily ?

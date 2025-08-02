@@ -1,0 +1,3 @@
+[RCP] Performance Tests Failing: RCP rcp.performance.EmptyWorkbenchPerfTest#testRestore() [close]
+
+3.2 M3 rcp.performance.EmptyWorkbenchPerfTest#testRestore() [close] This test is running too fast and failing on most test machines

@@ -1,0 +1,3 @@
+[Compatibility] Action set contexts can be deactivated too eagerly
+
+It seems that we don't have extra processing for action sets of a perspective that is "always on". Thus, some action sets' contexts may be deactivated even if they're intended to always be enabled for a given perspective.

@@ -1,0 +1,3 @@
+Make IDE#saveAllEditors work for logical models
+
+Build ID: 200610251409 Steps To Reproduce: 1.In RSA, make changes to a model under ClearCase control 2.Without saving the model, invoke Team->Checkin 3.Checkin succeeds but the user's latest changes are not committed to the repository. More information: In the Logical Model API, there is currently no way for the repository to provider to query the state of the model and/or indicate to the model provider that it needs to be saved. The API needs to provide such a mechanism.

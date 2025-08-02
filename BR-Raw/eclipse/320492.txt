@@ -1,0 +1,3 @@
+[Compatibility] presentation toolitems only enabled for first open editor
+
+presentation tool items like Toggle Mark Occurrences and Show Selected Element Only are enabled for the first Java editor opened. If you open more and close the first, they stay disabled. Closing all java editors will allow them to be enabled on the first editor opened. PW

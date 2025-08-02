@@ -1,0 +1,3 @@
+5 test failures in I20120228-2200
+
+Broken by b2cb908e226851e81f06a7b15f0af0ed9e210a8c. java.lang.NullPointerException 	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.createWidget(ToolBarManagerRenderer.java:280) 	at org.eclipse.e4.ui.menu.tests.MToolItemTest.testActionSetAddedToFile(MToolItemTest.java:116) java.lang.NullPointerException 	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.createWidget(ToolBarManagerRenderer.java:280) 	at org.eclipse.e4.ui.menu.tests.MToolItemTest.testActionSetAddedToMyToolbar(MToolItemTest.java:181)

@@ -1,0 +1,3 @@
+[View Mgmt] Tasks view being held onto
+
+build I200212101110 While profiling the large workspace, I saw references to the Tasks view being held onto even after closing it (and there were no other perspectives which could be referencing it). The reference chain was: PerspectivePresentation.mainLayout RootLayoutContainer.root PartTabFolder.children[i] LayoutTree.part ContainerPlaceHolder.realContainer PartTabFolder.current ViewPane.partReference ViewReference.part TaskList

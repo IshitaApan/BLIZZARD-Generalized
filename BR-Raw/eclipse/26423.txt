@@ -1,0 +1,3 @@
+[JFace] Make reusable Icons public API
+
+I cannot find Icons without using internal API. I need to reuse Eclipse Icons like Delete, Undo, Redo, Navigate Up, Navigate Into, and potentially any other Icons. Plugins can already obtain these Icons by reaching into the org.eclipse.ui installation directory. But, if I do it this way I create my own ImageDescriptor, and ActionContributionItem will cache it separately, wasting OS resources. So why not make these icons (ImageDescriptors) available programmatically as well in SharedImages?

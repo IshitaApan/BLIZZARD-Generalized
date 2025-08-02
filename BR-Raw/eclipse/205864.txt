@@ -1,0 +1,3 @@
+Populate the new forms test plug-in
+
+Created attachment 79994 patch The new forms test plug-in has been created and the forms test need to be moved. This bug will be used to track the refactoring. I have attached a patch to perform all the refactoring. Chris, can you review?

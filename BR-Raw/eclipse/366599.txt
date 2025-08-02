@@ -1,0 +1,3 @@
+[Compatibility] testing for an active bundle fails
+
+Using a property tester to test for an active bundle should just work: TestExpression test = new TestExpression("org.eclipse.core.runtime","bundleState", new Object[] { "org.eclipse.core.expressions" }, "ACTIVE", false); Failed: org.eclipse.ui.tests.services.EvaluationServiceTest.testPlatformProperty() PW

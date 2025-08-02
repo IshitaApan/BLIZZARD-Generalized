@@ -1,0 +1,3 @@
+[UI] Allow dragging stacks
+
+We have yet to implement the ability to drag a complete stack (rather than a part) in the presentation. The first pass for this will allow dragging a stack but only to locate the stack itself in a different part of the presentation. While it's possible to also allow dragging a stack to 'merge' it with the parts in some other stack this is of less use and introduces a possibly confusing scenario: If I have a stack with "A", "B" and "C" in it but only "A" and "B" are currently visible then the result of the merge should be to only move "A" and "B" into the merged stack, leaving "C" in the original stack.

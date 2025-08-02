@@ -1,0 +1,3 @@
+[Markers] Move more often used view menu items up
+
+I20071218-0800. 'Preferences' and 'New xyz View' aren't used often (personally almost never) and hence should be at the end of the view menu of the new markers views. We might even think of moving the 'Configure Contents...' into 'Show': Show [ ] custom filter1 [ ] custom filter2 ... --- [ ] Show All ---- Configure... Group By --- New xyz View Preferences... (see the dots)

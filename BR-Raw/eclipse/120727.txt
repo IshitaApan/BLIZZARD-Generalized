@@ -1,0 +1,3 @@
+Info text area does not appear in PopupDialog
+
+I20051213-0010, GTK+ 2.6.10 The info text area does not appear in the PopupDialog. In the case of the key assist dialog, this is a short message saying something to the effect of "Press 'Ctrl+Shift+L' to open the Keys preference page". Reverting to revision 1.15 of PopupDialog corrects this problem. Perhaps it was introduced by Bug 119686.

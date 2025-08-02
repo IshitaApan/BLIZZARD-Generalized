@@ -1,0 +1,3 @@
+[Jobs] Access Job List While Having a Modal Dialgog
+
+I20030903 It would be good if users could access the job list even if a modal dialog is in their face. Modal dialogs can now block the UI waiting for a background job to finish and users can no longer stop the job which actually eats the CPU. There should be a way to access the job list even if a modal dialog is up. Use Case: I started my workspace and it began to run auto-build (don't know why) in the background (therefore I did not notice). I then compared a file with CVS and the whole workbench looked as if it was locked. I had no chance to kill the auto-build job since a modal CVS dialog was in my face. For some reason the CVS dialog was waiting for the build to complete.

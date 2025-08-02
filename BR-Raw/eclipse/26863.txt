@@ -1,0 +1,3 @@
+[Dialogs] ResourceListSelectionDialog should not do prefix matching when '*' specified
+
+build I20021121 JDT has changed Open Type so that "*x" matches all types ending in 'x' (case insensitive), rather than all types containing an 'x'. We should change ResourceListSelectionDialog to be consistent. When a '*' wildcard is present, avoid adding a free '*' at the end. No change if '?' is present.

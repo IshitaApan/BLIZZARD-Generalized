@@ -1,0 +1,3 @@
+[IDE] New Plug-in Project wizard status handling is inconsistent
+
+3.3 M5 1. New -> Project... 2. Select "Plug-in Project" and click "Next" => Status: "Project name must be specified" 3. Uncheck "Use default location" => Status: [ERROR] "Project contents directory must be specified" 4. Enter project name "abc" => Status: OK, "Next" button enabled The status is wrong. It should fall back to error "Project contents directory must be specified" with the "Next" button disabled.

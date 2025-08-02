@@ -1,0 +1,3 @@
+[Editor Mgmt] Pinned editors not restored as pinned
+
+When I started up the workbench, four editors that I had previously opened were restored, but they were not pinned. They had previously been pinned when I shut down the workbench.

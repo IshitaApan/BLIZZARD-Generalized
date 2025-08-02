@@ -1,0 +1,3 @@
+[Markers] contributed marker resolutions only showing first contribution
+
+Debug is trying to add a marker resolution for a quick fix to repair deprecated JRE variables on the build path. When we contribute our resolution generator for org.eclipse.jdt.core.buildpath_problem marker types with a DEPRECATED_VARIABLE id attribute, we find that our resolution is always over-written by the junit generator. It seems that the MarkerHelpRegistry does not allow more than one generator per query result (in our case DEPRECATED_VARIABLE is the query result, same with junit's contribution). I would expect that you could have more than one quickfix for a given issue (in this case what to do about deprecated build path variables).

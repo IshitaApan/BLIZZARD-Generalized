@@ -1,0 +1,3 @@
+[Viewers] TableViewer support for virtual selection
+
+I'd like to be able to call TableViewer.setSelection() and not have the underlying TableItems created. I've hacked AbstractTableViewer a bit and I think I have it working. The concept at least appears feasible, but my hack needs more work and testing. The basis of the hack is to eliminate calls to doGetItem() in virtualSetSelectionToWidget(), and to dynamically set the real selection inside the VirtualManager.handleEvent(). I have run into one problem with this hack: bug #251290

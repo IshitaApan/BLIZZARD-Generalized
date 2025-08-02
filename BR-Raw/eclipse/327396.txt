@@ -1,0 +1,3 @@
+[WorkingSets] updating of working sets during workbench restore can cause loss of working sets
+
+Bug 327262 has a detailed description of the problem. Basically, if WorkingSet.setElements() is invoked while WorkingSetManager.restoreState() is running a partial workingsets.xml file is written to disk only containing the state loaded up to that point. In case working sets are not modified during the workbench session, i.e. WorkingSetManager.saveState() is never invoked to write all of the loaded state, some working sets may not be persisted and are lost.

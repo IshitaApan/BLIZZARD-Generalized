@@ -1,0 +1,3 @@
+"show intro" preference not saved until shutdown
+
+M8 As a general rule of thumb, if a plug-in changes a preference value then it should save it immediately. (or when the user hits OK/Apply in the prefs page, etc etc) When you start M8 and close the Intro page, I noticed that the ui.ide preferences are not saved until the workbench is shutdown.

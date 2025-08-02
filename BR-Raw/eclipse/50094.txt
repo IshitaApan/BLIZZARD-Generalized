@@ -1,0 +1,3 @@
+[ViewMgmt] API to close a view without instantiating it
+
+IWorkbenchPage should provide an API for closing a view without instantiating it. IWorkbenchPage#hideView(String viewId), to complement IWorkbenchPage#showView(String viewId). Without this API, clients have to instantiate views before closing them. This could mean a lot of work loading plug-ins just to close a view. This API is particularly useful for the Debuggers work related to opening/closing views in the Debug Perspective in response to context changes.

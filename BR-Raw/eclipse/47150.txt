@@ -1,0 +1,3 @@
+[Progress] ProgressMonitorJobsDialog used on shutdown
+
+build I20031119-2030 On shutdown, a ProgressMonitorJobsDialog is used when saving the workspace. This is opened with fork=false and cancelable=false. fork=false means the UI is not processing events, so the Jobs button is unresponsive.

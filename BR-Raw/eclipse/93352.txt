@@ -1,0 +1,2 @@
+[ErrorHandling] IDEExceptionHandler should not use magic number
+

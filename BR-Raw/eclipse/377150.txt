@@ -1,0 +1,3 @@
+REGRESSION: Key binding indication in menus unreliable
+
+4.2-N20120418-2000. Some key bindings sometimes appear in the menu items and sometimes not.

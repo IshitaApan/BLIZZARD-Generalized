@@ -1,0 +1,3 @@
+ImportTestSource directory left in home directory after running tests
+
+I believe this started happening with the change for Bug 110331. ImportOperationTest started using the deleteDirectory(File) method introduced into DataTransferTestCase. In the original deleteDirectory(File) method, the directory itself was deleted. In the new method, the directory will not deleted. If believe the "else" around the following statement can just be removed: else{ if (!directory.delete()) fail("Could not delete " + directory.getAbsolutePath()); }

@@ -1,0 +1,3 @@
+[Workbench] No separator between part trim and its content is difficult on the eyes
+
+I'm finding the console view in Milestone 8 of Eclipse 3.0 is difficult on the eyes as the default blue text in the console appears to blur into the grey console header (see current.PNG). A dark line (something like in proposed.PNG) between the header and console output would provide some much needed visual separation.

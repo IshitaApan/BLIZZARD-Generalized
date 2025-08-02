@@ -1,0 +1,3 @@
+[FieldAssist] API - Typo in FieldDecorationRegistry#geMaximumDecorationWidth()
+
+I20060207-1305 Typo in FieldDecorationRegistry#geMaximumDecorationWidth() ^ t missing

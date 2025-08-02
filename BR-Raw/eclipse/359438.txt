@@ -1,0 +1,3 @@
+[Compatibility] Substantial chunk of dead code in ModeledPageLayout.insert(MUIElement, MUIElement, int, int)
+
+There is a compiler warning about dead code in this method, and some static analysis with Remy proves that there is actually a substantial amount of code that imperically could never be running ... and if it did would be throwing NPEs It would probably be a good idea to delete the code or understand what the original intent was. The code in the method starts with boolean isStack = true and everything below it.

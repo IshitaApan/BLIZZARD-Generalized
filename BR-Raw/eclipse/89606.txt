@@ -1,0 +1,3 @@
+[Viewers] Remove protected API added to support prototype of grouping by working sets
+
+build I20050330 The API added to support the Package Explorer's grouping by working sets needs to remain in for 3.1, since we're not backing out of this enhancement for 3.1. However, these methods have been tagged as experimental and intended only to support JDT's scenario (see bug 89137). Need to review/remove these post-3.1. See bug 76482 for more details.

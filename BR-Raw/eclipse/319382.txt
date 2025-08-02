@@ -1,0 +1,3 @@
+Remove logging for post selection listener additions/removals
+
+These listeners are added/removed very liberally and the log gets filled up quite quickly. I'll remove the logging. The TODOs are still there and bug 319381 has been opened to discuss what we should do about this matter.

@@ -1,0 +1,3 @@
+Package Explorer unexpectedly added to Debug perspective
+
+1. Open a fresh e4 workbench 2. Leave the Package Explorer activated 3. Open the Debug perspective Result: The Debug perspective contains the Package Explorer, although this should not be the case. This does not happen when another view is activated before opening the Debug perspective.

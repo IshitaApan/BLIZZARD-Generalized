@@ -1,0 +1,3 @@
+[Compatibility] WorkbenchMenuService adds multiple contributions
+
+The WMS adds menu contributions to the Application. But they are persisted in the deltas, and added again on startup. We need a way to turn off change recording or re-work our lifecycle so that we have a chance to do model processing before the change recorder starts. That was one of our original requirements: 1) Load the main model 2) process the ModelComponents 3) run any extension point processing 4) run any startup processing (programmatic) checkpoint, this model will be re-created the same way. 5) start applying change deltas. PW

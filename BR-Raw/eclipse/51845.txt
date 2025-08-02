@@ -1,0 +1,3 @@
+[Intro] Standby mode not in correct place after first restart
+
+I believe this is a regression. Steps to reproduce: 1) install a plugin that provides some intro part. 2) launch a fresh workspace. 3) Note that the intro is maximized. Unzoom it and note that it goes to the far right 4) Close it 5) Got to Help and activate it again 6) Note it is maximized. Unzoom it and note that it goes to the far right. 7) Restart eclipse 8) Go to Help and activate intro 9) Note that it appears in the bottom right, not the far right

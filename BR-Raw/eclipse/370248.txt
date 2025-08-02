@@ -1,0 +1,3 @@
+Mark Indigo (3.7) Platform API for deletion in Juno (4.2)
+
+We should indicate future deletion of the Platform authorization API, as outlined in: http://wiki.eclipse.org/Eclipse/API_Central/API_Removal_Process

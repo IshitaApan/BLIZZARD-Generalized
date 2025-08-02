@@ -1,0 +1,3 @@
+[CommonNavigator] Incorrect check for existence of item in contribution memory
+
+The check in the NavigatorContentService.rememberContribution() should be containsKey(), not containsValue()

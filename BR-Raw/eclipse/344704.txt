@@ -1,0 +1,3 @@
+'Paste Repository Path' command hijacks Ctrl+V forever
+
+After accessing the 'Git Repository Exploring' perspective, Ctrl+V will no longer paste stuff properly as it keeps trying to paste it as a repository path (for Git). Unbinding the command in the 'Keys' preference page will workaround this problem.

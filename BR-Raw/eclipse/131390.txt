@@ -1,0 +1,3 @@
+IDE javadoc refers to IProposedResourceDeltaFactory instead of IResourceChangeDescriptionFactory
+
+While working on resource-based undo I've been looking at modelListeners, validation of resource changes, etc. I noticed that the javadoc for IDE.promptToConfirm refers to a class called IProposedResourceDeltaFactory, which I assume was an original name for IResourceChangeDescriptionFactory. Suggest searching the workspace for the old name to catch any other places...

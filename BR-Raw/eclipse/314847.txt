@@ -1,0 +1,3 @@
+Command parameters are never cleared
+
+1. Alt+Shift+Q, C 2. An NPE is logged, see bug 314845. 3. Window > Show View 4. Instead of getting the dialog, the 'Console' view appears! :(

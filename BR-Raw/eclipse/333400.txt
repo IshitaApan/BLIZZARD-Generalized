@@ -1,0 +1,3 @@
+Externalize Strings in Perspective Switcher
+
+Build Identifier: e4 M4a Strings in perspective switcher should be externalized for translation issues. Reproducible: Always

@@ -1,0 +1,3 @@
+[Workbench] Backward/Forward buttons still operational when Close All
+
+Build 20020917. Open a *.java file. Open a *.class file. Use backward/forward buttons. Close all Perspectives. The backward/forward buttons are still operational. Should they be? It's a bit weird to acutally use them and have nothing visually happen (other than editor action bars appearing when no editor is visible).

@@ -1,0 +1,3 @@
+[View Mgmt] Leak: Closed fast view is not GCed.
+
+Build F2 Run Eclipse with OptimizeIt. See the number of ResourceNavigator(s). Should be 1. Make it a fast view. Close it. GC. There are lots of references to ResourceNavigator. Tryied to change Perspective.hideView(IViewPart view) adding if(previousActiveFastView == view) 	previousActiveFastView = null; but it was not enough to fix the problem.

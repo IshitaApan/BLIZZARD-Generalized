@@ -1,0 +1,3 @@
+[Progress] Waiting jobs should not appear in Progress Floating Window
+
+I20040219 I think I mentioned this to you before, but in case it gets lost... I don't think waiting jobs should appear in the progress floaty. They just clutter the view, and since they haven't started running they're presumably less interesting to the end user. It's currently a bit confusing because waiting jobs look the same as running jobs in the floaty, so they appear to be running.

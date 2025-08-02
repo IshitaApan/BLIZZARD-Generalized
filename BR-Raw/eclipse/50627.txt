@@ -1,0 +1,3 @@
+[Preferences] Bug when disabling RadioGroupFieldEditor
+
+If I disable a RadioGroupFieldEditor in the initialize of a FieldEditorPreferencePage, the label of the group gets added to the preference page at the bottom. The problem is that the method FieldEditor#getLabelControl (Composite) creates a label control. In general, this is correct but a radio button group uses a different label so when the disable occurs, an additional label is created. We have released changes to the Team>CVS>Watch/Edit preference page that illustrates this problem.

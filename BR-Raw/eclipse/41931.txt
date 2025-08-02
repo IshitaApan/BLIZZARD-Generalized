@@ -1,0 +1,3 @@
+Breakpoint half-activates source file
+
+Normally, pressing CTRL-F6 once and releasing immediately will take you back to the "last file" (B). Repeatedly doing this oscillates you back and forth between two source files (A & B). If a the A is currently active, and B is the last one before that, when a breakpoint in B is hit, pressing CTRL-F6 does not take me to A, as I would expect.

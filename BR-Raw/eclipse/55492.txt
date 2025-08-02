@@ -1,0 +1,3 @@
+[KeyBindings] Bug in OutOfOrderListener
+
+Here is piece of code from Eclipse 3.0 Build id: 200403161300, class OutOfOrderListener: 	public void handleEvent(Event event) { 		// Always remove myself as a listener. 		event.widget.removeListener(event.type, this); Here you remove listener from widget. My problem is that widget was already disposed (in my listener, that was invoked before OutOfOrderListener), so I receive "Widget is disposed" in log. Can you please check here that widget is disposed and don't invoke "removeListener?

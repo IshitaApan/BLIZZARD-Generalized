@@ -1,0 +1,3 @@
+[Databinding] Inadvertent commit to UpdateValueStrategy and UpdateStrategy
+
+while working on databinding on GWT a commit went to the wrong project

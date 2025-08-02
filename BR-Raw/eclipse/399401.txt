@@ -1,0 +1,3 @@
+Toolbars render in wrong location when perspective added to a perspective-less workbench
+
+Seen while verifying bug 387606: Steps to reproduce: 1) Start Eclipse. 2) Close all perspectives 3) Restart Eclipse. 4) Open the default perspective (e.g. Java Perspective) The resulting layout of toolbars is unpredictable. Sometimes they layout after the perspective chooser, sometimes not. Sometimes the order differs from the correct order. Restarting Eclipse a second time renders the toolbars in the correct location, as does opening another workbench window. Reproduced on Windows (32-bit & 64 bit), and on Mac (64-bit) in 4.3-I20130128-2000.

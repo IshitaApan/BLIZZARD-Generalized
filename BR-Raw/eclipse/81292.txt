@@ -1,0 +1,3 @@
+[Preferences] Message area should be disabled when empty
+
+200412152000 My GTK theme has a textured background by default. There is a section of the preference dialog next to the Default/Apply buttons that does not respect this. I suspect there is an empty label/text widget that has had its background colour set manually. Screencap forthcoming

@@ -1,0 +1,3 @@
+[Compatibility] Support o.e.ui.menus visibleWhen
+
+We need support in MCoreExpression for entire expressions created by the WorkbenchMenuService. They don't often use ReferenceExpressions to core expression definitions. PW

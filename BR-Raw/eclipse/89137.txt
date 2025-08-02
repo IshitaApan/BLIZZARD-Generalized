@@ -1,0 +1,3 @@
+[JFace] - API Review - "temporary" API in AbstractTreeViewer
+
+AbstractTreeViewer contains two methods documented as "temporary" internalRefresh(Widget, Object) internalAdd(Widget, Object, Object [])

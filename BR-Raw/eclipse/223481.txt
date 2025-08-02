@@ -1,0 +1,3 @@
+[GlobalActions] regression : Refresh is no longer performed in background
+
+Before 3.4 M4, an explicit refresh of a resource (F5) would run the operation in the background, opening a non-modal progress dialog with the option "Run in Background". Normal work can continue. With the change for bug 151688, the RefreshAction no longer performs the refresh in a background job, but opens a modal dialog with the only option to Cancel (or wait). This is a major problem in case of large resource trees and/or slow file systems.

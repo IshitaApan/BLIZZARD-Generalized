@@ -1,0 +1,3 @@
+Tasks view filter settings not remembered on startup
+
+20011127 Johann Compagner asks: Why must i set everytime the property: On Selected Resource and children when i restart Eclipse?

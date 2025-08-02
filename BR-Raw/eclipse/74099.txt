@@ -1,0 +1,3 @@
+[Wizards] No help content for New -> Other
+
+In navigator, select New -> Other. A wizard opens with a '?' icon in the lower- right corner. The hover help for this icon says "More help is available for this wizard", but if you click on the icon nothing happens.

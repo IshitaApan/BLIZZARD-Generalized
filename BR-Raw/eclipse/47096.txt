@@ -1,0 +1,3 @@
+Activity configuration dialog UI.
+
+A few notes about the dialog: Opens from Window > Activity Configuration 0) the mnemonic in the menu (c) is already taken by Close... above 1) the list on the right flashes each time I check/uncheck an itme on the left, but nothing has changed in the right 2) select an item on the right, then check or uncheck it's associated catagorie and note that the item on the right is unselected. 3) since I can not do anything with them, it is not meaningful to have selection on the right hand list

@@ -1,0 +1,3 @@
+NPE in MinMaxAddon when Removing Perspective From Snippet
+
+I have perspective stack in the snippet container of my application. When I remove a perspective from the stack int the snippet container, I get an NPE from the MinMaxAddon with the stack below. The NPE occurs because there is of course not top level window for the perspective.

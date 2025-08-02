@@ -1,0 +1,3 @@
+[Compatibility] Dialog prompted by closure of dirty parts has missing string
+
+1. Open two editors. 2. Make them both dirty. 3. Ctrl+Shift+W 4. The dialog's title is "EditorManager.SAVE_RESOURCES_TITLE".

@@ -1,0 +1,3 @@
+Prompt required when resetting perspectives from the perspective switcher
+
+We prompt in 3.x, so we should prompt in 4.x.

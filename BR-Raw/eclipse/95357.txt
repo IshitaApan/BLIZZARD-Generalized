@@ -1,0 +1,3 @@
+Need a test to ensure editor activation is not broken on startup
+
+see bug 85005, I thought we had this but can't find the work that Ines had been doing, but we need a JUnit test that ensures this bug does not come back, or we know when it does happen.

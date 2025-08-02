@@ -1,0 +1,3 @@
+Deprecations in ReadOnlyStateChecker
+
+20050802 ReadOnlyStateChecker is using deprecated core API

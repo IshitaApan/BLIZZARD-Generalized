@@ -1,0 +1,3 @@
+[Compatibility] Synchronize with CVS automatically triggers save on dirty editors
+
+In 3.x, the user is prompted. We seem to be automatically saving in 4.x.

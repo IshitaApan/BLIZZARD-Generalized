@@ -1,0 +1,3 @@
+[FieldAssist] remove the deprecated SimpleContentProposal
+
+in bug #254422 we unsimplified SimpleContentProposal and therefore renamed it to ContentProposal. The existing class was deprecated to give any clients who may have adopted it time to switch over. We should remove it in the next milestone.

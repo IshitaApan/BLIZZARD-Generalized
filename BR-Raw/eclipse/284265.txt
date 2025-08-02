@@ -1,0 +1,3 @@
+[JFace] DialogSettings.save() silently ignores IOException
+
+Build ID: M20090211-1700 (Problem still in HEAD) STEPS TO REPRODUCE Call DialogSettings.save() on a Writer that produced a IOException or with a file which causes trouble during output (e.g. full drive). EXPECTED The original exception thrown by the underlying output should be propagated to the caller -- as "save() throws IOException" suggests. ACTUAL The IOException is silently ignored. ANALYSIS The internal DialogSettings.XMLWriter is based in a java.io.PrintWriter, which catches all IOExceptions.

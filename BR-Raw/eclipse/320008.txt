@@ -1,0 +1,3 @@
+perspective switcher is using "add fastview" icon instead of "new perspective" icon
+
+Linda noticed this in a review before her vacation. Still true in I20100713-2016

@@ -1,0 +1,3 @@
+[Wizards] [api] PopulateElementOperation
+
+3.1 HEAD org.eclipse.ui.wizards.datatransfer.PopulateElementOperation public PopulateElementOperation(MinimizedFileSystemElement rootObject, IImportStructureProvider structureProvider) - this is API class - in 3.0, MinimizedFileSystemElement was in org.eclipse.ui.wizards.datatransfer an API package - in 3.1, MinimizedFileSystemElement is in org.eclipse.ui.internal.wizards.datatransfer an internal package - this would be a breaking API change, and would have an internal class appear in the signature of an API method

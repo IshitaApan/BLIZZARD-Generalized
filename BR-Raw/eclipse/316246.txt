@@ -1,0 +1,3 @@
+Clean up code should not only run on IPresentationEngine.stop()
+
+This results in the fact the clean up code in there is not run.

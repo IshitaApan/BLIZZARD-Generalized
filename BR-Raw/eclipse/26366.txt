@@ -1,0 +1,3 @@
+[Dialogs] Need to improve label positioning in progress dialogs
+
+build I20021113 - The message line appears too close to the icon. A bit of horizontal spacing here would help. - There is not quite enough space between the icon and message and the top of the dialog. - The progress bar is not aligned with the buttons. - There is a bit too much space between the progress bar and the buttons. - There is a bit too much space to the bottom right of the buttons. Compare with other apps' dialogs.

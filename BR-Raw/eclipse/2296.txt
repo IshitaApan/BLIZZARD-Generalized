@@ -1,0 +1,3 @@
+AddBookmarkAction should use IAdaptable to retrieve the resource (1GEN8B7)
+
+As all other actions AddBookmarkAction should use IAdaptable to retrieve the IFile from the selection so that it can be reused in 	other navigators like packages view too. NOTES:

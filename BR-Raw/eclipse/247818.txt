@@ -1,0 +1,3 @@
+[StatusHandling] WorkbenchStatusDialogManager should inform of dialog closure
+
+As a part of the fix for bug 241244, WorkbenchStatusDialog#getShell becomes a package scope method. Listeners mechanism has to be added to use it instead getShell method.

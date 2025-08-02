@@ -1,0 +1,3 @@
+<visibleWhen> clauses are not honoured on the first popup
+
+The 'Watch' and 'Generate...' menu items show up in the context menu once and then disappear the next time you show the menu. You will get the same behaviour again if you close and reopen the view.

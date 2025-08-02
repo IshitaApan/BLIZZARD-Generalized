@@ -1,0 +1,3 @@
+[Compatibility] ToolControl in toolbar using visibleWhen doesn't show up
+
+I used org.eclipse.ui.menus to add a toolbar with 3 commands and a tool control. I used a visibleWhen (if one IResource is selected) to make the tool control visible. In 3.8 the control (a combo) appears and disappears at the end of that toolbar. In 4.2, an empty space appears and disappears at the end of that toolbar. https://github.com/paulweb515/eclipseExamples/blob/master/org.eclipse.example.commands.toolbar/plugin.xml#L61 This is important as it is one of the patterns we've given to other projects to get away from actionSets and hacking the WorkbenchWindow coolbar (which doesn't exactly exist in 4.2 :-) PW

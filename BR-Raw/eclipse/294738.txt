@@ -1,0 +1,3 @@
+[Viewers] (JFace) Assertion for missing LabelProvider in ViewerColumn
+
+ViewerColumn should throw an AssertionException if the LabelProvider is missing for a column to provide a helpful error message.

@@ -1,0 +1,3 @@
+EPartService does not short circuit saveAll(boolean) if 'false' and/or no save handler is provided
+
+The code looks like so... boolean success = true; for (MPart dirtyPart : dirtyParts) { if (!savePart(dirtyPart, false)) { success = false; } } return success; ...the first time a save fails, we should return false immediately.

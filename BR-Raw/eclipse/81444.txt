@@ -1,0 +1,3 @@
+[Contributions] ordering: Team menus (Compare, Replace, Team) not consistently ordered
+
+I20041216-0800 The team menus in the context menu are not consistently ordered. On Compilation Units, the order is: Team, Compare With, Replace With, Restore from Local History... On Types, the order is: Compare With, Replace With, Restore from Local History..., Team

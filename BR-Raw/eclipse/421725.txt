@@ -1,0 +1,3 @@
+[Viewers] [Javadoc] [patch] Paper-cut - StructuredViewer Javadoc is codified
+
+Trivial thing that annoys me and makes it difficult to read the doc - a quarter of the StructuredViewer Javadoc on help.eclipse.org is monospaced with the <code> tab because an opening <code> was used instead of a closing </code>.

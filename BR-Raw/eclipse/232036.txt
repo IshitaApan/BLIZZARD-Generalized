@@ -1,0 +1,3 @@
+[ErrorHandling] "Multiple Problems have occurred" dialog should not be modal
+
+Created attachment 100143 Screenshot I20080513-2000 The "Multiple Problems have occurred" dialog should not be modal. I just got into a situation where an NullPointerException occurred whenever a certain view was activated. Now, each time I close the "Multiple Problems have occurred" dialog, the view is activated again, and I get the error dialog again. To break the endless circle, I remember that previous versions of such dialogs used to be non-modal, giving me a chance to activate another view or to even close the view. Major, because the only way to get out is to kill Eclipse.

@@ -1,0 +1,3 @@
+[Compatibility] Menu items appear where they shouldn't with Eclipse 4.2
+
+We have discovered with MoDisco and EMF Facet that many context menu items appear in every context menu in Eclipse 4.2. They shouldn't, and they didn't with Eclipse 3.x => this looks like a bug with the E4 compatibility layer.

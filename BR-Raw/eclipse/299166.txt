@@ -1,0 +1,3 @@
+Remove the dependency on core.runtime from e4.ui.workbench.swt
+
+org.eclipse.e4.ui.workbench.swt This bundle uses org.eclipse.core.runtime to get IProduct. This can easily be replaced by using the IApplicationContext. I will attach a patch.

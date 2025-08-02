@@ -1,0 +1,3 @@
+[ActivityMgmt] Need to add helpContextid to activities
+
+We need an extension point attribute for helpContextId. We can enable this by having the ? icon and enable it based on selection

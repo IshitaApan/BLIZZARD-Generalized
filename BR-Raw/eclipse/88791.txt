@@ -1,0 +1,3 @@
+[Wizards] TVT3.1 #93 - Variables button is truncated in New File advanced options in RUS
+
+Go to File -> New -> File Select the Advanced button. The 'variables' button is truncated in Russian locale. Shortening the translation is not an option. There is no hover offering the full text, nor does resizing the panel help. This only occurs on windows, on linux it is fine. See screenshot

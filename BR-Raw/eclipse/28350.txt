@@ -1,0 +1,3 @@
+[Import] Need better test coverage of file system import
+
+build I20021213 Bug 28349 describes an NPE in ImportOperation, which caused several other test suites to fail, but it was not caught by our tests. We need a regression test for 28349, and better test coverage of Import in general. As the test failures indicate, other plugins rely on file system import working to set up their test harness.

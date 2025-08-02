@@ -1,0 +1,3 @@
+[LinkedResources] The 'File System' import wizard has inconsistent widget selection
+
+Tn the 'File System" import wizard, having the "Create complete folder structure" option button set must cause the "Create virtual folders" to be set as well in the "Advanced" section, since this option creates a partial hierarchy and cannot create only a top level link folder.

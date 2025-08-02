@@ -1,0 +1,3 @@
+[Presentations] ViewPane does not ask the ActionBarPresentation to create the toolbar control
+
+The ViewPane class does ask the action bar presenation to create the toolbar manager but it does not ask it to create the toolbar control. Patch to follow.

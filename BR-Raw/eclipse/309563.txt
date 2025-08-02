@@ -1,0 +1,3 @@
+All packages (o.e.e4.ui.model.workbench.edit) of ItemProviders need to be exported
+
+Before, there is only one ApplicationItemProviderAdapterFactory used by e4 Visual Designer. Now with the new model in multiple packages, we need to export all the corresponding ItemProvider.

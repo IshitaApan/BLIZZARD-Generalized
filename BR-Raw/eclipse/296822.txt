@@ -1,0 +1,3 @@
+NullProgressMonitor is not thread safe for expected usage
+
+NullProgressMonitor.setCanceled and isCanceled access the cancelled field, but there's no synchronization. The expected use is that setCanceled is called from a thread other than the one doing the work, which polls isCanceled(), so this needs to be thread safe. Could either make these two methods synchronized or make the field volatile. Should check other progress monitor implementations too.

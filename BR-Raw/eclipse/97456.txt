@@ -1,0 +1,3 @@
+[Preferences] Editors Preference Page cut off in High Contrast
+
+RC1 The Editors preference page is too long to show the line delimiter entry field in Windows XP High Contrast mode We should move it beside the text file encoding entry field and push them all up a but (text file encoding is cut off a bit too). To set up High Contrast select the High Contrast settings in Control Panel -> Accessibility Options -> Display

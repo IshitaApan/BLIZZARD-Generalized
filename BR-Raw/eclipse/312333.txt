@@ -1,0 +1,3 @@
+Exceptions in JUnit's PartService
+
+With the code from Head there are 3 NPEs in UIAllTests: testShowPart_Id_Unrendered_ACTIVATE testShowPart_Id_Unrendered_ACTIVATE2 testShowPart_Id_Unrendered_ACTIVATE3 They all seem to have the same cause: context of the activated part is null.

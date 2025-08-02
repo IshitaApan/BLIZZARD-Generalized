@@ -1,0 +1,3 @@
+[Commands] ActionDelegateHandlerProxy never called for editor actions
+
+Code coverage results from Bug 258825 indicate that this class is not used for IEditorActionDelegates (org.eclipse.ui.editorActions). Then where are they coming from? PW

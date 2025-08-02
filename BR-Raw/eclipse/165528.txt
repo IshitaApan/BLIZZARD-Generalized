@@ -1,0 +1,3 @@
+[QuickAccess] We should only list enabled commands / actions
+
+We are currently caching elements for every provider implementation, even if the list of elements can change over time (like e.g. the list of enabled commands).

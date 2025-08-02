@@ -1,0 +1,3 @@
+[DataBinding] TextObservableValue throws NPE on change if the intial model value is null
+
+When binding a Text to a model attribute that has an intial value of null ObservableTextValue throws a NPE when updating the view. In "updateListener" it assumes that oldValue != null. I'll attach a JUnit that throws the Exception.

@@ -1,0 +1,3 @@
+[Markers] Cannot delete marker from in marker, problems, task or bookmarks view
+
+Build ID: I20080617-2000 Steps To Reproduce: 1. Select any type of marker (bookmark, user-created task, problem marker etc.) and try to delete it 2. A popup window appears and wants your confirmation to delete the marker 3. Nothing happens. The marker is still alive and kicking. More information: Deleting a bookmark or user created task by right clicking on them in the editor's annotation bar works. Don't know if this matters but I have installed Eclipse CDT with Mylin support.

@@ -1,0 +1,3 @@
+Problems view grouping: Rename 'Category' to 'Marker type'
+
+I20060124-1115 One of the problems view default goups is called 'Categories' (-> Group by Categories) It would be better to more specific here, as all contributed groupings somehow categorize markers What about 'Group by Marker type'?

@@ -1,0 +1,3 @@
+[Preferences] Startup and shutdown preference page: Restore defaults does not work as expected
+
+Created attachment 190658 Proposed patch Steps to reproduce: - Disable early startup for one or more plugins using plugin_customization.ini, e.g. org.eclipse.ui.workbench/PLUGINS_NOT_ACTIVATED_ON_STARTUP=org.eclipse.update.scheduler - Open "Startup and shutdown" preference page - Restore Defaults -> all plugins are checked Attached patch fixes this.

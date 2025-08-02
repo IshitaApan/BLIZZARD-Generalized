@@ -1,0 +1,3 @@
+[Viewers] Rename new API, e.g. RowPart -> ViewerRow
+
+I would suggest doing the following renames on the new Viewer API (see bug 149193): RowPart -> ViewerRow ColumnViewerPart -> ViewerColumn Cell -> ViewerCell

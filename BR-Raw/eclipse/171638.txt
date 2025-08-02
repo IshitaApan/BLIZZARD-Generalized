@@ -1,0 +1,3 @@
+[Dialogs] Shifted initial text in "Open Resource" dialog
+
+Build ID: I20061214-1445 Steps To Reproduce: 1. Select some text in an editor 2. Open "Open Resource" dialog 3. The text you have selected will be the initial pattern for the dialog. Whole text will be selected. However, if selected text is longer than ~11 chars it will shifted, so you won't be able to see first chars. More information: I belive "Open Type" dialog will act same way as it also extends FilteredItemsSelectionDialog.

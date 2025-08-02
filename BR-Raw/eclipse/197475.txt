@@ -1,0 +1,3 @@
+[TrayDialog] Redundant check in isCompatibleLayout
+
+Build ID: Build id: I20070621-1340 Inside TrayDialog#isCompatibleLayout(Layout layout) there is redundant check (grid.horizontalSpacing == 0). (line 237) Possible there should be (grid.verticalSpacing == 0). :)

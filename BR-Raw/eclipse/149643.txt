@@ -1,0 +1,3 @@
+[EditorMgmt] File > Properties in editor has IEditorInput as selection
+
+I20060704-0800 Open a Text/Java/Ant/PDE editor on a file from your workspace. When the editor is active, File > Properties only shows the CVS properties page. When the file is selected in the Package Explorer, the Info properties page is shown as well. I would expect that the Info page is also shown when the editor is active.

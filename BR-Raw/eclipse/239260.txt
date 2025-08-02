@@ -1,0 +1,3 @@
+[Mac] [KeyBindings] Keybindings wrong on Cocoa
+
+Ctrl key is being used instead of Command when SWT.Platform returns "cocoa"

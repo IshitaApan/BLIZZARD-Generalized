@@ -1,0 +1,3 @@
+[Compatibility] Workbench window's status line manager is never disposed
+
+We instantiate a StatusLineManager but never call its dispose() method.

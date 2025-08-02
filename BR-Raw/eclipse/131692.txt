@@ -1,0 +1,3 @@
+[Contributions] ContributionManager.insertAfter throws unhelpful IllegalArgumentException
+
+look at insertBefore and you see this line throw new IllegalArgumentException("can't find ID " + ID);//$NON-NLS-1$ but in insertAfter it looks like this throw new IllegalArgumentException("can't find ID");//$NON-NLS-1$ NOTE: in the second example it doesn't tell you what the ID is. My "patch" is to make insertAfter behave like insertBefore

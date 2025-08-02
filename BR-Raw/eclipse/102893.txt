@@ -1,0 +1,3 @@
+[WorkingSets] Nested WorkingSets
+
+Hello, I'm a big user of different working sets, and recently I've notice the need of nested grouping (Working sets within working sets). That way, one can have more control and a better organization of the workingspace. In my case I have a working set for my office, one for personal projects, one for testing and a couple of others. Inside the office working set, some of the projects have dependencies between them; it would be great to have those projects in a working set inside the office working set. I don't know if other people have had this need. Thanx for everything

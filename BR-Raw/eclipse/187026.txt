@@ -1,0 +1,3 @@
+[Min/Max] non-movable views can be dragged out of minimized stacks
+
+Create a non-movable view in a perspective Minimize the stack it's in You can still drag it out...

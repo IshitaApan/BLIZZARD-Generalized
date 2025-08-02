@@ -1,0 +1,3 @@
+[Compatibility] ViewDescriptor does not implement isRestorable() correctly
+
+If a view does not define the 'restorable' attribute, isRestorable() should return 'true' instead of 'false'.

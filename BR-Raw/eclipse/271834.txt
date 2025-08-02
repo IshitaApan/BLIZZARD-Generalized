@@ -1,0 +1,3 @@
+Remove e4 workbench dependency on org.eclipse.core.runtime
+
+org.eclipse.core.runtime, and the Platform class in particular, are the root of all singleton evil in platform core. We should avoid this bundle and Platform like the plague in e4. Everything of value in core.runtime has a non-singleton equivalent in other core/equinox bundles.

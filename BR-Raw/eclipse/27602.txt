@@ -1,0 +1,3 @@
+[Perspectives] PlatformUIPreferenceListener should not use preference store
+
+20021203 The PlatformUIPreferenceListener look up the new preference value in the AbstractUIPlugin preferenceStore. It should instead use newValue from the event. Here is the code in question: IWorkbench workbench = WorkbenchPlugin.getDefault().getWorkbench(); AbstractUIPlugin uiPlugin = 		(AbstractUIPlugin) Platform.getPlugin(PlatformUI.PLUGIN_ID); String newValue = uiPlugin.getPreferenceStore().getString( 			IWorkbenchPreferenceConstants.DEFAULT_PERSPECTIVE_ID); workbench.getPerspectiveRegistry().setDefaultPerspective(newValue);

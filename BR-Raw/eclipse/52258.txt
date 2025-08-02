@@ -1,0 +1,3 @@
+[Progress] Progress popup shell should be a singleton
+
+There are multiple progress popups, one per workbench window. Let's just have one on the foreground shell.

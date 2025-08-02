@@ -1,0 +1,3 @@
+[Viewers] No @since tag for DeferredTreeContentManager(AbstractTreeViewer) constructor
+
+The resolution of bug 183218 introduced the DeferredTreeContentManager(AbstractTreeViewer) constructor but no @since 3.4 tag was appended to the javadocs.

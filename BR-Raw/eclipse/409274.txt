@@ -1,0 +1,3 @@
+Focus lost after WorkbenchWindow#run(..)
+
+I20130514-2000 and later, including 4.3 RC3. Was OK in I20130514-2000 and 4.2.2. - paste into Package Explorer: package xy; public class C { 	Date d; } => keyboard focus stays on C.java in Package Explorer, although the editor tab looks active - click into the editor - Organize Imports (Ctrl+Shift+O), press Enter key => keyboard focus is lost. Ctrl(+Shift)+Tab reveal that it's somewhere between the Package Explorer Tab and the Open Perspective button.

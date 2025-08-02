@@ -1,0 +1,3 @@
+[Dialogs] FilteredList.setSelection does not work as expected
+
+setSelection does not work if called from the same event-handling loop as setElements. This is because it starts a new thread which synchronously adds new items to the table. Thus, setSelection (which simply calls Table.setSelection) has no effect, since the table is empty. The behaviour is best visible on JDT Choose Package subdialog of New Class dialog - the pre-selected package is allways the first one, not the one entered in the box.

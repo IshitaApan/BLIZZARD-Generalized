@@ -1,0 +1,3 @@
+[CSS] 3.x CSS Presentation
+
+We should create a specialized Presentation so CSS will work in 3.x. See the rcp example (and then move the Presentation and DefaultTabFolder out of the example).

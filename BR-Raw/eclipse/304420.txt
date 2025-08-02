@@ -1,0 +1,3 @@
+'CVS repositories' view no longer opens
+
+We're getting white space, investigating...

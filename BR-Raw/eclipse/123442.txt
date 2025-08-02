@@ -1,0 +1,3 @@
+[Commands] handlers: Retarget action handlers aren't registered properly
+
+Build: I20060110-1026 Ctrl+Shift+G performs global search for references on a method. This still works in the editor, but if I select a method in the outline view, or on a search result, and hit Ctrl+Shift+G, nothing happens. Since the action continues to work when I select it in the context menu, this is perhaps a key binding issue. Key Assist shows that the key binding is indeed available in that context.

@@ -1,0 +1,3 @@
+Javadoc for PathEditorInput#getPath is ambiguous
+
+3.3 PathEditorInput#getPath can return an IPath or null but our API does not specify this.

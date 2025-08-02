@@ -1,0 +1,3 @@
+Double middle mouse click should not maximize
+
+Build ID: M20080911-1700 Steps To Reproduce: 1. Open multiple tabs in a certain region while more regions are active (for instance, multiple editor screens in the center and the navigator to the left) 2. Try to close all tabs quickly with the middle mouse button 3. The editor region gets maximized, while the only intention was to close tabs More information: In my opinion, only the left mouse button should maximize the region when it double clicks a tab header.

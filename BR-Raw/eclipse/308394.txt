@@ -1,0 +1,3 @@
+[Compatibility] ViewReferences are created for hidden parts when the workbench is restarted
+
+1. Window > Navigation > Next View 2. See a bunch of views. 3. Close Eclipse. 4. Restart it. 5. Window > Navigation > Next View 6. See a lot more views in the list now.

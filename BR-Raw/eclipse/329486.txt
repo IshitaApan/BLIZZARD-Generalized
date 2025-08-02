@@ -1,0 +1,3 @@
+UIEventsTest's testAllTopics() fails with code from HEAD
+
+Anyone else getting this? I'm seeing this with the code from HEAD. junit.framework.AssertionFailedError: No event fired:[Ljava.lang.String;@417348 dirty 	at junit.framework.Assert.fail(Assert.java:47) 	at org.eclipse.e4.ui.tests.application.UIEventsTest.ensureAllSet(UIEventsTest.java:373) 	at org.eclipse.e4.ui.tests.application.UIEventsTest.checkForFailures(UIEventsTest.java:336) 	at org.eclipse.e4.ui.tests.application.UIEventsTest.testAllTopics(UIEventsTest.java:290)

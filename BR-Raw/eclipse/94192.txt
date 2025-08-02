@@ -1,0 +1,3 @@
+Remove performance instrumentation from builds
+
+We added a number of performance tools to the builds, which should be removed or disabled by the time we release: - .options file in Eclipse install directory for perf stats - Performance view - Heap info status line entry

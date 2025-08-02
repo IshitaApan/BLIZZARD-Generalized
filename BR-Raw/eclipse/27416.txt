@@ -1,0 +1,3 @@
+[ActionSets] API method dispose not called
+
+Build 20021127 IWorkbenchWindowActionDelegate.dispose says dispose can be used to clean up. It seems that the framework is not calling this method at all: I closed a workbench window and the breakpoint never gets hit. This can lead to memory leaks for clients which count on dispose being called. Especially if the delegate is referenced from somehwere then the whole closed wokrbench window will stay in memory (the action has a link to it). Note: dispose on WWinPluginAction doesn't seem to be called as well.

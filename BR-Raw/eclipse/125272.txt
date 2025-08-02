@@ -1,0 +1,3 @@
+[Viewers] AbstractTreeViewer needs remove(Object parentElement, Object[] childElements)
+
+There is an add(Object parentElement, Object[] childElements) but no corresponding remove(). Without this method, if you have an element that appears under multiple parents, the only way to get model and viewer in sync after removing the element from just one of its parents is calling refresh().

@@ -1,0 +1,3 @@
+[Import/Export] Disable Finish in import existing projects wizard
+
+Build: N20050503 Open import existing project wizard Toggle radio button to import from archive Type in the name of an archive file Toggle radio button back to import from directory Observe: the Finish button is still enabled, even though there is no directory selected. Clicking Finish will import from the selected zip file.

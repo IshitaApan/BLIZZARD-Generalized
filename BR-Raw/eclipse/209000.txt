@@ -1,0 +1,3 @@
+[Markers] Copy in Problems view broken
+
+I20071106-0816 Copy in the Problems view is disabled. I'm now forced to manually read and type the error when I file a bug report.

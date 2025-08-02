@@ -1,0 +1,3 @@
+Reset perspective fails with parts moved into the editor area
+
+1. Start a fresh e4 workbench 2. Move the Javadoc view into the editor area 3. Reset the perspective 4. Open the Javadoc view Result: The Javadoc view is opened in the editor area. In the bottom stack there still is a tab for the Javadoc view; this tab can be clicked, but it will activate the view in the editor area. The toolbar, however, is shown in the bottom stack.

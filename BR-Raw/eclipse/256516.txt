@@ -1,0 +1,3 @@
+[TabbedProperties] TabbedPropertySheetPage to allow some options
+
+Created attachment 118719 Patch It would be nice if TabbedPropertySheetPage allowed: - Indicating if the title should be generated or not - Retrieving title text and image - Indicating that partActivationListener should not be generated. Attached patch contains these additions.

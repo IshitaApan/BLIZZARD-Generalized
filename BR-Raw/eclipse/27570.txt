@@ -1,0 +1,3 @@
+[Preferences] Preference page defaults are hard-coded
+
+build 2002-11-27, Win2K, J9 FileStatesPage contains hard-coded values for the defaults. This class should get the defaults from Core. This will perhaps require new API at Core level. If so, please let us know what you would like.

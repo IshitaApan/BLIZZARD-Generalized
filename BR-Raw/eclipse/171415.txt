@@ -1,0 +1,3 @@
+[Viewers] Table viewer needs to clear label, image when items are reused
+
+If an item is reused for a different element on a refresh, the table viewer needs to clear the label and image from the item being reused. This is necessary to communicate to the label provider that a new label is needed (i.e. the label provider may defer providing a label if decorators are not ready). This is what the tree viewer does. To see the problem, open the Java Browsing perspective and select a Java project. Then click between different packages. Notice that some of the labels in the Types list take a while to update. Opening one of these reveals that the label is showing the wrong text.

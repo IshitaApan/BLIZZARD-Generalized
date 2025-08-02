@@ -1,0 +1,3 @@
+[CSS] AbstractCSSSWTEngineImpl shouldn't get display for current thread
+
+The constructor AbstractCSSSWTEngineImpl(Display, boolean) is passed in a display. However, it also does: 	new CSSSWTApplyStylesListener(Display.findDisplay(Thread 		.currentThread()), this); I don't see why it shouldn't use the display passed in.

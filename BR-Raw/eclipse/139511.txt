@@ -1,0 +1,3 @@
+[CommonNavigator] getParent() fails in certain cases
+
+In the implementation of getParents(), clients can sometimes fail to return the correct parent with the override cases taken into account. The attached patch fixes these issues, but should be reviewed by the Team Team to ensure that it does not cause any regressions for their cases.

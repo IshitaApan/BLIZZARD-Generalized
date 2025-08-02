@@ -1,0 +1,3 @@
+[Min/Max] Minimizing a ViewStack activates all views
+
+In the new presentation minimizing a stack will activate each of the view's, causing eager loading of any required plugins. Note that a restart of a workspace containing minimized stacks works as expected; it's only the actual minimize operation that causes the unnecessary loading...

@@ -1,0 +1,3 @@
+[Preferences] PreferencesUtil.createPreferenceDialogOn(...) clarification
+
+I20050125-0800 Javadoc for PreferencesUtil.createPreferenceDialogOn(Shell, ...) says a new dialog is created. This is not the case if the preference dialog is already open (GOOD!). This should be stated in the Javadoc.

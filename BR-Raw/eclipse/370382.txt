@@ -1,0 +1,3 @@
+[CSS] CSSPropertyTabRenderer doesn't support backwards-compatible platform:/plugin
+
+Build: 4.2M5 I missed at least one location in my backwards compatibility patch for bug 307458: CSSPropertyTabRendererSWTHandler#applyCSSProperty().

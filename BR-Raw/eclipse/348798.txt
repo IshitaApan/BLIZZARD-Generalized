@@ -1,0 +1,3 @@
+The timer code in HandledContributionItem creates enourmous numbers of GC'able objects
+
+If you open the HeapStatus you can watch it grow by over a meg a second. While it will eventually GC this memory the result is that the garbage collector is 'locking' the system for longer than most apps due to the amount of work it has to do. We know that it's the timerExec because commenting out the code to restart the timer (lines 99-100) stops the heap from growing... Paul, I'm not sure whether this is actually fixable but we ought to look into it anyway to see if we can re-use the contexts.

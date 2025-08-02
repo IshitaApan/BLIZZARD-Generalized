@@ -1,0 +1,3 @@
+[Preferences] Dialog font use: Editors preference page "link" text
+
+N20050517-0010 Window>Preferences>General>Editors The 3 "linked" text messages at the top of the page are not setting the dialog font Same for the File Associations and Content Types pages

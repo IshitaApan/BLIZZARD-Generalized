@@ -1,0 +1,3 @@
+Compile error in the build
+
+[javac] 539. ERROR in /opt/public/eclipse/e4/build/e4/downloads/drops/4.0.0/I20110113-2200/plugins/org.eclipse.e4.ui.model.workbench.edit/src/org/eclipse/e4/ui/model/application/ui/menu/provider/MenuItemItemProvider.java (at line 83) [javac] 	MenuPackageImpl.Literals.MENU_ITEM__MNEMONICS, [javac] 	 ^^^^^^^^^^^^^^^^^^^^ [javac] MENU_ITEM__MNEMONICS cannot be resolved or is not a field Changes to the workbench model must be generated in the model edit project. PW

@@ -1,0 +1,3 @@
+[DataBinding] Duplicate entries in bound list after update
+
+Created attachment 104454 ListBindingSnippet I bind two lists by bindingContext.bindLists, with update Strategy targetToModel STRATEGY_ON_REQUEST. After calling bindingContext.updateModels, all entries in the model list are duplicated. In my opinion the bug is in the ListBinding class in the updateModelToTarget and updateTargetToModel methods where the ListDiffs are computed against Collections.EMPTY_LIST and not against the old content of the underlying lists. The attached snippet demonstrates this behaviour. Found in eclipse build M20080221-1800 with version 1.0.1.M20070822-0800 of org.eclipse.core.databinding.

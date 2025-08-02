@@ -1,0 +1,3 @@
+Rewording in blocked jobs dialog
+
+Attached are the patches I made to the BlockedJobsDialog to achieve the wording we agreed on. It also removes the cancel button when the new progress viewer is being used, and left-justifies the centre-justified text that Erich pointed out as being unusual.

@@ -1,0 +1,3 @@
+EPartService's hidePart may fail when trying to hide a shared part that's in a shared container
+
+The placeholder retrieval code in the EPartService implementation doesn't go far down deep enough and actually stops at the shared container level. This causes the placeholder of the shared part to not be found.

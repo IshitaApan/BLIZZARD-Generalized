@@ -1,0 +1,3 @@
+[Compatibility] WorkbenchPage closes the sole perspective even if it should be closing another perspective
+
+1. Ctrl+3 > Close Perspective (Perspective Id: Debug) - Close the current perspective 2. Your 'Java' perspective gets closed. :(((

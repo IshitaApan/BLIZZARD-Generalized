@@ -1,0 +1,2 @@
+[statushandling] with multiple errors, top pane get space when resizing (bottom should get all the space)
+

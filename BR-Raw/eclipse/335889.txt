@@ -1,0 +1,3 @@
+E4Application#stop cannot shutdown the workbench
+
+E4Application#stop() currently does nothing. As a result, if you trigger a shutdown of the OSGi runtime programmatically (e.g., getBundle(0).stop()), the UI workbench is not closed. Any subsequent clicking or interaction with the UI workbench triggers a cascade of errors. I think E4Application should hold onto the workbench in a field. The stop() method should call workbench.close().

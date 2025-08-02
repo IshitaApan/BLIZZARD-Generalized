@@ -1,0 +1,3 @@
+[GlobalActions]'Export...' and 'Exit' menu items under the 'File' menu share the same mnemonic
+
++++ This bug was initially created as a clone of Bug #218945 +++ Both 'Export...' and 'Exit' uses the 'x' key as its mnemonic. This is probably a duplicate, but these words are rather broad so I didn't have much luck finding one.

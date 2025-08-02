@@ -1,0 +1,3 @@
+[Preferences]  The export preferences dialog does not allow the selection of a folder as a destination
+
+Build id 200405181200 Steps: - Launch eclipse - Go to "Window->Preferences" - Select the "Export" button (bottom left) - Try to chose a different folder than the one specified to store the ".epf" file using the "Browse" button Unless you select a file, it will not let you press "Open". It seems like the wrong system dialog is being used for this particular instance. This bug makes the "Export" utility almost unusable on the Mac.

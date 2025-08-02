@@ -1,0 +1,3 @@
+E4Application start() should use nested try's
+
+The display and instance location are both disposed in the same finally block. However, there is significant potential for the display to be leaked if there is an error during createE4Workbench(). Once the display is created, there should be a try-finally block where the display is disposed. Then once the instance location is created, there should be a nested try-finally block to separately dispose of the location. I've created two patches: The non-formatted version displays the changes in a readable way. The formatted version is the same change, only the editor save actions are enabled.

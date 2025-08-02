@@ -1,0 +1,3 @@
+[Databinding] WritableList.clear() does not clear the list
+
+3.3 M3 The wrappedList is not modified that I can see when org.eclipse.jface.databinding.observable.list.WritableList.clear() is called.

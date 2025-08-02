@@ -1,0 +1,3 @@
+[Metadata] IWorkbenchBrowserSupport needs @noextend flag
+
+org.eclipse.ui.browser.IWorkbenchBrowserSupport has a @noimplement flag. It should also have a @noextend flag since we may in the future want to add more constants and there does not seem to be a legitimate reason to extend this interface.

@@ -1,0 +1,3 @@
+[Dialogs] New folder dialog is too tall
+
+File > New > Folder I can see only the top half of the textbox 'Folder Name'. When I resize by means of the mouse cursor, it becomes normal.

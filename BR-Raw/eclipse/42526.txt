@@ -1,0 +1,3 @@
+Patch: RenameResourceAction and CopyResourceAction
+
+I am in the process of adding general operations (copy, paste, delete, etc) to the Live Sync View. While doing so, I found the RenameResourceAction and MoveResourceAction that are provided by the workbench. In the process of tsting, I found a few bugs in the code. I will atatch a patch.

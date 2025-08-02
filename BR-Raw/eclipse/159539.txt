@@ -1,0 +1,3 @@
+[DataBinding] Create a static initializer to create DBC with support for java primitives
+
+It seems like in most scenarios default support for converters and validators for java's primitive types would be desired when creating a DataBindingContext. Attaching patch...

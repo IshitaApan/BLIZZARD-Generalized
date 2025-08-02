@@ -1,0 +1,3 @@
+[XMI] Changes to a window's main menu is not being persisted properly
+
+Additions to an MWindow's main menu is not being persisted correctly.

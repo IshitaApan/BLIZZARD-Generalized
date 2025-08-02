@@ -1,0 +1,3 @@
+[Markers] Problems view should not use bold for the headers
+
+The problems view uses bold for the category parents in the tree (e.g. Potential Programing Problems, Deprecation, etc). We generally use bold to indicate that something has changed but this is not the intention in the problems view. Second, this is I believe the only place we use bold for the top level items in table trees. Third, this is not a style we probably want others to copy. An alternative would be a different font although this has a different set of issues (e.g. Does the font exist on all platforms?, The font needs to be about the same height as the list items because all cells get the same height, etc).

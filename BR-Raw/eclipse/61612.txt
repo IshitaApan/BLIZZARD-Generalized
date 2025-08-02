@@ -1,0 +1,3 @@
+specs for IntroPart should not mention IWorkbenchPart
+
+Build N20040510 The specs for IntroPart still mention IWorkbenchPart, even though IntroPart no longer indirectly implements IWorkbenchPart.

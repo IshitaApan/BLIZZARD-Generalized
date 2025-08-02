@@ -1,0 +1,3 @@
+[CommonNavigator] NavigatorDNDService seems like it can use only interfaces
+
+The NavigatorDNDService class seems like it could use only interface APIs and function properly. Patch attached.

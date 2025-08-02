@@ -1,0 +1,3 @@
+[WorkingSets] API addition to IWorkingSetManager to recreate an IWorkingSet from an IMemento
+
+We are creating and persisting an IWorkingSet within the .launch framework to enable sharing of a working set. The only problem is in the restoration of the IWorkingSet from the stored IMemento. We would like to not have to duplicate the code for persisting and restoring the working sets. I would like to propose the following addition to IWorkingSetManager: IWorkingSetManager.createWorkingSet(IMemento workingSetMemento) As well it should be explict on IWorkingSet that it adapts to IPersistableElement.

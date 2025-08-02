@@ -1,0 +1,3 @@
+CSSSWTEngineImpl leaks memory
+
+CSSSWTEngineImpl stores too many element contexts. In a memory snapshot, the HashMap size was 15559. This is most probably a leak.

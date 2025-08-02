@@ -1,0 +1,3 @@
+[Dialogs] FilteredItemsSelectionDialog does not immediately remove last history match
+
+I20070615-1200 FilteredItemsSelectionDialog does not immediately remove the last remaining history match: - new workspace - new Java project - Navigate > Open Type "ArrayList" - Navigate > Open Type "AbstractList" - close both editors - slow down search, e.g. by adding Thread.sleep(..) at the beginning of fillContentProvider(..) - Navigate > Open Type - slowly type "Arx" => after "Ar", "AbstractList" gets correctly removed => after "Arx", "ArrayList" should also be removed, but it wrongly stays

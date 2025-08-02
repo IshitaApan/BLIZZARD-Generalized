@@ -1,0 +1,3 @@
+[Markers] Need to be able to add filters to existing markers views
+
+Currently you can only add filters to a new markerContentProvider. We need to able to bind them to existing markerContentProviders as well.

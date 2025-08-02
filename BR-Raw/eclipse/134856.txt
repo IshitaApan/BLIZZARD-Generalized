@@ -1,0 +1,3 @@
+[DataBinding] ValueDiff overrides Object.equals(Object) but not Object.hashCode()
+
+The javadoc for Object.hashCode() states: "If two objects are equal according to the <tt>equals(Object)</tt> method, then calling the <code>hashCode</code> method on each of the two objects must produce the same integer result." The other IDiff implementations don't override Object.equals(Object) so I assume ValueDiff shouldn't either.

@@ -1,0 +1,3 @@
+[Wizards] Save As doesn't check validity of location
+
+Build id: N20060424-0010 1) Create project "P1" containing file "a.txt" 2) Open the editor on a.txt 3) File > Save As 4) In the "File name" field, enter "c:\temp\a.txt" (I was somehow thinking I could save the file in the file system from here). 5) Click Ok. It creates a file /P1/temp/a.txt I would have expected an error in the wizard as soon as I entered the ":" character, which is not a valid character in file names on windows.

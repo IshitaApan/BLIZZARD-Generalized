@@ -1,0 +1,3 @@
+[WorkingSets] Select all / Deselect all for 'Select working set' dialog
+
+Would it be possible to get a 'Select all' and 'Deselect all' button on the 'Select working set' dialog?

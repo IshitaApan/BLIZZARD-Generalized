@@ -1,0 +1,3 @@
+[Progress] How to show busy in multiple instances of the same view
+
+Currently to get the view busy indicator you have to schedule a job in a workbench part. But what happens when there are multiple instances of a view created, which view should be busy. Ideally, you could instead associate a view type with a job.

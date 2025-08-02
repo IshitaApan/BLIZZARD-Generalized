@@ -1,0 +1,3 @@
+[Preferences] Workbench preference page has inconsistent note
+
+The WorkbenchPreferencePage should use createNoteComposite in PreferencePage so that its note is consistent with the others.

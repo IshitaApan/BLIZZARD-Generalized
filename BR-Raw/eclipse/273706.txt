@@ -1,0 +1,3 @@
+[WorkingSets] Changing workingset membership broken
+
+This was broken by the changes associated with bug 212583; an assertion was added in setName() which did not take into account the fact that the name could be set to itself as is done in the current working set membership change dialogs. I will attach a patch. Also, I notice the coding style in the work on bug 212583 had very different spacing than in the original file. Please try to keep the spacing and formatting consistent for each file. I have corrected this in my patch.

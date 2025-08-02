@@ -1,0 +1,3 @@
+[Min/Max] Enable Image Animation Tweaklet
+
+As part of the cleanup I've added the ability for clients to switch to using the ImageAnimation feedback using the tweaklet mechanism...

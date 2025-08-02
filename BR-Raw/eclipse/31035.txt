@@ -1,0 +1,3 @@
+[Linked Resources] No error messages when validateLinkLocation returns warning
+
+build 20030229 -Create a linked folder pointing to c:\temp -Create a linked file and enter c:\temp\a for the link location (the directory a needs to exist on the file system) ->Shows a warning that resource overlap and lets resource creation proceed. There should be an error pointing out that c:\temp\a is a folder.

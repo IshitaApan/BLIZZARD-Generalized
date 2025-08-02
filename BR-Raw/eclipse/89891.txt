@@ -1,0 +1,3 @@
+[Progress] ErrorNotificationManager parenting off of the wrong shell
+
+20050331 When we open an error dialog we parent off of the current window. In the case where there is already a modal dialog open this can result in two dialogs blocked on a readAndDispatch. We should use Stefans new shell provider.

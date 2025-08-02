@@ -1,0 +1,3 @@
+[Refactor] HandledContributionItem parameterized command generation
+
+The generation of parameterized commands can be simplified/improved. Currently, parameterized commands can be generated three distinct ways.

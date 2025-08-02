@@ -1,0 +1,3 @@
+Enhancements for ResourceManager
+
+The attached patch addresses the following in ResourceManager - Fixes several JavaDoc bugs - Adds a "getImage" method that implements the common pattern of "return existing image if known, or allocate a new image otherwise"

@@ -1,0 +1,3 @@
+[Jobs] Progress Dialog "Running Jobs" button
+
+The margins of the button "Running Jobs" are not correct (s. attached screenshot) -- taken w/ a larger dialog font. The button should be labeled "Running Jobs >>" and "<< Hide" to indicate that the dialog will be made larger/smaller.

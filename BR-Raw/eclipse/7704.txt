@@ -1,0 +1,3 @@
+Startup perspective from command line
+
+In a standalone install of our product, when our icon on the desktop is double- clicked, our users want to see our windows active on startup. To do this we need a mechanism to specify that our perspective is the active one on start up. We do not want other pages or views to be destroyed. The workbench can persist all the pages and views but will ensure that our page is the active one.

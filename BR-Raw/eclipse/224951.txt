@@ -1,0 +1,3 @@
+[MPE] MultiPageEditorPart.pageChange() removes focus from SharedHeaderFormEditor's header
+
+3.4M5 MultiPageEditorPart.pageChange() is using the private setFocus(int) which prevents SharedHeaderFormEditor.setFocus() from keeping the focus on the editor's header.

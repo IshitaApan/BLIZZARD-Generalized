@@ -1,0 +1,3 @@
+[Workbench] stale javadoc in IMemento
+
+Build 20021008 IMemento.getID javadoc says: Returns the id for this memento. [Issue: For consistency, rename to "getId".] Since this method is unlikely to be renamed at this point, the "issue" comment should probably be deleted.

@@ -1,0 +1,2 @@
+[StatusHandling] The details area doesn't fit into the dialog
+

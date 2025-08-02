@@ -1,0 +1,3 @@
+[DataBinding] "not to be implemented by clients" missing in IConverter Javadoc
+
+I believe the intent of having separate IConverter and Converter is that IConverter should *not* be directly implementable by clients--in order to preserve our ability to evolve the IConverter API should that be necessary. Currently the API contract for IConverter says nothing about this. It needs to--before 3.3. :-)

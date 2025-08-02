@@ -1,0 +1,3 @@
+[Model] Allow ModelComponent to contribute KeyBindings to a BindingTable
+
+Currently one can only contribute a complete binding table but is not allowed to contribute a single keybinding.

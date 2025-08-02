@@ -1,0 +1,3 @@
+[Workbench] [Tests] Need regression tests for XMLMemento
+
+build I20050426 In 3.1 M7, XMLMemento was changed to use its own DOMWriter instead of the XML transformation support, in order to compile against JCL Foundation (bug 80053). Should have tests for XMLMemento, with an emphasis on reading/writing (not much 'rithmetic), including regression tests for the known bugs caused by this change. See bug 93238.

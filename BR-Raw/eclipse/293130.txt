@@ -1,0 +1,3 @@
+Polishing the Filter extension point
+
+See bug 291755, comment 2 1) The filter ext. point should not use factories. I would use similar pattern to the builder extension, i.e. an abstract class (e.g. AbstractFileInfoMatcher) 2) The filter ext contributes matchers (not filters) that are used later by resource filters. This should be perhaps reflected in names. The name could be "resourceMatcher" or "resourceFilterMatcher"

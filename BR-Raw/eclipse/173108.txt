@@ -1,0 +1,3 @@
+[Dialogs] small fixes in manual tests for FilteredResourcesSelectionDialog
+
+Text file containg manual tests for FRSD should be more detailed. All misspellings should be wipe out also.

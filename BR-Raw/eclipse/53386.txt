@@ -1,0 +1,3 @@
+[ActivityMgmt] Remove show All from everywhere except new wizards
+
+Show all should no longer be present anywhere except in the new wizard dialog. Even there, its meaning is different. Without it being selected, you only get the 'special' wizards as described in Bug 53385. When selected the usual tree structure appears below the special wizards.

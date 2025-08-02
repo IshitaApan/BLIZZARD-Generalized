@@ -1,0 +1,3 @@
+[Wizards] WizardDialog: code inconsistent
+
+As long as WizardDialog.updateTitleBar() is a public method (should it be?) it's not a bad idea to check dialog state in all appropriate places. Now: 	public void updateTitleBar() { 		String s = null; 		if(currentPage != null) 			s = currentPage.getTitle(); 		if (s == null) 			s = ""; //$NON-NLS-1$ 		setTitle(s); 		if(currentPage != null) 			setTitleImage(currentPage.getImage()); 		updateDescriptionMessage(); 		updateMessage(); 	} It accurately checks that currentPage != null, but forgets to do the same before calling of updateDescriptionMessage() method wich works with currentPage without any checking. This can cause NPE (which happened to me :-)).

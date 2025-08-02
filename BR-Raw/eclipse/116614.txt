@@ -1,0 +1,3 @@
+[CellEditors] Mixing up between undo and redo in CellEditorActionHandler
+
+The undo(redo) action's enabled state gets wrong with CellEditorActionHandler. Please see the following code in org.eclipse.ui.part.CellEditorActionHandler at version 1.12 (latest at this point), > private IPropertyChangeListener undoActionListener = new ActionEnabledChangeListener( > cellRedoAction); ~~~~ > private IPropertyChangeListener redoActionListener = new ActionEnabledChangeListener( > cellUndoAction); ~~~~ As the code above, undo and redo are mixed up, and the enabled state's change of undo(redo) action updates redo(undo) action.

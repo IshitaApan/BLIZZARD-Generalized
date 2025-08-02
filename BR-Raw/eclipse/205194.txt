@@ -1,0 +1,3 @@
+[ErrorHandling] [StatusHandling] StatusAdapter needs Action and Explanation constants
+
+Created attachment 79551 Patch adding described elements Build ID: I20070621-1340 Steps To Reproduce: Due to current direction of StatusHandling additional predefined properties are required in StatusAdapter: suggestedAction and explanation. Also timeStamp should be added by default when the StatusAdapter is created. More information:

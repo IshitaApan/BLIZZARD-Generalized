@@ -1,0 +1,3 @@
+[EFS] Project wizard browse button not connected to file system contributor
+
+Build: I20060328-0010 1) Install org.eclipse.ui.examples.filesystem 2) Open the new project wizard 3) Uncheck the default location checkbox 4) Select "In Memory" file system 5) Click "Browse" I would expect FileSystemContributor.browseFileSystem(String,Shell) to be called, but it isn't. Not matter what file system I select, clicking browse just opens a standard local file system dialog. This makes it impossible for another file system to plugin in a different file system browse dialog.

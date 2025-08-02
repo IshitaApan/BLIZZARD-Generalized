@@ -1,0 +1,3 @@
+[Forms] TextSegment should call drawText instead of drawString
+
+org.eclipse.ui.internal.forms.widgets.TextSegment calls GC.textExtent when measuring strings and drawString to draw them. For consistency, it should call drawText instead of drawString.

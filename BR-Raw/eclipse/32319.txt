@@ -1,0 +1,3 @@
+[Wizards] Changes to New Example wizard
+
+build I20030218 The New Example wizard (File > New > Example...) needs the following changes. 1. Omit top-level Examples category (flatten one level) if there are no direct wizards in that category, only subcategories. 2. If Examples category shown, expand it for free. 3. Change title to "New Example" (name of triggering action; consistent with New Project).

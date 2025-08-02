@@ -1,0 +1,3 @@
+OpenCloseViewTest#showView:org.eclipse.ui.views.ResourceNavigator() should be removed from the fingerprints
+
+OpenCloseViewTest#showView:org.eclipse.ui.views.ResourceNavigator() is not a good test anymore because we are not supporting this. We should remove this from the fingerprints and add a test for the project explorer.

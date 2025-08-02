@@ -1,0 +1,3 @@
+[Viewers] Problems with OwnerDrawLabelProvider.setUpOwnerDraw
+
+3.4 M4 To set up the owner draw callbacks for a viewer OwnerDrawLabelProvider.setUpOwnerDraw is offered. The problem of this is: a. there's no way to uninstall the callbacks. In our views we want to allow to enable and disable owner draw in the preferences b. from an API client perspective, it would be nicer if the label provider could install itself when installed. A good solution would be to add more life cycle to a label provider. CellLabelProvider.initialize(ColumnViewer, int column) There's already ILableProvider.dispose when a label provider is removed from a viewer.

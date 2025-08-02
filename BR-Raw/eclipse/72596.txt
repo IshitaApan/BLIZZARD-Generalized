@@ -1,0 +1,3 @@
+[Tests] Porting keyboard events from AWT's robot to SWT's "Display.post"
+
+In 3.0, SWT introduced a "Display.post(Event)" method to generate low level keyboard and mouse events. I am attaching a patch that replaces the AWT Robot calls in the KeysTestSuite’s tests with SWT's "Display.post". I have found it to work better across platforms on the SWT display.

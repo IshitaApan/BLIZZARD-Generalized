@@ -1,0 +1,3 @@
+[Preferences] Local history preference page needs restart note
+
+build F1 I lowered the "Entries per File" local history preference and expected the change to take effect immediately. Instead the local history was still growing. I then realized that the changes to the local history preferences only take effect after a restart. This should be noted on the preference page just like it is on other preference pages (e.g., editor/view tab orientation).

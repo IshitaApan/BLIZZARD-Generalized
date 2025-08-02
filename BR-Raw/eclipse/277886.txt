@@ -1,0 +1,3 @@
+[IDE] Remove manual start of org.eclipse.update.configurator
+
+IDEWorkbenchPlugin.start manually starts the org.eclipse.update.configurator bundle. This was added in 3.4 to address bug 235179. However, org.eclipse.update.configurator now uses declarative services to register the bundle group service, so explicit activation is no longer needed. I suggest removing this in 3.6 as we try to wean ourselves off dependency on legacy Update Manager.

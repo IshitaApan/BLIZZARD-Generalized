@@ -1,0 +1,3 @@
+[Import/Export] Import project does no longer work
+
+Using 3.1 M5 candidate I20050215-2300. I cannot import existing projects into my workspace. Dialog allows me to select a directory but does not display possible projects in it. After a while, browse button works as a refresh and projects list appears but Finish button has no effect... (hopefully Cancel button still works properly). Set severity as critical as it is a serious regression for a milestone.

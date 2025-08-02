@@ -1,0 +1,3 @@
+Patch for DeferredTreeContentProvider
+
+In working on bug 41587, I came accross a few bugs in the DeferredTreeContentProvider and an API change that makes the API of IDeferredWorkbench adapter more consistent with its parent interface. I will attach the patch (which is required in order to fix bug 41587).

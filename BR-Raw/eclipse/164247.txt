@@ -1,0 +1,3 @@
+[DataBinding] NPE from ObservableMapLabelProvider when value is null
+
+When a null value is to be returned from getColumnText(...) a NPE is thrown. It's trying to do a toString() on the null value.

@@ -1,0 +1,3 @@
+[WorkingSets] addPropertyChangeListener deprecated on impl but not on interface
+
+Like that for years. WorkbenchPage.addPropertyChangeListener(IPropertyChangeListener) is deprecated but in the corresponding interface it is not. We should also deprecate IWorkbenchPage.addPropertyChangeListener(...).

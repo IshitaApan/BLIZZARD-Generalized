@@ -1,0 +1,3 @@
+[Compatibility] Timer execs greatly affect XWindow based systems
+
+While Car was testing 4.1 on the various platforms she noticed that the performance was *very* bad (about 1 character per sec typing in an editor). We tracked this down to the use of multiple timerExec's used to keep the various toolbars enablement state up to date...

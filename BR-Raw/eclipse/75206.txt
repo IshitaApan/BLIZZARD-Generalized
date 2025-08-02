@@ -1,0 +1,3 @@
+[Import/Export] Export large file using Export filesystem wizard causes OutOfMemory
+
+I have a project which creates a large output file (a filesystem image). Eclipse reports the size as 409600000 bytes. If I try to export this file using the Export->File System wizard, I quickly get an out of memory error. I set the max heap size to 256M (-Xmx256M).

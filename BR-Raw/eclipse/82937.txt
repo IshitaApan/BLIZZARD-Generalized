@@ -1,0 +1,3 @@
+[Dialogs] There is no title in the dialog (FileDialog class)
+
+Eclipse SDK 3.0.1 Linux GTK, Solaris Motif There is no title in the dialog. It confirms it by the following operations. 1) Select menu item: File > New > File 2) Click "Advanced>>" button 3) Check "Link to file in the file system" 4) Click "Browse..." button

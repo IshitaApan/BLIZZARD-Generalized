@@ -1,0 +1,3 @@
+StackOverflowError using key sequence entry widget
+
+I20030916. The problem is the first patch from Bug 41962. The modify listener is re-entrant because the text of the widget isn't updated before another event is processed. This problem does not happen on Windows XP. This may be an SWT problem.

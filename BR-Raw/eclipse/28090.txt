@@ -1,0 +1,3 @@
+[View Mgmt] Browsing View broken
+
+Build 20021210 1. Start fresh Eclipse 2. Add a new Java project [optional] 2. Close prespective 3. Open "Java Browsing" perspective ==> views don't show up correctly - they don't show data (in Projects view) and look strange (gray), see attached picture.

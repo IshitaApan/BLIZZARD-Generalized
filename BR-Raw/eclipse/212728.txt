@@ -1,0 +1,3 @@
+[Markers] New Tasks view not showing completion icon
+
+I20071212-0010 The new Tasks view does not allow to mark a task as completed by clicking into the corresponding field.

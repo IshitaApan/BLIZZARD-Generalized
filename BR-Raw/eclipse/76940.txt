@@ -1,0 +1,3 @@
+[Preferences] Update JFace javadoc for #putValue and notification
+
+build R3.0 The javadoc for JFace's IPreferenceStore#putValue needs to be updated. The #putValue method does not send out any notification which can cause ill effects if people call this method while others are relying on property change listeners for changes to the values. The spec should be updated to say that clients should only call it when changing their own private preference keys and should not be calling it when modifying public API preference keys.

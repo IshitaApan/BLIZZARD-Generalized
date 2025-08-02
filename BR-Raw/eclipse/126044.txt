@@ -1,0 +1,3 @@
+[Contexts] Latest key binding changes break Quick view key bindings
+
+I20060131-1200 Latest changes in the key binding / context architecture have broken the key binding support in the JDT Quick views: up to I20060125-0800 and earlier it was possible to open the Quick view's view menu using Ctrl+F10 (command 'org.eclipse.ui.window.showViewMenu'). It looks like the deprecated code in org.eclipse.jdt.internal.ui.text.AbstractInformationControl is no longer working. I think before we try to migrate to the new code we should ensure that the deprecated code works again.

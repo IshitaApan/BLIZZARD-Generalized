@@ -1,0 +1,3 @@
+[ViewMgmt] Reset Perspective ignores saveable parts
+
+To Reproduce: Ensure that you have a dirty saveable view open in a Perspective Reset the perspective Result: No prompt to save, no chance to cancel...

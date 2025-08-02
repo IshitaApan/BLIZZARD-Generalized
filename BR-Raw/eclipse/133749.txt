@@ -1,0 +1,3 @@
+[Contributions] Create WatchExpression action show up twice in Variables View
+
+* Show logical structure is on. * Expand map until you see key and value. * Select from variable "map" to "value" field. You need to multi-select to reproduce this. * You will see the "Create Watch Expression" action twice if you bring up the context menu. Testcase: 		TreeMap map = new TreeMap(); 		map.put("abc", "abc"); 		map.put("cbc", "abc"); 		map.put("dbc", "abc");

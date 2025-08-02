@@ -1,0 +1,3 @@
+[Workbench] Animating close rectangle is barely visible on the MAC
+
+By clicking on the "Run in Background" button on the Jobs dialog that shows running jobs, it will cause the dialog to animate down to the bottom right of the window. On the mac, the color of the rectangle seems to be too light and you can not see it animate, You just get the odd light coloured line being drawn on the workbench. This means the user misses the intent of the animation completely

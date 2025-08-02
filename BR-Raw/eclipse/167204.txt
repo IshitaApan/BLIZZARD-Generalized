@@ -1,0 +1,3 @@
+[DataBinding] Ensure that getterCalled() is invoked correctly in WritableList
+
+We need to clean up WritableList as its getterCalled() invocation is somewhat sporatic. Changes that need to be made: * setters should not invoke getterCalled(); this means all add(..) and remove(...) methods. * iterator() should invoke getterCalled() (ObservableList) * next() and hasNext() on the iterator should not invoke getterCalled() (ObservableList) The idea was previously that because add*(...) and remove*(...) returned a value then the state was retrieved thus getterCalled() should be invoked. But for the sake of simplicity these will be removed; we can always add them back later. But in removing the calls to getterCalled() we need to ensure that the current realm is still checked.

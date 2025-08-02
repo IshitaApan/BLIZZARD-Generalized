@@ -1,0 +1,3 @@
+[Markers] Order of Quick Fix entries should not be random
+
+I20080502-0100 I am going through a number of problems reported by API tooling, specifically, missing @since tags. When invoking the quick fix from the Problems view, the order of suggested fixes is not deterministic for the same kind of problem (missing @since tag). Sometimes, the first suggested fix is adding the @since tag (which is what I want), and sometimes the suggested fix is to add a problem filter. The order of suggested fixes should be the same for each problem type, and the first suggested fix for any problem type (if possible) should be one that changes the code, not one that adds problem filters.

@@ -1,0 +1,3 @@
+[GlobalActions] Convert CLOSE_ALL_PERSPECTIVES to a handler
+
+Convert the ActionFactory.CLOSE_ALL_PERSPECTIVES action to a handler. PW

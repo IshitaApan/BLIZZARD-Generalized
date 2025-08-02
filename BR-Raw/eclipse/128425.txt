@@ -1,0 +1,3 @@
+[Help] Help button should not show up in dialogs without help context ID
+
+I20060216-2000 The Help button should not show up in dialogs without help context ID. Examples in this build are the 'Source > Clean Up...' wizard or 'plugin context menu > PDE Tools > Organize Manifests...'.

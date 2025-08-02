@@ -1,0 +1,2 @@
+[statushandling] JFace ErrorDialog should recommend using StatusManager in javadoc
+

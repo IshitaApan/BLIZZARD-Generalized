@@ -1,0 +1,3 @@
+Group created with SWT.CENTER style
+
+3.0 M3 test candidate The first line of ViewsPreferencePage.createButtonGroup(...) creates a Group with style SWT.CENTER, which isn't a valid style for a Group. This problem was actually causing Eclipse to GP on Motif because another swt constant which IS meant to be used in this context has the same value. We've made a change to detect this case (ie.- to make the crash go away), but use of SWT.CENTER in this context should still be removed in the ui.

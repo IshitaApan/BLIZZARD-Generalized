@@ -1,0 +1,3 @@
+[Dialogs] FilteredItemsSelectionDialog should show view menu on mouseDown
+
+I20070306-1200 FilteredItemsSelectionDialog should show the view menu on mouseDown. Fix is trivial: Add this to FilteredItemsSelectionDialog.createViewMenu(..): 		toolBar.addMouseListener(new MouseAdapter() { 			public void mouseDown(MouseEvent e) { 				showViewMenu(); 			} 		});

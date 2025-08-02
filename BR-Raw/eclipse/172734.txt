@@ -1,0 +1,3 @@
+[PropertiesDialog] PropertyDialogAction.isApplicableForSelection does not consider if the page is applicable
+
+PropertyDialogAction.isApplicableForSelection returns true no matter if none of the IPropertyPageContributor are applicable to the object (return true for isApplicableTo(Object). I would propose the implementation of PropertyDialogAction.isApplicableForSelection should use PropertyPageContributorManager.getApplicableContributors

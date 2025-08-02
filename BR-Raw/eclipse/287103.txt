@@ -1,0 +1,3 @@
+[CommonNavigator] contentServiceLabelProvider doesn't properly implement overrides
+
+Created attachment 145002 This patch fixes the issue for text, images and labels. Build ID: M20090211-1700 Steps To Reproduce: See unit tests provided in bug 285344. More information: The logic in contentServiceLabelProvider doesn't support overriding extensions that provide labels without providing content. The feature may seem to work in 3.5 but that is only because of the broken source contribution memory as described in 285344.

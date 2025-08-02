@@ -1,0 +1,3 @@
+[FieldAssist] cancel auto activation of proposal popup when caret moved
+
+Created attachment 118803 Proposed Fix I20081125-0840 - open Find/Replace dialog in a text editor and enable Regex - type 'hello)' (without quotes) - press Home - type '(', then quickly press End, Arrow_Right, or Ctrl+Arrow_Right => content assist proposal popup is auto-activated at the end of the field => expected: auto-activation should be canceled when the caret is moved

@@ -1,0 +1,3 @@
+BooleanFieldEditor gets out of synch after restoring defaults
+
+Build 20020528 The boolean field editor does not send the property changed event after "Restore Defaults" is pressed on a preference page. This is because the editor keeps the state of the last value (field wasSelected) which is not updated when the defaults are restored.

@@ -1,0 +1,3 @@
+Objects leaked when opening and closing an editor
+
+M20120909-2000. Objects are leaked in a simple close/open text editor scenario. Simple test case: 0. start new workspace 1. prepare a perspective with only the Navigator view open with a text file in it 2. reset the instance counter of your profiler 3. open the editor 4. close the editor ==> several instances are leaked, e.g. XMLMemento, EclipseContext, NavigationHistoryEntry, ValueComputation, etc.

@@ -1,0 +1,3 @@
+[Import/Export] "Import Existing Project" from zip locks file - prevents deletion
+
+Build: M20060629-1905 Even though I cancel the Import Existing Project wizard without completing it, the zip file selected becomes (and remains) locked and cannot be deleted until the workbench is closed. Steps: File > Import > Existing Projects Into Workspace Select a zip file that does not contain any projects Cancel the wizard, but leave the workbench running Attempt to delete the zipfile Result: On Windows XP, this will result in system error stating: "Cannot delete <filename>: It is being used by another person or program." This problem will continue until the workbench is closed.

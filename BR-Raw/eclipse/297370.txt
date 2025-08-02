@@ -1,0 +1,3 @@
+[QuickAccess] Text at bottom of dialog should say that pressing ctrl-3 will change filtering
+
+1. Press Ctrl-3 to open quick access 2. Type something to show some matches (i.e. Java) 3. Text at bottom says "Press Ctrl-3 to show all matches" 4. Press Ctrl-3 again 5. More matches get shown, text at bottom goes blank 6. Press Ctrl-3 again, only 'best' (recent?) matches are shown Trivial problem, but since the option to flip between the filtering is there, we might as well advertise it to the user.

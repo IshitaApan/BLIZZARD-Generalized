@@ -1,0 +1,3 @@
+[About] up/down buttons don't enable for About->Plug-in Details->Columns
+
+The Columns dialog in About->Plug-in Details->Columns has an up and a down button. They don't enable when a list item is selected.

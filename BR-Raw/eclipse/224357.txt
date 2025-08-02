@@ -1,0 +1,3 @@
+BIDI3.4:HCG Incomplete mirroring of the Outline view
+
+Created attachment 93795 Capscreen Build ID: 20080314_1059 Steps To Reproduce: 1.On a Windows platform with Hebrew default locale lauch Eclipse with the -nl iw argument 2. Create a new Java Project 3. Create a new class 4. Look at the Outline view Some icons are not correctly mirrored (see the attached capscreen): Their positions are not correct More information:

@@ -1,0 +1,3 @@
+[Compatibility] ISources.ACTIVE_EDITOR_ID_NAME is not in the context
+
+Much of the 3.x framework relies on ISources, this needs to be retrievable.

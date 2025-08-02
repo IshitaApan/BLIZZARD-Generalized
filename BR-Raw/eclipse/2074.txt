@@ -1,0 +1,3 @@
+PropertySheet should expand categories by default (1GE36VQ)
+
+PRODUCT VERSION: Eclipse 107 The property sheet should expand categories when displaying categories. Currently, they are collapsed, and if I expand them, expansion is just temporary should they dissappear and come back. This makes using the category feature frustating, to the point where the user will always turn off "show categories". The fix would be to expand categories by default.

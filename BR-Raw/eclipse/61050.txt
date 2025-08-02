@@ -1,0 +1,3 @@
+[Commands] Color badness in KeysPreferencePage
+
+The keys preference page is creating colors without disposing them (see the end of the buildKeySequenceAssignmentTable() and buildCommandAssignmentTable() methods). Additionally, it's hardcoding this color to be medium grey which. Hardcoding bad, system colors good.

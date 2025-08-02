@@ -1,0 +1,3 @@
+[Dialogs] Error messages show up in two locations in the properties dialog
+
+Force an error message: 1) select a Java project 2) open the properties dialog 3) navigate to Java Compiler>Building 4) enable project specific settings 5) enter a letter into the maximum number of problems field ->the error message shows up at the bottom 6) resize the dialog ->the error message also shows up in the banner

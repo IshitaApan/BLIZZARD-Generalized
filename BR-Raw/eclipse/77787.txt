@@ -1,0 +1,3 @@
+[Commands] misc: dependency on Swing and AWT
+
+3.1 stream (HEAD) org.eclipse.ui.workbench plug-in org.eclipse.ui.internal.commands.ws.WidgetMethodHandler import java.awt.Component; import javax.swing.FocusManager; import javax.swing.SwingUtilities; The fix for bug 63235 introduced an explicit dependency on Swing and AWT into the Eclipse Platform code base. We've always been careful to avoid any compile- time/link-time dependencies on Swing and AWT. That way customers can run the Eclipse Platform with reduced class libraries, and not have to have the full set of javax libraries. These compile-time/link-time dependencies should be removed. It necessary, they should be replaced by equivalent reflective code without compile- time/link-time dependencies.

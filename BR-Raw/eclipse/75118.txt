@@ -1,0 +1,3 @@
+[Wizards] Primary wizards duplicates
+
+Primary wizards are no filtering duplicates. My scenario is that we have serveral products that can be installed on the same Eclipse base. Each of these products defines its own set of primary wizards, some of which are installed by multiple products. Here is an example snippet: <extension point="org.eclipse.ui.newWizards"> <primaryWizard id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"> </primaryWizard> </extension> So, the user sees lots of duplicates for primary wizards. Please try to look at this for 3.0.1.1.

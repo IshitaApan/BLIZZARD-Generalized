@@ -1,0 +1,3 @@
+[Workbench] lock on .metadata/.lock is never released
+
+Build ID: 3.3 Steps To Reproduce: 1. Debug eclipse, 1 breakpoint in basiclocation:lock 2. 2nd breakpoint in basiclocation:release 3. During the entire run only the lock call is reached. More information: The lock should be released at the end of the Eclipse session.

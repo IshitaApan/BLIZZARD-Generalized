@@ -1,0 +1,3 @@
+[DataBinding] ObservablesManager does not dispose model
+
+Created attachment 75390 Test case for ObservablesManager Build ID: HEAD Steps To Reproduce: 1. Run ObservablesManagerTest contained in attached patch. 2. Note that the test fails as the model observable's dispose method isn't called. More information:

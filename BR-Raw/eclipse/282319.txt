@@ -1,0 +1,3 @@
+[PhotoDemo] Fails on OS-X with a Image-Disposed error from SWT
+
+Created attachment 140716 patch The Preview-Code fails on Cocoa with an SWT.Dispose-Exception when drawing the image. The reason is that the image disposal happens out side the UI-Thread and hence there's the raise condition that we are disposing the image while the UI tries to draw it for us.

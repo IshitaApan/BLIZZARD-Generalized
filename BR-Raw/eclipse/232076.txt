@@ -1,0 +1,3 @@
+[WorkingSets] Calls to WorkingSet executable extensions need SafeRunnable wrappers
+
+I20080513-0817 There are many calls out into user code in AbstractWorkingSetManager that need SafeRunnable wrappers.

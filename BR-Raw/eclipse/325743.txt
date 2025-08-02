@@ -1,0 +1,3 @@
+[PropertiesView] Blank display when maximize Properties view for a resource in a different view
+
+Build Identifier: M20100211-1343 The properties view displays the properties information successfully when maximize the properties view for a file resource that resides in the same view within the Eclipse Workbench. It is when the file resource does not reside in the same view as the Properties View that maximizing the Properties View shows a blank view. This problem does not occur in Eclipse 3.4.1 but does occur in Eclipse 3.5 and 3.6. Reproducible: Always Steps to Reproduce: 1. Click on Properties for a file resource in view that is in a different view than the Properties View. 2. Click on maximize in the Properties view. 3. The data in the Properties View is gone.

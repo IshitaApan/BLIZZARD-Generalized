@@ -1,0 +1,3 @@
+[Commands] ParameterizedCommand#equals broken
+
+Having two parameterized commands initialized with the constructor do not equals if the order of the parameterizations is not the same.

@@ -1,0 +1,3 @@
+Make the standard addons 'auto-install'
+
+Create a model processor extension to the addons bundle to automatically add the Cleanup, Min/Max and DnD addons. This will allow the addons to be 'installed' into an app just by adding the bundle.

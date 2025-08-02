@@ -1,0 +1,3 @@
+[Commands] help: Read help context id from legacy extension points
+
+The help context identifier needs to be read from legacy action-based extension points.

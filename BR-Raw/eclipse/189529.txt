@@ -1,0 +1,3 @@
+[CommonNavigator] Project Navigator - Customization dialog should use straight tabs or border
+
+3.3. I0527 1. Open the resource perspective with the Project Navigator 2. Click the view menu and select "Customization" The resulting dialog has two tabs along the tops. These tabs look odd because they are using the curved style but no top border. Thus you get a curve for the unselected tab but that curve just stops. The dialog is better to use the traditional tab style, or it needs to add a top border (which probably won't look good though). Other choise is to use the 3.0 presentation style, which is curved selected tab but straight for the non selected.

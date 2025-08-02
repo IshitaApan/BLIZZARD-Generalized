@@ -1,0 +1,3 @@
+Cannot delete a bookmark in the new markers view
+
+The delete action is not enabled for bookmarks

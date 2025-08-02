@@ -1,0 +1,3 @@
+[Decorators] disappearing incoming decorators in synchronize view
+
+Created attachment 93355 screen shot I20080324-1800 1. Open synchronize view 2. Incoming changes 3. Expand a node Is: Leafs show incoming modification decoration for about a sec and then the decorator disappears. Should: Not disappear

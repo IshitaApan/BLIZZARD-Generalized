@@ -1,0 +1,3 @@
+[DataBinding] DataBindingContext shouldn't expose the bindings list as a mutable list
+
+Currently in DataBindingContext getBindings() exposes the bindings observable list as a mutable observable list. I think we need to make this an unmodifiable list and also add a removeBinding(Binding binding) method to the API of DataBindingContext so that the DBC can remove itself from the binding when removed from the DBC. I'll create a patch soon.

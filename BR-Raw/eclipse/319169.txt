@@ -1,0 +1,3 @@
+[UI] active parts in Detached windows prevent activating a part in the main window
+
+Start with a fresh WS Detach the Outline view using DnD Now you can no longer activate any part in the main window (i.e. Package Explorer). The cause seems to be that the 'rootContainer' has become the DW's MTrimmedWindow rather than the DW's containing MPerspective. This causes the PartService's 'activate' to fail the 'isInContainer()' test...

@@ -1,0 +1,3 @@
+[DnD] Disposing the TrimCommonUIHandle causes the 'capture' to fail
+
+While dragging trim and moving the cursor outside the shell we expect that the events are still routed to the shell for handling. However, moving the trim location causes the trim UI Handle to be disposed and when that happens the capture is lost. (Simply setting the handle invisible but not disposing it leaks a widget but otherwise works 'correctly').

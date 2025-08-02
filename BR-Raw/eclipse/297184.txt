@@ -1,0 +1,3 @@
+[Wizards] [resource filters] New file wizard should not allow to create files that are excluded by resource filter
+
+Build : I20091207-1800 If the user creates a new file from the "File | New..." wizard that is actually filtered out by its parent resource filters, it will show up just after creation, but it will disappear from the resource tree when the user manually refreshes the view. 1) The PE should either not show this file, and hide it from the view if it is filtered, or show a different icon for such files. 2) The wizard should show a warning that the created file is already filtered.

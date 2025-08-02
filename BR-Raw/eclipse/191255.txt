@@ -1,0 +1,3 @@
+[Activities] GenerateIdentifiersTest#Generate 10000 identifiers() is not enough reliable to be in fingerprints
+
+Looking at test GenerateIdentifiersTest#Generate 10000 identifiers() on org.eclipse.ui performance results page, it looks like results for test GenerateIdentifiersTest#Generate 10000 identifiers() are not enough reliable to be put in fingerprints. For example, results for build I20070605-0010 shows yellow results on all boxes with following numbers: -569.1% [±58.3] +4.8% [±9.5] -10.4% [±8.0] -109.6% [±50.5] -8.0% [±11.5] Test results history shows a great fluctuation of these numbers, so I think it would be safer to remove this test from the fingerprints until this test is not stabilized...

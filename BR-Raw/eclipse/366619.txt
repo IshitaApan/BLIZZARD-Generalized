@@ -1,0 +1,3 @@
+Test failures in DecoratorsTestSuite on 4.x
+
+Created attachment 208337 Failure logs The ExceptionDecoratorTestCase tests fail (testEnableDecorator() and testDisableDecorator()) on teardown with the following error message: Enabled Bug 41545 Heavy Image

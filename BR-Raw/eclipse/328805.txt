@@ -1,0 +1,3 @@
+[Workbench] Some Tests with unused local variables
+
+Created attachment 181814 Patch V01 http://dev.eclipse.org/mhonarc/lists/platform-releng-dev/msg17570.html Before doing the build submission, I am expanding the shorthand operators so that these are not marked as errors. Please look into the tests as indicated by the attached patch. Build Id: I20101025-1800

@@ -1,0 +1,3 @@
+Copy/Paste Problems with nightly build (20040207)
+
+I am doing some testing with the nightly build (20040207) and I was copy some text from a Java editor to the launch configuration dialog. When I tried to paste the text into the dialog, it was pasted back into the editor. This could be an SWT problem but Tod felt that it may also be related to the Command rework so I'm giving it to UI to start with.

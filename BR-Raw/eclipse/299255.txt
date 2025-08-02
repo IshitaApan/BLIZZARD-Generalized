@@ -1,0 +1,3 @@
+[CommonNavigator] Hook new CNF tests to plugin.xml
+
+Patch contributed by Franck Mangin, FICO, see bug 287261, bug 285529

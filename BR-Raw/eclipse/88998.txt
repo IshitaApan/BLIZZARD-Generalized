@@ -1,0 +1,3 @@
+Clean dialog layout is wasteful
+
+The clean dialog has a large empty space on the left that will never be used. I think the layout should be improved. Perhaps the radio buttons on the top and table underneath.

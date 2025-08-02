@@ -1,0 +1,3 @@
+[Compatibility] Property listeners on part references do not get notified of part property changes
+
+junit.framework.ComparisonFailure: null expected:<org.eclipse.ui.test.user> but was:<null> 	at junit.framework.Assert.assertEquals(Assert.java:81) 	at junit.framework.Assert.assertEquals(Assert.java:87) 	at org.eclipse.ui.tests.api.workbenchpart.ArbitraryPropertyTest.testViewProperties(ArbitraryPropertyTest.java:108) junit.framework.ComparisonFailure: null expected:<org.eclipse.ui.test.user> but was:<null> 	at junit.framework.Assert.assertEquals(Assert.java:81) 	at junit.framework.Assert.assertEquals(Assert.java:87) 	at org.eclipse.ui.tests.api.workbenchpart.ArbitraryPropertyTest.testEditorProperties(ArbitraryPropertyTest.java:174)

@@ -1,0 +1,3 @@
+[FieldAssist] ControlDecoration#showHoverText doesn't check if the widget is visible
+
+If the HOVER-Text is set on decoration of a widget which is invisible the Hover-Shell is still poping up because it doesn't check if the control is invisible make the Hover appearing somewhere on the screen.

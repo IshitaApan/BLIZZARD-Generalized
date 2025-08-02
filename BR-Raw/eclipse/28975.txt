@@ -1,0 +1,3 @@
+[Linked Resources] Finish button not disabled when selecting folder as file parent
+
+build M4 -open the new file wizard -select a folder -enter a file name -in the advanced section check the linking check box ->An error message appears in the wizard header but the finish button is still enabled. Finish should be disabled.

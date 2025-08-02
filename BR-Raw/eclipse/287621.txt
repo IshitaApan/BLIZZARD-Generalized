@@ -1,0 +1,3 @@
+[CommonNavigator] Add more tracing
+
+To better help diagnose problems in the field. This code was originally in the patch for bug 273660

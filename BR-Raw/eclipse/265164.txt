@@ -1,0 +1,3 @@
+Consolidate all interface access under the appropriate context
+
+At the moment the various 'Legacy<xxx>' implementations maintain discreet fields to store a variety of interface implementations (IWorkbench, IWorkbenchWindow, IPartSite...). With the new Context menchanism in place these should be placed in to the context structure at the appropriate location in the context tree and all the access methods (getService, getAdapter and a variety of 'direct' access API's like 'IWorkbecnh#getWorkingSetManager') should use the context to gain access to the API interface.

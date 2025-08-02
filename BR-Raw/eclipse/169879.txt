@@ -1,0 +1,3 @@
+[Dialogs] Runtime exception in DialogTray.createContents() creates zombie dialog
+
+3.3M4 1) Create a DialogTray that will throw an NPE in its createContents() method 2) Create a TrayDialog and set its tray to the above tray 3) attempt to close the dialog You will get NPEs in closeTray() that result in a Dialog that cannot be closed. This is especially bad if it's modal.

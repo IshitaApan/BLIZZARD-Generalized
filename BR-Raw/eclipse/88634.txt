@@ -1,0 +1,3 @@
+[ActivityMgmt] move activity image binding to the activitySupport extension point
+
+Images are really peripheral to activities and their declaration should be moved to the activitySupport extension point

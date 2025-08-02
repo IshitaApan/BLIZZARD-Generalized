@@ -1,0 +1,3 @@
+Contributing action sets from plugin fragments
+
+Build: 20020328 I attempted to contribute an action set to the UI plugin. The class for the action delegate was found, but the icons were not. I believe this is due to the fact that WorkbenchImages.getImageDescriptorFromExtension(...) does not search plugin fragments for icons. This means that translators cannot provide translated icons. It also means that product developers cannot override the default icons with icons of their own.

@@ -1,0 +1,3 @@
+[BIDI] need a commmand line option for orientation
+
+After consulation with Nick we have decided that we will add a command line option -orientation with one of two parameters = rtl or ltr. These values will override the implied values in IDEWorkbenchAdapter

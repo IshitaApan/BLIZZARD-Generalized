@@ -1,0 +1,3 @@
+[DynamicUI][RCP]AbstractUIPlugin.stop missing imageRegistry.dispose()
+
+The image registry created by an abstract ui plugin should be disposed if the plugin is stopped. Waiting for the Display to be disposed is not soon enough in a dynamic environment.

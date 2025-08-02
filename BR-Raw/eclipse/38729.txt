@@ -1,0 +1,3 @@
+[Preferences] NPE PreferencePage isValid
+
+getContainer may return null

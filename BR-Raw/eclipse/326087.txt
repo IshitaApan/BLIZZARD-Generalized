@@ -1,0 +1,3 @@
+StackRenderer arbitrarily changes selected element when MPartStack is being unrendered
+
+1. Open two files. 2. Activate the editor in the back. 3. Restart 4. The file in the wrong is active now. :O

@@ -1,0 +1,3 @@
+[CSS] Optimizing Linear Gradients
+
+Created attachment 168784 Optimize created image size I think we can optimize the Gradient-Support a bit: a) The gradient image must not be the full size of the composite but it's enough to make it 2px width because the background-image is tiled anyways b) We could even check then the size of the current image before disposing because if the y-size hasn't been changed we can simply skip recreating and resetting c) Is it a good idea to dipose the old image before setting a new one, or is this a possible raise condition (it should be changed anyways if we implement b))

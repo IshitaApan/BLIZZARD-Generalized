@@ -1,0 +1,3 @@
+[Compatibility] Remove WorkbenchFactory
+
+The factory is currently used to call the e4 Workbench constructor, but it adds another layer of indirection that we don't need at this point in time. PW

@@ -1,0 +1,3 @@
+'Restore Defaults' does not work on 'Resource Filters' properties page
+
+I20100302-0800. 'Restore Defaults' does not work on 'Resource Filters' properties page.

@@ -1,0 +1,3 @@
+[Contributions] ExternalActionManager.addPropertyChangeListener() doesn't register the ListenerList
+
+Created attachment 114163 Fix for the bug Build ID: I20080923-0800 Steps To Reproduce: Its currently: } else if (existing != null) { 	ListenerList listeners = new ListenerList(ListenerList.IDENTITY); 	listeners.add(existing); 	listeners.add(listener); } else { Ideally it should be: } else if (existing != null) { 	ListenerList listeners = new ListenerList(ListenerList.IDENTITY); 	listeners.add(existing); 	listeners.add(listener); 	registeredListeners.put(commandId, listeners); } else { More information:

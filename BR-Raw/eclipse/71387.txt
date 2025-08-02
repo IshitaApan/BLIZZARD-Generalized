@@ -1,0 +1,3 @@
+[ActivityMgmt]  Activity API needs to log parsing errors to workbench log
+
+Malformed activity extensions currently fail silently. We need to log these failures.

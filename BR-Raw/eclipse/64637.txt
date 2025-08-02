@@ -1,0 +1,3 @@
+Platform UI tests are unbearably slow
+
+I200405281200, amongst others. Our test suites are becoming slower and slower all the time. Not only this, but at least on my machine, there are always drag'n'drop test failures. This is severely impeding my ability to do build submissions, and is wasting a lot of my time.

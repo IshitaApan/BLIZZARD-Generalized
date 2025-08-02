@@ -1,0 +1,3 @@
+[Compatibility] Double Ctrl+O is not working
+
+It appears to have been a problem since at least RC1. It works in my original workspace but not if I spawn a new one. It is broken in the inner also.

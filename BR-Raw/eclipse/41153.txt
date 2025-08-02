@@ -1,0 +1,3 @@
+[Dialogs] Open resource not showing results
+
+I20030730 - create a simple project, with files a.txt and b.txt - with the navigator active in the resource perspective, hit Ctrl+Shift+R. - in the open resource dialog, type "*.txt" Observe: the dialog shows no matches - move the cursor left and right in the text field Observe: it now shows the results.

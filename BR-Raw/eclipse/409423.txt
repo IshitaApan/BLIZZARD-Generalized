@@ -1,0 +1,3 @@
+Setting clientArea disabled in WorkbenchWindow#run(..) still allows typing in Editor
+
+From Bug 409274 As part of fixing bug 404016, we disable disableControl(tpl.clientArea, toEnable); and that should disable all typing in the views and editors. Despite the ancestor of the editor StyledText being disabled, we were still able to type into the editor. PW

@@ -1,0 +1,3 @@
+-newUpdates dialog displayed while the splash is up
+
+When the workbench is triggered with -newUpdates the workbench and the dialog are displayed before the splash is taken down. The splash stays up until the user clicks-off the dialog. We should be taking the splash down before showing the workbench and the dialog

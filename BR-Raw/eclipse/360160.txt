@@ -1,0 +1,3 @@
+[Compatibility] Saved perspective returns after the original has been closed
+
+1. Window > Open Perspective > Debug 2. Save the perspective. 3. Close the perspective. 4. The 'Debug' perspective comes back.

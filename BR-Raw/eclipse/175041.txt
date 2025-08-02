@@ -1,0 +1,3 @@
+[ErrorHandling] OutOfMemory error handling is commented out
+
+20070220 StatusNotificatioManager addError has the following code. This does nothing and is full of TODOs. 	if (exception != null && exception instanceof OutOfMemoryError) { 			PlatformUI.getWorkbench().getDisplay().asyncExec(new Runnable() { 				//TODO change !!! possible invocation loops 				/* 				 * (non-Javadoc) 				 * 				 * @see java.lang.Runnable#run() 				 */ 				public void run() { 					// is it really needed 					//ExceptionHandler.getInstance().handleException(exception); 				} 			}); 			return; 		}

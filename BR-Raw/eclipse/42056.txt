@@ -1,0 +1,3 @@
+[Dialogs] New Path Variable Dialog; lable alignment
+
+The "Name" and "Location" labels should be bottom aligned with their corresponding text fields.

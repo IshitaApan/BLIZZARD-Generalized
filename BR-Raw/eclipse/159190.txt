@@ -1,0 +1,3 @@
+[Viewers] multiple dispose listeners for elements in VIRTUAL tree viewer
+
+3.3 Each time an element is mapped in a VIRTUAL tree viewer, a dispose listener is hooked to its item to properly unmap it. However, elements are mapped to the same item more than once (each time it is updated via doUpdateItem(Widget widget, Object element, boolean fullMap)). This results in many dispose listeners for each element to unmap it, which is a potential performance issue. The debugger subclasses the tree viewer and updates (clears) filtered children when an element is unmapped. It ends up doing the operation many times (once for each dispose callback), instead of once.

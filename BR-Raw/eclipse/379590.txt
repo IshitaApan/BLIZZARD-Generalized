@@ -1,0 +1,3 @@
+Part dragging not exiting drag mode
+
+I20120510-1900 I sometimes get into a state where the workbench thinks I am dragging a part bug I have released the mouse button already. I can now easily reproduce this: - While the mouse is moving over a part tab, do a mouse button down - Stop moving, and mouse up. -> Now I am no longer holding the button down, but the workbench still thinks I am dragging (there are green boxes everywhere I move the mouse). You can easily get back into a good state again by hitting Esc, but it is disconcerting when this happens

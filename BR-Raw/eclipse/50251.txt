@@ -1,0 +1,3 @@
+[EditorMgmt] double click  plugin.xml of a certain project, and focus goes to an plugin.xml in an editor from another project
+
+i have 3plugin projects,A,B&C. I open A/plugin.xml, A/plugin.properties, B/plugin.xml, B/plugin.properties I close eclipse and bring it back up, now i double click C/plugin.xml and focus switches to A/plugin.xml instead of opening C/plugin.xml

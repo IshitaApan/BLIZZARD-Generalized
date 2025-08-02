@@ -1,0 +1,3 @@
+[DataBinding] Provide support for wizard pages
+
+A data binding context cannot be hooked up to a wizard page directly because you don't want error messages (e.g. about empty fields) to show up before the user has started typing. We should add API that helps clients do this properly. I'll attach the proposed API and implementation.

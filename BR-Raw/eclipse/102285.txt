@@ -1,0 +1,3 @@
+[Import/Export] Project Import wizard unusably slow
+
+R3.1 I wanted to create a new 3.2 workspace and import some projects from my 3.1 development workspace which contains around 120 plug-ins. I've set the root of the importer to point at those plug-ins. After letting the wizard scan my disk for over 10 minutes I gave up and did it manually. A possible source for the problem might be that the root directory (as expected) contains a .metadata directory with tons of data (in my case) and that this one is fully scanned.

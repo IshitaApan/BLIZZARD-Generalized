@@ -1,0 +1,3 @@
+[WorkingSets] WorkbenchPage's setWorkingSets(IWorkingSet[]) has an impossible null conditional check
+
+There is a null check in the beginning of the method that proceeds to make it non-null by assigning it to an empty array. Then on line 4984-5 it assigns it to another non-null result. On line 4996 there's a null check and add a listener to it or remove a listener. It seems that the null check shouldn't be necessary. Also, could it be possible that we are leaking the workingSetPropertyChangeListener listener?

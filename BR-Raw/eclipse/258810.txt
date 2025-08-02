@@ -1,0 +1,3 @@
+[Markers] Markers for the entire workspace show up when working set empty
+
+Created attachment 120463 Patch 1 Build ID: I20081211-1908 Steps To Reproduce: 1. Navigate to markers view : menu : Configure Contents ... 2. Select Scope :On working set 3. Click 'Select...' 4. Select a working set or add an new working set, click OK. 5. Remove all elements from working set, ensure it is empty 6. Observe the markers view. For the above settings, when working set is empty the markers view should not show any markers

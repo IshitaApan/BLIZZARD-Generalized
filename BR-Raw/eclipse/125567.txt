@@ -1,0 +1,3 @@
+[MPE] Service activation should be done in a different method
+
+As it stands right now, services are activated in MultiPageEditorPart.setFocus(int). This is probably the wrong place for this to be happening, as it is only ever called by setFocus() and setFocus() can be re-implemented. It might be better to put it in a method does not specifically allow overriding. I would suggest pageChange(int).

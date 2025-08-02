@@ -1,0 +1,3 @@
+[ViewMgmt] View actions are on top of another view
+
+Build: 200405040800 1. Open the resources perspective (reset if modifications have been made) 2. Drag the top of the outline page as high as it will go. You will hide most of the Navigator view in the process. Note that when you let go the Navigator's actions are on top of the outline view.

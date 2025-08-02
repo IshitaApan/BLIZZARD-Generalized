@@ -1,0 +1,3 @@
+[Editor Mgmt] Graphic is disposed error on startup
+
+Build 20021105 1. Started Eclipse. My workspace had two editors opened. 2. Attempted to close one of the editors. Didn't work due to graphic is disposed error. Had to shut down Eclipse. Once I restarted things were okay. It looks like I had the graphic is disposed call before I attempted to close the editor. See log.

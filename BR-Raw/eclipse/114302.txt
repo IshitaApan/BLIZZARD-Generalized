@@ -1,0 +1,3 @@
+[EditorMgmt] improve API doc EditorInput#getName should never return null
+
+checked by PartTester#testEditorInput(IEditorInput)

@@ -1,0 +1,3 @@
+Cannot read workbench state if all perspectives closed
+
+If you close all of the perspectives in your workbench, exit and return you get an error that says "Cannot read workbench state".

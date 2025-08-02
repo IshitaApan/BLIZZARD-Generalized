@@ -1,0 +1,3 @@
+[Examples] [doc] update rcp browser example documentation
+
+The rcp browser example documentation should be updated to reference the new IApplication API. I also noticed the browser example does not do anything for the IApplication.stop() method. I will attach a patch with the doc updates and the implementation of stop in the browser example.

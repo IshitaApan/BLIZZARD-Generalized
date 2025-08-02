@@ -1,0 +1,3 @@
+[Compatibility] List of recently opened editors not persisted across workbench restarts
+
+The list of recently opened editors under the 'File' menu needs to be persisted across restarts.

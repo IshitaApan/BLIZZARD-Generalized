@@ -1,0 +1,3 @@
+[ViewMgmt] View registry API exposes internal Category class
+
+3.1 M5 IViewRegistry has: public Category[] getCategories(); but Category is internal. Either we need to provide an IViewCategory (similar to IWizardCategory) or provide a shared ICategory interface that can be used across multiple extension registries.

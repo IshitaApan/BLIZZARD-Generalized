@@ -1,0 +1,3 @@
+Unable to get dropdown menu in ToolItem to display
+
+Created attachment 223416 Project that reproduces the issue I have been trying to get dropdown menu to display in a toolitem, but haven't been able to get it to work. I am using the MMenuFactory to create a MDirectToolItem and then I am setting a MMenu on that tool item. The MMenu has a couple items in it. When I run the application the tool item displays with the down arrow, but when I click on the down arrow the menu doesn't display. I will attach screen prints and a project that reproduces the issue.

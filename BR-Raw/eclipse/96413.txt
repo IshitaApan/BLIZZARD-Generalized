@@ -1,0 +1,3 @@
+[Preferences] articulate why a given editor is locked
+
+From Bug 91965: ------ Additional Comment #7 From Daniel Megert 2005-05-19 06:11 [reply] ------- Looked at it in N20050519-0010: It's good that the editor which is bound via content type can't be removed from the 'File Associations' page anymore. I would show the content type on the ''File Associations' page as well, either in the list (which is probably harder and more work): *.xml (Ant Buildfile) or below in the 'Assiciated editors' area: Ant Editor (locked by Ant Buildfile) or: Ant Editor (locked by Ant Buildfile content type)

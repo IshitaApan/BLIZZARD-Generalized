@@ -1,0 +1,3 @@
+[Databinding] UpdateValueStrategy.setBeforeSetValidator() breaks call chaining
+
+Build ID: I20070319-0010 In the class UpdateValueStrategy the method setBeforeSetValidator() returns UpdateStrategy instead of UpdateValueStrategy. It breaks the call chaining. Should it not match the return type from setAfterConvertValidator(), setAfterGetValidator(), and setConverter()?

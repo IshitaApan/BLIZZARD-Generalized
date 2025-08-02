@@ -1,0 +1,3 @@
+[QuickAccess] Quick Access steals focus
+
+4.2 and M20120905-2300. After executing an editor command via Quick Access, the focus remains in the Quick Access search field and I can't continue to type in the editor. This makes this feature unusable for me. This works fine in 3.8.

@@ -1,0 +1,3 @@
+[Compatibility] Bring over CommandImageService, unblock CommandAction
+
+Created attachment 159837 Command Images bridge v02 CommandAction and other code retrieve descriptors from the CommandImageService. It's JFace based, and will work with minimal changes. PW

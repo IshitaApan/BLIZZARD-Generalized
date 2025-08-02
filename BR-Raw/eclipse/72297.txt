@@ -1,0 +1,3 @@
+[DnD] ViewerDropAdapter impossible to set DND.FEEDBACK_NONE
+
+It is not possible to disable selection feedback in ViewerDropAdapter. There are setFeedbackEnabled(false) and setScrollExpandEnabled(false) methods to turn off the feedback effects. If those methods are used, selection feedback still provided. It is not possible to turn it off, elements are still selected when drag is over them. Overriding method; private void setFeedback(DropTargetEvent event, int location) { 	event.feedback = DND.FEEDBACK_NONE;	 } - does not chenge the feedback either. setFeedbackEnabled() should be extended to disable SELECTION feedback or new method created, setSelectionFeedback().

@@ -1,0 +1,3 @@
+[Workbench] Window > Show View should be disabled if all perspectives closed
+
+3.0 RC2 Test Pass When all perspectives are close the Window > Show View menu item should be disabled since there are no entries.

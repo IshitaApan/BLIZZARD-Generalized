@@ -1,0 +1,3 @@
+Use BufferedReader with InputStreamReader
+
+build 20021216 InputStreamReader should usually be wrapped with a BufferedReader for a cheap potential performance gain. See bug 20791. The following places do not currently do this, probably because they were changed after bug 20791 was fixed: ZipFileResourceExporter.appendToManifest ZipFileExporter.appendToManifest PerspectiveRegistry.loadCustom

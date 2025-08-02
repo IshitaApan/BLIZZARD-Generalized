@@ -1,0 +1,3 @@
+[Dialogs] StatusDialog: when status is on same line as button bar, status is aggressively truncated
+
+Version: 3.2.0 Build id: I20060602-1317 On my workstation, there remains plenty of space to expand the message. Don't know how easy it would be to get it to 'auto-adjust', but the result is a bit disappointing. [I'll attached a partial screen copy.]

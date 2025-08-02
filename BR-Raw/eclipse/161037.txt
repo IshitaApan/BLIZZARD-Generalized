@@ -1,0 +1,3 @@
+Compile warnings in N20061014-0010/compilelogs/platform.doc.isv.javadoc.txt
+
+/builds/N200610140010/src/plugins/org.eclipse.platform.doc.isv/../org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/dialogs/FilteredItemsSelectionDialog.java:1346: warning - @return tag has no arguments. /builds/N200610140010/src/plugins/org.eclipse.platform.doc.isv/../org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/dialogs/FilteredItemsSelectionDialog.java:1339: warning - @return tag has no arguments.

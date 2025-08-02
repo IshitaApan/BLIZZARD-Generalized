@@ -1,0 +1,3 @@
+[Navigator] Goto resource should work on the package view as well.
+
+Build id: 200211130841 Open a Java Perspective. Enable the Resource Navigation action set. Activate Navigator. The goto type is disabled. Activate the Hierarchy view. Go to resource is enabled (** should be disabled). The goto resource should work only if Navigator is active. And the package view should be able to plug a handler for that action so that Go to resource can be used in the package view also since it shows resources.

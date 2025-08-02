@@ -1,0 +1,3 @@
+Regression to 4.x: Workbench window as runnable context does not work/block
+
+4.2. We call IRunnableContext.run(true, true, op) where the context is the workbench window. In contrast to 3.x this does not block the UI and allows the user to continue to mess around with the UI, e.g. typing text. BTW ww.run(...) has this suspicious comment: // Temporary Hack for bug 330106, remove when bug 334093 is fixed Test Case: 1. start fresh workspace 2. paste: "class A extends Object {}" into Package Explorer 3. select "Object" in the editor 4. press Ctrl+T ==> type some stuff. In 3.x this was not possible, while in 4.x it just changes the editor's text.

@@ -1,0 +1,3 @@
+View menus cannot be rendered, throws IAE
+
+Click on any view's view menu, an IAE will be thrown. I'm quite positive this used to work. java.lang.IllegalArgumentException: The widget must be MenuItem, Decorations, or Control but is: ToolItem {} 	at org.eclipse.e4.workbench.ui.renderers.swt.SWTPartRenderer.createMenu(SWTPartRenderer.java:73) 	at org.eclipse.e4.workbench.ui.renderers.swt.StackRenderer.showMenu(StackRenderer.java:478) 	at org.eclipse.e4.workbench.ui.renderers.swt.StackRenderer$8.widgetSelected(StackRenderer.java:463) 	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:228)

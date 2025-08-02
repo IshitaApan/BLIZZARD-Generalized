@@ -1,0 +1,3 @@
+UITopicBase should not include the word "model" in its value
+
+It appears that we are on the eve of creating non-model related events in E4. That being the case, I don't believe the root constant UITopicBase should really include the word model. Whether or not this should be expanded to a rename of the field itself is open to debate. While not the best name, given it is currently being used for model events only ... it may be too pervasive and entrenched to be changed.

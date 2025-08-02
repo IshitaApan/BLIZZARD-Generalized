@@ -1,0 +1,3 @@
+[WorkingSets] IWorkingSet should extend IAdaptable
+
+3.2 Since WorkingSet implements IAdatable, IWorkingSet should extend it as well. I had a if-else cascade where I first checked for IAdaptable and the work IWorkingSet and it took me some time why I never hit the IWorkingSet branch

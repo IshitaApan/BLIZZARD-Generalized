@@ -1,0 +1,3 @@
+[EditorMgmt] Wildcard at end of file association string should be invalid
+
+You are able to use a wildcard (*) at the end of a string representing a filetype. For example the following is valid *.java@@.* This is the case even though associating a specific editor with something like the above example does not work. If you were to associate the above filetype with the Java editor you still end up getting the default editor when you tried to open the file for editing. You should either - Permit the association of a filetype ending with a wildcard to a specific editor or - Do not the use of a wildcard at the end of a filetype

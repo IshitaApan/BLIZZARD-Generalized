@@ -1,0 +1,3 @@
+[ActivityMgmt] The wizard entry is displayed in the New dialog, even if activities extension is specified to hide the wizard entry.
+
+Build ID: 20061106 Steps To Reproduce: The wizard entry is displayed in the New dialog, even if activities extension is specified to hide the wizard entry. Result of debugging it, I think that it is because the method returns local ID instead of plug-in ID in the following method. Plugin : org.eclipse.ui.workbench Folder: /Eclipse UI/org/eclipse/ui/internal/dialogs/ File: WorkbenchWizardNode.java Method: getPluginId More information:

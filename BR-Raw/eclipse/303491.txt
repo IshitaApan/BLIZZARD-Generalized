@@ -1,0 +1,3 @@
+[Compatibility] legacy views take up half their width
+
+The legacy views that come up only take up half their width. I believe we have a rogue toolbar taking up the other half (it would be less of a problem if there were any tool items in the toolbar :-) PW

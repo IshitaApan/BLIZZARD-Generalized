@@ -1,0 +1,3 @@
+[Viewers] [api] protected field StructuredViewer.colorAndFontCollector
+
+3.1 HEAD colorAndFontCollector protected ColorAndFontCollector colorAndFontCollector This read-write field was added as API in the 3.1 cycle. Exposing fields as API (other than public static final ones) is bad practice because a client can change the field and there's nothing the class can do to prevent or even track that change. All access to read-write field should be through accessor methods, including access from subclasses. Also, this field is missing an @since 3.1 tag.

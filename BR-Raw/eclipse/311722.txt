@@ -1,0 +1,3 @@
+E4XMIResource's getUniqueId() is implemented incorrectly
+
+private String getUniqueId() { String id = createId(); while (objectMap.get(id) != null) { id = createId(); } return id; } Here, 'objectMap' is a Map<EObject, String> but we use a String as a key. This is obviously wrong.

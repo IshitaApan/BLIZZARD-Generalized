@@ -1,0 +1,3 @@
+[Compatibility] IEditorMatchingStrategy processing is unimplemented
+
+Opening a bundle's MANIFEST.MF and plugin.xml file should just spawn one editor instead of two.

@@ -1,0 +1,3 @@
+[Contributions] [ViewMgmt] Console actions leaking after each launch
+
+For each launch that terminates and is removed, two console actions are leaked (which also keep a fair bit of the previous launch session in memory). Test case: Ran a program to termination. Removed the program via the Debug view ConsoleTerminateActionDelegate and ConsoleRemoveAllTerminatedActionDelegate leaked per launch. The reference that is keeping them in memory is that addition as selection changed listeners. But I don't understand why the dispose is not freeing them up....?

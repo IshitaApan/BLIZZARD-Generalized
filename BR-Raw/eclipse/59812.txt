@@ -1,0 +1,3 @@
+Progress dialog cuts off info, need separate line for size.
+
+In the attached png, you can see that the CVS progress dialog displays a file name and "(x of y bytes)" post fix. Unfortunately, when the line wraps to a second line, only the top half of the line is displayed. Suggestion: provide a separate second line text field to display size progress. Version 3.0.m8

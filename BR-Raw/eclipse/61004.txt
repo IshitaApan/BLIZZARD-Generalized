@@ -1,0 +1,3 @@
+"Open user dialog" job should be marked as System job
+
+N20040503

@@ -1,0 +1,3 @@
+[ViewMgmt] Composite leaked from tool bar wrapper in ViewPane
+
+20040831 The toolbarwrapper Composite(and its EnhancedFillLayout) that are created in org.eclipse.ui.internal.ViewPane.createToolBars() (line 258) are not getting GC'd. For example for each open/close of a PackageExplorer, one Composite is leaked.

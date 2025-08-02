@@ -1,0 +1,3 @@
+[RCP] Limit offered perspectives in the perspective chooser
+
+Version: 3.3.0 Build id: I20070621-1340 Many RCP applications have multiple workbench windows each with a specific function. Each window might have a number of perspectives, but you don't want to be able to open all perspectives in all windows, only those that are relevant for the specific function of the window. This is not possible with the current perspective chooser - actually it is not even possible to avoid the "open perspective" button or to limit the set of perspectives that are offered in the menu.

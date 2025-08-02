@@ -1,0 +1,3 @@
+Remove obsolete ContributionUtils
+
+There is an API class org.eclipse.e4.workbench.ContributionUtils. There are no references to this class anywhere, it seems to have been replaced with injection code somewhere along the way so it should just be deleted. It just has two short helper methods for executing commands against the model.

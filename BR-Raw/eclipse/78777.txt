@@ -1,0 +1,3 @@
+[DynamicUI] Uncategorized views don't show up when added
+
+build I20041116 - I installed the bugzilla plugins, recently announced by the VCM team, using update manager. - I chose not to restart when prompted. - Window > Show View > Other... did not show the view -- there was no Other category - shutdown/restart - the Other category appeared, with the Bug Systems view under it

@@ -1,0 +1,3 @@
+[ViewMgmt] minimized view is hidden on perspective switch
+
+biuld I20040520 - open the CVS Repostiries perspective - open the outline view in this perspective - switch to the Team Synchronizing perspective - open the outline view here as well - make sure the outline is the farthest view on the left and takes up all the vertical space - minimze the outline - switch to the cvs repositories perspective (outline should be fine) - switch back to the synch perspective and note that only the toolbar for the outline view is showing (if the toolbar had been moved up next to the tab that is) otherwise there is blank space

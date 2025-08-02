@@ -1,0 +1,3 @@
+[Model] IMemento rejects keys that begin with #
+
+The doc for IMemento says that any alphanumeric string is acceptable as a key. If . is legitimate, and we know it is, why is # illegitimate? If nothing else, the doc needs to be more specific.

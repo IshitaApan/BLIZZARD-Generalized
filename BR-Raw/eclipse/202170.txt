@@ -1,0 +1,3 @@
+[Wizards] Empy Source Folder and Package in New Class Wizard
+
+In window, preferences, general, keys i marked include umbound command and binding CTRL+N, C to New Wizard Class but when i call this key the New Java Class Interface do not fill the Source Folder and Package field like in another shortcut.

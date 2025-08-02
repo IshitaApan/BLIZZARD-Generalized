@@ -1,0 +1,3 @@
+[Compatibility] Part sites do not need to be injected
+
+They used to have fields/methods with @Inject, they do not appear to anymore. We should remove the injection call.

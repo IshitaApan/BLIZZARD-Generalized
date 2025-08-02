@@ -1,0 +1,3 @@
+XMLMemento.createReadRoot can return null
+
+F2 build We have several callers of XMLMemento.createReadRoot, none of which check for null, which can be returned if it gets an IO exception or parsing exception. See the last stack in bug 19534 for an example (Workbench.java:755). Either createReadRoot should be changed to use checked exceptions and never return null (preferable), or all callers must be changed to check for null.

@@ -1,0 +1,3 @@
+[ActivityMgmt] The text in description in the 'Configure Activities' dialog should be wrap
+
+I20040322 The text in the description part in the 'Configure Activities' dialog (Window>Configure Activities) should be wrap, and valign on the top.

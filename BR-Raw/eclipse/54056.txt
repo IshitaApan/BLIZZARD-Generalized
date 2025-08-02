@@ -1,0 +1,3 @@
+[Font/Colour] Setting fonts to defaults in brand new workspace
+
+I20040304 New workspace Window>Preferences>Workbench>Colors and Fonts>Uncategorized Select Text Font (note it is claiming a custom value?) Hit Restore Defaults The Text font changes from Courier New-regular-10 to Tahoma-regular-8

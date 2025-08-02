@@ -1,0 +1,3 @@
+[Actions] When rename a file in one project's navigator, the other selected file's name is renamed
+
+Description: When rename a file in one project, the other file's name is renamed (do that in Navigator view) Build number: Version: 3.3.0 Build id: I20061214-1445 Steps to reproduce: 1, New a project such as BIRT and Java 2, New two files in that project: FileA and FileB 3, Turn to Navigator View 4, Select FileA and Press F2. Typing "FileC", then moving the mouse and click the FileB Expected result: The FileA is renamed to FileC But FileB's name isn't changed to FileC Actual result: After step4, FileA's name isn't renamed but FileB is renamed to FileC Error log:

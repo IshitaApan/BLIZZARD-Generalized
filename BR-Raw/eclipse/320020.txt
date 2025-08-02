@@ -1,0 +1,3 @@
+QuickAccess doesn't remember previous searches and matches
+
+- We don't show the previous picks. - We don't remember which item was picked for a certain search string.

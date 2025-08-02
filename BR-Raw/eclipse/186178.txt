@@ -1,0 +1,3 @@
+[QuickAccess] Text not shown on selected item.
+
+When using the QuiclAccess on Vista I noticed that the currently 'selected' element's text color is such that you can't see it...

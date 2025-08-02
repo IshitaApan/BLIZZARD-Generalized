@@ -1,0 +1,3 @@
+[Key Bindings] Commands within categories are not sorted
+
+RC2 build - add the categories as per the patch in bug 34056 - Window / Preferences / Keys - expand any of the categories - the items are not sorted

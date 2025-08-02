@@ -1,0 +1,3 @@
+[JFace] MessageDialog.openQuestion() Javadoc
+
+The MessageDialog.openQuestion() Javadoc says: * @return <code>true</code> if the user presses the OK button, * <code>false</code> otherwise But the dialog has Yes/No buttons, no "OK" button.

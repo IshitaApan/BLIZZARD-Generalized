@@ -1,0 +1,3 @@
+org.eclipse.ui.examples.redmetool.AddSentenceResolution is calling getEditors
+
+20020521 org.eclipse.ui.examples.redmetool.AddSentenceResolution.run(...) is calling the deprecated WorkbenchPage.getEditors()

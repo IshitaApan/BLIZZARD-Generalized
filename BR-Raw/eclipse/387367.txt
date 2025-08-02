@@ -1,0 +1,3 @@
+JFace Snippet Snippet010OwnerDraw rework
+
+Snippet010OwnerDraw has some issues: 1.) Usage of depreciated API OwnerDrawLabelProvider.setUpOwnerDraw(viewer); 2.) Unused method setFocus 3.) setInput for the ContentProvider is ignored 4.) Own ContentProvider can be replaced by ArrayContentProvider

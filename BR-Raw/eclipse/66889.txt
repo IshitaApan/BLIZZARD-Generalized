@@ -1,0 +1,3 @@
+[ViewMgmt] Package explorer message clipped
+
+3.0 RC2 1) set the package explorer to "hierarchical" mode. 2) "go into" org.eclipse.jdt.internal.core 3) observe: the package explorer shows the name of it's input in the title bar. 4) make the package explorer progressively narrower 5) observe: the package name shown in the title bar gets clipped without any indication that it is clipped. I was mislead into thinking that I was in a different context.

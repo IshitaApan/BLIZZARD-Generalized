@@ -1,0 +1,3 @@
+[KeyBindings] Filter not working in keys preference page
+
+Build: I20070430 1) Open the keys preference page 2) Type the word "open" into the filter text area. -> 30 or so results are shown, most of which don't seem to contain the word "open".

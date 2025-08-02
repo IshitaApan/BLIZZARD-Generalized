@@ -1,0 +1,3 @@
+[Preferences] [Help] F1 help should always give help about the selected page
+
+build I20030227 - Window / Preferences - focus is in tree at left - F1 - it gives you help about the dialog, not the selected page - give the selected page focus - F1 - it gives you help about the page F1 should always give you help about the selected page. It should also give help about the dialog at the same time, if possible (e.g. a link for the page, and a link for the dialog).

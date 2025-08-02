@@ -1,0 +1,3 @@
+[Forms] Allow MultiPageEditors to customize layout
+
+3.2M3 A MultiPageEditorPart is currently restricted to show only a tab folder. Concrete implementations should be allowed to customize the layout. For example a stable header would allow to always show important information independently from the current active page.

@@ -1,0 +1,3 @@
+[PresentationAPI] standalone + movable stacks should remain standalone when dragged
+
+The dragOver() method for a custom presentation is not called when an entire stack (i.e. ViewStack) is being dragged. Thus, you cannot prevent a ViewStack from being dropped onto another ViewStack. The offending code seems to be in PartStack.getDropTarget(). I'm trying to code my presentation such that views can be dragged around and repositioned, but views cannot be combined with other views.

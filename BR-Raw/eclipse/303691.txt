@@ -1,0 +1,3 @@
+[CommonNavigator] ResourceDropAdapterAssistant won't accept drop target of viewer input
+
+Build Identifier: I20100129-1300 The implementation is ignoring the passed in target object which falls back to the viewer input when null in CommonDropAdapter. The impl calls back to the drop adapter for it's current target, which returns null and bails out immediately. This makes it impossible to drag and drop files out of sub-folders into the project root when the input to the navigator is a project. I've tried a number of hacky workarounds but can't seem to even find a way to hack it (since CommonDropAdapter is a final class, so I can override getCurrentTarget to handle this special null case). Reproducible: Always

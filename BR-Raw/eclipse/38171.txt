@@ -1,0 +1,3 @@
+PageLayout contains non NLS-ed strings
+
+The class PageLayout contains 2 non-NLSed strings: "Referenced part does not exist yet: " and "Part already exists in page layout: " These areas should be using WorkbenchMessage.getString() or WorkbenchMessage.getFormat() depending on whether or not arguments are involved. There is also a comment for a NON_NLS-ed string which shouldn't be there (search for NLS).

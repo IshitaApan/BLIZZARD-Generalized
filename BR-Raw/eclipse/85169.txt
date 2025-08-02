@@ -1,0 +1,3 @@
+[Commands] errors: Not enough context in error message
+
+Build: I20050214-0927 I found this message in my log after starting this build: !ENTRY org.eclipse.jface 4 0 2005-02-14 13:05:34.971 !MESSAGE The command is undefined What command? This error message needs more information. This message comes from ExternalActionManager#isActive.

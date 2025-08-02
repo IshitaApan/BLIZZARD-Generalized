@@ -1,0 +1,3 @@
+[Import/Export] Unexpectedly cursor moving in import dialog.
+
+Unexpectedly cursor moving in import dialog. To reproduce: 1. select "Import" from context menu. 2. Select "File System" and click "Next". 3. Click "Into Folder" text field and input/delete a character. Issues: The cursor moves to "From directory" text field unexpectedly.

@@ -1,0 +1,3 @@
+[Navigator] Navigator 'up' enablement for 'Open in New Window'
+
+Build F2 Select a project in that contains a folder and run 'Open in New Window'. Notice that the 'up' arrow for the Naviugator is initially disabled in the new window. From the new window, select the folder and run 'Go Into'. Hit 'back'. Notice that the 'up' arrow is enabled and it will take you back to the workspace. The 'up' arrow should have been enabled when the window is created.

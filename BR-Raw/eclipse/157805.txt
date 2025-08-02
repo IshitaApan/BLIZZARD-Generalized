@@ -1,0 +1,3 @@
+[Workbench] Add Hide Toolbars to the Window menu
+
+See bug 30781 for discussion. The "hide toolbar" option should be available in the Window menu.

@@ -1,0 +1,3 @@
+[New Look] Regression: New layout has moved progress indicator back to the left
+
+The progress indicator was moved the right and the New Look stream but it is now back on the left. This is obscuring the status line.

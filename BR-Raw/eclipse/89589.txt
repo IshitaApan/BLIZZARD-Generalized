@@ -1,0 +1,3 @@
+[ActivitiesMgmt] Advanced button in capabilities preference page not using button dialog sizing
+
+I20050330-0500, GTK+ 2.2.4 The "Advanced" button on the capabilities preference page does not seem to be using the dialog button sizing code.

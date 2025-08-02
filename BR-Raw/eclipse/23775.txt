@@ -1,0 +1,3 @@
+[Navigator] NPE if Move operation cancelled
+
+integration build 09/17 - the the Resource Navigator select a file resource, right-click -> Move... - in the subsequent Folder Selection dialog click Cancel - you'll get the attached stack trace

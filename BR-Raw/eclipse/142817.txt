@@ -1,0 +1,3 @@
+[Progress] No F1 help for progress view
+
+Build: 3.2 RC5 Open the progress view. Press F1. There is no context help available.

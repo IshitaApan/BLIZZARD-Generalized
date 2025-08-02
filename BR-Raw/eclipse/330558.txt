@@ -1,0 +1,3 @@
+[Compatibility] QuickAccess assumes all views are 3.x views
+
++++ This bug was initially created as a clone of Bug #323506 +++ Created an attachment (id=177318) Sample e4 view contribution The e4 views can not be used in the Eclipse 4.0. Workbench processing assumes that all views are compatibility views (WorkbenchPage.java): CompatibilityView compatibilityView = (CompatibilityView) part.getObject(); To duplicate: - Launch Eclipse 4.0 with the atatched bundle - In the quick access (Ctrl+3) type "cont" and select view "Contexts" - See the ClassCastException at above line in WorkbenchPage

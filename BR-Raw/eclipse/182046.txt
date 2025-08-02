@@ -1,0 +1,3 @@
+[Trim] configurer.setSaveAndRestore(true) doesn't work in 3.3M6
+
+Using 3.3 M6 I did a simple RCP tutorial. When I added the following code to my WorkbenchAdvisor subclass, 	@Override 	public void initialize(IWorkbenchConfigurer configurer) { 		configurer.setSaveAndRestore(true); 		super.initialize(configurer); 	} I got an error dialog every time I opened the RCP application. The error says: "Unable to read workbench state. Workbench UI layout will be reset." This works without a problem in Eclipse 3.3 M5.

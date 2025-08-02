@@ -1,0 +1,3 @@
+[Markers] Problems view > Configure Contents... gray-checks fully selected type categories
+
+I20080502-0100 Problems view > Configure Contents... gray-checks fully selected type categories. Steps: - create new configuration - check API Problems - uncheck API Problems > API Usage Problems - check API Problems > API Usage Problems => expected: API Problems checked again => was: API Problems gray-checked

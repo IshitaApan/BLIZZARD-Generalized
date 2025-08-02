@@ -1,0 +1,3 @@
+[Linked Resources] Change all copy/move operations to use IResource.SHALLOW
+
+build 20021119 Core has changed the default behavior of copy/move to do a deep copy of linked resources. Need to change all copy/operations in platform UI to explicitly specify the SHALLOW flag in order to keep the current behavior (copy/move the link).

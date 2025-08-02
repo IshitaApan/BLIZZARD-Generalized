@@ -1,0 +1,3 @@
+.metadata folder created under install dir
+
+In I20040322 the .metadata folder is being created in the install dir.

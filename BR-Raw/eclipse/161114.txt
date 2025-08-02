@@ -1,0 +1,3 @@
+[Presentations] Close all perspectives leaves empty editor area behind
+
+[I20061010-0800] Closed all perspectives. Will attach screenshot.

@@ -1,0 +1,3 @@
+[WorkbenchParts] error in EditorPart javadoc
+
+The javadoc for the EditorPart class says that subclasses must implement gotoMarker(). However, that method isn't part of the interface and the compatibility notes state that the method was replaced in 3.0 by an adapter.

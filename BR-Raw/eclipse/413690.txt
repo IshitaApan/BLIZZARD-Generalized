@@ -1,0 +1,3 @@
+Fix the compiler warnings in package org.eclipse.jface.wizard caused by moving to Java 1.5
+
+Fix the compiler warnings in package org.eclipse.jface.wizard caused by moving to Java 1.5

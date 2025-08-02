@@ -1,0 +1,3 @@
+Context menu can be corrupted if there is an invalid property tester
+
+Created attachment 233463 A test plugin The attached plugin contributes a popup menu action which visibility depends on a property tester class that throws a NPE. Eclipse E4 (ContributionsAnalyzer.isVisible(MCoreExpression, ExpressionContext)) catches only CoreException which causes such a contribution to corrupt a context menu on Windows (on Linux, this menu isn't displayed at all). Since the isVisible method is often called, it is possible that there are some other issues that are difficult to detect/debug. Test case: - install the attached plugin - right-click some resource Attached is a patch.

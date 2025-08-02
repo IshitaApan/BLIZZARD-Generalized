@@ -1,0 +1,3 @@
+Important case not handle in my previous ResourceMapping patch
+
+I have found a case that I didn't propery handle in the patch submitted on Friday. Basically, the CVS operations do not appear on Java projects! I have created a patch that corrects the problem along with a test case for it. I will attach both.

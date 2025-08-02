@@ -1,0 +1,3 @@
+[Markers] markers views fail to refresh on working set changes with 3.4M5
+
+I use working sets (via Mylyn) to ensure that I only see the markers I need to see in views like Problems. I do this by ensuring that the view is configured to show only the Window Working Set. In Eclipse 3.4M4 and 3.4M5 it appears that the markers views don't refresh when working sets change. In order to get them to refresh I have to invoke "Configure Contents...", and after pressing OK the view is updated. To reproduce create two resource working sets, make sure different markers are in each, set the Markers views to show only the Window Working Set, and toggle between working sets.

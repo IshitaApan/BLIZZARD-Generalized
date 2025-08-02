@@ -1,0 +1,3 @@
+[ContentTypes] [Preferences] Entries in content types pref page are unsorted
+
+WTP 0.7 all-in-one build (based on Eclipse SDK 3.1) In the Content Types pref page, the entries in the content types pane appear to be unsorted. I'd expect them to be sorted alphabetically (at each level). Not sure whether the file associations pane should be sorted alphabetically, or whether they should appear in order defined in the content type extension.

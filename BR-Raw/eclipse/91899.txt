@@ -1,0 +1,3 @@
+[Markers] IMarker.setAttribute fails when attributeName = IMarker.LOCATION
+
+Calling setAttribute(IMarker.LOCATION, "foo") on an IMarker instance does nothing---the "Location" column in the Problem View remains blank.

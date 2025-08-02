@@ -1,0 +1,3 @@
+[Compatibility] DBCS4.1: Window->Navigation->Minimize Active View or Editor not working
+
+Build Identifier: I20110329-0800 Eclipse version:I20110329-0800 OS: Ubuntu Linux 10.10 Java Version: JRE 1.6.0 IBM Linux build pxi3260sr9fp1-20110208_03 (SR9 FP1) Locale: ja_JP.utf8 Reproducible: Always Steps to Reproduce: 1.Open a Java class in a Java Editor. 2.Click Window->Navigation->Minimize Active View or Editor 3.The view will not be minimized.

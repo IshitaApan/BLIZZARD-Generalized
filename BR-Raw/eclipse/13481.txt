@@ -1,0 +1,3 @@
+Exceptions trying to close a Search View
+
+build 2002-04-09 on WinXP. - one window open - single-stacked Java editor - Outline view docked to the right - Search view docked to the top - tried to close the Search view and got the attached exceptions (forced my workbench to close)

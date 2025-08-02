@@ -1,0 +1,3 @@
+EPartService's part searching path may not include parts outside of the active perspective
+
+While investigating a fix in ModelServiceImpl for bug 334411, I realized that the search path might not return all the parts that are currently visible to the end user.

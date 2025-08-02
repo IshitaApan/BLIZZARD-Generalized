@@ -1,0 +1,3 @@
+[CommonNavigator] Convert catch(Error/Throwable) to SafeRunner
+
+In several places the CN framework uses catch(Error/Throwable) to ensure that code does not bring the framework down. Change these to use SafeRunner.

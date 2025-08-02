@@ -1,0 +1,3 @@
+[Import/Export] ZipFileExporter and TarFileExporter could use less memory
+
+After addressing Bug 82804, I noticed a lot of commonality between JarWriter and ZipFileExporter. The changes made to JarWriter could also be applied to ZipFileExporter. It might be more useful to expose a common implementation that both of you could use.

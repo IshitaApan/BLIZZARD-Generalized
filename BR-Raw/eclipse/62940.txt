@@ -1,0 +1,3 @@
+[Themes] Pref page should remember tree expansion state and selection
+
+200405190010 It's terribly annoying when you want to tweak certain colours and see their effects in the workbench. You have to dig back into the tree to find them.

@@ -1,0 +1,3 @@
+[Navigator] Should not sync with selection in Navigator and Editor
+
+If the resource A is opened by Editor, and the resource B is opened by Editor, whenever the selection is changed bewteen A and B on Navigator, the active Editor is switched. This is very very annoying if the editor supports Drag and Drop. The previous eclipse could control this sync by its preference but this prefs seems to be gone. It is very severe usability issue. Need to get this prefs back for 2.1.

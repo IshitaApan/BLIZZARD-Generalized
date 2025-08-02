@@ -1,0 +1,3 @@
+[Snippet] Demonstrate Usage of ComboBoxCell-Editor
+
+the bad thing about the ComboBoxCell-Editor is that you need to calculate back and forth from value to index

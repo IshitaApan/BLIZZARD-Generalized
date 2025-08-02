@@ -1,0 +1,3 @@
+[Compatibility] Add support for AbstractTrimWidgets
+
+Code was added to support IWorkbenchWidget. We need code to support the AbstractWorkbenchTrimWidget class which has a specialized fill(Composite, int, int) method. +++ This bug was initially created as a clone of Bug #330106 +++ I installed the latest RTC into Eclipse 4.1 M3. When I started Eclipse, I noticed that our work item trim component is missing. There were no errors in the log. Eric indicated that he knew what the issue probably is.

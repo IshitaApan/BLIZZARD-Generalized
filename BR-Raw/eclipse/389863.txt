@@ -1,0 +1,3 @@
+EventHandlers are not called on part after closing other part
+
+I have a simple example with 2 parts in a stack with both parts having an event listener method. When I start up and then close the first part, the second part does not receive events anymore.

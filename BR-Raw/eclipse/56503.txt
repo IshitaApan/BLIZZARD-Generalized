@@ -1,0 +1,3 @@
+[DetachedView] Tear-away tab groups should be redockable.
+
+It should be possible to re-dock a torn away tab group instead of having to dock the individual tabs back in one at a time.

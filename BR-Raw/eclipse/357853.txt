@@ -1,0 +1,3 @@
+Cannot use multiple workbench windows with saved perspectives
+
+I20110914-0200 1. Window > Save Perspective As... > Give it a name > OK 2. Window > New Window 3. The new window steals the shared area from the first window. Trying to active the first window will activate the second window.

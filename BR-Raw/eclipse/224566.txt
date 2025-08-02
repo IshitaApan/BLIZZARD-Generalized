@@ -1,0 +1,3 @@
+[Preferences] 'Invalid preference page path' log entry should identify cause
+
+I20080327-2251 I'm getting this log entry when I open the Preferences dialog for the first time after starting Eclipse. The error may be valid, but the log entry should tell me more about - why (id of the plug-in with the problematic contribution) and - where (stack trace) this happened. !ENTRY org.eclipse.ui 4 4 2008-03-28 12:06:57.921 !MESSAGE Invalid preference page path: Amateras/Code Assist/Custom Assist

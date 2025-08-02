@@ -1,0 +1,3 @@
+[Filters] Replace #getProject and #getPath with #getResource in IResourceFilterDescription
+
+I think that just #getResource method is fine. Javadoc has to state that only IFolder and IProject objects can be returned.

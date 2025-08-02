@@ -1,0 +1,3 @@
+[StatusHandling] StatusManager - remove use of 1.4 API
+
+The method split(String, int) is undefined for the type String	org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/statushandling	StatusManager.java	line 345	1163611121375	745048

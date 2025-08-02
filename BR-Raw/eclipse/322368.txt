@@ -1,0 +1,3 @@
+Sole part in a part stack shown by EPS should be set as the selected element
+
+SSIA

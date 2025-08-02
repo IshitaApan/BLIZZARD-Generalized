@@ -1,0 +1,3 @@
+[MPE] Take out workaround in MultiPageEditorPart.pageChange(int) (1GEV94I)
+
+Can take out the workaround for 1GCN531: SWT:WIN2000 - CTabFolder child's visibility is false on notification in MultiPageEditorPart.pageChange(int). Should also check if workaround for 1GAUS7C: ITPUI:ALL - Editor not activated when restored from previous session can be removed. NOTES:

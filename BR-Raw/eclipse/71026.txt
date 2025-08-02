@@ -1,0 +1,3 @@
+[DragDrop] lot's of objects created.
+
+Looking at implementers of the following IDragOverListener#drag(Control currentControl,... The following classes create a new dragdrop target each time drag is called. This seems unnecessary, would it not be possible to create one and update it with new information each time. This would reduce the amount of garbage created during a drag. See PerspectiveSwitcher implementation. The following classes seem to do this: FastViewBar PartSashContainer PartStack PerspectiveHelper TrimDropTarget They could also be lazily initialized in the case where if someone never uses DND they are never created.

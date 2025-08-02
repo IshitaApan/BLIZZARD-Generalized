@@ -1,0 +1,3 @@
+Resizing the tree pane in Preferences Dialog is bizzarre
+
+Build: I-20040225 Open the preferences dialog. Try to expand the tree pane horizontally. The cursor will have you believe that it is being resized, but nothing really happens. Close the dialog and reopen it. You will now see that the tree pane did get wider. So the width change does not take effect until you close and reopen. Pretty strange.

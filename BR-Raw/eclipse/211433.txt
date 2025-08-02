@@ -1,0 +1,3 @@
+[KeyBindings] Changing key binding broken (ends up in wrong context)
+
+3.3 and I20071127-0800. 1. change the key binding of the 'Content Assist' 2. open a dialog that offers field assist, e.g. the Find/Replace dialog when in regex mode. 3. press the chosen key binding ==> does not work BUT: the hovering over the light bulb shows the correct key binding.

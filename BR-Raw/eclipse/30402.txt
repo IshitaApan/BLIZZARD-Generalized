@@ -1,0 +1,3 @@
+[Preferences] Banner should have 1-pixel border
+
+build I20030115 In the Preferences and Properties dialogs, the banner currently has a black and white border on the bottom. It should have a black border all the way around it, plus the white line at the bottom. See the attached image from graphic design.

@@ -1,0 +1,3 @@
+CSS SWT test failures in I build (I20130312-2000)
+
+The e4.ui.tests.css.swt tests seem to have 3 failures on mac. Bogdan, could you please investigate? They're in the "URL" link. PW

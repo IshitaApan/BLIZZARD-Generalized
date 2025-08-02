@@ -1,0 +1,3 @@
+[Markers] FieldSeverityAndMessage should protect against uninitialzed images
+
+RC4 try { return JFaceResources.getResources().createImage( IDEInternalWorkbenchImages.getImageDescriptor( IDEInternalWorkbenchImages.IMG_ETOOL_PROBLEM_CATEGORY)); } catch (DeviceResourceException e) { return null; } should be try { return JFaceResources.getResources().createImageWithDefault( IDEInternalWorkbenchImages.getImageDescriptor( IDEInternalWorkbenchImages.IMG_ETOOL_PROBLEM_CATEGORY)); } catch (DeviceResourceException e) { return null; } to prevent NPEs if the IDEWorkbenchAdvisor is not initialized.

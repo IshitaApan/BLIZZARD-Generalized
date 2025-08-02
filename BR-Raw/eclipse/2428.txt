@@ -1,0 +1,3 @@
+Welcome: icons not aligned (1GF5SQG)
+
+The round blue right-arrows on the welcome page are not aligned 	with the text to which they point. NOTES:

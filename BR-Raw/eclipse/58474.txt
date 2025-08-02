@@ -1,0 +1,3 @@
+[EditorMgmt] typo in IEditorReference.getName
+
+Should be "May return null IF.." 	/** 	 * Returns the editor input name. May return null is the 	 * name is not available or if the editor failed to be 	 * restored. 	 */ 	public String getName();

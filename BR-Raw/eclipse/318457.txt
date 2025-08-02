@@ -1,0 +1,3 @@
+[Compatibility] Hitting 'ESC' should clear the quick access text field
+
+SSIA

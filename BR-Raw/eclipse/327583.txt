@@ -1,0 +1,3 @@
+[Compatibility] ModeledPageLayout arbitrarily sets a part's TBR flag to 'false' even if it is rendered in other perspectives
+
+See createViewModel(MApplication, String, boolean, WorkbenchPage, EPartService, boolean) method.

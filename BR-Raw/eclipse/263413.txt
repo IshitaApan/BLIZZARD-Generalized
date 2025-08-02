@@ -1,0 +1,3 @@
+[DataBinding] Widget<Value|List>Property and Viewer<Value|Set|List>Property should be public
+
+The base Widget*Property and Viewer*Property perform some standard stuff like defaulting the realm to the display realm of the widget, and wrapping the observable in an ISWTObservable or IViewerObservable decorator. In addition, WidgetValueProperty implements listeners using SWT's untyped listener API. We should make these classes public so that downstream projects like Nebula can consume them.

@@ -1,0 +1,3 @@
+[Compatibility] New workspace comes up with Declarations
+
+I launched 4.0 from HEAD and an empty workspace. The Declarations view was on top. I expected the Problems view. PW

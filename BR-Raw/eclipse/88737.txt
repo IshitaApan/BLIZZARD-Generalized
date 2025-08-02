@@ -1,0 +1,3 @@
+[GlobalActions] Close All is disabled while an editor is open
+
+I20050315-1100 - new workspace, new project, new file "Test.txt" -> editor for Test.txt is open, but File > Close All is disabled

@@ -1,0 +1,3 @@
+[About] https not converted to hyperlink in About Eclipse SDK Features
+
+If I create an about.ini file with an aboutText entry containing information about my feature, any http url such as http://www.eclipse.org is converted to an underlined hyperlink that can be followed. https urls (such as https://www.paypal.com) on the other hand remain as text and can't be followed.

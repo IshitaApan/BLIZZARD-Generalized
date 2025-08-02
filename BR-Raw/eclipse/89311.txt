@@ -1,0 +1,3 @@
+[Workbench] clean up registry constants
+
+The various constants that live in RegistryReader subclasses should be moved to IWorkbenchRegistryConstants.

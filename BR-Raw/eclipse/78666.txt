@@ -1,0 +1,3 @@
+[KeyBindings] errors: No warning if keybinding definitions collide
+
+Using 3.1 M3, if I define a keybinding in the default "windows" context and with keybinding of "CTRL+B" or "CTRL+U", the keybindings are silently removed. In the very least, the conflict should be logged. Ideally, the user would also see the collision in the keybindings preference page. In this case, I think it's better to show some information than to just kill these mapping and not explain why. Eclipse is a dynamic platform. There are lots of scenarios where keybindings get added into a configuration and start conflicting with previously working keybindings.

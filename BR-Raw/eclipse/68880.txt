@@ -1,0 +1,3 @@
+[Progress] NewProgressViewer uses hard coded colours
+
+R3.0 The NewProgressViewer uses a series of hard coded colours for its hyperlinks. It should use the values set in the workbench. You should use HYPERLINK_COLOR ACTIVE_HYPERLINK_COLOR ERROR_COLOR from JFacePreferences here is the problem code 		linkColor= display.getSystemColor(SWT.COLOR_DARK_BLUE); 		linkColor2= display.getSystemColor(SWT.COLOR_BLUE); 		errorColor= display.getSystemColor(SWT.COLOR_DARK_RED); 		errorColor2= display.getSystemColor(SWT.COLOR_RED); 		highlightColor= display.getSystemColor(SWT.COLOR_DARK_RED);

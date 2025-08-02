@@ -1,0 +1,3 @@
+RCP splashscreen stays forever in case of error
+
+If a serious error occurs during the startup of an RCP application, like a missing plugin etc. so that the application could not start, the splash screen of the application stays for ever. This happens if the application is started by PDE using the "Run as eclipse application" menu, but the process has been stopped using the "Stop" button. I had to kill the new eclipse.exe process using the windows taskmanager.

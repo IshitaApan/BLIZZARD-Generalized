@@ -1,0 +1,3 @@
+[Encoding] Encoding on properties no longer explains encoding
+
+I200409212000 This is a regression from previous builds (e.g. 3.0): along with the encoding on the properties dialog there was an explanation where it came from, e.g. inherited from container, detected from file content. This important information has gone.

@@ -1,0 +1,3 @@
+[Tests] Failures when running the UITestSuite with a non-international JRE
+
+This is due to the use of the encoding "EUC-JP" in org.eclipse.ui.tests.dynamicplugins.EncodingTests. Patch to follow.

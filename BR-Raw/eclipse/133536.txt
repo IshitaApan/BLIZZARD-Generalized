@@ -1,0 +1,3 @@
+[Field Assist] - PageUp and PageDown in ContentAssistFields change combo contents
+
+I20060328-0010 To reproduce: - open Find/Replace dialog - find some text, such that the MRU combo for the Find field contains something - enable regex - invoke content assist in Find field => pressing PageUp or PageDown changes the Find field text as welll => pressing Home or End moves the caret in the Find field as well All these keys should only move the selection in the popup list.

@@ -1,0 +1,3 @@
+[KeyBindings] Launch eclipse, close resource persp. Hit Ctrl N get the wizard list but try Menu File->New->Wizard and it is disabled
+
+also happens in 2.1.3 Launch eclipse, close resource persp. Hit Ctrl N get the wizard list but try Menu File->New-> and it is disabled.

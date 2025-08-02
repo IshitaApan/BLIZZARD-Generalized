@@ -1,0 +1,3 @@
+[Compatibility] Perspective reset does not prompt about dirty parts
+
+1. Open a file. 2. Make it dirty. 3. Drag it outside the shared area to some view's stack. 4. Window > Reset Perspective... > OK 5. Your changes are lost. Taken from scenario F of bug 321864 but views are affected too.

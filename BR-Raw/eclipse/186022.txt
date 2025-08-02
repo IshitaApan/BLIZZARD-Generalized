@@ -1,0 +1,3 @@
+[KeyBindings]  keybindings don't work for legacy actions in multipage editors
+
+continuation of bug 185475 Shortcut keys don't seem to work for legacy actions in multipage editors. (It seems to work fine in regular editors) The shortcut keys appears in the menu, but when I try to use them, it doesn't seem to work.

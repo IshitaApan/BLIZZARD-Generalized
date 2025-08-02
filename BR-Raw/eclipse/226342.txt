@@ -1,0 +1,3 @@
+[KeyBindings] Keys preference page conflict table is hard to read
+
+The conflict table is hard to read as the entries are space separated. Minimally they should be tab separated or put in columns (no header is acceptable) PW

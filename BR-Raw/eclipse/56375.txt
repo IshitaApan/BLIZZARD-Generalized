@@ -1,0 +1,3 @@
+[EditorMgmt] Editor dropdown shortcut not working when dropdown button not shown
+
+When using the keyboard it makes sense to have access to the dropdown even if all tabs of the open editors are shown.

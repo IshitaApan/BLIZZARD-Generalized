@@ -1,0 +1,3 @@
+Hidden toolbar contributions appear in toolbar
+
+SDK 4.0 - I20100707-2006. Hidden toolbar contributions appear in toolbar. 1. start with new workspace ==> New Java Project wizard toolbar icon appears but shouldn't. Looks like the 'hiddenToolBarItem' perspective extension is not honored.

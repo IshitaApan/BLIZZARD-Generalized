@@ -1,0 +1,3 @@
+[Browser] 'Web Browser' preference page ignores cancellation
+
+I20100426-0852 1. Window > Preferences > General > Web Browser 2. In Windows XP, I see "Default system web browser", "Firefox", and "Internet Explorer". 3. Select IE. Click the 'Remove' button. 4. Click 'Cancel'. 5. Redo step 1. 6. Window > Preferences 7. IE is gone. :(

@@ -1,0 +1,3 @@
+[Compatibility] Part description should be hidden if there is no text
+
+I20111025-2000 1. Open the 'Properties' view. 2. Ctrl+F10 > New Properties View 3. Go back to the first one. 4. Unpin it. 5. There is still space for the label in the view. Resizing the view does not recover the lost space.

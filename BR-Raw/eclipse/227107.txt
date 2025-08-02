@@ -1,0 +1,3 @@
+[MPE] Next/Previous Page commands: Popup for multi-page editors dislocated
+
+I20080410-1022 The popup list opened by the new 'Next Page' / 'Previous Page' commands is usually centered on the current view. This does not work for multi-page editors, e.g. PDE's plug-in editor. There, the popup is only centered when the editor area is at the left edge of the workbench window. When the editor area is in the right half of the window, the popup even appears outside of the editor.

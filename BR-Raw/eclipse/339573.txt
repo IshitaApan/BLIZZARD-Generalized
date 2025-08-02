@@ -1,0 +1,3 @@
+Splitting the shared area with a part doesn't remove stale placeholders
+
+The current code only looks for the addition of an MPlaceholder in the shared area as the hint to remove locals. When you split the area the element that gets added is the new MPartSashContainer...

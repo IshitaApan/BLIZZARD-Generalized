@@ -1,0 +1,3 @@
+[DnD] [Perspectives] Dragging a perspective button should not be overloaded to open a new window
+
+3.1M6 - when dragging a perspective button in the perspective bar to rearrange its order, I moved it slightly out of bounds of the perspective bar - the result was not a rearrangement of the perspectives, but a new window - this was unexpected - also, it's not really detaching the perspective, but rather opening a new window with a fresh perspective of the same kind This is equivalent to doing Window > New Window. The DnD support seems to be causing more confusion than benefit. I suggest we back out of it for 3.1.

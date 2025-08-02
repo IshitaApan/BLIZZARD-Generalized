@@ -1,0 +1,3 @@
+[Markers] Enabling problem categorization per default
+
+Build 3.2M5 Recent progress on problem categorization should be made more proeminent by enabling categorization by default. Similar to search view doing hierarchical presentation by default nowadays.

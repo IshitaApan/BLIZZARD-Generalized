@@ -1,0 +1,3 @@
+[Field Assist] - should be able to specify character activation subset when auto-activating
+
+ControlContentAdapter (initial release) When there is no triggering keystroke set on a ControlContentAdapter, auto-activation is assumed, and alpha-numerics trigger the auto-activation. It is useful to be able to specify a subset of characters that trigger auto-activation. This is done, for example, by the find/replace dialog RexExProcessor, so that only those characters involving regular expressions will auto-activate the content assist.

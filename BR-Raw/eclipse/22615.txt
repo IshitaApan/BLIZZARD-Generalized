@@ -1,0 +1,3 @@
+[Dialogs] Native ProgressBar look does not match look of AnimatedProgress
+
+On MacOS X the Windows look of the AnimatedProgress does not match the Aqua look of the native ProgressBar. So clients using the wrapper ProgressIndicator get either the correct Aqua look or the Windows look (which offends real Mac users :-) BTW: On MacOS X the native ProgressBar already provides the functionality of the AnimatedProgress so on MacOS X the ProgressIndicator could just avoid switching to the AnimatedProgress.

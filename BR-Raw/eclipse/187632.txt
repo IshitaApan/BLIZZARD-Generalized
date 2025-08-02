@@ -1,0 +1,3 @@
+[Trim] [Min/Max] Closing the last perspective leaves minimized editor stack in the trim
+
+[RC1 candidate build] 1. minimize the editor area 2. Close all perspectives actual: minimized editor area stays in the trim expected: the minimized editor area should not be there

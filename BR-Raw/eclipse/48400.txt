@@ -1,0 +1,3 @@
+[Dialogs] MessageDialog needs javadoc for returnCode == -1
+
+org.eclipse.jface.dialogs.MessageDialog extends handleShellCloseEvent() and sets a returnCode of -1 when the dialog is closed without pressing a button (pressed esc key or clicked close box). This special returnCode needs to be commented in JavaDocs, since it is an unexpected result (and already caused problems). I suggest to ... - transform the comment for handleShellCloseEvent() into a JavaDoc comment - replace '-1' by SWT.DEFAULT or a new 'public static final int' constant - mention the special returnCode in MessageDialog's class JavaDoc

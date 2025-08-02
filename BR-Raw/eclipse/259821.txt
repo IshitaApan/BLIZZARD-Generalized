@@ -1,0 +1,3 @@
+[Contributions] commandImages does not support 'platform:/plugin/' resource spec for icon
+
+Build ID: I20080617-2000 Steps To Reproduce: 1. open org.eclipse.ui.examples.contributions 2. add a 'platform:/plugin/' spec for an icon in a plugin the example is dependent on, eg for menu contrubution 'org.eclipse.ui.file.refresh' add 'platform:/plugin/org.eclipse.ui/icons/full/eview16/outline_co.gif'. This will work OK and the icon is visible on the File->Refresh menu. 3. Now remove that menu icon and create a commandImages extension using the same commandId and icon resource spec. Firing up the product will now show the red error square on the menu item. More information:

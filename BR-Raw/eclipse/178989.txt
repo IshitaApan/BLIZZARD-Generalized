@@ -1,0 +1,3 @@
+[Min/Max] Handle 'non-standard' stack/view types
+
+This covers things like stand-alone and multi-instance views etc...

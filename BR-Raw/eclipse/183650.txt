@@ -1,0 +1,3 @@
+[FieldAssist] ContentProposalAdapter with Text produces unwanted popup on Enter
+
+Build ID: I20070323-1616 Steps To Reproduce: 1. Setup a ContentProposalAdapter (using ContentProposalAdapter.PROPOSAL_REPLACE) with some proposals on a Text control. 2. Type some valid text into the Text control 3. Hit "Enter" (or select from the dropdown) More information: ContentProposalAdapter has a private controlListener that calls autoActivate() on a SWT.Modify event. This is fine except it gets triggered from ContentProposalAdapter.proposalAccepted(). The result is that you select one of the items and it modifies the Text control causing the popup to display again, which goes around until the user hits ESC to make it go away.

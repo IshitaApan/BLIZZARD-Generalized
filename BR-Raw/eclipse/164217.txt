@@ -1,0 +1,3 @@
+Javadoc warning in N20061111-0010
+
+/builds/N/src/plugins/org.eclipse.platform.doc.isv/../org.eclipse.jface/src/org/eclipse/jface/util/OpenStrategy.java:166: warning - Tag @see: can't find CURRENT_METHOD in org.eclipse.jface.util.OpenStrategy

@@ -1,0 +1,3 @@
+[Trim] [Min/Max] Update our EventBroker usage in add-ons
+
+Our add-ons currently subscribe handlers to one or more topics, and are effected by Bug 331645 ex: broker.subscribe( UIEvents.buildTopic(UIEvents.KeyBinding.TOPIC, UIEvents.KeyBinding.PARAMETERS), additionHandler); The UIEvents constants can be re-structured so UIEvents.buildTopic(*) is no longer needed, and then we can use the "new way" of subscribing to events: @Inject @Optional public void event(@EventTopic(TOPIC) Object data) { } PW

@@ -1,0 +1,3 @@
+[Dialogs] Buttons on switch to editor dialog are too small
+
+Should set same min size as in Dialog.createButton

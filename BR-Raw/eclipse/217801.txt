@@ -1,0 +1,3 @@
+[CommonNavigator] Capability filtering of commonWizard extensions uses wrong identifier
+
+Created attachment 88863 Use wizardId as contribution id The fix for capability filtering introduced with bug 156928 in 3.2.1 uses the associatedExtensionId attribute instead of the wizardId to compute the identifier for activity pattern matching. This is inconsistent with other areas where wizards are capability-filtered.

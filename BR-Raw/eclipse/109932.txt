@@ -1,0 +1,3 @@
+Should not access resources plug-in on ide startup
+
+20050819 As we are hitting the resources plug-in too early by adding a resource listener on startUp. This then eagerly sets the preference location which occurs before the preference chooser comes up. As a result running with -data noDefault results in an error. Moving this to preShutdown and postStartup of the advisor sorts this out.

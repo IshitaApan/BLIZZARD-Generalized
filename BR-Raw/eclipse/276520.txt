@@ -1,0 +1,3 @@
+[PropertiesView] [Views] Properties Views interfere with each other
+
+Found in I20090514-2000. Open two property views and put them in different stacks (both visible) Select a resource in the explorer, they both populate Click on one of them and the other goes blank Click on the blank one and now they're both blank Is the Property View itself acting as a property provider?

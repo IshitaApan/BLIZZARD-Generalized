@@ -1,0 +1,3 @@
+Need to allow filenames with no extensions when registering editors
+
+Currently we do not allow you to enter a file name with no extension in the file editor preference page. We allow it in the editors extension point but add a trailing "." so the lookup does not work

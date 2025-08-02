@@ -1,0 +1,3 @@
+[GlobalActions] RefreshAction markes as @noextend but should be
+
+3.4 Javadoc says: * This class may be instantiated; it may also subclass to extend: * .... The tag * @noextend This class is not intended to be subclassed by clients. got added, which is different. In JDT we subclass RefreshAction to add extra operations to refresh.

@@ -1,0 +1,3 @@
+[Preferences] export preferences wizard - "Choose Specific" not working
+
+M5 v20050215-2300 Select File>Export>Preferences Enable the radio button "Choose Specific Preferences to Export" The only preference shown is "Keys Preferences" Worse, if I select this choice and export, I get an empty file. Why is this the only choice? Should I be seeing all preference categories in this list? or just the ones that I've changed?

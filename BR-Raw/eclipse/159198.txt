@@ -1,0 +1,3 @@
+[About] Date and Time of Configuration Details panel are not localized
+
+Install the Language Pack, launch Eclipse in Simplified Chinese locale, Go to Help->About Eclipse SDK->Configuration Detail. The Date and Time at the top of Configuration Details panel is not localized. It should probably use icu4j APIs to get the date and time. See attached picture.

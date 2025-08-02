@@ -1,0 +1,3 @@
+[Dialogs] Eclipse changes selection after user makes a selection.
+
+Version 3.1.1. In the PDE perspective. Open a plugin.xml fancy editor. Choose the Dependencies tab. Click Add. Select an entry. The list continues to be filled in the background as you can see from the scrollbar thumb shrinking. When the list is filled, the selection CHANGES from my selected list item to the first item in the list. If you click OK, before you realize this, you've added the wrong dependency to your plugin.

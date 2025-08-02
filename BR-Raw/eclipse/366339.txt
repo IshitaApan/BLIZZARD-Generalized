@@ -1,0 +1,3 @@
+Linked resources are not overwritten pressing "yes" on "do you wish to overwrite"
+
+Build Identifier: M20110909-1335 I drop the files into project resources. When there exists a file with such name, "do you wish to overwrite" dialog appears. Pressing does nothing -- I see that resource is still linked to the previous file location. The same thing happens in e4. There is an easy workaround but it is definitely a bug. Either complete overwriting or do not claim that you will. Reproducible: Always Steps to Reproduce: 1.Drop a file into a project. Link it. 2.Drop another file with the same name from another location. Choose linking import also. 3.Agree on "do you wish to overwrite?" dialog In the resource properties, see that location still links to the first file location.

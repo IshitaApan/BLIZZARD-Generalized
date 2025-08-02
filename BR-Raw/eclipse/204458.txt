@@ -1,0 +1,3 @@
+[Commands] Allow menu and toolbars to fire execution events
+
+Keybindings will currently fire execution events when executing actions from the action framework. i.e. IActions with their actionDefinitionId set and IActionDelegates with the definitionId attribute in their action contributions. But it would be nice if selecting the menu or tool item would also fire the equivalent events. PW

@@ -1,0 +1,3 @@
+[Progress] IProgressService.busyCursorWhile() doesn't show progress dialog from modal dialogs
+
+1) use the progress samples to create a job locking the workspace 2) open a text editor 3) Edit>Add Task 4) enter a task and press return ->the blocked dialog should appear but all you get is a busy cursor and the UI is still active. Also the scenarios described in bug# 64937 [Progress] Using IProgressService.busyCursorWhile() from modal dialogs fail again. Build 20040611 doesn't have this problem, so this might be a regression.

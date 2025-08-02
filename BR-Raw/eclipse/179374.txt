@@ -1,0 +1,3 @@
+[ErrorHandling] Resize the support area when detail is clicked
+
+If I click on the detail button, I see the detail area appear under the buttons. the SupportArea (on the right) does not resize all the way to the bottom of the Dialog.

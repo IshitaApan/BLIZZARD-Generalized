@@ -1,0 +1,3 @@
+[Themes] Busy cursor on Font Editing doesn't go away
+
+a busy cursor was introduced on the opening of the font dialog to address some slowness on OS X. Unfortunately, the slow part was opening the font editing dialog. This meant the busy cursor was set as the dialog opened and remained until it was closed, giving the impression that the app was busy when it was not. This slowness has since been addressed (presumably by SWT, but possibly by Apple) so the busy cursor should be removed.

@@ -1,0 +1,3 @@
+[ViewMgmt] Allow control of view tab compression, when compressing use icons
+
+build I20051206 As we did for editor tabs (see bug 32789), we should allow control over the amount of compression of view tabs before switching to chevron mode. Since the set of views in a folder is much more stable than for editors, view folders should tolerate much more compression (e.g. 1 character) before switching to the chevron, so as to interfere less with users' positional memory.

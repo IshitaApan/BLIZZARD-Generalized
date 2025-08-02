@@ -1,0 +1,3 @@
+Update demos and compatibility to use context#modify() instead of outputContext
+
+Created attachment 144728 Patch The attached patch updates Photo demo to use IEclipseContext#modify() to pass selection and Exif information.

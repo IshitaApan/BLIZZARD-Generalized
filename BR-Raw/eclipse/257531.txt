@@ -1,0 +1,3 @@
+[ErrorHandling] WorkbenchStatusDialogManager leaks two images in StatusTray
+
+The StatusTray inner class appears to allocate two Images, 'normal' and 'hover', but never disposes them.

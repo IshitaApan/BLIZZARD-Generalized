@@ -1,0 +1,3 @@
+[Markers] Creation Time column should be a timestamp in Problems view
+
+Build ID: I20080617-2000 Steps To Reproduce: 1. Display the Problems view 2. Show the Creation Time column Currently, the Creation Time contains numbers. I would like the Creation Time column to contain time / datestamps in human readable form.

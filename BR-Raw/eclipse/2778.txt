@@ -1,0 +1,3 @@
+ViewsPreferencePage slams parents data (1GJ6K5U)
+
+The method createButtonGroup(Composite composite)slams the layout of the parent. This second from last line should read buttonComposite. 	Composite buttonComposite = new Composite(composite, SWT.LEFT); 	GridLayout layout = new GridLayout(); 	layout.numColumns = 2; 	buttonComposite.setLayout(layout); 	GridData data = 		new GridData(GridData.HORIZONTAL_ALIGN_BEGINNING | GridData.GRAB_HORIZONTAL); 	composite.setData(data); 	return buttonComposite; } NOTES:

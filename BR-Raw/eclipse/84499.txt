@@ -1,0 +1,3 @@
+[PerspectiveBar] Ordered perspectives in perspective switcher by drag and drop not maintained
+
+N20050202-0010 I drag and drop to rearrange my perspectives in the perspective switcher Exit Eclipse Restart Eclipse I must reorder the perspectives again. I expected the order to be preserved.

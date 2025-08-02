@@ -1,0 +1,3 @@
+[Contributions] Icon tool tips should also show key bindings in Debug view
+
+The tool tips for icons in the tool bar should also display the key bindings of the actions. E.g. the tooltip [Step Into] should be [Step Into (F5)] cf. Preferences -> Keys(Experimental) : there is the icon and the binding

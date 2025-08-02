@@ -1,0 +1,3 @@
+Regression to 4.2.1: Sending of postSelection events stops working
+
+Eclipse for RCP and RAP Developers Version: Kepler Release Build id: 20121220-1030 When highlighting a variable/class/etc in Eclipse, it will highlight all occurrences but if I then try to switch to a new variable/class/etc it will not un-highlight the old variable and highlight the new variable. If I make Eclipse lose focus (click on another application) the highlighting is removed and I can then highlight a new variable.

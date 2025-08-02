@@ -1,0 +1,3 @@
+[ActionSets] Key bindings not working when Eclipse first opened
+
+On I20031211, Pascal is reporting that he cannot use the 'F6' keyboard accelerator. This is bound (by default) in the "Default" key configuration.

@@ -1,0 +1,3 @@
+[ErrorHandling] Platform error dialog not correctly parented
+
+I20070116-1510 + plug-in export I20070116-1510.from20070122_1159. See bug 171359 for the scenario.

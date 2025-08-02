@@ -1,0 +1,3 @@
+[WorkbenchParts] (regression) PartStack does not remember active part when switching among perspectives
+
+Using 0330, the partstack always activates the first part in the stack and not the last activated part. This is not during shutdown/restart, but just swithing among open perspectives.

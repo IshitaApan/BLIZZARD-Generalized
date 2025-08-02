@@ -1,0 +1,3 @@
+[Dialogs] white area in Open Type dialog
+
+I20030213 - open the "Open Type dialog" Observe: there is a white area next to the Cancel button (see attachment). I supect it is an error/status label that has a white background

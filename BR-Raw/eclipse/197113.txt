@@ -1,0 +1,3 @@
+Project Explorer drag and drop selection not working properly
+
+Create a new java project. Open Project Explorer. Create 2 new classes - Test1 and Test2. Close the java code editors. Select Test1.java in the project explorer. Select Test2.java by doing a mouse down only (so Test1.java still appears highlighted) then drag Test2.java into the code editor area ()- Test1.java is displayed. This only occurs in the Project Explorer, the package explorer works fine.

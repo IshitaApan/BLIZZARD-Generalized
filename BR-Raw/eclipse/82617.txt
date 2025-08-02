@@ -1,0 +1,3 @@
+[Dialogs] Clean... dialog sorts projects in diff order than Package Explorer or Navigator
+
+The Clean... dialog listing of projects for cleaning is sorted in a different manner than both the Package Explorer and the Navigator. Threw me at first for finding my project in the list.

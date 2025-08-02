@@ -1,0 +1,3 @@
+[DND] [EditorMgmt] Simple D&D strategy for editors and multiple windows
+
+If you have two or more workbench windows open, you cannot drag and drop editor tabs from one window to another. While I recognize that there is complexity involved in reparting the editor part, I wonder if a simple solution is possible for non-dirty editors: simply open a new editor on the same object. This is what the person must do by hand now anyway (go to 2nd window, find resource, open window). If we thought we could do this easy enough it'd be a great 3.3 UI polish item, solving a pain which users have been reporting more and more as they work in multi monitor setups.

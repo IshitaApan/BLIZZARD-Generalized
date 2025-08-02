@@ -1,0 +1,3 @@
+Editors page not sized properly on startup
+
+build N20050517, open preferences dialog to editors page (under General). now close and open the dialog again and note that the dialog is too short.

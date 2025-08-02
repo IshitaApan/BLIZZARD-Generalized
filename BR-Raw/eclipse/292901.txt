@@ -1,0 +1,3 @@
+Confusing "Target" group for children filters
+
+Steps: 1) I added a compound filter "or" and set "Mode" to "Exclude" and "Target" to "Folders" 2) I tried to add "Regex Filter" as a child for the compound one, and I see that I can choose "Target" here too Maybe we should choose "Target" only for top-level filters as we do with "Mode"? Or "Mode" should be available to set only if not already chosen for the parent?

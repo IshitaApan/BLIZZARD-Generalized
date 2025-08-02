@@ -1,0 +1,3 @@
+[Min/Max] Mazimizing the editor area causes it to lose focus
+
+This means that the regular Ctrl-M zoom toggling doesn't work anymore -and- that after a mazimize you can't immediately start typing into the editor...

@@ -1,0 +1,3 @@
+[RCP] Main window not active on startup, IWindowListeners never receive windowActivated
+
+I created a plugin that uses the org.eclipse.ui.startup extension point. In earlyStartup(), I add myself as a window listener. At this point, getWorkbench().getActiveWorkbenchWindow() returns null, but I never receive a windowActivated event. It seems like one of these things should be working differently.

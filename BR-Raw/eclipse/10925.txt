@@ -1,0 +1,3 @@
+TVT -  The word "Misc" is not translated
+
+This problem was found by the Simplified Chinese tester. 1) Click on a file in the navigator. 2) In the property sheet, press Show/Hide Categories so that it is depressed. 3) In the category "Misc" appears, without translation. I tested this with Spanish, and it was also not translated. So this is not a Simplified Chinese specific problem.

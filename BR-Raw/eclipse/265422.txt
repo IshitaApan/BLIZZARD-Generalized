@@ -1,0 +1,3 @@
+[FieldAssist] Field assist hint popup border is black
+
+Created attachment 126134 Fix +++ This bug was initially created as a clone of Bug #265191 +++ See bug#265188 for instructions. The code in ControlDecoration and DecoratedField should check for carbon and cocoa.

@@ -1,0 +1,3 @@
+I have the shadow of the project Explorer even if i close the explorer.
+
+Created attachment 226603 Juno_Shadow_bug I just moved the project Explorer . Then i closed it . But after that their is a shadow still exist in Eclipse-jee-juno-SR1-win32-x86_64. I attached the screen shot. Please refer it.

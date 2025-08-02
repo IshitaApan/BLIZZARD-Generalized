@@ -1,0 +1,3 @@
+FieldEditorPreferencePage needs a default constructor
+
+The Field Editors help topic at http://127.0.0.1:12345/help/topic/org.eclipse.platform.doc.isv/guide/preferences_prefs_fieldeditors.htm? does not mention that classes that extend FieldEditorPreferencePage must provide a default constructor. If a program attempts to add a class to a plugin project that extends FieldEditorPreferencePage, and checks the box to generate constructors from the base class, the new file has three constructors, but no default constructor. The resulting preference page cannot be instantiated by the UI. The documentation should be enhanced to mention that extending classes must provide a default constructor, and that constructor must invoke super(int) constructor.

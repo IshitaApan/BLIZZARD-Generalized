@@ -1,0 +1,3 @@
+New file and folder wizards don't handle selected Java elements
+
+Build 20020129 - select a Java package - choose File / New / File. - the selected folder is not filled in Looks like SelectionEnabler does not properly handle IAdaptables.

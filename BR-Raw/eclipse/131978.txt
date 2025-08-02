@@ -1,0 +1,3 @@
+[Wizards] WizardDialog shell size keeps growing
+
+I20060314-1200 We persist the dialog size for the Apply Patch wizard. Currently, if a user hits help, the help will appear in a tray, courtesy of TrayDialog. The problem is that the tray is figured into the overall dialog size when we persist the dialog size. So the next time we open up the dialog, it will be the same size as the old dialog plus the help tray. If the user hits helps again and closes, the dialog will grow yet again. Repro steps: 1. Open the Apply Patch wizard. 2. Hit F1 + close wizard. 3. Reopen Apply Patch wizard and note new size.

@@ -1,0 +1,3 @@
+[Presentations] Move > View menu for editors should say Move > editor
+
+popup the menu over an editor tab and select move, you will see this.

@@ -1,0 +1,3 @@
+[ActivityMgmt] Unable toeasily turn off activities in a category without all activities being enabled.
+
+I20031119 1) Create a fresh workspace. 2) Drop a replacement plugin.xml into platform that contains activities and categories. 3) Ensure that all categories are disabled via the activity UI. 4) Create a new java project. This will activate the java activity, as evident from the open perspective/view menus. 5) Open the activity UI. Note that the java category is disabled. This is because the debugging activity is disabled. A category is only enabled iff all of its activities are enabled. Because of this, it's impossible to turn off the java activity without first enabling the java role, exiting the dialog, re-entering, and then turning off the enabled java category.

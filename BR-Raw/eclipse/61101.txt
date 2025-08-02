@@ -1,0 +1,3 @@
+[Welcome] IDEWorkbenchAdvisor.openWelcomeEditors(IWorkbenchWindow window) throws WorkbenchException
+
+Currently openWelcomeEditors(IWorkbenchWindow window) throws WorkbenchException although no code in there appears to require it. Should this be removed.

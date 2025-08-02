@@ -1,0 +1,3 @@
+[Dialogs] Dialog: impossible to turn off double-click resizing
+
+Since 3.2. a double click in a dialog will resize the dialog to its computed size. In our RCP app we have some dialogs with tables consisting many columns, the resulting dialog width is really large. Now if you resize the dialog to be smaller our dialogs will memory that size permanently. But if you double click into the table the dialog pops up to its full size. That's really annoying ... Please provide a possibility to turn that "double click resizing" *off*.

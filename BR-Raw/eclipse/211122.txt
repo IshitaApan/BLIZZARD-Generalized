@@ -1,0 +1,3 @@
+[Markers] Errors 'Marker id 301832 not found.' logged when opening new Markers view
+
+[I20071127-0800] Not sure what I did other than opening the new Markers view. The error log does not have any detail other than 'Marker id 301832 not found.' and 'Marker id 301833 not found.'. Related question: why is there no associated stack trace in the log? The plug-in id says 'org.eclipse.core.resources' - does this really come from Resources? Could they produce a stack trace in this case to help debug the issue?

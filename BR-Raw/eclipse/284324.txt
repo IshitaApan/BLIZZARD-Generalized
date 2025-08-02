@@ -1,0 +1,3 @@
+Unable to open external editors
+
+This currently travels down a number of batch methods, but then simply sets the part or reference to null and returns. PW

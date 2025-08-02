@@ -1,0 +1,3 @@
+[Databinding] ObservableListTreeContentProvider adds the value passed to TreeViewer#setInput() to the known-elements
+
+The input element is never shown in the viewer so it should no get part of the knownElements further more it restricts the usability of the content-provider because the input-element itself already has to provide the required Observable-Attribute(s).

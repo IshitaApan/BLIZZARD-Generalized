@@ -1,0 +1,3 @@
+[Compatibility] IWWPDs are not initialized correctly
+
+1. Wipe your debug preferences. 2. Click the 'Run' drop down. It has no recent entries. 3. Launch something. 4. Click the 'Run' drop down. The menu is not updated.

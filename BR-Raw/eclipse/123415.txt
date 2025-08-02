@@ -1,0 +1,3 @@
+[Commands] handlers: action set handlers stop working when two workbench windows open
+
+Version: 3.2.0 Build id: I20060110-1026 In a Java perspective, cannot get ctrl-shift-T (open type) to perform. It works fine from navigate menu. ctrl-shift-R, ctrl-shift-H seem broken as well. ctrl-alt-H does ring a bell, and doesn't work either.

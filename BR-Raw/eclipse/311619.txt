@@ -1,0 +1,3 @@
+[Compatibility] Heap status not shown in the status line
+
+I believe the control's not even being created...

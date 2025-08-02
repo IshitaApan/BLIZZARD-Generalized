@@ -1,0 +1,3 @@
+[Contributions] Leakage: PluginActionContributionItem not being removed as activity manager listener
+
+Eclipse 3.3M5 Tested in the resource perspective (only perspective open) Opened the Project Explorer Right click on a Java project to realize the context menu Close the project explorer Each time I repeat this I am seeing leakage which appears to be rooted in the PluginContributionItem(s) that have been added as activity listeners not being removed as listeners. Note that the problem is not limited to the Project Explorer from my testing.

@@ -1,0 +1,3 @@
+[Contributions] ActionContributionItem always gets the currentTimeMillis
+
+Using 0607 In ActionContributionItem.handleWidgetSelection() there is an exposed System.currentTimeMillis() which should be enclosed in the if (trace).

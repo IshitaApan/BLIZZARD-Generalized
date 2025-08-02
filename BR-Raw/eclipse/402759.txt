@@ -1,0 +1,3 @@
+[CSS] NPE in SWTStyleHelpersgetSWTWidgetStyleAsString() on disposed widget
+
+NPE seen in 4.2.2 on shutdown.

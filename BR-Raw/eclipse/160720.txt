@@ -1,0 +1,3 @@
+[Undo] - need tracing options to monitor workspace undo history validation
+
+Any automatic flushing of the workspace undo history should include tracing options so that we can monitor how often this happens, when it happens, etc.

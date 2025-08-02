@@ -1,0 +1,3 @@
+[Themes] Colors and Fonts preference page: Tooltip blocks doubleclick
+
+I20080508-2000 Colors and Fonts preference page: The custom tooltip blocks doubleclick on the items (to edit them).

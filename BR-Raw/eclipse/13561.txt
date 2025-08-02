@@ -1,0 +1,3 @@
+[Navigator] Single click in the Navigator doesn't bring-to-front already open Editor
+
+If I single-click in the Packages View, it will flip pages for me in the EditorPane. single-click in Navigator does not do this. Also, the Preference "link navigator to selection" seems like it might be how you enable this, but it backwards. It moves the selection in the Navigator based on the active Editor. This has the effect of auto-expanding and losing your place in the ResourceNavigator.

@@ -1,0 +1,3 @@
+Use null to clear message text instead of empty string
+
+I200405200800 StatusLine in jface uses setMessage("") to clear the text while the documentation says you should uset setMessage(null) to clear the text. The code path is slightly different for "" versus null, but using null makes the intent of the caller clearer.

@@ -1,0 +1,3 @@
+Make MakeHandlersGo go
+
+Using Command's execute(ExecutionEvent) or executeWithChecks(ExecutionEvent) method currently doesn't work in 4.x.

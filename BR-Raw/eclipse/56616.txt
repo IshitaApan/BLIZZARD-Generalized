@@ -1,0 +1,3 @@
+[Wizards] Description area of new wizard should eat all vertical space if there is no image
+
+M8 As it is, it will only take up (roughly) the top half of the window. This needs to be bigger.

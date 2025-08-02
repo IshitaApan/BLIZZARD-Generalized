@@ -1,0 +1,2 @@
+[DataBinding] error message printed to stdout when running test suite
+

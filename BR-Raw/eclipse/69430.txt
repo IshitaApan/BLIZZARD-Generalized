@@ -1,0 +1,3 @@
+[presentations] content description with '&' treated as mnemonic indicator
+
+R3.0 In the browser example, if you go to a web page with '&' in the title, e.g. "Q&A: Eclipse director..." from http://www.computerworld.com/softwaretopics/software/appdev/story/0,10801,94181,00.html then it treats the & as a mnemonic indicator, resulting in the & being removed and the A being underlined. The presentation(s) should escape this (convert "&"s to "&&"s) so that the '&' is treated literally, not as a mnemonic indicator.

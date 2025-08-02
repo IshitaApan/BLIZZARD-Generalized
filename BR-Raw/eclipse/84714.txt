@@ -1,0 +1,3 @@
+[About] Layout of About Eclipse Platform Features
+
+In About Eclipse Platform Features dialog details panel shold have fized size. Right now it is proportional and because of this there are lot of unused space when dialog is resized.

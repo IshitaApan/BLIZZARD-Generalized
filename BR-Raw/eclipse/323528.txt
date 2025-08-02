@@ -1,0 +1,3 @@
+[EditorMgmt] Need getActiveEditorInput(ExecutionEvent) and getActiveEditorInputChecked(ExecutionEvent) in HandlerUtil
+
+There's an ISources.ACTIVE_EDITOR_INPUT_NAME but no convenience method for retrieving them. You are forced to use getVariable(ExecutionEvent, String) and getVariableChecked(ExecutionEvent, String) instead.

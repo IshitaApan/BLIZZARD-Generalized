@@ -1,0 +1,3 @@
+[KeyBindings]  pasted text goes in the wrong editor
+
+build N0222 With several (3) java editors open I: - selected some text and use the menu Copy command (because ctrl-c does not seem to work) - then reposition my cursor in the SAME editor and hit ctrl-v - the paste does not appear to work however, on closer inspection of ANOTHER editor, I find my text inserted there! marking as major both because the ctrl keys to not seem to work correctly and because of potential data corruption issues with pasting text at random.

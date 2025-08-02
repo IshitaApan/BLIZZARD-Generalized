@@ -1,0 +1,3 @@
+[Viewers] AbstractTreeViewerisExpandable(elementOrTreePath) is not called when using a ITreePathContentProvider
+
+Build ID: 3.3M3 More information: see AbstractTreeViewer.java, line 1974, the content provider hasChildren() should not be called directly

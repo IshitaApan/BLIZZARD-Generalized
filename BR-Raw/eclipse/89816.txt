@@ -1,0 +1,3 @@
+[Workbench] Cannot unlock toolbar
+
+build i0331-0010 I started up this build and I have the coolbar locked. But I noticed that when I look at the coolbar context menu, the "Lock the Toolbar" item is checked but greyed out. It doesn't seem to matter where I click to bring up the menu...the option to unlock the toolbar is always greyed out.

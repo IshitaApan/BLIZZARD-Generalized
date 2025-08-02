@@ -1,0 +1,3 @@
+[Viewers] StructuredViewer.findItems(Object) javadoc is not precise
+
+The javadoc says "If the element map is disabled, the widget is found via <code>doFindInputItem</code>." but in the code method doFindItem is called.

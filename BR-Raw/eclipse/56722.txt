@@ -1,0 +1,3 @@
+[Fonts/Colors] Confirm Activity dialog does not use dialog font
+
+Reached through: clean workspace File/Import... External Plug-ins and Fragments

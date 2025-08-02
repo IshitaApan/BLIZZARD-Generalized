@@ -1,0 +1,3 @@
+[Contributions] Allow introspection on handlers
+
+Created attachment 79385 Introspect the CommandContributionItem With a minor modification to HandlerProxy (patch to be attached) introspection code can be used to find all active handlers for a given ParameterizedCommand. PW

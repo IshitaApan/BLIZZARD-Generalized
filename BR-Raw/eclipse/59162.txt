@@ -1,0 +1,3 @@
+Too many editor switching dialogs
+
+A menu item for "Switch-To-Editor" does not belong at the top level of the Window menu and the current dialog is not something that we want to expose new users to. Suggest: Move the "Switch To Editor" to the keyboard shortcuts submenu Use the Ctrl-e accelerator Open the dropdown editor list Leave ctrl-shift-e bound to the old dialog so as not to upset existing users of the dilog.

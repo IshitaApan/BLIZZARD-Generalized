@@ -1,0 +1,3 @@
+[Contributions] Allow a handler to update MUIItems
+
+A handler for a command should be able to update text or tooltips on UIItems that point to the command. ex: in 3.x we have this pattern. 1) each item registers as a UIElement for a command 2) the command service can handle a request to refresh all UIElements for a command 3) changing handlers causes a refresh request 4) the client code can also request a refresh We need a similar story for e4 that would allow the active handler to update the appropriate items. It is a little more complicated in e4 as depending on your location (part of the hierarchy you are requesting from) you will potentially have different handlers applicable to different MUIItems. PW

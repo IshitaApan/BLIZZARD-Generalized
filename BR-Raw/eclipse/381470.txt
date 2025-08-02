@@ -1,0 +1,3 @@
+[CSS] CSS url resources should support "file:"-style URIs
+
+The CSS support doesn't know how to handle "file:"-style URIs.

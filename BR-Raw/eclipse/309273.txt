@@ -1,0 +1,3 @@
+An error in the New File wizard when the linked resource location does not specify a scheme
+
+Build id: I20100406-1034 I noticed that extra validation is made when creating linked files or folders. I used to add linked resources with empty locations or locations without scheme to change it later. Now it is not possible. I can't find a bug that introduced this change, so I assume it was introduced silently with one of recent fixes. Serge, could you point out the fix that introduced this change? It looks like you sneaked a fix with one of recently fixed bugs. You should have rather opened another bug to fix it. Anyway, I don't like this change.

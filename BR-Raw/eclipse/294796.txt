@@ -1,0 +1,3 @@
+[Contributions] API request: LegacyActionTools#escapeMnemonics(String)
+
+Created attachment 151874 implementation HEAD API request: LegacyActionTools#escapeMnemonics(String). This would be helpful in situations similar to LegacyActionTools#removeMnemonics(String), but where the unmodified string is required. The patch also updates usages in Platform/UI.

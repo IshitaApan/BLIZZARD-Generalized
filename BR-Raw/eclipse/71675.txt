@@ -1,0 +1,3 @@
+NPE starting drag in persp. bar.
+
+start a drag to the right of the perspective buttons while the perpective bar is on the top left position and an NPE occurs.

@@ -1,0 +1,3 @@
+[DND] Editor closed and content lost when dropping detached editor's tab outside its window
+
+4.3 RC4 Make an editor dirty (change some content) and then drag it outside the workbench window to create a detached editor shell. Create a new workbench window, and then drag the detached editor's tab into the new workbench window. Expected: Either drop cursor becomes "cannot drop" and dropping does nothing, or drop works and the dirty editor ends up in the new window. Was: Editor is closed without any questions, and my content changes are lost.

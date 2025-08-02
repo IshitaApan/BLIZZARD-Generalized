@@ -1,0 +1,3 @@
+[Contributions] Lots of IllegalArgumentExceptions from CommandContributionItem
+
+I was getting lots of exceptions about a disposed image. I will attach a patch that fixed the problem.

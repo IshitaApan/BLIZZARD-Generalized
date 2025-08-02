@@ -1,0 +1,3 @@
+[Actions] Rebuild Project does not auto-save files
+
+When the Project->RebuildProject menu item is selected, modified files will only auto-save if a Project resource is currently selected. Detailed steps - start clean eclipse - enable saveAllModifiedResourcesOnManualBuild in Window->Preferences- >Workbench - create a java project - add a java file (my.test.file.java) - modify the java file (do not save) - select the java project - select Project->RebuildProject - the java file will auto-save - NOW, modify the file again (do not save) - select a resource in the java project (not the project resource) - select Project->RebuildProject - the java file will NOT auto-save -- Andrew

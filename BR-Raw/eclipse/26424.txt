@@ -1,0 +1,3 @@
+[Workbench] Icons duplicated in ui and ui.workbench plugins
+
+The same icons appear twice in Eclipse 2.1. Once under org.eclipse.ui, and again under org.eclipse.ui.workbench.

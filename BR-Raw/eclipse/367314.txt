@@ -1,0 +1,3 @@
+[properties] [resource] Restore defaults does not restore the "Archive" setting
+
+Build Identifier: The properties for any resource allow to set permissions: [] Read Only [x] Archive [] Derived That's the default. Using the "Restore Defaults" button does not always go back to this, the "Steps to Reproduce" show one way that does not work. A flow that does work is to first select all three and then hit "Restore Defaults", so it looks like the Derived and Read-Only ones are correctly restored, but not the Archive one... Reproducible: Always Steps to Reproduce: 1. Open properties for any resource 2. Deselect all checkboxes (especially Archive) 3. Hit "Restore Defaults

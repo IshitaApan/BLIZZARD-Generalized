@@ -1,0 +1,3 @@
+[DataBinding] Change tests plugin to pre-req examples
+
+This will allow the UI tests in examples to make use of the pojo model

@@ -1,0 +1,3 @@
+[ActivityMgmt] Examples are shown even when capability disabled
+
+there are two ways to open examples: - file->new->project - examples for this way any example which is disabled through a capability isn't shown - file->example when an example is placed directly as "root" node in the list, it is always shown. when the same example is put in a subcategory, it disappears when the capability is disabled

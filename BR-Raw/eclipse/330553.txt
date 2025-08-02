@@ -1,0 +1,3 @@
+[Import/Export] Importing a project that exists in workspace location merges the contents
+
+(1) Create a project in the default location (2) Export it to an archive (3) Delete it (but don't choose the option to delete from disk) (4) Make some changes in the <workspace root>/<project> directory (4) Import the archive you exported in step 2 This results in files from both the archive and directory. If the directory already has a file thats available in the archive, then it doesn't modify it. Ideally we shouldn't be allowing the import at all.

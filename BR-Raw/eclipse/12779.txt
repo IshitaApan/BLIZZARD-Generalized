@@ -1,0 +1,3 @@
+(0321) Workbench silently catching exceptions and removing listeners
+
+In SafeRunnable.handleException(Throwable e), there is a boolean check that is inverted. Instead of showing Errors, it *NEVER* shows errors. As a result, I had my ISelectionListener silently removed from the selection service. Also, I got into a state where the JDT's F4 action stopped following selection, and kept opening a hierarachy on the same class (the last one they were notified about before throwing an exception).

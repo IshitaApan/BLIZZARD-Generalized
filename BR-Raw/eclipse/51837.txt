@@ -1,0 +1,3 @@
+[Progress] Bad message in progress dialog
+
+I20040210 I got a bogus message when running a pile of jobs. A progress dialog appeared that read: "The operation cannot proceed because it is blocked by a background" A background what? :)

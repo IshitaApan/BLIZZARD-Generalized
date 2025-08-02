@@ -1,0 +1,3 @@
+[ViewMgmt] [RCP] tab group with non-closeable view can still be moved
+
+While you cannot move a non-closeable view, you can still move its tab group. This allows the view to be moved, you can drop it on a different tab group or detach it.

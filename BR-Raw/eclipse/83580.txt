@@ -1,0 +1,3 @@
+[Model] BaseWorkbenchContentProvider class Javadoc is incomplete
+
+The class Javadoc for BaseWorkbenchContentProvider (plugins/org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/model/BaseWorkbenchContentProvider.java) leaves you hanging. It ends with the phrase, "If subclassed, the following".

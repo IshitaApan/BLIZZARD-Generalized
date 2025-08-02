@@ -1,0 +1,3 @@
+[Presentations] Lazy IndexOutOfBoundsException in PresentationSerializer.getPart
+
+When restoring after some failure, PresentationSerializer.getPart can get many out of range numeric ids. Throwing and ignoring an IndexOutOfBoundsException for each makes debugging very hard and is just lazy programming. Please replace the catch by if (index < parts.size()) { IPresentablePart result = (IPresentablePart) parts.get(index); return result; }

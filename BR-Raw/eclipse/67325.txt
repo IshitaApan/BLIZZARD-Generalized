@@ -1,0 +1,3 @@
+[Progress] Jobs that should be marked "system".
+
+Steps to see the problem (using RC2): 1) Go to CVS repo view 2) Expand head of eclipse.org 3) Click on "Refresh View" icon Notice that, many jobs named "Adding children" and "Open progress monitor" are added to the progress view. The number of these varies based on how fast your machine is. On my Mac I can get 5 or 6 of each doing the above steps.

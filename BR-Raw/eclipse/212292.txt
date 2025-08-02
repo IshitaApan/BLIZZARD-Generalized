@@ -1,0 +1,3 @@
+[Contributions] <enabledWhen> does not work when view is detached
+
+Build ID: M20071023-1652 Steps To Reproduce: Checked out the current org.eclipse.ui.examples.contributions from dev.eclipse.org. Show "Info View" and select two items to enable "Swap Entries" toolbar command. Now detach the view. The "Swap Entries" is disabled. Reattach and all works. I've tried using <count>, <with variable="selection"> and I can't get the <enabledWhen> and the selection to work with a detached view.

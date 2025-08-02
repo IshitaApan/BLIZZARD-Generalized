@@ -1,0 +1,3 @@
+[Preferences] filter field: Looses focus on type
+
+20050208 When you type in the filter field, the focus ofter switched to the tree. You have to give the filter field the focus again to continue typing

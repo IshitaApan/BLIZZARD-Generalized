@@ -1,0 +1,3 @@
+[Compatibility] F1 does nothing in the 'Git Staging' view
+
+Pressing F1 seems to do nothing in the 'Git Staging' view. Strictly speaking, the content isn't of interest it just says the following in 3.x (which seems to be completely useless): About Git Staging Each workbench window contains one or more perspectives, which are made up of various views and editors.

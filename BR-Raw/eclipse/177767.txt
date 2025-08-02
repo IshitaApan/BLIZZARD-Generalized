@@ -1,0 +1,3 @@
+[Markers] In task preferences dialog, negative value results in internal error
+
+Build ID: I20070313-1051 Steps To Reproduce: Open the Task View > Preferences... dialog. Enter a negative value for 'limit visible item per group to' Hit OK, Dialog pops up with... An internal error occured during: "Process resource updates". Entering a non-integer string will prevent the OK button from being hit. This should also happen when the number is outside the allowed range.

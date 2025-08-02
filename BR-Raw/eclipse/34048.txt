@@ -1,0 +1,3 @@
+[Editor Mgmt] reusing editor jiggles
+
+build I20030304 - set reuse editors to 1 - click on a bunch of different files - the editor area jumps around Not sure if this is a workbench or text editor problem.

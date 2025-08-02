@@ -1,0 +1,3 @@
+[IDE] Removed deprecated project capabilities API and implementation
+
+It was created then deprecated before 2.0 shipped. As has never been API and we don't use it we should delete it.

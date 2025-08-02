@@ -1,0 +1,3 @@
+Window tool bar separators starts growing separators
+
+Created attachment 196584 Screenshot depicting the state in question. I20110524-2200 I'm now at a point where my perspective switcher is on the next line.

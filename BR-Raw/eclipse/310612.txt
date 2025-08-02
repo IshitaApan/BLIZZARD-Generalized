@@ -1,0 +1,3 @@
+[Markers] Quick fix wizard should not let the user finish if nothing has been selected
+
+1. Create a simple class. public class Test { 	 	private int i; } 2. You should get a warning about the unused field 'i'. 3. Open the 'Problems' view, you should see the warning there. 4. Select the warning > Ctrl+1 5. Click 'Deselct All'. The 'Finish' button should be disabled.

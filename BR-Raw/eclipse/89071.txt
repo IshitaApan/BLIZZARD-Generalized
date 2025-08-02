@@ -1,0 +1,3 @@
+[Progress] Progress dialog prevents access to modal error dialog
+
+build I20050323 - went to commit a change to a file - it had meanwhile been modified in the repo - it brought up an error dialog and a progress dialog - the error dialog must have come up first - the progress dialog is top-most, but is application modal and disabled, so I can't dismiss the modal error dialog - had to kill eclipse and restart The progress dialog was triggered by a busyCursorWhile timing out.

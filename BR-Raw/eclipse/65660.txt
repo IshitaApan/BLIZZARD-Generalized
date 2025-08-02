@@ -1,0 +1,3 @@
+[Markers] markerHelp does not seem to be working - probable regression
+
+markerHelp does not seem to be working - probable regression I'm trying out my own markerHelp implementation and not getting anywhere, so I dropped back to try and see if the example in the readmetool was working; it is not. I can take a 2.1.1 system and just add the examples, create a readme file, use the add> context menu and add the 1234 marker. Select the marker in tasks view and press F1 - I get a marker help hover. Same process on RC1/0529 code fails. I get the workbench popup help with hyperlinks for Workbench, Perspectives, and Workbench management.

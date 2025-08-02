@@ -1,0 +1,3 @@
+[Help] Dynamic Help menu item does not show the accelerator
+
+This has been a long story about Help keys being different on different WSs. However, we DO know that F1 is the accelerator used for dynamic help on Windows and that users cannot change it (unlike on Carbon or GTK+). I will attach a patch that adds F1 to the menu item label on Windows. Note that we cannot use key bindings because the accelerator is implied - we should not process the key ourselves.

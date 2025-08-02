@@ -1,0 +1,3 @@
+'Close All' context menu action can cause parts to be rendered
+
+The 'Close All' action merely unrenders the part in order so as the selection changes from one item to another, it may cause parts to become activated inadvertently.

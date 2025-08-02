@@ -1,0 +1,3 @@
+Task list filter option for working set could be more compact
+
+Build 20020508 Recommend having the controls all on one line: ( ) Working Set: <selected working set label> [ Select... ]

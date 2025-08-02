@@ -1,0 +1,3 @@
+[CommonNavigator] Supporting Custom Transfertypes in Common Navigator Framework
+
+Its not possible as of now to define ones own TransferTypes for the Project Explorer tree, its restricted to the below three supported by CNF LocalSelectionTransfer.getTransfer(), FileTransfer.getInstance(), PluginTransfer.getInstance() Please allow custom transfettypes to be registered with CNF. Please find the link below for more details - http://www.eclipse.org/newsportal/article.php?id=79120&group=eclipse.platform#79120 Thanks and regards, Keshav Veerapaneni.

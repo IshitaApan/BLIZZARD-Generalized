@@ -1,0 +1,3 @@
+[FastView] Ability to hide fast view toolbar
+
+This is probably a duplicate, or else I'm just not aware of how to do this, but I've searched bugzilla and the net, but haven't found anything... Provide a way for the user to hide the "fast view" toolbar.

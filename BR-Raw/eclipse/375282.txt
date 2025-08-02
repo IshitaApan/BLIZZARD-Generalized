@@ -1,0 +1,3 @@
+[CSS] Add support for Composite.setBackgroundMode()
+
+The E4 Contacts demo's Help > About and Help > Preferences dialogs show a grey band (or whatever the default colour SWT.COLOR_WIDGET_BACKGROUND may be), and the buttons may also show this grey colour too. To avoid this issue requires that the shell or composite have its background-mode set to SWT.INHERIT_DEFAULT or SWT.INHERIT_FORCE. We should have a way to set this value from CSS.

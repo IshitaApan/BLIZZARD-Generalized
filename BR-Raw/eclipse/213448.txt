@@ -1,0 +1,3 @@
+[CommonNavigator] Linking open editors with content in Project Explorer not working on restart
+
+On using the project explorer and clicking on the "link with navigator" icon - it links to the editor. However, when closing eclipse and reopening, the link does not automatically activate again, although the editor is open on a specific file. Clicking on the icon again, reactives the link.

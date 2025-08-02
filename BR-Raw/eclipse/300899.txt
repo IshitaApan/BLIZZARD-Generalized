@@ -1,0 +1,3 @@
+Endless OpenDoc events
+
+When we changed the code to send OpenDoc instead of post it, it seems that we broke carbon. If you open an associated file Eclipse becomes unusable because of many OpenDoc events.

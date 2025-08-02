@@ -1,0 +1,3 @@
+Unnecessary line of code in ResourceEncodingFieldEditor
+
+Around line 268 String defaultCharset = getCharsetFromDescription(); 		defaultCharset = getCharsetFromDescription();

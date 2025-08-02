@@ -1,0 +1,3 @@
+Need to improve image loading in Workbench
+
+The Workbench image loading has several issues 1) The string "icons/full" is all over the place in the UI and should be made a constant 2) This needs to be prepended by /nl 3) The plugin descriptor is still in use to load images. This does not support nl which is required for BIDI support

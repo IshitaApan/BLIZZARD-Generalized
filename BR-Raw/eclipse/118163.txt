@@ -1,0 +1,3 @@
+[Dialogs] - PopupDialog should define constants for zero margins
+
+PopupDialogs traditionally use a 0 margin width and height for the grid layouts used. This should be made an API constant rather than subclasses just knowing.

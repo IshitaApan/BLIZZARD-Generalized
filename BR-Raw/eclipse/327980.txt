@@ -1,0 +1,3 @@
+Part activation history should not be perspective-dependent
+
+The original implementation committed for bug 300742 gave every perspective its own activation history. This is not how it worked in 3.x, there was instead an activation history for each workbench window..

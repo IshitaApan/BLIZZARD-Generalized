@@ -1,0 +1,3 @@
+New Project Option for Replace Perspective should be relabeled
+
+Build 20020404 The New Project Option for Replace Perspective doesn't actually replace the current perspective. The option should be "Open Perspective in same window" and should be first since it's the default. Also, there's no need to capitalize Perspective. We don't elsewhere except in action names. Must fix for M5.

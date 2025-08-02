@@ -1,0 +1,3 @@
+[ViewMgmt] Sticky view declaration should have optional attributes for closable (and possibly moveable)
+
+I will attach a patch that handles optional closeable attribute... do you also want the moveable attribute to be specified for sticky views?

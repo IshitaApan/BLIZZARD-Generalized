@@ -1,0 +1,3 @@
+Improve manual builds
+
+Entering to track improvments to the manual (i.e. non-automatic) builds. We propose to make the build story more useful by providing "targeted builds" which have the flavor of make (or Ant) builds where the user says what projects they want to end up with in a "built" state and letting the system figure out what set of prerequisite projects need to be taken into account. By allowing the user to tell us which project(s) are important to them, we give them a powerful tool to control how much work gets done when they say "build".

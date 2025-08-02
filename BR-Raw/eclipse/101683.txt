@@ -1,0 +1,3 @@
+[WorkbenchParts] Views opened by context enablement are covered up by buttons from Breakpoints View
+
+To reproduce: 1. Reset debug perspective. 2. Bring the Breakpoints View to the top. 3. Launch a debug session that opens up a number of views from context enablement. The views are set to open but not to activate. 4. When the new views are opened, the view labels are covered by the buttons from the breakpoints view. If you switch to another view and back to the Breakpoints View, the buttons get moved down and view labels are not covered anymore. I will attach a screen capture for the problem.

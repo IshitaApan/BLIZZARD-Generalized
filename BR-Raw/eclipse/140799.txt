@@ -1,0 +1,3 @@
+[Keybindings] Keyboard shortcuts don't work if a view is detached
+
+While the focus is in the Display view the shortcuts for Inspect, Display and Execute don't work if the Display is a detached view. The content assist keyboard shortcut works, however. I don't get any ErrorLog entries. Using the context menu (which shows the non-functional shortcuts) works fine. A detached Debug view behaves likewise - the keyboard shortcut for "Use step filters" doesn't work whereas the ones for "copy stack" and "find..." do. I am using 3.2RC3, and the 3.2 versions I have tried (M5, M6, RC1a, RC3) all expose this behaviour. Using 3.1 it works fine.

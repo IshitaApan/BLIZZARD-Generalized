@@ -1,0 +1,3 @@
+Workbench is not mirrored correctly when using "nl" option
+
+Build Identifier: Workbench is not mirrored correctly when using "nl" option with a bidi language pack installed. Reproducible: Always Steps to Reproduce: 1.Install Arabic pack. 2.open eclipse with option "-nl ar_eg" Expected result: The layout of eclipse workbench is mirrored.(Refer to bug 303889 for a full description for all the the RTL orientation cases against the usage of nl option) Actual result: The layout of eclipse workbench is in LTR mode while the internal windows like preference window is mirrored correctly.(See the attachment)

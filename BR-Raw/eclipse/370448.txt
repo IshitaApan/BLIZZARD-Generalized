@@ -1,0 +1,3 @@
+Perspective switcher leaks images
+
+The PerspectiveSwitcher calls createImage(*) on a descriptor and does not dispose of the returned image correctly. As a result, one image is leaked for every opened and closed perspective.

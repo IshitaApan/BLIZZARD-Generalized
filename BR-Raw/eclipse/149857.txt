@@ -1,0 +1,3 @@
+[Progress] Calling isCanceled after job is done causes Progress View entry to stick around
+
+In comment 13 of bug 110805 (https://bugs.eclipse.org/bugs/show_bug.cgi?id=110805#c13), it is noted that a call to isCanceled on a progress monitor after the job is done will cause the job entry to be readded to the Progress view. Once this occurs, there is no way to remove the job from the view.

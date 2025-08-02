@@ -1,0 +1,3 @@
+[Markers] Expanded categories not persisted between sessions
+
+build I20051213 - in the Problems view in hierarchical mode, with many problems showing, - expand a few categories, select some leaf problems - shutdown / restart - the tree is collapsed Users will expect that the work they did to expand/collapse categories to see the problems they care most about will be persisted between sessions.

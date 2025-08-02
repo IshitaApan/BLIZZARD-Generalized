@@ -1,0 +1,3 @@
+[Preferences] ScopedPreferenceStore improvements.
+
+From DJ: 1). It would be best if the silentRunning code was in a try/finally block in case there is a problem. 2). I think your code should only have to call #fireChange if old and new value are different. (unless the code does that somewhere else)

@@ -1,0 +1,3 @@
+[Commands] handlers: Ctrl+. and Ctrl+, key bindings constantly broken in PDE editor
+
+I20060210-1640 1. open PDE editor 2. change content and save so that there's at least one error or warning in it 3. use Ctrl+. and/or Ctr+, to navigate to the error ==> does not work This used to work in 3.2 M4 and according to Wassim's comment in bug 127164, comment 5 there were no changes in PDE UI.

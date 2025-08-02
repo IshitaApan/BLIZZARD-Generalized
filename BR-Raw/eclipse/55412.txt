@@ -1,0 +1,3 @@
+[DND] Editor drop target too small
+
+Grabbing an editor tab and dragging it towards a border of the container makes it possible to split the editor pane and attach the dragged editor to the desired side. I find that the drop target area is too small. It frequently takes several passes with the mouse to get the little arrow to show. This appears to be less of a problem with views which seem much more forgiving... I am using the multiple editor tab option. (Single tab hides too much useful contextual information and requires too many clicks.)

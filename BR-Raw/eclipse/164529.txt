@@ -1,0 +1,3 @@
+[FieldAssist] Provide the ability to listen to start and end field assist events
+
+In the previous content assist functionality, an ICompletionListener could be specified to listen to the following events: public void assistSessionEnded(ContentAssistEvent event) public void assistSessionStarted(ContentAssistEvent event) The equivalent listener, IContentProposalListener, does not listen to those two events. PDE needs to know when an assist session is ended in order to reset the state it maintains for custom filtering of java type results. The current event does not handle the case where the user ends the content assist without selecting a proposal: public void proposalAccepted(IContentProposal proposal);

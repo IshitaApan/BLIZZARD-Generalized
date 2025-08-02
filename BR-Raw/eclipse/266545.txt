@@ -1,0 +1,3 @@
+[About] Content of the configuration tab should be populated in the background
+
+The computation of the content for the configuration details is very slow and should be done in teh background to allow for the UI to come up quickly

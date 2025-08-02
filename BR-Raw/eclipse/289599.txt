@@ -1,0 +1,3 @@
+[Preferences] PreferenceStore.setToDefault fires redundant PropertyChangeEvents
+
+Created attachment 147303 Patch_v01 This happens any time the method is called. I'd expect the event to be fired only if the actual state changes.

@@ -1,0 +1,3 @@
+Don't eagerly set element ids in the resource
+
+The EMF resource should not be setting a model element's element id given that that is a string that a developer should be making use of.

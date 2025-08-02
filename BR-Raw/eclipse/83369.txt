@@ -1,0 +1,3 @@
+[Import/Export] Unused manifest file generation code in ZipFileExporter
+
+ZipFileExporter includes code to generate a manifest file, but this code is not currently being used and is apparently broken (mentioned in bug 82814). I think we should remove it.

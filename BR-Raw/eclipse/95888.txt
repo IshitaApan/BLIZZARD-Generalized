@@ -1,0 +1,3 @@
+[Import/Export] Ignore spaces in mode and size fields of tar files
+
+The space character is special in tar files: it is often used instead of a null character for certain fields. Unfortunately, if a space is in the mode or size fields of a tar file, TarInputStream throws an exception. The attached patch fixes this.

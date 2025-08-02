@@ -1,0 +1,3 @@
+[WorkbenchLauncher] missing "select workspace" dialog
+
+i200503230842 Running with this build for the first time, I noticed it did not bother asking me for the workspace location. Just opened the default location. Note UI preferences are being created in the configuration area: #Wed Mar 23 12:25:49 EST 2005 RECENT_WORKSPACES_PROTOCOL=2 SHOW_WORKSPACE_SELECTION_DIALOG=false MAX_RECENT_WORKSPACES=5 eclipse.preferences.version=1 RECENT_WORKSPACES=C\:\\Documents and Settings\\rchaves\\workspace Deleting this file does not help, it is recreated again.

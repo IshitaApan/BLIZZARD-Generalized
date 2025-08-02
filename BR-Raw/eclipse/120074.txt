@@ -1,0 +1,3 @@
+[Graphics] Fast view target looks like fast view icon
+
+I20051206-1200 The fast view target has been replaced with some sort of "shell" icon. This looks like any other fast view icon and there's no separation.

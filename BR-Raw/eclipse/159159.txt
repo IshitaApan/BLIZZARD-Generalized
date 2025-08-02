@@ -1,0 +1,3 @@
+[Undo] - redundant/awkward warning message when rename causes overwrite
+
+When renaming a resource and an overwrite will occur, the warning message dialog says "Operation Warning: Xxx will be overwritten. Proceed with "Rename" anyway? The title of the dialog is Operation Warning. Having it in the message text in addition to the title makes it harder to parse what's going on.

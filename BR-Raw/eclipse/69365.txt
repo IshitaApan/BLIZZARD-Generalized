@@ -1,0 +1,3 @@
+Non NLS'd string shipped with eclipse 3.0
+
+Version 1.10 of BasicStackList introduced a non-NLS'd string ("motif"). This should probably be addressed in 3.0.1. I've fixed it in HEAD.

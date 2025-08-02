@@ -1,0 +1,3 @@
+[Preferences] Need to add new constant to ExtensionFactory
+
+I'd like to move the ContentType preference page to the Workbench to address Bug 89320. In doing so I would also like to add a constant to the ExtensionFactory so that RCP apps may make use of it.

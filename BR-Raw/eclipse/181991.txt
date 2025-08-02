@@ -1,0 +1,3 @@
+[Contributions] ContributedAction leaks editors
+
+I20070410-1043 - new workspace - paste into Package Explorer: public class Test1 { public static void main(String[] arg) { System.out.println("Hello"); } } - doubleclick ruler on line 3 to add a breakpoint - close editor => the CompilationUnitEditor is leaked via ActionDelegateHandlerProxy#delegate and ContributedAction#appContext If you make a copy of the class, set the breakpoint there, and close the editor again, then the first editor is still leaked via ContributedAction#appContext and the most recent editor is leaked through both ways.

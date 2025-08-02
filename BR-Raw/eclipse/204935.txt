@@ -1,0 +1,3 @@
+[Markers] MarkersView should use fixed default widths
+
+The MarkersView should use fixed rather than proportional widths as columns are getting very small when the workbench is restarted with a small markers view.

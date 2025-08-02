@@ -1,0 +1,3 @@
+WorkbenchPlugin.createExtension(*) uses old extension namespace
+
+org.eclipse.ui.internal.WorkbenchPlugin.createExtension(IConfigurationElement, String) uses element.getExtension().getNamespaceIdentifier(), but that can be misleading. Change it to:element.getContributor().getName() PW

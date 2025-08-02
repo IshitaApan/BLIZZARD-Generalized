@@ -1,0 +1,3 @@
+[KeyBindings] Multi-stroke keyboard shortcut help window doesn't go away
+
+I20040106 - Activate Key config "Standard (3.0) - NEW!" - Enable "Help me with multi-stroke shortcuts" - select a package - press Ctrl+R - wait for the help table to appear - press Ctrl+N - press Esc => the help table is still there and doesn't go away I can't close the help table with Esc nor with Alt+F4 (these should at least work as an emergency exit, also after this PR has been fixed).

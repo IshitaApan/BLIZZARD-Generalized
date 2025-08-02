@@ -1,0 +1,3 @@
+Need to invert wording of Run In Background preference
+
+Show user dialog should be run in background

@@ -1,0 +1,3 @@
+[KeyBindings] KeyAssistDialog should start with row 0 selected (especially useful in keybinding conflicts)
+
+Build Identifier: Version: 3.6.0 - Build id: I20091210-1301 Right now, if there's a conflict, a dialog appears so that the user can solve the conflict, but to choose the first command in the list one must press down and then up again to actually execute the first (instead of simply pressing enter) E.g.: if I create a Python Open Type command with ctrl+shift+t that conflicts with the JDT Open Type command this dialog would show: Open Type Python Open Type and the Open Type would be the current item (but not the selected one), so, pressing enter would do nothing -- and pressing down would go to Python Open Type. Reproducible: Always

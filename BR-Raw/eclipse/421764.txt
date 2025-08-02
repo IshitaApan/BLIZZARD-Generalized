@@ -1,0 +1,3 @@
+[CSS] Provide a way to select Font and Color themes
+
+While we work on bug 419016 we need a way to work with different 3.x Themes (font and color themes). I'll resurrected a Font and Color theme combo on the Appearance preference page so we can see how it works with our CSS bridge work. PW

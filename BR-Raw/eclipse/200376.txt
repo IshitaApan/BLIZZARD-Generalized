@@ -1,0 +1,3 @@
+[IDE] Bidi issues with ContainerAndSelectionGroup's containerNameField (in ResourceAndContainerGroup)
+
+Build ID: 3.3.0 Steps To Reproduce: 1. Add a project to your workspace and add two folders which use Hebrew characters as its name, one folder inside another (e.g. ABC\DEF). 2. Choose File, New, Other, File... 3. Choose the nested folder (in this example, DEF) 4. Observe the path which is set in the containerNameField of ContainerSelectionGroup is DEF\ABC and not ABC\DEF. More information: See the containerSelectionChanged() method of ContainerSelectionGroup for more details.

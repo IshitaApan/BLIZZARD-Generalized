@@ -1,0 +1,3 @@
+[ActivityMgmt] Expression enabled activites should be able to be non-restricted but filtered
+
+Created attachment 94004 Filter activity which is enabled by expression Build ID: I20080207-1530 Steps To Reproduce: 1. Create an Expression enabled Activity (enabledWhen Expression). 2. Enable it, i.e. its Expression. 3. Filter it, i.e. remove it from the enabled Activities list. 4. Test it if it's a) Restricted. Which should fail. b) Filtered. Which also fails. Which is wrong because you removed it from the enabled list. More information: This is the way it's designed. But I suggest to change it, so it's easy to still filter but not restrict an activity at the same time.

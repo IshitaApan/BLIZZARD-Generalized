@@ -1,0 +1,3 @@
+[Preferences] Project properties dialog: tree needs a border
+
+M4 test pass Project properties dialog: the tree on the left hand needs a border.

@@ -1,0 +1,3 @@
+[Cell Editors] - Cell Editor action handler doesn't handle dynamic undo text
+
+The CellEditorActionHandler allows clients to install an undo and redo handler that should be used when the cell editor is not open. However, there is no support for the fact that most undo and redo handlers update their action text according to the operation to be undone/redone. Further, the enablement conditions on undo and redo action handlers change dynamically. CellEditorActionHandlers need to monitor property change events of their underlying undo/redo actions and update the enablement and text accordingly. This is required so that the task views, bookmark views, etc. show the correct text in the undo/redo actions when there is a marker operation to be undone.

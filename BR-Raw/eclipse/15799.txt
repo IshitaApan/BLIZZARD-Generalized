@@ -1,0 +1,3 @@
+IWorkbenchWindowActionDelegate actions don't honor setText call in first selection change
+
+Build 20020508 I try to change the label of a global action inside of IWorkbenchWindowActionDelegate#selectionChanged but this doesn't have any effect when receiving the selection change event the first time. The problem seems to be the following code: public ActionDecriptor#ActionDescriptor(IConfigurationElement actionElement, int targetType, Object target) { .... action = createAction(targetType, actionElement, target); // The above call changes the action's label. action.setText(label); <== sets the label defined in XML. }

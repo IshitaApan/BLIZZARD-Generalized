@@ -1,0 +1,3 @@
+[WorkbenchParts] IWorkbenchPartReference's getPart(boolean) method refers to editors
+
+Currently, the javadoc is... /** * Returns the IWorkbenchPart referenced by this object. * Returns <code>null</code> if the editors was not instantiated or * it failed to be restored. Tries to restore the editor * if <code>restore</code> is true. */ ...which is incorrect since views are workbench parts too.

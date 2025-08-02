@@ -1,0 +1,3 @@
+Need public access to GlobalBuildAction
+
+To leverage some code needed to do a correct build I want to reuse the GlobalBuildAction. Can you please make this action public.

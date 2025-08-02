@@ -1,0 +1,3 @@
+NPE with EModelService's getElementLocation(MUIElement) on a model within a perspective that's not under the application
+
+java.lang.NullPointerException 	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.getElementLocation(ModelServiceImpl.java:740)

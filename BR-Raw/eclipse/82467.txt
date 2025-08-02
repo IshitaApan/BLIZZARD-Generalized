@@ -1,0 +1,3 @@
+[Properties] Properties dialog should be searchable
+
+When I opened the properties page on my project (right click > properties) I was surprised to not find a "search" field. Then I realized that I was not in the "preference dialog". The source of the confusion lies in the fact that both properties page and preference page have the same layout, but that now they are differing from each others. I think that for consistency, as well as convenience, it makes sense to have a "search" field in the properties dialog.

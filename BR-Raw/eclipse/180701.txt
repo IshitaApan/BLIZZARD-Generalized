@@ -1,0 +1,3 @@
+[JFace] API - Popup dialog is creating image descriptors every time it is opened
+
+We are not caching the imageDescriptors from PopupDialog but are recreating them all of the time. This is likely not a serious issue but it will generate garbage. Also the images are not looked up using bundles so they cannot be overridden in other Locales. As they are currently symmetric this is not an issue but they should be looked up in the same way we do it in JFaceResources when this fixed.

@@ -1,0 +1,3 @@
+[Preferences] Import Preferences: Crashes on eclipse
+
+Eclipse 20021217 RH 7.3, KDE I changed the dialog font via Window>Preferences>Workbench>Font to be a bold font. Exited all preference pages and then verified the changes by going to the Editors preference page (Window>Preferences>Workbench>Editors). I then attempted to import the attached preferences via the import button. Eclipse crashes. No entries in the log, but a javacore (attached) is produced. Only occurs on linux-motif. See also bug 28637 for a different error that occurred on Windows-XP. I also saw these messages on linux, but was not sure if it was my GTK or MOTIF eclipse, or what actions had lead to this.

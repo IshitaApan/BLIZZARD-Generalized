@@ -1,0 +1,3 @@
+[ActivityMgmt] Activities javadoc issues
+
+Should ITriggerPointManager#UNKNOWN_TRIGGER be deprecated? WorkbenchActivityHelper#allowUseOf is deprecated and new - can it be deleted? ActivityCategoryPreferencePage needs more javadoc

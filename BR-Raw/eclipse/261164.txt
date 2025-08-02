@@ -1,0 +1,3 @@
+[CommonNavigator] Add dynamic tracing for DnD
+
+The options were put in, but the tracing was never actually hooked up.

@@ -1,0 +1,3 @@
+[Compatibility] When closing all perspectives, close other perspectives before closing the selected one
+
+Currently, when the user requests that all perspectives be closed, we are constantly closing the currently selected one. This causes a lot of churn as a perspective switch happens every time the [current] perspective is closed. We should instead just close all other perspectives first before we close the current one. This will also prevent unnecessarily opening random unwanted perspectives which could potentially cause bundle activation.

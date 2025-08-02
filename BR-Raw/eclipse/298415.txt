@@ -1,0 +1,3 @@
+StackRenderer assumes the shell has not been disposed when forcing a re-layout
+
+Created attachment 154932 StackRenderer tests patch By the time the display processes the runnable, the shell may have been disposed. org.eclipse.e4.workbench.ui.renderers.swt.StackRenderer -hideChild(MElementContainer<MUIElement>, MUIElement) sh.getDisplay().asyncExec(new Runnable() { 	public void run() { 		sh.layout(true, true); 	} }); Please use the attached patch to reproduce the failure.

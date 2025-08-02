@@ -1,0 +1,3 @@
+[Commands] NullPointerException in WidgetMethodHandler.getMethodToExecute
+
+I'm not sure how this was triggered. I200405190010, Solari 8, Motif, CDE

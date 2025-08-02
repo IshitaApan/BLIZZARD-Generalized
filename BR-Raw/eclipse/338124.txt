@@ -1,0 +1,3 @@
+[Compatibility] Investigate a way to allow views to be defined inside the shared area in 4.x using 3.x code and extensions only
+
+Thomas wants to put a view inside the shared area in 4.x. This is not possible in 3.x so being the wonderfully compatible citizens our bundles are, this is also not possible in 4.x. We should investigate a way to allow developers to define a view that should be shown inside the shared area using only 3.x code and extensions. The caveat of course is that the code is safe when run in a 3.x environment.

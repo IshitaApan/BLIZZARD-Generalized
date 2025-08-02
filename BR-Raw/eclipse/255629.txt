@@ -1,0 +1,3 @@
+[StatusHandling]WorkbenchStatusDialog needs refactoring
+
+Currently the dialog is first displayed, and then populated with values. It is necessary to set all UI controls before displaying the dialog.

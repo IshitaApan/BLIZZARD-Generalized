@@ -1,0 +1,3 @@
+[IDE] File deletion obtains workspace root rule
+
+Build 20041013 1. Select all projects in the workspace. 2. Right click -> Team -> Update (Run in Background) 3. While the Update is running, select a few files in the package explorer and press Delete. 4. A modal progress dialog comes up and the user has to wait until the Update finishes for the Delete to be processed. The Update action should only lock the project that it's currently working on. When I performed the above steps the Update action was only working on the first of about 20 projects in my workspace. The files I was trying to delete were from one of the last projects. I had to wait five to ten minutes (I just got up and walked away) for an action that should have taken a few seconds.

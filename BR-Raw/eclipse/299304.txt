@@ -1,0 +1,3 @@
+[CommonNavigator] Test contribution for CNF
+
+Tests for bug 285529.

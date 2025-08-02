@@ -1,0 +1,3 @@
+[QuickAccess] Drop down opens in wrong position
+
+Recently released code is causing the the [QuickAccess] drop down to open in the wrong position. I talked to Eric and there was a change this morning that changed the parenting relationship of the SearchField. This is likely causing the problem.

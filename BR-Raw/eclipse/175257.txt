@@ -1,0 +1,2 @@
+[StatusHandling] Add properties in StatusAdapter
+

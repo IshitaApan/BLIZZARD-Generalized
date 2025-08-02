@@ -1,0 +1,3 @@
+[Presentations] wrong cursor positions when switching editors with ctrl-pageup
+
+affected version 3.1m3 steps to reproduce: - open several files with e.g. texteditors (no multipageeditors) - place the cursor in the middle of the text - switch to the next editor with ctrl-pageup - switch back to the editor you started with ctrl-pagedown - cursorposition is changed seems as if the pageup gets to the editor instead of only affecting the editorselection

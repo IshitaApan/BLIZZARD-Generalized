@@ -1,0 +1,3 @@
+[Compatibility] Views opened with Ctrl+3 don't have placeholders
+
+Broken by the fix for bug 330558.

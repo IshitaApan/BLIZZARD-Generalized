@@ -1,0 +1,3 @@
+Go to resource dialog is too small (1GE8H7O)
+
+The go to resource dialog on the navigator popup is too small when it opens. NOTES:

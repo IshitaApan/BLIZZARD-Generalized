@@ -1,0 +1,3 @@
+[GlobalActions] [regression] ActionFactory must return RetargetActions
+
+ActionFactory and IDEActionFactory must return RetargetActions where spec'ed to by the javadoc. PW

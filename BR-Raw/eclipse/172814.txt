@@ -1,0 +1,3 @@
+[Viewers] Rename AbstractViewerEditor to ColumnViewerEditor
+
+There is no "AbstractViewer", and this class is referenced from ColumnViewer. To make the names more consistent, it should be called ColumnViewerEditor, not AbstractViewerEditor.

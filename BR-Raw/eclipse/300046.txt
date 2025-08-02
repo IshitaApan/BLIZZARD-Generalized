@@ -1,0 +1,3 @@
+ImportTypeDialog is lacking in javadoc
+
+This seems to be a new type that was introduced when the resources work was merged into the 3.x stream. Some stuff is documented but there are other areas that aren't (such as the class itself). I don't even know what a "type" is but I'm pretty sure we're not talking about a Java type. Is this supposed to be public or internal? Please make the necessary changes and polish before the API freeze in M6.

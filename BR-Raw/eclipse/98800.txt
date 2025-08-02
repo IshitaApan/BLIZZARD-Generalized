@@ -1,0 +1,3 @@
+[Workbench] Ant buildfile removed from fast view Ant View after restart
+
+I am running Eclipse 3.1 RC but but noticed this behaviour in previous versions too. From time to time, the ANT view is no longer showing my single build.xml Script. Unfortunately I am not able to post a scenario how this happens. It is always that I am working some time on my different projects then shutting down Eclipse and the next day opening Eclipse and the Ant view, the script is no longer added. I am not closing any project. So is there another reason why an Ant Script could be removed from the Ant view? Ben

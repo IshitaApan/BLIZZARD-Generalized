@@ -1,0 +1,3 @@
+[Viewers] Plus sign doesn't disappear when using deferred content providers
+
+3.3 M4 Use a tree viewer with a content provider using IDeferredWorkbenchAdapter and DeferredTreeContentManager. When fetchDeferredChildren is call and no elements are reported to the element collector the plus sign of the node doesn't disappear. This work without problems under Windows and Mac/OS (e.g. the plus sign disappears).

@@ -1,0 +1,3 @@
+[Viewers] Add tooltip support for DelegatingStyledCellLabelProvider
+
+Build ID: I20080530-1730 Steps To Reproduce: DelegatingStyledCellLabelProvider has support for IFontProvider and IColorProvider but not for tooltip methods defined in CellLabelProvider I can delegate it from DelegatingStyledCellLabelProvider to IStyledLabelProvider by myself, but it should be nice to have it in standard api...

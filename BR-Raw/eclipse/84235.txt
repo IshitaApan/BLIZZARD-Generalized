@@ -1,0 +1,3 @@
+[MPE] MultiPageEditorPart always inserts pages at the end
+
+Build: any In MultiPageEditorPart, as far as I can see, there is no way (API) to insert a page at the index of my choice. addPage(Control) always inserts the page at the end. In the PDE editors, especially with the extensive bundle tooling coming up, we need to insert pages anywhere we want. We need something like addPage(int index, Control control) The current product configuration editor desperately needs this dynamic addition/removal of pages. Here is my temporary hack: if I want to replace the page at index i with another page, I first remove pages from index i to (number of pages -1) then I insert the new page at index i and re-add the other pages that follow.

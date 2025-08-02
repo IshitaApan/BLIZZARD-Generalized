@@ -1,0 +1,3 @@
+Regression: closing the Welcome view leaves the WBW in a strange state
+
+Found while checking 4.4.0.I20131209-2000. I had a workspace with a maximized editor... installed EGit and restarted closed the resulting Welcome screen I ended up with all the stacks restored to the presentation but the shared area was still 'maximized'. Closing the Welcome shouldn't affect the state of the regular presentation at all...

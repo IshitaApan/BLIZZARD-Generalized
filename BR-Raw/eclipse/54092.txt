@@ -1,0 +1,3 @@
+[Wizards] New wizard does not honor double click to expand
+
+When I do "File > New > Other...", I get a new wizard. Double-click on any tree node, and nothing happens. Instead, I have to explicitly expand the tree nodes to see the children. Default behavior is to expand/collapse at double click.

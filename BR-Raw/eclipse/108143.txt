@@ -1,0 +1,3 @@
+[Import/Export] error message does not go away when resources are selected for import
+
+The patch for 97523 should have included code to prevent this problem, but it was overlooked. -Import an Archive or from the File System -Ensure the the Into Folder: field is empty -Uncheck all the resources to import (notice an error message appears) then check it again BUG: the error message does not go away

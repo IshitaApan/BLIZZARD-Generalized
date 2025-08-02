@@ -1,0 +1,3 @@
+[DataBinding] Use MessageFormat for validation hints
+
+The default hints produced by String2IntegerPrimitiveValidator and its peers are not very pleasant. They print extremely long numbers, are missing spaces, etc. For I18n, these hints should be produced via MessageFormat patterns, rather than with a hard-coded structure. This would also allow clients to override the messages by providing replacement patterns in a fragment. Boris, are there any issues with using java.text.MessageFormat under Foundation profiles? Should an ICU equivalent be used instead?

@@ -1,0 +1,3 @@
+[Markers] Problems view no longer shows selected description in status bar
+
+In 3.3.2, selecting a problem in the Problems view shows its description in the status bar. This is very handy if a description is overly verbose and just doesn't fit into the current width of that column. In 3.4 M5, it does not do this any more.

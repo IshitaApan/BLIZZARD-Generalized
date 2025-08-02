@@ -1,0 +1,3 @@
+UIEventPublisher does not handle Notification.ADD_MANY and REMOVE_MANY
+
+I was walking through some code that sought to respond to changes to the MApplication's menu contributions (formed from the 3.x <menuContributions> stanzas). My event listener was getting a strange event whose type was "UNKNOWN". It turns out that adding the generated MMenuContributions to the app instance (in MenuPersistence#read()) causes an EMF ADD_MANY notification, which we don't interpret properly in UIEventPublisher#getEventType(). We instead map the notification to event type "UNKNOWN", which has the effect that the old and new values are never set in the event properties. I'm not sure what we should be mapping this ADD_MANY to.

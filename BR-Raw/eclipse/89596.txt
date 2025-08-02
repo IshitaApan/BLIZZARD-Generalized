@@ -1,0 +1,3 @@
+[EditorMgmt] Editor drop-down handler registered in two different places
+
+WorkbookEditorsAction and an internal handler on EditorAreaHelper are both registered to take care of the same command. The one on EditorAreaHelper appears unnecessary. This bug was caused by Bug 59162.

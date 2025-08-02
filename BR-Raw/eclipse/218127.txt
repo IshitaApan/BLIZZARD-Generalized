@@ -1,0 +1,3 @@
+[CommonNavigator] Common Navigator inherited viewer bindings
+
+This enhancement describes the ability for common navigator viewer instances to "inherit" the action and content bindings from other viewers.

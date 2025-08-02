@@ -1,0 +1,3 @@
+[Viewers] OpenStrategy postSelection delay hinders automated testing
+
+Build ID: I20080617-2000 Steps To Reproduce: The initializeHandler method runs the firePostSelectionEvent after the TIME=500 ms, which causes the automated tests to fail unless the thread is made to sleep for 500+ ms after each arrow key pressed, which is cumbersome. More information: Could we have the TIME member public, to set to 0 when testing? Probably that would be a good idea to have some kind of a more global flag (maybe in Display) to turn off optimizations that are hostile to event driven testing?

@@ -1,0 +1,3 @@
+Markers view not filtering by workingsets
+
+Due to a variable name typo during the work from Bug 292525, filtering by workingset in markers view may not work in recent builds.The fix is about correcting the typo, but I guess this can be rectified only after M3.

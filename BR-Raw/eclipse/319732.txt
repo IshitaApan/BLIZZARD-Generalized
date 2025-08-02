@@ -1,0 +1,3 @@
+Views with a menu but no toolbar has no menu on restart
+
+Views like the 'Problems' view and 'Outline' view has its view menu on the first startup. When you restart, those view menus disappear.

@@ -1,0 +1,3 @@
+[DnD] Dock views is very hard if there is no editor area
+
+I created an RCP application without editor area. Created some views. Undocked all of them by dragging with the mouse. So all they are outside the workbench window. Now it is very hard to bring them back into the workbench window by dragging them. The dark gray line border appears in the workbench window but if I release the mouse button the view jumps back outside the workbench window. If the editor area is enabled this bug doesn't occur.

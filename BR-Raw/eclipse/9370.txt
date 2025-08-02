@@ -1,0 +1,3 @@
+"Open Recent" menu remains disabled when closing file
+
+-start an inner Eclipse (or run with a build >0205, that has the open recent menu). -open three files -close the second editor -check the "Open Recent" menu, it is disabled -close another editor ->the open recent menu has two entries

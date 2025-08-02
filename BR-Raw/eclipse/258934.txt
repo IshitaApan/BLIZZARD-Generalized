@@ -1,0 +1,3 @@
+[Viewers] Improve CheckboxTreeViewer coverage
+
+Build ID: I20081211-1908 There are a number of methods in CheckboxTreeViewer which have no tests and could easily be tested.

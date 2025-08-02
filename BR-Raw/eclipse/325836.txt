@@ -1,0 +1,3 @@
+EPartService's createSharedPart(*) methods should not need its MWindow parameter
+
+The service should only be interacting with its own window and not some other random window.

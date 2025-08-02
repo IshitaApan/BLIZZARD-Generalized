@@ -1,0 +1,3 @@
+[KeyBindings] (new) keys preference page layout problems
+
+I20070430-0010. (new) keys preference page has some layout bloopers: - the description field is too small and has scroll bars - it makes the dialog grow quite big horizontally

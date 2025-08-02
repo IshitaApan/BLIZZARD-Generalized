@@ -1,0 +1,3 @@
+[Progress] Color leaked in ProgressInfoItem
+
+Created attachment 92834 patch creates RGB instead of Color The static initializer of ProgressInfoItem creates a Color (darkColor), puts the RGB value of that Color into a ColorRegistry, but never disposes the Color. There's really no need to create the color in this case, the RGB could be created directly instead.

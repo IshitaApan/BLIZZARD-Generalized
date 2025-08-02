@@ -1,0 +1,3 @@
+[Viewers] Need and ITableFontProvider
+
+We released an ITabelColorProvider for M2 - we should have a corresponding ITableFontProvider

@@ -1,0 +1,3 @@
+[CSS] TK-UI CSS engine for Nebula widget
+
+Created attachment 118965 TK-UI CSS engine Eclipse project for Nebula widget Build ID: N/A Steps To Reproduce: Project wich provide TK-UI CSS engine implementation for Nebula widgets. It manage CSS for Nebula Gallery widget. Here a sample GalleryItem { 	background-color:#98cbbc; 	color: white; 	font:bold;	 } GalleryItem:selected { 	color: yellow;	 background-color:#d0e8e0; } Gallery { 	background-color:#008080; 	//font:bold;	 //selection-color:red } More information:

@@ -1,0 +1,3 @@
+Resource filters cannot be edited for linked packages
+
+I20091207-1800 Resource filters cannot be edited for linked packages (properties page shows only up for folder, not for packages).

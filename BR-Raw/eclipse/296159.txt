@@ -1,0 +1,3 @@
+[Progress] WorkbenchSiteProgressService keeps showing CURSOR_APPSTARTING when Job canceled before it is started
+
+I20091124-0800 - new workspace - check out a project from CVS - open a .java file - choose context menu > Team > Show Annotation - confirm using CV as quick diff provider => in the end, the History view still shows the CURSOR_APPSTARTING cursor. I can reproduce when I close the History view (must be closed in all perspectives) and choose 'Revisions > Hide Revision Information' from the change ruler context menu.

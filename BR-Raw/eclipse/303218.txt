@@ -1,0 +1,3 @@
+Active part no longer seems to be queryable from the application's context
+
+Created attachment 159461 Active part bug tests patch Some change introduced by bug 299529's attachment 159241 has caused active parts to no longer be queryable from the application's context. The attached test will reproduce the problem. I have not yet been able to create a smaller test case.

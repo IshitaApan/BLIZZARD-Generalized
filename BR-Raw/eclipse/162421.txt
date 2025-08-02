@@ -1,0 +1,3 @@
+[FastView] 3.3. presentation: view locked after minimize - show - restore
+
+N20061026-0010, was OK in I20061024-1200 3.3. presentation: view locked after minimize - show - restore: - minimize view (e.g. Declarations view that shows some code) - click on view icon to show view as a fast view => view behaves normally (e.g. can select text in Declarations view) - click Restore button => view is restored, but does not react on mouse clicks any more Note: only view interaction is locked, but redraw works; e.g. Declarations view is updated when another element is selected

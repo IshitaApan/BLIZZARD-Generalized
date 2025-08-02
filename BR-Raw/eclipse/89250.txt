@@ -1,0 +1,3 @@
+[Viewers] - API Review - LazySortedCollection review comments
+
+There are two unused private methods in LazySortedCollection. setNextUnsorted(...) getEdgeTo(...) Attached is a patch with other javadoc review comments also.

@@ -1,0 +1,3 @@
+[Viewers] Take over SWT programming pattern to JFace Viewers
+
+To open ColumnViewer for reusablility we should not make it final making the constructor protected forces people to subclass it and not directly creating instances from it.

@@ -1,0 +1,3 @@
+Unset context from model if widget creation failed since the context is disposed
+
+If the renderer fails to create a widget for a given element, it will dispose its created context (if any) prior to returning from the call. If we try to deconstruct the element later, it will fail with an NPE because the context has been disposed and getParent() will return null.

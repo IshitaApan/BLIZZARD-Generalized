@@ -1,0 +1,3 @@
+Title of ErrorDialog in WorkbenchStatusReporter should be externalized
+
+Build Identifier: Version: Juno Release Build id: 20120614-1722 In the current implementation of WorkbenchStatusReporter title of ErrorDialog is fixed (as Internal Error). When running non-english application the dialog title doesn't fit to the message. Reproducible: Always Steps to Reproduce: 1. Just run any non-english application that uses WorkbenchStatusReporter.

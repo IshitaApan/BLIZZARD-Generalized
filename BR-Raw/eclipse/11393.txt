@@ -1,0 +1,3 @@
+ImageDescriptor should allow creating an Image on a Device other than Display.getCurrent()
+
+Use Case: A user wants to use ImageDescriptor to create an Image with the intent of rendering that image on a GC constructed on a Printer. Current state: Currently, ImageDescriptor's createImage always uses Display.getCurrent() to create images. Solution: Enhance ImageDescriptor to provide the ImageDescriptor#createImage(Device device) method.

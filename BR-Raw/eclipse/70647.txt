@@ -1,0 +1,3 @@
+[JFace] TVT3.0:  Extra mnemonic in Build Project
+
+When I click the Build Project, The build project window shows up. Title for Build project window has extra mnemonic. And Rebuild project window is also same. See attached screenshot

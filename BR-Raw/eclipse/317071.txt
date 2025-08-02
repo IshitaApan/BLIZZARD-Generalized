@@ -1,0 +1,3 @@
+Turn menu printouts into tracing
+
+I left a boolean true and now we log to the console. unrender: MenuItem {&Run}: org.eclipse.e4.ui.model.application.ui.menu.impl.MenuImpl@1b441b44 (elementId: org.eclipse.ui.run, tags: [menuContribution:menu]) (widget: MenuItem {&Run}, renderer: org.eclipse.e4.ui.workbench.renderers.swt.MenuRenderer@64216421, toBeRendered: true, onTop: false, visible: true, containerData: null) (label: &Run, iconURI: null, tooltip: null) (enabled: true) I've turned menu printing into true debug tracing, it can be activated from the Trace tab. PW

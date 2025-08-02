@@ -1,0 +1,3 @@
+[Viewers] Label images in TableViewer are not updated
+
+I20050209-0800 - new *clean* eclipse I20050209-0800, new workspace, new java project - switch to java browsing perspective - select the rt.jar and then select package "java.lang.ref" -> look at icon of type "Finalizer": it's a final, package-private class - select package "java.lang.reflect" -> icon of type "AccessibleObject" should be nonfinal, public class -> was: still the same icon as was there before - deselect all packages, then select package "java.lang.reflect" again -> images are correct now (since TableItems are not reused?) This problem has already been fixed as bug 72794 and bug 82798, but has now reappeared.

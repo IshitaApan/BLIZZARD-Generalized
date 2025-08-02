@@ -1,0 +1,3 @@
+[Services] Register sources for the IEvaluationService
+
+In order to be used in core expressions for handlers, menus, and contexts, a source needs to register itself with the IEvaluationService. PW

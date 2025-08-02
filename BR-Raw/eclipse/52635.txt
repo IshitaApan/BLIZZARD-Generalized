@@ -1,0 +1,3 @@
+[Dialogs] import plugins and fragments dialog should be resizable
+
+3.0-M7 The user should be able to resize the import plugins and fragments dialog. Having to scroll in order to read the plugin name is annoying.

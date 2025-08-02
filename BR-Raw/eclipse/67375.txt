@@ -1,0 +1,3 @@
+[Themes] Description area in the "colors and font preferences" is not big enough
+
+RC2, linux, motif. Open the preference page for "colors and preferences". You will notice that the description area is not big enough. Note that it has the right size on gtk.

@@ -1,0 +1,3 @@
+[FilteredTree] FilteredTree renders all parent items of matches bold
+
+N20080904-2000, was OK in 3.4 The FilteredTree now renders all parent items of matched items bold. To reproduce, open Preferences and type "error" => tree is completely boldened. (In reply to bug 240009 comment #1) > No idea why it called setPattern at all. Fixed in HEAD. I have an idea: When I revert to FilteredTree 1.29, this bug goes away.

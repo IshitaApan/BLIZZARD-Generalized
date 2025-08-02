@@ -1,0 +1,3 @@
+[Import/Export] Export to filesystem loses current selection in Package Explorer
+
+In the Package Explorer (in "Show Working Sets" mode), I have several projects selected, with one of them being expanded in the Package Explorer tree. Now when my selection includes the "JRE System Library" entry in that project, and when I then chose "Export"-"To Filesystem", the wizard coming up has nothing selected for export, i.e. it loses completely the current selection in the Package Explorer View.

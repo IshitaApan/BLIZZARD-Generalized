@@ -1,0 +1,3 @@
+[Workbench] (regression) Close all perspectives, open Java perspective, layout wrong
+
+I20041216-1200, Solaris, Motif, CDE If you close all perspectives and then open the Java perspective, the layout of the Java perspective is wrong. The editor area is given almost all of the space, and the outline/explorer/problems views are all squished.

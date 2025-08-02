@@ -1,0 +1,3 @@
+[About] Signature checking in About dialog doesn't scale
+
+Build: I20070112 The about dialog currently spawns one worker/thread for each plugin in order to verify signatures. This doesn't scale, since it causes hundreds or possibly thousands of threads to be running simultaneously. There should be a single job for checking signatures, or the jobs should have a scheduling rule to prevent them from running concurrently.

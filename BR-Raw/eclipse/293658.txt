@@ -1,0 +1,3 @@
+[About] About dialog's installation details does not honour dialog font settings
+
+Build id: I20091028-0100 1. Window > Preferences > General > Appearance > Colors and Fonts 2. Basic > Dialog Font > Edit... 3. Increase the font size a bit. 4. Click 'OK'. 5. Help > About Eclipse SDK 6. So far so good. Click the 'Installation Details' button. 7. The 'Close' button is the correct size but other buttons are not. The tabs are not right and the tabs' contents are not right. Strangely enough, the 'Configuration' tab's buttons are right. The font for that tab's content should stay since that's a "log".

@@ -1,0 +1,3 @@
+[Navigator ] Open/Close Project can be removed from context menu
+
+build I20021105 Open/Close Project can be removed from the Navigator's context menu, since they are not frequent operations, and appear on the Project main menu. See bug 25480.

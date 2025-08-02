@@ -1,0 +1,3 @@
+Error on shutdown from ProgressManager
+
+I20040303 I am getting exceptions from jobs on shutdown. A job is being canceled, which reports cancelation to the job's progress monitor (IProgressMonitor.setCanceled()). In UI land, the progress monitor is trying to access the workbench, but the workbench has been shutdown at this point. Looks like it needs another one of those if (PlatformUI.isWorkbenchRunning()) checks before trying to get the active workbench window.

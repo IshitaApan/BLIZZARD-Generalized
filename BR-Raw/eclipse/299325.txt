@@ -1,0 +1,2 @@
+[CommonNavigator] Add plugin.xml configuration for new pipeline tests
+

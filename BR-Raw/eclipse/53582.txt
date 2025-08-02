@@ -1,0 +1,3 @@
+Rebuild Project are not run in the background?
+
+The "Build All" and "Rebuild All" actions are run in the background, but the "Build Project" and "Rebuild Project" actions aren't. This is not consistent and I was surprised to get a modal dialog when performing a "Rebuild Project".

@@ -1,0 +1,3 @@
+[Services] Support service locator creation
+
+To support Bug 190918 we need to allow parented service locators to be created, and declarative services to be supported. This would allow a service locator to be used to create a reuable component using dependency injection, and allow the instantiator to supply their own services if they want. PW

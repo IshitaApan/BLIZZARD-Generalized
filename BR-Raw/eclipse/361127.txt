@@ -1,0 +1,3 @@
+AbstractActivityManager does not manage listeners properly
+
+AbstractActivityManager uses an ArrayList to manage its listeners. The result is that if listeners are removed by a listener handler, then not all registered listeners will receive event notification. The fix is simply to use ListenerList to store the list of Listeners and not ArrayList. This problem (and fix) is similar and related to bug 359887.

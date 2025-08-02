@@ -1,0 +1,3 @@
+[Viewers] Virtual Manager should be cleared when Viewer is disposed
+
+Got a nasty memory leak where the Workbench would keep my disposed viewer in a field since it was registered as a selection provider. In StructuredViewer#handleDisposed(), the input is set to null, however this does not clear a possible virtual manager being used from the Table Viewer. The Table Viewer should clear the cache of the virtual manager on handleDispose to make sure, no reference to any model object is retained.

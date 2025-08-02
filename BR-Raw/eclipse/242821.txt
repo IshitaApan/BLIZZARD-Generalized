@@ -1,0 +1,3 @@
+[ErrorHandling] [statushandling ]Need a way to configure label providers on StatusDialog
+
+bug 242819 removed the only possibility to customize displayed text. We need a better replacement.

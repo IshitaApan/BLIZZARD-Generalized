@@ -1,0 +1,3 @@
+[Jobs] Can not cancel multiple jobs.
+
+When testing bug 42959, I found that if I selected more then one incomplete job and chose cancel... nothing happend. When selecting the individual jobs they could be cancelled separately. NOTE: It is also possible to choose cancel option from the menu for an already cancelled job.

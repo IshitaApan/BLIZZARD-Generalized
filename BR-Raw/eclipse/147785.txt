@@ -1,0 +1,3 @@
+[Contributions] ISelectionListener doesn't extend EventListener...
+
+...nor does it take event objects. Some of the SWT listeners follow the standard but many of the RCP listeners don't. This means some generic tools we wrote to work with EventListeners now must work against Objects and just assume that they're listeners. If the EventListener isn't good enough then why create an Eclipse specific base class? Arggggggghhhhhhhhhh Frustrated in Ottawa

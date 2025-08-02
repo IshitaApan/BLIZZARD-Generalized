@@ -1,0 +1,3 @@
+Java Editor Font Does not change when Text Editor font changes
+
+2.1 RC1 The Java editor should use the text font unless explicitly set. 1. Open Java editor 2. Change text font Observe: The Java editor does not use the font indicated on the preference page Note: After restarting the workbench the new font is used. Changing the text editor font resets the Java editor font again.

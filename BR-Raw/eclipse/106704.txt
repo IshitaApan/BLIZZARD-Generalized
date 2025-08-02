@@ -1,0 +1,3 @@
+TVT 3.1: TCT 583 - XSD feature description truncated
+
+Half of the XSD feature description cannot be displayed. TVT tester marked this as must fix. OS : RHEL 3.0 Must fix Severity ( 1 thru 4, 1 as most severe): 2 Build date: 0809 Blocking: No Language: JPN Bitmap Location: Z:\defects\JPN\FeatureXML_JPN.jpg Tester Name: Hiroshi Inoue Problem Description: Descriptions for XML Schema Info Model (XSD) is truncated. Steps: 1. From Menu, select Help. 2. Select About Eclipse SDK. 3. Click on the Feature Detailes button. 4. Select the XML Schema Infoset Model (XSD).

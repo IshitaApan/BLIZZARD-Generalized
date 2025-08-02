@@ -1,0 +1,2 @@
+[KeyBindings] Bug43597Test's testFontReset() leaks a font
+

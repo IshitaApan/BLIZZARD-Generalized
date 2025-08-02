@@ -1,0 +1,3 @@
+[CSS] Remove dependency on org.apache.commons.logging, xerces, xml.resolver
+
+We shouldn't require this.

@@ -1,0 +1,3 @@
+[Viewers] Search keeps showing selection while results still being added
+
+build I20050330-0500 - do a search that will generate many results (refs to PartInitException in my case) - as the results are being added, select one of the first matches, then use the scroll wheel or scroll bar to scroll down and see the results as they come in - it keeps jumping back to show the selection I hope it's not the basic viewer refresh code that's doing this (I don't think so).

@@ -1,0 +1,3 @@
+[Preferences] PlatformUI.getPreferenceStore() != WorkbenchPlugin.getPreferenceStore()
+
+Somehow these two preference stores are no longer the same. This is causing all kinds of problems in themes because we're hooking theme listeners to one and then firing changes at another. As a result, themes just aren't working. I'm going to investigate

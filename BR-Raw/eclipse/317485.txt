@@ -1,0 +1,3 @@
+Minimized detached window reappears after switching perspectives
+
+1. Detach the 'Outline' view. 2. Minimize it. 3. Switch perspectives. 4. Switch back. 5. An extra shell for the detached window is visible.

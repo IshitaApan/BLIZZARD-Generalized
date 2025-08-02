@@ -1,0 +1,3 @@
+[JFace] Geometry.setLocation does not behave as documented
+
+Geometry.setLocation incorrectly modifies the size of the rectangle, when it should modify the origin.

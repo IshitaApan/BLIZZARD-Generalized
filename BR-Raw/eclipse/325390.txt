@@ -1,0 +1,3 @@
+No menu contribution is showing up for the PIIclipse bundles
+
+Once these bundles are installed, there is no menu contribution that shows up. Preference page, builder, markers work fine though.

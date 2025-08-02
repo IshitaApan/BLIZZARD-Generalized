@@ -1,0 +1,3 @@
+[Decorators] Too many copies of OverlayIcon
+
+There are many copies of OverlayIcon in the Platform. We should put the DecoratorOverlayIcon in JFace as API. I will attach a patch.

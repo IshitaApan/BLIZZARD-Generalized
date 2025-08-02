@@ -1,0 +1,3 @@
+[api] NewWizardMenu.setEnabled(boolean) was deleted
+
+3.1 HEAD NewWizardMenu public void setEnabled(boolean enabledValue) { This API method appears to have been deleted during 3.1 cycle. This is a breaking API change. What's the scoop?

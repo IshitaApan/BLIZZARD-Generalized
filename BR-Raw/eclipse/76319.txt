@@ -1,0 +1,3 @@
+[Perspectives] Poor error reporting when unable to create perspective
+
+build I20041015 If you try to open a perspective that is missing, for example if the result of WorkbenchAdvisor.getInitialPerspectiveId() has no corresponding perspective extension, you get a cryptic error dialog stating "Error recreating perspective", with no further details as to which perspective was the problem, or why (plus it's not recreating the perspective, it's creating it for the first time).

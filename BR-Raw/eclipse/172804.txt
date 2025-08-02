@@ -1,0 +1,2 @@
+[EditorMgmt] Convert new tab behaviour into a tweaklet
+

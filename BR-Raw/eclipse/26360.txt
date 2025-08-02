@@ -1,0 +1,3 @@
+[Linked Resources] Copy/Move linked resource on top of existing not working
+
+build 20021114 Copy/move correctly prevents copy/move operations of linked resources to a different project if the operation would result in a folder merge. It incorrectly prevents copy/move of linked folders with a different name that point to the same file system resource. This is a valid operation since it would not result in a merge (the linked resource does not exist in the target project). Copy/move of a linked file to a different project should always be allowed and simply overwrite the existing link. File system resources remain untouched.

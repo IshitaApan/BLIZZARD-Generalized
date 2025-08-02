@@ -1,0 +1,3 @@
+MinMaxAddon has a dependency on o.e.u.workbench
+
+This was introduced by me late in M2 in order to get the animation effects out for review. We should likely just clone the required classes into some consumable e4 bundle... At the same time we should move the MinMax constants out of the addon itself and into IPresentationEngine (with comments indicating that presentation engine implementations should honor these tags if they support min/max). This will allow us to remove the current hack in WorkbenchPage where we are using copies of these strings directly.

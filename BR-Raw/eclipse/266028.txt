@@ -1,0 +1,3 @@
+[CSS] Property retrieval must check instanceof and return null
+
+Due to bug #266027 , we should be checking to ensure the widget is of the right class with an instanceof check and if not matching return null.

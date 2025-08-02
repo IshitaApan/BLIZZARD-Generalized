@@ -1,0 +1,3 @@
+[RCP] When WorkbenchPage dont have input,  state is not saved
+
+When using Generic Workbench (and not using resources) changing of views and resizing views in a perspective, these states are not saved. My WorkbenchAdvisor getDefaultWindowInput() returns null. (Im not sure why we have I page input) In WorkbenchWindow.saveState(IMemento memento) I noticed saving state of a page is skipped if the page does not have any input.

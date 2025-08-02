@@ -1,0 +1,3 @@
+[CommonNavigator] Compile error decorations remain until the element is selected
+
+Found in I20060413-0010 Construct a workspace with multiple/related projects that compile without errors (I found this using the org.eclipse.jface.tests.databinding and org.eclipse.jface.examples.databinding projects but any set should do). Open the Project Explorer Expand one of the projects ("A") so you can see classes Close a project that "A" depends on...you should see error decorators as expected Re-open the project. The error decorators remain until the tree element is selected by clicking on it (multi-select won't do it).

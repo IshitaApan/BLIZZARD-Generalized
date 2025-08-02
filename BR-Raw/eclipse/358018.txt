@@ -1,0 +1,3 @@
+[KeyBindings] CMD+C not working in (JDT-)popups
+
+This is a problem I've only come across on OS-X (on win32 it works). If you hover an element in JDT, select some text from the JDT-Popup and hit CMD+C nothing gets copied in your clipboard. This is very annoying e.g. if you want to copy something to use it outside eclipse e.g. in a blog. To me it looks like the keybindings are not active in the popup on OS-X.

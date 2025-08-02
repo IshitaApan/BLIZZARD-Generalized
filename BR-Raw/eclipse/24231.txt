@@ -1,0 +1,3 @@
+ErrorDialog not accessible
+
+The reorg done for the MessageDialog was not applied to the ErrorDialog so its contents cannot be read in 2.0.2.

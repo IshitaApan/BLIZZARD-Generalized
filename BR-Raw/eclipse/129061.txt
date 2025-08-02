@@ -1,0 +1,3 @@
+[Common Navigator] Request to support programmatic binding of drag adapter
+
+We have a problem in the Team use of the Common Navigator is that each repository provider may define one or more viewers. It is not practical for each of the viewer definitions to define the complete set of drag assistants, especially considering that each model may have their own elements that can be dragged. It would simplify things if we could just programmatically bind drag assistants to a viewer. Then we could bind he resource drag assistant to all Team viewers for free. Currently, each provider with a viewer must add a dependency to the org.eclipse.ui.navigator.resources plugin and then add the dragAssistant binding to each viewer.

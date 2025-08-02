@@ -1,0 +1,3 @@
+[Workbench] Scrollbars in popups
+
+In Build 200404131323, all the next/previous editor/view/perspective popups have a tiny size and scrollbars which make them VERY uncomfortable to use.

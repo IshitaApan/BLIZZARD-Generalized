@@ -1,0 +1,3 @@
+[FastView] View ordering not restored on restart after minimize
+
+I20070403-1110, was OK in 3.2.2. From bug 124942 comment 7: Start with a clean workspace Add Bookmark view to bottom stack Drag to be left-most view shut down / restart (everything is OK) Minimize the stack Restore the stack shut down / restart (Bookmark view is now the right-most tab)

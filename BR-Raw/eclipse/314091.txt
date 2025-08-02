@@ -1,0 +1,3 @@
+IModelExtensions should be created through DI
+
+This would allow them to directly reference e.g. OSGi-Services, ... .

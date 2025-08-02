@@ -1,0 +1,3 @@
+ColorsAndFontsPreferencePage should set widthHint in createDescriptionControl
+
+To see the current behavior, do: 1) Open Preferences Dialog 2) Select General -> Appearance -> Colors and Fonts 3) Select "View and Editor Folders" -> Part title font 4) Close Preferences Dialog 5) Open Preferences Dialog Notice that at this point the dialog has resized to be very wide. This is caused because the "Description:" text for this entry is very wide and no width hint has been provided on the text control. A simple fix would be to just set the width hint to something reasonable, but as usual it's non-trivial to figure out what that should be -- N characters? 1/4 the current Screen width?... I'll attach a patch that just sizes it based on an approx. 30 character width.

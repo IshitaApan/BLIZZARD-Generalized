@@ -1,0 +1,3 @@
+Close All doesn't work when a second editor is opened in another area in another perspective
+
+Using 4.3.0-I20130605-2000. 1. Open a Java source file in Java perspective 2. Change perspective (Debug for example) 3. Open a second source file 4. Drag the second file tab so that it gets opened in a second editor in it's own view (not in the same area) 5. Go back to Java perspective 6. Try to close all files (Ctrl+Shift+W). Files don't close.

@@ -1,0 +1,3 @@
+[Browser] External browser parameters are not passed to external browser
+
+Build ID: I20080609-1311 Steps To Reproduce: 1.When I set values in to the Edit External Web Browser dialog from Window->Preferences->General->WebBrowser->Use external web browse->Edit these parameters have no effect. 2. 3. More information: The buggy code is in org.eclipse.ui.internal.browser.browsers.MozillaFactory.createBrowser(String, String, String)	 public IWebBrowser createBrowser(String id, String location, String parameters) { 		// Create single browser for all clients 		if (browserInstance == null) { 			browserInstance = new MozillaBrowser(id, location); 		} 		return browserInstance; 	} Parameters are ignored

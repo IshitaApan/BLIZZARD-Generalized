@@ -1,0 +1,3 @@
+Compile errors against Eclipse SDK I20101019-0800
+
+Created attachment 181407 patch In org.eclipse.e4.core.di.extensions and org.eclipse.e4.ui.services org.eclipse.e4.core.di.extensions/src/org/eclipse/e4/core/di/extensions/EventUtils.java (at line 48) event = new Event(topic, (Dictionary<?, ?>) data); ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ The constructor Event(String, Dictionary<capture#1-of ?,capture#2-of ?>) is undefined org.eclipse.e4.core.di.extensions/src/org/eclipse/e4/core/di/extensions/EventUtils.java (at line 50) event = new Event(topic, (Map<?, ?>) data); ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ The constructor Event(String, Map<capture#3-of ?,capture#4-of ?>) is undefined

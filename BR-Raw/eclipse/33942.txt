@@ -1,0 +1,3 @@
+[Decorators] Javadoc for IDecoratorManager#update should state threading requirements
+
+I get an SWTException if I call IDecoratorManager form a thread other then the UI thread. The javadoc should be updated to mention this restriction.

@@ -1,0 +1,3 @@
+TrimmedPartLayout should use visibility of the trim-area
+
+As a result of bug 387002, we discovered that TrimmedPartLayout doesn't take the visibility of the top/bottom/left/right composites into account. Toggling the visibility of the contents in one of those areas leaves the space rather than causing the remaining items to be re-layed out.

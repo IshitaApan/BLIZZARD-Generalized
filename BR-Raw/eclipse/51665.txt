@@ -1,0 +1,3 @@
+[CoolBar] Extra flashiness when switching between perspectives
+
+build I20040210-0800 In same window, - open a java perspective - open several java editors - open debug perspective - switch back and forth between java and debug perspectives The coolbar is noticeably flashier than it was in M6.

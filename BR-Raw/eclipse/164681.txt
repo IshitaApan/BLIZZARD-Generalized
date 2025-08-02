@@ -1,0 +1,3 @@
+[WorkingSets] WorkingSetFilterActionGroup - remove use of 1.4 API
+
+The method toString() in the type Boolean is not applicable for the arguments (boolean)	org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/actions	WorkingSetFilterActionGroup.java	line 262	1163611135859	748603

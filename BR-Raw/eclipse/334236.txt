@@ -1,0 +1,3 @@
+[Import/Export] "Copy projects into workspace" should not select all projects on change
+
+I20110111-0800 Steps: 1. Import > General > Import Projects 2. Select a secondary workspace with projects you would like to copy to your current workspace 3. In my case the list was pretty long, so I spent some time looking for the projects I need 4. When done selecting the projects, check "Copy projects into workspace" => All projects are re-selected :( Should be: my selection should be preserved, so only project I had selected will be copied to the current workspace

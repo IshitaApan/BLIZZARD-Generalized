@@ -1,0 +1,3 @@
+[PropertiesView] [PropertiesView] Setting 1 value causes very slow recursive refresh
+
+I have a properties with a hierarchy. Everything is read-only except for the leaf nodes. Setting a value takes about 5 seconds on my Core2Duo and seems to have possibly gotten even slower in RC2. This stems from the call to PropertySheetEntry.refreshFromRoot in the setValue method. Why should 1 value cause a total refresh? If other values were dependent, shouldn't they have listeners? This is a big problem for me as it will be very hard for my users to be productive with such a slow interface. I realize its late to get something in for 3.3. If there is a workaround, I would really like to know about it so I don't have to reimplement the property view.

@@ -1,0 +1,3 @@
+[FastView] Min/max rectangle should use stack border colour
+
+3.3 M6 The min/max animation rectangle is currently black. It would be a nice finesse to use the colour which we use for the view stack borders, since that's what's being animated, and is usually subtler a colour than black.

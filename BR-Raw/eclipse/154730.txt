@@ -1,0 +1,3 @@
+[Presentations] Editor PresentationStack never gets disposed when IWorkbenchConfigurer.setSaveAndRestore(true)
+
+Typically (with one workbench window,etc) a single stack is created for editors. But when you call IWorkbenchConfigurer.setSaveAndRestore(true), another editor stack is created (presumably to make it easier to restore the state). This new editor stack seems to become the current editor stack. The first editor stack that was created sticks around and is never disposed, even on shutdown. This can be easily demonstrated by simply putting some sysout statements in the creation and disposal of a presentation (two creations, one dispose).

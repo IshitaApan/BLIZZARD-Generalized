@@ -1,0 +1,3 @@
+[Markers] Move tasks into the problems view
+
+We should consider moving the tasks into the problem view as currently no one is using them in the tasks view. The main issue this could create is performance - problems change rapidly but tasks are generally pretty static and it may be a fair amount of extra time spent sorting them.

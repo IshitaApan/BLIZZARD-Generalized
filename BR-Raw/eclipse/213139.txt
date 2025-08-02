@@ -1,0 +1,3 @@
+[Markers] Forms in problems filtering configuration dialog doesn't grab vertical space
+
+type list in marker filtering configuration dialog doesn't grab vertical space

@@ -1,0 +1,3 @@
+[FieldAssist] - Javadoc warnings in I20061107-0800
+
+/builds/I/src/plugins/org.eclipse.platform.doc.isv/../org.eclipse.jface/src/org/eclipse/jface/fieldassist/ControlDecoration.java:397: warning - Tag @see: can't find setDecoration(FieldDecoration) in org.eclipse.jface.fieldassist.ControlDecoration

@@ -1,0 +1,3 @@
+[Trim] Contributed trim 'fill' failures can prevent Workbench from opening
+
+I just changed some code for a piece of contributed trim (accidentally intriducing a CCE). A subseqeuent to bring up the WB resulted 'silent' failure with no error display or log but also no workbench...

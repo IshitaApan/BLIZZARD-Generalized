@@ -1,0 +1,3 @@
+[Navigator] IPageLayout.ID_RES_NAV deprecated w/o an explanation
+
+/** * The view id for the workbench's Resource Navigator standard component. * @deprecated */ public static String ID_RES_NAV = "org.eclipse.ui.views.ResourceNavigator"; //$NON-NLS-1$ Can we at least say why and what the alternative is? I assume this is because of the common navigator stuff?

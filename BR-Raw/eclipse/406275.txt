@@ -1,0 +1,2 @@
+Save All is disabled only after 2nd click
+

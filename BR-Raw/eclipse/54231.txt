@@ -1,0 +1,3 @@
+[EditorMgmt] CTabFolder now adds margin around page controls
+
+Something happened in I20040309. The new CTabFolder adds what looks like a 5- pixel margin to the controls. For example, create a new Hello, WOrld plug-in and take a look at PDE multi-page editor. You can easily notice the margin at the top-right corner because the gradient image does not start at 0,0. This is a regression.

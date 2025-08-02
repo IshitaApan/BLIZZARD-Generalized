@@ -1,0 +1,3 @@
+[ViewMgmt] (regression) View not acitvated when a toolbar button is pressed
+
+I notice a change in behaviour with view activation in M8. In M7, when I click on a button from a view, causing some actions to be run, the view where the button resides will gain focus and will become activated. In M8, the view will not gain focus and will stay de-activated after the action is invoked.

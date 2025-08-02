@@ -1,0 +1,3 @@
+StringFieldEditor: width != UNLIMITED is ignored
+
+Builds F1 & F2 - the width argument in the constructor seems to be ignored, it's always UNLIMITED. Worked fine in build M5...

@@ -1,0 +1,3 @@
+[FieldAssist] auto-activated proposal popup should be closed when trigger character is removed
+
+I20070608-1718 Auto-activated proposal popup should be closed when trigger character is removed. Steps: - open Find/Replace dialog, activate regex - type "\" or "\r" - when proposals appear, press Backspace until field is empty again Was: Proposals stay up Expected: Proposals should disappear when the triggering character is removed. This is also what happens in the Java Editor.

@@ -1,0 +1,3 @@
+Leak caused by SaveablesList.removeModel
+
+I20070110-1800 1. open a text editor 2. close the text editor ==> editor instance still there (leaked) Repeating step 1 and 2 leaks an additional editor each time. REASON: the code in SaveablesList.removeModel is wrong (looks like copy/paste error of code copied from addModel): 	boolean result = false; 	Set modelsForSource = (Set) modelMap.get(source); 	if (modelsForSource == null) { !BAD>		modelsForSource = new HashSet(); <-- BAD! !BAD>		modelMap.put(source, modelsForSource); <-- BAD! 	} 	if (modelsForSource.remove(model)) { 		result = decrementRefCount(modelRefCounts, model); 		if (modelsForSource.isEmpty()) { 			modelMap.remove(source); 		} 	} 	return result;

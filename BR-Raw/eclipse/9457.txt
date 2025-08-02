@@ -1,0 +1,3 @@
+A fatal error happened while informing the user about a fatal error.
+
+Build 20020205 While performing a build, I got a NullPointerException in the junit plugin. This opened an error dialog, but this caused another NPE, and another error dialog to be opened, etc. I had to kill the workbench.

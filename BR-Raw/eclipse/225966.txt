@@ -1,0 +1,3 @@
+[ActivityMgmt] CommandEnabledmentTest failure
+
+bug 224674 and bug 222627 New activity tests appear to be using, org.eclipse.ui.command.contexts.enablement_test1 This breaks the CommandEnablementTests. http://fullmoon.ottawa.ibm.com/downloads/drops/N20080405-2000/testresults/html/org.eclipse.ui.tests_linux.gtk.x86.html#org.eclipse.ui.tests PW

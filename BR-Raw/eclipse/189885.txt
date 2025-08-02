@@ -1,0 +1,3 @@
+[Dialogs] SafeRunnableDialog class Javadoc contains special char: é
+
+I20070530-0010. /** * SafeRunnableDialog is a dialog that can show the results of multiple safe * runnable errorsé * */

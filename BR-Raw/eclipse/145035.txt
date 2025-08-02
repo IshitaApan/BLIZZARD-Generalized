@@ -1,0 +1,3 @@
+[IDE] ESC does not work as expected on renaming a resource
+
+When I´m in the team synchronizing perspective I press F2 to rename a resource. A dialog pops up and when I press cancel everything is fine. But when I press ESC (or use the "X" button") I´m asked if I want to overwrite the existing resource.

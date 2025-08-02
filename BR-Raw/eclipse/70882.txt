@@ -1,0 +1,3 @@
+EnablementDialog grows too big
+
+In org.eclipse.ui.internal.activities.ws.EnablementDialog, the deatilsText is a Text with SWT.WRAP. However, the GridData for the Text is set to fill both. So, if you have a capability with a lengthy description, when the Details>> button is pressed, the dialog can grow to many screen widths in size. This is extremely annoying to the user, as the OK, Cancel, and Details<< buttons are now way off the right side of the screen.

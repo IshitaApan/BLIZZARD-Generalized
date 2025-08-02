@@ -1,0 +1,3 @@
+[Compatibility] MPEP context activation effects Source/Refactor menu
+
+In MPEPs like the XML or XSD editor, the MultiPageEditorSite is not scoping the activation of contexts by the inner editors. In the XSD editor, that means the Design contexts and Source contexts are all active at the same time, and the XSD Refactor menu is always visible. PW

@@ -1,0 +1,3 @@
+OutOfMemoryError when eclipse left overnight
+
+I've noticed OutOfMemoryErrors when I come in some mornings. I'm going to try some profiling, to see if I can narrow down what's doing this. PW

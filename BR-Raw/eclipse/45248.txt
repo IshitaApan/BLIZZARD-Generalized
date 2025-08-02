@@ -1,0 +1,3 @@
+[ViewMgmt] need a way for views to override save action
+
+This feature request was open in response to bugzilla bug 10234 I created a view that contains an editor, so I currently have my view implement ISaveablePart so that when a Save is performed in my view, I save inside my embedded editor rather than save the current active editor. As of 3.0 M3, ISaveablePart is still marked as "experimental API" Could this ISaveablePart stop being "experiemental" and start being real? Or can there be a better way to override the save action? I cannot change my view into an editor because my view works off selection from the active editor. So if I turn my view into an editor, I'd have 2 active editors, which isn't possible.

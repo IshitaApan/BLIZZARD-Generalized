@@ -1,0 +1,3 @@
+Layout doesn't appear to occur when the 'Outline' switches pages
+
+Created attachment 194823 Screenshot depicting the problem in question. As can be seen from the screenshot, the tool bar seems to get drawn over top of the tab item's content as the suite() method's label has been cut of.

@@ -1,0 +1,3 @@
+[KeyBindings] preference page: add a way to print out all key bindings
+
+it would be very useful it if were possible to print out all key bindings

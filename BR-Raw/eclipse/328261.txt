@@ -1,0 +1,3 @@
+[Compatibility] Content description of 3.x parts should have tooltips
+
+Since the text may be truncated if it's very long, hovering over the label with the mouse should provide a tooltip of the text. This mirrors the behaviour on 3.x.

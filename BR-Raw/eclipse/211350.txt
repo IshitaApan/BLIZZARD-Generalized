@@ -1,0 +1,3 @@
+[ErrorHandling] Need better error handling in PerspectiveRegistry
+
+Build ID: 3.2.2 In org.eclipse.ui.workbench plugin / org.eclipse.ui.internal.registry.PerspectiveRegistry, the loadCustom method has three problems : 1) If the xmlString is empty, as is happening in our product, reader = null, and the call to XMLMementor.createReadRoot(reader) fails because the reader = null 2) If the first perspective is found, reader will be set up. If the second perspective is not found (such as because of the problem in 1), then reader will still have a value, but it will be referencing a closed stream. 3) There is no information logged to the error log that will help to identify any problem -- all that is displayed is a dialog message

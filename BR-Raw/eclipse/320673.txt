@@ -1,0 +1,3 @@
+QuickAccess should restore previous focus when hitting Escape
+
+QuickAccess can be invoked with Ctrl+3. Thus it should be possible to return from QuickAccess by keyboard. In 3.6 you get a dialog which you can dismiss with the Escape key.

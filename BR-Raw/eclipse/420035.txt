@@ -1,0 +1,3 @@
+[CSS] Support SWT color constants in gradients
+
+In bug 402530, support for SWT color constants was added for specifying CSS colors, like this (it is translated to the color of SWT.COLOR_WIDGET_FOREGROUND): background-color: COLOR-WIDGET-FOREGROUND; Currently, using such a constant is not possible for gradient definitions. Patch upcoming.

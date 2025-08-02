@@ -1,0 +1,3 @@
+[KeyBindings] Edit in place in the navigator does not support the delete key
+
+In a navigator, select a file name, type F2 (to edito the name), click in the middle of the name and try to delete characters using the "delete" key. You will notice that it does not work.

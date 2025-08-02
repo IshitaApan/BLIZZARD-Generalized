@@ -1,0 +1,3 @@
+[XMI] Reconciler does not consider MPerspective's 'windows' feature
+
+SSIA

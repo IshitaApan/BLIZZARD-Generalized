@@ -1,0 +1,3 @@
+Views should not hardcode assumptions about open strategy
+
+Build 20020416 I noticed several places in the code with the following pattern: boolean activate = OpenStrategy.getOpenMethod() == OpenStrategy.DOUBLE_CLICK; page.openEditor(marker,activate); This hardcodes the assumption that the only strategy which activates on open is double click. It would be better to ask OpenStrategy whether it should activate on open. E.g. what happens if a new strategy is added which also requires activation?

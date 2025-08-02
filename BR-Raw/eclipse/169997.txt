@@ -1,0 +1,3 @@
+[CellEditors] TableViewer doesn't activate TextCellEditor consistently
+
+A TextCellEditor is not activated consistently in a TableViewer if the cell clicked is not in the currently selected row. Running the sample application in a debugger, the bounds reported for the table item appears to be incorrect for the column when the row is not selected. This behaviour can be observed by setting a breakpoint at TableEditorImpl.java line 135 (the if statement doesn't return true unless the row is selected due to the bounds being incorrect): if (bounds.contains(event.x, event.y)) {

@@ -1,0 +1,3 @@
+[StatusHandling] Status dialog does not resize nicely
+
+Created attachment 92778 Screenshot I20080314-1059 See screenshot.

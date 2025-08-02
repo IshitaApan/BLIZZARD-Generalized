@@ -1,0 +1,3 @@
+OutOfMemory Errors must not be silent
+
+It is possible for an outof memory expection to occurr but the user has to be made aware that this occurred. I had a case where a build failed due to an out of memory exception and the only indication I had was a problem was added to the problems view. Unfortunately because the build failed there were many other problems in the view.

@@ -1,0 +1,3 @@
+[Wizards] Typo in WizardDataTransferPage Javadoc
+
+Small typo in the description of the subject class: This class is not intended to be subclassed outside outside of the workbench. (Duplicate "outside".)

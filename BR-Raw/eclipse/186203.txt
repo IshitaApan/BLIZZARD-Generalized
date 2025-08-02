@@ -1,0 +1,3 @@
+[ActionSets] Undead tooltips in customize perspective dialog
+
+I20070503-0010 Open the customize perspective dialog Go to the commands tab select an action set hit F2 note the tooltip does not go away hit f2 again and again and again just hold the button down wait for a very thick black border to appear around the tooltip. It appears we keep spawning tooltip shells.

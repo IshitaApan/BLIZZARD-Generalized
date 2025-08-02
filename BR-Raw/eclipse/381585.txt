@@ -1,0 +1,3 @@
+Part switcher in PartStack shows only name of i18n bundle
+
+Build Identifier: I20120524-2100 I am developing an application with a part stack which holds multiple parts. Each part's label is externalized, e.g.: %partDetails.label where the file bundle.properties holds: partDetails.label = Detailed Information Now everything is displayed fine when the PartStack shows all Parts in tabs. When I define via CSS that only one Part is shown, a problem occurs: single: true; The problem is, that now the dropdown-list for the different parts does not show the names of the parts available (e.g. "Detailed Information"), but the name of the properties (e.g. "%partDetails.label"). Reproducible: Always

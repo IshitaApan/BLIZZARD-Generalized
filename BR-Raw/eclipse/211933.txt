@@ -1,0 +1,3 @@
+[ErrorHandling] WorkbenchErrorHandler hides MultiStatus details info when severity is not ERROR
+
+I was running my RCP app and got a very non-helpful dialog with no title and a vague message. I assumed that the status was simply too vague in my app code, but eventually I determined that the WorkbenchErrorHandler doesn't handle MultiStatus objects when the severity is not an error. It opens a message dialog and uses the message in the MultiStatus, which is often not as helpful as the info in the children status. It would be nice to have some kind of details area in any of the status handler dialogs, or else I'm going to have to reimplement my own status handler. :-(

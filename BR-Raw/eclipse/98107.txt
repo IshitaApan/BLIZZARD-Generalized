@@ -1,0 +1,3 @@
+[Viewers] Change visibility of AbstractTreeViewer#internalRemove from private to protected
+
+RC1 To fix bug 97821 for the multi element package explorer I have to override internalRemove to avoid nested preserveSelection calls. I will attache a patch for it. Actually I don't know if we need PMC approval for this since we are not maling the method official API.

@@ -1,0 +1,3 @@
+[Progress] ProgressView does not populate until first update occurs
+
+When you open the progress view for the first time it does not place the running job in the view until that job is updated. Jobs with slow update will look as if they are not there as a result.

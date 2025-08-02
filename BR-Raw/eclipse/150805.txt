@@ -1,0 +1,3 @@
+[Import/Export] Incomplete validation when importing from directory
+
+The following instance methods of CheckboxTreeViewer class don't fire any CheckStateChangedEvent. Affected methods: setAllChecked(...) setCheckedElements(...) setChecked(...) Steps to reproduce the bug: 1. File -> Import... 2. File System -> Next 3. Choose a "From directory" using the Browse... button 4. Check the root element from the left pane (the error message saying that "There are no resources currently selected for import." should disappear) 5. Press the Deselect All button and see that no error message is displayed at all!! 6. Recheck the root element twice and the error message is displayed again!! Solution: Add fireCheckStateChanged calls inside affected methods

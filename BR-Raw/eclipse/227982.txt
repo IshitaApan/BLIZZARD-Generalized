@@ -1,0 +1,3 @@
+Open Resource dialog should support colored labels
+
+I20080415-1646 Open Resource dialog should support colored labels.

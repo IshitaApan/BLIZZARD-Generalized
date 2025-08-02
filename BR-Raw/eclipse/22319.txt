@@ -1,0 +1,3 @@
+[Perspectives] Launch silently fails when there is no active part
+
+Select a CU in the packages Explorer in the Java perspective (no editors) Go to the Debug perspective Back to the Java You now have a selection with no active part (is this a bug?) Debug drop down, Debug As -> Java Application Nothing

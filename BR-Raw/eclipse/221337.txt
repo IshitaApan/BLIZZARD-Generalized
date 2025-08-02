@@ -1,0 +1,3 @@
+[Markers] MarkerItem has too much API
+
+We are exposing too much as API in MarkerItem. We should only provide getAtttributeValue and the methods that support PATH_ATTRIBUTE and NAME_ATTRIBUTE as they are tricky. Everything else needs to be pushed down to an internal class. We should mention the relevant IMarker constants for those removed.

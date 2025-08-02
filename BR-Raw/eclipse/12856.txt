@@ -1,0 +1,3 @@
+Missing common interface ISite
+
+Build 20020402 Currently thr workbench provides the sides IPageSite, IWorkbenchPartSite. Although they have common methods they miss a common interface. This makes writing actions that work in the outline and a normal view hard. Please introduce a common interface.

@@ -1,0 +1,3 @@
+[DnD] if a drag operation fails due to an exception no other drags can be started
+
+Found this when another app too over while I was dragging, causing an exception... We have to make sure that the guard boolean 'dragging' is set to false within a finally block....

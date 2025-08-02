@@ -1,0 +1,2 @@
+[Wizards] New project wizard needs a 'special' attribute
+

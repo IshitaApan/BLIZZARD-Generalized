@@ -1,0 +1,3 @@
+[Contributions] popupMenus ext point support for part input (was: Support Quick Diff menu contributions to annotate bar)
+
+See bug 132352 for the motivation for this request. Basically, bug 132352 requires the ability for the QuickDiff provider to contribute a menu to the annotation bar content menu.

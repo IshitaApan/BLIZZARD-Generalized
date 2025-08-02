@@ -1,0 +1,3 @@
+FilteredItemsSelectionDialog should show "n items selected" in status line
+
+I20070227-0800 FilteredItemsSelectionDialog should show "n items selected" in status line as soon as 2 or more items are selected. This would be in line with what views show in the workbench window status line on multiselection. The ItemsListSeparator should not be counted as a selected item. For the empty selection, the status line should stay empty.

@@ -1,0 +1,3 @@
+[Linked Resources] Advanced button comes before options added by subclasses
+
+build I20030221 - Run the Readme example's new Readme File wizard - the "Advanced >>" button appears before additional options added by this subclass (e.g. "Automatic sample section generation", "Open file for editing when done") - click Advanced - the linking UI appearas after the additional options The Advanced button and linking UI should appear after all other options.

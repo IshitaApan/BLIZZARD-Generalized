@@ -1,0 +1,3 @@
+[WorkingSets] WorkingSetManager hides exception message
+
+If any problem happens during saveState, only error dialog is displayed, but original exception is vanished. There is no way to say why save failed.

@@ -1,0 +1,3 @@
+[Activities] SHOULD_ALLOW_SHOW_ALL preference has no effect
+
+build I20050303 Defined some activities and added the following to org.eclipse.platform's plugin_customization.ini: org.eclipse.ui.workbench/SHOULD_ALLOW_SHOW_ALL=false However, the Reveal hidden checkboxes still show up in the new wizards and preferences dialogs. This pref is checked in WorkbenchActivityHelper.showAll(), but there are no senders of this. Please address for M8 as this may be needed for LWP (see bug 52820).

@@ -1,0 +1,3 @@
+[DynamicUI] Keyword extension point needs to be dynamic
+
+The keyword extension point needs a registry that respects dynamic plugin changes.

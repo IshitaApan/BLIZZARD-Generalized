@@ -1,0 +1,3 @@
+[Viewers] Should be possible to override TooltipSupport
+
+Eclipse 3.3 M5 I would like to override the control that is being used by the TooltipSupport in my ColumnViewer because I have some additional requirements (wrapping for instance and different font-style-ranges). Ben

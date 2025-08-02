@@ -1,0 +1,3 @@
+[KeyBindings] Multi-stroke Key help delay must be >= 1
+
+I would like to be able to set a delay of 500 ms or less for the multistroke key help, 1 second is too long. Also when I enter a value of .5 I get an error that the value must be more than zero.. which it is. Perhaps the value could be specified in milliseconds see attachment

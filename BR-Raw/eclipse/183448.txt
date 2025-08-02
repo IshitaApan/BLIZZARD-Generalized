@@ -1,0 +1,3 @@
+[Contributions] IActionDelegate2.dispose() does not get called when view is closed
+
+I20070418 I have a toolbar action that implements IViewActionDelegate and IActionDelegate2. (SwitchMemoryBlock action from Memory View in Debug.) When the view is opend, init methods for the action are called. When the view is closed, the dispose method of the action is not called. Checked with 3.2.2, the dispose method should be called when the view is closed.

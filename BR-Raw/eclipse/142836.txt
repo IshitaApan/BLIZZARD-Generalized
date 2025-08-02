@@ -1,0 +1,3 @@
+No F1 help for problems view
+
+3.2 RC5 There is no help context for the problems view. In addition, the help for the Tasks view says: <context id="task_list_view_context"> <description>This view shows build problems and tasks (reminders) that are either user-created or are automatically generated during building.</description> This is no longer correct (the tasks view does not show build problems).

@@ -1,0 +1,3 @@
+[Commands] activePart of CycleBaseHandler leaks last editor
+
+I20070925-1406 - open a text editor - press Ctrl+F6 - press Ctrl+W => activePart of CycleBaseHandler leaks last editor

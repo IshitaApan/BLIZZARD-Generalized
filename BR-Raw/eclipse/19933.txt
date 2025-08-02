@@ -1,0 +1,3 @@
+Emacs: keybinding service always clears status line
+
+Build 20020611 When running in with Emacs keybindings, any action that writes to the status line will have the status line message cleared by AcceleratorScope.resetMode. When a mode is entered, the keysequence that started the mode is written to the status line. AcceleratorScope.resetMode is intended to cleanup the status line once the appropriate action has been run. However, the action could have written to the status line. We currently do not have the API necessary to get the message in the status line, so it is not possible to solve the problem in general. The problem can be solved for some cases by not clearing the status line when running in the default mode.

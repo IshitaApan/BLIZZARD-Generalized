@@ -1,0 +1,3 @@
+Cycle Actions do not work in German
+
+The Ctrl+F6,F7 and F8 do not work in German. Ctrl+F6 and Ctrl+F7 work sometimes and Ctrl+F8 never works. I suspect it is because the accelerators are never explicitly set.

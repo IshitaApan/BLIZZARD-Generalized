@@ -1,0 +1,3 @@
+[CSS] Refactor custom properties
+
+Currently there are a number of custom properties that are contributed to help style the CTabFolder. These property names should be refactored to reflect that they are contributed and not part of the standard CSS2 selector list. The initial proposed format is: tab-renderer => -swt-tabrender unselected-tabs-color => -swt-unselected-tabs-color

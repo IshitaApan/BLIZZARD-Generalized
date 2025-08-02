@@ -1,0 +1,3 @@
+[Viewers] Cell highlighting not customizable for users
+
+I just tried to make implement a TableCursor stragety and found that we need maybe some more API. I'm not happy with the setup-methods but currently maybe Boris has an idea.

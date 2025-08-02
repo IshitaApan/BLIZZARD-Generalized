@@ -1,0 +1,3 @@
+[Workbench] Make IWorkbench into an OSGi service
+
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 Build Identifier: I would like to be when the IWorkbench is available for use. I am currently being started before the IWorkbench is ready and it is causing severe problems. If IWorkbench was a OSGi service, then I could use a ServiceTracker to acquire the initialized IWorkbench when it is available. Reproducible: Always

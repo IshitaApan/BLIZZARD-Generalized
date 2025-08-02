@@ -1,0 +1,3 @@
+[Import/Export] General node in new wizards should appear first
+
+Just as in the import and export wizards, the General node should appear first, and the Other node should probably appear last as well.

@@ -1,0 +1,3 @@
+[ViewMgmt] [EditorMgmt] IWorkbenchPart.createPartControl refers to non-existent interfaces
+
+build I20050413 IWorkbenchPart.createPartControl's Javadoc has: * <li>Register any global actions with the <code>IActionService</code>.</li> * <li>Register any popup menus with the <code>IActionService</code>.</li> * <li>Register a selection provider with the <code>ISelectionService</code> * (optional). </li> There is no such interface IActionService.

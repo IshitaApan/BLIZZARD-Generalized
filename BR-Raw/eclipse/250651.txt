@@ -1,0 +1,3 @@
+[Contributions] CommandContributionItemParameter's constructor javadoc needs correction
+
+In the CommandContributionItemParameter(IServiceLocator, String, String, Map, ImageDescriptor, ImageDescriptor, ImageDescriptor, String, String, String, int, String, boolean) constructor, it says... Note: This method should not be called outside the framework. ...which needs to be changed from "method" to constructor". Also, I'm not sure as to what's the big deal with using that constructor since it's identical to just assigning the public fields directly, no?

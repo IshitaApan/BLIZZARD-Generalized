@@ -1,0 +1,3 @@
+[ActivityMgmt] Expression Activities show up like normal activities in the preference page
+
+I20080429-0100 Define an expression activity with a category binding Go into the pref page and note that you can see (and toggle) the enablement of this activity. This activity should either be removed from the tree entirely or at least be made un-toggleable.

@@ -1,0 +1,3 @@
+IWorkbenchPreferenceConstants.SHOW_PROGRESS_ON_STARTUP does nothing
+
+Eclipse 4.2 In my RCP app's WorkbenchAdvisor#initialize(IWorkbenchConfigurer) method I add: PlatformUI.getPreferenceStore().setValue(IWorkbenchPreferenceConstants.SHOW_PROGRESS_ON_STARTUP, false); In Eclipse 3.7.x this stops the progress bar showing in the splash screen on startup. On 4.2 this does nothing, the progress bar is shown in the splash screen on startup.

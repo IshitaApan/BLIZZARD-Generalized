@@ -1,0 +1,3 @@
+[JFace] ConfigureColumnsDialog does not work correctly with reordered columns
+
+The logic for dealing with column order is backwards. Should be columnObjects[i] = cObjects[columnOrder[i]]; instead of columnObjects[columnOrder[i]] = cObjects[i];

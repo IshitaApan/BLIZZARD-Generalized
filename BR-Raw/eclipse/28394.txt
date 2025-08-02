@@ -1,0 +1,3 @@
+[Linked Resources] Import into non-existent folder causes NPE in wizard dialog
+
+build 20021216 -create a linked folder that refers to a non-existent path variable as follows: -define a folder path variable TEST_FOLDER in the workbench preferences -hack a .project file to add a linked folder using that path variable: 	<linkedResources> 		<link> 			<name>testFolderLink</name> 			<type>2</type> 			<location>TEST_FOLDER</location> 		</link> 	</linkedResources> -the linked folder appears in the Navigaot -remove the path variable in the preferences -select the linked folder and import from file system ->every time you select a source file you get a NullPointerException in the console. Same problem when importing from a zip/jar.

@@ -1,0 +1,3 @@
+[Forms] Add gradient sharing support for FormHeading
+
+Section header gradients will be shared globally as a result of bug 200690. Similar support should be added for FormHeading.

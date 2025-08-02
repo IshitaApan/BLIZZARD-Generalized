@@ -1,0 +1,3 @@
+[GlobalActions] convert SHOW_OPEN_EDITORS
+
+Fix ActionFactory actions. PW

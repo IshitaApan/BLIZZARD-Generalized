@@ -1,0 +1,3 @@
+[regression] Workbench starts IStartup plug-ins before it is fully initialized
+
+4.x, works fine in 3.8.x. Workbench starts IStartup plug-ins before (Workbench#startPlugins()) before it is fully initialized. This regression can cause NPEs and other bad things as reported in bug 398515. For a test Case see bug 398515 comment 6.

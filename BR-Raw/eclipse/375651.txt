@@ -1,0 +1,3 @@
+[Compatibilty] NPE on shutdown in WorkbenchPage#getPerspectiveDesc()
+
+I've been unable to reproduce this, but I did just encounter it when running under the debugger.

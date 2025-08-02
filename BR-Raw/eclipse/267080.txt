@@ -1,0 +1,3 @@
+Bring the compatibility layer back in line with the new workbench code
+
+The compatibility 'product' needs to upgrade to use the new 'org.eclipse.e4.ui.workbench.swt.application' as its base. It also needs to add the WBW's shell to the localContext.

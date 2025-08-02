@@ -1,0 +1,3 @@
+[Compatibility] Closing all editors leaves window title wrong
+
+I had a number of editors open, and did CTRL+SHIFT+W. They all closed and the shell title changed to include one of the previously open editors (now closed). PW

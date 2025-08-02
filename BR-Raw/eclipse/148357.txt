@@ -1,0 +1,3 @@
+[Field Assist] - API - provide access for closing the proposal popup
+
+I think that the field assist API needs more hooks to be customizable. For example : 1) There is no way to manually close/open the popup. Most of the times, this is the easier thing for a user to ask to implement his custom behaviour. 2) There is no way to intercept keystrokes/events directed to the field. 3) There is no way to control focus.

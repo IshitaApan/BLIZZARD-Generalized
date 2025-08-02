@@ -1,0 +1,3 @@
+[Linked Resources] No linked resource info in properties view
+
+build 20030227 The properties view does not show any information specific to linked resource. There is no resolved location item and no linked state item. On the other hand there is no location item either, like there is on the properties dialog info page. Is this simply an oversight or is the properties view intentionally a subset of the properties dialog info page?

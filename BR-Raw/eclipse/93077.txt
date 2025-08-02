@@ -1,0 +1,3 @@
+Next / Previous Editor list not updated when active editor changes without having focus
+
+I20050426-1700 The Window > Navigation > Next / Previous Editor list is not updated when the current editor changes while the editor does not have focus. I see this when I have multiple editors open and switch between them when another view has focus: - stepping though search results with the up/down buttons in the search view - drop to frame in Debug view - select an already open type in the type hierarchy view When I press Ctrl+F6 after such a switch-editor-in-background, the top element of the list is still the last editor that had focus (expected: the active editor is on top)

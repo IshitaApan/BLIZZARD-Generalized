@@ -1,0 +1,3 @@
+DCR: view-id for progress monitor
+
+M9 Is the view-id of the progress view available as a constant? We plan to add it to the default perspective.

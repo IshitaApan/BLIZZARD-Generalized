@@ -1,0 +1,3 @@
+[QuickAccess] Tooltips only partially overlap the hovered item
+
+I20070608-0010 The tooltip behavior for the Quick Access dialog does not feel "native". When hovering over an item, you always get a tooltip that partially overlaps the item, which makes it hard to read. On Windows, tree items usually get a native "tooltip" that is drawn directly on top of the item but is not cut at the border of the table / tree. See also bug 178044 and bug 174675.

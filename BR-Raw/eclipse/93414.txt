@@ -1,0 +1,3 @@
+keep search history in filteredCombo in dialog settings
+
+the search contents will be cleared each time when preference dialog is closed, it's more reasonable if we save the search history as a dialog setting.

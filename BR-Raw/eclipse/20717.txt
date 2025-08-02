@@ -1,0 +1,3 @@
+[DND] Drag and Drop with Read-Only file opens strange message dialog
+
+If the project has a read-only file, and if that file is drag & drop from Navigator view to other area.view, desktop opens the dialog that says "filename is read only. Do you still with to move it ?" I didn't move the file at all, so this message is wrong. i think no message should be opened because dropped area is not navigator.

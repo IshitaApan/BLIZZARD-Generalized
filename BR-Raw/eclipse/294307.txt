@@ -1,0 +1,3 @@
+[ErrorHandling] StatusDialogManagerTest failure in N20091104-2000
+
+There were 2 failures in last nights tests: expected:<org.eclipse.ui.statushandlers.StatusAdapter@c65dad> but was:<org.eclipse.ui.statushandlers.StatusAdapter@cc6a3b> junit.framework.AssertionFailedError: expected:<org.eclipse.ui.statushandlers.StatusAdapter@c65dad> but was:<org.eclipse.ui.statushandlers.StatusAdapter@cc6a3b> at org.eclipse.ui.tests.statushandlers.StatusDialogManagerTest.testList2(StatusDialogManagerTest.java:578) expected:<[TEST_MESSAGE_2]> but was:<[See 'Details' for more information.]> at org.eclipse.ui.tests.statushandlers.StatusDialogManagerTest.testList3(StatusDialogManagerTest.java:602)

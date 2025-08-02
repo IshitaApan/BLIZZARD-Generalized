@@ -1,0 +1,2 @@
+We shouldn't create more than one e4 OSGi context per BundleContext
+

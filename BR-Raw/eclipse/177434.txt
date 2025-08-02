@@ -1,0 +1,3 @@
+[Wizards] New Project wizard is not big enought in High Contrast
+
+Build ID: 3.2.2 Steps To Reproduce: 1.Select High Contrast Mode in the OS 2.Select Sans 28 as the Application font 3.Restart platform 4.Bring up Eclipse New->Project dialog 5.Notice that UI is messed up and input box is not visible More information:

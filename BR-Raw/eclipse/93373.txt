@@ -1,0 +1,2 @@
+[Intro] TipsAndTricksAction should not use magic numbers
+

@@ -1,0 +1,3 @@
+[Preferences][Dialogs] New File Type dialog problems
+
+Window>Preferences>General>Content Types Add... button - error message ... "a." not rejected - Dialog not resizable - does not remember position

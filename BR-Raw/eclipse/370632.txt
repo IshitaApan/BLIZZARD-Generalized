@@ -1,0 +1,3 @@
+NPE when copying or moving resources linked to non-local filesystem
+
+Build Identifier: see https://bugs.eclipse.org/bugs/show_bug.cgi?id=253927 for details Reproducible: Always

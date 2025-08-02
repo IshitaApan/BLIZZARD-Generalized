@@ -1,0 +1,3 @@
+[Contributions] ActionContributionItem should show accelerator text even if accelerator cannot be parsed
+
+HEAD ActionContributionItem should show the accelerator text for a MenuItem even if the accelerator cannot be parsed. I'm currently aware of two situations where Action#setText(..) cannot correctly parse the accelerator (via LegacyActionTools.convertLocalizedAccelerator(..)): - bug 184594 (LegacyActionTools broken on carbon) - accelerators that consist of multiple key strokes An example of the second problem can be seen if you remap "Refactor > Rename" to "Alt+Shift+R, R" and then open the menu of the in-place rename refactoring popup as shown in attachment 65224 of bug 181830 (> 2007-04-27, not yet available in an I-build).

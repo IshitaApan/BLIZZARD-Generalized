@@ -1,0 +1,3 @@
+[IDE] use of deprecated IExtension.getDeclaringPluginDescriptor()
+
+There are several uses of the above method that should be investigated. In the event that the compatability layer is not loaded it will always return null. One case (Bug 71630) results in the workbench being unable to start itself.

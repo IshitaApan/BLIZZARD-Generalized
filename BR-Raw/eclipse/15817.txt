@@ -1,0 +1,3 @@
+Workingset wizard needs icon for the different working set kinds
+
+The first wizard page where you select a working set kind should support to assign icons for a working set.

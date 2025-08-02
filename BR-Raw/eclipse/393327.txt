@@ -1,0 +1,3 @@
+[ActivityMgmt] ConcurrentModificationException when activities added dynamically
+
+We need backporting bug 3.6 stream. We need this backport to Eclipse based product to increase user satisfaction from the product.

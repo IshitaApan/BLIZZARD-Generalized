@@ -1,0 +1,3 @@
+[Compatibility] Ctrl+W stops working after one editor has been closed if focus is outside shared area
+
+1. Open two files. 2. Activate a view (that's outside the shared area). 3. Ctrl+W 4. An editor is closed. 5. Ctrl+W 6. Nothing happens! >:(

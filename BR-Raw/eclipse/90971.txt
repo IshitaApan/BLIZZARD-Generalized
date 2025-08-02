@@ -1,0 +1,3 @@
+[KeyBindings] assist: popup not correctly sized with non-default dialog font
+
+I20050405-0800 Change dialog font to a bigger font (I used Comic Sans 9 on WinXP). -> The columns in the Key Assist (Ctrl+Shift+L) popup are not correctly sized; the widest entries end with an ellipsis.

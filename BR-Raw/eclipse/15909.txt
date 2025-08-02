@@ -1,0 +1,3 @@
+ReopenEditorMenu should not catch RuntimeException.
+
+ReopenEditorMenu should not catch RuntimeException. It should you SafeRunnableAdapter instead.

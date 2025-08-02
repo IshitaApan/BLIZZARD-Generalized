@@ -1,0 +1,3 @@
+Missing @since tags on latest committed JFace code
+
+HEAD. Code changes made to: org.eclipse.jface.layout.AbstractColumnLayout org.eclipse.jface.layout.TableColumnLayout org.eclipse.jface.layout.TreeColumnLayout result in "missing since tag " errors in my workspace.

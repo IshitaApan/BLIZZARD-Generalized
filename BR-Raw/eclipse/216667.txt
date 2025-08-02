@@ -1,0 +1,3 @@
+[Decorators] DecorationScheduler hangs onto objects forever sometimes
+
+Build ID: I20071213-1700 Steps To Reproduce: I have an RCP app that uses the CommonNavigator and I don't use any decorations. So in this case, the listenerList in the DecorationScheduler is empty. However, the removedListeners are never cleared in that case and accumulate, causing a leak when the view is created and recreated. More information:

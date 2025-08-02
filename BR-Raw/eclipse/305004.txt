@@ -1,0 +1,3 @@
+The PathVariableSelectionDialog should not use 'Extend' to build path variable arguments
+
+The PathVariableSelectionDialog should not use 'Extend' to build path variable arguments, since this is used already to build a path, which could be used to build a path starting off an argumented path variable.

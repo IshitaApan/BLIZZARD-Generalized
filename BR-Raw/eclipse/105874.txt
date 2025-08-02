@@ -1,0 +1,3 @@
+[DnD] [RCP] Unable to perform DROP_LINK operations in the editor area
+
+I am trying to support dropping of links from Internet Explorer to the blank editor area (WorkbenchWindow?) of our RCP application. As far as I can tell from examining the Eclipse source code, IE wants this operation to be a DROP_LINK. It would seem that the DropTarget object being instantiated automatically by the RCP is being initialized with the style 'DND.DROP_DEFAULT | DND.DROP_COPY', thus all DROP_LINK operations are disallowed. This instantiation occurs in org.eclipse.ui.internal.EditorSashContainer and seems to be preventing us from supporting dropping of links from IE. Would it be possible to get support for DROP_LINK?

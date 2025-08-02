@@ -1,0 +1,3 @@
+[Compatibility] NPEs when closing and reopening perspective
+
+1. Open a fresh e4 workbench 2. Close the Java perspective via the menu (Window > ...) 3. Open the Java perspective again via the perspective switcher Result: Several ERRORs and stack traces on the console (in the host Eclipse): Note: The NPEs do not occur when the perspective is closed via the context menu of the perspective switcher.

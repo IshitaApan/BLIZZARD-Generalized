@@ -1,0 +1,3 @@
+[Commands] handlers: Ctrl+. and Ctrl+, don't work any more
+
+I20060208-0848 Ctrl+. and Ctrl+, don't work any more in Java Editors. The 'Navigate > Next Annotation' action from the main menu still works, and the keybindings also work in the Search view. Ctrl+, just does nothing, while Ctrl+. triggers some kind of content assist (I guess it's auto-activation by the '.', but no '.' is inserted into the document).

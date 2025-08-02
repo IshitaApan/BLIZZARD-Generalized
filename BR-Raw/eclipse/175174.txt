@@ -1,0 +1,3 @@
+[ErrorHandling] Back out of ILogDialog
+
+We have determined that plugging an alternate dialog into the JFace layer will not cover our status handling requirements without breaking look and feel. It is possible to create an ErrorDialog using both the static method and the constructor. Moreover the ErrorDialog is subclassed frequently (10 times in the SDK currently) so using an alternate dialog breaks consistency. Our API request is to delete the experimental ILogDialog method and it's references.

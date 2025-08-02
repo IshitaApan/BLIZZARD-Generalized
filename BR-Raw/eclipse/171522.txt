@@ -1,0 +1,3 @@
+[KeyBindings] When "@Ctrl+Break" was appended into lable of menu, Workbench can not startup
+
+I create a sample plugin with "Hello World" template and add a shortcut key "Ctrl+Break" in the menu. <action label="Sample Action(&amp;S)@Ctrl+Break" icon="icons/sample.gif" class="test_key.actions.SampleAction" tooltip="Hello&#65292;Eclipse world" menubarPath="sampleMenu/sampleGroup" toolbarPath="sampleGroup" id="test_key.actions.SampleAction"> </action> Then PDE can not startup.

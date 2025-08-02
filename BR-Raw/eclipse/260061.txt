@@ -1,0 +1,3 @@
+[Snippets] Example Snippet how to implement native checkboxes
+
+Created attachment 121646 Patch with the implementation An example combining informations and tricks implementing a: - native looking multi checkbox viewer - supports tabbing - ... The intial work used is the one from my blog including comments from people on the blog so maybe we need a CQ.

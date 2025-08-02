@@ -1,0 +1,3 @@
+[Forms] FormImages & FormFonts are not disposed correctly
+
+Created attachment 152936 Snippet which shows the bug The FormImages & FormFonts Singletons are not cleared completely after the display is disposed. Please try out my attached snippet: After the first shell is closed, a SWTException will be thrown. If you remove the comments in line 56 & 57, a dirty hack will clear/dispose the singletons correct and the snippet will work.

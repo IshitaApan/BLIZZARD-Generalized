@@ -1,0 +1,3 @@
+[Linked Resources] Should display variable name in NewFolderDialog and new file/folder wizards
+
+build 20021119 The link target location field in the NewFolderDialog and in the new file/folder wizards should display the variable name when a variable is choosen instead of a file/folder name. A label below the text field should show the resolved path. Also, it should be possible to enter variable names directly in the text field and have them resolve automatically. See the Edit/Attach Source dialogs in the Java build properties.

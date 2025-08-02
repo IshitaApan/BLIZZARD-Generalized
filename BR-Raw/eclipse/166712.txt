@@ -1,0 +1,3 @@
+[DataBinding] fix for 164653 broke the suites
+
+The code checked in for bug 164653 broke the test suites. Both DetailObservableValue and DetailObservableValueTest are in the same package but in different plug-ins and DetailObservableValue is package private. This results in an illegal access exception when running the suites. You DID run the suites right... ;)

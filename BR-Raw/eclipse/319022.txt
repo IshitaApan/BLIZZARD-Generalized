@@ -1,0 +1,3 @@
+[DI] [UI]EventObjectSupplier doesn't work with wildcards in topic names
+
+Build Identifier: I20100705-2033 The OSGi spec allows to specify wildcards in topic names, ie, for an action group my/company/{ACTION1,ACTION2} one can listen on "my/company/*". When using a wildcard in the topic in the @EventTopic annotation, the event is received but the Supplier can't find it back, and supplies null to the requestor. The same problem exists with UIEventTopic / UIEventObjectSupplier Reproducible: Always

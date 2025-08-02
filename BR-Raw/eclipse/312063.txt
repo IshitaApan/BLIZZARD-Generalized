@@ -1,0 +1,3 @@
+SelectionServiceImpl should use ListenerList instead of a HashSet
+
+HashSets are not thread-safe and does not guarantee event order. :(

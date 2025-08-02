@@ -1,0 +1,3 @@
+[Dialogs] [Themes] FilteredItemsSelectionDialog too small after changing dialog font
+
+I20080220-1400 - new workspace - open Open Resource dialog => initial dialog size OK - change dialog font - open Open Resource dialog => dialog size too small - manually fix dialog size - revert dialog font to default => dialog size too small

@@ -1,0 +1,3 @@
+[Markers] Focus cannot be set to "Creation time" field in the properties dialog of the task
+
+Focus cannot be set to "Creation time" Ffeld in the properties dialog of the task. Same as the properties dialog of the bookmark. Please fix: in org.eclipse.ui.ide plug-in In src/org/eclipse/ui/views/markers/internal/DialogMarkerProperties.java 1) line: 84 Old: private Label creationTime; New: private Text creationTime; 2) line: 275 Old: creationTime = new Label(parent, SWT.NONE); New: creationTime = new Text(parent, SWT.SINGLE|SWT.READ_ONLY);

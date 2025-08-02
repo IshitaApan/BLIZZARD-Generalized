@@ -1,0 +1,3 @@
+[DataBinding] ComputedValue snippet
+
+I hacked up a snippet for formatting a full name during entry of first and last names. Attaching snippet...

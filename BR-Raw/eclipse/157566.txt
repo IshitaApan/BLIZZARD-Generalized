@@ -1,0 +1,3 @@
+[Viewers] Application doesn't shutdown because background thread is running
+
+This really a critical bug which should be fixed before M2 is out. In ToolTipSupport a Timer thread is started and never cancled if tooltips are not used!

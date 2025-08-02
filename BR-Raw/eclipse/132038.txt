@@ -1,0 +1,3 @@
+[Field Assist] - ContentAssistCommandAdapter should have autoactivation delay
+
+There is no default autactivation delay set up by ContentAssistCommandAdapter. The ContentProposalAdapter default is 0. Since ContentAssistCommandAdapter is intended to pattern the existing support in jface text, it should use similar defaults.

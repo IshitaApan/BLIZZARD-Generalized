@@ -1,0 +1,3 @@
+Patch to fix the mess I made
+
+I have done bad things. I now prostrate myself and humbly ask that some gracious soul submit this patch (which I will attach forthwith) so that I may redeem myself. Basically, I (well really John but I made him do it) moved the ResourceMapping stuff to API but we missed a few things that needed to be done, causing great grief to the JDT team. Please spare the lashes as I have a low pain threshold.

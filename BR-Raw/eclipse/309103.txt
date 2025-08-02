@@ -1,0 +1,3 @@
+[EditorMgmt] Numpad enter not recognized as a confirmation key in editor drop-down
+
+1. Open an editor. 2. Ctrl+E. 3. Hit the numpad's enter key. 4. Nothing happens.

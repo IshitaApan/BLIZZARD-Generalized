@@ -1,0 +1,3 @@
+[CommonNavigator] Navigator label provider uses inconsistent methods to do the same thing
+
+In NavigatorContentServiceLabelProvider some of the methods use findContentExtensionsWithPossibleChild and others use findRelevantLabelProvider. The latter is better and they should all use that one.

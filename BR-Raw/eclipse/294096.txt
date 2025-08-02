@@ -1,0 +1,3 @@
+Changing a MPart's name does not alter the CTabItem's text
+
+Created attachment 151225 MPartTest patch v1 Invoking setName(String) on an MPart doesn't do anything. The control flow returns because of event handler code in StackRenderer. if (!(uiElement.getWidget() instanceof CTabItem)) return; The widget in question here is a Composite.

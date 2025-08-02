@@ -1,0 +1,3 @@
+[Contributions] VisibleWhen with checkedEnabled expression on menuContribution
+
+Created attachment 114073 RCP Application with the descriped behavior I tried to change the visibility of a menuContribution (menu and viewtoolbar) dynamically at runtime. Therefore I made a menuContribution which is visible when it is enabled (checkedEnabled on visibleWhen expression). But it seems to work only in one direction. When it is disabled (because the only handler is disabled) it disappears. Great! But when it is enabled it does not come back.

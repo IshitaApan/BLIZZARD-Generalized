@@ -1,0 +1,3 @@
+[ErrorHandling] DynamicStatusHandler class has a compile error
+
+The above class located in ui.tests/data/dynamic_classes has a compile error. Is this class being used in the tests? It appears to be and yet they all pass. This seems to indicate that the tests are bogus.

@@ -1,0 +1,3 @@
+Installed CSS editor and Appearance page contains blank area
+
+I've installed the CSS editor and opened the Appearance pref page. I don't seem to get any errors in my error log, but their is only a border and blank space where the editor should be. PW

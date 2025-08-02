@@ -1,0 +1,3 @@
+[Commands] RadioState doesn't work
+
+Created attachment 120484 Radio State v01 The radio state was not saving any information (Radio groups weren't being set/reset together). PW

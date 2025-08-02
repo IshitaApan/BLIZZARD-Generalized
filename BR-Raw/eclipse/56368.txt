@@ -1,0 +1,3 @@
+[View Mgmt] 'Show View' menu contains unnecessary separator when it only contains one menu item.
+
+I followed the steps to set up the RCP browser example. I created a new "Run- time workbench, and selected all for the Plug-ins and Fragments tab. I then ran the project as Run-time Workbench. I closed all perspectives and opened the Browser perspective. I clicked on Window->Show to open another viewer, and the menu contained an unnecessary separator above "Other". On the other hand, the Open->Perspective only contained the item "Other", and no extra separator. Build id: 200403260800

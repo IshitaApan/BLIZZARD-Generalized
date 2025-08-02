@@ -1,0 +1,3 @@
+Simplify code from bug 207510
+
+There is a listener added to ProjectPreferences that will never be removed. Try to simplify the code to get rid of this listener.

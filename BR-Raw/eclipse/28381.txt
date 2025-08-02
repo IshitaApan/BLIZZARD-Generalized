@@ -1,0 +1,3 @@
+[OLE] OleEditor.setResource does not guard against null resource location
+
+build 20021210 The linked resource ui will eventually allow creating linked resource using non- existent path variables. In that case IResource.getLocation will return null. ExternalEditor.open should test this condition. See bug 28303.

@@ -1,0 +1,3 @@
+[GlobalActions] convert SHOW_WORKBOOK_EDITORS
+
+I've moved to individual actions again (for reasons that might become clear) PW

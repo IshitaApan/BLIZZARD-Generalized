@@ -1,0 +1,3 @@
+[Navigator] Navigator Filters dialog box is empty
+
+Build ID: M20070921-1145 Steps To Reproduce: 1. New install of the platform opening to a new or existing workpsace. 2. Open the Navigator view. 3. Select Filters... from the Navigator view pull-down menu. The Navigator Filters dialog box does not show any types to filter. More information:

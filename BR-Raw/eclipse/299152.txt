@@ -1,0 +1,3 @@
+[Forms] FormEditor isDirty() should consider FormEditor pages
+
+Build Identifier: M20090917-0800 FormEditor's isDirty() method checks all of the IFormPage children and returns dirty if any of them are dirty. Since a FormEditor can contain other FormEditors as pages the isDirty method should return dirty if a child FormEditor is dirty. Reproducible: Always

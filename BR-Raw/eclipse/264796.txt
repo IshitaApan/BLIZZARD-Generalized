@@ -1,0 +1,3 @@
+[TabbedProperties] HockeyLeagueExample needs EMF source code regenerated
+
+I discovered when looking into another problem that the EMF source code for the Hockey League Example has not been regenerated for a while.

@@ -1,0 +1,3 @@
+[Status Handling] Jobs show up twice when NO_IMMEDIATE_ERROR_PROMPT set
+
+When I create an error job from the progress examples I end up getting two entries. STEPS 1) Load org.eclipse.ui.examples.job 2) Select fail and no prompt 3) Start the job - you will get the red icon in the bottom of the screen 4) Select it - there will be 2 entries If you do the same without selecting no prompt you will get one entry

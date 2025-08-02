@@ -1,0 +1,3 @@
+[Compatibility] 'Close All' stops working
+
+Twice today I have gotten into a state where Ctrl+Shift+W doesn't do anything. The second time I was using I20120216-1110 with EGit installed. 'File > Close All' is disabled and it is still like that in a new workbench window. The only workaround I know of is to restart Eclipse.

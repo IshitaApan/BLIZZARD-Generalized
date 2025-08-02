@@ -1,0 +1,3 @@
+Keysequence embedded into updated label of rendered MHandledToolItem
+
+The code in ToolItemRenderer#setItemText() causes the bound keysequence to be embedded in the corresponding ToolItem's label text. This doesn't seem to be the desired action, does it?

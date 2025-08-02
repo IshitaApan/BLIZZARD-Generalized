@@ -1,0 +1,3 @@
+[KeyBindings] WARNING messages generated for incorrect message content in plugin org.eclipse.ui.workbench
+
++++ This bug was initially created as a clone of Bug #222461 +++ Build ID: 3.4 M5 Looks like the message key is incorrect in the properties file WARNING	NLS unused message: NoMatches.Message in: org.eclipse.ui.internal.keys.KeyAssistDialog org.eclipse.osgi 	 WARNING	NLS missing message: NoMatches_Message in: org.eclipse.ui.internal.keys.KeyAssistDialog

@@ -1,0 +1,3 @@
+[Import/Export] Export to Zip file "Overwrite existing" does nothing
+
+The setting for overwriting existing file without a warning is kinf of pointless as it only asks if you want to overwrite the main zip file. It should either a) Act like the File export b) Be removed.

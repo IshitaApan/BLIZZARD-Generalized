@@ -1,0 +1,3 @@
+MUIElement's curSharedRef feature should not be persisted
+
+Since an element's curSharedRef should not be defined until it's been rendered, it should not be persisted in the deltas. This is working as intended right now but a test should be added for this.

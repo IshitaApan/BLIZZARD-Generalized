@@ -1,0 +1,3 @@
+JUnit view icon no longer shows progress while executing tests
+
+Build Identifier: Version: Juno Release Build id: 20120614-1722 Before I upgraded to Juno this morning I used to happily run tests with the JUnit view minimized, and enjoy seeing the progress of the tests on it. Now I don't see any change on the icon until if passes (where a green check appears) or fails (where a red X appears). The animation of the little green/red squares, showing progress of the suite is gone, which is very frustrating and means I have to waste screen real estate having the junit view open (not optimal at all when coding on a small screen). Reproducible: Always Steps to Reproduce: 1. Open Juno 2. Run JUnit test 3. See no progress

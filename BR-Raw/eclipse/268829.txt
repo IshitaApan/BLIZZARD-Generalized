@@ -1,0 +1,3 @@
+[UI] Thumbnails do not appear immediately in photo demo
+
+3.5 M6 Latest of CSS/UI psfs as of March 16/11am EST. 1. Run the photo demo 2. Click on an album that has pictures 3. No thumbnails appear. Note if you expand the album, the pictures are there. 4. Click on the thumbnail area itself, the thumbnails will now appear.

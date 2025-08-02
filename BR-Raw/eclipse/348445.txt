@@ -1,0 +1,3 @@
+Remove NON-NLS from "View Menu" string
+
+Build id: I20110604-2201 In the method: org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showMenuButton(MPart, CTabFolder, MMenu) in the following line of code: ti.setToolTipText("View Menu"); //$NON-NLS-1$ the string "View Menu" *should* be NLS'ed. If there is anything that depends on that string, the dependent code should be rewritten.

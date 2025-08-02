@@ -1,0 +1,3 @@
+[Import/Export] [Wizards] Request Project Import Wizard allow for an initial / pre-populated path
+
+Created attachment 124863 Initial implementation idea Currently, there is no way to specify an initial path to the project import wizard. We would like to bring up the Import Wizard, with a specific archive file pre-populated in the archive path field. Since 'Select archive file' is not the default action, this initial path would also select the 'Select archive file' radio button - it would determine which radio to select simply with: new File(initialPath).isDirectory(). I have drafted up a patch (based off the latest from HEAD) of what this would look like.

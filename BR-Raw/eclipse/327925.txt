@@ -1,0 +1,3 @@
+Deprecate EPartService's deactivate(MPart) method
+
+It has been marked as @noreference for some time. Now that part activation history has been implemented and the hidePart(*) methods have been altered to take care of this, the deactivate(MPart) method should be removed.

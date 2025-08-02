@@ -1,0 +1,3 @@
+Add functionality to Quick Access to remember selection for entered text value
+
+Add functionality to Quick Access associating a selection to the entered string. If the string is entered in the text field, focus is moved to the previously chosen element. Aaron

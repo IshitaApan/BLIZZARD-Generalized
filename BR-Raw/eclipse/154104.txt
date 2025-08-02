@@ -1,0 +1,3 @@
+[Workbench] Search based navigation
+
+Because traditional navigation-by-browsing does not scale to large data sets, we should generalize and extend the existing search-based rapid navigation mechanisms (e.g. "Quick Find Class"). [UI, UA]

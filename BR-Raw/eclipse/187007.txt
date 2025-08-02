@@ -1,0 +1,3 @@
+[Min/Max] non-closeable view gets close menu item
+
+If you have a non-closeable view and minimize the stack you still get the 'Close' context menu entry.

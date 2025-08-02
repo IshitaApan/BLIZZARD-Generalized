@@ -1,0 +1,3 @@
+Error notification dialog doesn';t need error dialog
+
+We could embed the details region into the dialog so that the error can be browsed while working

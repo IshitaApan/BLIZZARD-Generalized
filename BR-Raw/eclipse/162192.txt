@@ -1,0 +1,3 @@
+Need a way to remove drop target that was added using IDragAndDropService.addMergedDropTarget(...)
+
+I20061026-0010 We need API to unregister the drop target that has been added using IDragAndDropService.addMergedDropTarget(...) since we need to offer a preference to enable and disable text DnD. We know there is a workaround but we want a way to cleanly remove the drop target.

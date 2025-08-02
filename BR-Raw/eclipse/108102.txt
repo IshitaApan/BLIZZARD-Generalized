@@ -1,0 +1,3 @@
+[Viewers] Project expands in wrong working set
+
+I am using "Show->Working Sets" in the package explorer. Some of the working sets contain the same project: Working Set-1: - Project-A - Project-B - Project-C Working Set-2: - Project-B - Project-C - Project-D If I now double-click "Working Set-1.Project-B" "Project-B" in working set "Working Set-2" will be expanded. If the working set "Working Set-2" itself is not expanded it will seem as if nothing happens, but after expanding "Working Set-2" one can see the changed state of the project. Double-clicking "Working Set-2.Project-B" works as expected.

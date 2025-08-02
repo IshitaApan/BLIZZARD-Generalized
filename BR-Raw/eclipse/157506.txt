@@ -1,0 +1,3 @@
+[CommonNavigator] Can't Drop an External File into Project Explorer (Mac and Linux)
+
+Opened for IBM: This is a linux only issue that happens both in RedHat and SLES. Windows is fine. Problem: User can't drag and drop files into the Project Explorer view Expected results: User should be able to drag and drop files into the Project Explorer view Steps: Go to the j2ee perspective (or open the PE view) Create a new general project (note that this issue will happen with any project) Open the Linux File Browser and attempt to drag and drop any file (I'm using a simple text file) from your system into the newly created project in the workbench Result: The file is not added to the project. Doing the same in the Navigator view or Package Explorer view works fine.

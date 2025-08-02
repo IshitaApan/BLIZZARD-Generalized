@@ -1,0 +1,3 @@
+Views flicker when their focus changes
+
+Running from HEAD, Friday Jan 13, 2004 - Give one view focus - Click on a view in another tab folder Notice that there is a visible delay between the tab changing colour and the toolbar changing colour. This makes the UI appear flickery.

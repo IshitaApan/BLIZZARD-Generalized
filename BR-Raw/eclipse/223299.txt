@@ -1,0 +1,3 @@
+[Commands] org.eclipse.ui.internal.services.EvaluationResultCache.evaluate(IEvaluationContext) incorrectly returns true when evaluate
+
+Build ID: I20080207-1530 Steps To Reproduce: Use the snippet of XML below in a visibleWhen or activeWhen. Use in a plugin descriptor where the plugin does not load. The expression should evaluate to true, but it evaluates to false because this line is wrong: return evaluationResult == EvaluationResult.TRUE; More information: <with variable="selection"> <test property="com.foo.propertytester.ns.isDigits"/> </with>

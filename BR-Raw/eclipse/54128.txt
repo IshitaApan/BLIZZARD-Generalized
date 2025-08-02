@@ -1,0 +1,3 @@
+[PropertiesDialog] Categories for property pages
+
+20040309 The Property page dialog are shown in a tree but it is not possible to define categories and have pages as children in these categories. The drawback of the current solution is that the list of property pages can get quite long and that all pages have to cantain the context in the name e.g. 'Java Build Path', 'Java Compiler Options', 'Java Task Tags' We are planing to offer more and more project dependend settings, what would further increase the number of entries in the list.

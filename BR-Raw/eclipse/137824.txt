@@ -1,0 +1,3 @@
+[WorkbenchParts] Return ISaveablePart2.CANCEL from promptToSaveOnClose still closes the EditorPart
+
+I have a EditorPart that implements ISaveablePart2 as shown below. When I return ISaveablePart2.CANCEL the EditorPart is still closed. This may be the result of SaveablesList.preCloseParts return a non-null result (PostCloseInfo) which contains my part in the partsClosing array. public int promptToSaveOnClose() { if (isDirty()) { boolean answer = MessageDialog.openQuestion(_shell, "Close Virtual Terminal", "The terminal emulator is still active. Would you like to close the editor?"); if (!answer) { return ISaveablePart2.CANCEL; } } return ISaveablePart2.NO; }

@@ -1,0 +1,3 @@
+Emtpy space created when calling setEnabled on encoding field editor
+
+I20070116-1510 FieldEditor.setEnabled(boolean) is implemented in a pretty strange way: it creates the label if not yet created. This has side effects for clients that do not need/create that label but later call setEnabled(...). An example for such a subclass is AbstractEncodingFieldEditor. Now, fixing this in FieldEditor.setEnabled(...) might be problematic because currently for some clients the label might only appear as a side-effect of calling setEnabled(...) during initialization. A safer fix might be to simply not call super.setEnabled(...) in AbstractEncodingFieldEditor.setEnabled(...).

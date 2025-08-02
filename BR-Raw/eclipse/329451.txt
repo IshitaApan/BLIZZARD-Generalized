@@ -1,0 +1,3 @@
+[Compatibility] Editor open request opens new editor instead of finding existing unrestored editor
+
+1. Open two files. 2. Shutdown. 3. Restart. 4. Open the file that's behind the active editor. 5. A new editor tab is opened when the existing one should be opened/reused.

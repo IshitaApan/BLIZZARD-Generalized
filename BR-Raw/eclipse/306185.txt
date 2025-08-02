@@ -1,0 +1,3 @@
+[Compatibility] 'Window > New Window' creates a shell of zero width and height
+
+The new window is unusable because of bug 305741.

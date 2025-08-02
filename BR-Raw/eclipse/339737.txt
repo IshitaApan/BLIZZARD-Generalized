@@ -1,0 +1,3 @@
+Switching perspectives has trim layout issues
+
+If you switch to a perspective that has minimized stacks the vertical trim bar's layout is not correct...

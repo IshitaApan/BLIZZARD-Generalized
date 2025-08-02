@@ -1,0 +1,3 @@
+[KeyBindings] Add keybinding for 'collapse all' button in Navigator & Package Explorer
+
+Just a nice to have - would be very handy to assign something like CTRL-minus to the 'collapse all' button in Navigator and Package Explorer views (really, anything w/ a tree view and than button).

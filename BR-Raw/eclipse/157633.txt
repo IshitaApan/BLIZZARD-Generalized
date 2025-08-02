@@ -1,0 +1,3 @@
+WorkbenchOperationStressTests takes a long time
+
+WorkbenchOperationStressTests takes 82 seconds to run which is making it quite long to run the UI test suites

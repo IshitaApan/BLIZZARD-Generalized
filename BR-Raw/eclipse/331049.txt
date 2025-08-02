@@ -1,0 +1,3 @@
+[Compatibility] IWorkbenchPage's hideView(IViewPart) and hideView(IViewPartReference) methods do not consider multi-instance views
+
+We are only performing an id check for deciding which part to hide. We should instead be retrieving the actual backing model element and hiding that.

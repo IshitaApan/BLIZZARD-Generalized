@@ -1,0 +1,3 @@
+[UI] Error in DialogPageContextComputer comment (1GER27D)
+
+From Greg DialogPageContextComputer * For determining the help context for controls in a wizard page. Comment implies wizard pages. Isn't it also used for dialogs? NOTES: 	RG (6/3/01 10:52:42 AM) 	Should be 	* For determining the help context for controls in a dialog page.

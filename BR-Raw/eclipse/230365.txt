@@ -1,0 +1,3 @@
+[StatusHandling] Status dialog buttons glued to bottom edge
+
+Created attachment 98790 Screenshot I20080502-0100 Follow-up to bug 223056 comment 15: The margin below the buttons should be the same size as the margin to the right of the buttons. Currently, the buttons look a bit "glued" to the lower border of the dialog.

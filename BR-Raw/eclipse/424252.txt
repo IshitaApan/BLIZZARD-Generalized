@@ -1,0 +1,3 @@
+[EditorMgmt][Split editor] Provide commands in main menu
+
+The Split Editor commands should be available in the main menu, like e.g. Window > New Editor. I think the best solution would be to combine the three commands into one submenu in the "Window" main menu: Editor > Split Horizontally Ctrl+_ Split Vertically Ctrl+{ Clone // the old "New Editor"

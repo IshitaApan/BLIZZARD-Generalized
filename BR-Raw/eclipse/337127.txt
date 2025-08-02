@@ -1,0 +1,3 @@
+[Compatibility] actionSet extensions for perspectives need to be considered even after the perspective has gone up
+
+We don't have the "always on" or "always off" concept in 4.1 yet. Since perspectives can't be customized at the moment, we should just concatenate the extensions onto the current perspective as is.

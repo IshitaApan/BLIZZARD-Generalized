@@ -1,0 +1,3 @@
+[Databinding] Make ObservableListContentProvider useable for 3rd party AbstractTableViewer implementations
+
+in light of bug 214104, I think we could remove this code now because it won't compile under 3.2 anyways. Patch to follow.

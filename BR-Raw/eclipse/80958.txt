@@ -1,0 +1,3 @@
+[DynamicUI] [Perspectives] Lost icon for custom Java perspective
+
+Build: I20041214-0800 I have a customized copy of the Java perspective saved as a different name. With this build, my custom perspective lost the "J" icon that it previously had, and now has a generic window icon (like the open perspective button). This is odd for me because I still associate that particular perspective with Java coding and the icon helps me pick it from the list (I don't use text in the perspective bar).

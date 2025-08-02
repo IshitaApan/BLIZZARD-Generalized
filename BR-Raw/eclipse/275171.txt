@@ -1,0 +1,3 @@
+[Contributions] Customize Perspective action breaks editor pinning action
+
+Using M7, I enabled editor pinning (i.e. Reuse editor) and pinned an editor using an action in the toolbar. I then disabled editor pinning ad then opened the customized perspective dialog. After this, enabling/disabling editor pinning does not make the Pin Editor action reappear.

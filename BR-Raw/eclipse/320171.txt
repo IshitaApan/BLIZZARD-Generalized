@@ -1,0 +1,3 @@
+[Model] Use real Java-References in the Binding-Model-Elements
+
+Currently they BindingTable is referencing a BindingContext using an ID. To me it looks like BindingTable is a child of BindingContext and then doesn't need the ID-Reference any more

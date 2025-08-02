@@ -1,0 +1,3 @@
+CSSRenderingUtils NPEs on widgets with no CSS element
+
+CSSRenderingUtils may NPE if provided a widget with no corresponding CSS element. Seen while testing solution for bug 375262.

@@ -1,0 +1,3 @@
+[Preferences] ScopedPreferenceStore#needsSaving always returns true
+
+CVSDecoratorPreferencesPage performOk() does a CVSDecorator.refresh() even if the user has already hit Apply. Since decorator updating is expensive, this is needlessly expensive.

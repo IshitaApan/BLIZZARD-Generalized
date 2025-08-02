@@ -1,0 +1,2 @@
+[Viewers] Virtual Table Viewer test's Reset Input does not restore items at end
+

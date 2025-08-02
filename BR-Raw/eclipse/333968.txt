@@ -1,0 +1,3 @@
+[Compatibility] WorkbenchAdapterFactory cannot compile due to missing IWorkbenchAdapter3
+
+This new interface was added for bug 326695 and org.eclipse.ui.ide now has compiler errors.

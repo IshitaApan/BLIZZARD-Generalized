@@ -1,0 +1,3 @@
+[EditorMgmt] Add openEditor and findEditor API to allow matching on both editor id and editor input
+
+3.1 As part of the fix for bug 2345, we added internal protocol to findEditor and openEditor to specify the matching criteria for any existing editors: match none, match input only (the current API behaviour), or match both input and editor id. This was not exposed as API as we were past the API freeze. This should make this available as API post-3.1. See bug 101754 for one scenario.

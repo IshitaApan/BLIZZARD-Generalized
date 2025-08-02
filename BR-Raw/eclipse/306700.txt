@@ -1,0 +1,3 @@
+[Compatibility] 'Next View'/'Previous View' does not include an editor
+
+Right now, it only includes views. The editor also needs to be listed.

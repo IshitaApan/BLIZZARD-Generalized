@@ -1,0 +1,3 @@
+[RCP] Need the ability to launch/load the Workbench without showing any windows
+
+We need the ability to start up the Workbench without actually showing any WorkbenchWindows. The idea here is that is a significant gain in performance in doing this. WorkbenchWindows are created and brought to the front when requested by the user. With the Workbench running in the background the perceived load time experience should be much better than it is today. This is critical for LWP.

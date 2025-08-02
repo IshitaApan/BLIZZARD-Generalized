@@ -1,0 +1,3 @@
+[Dialogs] Provide "Yes No Always Never" dialog
+
+In Debug UI, we define a dialog that prompts the user to answer Yes, No, Always, or Never. If anyone's interested, this code is generic and could be shipped as a JFace component. The dialog is in the org.eclipse.debug.ui project; the type name is AlwaysNeverDialog. The dialog supports passing in a preference store and preference key for the dialog to persist an Always or Never selection. For cases where clients don't have a preference store but still want to be able to get at the user's response, it alternatively supports passing in a string buffer where the dialog will store the "always/never/prompt" status.

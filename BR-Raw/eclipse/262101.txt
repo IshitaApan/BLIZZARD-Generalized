@@ -1,0 +1,2 @@
+[CommonNavigator] Make the  GoIntoActionProvider API so JDT can use it
+

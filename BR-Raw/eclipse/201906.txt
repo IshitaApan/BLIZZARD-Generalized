@@ -1,0 +1,3 @@
+[Viewers] 3.4 ColumnViewerEditor leaks ViewerCell instances.
+
+Clone of bug #200337

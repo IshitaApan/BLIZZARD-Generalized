@@ -1,0 +1,3 @@
+[Preferences] IDE should subclass FileEditorsPreferencePage
+
+Currently the link to the content types editor page lives in Workbench despite the target living in IDE. This should be resolved for 3.1

@@ -1,0 +1,3 @@
+[pde viz] Nodes appear on top of one another
+
+When the pde view is opened the nodes appear on top of one another.

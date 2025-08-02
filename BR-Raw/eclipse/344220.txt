@@ -1,0 +1,3 @@
+[CommonNavigator] NavigatorContentServiceDescriptionProvider doesn't handle single selection size case
+
+Currently when a single item is selected the status line message reads "1 items selected" for navigators. NavigatorContentServiceDescriptionProvider.getDefaultStatusBarMessage does not handle the single case differently from the multi case.

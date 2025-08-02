@@ -1,0 +1,3 @@
+[Compatibility] PartInitException should be thrown if invalid editor id provided for open editor request
+
+We throw a PartInitException in 3.x if we can't find an editor descriptor for the given id in the editor registry.

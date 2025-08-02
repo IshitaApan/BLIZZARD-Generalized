@@ -1,0 +1,3 @@
+Open view tests need degradation comment removed
+
+Most of the performance.OpenCloseViewTest#showView: tests are running in less than 50ms. The number of iterations should be increased by 3 times.

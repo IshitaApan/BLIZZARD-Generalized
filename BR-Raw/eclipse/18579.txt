@@ -1,0 +1,3 @@
+Selection event not fired
+
+1) enable single click to open 2) switch to the Java Browsing perspective 3) swtich to the packages view 4) press the mouse over a package, move and release ->the down stream types view doesn't update. It looks like no selection event is sent out. Suspect a problem in JFace. Dani pls investigate and move the bug if needed.

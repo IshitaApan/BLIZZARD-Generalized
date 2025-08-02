@@ -1,0 +1,3 @@
+[DND] Check NavigatorDragAdapter use of IResource.getLocation
+
+build 20030107 NavigatorDragAdapter.dragSetData uses the value returned by IResource.getLocation without checking for null. The return value may be null if the resource is a linked resource pointing to a path variable that does not exist. See bug 29480 for steps to reproduce.

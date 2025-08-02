@@ -1,0 +1,3 @@
+[DnD] click-drag on view menu starts dragging view instead of opening menu
+
+I20040831-1100 Click on a view menu (the black triangle in the view toolbar) and don't release the mouse. Dragging the mouse starts dragging the view instead of opening the view menu and highlighting the menu entry under the cursor. This is maybe connected to bug 47065 and bug 61307, but it's not a dup. It's strange that dragging the view menu "button" initiates a view drag operation, but dragging any other view toolbar button behaves as it should.

@@ -1,0 +1,3 @@
+[Markers] group should only show (10 of 10 items) if beyond the limit
+
+Version: 3.2.0 Build id: I20060216-2000 Until there are more problems in a particular category than the configured limit, telling "(10 of 10 items)" (behind category name) is useless. I would only expect to see "(10 items)" until I hit the limit.

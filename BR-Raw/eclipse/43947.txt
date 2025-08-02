@@ -1,0 +1,3 @@
+Should use job name when task name is null
+
+20030930 The auto build job starts tasks with a task name of null. This results in a progress message that only shows percent done. Here is the code: monitor.beginTask(null, Policy.opWork);

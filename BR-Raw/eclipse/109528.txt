@@ -1,0 +1,3 @@
+[RCP] [Workbench] Eclipse automatically attempts to save modified files when OutOfMemoryException occurs
+
+We need a way to know if the workbench is closing because of an exception (such as OutOfMemoryError), since we want to change our save behaviour in that case to *not* save over the original file (Eclipse's default 'emergency close' behaviour), but to save to a temporary file instead. It seems that all access points to IWorkbenchConfigurer are blocked off (default/private access).

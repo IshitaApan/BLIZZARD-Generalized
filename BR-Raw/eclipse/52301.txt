@@ -1,0 +1,3 @@
+[Font/Colour] Add color to "new look"
+
+As part of the "new look" rework, I suggest removing the preference to "Show color icons in the toolbars" and making this the default behavior. I don't think anyone prefers black and white to color.

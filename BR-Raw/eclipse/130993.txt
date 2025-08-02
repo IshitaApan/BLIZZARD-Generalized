@@ -1,0 +1,3 @@
+FilteredTree does not expand all elements
+
+In an attempt to improve performance/usability of the filtered tree by expanding one level at a time (see bug 128233), the tree no longer expands to show all matching elements. For an example of this, type "file" in the Preferences filter text.

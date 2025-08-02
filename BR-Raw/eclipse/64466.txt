@@ -1,0 +1,3 @@
+Workbench preference page does not properly set dialog font
+
+If the user changes the dialog font it is not applied to the "Always run in background" and "Refresh workspace automatically" checkboxes.

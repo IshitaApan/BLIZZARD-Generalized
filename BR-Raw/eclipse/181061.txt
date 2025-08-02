@@ -1,0 +1,3 @@
+[Viewers] JFace viewers performance issues in 3.3
+
+A number of the JFace performance tests are red since I20060926-0800.

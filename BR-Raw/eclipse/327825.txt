@@ -1,0 +1,3 @@
+Activated part in current perspective has its tab item granted focus when switching perspectives
+
+1. Activate the 'Outline' view. 2. Window > Open Perspective > Debug 3. The tab item of the 'Outline' view gets focus.

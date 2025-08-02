@@ -1,0 +1,3 @@
+HandlerContributionItem updateIcon performance can be improved
+
+There's currently churn in the updateIcon() method that can be short circuited. See bug 385414 command #16

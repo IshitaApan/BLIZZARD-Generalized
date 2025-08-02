@@ -1,0 +1,3 @@
+[Trim] TrimLayout.computeSize hardcoded to return 0, 0
+
+Build ID: M20060921-0945 Steps To Reproduce: Look at org.eclipse.ui.internal.layout.TrimLayout.computeSize( Composite, int, int, boolean ). More information: Despite doing a bunch of work to compute the preferred size of it's components, TrimLayout throws the work away and simply returns a hardcoded value of new Point( 0, 0 ). It looks like it should return result. Among other things, this means that packing the Workbench shell in an RCP application doesn't work. Also it looks like the final if statement is wrong: when both wHint and hHint are SWT.DEFAULT only result.x will be set correctly.

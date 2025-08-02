@@ -1,0 +1,3 @@
+Theme switching should warn the user that a restart is required
+
+Some settings will not apply itself properly. A restart guarantees that the UI matches the defined CSS and the user should be notified that a restart is needed.

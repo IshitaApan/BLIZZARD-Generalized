@@ -1,0 +1,3 @@
+Classpath preference description is clipped
+
+The full description is: A classpath variable can be added to a project's class path. It can be used to define the location of a JAR file that isn't part of the workspace. The reserved class path variables JRE_LIB, JRE_SRC, JRE_SRCROOT are set internally depending on the JRE setting. However the description ends after defined.

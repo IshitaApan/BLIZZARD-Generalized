@@ -1,0 +1,3 @@
+Confusing: inner windows active when outer inactive (1GJN8KU)
+
+When looking at an inactive eclipse workbench the title is grey to indicate that it is not active but the inner windows (viewparts) remain in the active color (usually the gradiant blue). This is confusing since a cursory look at the window indicates that it is active and then after trying to do something like pressing F10 to continue to debug it does not work. NOTES:

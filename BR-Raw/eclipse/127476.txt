@@ -1,0 +1,3 @@
+[DND] Trim Drag handles don't show up; can't initiate a drag op
+
+Somewhere along the line we seem to have lost the drag handles... found in N20060212-0010.

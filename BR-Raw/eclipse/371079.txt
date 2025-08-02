@@ -1,0 +1,3 @@
+Debug toolbar sticks around in I20120208-2200
+
+I20120208-2200 1. Window > Open Perspective > Other... > Java > OK 2. Window > New Window 3. Window > Open Perspective > Other... > Debug > OK 4. The debug toolbar is now visible. 5. Window > Open Perspective > Other... > Java > OK 6. The debug toolbar is still there.

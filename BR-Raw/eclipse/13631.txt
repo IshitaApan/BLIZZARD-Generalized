@@ -1,0 +1,3 @@
+ResourceNavigator does not remove property change listener
+
+The new working set support registers a property change listener on the page which is not removed.

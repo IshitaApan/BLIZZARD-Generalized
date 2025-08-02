@@ -1,0 +1,3 @@
+[Dialogs] Closing the workspace dialog and escape
+
+I20040506-0200 When you do File > Exit when the dialog is open, and you press escape, the behaviour of OK is executed (ie eclipse is being closed) whereas one would expect the behavior of CANCEL to happen.

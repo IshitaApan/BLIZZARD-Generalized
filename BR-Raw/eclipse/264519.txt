@@ -1,0 +1,3 @@
+[ActivityMgmt] Pref page activity manager listener not detached
+
+Created attachment 125384 Stack trace Build ID: M20080911-1700 Steps To Reproduce: 1. Develop a custom source provider 2. Open and close the Categories preference page 3. Do something to trigger a "source changed" event 4. Look for "widget disposed" errors in the log More information: It appears that the ActivityCategoryPreferencePage attaches its table label provider as an activity manager listener, but does not remove the label provider as a listener when the page is disposed.

@@ -1,0 +1,3 @@
+[Contributions] IAction.setImageDescriptor() javadoc needs to note "image vs. checked" platform discrepancy
+
++++ This bug was initially created as a clone of Bug #250127 +++ The javadoc for IAction.setImageDescriptor() needs an additional sentence to make a note of the fact that some platforms cannot display both an image and a checkbox in a menu item. Please see bug 84552 for details.

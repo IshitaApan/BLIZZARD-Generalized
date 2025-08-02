@@ -1,0 +1,3 @@
+Debugger keybindings frequently require pressing twice
+
+I'm using Eclipse 4.2RC3. When in the debug perspective, the F5 - F8 keybindings often don't work. I often have to press the key twice to get it to work, and sometimes I have to click on the stack frame to get the key to work. Debugging on OS X is very painful.

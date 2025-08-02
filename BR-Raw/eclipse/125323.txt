@@ -1,0 +1,3 @@
+Add isAncestorOf method to ResourceMapping
+
+It would be helpful to have an isAncestorOf method on ResourceMapping. Ideally, it would be abstract but for now, it would need a defautl implementation. I will attah a patch.

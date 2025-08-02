@@ -1,0 +1,3 @@
+[DynamicUI] There needs to be a browser dynamic test
+
+The browser support needs an associated dynamic test suite. I've written one but will hold off on releasing it until Dejan has the fix for 89215 ready (so we're not stepping on each others toes).

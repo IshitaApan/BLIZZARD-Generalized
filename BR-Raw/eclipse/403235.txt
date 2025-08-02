@@ -1,0 +1,3 @@
+CommandContributionItem have to restore contributed tooltip when handler changes
+
+An IElementUpdater can set the tooltip of a CommandContributionItem. At moment the tooltip is not restored when the handler changes. It should be reset to the contributed tooltip like the label or icons.

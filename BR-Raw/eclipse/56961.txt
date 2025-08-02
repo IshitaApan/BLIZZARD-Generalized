@@ -1,0 +1,3 @@
+[Workbench] EarlyStartupRunnable.getExecutableExtension() references runtime internals
+
+M7 build The reflect code in EarlyStartupRunnable.getExecutableExtension() refers to classes that are internal to the runtime: private static final String EXTENSION_CLASS = "org.eclipse.core.internal.registry.Extension"; //$NON-NLS-1$ private static final String PLUGIN_DESC_CLASS = "org.eclipse.core.internal.plugins.PluginDescriptor"; //$NON-NLS-1$ It should be possible to make the necessary calls through the interface types.

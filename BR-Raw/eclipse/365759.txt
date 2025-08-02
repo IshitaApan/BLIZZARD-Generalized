@@ -1,0 +1,3 @@
+Key bindings imported from preferences are not always immediately applied
+
+Version: 4.2 (for M4) BuildId: I20111205-2330 If you import a preferences that includes key bindings, some bindings are not applied. In particular, I bind File > Import to Ctrl-Cmd-I (on the mac), and it never takes effect until I restart. I suspect the problem may be the same as bug 365724 comment 3, ultimately that the menu item is from an MMenuContribution.

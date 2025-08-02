@@ -1,0 +1,3 @@
+[Decorators] Lots of RGB objects leaked from opening / closing Navigator view
+
+Test case: using optimizeIt, close the Navigator view GC and mark the current instance count. Open and close the Navigator view again. In my workspace, 6k of RGB objects are leaked. I have CVS decorators on. It appears that a decorator cache is holding on to the objects.

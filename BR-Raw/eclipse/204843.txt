@@ -1,0 +1,3 @@
+[Field Assist] - API - should deprecate FILTER_CUMULATIVE in ContentProposalAdapter
+
+FILTER_CUMULATIVE filtering in ContentProposalAdapter was not well thought out. It was originally thought to be helpful in providing auto-complete style behavior. (See bug #125952). Later on it became apparent that the auto-complete style filtering should be done by the content proposal provider (See #141084 comment #5.) That leaves this feature as a fairly useless concept and it continues to trick people into using it.

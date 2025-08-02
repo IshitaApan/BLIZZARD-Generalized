@@ -1,0 +1,3 @@
+[Preferences] "Colors and Fonts" and "Keys" preference pages do not hook help contexts
+
+Try F1 on "Progress View" or "Colors and Fonts" preference page.

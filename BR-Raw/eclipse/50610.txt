@@ -1,0 +1,3 @@
+[RCP][Perspectives] Allow applications to create perspectives dynamically
+
+Rich Client Platform applications need the ability to build perspectives dynamically. This can be done by adding a new "clonePerspective()" method on IPerspectiveRegistry. The idea is that new perspectives are created based on some template perspective that is registered via the perspective extension point. As part of this feature it also essential to expose the "revertPerspective()" method as public API.

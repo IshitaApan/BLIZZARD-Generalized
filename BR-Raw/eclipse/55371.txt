@@ -1,0 +1,3 @@
+Infinite progress
+
+I20040317 1) Open Eclipse on existing workspace 2) Hit Ctrl+O to get content outline popup 3) Hit Esc to close popup -> Progress monitor in lower right runs forever (have to shutdown to get rid of it) I will leave this bug in core for now until we find out where the problem is.

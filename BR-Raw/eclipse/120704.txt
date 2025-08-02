@@ -1,0 +1,3 @@
+[Wizards] Problems with the "New" wizard
+
+1. there is a small red square in the top right 2. the filter does not line up on the right with the viewer and looks bad. 3. the viewer is small vertically, and yet there is a lot of real estate that is being ununsed on the bottom. 4. why is there a help icon on the bottom right, and why is it never enabled? screenshot to follow

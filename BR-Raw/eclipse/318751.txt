@@ -1,0 +1,3 @@
+[Compatibility] Perspective switch dialog doesn't show perspectives open on startup
+
+I20100701-1105 If I startup this build with two perspectives open, Ctrl+F8 only shows a single perspective.I cannot switch to the other perspective that is already open. If I open more perspectives while running I am able to switch to them fine.

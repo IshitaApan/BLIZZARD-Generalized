@@ -1,0 +1,3 @@
+Clean does not work
+
+I2004041300 Clean and build operations no longer work: I can select all or some projects but nothing happens. I tried several of my existing workspaces. Using auto-build on or of does not help. And to make it worse: the preference to bring back the old Rebuild All... actions has gone. Nothing in .log or console.

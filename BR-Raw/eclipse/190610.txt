@@ -1,0 +1,3 @@
+[CommonNavigator]Editable text widget in common navigator filter dialog
+
+see attached image, the text that shows the information about available content is editable. Open Common Navigator Select View menu > Filters go to Available Content tab type in text on bottom of dialog.

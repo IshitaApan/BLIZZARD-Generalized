@@ -1,0 +1,3 @@
+Export preferences says file created when it isn't
+
+R2.0 If you choose to export preferences and there is nothing to save then no file is created. However the user is told that a file has been created even if it hasn't. STEPS 1) Open a fresh workspace 2) Open Worklbench->preferences 3) Select a file prefs.eps 4) Hit OK 5) You are given a message that says "preferences exported to prefs.eps" but nothing is created.

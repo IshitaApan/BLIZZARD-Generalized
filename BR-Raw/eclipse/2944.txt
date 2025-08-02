@@ -1,0 +1,3 @@
+IDialogPage.getControl JavaDoc should indicate null is a valid return value (1GKX8QB)
+
+IDialogPage.getControl The JavaDoc should indicate that null is a valid return value. NOTES:

@@ -1,0 +1,3 @@
+[Markers] No feedback for 'Completed' tasks
+
+There's not longer any 'check box' indicator on the Tasks View so clients can't determine whether a task has been completed or not... This is a regression...

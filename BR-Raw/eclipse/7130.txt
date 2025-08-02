@@ -1,0 +1,3 @@
+Pin button should be after action sets
+
+Build 20011218 Since the pin button only applies to the active editor, and cannot be hooked by views (unlike the Save actions), it should appear after the action sets and before editor contributions. See also bug 6971

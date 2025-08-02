@@ -1,0 +1,3 @@
+[Workbench] Wrong javadoc comment for field org.eclipse.ui.ISharedImages.IMG_TOOL_COPY_HOVER
+
+The javadoc comment for this deprecated field is incorrect. /** * Identifies the copy image in the hover (colored) state. * * @deprecated in 3.0. This image is now the same as <code>IMG_TOOL_COPY_HOVER</code>. * Enabled images are now in color. The workbench itself no longer uses the hover image variants. */ It should be: /** * Identifies the copy image in the hover (colored) state. * * @deprecated in 3.0. This image is now the same as <code>IMG_TOOL_COPY</code>. * Enabled images are now in color. The workbench itself no longer uses the hover image variants. */ I will attach a patch.

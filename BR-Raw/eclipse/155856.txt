@@ -1,0 +1,3 @@
+[IDE] bad value in the IIDEActionConstants
+
+code sample : ----------------------------------------------------------------------- /** * Edit menu: name of group for extra Find-like actions (value <code>"find.ext"</code>). */ public static final String FIND_EXT = "cut.ext"; //$NON-NLS-1$ ----------------------------------------------------------------------- Seems there should be "find.ext" instead of "cut.ext". This may be the cause of the messages that can appear in the error log on a rcp product : "Reference item find.ext not found for action null"

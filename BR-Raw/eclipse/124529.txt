@@ -1,0 +1,3 @@
+[EFS] Need file system support in linked resources
+
+We need to add the same sort of support that we have for EFS in the project locations in linked resource creation

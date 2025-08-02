@@ -1,0 +1,3 @@
+Create name field does not have focus in new project wizard
+
+F2 1) File>New>Project>Simple>Project>Next The Project name field does not have focus.

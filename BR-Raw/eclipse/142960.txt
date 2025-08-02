@@ -1,0 +1,3 @@
+Performance tweak for ignored file processing
+
+Version: 3.2.0 Build id: I20060519-1206 The attached patch gives a very small (3-4%) performance improvement to the creation of the list of ignored pattern matchers. This is only ever done once, but it is usually during startup where every little bit helps. Two changes were made: - Iterate on the entries of the set instead of the key to avoid a redundant lookup by key - Changed usage of Vector to ArrayList to avoid extra syncronization

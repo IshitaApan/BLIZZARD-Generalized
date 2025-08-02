@@ -1,0 +1,3 @@
+[Model] Allow reflective method invocation
+
+We added some EOperations to our model to support localization (bug #337223) and we should add support to reflectively call then using eInvoke

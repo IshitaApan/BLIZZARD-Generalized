@@ -1,0 +1,3 @@
+ReflectionContributionFactory is not reusable
+
+There are several "private" methods in the class ReflectionContributionFactory, such as getBundle() and createFromBundle(). They prevent to reuse this class in e4 Designer. We need just to change them to protected

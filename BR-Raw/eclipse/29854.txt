@@ -1,0 +1,3 @@
+[Dialogs] ResourceListSelectionDialog should match open type wildcard behavior
+
+JDT UI is planning to change the Open Type dialog wildcard behavior in M5. Platform UI should do the same in the ResourceListSelectionDialog which is used for Go To Resource and Open Resource.

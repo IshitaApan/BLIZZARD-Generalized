@@ -1,0 +1,3 @@
+[Preferences] preferences package needs cleanup
+
+org.eclipse.ui.preferences contains classes that should not be API by my estimation. These should be cleaned up before 3.1 ships.

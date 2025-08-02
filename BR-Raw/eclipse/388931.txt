@@ -1,0 +1,3 @@
+[QuickAccess] Copy Qualified Name doesn't work
+
+Bug 384545 introduced a regression against Copy Qualified Name when called from Quick Access. org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommandInContext(ParameterizedCommand, Event, IEvaluationContext) should create the snapshot IEclipseContext off of the eclipseContext.getActiveLeaf(). PW

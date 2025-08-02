@@ -1,0 +1,3 @@
+[Navigator] Goto Resource dialog does not clear In Folders list (1GET0ZY)
+
+From the Goto Resources dialog (from popup menu in nav view on a resource), 	if you type a resource that does not exist, the Matching Resources list is empty 	but the In Folders list is not. NOTES:

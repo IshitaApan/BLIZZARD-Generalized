@@ -1,0 +1,3 @@
+[Markers] TasksView: Scope settings selects two (!) radio buttons
+
+Found with 3.5 M7. To reproduce: 1. Open Tasks View 2. View Menu > Configure Contents... 3. Scope section click on 'Select' 4. 'No working sets' 5. Ok Result: two radio buttons are selected: 'On selected element and its children' and 'On working set'. Expected: 'On working set' should be selected. Screencast at URL shows example.

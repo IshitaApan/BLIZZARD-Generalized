@@ -1,0 +1,3 @@
+NPE in BasicNewMenu.registryChanged()
+
+The BasicNewMenu listener code assumes that parent is never null when it calls markDirty() on it. This is causing every dynamic plug-in loading operation to generate an NPE which results in an error dialog appearing.

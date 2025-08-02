@@ -1,0 +1,3 @@
+[Markers] NPE during: "Fetching children of Problems".
+
+[I20051213-0010, Windows XP] I can only reproduce this in my inner workspace, not in the outer one. It happens when I selected "New Window" and then close the new window immediately. java.lang.NullPointerException at org.eclipse.ui.views.markers.internal.MarkerView.scheduleCountUpdate(MarkerView.java:1432) at org.eclipse.ui.views.markers.internal.MarkerAdapter.fetchDeferredChildren(MarkerAdapter.java:201) at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:192) at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)

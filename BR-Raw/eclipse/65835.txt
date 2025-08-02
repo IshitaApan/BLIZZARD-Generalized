@@ -1,0 +1,3 @@
+[ViewMgmt] (regression) View tabs open in random order
+
+build I20040604-0800 - new window in Java perspective - in the left view stack, the order is: Hierarchy, Package Explorer - it should be: Package Explorer, Hierarchy - in the bottom right view stack, the order is: Javadoc, Declaration, Problems - it should be: Problems, Javadoc, Declaration - see JavaPerspectiveFactory for the correct order Note that the resulting order is not the reverse of the correct order. It's as if what should be the first view in the folder is getting warped to the end.

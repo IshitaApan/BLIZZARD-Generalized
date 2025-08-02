@@ -1,0 +1,3 @@
+[ErrorHandling] Display multiple line messages in Status in separate lines
+
+Currently if an IStatus passed to ErrorDialog contains a miltiple line msg that fact is ignored and the msg is added to org.eclipse.swt.widgets.List as a single line. This results in the dialog being rendered like this: https://issuetracker.springsource.com/secure/attachment/20378/sts-2463.png when in fact it should look more like that: https://issuetracker.springsource.com/secure/attachment/20379/sts-2463-multiline.png Ignore size of the dialogs, resized them manually.

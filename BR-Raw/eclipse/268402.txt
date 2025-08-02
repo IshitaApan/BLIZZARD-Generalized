@@ -1,0 +1,3 @@
+[Forms] FormText links do not erase focus ring
+
+I20090310-0100 - open an eclipse project's META-INF/MANIFEST.MF - tab through the controls and note that no focus ring is shown when focus is on links like "Dependencies" and "Runtime" (it can be inferred that these links do have focus because their texts are shown in eclipse's status line at the very bottom) -> on other platforms each link within a Link (eg.- "eclipse.org" and "SWT" in ControlExample) take and show focus independently

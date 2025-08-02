@@ -1,0 +1,3 @@
+[Workbench] Add default icons to Quick Access
+
+Add default icons to Quick Access for nodes and elements. Aaron

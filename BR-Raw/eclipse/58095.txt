@@ -1,0 +1,3 @@
+[Preferences] Selecting pref page moved dialog to other screen
+
+When I move the preferences dialog to my secondary screen and change a prefpage, the entire dialog moves back to my primary screen and "hugs" the right border of the main screen.

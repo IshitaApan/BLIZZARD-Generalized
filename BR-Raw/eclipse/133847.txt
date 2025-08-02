@@ -1,0 +1,3 @@
+Javadoc bug in StackPresentation.setState(int)
+
+StackPresentation.setState(int) references "IPresentationSite.STATE_*" and "IPresentationSite") a number of times. The reference should be to "IStackPresentationSite".

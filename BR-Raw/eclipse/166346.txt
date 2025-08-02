@@ -1,0 +1,3 @@
+[Viewers] ViewerRow#getCell(Point) not working for Viewers without columns
+
+If the viewer has no rows this should return not null but the ViewerCell at index 0

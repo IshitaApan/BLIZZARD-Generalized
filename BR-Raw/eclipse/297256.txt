@@ -1,0 +1,3 @@
+[Perspectives] Dialog font not honoured completely in the 'Perspectives' preference page
+
+Build id: I20091208-0100 1. Window > Preferences 2. General > Appearance > Colors and Fonts 3. Basic > Dialog Font > Edit... 4. Increase the font size a bit, I went from Tahoma 8 to Tahoma 12. 5. Click 'OK' twice to dismiss the font dialog and the preference dialog. 6. Window > Preferences 7. General > Perspectives 8. In the 'Fast Views' group, the 'Open a new view:' label is still using the default dialog font.

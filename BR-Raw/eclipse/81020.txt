@@ -1,0 +1,3 @@
+[Perspectives] (regression) Cannot save perspective
+
+hi, I just downloaded this version: Version: 3.1.0 Build id: 200412141321 and the first thing that i tried was to save the current perspective (Java) - but the ok button is always disabled. Please verify and fix before M4.

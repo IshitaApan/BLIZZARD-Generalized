@@ -1,0 +1,3 @@
+[Viewers] TreeViewer.setChildCount(...) should preserve selection
+
+Since changing the child count of an element in a tree can effectively remove children, the #setChildCount(...) method should preserve selection. This way if a selected item is disposed, the selection change will fire with the new <empty selection>.

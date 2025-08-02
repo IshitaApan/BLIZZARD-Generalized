@@ -1,0 +1,3 @@
+[Mac] ui.tests.rcp did not finish because CocoaUIEnhancer crashes
+
+Created attachment 130557 fix CocoaUIEnhancer creates a cocoa class. Cocoa classes cannot be unregistered, so it has to be static and used by multiple displays. This patches fixes that. Note the the callback created is never freed.

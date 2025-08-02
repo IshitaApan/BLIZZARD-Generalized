@@ -1,0 +1,3 @@
+Allow double-click on type  in new Working Set dialog
+
+If I create a new working set I get a dialog with two choices (Resource/Java). I would like to get to the next page by double-clicking one of them.

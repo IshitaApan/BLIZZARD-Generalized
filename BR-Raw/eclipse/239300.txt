@@ -1,0 +1,3 @@
+[TabbedProperties] underline missing from tab label when tab has focus
+
+Keyboard accessibility requires that you can navigate UI using the keyboard. The tabbed properties view supports this capability, but with Bug 179292 we mistakenly removed the code that underlines the tab label when the tabs have focus. This is identical to the underline on the view and editor tabs when they have focus.

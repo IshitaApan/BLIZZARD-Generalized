@@ -1,0 +1,3 @@
+[Contributions] Tooltips for command
+
+The tooltip of a command contribution in a toolbar should be description (longer) instead of the name (normally short), if the first one is available. In this way, the user will have more detailed information. The name of a command is more useful for menu items, where the space is more limited. I attach the patched version. I have modified from version 1.60 in the source repository. Additional information in this thread: http://www.eclipse.org/forums/index.php?t=msg&th=205104&start=0&S=ce33b644d22b52255ed013cedf29262d

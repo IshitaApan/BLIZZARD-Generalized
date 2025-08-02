@@ -1,0 +1,3 @@
+[Preferences] Should use SafeRunnable for preference store callbacks
+
+Build 20020409 When sending preference store callbacks, we should wrap them in a SafeRunnable to make the system resilient to callback handler failure.

@@ -1,0 +1,3 @@
+[Presentations] Unselected tabs should be rounded in the round tab treatment
+
+They are blocky like the lego treatment and should be smoothed out.

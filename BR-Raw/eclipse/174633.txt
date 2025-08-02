@@ -1,0 +1,3 @@
+[Contributions] objectContributions replacement needs selection provider
+
+Currently, objectContributions are called with an ISelection before running, and that is from the ISelectionProvider the menu was registered with, not the global ISelectionProvider. PW

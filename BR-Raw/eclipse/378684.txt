@@ -1,0 +1,3 @@
+Ctrl+L disappears after switching to Emacs and back
+
+Using code from master (with the fix for the bug 377963): - start using a clean workspace - switch to Emacs keybindings (Preferences -> General -> Keys) - note that Ctrl+L in an editor brings pop-up with 2 keybindings. This is good and expected - swtich back to the "default" keybindings. Ctrl+L does nothing. It should tie into "Go to line" command Adding restart in between scenario steps or at the end of the scenario does not seem change the outcome.

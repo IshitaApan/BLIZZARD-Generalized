@@ -1,0 +1,3 @@
+Cannot get to hyperlink in About dialogs with keyboard
+
+The About Dialogs (about, About Features and Aout plug-ins) all have hyperlinks that cannot be negotiated with the keyboard.

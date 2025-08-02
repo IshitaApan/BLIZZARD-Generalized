@@ -1,0 +1,3 @@
+[Dialogs] ElementTreeSelectionDialog.getFirstResult() should return null
+
+ElementTreeSelectionDialog.getFirstResult() returns the currently selected element if you cancel the Dialog using the window's X button (on the top right hand corner of the window). The return value should be null, just like what you get when the user presses the Cancel button.

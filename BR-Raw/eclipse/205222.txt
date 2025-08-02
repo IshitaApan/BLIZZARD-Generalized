@@ -1,0 +1,3 @@
+[WorkingSets] use 'Properties' to configure working sets
+
+Accept the patch associated with bug 203777. +++ This bug was initially created as a clone of Bug #203777 +++ 20070918 - switch the Package Explorer in working set grouping mode - create some working sets - select a working set and open the context menu we have a 'Configure Working Set..' and Properties. Properties does nothing. I think it would make sense to remove 'Configure Working Set..' and offer this in the property page. (Platform might want to take over this code)

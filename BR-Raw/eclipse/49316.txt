@@ -1,0 +1,3 @@
+[Workbench] isStarting() public API of Workbench
+
+During the Eclipse startup, it is very important for a plugin to get the workbench state since some actions can be done only after startup the Workbench. julien omondo

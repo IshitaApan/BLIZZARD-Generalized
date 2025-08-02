@@ -1,0 +1,3 @@
+[Workbench] ui plugin uses deprecated runtime code
+
+org.eclipse.ui uses some code in Runtime which are newly deprecated. I am attaching a patch (based on i0428) which eliminated the deprecations. This is informational and rigorous testing has not been done.

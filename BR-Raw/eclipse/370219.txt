@@ -1,0 +1,3 @@
+Selection service could use an ability to pause dependency recording
+
+Some Run-and-Tracks might benefit from an ability to stop & resume dependency recording, for instance, when calling 3rd party code such as listeners. In particular, selection service uses async calls to work around this issue which changes expected behavior. I'll add the following methods to RunAndTrack: 	pauseRecording() 	resumeRecoding() to provide this functionality and will update selection service to use it.

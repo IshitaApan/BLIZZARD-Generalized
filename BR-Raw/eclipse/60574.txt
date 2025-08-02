@@ -1,0 +1,3 @@
+[Javadoc][EditorMgmt] IWorkbenchPage.getEditors() and .getViews() need explaining
+
+The above methods have been deprecated (not sure when). I can hazard a guess that they were deprecated because they have the side effect of instantiating all editors and views in the page. This should be documented in the javadoc for the methods as it is not clear why they were deprecated.

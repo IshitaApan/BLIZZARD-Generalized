@@ -1,0 +1,3 @@
+Add test suites for DecoratingLabelProvider
+
+The tests in Bug 165650 need to be migrated to the test suites so that they are run nightly.

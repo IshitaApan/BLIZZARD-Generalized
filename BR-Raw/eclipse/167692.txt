@@ -1,0 +1,3 @@
+[Progress] Remove bold in the titles in the Progress View
+
+20061212 We are going to make the titles italic to make them consistent with the use of italization elsewhere

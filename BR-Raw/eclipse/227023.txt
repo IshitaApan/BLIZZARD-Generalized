@@ -1,0 +1,3 @@
+[TabbedProperties][ACC] section header has a fixed font size
+
+Accessibility: The section header font size should not be fixed and should be customizable via the preferences.

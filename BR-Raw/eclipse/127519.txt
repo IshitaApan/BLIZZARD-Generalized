@@ -1,0 +1,3 @@
+[Markers] Disabling all filters gives empty list
+
+If you disable (uncheck) the 'Default' filter then the result seems to be that -everything- gets filtered. This seems most unintuitive...I'd think that if I don't have any filters enabled then I should see an 'unfiltered' list.

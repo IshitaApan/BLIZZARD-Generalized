@@ -1,0 +1,3 @@
+[Welcome] Mouse click on link should select link
+
+build 20021001 -make sure you get a welcome page when you restart (I remove the welcome... line in pref_store.ini of the workbench metadata) -click on any link in the welcome page -the appropriate action is executed but the clicked link is not selected when you return to the welcome page ->It would be nice if links were selected when clicked to provide more context to the user when he returns to the welcome page. The ProductInfoDialog dialog does this now.

@@ -1,0 +1,3 @@
+[Linked Resources] Show warning decorators in path variables list
+
+build 20021127 The path variables list in the preference dialog and in the path variables dialog should show a warning decorator for variables that are not defined and for variables that point to a non-existent directory.

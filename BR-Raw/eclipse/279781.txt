@@ -1,0 +1,3 @@
+[Import/Export] Recursive addition problem in Import  > Existing projects into workspace
+
+Build ID: M20090211-1700 Steps To Reproduce: 1. Create Workspace ws1 2. Create project p1. 3. Create Workspace ws1/p1 4. One Import > Existing projects into workspace 5. Select ws1/p1 and check the option "Copy projects into workspace". 6. Click finish button. 7. Observe that p1 is recursively added. More information: In ideal case we should check for recursive addition and avoid it.

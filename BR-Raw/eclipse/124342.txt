@@ -1,0 +1,3 @@
+[Commands] handlers: Keybindings often don't work
+
+I20060117-0800 There's something severely wrong with keybindings in this build and in I20060118-0800. Keybindings often don't work although the correspoinding menu items do work and show the bindings. E.g. the following worked fine in I20060113-1200 but fails now: - start I20060117-0800 with a new workspace - close the welcome screen - create a new Java project - press Ctrl+C -> expected: name of java project is in clipboard -> was: clipboard unchanged Nothing in the log. This makes the build nearly unusable for keyboard-driven development

@@ -1,0 +1,3 @@
+[Min/Max] 'Orientation' menu entry does nothing for minimized stacks
+
+Since a minimized stack's orientation is defined by the orientation of the stack when it's in the presentation the "Orientation" menu entry on the FastViewPane doesn't do anything when it's showing a view from a minimized stack.

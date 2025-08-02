@@ -1,0 +1,3 @@
+Resetting a perspective while its active part is not defined in the perspective causes the perspective to not have an active part after the reset
+
+1. Window > Show View > Console 2. Window > Reset Perspective... > OK 3. No parts are active.

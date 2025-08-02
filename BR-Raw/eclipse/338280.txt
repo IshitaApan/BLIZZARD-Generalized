@@ -1,0 +1,3 @@
+[Compatibility] Don't see list of recently opened editors
+
+Build i0224-2000 In my preferences I have it set to keep track of the previous 4 editors I had open but I don't see any in the File menu. (I don't even see an empty list)

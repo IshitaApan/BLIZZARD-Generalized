@@ -1,0 +1,3 @@
+[CSS] ETabFolder.hSpace should be tabLeftMargin, CSS margin-left:
+
+In keeping with CSS naming/semantics, the field ETabFolder.hSpace should be tabLeftMargin. The CSS would then be: ETabItem { margin-left: 3px; } Current hspace is added to the x after each tab. Instead, we should add the space before the tab. We should also implement tabRightMargin, so that one can for example have something flush leftmost against folder but space between each tab with: ETabItem { margin-left: 0px; margin-right: 3px; }

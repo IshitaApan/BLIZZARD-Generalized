@@ -1,0 +1,3 @@
+ModelElementTest tests are failing
+
+It seems SnippetContainer is not abstract. I believe it should be. junit.framework.AssertionFailedError: The following concrete classes don't implement 'MApplicationElement': * SnippetContainer 	at junit.framework.Assert.fail(Assert.java:47) 	at org.eclipse.e4.ui.tests.application.ModelElementTest.testForMApplicationInterface(ModelElementTest.java:38) junit.framework.AssertionFailedError: The following concrete classes have a mixin as base 'MApplicationElement': * SnippetContainer 	at junit.framework.Assert.fail(Assert.java:47) 	at org.eclipse.e4.ui.tests.application.ModelElementTest.testForOptimalBaseClass(ModelElementTest.java:73)

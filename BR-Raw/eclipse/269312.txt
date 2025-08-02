@@ -1,0 +1,3 @@
+Support @Out annotations
+
+Instead of the ugly "outputContext" idea. Using JavaBeans style change notification.

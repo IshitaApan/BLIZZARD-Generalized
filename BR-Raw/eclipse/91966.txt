@@ -1,0 +1,3 @@
+[EditorMgmt] resolution policy for editors needs to be revamped to accomodate content types
+
+Currently any content-type based editor binding will always take priority from any traditional filename bindings. This should be investigated for 3.1.

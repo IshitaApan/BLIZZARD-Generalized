@@ -1,0 +1,3 @@
+Progress bar in progress dialog too long
+
+Progress bar in progress dialog too long (see attached image). I'm using dual head video adapter.

@@ -1,0 +1,3 @@
+[Databinding] Use int.class, ... instead of Integer.TYPE
+
+It would be great of core-databinding could replace Integer.TYPE through int.class (which are as far as I can tell equal) because then it is easier to get it compile on GWT.

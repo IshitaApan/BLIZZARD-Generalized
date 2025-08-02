@@ -1,0 +1,3 @@
+[KeyBindings] Keys Preference Page is interpreting keybindings
+
+The Keys Preference Page is interpreting keybindings which makes it impossible to set. Here's the steps I took: 1) Clicked the show unbound commands 2) Assigned ALT+SHIFT+H,W to the Show Whitespace command for the Windows and Dialogs scope 3) Clicked Apply. 4) Tried to define ALT+SHIFT+H,L to Show Line Numbers but couldn't

@@ -1,0 +1,3 @@
+[KeyBindings] IBindingService cannot return best active bindings for a ParameterizedCommand
+
+IBindingService only supports getBestActiveBindingFor(final String commandId) ... there must be an equivalent method for ParameterizedCommands PW

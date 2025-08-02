@@ -1,0 +1,3 @@
+[Viewers] Closing a project does not remove [+] icon
+
+I just launched I20030220 and imported a couple of existing projects into the workspace, with the [+] icon by each project (denoting contents). I then closed a couple of the projects that I was not looking at, and the [+] icon remained after closing the projects. Of course clicking on this icon resulted in nothing happening, except the [+] disappeared. It would be better if the icon was cleared when the project was closed. Mac OS X.2.4 Eclipse I20030220

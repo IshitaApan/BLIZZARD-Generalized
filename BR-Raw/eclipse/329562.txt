@@ -1,0 +1,3 @@
+[Compatibility] Plug-in Spy does not find information about active shell
+
+There is no "Active Shell" section when you hit Alt+Shift+F1 in the 4.x SDK.

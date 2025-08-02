@@ -1,0 +1,3 @@
+[Intro] Reseting perspective after new plug-in arrival makes Welcome go away
+
+Scenario (need to enable intro extension in org.eclipse.platform): 1) Open Welcome 2) Switch to 'Samples' 3) Click on 'Readme tool' 4) You will be asked to download samples. Say Yes 5) When the samples are downloaded, platform UI will detect the new plug-in and ask to reset the perspective to pick up the changes 6) If you say Yes, welcome will go away Expectation: 1) I should not be asked this because I am in welcome 'or' 2) Selecting 'Yes' should not affect me because the perspective that is affected is under Welcome This is fairly confusing and it would be nice if fixed for M8

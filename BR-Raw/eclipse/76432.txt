@@ -1,0 +1,2 @@
+[GlobalActions] WorkbenchActionBuilder wrong null check
+

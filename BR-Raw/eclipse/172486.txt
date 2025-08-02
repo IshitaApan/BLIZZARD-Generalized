@@ -1,0 +1,3 @@
+[Dialogs] FilteredTree should use new SWT.SEARCH constant
+
+SWT has introduced a new constant - SEARCH - that gives text fields the look of a native search control if such a thing exists. This should be applied to FilteredTree.

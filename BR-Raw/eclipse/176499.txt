@@ -1,0 +1,3 @@
+[Trim] RCP test104558 fails with NPE
+
+Somehow (because the CoolBar is hidden?) there's no trim manager for the WorkbenchWindow opened in this test, leading to an NPE in the perspective activaton code.

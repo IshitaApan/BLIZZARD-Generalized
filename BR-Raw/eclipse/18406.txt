@@ -1,0 +1,3 @@
+Restore default on Editors page leaves OK disabled
+
+Build 20020530 + latest UI Case 1: - open editors pref page - change size of recently opened file list to 99 - it complains and disables OK - restore defaults - OK is still disabled Case 2: - open editors pref page - select Close editors automatically - change number to 0 - it complains and disables OK - restore defaults - OK is still disabled

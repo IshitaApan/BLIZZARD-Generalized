@@ -1,0 +1,3 @@
+[Compatibility] Parts that fail in its createPartControl(Composite) implementation needs to show an error part
+
+The error is simply logged at the moment. Since the part then comes up empty it may not immediately be obvious to the user that something has gone wrong.

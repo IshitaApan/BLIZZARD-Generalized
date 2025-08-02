@@ -1,0 +1,3 @@
+Can delete ListViewer.getSelection() (1GHHBK2)
+
+It has the same behavior as StructuredViewer.getSelection(), and doesn't introduce any spec changes. NOTES:

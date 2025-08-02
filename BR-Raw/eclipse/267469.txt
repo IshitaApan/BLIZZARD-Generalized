@@ -1,0 +1,3 @@
+[Help] WorkbenchHelpSystem.setHelp() should strip mnemonics
+
+org.eclipse.ui.internal.help.WorkbenchHelpSystem.setHelp(IAction, String) creates a Context object for an action. It uses the name of the action as the title of the context, however it is not stripping any '&' characters from the title, resulting in a title like "Open &Type"

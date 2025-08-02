@@ -1,0 +1,3 @@
+ExifTable doesn't receive selection changes
+
+Set a breakpoint in org.eclipse.e4.demo.e4photo.ExifTable.setInput(IResource) If ExifTable is not instantiated when you click on your first album in the Library view, then when you finally instantiate ExifTable and then start changing the Library view selection, setInput(*) is never called. PW

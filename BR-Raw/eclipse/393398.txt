@@ -1,0 +1,3 @@
+[resource filter] Switching between resource filter attributes does not update the label
+
+Steps to reproduce: 1. Create a new project "my_project". 2. Open the resource filter property page for a project (under Resource / Resource Filters). 3. Click the "Add..." button 4. In the "Add Resource Filter for project my_project" dialog, change the "File and Folder Attributes" to "Last Modified" / "is within". Notice that the description below it reads "(*s = seconds, *m = minutes, *h = hours, *d = days)". 5. Change the "File and Folder Attributes" to "File Length" / "equals", and notice that the description below hasn't changed. It should have changed to "(*= bytes, *k = kilobytes, *m = megabytes, *g = gigabytes)".

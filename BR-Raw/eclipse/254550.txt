@@ -1,0 +1,3 @@
+[IDE] NPE in SaveAsDialog when IDE not running
+
+Build ID: 3.4.1 GA Steps To Reproduce: 1. Launch attached RCP application 2. Ctrl+N (New wizard) 3. Select "Untitled Text File", press Finish 4. Add some text to the new "Untitled 1" text editor 5. Ctrl+S (Save) 6. "Saved Failed" java.lang.NullPointerException More information: SaveAsDialog uses an IDE internal image descriptor key that is only available when the IDE application is started. Can that image be made public? Or is there any other suggestion?

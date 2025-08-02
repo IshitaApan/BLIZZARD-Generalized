@@ -1,0 +1,3 @@
+[StatusHandler] Message too long in the title
+
+If I put a very very long message, it will appear in the title. If my message has "\r\n" i end up with 'cheese' in the title. Could we only show the first n char in the ErrorDialog title ? NotaBene: this will be linked to a feature enhancement where we should pass a Message, explanation and Reason to the ErrorDialog.

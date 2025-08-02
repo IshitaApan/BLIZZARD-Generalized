@@ -1,0 +1,3 @@
+[Dialogs] Stored Dialog location and size invalid after changing font
+
+I20060321-1210. I started to use the new JFace Dialog support that manages location and size. The problem I run into is that it does not reset the size when the font changes, which makes the dialog look ugly and forces the user to manually adjust/reset the size, which is not an easy task, see also bug 116906.

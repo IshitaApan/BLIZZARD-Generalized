@@ -1,0 +1,3 @@
+[Preferences] Accessibility: Tab can't access to the "Forward to..." Split button on Preferences window
+
+Steps to reproduce bug: 1.Launch Eclipse 3.2. 2.Goto Preferences window. 3.Select 'Java' (or anyother) on the left pane. 4.Then select 'Help' (or anyother) on the left pane. 5.Click the right-top split button 'Back to Java'. 6.Use Tab Key to access to navigate the control. DEFECT: Notice that you cannot navigate to the navigation-split button.

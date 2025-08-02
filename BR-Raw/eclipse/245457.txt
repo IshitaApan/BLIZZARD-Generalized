@@ -1,0 +1,3 @@
+[Forms] ExpandableComposite should have option of not drawing the title focus box
+
+Created attachment 111134 NO_TITLE_FOCUS_BOX IMHO, the focus box drawn on top of the title is horrible. This patch adds a new style NO_TITLE_FOCUS_BOX that does not draw the focus box.

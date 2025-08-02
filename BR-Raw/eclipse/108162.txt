@@ -1,0 +1,3 @@
+[Progress] [IDE] Deadlock using MoveFilesAndFoldersOperation from a refactoring participant
+
+We provide a Resource Move refactoring participant for resources managed by our plug-in. The following line of code in the participant causes the deadlock: new MoveFilesAndFoldersOperation(<the active shell>).copyResources(<some resources>, <destination container>); The MoveFilesAndFoldersOperation class is from the "org.eclipse.ui.actions" package.

@@ -1,0 +1,3 @@
+Regression in 4.2.2 - selecting in an Ecore editor does not update the Properties View
+
+Editing an ecore is now very difficult because the Properties view is not updating when I change the selection in the ecore. It appears than I can quickly triple select something to force it to update. I am using: Eclipse 4.2.2.M20121107-1200 Egit 2.1.0.201209190230-r EMF 2.8.1.v20120917-0436 Using Eclipse 4.2.2.M20121024-1600 (and the same Egit and EMF) did not have this problem. I have not tried the build on 10/31 because I noticed the regression tests did not run. I'm guessing this has to do with some of the recent performance fixes, maybe bug 391868, bug 390379 or bug 393137?

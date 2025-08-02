@@ -1,0 +1,3 @@
+[Contributions] DynamicToolBarContributionItem needs to proxy more methods
+
+org.eclipse.ui.internal.menus.DynamicToolBarContributionItem is a proxy for a dynamic contribution but doesn't pass through computeWidth(Control) calls. Please check to make sure all needed methods are proxied. PW

@@ -1,0 +1,3 @@
+[RCP] Auto-save on build leaves progress bar showing in status line
+
+build N20031117 - turn on the Workbench pref to save changes on build - open a file - make some changes, but don't save - Ctrl+B The progress bar in the status line is left showing (at 100%). Ctrl+S does not have the same problem. This is a regression from M4.

@@ -1,0 +1,3 @@
+Tool tip flickers
+
+I20070227-0800 I'm using the new Tool tip support (org.eclipse.jface.window.ToolTip). The problem with this is that the tool tip flickers when the mouse is moved over an element. On mouse move the tool tip is hidden and then shown again. This makes the tool tip almost unusable. IMHO you should check that the mouse is still hovering over the same item and try to keep the visibility and position of the tooltip stable if so. I'll attach a little plugin showing the issue. Thanks

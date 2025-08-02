@@ -1,0 +1,3 @@
+[Metadata] Patch to update to new p2 API
+
+Created attachment 160348 patch Here is a patch to fix compile errors in the ui.ide bundle due to recent p2 API changes.

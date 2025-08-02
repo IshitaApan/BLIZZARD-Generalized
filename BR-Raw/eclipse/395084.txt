@@ -1,0 +1,3 @@
+IWorkbench.showPerspective(id, window) not working after switching to 4.2.1 target
+
+I'm migrating our product from Eclipse 3.7.1 to 4.2.1. I use certain handlers that call: IWorkbenchWindow window = PlatformUI.getWorkbench().getActiveWorkbenchWindow(); PlatformUI.getWorkbench().showPerspective(id, window); Since I changed the target platform to 4.2.1 this call does nothing. I don't get an exception and nothing happens. If I can be of any assistant, please let me know.

@@ -1,0 +1,3 @@
+ViewSettingsDialog is tagged as experimental
+
+build I20050426 ViewSettingsDialog has: * <strong>NOTE: This API is experimental and may change * before Eclipse 3.1 is released. <strong> Should address for M7.

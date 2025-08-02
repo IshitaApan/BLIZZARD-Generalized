@@ -1,0 +1,3 @@
+[Preferences]  File and Content Type pages should link to one another
+
+There should be some mention of the relationship between content type and file association pages.

@@ -1,0 +1,3 @@
+[Dialogs] PopupDialog - API - overriding default colors should be simpler
+
+PopupDialog has protected methods that allow you to dictate which controls in the dialog should have their foreground/background color set. However, it is not simple to override the colors themselves. The method applyColors is private, and in order to use applyForegroundColor(...), etc., you must override createContents to ensure that the subclasses' colors get set after the default colors. Instead, the method applyColors should either be made protected, or it should call protected methods that specify the foreground and background color, rather than assuming it is always the system info colors.

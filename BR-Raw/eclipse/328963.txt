@@ -1,0 +1,3 @@
+[Compatibility] E4HandlerProxy's @Execute should return what its wrapped IHandler returned
+
+Some people do use this value. At the moment, our @Execute method is just declared as 'void'.

@@ -1,0 +1,3 @@
+[Dialogs] honor the platform button dismissal alignment on Mac and GTK
+
+Button ordering is inverted on these platforms. See Display.getDismissalAlignment() or the equivalent JFace mechansim.

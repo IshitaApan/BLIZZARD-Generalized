@@ -1,0 +1,3 @@
+[Actions] ActionContributionItem.fill(Composite) creates button with wrong text
+
+1. Create an action with setText ("&Go@Ctrl+G"); 2. Use ActionContributionItem.fill(Composite) to create a button 3. The label of the button will be "_G_o@Ctrl+G" Looking at the source, it seems that the code which handles the text for buttons doesn't take the accelerator in account. Quick fix: Remove any text after the @ (incl) in the "set text for button" code. Suggested fix: Remove the ugly "@text" hack and use the real accelerator (set with setAccelerator()) instead (removes code duplication, too).

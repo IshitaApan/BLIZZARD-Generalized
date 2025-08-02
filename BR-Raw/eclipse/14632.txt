@@ -1,0 +1,3 @@
+StringFieldEditor validation strategy mechanism does not work properly
+
+The validateStrategy variable is used in getTextControl()to hook up listeners to perform validation. The method setValidationStrategy(int) sets the value of this variable but does not unhook and rehook the appropriate listeners. Also, there is not way of passing the validation strategy value using a constructor. This means that the only available stragety is validation on key press.

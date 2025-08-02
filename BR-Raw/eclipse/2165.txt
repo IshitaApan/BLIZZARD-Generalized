@@ -1,0 +1,3 @@
+Folder selection dialog is too small (1GE8REP)
+
+Open the import wizard and select zip import Press the lower browse button The browse folder dialog is too small NOTES:

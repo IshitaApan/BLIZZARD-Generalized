@@ -1,0 +1,3 @@
+[Dialogs] New Wizard; first page problems
+
+"Show All..." and the right text do not use the dialog font. Both the left tree and the right text do not have a label therefore they are unaccessible other than "tabbing".

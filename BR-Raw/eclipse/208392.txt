@@ -1,0 +1,3 @@
+[Markers] Improve 'Quick Fix' dialog from new Marker view
+
+Created attachment 81850 screenshot 20071101-0010 - In the new markers view select a problem marker with a quick fix, for example a unknown variable name. - Open the context menu and invoke 'Quick Fix' This opens dialog: a. Dialog has no title. Should be 'Quick Fix' to match the name of the action that brought up the dialog b. Description says: Select the fix for "X cannot be resolved" Single quotes should be used for quotation, not double quotes. c. double click on a fix should invoke the fix d. spacing is strange. There seesm to be too much space on the top, compared to the spacing between list, label and table e. Mnemonic 'P' gives focus to 'Select All' instead of the table f. Help button does not work

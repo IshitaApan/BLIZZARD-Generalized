@@ -1,0 +1,3 @@
+[Progress] Second manual build should optionally cancel the first
+
+M7 If you select a Rebuild All from the workbench this is now run in the background. If it is run again then the user should be prompted to cancel either the new one or the one running. We should also have a "don't ask me again" option.

@@ -1,0 +1,3 @@
+[Editor Mgmt] Need to remove deprecated 2.0 APIs
+
+Just a reminder that we need to remove API that we added in 2.0 and deprecated them. E.g. getEditorThreshold in IWorkbenchPage and IPageLayout.

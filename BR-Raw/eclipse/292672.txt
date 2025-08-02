@@ -1,0 +1,3 @@
+IWorkbenchPage's showView(String, String, int) method has grammatical problems
+
+> If VIEW_ACTIVATE is supplied, the view is focus. Should be "the view is granted focus" or something like that.

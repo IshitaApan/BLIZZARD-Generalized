@@ -1,0 +1,3 @@
+[Contexts] [Javadoc]  org.eclipse.ui.contexts issues
+
+Assertions about the design do not help understanding in class comments Collections should mention the types they contain I have no idea what IContextBinding is binding to Not sure what an IMutableContextManager is for IWorkbenchContextSupport is missing much of its javadoc WorkbenchPartSite has deprecated code and needs to inherit javadoc from parents ContextException need better parameter names in constructor Same for NotDefinedException

@@ -1,0 +1,3 @@
+Decorator description should auto-wrap
+
+The description text field in the decorator pref page should autowrap to properly display long messages.

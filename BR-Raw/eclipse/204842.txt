@@ -1,0 +1,3 @@
+[Contributions] setGlobalActionHandler ignores some IActions
+
+When using IActionBars#setGlobalActionHandler(*) any RetargetAction contributed programmatically (a la ActionFactory) would prevent the IAction from generating an ActionHandler (to be used by keybindings). PW

@@ -1,0 +1,3 @@
+mainwindow freezes when maximizing fastview
+
+i2004-03-24 + pluginexport + quickfixpatch steps to reproduce: - open clean workbench - open a view (e.g. problems view) - make view a fastview - open the fastview - maximize view with ctrl-m observed behavior: the menubar and the fastviewbar are still updated and usable, the editorarea and the area where the views are, is not refreshed.

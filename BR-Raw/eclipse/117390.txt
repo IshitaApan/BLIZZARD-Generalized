@@ -1,0 +1,3 @@
+[WorkingSets] Cannot click 'OK' on 'Select Working Set' dialog
+
+If I open the 'Select Working Set' dialog then I cannot click 'OK' to close the dialog as the button is disabled. If I click on any active button then the 'OK' button is then activated; However, I would expect that the 'OK' button be active as soon as the dialog opens (no other dialog has 'OK' initially disabled). This only happens in the JDT 'Select Working Set' dialog.

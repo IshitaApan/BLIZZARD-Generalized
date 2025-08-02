@@ -1,0 +1,3 @@
+[Workbench] Hide toolbar not persisted
+
+Build: 3.2 M2 1) Window > Hide Toolbar 2) Shutdown and restart the workbench -> The toolbar is back. This should be persisted as part of my workbench state.

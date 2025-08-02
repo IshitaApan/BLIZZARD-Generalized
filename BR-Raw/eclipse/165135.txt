@@ -1,0 +1,3 @@
+[Open Resource] Do not Show derived resources
+
+Open Resource dialog in 3.3 M3 has broken the "Show derived resources" option. It worked properly in 3.2 - if option is turned off, resources in derived folders were not shown. This is important feature since build systems often copy resources in some "build" folder which should not be modified when we edit sources. In 3.3 all resources except explicitly marked derived are always displayed in the dialog. How to reproduce: Create a new project create folders, /a and /b mark folder b derived (in properties) Create file /a/xxx Copy /a/xxx to /b Open Resource, enter "xxx" Both files are displayed.

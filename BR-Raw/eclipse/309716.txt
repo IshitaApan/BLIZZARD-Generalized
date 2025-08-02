@@ -1,0 +1,3 @@
+[Perspectives] Resetting a perspective removes all shortcuts from the New toolbar button
+
+Created attachment 165322 Screenshot Version: 3.6.0 Build id: I20100414-1200 (SDK) Steps to re-create: - Start the Eclipse SDK on a new workspace, the Java perspective is the default. - Observe the contributed shortcuts on the New toolbar item dropdown. - Reset the perspective (Window->Reset Perspective...). - Note how all shortcuts are removed from the New toolbar item (see attached screenshot). - Re-start the platform and note how all expected shortcuts are back

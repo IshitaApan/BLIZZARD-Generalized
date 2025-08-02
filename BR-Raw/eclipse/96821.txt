@@ -1,0 +1,3 @@
+[Dialogs] TypeFilteringDialog not aware of content types
+
+N20050526-0010 Now that editors are content type based the TypeFilteringDialog has quite a small list of extensions (must start fresh workspace to see it). All useful ones like "*.txt", "*.xml", ".java", etc. are gone. See also bug 96809.

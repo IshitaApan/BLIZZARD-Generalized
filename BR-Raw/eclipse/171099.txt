@@ -1,0 +1,3 @@
+[Sync View] Java content provider provides wrong label for folder
+
+When view a resource project (i.e. non-Java) in the Sync view when using compressed folder, the Java content provider is somehow asked to provide a label and only provides a single segment instead of the project relative path. This is probably related to the use of pipelining (i.e. I recall that pipelining prevented the CN framework from being able to determine the proper model to ask for the label.

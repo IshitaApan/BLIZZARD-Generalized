@@ -1,0 +1,3 @@
+[Markers] Problem marker properties not showing non-numeric Locations
+
+The "Location" column in the Problems View displays numeric values only (such as line number). These values are read from error markers. In my editor, there are situation when "line number" concept does not apply. In these cases, location is identified by a placement of a model element inside a tree. I would like to be able to display textual information about that location (Tree path, for instance) in the location column.

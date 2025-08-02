@@ -1,0 +1,3 @@
+GCed entries accumulate over time in the context debug tree
+
+Created attachment 184396 Patch The GCed context entries accumulates over time in the context debug tree. This is caused by the HashMap code that is unable to remove WeakReferences to GCed element as their hash values change when referrent is GCed.

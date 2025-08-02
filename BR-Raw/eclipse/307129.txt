@@ -1,0 +1,3 @@
+Window context never disposed
+
+1) Run Window->Open Window in legacy IDE -> A context is created for the new window 2) Close the new window -> The context is not disposed

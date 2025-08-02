@@ -1,0 +1,3 @@
+[Global Actions] CopyResourceAction uses delete & create rather than setContents
+
+Build: R2.0 org.eclipse.ui.actions.CopyResourceAction calls IWorkspace.delete on incoming resources that collide with current resources. This should be replaced with a validateEdit and a setContents call so that VCMs that watch the filesystem can continue tracking versions of the file.

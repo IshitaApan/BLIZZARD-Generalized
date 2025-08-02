@@ -1,0 +1,3 @@
+[KeyBindings] registry: Cannot assign keybinding to general views
+
+It seems the views have to do something special to show up on the "Views" keybinding list. It would be nice if all views showed up automatically. Of course then (or even now) there would be so many views that the current level of grouping is not sufficient.

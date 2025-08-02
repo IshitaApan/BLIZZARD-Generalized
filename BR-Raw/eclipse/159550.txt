@@ -1,0 +1,3 @@
+[Viewers] Deprecate TableTreeViewer
+
+The underlying SWT-controls of TableTreeViewer (TableTree,TableTreeItem,TableTreeEditor) are deprecated and so should TableTreeViewer I think.

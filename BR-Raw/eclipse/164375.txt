@@ -1,0 +1,3 @@
+[Undo] - WorkspaceUndoUtil shouldn't reset change count for any context
+
+N20061112-0010, WinXP I noticed with the WorkspaceUndoMonitor tracing on that the workspace change count was being reset when undoing and redoing text changes from an editor. This should not be the case. The workspace undo monitor listener should only be responding to undo/redo operations that have the workbench/workspace context.

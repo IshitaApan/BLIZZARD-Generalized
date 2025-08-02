@@ -1,0 +1,3 @@
+Editor selection not restored on restart
+
+I20100916-1954. 1. start new workspace 2. create a project with a text file 3. select some text in the editor 4. exit 5. start again ==> editor not active ==> editor selection not restored

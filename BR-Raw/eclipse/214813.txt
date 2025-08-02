@@ -1,0 +1,3 @@
+[PerspectiveBar] Perspective bar does not expand to show newly opened perspective(s)
+
+Created attachment 86509 Screenshot showing my placement of toolbars Build ID: I20080108-1320 Steps To Reproduce: 1. I have the perspective toolbar docked on the left 2. I have the view toolbar docked on the left just below the perspective toolbar 3. When I open a new perspective, the view toolbar does not "move down" so as to let the perspective toolbar "expand" and show the new perspective icon. More information:

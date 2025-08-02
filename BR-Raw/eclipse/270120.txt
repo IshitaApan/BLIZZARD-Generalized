@@ -1,0 +1,3 @@
+[CommonNavigator] tracing .options file *not* put in kit
+
+And also adding some more tracing to help debug bindings

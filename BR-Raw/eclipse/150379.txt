@@ -1,0 +1,3 @@
+[MPE] Warning in MultiPageEditorPart#pageChange(int)
+
+3.2 I have an editor with additional controls that can provide selections outside of the MultpageEditorParts pages and need to replace the MultiPageSelectionProvider with my own implementation. This works fine, but logs a warning message when changing pages in MultiPageEditorPart#pageChange(int). A simple fix would be to remove the warning, since everything else works fine.

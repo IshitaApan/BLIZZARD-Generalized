@@ -1,0 +1,3 @@
+a lot of popup ends up as null error
+
+Created attachment 108896 check if the parent is disposed before setting the parent as the shell (and use display instead if so) Build ID: I20080617-2000 Steps To Reproduce: 1. get a site which requires the old installer features 2. try to update via p2 3. a null error appears in the log instead of a popup asking if we want to proceed. More information: there are other use case I cannot remind well : taylor model navigator that was detecting broken resources in the package explorer. Errors from vectrace mercurial plugin that did not showed up, etc. This happens for everything that shows a popup and disappear before it is shown, that is the parent is disposed.

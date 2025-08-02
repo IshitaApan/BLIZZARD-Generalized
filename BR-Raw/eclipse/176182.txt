@@ -1,0 +1,3 @@
+[Contributions] Allow the active handler to update the dropdown menu
+
+For menu contributions that were previously dropdown RetargetActions, the active handler needs the ability to change what the dropdown menu is. This API will allow handlers of drop-down type commands to control the dropdown menu id. PW

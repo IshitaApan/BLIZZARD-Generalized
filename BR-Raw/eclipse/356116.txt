@@ -1,0 +1,3 @@
+[EditorMgmt] IEditorRegistry.getDefaultEditor fails to find an editor even though one exists
+
+The implement in EditorRegistry of getDefaultEditor guesses a content type and then tries to find the editor based on that one content type. The problem is that if there is no editor registered for the guessed content type, null is returned even when there are other content types for which there are registered editors. This causes problems for EMF: https://bugs.eclipse.org/bugs/show_bug.cgi?id=349552 It would be much better (i.e., more correct with regard to the documented behavior) if the method implementation considered each possible content type and returned an editor descriptor if there is any content type with a registered editor.

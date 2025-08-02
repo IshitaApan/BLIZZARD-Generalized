@@ -1,0 +1,3 @@
+[WorkingSets] New working set should preselect with UI selection
+
+If I select 3 projects in the package explorer, then create a new working set, it would be nice if the working set dialog would have those 3 projects preselected. Or if there were a "Create working set" action from the selection in the view.

@@ -1,0 +1,3 @@
+Parts in stacks do not show any content until you switch parts around
+
+Caused by fix to bug 314341 in the StackRenderer. The tab item is setting 'null' for its control upon workbench restore.

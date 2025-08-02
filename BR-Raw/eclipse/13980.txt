@@ -1,0 +1,3 @@
+[Navigator] Adopt JDT UI for working sets in Navigator
+
+Window->Select Workingset should be a menu it self and not a menuitem that opens a dialog. Window->Select Workingset-> Working Set 1 -> Working Set 2 -> Working Set 3 -> ------------- -> Edit Working Set N are checkboxes. that are checked when active... Edit opens the dialog This is much vaster.

@@ -1,0 +1,3 @@
+[Preferences] API to switch property/preference pages
+
+20041210 On property pages for projects, I have now a similar structure as in the general preferences. I would also like to offer links and switch to pages. -> Property Page dialog should also get a history

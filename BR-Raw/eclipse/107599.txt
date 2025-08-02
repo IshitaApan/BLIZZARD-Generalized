@@ -1,0 +1,3 @@
+[Preferences] Line delimiter field editor will not switch to defaults
+
+20050818 When you select Restore Defaults on the Workspace preference page the line delimiter is not reset STEPS 1) Open the Workbench Preference Page 2) Set the line delimiter to OS/9 3) Hit OK 4) Reopen 5) Select Restore Defaults 6) Does not change

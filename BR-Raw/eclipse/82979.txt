@@ -1,0 +1,3 @@
+[Preferences] Add new working copy API
+
+We should have working copy APIs in the preferences code so preference pages can share "temp" nodes and then commit the changes to the real nodes.

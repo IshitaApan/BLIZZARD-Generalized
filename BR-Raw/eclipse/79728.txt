@@ -1,0 +1,3 @@
+[RCP] Browser Example does not support certain JavaScript commands
+
+The RCP Web Browser example does not support several JavaScript commands that open additional web browser windows (see below exsmaple). Is it possible for the RCP Web Browser to execute the below JavaScript "window.open" command and open either a second browser view from within eclipse or another external web browser window using IE or Firefox as normal from eclipse? <script> winprops = 'height=175,width=475,top='+wint+',left='+winl+',scrollbars=no,resizable=no,di rectories=no,toolbar=no,menubar=no,"_blank");'; ChildWin = window.open("working.html","ChildWin",winprops); </script>

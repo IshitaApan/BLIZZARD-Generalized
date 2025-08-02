@@ -1,0 +1,3 @@
+[QuickAccess] [Quick Access] Right / Numeric pad enter not working
+
+Build ID: M20090211-1700 Steps To Reproduce: 1. Open Quick Access (using Ctrl+3) 2. type anything 3. try to active selection using right / numeric pad enter Nothing happens, normal Enter activates selection as it should. More information:

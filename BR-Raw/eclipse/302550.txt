@@ -1,0 +1,3 @@
+org.eclipse.jface.snippets unused imports
+
+Hi, the plugin org.eclipse.jface.snippets has in several examples unused imports. Could you please run a Source -> Organize Imports on the project and commit the changes? Best regards, Lars

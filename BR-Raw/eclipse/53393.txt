@@ -1,0 +1,3 @@
+[Fonts] Fonts now support values.  The pref page does not.
+
+You can now specify font values in the extension XML. The preference page does not reflect this change of logic. The pages font code needs to look like the color code.

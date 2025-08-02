@@ -1,0 +1,3 @@
+[Viewers] Make ColumnViewer#getViewerColumn and ViewerColumn#getLabelProvider public again
+
+I20061212-0010 In 3.3M4 you've changed the visibility of the two methods from public to default. Please make it public again or provide some other way to access the label provider of a given cell. Usecase is the same as yours in ToolTipSupport#shouldCreateToolTip line 59 and 66. I've written my own ToolTip (showing a Browser) and want to set the browsers content with the tool tip text provided by the CellLableProvider. Thanks

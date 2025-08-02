@@ -1,0 +1,3 @@
+No binding table for org.eclipse.ui.contexts.dialog
+
+I20110729-0200 (4.2) prints this to syserr on startup: No binding table for org.eclipse.ui.contexts.dialog

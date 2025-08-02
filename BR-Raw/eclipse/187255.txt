@@ -1,0 +1,3 @@
+WSDL should not provide Eclipse-BuddyPolicy: registered
+
+I do not see any use of this, and can not imagine how, even in theory, it would be needed. So, suggest we remove it to avoid confusion.

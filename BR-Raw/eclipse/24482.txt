@@ -1,0 +1,3 @@
+[Welcome] Change WelcomeItem to use displayHelpResource instead of deprecated displayHelp
+
+build 20021001 org.eclipse.ui.internal.dialogs.WelcomeItem is using the deprecated method displayHelp. It should use displayHelpResource instead. Changing this uncovered a problem with JDT welcome page help URLs. Opened bug 24481 to get the JDT URLs fixed. Fixing this bug anyway since the help links are already broken.

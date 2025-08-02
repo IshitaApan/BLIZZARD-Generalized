@@ -1,0 +1,3 @@
+Show View dialog has 'ok' & 'cancel' button text all lower case
+
+Created attachment 224363 Show View dialog screen capture See attached image. Show View dialog has all lower case text on buttons, all other dialogs I've seen use an initial upper case character.

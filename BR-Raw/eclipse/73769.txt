@@ -1,0 +1,3 @@
+[Dialogs] Open Resource dialog has OK enabled when entry invalid
+
+3.0.1 RC2 - Ctrl+Shift+R - type: WorkbenchWino (note the missing d) and hit Enter - the dialog is dismissed with no action Should disable OK if there is no match.

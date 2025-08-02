@@ -1,0 +1,3 @@
+[FieldAssist] auto activation of proposal popup should be canceled on keystroke
+
+I20060328-0010 Auto activation of the proposal popup should be canceled on keystroke. Steps: - open Find/Replace dialog, activate regex - type "\rrrrrrr" as fast as possible => after a few "r"s, the proposal popup appears at the last "r" inserted This is not the intent of the "auto activation with delay" feature. Auto activation is intended to help the user if he stops typing and starts to think about possible completions. It should be triggered when the user types "\" and then waits a while, but the popup should not appear when the user continues typing after the trigger character.

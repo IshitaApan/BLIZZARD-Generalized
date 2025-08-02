@@ -1,0 +1,3 @@
+[Dialogs] PopupDialog should show the view menu on mouseDown
+
+I20070306-1200 PopupDialog should show the view menu on mouseDown. Trivial fix follows.

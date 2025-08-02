@@ -1,0 +1,3 @@
+[Navigator] Confusing alphabetical sort order in project explorer and resource navigator
+
+Created attachment 230207 Project explorer Project explorer doesn't take space into account while sorting projects. It is different in Package explorer, it takes space into account. It is a problem with large number of projects(it is confusing). Attaching screen shots which shows difference.

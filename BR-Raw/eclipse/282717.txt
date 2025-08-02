@@ -1,0 +1,3 @@
+Move IServiceConstants.OUTPUTS to IContextConstants
+
+The "outputs" value is used by the low level injection code, so this constant should live lower down. Currently we are just hard-coding this value in bundles below the UI level.

@@ -1,0 +1,3 @@
+176 test failures in APITestSuite
+
+Appears to be caused by the fix to Bug 405867, though it isn't clear how a change to the quick access contents would prevent a window from opening. I'll revert the changes for now. http://download.eclipse.org/eclipse/downloads/drops4/N20130423-2000/testresults/html/org.eclipse.ui.tests_macosx.cocoa.x86_5.0.html

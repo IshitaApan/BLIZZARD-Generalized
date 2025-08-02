@@ -1,0 +1,3 @@
+Problems view grouping: Show number of elements in a group
+
+I20060124-1115 It would be great if a group tree node could show the numbers of elements it contains. So you don't have to expand it to get this information. -> Build Path Problems xxxyyyy uyyuiuu Code Style (8) Documentation (2)

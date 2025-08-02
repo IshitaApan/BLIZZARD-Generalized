@@ -1,0 +1,3 @@
+[WorkbenchLauncher] [BiDi] BIDI3.3<HCG:Undesired order of dir path when selecting threw "Workspace Launcher">
+
+Build ID: 3.3 Steps To Reproduce: Note: treat Caps Lock latin letters as BiDi letters Hebrew\Arabic. Prerequisite : use one of your previous workspaces with BiDi characters. i.e : c:\CBA\FED. 1.Run eclipse. 2.Go to "File->Switch Workspace" and select/create a workspace as suggeasted above. Actual Result: The dir path is presented in the workspace text box as such : c:\FED\CBA Expected Result: c:\CBA\FED More information:

@@ -1,0 +1,3 @@
+Navigator - uncontrollable flash
+
+Build 20021119. Caught up to UI code. 1. Create a workspace with two projects containing children. 2. Go to the resources view. Collapse each project. 3. Select the first project and exit Eclipse. 4. Load org.eclipse.ui.tests. 5. Open the above workspace. Expand the first project. The views flash uncontrollably. It appears to be a product of having the org.eclipse.ui.tests loaded.

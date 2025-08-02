@@ -1,0 +1,3 @@
+[Markers] problems view: polish sort menu
+
+3.4 M4 - open the problems view - open the view menu The menu has two entries: - By column (sub menu) - Ascending (radio) a. Ascending should either be a check box or a second radio option 'Descending' should be added b. It might be more comfortable for users to not have a 'By Column' but have this entries directly below 'Sort' (separated with a separator from 'Ascending' and 'Descending') (not sure if SWT allow to have two separate radio groups in the same menu)

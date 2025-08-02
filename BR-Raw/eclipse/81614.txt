@@ -1,0 +1,3 @@
+[RCP] [Wizards] Missing icons for wizards
+
+The interface org.eclipse.ui.ISharedImages defines public final static String IMG_TOOL_NEW_WIZARD = "IMG_TOOL_NEW_WIZARD"; public final static String IMG_TOOL_NEW_WIZARD_DISABLED = "IMG_TOOL_NEW_WIZARD_DISABLED"; It is used in the NewWizardDropDownAction class but the corresponding icons are not yet moved to the platform. Icon name: new_wiz.gif

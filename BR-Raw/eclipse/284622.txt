@@ -1,0 +1,3 @@
+[CSS] Layout of ETabFolder not updating when Window->Reload Style Sheet
+
+When you pick Window->Reload Style Sheet, some aspects of the ETabFolder isn't updating. Specifically, they're around spacing/layout, .e.g: - "tab-margin-offset:" has no immediate effect - changing padding doesn't grow the tab higher, just squishes the contents in - ETabItem margin-left: and margin-right: have no immediate effect The problem is that the setters are only changing the field value but not doing any udpating. We need something like: updateTabHeight(true); for vertical spacing changes updateItems(); for horizontal spacing changes redraw();

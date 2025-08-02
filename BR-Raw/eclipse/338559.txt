@@ -1,0 +1,3 @@
+ui.services has a dependency on SWT
+
+... because of this dependency ui.workbench gets a dependency on swt which is incorrect and violates our Framework design. The suggested fix is the same we made to in bug 322226 by makeing use of the Databinding-Realm.

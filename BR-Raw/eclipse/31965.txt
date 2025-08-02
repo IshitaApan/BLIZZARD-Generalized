@@ -1,0 +1,3 @@
+[Navigator] Selected working set not restored when removed in selection dialog
+
+build 20030214 -select a working set in the resource navigator -open the working set selection dialog (view menu/select working set) -remove the selected working set, the working set is removed from the resource navigator -press cancel ->the resource navigator no longer has a working set selected. The working set removed in the selection dialog should be reset automatically when the selection dialog is canceled

@@ -1,0 +1,3 @@
+Performance: Task list delta listener should use visitor (1GITCP0)
+
+TaskListContentProvider.getMarkerDeltas is a recursive method that walks over tree deltas and gathers the set of marker changes. We will soon be making some optimizations to the delta visitor code, so it will soon be more efficient to use a visitor than to walk over the delta yourself. The visitor interface is IResourceDeltaVisitor, and you would call accept() on the top level delta passed into TaskListContentProvider.resourceChanged. NOTES:

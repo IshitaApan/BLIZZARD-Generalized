@@ -1,0 +1,3 @@
+[Markers] [Markers] clicking on column headers does not sort table
+
+I20070918 Clicking on any of the column headers does not sort based on the relevant column.

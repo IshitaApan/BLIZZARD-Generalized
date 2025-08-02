@@ -1,0 +1,3 @@
+[DataBinding] WritableSet behaves different to WritableList
+
+Build ID: M20071023-1652 Steps To Reproduce: When I construct a WritableList from a List then the list is wrapped. When I do this with a Set then it is copied to a new Set and changes to the WritableSet are not reflected in the original Set anymore whiich is very nasty as one needs to copy back the writeableset. More information: public WritableSet(Realm realm, Collection c, Object elementType) { 		super(realm, new HashSet(c), elementType); 		this.elementType = elementType; 	} should have a constructor like public WritableSet(Realm realm, Set set, Object elementType) { 		super(realm, set, elementType); 		this.elementType = elementType; 	}

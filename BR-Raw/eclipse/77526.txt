@@ -1,0 +1,3 @@
+[BiDi] [WorkbenchLauncher] Workbench startup dialog does not support BIDI
+
+20041102 If you start up with workbench with -dir rtl the workbench selection dialog will still be shown in left to right. If I switch workspaces within Eclipse the dialog will then render correctly

@@ -1,0 +1,3 @@
+[Preferences] Colors and font defaults should differ in High Contrast Mode
+
+The header font and size for the preference page needs to pe changed in High Contrast Mode. It remains same as in normal mode.

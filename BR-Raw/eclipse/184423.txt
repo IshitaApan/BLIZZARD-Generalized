@@ -1,0 +1,3 @@
+[JFace] ColorRegistry.getRGB(String) can return null
+
+I20070427-0010 ColorRegistry.getRGB(String) can return null but this is not speced in the Javadoc.

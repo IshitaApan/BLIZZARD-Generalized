@@ -1,0 +1,3 @@
+[Dialogs] NPE in Organize Imports preference page
+
+RC3a - start an eclipse workspace that contains no projects - Window -> Preferences - go to the Java - Organize Imports page - press New... - in the subsequent dialog press Browse... - in the subsequent dialog press OK - will get the attached exception

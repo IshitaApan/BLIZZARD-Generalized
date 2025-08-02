@@ -1,0 +1,3 @@
+Simplify widget-data accesses for CSS information
+
+The CSS WidgetElement class provides several convenience methods for getting and setting CSS information for a widget or display. The codebase should be changed to use these convenience methods.

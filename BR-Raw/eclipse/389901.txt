@@ -1,0 +1,3 @@
+WorkbenchPage#openEditors doesn't set up the tabs for non-activated editors
+
+Found this while investigating some of the performance issues. The labels and icons for editors were being set in the CompatibilityPart's construction. If you were to use the 'openEditors' API then the editors that were not rendered had no icon, label or tooltip.

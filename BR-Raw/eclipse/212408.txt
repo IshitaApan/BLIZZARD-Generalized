@@ -1,0 +1,3 @@
+[Markers] Markers updating during inconsistent state
+
+We are updating during builds. As a result we get a lot of half constructed markers. We should 1) Cache default state 2) delay updates while a build is going on

@@ -1,0 +1,3 @@
+[Undo/Redo] Context not removed from TriggeredOperations
+
+When I add a context to a TriggeredOperations using #addContext(IUndoContext), I cannot remove the same context using #removeContext(IUndoContext). This is because TriggeredOperations overrides #removeContext(IUndoContext) and only considers removing the context from its triggering operation or its children, but not from its own list of contexts. In my case, I have an editor that adds its undo context to operations that it wants to be able to present in its undo menu. When the editor closes, it flushes its undo context from the history. However, if the operation is a TriggeredOperations, the editor undo context is not removed, and the operation will never be flushed from the history.

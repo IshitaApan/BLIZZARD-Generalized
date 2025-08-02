@@ -1,0 +1,3 @@
+[Forms] TableWrapLayout and makeColumnsEqualWidth
+
+Build ID: I20080502-0100 Steps To Reproduce: 1. Create Shell with TableWrapLayout, 2 columns, with makeColumnsEqualWidth = true; 2. Add two Button's, second Button has long text, so its column is wide. 3. As I read JavaDoc for makeColumnsEqualWidth, two columns should have same width. But it is not. 4. But when you shrink with of Shell window, first column at last becomes same width as second (wide) column! Looks not consistent. More information:

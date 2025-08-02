@@ -1,0 +1,3 @@
+[Compatibility] No hook for event idle loop yet
+
+org.eclipse.ui.parts.tests.PartsReferencesTestSuite depends on implementing org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(Display) but in Eclipse 4, we have no hook for the event idle loop yet. Without this, all of its tests hang. PW

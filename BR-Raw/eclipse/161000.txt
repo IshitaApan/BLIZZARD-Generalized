@@ -1,0 +1,3 @@
+[Metadata] org.eclipse.ui.workbench MANIFEST.MF is polluted
+
+The MANIFEST.MF for org.eclipse.ui.workbench declares 'org.eclipse.ui.testing' as an x-friend of the org.eclipse.ui.internal package. The MANIFEST.MF of an SDK plug-in must not be polluted with references to test plug-ins. 'org.eclipse.ui.testing' must be removed from the x-friends list.

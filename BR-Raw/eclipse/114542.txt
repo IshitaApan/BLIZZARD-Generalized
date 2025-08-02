@@ -1,0 +1,3 @@
+[Markers] Possible to get empty path nodes in problems view hierarcahl mode
+
+20051101 Warnings on the top level of a project ended up having an empty label. STEPS 1) Change filters to show selected elements and children 2) Go into hierarchal mode 3) Select org.eclipse.ui.tests

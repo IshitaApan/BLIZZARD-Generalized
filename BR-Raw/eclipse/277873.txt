@@ -1,0 +1,3 @@
+[CSS] Exception handling for illegal color name
+
+If you have a non-existing color name as a property value, we blow up in SWT. We should catch this case early and throw the correct CSS exception. See bug #277241 comment #6.

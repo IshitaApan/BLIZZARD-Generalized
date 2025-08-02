@@ -1,0 +1,3 @@
+EPartService will hide a part of another perspective
+
+Since a part's curSharedRef is not swapped (per bug 327366), if you have a rendered placeholder in perspectiveA and an unrendered one in perspectiveB, you're in B, and you hide the part, the part will be hidden/removed in A!

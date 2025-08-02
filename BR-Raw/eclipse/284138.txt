@@ -1,0 +1,3 @@
+[CSS] ETabItem wrong background color behind X
+
+If the close box is not shown (but space is allocated, e.g. editors) then the a gray background is drawn in it's place. It's the wrong color background though, it should be now the unselected tab background color.

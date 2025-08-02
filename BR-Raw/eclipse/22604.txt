@@ -1,0 +1,3 @@
+[Preferences] Incorrect @see in PreferenceStore javadoc
+
+Build 2.0 In the javadoc for the default constructor of PreferenceStore, it contains the following: * @see #load(java.io.InputStream) * @see #store(java.io.InputStream) I believe the second one should be: * @see #save(OutputStream, String) Likewise, the other constructor refers to store() instead of save().

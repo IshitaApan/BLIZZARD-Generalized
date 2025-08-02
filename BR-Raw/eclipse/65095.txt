@@ -1,0 +1,3 @@
+MessageDialogWithToggle returns wrong value for yes_to_all
+
+I'm using MessageDialogWithToggle class with 4 buttons: MessageDialogWithToggle dialog = new MessageDialogWithToggle( Display.getCurrent().getActiveShell(), RSCCoreUIPlugin.getString("ConfirmDeleteDialog.title_UI_"), null, message, MessageDialog.QUESTION, new String[] { IDialogConstants.YES_LABEL, IDialogConstants.YES_TO_ALL_LABEL, IDialogConstants.NO_LABEL, IDialogConstants.CANCEL_LABEL}, 1, SUBuilderPlugin.getString("CONFIRM_DELETE_DESC"), checkbox ); The following values 2, 1, 3, 1 are being returned for YES, YES_TO_ALL, NO, CANCEL buttons respectively. The YES_TO_ALL value is wrong, according to IDialogConstants it should be YES_TO_ALL_ID = 4.

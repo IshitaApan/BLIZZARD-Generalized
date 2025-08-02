@@ -1,0 +1,3 @@
+[Import/Export] [Preferences] import preference wizard uses a "save" dialog.
+
+I20050215-2300 The import preferences wizard provides a browse button to select the file you wish to import from. However, it creates a Save As dialog. When you select the file you wish to import you are greeted with a warning that the file will be overwritten. No such thing occurrs, and otherwise the import succeeds.

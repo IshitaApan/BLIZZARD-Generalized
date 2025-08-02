@@ -1,0 +1,3 @@
+[Jobs] Background job feedback should be in status line
+
+It would be nice to be able to see what background job is running without using the view. I'd really like to see the label of the currently running job displayed somewhere. Either in a status area at the top or the bottom of the Eclipse window. If that would take up too much screen real estate, I think it would be good to at least display the current job's label in the hover of the spinner. It could look something like: Current job's name\n (Double click to open the Progress View) Having the Progress View is nice, but I don't want to have to open it everytime I want to see what's currently running.

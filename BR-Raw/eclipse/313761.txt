@@ -1,0 +1,3 @@
+[Viewers][doc] ViewerDropAdapter.getSelectedObject impl doesn't match javadoc
+
+Build Identifier: 20100218-1602 The doc comment of ViewerDropAdapter.getSelectedObject() says that the method returns null in case multiple objects are selected. In fact, its implementation checks only whether there is AT LEAST ONE selected object. Reproducible: Always

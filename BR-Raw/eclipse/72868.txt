@@ -1,0 +1,3 @@
+[Progress] Blocked by invisible job
+
+20040824 After starting eclipse on a old, big workspace I selected to import plugins and fragments. On finish, the blocking dialog showed up, but the only entry listed was the 'import plugin' itself. After 10 minutes the blocking dialog was gone, so it seems that a job was blocking that was not shown in the list. I suspect a system job that didn't cancel -> The blocked dialog should offer to show system jobs or detect the situation where it waits for a job not shown in the UI and then shows that Job (at least for debugging reasons to see which system job caused the blockade)

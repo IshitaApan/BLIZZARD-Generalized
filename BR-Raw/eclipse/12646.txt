@@ -1,0 +1,3 @@
+Switching working sets should preserved expanded state
+
+From Nick's working set UI testing notes: "- We should try to preserve the expanded state when switching working sets. E.g. if I have a CU selected in project P, if I switch to a working set showing just P, the CU should still be visible and selected. Any folders which were expanded under P should still be expanded as well. Use AbstractTreeViewer.get/setExpandedElements()."

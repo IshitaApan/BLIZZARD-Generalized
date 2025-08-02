@@ -1,0 +1,3 @@
+CBanner not sized correctly after coolbar wraps
+
+I20040330 If I resize my eclipse window such that one of the toolbars in coolbar on the left side of the CBanner wraps to the next line, the size of the client area below does not get reisized smaller. The CBanner then cuts off the title bars on the views. A screenshot is attached. Similarly, by maximizing from this state I get the correct double size, but the CBanner is now back to single-row height, while the toolbar on the right side of the curve still thinks it is 2 rows high. A screenshot of this is also attached. I could not reproduce this behavior on Windows.

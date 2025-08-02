@@ -1,0 +1,3 @@
+Open Mode pref not reset by Restore Defaults
+
+Build 20020521 - go to Workbench prefs - change Open Mode to Single Click and select both checkboxes - Restore Defaults - no change to these It should revert to Double Click and clear both checkboxes

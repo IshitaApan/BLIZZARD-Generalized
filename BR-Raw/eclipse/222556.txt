@@ -1,0 +1,3 @@
+Write a performance suite for DecoratingStyledCellLabelProvider
+
+There is a suspicion that DecoratingStyledCellLabelProvider is much slower than DecoratingLabelProvider. We need a suite that tests scrolling a viewer with a DecoratingStyledCellLabelProvider both with and without colouring again one using a DecoratingLabelProvider.

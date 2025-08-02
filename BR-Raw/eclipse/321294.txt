@@ -1,0 +1,3 @@
+[Compatibility] Ctrl+E is unimplemented
+
+Build Identifier: I20100727-1520 For details, please refer to https://bugs.eclipse.org/bugs/show_bug.cgi?id=264152 This feature is supported in Eclipse 3.x but missing in eclipse e4. Reproducible: Always

@@ -1,0 +1,3 @@
+project explorer should support colored labels
+
+3.4 M6 The attached patch allows the project explorer to have colored label. The label provider returned by the navigator content can now additionally implement IStyledLabelProvider to provide colored labels. No API changes required.

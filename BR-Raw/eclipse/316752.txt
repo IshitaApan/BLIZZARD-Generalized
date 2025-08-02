@@ -1,0 +1,3 @@
+Menu item renderers do not consider model selection state during widget construction
+
+Model menu items that are selected and is supposed to be checked are not created so by the renderer because the selection state is not considered.

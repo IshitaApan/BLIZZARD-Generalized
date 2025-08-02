@@ -1,0 +1,3 @@
+[RCP] (regression) Coolbar only shown when MainWindow-Resized
+
+Hi, These lines of code have worked in Eclipse 3.2M3 but the coolbar is not shown until resizing the TopWindow in 3.2M4. ----------------8<---------------- public class ApplicationActionBarAdvisor extends ActionBarAdvisor { // .... protected void fillCoolBar(ICoolBarManager coolBar) { IToolBarManager toolbar = new ToolBarManager(SWT.FLAT | SWT.RIGHT); coolBar.add(new ToolBarContributionItem(toolbar, "main")); toolbar.add(ActionFactory.QUIT.create(window)); } } ----------------8<----------------

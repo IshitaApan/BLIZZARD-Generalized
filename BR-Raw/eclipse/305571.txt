@@ -1,0 +1,3 @@
+[Forms] Links in forms editors keep getting bolder and bolder
+
+I20100309-0100 I expect that this has already been reported, but I can't find a dupe. If there isn't a dupe I can provide a screenshot and additional details, but it's easy to reproduce. Only noticed recently, but in forms editors (manifest editor, dynamic help, etc), links that get bolded/highlighted when hovering over them, remain that way after the hover ends. By waving the mouse over the links the font gets darker and bolder.

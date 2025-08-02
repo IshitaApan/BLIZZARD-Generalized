@@ -1,0 +1,3 @@
+[JFace] Configure Columns dialog does not use dialog font
+
+I20080502-0100 Configure Columns dialog does not use dialog font (in Problems view and maybe elsewhere too).

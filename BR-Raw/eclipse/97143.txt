@@ -1,0 +1,3 @@
+[PropertiesView] status line not updated with keyboard selection
+
+The Properties View does not update the description (in the statusline) of the selected property when properties are selected with the arrowkeys. When the same properties are selected with the mouse, the description is updated. 3.1M7

@@ -1,0 +1,3 @@
+add tests for import/export
+
+I have written additional tests for import archive, export to file system and export to archive. And changed the import existing and import operation (file system) tests. This work required a change to the TarFile class in the ide plugin. Attachments to follow.

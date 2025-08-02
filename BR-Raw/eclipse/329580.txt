@@ -1,0 +1,3 @@
+[Compatibility] IPageLayout's setEditorAreaVisible(boolean) method is unimplemented
+
+SSIA

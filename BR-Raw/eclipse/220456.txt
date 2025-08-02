@@ -1,0 +1,3 @@
+[Markers] All Markers view filters only show problems
+
+I've tried to make new All Markers view to show TODO items from the java sources that been shown in Tasks view. So I created new new contents section, named it "Tasks", selected "on any element" and then selected "Java Tasks" from the Types list (btw, it would be handy to have quick filtering on that list). Then I selected newly added content from the view menu / Show / Tasks submenu, but All Markers view doesn't show any tasks. Playing with various severity selections didn't helped either.

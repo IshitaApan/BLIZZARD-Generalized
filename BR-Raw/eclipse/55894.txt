@@ -1,0 +1,3 @@
+[ActivityMgmt]  IDEWorkbenchActivityHelper is initialized too early
+
+200403240010 The IDEWorkbenchActivityHelper is initialized via Workbench.init() (in a call to advisor.basicInitialize(getWorkbenchConfigurer())) Several lines later activityHelper = ActivityPersistanceHelper.getInstance() is called. This has the effect of storing the saved activity enablement states. The IDE helper should be initialized after the persistance helper. If not, the initial scraping of project natures wont work if a user has explicitly turned an activity off. This wont effect our upgrade case - only the case where a user, after upgrading, goes and plays around with the activity configuration manually.

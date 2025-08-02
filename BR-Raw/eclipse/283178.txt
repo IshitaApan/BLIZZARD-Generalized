@@ -1,0 +1,3 @@
+[Compatibility] Make actionSets visible/invisible
+
+Model elements generated from actionSets should be grouped so they can be made visible/invisible. PW

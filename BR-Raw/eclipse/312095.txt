@@ -1,0 +1,3 @@
+[Compatibility] Restarting always reverts to the default perspective (ie.. Java)
+
+If you shut down with the Debug perspective active and restart you end up with the Java perspective showing. Also, some interaction at the rendering level leaves the shared editor area empty.

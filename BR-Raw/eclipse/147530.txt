@@ -1,0 +1,3 @@
+[DataBinding] Provide event objects for change listeners
+
+Before data binding goes 1.0 it would be wise to provide EventObjects for the following listeners to ensure that the API doesn't preclude future expansion of the values supplied to listeners. Interfaces that would be affected: * IValueChangeListener * IValueChangingListener * IListChangeListener * ISetChangeListener * IMappingChangeListener

@@ -1,0 +1,3 @@
+[QuickAccess] Empty string should not be associated with an element
+
+[RC2] Steps: 1. Press Ctrl-3, type "Console", hit return -> opens the Console view. 2. Press Ctrl-3, hit return 3. Press Ctrl-3, type "Javadoc", hit return -> opens the Javadoc view 4. Press Ctrl-3 Actual: "Console" is selected Expected: "Javadoc" is selected

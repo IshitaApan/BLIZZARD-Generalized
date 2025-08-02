@@ -1,0 +1,3 @@
+platform:/plugin/ not used for applicationXMI
+
+Currently applicationXMI is defined without the platform:/plugin/ prefix which for example are used for CSS resources or Icons. I think the Eclipse 4 platform should be consistent and use platform:/plugin/ also for the applicationXMI parameter. Also the e4 wizard should be adjusted to create the right URI.

@@ -1,0 +1,3 @@
+QuickFix dialog has no wizard graphic or menu icon
+
+20060425 We need a wizard graphic and a menu icon for Quick fix

@@ -1,0 +1,3 @@
+setActiveEditor is not called when last editor closed
+
+Build 20020515 Kai reports that EditorActionBarContributor.setActiveEditor is not getting called with null when the last editor of that type is closed. This used to happen, and they rely on it to properly unhook / dispose things. This may be the cause of some of the NPEs we've been seeing since a disposed editor may be referred to from these actions, and the actions are still hooked as listeners on the page.

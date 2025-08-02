@@ -1,0 +1,3 @@
+[GlobalActions] Convert MAXIMIZE and MINIMIZE to handlers
+
+We need to convert ActionFactory MAXIMIZE and MINIMIZE to handlers PW

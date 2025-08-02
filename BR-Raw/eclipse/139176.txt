@@ -1,0 +1,3 @@
+Javadoc problems in ExternalActionManager
+
+Build id: I20060427-0800 I was looking at the generated javadoc for ExternalActionManager. The class javadoc has this line, which should be removed: * This API is still under flux, and is expected to change in 3.1. The javadoc for ExternalActionManager.CommandCallback.isActive(String) just says: * Calling this method with an undefined command id will generate a log message.

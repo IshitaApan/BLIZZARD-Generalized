@@ -1,0 +1,3 @@
+[Compatibility] Separators don't show up for .ecorediagram files
+
+When a .ecorediagram file is opened, there should be several separators in the main toolbar. They are not being rendered right now. See attachment 203658 for reference.

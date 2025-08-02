@@ -1,0 +1,3 @@
+[KeyBindinds] Select view/editor/perspective should have no rocker option
+
+2.1 it should be possible for the list that pops up for Ctrl+Fx to stay up on key release - this is hard to do for users with mobility problems or those waiting on a screen reader.

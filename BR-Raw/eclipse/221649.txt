@@ -1,0 +1,3 @@
+[Import/Export] ZipFileImportWizard has no option to change the FILE_IMPORT_MASK
+
+Build ID: M20080221-1800 This is a request for enhancement. The file import mask is defined in WizardArchiveFileResourceImportPage1 which is not public API. So it would be nice to have a setter mechanism on the ZipFileImportWizard. Would increase usability extending ZipFileImportWizard. More information: There was a request years ago: bug#17958

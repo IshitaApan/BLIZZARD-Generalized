@@ -1,0 +1,3 @@
+[Compatibility] Workbench window still thinks there's an active part even when all parts are closed
+
+It seems that ISources.ACTIVE_PART_ID_NAME (and other such variables) are still in the context even when all parts have been closed in a perspective. This shouldn't be the case.

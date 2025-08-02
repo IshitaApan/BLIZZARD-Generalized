@@ -1,0 +1,3 @@
+[Markers] Markers view does not persist column placements across workbench restart
+
+Build id: I20091027-0100 1. Start the Eclipse SDK on a new workspace. 2. Close the 'Welcome' screen. 3. Activate the 'Problems' view. 4. Ctrl+F10 to bring up the view's menu > Columns... 5. Move 'Resource' from second place to the last (fifth). 6. Click 'OK'. 7. Verify it has been removed. 8. Shutdown Eclipse and restart it. 9. 'Resource' is now the third column instead of being the last one. If I repeat the steps it becomes the fourth. It's like it's going at turtle speed one column at a time. Slow and steady wins the race, as I often say.

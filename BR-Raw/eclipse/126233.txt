@@ -1,0 +1,3 @@
+[FieldAssist] DecoratedField should not automatically reserve space on field ends
+
+DecoratedField attempts to avoid any "jumping" of the field by allocating space for a field with the minimum decoration width. Now that we are looking at using these fields inside cell editors (see bug #124873), this is definitely not a good idea on the right. Also investigate a life cycle that allows clients to add focus/dependent decorations on the left with no "jump." If this can be avoided then there would be no need to reserve space. Just let the clients add the decoration up front.

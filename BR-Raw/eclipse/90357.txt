@@ -1,0 +1,3 @@
+[WorkbenchParts] Avoid redundant part activation when switching perspectives
+
+Whenever possible, the workbench maintains the same active part when switching perspectives. However, the workbench still deactivates and reactives the active part during a perspective switch even if it ends up remianing unchanged. A large portion (about 30%) of the runtime for switching perspectives currently goes into recomputing commands, action sets, contribution items, etc. that occurs as a result of the activation change.

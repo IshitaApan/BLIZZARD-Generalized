@@ -1,0 +1,3 @@
+[DataBinding] Listeners in swt Observables are not removed on dispose
+
+Created attachment 75409 Additional test cases and test method to test that dipose correctly cleans up listeners. Build ID: HEAD Steps To Reproduce: 1. Apply patch that contains test cases for dispose methods. 2. Tests fail with a NullPointerException as the listeners try and fire events to bindings that have been disposed (realm is null, so it throws the NPE).

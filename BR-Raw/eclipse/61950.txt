@@ -1,0 +1,3 @@
+[Markers] Images being created twice potentially
+
+org.eclipse.ui.views.internal is using a static called ImageFactory which has it's own ImageRegistry. It should use JFaceResources.getImageRegistry to be sure that images are not being created twice (Image creation can be very expensive). I am not sure that this is a problem currently with performance but it could add to start up time.

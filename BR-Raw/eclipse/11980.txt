@@ -1,0 +1,3 @@
+MultiEditor contains unneccessary platform-dependant import
+
+The class: org.eclipse.ui.part.MultiEditor contains the following import which doesn't appear to be used: import org.eclipse.swt.internal.win32.GRADIENT_RECT; In a selfhosting environment, this creates an error on Linux. This import doesn't appear to be used. Unless I'm mistaken, I believe this import should be removed.

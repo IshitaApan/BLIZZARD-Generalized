@@ -1,0 +1,3 @@
+Wrong dialog title
+
+Build id: I20100429-1549 Steps: 1) Open the New Folder wizard 2) Press Advanced and Resource Filters 3) See the title of the opened dialog

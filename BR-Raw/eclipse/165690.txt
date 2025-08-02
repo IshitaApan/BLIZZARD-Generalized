@@ -1,0 +1,3 @@
+[Preferences] Allow transfer of working sets
+
+3.2 We should allow working sets to be transferred between workspaces.

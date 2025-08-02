@@ -1,0 +1,3 @@
+[DataBinding] ComputedList refinements
+
+Patch to follow which refines how staleness is handled with ComputedList's dependencies.

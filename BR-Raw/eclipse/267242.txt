@@ -1,0 +1,3 @@
+[JFace] Add API to configure table and tree columns in a keyboard-accessible way
+
+See https://bugs.eclipse.org/bugs/show_bug.cgi?id=38662#c8

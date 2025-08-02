@@ -1,0 +1,3 @@
+JFace snippets cleanup, removes unnecessary imports and casts
+
+Review of cleanup of the JFace snippets https://git.eclipse.org/r/14736

@@ -1,0 +1,3 @@
+[Markers] Description column not sorting text
+
+Currently the description column in the problems view is sorting by severity but not comparing Strings of equal severity.

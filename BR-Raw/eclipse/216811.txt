@@ -1,0 +1,3 @@
+[Markers] ExtendedMarkersView#setFocus doesn't
+
+The result is that focus is lost if you drag the view to another stack... The most common implementation seems to be 'viewer.getControl().setFocus()... To test: select an element in the Problems or Tasks view. Drag the view to a new location (could be in an existing stack or a new one) notice that while the view is the active view the arrow keys don't navigate...

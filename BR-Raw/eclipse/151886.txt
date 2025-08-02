@@ -1,0 +1,3 @@
+[KeyBindings] Startup fails if default active scheme is undefined
+
+Build: I20060718. In BindingPersistence.readActiveScheme, if defaultActiveSchemeId is "" then startup fails because it calls BindingManager.getScheme(defaultActiveSchemeId), which throws IllegalArgumentException if the argument is "". Since anyone can access the preference tree and change this value, BindingPersistence should protect against it to avoid startup failure.

@@ -1,0 +1,3 @@
+IconAndMessage dialog has an inconsistent margin
+
+3.3 We have a 3/2 multiplier for margin heights and a standard *1 for margin widths. We should just use the layout constants. This change was originally made for bug 26366

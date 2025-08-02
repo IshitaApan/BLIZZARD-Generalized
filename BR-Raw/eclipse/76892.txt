@@ -1,0 +1,3 @@
+[EditorMgmt] [RCP] CTRL-E brings up empty editor list even if editor area is hidden
+
+3.0 My RCP app has a hidden editor area and hasn't replaced the CTRL-E binding, I'm using the default o.e.ui key configuration. When CTRL-E is pressed I get an empty editors list popup aligned with the left side of the app. - should the pop-up still show if there is no editor area?

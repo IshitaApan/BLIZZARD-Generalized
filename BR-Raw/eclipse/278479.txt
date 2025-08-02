@@ -1,0 +1,2 @@
+[CSS] SWT unit tests failing "This isn't an RGBColor type"
+

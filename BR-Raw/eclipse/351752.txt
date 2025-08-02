@@ -1,0 +1,3 @@
+Attempting to import a malformed EJB jar with Archive File wizard causes StackOverflowError
+
+Build Identifier: M20110210-1200 I'm aware that's not the proper wizard to import an EJB project, but I consider this case is worth to investigate. Reproducible: Always Steps to Reproduce: 1. File -> Import -> General -> Archive File 2. Browse for the file "ConverterEJB3.jar" (Attached here) 3. Click Open

@@ -1,0 +1,3 @@
+[Workbench] potential NPE in WorkbenchWindow.isCoolBarLocked
+
+The body of this method is 	protected boolean isCoolBarLocked() { 		return getCoolBarManager().getLockLayout(); 	} The javadoc for getCoolBarManager says that it may return null so we need to check here. I haven't seen this in any real product, just in one of my test cases. However only when the LockToolBarAction has been installed AND the workbench window is closed from within WorkbenchAdvisor.postStartup.

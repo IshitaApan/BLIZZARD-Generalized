@@ -1,0 +1,3 @@
+[Import/Export] Need busy cursor when loading page
+
+M5 build - start eclipse in Resource perspective - File / Import - double-click on External Plug-ins and Fragments - it takes a while to load, but there is no busy cursor

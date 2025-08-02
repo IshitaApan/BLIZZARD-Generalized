@@ -1,0 +1,3 @@
+[Preferences] Import should show busy cursor
+
+build i0928 When you import new preferences, the file selection dialog disappears while the import happens. But at this point the UI is unresponsive since the system is busy doing the import. During this time, the cursor should be a busy cursor to show the user that something is happening.

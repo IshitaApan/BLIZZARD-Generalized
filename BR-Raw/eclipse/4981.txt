@@ -1,0 +1,3 @@
+Refactor actions show more informative error dialogs
+
+Place the cursor in some method declaration and select Refactor>Self encapsulate field. A message dialog appears saying operation not available on current selection. The action remains enabled. This "Sorry, can't do that" behavior is not user friendly. Either 1) Disable the action if it is not available (prefered) or 2) Use the message dialog to explain what the action does and why it is not available on the current selection. The same situation arises with other refactoring actions.

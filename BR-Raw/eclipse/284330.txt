@@ -1,0 +1,3 @@
+[JFace] Add isVisible API to ControlDecoration
+
+Build ID: 3.5 Steps To Reproduce: This is an enhancement request. I would like to be able to programmatically determine if a ControlDecoration is visible. This is especially useful for testing.

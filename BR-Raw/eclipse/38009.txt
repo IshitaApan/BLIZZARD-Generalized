@@ -1,0 +1,3 @@
+[Wizards] Wizard banner text should wrap
+
+Currently if wizard banner text is too long for the line, it's truncated. Hovering over it produces a pop-up with the complete text (unless I suppose it's too long to fit on the screen). In any case this looks really bad. If the text is too long for one line, it should be wrapped to multiple lines. A good UI designer isn't going to write wizard banner text that's enormously long, but the wizard framework should be able to handle it.

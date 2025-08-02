@@ -1,0 +1,3 @@
+[DataBinding] When attempting to fire a stale event AbstractObservable throws ClassCastException
+
+The code in AbstractObservable for the firing of stale events appears to be incomplete. When listeners are added they're added as type IStaleListener but when retrieved they're cast to IChangeListener. I'm assuming that code was copied from the change listener code but not completed. Attaching patch...

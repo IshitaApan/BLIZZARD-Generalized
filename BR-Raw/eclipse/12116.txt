@@ -1,0 +1,3 @@
+[Contributions] widgets: MenuManager.setImageDescriptor() method needed
+
+Currently there seems to be no API to assign image to menu item that contains submenu, the only way is to override MenuManager.fill() methods. That seems to be inconsistent.

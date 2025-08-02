@@ -1,0 +1,3 @@
+[Encoding] Expecting resource delta if workbench encoding changes
+
+I20040901 We now get a resource delta if the explicit encoding of a file or (if not explicitly set or extracted from file) its parent container's encoding changes. If all parent containers use workbench encoding then the workbench encoding gets used but no resource delta is sent for that file if the workbench encoding changes. This forces clients which need to handle encoding changes to listen for resource deltas and UI property change events.

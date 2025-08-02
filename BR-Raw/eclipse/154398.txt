@@ -1,0 +1,3 @@
+[Dialogs] Javadoc - IconAndMessageDialog.createMessageArea assumes parent composite is using GridLayout
+
+IconAndMessageDialog.createMessageArea assigns GridData objects as the layout data for the children of the parent composite. This mandates that the parent's layout is a GridLayout - which is unspecified in the Javadoc. This affects all callers of IconAndMessageDialog.createMessageArea as well, for example: ErrorDialog.createDialogArea MessageDialog.createDialogArea ProgressDialog.createDialogArea

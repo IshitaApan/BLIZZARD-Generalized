@@ -1,0 +1,3 @@
+[DataBinding] Mocks InvocationHandler throws an exception when returning primitive type
+
+The InvocationHandler in the Mocks class attempts to return a new type via Class.newInstance for primitives which throws an InstantiationException.

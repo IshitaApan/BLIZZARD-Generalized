@@ -1,0 +1,3 @@
+[Menus] Action set not shown on startup
+
+When trying out the patches provided for bug 173456, I noticed that the CVS action set was not shown in the main toolbar after startup even though it was enabled. Disabling and then re-enabling the action set made it appear. I will try and provide a minimal patch that reproduces the problem.

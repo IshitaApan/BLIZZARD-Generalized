@@ -1,0 +1,3 @@
+Menu "Build Automatically" missing checkmark
+
+The Project -> Build Automatically menu item is missing a checkmark. When the menu item selected, the auto-build appears to properly switch to "off" state, but the menu now shows the checkmark.

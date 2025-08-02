@@ -1,0 +1,3 @@
+[DnD] Drag and Drop PluginTransferData confusion
+
+When I read the javadoc of PluginTransferData it states "The workbench will automatically create instances of this class as required. It is not intended to be instantiated or subclassed by clients.". However, the two examples I've seen (Eclipse.org article and readme example) both instantiate the class. I can't see how it would work any other way so I assume that the javadoc is wrong (i.e. that clients need to instantiate the class). If this is not the case, the examples should be updated to reflect how it should work.

@@ -1,0 +1,3 @@
+Too much work being done in build
+
+Linux only. I20020228 (and previous). If I make changes to any file (e.g. plugin.properties) in my project, and my project has no dependants, saving it still takes almost 3 seconds and the progress messages that appear during that time seem to indicate that all manner of builders are being invoked on many irrelevant projects. Setting 'needbuild=true' in .options indicates correctly that only my project is being built, but there are undoubtedly other things going on. This is quite important for me, as every file save is painful. Let me know if three is any additional info I can provide.

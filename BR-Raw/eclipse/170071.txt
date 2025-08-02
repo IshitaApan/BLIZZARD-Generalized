@@ -1,0 +1,3 @@
+[Undo] Undo deleting *.properties file sets explicit encoding
+
+I20070109-1805 Create a *.properties file => Encoding is "Default (determined from content: ISO-8859-1)" Delete file in Navigator, the choose Edit > Undo => File is restored, but its encoding is now explicitly set to "ISO-8859-1"

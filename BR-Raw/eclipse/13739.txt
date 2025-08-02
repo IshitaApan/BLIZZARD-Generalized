@@ -1,0 +1,3 @@
+Problems with import project
+
+Build 20020412 - had an existing workspace - deleted .metadata - tried to import project from the workspace - it complained that the location was under the workspace This is fine for creating a new project, but we should support importing an existing project even if it's under the workspace location. The only other way to get a project back is to create it with the same name, but this is a hidden feature. Most users would try the import first. Also, we currently don't need to prompt for the name since it's in the location file. Should just ask for the location. If this assumption changes, or if it can't determine the name from the file, then we should prompt, but this should be done after specifying the location.

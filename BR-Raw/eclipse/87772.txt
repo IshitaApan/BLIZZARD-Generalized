@@ -1,0 +1,3 @@
+[ViewMgmt] (Javadoc) IViewLayout is not tagged as "not intended to be implemented"
+
+3.1 M5 IViewLayout is not tagged as "This interface is not intended to be implemented by clients.", but should have been in 3.0. Need to change this and document it as a breaking API change.

@@ -1,0 +1,3 @@
+[KeyBindings] Multi-stroke shortcut helper popup displaced
+
+I200409140800 The popup table that helps me with multi-stroke keyboard shortcuts is displaced. It hangs out of the lower-right border of the workbench window. This is especially annoying when working in full-screen mode, since the popup is cut off then. The Ctrl+Shift+L popup has the same problem (Dani mentioned it in bug 72161 comment 2).

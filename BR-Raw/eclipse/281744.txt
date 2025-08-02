@@ -1,0 +1,3 @@
+ReflectionContributionFactory should log something when create(String, IEclipseContext) is unsuccessful
+
+I made a mistake defining my MContributedPart's URI property but was not informed of this in the logs. This is because ReflectionContributionFactory's create(String, IEclipseContext) doesn't log anything if the bundle could not be retrieved.

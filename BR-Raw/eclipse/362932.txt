@@ -1,0 +1,3 @@
+MenuManager of a view menu must not be disposed when the menu goes hidden
+
+We have code that disposes the menu manager of a part's view menu when the menu goes hidden. This means all contribution items of that manager will be disposed as well. Some contribution items are written in such a way that after a dispose() they become useless. We should not dispose the menu manager of a part's menu.

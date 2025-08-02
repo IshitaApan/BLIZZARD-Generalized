@@ -1,0 +1,3 @@
+Editor contributions disapper on perspective switch
+
+Build 20021222 - open the Java perspective - open a Java file - switch to Debug perspective. Observe that the editor contributions to the Toolbar are gone. - switch back to Java perspective. Still no editor toolbar contributions

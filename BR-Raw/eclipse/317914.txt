@@ -1,0 +1,3 @@
+Empty elements in toolbar of Eclipse 4.0 SDK
+
+Created attachment 172708 Toolbar The Eclispe 4.0 SDK shows empty elements in the toolbar. I attached a screenshot and highlighted the empty areas. Build ID: I20100623-1410

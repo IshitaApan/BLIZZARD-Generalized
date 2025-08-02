@@ -1,0 +1,3 @@
+Splash Screen and Progress window layout
+
+N20050606 Splash screen and the newly introduced progress bar do not really "harmonize" (see attached screenshot). What's about making them both the same width and placing the progress bar at the bottom edge of the splash screen so that they don't overlap and that the progress looks like an extension of the Splash screen?

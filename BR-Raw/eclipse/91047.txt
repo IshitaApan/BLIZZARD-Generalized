@@ -1,0 +1,3 @@
+[About] About dialog buttons seemingly not responsive
+
+Clicking on the 'Plug-in Details' or 'Configuration Details' buttons in the About dialog are time-consuming operations when the product in question has a large number of plug-ins. Yet, there is no hourglass, a busy cursor or a visual indicator of any sort between the time I click the button and the ten seconds later when the dialog actually appears. Of course, this problem would not be noticeable in pure Eclipse (86 plug-ins).

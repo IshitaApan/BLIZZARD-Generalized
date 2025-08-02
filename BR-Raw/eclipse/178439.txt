@@ -1,0 +1,3 @@
+[DataBinding] WritableList.removeAll(...) ListDiffEntry reports addition
+
+The ListChangeEvent fired when WritableList.removeAll(...) is invoked reports that an addition occurred when it should report a removal.

@@ -1,0 +1,3 @@
+[Commands] request: convert parameter value back to Object
+
+Created attachment 227506 Simple patch for enbaling object parameters I've supplied a patch for calling the ParameterValueConverter's convertToObject method while getting the parameter values for execution. That enables the supplement of typed object values to EModelService.createCommand if MCommandParameters has type-id defined. See http://www.eclipse.org/forums/index.php/t/456258/.

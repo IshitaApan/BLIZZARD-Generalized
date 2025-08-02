@@ -1,0 +1,3 @@
+[Dialogs] Infinite search in project import dialog
+
+Using UI from HEAD 1) Open the Existing project import wizard 2) Type "c:\" in the first text field 3) Toggle the radio button to search in archive 4) Type "d:\" in the archive search text field (or some other large directory) 5) Hit Tab to begin search 6) Click Cancel -> It cancels, but when the cancel button gets disabled, focus traverses to the first radio button, which kicks off another search. The result is an infinite search that cannot be canceled.

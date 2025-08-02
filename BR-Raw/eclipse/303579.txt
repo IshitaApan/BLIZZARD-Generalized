@@ -1,0 +1,3 @@
+Missing PreferenceManager prevents CVS Repositories view from working
+
+I'm going to copy some code over from the original org.eclipse.ui.workbench

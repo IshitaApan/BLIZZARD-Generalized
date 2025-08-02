@@ -1,0 +1,3 @@
+[ErrorHandling] UIJob eats possible exception
+
+This is a spin off bug 240033. When an exception occurs in UIJob there is no mechanism that will put it into the status handling. In result you can see dialog as reported in bug 240033. I also do not like 'Error' message in that point. I'd like to have 'An internal error has occurred'.

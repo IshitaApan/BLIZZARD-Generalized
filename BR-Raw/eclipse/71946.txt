@@ -1,0 +1,3 @@
+4 detached windows tests fail on Mac OS 10.3.3
+
+Since the detached windows feature is not supported on the Mac, the 4 detached windows tests fail in the "dnd" suite. It would be useful to add a check to ensure that the platform supports the detached window functionality.

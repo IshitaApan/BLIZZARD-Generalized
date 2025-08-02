@@ -1,0 +1,3 @@
+Table columns not distributing correctly in properties page
+
+I have a table in my properties page, with two columns, using ColumnWeightData for the columns. If this page is the first page to come up when the dialog opens, then the columns are scrunched together. It appears that the client area is computed incorrectly for the table. If, however, another page is the default when the dialog opens, and you switch to this page, then the columns are distributed evenly. My workaround for now is to use ColumnPixelData, but that is not optimal because in that case the columns don't size proportionally when switching from another page.

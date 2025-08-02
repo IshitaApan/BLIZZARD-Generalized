@@ -1,0 +1,3 @@
+[WorkbenchParts] org.eclipse.ui.IWorkbenchPartConstants should clarify its restrictions
+
+It looks like this interface should not be implemented by the client, but this is not explicitly stated in the doc of the interface. The constant PROP_PREFERRED_SIZE has been added since 3.3.0 and this would be a breakage if this interface can be implemented. The components.xml located in the plugin org.eclipse.ui doesn't have the implements="false" restriction on this type.

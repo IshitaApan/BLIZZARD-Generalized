@@ -1,0 +1,3 @@
+[Perspectives] newly created project do not appear in the Project Explorer
+
+Build ID: I20071101092718-20071101092718 Steps to reproduce: 1. Start in a fresh new workspace. 2. Close the Java perspective 3. Open the Java EE perspective 4. Create a new Web project. The web project do not appear in the Project Explorer view. If you open the Java perspective it appears in the Package Explorer view, but still not available in the Project Explorer view. If you omit step 2 then the problem does not appear.

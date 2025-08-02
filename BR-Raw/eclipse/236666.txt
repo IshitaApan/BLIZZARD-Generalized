@@ -1,0 +1,3 @@
+[DataBinding] Need snippet for two combo example
+
+Here is my use case: Let's say we have two combo boxes, A and B A has a "Male" and "Female" in it B has a list of names If you make a selection in A, the list in B gets filtered based on the selection in A. So if you select Male in A, B will only display male names. I guess A doesn't have to be a combo, it could just be a set of radio buttons.

@@ -1,0 +1,3 @@
+[Perspectives] [RCP]Standalone view does not  divide space in proper  ratio with reference when added to IPageLayout with showTitle parameter false
+
+When a StandaloneView is added to a IPageLayout withaddStandaloneView((String viewId, boolean showTitle, int relationship, float ratio, String refId) method call, it does not divide space in proper ratio with reference part. I attch two screenshots one with showTile set to true and other set to false. In the screenshots the ration to top view is 0.95f. When showTitle is set to true, space is divided between two views properly. But when showTitle is false, the bottom view (in screenshot) get more space then it should.

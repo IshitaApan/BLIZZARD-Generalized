@@ -1,0 +1,3 @@
+[Markers] Tasks does not sort by completion
+
+Sorting by the completion currently does nothing.

@@ -1,0 +1,3 @@
+[GlobalActions] Convert EDIT_ACTION_SETS to a handler
+
+Convertion ActionFactory.EDIT_ACTION_SETS from an action to a handler. PW

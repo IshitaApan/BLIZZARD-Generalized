@@ -1,0 +1,3 @@
+Quick fix to get selection service working in the photo demo
+
+Created attachment 124199 Proposed quick fix This is a quick fix to get selection service working again for the photo demo. The core problem is that the selection service was presented as an IComuptedValue. As a result each view (Library, Preview, Exif, etc) get their own selection service. Hence, no communication. The patch does not represent a real solution, rather a quick fix to get demo working as it was. We need to think about the real solution - this is a good test for the concepts of IComputedValue and propagation of changes.

@@ -1,0 +1,3 @@
+[ErrorHandling] StatusManager#handle() produces a dialog that is not centered well
+
+Build ID: 3.5m7 Steps To Reproduce: If a product provides their own org.eclipse.ui.statushandlers.AbstractStatusAreaProvider implementation then the dialog displayed as a result of the call to StatusManager.getManager().handle(...) isn't centered to the parent shell using the entire width of the resulting dialog. Instead, it is centered based on the width of the dialog portion minus the status area section. As a comparison, the JFace ErrorDialog is centered correctly to the parent shell using the entire width (error dialog width + status area width).

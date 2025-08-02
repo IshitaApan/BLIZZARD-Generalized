@@ -1,0 +1,3 @@
+[DataBinding] Run validation on binding construction
+
+When a binding is created the assumption is that the UI is synchronized with the model. This means that the UI should reflect the state of the model's validity as well. In order to ensure that the UI reflects the model's validity the consumer needs to force a copy to model on instantiation of every binding. We need to remove this requirement.

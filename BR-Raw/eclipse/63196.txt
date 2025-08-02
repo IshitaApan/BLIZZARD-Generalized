@@ -1,0 +1,3 @@
+[Workbench] Status line too tall
+
+Build id: 200405200010 It looks like the status line has gotten too tall when the fast view bar is docked on the bottom. This is likely from the fast view bar changes I made yesterday. I'll prepare a fix, it should likely go into M9.

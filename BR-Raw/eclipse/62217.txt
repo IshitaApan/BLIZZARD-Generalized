@@ -1,0 +1,3 @@
+[EditorMgmt] Editor tabs lose their order when the workbench is saved
+
+This is a regression caused by the patch to bug 62038

@@ -1,0 +1,3 @@
+[Markers] Allow markerAttributeGroupings and markerGroups to be specified within contentGenerators
+
+With everything at the top level it is hard to see the relation to a contentGenerator and the groups and attribute groupings. These should be sub elements a la menus.

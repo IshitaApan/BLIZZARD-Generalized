@@ -1,0 +1,3 @@
+[CommonNavigator][Help] missing help in Customize View dialog
+
+open the Filters... dialog and click the help button, note no help appears.

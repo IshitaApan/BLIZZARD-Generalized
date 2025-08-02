@@ -1,0 +1,3 @@
+[Themes] Undefined color entry will cause an NPE if looked up
+
+If you look up a ColorDescriptor from a theme and that color is not registered you will get a descriptor with a null color that will result in an NPE. We should either get back null, handle the null descriptor or have some API we can check.

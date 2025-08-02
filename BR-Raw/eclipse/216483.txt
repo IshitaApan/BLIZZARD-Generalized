@@ -1,0 +1,3 @@
+[Commands] [Contributions] HandlerProxy should ask for refresh of IElementUpdater when loading handler
+
+At moment, if a handler implements IElementUpdater and is loaded by HandlerProxy, the element is not updated (e.g. at startup). The HandlerProxy should ask for a refresh if it instantiates the 'real' handler that implements IElementUpdater.

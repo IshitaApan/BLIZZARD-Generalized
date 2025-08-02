@@ -1,0 +1,3 @@
+UI Popup Menu slight re-org/rename for R3.0
+
+Navigator 	Remove 		Add Bookmark... 	 Do not support Shift+ R refactor as meaning the same as F2 in the Navigator (F2 is rename and Shift+R does nothing) (Low Priority) Package Explorer 	Support F2 as direct rename in Package Explorer

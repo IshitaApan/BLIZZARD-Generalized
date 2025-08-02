@@ -1,0 +1,3 @@
+[ActivityMgmt] empty checkbox instead of greyed checked box in capabilities preference page
+
+I20050330 Preferences > General > Capabilities > Advanced > uncheck 'plug-in development' under Development > OK Development is not checked in the Capabilities view. It should have a greyed checkbox like it has under the Advanced dialog. Screenshot attached next.

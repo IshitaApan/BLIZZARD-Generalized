@@ -1,0 +1,3 @@
+[Undo] - javadoc - clarify operation remaining in history for undo/redo with INFO/WARNING
+
+The javadoc for the IOperationHistory#undo(...) redo(...) methods is very explicit about the operation remaining in the history on CANCEL and ERROR status, and that it is moved between undo/redo histories when ok. Some minor clarifications: The lack of an explicit statement about INFO and WARNING makes one wonder what happens to the operation. It remains in the history in this case also... Technically, on OK status the operation is not guaranteed to move between the stacks. If it cannot redo after undoing, or cannot undo after redoing, it won't be transferred to the other stack, but in effect will be removed from the history.

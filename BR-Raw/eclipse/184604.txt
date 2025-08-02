@@ -1,0 +1,3 @@
+[Undo] - Action handlers should initially support local context if there are operations available
+
+see bug #162964. In fixing this bug, the action handlers were set up to ignore the local undo context until there is activity detected. But if the local undo context already has operations in the history, then it should be supported. Basically, this means that activeContext should be initialized based on the history for the local context, not automatically initialized to false.

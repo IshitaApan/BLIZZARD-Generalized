@@ -1,0 +1,3 @@
+[Field Assist] - open proposal popup should close when there are no valid proposals left
+
+I've just finished implementing bug #144522, which ensures that the content proposal popup never opens if there are no valid proposals to be shown. (A beep is sounded if the user was trying to explicitly open the popup with a key binding.) Currently, the popup does not automatically close when the user has already opened the popup, and then types some content that causes the proposal list to filter down to nothing. It should. It seems clear that the popup should close, at least in the autoactivation case. The current platform text content assist will also close the popup in this case even when the popup was explicitly invoked.

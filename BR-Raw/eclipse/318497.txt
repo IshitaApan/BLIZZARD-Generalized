@@ -1,0 +1,3 @@
+Tool items are always enabled
+
+Because we're not calling the underlying HandledItem's canExecute method.

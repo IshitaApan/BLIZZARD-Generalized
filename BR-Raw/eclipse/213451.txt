@@ -1,0 +1,3 @@
+[Viewers] Visibility of OwnerDrawLabelProvider.OwnerDrawListener
+
+1. Why is the internal class package scoped and not private 2. Why is the constructor public (at least on my eclipse install this shows up as an error because all public/protected methods have to have JavaDoc)

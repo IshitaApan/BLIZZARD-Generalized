@@ -1,0 +1,3 @@
+[ActivityMgmt] ImageBindingRegistry is never hooked into the extension registry
+
+Despite being wired to listen to registry events, this registry is not actually hooked into the extension registry.

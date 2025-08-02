@@ -1,0 +1,3 @@
+[Markers] Need to check for duplicate filter names
+
+M3 It is currently possible to enter duplicate filter names

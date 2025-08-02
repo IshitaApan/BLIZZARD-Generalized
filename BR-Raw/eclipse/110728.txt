@@ -1,0 +1,3 @@
+Heap Status needs a preference to turn it off.
+
+Run Eclipse 3.2M2 under OS X 10.4.x. After the initial transient high CPU usage normally seen during Ecllpse start up the CPU usage goes to ~4% at "idle" during routine Java development. After several tens of minutes of normal use the CPU usage climbs to anywhere between 20% to >40% when idling. Quitting and restarting Eclipse 3.2M2 restores the idle CPU usage to ~4%, but it continues to climb with use.

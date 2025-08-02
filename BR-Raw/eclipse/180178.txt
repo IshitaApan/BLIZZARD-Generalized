@@ -1,0 +1,3 @@
+Compiler warning in N20070330-0010
+
+1. WARNING in /Eclipse UI Tests/org/eclipse/ui/tests/services/EvaluationServiceTest.java (at line 202) IWorkbenchWindow secondWindow = openTestWindow(); The local variable secondWindow is never read

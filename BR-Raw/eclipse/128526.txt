@@ -1,0 +1,2 @@
+[ViewMgmt] Show View Dialog should remember size & location
+

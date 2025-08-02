@@ -1,0 +1,3 @@
+[CSS] Need margins
+
+Build ID: M1 Steps To Reproduce: This code is a problem because it expects there to be a FillLayout on the parent if(property.equals("border-width")) { ((FillLayout) parent.getLayout()).marginWidth = pixelValue; }

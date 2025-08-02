@@ -1,0 +1,3 @@
+[About] Allow sorting by secondary column in plug-in details dialog
+
+It would be nice if we could sort by a second column in this dialog in the event that two or more elements are equal based on their primary column.

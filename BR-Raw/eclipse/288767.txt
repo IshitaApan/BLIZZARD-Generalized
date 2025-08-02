@@ -1,0 +1,2 @@
+[statushandling]no option to wrap error text
+

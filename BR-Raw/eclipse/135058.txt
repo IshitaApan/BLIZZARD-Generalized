@@ -1,0 +1,3 @@
+new error message popup in wizards is too "distracting"
+
+Eclipse 3.2M6 Although it might look cool, the new error popup in wizards is very distracting. Here's the use case: Create a new Java package based on an existing package name. For example, create a new package called "org.eclipse.ui.editors.text.test". Assuming "org.eclipse.ui.editors.text" already exists. As you type, for each "." or package segment that already exists, the popup will go up and down, up and down. It is just too distracting.

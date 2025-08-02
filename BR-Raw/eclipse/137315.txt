@@ -1,0 +1,3 @@
+[Dialogs] Doubleclickable area to restore dialog size is often very small
+
+N20060418-0010 The responsive area to restore the original size of Eclipse dialogs (bug 116906) is now typically only a few pixels around the 'Help' button. The problem could be that TrayDialog (and maybe others) adds an intermediate composite to the button bar, but Dialog#addRestoreSizeMouseListeners(..) does not dive into the button bar to add doubleclick listeners there.

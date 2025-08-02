@@ -1,0 +1,3 @@
+[Markers] MarkerResolutionDialog needs to be more responsive
+
+Currently we are not allowing 1) Cancelling of resolutions 2) Paints during updates We need to spin the UI Thread and to allow cancel to be used to cancel the update and the application of problems.

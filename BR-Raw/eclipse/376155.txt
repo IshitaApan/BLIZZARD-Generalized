@@ -1,0 +1,3 @@
+Remove dummy toolbar for fullscreen support in Lion
+
+Please see https://bugs.eclipse.org/bugs/show_bug.cgi?id=349148#c23 The dummy toolbar created in CocoaUIEnhancer has to be removed for eclipse to support the new full screen feature in Lion. Also, it is no longer required as the toolbar toggle button is not available in Mac Lion.

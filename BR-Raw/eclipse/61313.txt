@@ -1,0 +1,3 @@
+Platform native icons not used in dialogs
+
+N20040506 For example the 'info' icon for operations in progress, the 'error' icon when an exception occurs, and the 'question' icon when asked to confirm a resource deletion. These used to use the native icons on Windows XP but now they look quite different and non-native. This is a fairly recent regression.

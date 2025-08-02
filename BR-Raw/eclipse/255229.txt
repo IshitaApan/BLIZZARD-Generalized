@@ -1,0 +1,3 @@
+[Viewers] [3.5] NPE in ColumnViewerToolTipSupport
+
+Apply bug fix from bug #255053 to head

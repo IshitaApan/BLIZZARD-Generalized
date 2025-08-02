@@ -1,0 +1,3 @@
+Activities Dialog - empty categories should not be visible
+
+If a Category has no activities in it, the category should be hidden. Why might somebody do this you ask? We have a core product that other products build on top of and have been looking to stub out categories for other dependent products to contribute their activities to.

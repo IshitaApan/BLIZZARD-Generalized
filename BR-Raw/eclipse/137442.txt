@@ -1,0 +1,3 @@
+[DataBinding] (C)ComboObservableValue should bind to selection index
+
+3.2M6: I propose to extend (C)ComboObservableValue such that they could bind int.class values for pure selection changes of an otherwise immutable combo content. E.g. swtbinding allows such binding to an index holder and the class would attach as SelectionListener where it asks the combo for its selection index. Maybe the corresponding property should be assigned to SWTProperties.SELECTION_INDEX. Similar arguments could be given for corresponding extensions for SWT-List widgets.

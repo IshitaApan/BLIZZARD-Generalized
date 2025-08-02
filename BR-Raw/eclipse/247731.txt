@@ -1,0 +1,3 @@
+[Browser] Eclipse requires restart after changing mozilla browser location in preferences
+
+If a user tries to change the location of the Firefox executable in the "Web Browser" preference page, the user must restart Eclipse, but they are not told this. This is due to the MozillaFactory creating a single instance of a MozillaBrowser and never ensuring that the executable paths are the same. Changing this preference may look like it doesn't do anything (or that they did something wrong) to the user since their new preference value is not properly used.

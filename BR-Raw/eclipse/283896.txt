@@ -1,0 +1,2 @@
+[CSS] Missing class check in prop retrieval of keyline handlers
+

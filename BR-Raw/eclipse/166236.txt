@@ -1,0 +1,3 @@
+[Viewers] ViewerColumn needs a dispose method
+
+ViewerColumn adds a listener to its label provider which is never removed. We need a dispose method that removes the listener. Furthermore, if the column's label provider wraps a non-column-specific label provider, the viewer is already listening to it and the viewer column shouldn't. Must be fixed before the next I build.

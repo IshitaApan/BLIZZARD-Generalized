@@ -1,0 +1,3 @@
+[KeyBindings] interactions: Mnemonics should not work across workbench parts
+
+If one part is active, the mnemonics on UI elements from another workbench part should not function. They conflict with both the active part's mnemonics, and with the shell's menubar. There are lots of examples in IBM products. You can reproduce this in Eclipse by tiling two plugin.xml editors side-by-side, and showing the "Extensions" Page on both editors. "&Add" appears in each editor, but will only work correctly in one.

@@ -1,0 +1,3 @@
+[Contributions] widgets: Associating Actions with Buttons
+
+Actions can be associated with Menu items , and tool bar items using MenuManager and ToolBarManager but there is not way to associate Action with a regular button and obtaining a reference to that button the closest thing is creating an ActionContributionItem with the desired action in its constructor , then filling the parent composite with ActionContributionItem.fill(Control parent) this creats the button , but it doesn't return a reference to that button , so for example i can't give it any layout data i suggest the ActionContributionItem.fill(Control parent) returns the created widget

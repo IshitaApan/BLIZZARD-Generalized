@@ -1,0 +1,3 @@
+[Dialogs] Pref Page Workbench/Keys/Advanced does not use dialog font
+
+The checkbox "Help me ..." and the other controls on this tab sheet do not use the dialog font.

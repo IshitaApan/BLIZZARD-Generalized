@@ -1,0 +1,3 @@
+[Compatibility] Renamed file won't open after workbench restart
+
+1. Create a Java class with a typo (e.g. 'HelloWordl') 2. Rename the class via rename refactor in the editor 3. Close the workbench 4. Restart the workbench; result: e4 opens an editor with the message 'Resource <old name> does not exist.' instead of the refactored/renamed file.

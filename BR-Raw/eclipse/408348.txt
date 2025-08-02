@@ -1,0 +1,3 @@
+Activating the minimized shared area does not activate a part in it
+
+Since the shared area only gets a single toolitem (and thus can't explicitly 'pick' a part to show) it should activate the most recently activated part in its area. This may require some work on the part activation history so it can tell us the appropriate part to activate...

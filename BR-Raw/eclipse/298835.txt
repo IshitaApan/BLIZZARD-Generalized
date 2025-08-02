@@ -1,0 +1,3 @@
+Merge e4 Project Path Variable back into the 3.6 stream
+
+The virtual folder and filters changes are already in 3.6, the project path variable changes in e4 still remains to be merged.

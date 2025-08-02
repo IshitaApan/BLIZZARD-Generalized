@@ -1,0 +1,3 @@
+[Workbench] Add a -showlabel "Workspace Label" startup option
+
+I have different workspaces (Development, Testing, ProductionTest) and sometimes have to run them simultaneously. It would be nice to have a -showlabel "SomeLabel" startup option that displays the specified label on the workspace titlebar to distinguish the workspaces from each other, something similar to the -showlocation option that currently displays the workspace location.

@@ -1,0 +1,3 @@
+SashLayout sets widgets on an MPSC eagerly which will cause child elements to not be rendered
+
+SashLayout will inspect its children and set a Rectangle instance in them if they are an MGenericTile. The issue here is that the rendering engine an element's widget to determine whether it needs to be processed or not. If a widget is prematurely set on a parent MPSC, then any child model elements of the MPSC will simply be skipped by the rendering engine.

@@ -1,0 +1,3 @@
+CreateGroupOperation, GroupDescription should be renamed or merged into existing classes
+
+There are some remaining issues related to renamin Groups into Virtual Folders. org.eclipse.ui.internal.ide.undo.GroupDescription IMO should be merged with FolderDescription org.eclipse.ui.ide.undo.CreateGroupOperation should be merged with CreateFolderOperation IDEResourceInfoUtils#GROUP_TEXT org.eclipse.ui.wizards.datatransfer#ImportOperation#setCreateGroups Remy, if you see other related issues, please add a comment to the bug.

@@ -1,0 +1,3 @@
+MenuContribution with visibleWhen Expression still visible when false
+
+Build Identifier: e4.1 M6 Hi I contibute a menu with some items with a visiblewhen expression. After SourceProviders are working now the items work fine but the menu itself still is there when the expression is false <menuContribution allPopups="true" locationURI="menu:org.eclipse.ui.main.menu?after=additions"> <menu id="de.eiswind.mango.client.menu.admin" label="%administration" tooltip="%administration"> <visibleWhen> 	 <with variable="de.eiswind.mango.client.core.user.isadmin"> <equals value="enabled"> </equals> </with> 	 </visibleWhen> </menu> </menuContribution> Reproducible: Always Steps to Reproduce: 1. create a menu with visibleWhen= false 2. menu is still visible 3.

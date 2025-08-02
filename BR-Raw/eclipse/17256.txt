@@ -1,0 +1,3 @@
+Exception due to bug 17208
+
+Got the following exceptions due to bug 17208. Not sure if we want to fix/investigate them since they may not happen once 17208 is fixed. Going to attach log file if the exception. They are related to TextEditor. Other kind of exceptions I have logged in the proper component.

@@ -1,0 +1,3 @@
+[Perspectives] Window > Save Perspective As... is broken
+
+build I20031115 + RCP changes - in resource perspective, - Window > Save Perspective As... - enter a new name - OK - it seems to work - Open Perspective > Other... - it does not show up.

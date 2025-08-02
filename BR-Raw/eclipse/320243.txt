@@ -1,0 +1,3 @@
+Closing last view of a minimized stack makes the stack in an unstable state
+
+I20100718-2237 1. Minimize the 'Package Explorer'. 2. Show it by clicking its icon in the trim. 3. Close it. 4. Notice that it still shows up in the trim. 5. Click on the icon. 6. An SWTException occurs. org.eclipse.swt.SWTException: Widget is disposed at org.eclipse.swt.SWT.error(SWT.java:4083) at org.eclipse.swt.SWT.error(SWT.java:3998) at org.eclipse.swt.SWT.error(SWT.java:3969) at org.eclipse.swt.widgets.Widget.error(Widget.java:468) at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340) at org.eclipse.swt.widgets.Widget.getData(Widget.java:554) at org.eclipse.e4.ui.workbench.addons.minmax.TrimStack$9.widgetSelected(TrimStack.java:308)

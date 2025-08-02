@@ -1,0 +1,3 @@
+ContributedPartFactory: the part created is garbage collected
+
+ContributedPartFactory#createWidget(). Notice this code: 	Object newPart = contributionFactory.create(...); 	ContextInjectionFactory.inject(newPart, localContext); and then the newPart goes out of scope and gets garbage collected. This used to work as injection maintained a reference both to context and to the newPart. That reference has been replaced by WeakReference and now on my computer Location gets GC when photo demo starts. (Same applies to all other pieces - Preview, Thumbnails, and so on. I left references to methods/fields in the injection code for now but once I replace those with WeakReferences, as we should, all those parts are going to get GCed too.)

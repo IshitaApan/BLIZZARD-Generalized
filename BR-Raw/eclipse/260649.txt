@@ -1,0 +1,2 @@
+DefaultTabFolder.updateColors() shouldn't be private
+

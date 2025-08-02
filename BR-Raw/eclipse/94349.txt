@@ -1,0 +1,3 @@
+[GlobalActions] UI doesn't need to call internal Runtime methods
+
+build i0510-0010 WorkbenchActionBuilder#makeFeatureDependantActions calls Platform#getPlatformAdmin and then asks for the state and its timestamp. We have created a new method Platform#getStateStamp so you are now able to call that directly and not rely on the internals of the runtime. See bug 93663.

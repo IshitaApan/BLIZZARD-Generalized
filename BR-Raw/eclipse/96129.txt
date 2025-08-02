@@ -1,0 +1,3 @@
+[MPE] (regression) MultiEditor.getInnerEditors() returns null.
+
+The createPartControl() method of my class that extends org.eclipse.ui.part.MultiEditor calls getInnerEditors() so that it can call createInnerPartControl() for each of the inner editors. But getInnerEditors() returns null. It looks like this is because setChildren() is never called. The only place this method seems to get called from is from EditorManager.openMultiEditor(). I put a breakpoint in this method and it never got hit. I am using Eclipse 3.1 M7. The same code worked fine with Eclipse 3.0.

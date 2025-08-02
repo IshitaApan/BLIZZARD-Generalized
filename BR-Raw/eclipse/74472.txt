@@ -1,0 +1,3 @@
+[Preferences] ScopedPreferenceStore.isDefault() returns false when the pref has been set to the default value
+
+Set pref to it's default value. isDefault() now returns false.

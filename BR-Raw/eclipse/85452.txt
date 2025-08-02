@@ -1,0 +1,3 @@
+[IDE] (regression) Backdrop missing when all perspectives closed
+
+I20050215-2300 - close all perspectives - the main page is blank - it should have a backdrop with text and button explaining how to open a perspective

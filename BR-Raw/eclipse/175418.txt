@@ -1,0 +1,3 @@
+[DataBinding] TreePath moved to internal package
+
+In M5 TreePath moved from org.eclipse.core.databinding.observable.tree.TreePath to org.eclipse.core.internal.databinding.observable.tree.TreePath Non Internal Public interfaces such as: org.eclipse.core.databinding.observable.tree.IOrderedTreeProvider and org.eclipse.core.databinding.observable.tree.IUnorderedTreeProvider depend on this class.

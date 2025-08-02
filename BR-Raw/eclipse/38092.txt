@@ -1,0 +1,3 @@
+build configuration view instantiation problem
+
+after invoking build configuration view, an error popup window displayed this message : "Unable to instantiate view : org.eclipse.cd.ui.builder.internal.BuildConfigView Reason : Unable to instantiate view : org.eclipse.cd.ui.builder.internal.BuildConfigView"

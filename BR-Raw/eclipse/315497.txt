@@ -1,0 +1,3 @@
+IWorkbenchWindowHandler obsolete?
+
+I can't find anyone using IWorkbenchWindowHandler / WorkbenchWindowHandler. Tom, it looks like you originally added this abstraction. Is there still any use for it?

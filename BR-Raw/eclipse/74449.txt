@@ -1,0 +1,3 @@
+[Contributions] StatusLineManager creates BEGIN MIDDLE END groups at wrong time
+
+The org.eclipse.jface.action.statuslinemanager currently creates the BEGIN_GROUP MIDDLE_GROUP and END_GROUP entries in its createControl() method. Code wishing to contribute controls to the statuslinemanager in the fillActionBars method of the workbench advisor executes before the control is created, and get exceptions thrown because the groups that the controls are being appended to do not yet exist. This code: add(new GroupMarker(BEGIN_GROUP)); add(new GroupMarker (MIDDLE_GROUP)); add(new GroupMarker(END_GROUP)); should be moved from createControl to the constructor of the statuslinemanager. Patch to follow

@@ -1,0 +1,3 @@
+[RCP] WorkbenchAdvisor.preShutdown not called
+
+From the class comment in WorkbenchAdvisor it looks like this should be used, but one of my test cases never receives the call. The test case I'm using has no windows, perhaps the intent is for #preShutdown to be used only when windows within the app are to be closed? At the very least, I think the comment should be updated.

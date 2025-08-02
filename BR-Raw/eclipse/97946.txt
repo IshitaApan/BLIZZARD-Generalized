@@ -1,0 +1,3 @@
+[EditorMgmt]  old getDefaultEditor API is not backwards compatible (in spirit)
+
+3.1RC1, Linux-GTK Whenever I use "Team > Show Annotation", the editor it opens has no syntax colouring for my Java code. I always thought this was just "the way it is", but I recently discovered that on Windows XP, I get the syntax colouring. What is going on?

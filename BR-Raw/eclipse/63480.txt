@@ -1,0 +1,3 @@
+[ViewMgmt] Standalone views ignore showTitle arg
+
+build I20040521-0800 The showTitle argument in addStandaloneView is being ignored.

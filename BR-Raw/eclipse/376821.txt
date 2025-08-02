@@ -1,0 +1,3 @@
+Request specific framework event that ends the startup process
+
+Build Identifier: I20120315-1300 A specific framework event should be fired after the startup process has been completed (i.e. to hide a costum splash screen). This could be an UIEvent or part of the lifecycle handler. Reproducible: Always

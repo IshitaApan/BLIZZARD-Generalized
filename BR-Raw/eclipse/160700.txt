@@ -1,0 +1,3 @@
+[Viewers] Editing backwards compatility
+
+See the newsgroup thread http://www.eclipse.org/newsportal/article.php?id=31649&group=eclipse.platform.swt#31649

@@ -1,0 +1,3 @@
+[Markers] Can't copy multiple problems from the problems view
+
+In Solaris and Linux machines I couldn't copy problems from the problems view.

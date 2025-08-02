@@ -1,0 +1,3 @@
+[CommonNavigator] Wrong sorter unit tests
+
+Build ID: Build id: I20090611-1540 Steps To Reproduce: Several tests in SorterTest rely on the dynamicAddModelObjects method. That method breaks the contract of viewer.add ("This method should be called (by the content provider) when a single 	 * element has been added to the model") in that it calls viewer.add(newData) but doesn't actually add newData to the project. More information: The corresponding tests will fail if for example _viewer.add(parent, children) is implemented as _viewer.refresh(parent), which should not make any difference.

@@ -1,0 +1,3 @@
+[Commands] registry: NPE on start-up
+
+The code that went into I20050308-1300 had a bug in BindingPersistence that leads to an NPE on start-up.

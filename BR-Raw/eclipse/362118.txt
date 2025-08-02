@@ -1,0 +1,3 @@
+[Compatibility] 'Image' view has no icon
+
+Jubula's 'Image' view doesn't have an icon. Perhaps this is intentional and a bug on their side, I'm not sure. However, when the view is minimized, nothing gets drawn in the trim.

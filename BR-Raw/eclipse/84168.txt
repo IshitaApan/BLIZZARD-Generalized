@@ -1,0 +1,3 @@
+Unknown extension tag found: keywordReference
+
+I20050201-0800 Open the preferences Plugin org.eclipse.ui.ide, extension org.eclipse.ui.preferencePages Unknown extension tag found: keywordReference

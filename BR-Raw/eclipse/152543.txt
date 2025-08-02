@@ -1,0 +1,3 @@
+[DataBinding] ValueBinding NPE when update target from model is false
+
+When a ValueBinding is constructed and instructed not to update the target from the model via the BindSpec a NPE is thrown when it tries to access the modelToTargetConverter. Exception in thread "main" java.lang.NullPointerException 	at org.eclipse.jface.internal.databinding.internal.ValueBinding.doUpdateTargetFromModel(ValueBinding.java:268) 	at org.eclipse.jface.internal.databinding.internal.ValueBinding.updateTargetFromModel(ValueBinding.java:250) 	at org.eclipse.jface.internal.databinding.internal.ValueBinding.<init>(ValueBinding.java:112) 	at Snippet.main(Snippet.java:32) Attaching patch...

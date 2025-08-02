@@ -1,0 +1,3 @@
+[ActionSets] SelectionListenerAction allocates 2 * ArrayList(10) everytime selection changes
+
+SelectionListenerAction calls initCollections everytime selection changes and that allocates 2 arrays of size 10 everytime these arrays are mostly empty these empty arrays sum up to quite a lot of garbage after each click in the workbench

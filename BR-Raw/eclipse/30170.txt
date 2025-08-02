@@ -1,0 +1,3 @@
+[Preferences] editors preferences not stored on OK?
+
+20030121 my eclipse hard-crashed and it seems that the 'number of open editors' preference was lost preference pages should store their values on OK. i guess the 'Editors' page forgot to do it.

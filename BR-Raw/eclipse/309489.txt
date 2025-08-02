@@ -1,0 +1,3 @@
+NPE in E4CommandProcessor
+
+I you forget to assign a command to a binding you get: java.lang.NullPointerException 	at org.eclipse.e4.workbench.ui.internal.E4CommandProcessor.defineBindingTable(E4CommandProcessor.java:142) 	at org.eclipse.e4.workbench.ui.internal.E4CommandProcessor.processBindings(E4CommandProcessor.java:97) 	at org.eclipse.e4.workbench.ui.internal.E4Workbench.init(E4Workbench.java:109) 	at org.eclipse.e4.workbench.ui.internal.E4Workbench.<init>(E4Workbench.java:71) 	at org.eclipse.e4.ui.workbench.swt.internal.E4Application.createE4Workbench(E4Application.java:170) 	at org.eclipse.e4.ui.workbench.swt.internal.E4Application.start(E4Application.java:81)

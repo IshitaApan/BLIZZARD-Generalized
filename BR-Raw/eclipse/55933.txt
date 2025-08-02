@@ -1,0 +1,3 @@
+[DetachedView] detached views associated with wrong window
+
+Build id: 200403240800 - open a second IDE with Window -> New Window - detach a view in the new window by dragging The view cannot be reattached to the new window, but will go into the original window. As a side effect, closing the second window will not close the detached view (closing the original window will close the detached view). The detached view (in my case Outline) continues to get its contents updated based on the new window.

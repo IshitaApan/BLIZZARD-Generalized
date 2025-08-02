@@ -1,0 +1,3 @@
+[Markers] Redundant information in the Problems view when Flat
+
+I20051102-0800 Same as Bug 114765, but when in the Flat layout.

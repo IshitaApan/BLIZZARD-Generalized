@@ -1,0 +1,3 @@
+[Workbench] PartSite.getContextMenuIds() can get array index out of bounds
+
+build N20050505 The code for PartSite.getContextMenuIds() does not properly handle the case where a menu extender has multiple menu ids. It assumes that the number of ids is the same as the number of menu extenders.

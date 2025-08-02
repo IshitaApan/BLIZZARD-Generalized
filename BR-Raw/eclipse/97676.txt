@@ -1,0 +1,3 @@
+[Preferences] Pref Page General/Editors/Content Types problems - File Associations
+
+I'm missing an "Edit" button or table editors.

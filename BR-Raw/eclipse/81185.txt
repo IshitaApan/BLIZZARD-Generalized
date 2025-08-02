@@ -1,0 +1,3 @@
+[Preferences] Preference page: down key should jump to tree
+
+3.1 M4 Candidate All 'type to filter' dialogs in Eclipse allow you to jump to the control being filtered by simply pressing the 'down key'. Look at the Open Type/Open Resource dialogs. This should be the same in the preferences dialog. I always expect to be able to do this...

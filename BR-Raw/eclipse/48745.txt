@@ -1,0 +1,3 @@
+Colors preference page does not properly handle ancestor color changes
+
+The color page does not properly reflect changes in ancestor colors in the descendant. It will override the preference value for the descendant and interpret the colour as custom. This is wrong. Changes in the ancestor should cause changes in the ancestor preference and the ancestor registry value, but should only cause changes in the registry value for descendant colors.

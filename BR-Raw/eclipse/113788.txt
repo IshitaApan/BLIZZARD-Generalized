@@ -1,0 +1,3 @@
+[Markers] Multi-QuickFix dialog needs a select/deselect all button
+
+In the case where many items appear in the list it would be nice to be able to de-select all and select all.

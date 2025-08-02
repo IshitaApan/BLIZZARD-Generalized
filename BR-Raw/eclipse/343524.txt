@@ -1,0 +1,3 @@
+MTrimBars do not get un/rendered when its 'toBeRendered' state changes
+
+The PartRenderingEngine doesn't seem to consider MTrimBars.

@@ -1,0 +1,3 @@
+[context] The constructors used by the injection mechanism should have @Inject
+
+Created attachment 153270 Patch When ContextInjectionFactory is asked to create an object, we assume that the constructor with the minimum number of arguments implicitly has an "@Inject" annotation. That is different from JSR330 which states that implicit "@Inject" can only be assumed on default constructors. Also, if we start mising object providers from JSR330 and IEcliseContext, we get a good change that objects that weren't meant to be created through injection will be created. So, let's change tighten this rule to fit JSR's description: a non-default constructor for an object created via injection has to have "@Inject" annotation.

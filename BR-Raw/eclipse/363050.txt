@@ -1,0 +1,3 @@
+[Compatibility] Tool bar managers of views are not disposed when the view is disposed
+
+While looking at bug 362932, I discovered that tool bar managers of a view were not being disposed when the view itself was disposed.

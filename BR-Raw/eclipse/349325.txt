@@ -1,0 +1,3 @@
+[Compatibility] ISaveHandler implementation shouldn't only consider editors
+
+We should use the 3.x dialogs even if a view is being prompted to be saved.

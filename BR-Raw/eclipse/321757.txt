@@ -1,0 +1,3 @@
+EPS adds a part without considering its placeholder if target container is not a part stack
+
+Alternate variant of bug 321755. Placeholders are only considered for target containers that are actually part stacks. This is of course incorrect.

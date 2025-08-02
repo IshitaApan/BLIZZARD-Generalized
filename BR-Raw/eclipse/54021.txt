@@ -1,0 +1,3 @@
+[EditorMgmt] Editor workbook appears inactive after drag
+
+build I20040303 Following the steps in bug 54020, when the editor area is split, neither editor has focus. The top tabs have focus. You can see this if there are multiple editors at top by pressing up arrow after the drag to split: it switches to the previous editor in the top pane. This is a regression from M7.

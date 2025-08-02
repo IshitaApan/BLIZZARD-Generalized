@@ -1,0 +1,3 @@
+[Undo] API request: org.eclipse.ui.internal.ide.undo.ResourceDescription
+
+I20061129-1340 To support undo for file operations in the Package Explorer, we need the functionality of org.eclipse.ui.internal.ide.undo.ResourceDescription. Could this class be promoted to API? I've copied the package for now (to avoid referencing internal code). We need more low-level operations than what's currently in org.eclipse.ui.ide.undo, because we must let jdt.core do the actual modifications and because our actions are refactorings with participants, which must adhere to the ltk.core.refactoring undo story.

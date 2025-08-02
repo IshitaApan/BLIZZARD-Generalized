@@ -1,0 +1,3 @@
+WSWB not honoring last opened editor
+
+If I open a file with an editor that is not the default editor, the next time I open the file (double-click), WSWB uses the default editor instead of the last used editor. I have seen this problem on both the M4 & M5 stable builds. Steps to reproduce: - open a java file with the text editor - close the editor - double-click to open the same file - the Java editor is used instead of the Text editor

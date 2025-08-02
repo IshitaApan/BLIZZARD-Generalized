@@ -1,0 +1,3 @@
+[Markers] SystemFilter and group selection state not preserved
+
+We are not preserving the selection state of the system filters or which group is selected.

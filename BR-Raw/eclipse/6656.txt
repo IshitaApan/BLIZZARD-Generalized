@@ -1,0 +1,3 @@
+Close button moves down when view resized smaller
+
+On linux, running build 2001-11-27 (does not happen on build 2001-11-16 on Nt 2000). When a view like the Navigator is resized smaller, the tool items move below the label. However, so does the pulldown menu icon (triangle) and the close icon (X). These two tool items use to stay on the same line as the label no matter how small the view got. In my opinion, this is going to be a usuability problem. Users are accustomed to the close button being on the same line as the label and located to the far right corner. If it starts moving around, I think users will get confused.

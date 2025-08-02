@@ -1,0 +1,3 @@
+[Commands] CommandCallback leaking registered text listeners
+
+The CommandCallback class that is stored as an instance var for the ExternalActionManager is leaking all of the IActionTextListeners that register. The listeners are not removed in the removeActionTextListener(*) method call.

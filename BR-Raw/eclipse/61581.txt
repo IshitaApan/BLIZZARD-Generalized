@@ -1,0 +1,3 @@
+[Workbench] NPE on startup
+
+build 0506-0200 linux-gtk Not sure if its related to bug 56816 or bug 58042. Stack traces are a little different. I upgraded my dev to this build and started. I shutdown and got an error saying that there were problems storing the workbench state. (nothing in the console or log) I rebooted my machine. On the next startup I got the following stack trace in the console and all my perspectives and customizations were reset. Will attach log file.

@@ -1,0 +1,3 @@
+Preference change not propegated.
+
+build N20041024 - open the workbench - popup a menu over the perspective switcher and choose Dock On > Left NOTE that the UI does not respond right away (and it should). Seems that the listener is not being notified of the change.

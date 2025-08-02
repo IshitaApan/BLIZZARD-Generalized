@@ -1,0 +1,3 @@
+[Viewers] Edit support constants misspelled
+
+In JFace's EditingSupport class (new for 3.3.) there are some constants that are misspelled: TABING_NONE : int TABING_MOVE_TO_ROW_NEIGHBOR : int TABING_CYCLE_IN_ROW : int TABING_VERTICAL : int TABING_HORIZONTAL : int Tabbing should have 2 'b's, not 1. If this experimental API is going to remain, the spelling of these constants should be fixed before M5.

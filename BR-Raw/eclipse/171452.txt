@@ -1,0 +1,3 @@
+[Workbench Launcher] Deadlock on startup using I20070123-1030
+
+I got a couple of deadlocks on startup using I20070123-1030. It appears to be a syncExec from the Splash handler that is causing the deadlock. I will attach a trace.

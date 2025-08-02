@@ -1,0 +1,3 @@
+[Preferences] Preferences>Import/Export provides options which are always disabled
+
+The following options are always disabled in RC1 and I assume they will not be finished for 3.0 and hence they should rather be removed: Preferences>Import... Select preferences to import (Advanced) Preferences>Export... Select preferecnes to export (Advanced) Export preferences from this page

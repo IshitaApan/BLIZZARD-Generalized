@@ -1,0 +1,3 @@
+[Trim] empty fast view stack when closing a view
+
+[3.3 M7] Steps: 1. Start with a new workspace in the Java perspective 2. Minimize the top left stack (Package Explorer and Hierarchy views) 3. Reset current perspective 4. Close the Package Explorer -> An empty fast view trim stack is created and placed to the left of the hierarchy view. This empty stack does not go away by resetting the perspective, or by switching perspectives.

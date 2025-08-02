@@ -1,0 +1,3 @@
+[UI] Cache and restore the Shell's state across sessions
+
+Currently hitting the maximize button on the shell will cause it to become maximized during the life of the session but if you close down and restart the shell just sizes itself to occupy the whole screen, the shell's state is not set. Quite annoying since you can then accidentally move or size what *should be* a maximized shell.

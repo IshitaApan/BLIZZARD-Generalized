@@ -1,0 +1,3 @@
+[CommonNavigator] Scary looking error messages incorrectly appear in log
+
+Messages about missing navigatorContent appear in the log which is a regression caused by bug 139986. The messages are benign.

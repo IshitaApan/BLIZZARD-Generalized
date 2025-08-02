@@ -1,0 +1,3 @@
+FVB: Animations not working
+
+Eclipse: I20070306-1200 Presentation: 3.3 (Theme = R33) I have "Enable Animations" checked but maximizing a view, I don't see the tracker animation for the fading out views. Ben

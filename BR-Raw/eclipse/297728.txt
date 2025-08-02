@@ -1,0 +1,3 @@
+[Filters] IFileInfoMatcherDescription and FileInfoMatcherDescription cleanup
+
+Users should not be allowed to modify matcher descriptions once they are used in any resource filter. Right now IFileInfoMatcherDescription has setters what is not right, since setting new id or arguments on the matcher doesn't affect the filter. We can either create kind of a factory for creating IFileInfoMatcherDescription objects, remove setters from IFileInfoMatcherDescription and make the default implementation FileInfoMatcherDescription non-API, or get rid of IFileInfoMatcherDescription and use immutable FileInfoMatcherDescription objects (initialization in constructor and getters only).

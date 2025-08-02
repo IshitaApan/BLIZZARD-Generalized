@@ -1,0 +1,3 @@
+[Import/Export] Import several projects at once
+
+Eclipse R2.0 Right now if someone wants to import a projects to the workspace it has to be done one at a time. Usecase: someone lost the metadata for some reason. All the projects were in the default workspace location. The person now starts a new Eclipse session and wants to import the projects. It would be nice if the user could multiselect projects and import all at once. Another option would be to specify a root folder and for each immediate child look for a .project file. If it exists than we could try to import the project from that location.

@@ -1,0 +1,3 @@
+Menu item missing icon from commandImages
+
+Created attachment 225883 Reproducing example plugin (source + binary) When a command menu item has no icon specified in its org.eclipse.ui.menus extension, but the command it invokes has one provided by an org.eclipse.ui.commandImages extension, and in addition the menu item has an explicit ID that is not equal to the command ID, the icon is not shown in the menu. Steps to reproduce: Build or install the attached example plugin. Expected result: Item “Hello World” in menu “Hello” should display an icon. Actual result: The menu item has no icon. I can fix this using the attached patch.

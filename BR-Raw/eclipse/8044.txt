@@ -1,0 +1,3 @@
+Cannot close a fast view with an error
+
+If there is an error creating a fast view the close button does not work. Steps 1) Open a view that will have errors using Show View... 2) A fast view will come up with the error message contents 3) Try to close it using the X close button - you will have to reset to get rid of it.

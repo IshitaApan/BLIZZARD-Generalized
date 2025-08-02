@@ -1,0 +1,3 @@
+[About] [doc] Mark IInstallationPageContainer as @noimplement
+
+In 3.5, we introduce a new extension point, org.eclipse.ui.installationPages, and API for the pages that are contributed in InstallationPage. These pages appear in the "Installation Details" dialog that is launched from Help>About. The interface used for a page to communicate with its container is defined in IInstallationPageContainer. This interface was never marked with any API tooling tags. In bug #275298 comment #5, it was suggested this interface be marked as @noimplement. Since the intention of the extension point is that clients implement and contribute InstallationPage, and not that clients provide alternate implementations of the containing dialog, this interface should be marked @noimplement.

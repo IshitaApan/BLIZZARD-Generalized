@@ -1,0 +1,3 @@
+Dependency injection in tool control fails when reopening view
+
+Created attachment 219518 A sample project When a view with a tool control is closed and then reopened, no values are available for injection into the tool control. The problem seems to be that the ToolControlContribution instance is reused, but its field "parentContext" refers to the context of the part, which has been disposed when the view was closed. The attached e4 app shows the problem.

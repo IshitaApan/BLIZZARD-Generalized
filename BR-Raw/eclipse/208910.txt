@@ -1,0 +1,3 @@
+[CommonNavigator] Drag and Drop in Project Explorer does not use LTK move
+
+I20071101-2000 Drag and Drop of resources in the Navigator does not use the LTK aware move operations. The easiest implementation would probably be to get a MoveResourcesDescriptor and execute a PerformRefactoringOperation on it.

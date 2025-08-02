@@ -1,0 +1,3 @@
+Cannot add parameters to commands through Ecore editor
+
+Build Identifier: I20091210-2100 [Apologies for mangling terminology: I'm not very familiar with EMF.] The definitions in UIElements.ecore of HandledItems and KeyBinding don't mark their "parameters" field as being contained. Since there's no other container for parameters, you cannot define parameters from the Ecore editor. Reproducible: Always Steps to Reproduce: 1. Open up an Application.xmi 2. Create a command that takes a parameter. 3. Add a handled item (e.g., a toolbar item). Set its command to to the command defined in step #2. 4. Right click on the handled item and ask to add a child. See that Command Parameter does not appear.

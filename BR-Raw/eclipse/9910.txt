@@ -1,0 +1,3 @@
+Don't show error message if MRU list is not persisted
+
+20020214 Presently a message is printed to the log and to the console if an MRU item could not be restored from the persistent store. We should distinguish between the case where there is no MRU list because the workspace is new and the case where a MRU list was read but the MRU item could not be created because a required plugin was not loaded. Only the latter case is an error. We should ignore the former. Also, the error message should probably only be logged to the log file and not appear in the console.

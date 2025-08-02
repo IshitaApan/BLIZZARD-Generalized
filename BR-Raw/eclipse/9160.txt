@@ -1,0 +1,3 @@
+Decorators: NULL handles in decorateImage and decorateText
+
+I-20020205 The text and image handles for the ILabelProvider methods are now being passed as null. This means that when you turn on the CVS decorator, the labels in the resource names navigator dissapear. Instead all you see is " 1.5" the revision numbers. Also, why is the image being passed as null, it has always been available.

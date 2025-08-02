@@ -1,0 +1,3 @@
+[DataBinding] Typo in example 3
+
+In the ViewModel.setText(String) method of the it's firing a change event for "test" and not "text". public void setText(String text) { 	String oldValue = this.text; 	this.text = text; 	firePropertyChange("test", oldValue, text); } This needs to be changed to "text".

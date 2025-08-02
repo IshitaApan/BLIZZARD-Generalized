@@ -1,0 +1,3 @@
+[Contexts] Cant remove context manager listener from ContextService
+
+Build ID: I20070621-1340 Steps To Reproduce: On org.eclipse.ui.internal.contexts.ContextService, removeContextManagerListener wrongly ADD a ContextManagerListener instead of removing it from context manager. More information: Excerpt from org.eclipse.ui.internal.contexts.ContextService.java public final void removeContextManagerListener(final IContextManagerListener listener) { 	contextManager.addContextManagerListener(listener); }

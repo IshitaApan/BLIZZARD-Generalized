@@ -1,0 +1,3 @@
+Doc error in IPerspectiveFactory
+
+The sample xml in the doc is not valid. It reads: <extension point="org.eclipse.ui.perspectives"> <perspective id="com.example.javaplugin.perspective" name="Java" class="com.example.javaplugin.JavaPerspective" </perspective> </extension> Should be: <extension point="org.eclipse.ui.perspectives"> <perspective id="com.example.javaplugin.perspective" name="Java" class="com.example.javaplugin.JavaPerspective"> </perspective> </extension> Add > at end of clss attribute. see help/topic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/IPerspecti veFactory.html

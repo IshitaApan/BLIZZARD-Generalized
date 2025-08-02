@@ -1,0 +1,3 @@
+[Compatibility] Cannot show view after performing DND
+
+1. Drag the 'Problems' view to another position in the bottom stack. 2. Window > Show View > History 3. Nothing happens.

@@ -1,0 +1,3 @@
+[RCP] Lost nature icon on project
+
+N20031111 start fresh workspace, create a Java project ==> missing nature icon "J"

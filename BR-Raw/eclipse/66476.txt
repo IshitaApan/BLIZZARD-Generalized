@@ -1,0 +1,3 @@
+[Fonts/Colours] Text font change not propagated to Java editor
+
+I200406092000 When Java editor uses the default text font and text font gets changed the Java editor font is not changed.

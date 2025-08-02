@@ -1,0 +1,3 @@
+[KeyBindings] Keys preference page has deep grooves
+
+A visual artifact, probably tied to some flag somewhere. Also, Nick doesn't want tool tips on tabbed items.

@@ -1,0 +1,3 @@
+[Intro] PlatformUI.getWorkbench().getIntroManager().getIntro() returns a disposed intro
+
+Java docs for PlatformUI.getWorkbench().getIntroManager().getIntro() state that it will return null if showIntro has been called to create. However, when you close an Intro part using the X button of the view the above method returns an intro part that has been disposed. To reproduce, contribute a test button to the workbench that calls PlatformUI.getWorkbench().getIntroManager().getIntro() when pressed. Open a simple Intro part, close it using the X button. Now click on the test button, the method does not return null.

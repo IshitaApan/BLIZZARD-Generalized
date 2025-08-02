@@ -1,0 +1,3 @@
+[Markers] Bookmark, problem and tasks view don't restore column widths
+
+A problem similar to bug 75945 has returned sometime about 3.2M5 and is still present in 3.2RC1a. It seems that those views don't take trim into account when restoring column sizes.

@@ -1,0 +1,3 @@
+Workbench startup is throwing dialog rather than logging to .log
+
+build I20021113 - took new build - started it on old workspace - got an internal error dialog: Executable extension definition for "class" not found. - hit OK - it came up OK - nothing in log

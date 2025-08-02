@@ -1,0 +1,3 @@
+[Viewers] TreeViewer and ViewFilter do not handle expand '+' correctly
+
+Build ID: M20060921-0945 Steps To Reproduce: I have encountered a situation where a TreeViewer displays a '+' and when I click on it there are no children displayed and the '+' then disappears. This occurs when there is a ViewFilter that is filtering all the children. When the viewer knows there's a viewer filter, it should call getChildren rather than hasChildren since it's likely that the filter will take a non-empty list and filter it to be empty. More information: Ed said maybe I should log this one - see posting on EMF newsgroup - http://dev.eclipse.org/newslists/news.eclipse.tools.emf/msg26506.html

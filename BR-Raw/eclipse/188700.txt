@@ -1,0 +1,3 @@
+[Quick Acces] Ctrl+3 dialog too small in High Contrast
+
+20070523-0100 High Contrast XP 1152x768 When you open the Ctrl+3 dialog in High Contrast mode on a low resolution it opens too narrow.

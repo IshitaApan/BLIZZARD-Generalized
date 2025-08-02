@@ -1,0 +1,3 @@
+Trim stacks stay invisible in other perspectives even when rendered children are under it
+
+1. Minimize the 'Outline' view's stack. 2. Window > Open Perspective > Debug 3. Activate the 'Debug' view. 4. Ctrl+M 5. There is minimized stuff in the left trim but the right trim is completely empty.

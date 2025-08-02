@@ -1,0 +1,3 @@
+[Preferences] more preference search improvements
+
+- removed search button - added incremental search while typing will attach patch based on HEAD.

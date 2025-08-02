@@ -1,0 +1,3 @@
+[TasksView] User-defined tasks lost in the masses of generated tasks
+
+If I define a new task in a richly populated workspace (i.e. one with the platform ui checked out) then it is extremely difficult to find it amongst the many (many, many...) generated tasks of the same priority. Perhaps the sorter could place these at the beginning in all cases??

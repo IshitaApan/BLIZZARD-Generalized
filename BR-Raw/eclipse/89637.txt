@@ -1,0 +1,3 @@
+[RCP] Need regression test for new advisor saveState/restoreState APIs
+
+build I20050330 The new API described in bug 85373 needs to have tests in the RCP test suite. See bug 85373 comment 37 and 38. Matt, would you be able to do this for M6 or M7?

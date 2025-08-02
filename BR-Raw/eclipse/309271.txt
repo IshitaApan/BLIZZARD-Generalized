@@ -1,0 +1,3 @@
+Wrong resolved location in the New File wizard
+
+Build id: I20100406-1034 I'll attach a screenshot illustrating the issue.

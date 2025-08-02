@@ -1,0 +1,3 @@
+Displays ligature for fi & fl
+
+Eclipse M4 The Eclipse editor displays ligatures for 'fi' & 'fl' instead of the specific characters. This results a) in strange look and b) in the column indicator being off by one for each occurence. NB: While this might be nice for proprtional fonts, it's no good idea for fixed width fonts.

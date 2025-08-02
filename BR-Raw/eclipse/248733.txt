@@ -1,0 +1,3 @@
+Expression is not evaluated at startup
+
+I bind an expression-based activity to a command and try to make it visible and unvisible at runtime with the help of a custom ISourceProvider. It works in principle fine, but the expression is not evaluated at startup. The wanted behavior appears first after the first ISourceProvider.fireSourceChanged(). Another way to get it work was to use IEvaluationService in order to force an evaluation. I have packaged an example workspace with a rcp application which shows this behavior. The IncrementCommand is contributed to a menu and a view toolbar and is binded to an activity. The ChangeRightCommand iterate between a valid expression value and an unvalid value for the mentioned activity.

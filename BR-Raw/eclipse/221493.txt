@@ -1,0 +1,3 @@
+[StatusHandling] WorkbenchStatusDialog should not extend TrayDialog
+
+This will ensure that we will not regret any API after api freeze

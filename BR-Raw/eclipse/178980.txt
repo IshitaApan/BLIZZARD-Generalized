@@ -1,0 +1,3 @@
+[Dialogs] FilteredItemsSelectionDialog should protect against null names
+
+FilteredItemsSelectionDialog#getElementName does not allow null values but we have had cases where subclasses have returned null and we should protect against this. See Bug 178969 for details of the use cases right now.

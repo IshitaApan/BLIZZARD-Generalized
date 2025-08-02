@@ -1,0 +1,3 @@
+[Forms] Section should also set the toggle tooltip
+
+When calling setTooltip on a section, the section should also update the toogle's tooltip so that the user also sees the tooltip when he hovers over the toggle hyperlink field. Are there any reasons against such behaviour?

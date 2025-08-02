@@ -1,0 +1,2 @@
+[About] Tooltip for branded features in about dialog should include feature name
+

@@ -1,0 +1,3 @@
+[Viewers] [JFace] Excessive Memory Usage by Project Explorer because of styles
+
+Build ID: I20080516-1333 Steps To Reproduce: Project Explorer creates duplicate identical strings for every entry in it and wastes few Megabytes of memory depending on the scenario. In the update method of NavigatorDecoratingLabelProvider extending DelegatingStyledCellLabelProvider the call to cell.setStyleRanges(newStyleRanges) results in duplicate strings for the same column. The duplicate strings are created in ViewerRow.setStyleRanges public void setStyleRanges(int columnIndex, StyleRange[] styleRanges) { 		getItem().setData(KEY_TEXT_LAYOUT + columnIndex, styleRanges); 	} More information:

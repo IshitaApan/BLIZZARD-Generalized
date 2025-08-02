@@ -1,0 +1,3 @@
+[Markers] MarkerImageProviderTest is using a missing image
+
+RC3 MarkerImageProviderTest is using a missing image. As a result if the descriptor lookup code is fixed (see Bug 100767) then this test will start to fail as lookup should occur at descriptor creation. Patch to follow.

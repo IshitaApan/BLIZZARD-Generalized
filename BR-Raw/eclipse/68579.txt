@@ -1,0 +1,3 @@
+[Progress] Cleared error still in progress error list
+
+3.0 I get a dialog when there are problems synchronizing my workspace via Synchronize view (see picture 1). I select the error and click "Clear". Observe: the error stays in the progress icon (bottom right) Click on the progress icon (bottom right) ==> I get exactly the same error presented (see picture 2) that I already cleared. I would expect that "Clear" removes it from the progress error list.

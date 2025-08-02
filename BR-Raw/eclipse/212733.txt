@@ -1,0 +1,3 @@
+[Markers] Problem view no longer updates when changing the visible marker limit
+
+Version: 3.4.0 Build id: I20071211-0010 By default, the view shows 100 markers. When changing this limit (through marker prefs), the view doesn't update. One need to close/reopen for this to get taken into account. This is a regression.

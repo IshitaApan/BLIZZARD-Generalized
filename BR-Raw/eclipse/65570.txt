@@ -1,0 +1,3 @@
+ProgressViewUpdater looses events
+
+RC1 In method runInUIThread() the copying of add/delete/update events from the updateInfo structure into an array and the reset of the updateInfo structure is not an atomic operation. As a consequence all events that are added after the original events have been copied are lost. Most likely this is one reason for the leaking jobs in the progress viewer.

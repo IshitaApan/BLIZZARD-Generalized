@@ -1,0 +1,3 @@
+iconURI does not work for HandledMenuItem
+
+Given the following declaration, the menu item shows up but does not have the specified icon. The same iconURI attribute works when used with a part descriptor. <components parentID="org.eclipse.ui.main.menu"> <children xsi:type="application:MenuItem" label="Fa&amp;vorites"> <children xsi:type="application:HandledMenuItem" label="Open Favorites View" command="com.qualityeclipse.favorites.commands.openView" iconURI="platform:/plugin/com.qualityeclipse.favorites_e4/icons/sample.gif" /> </children> </components>

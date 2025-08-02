@@ -1,0 +1,3 @@
+[WorkingSets] ModifyWorkingSetDelegate does too much work on selection change
+
+The full state of the operation is calculated whenever the selection changes. Instead, we should minimally determine action enablement (only IAdaptables and no IWorkingSets) and leave the rest for the fill() methods.

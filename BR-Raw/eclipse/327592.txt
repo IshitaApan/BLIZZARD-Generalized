@@ -1,0 +1,3 @@
+Remove weird context setting of ctxt.set(IEclipseContext.class.getName(), ctxt)
+
+Getting is not so bad but setting is pretty weird. This should not be necessary.

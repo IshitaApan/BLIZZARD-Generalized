@@ -1,0 +1,3 @@
+[CommonNavigator] @value tag reports unknown reference if javadoc 1.5 is used
+
+Inside the ui.navigator plugin, some @value tag work fine with javadoc 1.4, but not with javadoc 1.5. In case Eclipse is switching to javadoc 1.5, we should patch the doc with the attached patch.

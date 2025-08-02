@@ -1,0 +1,3 @@
+Performance: CommonNavigator could easily cache its ISelection to improve its performance
+
+Currently, the CommonNavigator does not override the getSelection() method, which is quite expensive when called repeatedly by clients since it gets the current selection from the underlying SWT widget each time it gets called. A simple trick is to cache the selection and update it only when it actually changes. This would result in improved performance for clients who call getSelection() often. This defect is related to 140032. Please refer to it for more info. I will be submitting a patch shortly.

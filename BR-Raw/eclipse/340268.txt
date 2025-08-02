@@ -1,0 +1,3 @@
+[Import/Export] Button label truncation on Import/Export Preferences dialogs
+
+Created attachment 191375 Import Preferences Button label truncation on Import/Export Preferences dialogs If you replace the "Select All" & "Deselect All" button labels with some longer translations, you can see that they are truncated.

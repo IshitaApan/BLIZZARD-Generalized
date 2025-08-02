@@ -1,0 +1,3 @@
+[Metadata] Update @since tags for new API
+
+Patch to follow

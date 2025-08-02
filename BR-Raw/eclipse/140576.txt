@@ -1,0 +1,3 @@
+[JFace] dialog has no icon or clipped error icon
+
+1) for a Java Project select 'Configure Build Path' in context menu and goto tab 'Libraries' 2) edit Access Rules for a library (e.g. JRE System...) 3) see that the dialog and its children have no window icon

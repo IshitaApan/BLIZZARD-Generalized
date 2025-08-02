@@ -1,0 +1,3 @@
+ContextInjectionFactory's invoke method (with no default return value) seems to ignore superclass methods
+
+Part 2 of bug 299710. I expect the following to work. static class SaveablePart { void doSave() {System.out.println("Helloworld!");} } static class Editor extends SaveablePart {} public static void main(String[] args) throws Exception { Editor editor = new Editor(); ContextInjectionFactory.invoke(editor, "doSave", EclipseContextFactory.create()); } The saving code in WBWRenderer will not work at the moment for subclasses because of this.

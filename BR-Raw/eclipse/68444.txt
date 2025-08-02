@@ -1,0 +1,3 @@
+[Import/Export] cannot fill project name in Import Project wizard
+
+i200406230010 SuSE Linux 9.0 (i586) I cannot import an existing project from the file system. The project name field is not editable (although it seems to get the keyboard focus). Steps: - right click navigator, "Import..." - select "Existing project into Workspace", next - try to fill project name - the field does not take user input I guess this is something related to my setup (and others are not seeing this), since it prevents basic usage of Eclipse.

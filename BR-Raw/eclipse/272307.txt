@@ -1,0 +1,3 @@
+[Mac] CocoaUIEnhancer crashes with NullPointer under Mac OS X Cocoa when running Riena example
+
+When bringing up the Riena example app, we get a NullPointer Exception. The exception is logged and the app continues to run. I am unsure why that is happening. Same app runs without a problem with windows, linux, mac os x carbon. I will supply a screenshot of the debugger before the nullpointer happens and a screen shot of the actual app. Its a little tricky to set up the Riena example app yourself unless you like to download Riena and setup a target platform and all that. Then I am happy to post you a link with description. I will also attach the stacktrace with some error messages. Hope that helps to get to the cause of the problem.

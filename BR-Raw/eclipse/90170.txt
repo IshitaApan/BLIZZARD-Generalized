@@ -1,0 +1,3 @@
+[Dialogs] CamelCase search on OpenResource/OpenType
+
+I really like this feature (see http://www.muermann.org/gotofile/ for details). It could be nice if on those pop-ups dialogs to have a checkbox to enable camel case search of classes and files. For example, to open the class CreateDataScratchCardAction you could be able to press CTRL+T and type cdsca and you get out the right file: often you can remember camel letters for a class or resource. Regards. Luigi

@@ -1,0 +1,3 @@
+[Workbench] [Commands] No command for New Window action
+
+3.1 M7 The Window > New Window action is missing a corresponding command.

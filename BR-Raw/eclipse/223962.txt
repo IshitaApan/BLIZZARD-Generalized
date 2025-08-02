@@ -1,0 +1,3 @@
+[Markers] Problems view, new view: Labels
+
+I20080325-0100 - In the problems view choose 'New Problems View' from the view menu - The dialog that shows up should Have a title that matches the action that invoked it, using title capitalization. 'New Problems View' Have a description text with colon ':' and mnemonic. It should probably also forbid the empty name for a view?

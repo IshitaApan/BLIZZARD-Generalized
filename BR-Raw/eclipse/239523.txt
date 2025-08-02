@@ -1,0 +1,3 @@
+[TabbedProperties] Three JavaDoc warnings
+
+I noticed there are three JavaDoc warnings in the org.eclipse.ui.views.properties.tabbed, there should be zero warnings and errors.

@@ -1,0 +1,3 @@
+[Contributions] MenuService registry changes causes CME
+
+Created attachment 115590 WorkbenchMenuService v01 org.eclipse.ui.internal.menus.WorkbenchMenuService.handleRegistryChanges(IRegistryChangeEvent) can cause a java.util.ConcurrentModificationException if the call to mgr.update(true) causes a ContributionItem to fill in a sub-contribution manager. ex: the interaction between the navigate menu and ShowInMenu contribution item. I've attached a sample fix (as we do with most lists, copy first). Eric, I've also changed the mgr.update(true) to mgr.update(false) ... is there a reason to do a full update other than what is afforded by managers that mark themselves as dirty (and the ones that have contribution items added will be dirty)? PW

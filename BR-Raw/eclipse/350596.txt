@@ -1,0 +1,3 @@
+[Compatibility] [breadcrumb] Cannot activate breadcrumb by re-sizing the Debug view in 4.x
+
+Version: 4.1.0 Build id: I20110620-1631 Ubuntu 11.04, Gnome 3.0.2 Testing in 4.x I not found a way to get the breadcrumb to show up. No matter where I place the Debug View it will not let me shrink the view enough to activate the breadcrumb.

@@ -1,0 +1,3 @@
+[MPE] Changes to MultiPageEditorPart causing endless loop
+
+The following method was added in RC2... /** 	 * If there is an adapter registered against the subclass of 	 * MultiPageEditorPart return that. Otherwise, delegate to the internal 	 * editor. 	 * 	 * @see org.eclipse.ui.part.WorkbenchPart#getAdapter(java.lang.Class) 	 */ 	public Object getAdapter(Class adapter) { 		Object result = super.getAdapter(adapter); 		if (result == null && getActiveEditor() != null) { 			result = getActiveEditor().getAdapter(adapter); 		} 		return result; 	} We have subclasses that override this method and end up calling super.getAdapter(Class adapter). Problem is the activeEditor is one of our subclasses.... so an endless loop....

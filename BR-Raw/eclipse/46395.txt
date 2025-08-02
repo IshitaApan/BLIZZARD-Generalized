@@ -1,0 +1,3 @@
+[RCP] Open With not persistent
+
+N20031111 Start fresh workspace and create a type in a new Java project. Close the Java editor Select the file, Open With > Text editor Close the text editor Double-click the file ==> opens in Java editor. Before RCP it used to remember which editor was used.

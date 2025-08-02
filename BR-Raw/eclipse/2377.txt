@@ -1,0 +1,3 @@
+[Welcome] Welcome view: strange that it allows multiple selections (1GEUVSB)
+
+In the welcome view, I can select a range of text in each of the visible paragraphs. This is unusual. NOTES:

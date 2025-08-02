@@ -1,0 +1,2 @@
+[Themes] Poor layout in colors and fonts preference page
+

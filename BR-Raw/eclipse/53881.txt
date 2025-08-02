@@ -1,0 +1,3 @@
+[Colors] Color/Gradient registry should return default values.
+
+There should be default values for when a user does .get() on a bad key.

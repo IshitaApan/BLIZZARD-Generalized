@@ -1,0 +1,3 @@
+[FastView] WorkbenchPage.isPageZoomed class cast error
+
+In plugin org.eclipse.ui.workbench, the function WorkbenchPage.isPageZoomed contains the code: for (int j = 0; j < editors.length && !zoomed; j++) { if (editors[j] instanceof EditorStack) { zoomed = ((EditorStack)kids[i]).getState() == IStackPresentationSite.STATE_MAXIMIZED; } } The line of code inside the "if" statement should be: zoomed = ((EditorStack)editors[j]).getState() == IStackPresentationSite.STATE_MAXIMIZED; This seems to be a simple typo error, as the "if" statement and "for" loop make no sense otherwise.

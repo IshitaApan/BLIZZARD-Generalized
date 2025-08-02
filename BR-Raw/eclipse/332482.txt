@@ -1,0 +1,3 @@
+[Forms] Revert Fix for  Bug #284393
+
+See comments 47 and 48 on https://bugs.eclipse.org/bugs/show_bug.cgi?id=284393 for why we need to revert.

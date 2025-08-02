@@ -1,0 +1,3 @@
+[Key Bindings] Ctrl+Tab not received by CyclePartAction popup dialog
+
+Try to Map "Next Editor" to Control+TAB. Just joking. For some reason, Control+TAB isn't a choice, even if I want to break TAB traversal. OK, try mapping "Next Editor" to Control+Shift+q, then try invoking it on 3+ Editors repeatedly. It doesn't work.

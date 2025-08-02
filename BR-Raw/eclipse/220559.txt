@@ -1,0 +1,3 @@
+Regression in some open editor performance tests
+
+Verifying build I20080226-1155, it looks like some open editors tests are seriously red: - OpenJavaEditorTest#testOpenEditor3(): between -16.1% and -36% - OpenJavaEditorTest#testOpenEditor4(): between -18.1% and -39.2%

@@ -1,0 +1,2 @@
+[compatibility] double-clicking on a file in the Project Explorer does not open an editor
+

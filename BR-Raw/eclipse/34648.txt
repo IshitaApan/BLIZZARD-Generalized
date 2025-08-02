@@ -1,0 +1,3 @@
+[DND] file deleted when dropped in editor on Solaris
+
+When a file is dragged from the Navigator view and dropped in an editor on Solaris, it is first deleted from the workspace then the workbench attempts to open the file withing an editor. This attempt is unsuccessful since the file has been deleted.

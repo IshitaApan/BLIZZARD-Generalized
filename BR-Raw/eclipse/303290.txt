@@ -1,0 +1,3 @@
+Typo in JFace ToolBarManager
+
+Using the ToolBarManager class we noticed a small typo in the JavaDoc: 	/** 	 * The tool bat control; <code>null</code> before creation and after 	 * disposal. 	 */ Says "bat" instead of "bar". While this is a private member it should still be correct. Assuming the code has not changed a lot please verify against the latest head version of this file. Thanks, Werner

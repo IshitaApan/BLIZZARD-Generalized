@@ -1,0 +1,3 @@
+[CommonNavigator] Navigator content provider "appearsBefore" creates hard reference to named id
+
+(See bug 228022 and bug 349108) When using the "appearsBefore" attribute in the navigator content extension point, there is a dependency on the referenced content provider to be in the workspace. It would seem to me that this should be a soft dependency. At runtime, I would expect that if the referenced component is not present, that the attribute would be ignored. (At dev-time, I can surely see a warning or error.)

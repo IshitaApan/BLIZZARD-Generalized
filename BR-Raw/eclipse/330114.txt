@@ -1,0 +1,3 @@
+[Compatibility] Link the WW menu manager
+
+Instead of copying the WorkbenchWindow menu manager code to the model, and then regenerating most of it, we can now link the window MMenu to the MenuManager filled in by the WorkbenchActionBuilder. A compatibility level reconciler can create e4 equivalents for the contribution items we can translate (CommandContributionItems, ActionContributionItems that have a definition id, etc). PW

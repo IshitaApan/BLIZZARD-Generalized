@@ -1,0 +1,3 @@
+[Viewers] Virtual tree viewer does not populate with initial children
+
+I20060830-1650 When a tree viewer is created with the SWT.Vitrual flag and uses an ILazyTreeContentProvider, the viewew does not populate with the initial children in the model. The method TreeViewer.createChildren(Widget) only updates existing items if the parent (root)element has been mapped to data, and does not query the content provider for the number of children it has. Attached is a sample plug-in showing the problem. The tree "model" looks like this: root one two three When the input is set to the viewer ("root") a call is made to "createChildren", but the content provider is never used.

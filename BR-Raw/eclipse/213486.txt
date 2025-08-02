@@ -1,0 +1,3 @@
+[Markers] view descriptions wrong when grouped
+
+I20071218-0800. When grouped the view says 'Filter matches 100 of xyz items' but below you see that there are many more items shown as the marker filter is applied per group.

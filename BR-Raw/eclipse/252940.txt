@@ -1,0 +1,3 @@
+[Dialogs] DialogPage's dispose() method has a false javadoc specification
+
+The DialogPage class's dispose() method is spec'ed as... /** * The <code>DialogPage</code> implementation of an * <code>IDialogPage</code> method does nothing. Subclasses may extend. */ ...unfortunately, the truth is that it actually does something rather important. public void dispose() { // deallocate SWT resources if (image != null) { image.dispose(); image = null; } } I am marking this as major since unwary subclasses that extends this method without calling super.dispose() will end up having a memory leak.

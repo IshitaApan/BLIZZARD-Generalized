@@ -1,0 +1,3 @@
+[CommonNavigator] Sorter inconsistently uses possible children instead of trigger points
+
+I20090127-0100 This was discovered by code inspection. The CommonViewerSorter was converted to use the triggerPoints instead of possibleChildren as part of the fix to bug 252293. However, there is a place in the code where it still used the possibleChildren. This needs to be switched to use triggerPoints.

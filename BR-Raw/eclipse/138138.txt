@@ -1,0 +1,3 @@
+[WorkbenchLauncher] Improve documentation (Progressbar in splashscreen doesn't appear)
+
+I made the product configuration and add a progressbar in the branding tab. The splashscreen appears, but without the progressbar.

@@ -1,0 +1,3 @@
+[JFace] mis-spelling of their in applyDialogFont(...)
+
+There's a simple mis-spelling in this method's javadoc private static void applyDialogFont(Control control, Font dialogFont)

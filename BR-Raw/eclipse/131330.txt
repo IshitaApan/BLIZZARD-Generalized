@@ -1,0 +1,3 @@
+[IDE] Misleading error message that workspace is currently in use
+
+3.2M5 I currently moved to a new PC which had different drive letters. I start up one Eclipse instance, and then in there run a second instance under the debugger. In the launch configuration I still had the old path name to my workspace, like "D:\workspace". But that's not right anymore (everything is on C:). So when I tried to launch the second instance (Run > Debug...) I got an error dialog, but the message was misleading. It said: "Workspace Cannot be Locked Could not launch the product because the associated workspace is currently in use." It's not in use, it's completely missing. Also it would be nice for it to tell me what workspace directory it was complaining about since I have several.

@@ -1,0 +1,3 @@
+[GlobalActions] "Open Resource" dialog doesn't filters out class files?
+
+Build 20041214-2000 1. Press ctrl+shift+r to open the "Open Resource" dialog. 2. Type the name of a class file in the workspace (for example, "Hello.class"). 3. The dialog does not show the class file, even though it exists. In my case, I did this with a simple "Hello World" program in the default package. Hello.java and Hello.class were in the same directory, but the dialog could only find Hello.java.

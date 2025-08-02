@@ -1,0 +1,3 @@
+[WorkingSets] Unable to restore working set item
+
+I sometimes see this message in the console. It looks like we are restoring a working set after a breakpoint is deleted. Unable to restore working set item - cannot instantiate item: org.eclipse.debug.ui.elementFactory.breakpoints

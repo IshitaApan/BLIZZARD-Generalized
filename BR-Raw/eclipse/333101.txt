@@ -1,0 +1,3 @@
+[Preferences] Redundant preferences node creation in LineDelimiterEditor
+
+Created attachment 185721 Patch v.0.1 While working on bug 202384 we found that in LineDelimiterEditor org.eclipse.core.runtime node is unnecessarily created. The node should be created only if there is something to be stored in it. Reading currently stored value should not create the node.

@@ -1,0 +1,3 @@
+[Perspectives] Closing a hidden editor
+
+make sure the closing a hidden editor works. PW

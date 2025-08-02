@@ -1,0 +1,3 @@
+Widget is disposed while closing cool bar
+
+This is the problem that is occurring in the nightly builds. There is something happening where a cool bar is attempting to layout disposed cool bar items.

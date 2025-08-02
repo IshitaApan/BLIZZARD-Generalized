@@ -1,0 +1,3 @@
+Secondary workbench window do not prompt about dirty parts when closed
+
+1. Window > New Window 2. Open a file. 3. Make the editor dirty. 4. Close the window. 5. The window closes and does not prompt the user about the dirty file.

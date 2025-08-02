@@ -1,0 +1,3 @@
+Recursive ArrayStoreException when internal editor not found
+
+Reported by Brian Thomson org.eclipse.ui.internal.EditorManager.openInternalEditor tries to load an editor, and if an exception occurs it tries to store the Throwable into an array of java.lang.Exceptions. The problem is that org.eclipse.core.internal.runtime.InternalPlatform.run can call the handleException method with either an Exception or a LinkageError. Since a LinkageError is not an Exception, the attempt to store it in ex[0] generates an ArrayStoreException which is unhandled.

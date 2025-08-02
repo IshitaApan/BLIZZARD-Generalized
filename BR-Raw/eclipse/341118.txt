@@ -1,0 +1,3 @@
+[Compatibility] IWindowListeners are not notified of window activations
+
+It doesn't seem like the windowActivated(IWorkbenchWindow) method of an IWindowListener is ever invoked.

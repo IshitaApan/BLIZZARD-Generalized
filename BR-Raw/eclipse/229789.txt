@@ -1,0 +1,3 @@
+[Examples] examples plugins create duplicate menus in menubar
+
+Created attachment 98318 screenshot I20080430-0100 - observed on 64-bit gtk but presumably would happen on all platforms - run an eclipse with the eclipse examples plugins unzipped on top of it - in the first perspective that's shown the menubar has duplicate menus File, Window and Help - I don't know if this is by design or not (eg.- a test is showing how to contribute new menus) but it looks very broken -> my guess is that an example is trying to contribute to existing menus but new menus are being created for them instead (?)

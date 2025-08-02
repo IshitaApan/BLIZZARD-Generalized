@@ -1,0 +1,3 @@
+[Services] Convert the ISelectionService
+
+ISelectionService should be available through the service locator and dispose listeners for free.

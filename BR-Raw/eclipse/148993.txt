@@ -1,0 +1,3 @@
+[Workbench] Wrong Javadoc for IDE.getEditorDescriptor
+
+3.2 and latest 3.3 build The Javadoc of IDE.getEditorDescriptor(...) does not mention that as a very last resort it tries to find the editor descriptor for the default text editor i.e. IDEWorkbenchPlugin.DEFAULT_TEXT_EDITOR_ID (org.eclipse.ui.DefaultTextEditor)

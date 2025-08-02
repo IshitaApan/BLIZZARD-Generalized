@@ -1,0 +1,3 @@
+[JFace] StatusDialog should escape ampersand in status message
+
+Ampersand characters in status messages cause the succeeding character to be shown as a mnemonic. For example IStatus status= new Status( IStatus.ERROR, "plug.in", "peter&mary" ) statusDialog.updateStatus( status ); shows this status message peter_m_ary I suggest to escape the ampersand character in status messages.

@@ -1,0 +1,3 @@
+[IDE] Deleting a project but not the contents asks if you want to delete read-only files
+
+I have noticed that in 3.3M6, if I delete a project that has read-only files in it, it will prompt if I want to delete the files even if I select "Do not delete contents". The files are not actually deleted, but the error dialog should not be presented to the user since the files are not actually being deleted. I don't remember seeing this in 3.3M4 or earlier.

@@ -1,0 +1,3 @@
+Bug 306719 [Compatibility] Active part/editor information not available in the ExecutionEvent
+
+'Window > Navigation > Activate Editor' does not work. Many handlers rely on the active editor so we need this working properly.

@@ -1,0 +1,3 @@
+Menu items don't show keybindings
+
+Created attachment 141906 Patch Unlike 3.x, the E4 menu items don't show associated keybindings (such as Ctrl+W for File-> Close). The patch below adds this functionality and introduces an EBindingService - the possible future replacement for 3.x's IBindingService. (The IBindingService usage forces dependency on 3.x workbench.)

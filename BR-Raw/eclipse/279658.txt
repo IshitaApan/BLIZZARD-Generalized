@@ -1,0 +1,3 @@
+[UI] ResourceUtility has unused methods
+
+In org.eclipse.e4.ui.workbench.swt.ResourceUtility, the methods - getGradientColors() - getColor() and field - private ColorRegistry COLOR_REGISTRY all appear unused. In a config with CSS, it handles gradients, colors, and the color registry (although the latter is worth discussing), so I'm not sure the purpose of the methods here.

@@ -1,0 +1,3 @@
+[Window] PerspectiveBarContributionItems have too short a maximum width
+
+I20040413 When the perspective bar is docked under the main toolbar, there is a lot of horizontal room for the buttons. However, when text is shown in the perspective bar buttons, PerspectiveBarContributionItem.shortenText() limits the width of each button to 5 times the icon size. This causes many perspectives to have their names cut off. Maybe the maximum size should be increased when the perspective bar icons are docked below the main toolbar?

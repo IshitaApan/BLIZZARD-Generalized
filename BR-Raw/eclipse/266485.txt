@@ -1,0 +1,3 @@
+[ViewMgmt] PageSwitcher uses wrong parent when invoked from detached view
+
+Created attachment 126984 Fix I20090224-0800 The PageSwitcher ('Next/Previous Page' commands, bound to Alt+PageDown/PageUp with bug 199499) uses the wrong parent shell when invoked from a detached view (uses main window instead of detached view's shell). The problem is actually already in CycleBaseHandler and can also be seen as a quick flickering when you switch between views in a detached view stack with Ctrl+F7. The failing assumption is that all views "inside" a workbench window have the same parent shell. For the PageSwitcher, the problem is more severe, since the original view loses focus in the end.

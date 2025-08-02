@@ -1,0 +1,3 @@
+[Commands] IWorkbenchCommandConstants is missing API restrictions
+
+3.5 M6 IWorkbenchCommandConstants is missing API restrictions which makes it impossible in the future to add new constants. Please add: * @noimplement This interface is not intended to be implemented by clients. * @noextend This interface is not intended to be extended by clients.

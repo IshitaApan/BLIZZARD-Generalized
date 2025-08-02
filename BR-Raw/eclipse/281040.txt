@@ -1,0 +1,3 @@
+[CSS] Workbench always overrides IStylingEngine app context
+
+Since the Workbench is created AFTER the CSSStylingSupport is created (see org.eclipse.e4.ui.workbench.swt.internal.WorkbenchApplication), the Workbench always overrides the app context IStylingEngine with a Null Styling. Fix: Just change class org.eclipse.e4.workbench.ui.internal.Workbench: initializeNullStyling(mainContext) into if(appContext.get(IStylingEngine.class.getName()) == null) { initializeNullStyling(mainContext) }

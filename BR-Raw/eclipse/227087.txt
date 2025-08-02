@@ -1,0 +1,3 @@
+[Commands] Nicer 'Show view' command label
+
+20080415 With the change to use the parameterized 'Show view' command, the new command selection window (Alt + Shift + Q) contains multiple entries like: Show View (View: Package Explorer) Show View (View: Problems) Show View (View: Search) Could this be improved to Show View: Package Explorer

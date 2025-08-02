@@ -1,0 +1,3 @@
+OperationHistory should protect itself better against runtime exceptions
+
+Since clients of the history might rely on getting certain events even if a operation causes runtime exceptions (for example listeners) the history should protect itself better agains runtime exceptions. This envloves: - listeners causing runtime exceptions in the call back - Operation execution causing runtime exceptions. In this case listeners must be informed as well.

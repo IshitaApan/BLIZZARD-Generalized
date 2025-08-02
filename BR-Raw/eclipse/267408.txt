@@ -1,0 +1,3 @@
+[Contributions] RadioState should work like RegistryToggleState
+
+It should honour the same 2 IExecutableExtension parameters, default and persist PW

@@ -1,0 +1,3 @@
+[ActivityMgmt] Preferences/Capabilities not sorted alphabetically.
+
+Preferences/Capabilities not sorted alphabetically. My plugin lauched from PDE defines a "Seagull CICS" activity. It appears 1st in the Capabilities list box, before "Development" and "Team".

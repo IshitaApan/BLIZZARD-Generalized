@@ -1,0 +1,3 @@
+[Viewers] EditingSupport#setValue() doc
+
+It would be nice if the Javadoc of org.eclipse.jface.viewers.EditingSupport#setValue(Object element, Object value) could mention that it is necessary to call this in order to show the new updated value: getViewer().update(row, null);

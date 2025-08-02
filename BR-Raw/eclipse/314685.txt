@@ -1,0 +1,3 @@
+EModelService's findElements(MUIElement, String, Class<T>, List<String>) method can return duplicates
+
+I'm getting two editors in the returned list that's pointing at the same thing. The returned collection is a List and not a Set but this feels wrong.

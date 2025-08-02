@@ -1,0 +1,3 @@
+[UI] Using the MContribution's 'persistedState' field causes a CCE when trying to publish the event
+
+The code in UIEventPublisher expects to be publishing events for MApplicationElements but the 'persistedState' field is defined as an EMF type that is not (the cause of the CCE). As an interim fix I'll only attempt to publish UI events for MApplicationElements. The only downside to this would be if someone needed to listen to changes in that field; extremely unlikely IMO...the person *setting* the field shouldn't need to listen and why the heck would (or even should) anyone else be trying to listen in?

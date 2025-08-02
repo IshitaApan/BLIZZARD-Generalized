@@ -1,0 +1,3 @@
+[Wizards] WizardDialog Javadoc Typo
+
+The Javadoc for WizardDialog.aboutToStart says "tiggered" instead of "triggered".

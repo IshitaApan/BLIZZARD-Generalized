@@ -1,0 +1,3 @@
+Initial contents of the Debug view is improperly sized
+
+Created attachment 138413 Patch When Debug view is open, it shows single line "breadcrumbs" view even when there is plenty of space. This is caused by the view listening on the parent for the SWT.Resize message. In 3.x a view in this situation gets an intermediary Composite as a parent that lives under CTabFolder. In E4 "parent" is the CTabFolder itself. When CTabFolder does layout it generates resize message for its children, but not for its own listeners. For now, to fix this, send an explicit Resize message to the CTabFolder listeners. The enhancement request 279263 suggests a more general solution by adding wrapper composites for legacy views/editors.

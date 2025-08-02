@@ -1,0 +1,3 @@
+[IDE] Tips and Tricks dialog; disable OK if no selection
+
+OK should be disabled if one has not selected one entry in the list box above.

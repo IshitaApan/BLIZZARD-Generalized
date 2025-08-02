@@ -1,0 +1,3 @@
+DeferredTreeContentManager hard to reuse
+
+I20031210 If this class had the option of passing in a custom IElementCollector, it would be much easier to reuse for custom tree viewers. Currently the IElementCollector calls a private method that cannot be overridden. In fact, it is impossible to subclass this class because most of its implementation is private. I am working with a user who has a custom tree viewer. He wants to make use of the deferred content provider infrastructure, but is blocked because there are no entry points for reuse. Recommend: Extra constructor to pass a custom IElementCollector, and make all private methods protected. There doesn't seem to be anything that needs to be hidden in this class.

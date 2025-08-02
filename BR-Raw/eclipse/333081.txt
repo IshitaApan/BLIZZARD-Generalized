@@ -1,0 +1,3 @@
+Elements in the shared area gets displayed when switching to a perspective that shouldn't show the area
+
+After the perspective dialog is closed, it seems that the system tries to grant activation to the active part again before the switch actually happens. We enqueue such a request and then perform the perspective switch. When the switch is complete, we process the original activation request and since the element is found in the active perspective, we try to activate it. We should instead also check whether the element or its parents should be rendered in the current perspective before we make such an activation request.

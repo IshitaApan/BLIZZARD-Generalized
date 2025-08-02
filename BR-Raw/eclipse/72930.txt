@@ -1,0 +1,3 @@
+[Viewers] TableViewer.reveal() documentation
+
+The documentation for TableViewer.reveal() does not say that it requires a tableItem and silently ignores all other objects.

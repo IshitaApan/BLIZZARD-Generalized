@@ -1,0 +1,3 @@
+[IDE] Open Dependant Projects
+
+We deal with ~40 projects for our project and have a complex web of dependancies between them. Occasionally its handy to minimise the number of open projects and the usual approach is to close them all and then open up the ones that are needed and their dependancies. The merry dance involved with openning up the deps, the deps of deps and deps of deps of deps could be REALLY simplified if there was a facility to open all dependancies of a project or group of projects.

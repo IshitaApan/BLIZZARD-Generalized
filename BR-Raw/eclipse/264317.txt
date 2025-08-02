@@ -1,0 +1,3 @@
+[statushandling] reduce the code responsible for image resolving
+
+currently there are 4 methods necessary to retrieve 3 different images depending on Status' type. 2 are sufficient and more readable.

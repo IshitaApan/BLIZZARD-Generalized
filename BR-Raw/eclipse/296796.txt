@@ -1,0 +1,3 @@
+MWindow name changes are not reflected in a shell
+
+Created attachment 153719 WBWRenderer patch v1 + test The logic in the listener is incorrect as its equality check is checking against the event handler instead of the "outer" factory instance. Please see the attached patch for details.

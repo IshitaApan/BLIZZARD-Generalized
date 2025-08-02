@@ -1,0 +1,3 @@
+[EditorMgmt] 'Save All Modified Resources' job is unnamed
+
+I20050509-2010 The scenario in bug 94795 mentions an unnamed job.

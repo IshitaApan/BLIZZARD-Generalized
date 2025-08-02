@@ -1,0 +1,3 @@
+Layout problem when the user presses details in the error dialog
+
+In org.eclipse.ui.internal.ide.dialogs.InternalErrorDialog, When the user presses the details button, the dialog's layout gets corrupted and the user will not be able to see the buttons. I will attach a snapshot of the problem.

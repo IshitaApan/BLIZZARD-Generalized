@@ -1,0 +1,3 @@
+The change on containerData doesn't reflect on UI
+
+During the development of e4 designer on the part layout, we have noticed a problem of synchronizatin of EMF with SWT. The change of containerData via API is not reflected on UI. I suppose it is in working progress.

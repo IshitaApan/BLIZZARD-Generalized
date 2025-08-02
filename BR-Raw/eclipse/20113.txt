@@ -1,0 +1,3 @@
+[Workbench] Importing preferences does not trip a Rebuild All when appropriate [general issue]
+
+If importing preferences changes a preference that would cause trip rebuild all if processed manually, then it should cause the same action if changed via import preferences. (In my case, using jdk1.4 compliance.)

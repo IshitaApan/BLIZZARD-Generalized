@@ -1,0 +1,3 @@
+[Viewers] StructuredViewer's UpdateItemSafeRunnable holds onto last selected element-memory leak
+
+I have a TableViewer that normally displays a list of objects. I clear the list by calling TableViewer.setInput(null). I found that if I initially have a list of objects, select an object, then setInput(null) the TableViewer is still holding onto an instance of the object I last selected. More specifically, it looks like StructuredViewer's UpdateItemSafeRunnable is holding onto the object. The UpdateItemSafeRunnable object should be cleared out after its use.

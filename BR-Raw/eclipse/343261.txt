@@ -1,0 +1,3 @@
+PlatformUITest.testWithoutDisplayAccess_sync() fails on Java 7
+
+HEAD. PlatformUITest.testWithoutDisplayAccess_sync() fails when run on a Java 7 JRE. This test failed on two subsequent runs of the Eclipse SDK tests against an Oracle Java 7 JRE. Unfortunately I cannot reproduce it when running on my Windows or Linux box. See also bug 331909.

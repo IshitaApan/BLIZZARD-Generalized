@@ -1,0 +1,3 @@
+[DynamicUI] view-related warning messages in the log
+
+See https://bugs.eclipse.org/bugs/show_bug.cgi?id=80174#c2 for details.

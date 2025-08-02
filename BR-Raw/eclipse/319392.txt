@@ -1,0 +1,3 @@
+Toolbars added to the trim are added in the wrong location
+
+The ToolBarRenderer creates the toolbar, but it is added to the end of the Workbench Window main toolbar. The model element is inserted in the correct place, however. Eric mentioned that the moveAbove(*)/moveBelow(*) code might need a tweak. PW

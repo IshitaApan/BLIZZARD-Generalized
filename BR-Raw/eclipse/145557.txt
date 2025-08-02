@@ -1,0 +1,3 @@
+[WorkbenchParts] Content description label needs a hover
+
+RC7 It is fairly easy for the top label in the Java Hierarchy View to get cut off with a large font. It needs a hover text so that the full text can be read.

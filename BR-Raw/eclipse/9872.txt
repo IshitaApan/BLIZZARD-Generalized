@@ -1,0 +1,3 @@
+Change fast view contribution to keep track of associated view
+
+build 20020214 Currently, one ShowFastViewContribution adds all fastview toolbar items. This should be changed to match the perspective contribution item so that there is one contribution item (FastViewContribution?) per fast view. The contribution item could then reference the fast view which would help address bug 8645.

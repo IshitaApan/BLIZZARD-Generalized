@@ -1,0 +1,3 @@
+IIntroManager.closeIntro() does not work properly
+
+RC3 In testing for Bug 68013 I got into a state where the intro component was showing an IE "page not found" error page. I don't have steps to reproduce. Screenshot forthcoming. Closing intro and reopening it seems to clear things up.

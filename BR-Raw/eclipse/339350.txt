@@ -1,0 +1,3 @@
+[Compatibility] When a part cannot be created and an error part is showing, its label is blank
+
+We should be able to retrieve the label from the registry and reuse that in the model.

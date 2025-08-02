@@ -1,0 +1,3 @@
+[JFace] PopupDialog does not allow direct selection of text in editor
+
+I20060912-0800 When a PopupDialog has focus, the first mouseDown event in another shell is lost. E.g. when you open the Quick Outline (Ctrl+O) in the Java editor and then try to select some text in the editor (without closing the popup), the selection does not work. This is due to bug 152010. I'll attach a workaround.

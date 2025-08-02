@@ -1,0 +1,3 @@
+[MinMax] Double-click to maximize is too loose
+
+Right not we maximize whenever we detect a double click...this allows for example double-clicking on the edge of a stack to cause it to maximize/restore...obviously incorrect.

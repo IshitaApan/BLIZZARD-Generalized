@@ -1,0 +1,3 @@
+[DetachedViews] Tearing off maximized view can make it disappear
+
+[RC3], Windows XP, multi-monitor Start a fresh workspace and drag the Welcome view to the right of the workbench window (tear it off). The view disappears. Apparently, it is shown off-screen. I was able to move it into view by selecting Help-Welcome, typing Alt-Space to get the shell system menu, and selecting Move from that menu. Without this, there is no way to get the Welcome view to show again.

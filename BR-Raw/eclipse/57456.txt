@@ -1,0 +1,3 @@
+[Activities] New Wizard should show items from enabled actiivties by default
+
+without checking the "Show All Wizards" button the items that are part of the enabled activities should also appear in the dialog below the Primary items.

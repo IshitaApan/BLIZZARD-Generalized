@@ -1,0 +1,3 @@
+[DataBinding] Add support for shorts, bytes, and BigDecimal to StringToNumberConverter
+
+We need to add the appropriate API to StringToNumberConverter and NumberToStringConverter for short and bytes as their boxed types are Numbers as well.

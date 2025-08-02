@@ -1,0 +1,3 @@
+[Compatibility] org.eclipse.ui.actionSetPartAssociations extension point is not being used
+
+I20100921-1710. Most main menus missing for Java Outline view. 1. open new workspace 2. paste the following line into the Package Explorer: public class A {} 3. switch to Outline view ==> most main menus not available (e.g. some in the 'Edit' menu or the 'Refactor' top-level menu)

@@ -1,0 +1,3 @@
+[TabbedProperties] Adopt API tooling
+
+The tabbed properties plug-in is still not API tooling enabled.

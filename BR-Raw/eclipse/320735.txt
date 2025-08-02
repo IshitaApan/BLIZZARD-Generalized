@@ -1,0 +1,3 @@
+[Compatibility] Keybindings don't work in MPEPs
+
+- Create a bundle with a plugin.xml, for instance, using "Hello World" template; - Open manifest.mf file; switch to plugin.xml tab - Note that Del / Home / End / Ctrl+C / Ctrl+V keys don't do anything

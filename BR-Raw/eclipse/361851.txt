@@ -1,0 +1,3 @@
+MAddons are not persisted in the deltas file
+
+I'm trying to implement a fix for Bug 360159 but in order to complete the work I need to be able to have the MinMaxAddon (at least) persist some state. The issue of whether or not Addons *should* be persistent is still worth a discussion but the result would be to change the model. The deltas mechanism should respect the EMF model as far as what gets persisted goes I think. Note that persisting the addons in the model will likely require added work to ensure that we aren't generating multiple instances of the same addon in the model (depending on how it's being contributed) but that's a separate issue (for which I'll open/fix a defect once the persistence is in place).

@@ -1,0 +1,3 @@
+[WorkingSets] Test for BasicWorkingSetElementAdapter
+
+This class needs tests.

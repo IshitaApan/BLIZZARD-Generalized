@@ -1,0 +1,3 @@
+Need E4 life cycle events
+
+To improve separation of concerns and the way certain UI selection actions are implemented we need E4 life cycle events for part activation and bring to top. There will likely be others as time goes on.

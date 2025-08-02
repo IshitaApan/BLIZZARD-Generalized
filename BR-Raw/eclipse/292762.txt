@@ -1,0 +1,3 @@
+[Contributions] MenuUtil provides constants and static methods ... it should be marked noextend
+
+MenuUtil has always been a utility class that we use to publish our menu contribution locationURIs. We just forgot to mark it as @noextend. I'd like to do that now. PW

@@ -1,0 +1,3 @@
+[Linked Resources] linked resource creation should be disabled inside folders
+
+Build 20030114 1. Create a project P1 2. Create a linked folder P1/F1 linked to somewhere like c:\temp 3. Select folder P1/F1. 4. Create New Folder named F2 5. Click Advanced Observe: Check box labeled "Link to folder on the file system" is enabled. 6. Check "Link to folder on the file system" Observe: Message says "Link target must be specified." 7. Click Browse and select any folder and click OK. Observe: Message says "Cannot create linked resource /P1/F1/F2. Linked resources must have a project as their parent." Expectation: When the selected folder is not the project itself, the check box should be disabled at step 5. That way we don't waste the user's time with a dead end.

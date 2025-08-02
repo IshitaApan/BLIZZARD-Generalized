@@ -1,0 +1,3 @@
+[RCP] remove dependence on core.runtime.compatibility
+
+UIPlugin contains a reference of IPluginDescriptor.

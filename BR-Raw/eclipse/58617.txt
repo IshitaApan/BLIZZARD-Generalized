@@ -1,0 +1,3 @@
+[Dialogs] DCR: Make StatusDialog public API
+
+20040415 StatusDialog is an extension of Dialog, having an ok and cancel button with a status line. Status is set using 'updateStatus'. It is similar that the SelectionStatusDialog which is in 'org.eclipse.ui.dialogs'. It also handles that usability rule that says that no dialog should come up with an error message. There are already 6 duplications of the StatusDialog (in 6 plugins). I would like to make another dialog public that extend StatusDialog. Offering StatusDialog as API in jdt.ui is not optimal and merging the functionality is also a bit ugly.

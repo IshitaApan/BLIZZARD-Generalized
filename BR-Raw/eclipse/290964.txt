@@ -1,0 +1,3 @@
+Factor out model loading from Workbench so that it is plugable
+
+We want to support different workbench restoreing possibilities and for this we need to delegate the loading to an external instance

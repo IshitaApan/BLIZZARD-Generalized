@@ -1,0 +1,3 @@
+[WorkbenchParts] Variables view is empty until first activation
+
+Using I20080415-1646. I set some breakpoints in my code. While debugging a runtime workbench, I hit a breakpoint and the debugger perspective take the focus as requested. But, unfortunately, the variables view is completely empty and does not show any variable value. I tried to change the selection in the debug stack trace but the view still remains completely blank... The workaround I found is to select another view (e.g. Display view) and go back to the Variables view... Then after this views switch, the Variables view displays now correctly the variables and their values... :-) Note that this issue does not happen again until I close and reopen my Eclipse session...

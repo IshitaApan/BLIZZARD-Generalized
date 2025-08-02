@@ -1,0 +1,3 @@
+[Keys] (tests) Bug43597Test is platform-specific
+
+build N20050323 The Bug43597Test.testFontReset test is failing in the current builds because it is platform-specific. For details, see bug 88532 comment 9. Either this test should be put in a platform-specific fragment, or it should be removed.

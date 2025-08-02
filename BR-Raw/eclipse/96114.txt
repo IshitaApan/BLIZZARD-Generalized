@@ -1,0 +1,3 @@
+[IDE] should remove dependency on IPluginRegistry
+
+We should remove our dependency on IPluginRegistry in favour of the new IExtensionRegistry. This should be a trivial migration.

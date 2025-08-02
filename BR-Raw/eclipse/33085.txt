@@ -1,0 +1,3 @@
+[Preferences] Last page not remembered the second time
+
+RC1 build - Window / Preferences - select the Appearance page - OK - Window / Preferences - Appearance page is still selected - OK - Window / Preferences - Workbench is selected It should always remember the last page, even if the page isn't changed.

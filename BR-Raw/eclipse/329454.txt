@@ -1,0 +1,3 @@
+[Compatibility] Bundles may be activated while trying to find matching editors
+
+Restoring editor inputs can cause bundle activation due to the element factory so said input should not be restored for comparison unless it's been identified as a factory that's identical to the input it's being matched against.

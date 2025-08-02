@@ -1,0 +1,3 @@
+Perspective buttons on left hand side should not toggle
+
+Click on the button for the currently active perspective in the toolbar on the left. Notice that it toggles from pushed to unpushed! I would expect these buttons to behave more like a radio button and ensure exactly one button is selected at a time.

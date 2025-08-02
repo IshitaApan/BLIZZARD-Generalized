@@ -1,0 +1,3 @@
+[JFace] regression: JFace standalone apps should work without org.eclipse.osgi
+
+The fix for bug 176993 introduced a dependency on org.eclipse.osgi which should be optional for standalone JFace applications. We should use reflection to handle cases where OSGi is not available.

@@ -1,0 +1,3 @@
+[Viewers] null image returned from ILabelProvider.getImage should remove any image
+
+I20041208 (-gtk) I have an ILabelProvider which in some cases returns an image in its getImage method, in some cases it does not. If I have once set an image, and then want to remove it, I return null; however, ViewerLabel.hasNewImage treats null as "no change". IMO, if a null image is returned, the viewer should remove the image from the label, alternatively, you could provide a "NullImage" and doc its usage. Currently, there is no way I can remove an image I once set without creating an empty image myself.

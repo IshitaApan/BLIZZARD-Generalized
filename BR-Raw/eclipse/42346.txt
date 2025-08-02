@@ -1,0 +1,3 @@
+[Tasks] Associated task not remaining with associated line
+
+I was following the instructions in the Workbench User Guide...Basic Tutorial/Associated tasks. After creating the task, I inserted lines above it. The task's location column didn't change to reflect the task's new position, so I saved the file, but it still didn't update. Per the tutorial's instructions, I chose "Mark Completed" in the task's context menu and the task moved to a different line. I chose "Delete Completed Tasks" from the context menu and got an info box that said "No user-editable completed tasks to delete". The only way I found to remove the task was to choose "Remove task" from the context menu I got when I right-clicked on the task marker in the marker bar.

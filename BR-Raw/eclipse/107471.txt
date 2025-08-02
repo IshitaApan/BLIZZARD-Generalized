@@ -1,0 +1,3 @@
+[Progress] Reusing indeterminate progress makes for strange selection
+
+20050818 In the progress viewer if an indeterminate job stops and is replaced with a determinate on we reuse the progress monitor. We should never reuse progress monitors if they do not match.

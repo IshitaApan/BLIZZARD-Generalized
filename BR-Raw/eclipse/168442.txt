@@ -1,0 +1,3 @@
+[Quick Access] Quick Access should not close when user tries to select a Node
+
+Quick Access should not close when the user attempts to select a Node. AF

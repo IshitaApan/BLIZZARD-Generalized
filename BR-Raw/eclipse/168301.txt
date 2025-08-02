@@ -1,0 +1,3 @@
+[ErrorHandling] JFace SafeRunnable should use new error handling
+
+Currently, SafeRunnable opens a modal dialog. This is problematic because of the side-effects of spinning the event loop (see e.g. bug 154571), and because sometimes many dialogs are displayed after another, or closing one dialog leads to another. SafeRunnable should use the new error handling facility, and the error handling facility should collect similar errors together to present them in one dialog instead of in many.

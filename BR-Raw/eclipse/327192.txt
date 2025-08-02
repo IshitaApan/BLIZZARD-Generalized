@@ -1,0 +1,3 @@
+Concurrent access to file while decorating
+
+The issue came out while working on bug 301223. The problem is that during project set import decorating thread and importing thread are both trying to use the same file. Decorating thread is calling file.getContentDescription() and importing thread is trying to delete this file to make space for incoming file from repository. The file is open because of decorator so delete operation is not successful which results in error during import. Delete operation uses scheduling rule but decorator is not. There should be added simple scheduling rule to decorate operation to prevent concurrent access and error during import.

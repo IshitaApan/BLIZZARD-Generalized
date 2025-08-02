@@ -1,0 +1,3 @@
+[KeyBindings] misc: API to return a KeySequence string for a command id
+
+The KeyAssistDialog contains code that returns the formatted string for the active key binding for the "show key assist" command. It would be nice if this were generalized to a utility method that returns the string for the active key binding given a command id. Or, if you'd rather put this at the JFace keys level, code that returns the formatted string given the array of TriggerSequences (so that the client has to look up the binding with the right service). Right now I have copied this code into the WorkbenchContentAssistAdapter. There is similar code in JDT that does this (but not as thoroughly as the code in KeyAssistDialog).

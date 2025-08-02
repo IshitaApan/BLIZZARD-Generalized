@@ -1,0 +1,3 @@
+[DetachedView] Detached windows have no minimum size
+
+1)Create a detached window. 2)Grab a handle and make it as small as you can. The result is box just a few square pixels big. This doesn't follow the same behaviour as embedded views in eclipse - where views have to at least show part of the tab. Windows also enforces a minimum shell size.

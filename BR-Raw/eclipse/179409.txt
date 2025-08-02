@@ -1,0 +1,3 @@
+[DataBinding] Rework StringToBooleanPrimitiveConverter
+
+The current implementation has 4 values possible to translate from. This needs to be externalized so that any number of values can be specified.

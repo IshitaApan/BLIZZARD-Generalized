@@ -1,0 +1,3 @@
+[Commands] [RCP] Document available services in IWorkbench
+
+I20051108-1011 The Javadoc of IWorkbench should enumerate all the I*Services available via getAdapter(..). The only hints clients currently have is the javadoc of deprecated API like 	[..] 	 * @deprecated Please use <code>getAdapter(IContextService.class)</code> 	 * instead. 	 * @see org.eclipse.ui.contexts.IContextService 	 */ 	IWorkbenchContextSupport getContextSupport(); This should be made explicit, such that clients can rely on workbench.getAdapter(IContextService.class) to return a non-null service instance.

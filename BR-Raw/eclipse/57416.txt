@@ -1,0 +1,3 @@
+[Workbench] Disappearing Perspectives Toolbar
+
+I'm finding this on M8. I used the preference to "dock perspecitve bar under main tool bar" [which I like really well, by the way] But every now and then it "diappears". It's always after some action takes place (never for example, after I deliberately resize workbench). Not sure what the pattern is and there's nothing in Log/console. I can get it to come back be re-sizing the workbench horizontally. Veritically will not get it to come back. Thanks,

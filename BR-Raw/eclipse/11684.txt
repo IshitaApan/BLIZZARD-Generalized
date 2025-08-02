@@ -1,0 +1,3 @@
+[Wizards] Should use a Group box for new project page
+
+The new page for creating a project uses a label for the Project Contents. This needs to be a group for assitive technologies to work.

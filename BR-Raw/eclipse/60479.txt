@@ -1,0 +1,3 @@
+[EditorMgmt] switch to tabs on bottom then back to top redraws poorly
+
+- open eclipse - switch to use tabs on the bottom appearance in (Window > workbench > preferences > appearance ) - tabs are now on the bottom for the editor - now switch them back NOTE that for me the tab was not visible until i resized the window

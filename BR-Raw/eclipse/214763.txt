@@ -1,0 +1,3 @@
+[Markers] "Configure Contents" dialog needs title changed
+
+The "Configure Contents" dialog has title (in title bar) "Show Problems Matching:". Two observations: 1) The title shouldn't have a colon in it 2) It would be better if the title matched the name of the menu item that got me there "Configure Contents".

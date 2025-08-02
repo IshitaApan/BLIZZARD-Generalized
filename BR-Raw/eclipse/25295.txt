@@ -1,0 +1,3 @@
+[Dialogs] PropertyPage is not disposed by PropertyPageNode
+
+PropertyPage.dispose() is not called by PropertyPageNode.disposeResources(): page is set to null; in PreferenceNode superclass page is disposed before set to null; Is there a reason why page is not disposed in PropertyPageNode (I must says it causes some trouble in my code !) ? Thanks in advance

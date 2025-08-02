@@ -1,0 +1,3 @@
+[Markers] Problem view's Hide/Show columns preferences dont work correctly
+
+Created attachment 132066 Screen shot of the error case Build ID: M20090211-1700 Steps To Reproduce: 1. Create a java project with a source file that has some errors. 2. open the Problems view , make sure you see the problem listed 3. Open the Preferences dialog for the Problem view 4. From the Hide/Show columns list remove all the columns, click OK and return to problem view Expected result: no columns displayed in the problem view Error : see some strings (hash values of objects) there More information: Attached a screen shot showing this case

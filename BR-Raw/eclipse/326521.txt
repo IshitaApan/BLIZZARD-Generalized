@@ -1,0 +1,3 @@
+Convert line delimiter action enablement is broken
+
+Build id: I20100608-0911 Steps to reproduce: 1) Open any text file 2) Activate e.g. Problems view 3) Activate editor again without changing the selection -> All actions under File > Convert Line Delimiters To > are disabled Usually the actions are already disabled after step 1. Changing the selection in the editor enables them again. This worked with Galileo.

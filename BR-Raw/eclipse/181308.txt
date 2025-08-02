@@ -1,0 +1,3 @@
+[Viewers] Add checked state provider to CheckBox*Viewer
+
+It would be nice to have a provider (similar to the label or font or color providers) to determine the checked/grayed state of elements in a CheckBox*Viewer (either Table or Tree). This would generally simplify the programming model and give the developer better control over how the model objects are displayed in the viewer.

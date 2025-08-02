@@ -1,0 +1,3 @@
+[Dialogs] "Save resources"  dialog shows duplicated entries
+
+i20031111 The "Save resources" dialog, opened whenever I am about to do things like run a launch configuration or synchronize or shoutdown Eclipse, shows duplicated entries. For instance, if I have dirty editors with files A/foo.txt and A/bar.txt, and do something that triggers that dialog, it will show: X A/foo.txt X A/bar.txt A/foo.txt A/bar.txt For each pair of duplicated entries, one is checked to be saved by default.

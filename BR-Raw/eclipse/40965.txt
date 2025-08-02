@@ -1,0 +1,3 @@
+[Workbench] Tool bar buttons require mouse focus to get read using MSAA
+
+20030730 When you cycle through buttons using the mouse the tooltip value will not be given to the MSAA interface. If you select using a mouse it will. STEPS 1) Start up Inspect Objects 2) Tab through Eclipse until you get focus on a tool bar button. There will be no name or value 3) Move the button over with the mouse - you will get tool tip text

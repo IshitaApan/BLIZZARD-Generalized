@@ -1,0 +1,3 @@
+[Markers] MarkerField needs to support font and colours
+
+Some users want to be able to set the font and colour of an entry in the markers view. We should pass in a ViewerCell for this.

@@ -1,0 +1,3 @@
+EclipsePartService: Add getInputParts(String inputUri): Collection
+
+Add support for the new InputPart-Type with Input-URI

@@ -1,0 +1,3 @@
+[Progress] Concatenate task and subtask with ": " in ProgressMonitorPart
+
+I20070503-0010, follow-up to bug 180193 Concatenate the task and subtask names in ProgressMonitorPart with ": " rather than " ".

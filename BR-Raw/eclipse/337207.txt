@@ -1,0 +1,3 @@
+[Compatibility] Perspective listeners are not notified about a reset event
+
+We need to send out a reset event to the listeners when a perspective has been reset.

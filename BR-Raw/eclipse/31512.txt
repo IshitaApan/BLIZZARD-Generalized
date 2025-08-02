@@ -1,0 +1,3 @@
+[View Mgmt] Fast views missing border
+
+M5 build In Java perspective, converted Package Explorer to fast view, among other views. When activated, it was missing its border (1 pixel wide all the way around). See attached screenshot. Closing the view and re-converting it to a fast view fixed the problem. Problem is not specific to the Package Explorer. Another view, the CVS Resource History, had the same problem. Not all fast views had the problem though.

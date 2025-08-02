@@ -1,0 +1,3 @@
+Loading icons always lookup the bundle
+
+When UI and IDE are loading the icons, they are looking up the bundle for every icon they are trying to load. Looking up a bundle is not specially slow but is not the fastest operation either, therefore it could be great if you could lookup the bundle once and use it to load all the icons. Doing that will probably slightly improve the startup time.

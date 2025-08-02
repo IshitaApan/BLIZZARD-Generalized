@@ -1,0 +1,3 @@
+[Compatibility] Cannot open views in 'Java Browsing' perspective
+
+I20101025-1602 1. Window > Open Perspective > Java Browsing 2. Window > Show View > Ant 3. Nothing happens. 4. Window > Show View > Console 5. Nothing happens. The only indication that something has actually happened is that whatever part you had active no longer has its parent folder coloured in blue which would imply that a different part has been activated. Resizing the window does not help so this does not appear to be a layout problem.

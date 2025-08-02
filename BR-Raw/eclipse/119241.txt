@@ -1,0 +1,3 @@
+[WorkingSets] Failures in N20051204-0010
+
+The UI failure seems to be caused by the fix for bug 114492. I neglected to run the full suites after applying the patch as it looked so innocuous. My bad.

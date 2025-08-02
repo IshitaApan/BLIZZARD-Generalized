@@ -1,0 +1,3 @@
+[DND] ViewerDropAdapter catches Throwable
+
+build R2.1 The drag*/drop* methods overiding DropTargetAdapter in ViewerDropAdapter catch all Throwables and print out the stack trace. Comment in the handleException method states this is a workaround for VAJ. Should remove the exception handling code and allow exceptions to fall through.

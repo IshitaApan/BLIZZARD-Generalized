@@ -1,0 +1,3 @@
+Editor saving doesn't work when editor is reopened
+
+Build 0.9.0.I20090710-1930 1) Create a new general project 2) Create a text file, a.txt 3) Type some words in the editor, notice dirty indicator works 4) Hit Ctrl+S, editor is saved and dirty indicator goes away 5) Close the editor 6) Double-click the file in Package Explorer to reopen the editor 7) Type contents in the editor -> Now the dirty state never appears, and the save command is never enabled. It's not possible to edit the file after this point.

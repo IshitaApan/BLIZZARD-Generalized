@@ -1,0 +1,3 @@
+[About] Should clicking on uninstall cause the initial about dialog to be closed
+
+I20090310 When I hit the uninstall or update button, the dialog from which I initiated the action closes. Should the initial about dialog be closed to at that time?

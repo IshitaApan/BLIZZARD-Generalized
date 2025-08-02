@@ -1,0 +1,3 @@
+Context debug view not plumbed in properly
+
+org.eclipse.e4.core.contexts.debug provides a nifty context debug view. But it is not accessible from the E3.x compat layer. Although it adds itself to the MApplication's part descriptors, the IViewRegistry provided to Show View dialog (org.eclipse.ui.internal.dialogs.ShowViewDialog) does not actually include the MApplication's part descriptor list.

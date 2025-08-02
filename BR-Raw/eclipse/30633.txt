@@ -1,0 +1,3 @@
+Project References property page cut off in High Contrast
+
+20030129 The Project References property page is cut off in High Contrast mode - it looks like we are slamming the size of the list.

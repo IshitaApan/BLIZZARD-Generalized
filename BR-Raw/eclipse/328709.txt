@@ -1,0 +1,3 @@
+Delayed deltas need to be wrapped in a SafeRunner
+
+Not doing so is causing all other delayed deltas to simply be ignored. This is problematic.

@@ -1,0 +1,3 @@
+ProgressAnimationItem toolbar button selection opens ProgressView
+
+Build Identifier: 20100917-0705 Once the background job is complete a toolbar button is shown in ProgressRegion. If we select this button the action is being executed and after completing the action ProgressView opens automatically. We see this as a change of behavior from 3.5 to 3.6. Reproducible: Always Steps to Reproduce: 1.Set Action Property to a Eclipse job. 2.Run that job. 3.Select the button shown in ProgressRegion after job is complete. 4.We could see the action being execute (like showing results etc). After the action is complete ProgressView is opened.

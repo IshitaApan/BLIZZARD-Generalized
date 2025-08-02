@@ -1,0 +1,3 @@
+NPE in Team actions on welcome page
+
+Build 20020319 Selecting any of the CVS/Team links on the Welcome page causes NPEs.

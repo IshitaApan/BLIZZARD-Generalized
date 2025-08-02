@@ -1,0 +1,3 @@
+Custom rule template failing
+
+Null poonter exception being thrown when trying to add a custom rule which is causing the rule cretion to fail. Also there is a minor typo in the rule template string.

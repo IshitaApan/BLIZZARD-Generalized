@@ -1,0 +1,3 @@
+Default button in About dialog is wrong
+
+Open the about dialog. The default button is "Plugin Info". It should be "OK".

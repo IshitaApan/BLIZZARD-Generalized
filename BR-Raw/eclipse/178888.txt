@@ -1,0 +1,3 @@
+[Viewers] JavaDoc errors in GridDataFactory/GridLayoutFactory
+
+There are several javadoc errors in GridDataFactory/GridLayoutFactory. The GridDataFactory class comment contains an "IMPORTANT" comment which was recently rewritten to add javadoc tags... however the meaning was changed subtly and now it warns the user against doing something that is perfectly valid. The GridLayoutFactory Javadoc still references the old name for the extendedMargins method.

@@ -1,0 +1,3 @@
+[RCP] Fast view menu item should not be shown for fixed views
+
+build I20040310 + latest from HEAD - run the browser example, with its perspective specifying fixed="true" - right click on the view tab - it has a Fast View item It should not be possible to toggle between docked and fast view for fixed (non- moveable) views. This menu item should be hidden (not just made invisible) for fixed views. In addition, if the app has configured the window to not have a fast view bar (IWorkbenchWindowConfigurer.setShowFastViewBar(false)), then the menu item (or any ways of converting to a fast view) should be unavailable.

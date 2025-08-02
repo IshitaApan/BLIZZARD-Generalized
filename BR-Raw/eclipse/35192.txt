@@ -1,0 +1,3 @@
+Dialog.applyDialogFont should protect itself against null arguments
+
+RC2 Now that many plugins use this method to apply the dialog font to widgets the method should protect itself against null arguments. Normally clients create their widget tree in a method createControl and there are changes that the returned control might be null. Adding a statement Dialog.applyDialogFont (result) with result == null will result in new NPEs.

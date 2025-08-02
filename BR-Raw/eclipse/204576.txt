@@ -1,0 +1,3 @@
+[GlobalActions] convert SHOW_QUICK_ACCESS
+
+Fix ActionFactory actions. PW

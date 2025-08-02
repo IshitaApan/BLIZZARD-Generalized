@@ -1,0 +1,3 @@
+[RCP] RCP application without a status line is completely crippled when trying to use the workbench window as an IRunnableContext
+
+This is the extended version of bug 274554. It's not quite clear to me why no one on that bug found this to be a general problem though. The issue here is that any RCP application that doesn't call createStatusLineControl(Composite) will face problems when they try to run things via the workbench window. We are hitting these NPEs inadvertently in 4.1. See bug 330106 comment 7.

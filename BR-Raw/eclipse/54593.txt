@@ -1,0 +1,3 @@
+[KeyBindings] Restore defaults - keyboard shortcuts
+
+The dialog could be name "Restore Keyboard Shortcut Defaults" to be more spefic. Also: the dialog does not use the dialog font. Reached through the "Restore Defaults" button on Workbench/Keys

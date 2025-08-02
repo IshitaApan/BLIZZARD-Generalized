@@ -1,0 +1,3 @@
+Accelerator for Pin Editor?
+
+Is there a keyboard accelerator for toggling the pin state of the editor? I know there is the toolbar item but I can't determine what the shortcut is. The accessibility chart on the UI page does not list it either.

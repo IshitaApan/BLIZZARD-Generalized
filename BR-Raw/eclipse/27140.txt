@@ -1,0 +1,3 @@
+[View Mgmt] F12 should dismiss fast view even if no editors open
+
+build I20021119 F12 can be used to dismiss a fast view when an editor is open, since it activates the editor. It should also dismiss a fast view even if no editors are open.

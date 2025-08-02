@@ -1,0 +1,3 @@
+IllegalArgumentException pressing Ctrl+F6
+
+build F3 -Workspace with 8 editors -Pressing Ctrl+F6 to go to the next editor causes an IllegalArgumentException in TableItem.setText via CycleEditorAction.addItems.

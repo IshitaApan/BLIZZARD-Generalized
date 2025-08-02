@@ -1,0 +1,3 @@
+working set wizards override page title
+
+I create my working set page with MyPage(pageId, title, icon). The title is ignored/overwritten by the working set wiazrds.

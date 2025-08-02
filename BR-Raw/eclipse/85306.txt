@@ -1,0 +1,3 @@
+Poor wording of verbose mode preference
+
+Build I20050215-0800 The progress view shows the following option in its preference dialog: "Verbose modes will show all of the system jobs in the progress view" Problems: 1) "modes" should not be plural 2) We don't use the terminology "job" in the UI (we usually call them background tasks) 3) This mode will show both system jobs and sleeping jobs 4) The phrase "in the progress view" is redundant, since this is the progress view preference dialog. I have changed the wording to: "Show sleeping and system tasks"

@@ -1,0 +1,3 @@
+IAction.setAccelerator(int) deprecated, any other method instead?
+
+Hi, I only use SWT & JFACE(not RCP), and I want assign the accelerator keycode to the action. Is there another way to assign the accelerator keycode? Regards, Eric

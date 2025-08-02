@@ -1,0 +1,3 @@
+[Dialogs] Cycle to View, long view names causes dialog to display off the screen
+
+Created attachment 114956 a screenshot of the defect Build ID: M20071023-1652 Steps To Reproduce: 1.Create a view with a very long name. 2.With that view open, press Ctrl+F7. 3.Part of the Cycle to View dialog can be displayed off of the screen. More information: a screenshot will be attached.

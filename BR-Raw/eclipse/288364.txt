@@ -1,0 +1,3 @@
+[KeyBindings] Exporting key preferences to CSV does not warn of overwriting file
+
+Patch in bug 276162 attachment 135817 +++ This bug was initially created as a clone of Bug #276162 +++ Build ID: I20090430-2300 Tried on both Windows and Mac. Steps To Reproduce: 1. Preferences, General > Keys 2. Click "Export CSV..." 3. Enter any filename and click OK 4. Do it again: Click "Export CSV...", enter the same filename, and click OK. Actual result: The second time, it overwrites the file with no warning. Expected result: If you specify the name of an existing file, customary practice on all operating systems is to first warn that you are overwriting a file.

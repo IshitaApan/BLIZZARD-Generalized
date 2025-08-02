@@ -1,0 +1,3 @@
+[Compatibility] 'Git Staging' view has hijacked Ctrl+1
+
+For reasons that are not yet clear to me, Ctrl+1 gets hijacked by the 'Git Staging' view. Whenever you hit Ctrl+1, you will only ever get 'No suggestions available' and the popup is not where the text caret is at (because it's actually relative to the message area of the 'Git Staging' view). Eric has also seen this.

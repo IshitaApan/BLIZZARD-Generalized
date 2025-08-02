@@ -1,0 +1,3 @@
+[Import/Export] preference page has extra border
+
+3.2 20050808 with the windows manifest When you open the import/export page with the manifest you get an extra border on each page.

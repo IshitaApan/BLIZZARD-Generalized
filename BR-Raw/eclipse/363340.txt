@@ -1,0 +1,3 @@
+[Compatibility] PopupMenuImpls are leaking in the 'Outline' view
+
+When I open and close editors, more and more PopupMenuImpls are being appended to the 'Outline' part's list of menus. This probably affects all PBVs.

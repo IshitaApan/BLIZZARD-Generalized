@@ -1,0 +1,3 @@
+[Workbench] Close Project operation has no task name
+
+RC1 If I close a couple of projects th dialog comes up but there is no task name ever set so I always get an "operation in progress" message.

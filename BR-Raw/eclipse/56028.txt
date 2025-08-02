@@ -1,0 +1,3 @@
+[Preferences] Move startup/shutdown prefs from Workbench pref page to Startup
+
+build I20040324 Q from Julian: Do you think the Prompt for Workspace and Refresh workspace options are better placed one the "Startup" preference page? A from Nick: Not a bad idea. It would help clean up some of the clutter on the main page. I'd be inclined to move "Confirm exit when closing last window" there too and rename the page to "Startup and Shutdown".

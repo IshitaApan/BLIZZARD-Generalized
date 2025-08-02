@@ -1,0 +1,3 @@
+[KeyBindings] Contexts/scopes don't appear in keys preference page
+
+When selecting commands in the keys preference page, they don't have any context associated with them.

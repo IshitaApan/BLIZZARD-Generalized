@@ -1,0 +1,3 @@
+system menu enables/disables unpredictably
+
+I20100425-2000 1. Start Eclipse. 2. Close the 'Welcome' view. 3. Alt+- on the 'Package Explorer' > Fast View 4. Click on the icon to bring it up. 5. Alt+-, see that the 'Move' menu item is enabled. 6. Alt+-, see that the 'Move' menu item is now disabled.

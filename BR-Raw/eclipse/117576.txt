@@ -1,0 +1,2 @@
+[WorkingSets] label changes dont cause event firings
+

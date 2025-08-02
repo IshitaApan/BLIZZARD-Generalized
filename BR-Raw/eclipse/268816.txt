@@ -1,0 +1,3 @@
+[WorkbenchLauncher] 'Workspaces' preference page does not inherit dialog font
+
+Created attachment 128939 Apply dialog font patch v1 Build id: I20090310-0100 1. Window > Preferences > General > Appearance > Colors and Fonts 2. Basic > Dialog Font 3. Click 'Change...' and increase the font size. 4. Click 'OK' to commit the changes and close the dialog. 5. Window > Preferences 6. See that the font size has increased for the 'Colors and Fonts' preference page. 7. General > Startup and Shutdown > Workspaces 8. See that the font size is the default font size in the 'Workspaces' preference page.

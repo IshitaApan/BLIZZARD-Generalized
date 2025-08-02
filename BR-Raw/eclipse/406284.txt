@@ -1,0 +1,3 @@
+TrimStack does not use localized label for minimized Parts in TrimStack
+
+Version: Kepler Release Build id: 20130320-2352 When a Part(Stack) is minimized, the ToolTip set is not the localized value of the Part's label but the actual String (e.g. "%key" instead of "value"). I think this is caused in org.eclipse.e4.ui.workbench.addons.minmax.TrimStack updateTrimStackItems() { ... newItem.setToolTipText(getLabelText(labelElement)); } If in getLabelText(MUILabel label) getOverrideTitleToolTip((MUIElement) label) returns null the Label is set to String string = label.getLabel(); I think this should instead be String string = label.getLocalizedLabel;

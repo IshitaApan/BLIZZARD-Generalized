@@ -1,0 +1,3 @@
+[MinMax] Maximized state of the Editor stack is no longer maintained across perspective switches
+
+If you have two perspective stacks open and maximize the editor area in both when you switch back to the first perspective note that the are has reverted back to it's 'restored' state... This is a regression, not really sure when it got introduced. We should look at 'tag' changes during a perspective switch in the MinMaxAddon to see where the tag is being removed (or if it's just the CTabFolder's button state that's wrong...)

@@ -1,0 +1,3 @@
+[Commands] parameters: Provide commands for the "Show In" menu items -- allowing key bindings
+
+This is for M1. I assigned a key to "Show in Package Explorer" (Ctrl+Alt+O). I open a Java file and press the key, the file is show in the Package Explorer. I open a text file and press the key, nothing happens. However if I select from the menu Navigate -> Show In -> Package Explorer, the file is show in the Package Explorer.

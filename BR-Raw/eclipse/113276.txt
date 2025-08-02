@@ -1,0 +1,3 @@
+ModelProvider patch to support logical models
+
+Here is a patch that includes the capability to support the batching of resource mappings by model provider. We need this so we can obtain, using the adaptable mechanism, model related funtionality for performing operations on a set of resource mappings that all originate from the same model.

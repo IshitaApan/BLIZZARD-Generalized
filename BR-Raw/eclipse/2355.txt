@@ -1,0 +1,3 @@
+AbstractUIPlugin.initializeImageRegistry is final (1GETC7J)
+
+The spec for AbstractUIPlugin.initializeImageRegistry(ImageRegistry) says it can be overridden, but it's marked final. This is a little cruel. NOTES:

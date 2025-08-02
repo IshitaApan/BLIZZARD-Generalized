@@ -1,0 +1,3 @@
+[DataBinding] doSetValue in WritableValue
+
+I have redefined equals() and hashcode() method in my own Object. So two different instances (i1 and i2) can be equals. I create an WritableValue w initialize with i1. When I tried w.setValue(i2) and I get the value with w.getvalue(), i1 as returned instead of i2. DoSetValue in Writable value : public void doSetValue(Object value) { boolean changed = false; if (this.value == null && value != null) { changed = true; } else if (this.value != null && !this.value.equals(value)) { changed = true; } if (changed) { fireValueChange(Diffs.createValueDiff(this.value, this.value = value)); } } Can you change "!this.value.equals(value)" by "this.value != value ", please ?

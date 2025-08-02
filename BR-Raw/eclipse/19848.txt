@@ -1,0 +1,3 @@
+Action multiple set contributions lost when one action set removed
+
+20020610 1) Open resource perspective 2) Window>Customize Perspective 3) Turn on Java Debug, OK 4) Look at the contents of the run menu 5) Window>Customize Perspective 6) Turn on Debug, Launch, OK 7) Look at the contents of the run menu 8) Window>Customize Perspective 9) Turn off Java Debug, OK 10) Look at the contents of the run menu, all action set contributions are gone.

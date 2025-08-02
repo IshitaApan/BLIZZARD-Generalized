@@ -1,0 +1,3 @@
+Quick switch editor only works for one editor
+
+Using Eclipse 4.3 (Linux, Mac) or 4.4 I20130717-1600 (Linux) 1. Open 2 files in two editors side by side 2. Ctrl+E in the left editor, Quick switch appears at the top of the left editor. 3. Ctrl+E in the right editor. Quick switch still appears at the top of the left editor. This is a regression compared to 3.8.

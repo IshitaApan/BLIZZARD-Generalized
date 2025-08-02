@@ -1,0 +1,3 @@
+[PropertiesView] ComboBoxPropertyDescriptor should provide a defualt label provider
+
+ComboBoxPropertyDescriptor requires an array of string values in its contructor. These are used to display in the combo box cell editor. Typically clients must also supply a label provider with the same array of values in order to show the correct value when the cell editor is not active. The descriptor should create a default label provider based on the values passed in its constructor.

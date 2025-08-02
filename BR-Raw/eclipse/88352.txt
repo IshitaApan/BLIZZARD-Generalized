@@ -1,0 +1,3 @@
+Operation supports leaks contexts via action handler
+
+I20050315-1100 Susan, this is a different leak from the one that I reported. Test Case: 1. open text editor 2. close text editor ==> DefaultUndoManager is leaked due to undo/redo actions handlers still holding on to the context.

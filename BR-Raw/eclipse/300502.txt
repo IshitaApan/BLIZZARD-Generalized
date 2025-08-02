@@ -1,0 +1,3 @@
+Add UI for finer grained file permissions
+
+Bug 297228 introduced a new set of EFS attributes that is available on unix like platforms. Those have to be exhibited in resource's property page.

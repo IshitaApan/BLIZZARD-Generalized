@@ -1,0 +1,3 @@
+System UI jobs should specify display
+
+20031104 System UI jobs should specify the display as we are creating displays and workbenches uneccessarily. Also the display creation code should avoid using the workbench by checking if it has been created.

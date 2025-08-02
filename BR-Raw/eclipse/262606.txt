@@ -1,0 +1,3 @@
+[CommonNavigator] Up button after "go into" has bad tooltip text
+
+I20090127-0100 1) Select a Java project 2) right-click, select "Go Into" 3) Hover over the Up button, the tooltip text is impressive

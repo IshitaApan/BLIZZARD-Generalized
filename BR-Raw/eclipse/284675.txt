@@ -1,0 +1,3 @@
+[Compatibility] background editor appears to get commands
+
+After a while and an undetermined set of steps, commands executed (like cut, copy, paste, content assist) don't do anything in the "active" editor but effect a previous editor. Due to the way the lookup currently works, it is mostly likely caused by the change to that editor is not updating the IEclipseContext ACTIVE_CHILD (so the commands are being retrieved from the previous editor). PW

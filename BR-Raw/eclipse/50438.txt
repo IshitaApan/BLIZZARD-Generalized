@@ -1,0 +1,3 @@
+[RCP] Progress view icon "area" shows even if setShowStatusLine(false) is called
+
+Build: M6 If I call IWorkbenchWindowConfigurer.setShowStatusLine(false) in my WorkbenchAdvisor's preWindowOpen(IWorkbenchConfigurer) method the status line is hidden. BUT, the action with a tooltip of "Double click to open Progress View" which appears in the bottom left of the window still shows. The action is missing/can't find its icon so it just shows as empty screen space, but it shows over views that I put on the left side of the window.

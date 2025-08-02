@@ -1,0 +1,3 @@
+[Dialogs] ErrorDialog resize behaviour should be improved
+
+The resize behaviour of the ErrorDialog lacks a few constraints: - You can resize the dialog arbitrarily. A minimum size should be calculated dynamically to make sure that all components are visible. - If visisble - the details field upper left position should be fixed and the field itself should resizes only.

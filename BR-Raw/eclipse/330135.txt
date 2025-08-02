@@ -1,0 +1,3 @@
+Start e4 RCP several times fails
+
+In Eclipse 3.X I could start an RCP application several times. I like that because I could have an "old" version and the "new" version running side by side. If I try to do this in e4 I get "Could not launch the application because the associated workspace is currently in use by another Eclipse instance." The same restriction applies for an exported product which I think is really bad.

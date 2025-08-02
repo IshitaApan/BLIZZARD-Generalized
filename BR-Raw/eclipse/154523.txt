@@ -1,0 +1,3 @@
+[Viewers] Needless API function in ViewerLabelProvider
+
+public boolean useNativeTooltip(Object object, int columnIndex) not needed

@@ -1,0 +1,3 @@
+[KeyBindings] new key page is huge
+
+3.1 (M2) The new key View panel is absolutely huge. It expands the dialog to be the width of my entire screen. There is much wasted space and the export button is cut off. Cap forthcoming.

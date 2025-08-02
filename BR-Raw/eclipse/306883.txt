@@ -1,0 +1,3 @@
+Accelerators are never shown on MacOS X
+
+Build Identifier: I20100318-2100 I noticed a while back that the main menus in my app no longer showed keystroke accelerators. Turns out that the EBindingServiceImpl's contextSet is always empty. EBindingServiceImpl#setContexIds() is called a few times, but always with an empty set. As a result, EBS.getBestSequenceFor() always returns null and MenuItemRenderer#setItemText() shows nothing. I'm assuming that setContextIds() should be provided something at some point. But I can't seem to find any users of IServiceConstants.ACTIVE_CONTEXTS nor EBundleService.ACTIVE_CONTEXTS — nor any other occurrences of "activeContexts". Reproducible: Always

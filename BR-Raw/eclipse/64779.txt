@@ -1,0 +1,3 @@
+Pin Icon not showing up when added
+
+build I20040529 Turn on the preference in Workbench > editors > close editors automatically so that the pin icon in the toolbar appears. Make sure the pin is the last icon in the toolbar. Now resize the CBanner so it overtakes the pin icon in the toolbar Note that it cuts off the pin icon on the right for about 5 pixels before the coolbar wraps.

@@ -1,0 +1,2 @@
+[QuickAccess] Don't open QuickAccess dialog fully expanded
+

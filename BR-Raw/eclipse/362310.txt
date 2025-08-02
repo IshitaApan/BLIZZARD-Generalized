@@ -1,0 +1,3 @@
+[Compatibility] Cannot open the live editor from Ctrl+3 anymore
+
+The live editor should be openable by Ctrl+3. This is no longer the case. Broken by ba20d05731c7e31d4909888f4885a0a351dd090a. http://git.eclipse.org/c/platform/eclipse.platform.ui.git/commit/?id=ba20d05731c7e31d4909888f4885a0a351dd090a

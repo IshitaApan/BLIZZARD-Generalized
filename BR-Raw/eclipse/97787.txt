@@ -1,0 +1,3 @@
+[EditorMgmt] Untitled Text Editor - Can lose unsaved content when reusing text editors
+
+3.1 RC1, Win XP - In the preferences for General>Editors, set editor reusing as follows: - check the box "Close editors automatically" - Set "Number of opened editors before closing" to 2 - Set the radio button to "Prompt to save and reuse" - Open an untitled text file (Untitled 1) and type some text. - Open another (Untitled 2) and type some text. - Try to open an untitled text file and you will be prompted with: 'Untitled 1' has been modified. Save changes? - Select yes to save - Then cancel out of the save dialog Expected: the new untitled file should not open Actual: Untitled 3 is opened and the contents for Untitled 1 are lost.

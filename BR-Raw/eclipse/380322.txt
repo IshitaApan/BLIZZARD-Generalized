@@ -1,0 +1,3 @@
+Scheme is ignored while selecting the best shortcut to display
+
+When you switch to the emacs scheme, Edit>Find/Replace still shows CTRL+F (although that's next word in emacs). It should be ALT+R. That's because getBestSequenceFor(*) ignores the scheme when sorting the bindings. It should sort by scheme first, and then pick best values out of that. PW

@@ -1,0 +1,3 @@
+[Wizards] Wizard pages are not sizing buttons
+
+The buttons in the wizard pages are not sizing themselves the same way that they do in the preference pages. For instance the wizard import pages has small browse buttons.

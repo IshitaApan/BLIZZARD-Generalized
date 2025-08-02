@@ -1,0 +1,3 @@
+[Wizards] cancelable parameter does not disable Wizard progress bar cancel button
+
+Implementing a wizard using org.eclipse.jface.wizard.Wizard that calls getContainer.run() with false for the cancelable parameter does not disable the cancel button beside the progress bar.

@@ -1,0 +1,3 @@
+[CommonNavigator] labels are missing
+
+Created attachment 146876 missing labels see the screenshot labels are missing in EAR and EJB project.

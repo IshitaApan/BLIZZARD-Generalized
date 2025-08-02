@@ -1,0 +1,3 @@
+[Compatibility] Selection retrieved from ISelectionService doesn't match the active part's selection provider's selection
+
+In 4.x, we implement getSelection() by asking the context for the selection. In 3.x, the selection is retrieved directly from the active selection provider. This discrepancy causes problems when working with the visual ecore editor.

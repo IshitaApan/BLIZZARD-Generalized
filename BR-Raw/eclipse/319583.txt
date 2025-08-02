@@ -1,0 +1,3 @@
+Parts misbehaving after a perspective switch
+
+1. Launch your inner. 2. Make a new Java project. Make a class. Add a hello world print statement. 3. Ctrl+Shift+B for a breakpoint. Right-click > Debug As > Java Application 4. When prompted, confirm to switch perspectives. 5. The 'Debug' view's content will flash for a second before going empty. F8 to let the application run to completion. 6. The 'Debug', 'Variables', and 'Console' view's stacks will all not activate. You can only activate the editor area and the 'Outline' view's stack. Closing views will not save you. 7. Window > Open Perspective > Java 8. Magically, the 'Variables', 'Debug', and 'Breakpoints' view are now appearing in the bottom stack.

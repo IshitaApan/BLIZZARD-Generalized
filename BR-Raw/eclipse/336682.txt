@@ -1,0 +1,3 @@
+[ErrorHandling]  testSupport2 swallows the exception
+
+catch clause uses fail(); It would be better to use finally and then propagate the exception.

@@ -1,0 +1,3 @@
+[Viewers] [open type] Problem with Open Type filtering
+
+Created attachment 107108 Showing the MenuManager case I have org.eclipse.jface checked out in my workspace. Typing MenuManage shows a random type and MenuManagerTest, but not MenuManager (which is definitely there). Menu*er will leave MenuManager in your Open Type choices (just way down). IMenuC will show the random type and IMenuCreator, but adding the r (so IMenuCr) makes IMenuCreator disappear. PW

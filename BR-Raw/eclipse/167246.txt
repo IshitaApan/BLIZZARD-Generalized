@@ -1,0 +1,3 @@
+[StatusHandling] Extra method in AbstractStatusHandler
+
+I'm not convinced that addLoggedStatus(*) needs to be in this class. It looks like it is specifically designed to prevent our own default handler from feeding back into the StatusManager when we log. Perhaps the WorkbenchErrorHandler can just call it directly on the StatusManager instance. PW

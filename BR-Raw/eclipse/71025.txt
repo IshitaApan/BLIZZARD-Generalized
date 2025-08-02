@@ -1,0 +1,3 @@
+[PerspectiveBar] Add drag and drop support for re-ordering perspective items
+
+It should be possible to re-order items in the perspective bar since the bar will occasionally change the order when ensuring perspectives remain visible.

@@ -1,0 +1,3 @@
+[Dialogs] ListSelectionDialog dialog alignment
+
+Deselect All should be right aligned with Cancel. Reached through pref page Java Build Path/Projects/Add

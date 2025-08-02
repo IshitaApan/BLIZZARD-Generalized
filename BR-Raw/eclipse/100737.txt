@@ -1,0 +1,3 @@
+[WorkbenchParts] Part not activated when Part's control is activated
+
+1) In a non-foreground perspective, display the outline view 2) In the foreground perspective, close the outline view 3) Open a GEF Logic example editor 4) Open the outline view in the foreground 5) Click on editorpart, then click on outline's tree control. The EditorPart still has part activation, even though focus is on the outline's control. Reproduced in 0602 and RC3

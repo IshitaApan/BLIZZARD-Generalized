@@ -1,0 +1,3 @@
+[Undo] changes outside the current editor are still executed when pressing Esc
+
+I20050928-1300 class Try { 	private static class MoveToNewFile { } } - select MoveToNewFile and execute Refactor > Move Member Type to New File - click OK - choose Edit > Undo Move Member ... - press the Esc key to dismiss the dialog => the undo is executed as if I clicked Yes or pressed the Return key

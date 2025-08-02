@@ -1,0 +1,3 @@
+[Colors] NoSuchElementException setting color value after it has been previously set.
+
+M7 1) Set a color to a custom value. 2) Restart eclipse 3) Try and set the color to another custom value (or Reset) 4) Note the exception due to preference default being the empty string.

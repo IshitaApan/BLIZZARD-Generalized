@@ -1,0 +1,3 @@
+[Linked Resources] Disable/hide linked resource UI
+
+UI for creating linked resources (New file wizard, new folder wizard, new folder dialog, path variables preference page) should be disabled or hidden entirely when linked resources are disabled as described in bug 31040.

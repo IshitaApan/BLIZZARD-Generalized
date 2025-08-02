@@ -1,0 +1,3 @@
+[Preferences][Themes] Appearance page cumulative fixes
+
+Bug 97641 Bug 98668 Bug 55253 - alignment of Left radio in Perspective switcher positions - Restore Defaults does not disable groups/radios - unchecked Override presentation settings does not disable groups

@@ -1,0 +1,3 @@
+Workspace.run reports null task name in beginTask
+
+3.2 Noticed that Workspace.run uses beginTask(null, ...), which is contrary to the spec of IProgressMonitor. Saw this while tracking down an NPE in org.eclipse.jface.action.StatusLine.subTask due to a null subtask name. Recommend checking all senders of beginTask, setTaskName and subTask in core. Might want to change StatusLine to accept nulls for these as well (it already does for some).

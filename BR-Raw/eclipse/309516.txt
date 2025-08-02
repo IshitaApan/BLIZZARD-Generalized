@@ -1,0 +1,3 @@
+[Compatibility] Mouse clicks in left editor margin are not being picked up
+
+Double-clicking on the margin to set a breakpoint does not work. Workaround: Use Ctrl+Shift+B. Clicking in the up arrow for overridden/implemented methods not work. Workaround: Manually navigate there. Double Ctrl+O does not work, presumably because of bug 308593. Quick fixes cannot be clicked on. Workaround: Use Ctrl+1 instead.

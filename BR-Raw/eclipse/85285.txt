@@ -1,0 +1,3 @@
+[Contributions] ProjectPersistentPropertyTester should work for IResource
+
+In 3.1 M5, we added a ProjectPersistentPropertyTester that could be used for visibility determination of object contributions to ResourceMapping. It would make sens if this could be used for IResource directly as well. This is not important enough to go into M5 but I think it is worthwhile to have it in 3.1. I will attach a patch.

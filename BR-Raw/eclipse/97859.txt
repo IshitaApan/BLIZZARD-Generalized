@@ -1,0 +1,3 @@
+[DetachedViews] non-closeable view can be closed after detaching
+
+When you detach a non-closeable view, the new shell containing the detached view can be closed. This will close the non-closeable view too.

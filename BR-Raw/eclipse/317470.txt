@@ -1,0 +1,3 @@
+Minimized 'Outline' view has non-white background on restart
+
+1. Minimize the 'Outline' view. 2. Close Eclipse. 3. Start Eclipse. 4. Restore the 'Outline' view. 5. Its background colour is grey instead of white.

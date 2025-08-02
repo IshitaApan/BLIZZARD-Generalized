@@ -1,0 +1,3 @@
+[StatusHandling] [BiDi] Stacktrace "Details" text area should always be LTR
+
+Build ID: 3.3M6 Steps To Reproduce: 1. Launch platform with program argument "-dir rtl" 2. Open a perspective that causes the error status view to show up. 3. Observe the Details text area is formatted RTL even though the content will always be standard Java stacktrace that should be displayed LTR for easier readability: More information:

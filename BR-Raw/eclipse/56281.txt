@@ -1,0 +1,3 @@
+[ViewMgmt] View message is now the full title instead of the string between ()'s
+
+200403251651 Note that all views that add a message (via using "()"'s in their title) now show the entire title string instead of the contents of the "()"'s. This is hard to explain. Image forthcoming.

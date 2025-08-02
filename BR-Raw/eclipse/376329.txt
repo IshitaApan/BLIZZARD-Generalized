@@ -1,0 +1,3 @@
+Arrow keys in quick access dialog also move carat in search box
+
+Version: 4.2.0 Build id: I20120321-0610 FUP to bug 374058 Steps: 1. type something in the quick access text field 2. popup shows (OK), down arrow to start traversing content in the popup (OK) 3. realize that you went too far in the list and press the up arrow in popup and notice that the carat in the search field moves backwards. I would expect that the carat would not move in the search field unless I used the left / right keys. I confirmed this is only a problem on Windows and does not affect Linux (did not test Mac).

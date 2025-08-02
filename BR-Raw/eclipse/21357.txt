@@ -1,0 +1,3 @@
+[Viewers] TreeViewer(Composite parent,int style) javadoc error
+
+The javadoc explains what style-bits are set, but it's obviously a copy'n'paste error: Creates a tree viewer on a newly-created tree control under the given parent. The tree control is created using the given SWT style bits. The viewer has no input, no content provider, a default label provider, no sorter, and no filters. The tree control has the MULTI, H_SCROLL, V_SCROLL and BORDER style bits set.

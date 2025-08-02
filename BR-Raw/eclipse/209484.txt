@@ -1,0 +1,3 @@
+[Databinding] ObservableSetContentProvider does not update knownElements
+
+Build ID: M20071023-1652 Steps To Reproduce: 1. Use a ObservableSetContentProvider in a databinding table 2. Evaluate the knownElements member 3. knownElements is always empty More information: We use a modified ObservableSetContentProvider to bind a table to a model. Moreover, we would like to register for all known Elements in this table using the member 'knownElements' of this class. However, this elements in this member are always empty. There seems to be a bug in method setInput(): 1.) The set of known elements is created in the constructor. 2.) In the inputChanged method (and then in setInput()) the readable set is set to a new value, but the knownElements remains unchanged.

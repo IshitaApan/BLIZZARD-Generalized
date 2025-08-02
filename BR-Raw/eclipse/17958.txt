@@ -1,0 +1,3 @@
+[Wizards] ZipFileImportWizard should allow configuration of supported file extensions
+
+When selecting the source ZIP file, the user hits the "Browse..." button which opens the File Open Dialog. The file extensions are set to *.jar, *.zip There are other files such as *.war files which are in ZIP format and it would be nice to ehance the ZipFileImportWizard so that these extensions are read from a configuration/properties file. Currently, they are hardcoded in org/eclipse/ui/wizards/datatransfer/WizardZipFileResourceImportPage1.java

@@ -1,0 +1,3 @@
+[Progress] [Progress] Part leaked via ProgressAnimationItem.lastJobInfo
+
+3.3 M7 - ran a long-running operation in a view, which used the site's progress service - closed the view (after the operation completed) - YourKit shows the view still being held onto via the job referenced from ProgressAnimationItem.lastJobInfo See the first ref trace in the attachment.

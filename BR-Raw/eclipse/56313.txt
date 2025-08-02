@@ -1,0 +1,3 @@
+[About] No context menu on selectable text in "About" dialog
+
+I200403260010 - choose Help > About Eclipse Platform - doubleclick on the build id number - right-click on the selection, or try to open context menu via Shift-F10 -> expected: context menu with "copy" appears (as it e.g. does when invoked when the error count in the JUnit view is selected) -> was: no context menu

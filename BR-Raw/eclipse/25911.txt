@@ -1,0 +1,3 @@
+[Navigator] Go Into is missing from context menu
+
+build 20021105 + latest from HEAD With the menu reorg for go to resource, the Go Into item has disappeared from the Navigator's context menu. It should remain there, but the Go To submenu can go away. Compare with Package Explorer.

@@ -1,0 +1,3 @@
+[Compatibility] 'Line Up' and 'Line Down' no longer work in content assist pop-up
+
+4.2 RC4. 'Line Up' and 'Line Down' no longer work in content assist pop-up. This works fine in 3.8 RC4. Steps: 1. start new workspace 2. assign a new key binding to 'Line Down' 3. paste this: "class A {}" into Package Explorer 4. invoke Content Assist (don't give focus to pop-up) 5. use the key binding from step 2. ==> in 3.8 this moves the selection in the pop-up as expected, but in 4.2 it moves down inside the editor. The code which installs the handlers can be found in: org.eclipse.jface.text.contentassist.ContentAssistant.install()

@@ -1,0 +1,3 @@
+[TabbedProperties] need getters and setters for the current Tab
+
+We have some use cases where we need to remember the current active Tab and Section and later in the lifecycle we need to select those again. Currently there is no API for this functionality.

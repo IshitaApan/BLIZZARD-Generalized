@@ -1,0 +1,3 @@
+Selection changes for shared parts may not be propagated if they were not originally rendered in the model
+
+The search algorithm currently only iterates through containers for parts. This will not work for parts that are represented by placeholders.

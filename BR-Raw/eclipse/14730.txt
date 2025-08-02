@@ -1,0 +1,3 @@
+Edit button in working set dialog does nothing
+
+Build 20020425: Open the working sets dialog "Window > Working sets" and select an existing working set and select it from the list then select the edit button nothing happens. This has been working properly for ages, now it's broken.

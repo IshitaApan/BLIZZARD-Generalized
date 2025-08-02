@@ -1,0 +1,3 @@
+[StatusHandling] NullPointerException in StatusAdapterHelper#clear()
+
+NullPointerException in StatusAdapterHelper#clear()

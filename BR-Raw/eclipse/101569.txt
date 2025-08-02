@@ -1,0 +1,3 @@
+[Examples] Examples project used to build samples have warnings
+
+The following projects produce warnings when checked out into the 4pm build with all JDT preferences set to defaults: org.eclipse.ui.examples.propertysheet org.eclipse.ui.examples.readmetool Please fix and release into HEAD. I will fix up warnings in my workspace.

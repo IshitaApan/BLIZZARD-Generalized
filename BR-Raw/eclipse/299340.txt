@@ -1,0 +1,3 @@
+[CommonNavigator] Enable new CNF tests
+
+Enable the contributed CNF tests, make minor test improvements.

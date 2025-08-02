@@ -1,0 +1,3 @@
+[Compatibility] Workbench window menu bar submenus keeps growing
+
+Submenus like 'Search > Text' keeps growing in size.

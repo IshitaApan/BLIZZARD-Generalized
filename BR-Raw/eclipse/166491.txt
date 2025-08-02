@@ -1,0 +1,3 @@
+[JFace] Move Snippet020 from viewers to window package
+
+as said above patch to follow

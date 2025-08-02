@@ -1,0 +1,3 @@
+[WorkbenchParts] SelectionListener possible bug
+
+I have a problem which may be RCP bug or just my bug. My setup is this: I have a EditorPart with table as selection provider. Then I have I ViewPart which is registered to listen to selection events. The problem I'm having is that my View doesn't get selection change events if I open the view part after I open the editor part. So is this only my problem or it is a RCP bug? I found out that 	public void addSelectionListener(String partId, ISelectionListener listener); has a bug. When I use this method the ViewPart doesn't get the events when opened after the EditorPart for the first time. As I can see the EditorPart doesn't still have a PagePartSelectionTracker. The second time the ViewPart is opened it works fine.

@@ -1,0 +1,3 @@
+Add description attribute to MPartDescriptor/MPart
+
+Adding this new attribute we could e.g. show additional informations about a Part in Show View-Dialog, ...

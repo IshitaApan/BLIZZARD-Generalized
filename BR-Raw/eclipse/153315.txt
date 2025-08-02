@@ -1,0 +1,3 @@
+[Contributions] The ToggleAutoBuildAction lacks an action definition id
+
+Because the ToggleAutoBuildAction lacks an action definition id we can not use activities to hide this from the project menu. We found that adding one fixes this problem: public ToggleAutoBuildAction(IWorkbenchWindow window) { super(IDEWorkbenchMessages.Workbench_buildAutomatically); this.window = window; setChecked(ResourcesPlugin.getWorkspace().isAutoBuilding()); setActionDefinitionId("org.eclipse.ui.project.buildAutomatically"); //$NON-NLS-1$ }

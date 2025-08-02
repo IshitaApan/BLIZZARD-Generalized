@@ -1,0 +1,3 @@
+Blank spaces show up if views of multiple view stacks are placed into the shared area
+
+Created attachment 202829 Screenshot depicting the behaviour in question. 1. Open the 'Debug', 'Breakpoints', and 'Variables' view. 2. Place them into the shared area. 3. Open the 'Debug' perspective. 4. The top part where the views would've been is visible but blank.

@@ -1,0 +1,3 @@
+[DataBinding] swallowing the exception in get/set value of the JavaBeanObservableValue
+
+During the bidning of beans that have PropertyChangeSupport implemented but not properly initialized (i.e null), data binding "swallows" the NullPointerException only logging "Could not attach listener to".

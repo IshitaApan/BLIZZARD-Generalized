@@ -1,0 +1,3 @@
+[Import/Export] Zip export dialog not append .zip if there is already an extension
+
+Sometimes, when the Jar export dialog doesn't have the options I want, I use the zip export dialog to build a jar. Unfortunately, if I specify a file name of foo.jar, the zip export dialog insists on adding ".zip" to the end of the file name. Would it be possible to make it so ".zip" is not automatically added if there is already an extension on the file name (or specifically if ".jar" is there)? Or could there be a checkbox added on the export dialog to turn off the automatic appending of .zip?

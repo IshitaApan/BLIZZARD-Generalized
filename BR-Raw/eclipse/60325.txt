@@ -1,0 +1,3 @@
+[RCP] review AbstractUIPlugin.initializeDefaultPluginPreferences() API
+
+Plugin.initializeDefaultPluginPreferences() is now deprecated, and there is a new story in place. AbstractUIPlugin re-implements this method, and offers it as API to its subclasses. Review the AbstractUIPlugin API to see what should be done here.

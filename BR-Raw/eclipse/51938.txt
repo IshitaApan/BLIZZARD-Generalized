@@ -1,0 +1,3 @@
+[Jobs] need better label for IProgressMonitor.UNKNOWN jobs
+
+The job's label will be stuck at 0% until the job has finished if totalWork is set to IProgressMonitor.UNKNOWN. There should be a better label. Either have three moving dots (_ is a space): ____ .___ ..__ ..._ _... __.. ___. repeat Or a moving line: | / - \ repeat Or a string like "undetermined"/"unknown"/"N/A", or something similar.

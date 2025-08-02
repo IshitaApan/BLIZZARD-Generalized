@@ -1,0 +1,3 @@
+[CommonNavigator] Closed projects have a + indication after IDE restart
+
+The content provider "JEE Navigator Content App Client" and "JEE Navigator Content EAR" cause the project explorer to display the [+] symbol on closed projects. How to reproduce - Distro: "Eclipse IDE for Java EE Developers" - Close a project - Activate the "JEE Navigator Content App Client" at "Project Explorer" -> "Customize View" -> "Content" Possible a bug in the "public boolean hasChildren(Object element)" methods of the two content provider.

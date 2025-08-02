@@ -1,0 +1,3 @@
+[Dialogs] StatusDialog should extend TrayDialog
+
+I20060131-1200 In bug 119666 we are advised to use a TrayDialog for all non-trivial dialogs. Most of our dialogs extend StatusDialog which add a status line to a dialog. These dialogs typically contain one or more input fields and most of them also have context help available. For these reasons I would suggest to also have StatusDialog extends TrayDialog. If not we would need a TrayStatusDialog.

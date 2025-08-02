@@ -1,0 +1,3 @@
+[Wizards] WizardNewProjectCreationPage.setInitialProjectName() - validation is not performed on statrup?
+
+Example. Setting *initialProjectName* with the name of the existing project does not give a hint thet project already exists. But when you start editing project name even not changing it (aka select all/copy/paste) - validation is performed and the hint appears.

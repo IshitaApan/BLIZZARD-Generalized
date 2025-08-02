@@ -1,0 +1,3 @@
+[Decorators] Need to optimize the fullDefinitions case
+
+As you will most of the time have no full decorator definitions we should do the following: 1) If there are no full decorators skip the conversion to the array 2) enabledFullDefinitions should have the same short circuit 3) writeDecoratorsPreference should also short circuit

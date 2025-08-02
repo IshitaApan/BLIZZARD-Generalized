@@ -1,0 +1,3 @@
+Should ISaveableModel#doSave throw a CoreException?
+
+Should ISaveableModel#doSave throw a CoreException? Without this, models will need access to a UI context (i.e. a shell) and would need to cancel the progress monitor if an error occur. If the save throws a CoreException, the model would not need to do any promting on a save failure.

@@ -1,0 +1,3 @@
+[ViewMgmt] Views with secondary ids wont play nice with the part selection service
+
+I20040512 From looking at the code I believe that the part selection service will fire selection changed events for all views that share a common id irregardless of secondary id. This is strange behaviour... if it's the case. As I said, it's just a hunch.

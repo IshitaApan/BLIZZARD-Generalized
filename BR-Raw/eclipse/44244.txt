@@ -1,0 +1,3 @@
+New Java Project wizard does not honor project creation Preference
+
+Steps to recreate: 1) Open Java perspective. 2) Create new Java project. 3) You are asked to switch perspectives, wich IMHO, is incorrect since I am already in the Java perspective. 4) Say Yes to swtiching perspectives, another Java perspective is opned in the same window. This seems confusing, and redundant. Staying in the Java perspective should have been the end result. ie: if I am in the Java perspective already, I should have not been prompted. If I was in another pespective, only open a Java perspective if one is not there already, otheriwse, just switch. Version 3.0.0 Build id: 200308281813

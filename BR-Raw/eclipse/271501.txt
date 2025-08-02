@@ -1,0 +1,3 @@
+[CSS] CSSSWTApplyStylesListener - does it need to shell.pack()
+
+Bug #268679 made the following change in CSSSWTApplyStylesListener: 		public void handleEvent(Event event) { 			Widget widget = event.widget; -			if (widget instanceof Shell) -				((Shell) widget).pack(); +//			if (widget instanceof Shell) +//				((Shell) widget).pack(); 		} I suspect this code is required for triggering lazy style applying. Angelo?

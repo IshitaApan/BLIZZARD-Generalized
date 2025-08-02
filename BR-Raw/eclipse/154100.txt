@@ -1,0 +1,3 @@
+Platform level proxy settings
+
+There are at least three proxy settings pages in Callisto. We will work with the Eclipse community to make sure that the core capabilities from these pages are made available at the Platform level, as a single settings page that can be consumed by all. [Runtime, Team, Update, UI]

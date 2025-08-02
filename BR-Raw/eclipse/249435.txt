@@ -1,0 +1,3 @@
+CollapseAllHandler has incorrect javadoc
+
+At the class level javadoc, it says... handlerService.activateHandle(CollapseAllHandler.COMMAND_ID, collapseHandler); ...it should be... handlerService.activateHandler(CollapseAllHandler.COMMAND_ID, collapseHandler); ...activeHandler, not activateHandle.

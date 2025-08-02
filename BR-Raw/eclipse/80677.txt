@@ -1,0 +1,3 @@
+[Progress] UI dead after error message from progress view
+
+I20041208-gtk (also see screenshot I will attach) While synchronizing, I already started looking at incoming changes. At some point, while opening the compare viewer (upper progress dialog on screenshot), an error occurred in CVS (see trace below), which caused the progress view to pop up an error dialog (lower dialog on screenshot) telling me about the failure. While the UI seems live (redraws do occur), no events get through to the dialogs, I cannot push a button using the mouse or keyboard. Eclipse is dead. I suppose it has something to do with double modal context threads or so.

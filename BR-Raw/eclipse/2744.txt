@@ -1,0 +1,3 @@
+Add comment to IPropertySource advising IPropertyDescriptor reuse (1GKM7ND)
+
+We should add a comment to the IPropertySource.getPropertyDescriptors javadoc indicating that the descriptors should be cached. PropertySheetEntry asks for the descriptors with any edit/update. Since the descriptors provide the cell editor, returning the same descriptor if possible allows for imporved updating. NOTES:

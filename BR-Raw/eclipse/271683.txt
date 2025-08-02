@@ -1,0 +1,3 @@
+[Compatibility] hook into the popup menus, somehow
+
+It would be nice if we were filling in context menus with either object contributions or menu contributions (or both). PW

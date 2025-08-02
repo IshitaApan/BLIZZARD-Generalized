@@ -1,0 +1,3 @@
+UIJob should check cancellation more
+
+RC1 We should check cancellation before we start an asyncExec and before we call runInUIThread.

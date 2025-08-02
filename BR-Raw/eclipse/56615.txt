@@ -1,0 +1,3 @@
+[Wizards] New Project Wizard Dialog Labels are Staggered by 4 Pixels
+
+This has been bugging me for a bit. The "Wizards:" and "Description:" labels do not align vertically. The "Wizards:" label is positioned four pixels above the "Description:" label.

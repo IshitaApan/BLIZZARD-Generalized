@@ -1,0 +1,3 @@
+New Project Wizard; don't use default 2
+
+- Deselect "Use default" - Select an arbitrary location; say "/test" - Select "Use default" again (say you unfortunately missed the text box by a few pixels and hit the check box's label instead -- it's just a matter of 10 pixels) - Deselect "Use default" a second time - Observe: "Directory" is empty again One would expect that Eclipse remembered the last location (at least while the dialog is shown), e.g. "/test", I've entered manually ...

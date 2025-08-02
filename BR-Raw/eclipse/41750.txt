@@ -1,0 +1,3 @@
+[templates] Code assist not narrowing on templates
+
+Build: I20030820 1) Start with: class A { public void foo() { sys } } 2) With the cursor after "sys", invoke code assist. Note that the templates "sysout", "syserr", etc are in the list. 3) Now type the letter "o". The list disappears, although "sysout" is still a valid match. Expect: it will fill in "sysout" since it's the only valid match 4) Delete the letter "o" and invoke code assist again. 5) Type the letter "t". The list narrows to exclude "sysout". 6) With code-assist still up, hit backspace. Now you have "sys" again, but it no longer recommends "sysout" as a possible completion.

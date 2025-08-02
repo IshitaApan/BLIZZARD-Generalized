@@ -1,0 +1,3 @@
+[KeyBindings] misc: WorkbenchContextSupport should not add/remove key filter more than once
+
+On platform-swt-dev, its becoming more known that Display.addFilter(..) exists, and people may (will) use it to circumvent our system in some cases. My big concern is that the method WorkbenchCommandSupport.setKeyFilterEnabled adds and removes us from Display's listener list. If other clients are adding listeners to this list, the order of the listeners in this list will change over time. Could this inconsistency not lead to bugs - those ferocious, nearly undebuggable kind that eventually someone will sweat over for days.

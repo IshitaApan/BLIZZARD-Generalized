@@ -1,0 +1,3 @@
+[Problems] Problem filter "Only resource in same project" filters everything out
+
+Build 20040219 When using this problem filter, no more problem is visible any longer. The only viable solution is to render *all* problems in workspace to find those in same projects. Big regression.

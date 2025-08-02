@@ -1,0 +1,2 @@
+[Dialog] Invalid result in Open Resource dialog when spaces in pattern
+

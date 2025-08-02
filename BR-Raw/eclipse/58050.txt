@@ -1,0 +1,3 @@
+[ViewMgmt] Return an ordered view stack
+
+Would it be possible to order the collection of views returned from IWorkbenchPage#getViewStack() in terms of activation? It would be nice if the views were returned in the order: stack[0]= currently active view stack[1]= view active before stack[0] stack[2]= view actvive before stack[1] etc. This would make the Debuggers automatic view activation more friendly by letting us go to the last view that a user had active for a language. See Bug 54164.

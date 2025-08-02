@@ -1,0 +1,3 @@
+[PropertiesDialog] [Preferences] Esc does not dismiss properties or preferences dialog
+
+build I20050509-2010 - select a file in the Navigator and choose Properties - after looking at the properties, press Esc to dismiss the dialog - instead of dismissing the dialog, it clears the filter field - pressing Esc again dismisses it Same problem in the preferences dialog. This is unexpected behaviour. Esc is not normally used to clear a field. Esc within a dialog should dismiss it. Suggest not intercepting Esc, and just allowing backspace to clear the field (it's selected by default anyway).

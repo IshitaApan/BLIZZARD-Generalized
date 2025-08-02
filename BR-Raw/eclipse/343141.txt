@@ -1,0 +1,3 @@
+[Markers] Problems view: State lost after checking "Show all items" and clicking OK
+
+N20110417-2000 Problems view > Configure Contents...: - toggle "Show all items" => state of configuration check boxes is restored when "Show all items" is unchecked - check "Show all items" - click OK - reopen dialog - uncheck "Show all items" => just the first configuration is checked => expected: should restore the previous selection

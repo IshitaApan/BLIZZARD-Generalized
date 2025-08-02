@@ -1,0 +1,3 @@
+[Dialogs] Provide a generic info pop dialog
+
+There are several places in the GUI where user create a "info pop-up" dialog. Unfortunately, as it is now, these dialogs are written from scratch and share little common code. A utility class for creating such dialogs would reduce code, and help to ensure a common look & feel. These are the characteristics I see as being common to these dialogs: + Background colour + Always on top + Does not appear in the window list + Deactivating the shell closes it + Resizable; remembers size There might be others as well.

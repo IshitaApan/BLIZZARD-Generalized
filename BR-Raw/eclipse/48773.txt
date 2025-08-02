@@ -1,0 +1,3 @@
+[Preferences] Workbench should use ColorRegistry for color management.
+
+Wherever possible, the workbench should use the new Color API for its colors.

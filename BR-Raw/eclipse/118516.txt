@@ -1,0 +1,3 @@
+[DataBinding] Asserts should provide meaningful messages
+
+Currently we use JDK Assert in various places in the code. However, if an assert fails, there often is no indication of why it failed or what the assert failure means without looking at the code indicated by the stack trace. It would be nicer if we would log exceptions or throw RuntimeExceptions with useful error messages instead.

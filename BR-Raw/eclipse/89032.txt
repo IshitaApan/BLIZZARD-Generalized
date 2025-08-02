@@ -1,0 +1,3 @@
+javadoc issues with contributions
+
+CompoundContributionItem marked experimental CompoundContributionItem IContributionItem[] getContributionItems() has no javadoc

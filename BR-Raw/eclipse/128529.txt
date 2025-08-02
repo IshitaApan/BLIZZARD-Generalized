@@ -1,0 +1,3 @@
+[ViewMgmt] Show View Dialog should be able to show a view's description
+
+i.e. the content of <!ELEMENT description (#PCDATA)>

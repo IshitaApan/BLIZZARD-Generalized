@@ -1,0 +1,3 @@
+[KeyBindings] assist: Not correctly sized when window is narrow or short
+
+see attached image. If i move the shell to the top of the screen and make it narrow the key assist is a small shell, but on left right, bottom it works fine.

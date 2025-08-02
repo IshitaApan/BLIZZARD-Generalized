@@ -1,0 +1,3 @@
+[BIDI] Need to support Hebrew language code change to "he" from "iw"
+
+In org.eclipse.ui.WorkbenchPlugin.checkCommandLineLocale() there is a check for Hebrew platform "iw". According to the following javadoc in the Locale class, it has been changed to "he" (with backward compatibility for "iw"). We need to add "he" as one of the languages we check for in this method. http://www.ics.uci.edu/pub/ietf/http/related/iso639.txt

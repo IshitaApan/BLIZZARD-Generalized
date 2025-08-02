@@ -1,0 +1,3 @@
+Missing menu separators
+
+I20100701-1105. Separators that are contributed by plug-ins are missing, for example the one in the 'Run' menu (compare R3.6 with I20100701-1105). Might be caused by fix for bug 317305. Marking as 'major' because it makes the menu hard to use/read.

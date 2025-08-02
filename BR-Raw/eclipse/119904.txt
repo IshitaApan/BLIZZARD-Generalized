@@ -1,0 +1,3 @@
+TVT3.1.x:TCT240: Wrong reading order of file type for editor association
+
+The file extension *.txt is displayed as txt.* because of the RTL reading order. File type appears to be coming from the variable in string: ActivitiesPreferencePage_lockedMessage= From file: eclipse\plugins\org.eclipse.ui.workbench\org\eclipse\ui\internal\activities\ws\messages.properties To fix this, LRM marker has to be added before the * in *.txt (or any other file extension). I could not find the string *.txt in my files. This problem is for the General>Content Types Preferences. Similar problem happens to the General>Editors>File Associations Preferences. A separate bug will be opened to track that. This article was reassigned from Category:''Legacy Project,TVT,Uncategorized''.

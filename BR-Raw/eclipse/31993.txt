@@ -1,0 +1,3 @@
+[Open Modes] double click on editor annotation ruler sometimes zooms the editor area
+
+20030214 it's very frustrating sometimes, when i try to add a breakpoint, the editor area zooms in zooming should only be done on double click in the editor tab or or some action from menu/shortcut

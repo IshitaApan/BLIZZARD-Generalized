@@ -1,0 +1,3 @@
+[Quick Access] Remove Mnemonics from tooltip text in ActionElement.java
+
+Some mnemonics are not removed from the element tool tip label in Quick Access. AF

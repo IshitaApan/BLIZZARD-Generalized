@@ -1,0 +1,3 @@
+[Linked Resources]  path-variable location shown with wrong slashes
+
+Build 20030114 1. On the Path Variables preference page, create a new path variable named V1; browse to folder c:\temp. Observe: The Path Variable field contains "C:/temp". Expectation: This is a file system path. File system paths should be shown to the user with OS-specific file separators. On Windows, this should appear as "C:\temp" Likewise for the items in the "Defined path variables" box.

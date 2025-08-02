@@ -1,0 +1,3 @@
+[Progress] Job with action shows up twice if progress view is not opened
+
+Created attachment 93270 Example that shows this When we open the progress view with one job running it is showing up as 2 entries. This does not happen if the view is already open.

@@ -1,0 +1,3 @@
+[Preferences] use traditional style tabs for pref. dialog
+
+i200412070800 The preferences dialog now shows the the title of every preference page in a curvy tab, following the 3.* default style, even if the user has chosen the 2.1 presentation or the traditional style tabs (Workbench > Appearance) with a 3.0 presentation (my case).

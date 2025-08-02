@@ -1,0 +1,3 @@
+Lazy initialize ViewerComparator.comparator
+
+20060920 In the ViewerSorter I remember that a performance problem was that that the default constructor called Collator.getInstance() which can be expensive for the first caller. So in JDT we overrode getCollator() to do a lazy initialization. Couldn't this be added to the ViewerComparator by default? In ViewerSorter it wasn't possible as collator was protected. In ViewerComparator this isn't a problem. -> 	public ViewerComparator(){ 		this(null); 	} 	protected Comparator getComparator() { 		if (comparator == null) 			comparator= Policy.getComparator(); 		return comparator; 	}

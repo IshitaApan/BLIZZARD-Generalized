@@ -1,0 +1,3 @@
+[Compatibility] Compatibility layer needs to quit using org.eclipse.ui.IWorkbench
+
+Right now, we ask the rendering engine to handle the closing. We should go through the 3.x IWorkbench implementation to properly shutdown all of our services in the compatibility layer.

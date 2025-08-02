@@ -1,0 +1,3 @@
+[Compatibility] IWorkbenchPage's close() method is unimplemented
+
+It just returns 'true' at the moment.

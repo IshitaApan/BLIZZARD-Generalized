@@ -1,0 +1,3 @@
+'Vertical' Image based frames throw an NPE if there's no handle
+
+This is coming from the patch on bug 386743. Since that patch doesn't actually address the original issue for the defect I'll put the fix here so we can leave the original defect open for work in 4.2.2.

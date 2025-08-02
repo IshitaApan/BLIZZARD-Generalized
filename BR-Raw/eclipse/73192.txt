@@ -1,0 +1,3 @@
+[Tests] Fix the PartsReferencesTestSuite so that it does not hang on the Mac
+
+Add a fix to the PartsReferencesTestSuite so that it does not hang on the Mac (similarly to bug 73184).

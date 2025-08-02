@@ -1,0 +1,3 @@
+[Preferences] Preferences hover should show unshortened text
+
+On the menu bar from the main Workbench panel, click Window > Preferences > Java > Editor Select Hovers tab in the right panel Enable all the text hovers, an error message will display. The error message is truncated, no matter how big you enlarge the screen. See screenshots...

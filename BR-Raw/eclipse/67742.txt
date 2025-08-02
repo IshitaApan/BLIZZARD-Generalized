@@ -1,0 +1,3 @@
+inadequate spec for some IProductConstants
+
+This is a follow on to discussion in bug 65719. WELCOME_PAGE spec says: "either a fully qualified valid URL or a path relative to the product's defining bundle". ABOUT_IMAGE, WINDOW_IMAGE, and WINDOW_IMAGES should be similarly frank in describing how their property values are to be interpreted by clients. Must fix for 3.0

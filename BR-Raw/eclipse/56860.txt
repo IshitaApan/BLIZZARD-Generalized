@@ -1,0 +1,3 @@
+[WorkingSets] Not Display Working Set Wizard Banner Image
+
+I create new Resource Working Set when, display mini red box. Not display banner image for resource working Set wizard dialog.

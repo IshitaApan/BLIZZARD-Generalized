@@ -1,0 +1,3 @@
+Please disable Multi Quick fix support in the problems view for M3
+
+I20051102-0010 For all the details please see bug 114570. Besides the problem described in bug 114570 I discovered the following issues as well: - lots of AST creation. For example multi fixing 5 problems in the same CU creates 10 ASTs for this CU. This can become quite slow. - what happens if there are problems from different plug-ins on the same file. All of the quick fix providers must be prepared to run in a loop where others touch the same file. IMO we have to add additional API to make multi quick fix more efficient.

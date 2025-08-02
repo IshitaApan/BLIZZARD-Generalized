@@ -1,0 +1,3 @@
+Restore "scope" support to the commands extension point
+
+The "scope" element in the commands extension point was removed back in June 2003. The "acceleratorScopes" extension point was pulled, put back in, and now its deprecation support appears broken. We need test cases covering the old API, ensuring that they are read in correctly ... as well as behave properly. Inspecting the current test cases for context, they are all empty stubs. <grumble> This must be fixed for 3.0.

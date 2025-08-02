@@ -1,0 +1,3 @@
+Add flashing red icon when there is an error shown
+
+When there is an error shown the icon should be flashing red.

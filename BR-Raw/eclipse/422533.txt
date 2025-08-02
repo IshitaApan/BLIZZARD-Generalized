@@ -1,0 +1,3 @@
+Remove "Loading Workbench" from splash screen
+
+The splashscreen should be improved so that the plug-in names which are loaded are readable. I think the "Loading Workbench" text can be removed.

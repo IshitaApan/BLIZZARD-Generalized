@@ -1,0 +1,3 @@
+Minimizing Editor Stack does not minimise to tool bar
+
+Since perhaps M7, minimizing an editor stack just shrinks the editor area to a perhaps 640/480 overlay.

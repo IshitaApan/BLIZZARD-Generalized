@@ -1,0 +1,3 @@
+[Wizards] ProjectContentsLocationArea uses wrong file separator
+
+org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea uses Linux style '/' file-separators regardless of platform. I will attach a patch against head that uses .toOSString() instead of the current .toString()

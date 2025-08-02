@@ -1,0 +1,3 @@
+[ActivityMgmt] Perspectives don't respect activity enablement
+
+When an activity disables a view's prefix, I would expect it to not be added to perspectives automatically anymore. For example, JDT Debug contributes a view (org.eclipse.jdt.debug.ui.DisplayView) to the Debug perspective provided by Debug UI. If I disable an activity that filters "org.eclipse.jdt.debug.*" and then create the Debug perspective, I would expect the perspective to be created without this view. In addition, I think views contributed to perspectives (and not declared visible="false") should appear automatically when the associated activity is enabled. Whether or not they should automatically disappear is debatable.

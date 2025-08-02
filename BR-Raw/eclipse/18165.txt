@@ -1,0 +1,3 @@
+IWorkbenchPart doesn't work as described
+
+Please fix the JavaDOC for IWorkbenchPart. It states that createPartControl(Composite) will get called after init. This is not guaranteed to occur.

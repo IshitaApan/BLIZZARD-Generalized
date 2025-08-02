@@ -1,0 +1,3 @@
+Encapsulate IRunAndTrack#notify parameters
+
+IRunAndTrack has a notify method with four parameters. I have found a need for a fifth parameter (the old value on change/remove). The parameter should be encapsulated as an "event" argument so that we will be able to add more event parameters in the future without breaking compatibility

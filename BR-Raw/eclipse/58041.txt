@@ -1,0 +1,3 @@
+[ActivityMgmt] Activites not filtering org.eclipse.ui.popupMenus contributions
+
+I've got several popupMenu contributions that I can't get activities to filter. I've stepped through the code and haven't seen any place where activities are checked.

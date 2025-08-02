@@ -1,0 +1,3 @@
+[Dialogs] Show View windows contents not resized correctly
+
+Show View windows contents is not resized correctly when changing window size. When window is larger than default size views list size stays the same. 3.2M3/Linux GTK

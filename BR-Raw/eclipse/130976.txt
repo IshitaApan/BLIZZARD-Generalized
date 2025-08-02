@@ -1,0 +1,3 @@
+[Viewers] Error is calculation of parent path when calling TreePathViewerSorter
+
+There is an error in the parent path calculation in AbstractTreeViewer#getSortedChildren. If the input of the viewer is passed, a tee path of length one is passed to the sorter but a null should be passed (as mentioned in the method spec). I will attach a patch.

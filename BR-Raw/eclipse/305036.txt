@@ -1,0 +1,3 @@
+[Path Variables] Minor API changes in Dynamic Path Variables area
+
+I'm attaching a patch illustrating what should be done in this area.

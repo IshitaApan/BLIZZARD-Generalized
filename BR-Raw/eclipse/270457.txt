@@ -1,0 +1,3 @@
+[Viewers] [regression] CheckBoxTreeViewer clears check state after collapseAll
+
+Hi there :) In my RCP I've a CheckBoxTreeViewer that looses check states for invisible items. Turns out if a disable the collapseAll() call things go back to normal. So, in a tree like this: [x] root [x] sub a collapseAll expandAll will create this: [x] root [] sub Could still be my fault, feel free to have me try some workarounds or other tests that help you find the cause...

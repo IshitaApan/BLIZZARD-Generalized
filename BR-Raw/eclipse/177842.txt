@@ -1,0 +1,3 @@
+[Min/Max] 'zoom' tests failing in PartsReferencesTestSuite
+
+There were six test cases in the suite that were hard-wired to use the old min/max mechanism. As for the tests in references in bug 177353 I've now changes these tests to turn -off- the new behavior so that we continue to ensure that the tests are run, ensuring that the 3.0 presentation hasn't been affected by 3.3 work.

@@ -1,0 +1,3 @@
+Contexts need to have a name
+
+Seeing "Anonymous Context" everywhere isn't helping anyone. I'll make some tweaks in the renderer.

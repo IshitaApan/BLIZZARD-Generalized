@@ -1,0 +1,3 @@
+[Wizards] [DataBinding] Non-error statuses not handled correctly by WizardPageSupport class
+
+Build ID: I20080516-1333 Steps To Reproduce: 1. Setup a DataBindingContext inside a wizard page whose validation status consists of an INFO or WARNING. 2. Attach the DataBindingContext to a WizardPageSupport instance. 3. The wizard page will erroneously be set to be not complete.

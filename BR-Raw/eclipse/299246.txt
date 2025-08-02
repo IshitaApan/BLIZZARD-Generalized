@@ -1,0 +1,3 @@
+[CommonNavigator] Add model objects for new CNF tests
+
+Created attachment 155722 Proposed patch Add a set of model objects parallel to the resource model objects which can be used as a basis of further CNF tests.

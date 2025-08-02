@@ -1,0 +1,3 @@
+Compatibility: Editor actions registered via extension point org.eclipse.ui.editorActions are shown twice in the toolbar.
+
+Build Identifier: 20120614-1722 In Eclipse 3 an action registered via extension point "org.eclipse.ui.editorActions" is correctly shown once in the toolbar and once as main menu entry. But in Eclipse 4.2 (Juno) the action is shown twice in the toolbar (same icon, same behavior) and once in the main menu. This is ugly and has the problem that the same action now can have different checked states at the same time (checked or radio button). Reproducible: Always

@@ -1,0 +1,3 @@
+[Markers] Selected filters not being kept on restart
+
+When I select "Warnings on Selection" and then restart it is not selected when I come back in. We need to retain these selections. Note this is only a problem when selecting from the menu - from the dialog works fine.

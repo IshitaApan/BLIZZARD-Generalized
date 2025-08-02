@@ -1,0 +1,3 @@
+org.eclipse.e4.ui.workbench.addons.swt has dependency on org.eclipse.ui
+
+This means when one wants to use it one has to get in the compat layer: * minmax: Can be fixed quite easily because it only uses some ID stuff from IPageLayout and one WorkbenchImages-call => Proposal fix them and leave it in e4.ui.workbench.addons.swt * perspectiveswitcher: Looks like this is harder to fix because it usies all sorts of Workbench-Classes => Proposal move it to compat layer

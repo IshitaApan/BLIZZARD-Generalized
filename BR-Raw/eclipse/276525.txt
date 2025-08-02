@@ -1,0 +1,3 @@
+[Commands] Cascading menus clear before closing.
+
+Created attachment 136023 Shows the menu just before it closes Found in I20090514-2000. open the 'File' menu and hover over the 'New' until the cascading menu opens now move the mouse down to the next entry The cascading menu gets 'cleared' (except for separators?) just before it goes invisible (but long enough for me to get a screenshot).

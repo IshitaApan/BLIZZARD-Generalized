@@ -1,0 +1,3 @@
+[Preferences] Preferences dialog separator under Title for pages does not stretch all the way across
+
+The separator under the Header title for a preference page should stretch from the border of the sash to the far right with no margins in between.

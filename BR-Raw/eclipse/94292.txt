@@ -1,0 +1,3 @@
+[navigation] F3 and cloned editors: Editor switched even if not necessary
+
+20050509-2010 1. open the following file in a Java Editor 2. clone the editor 'New editor' and arrange the new editor below the first editor so that both are visible 3. select the reference of foo(); in the second editor and press F3 4. the first editor get the focus and reveals package pack; public class A { 	private void foo() { 	 foo(); 	} }

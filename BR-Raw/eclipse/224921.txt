@@ -1,0 +1,3 @@
+[IDE] BIDI3.4:HCG_Incorrect display of history in File menu in mirrored mode
+
+Build ID: IES 3.4 Steps To Reproduce: 1. Run Eclipse with -nl iw -dir rtl command line options 2. Open several files 3. Observe how recently opened files appear in File submenu In non mirrored mode (LTR mode) the display is: # <file name> [<file path>] and it is aligned to the left In mirrored mode (RTL mode) the display is the same as in non-mirrored mode: # <file name> [<file path>] and it is aligned to the RIGHT. This is not acceptable. Expected result: ----------------- Any one of the following options is acceptable: Option 1: [<file path>] <file name> # alignment = right Option 2: <file name> [<file path>] # alignment = right Option 3: # <file name> [<file path>] alignment = left

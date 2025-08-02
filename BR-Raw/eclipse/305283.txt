@@ -1,0 +1,3 @@
+Compilation error in XMLModelReconciler
+
+I have just synchronzied with CVS and noticed an error of compilation in the class XMLModelReconciler. The constant INPUT_INPUTURI_ATTNAME is missing.

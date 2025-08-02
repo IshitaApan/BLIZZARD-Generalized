@@ -1,0 +1,3 @@
+[KeyBindings] WorkbenchKeyboard.logException should check exception message for null value
+
+I20040302 WorbenchKeyboard::logException creates a new Status object using the message of the (nested) exception being logged: IStatus status = new Status(IStatus.ERROR, WorkbenchPlugin.PI_WORKBENCH, 0, exception.getMessage(), exception); exception.getMessage may be null, but Status does not allow non-null messages. This results in an AssertionException being thrown upon message less exceptions (just had it with an ArithmeticException).

@@ -1,0 +1,3 @@
+[Contributions] Commands in toolbars with no icons don't show up
+
+I created a main toolbar with this setup: <menuContribution locationURI="toolbar:org.eclipse.ui.main.toolbar"> <toolbar id="main"> <command commandId="org.eclipse.ui.tutorials.commands.openMessage" style="push"> </command> <command commandId="org.eclipse.ui.tutorials.commands.open" style="push"> </command> </toolbar> </menuContribution> With no commandImages extension I would expect the text to show up, but it doesn't. PW

@@ -1,0 +1,3 @@
+Most entries contributed by textual editors are missing in the 'Edit' menu
+
+I20100701-1105. 1. start new workspace 2. create a Java project 3. create a file 4. open 'Edit' main menu ==> most contributed items are missing (e.g. content assist, find actions).

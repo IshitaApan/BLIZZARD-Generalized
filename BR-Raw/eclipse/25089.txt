@@ -1,0 +1,3 @@
+[Dialogs] Project/Move... dialog cuts off messages and needs work.
+
+Build 2.1.M2 (1) The dialog cuts off the red messages, so please make this area a multi-line area and, (2) Make the dialog resizable. (3) Is seems like you cannot do anything in the dialog without unchecking the check box and clicking Browse..., so it seems like the checkbox should be unchecked to start of with. When I pick a different directory, I get the beginning of the path I picked in red but I cannot see all of it or find out what is wrong since the message is cut off and I cannot resize the dialog. Thanks, Gary

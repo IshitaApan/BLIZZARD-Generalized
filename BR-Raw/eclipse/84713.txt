@@ -1,0 +1,3 @@
+[Import/Export] Project import searches all files takes too long
+
+Build id: I20050202-0800 - File > Import > Existing Project into Workspace > Browse - now choose a folder for another (large) workspace. - note that all files in that folder are searched to find projects. - but since this is the root for a number of projects it would seem that it should only search at the top level for projects and not go deep into the file system

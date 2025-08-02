@@ -1,0 +1,3 @@
+[ViewMgmt] Show view dialog does not remember last selection
+
+build I20041101 - Window > Show View > Other... > Java > Package Explorer - Window > Show View > Other... The selected item should be Package Explorer, but is not. It seems to be remembering stale state, so if it does work for Package Explorer, try some other view.

@@ -1,0 +1,3 @@
+'Close All Perspectives' first creates all parts
+
+4.2-I20120503-1800. 'Close All Perspectives' first creates all not yet realized parts. This makes no sense and is a regression compared to 3.8.

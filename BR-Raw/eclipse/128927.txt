@@ -1,0 +1,3 @@
+[FastView] Problem occurs when "weclome" view be put into "Fast View" bar
+
+Whenever I put the "Welcome" view into "Fast View" bar, Eclipse will report an error information "Could not restore workbench layout" when it restarts. And "Welcome" view will automatically popuped from "Fast View" after restarting.

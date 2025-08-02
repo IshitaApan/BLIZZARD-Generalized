@@ -1,0 +1,3 @@
+[Dialogs] Can't Maximize Window: "Preferences"
+
+Build: 200210181211 The "Preferences" window cannot be maximized since it neither has a maximize title bar button nor does the title bar respond to being double-clicked. The only work around is to reside the window manually by dragging the border. For short-lived windows this is too detail-oriented and time-consuming.

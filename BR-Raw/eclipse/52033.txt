@@ -1,0 +1,3 @@
+Unable to dock views to the edge of the editor area
+
+Run from HEAD at 7:15PM, Friday Feb 13 Drag a view over the editor area. Previously, it was possible to dock the view to the edge of the editor area. This is no longer possible.

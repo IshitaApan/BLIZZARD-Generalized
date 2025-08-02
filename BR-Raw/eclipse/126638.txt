@@ -1,0 +1,3 @@
+[Viewers] Remove GTK checks from StructuredViewerTest
+
+Just a reminder that I disabled two tests until bug 126299 is fixed.

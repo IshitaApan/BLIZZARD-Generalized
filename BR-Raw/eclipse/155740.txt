@@ -1,0 +1,3 @@
+[Undo] - AdvancedValidationUserApprover accesses UI without using async/sync
+
+The documentation for IOperationApprover says that implementors must be prepared to receive notifications from a background thread. AdvancedValidationUserApprover does not use the SWT sync or async when accessing UI. It has gotten away with this thus far because most validation is triggered by the undo/redo action handlers in the UI thread. However, when an operation is initially executed, it can come from a background thread. This surfaces in the implementation of some of the resource modifying undoable operations which operate in a background thread and require approval.

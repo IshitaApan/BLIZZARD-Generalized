@@ -1,0 +1,3 @@
+[Compatibility] Resetting the last opened perspective will close all editors
+
+In 3.6 the open editors are preserved when resetting the perspective.

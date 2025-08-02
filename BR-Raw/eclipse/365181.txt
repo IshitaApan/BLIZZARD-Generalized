@@ -1,0 +1,3 @@
+[Workbench] XMLMemento method to enumerate all child nodes
+
+Build Identifier: It would be great to have a method getChildren() that enumerates all children of a node. Something like: public IMemento[] getChildren() { 		final List<IMemento> result = new LinkedList<IMemento>(); 		// Get the nodes. 		final NodeList nodes = element.getChildNodes(); 		final int size = nodes.getLength(); 		if (size == 0) { 			return new IMemento[0]; 		} 		// Extract each node with given type. 		for (int nX = 0; nX < size; nX++) { 			final Node node = nodes.item(nX); 			if (node instanceof Element) 				result.add(new EnhancedXMLMemento(factory, (Element) node)); 		} 		return result.toArray(new IMemento[result.size()]); 	} Reproducible: Always

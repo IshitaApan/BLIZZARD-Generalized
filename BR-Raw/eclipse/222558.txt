@@ -1,0 +1,3 @@
+Write a test suite to test null IDecorationContexts
+
+Neither the DecoratingLabelProvider or DecoratingStyledCellLabelProvider should ever have a null IDecorationContext. Write a suite that checks that it is not possible to set the IDecorationContext without an assertion error or having it set to the default content (note that DecoratingStyledCellLabelProvider has both conditions possible depending on how you use it).

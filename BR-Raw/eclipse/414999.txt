@@ -1,0 +1,3 @@
+After making editor area not visible closed view stacks don't re-open
+
+Using the resource perspective: Make the editor area not visible by the following code: IWorkbenchPage page = window.getActivePage(); IEditorReference[] editorRefs = page.getEditorReferences(); if (editorRefs == null || editorRefs.length == 0) { 	page.setEditorAreaVisible(false); } The view stack for Tasks/Problems should take up the whole right of the perspective now. Close both these views and the Project Explorer and Outlines views should stretch across the whole perspecitve. Now re-open a view from the closed stack (eg Problems, or Console) The view stack fails to re-open.

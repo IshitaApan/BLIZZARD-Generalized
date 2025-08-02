@@ -1,0 +1,3 @@
+[EditorMgmt] editor extension panel missing * for icon
+
+Eclipse 3.0 M9 The plugin.xml editor page used to edit an editor extension does not indicate that the icon field is required (I'm assuming the * next to the names indicates required field).

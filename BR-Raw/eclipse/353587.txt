@@ -1,0 +1,3 @@
+Translation keys in Keys preference page
+
+Created attachment 200716 Screenshot I20110729-0200 (4.2), OK in I20110729-1200 (3.8) In 4.2, the Keys preference page contains untranslated keys like "%command.arrangeWindows.name".

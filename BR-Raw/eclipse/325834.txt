@@ -1,0 +1,3 @@
+Eager activation of Java editor breadcrumbs can cause unpredictable editor scrolling on mouse click
+
+Created attachment 179304 screenshot Steps - Have at least one java file open - Have Breadcrumb enabled - Use 'Open Type (Ctrl + Shift + T)' to open a not yet opened type. => a java editor opens up and something is selected in the breadcrumb as well - see screenshot- it does not happen on 3.x - Now click towards the bottom of the editor => the editor suddenly scrolls up!

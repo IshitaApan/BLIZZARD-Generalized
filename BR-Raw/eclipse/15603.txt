@@ -1,0 +1,3 @@
+Preference page no longer resizes to fit contents
+
+Build 20020508 Linux-Motif The preference page used to grow to fit the contents of the currently visible preference tab. In the latest build it's stopped doing this, making many preferences invisible. This affects many pages. For an example: 1. Go to Window->Preferences such that the "Workbench" page is the first page visible. 2. Click on the Debug preferences. The "Default perspective for Run" preference is cut off such that you can't change the value.

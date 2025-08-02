@@ -1,0 +1,3 @@
+Making a wizard visible in CPD does not make the New menu visible.
+
+Build ID: I20081209-0100 Steps To Reproduce: 1. Open the CustomizePerspectiveDialog 2. Open the Menu Visibility tab. 3. Uncheck the "New" menu, under the "File" menu. 4. Expand the "New" menu, check "Java Project from Existing Ant Buildfile" 5. Click "Ok". The File > New menu is not visible. More information: It looks like our logic for determining whether to show menus doesn't take the Wizards into account?

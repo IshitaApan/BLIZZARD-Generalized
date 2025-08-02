@@ -1,0 +1,3 @@
+[ViewMgmt] add attribute to close a sticky view in all open perspectives
+
+Currently, when you open a sticky view, it remains open when you switch perspectives. However, when you close a sticky view, it only closes the sticky view in the current active perspective. Could we add an attribute to the contribution to specify that the sticky view be closed in all other open perspectives? Use case: Based on usability feedback for our product, users are getting very confused when they see the help view reappear when they change perspectives, after having closed the help view. They are expecting that when they close it in one perspective, it closes it in all other open perspectives, not just the active perspective.

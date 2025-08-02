@@ -1,0 +1,3 @@
+[Preferences] Perspective preference page has inconsistent spacing in radio groups
+
+build I20030205 The first two groups have less "padding" than the third. The first two are custom-build, whereas the third uses a RadioGroupFieldEditor. The first two should use RadioGroupFieldEditor too.

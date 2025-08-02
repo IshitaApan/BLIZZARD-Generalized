@@ -1,0 +1,3 @@
+[DataBinding] ValidationError observables need a nudge to hook themselves up
+
+See attached patch.

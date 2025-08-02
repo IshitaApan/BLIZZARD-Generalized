@@ -1,0 +1,3 @@
+[Progress] ProgressMonitor leaks
+
+I20040413 It looks like that the ProgressMonitor keeps a reference to jobs which are already completed. To reproduce do the following: - create workspace with content - open all types dialog - add new type - open all types dialog. What happens is that the progress monitor still has a reference to the Job that computed the list for the first all types dialog (e.g. reference to FilteredList$TableUpdateJob). As a consequence the all types cache got doubled in memory.

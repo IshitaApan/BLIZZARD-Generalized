@@ -1,0 +1,3 @@
+[About] Choosing link changes focus
+
+1. Open the Product dialog. 2. Select some text in the second paragraph. 3. Click on the apache link. 4. Close the apache window. Notice that when you come back to the dialog, the selection is changed. It's put on the eclipse.org link.

@@ -1,0 +1,3 @@
+Search / Perspective Switcher not right aligned when wrapped
+
+Somewhere along the way (likely when I implemented the status line as a 'stretch' MToolControl) we lost the right adjusting behavior on wrapping.

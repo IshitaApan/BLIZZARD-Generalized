@@ -1,0 +1,3 @@
+Messages inteneded for developers in the error log
+
+The message "unsupported: isEditorAreaVisible" appears in the error log during the normal run of e4 SDK. (For instance, starting the e4 SDK on an clean workspace produces two of those messages.)

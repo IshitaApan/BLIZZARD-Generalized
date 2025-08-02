@@ -1,0 +1,3 @@
+[Progress] progress view flashes even when no visible update occurs
+
+I20050420 with ZRH plug-ins of 0426 (take upcoming I20050426) - Have a long running job (e.g. synchronize workspace) - Open the progress view - 'Open Type', press some filter expression (open type schedules many system jobs to refresh the type list) > note that the progress view flashes constantly. This is probably due to the table being updated with the incoming jobs. Expected: the table should not update itself if the created jobs are not actually displayed (system jobs).

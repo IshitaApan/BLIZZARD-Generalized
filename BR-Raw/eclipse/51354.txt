@@ -1,0 +1,3 @@
+[Jobs] Minimize/Maximize on Job Progress "hover" don't act consistently
+
+I20040205 Clicking the "Minimize" button on the Job "hover" minimizes the hover but has no effect on the Progress view Clicking the "Maximize" button on the Job "hover" has no effect on the hover but in addition brings up the Progress view. Since "Maximize" brings up the Progress view it would expect that the hover gets closed.

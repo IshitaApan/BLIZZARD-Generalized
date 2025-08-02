@@ -1,0 +1,3 @@
+[Dialogs] - deprecate ImageAndMessageArea
+
+While looking at bug #139894 I noticed that ImageAndMessageArea.setImage uses the FieldDecorationRegistry to register a decoration for the image passed in. It uses the same decoration id each time, effectively bashing the previous caller's image with the most recent caller's image. The decoration id is not public, so presumably there's no confusion, but it is a strange use of the registry. The registry should probably be avoided altogether as there is no need to share this image with any other apps. For that matter, I'm not sure a decorated field is really useful as the implementation since there is no need for descriptive hover text, etc. This class should be reviewed/revisited.

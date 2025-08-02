@@ -1,0 +1,3 @@
+Code in ReflectionContributionFactory duplicates #invoke() - with a twist
+
+ReflectionContributionFactory has the implementation of constructor injection, but doesn't seem to be exposed as API. Consider adding a general extension factory that will perform injection of context values when an executable extension is being loaded from the registry. A prototype of this is also found in bug 259423 comment #0.

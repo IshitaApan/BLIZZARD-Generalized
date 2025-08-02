@@ -1,0 +1,3 @@
+[KeyBindings] Dialogs do not support key bindings
+
+The New Class dialog does not support CTRL-A in entry fields. You can right- click and choose "Select All". This slows down keyboard-based usage of eclipse. This odd discrepency shows up in many places in eclipse. It would be great for all of eclipse to have these annoying UI nits cleaned up in one pass. Thank you for considering this request. Version: 2.1 Build id: 200302061700

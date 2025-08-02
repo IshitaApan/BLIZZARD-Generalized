@@ -1,0 +1,3 @@
+[Compatibility] IWorkbenchPage's closeEditors(IEditorReference[], boolean)
+
+The handler invokes the right method but only one editor is closed. :/

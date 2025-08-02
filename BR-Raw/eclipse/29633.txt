@@ -1,0 +1,3 @@
+[EditorMgmt] "Open" menu should have Open With-->Other
+
+While registering file associations in the preferences page is mostly a reasonable proposition, it seems that having an "Open With --> Other" option would be helpful. This came up originally for me registering .sqlj files with the Java Editor. For unrelated reasons Eclipse is getting locked up by external tools, and I keep having to re-specify my preference since I had to kill Eclipse and the workspace was not saved. The implementation may also be helpful for contributers with editors on non-file resources, as they could reuse whatever dialog pops up when Open With --> Other is presented. -Andrew

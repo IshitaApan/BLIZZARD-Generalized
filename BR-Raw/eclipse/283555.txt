@@ -1,0 +1,3 @@
+[Markers] Configure Contents dialog: Types section should not have columns
+
+Created attachment 141648 Fix I20090714-0800 Problems view > Configure Contents dialog: Types section should not have columns.

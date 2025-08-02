@@ -1,0 +1,3 @@
+[Dialogs] DCR: TypeFilteringDialog should be public API (1GIYHMY)
+
+The org.eclipse.ui.internal.dialogs.TypeFilteringDialog should be 	public API to guarantee that selecting a type is consistent all over 	the workbench. The same dialog is used (and had to be copied for 	now) in the Search dialog. NOTES:

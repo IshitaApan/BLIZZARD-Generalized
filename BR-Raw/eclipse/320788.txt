@@ -1,0 +1,3 @@
+[Model] The model misses the possibility to define mnemonics for Menu-Elements
+
+It looks like we forgot to add mnemonics to the Menu-Element like we have one in the MenuItem

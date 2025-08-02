@@ -1,0 +1,3 @@
+[Import/Export] [Import/Export] Improve warning messages in WizardFileSystemResourceExportPage1
+
+The warning messages in WizardFileSystemResourceExportPage1 are reusing old ones that are not descriptive of the problem. See Bug 161044

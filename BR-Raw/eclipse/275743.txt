@@ -1,0 +1,3 @@
+[About] [doc] Doc Only - installationPages schema file has extra colon
+
+Created attachment 135239 installationPages schema file patch v1 1. Open up a MANIFEST.MF file. 2. Go to the 'Extensions' tab. 3. Click the 'Add...' button. 4. Select the org.eclipse.ui.installationPages extension point. 5. Click 'Finish'. 6. In the created element, look at the 'class' attribute, you will see something like "whatever.InstallationPage:1". Ideally, PDE should warn about this, I'll file a separate bug later.

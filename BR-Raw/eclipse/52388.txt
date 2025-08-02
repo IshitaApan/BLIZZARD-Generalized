@@ -1,0 +1,3 @@
+[RCP] Simple RCP app windows are sized too small by default
+
+3.0 M7 Ed Burnette reports: I'm trying to get the RCP tutorials running in M7 and could use a little advice. They all run but there are some differences. When using the new look jars, Tutorials 1 and 2 start with a really small window, like 100x100, but tutorial 3 starts with a much bigger one, looks like 800x600. In M6 and in M7 with the default jars they all start with a bigger window. Any idea why this is so? What's the recommended way for an RCP app to control its initial window size?

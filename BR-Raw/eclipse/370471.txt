@@ -1,0 +1,3 @@
+Double-clicking on marker category crashes Eclipse
+
+Version: 4.2.0 (happens in 3.x as well) Build id: I20120126-1300 Steps: 1. select a lot of projects in your workspace 2. open the Problems view and group the markers by 'Java Problem Type' 3. double-click a category with a lot of markers in it to expand it 4. realize that double-clicking does not expand, but instead opens all child markers in editors 5. watch patiently as 100's (or 1000's) of editors are opened and Eclipse dies a slow death-by-editor.

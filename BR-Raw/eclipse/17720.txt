@@ -1,0 +1,3 @@
+Add example markers in readme example is broken
+
+F1 The readme popup menu used to include items to add a number of custom markers. These markers demonstrate marker resolution and F1 targetting. These had been under Add which is no longer on the context menu.

@@ -1,0 +1,3 @@
+[Markers][WorkingSets] Strange working set name "Aggregate for window 1130948898218"
+
+[I20051102-0010] In the Problems view, click on "Configure Filters...", then click the "Select..." button to select a working set and select "Window Working Sets". (Why plural? The dialog says: "Select a working set", so I would expect just "Window Working Set") Click OK -> The dialog now displays a strangely named working set "Aggregate for window 1130948898218". I would expect something like "Window Working Set".

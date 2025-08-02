@@ -1,0 +1,3 @@
+[EditorMgmt] Create tests for bug 236104
+
+Created attachment 156676 Bug 236104 tests patch v1 For some reasons, my test here breaks EditorIconTest's testDependantBundleIcon.

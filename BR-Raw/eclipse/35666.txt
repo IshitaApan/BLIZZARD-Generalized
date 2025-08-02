@@ -1,0 +1,3 @@
+[JFace] FontRegistry does not provide old/new values when firing changes
+
+I am using RC3b. I am listening to JFaceResources to monitor changes in default dialog font. However, when a property change is fired, the PropertyChangeEvent does not contain the old value. Is there a reason for this? Is this going to be fixed anytime soon?

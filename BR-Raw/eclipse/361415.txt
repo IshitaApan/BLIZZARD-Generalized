@@ -1,0 +1,3 @@
+[Compatibility] 'Skip All Breakpoints' tool item doesn't have a tool tip
+
+I20111018-2000 There is a new 'Skip All Breakpoints' tool item in the tool bar now. It doesn't have a tooltip. It has one in 3.x though. Will take a look...

@@ -1,0 +1,3 @@
+Build Error info not accessible (1GDUXNJ)
+
+When you get a build error (e.g., after saving a file with autobuild on), the UI puts up a dialog which says 	"Errors during build" The actual exception which is thrown back has much more information in it. Recent changes mean that the build will not fail completely when the first builder fails. We will continue to try and run all of the builders. As a result, the general form of the exception status is 	multistatus ("Errors during build") 		istatus ("builder 1 error") 		istatus ("builder 2 error") 		... This seems like a prime candidate for the "Details" button. NOTES:

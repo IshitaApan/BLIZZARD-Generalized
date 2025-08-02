@@ -1,0 +1,3 @@
+SystemSummaryDialog uses core.runtime internal API
+
+M5 SystemSummaryDialog uses Core Runtime internal API (PreferenceExporter) to dump the preferences. All public operations defined in PreferenceExporter are available from the Preferences class and should be used instead.

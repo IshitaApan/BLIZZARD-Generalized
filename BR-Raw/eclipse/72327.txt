@@ -1,0 +1,3 @@
+[WorkbenchLauncher] Workspace Launcher Dialog grows in width for long paths
+
+In most cases, the default width of the Workspace Launcher provides a decent amount of space to display the full path to a workspace. However, in the case that the path is exceptionally long, shouldn't the Workspace Launcher remain at a constant width or have a maximum width that it will expand? It currently expands to a width such that the full path of the selected workspace will be displayed. Steps to reproduce: 1) Select a workspace with path that is very long in the Workspace Launcher. 2) Start Eclipse with that workspace. 3) Restart Eclipse and notice the width of the Workspace Launcher Dialog.

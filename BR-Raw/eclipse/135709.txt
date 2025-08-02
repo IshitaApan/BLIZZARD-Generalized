@@ -1,0 +1,3 @@
+[WorkingSets] Select Working Sets Select All/Deselect All Enablement
+
+If there are no working sets than both buttons should be disabled.

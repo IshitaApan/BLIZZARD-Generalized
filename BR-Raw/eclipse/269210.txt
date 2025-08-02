@@ -1,0 +1,3 @@
+[About] High Contrast mode: "Installation Details" dialog improperly sized for tab sizes
+
+In the high contrast mode on the "Installation Details" dialog tab selection arrows "<- ->" are outside of the default dialog size for some tabs. Tabs seem to occupy more space then expected by the dialog. To enable high contrast mode: - Open Control pannel - Open Accessibility Options - On the "Display" tab select "Use High Contrast" checkbox

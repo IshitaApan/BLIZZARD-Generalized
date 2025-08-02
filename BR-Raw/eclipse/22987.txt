@@ -1,0 +1,3 @@
+[Preferences] BooleanFieldEditor.setEnabled creates additional Label
+
+2.1 Build I20020827 The widget of a BooleanFieldEditor is the checkbox (Button) but when BooleanFieldEditor.setEnabled is called it calls super.setEnabled which causes a new Label to be created. Normally this is not seen but if setEnabled is used on a BooleanFieldEditor in createFieldEditors() then the additional label can be seen on the preference page. NOTE: Other field editors might have the same bug. Workaround: Create your own subclass of BooleanFieldEditor

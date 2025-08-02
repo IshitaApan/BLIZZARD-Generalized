@@ -1,0 +1,3 @@
+[Progress] Run in Background should animate to progress indicator
+
+We need to animate the pressing of the Run In Background button down to the progress indicator

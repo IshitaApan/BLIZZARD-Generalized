@@ -1,0 +1,3 @@
+Keyboard shortcuts for certain practically macro - command creation using ICommandService
+
+I used Eclipse Indigo (C/C++) and practically macro plugin (with keyboard shortcuts for custom macros). However, when I tried Eclipse Juno and Kepler, the keyboard shortcuts do not work (the macros work when played manually without using the keyboard shortcuts).

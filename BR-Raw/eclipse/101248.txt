@@ -1,0 +1,3 @@
+Split JFacePerformanceSuite out of the UIPerformanceSuite
+
+We are having trouble with the JFacePerformanceSuite timing out on the 3.0 version of the tests. To resolve this I am going to do the following: 1) Make the JFacePerformanceSuite run independant of the UIperformanceSuite so we don't lose results. 2) Reduce the number of iterations on 3.0 for the JFace tests as the performance improvements are significant on Linuxand so the tests are very slow on 3.0.

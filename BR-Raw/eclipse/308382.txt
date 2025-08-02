@@ -1,0 +1,3 @@
+[Compatibility] ViewReferences are not destroyed when the view is closed
+
+1. Window > Navigation > Next View 2. See a bunch of views. 3. Close a view. 4. Window > Navigation > Next View 5. The closed view is still there.

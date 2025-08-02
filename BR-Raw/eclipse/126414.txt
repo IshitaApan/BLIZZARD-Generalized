@@ -1,0 +1,3 @@
+[Commands] handlers: Provide help context ids
+
+For commands and handlers to replace actions, they need to be capable of providing help context identifiers. For an example, see OpenResourceHandler in org.eclipse.ui.ide. This help context id will need to be definable through XML and through code.

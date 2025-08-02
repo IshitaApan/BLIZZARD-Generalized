@@ -1,0 +1,3 @@
+[KeyBindings] preference page: should use Combo.setVisibleItemCount(int)
+
+Keybinding preference page should use the new API to set the number of visible combo items to a reasonable value (see bug 7845). Combo#setCombo.setVisibleItemCount(20) should be called on all four combos.

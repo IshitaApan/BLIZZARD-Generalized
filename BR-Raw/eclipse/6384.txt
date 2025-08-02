@@ -1,0 +1,3 @@
+More tolarant when not finding product.ini
+
+The most common problem when starting a selfhosted eclipse is that the product.ini is not found. - Either org.eclipse.sdk is missing, or - the install directory (eclipse/install) is not there. Would it be possible, if eclipse can start up even when product.ini is not found? I would not mind having a default icon or default splash screen etc.

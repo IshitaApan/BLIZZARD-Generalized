@@ -1,0 +1,3 @@
+[KeyBindings] New Keys pref page: cannot sort 'User' column
+
+I20070502-0010. 'User' column cannot be sorted but would be important in order to see my custom settings all at once.

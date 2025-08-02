@@ -1,0 +1,3 @@
+[Metadata] Some UI classes use CPL
+
+Several UI classes have CPL rather than EPL in their copyright notices. These should be fixed to indicate the proper license. I will attach a file because it is easier to read. CC Nick: the JAOO RCP adventure builder example in platform-ui-home is also all copyright with CPL - I don't know if that was intentional or not. If not, you probably need to update your template preferences to use EPL.

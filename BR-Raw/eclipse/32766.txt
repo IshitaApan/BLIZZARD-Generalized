@@ -1,0 +1,3 @@
+[Preferences] Can not map font back to its original setting.
+
+Build id: 200302211557 Open Preference->Workbench->Fonts Select "debug console text" and change it Select "java editor" and change it. Click Apply. Try to map the "java editor" back to its original setting. Note the "Restore Defaults" is going to change all fonts to the default setting which is not the desired behaviour here.

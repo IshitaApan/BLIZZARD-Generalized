@@ -1,0 +1,3 @@
+[Encoding] Need an encoding extension point
+
+We need to have an extension point for encodings. All it need have is the IDs of the encodings that are to be added to the list. It will require verification and indication of unavailable encodings.

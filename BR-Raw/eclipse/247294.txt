@@ -1,0 +1,3 @@
+[CommonNavigator] Project Explorer: ResourceDragAdapterAssistant always initiates drag of resources
+
+The ResourceDragAdapterAssistant always initiates dragging of resources if a ResourceTransfer is a supported type of the drop target, even if no resource is selected. The drag data is set to an empty array of IResource. This is a problem when trying to support dragging a non-resource from the PE to the editor area, because the EditorAreaDropAdapter does accept ResourceTransfer. Adding another dragAssistant does not work, because drag assistants are not called in a particular order. See also CDT bug 194208.

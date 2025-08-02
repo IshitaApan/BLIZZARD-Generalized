@@ -1,0 +1,3 @@
+[About] More Info button does nothing if Eclipse installed into location with spaces in path (on Linux)
+
+1. Install Eclipse into a directory containing spaces in the name (e.g. "/opt/eclipse301\ sdk"). 2. Start Eclipse. 3. Open Help > About > Feature Details and select a feature. 4. Click More Info -- nothing happens. If installed into a directory that does not contain spaces, then this works fine. And works fine on Windows in either case. It's understood that using paths with spaces is not that common in Linux, but it is possible and valid to do so. So this should work in that case...

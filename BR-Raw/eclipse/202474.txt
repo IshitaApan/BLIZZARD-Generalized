@@ -1,0 +1,3 @@
+[Forms] Create a resource manager to share the bold font
+
+If a FormToolkit is passed into FormEditor it is disposed upon disposal of the editor even though it may be shared.

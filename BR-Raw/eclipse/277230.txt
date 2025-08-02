@@ -1,0 +1,3 @@
+[CSS] CSSTestCase should be CSSSWTTestCase
+
+Because it's in the SWT test package and references the SWT engine.

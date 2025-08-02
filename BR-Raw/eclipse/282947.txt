@@ -1,0 +1,3 @@
+[CSS] ETabFolder does not draw right with border-visible: false
+
+CTabFolders have always acted odd with respect to borders off and the first tab when selected. It just starts drawing top left. This behaviour seems to be confusing the ETabFolder draw code. It should draw the same curve regardless of whether borders are on or not.

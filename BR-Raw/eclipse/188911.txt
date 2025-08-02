@@ -1,0 +1,3 @@
+[Contributions] [Doc] IContributionItem.dispose() says it should not be called by clients
+
+3.3 RC1. IContributionItem.dispose() says it should not be called by clients but this happens all over the place in the SDK e.g. to dispose menu managers which are also an IContributionItem. I guess this restriction should be removed.

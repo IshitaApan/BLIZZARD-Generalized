@@ -1,0 +1,3 @@
+[Progress] Rescheduled jobs are not shown in the progress view
+
+3.0 RC1 Update to the latest ui jobs example and create a job that reschedules. The first invocation of the job will show in the progress view, but subsequent ones will only show in verbose mode. Although the status line does correctly show the job.

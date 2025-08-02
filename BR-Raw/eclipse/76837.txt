@@ -1,0 +1,3 @@
+[KeyBindings] Ctrl-Shift-L popup should take focus-->easier to get pref page
+
+After pressing Ctrl-Shift-L I actually have to place the cursor in the popup for the second Ctrl-Shift-L to open the preference page. This should not be necessary and is inconsistent with the other popups (such Inspect or a text hover popup)

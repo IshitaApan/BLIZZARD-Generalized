@@ -1,0 +1,3 @@
+Restoring visible intro in existing workspace fails in I20070207-0800
+
+In our WorkbenchWindow.restoreState() method we attempt to restore the intro on a non-UI thread if it exists.

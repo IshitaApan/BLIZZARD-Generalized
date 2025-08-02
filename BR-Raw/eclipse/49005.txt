@@ -1,0 +1,3 @@
+Preference page doesn't get enough space to draw itself
+
+200312162000 There are cases where the preference dialog doesn't allocate enough space for a page to draw itself. The width of the page seems to be a few pixels short.

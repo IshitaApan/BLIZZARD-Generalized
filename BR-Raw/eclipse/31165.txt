@@ -1,0 +1,3 @@
+[Perspectives] Should turn redraw off around perspective switches
+
+build I20020306 While in my target eclipse under debug, with 2 Java editors and the following perspectives open: Resource, Java, Debug, I noticed that switching between the perspectives was really flashy. Lots of menubar updates and repeated layouts. Just for fun, I added a setRedraw off/on around the whole thing in Workbench.setPerspective(Perspective). It felt -much- better afterwards. Should do this for RC1. My hack lost the busy cursor, though, and it's important to have it.

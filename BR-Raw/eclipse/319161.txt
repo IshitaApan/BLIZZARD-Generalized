@@ -1,0 +1,3 @@
+[Compatibility] setFocus() called twice when invoking IWorkbenchPage's activate(IWorkbenchPart) method
+
+SSIA

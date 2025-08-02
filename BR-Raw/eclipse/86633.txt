@@ -1,0 +1,3 @@
+[Themes] Cascading*Registry should not use Display.getCurrent().asyncExec
+
+3.1 M5 org.eclipse.ui.internal.themes.CascadingColorRegistry.dispose() org.eclipse.ui.internal.themes.CascadingFontRegistry.dispose() have the following pattern: Display.getCurrent().asyncExec(displayRunnable); If this is not running in the UI thread, then Display.getCurrent() will return null. If it is running in the UI thread, can the code not be called immediately? If it does need to be deferred until events run (are they even guaranteed to run after the registry is disposed?), then I suggest using IWorkbench.getDisplay() instead.

@@ -1,0 +1,3 @@
+[viewers] #expandToLevel(Object, level) retrieves all children when virtual
+
+3.4.2 (M20090211-1700) Calling TreeViewer#expandToLevel(Object, level) when using a tree viewer with a lazy content provider and SWT.VIRTUAL style, causes all children to be retrived via org.eclipse.jface.viewers.ILazyTreePathContentProvider.updateElement(TreePath, int). I would expect that expanding an element in the tree would only trigger the retrieval of the visible elements, since the tree is virtual. This is noticeable in the debugger when there is a deep stack (say 400 frames). In this case the debugger calls back to replace each element in the tree (once for each child - 400 times in this case). See related bug 304277, in debug.

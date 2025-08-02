@@ -1,0 +1,3 @@
+[Commands] RegistryRadioState cannot properly initialize because of NPE
+
+When a RegistryRadioState configured for a contributed command is being read from the registry, an NPE is thrown in RadioState, line 75: 			private final void activateMember(final RadioState state) { 				if (active != state) { 75->					active.setValue(Boolean.FALSE); 				} 				active = state; 			} This is because there is no initial active state and no way to provide a non-null value. I believe line 74 should read "if (active != state && active != null) {".

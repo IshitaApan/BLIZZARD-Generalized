@@ -1,0 +1,3 @@
+Export preferences doesn't append file extension
+
+Build 20020602 (F2) When exporting preferences the file chooser filters by extension *.epf but doesn't add that extension to file names entered -- meaning that the file apparently disappears from the list.

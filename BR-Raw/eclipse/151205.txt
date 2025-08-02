@@ -1,0 +1,3 @@
+[Viewers] Add setFilters() to change multiple filters at once efficiently
+
+When one needs to add more than one filter after every request a refresh command is issued which is not desired an API-Function where the user could control whether the refresh is called or not would be a great performance improvement.

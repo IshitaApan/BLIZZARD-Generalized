@@ -1,0 +1,3 @@
+PreferencePage button bar should not make buttons equal width (1GKKFMI)
+
+PreferencePage.createControl should not do layout.makeColumnsEqualWidth= true; for the button (Default, Apply) composite ISV's may add more buttons and they may be wide. Implementors are responsible for ensuring that their buttons have a minimum width and this is enough to make all the buttons the same width in most cases.	 NOTES:

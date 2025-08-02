@@ -1,0 +1,3 @@
+[Import/Export] import existing project w/ copy is inefficient
+
+I just tried to import some existing projects and selected "copy projects into workspace". After a long time (sorry, no measurements) I had to cancel the request, because I was running out of disk space. I had just succeeded in importing the first project (jdt core), which takes approx. 80MB disk space, but at that time the previously blank workspace consumed additional 300MB mainly in: .metadata/.plugins/org.eclipse.core.resources/.history/ Is this operation recording undo-information for each single file imported? Unless I made something really stupid, this operation seems not to be usable for large projects.

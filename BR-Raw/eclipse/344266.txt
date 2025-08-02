@@ -1,0 +1,3 @@
+Double-clicking should only maximize a stack if it is the primary mouse button
+
+I often use the middle mouse button to close parts in a stack quickly. Sometimes I end up maximizing the part stack instead, this is very annoying.

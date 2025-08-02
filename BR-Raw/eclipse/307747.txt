@@ -1,0 +1,3 @@
+EPartService doesn't render new parts
+
+1. Have a part in a stack, it is the selected part. 2. Show another part in that stack using PartState.CREATE or PartState.VISIBLE. 3. The part should've been rendered. It is not.

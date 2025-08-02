@@ -1,0 +1,3 @@
+[Compatibility] 'Source' and 'Refactor' menus disappear after installing Photran
+
+After installing Photran from Indigo and restarting, the 'Source' and 'Refactor' menus no longer show up when the 'Package Explorer' is the active part. If I select something in the view the 'Refactor' menu shows up but the 'Source' menu does not.

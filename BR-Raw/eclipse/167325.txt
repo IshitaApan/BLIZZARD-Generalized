@@ -1,0 +1,3 @@
+[Viewers]ViewerCell and ViewerRow should provide API to find neighbors
+
+This is a very important feature if we want provide keyboard features in tables and trees and the current EditingSupport has TODO items to make this work in a clear way. I'd propose the following new API functions for ViewerCell: - ViewerCell#getCellLeft() - ViewerCell#getCellRight() - ViewerCell#getCellTop() - ViewerCell#getCellBottom() - ViewerRow#getRowTop() - ViewerRow#getRowBottom() What I'm not 100% sure is if we should provide functions to navigate Tree-Structures: - ViewerCell#getCellTop(boolean samelevel) - ViewerCell#getCellBottom(boolean samelevel) - ViewerRow#getRowTop(boolean samelevel) - ViewerRow#getRowBottom(boolean samelevel)

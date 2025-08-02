@@ -1,0 +1,3 @@
+[RCP] Next/Previous editor/view/perspective switchers are broken
+
+build I20031113 The Ctrl+F6/F7/F8 switchers sometimes stop working in this build. I haven't been able to determine exact steps to reproduce the problem yet. It does not seem to be specific to key bindings since the Window > Keyboard Shortcuts > Next/Previous actions stop working as well.

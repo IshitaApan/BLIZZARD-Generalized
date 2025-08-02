@@ -1,0 +1,3 @@
+Debugging often spawns identical editors
+
+If you put breakpoints in your current editor and you start a debug session, you'll often get another editor opened instead of having the one you have active "reused".

@@ -1,0 +1,3 @@
+[KeyBindings] Ctrl+Shift+F switches input mode in KeySequenceText on GTK
+
+Some key strokes shift the input mode by default in GTK, which breaks the way the KeySequenceText widget is supposed to work. One example is Ctrl+Shift+F. Instead of the desired character, a strange other character is inserted, and the key sequence is not modified. This character cannot be deleted. STEPS TO REPRODUCE: 1.) Open the KeysPreferencePage and change focus to the KeySequenceText widget. 2.) Type Ctrl+Shift+F ACTUAL RESULTS: An underlined 'F' is inserted in the text widget, and the key sequence is not affected. EXPECTED RESULTS: Ctrl+Shift+F should be inserted, and the key sequence updated.

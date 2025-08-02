@@ -1,0 +1,3 @@
+[Preferences] Changing preferences ignored after "Restore defaults" pressed.
+
+e.g. 1) Go to Workbench->Preferences->Debug->Console 2) Change the colour of console output (you can show the console and see the colour change) and press "Apply" <don't leave the dialog> 3) Press "Restore Defaults" and "Apply" and the colour will be reset to default in the console 4) Now change the colour to something else and press "Apply" ... NO Change to the console colour. The problem can be seen in the PropertyChangeEvent that always contains the default values because once the "Restore Defaults" flag has been set it is never reset and therefore the "Apply" always sends the defaults.

@@ -1,0 +1,3 @@
+[Compatibility] No progress reported for Ctrl+Alt+H
+
+We should be seeing stuff in the bottom right hand corner.

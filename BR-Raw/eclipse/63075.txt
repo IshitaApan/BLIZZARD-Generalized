@@ -1,0 +1,3 @@
+[PropertiesDialog] The file size in the file Properties dialog and the file Properties view is not formatted for the locale
+
+Eclipse build number: I200405140800 CDT build number: 200405121551 TestCase number: QE_TestCase_P1_I18N211, QE_TestCase_P1_I18N212 Test Case: 1. Change the locale to Spanish from control panel. 2. Restart eclipse & create a Java or C/C++ project. Create a file under the project and add code to it such that the file size exceeds 1000 bytes. 3. Right click on file and go to Properties. The file size specified there is not formatted according to the locale selected. 4. Go to Windows->Show view->Properties. The file size is not number formatted in the properties view for the locale as well.

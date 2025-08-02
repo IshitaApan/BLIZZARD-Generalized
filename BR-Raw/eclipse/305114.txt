@@ -1,0 +1,3 @@
+[CommonNavigator] ResourceSelectionUtil has been deprecated without public replacement
+
+Public API class org.eclipse.ui.views.navigator.ResourceSelectionUtil has been deprecated in 3.5 with the hint to "use the Common Navigator Framework classes instead", but the CNF counterpart is internal.

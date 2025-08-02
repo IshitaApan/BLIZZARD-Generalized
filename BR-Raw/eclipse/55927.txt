@@ -1,0 +1,3 @@
+[ViewMgmt] [RCP] Should not be able to detach fixed views
+
+Build id: 200403220800 Using the RCP browser example I was able to drag the view away from the RCP window to get a detached view. The perspective was declared as fixed, so this should not be possible. Also, I was not able to reattach the view by dragging it back to the window. The system menu -> move -> tab group is still enabled, which appears to be the same problem. The move -> view is disabled, and I wasn't able to move it by clicking on the active tab, just the tab area background.

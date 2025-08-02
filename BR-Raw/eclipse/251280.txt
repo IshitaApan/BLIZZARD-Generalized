@@ -1,0 +1,3 @@
+[Dialogs] It's a PixelConverter party and everyone's invited
+
+I was refactoring some code today and came across a PixelConverter class in PDE. I than did a search on the SDK to see who else was privy to having a PixelConverter class... turned out to be a party.

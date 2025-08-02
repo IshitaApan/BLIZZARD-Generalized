@@ -1,0 +1,3 @@
+[Trim] Failing trim gives multiple error dialogs
+
+If a piece of contributed trim is failing during creation it will produce an error dialog during every subsequent call to 'fill'. Should 'wire off' bad trim once the failure has been detected once.

@@ -1,0 +1,3 @@
+Cloneable Snippets is part of the wrong model element
+
+Currently cloneable snippets are part of MApplicationElement. This is too far up the model inheritance hierarchy. It should likely be moved to a better place, or become a first class citizen.

@@ -1,0 +1,3 @@
+Minimized stacks are 'restored' on shutdown
+
+Fire up a fresh inner minimize both the Package Explorer and Outline view stacks close and re-open they've been magically 'restored' This is cause by a rempant widget disposed listener added while trying to fix bug 320243.

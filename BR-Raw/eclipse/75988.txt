@@ -1,0 +1,3 @@
+[Preferences] IPreferencePage#performOk() returning false should prevent the dialog from closing
+
+I think that if this method returns false, it should prevent the dialog from closing. Today, in order to perform validation I have to register key listeners to all fields an use #setValid(false) to disable the "OK" button.

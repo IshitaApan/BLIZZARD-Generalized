@@ -1,0 +1,3 @@
+[Markers] improved problem filter needed (OR clauses)
+
+when working with large workspaces I find the current problems filter not powerful enough. If I were able to AND and OR the conditions available from the UI then I would solve all my use cases. my most needed one is : I would like to see ERRORS anywhere in the workspace OR WARNINGS in the current selected project

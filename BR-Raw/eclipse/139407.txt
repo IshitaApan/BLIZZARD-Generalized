@@ -1,0 +1,3 @@
+[DataBinding] TestMasterDetail not updating when changing Person State
+
+When running org.eclipse.jface.examples.databinding/src/org.eclipse.jface.examples.databinding.nestedselection.TestMasterDetail and editing a Person's State the master table isn't updated when the State's value changes. The reason for this is that the Person object isn't notifying listeners of changes.

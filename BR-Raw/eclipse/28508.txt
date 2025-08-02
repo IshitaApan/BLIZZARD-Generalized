@@ -1,0 +1,3 @@
+[Dialogs] build-all should not bring up a progress monitor
+
+20021216 it should use the status bas - the dialog is way too distracting on motif, the whole thing flashes a lot too

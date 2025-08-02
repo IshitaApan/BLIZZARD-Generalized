@@ -1,0 +1,3 @@
+WorkbenchPreferenceNode swallows exceptions
+
+If an IWorkbenchPreferencePage is defined without a no-arg constructor, WorkbenchPreferenceNode.createPage() will swallow the exception. The symptom will be a generic "This preference page could not be created" error, with no stack trace available anywhere (nor even the class of the exception).

@@ -1,0 +1,3 @@
+bindWidget calls
+
+Created attachment 122545 bindWidget v01 Add bindWidget calls to all of the part factories you can find. Question ... should menu items be bound as well, or simply Part<?> ? PW

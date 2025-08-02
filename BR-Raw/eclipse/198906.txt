@@ -1,0 +1,3 @@
+[DataBinding] SelectionProviderSingleSelectionObservableValue doesn't remove selectionChangedListener on dispose
+
+Created attachment 75411 Test case for SelectionProviderSingleSelectionObservableValue#dispose Build ID: HEAD Steps To Reproduce: 1. Apply the attached patch which adds a test case for the dispose method. 2. Test fails with a NullPointerException More information: Note that the test temporarily sets a different ISafeRunnableRunner as the platform pops up an error dialog saying an NPE has been thrown, but the test successfully passes.

@@ -1,0 +1,3 @@
+Leak: Outline hangs onto registered menus
+
+After working for a while (4 hours) with eclipse, I get OutofmemoryError. I have Win2k/Sp2/384MB RAM. I suspect it's a memory leak. I have some large projects loaded on my workspace but I work with only few small projects. Eclipse build - integration 20020517

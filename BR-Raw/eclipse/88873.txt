@@ -1,0 +1,3 @@
+[DynamicUI] remove Experimental from IExtensionTracker API
+
+See IWorkbench.getExtensionTracker WorkbenchWindow WorkbenchPage

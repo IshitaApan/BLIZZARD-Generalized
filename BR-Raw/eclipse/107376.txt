@@ -1,0 +1,3 @@
+VirtualTableViewerTest needs to force item creation
+
+20050817 VirtualTableViewerTest.deleteSibling() is failing on GTK version 2.2 or lower as the SWT VIRTUAL support does not necessarily create the items before the suite is run. We need to force the creation of the item using getText() as we did previously to make sure that GTK creates the items in the table.

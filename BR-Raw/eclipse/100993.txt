@@ -1,0 +1,3 @@
+[EditorMgmt][Presentations] Regression: Editor tabs do not remember order or active tab after restarting Eclipse
+
+Editor tab order is not restored after closing and reopening Eclipse. 1. Open a few editors such that all tabs are completely visible. 2. Drag tabs to put in a specific order. 3. Close and reopen Eclipse. 4. Note that tabs are not in the order they were in when you closed Eclipse.

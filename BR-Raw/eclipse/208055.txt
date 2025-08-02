@@ -1,0 +1,3 @@
+[Markers] Need a sorting method for the markers view
+
+As there is currently no accessible way to change sort order or direction. A menu should be enough.

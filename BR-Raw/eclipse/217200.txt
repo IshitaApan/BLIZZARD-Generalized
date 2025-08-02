@@ -1,0 +1,3 @@
+[Markers] MarkerPreferencePage not setting the dialog font
+
+Window>Preferences>Markers Dialog font is not set for widgets within page.

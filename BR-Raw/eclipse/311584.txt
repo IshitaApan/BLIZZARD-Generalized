@@ -1,0 +1,3 @@
+[build path] "Extend" path variable button does nothing
+
+Build Identifier: I20100429-1549 The "extend..." button in the Java project's link source dialog does not work. Reproducible: Always Steps to Reproduce: * In the Java perspective, right click a Java project, goto Build Path > Link Source... * Select Variables... * In the dialog that appears, select an existing path variable and click Extend... Effect: Nothing happens. Expected: A file browser relative to the path variable appears.

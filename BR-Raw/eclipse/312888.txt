@@ -1,0 +1,3 @@
+Problems when entering the linked folder location
+
+Build id: I20100511-0800 This bug is forked from Bug 310446. I noticed that exceptions are written down to the console, while entering the linked folder location in the NewFolder wizard. For instance: Steps [1]: 1) Open the NewFolder wizard 2) Go to 'Advanced' and check 'Linked Folder' 3) Type "c:/" Steps [2]: 1) Open the NewFolder wizard 2) Go to 'Advanced' and check 'Linked Folder' 3) Type "file://c:/" Steps [3]: 1) Open the NewFolder wizard 2) Go to 'Advanced' and check 'Linked Folder' 3) Type "ne:/" --> ne is non-existing scheme

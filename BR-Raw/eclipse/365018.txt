@@ -1,0 +1,3 @@
+[CSS] Add missing support to CSS engine
+
+The CSS Spy requires the CSS Engine to provide the ability to: * parse selectors (to complement the existing support for parsing rules, properties, values, etc.) * return the list of applicable selectors for an element (rather than walk the public propertyHandlerMap property on AbstractCSSEngine) The CSS WidgetElement implementation is missing: * the ability to use "class" as an attribute, required to be able to query against the CSS class string (e.g., "CTabFolder[class='MPartStack']"

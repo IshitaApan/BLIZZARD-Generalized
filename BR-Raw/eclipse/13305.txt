@@ -1,0 +1,3 @@
+A suspicious System.out.println in org.eclipse.internal.ui.WorkbenchActionBuilder
+
+Build: M5 candidate Description: The protected method addManualIncrementalBuildAction in org.eclipse.internal.ui.WorkbenchActionBuilder catches IllegalArgumentException in a few places, and, in the last such catch block, it makes a call to System.out.println("build action not found");. Perhaps it should be reviewed.

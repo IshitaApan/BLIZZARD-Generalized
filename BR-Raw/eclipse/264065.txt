@@ -1,0 +1,3 @@
+Add OSGi service context as root of workbench context chain
+
+The parent of the root workbench context should be an OSGi service context. This will allow all contexts to access OSGi services through their context "for free".

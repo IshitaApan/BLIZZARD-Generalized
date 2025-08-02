@@ -1,0 +1,3 @@
+Where did exit code 15 go?
+
+Build: I-20040313 Once upon a time, if you launch Eclipse on a workspace that is already in use, the launch used to fail with exit code 15. The runtime would then display an informative message. Similarly, in the runtime workbench situation, PDE would display a message like: "Launch failed because the the workspace associated with the launch is currently in use". Right now, code 15 is gone. The launch will terminate with exit code 0 (of all things) with an error message from the runtime saying: "Error in runtime; workspace cannot be set. Exiting". The old behavior was more informative and more delicate. Also if it's an error as the dialog says, why is the exit code 0?

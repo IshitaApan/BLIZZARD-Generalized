@@ -1,0 +1,3 @@
+[Model] HandledItem should be abstract
+
+Looks like an oversight the only real types are HandledMenuItem and HandledToolItem.

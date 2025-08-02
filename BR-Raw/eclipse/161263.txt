@@ -1,0 +1,3 @@
+Broken fast view bars
+
+Build: I20061017-0800 1) Maximized a view 2) Double-clicked the view tab to restore it. -> Now I'm in a state where all other parts remain as fast views and I have just the restored view and the editor area available. The fast view bars cannot be restored (restore button does nothing). There is no context menu on the FVB so I cannot restore or close individual views. The only way to get views back into the workbench window is to expand the fast view, close the view, reopen the view, and hope it doesn't reappear in the broken fast view stack.

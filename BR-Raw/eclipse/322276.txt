@@ -1,0 +1,3 @@
+NPE raised when specifying positionInList in menus
+
+Created attachment 176268 patch reversing the comparisons to prevent possible NPEs BuildId: I20100806 Using a model fragment to insert a menu item that specifies a positionInList may lead to an NPE. This occurs if the traversal encounters a menu item with no elementId. Since we're doing string comparisons, and the identifier being sought is definitely not null, we can simply swap the comparison.

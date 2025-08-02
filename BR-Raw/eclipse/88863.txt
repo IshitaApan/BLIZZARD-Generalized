@@ -1,0 +1,3 @@
+[Preferences] PreferencesLinkArea should be API
+
+We need to make the preferences link area API.

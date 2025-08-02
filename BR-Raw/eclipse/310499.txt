@@ -1,0 +1,3 @@
+[LinkedResources] Import > File System > Advanced: "Copy into workspace" should be "Create links in workspace"
+
+I20100425-2000 Import > File System > Advanced: The logic of the "Copy into workspace" checkbox is very unusual. Normally, slave options get enabled when their master is checked, but in this case, it's reversed. The master option would better be called "Create links in workspace", and checking that option should enable the slave options. Default for the master should then be unchecked.

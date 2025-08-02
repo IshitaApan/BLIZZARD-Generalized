@@ -1,0 +1,3 @@
+New Required Plug-In - list not sorted
+
+Build F3 If you add a new plugin as a required plugin, the list which appears in the prompter is not sorted. This makes it nearly impossible to find the plugin I want, since my list is nearly 500 elements long. (Note that I have the preference set to show the internal plugin names (e.g. com.ibm.etools.xml.utility)).

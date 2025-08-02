@@ -1,0 +1,3 @@
+Working set may loose some projects
+
+Build 20020501 I had defined a working set 'jdtcore' containing project 'org.eclipse.jdt.core'. At some later point, I deleted and readded this project (while working in between multiple streams). From thereon, the working set was empty, and all searches did not find anything any longer. A working set should preserve references to unexisting projects, in case they are added (back) at some later point; pretty much as deleting a project doesn't implicitly remove it from a buildpath.

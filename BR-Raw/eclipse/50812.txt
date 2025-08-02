@@ -1,0 +1,3 @@
+[ViewMgmt] Unable to open any views, once one of the views shows an error
+
+i started with a fresh install of: eclipse-SDK-I20040127-win32 (latest one for that date). I also installed a coulple of plugins/features: one of them being the Platform Extensions plugin. When I opened one of the default views, it worked fine. Then , I tried to open a view from one of the installed plugins, and the app "froze", ie. the fast view button remained depressed. After this point, none of the other views (even the ones from the eclipse JDT) worked. I am attaching the .log file. This might be related to the dockable fast views(?)

@@ -1,0 +1,3 @@
+[Progress] scheduled synchronizations stay in the progress view when terminated
+
+I thought that the belongsTo call would get rid of all matching synchronizations. But it appears that with scheduled syncs, they stay in the view. Also, the timestamp isn't shown for when they terminated.

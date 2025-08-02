@@ -1,0 +1,3 @@
+[Compatibility] Cannot use Alt+Enter to open breakpoint properties
+
+1. Add a breakpoint to a file. 2. Window > Show View > Breakpoints 3. Select the breakpoint 4. Alt+Enter. Nothing happens.

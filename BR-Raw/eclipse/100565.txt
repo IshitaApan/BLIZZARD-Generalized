@@ -1,0 +1,3 @@
+[Viewers] Tree viewer selection not revealed if unchanged
+
+[RC3] Steps: 1. Check out org.eclipse.ui.workbench 2. Open Workbench.java 3. Ctrl-O to open Quick Outline 4. Type "r", note that the field "runEventLoop" is the first match 5. Type "u", note that the field is not shown anymore 6. Type arrow-down key, note that you cannot see the selected entry

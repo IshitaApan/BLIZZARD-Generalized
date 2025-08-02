@@ -1,0 +1,2 @@
+[ErrorHandling] Support tray should be visible only if there is something to display
+

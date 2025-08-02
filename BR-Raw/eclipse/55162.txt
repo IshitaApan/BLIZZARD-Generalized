@@ -1,0 +1,3 @@
+IPresentablePart needs to be able to opt out of done state
+
+20040317 We need to be able to allow an IPresentablePart to opt out of showing bold when it is done. Currently any part that is not the focus part will show bold when it is done. For the marker views in particular this is only desired when the markers change.

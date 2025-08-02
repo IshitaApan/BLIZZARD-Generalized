@@ -1,0 +1,3 @@
+[CSS] ETabFolder should support background color behind tab area
+
+Presently in CTabFolder, the unselected tab and the background color of the tab area are the same. We want them to be different. Not sure what property to use in CSS to support this, since background-color is presently used for the tabs themselves. One idea would be to make CTabItem be the element which supports color background-color :selected This would leave CTabFolder to interpret background color as the area behind the tabs.

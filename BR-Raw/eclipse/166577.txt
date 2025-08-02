@@ -1,0 +1,3 @@
+[WorkingSets] Add To working sets actions need to be filtered
+
+M3 It's possible to add any adaptable element to any working set via the new working set actions in the toolbar. Previously you could only add things to working sets via the working set dialogs which had domain knowledge to filter the possibilities to those that were applicable. The actions, however, are generic and new API is needed on IWorkingSet to ask it whether or not a given IAdaptable is applicable.

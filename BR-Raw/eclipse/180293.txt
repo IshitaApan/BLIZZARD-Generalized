@@ -1,0 +1,3 @@
+[FastViews] NPE in bring up a fast view
+
+The FastViewPane#showView calls 'pane.setFoxus()' part way though its construction. This is now causing a call into 'updateSashBounds' (apparently as a side-effect of an SWT size change). However, the sash hasn't been created yet so we NPE. This code hasn't changed (last change was the copyright change Jan 17)... The fix is obvious...move the 'pane.setFocus()' to the end of the method so everything is set up. What's suspicious is the code flow change; where did the resize event come from?

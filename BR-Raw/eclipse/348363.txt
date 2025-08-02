@@ -1,0 +1,3 @@
+'mnemonics' feature not considered when rendering menu items
+
+I20110604-2201. The last 3 items have no mnemonics. This looks OK in 3.7. Wonder why they are lost in 4.1.

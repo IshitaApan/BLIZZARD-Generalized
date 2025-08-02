@@ -1,0 +1,3 @@
+[CommonNavigator] CNF viewer state non properly reset when NCEs are activated or deactivated
+
+The map of the objects to the NCEs should be reset whenever the NCEs associated with the viewer to change to avoid having stale label information. This has shown up when looking at the CNF tests that change the viewer.

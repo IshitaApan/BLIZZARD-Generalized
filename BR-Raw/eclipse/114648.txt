@@ -1,0 +1,3 @@
+export file system/archive wizard initally has error when no selection seeded
+
+Make sure nothing is selected in your Navigator or Package Explorer. File > Import/Export Select Archive or File System BUG: there is initially an error - There are no resources currently selected for export. There should not initially be an error in these wizards.

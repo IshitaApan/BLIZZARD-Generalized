@@ -1,0 +1,3 @@
+Presence of tweaklets during test runs causes grief
+
+If you have tweaklets in your workspace while running the tests you get a slew of hard to diagnose errors. We should test for the presence of tweaklets in the test suites and bail early if they are found.

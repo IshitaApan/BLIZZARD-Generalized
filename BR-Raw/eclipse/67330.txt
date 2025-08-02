@@ -1,0 +1,3 @@
+[Wizards] New Wizard fails with no categories
+
+NewWizardNewPage throws a NullPointerException when you come back in a second time if there are no categories or all wizards are primary wizards. The offending line is NewWizardNewPage.java:147. The NPE shows up at line 566.

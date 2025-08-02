@@ -1,0 +1,3 @@
+[Coolbar] incorrect downcast in SubCoolBarManager.getStyle()
+
+The downcast in this method public int getStyle() { // It is okay to cast down since we only accept coolBarManager objects in the // constructor return ((CoolBarManager) getParent()).getStyle(); } is not okay because the constructor accepts ICoolBarManager objects. Since ICoolBarManager has a method getStyle(), the downcast should be to ICoolBarManager, not to CoolBarManager.

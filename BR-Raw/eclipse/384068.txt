@@ -1,0 +1,3 @@
+Unexpected partVisible and partBroughtToTop events lead to wrong History view updating in Link with... mode
+
+Broken in 4.2, works fine in 3.8. Bad selection updates lead to wrong Git History view updating in Link with... mode. Steps: - have EGit 2.0 installed and a repo checked out - open an editor for a file from Git - open History view and enable "Link with Editor and Selection" and "Show all changes of selected resource and its children - in the Git Repositories view, select a repo => good: History view input changes to repo - click into the table in the History view to select another commit => bad: History view input changes to the editor input. Real severity is blocker, since this is enough to stop me from using 4.2 for real development.

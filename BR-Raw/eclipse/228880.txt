@@ -1,0 +1,3 @@
+[Themes] Running test suites in HighContrast crashes on launch
+
+Build ID: I20080415-1646 Steps To Reproduce: Enable high contrast on Windows XP (Control Panel -> Accessibility ->Display ->Enable High Contrast). Eclipse should prompt to relaunch. Then run Eclipse Application with tests in the configuration. It will fail to launch.

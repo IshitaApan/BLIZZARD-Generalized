@@ -1,0 +1,3 @@
+ContributedPartRenderer eagerly activates constructed parts in createWidget
+
+I was wondering why my part was becoming active when I noticed the two lines of code below in CPR... parentContext.set(IContextConstants.ACTIVE_CHILD, localContext); activate(element); This eager activation is in direct conflict with the 3.x IWorkbenchPage's showView method with a IWorkbenchPage.VIEW_CREATE mode passed in.

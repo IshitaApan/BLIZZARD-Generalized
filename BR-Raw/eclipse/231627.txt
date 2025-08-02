@@ -1,0 +1,3 @@
+[Commands] Server view tool bar icons shows on welcome page
+
+Build ID: 3.0 Steps To Reproduce: The server view tool bar icons sometime shows up in the welcome pages even though the welcome page does not contains the servers view. More information:

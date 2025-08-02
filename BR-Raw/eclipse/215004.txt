@@ -1,0 +1,3 @@
+[Markers] New Problems view: 'Group by > Type' broken
+
+Created attachment 86659 Screenshot I20080108-1320 New Problems view: 'Group by > Type' is broken: - only one top level node - PDE entries under Java Problems

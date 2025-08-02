@@ -1,0 +1,3 @@
+[Contributions] ActionContributionItem should use text for tooltip in toolitems
+
+If an action is added to a toolbar, and it has a name, but no tooltip set, the name should be used as the tooltip (except when the text is actually displayed on the toolitem using setText()) Clients sometimes forget to set the tooltip text when no specific tooltip message exists.

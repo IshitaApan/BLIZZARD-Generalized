@@ -1,0 +1,3 @@
+[Min/Max] 'show title' false leads to missing icon in minimized stack
+
+Create a view with a stand-alone, no title view. Maximize the editor area The view's stack moves to the trim but there's no icon displayed. I used the 'with a view' template for my project so I know that there -is- a view image declared...

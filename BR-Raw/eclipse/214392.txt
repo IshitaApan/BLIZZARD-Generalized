@@ -1,0 +1,3 @@
+[JFace] missing implementation of ComboFieldEditor.setEnabled
+
+Build ID: M20071023-1652 Steps To Reproduce: 1. create a ComboFieldEditor and add it to a preference page 2. set the editor disabled 3. the combo widget remains enabled

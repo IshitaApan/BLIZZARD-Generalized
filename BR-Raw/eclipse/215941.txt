@@ -1,0 +1,3 @@
+[Help] Help content for dialogs should open in a new window
+
+Created attachment 87375 This patch fixes the mentioned issue Presently, when the help button on a pop-up window is clicked, help opens to the side of the window in a 2" view. Then when the help link in the help view is clicked, the help file opens into that same 2" view. With all the graphics and tables that are in help files, the 2" view is too inadequate to view help files properly. The help file should launch in its own help window and not in the 2" view.

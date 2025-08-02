@@ -1,0 +1,3 @@
+[Properties] Clicking OK on Properties page of plugin.xml gives unexpected "Conflict in Encoding"
+
+N20050523-0010 - open the Properties dialog for a plugin.xml - click OK => Error message dialog "Conflict in Encoding": "null conflicts with the encoding defined in the content type (UTF-8). Do you wish to set it anyways?" with buttons "Yes" and "No". Since I have not changed teh encoding, I don't expect that dialog.

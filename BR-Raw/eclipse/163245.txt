@@ -1,0 +1,3 @@
+[Progress] make the progress viewer virtual
+
+We should make the progress viewer virtual as it takes a lot of time to update when flooded with jobs

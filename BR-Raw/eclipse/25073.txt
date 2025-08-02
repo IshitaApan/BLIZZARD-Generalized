@@ -1,0 +1,3 @@
+[ViewMgmt] Closing stacked view shows view placeholder (empty view)
+
+build 20021017 -MAke sure the tasks view is open and visible in the lower right pane, stacked together with the console view and the search view underneath. -Restart the workbench -Close the task view ->There will be an empty pane with the console view title. If you click on the pane the actual console view is shown. There are other ways to reproduce this effect but this is the easiest one.

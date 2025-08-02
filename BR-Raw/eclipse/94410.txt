@@ -1,0 +1,3 @@
+[Undo] - TimeTriggeredProgressDialog needs busy cursor
+
+In the refactoring and text scenarios, you don't notice this problem because they either complete quickly or report progress quickly enough that the dialog pops up. In the org.eclipse.ui.operations.examples in the OTT repository, there are sample undoable operations that do a lot of work before reporting any progress, so there is a perceived delay before seeing the progress. Also important for operations that never report any progress at all.

@@ -1,0 +1,3 @@
+[PerspectiveBar] problem with the Perspective Switcher/Bar
+
+I want to hide the open button on the persective switcher and so I use a seperated .ini file in the Eclipse path and I launch Eclipse like this : Eclipse.exe -clean -plugincustomization myCustomDefaults.ini here the myCustomDefaults.ini file : org.eclipse.ui/SHOW_OPEN_ON_PERSPECTIVE_BAR=false But when I launch Eclipse an error box appairs and the perspective bar is out of service the error log is in attachment PS: I use Eclipse 3.4M6

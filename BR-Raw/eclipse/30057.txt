@@ -1,0 +1,3 @@
+[Navigator] NewWizardAction is instantiated in MainActionGroup of ResourceNavigator but never used
+
+NewWizardAction is instantiated in org.eclipse.ui.views.navigator.MainActionGroup in makeActions() but never used protected void makeActions() { ... newWizardAction = new NewWizardAction(); ... } is there's a point of doing that???

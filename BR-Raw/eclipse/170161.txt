@@ -1,0 +1,3 @@
+[Themes] Font Preview is not visible in HighContrast mode
+
+In the Preferences-General-Appearance-Colors and Fonts ->View and Editor Folders, the Preview is not visible in HighContrast mode. Please see the attachment below. Thank you!

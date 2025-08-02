@@ -1,0 +1,3 @@
+[Compatibility] Keybindings seem to be unscoped
+
+1. Ctrl+Shift+R 2. The 'Open Resource' dialog comes up. 3. Ctrl+Shift+R. 4. Another one comes up. :o

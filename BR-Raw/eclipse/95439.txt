@@ -1,0 +1,3 @@
+Filter combo box in preferences dialog not honouring dialog font
+
+set the dialog font, note that the combo box in the preferences dialog does not use it.

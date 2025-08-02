@@ -1,0 +1,3 @@
+[CommonNavigator] Ability to extend bindings beyond "inheritsBindingsFrom" tag
+
+Requirement: Extend another common navigator instance including all bindings, plus have the ability to add additional bindings. This is a follow-on to: https://bugs.eclipse.org/bugs/show_bug.cgi?id=218127 where inherited bindings are possible, but no longer able to add additional

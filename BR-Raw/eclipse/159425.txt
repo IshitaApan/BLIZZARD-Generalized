@@ -1,0 +1,3 @@
+Fix for javadoc warnings in latest nightly builds
+
+Fix for the javadoc warning in the org.eclipse.ui.dialogs.FilteredTree class.

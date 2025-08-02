@@ -1,0 +1,3 @@
+[ViewMgmt] [RCP] Can close a non-closable view when docked on fastviewbar
+
+* Create a workspace with a non-closable view, that is movable * Drag view and dock on FastView * Right click on icon in fastview and click "Close"

@@ -1,0 +1,3 @@
+[KeyBindings] Mac: Exporting keyboard preferences to CSV writes question marks instead of modifiers such as "Ctrl" and special keys like "Up"
+
+Build ID: I20090430-2300 Steps To Reproduce: 1. Mac Carbon or Cocoa 2. Preferences, General > Keys 3. Click "Export CSV" and export a CSV file Result: The CSV file has a lot of question marks where it should have modifiers like "Ctrl". For example, one line says: "Edit","Quick Fix","?1","In Dialogs and Windows" In other places, question marks are written for other keys such as the up arrow. The "Move Lines Up" command is assigned to Option+Up, but it shows up like this: "Text Editing","Move Lines Up","??","Editing Text" Windows does it right, e.g. the shortcut for "Move Lines Up" is written out as "Alt+Up".

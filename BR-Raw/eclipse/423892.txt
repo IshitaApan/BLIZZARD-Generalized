@@ -1,0 +1,3 @@
+[EditorMgmt][Split editor] Only one command available in Quick Access
+
+I20131210-2000 In Quick Access (Command+3), I only see one Split Editor command, which splits vertically (creates a horizontal separator).

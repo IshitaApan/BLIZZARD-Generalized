@@ -1,0 +1,3 @@
+[DataBinding] Default a converter for IStatus to String
+
+The converter used to display an IStatus uses toString(). This outputs a fairly ugly status message. We should create a default converter and use this in UpdateValueStrategy to return just the message of the status.

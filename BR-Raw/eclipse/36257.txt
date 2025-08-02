@@ -1,0 +1,3 @@
+[Dialogs] ContainerSelectionDialog returns array with null element
+
+In Bug 35511, we found that the ContainerSelectionDialog returns a one-element array containing null when nothing is selected. Instead, it should return an empty array when no items are selected.

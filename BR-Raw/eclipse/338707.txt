@@ -1,0 +1,3 @@
+Reconciler chokes on elements under parents that have been removed from the model
+
+See bug 338584.

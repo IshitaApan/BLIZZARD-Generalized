@@ -1,0 +1,3 @@
+[About] Feature info text area in about dialog does not wrap text
+
+The text control that displays the aboutText from feature branding plugins about.ini file is not configured to wrap text. This cuts off long text (as in feature description) and forces people to insert line break manually. Making the control wrap text will allow manual text breaks to be removed and let the text flow more naturally to fill the available area. Will attach a patch.

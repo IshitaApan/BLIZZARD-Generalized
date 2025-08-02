@@ -1,0 +1,3 @@
+[Databinding] Bug in WritableList.addAll
+
+Build ID: 3.2.1 In the source file org.eclipse.core.databinding.observable.list.WritableList.java following line int addIndex = c.size(); should be replaced with int addIndex = wrappedList.size();

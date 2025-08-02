@@ -1,0 +1,3 @@
+[Preferences] DialogMessageArea image is too large
+
+Is the background color of the error shown by DialogMessageArea to be changed? Or do you intend to leave it as it is right now? The error message looks a little out of place in the current implementation (being surrounded by white space).

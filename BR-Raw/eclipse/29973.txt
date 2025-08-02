@@ -1,0 +1,3 @@
+[Navigator] List of working sets in drop-down menu gets reordered
+
+build I20030115 There seems to be an inconsistency between the way the Navigator and the Package Explorer orders working sets in the drop-down menu. The Navigator seems to use MRU order, while the Package Explorer uses alphabetical order. I think alphabetical order is preferable since it is more stable. Moving the current one to the top isn't a great advantage since it's already indicated by the radio button.

@@ -1,0 +1,3 @@
+[RCP] Application Control of the FastViewBar
+
+Requesting the following enhancements to the FastViewBar. * Ability to create fastViewbar similar to the ability to create coolBar, statusBar, pageComposite etc... from the WorkbenchConfigurer * Ability to control the popup menu from the FastViewBar * Ability to add other icons to the FastViewBar (such as an icon to undock all views in the fastViewBar at once)(With the first enhancement we can probably use a CPanel to do this.)

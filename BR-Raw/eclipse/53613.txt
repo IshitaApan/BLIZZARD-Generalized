@@ -1,0 +1,3 @@
+[Progress] Should make floating window larger
+
+As the floating window now only comes up on hover we should make it larger so that we can get more of the text.

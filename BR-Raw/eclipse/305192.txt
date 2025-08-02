@@ -1,0 +1,3 @@
+Put RectangleAnimation back into org.eclipse.ui.workbench
+
+We need to put this back so product teams can migrate more easily.

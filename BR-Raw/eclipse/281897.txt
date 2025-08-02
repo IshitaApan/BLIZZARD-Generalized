@@ -1,0 +1,3 @@
+[ui] allow -applicationCSS in both e4 app and legacy workbench app
+
+1) the primary plugin should not be jarred. e4 doesn't have one, but the legacy workbench does, org.eclipse.e4.ui.examples.legacy.workbench 2) WorkbenchApplication and the legacy app should take -applicationCSS so that you can override it on the command line. PW

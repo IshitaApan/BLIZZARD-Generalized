@@ -1,0 +1,3 @@
+[Import/Export] Import Existing Project into Workspace default widget is back button , should be text field
+
+Import Existting Project into Workspace default button is back, should be on the directory path text field. This is minor but enhance usability and is consistent with other ui.ide wizards. See attached patch that deals nicely with : - setting the focus when switching from file to archive, and sets the iniotial focus on file import.

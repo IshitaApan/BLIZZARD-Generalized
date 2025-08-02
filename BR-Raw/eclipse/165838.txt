@@ -1,0 +1,3 @@
+[Keybindings] Creating a key binding on "new untitled empty text file" weirdness
+
+Assign a key to the new untitled text file wizard That is in category file and named patly "New (New Wizard: creates an empty untitle text file). Invoke that key. An empty wizard page is shown with just a finish button.

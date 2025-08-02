@@ -1,0 +1,3 @@
+[UI] The workbench should create the contexts
+
+The workbench should create contexts for the model elements, MApplication and MParts (windows, sashes, contributed parts, etc). This is not really the responsibility of the renderers. PW

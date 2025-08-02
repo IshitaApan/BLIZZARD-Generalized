@@ -1,0 +1,3 @@
+[JFace] NPE in StatusLine class
+
+In class org.eclipse.jface.action.StatusLine, method SubTask(String name) NPE. StatusLine.subTask(String) line: 552 StatusLineManager$1.subTask(String) line: 205 EventLoopProgressMonitor(ProgressMonitorWrapper).subTask(String) line: 154 EventLoopProgressMonitor.subTask(String) line: 171 SBModelManager.saveModelState(IProject, IProgressMonitor) line: 175 It happens if beginTask method was never called before. I think it is better to check fTaskName.

@@ -1,0 +1,3 @@
+[EAP] No way to store UI-State like in 3.x with IMemento
+
+The current EAP does not allow to persist the state in a way RCP 3.x allowed save the state by implementing IViewPart#saveState(). In EAP we only have @PreDestroy as a lifecycle which is not good because at this moment e.g. SWT-Widgets are already disposed and saving their state in ApplicationElement.persistedState is not possible any more. My suggestion would be to: a) add @PersistState annotation to ui.di b) call it in the ContributedPart renderer in disposeWidget Please not this make it work a bit different than in 3.x where the saveState was called on Workbench shutdown only which always bugged me there already.

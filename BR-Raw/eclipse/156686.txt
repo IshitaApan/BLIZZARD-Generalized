@@ -1,0 +1,3 @@
+[Contributions] Evaluation context for object contributions does not allow for eager plug-in loading
+
+The evaluation context created in ObjectContribution does not setAllowPluginActivation to true. This means that any test condition that does ask for plugins to be loaded will not be honoured.

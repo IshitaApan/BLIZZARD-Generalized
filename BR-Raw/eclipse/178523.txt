@@ -1,0 +1,3 @@
+[WorkbenchLauncher] clean up BasicSplashHandler
+
+BasicSplashHandler is full of printStackTrace() calls. These have to be removed.

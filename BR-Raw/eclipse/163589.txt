@@ -1,0 +1,3 @@
+[Undo] Tooltips for Undo and Redo have shortcuts but should not
+
+When we use the Eclipse Undo and Redo feature, we see shortcuts: (u) and (R) for Japanese in the tooltips but not in other languages. Shortcuts are not useful for tooltips. I will provide screen shots.

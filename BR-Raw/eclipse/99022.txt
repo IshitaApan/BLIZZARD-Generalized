@@ -1,0 +1,3 @@
+[Viewers] ListViewer slightly slower on Linux than in 3.0
+
+RC1 In the 3.1 Stream we switched from using individual calls to addItem to calling setItems() on the List. On Windows this is considerably faster but on Linux the difference is neglible. As a result we have introduced a small performance regression that needs to be addressed.

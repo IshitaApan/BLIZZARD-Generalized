@@ -1,0 +1,3 @@
+[Exception Handling]  SelectionChange events and NPE
+
+Build 20020508 Due to new global actions there are now more objects listening to selection changes send out by a JFace viewer. We now had the case that one of the listener generated a NPE. As a result all listeners registered after that one didn't receive the selection change event. StructuredViewers should be more fault tolorant to exceptions when informing listeners.

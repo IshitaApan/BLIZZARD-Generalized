@@ -1,0 +1,3 @@
+[Compatibility] ViewReferences are eagerly created for parts that aren't visible
+
+While constructing a WorkbenchPage, we are prematurely creating ViewReferences even if the part isn't being rendered in the active perspective.

@@ -1,0 +1,3 @@
+[Wizards] Should select the wizard for free if there is only one in selected category
+
+build I20030214 - File / New / Project... - select Java - you have to manually select the Java Project item - likewise for Simple Project When there is only one item to select, we should select it for the user. We could consider selecting the first item when there is more than one item, but this may not be what the user wants. It's unambiguous when there's only one item though.

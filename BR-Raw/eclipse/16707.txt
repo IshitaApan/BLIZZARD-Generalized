@@ -1,0 +1,3 @@
+Missing action labels until editor made active
+
+Build 20020521 (1:39pm) - Do a search that finds references in a java file - Make sure there are no open java editors - Double-click on a search result to open the editor -> Now the editor is open, but it has never been active. - Open the "Edit" menu. You will see the following items: FindNext.label FindPrevious.label IncrementalFind.label GotoLine.label - Now click in the editor. The actions in the edit menu now have the correct labels.

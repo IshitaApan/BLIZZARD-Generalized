@@ -1,0 +1,3 @@
+Opening external files with no registered editor fails
+
+HEAD Opening external files with no registered editor fails. Test Case: 1. File > Open File... 2. select a file named '.log' ==> org.eclipse.ui.PartInitException: System editor can only open file base resources.

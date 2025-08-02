@@ -1,0 +1,3 @@
+[Markers] New markers API needs to be pared down
+
+We have too much API in some of the new classes and they can be moved to internals

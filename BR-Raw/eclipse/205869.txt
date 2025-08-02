@@ -1,0 +1,3 @@
+[Markers] org.eclipse.ui.ide does not compile due to usage of Java 6 APIs
+
+The DescriptionFieldEditor class that was added today will not compile for me because it makes a call to java.lang.String's isEmpty() method, which is a new API added in J2SE 1.6. This kind of goes back to bug 204736 in a way. :/

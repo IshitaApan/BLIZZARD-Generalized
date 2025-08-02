@@ -1,0 +1,3 @@
+[min/max] switch between perspectives ends up with maximizing the active view of the first perspective
+
+Using I20070322-1800, I have my perspectives docked on the left side. The Java perspective is open with an active editor. I switch to the debug perspective. I switch back to the java perspective and the active editor ends up being maximized even if this was not the case before I switched. I had to reset my java perspective to get everything back in order.

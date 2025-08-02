@@ -1,0 +1,3 @@
+[KeyBindings] [ViewMgmt] Key bindings do not work in detached views
+
+build I20040520-1914 - new workspace - detach the navigator - Ctrl+N - it has no effect

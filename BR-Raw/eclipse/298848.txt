@@ -1,0 +1,3 @@
+Reusability of the class PartRenderingEngine is limited by the FactoryId
+
+The FactoryId is almost hard coded in PartRenderingEngine. It takes always the default value "org.eclipse.e4.ui.workbench.renderers.default". It is impossible to change some render for some specific UI element by subclassing this class. The same issue has been noticed in e4 newsgroup: http://www.eclipse.org/forums/index.php?t=msg&th=159171&start=0& The solution is to provide a constructor with an argument to set another value of this attribute.

@@ -1,0 +1,3 @@
+[Workbench] Migrate org.eclipse.ui.ide.workbench to IApplication
+
+The IPlatformRunnable interface has been deprecated with the release of the new app model in bug 109893. I will attach a patch to migrate the org.eclipse.ui.ide.workbench application to the new IApplication interface.

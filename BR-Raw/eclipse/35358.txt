@@ -1,0 +1,3 @@
+[Global Actions] missing icon in File / Refresh menu
+
+20030318 icon for File / Refresh menu is missing

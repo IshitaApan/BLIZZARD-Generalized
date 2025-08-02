@@ -1,0 +1,3 @@
+[JFace] image reading is unbuffered
+
+in i0520 I was tracing disk reads and noticed that when reading images we are hitting the disk for individual bytes. While there may not be a huge win here, it would likely be worthwhile using a BufferedInputStream around whatever stream is being used now.

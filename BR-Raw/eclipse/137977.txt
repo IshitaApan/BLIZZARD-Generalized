@@ -1,0 +1,3 @@
+Missing view toolbars
+
+Build: N20060421-0010 I am getting missing view toolbars in this build. It occurs when I first switch to a view in a view stack that was previously hidden. I have seen it with the breakpoints view and the synchronize view so far. Will attach a screenshot.

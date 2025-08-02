@@ -1,0 +1,3 @@
+[DataBinding] ValidationError javadoc makes references to ValidationResult
+
+It looks like ValidationError used to be named ValidationResult as the javadoc makes references to types that are now a part of ValidationError. Attaching patch...

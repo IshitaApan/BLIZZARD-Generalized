@@ -1,0 +1,3 @@
+Unable to delete user saved perspectives
+
+From the Preferences->General->Perspectives page, the Delete persepctive action does nothing.

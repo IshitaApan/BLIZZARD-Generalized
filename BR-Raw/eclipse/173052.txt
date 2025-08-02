@@ -1,0 +1,3 @@
+[Contributions] CommandContributionItem does not show keybinding
+
+Placing a command contribution item or <command/> element in a menu and it won't show the keybinding. PW

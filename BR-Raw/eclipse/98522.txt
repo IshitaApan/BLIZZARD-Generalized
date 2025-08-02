@@ -1,0 +1,3 @@
+[Undo] - API evolution:  LinearUndoViolationUserApprover should work on views and editors
+
+The current API for LinearUndoViolationUserApprover assumes that this approver is installed on an editor. (IEditorPart). Internally, this type is used mainly as an IWorkbenchPart, with the only editor-specific usage being to use the editor input name for the message dialog name. It is conceivable that clients would want to provide instead an IWorkbenchPart, since this could apply to views. The part title could be used instead.

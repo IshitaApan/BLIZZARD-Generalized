@@ -1,0 +1,3 @@
+[Dialogs] [open type] Open Type dialog should open menu on Ctrl+F10
+
+I20050527-0010 The Open Type dialog should open the menu in the upper right corner on Ctrl+F10. This is the shortcut usually bound to "Window > Navigation > Show View Menu". The Quick Outline / Type Hierarchy popups also support this shortcut (via a HandlerSubmission, installed in AbstractInformationControl#createViewMenu(..)).

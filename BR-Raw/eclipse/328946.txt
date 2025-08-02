@@ -1,0 +1,3 @@
+Part activation history may return incorrect candidate if no placeholders could be found in a perspective
+
+1. Window > Open Perspective > Other... > CVS Repository Exploring 2. Hide the 'CVS Repositories' view. 3. The 'History' view should become active, it is not.

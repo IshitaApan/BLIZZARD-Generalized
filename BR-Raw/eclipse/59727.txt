@@ -1,0 +1,3 @@
+[Progress] ProgressDialog hides modal dialog
+
+1) in shared project modify a file 2) switch to the synchronize perspective and into the outgoing mode 3) select the modified file 4) execute Override and Update ->the progress dialog hides the confirmation from Override and Update ->the confirmation dialog is not responding and you have to put the Update into the background first

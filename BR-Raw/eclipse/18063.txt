@@ -1,0 +1,3 @@
+[Contributions] SubActionBars should be made public
+
+Build M5 org.eclipse.ui.internal.SubActionBars is a generally useful class which allows editors like MultiPageEditors to manage the action bars of their children. The classes SubMenuManager, SubStatusLineManager and SubToolBarManager are already public (in org.eclipse.jface.action), but these classes are useless on their own -- they only make sense in the context of a SubActionBars instance. SubActionBars should be moved to org.eclipse.jface.action so that it can also be used by other plugins.

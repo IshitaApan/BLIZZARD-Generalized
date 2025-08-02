@@ -1,0 +1,3 @@
+[Wizards] Export preferences page not setting dialog font
+
+I20050405-0800 File>Export>Preferences>Next This wizard page is not setting the dialog font as specified in the Colors and Fonts preferences.

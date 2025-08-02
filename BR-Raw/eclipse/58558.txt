@@ -1,0 +1,3 @@
+[ActivityMgmt] defaultEnabled activities do not have their state persisted properly
+
+M8 If an activity has a defaultEnabled setting, the activity persistance helper sets the default as true. However, a few lines later we check to see if the store.getBoolean() is true and enable the activity. We also need to confirm that it's not default, otherwise defaultEnabled activities are turned on with every restart.

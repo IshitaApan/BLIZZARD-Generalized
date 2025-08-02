@@ -1,0 +1,3 @@
+[Workbench] dangerous uses of "new GC(Display)"
+
+a "new GC(Display)" is a very expensive operation on some platforms because it has to create an overlay window for the whole screen to allow for fullscreen drawing. If the GC is not used for fullscreen drawing but only for getting some FontMetrics, it should be replaced by a "new GC(Shell)" or better by a "new GC(Control)". See bug #38528 for details. I've found these occurrences in Platform/UI: ActionContributionItem.shortenText NewProgressViewer.shortenText ProgressManagerUtil.shortenText PerspectiveBarContributionItem.shortenText HTMLTextPresenter.updatePresentation ProgressCanvasViewer.getSizeHints

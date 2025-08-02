@@ -1,0 +1,3 @@
+[Markers] problems view: keep selection stable
+
+I20050214-0010 1. Select a grouping (e.g. Java problem type) and select a marker inside 2. Switch to another grouping Selection is gone. Same when - changing filter - a build adds new marker (in a different file)

@@ -1,0 +1,3 @@
+[DataBinding] Externalize Date Format
+
+DateConversionSupport hard codes the date format. This needs to be externalized.

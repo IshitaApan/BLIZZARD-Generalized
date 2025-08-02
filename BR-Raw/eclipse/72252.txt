@@ -1,0 +1,3 @@
+[ActivityMgmt] Handling of dynamic plugin loading does not set preference defaults
+
+If a new plugin that contains activities is brought into the system at runtime the default enablement of the new activities is not honoured.

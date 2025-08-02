@@ -1,0 +1,3 @@
+[Workbench] bogus javadoc for IMemento.TAG_ID
+
+The javadoc for IMemento.TAG_ID says the constant value is "org.eclipse.ui.id" when it is really "IMemento.internal.id".

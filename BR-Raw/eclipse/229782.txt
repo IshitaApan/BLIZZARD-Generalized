@@ -1,0 +1,3 @@
+Performance tests for ICU Collator
+
+I20080501-0100 Now that we're using the collator again (see the dependant bug) we need to ensure that there are no performance regressions over the java.text implementation.

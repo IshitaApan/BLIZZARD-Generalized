@@ -1,0 +1,3 @@
+[DetachedView] Cannot get Focus on main window title/menus after dialog box closes
+
+1 Tear off the package explorer and give it the focus 2 Refresh a project via the package explorer, causing the progress box to appear. 3 Wait for the progress box to close on its own. At this point click on the title, menu, or shortcut bars has no effect, and does not change the focus. I have to click on one of the main window views first to gain focus, then on the menu or shortcut item I'm interested in.

@@ -1,0 +1,3 @@
+[Workbench] Add 'Hide toolbar' action to context menu
+
+M2 The 'Hide toolbar' action should be added to the context menu on toolbars. That's where I first looked for it.

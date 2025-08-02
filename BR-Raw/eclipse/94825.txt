@@ -1,0 +1,3 @@
+[WorkingSets] possible problem in shutdown sequence
+
+Please see bug #94540 for a problem whereby the operations support was being disposed during WorkbenchPlugin.stop() and therefore trying to dispose operations from plug-ins that were already gone. The fix would be to move the dispose code from WorkbenchPlugin.stop() to WorkbenchPlugin.reset(). I noticed that all of the other support/registry objects managed by WorkbenchPlugin are disposed only in the reset() method, except for the workingSetManager, which does it in both methods. I don't know that this is a problem, just thought I should point out the difference.

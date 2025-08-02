@@ -1,0 +1,3 @@
+Window menu lists too many top-level windows
+
+see screenshot

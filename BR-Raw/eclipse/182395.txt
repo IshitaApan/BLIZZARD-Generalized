@@ -1,0 +1,3 @@
+[Workbench] Workbench not disposing default images
+
+In Workbench.initializeImages() new Images get created and Window.setDefaultImages is called. In uninitializeImages(), those images are not disposed, they're just set to null.

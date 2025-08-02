@@ -1,0 +1,3 @@
+[Mac] FilteredItemsSelectionDialog can use SWT.SEARCH attribute
+
+Build ID: I20070625-1500 Steps To Reproduce: 1. Open any dialog box that extends FilteredItemsSelectionDialog (Open Resource, Open Type, ...) 2. The text box used to define the search pattern doesn't look like the platform's search field More information: Please see the screen shots

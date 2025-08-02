@@ -1,0 +1,3 @@
+[Activities] IDEWorkbenchActivityHelper should crawl projects on startup to enable any existing natures.
+
+200403230010 Currently the nature detection code only works on resource changes. This code needs to be activated on startup as well so that any existing projects natures will be detected prior to their changing.

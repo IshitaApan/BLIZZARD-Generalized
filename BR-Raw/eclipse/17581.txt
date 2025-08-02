@@ -1,0 +1,3 @@
+CompletionProposalPopup should null its instance vars on hide()
+
+F1 CompletionProposalPopup intances are not removed righth away when you dimiss the popup,so they should clean the memory more agressively when hide() is called fFilteredProposals is especially painful

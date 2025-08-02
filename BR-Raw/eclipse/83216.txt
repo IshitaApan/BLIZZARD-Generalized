@@ -1,0 +1,3 @@
+[WorkingSets] Layout changes in New Working Set wizard
+
+I20050118-1015 Navigator view menu>Select Working Set>New Select a working set type Next Back Notice the change in space around the "Working set type" label Really noticeable if you change the Dialog font to a larger size

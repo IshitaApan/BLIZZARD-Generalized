@@ -1,0 +1,3 @@
+Open workspace dialog opens behind splash screen
+
+20030316 When I start Eclipse there is now a dialog that prompts for which workspace to use. This opens behind the splash screen so I rarely spot it.

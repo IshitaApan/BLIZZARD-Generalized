@@ -1,0 +1,3 @@
+[Compatibility] QuickAccess has no regard for the display's bounds
+
+As is, the field is in the top right hand corner. If your window is maximized, typing in that field will usually cause the dialog to be truncated.

@@ -1,0 +1,3 @@
+[Preferences] Need a page that informs of preference page creation failure
+
+We currently have a blank composite when the creation of a page fails. We should replace it with a label that informs the user of the error like in views.

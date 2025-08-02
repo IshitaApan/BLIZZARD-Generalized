@@ -1,0 +1,3 @@
+[Decorators] File icons with more than one Label Decoration get black background
+
+Build ID: I20061214-1445 Steps To Reproduce: 1. In Window > Preferences > General > Appearance > Label Deoorations add "Java Type Indicator" 2. In Window > Preferences > General > Appearance > Label Deoorations add other decoration. (I use the source control software Perforce's label decoration.) 3. View file icons in the package explorer that have both icons simultaneously displayed. The background of the file icon is black instead of white (transparent?). More information: This behavior is new to Eclipse 3.3. I've noticed it at least since 3.3M2. It does not happen in Eclipse 3.2.1.

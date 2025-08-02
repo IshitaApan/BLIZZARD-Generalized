@@ -1,0 +1,3 @@
+[Commands] IWorkbenchCommandConstants should also define command parameter ids
+
+HEAD IWorkbenchCommandConstants should also define the parameter ids that are used by commands. E.g. the NAVIGATE_SHOW_IN command defines a <commandParameter> with id 'org.eclipse.ui.navigate.showIn.targetId' in the plugin.xml, but I didn't find a constant for that (only two internal constants: ShowInHandler.TARGET_ID, ShowInMenu.SHOW_IN_PARM_ID).

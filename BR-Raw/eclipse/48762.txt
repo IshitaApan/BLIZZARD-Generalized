@@ -1,0 +1,3 @@
+[Coolbar] Order of tool bar buttons reversed
+
+I20031211 The order of the tool bar buttons (Java element creations) is reversed.

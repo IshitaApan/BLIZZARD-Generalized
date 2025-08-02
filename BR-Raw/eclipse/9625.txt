@@ -1,0 +1,3 @@
+Missing message and typo: Perspectiver.couldNotCreateAllViews
+
+Build 20020212 - grabbed new build - switched to team 2.0 - ran it pointing to old workspace - got error dialog for being unable to create vcm views - its message was: Perspectiver.couldNotCreateAllViews

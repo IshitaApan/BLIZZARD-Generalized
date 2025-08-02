@@ -1,0 +1,3 @@
+[Preferences] Line Delimiter preference page causes full build without user change
+
+N20050519-0010 Line Delimiter preference page causes full build without user change - new workspace, import plugin org.junit as source - Go to Window > Preferences > General > Editors - without changing anything in the dialog, press OK => A "Setting Encoding" job is started, followed by a full build. Should not build when the user did not change anything.

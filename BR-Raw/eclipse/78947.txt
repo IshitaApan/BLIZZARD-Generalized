@@ -1,0 +1,3 @@
+AbstractWorkingSetManager doesn't connect working sets restored from memento
+
+I20041116 Title says it all.

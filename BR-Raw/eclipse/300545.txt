@@ -1,0 +1,3 @@
+[Viewers] New column scrolling breaks on first cell selection if you have scrolled the table
+
++++ This bug was initially created as a clone of Bug #285095 +++ Build ID: 20090621-0832 Steps To Reproduce: 1. Run Attached snippet 2. Scroll the table all the way to the right 3. Click in the "Column 3 => Item 4" cell. The table scrolls back to the left and then opens a cell editor on the cell under the cursor after its scrolled back to the left rather than the cell that was under the cursor when you clicked the mouse. More information: Tested on WinXP Eclipse 3.5.

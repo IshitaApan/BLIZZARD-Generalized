@@ -1,0 +1,3 @@
+Outline View has text in middle of view when there is no outline
+
+On Linux when there are no contents for the Outline View the message to the user is in the middle of the view. It should be top justified like in windows. STEPS 1) Open the PDE Perspective 2) Close all editors

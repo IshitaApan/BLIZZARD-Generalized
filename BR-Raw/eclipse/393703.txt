@@ -1,0 +1,3 @@
+NotHandledException selecting inactive command under 'Previous Choices' in Quick access
+
+Created attachment 223263 NotHandledException stack trace I used the quick access to run a particular command. After running it the command appears as an option in the quick access under 'Previous Choices'. The handler is no longer active (plug-in.xml 'activeWhen' now calculates as false) and either shouldn't appear in the Quick Access or should be disabled. Clicking on the command again results in the attached NotHandledException.

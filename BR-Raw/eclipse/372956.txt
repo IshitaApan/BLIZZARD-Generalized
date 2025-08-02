@@ -1,0 +1,3 @@
+[Decorators] [JFace] CompositeImageDescriptor throws NPE during Decoration
+
+Created attachment 211866 Strack trace Occasionally CompositeImageDescriptor throws a Null Pointer Exception while a View is decorated. Unfortunately we can find no pattern when this happens. When suppressing the NPE the decoration often (but not always) shows the missing icon instead of the decorated icon. We've checked for quota/disk full problems, wrong bundles, etc. This happens on freshly installed applications on clean test instances, on versions installed month ago and every combination (but luckily not very often). Attached is a stack trace from a recent NPE.

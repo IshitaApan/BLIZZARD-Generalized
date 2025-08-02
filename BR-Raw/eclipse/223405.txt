@@ -1,0 +1,3 @@
+[ErrorHandling] IDEExceptionHandler appears to be unused
+
+This class and it's strings appears to be unused. Szymon, could you please confirm that? Is there any more legacy error stuff kicking around that we could prune?

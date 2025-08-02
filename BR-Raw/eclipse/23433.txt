@@ -1,0 +1,3 @@
+[Dialogs] ContainerSelectionDialog changes meaning of initialRoot parameter
+
+ContainerSelectionDialog's constuctor has a parameter 'initialRoot' along with associated JavaDoc which suggests that the parameter will be used for the root container. In fact, this parameter is used as the selection and ContainerSelectionGroup always uses the root of the workspace. Furthermore, the JavaDoc alludes to another non-existant constructor in ContainerSelectionDialog.

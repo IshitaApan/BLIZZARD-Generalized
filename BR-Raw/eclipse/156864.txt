@@ -1,0 +1,3 @@
+[Undo] Edit > Add Bookmark... does not work
+
+I20060906-1200 1. start fresh workspace 2. create simple project P 3. create simple file f 4. close the editor (the editor actions works) 5. Edit > Add Bookmark... ==> bookmark is not added

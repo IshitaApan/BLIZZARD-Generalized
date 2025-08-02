@@ -1,0 +1,3 @@
+[DataBinding] Provide toString implementations for implementations of IDiff
+
+It can be beneficial for a developer when attempting to debug or learn Data Binding to see what the diffs are that are being sent back and forth through the pipeline. I'm attaching implementations of toString() for: * ValueDiff * SetDiff * ListDiff * ListDiffEntry I didn't create an implementation for MappingDiff because I'm not positive of its usage and what would be an appropriate toString implementation. When I figure that out I'll attach it as well. I'm also attaching a TestCase that asserts that NPEs aren't thrown when any of the properties of these classes are null.

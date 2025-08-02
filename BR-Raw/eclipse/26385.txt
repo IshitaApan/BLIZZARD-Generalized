@@ -1,0 +1,3 @@
+[Import/Export] File Exporter: No to All behaves like "No"
+
+M3 - select some resources in the Navigator - File -> Export..., select File System, Next - export them anywhere, Finish - with the same files selected in the Navigator, File -> Export..., select File System, Next - press Finish so that the previous export destination will be reused - overwrite? prompter appears, answer "No to All" - overwrite? prompters still appear for all of the other files as well, even though No to All was previously answered

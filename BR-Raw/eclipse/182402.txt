@@ -1,0 +1,3 @@
+[JFace] FontRegistry.defaultFontRecord() leaks a Font
+
+FontRegistry.defaultFontRecord(), creates a Font, uses that Font's FontData to create a FontRecord (which creates a new Font with the FontData), but never disposes the original Font once the FontRecord has been created.

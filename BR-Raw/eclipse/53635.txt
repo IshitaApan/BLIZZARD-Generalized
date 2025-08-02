@@ -1,0 +1,3 @@
+[FastView] Pinned fastview doesn't get focus
+
+build i0303, winxp, j9sc20031212 In my customized Debug perspective, I have JUnit test results as a fast view. When I open it and "pin it", it gets stacked behind my Outline and Variables view and I have to go to the "stacked view" icon to bring down the list to make it visible. I would expect it to get focus when first pinned.

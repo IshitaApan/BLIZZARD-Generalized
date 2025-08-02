@@ -1,0 +1,3 @@
+PartServiceImpl#createPart(MPartDescriptor) is wrong!
+
+Created attachment 174700 patch It takes the attributes from menus/toolbar/handler and *moves* them from the PartDescriptor to the Part-Instance! This means on 2nd use of the descriptor there are NO menus and Toolbar informations available. One needs to copy those elements because they are containments which means adding them to another container removes them from the original one (you can see that this happens in bug 320235 comment 3)

@@ -1,0 +1,3 @@
+Multiple enabled decorators doesn't work
+
+If you have two decorators enabled at the same time only one of them wins and gets to decorate. If you load the org.eclipse.team.* projects from dev.eclipse.org and enable both the CVS and Team Examples decorators then create a CVS project and an Example (file system provider) both decorations are never shown although both decorators are enabled.

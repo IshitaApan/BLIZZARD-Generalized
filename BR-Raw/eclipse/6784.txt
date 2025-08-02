@@ -1,0 +1,3 @@
+Reused editor closes fast view
+
+When editor reusing is starting the fast views no longer work correctly. This is because during the reuse process (I guess) the new editor is activated even though it is opened with activate=false. Test Case: 1. Search (text or Java) for something which gives results in different files 2. Make the Search view a fast view 3. Step through the results ==> OK: the Search view stays open and the editor is reused (coded in search) 4. Now switch to the a new implementation (no editor reuse): Change the code in SearchUI.reuseEditor() to return <code>false</code> 5. Start Eclipse 6. Repeat step 1. to 3. ==> each file opens in a new editor and Search view stay open until the editor reusing begins: now the Search (fast) view gets closed.

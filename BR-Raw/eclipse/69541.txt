@@ -1,0 +1,3 @@
+[Dialogs] TVT3.0:  Task List Description text entry widget truncated in Korean
+
+Must fix: Yes Severity: 3 Build date: 20040707 Blocking: No Language: KOR 1) Enter a Korean locale and install Language Pack 2) Run Eclipse 3) Right click in the Task List View and select Add Task 4) With a resolution of 1024x768, the text entry widget for the Description is truncated.

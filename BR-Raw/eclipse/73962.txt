@@ -1,0 +1,3 @@
+[IDE] NPE in CopyFilesAndFoldersOperation when overwriting existing folder
+
+I200409140800, spawned from bug 73767. In the Resource Navigator, set up this structure: zzz (Java Project) + src (source folder) + a (package) + A.java Somewhere else in the file system, have: ... + a (folder) + file.txt Now drag-and-drop the folder '.../a' from an OS file explorer onto the source folder 'src'. A dialog asks: "zzz/src/a exists. Do you want to overwrite?" with options "Yes", "Yes to All", "No", "Cancel". Clicking "Yes" yields an NPE and no copying taking place: Error Sep 14, 2004 11:41:41.313 Exception in org.eclipse.ui.actions.CopyFilesAndFoldersOperation.performCopy(): java.lang.NullPointerException

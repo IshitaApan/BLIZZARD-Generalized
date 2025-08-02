@@ -1,0 +1,3 @@
+Screen cheese when starting fresh workspace
+
+http://download.eclipse.org/e4/sdk/drops/I20100616-2127/index.php. Each time I start the workspace, the first thing I see is screen cheese. See attached picture.

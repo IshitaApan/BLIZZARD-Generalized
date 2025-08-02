@@ -1,0 +1,3 @@
+[JFace] Add javadoc to Window.close() to tell that no shellClosed event is sent
+
+I just ran into bug 165520, which was caused by the issue described in bug 107280 comment 6. The problem is that Window#close() does not call Shell#close(), so ShellListeners will not receive a shellClosed event when this method is called by clients or when one of the default buttons of Dialog is pressed. This caveat should be mentioned in the Javadoc of Window#close(), e.g. by adding this: * <p> * Note that this method does not call <code>Shell#close()</code>, so * <code>ShellListener</code>s will not receive a <code>shellClosed</code> event.

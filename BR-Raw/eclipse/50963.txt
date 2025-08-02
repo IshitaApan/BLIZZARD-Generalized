@@ -1,0 +1,3 @@
+CheckedTreeSelectionDialog: Select All/Deselect all not working
+
+20040130 - Open a CheckedTreeSelectionDialog with setContainerMode(false). - Press select all / deselect all: Only the root element is selected/deselected (Note that this is the right thing to do in the setContainerMode(true))

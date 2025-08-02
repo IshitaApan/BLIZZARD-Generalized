@@ -1,0 +1,3 @@
+[Contributions] objectContributions enablement needs org.eclipse.core.runtime.Platform
+
+To allow the org.eclipse.core.runtime.bundleState property tester to work for objectContribution/enablement the org.eclipse.core.runtime.Platform class needs to be available to the objectContribution EvaluationContext. PW

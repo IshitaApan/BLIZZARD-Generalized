@@ -1,0 +1,3 @@
+[DnD] Many objects leaked for each perspective opened/closed
+
+Open and close the debug perspective. Repeat For each open and close many objects are leaked It would appear the root of the leakage PerspectiveHelper not cleaning up its listener with the DragUtil? It is not unique to the debug perspective...all the perspectives I tried had this problem.

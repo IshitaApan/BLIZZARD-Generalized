@@ -1,0 +1,3 @@
+[CSS] Remove CSSSWTLazyHandlerEngineImpl and packages
+
+There are no references to CSSSWTLazyHandlerEngineImpl, we don't ever instantiate the CSSSWTLazyHandlerEngineImpl, either in our examples or tests. Do we still need/want it? It brings with it the following packages which presumably would also be deleted: 	.registerPackage("org.eclipse.e4.ui.css.swt.properties.css2.lazy.classification"); 				.registerPackage("org.eclipse.e4.ui.css.swt.properties.css2.lazy.border"); 					.registerPackage("org.eclipse.e4.ui.css.swt.properties.css2.lazy.font"); 					.registerPackage("org.eclipse.e4.ui.css.swt.properties.css2.lazy.background"); 				.registerPackage("org.eclipse.e4.ui.css.swt.properties.css2.lazy.text");

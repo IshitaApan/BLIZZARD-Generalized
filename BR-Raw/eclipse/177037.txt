@@ -1,0 +1,3 @@
+[StatusHandling] Remove style from StatusAdapter
+
+This is API change. I decided to remove the style param with its get/set methods from StatusAdapter API. Because status handlers don't change style any more, we can pass it as an argument to the handle method. The changes will be covered by the attached patch.

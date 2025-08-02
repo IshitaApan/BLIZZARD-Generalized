@@ -1,0 +1,3 @@
+[DND] dnd from os to navigator shows an incorrect icon
+
+smoke test for 0518 it shows a move icon although move will not happen

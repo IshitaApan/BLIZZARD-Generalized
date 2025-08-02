@@ -1,0 +1,3 @@
+[Workbench] Add custom workspace name in front of the Workbench window title
+
+When multiple instances of eclipse are running, the value of the -showlocation option could be used to identify the icons in the task bar. Unfortunately, the value is displayed at the end of the title and does not appear in the taskbar icon. It would be nice to move the value specified by -showlocation to the front of the windows title to help identify multiple instances in the task bar. Perhaps an option in preferences to allow users to specify where it would appear if there is a concern about regressions, and/or compatability.

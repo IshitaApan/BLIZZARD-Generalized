@@ -1,0 +1,3 @@
+most menu actions should be disabled for cus from repo
+
+1. in repository view, open a .java file 2. there are 6 menu entries enabled and none does anything these are: open declaration open type hierarchy open super implementation show in packages view ---- copy ---- search > 'copy' could be made to mean something (but it does not work as of now !) but the rest is meaningless and they should be removed. 3. also 'convert line delimiters' should be disabled 4. structured selection too (see bug 18015) marking as major - likely to happen to many users

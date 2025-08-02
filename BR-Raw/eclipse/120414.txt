@@ -1,0 +1,3 @@
+[Viewers] Type-ahead filter in New wizard does not catch Ctrl+x
+
+When I cut all the text from the text field the list of wizards in the new wizard is not updated. Unlike when I backspace to remove all text for example.

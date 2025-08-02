@@ -1,0 +1,3 @@
+Text Editor: icons in vert. ruler disappear for partial top line
+
+- open Java text editor on file that is larger as view (so that you can scroll) - generate any kind of icon in vertical ruler (e.g. a breakpoint) - use the thumb to carefully scroll pixel wise so that a top line is half visible - now scroll with the scrollbar buttons (not the thumb!) until a line with an icon is at the top (half visible) Observe: as soon as a line is only partially visible its icon is no longer drawn.

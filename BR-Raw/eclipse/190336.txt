@@ -1,0 +1,3 @@
+[Actions] Rename border does not show up on the Mac
+
+The rename action does not draw the box as the Mac specific code checks for a now redundant system property.

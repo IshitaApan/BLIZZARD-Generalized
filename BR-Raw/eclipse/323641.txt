@@ -1,0 +1,3 @@
+[Compatibility] WorkbenchPage should cache/clear listeners on disposal
+
+Not everyone always remembers to unregister listeners. We should clean the lists when the page is closed.

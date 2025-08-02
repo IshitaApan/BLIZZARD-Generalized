@@ -1,0 +1,3 @@
+Add ability to find context for a UI element
+
+Created attachment 183617 Patch The context debug view has a tree of live context. This enhancement adds a "target" button allowing user to find a context containing UI element. After user clicks "target" button, the cursor changes into "crosshairs". Clicking the "crosshair" cursor over a UI element selects Eclipse context of the UI element or its closest container.

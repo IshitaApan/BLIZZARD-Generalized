@@ -1,0 +1,3 @@
+[Compatibility] Views leak models and managers of tool bars and menus
+
+In CompatibilityView's createPartControl(*), we link the model and manager with their renderers but this is never cleared. This translates to four leaked objects per disposal, the model and manager of both the tool bar and the part's menu.

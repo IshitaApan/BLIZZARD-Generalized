@@ -1,0 +1,3 @@
+[Compatibility] 'Resource configurations' menu shows up in context menus
+
+Using 4.2.0.I20120315-1300 (M6) 1. Install CDT on 4.2M6 or use the EPP CPP package Juno M6. 2. The Resource configurations menu shows up in several places it shouldn't: Outline, Vertical ruler, Overview ruler, Breakpoints view, Variables view and more. This looks similar to Bug 352380 but I'm not entirely sure it's the same cause.

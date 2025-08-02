@@ -1,0 +1,3 @@
+[statushandling] NPE may occur in StatusDialogUtil#getTable
+
+getListAreaComposite may return null, which is not checked

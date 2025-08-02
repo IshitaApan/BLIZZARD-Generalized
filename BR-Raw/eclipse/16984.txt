@@ -1,0 +1,3 @@
+Need to make Text Encoding pref real
+
+Build 20020521 Needs to be moved out of Work in Progress.

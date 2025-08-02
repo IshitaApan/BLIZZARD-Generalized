@@ -1,0 +1,3 @@
+[Menus] wrong line endings on source code
+
+Ciao @ll :) Looks like the following five files don't have proper line endings to be viewed on unix. Only Ctrl-Ms separate the lines, no CR-LFs: org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/internal/menus/TrimBarManager.java org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/internal/menus/SPartMenuLayout.java org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/internal/menus/LegacyMenuManager.java org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/internal/handlers/SlaveHandlerService.java org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/internal/menus/LayoutNode.java HTH, Ciao, hh

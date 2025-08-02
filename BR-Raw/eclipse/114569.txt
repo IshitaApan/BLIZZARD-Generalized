@@ -1,0 +1,3 @@
+[Markers] Use Ctrl+1 as binding for Quick Fix in problems view
+
+Build: I20051101-0010 Ctrl+1 is the key binding for quick fix in editors. Since there is now a Quick Fix action in the probles view, it would make sense to use the same key binding (or bind a handler to the same command). Currently there is no key binding for Quick Fix in the problems view.

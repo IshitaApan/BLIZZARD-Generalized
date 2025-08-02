@@ -1,0 +1,2 @@
+[ErrorHandling] Hooking the status handling facility into Eric's components
+

@@ -1,0 +1,3 @@
+[JFace] Listener optimization in ToolTip
+
+The hideListener in ToolTip is a bit too eager. If we're not handling mouse down events it doesn't need to be applied recursively. Also, the mouseExit hander doesn't need to be on anything under the shell. If fixed we should be careful to re-tool the listener in the event that the setHideOnMouseDown event changes state of that field.

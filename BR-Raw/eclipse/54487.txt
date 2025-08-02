@@ -1,0 +1,3 @@
+Progress showing 125% complete
+
+I20040310 When I launch a PDE JUnit test with this build, the progress for launching goes up to 125%. The job itself may be at fault here, but the progress implementation should ignore any progress > 100%.

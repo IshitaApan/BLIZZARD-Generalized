@@ -1,0 +1,3 @@
+[Progress] Provide toString() for PendingUpdateAdapter
+
+PendingUpdateAdapter should provide a toString() method as follows: public String toString() { getLabel(null); } This is needed because these objects are returned to clients who show content from a DeferredTreeContentManager. Client label providers cannot reference PendingUpdateAdapter to provide a label for it, but clients who extend LabelProvider get objects' toString() value for "unknown" objects.

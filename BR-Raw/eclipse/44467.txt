@@ -1,0 +1,3 @@
+[Decorators] Decorators not updating after importing preferences
+
+20031008 If you import the attached file to a workbench where there are projects loaded from CVS the decorators will not update after the load. We likely are just not listening for this change when we get it.

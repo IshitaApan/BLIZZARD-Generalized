@@ -1,0 +1,3 @@
+[ActivityMgmt] Expression controlled Activities aren't correctly synchronized with the enabledList if they are enabled directly from the beginning
+
+Created attachment 96942 Synchronizes enablement state of initiallly enabled activitiy with enabledList Build ID: I20080330-1350 Steps To Reproduce: 1. Create an activity which is controlled by an expression which is always true. 2. Look directly after the startup at the enabled activities list. 3. Bug. The activities list doesn't contain the activity. More Information: The solution patch may look overdrawn simple, but I don't see any problems with it. What do you think?

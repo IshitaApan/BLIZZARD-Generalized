@@ -1,0 +1,3 @@
+Workbench window has no icon
+
+I20090617 The workbench window doesn't have any images registered with the shell. This causes the window title bar, Alt+Tab image, etc, to use the default OS icon, which looks clunky. It should display an appropriate branded image.

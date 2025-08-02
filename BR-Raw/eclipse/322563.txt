@@ -1,0 +1,3 @@
+[Compatibility] Part initialization failures prevent disposal from happening
+
+CompatibilityPart needs to guard against initialization failures and still let the part get constructed so that it will get disposed properly. Otherwise, leaks can happen. For example, an editor action bar is leaked during the opening and closing of the SSE editor in bug 318034 which allows the second request to complete successfully.

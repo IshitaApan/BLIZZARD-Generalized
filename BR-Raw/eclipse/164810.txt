@@ -1,0 +1,3 @@
+[EFS] FileStoreEditorInput doesn't work on non-"file:" URIs
+
+This is related to bug #111887. FileStoreEditorInput (instantiated from IDE.openEditor()) doesn't work on non-"file:" FileStores - it explicitly checks in the constructor: 		Assert.isTrue(EFS.SCHEME_FILE.equals(fileStore.getFileSystem().getScheme())); This way it's impossible to edit files on some arbitrary file system without knowing (this was the idea of EFS, or not?).

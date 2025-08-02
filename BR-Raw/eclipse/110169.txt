@@ -1,0 +1,3 @@
+[Navigator] ResourceNavigator.initWorkingSetFilter should be protected visibility.
+
+The above mentioned method seems mistakingly have an incorrect visibility. E.g. the method initResourceSorter is protected. I don't see why initResourceSorter is not protected.

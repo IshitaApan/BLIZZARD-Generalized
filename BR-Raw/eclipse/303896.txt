@@ -1,0 +1,3 @@
+[ui] 6 failures/18 errors in I20100224-2100
+
+Failures in tests like: testGet_ActivePartId, testGet_ActivePartId, etc Errors in tests like: testGet_Selection2, testGet_ActiveChild2, etc PW

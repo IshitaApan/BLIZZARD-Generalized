@@ -1,0 +1,3 @@
+[Dialogs] TitleAreaDialog is not initialized in the usual way.
+
+When the TitleAreaDialog is constructed, it isn't ready to handle all of its mutators. In this snippet, the create() line is required, because otherwise setMessage() will throw a NullPointer when it attempts to modify the messageLabel; but it shouldn't be (according to Eclipse conventions). 		TitleAreaDialog titleAreaDialog = new TitleAreaDialog(getShell()); 		titleAreaDialog.create(); 		titleAreaDialog.setTitle("Title: org.eclipse.jface.dialogs.TitleAreaDialog"); 		titleAreaDialog.setMessage("Message: org.eclipse.jface.dialogs.TitleAreaDialog"); 		titleAreaDialog.open();

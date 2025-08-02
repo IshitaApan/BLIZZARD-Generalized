@@ -1,0 +1,3 @@
+[Linked Resources] Copy/move linked resources with non-existent link targets
+
+build RC1 Copying a project that contains an unresolved linked resource fails with the message "Cannot create linked resource: Local location <link target location> does not exist". Copying an unresolved linked resource fails with the message "Resource is out of sync with the file system: <link name>"

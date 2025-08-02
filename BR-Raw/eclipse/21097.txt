@@ -1,0 +1,3 @@
+[Open Modes] SWT error on properties page
+
+Build GM5 Linux/GTK I was changing between property pages wiht the keyboard. I would press the key, and wait for the page to update before moving to the next page. Eventually, I hit Enter to close th edialog. I got a dialog reporting an SWT error. It usually takes me about 5 tries to reproduce the error, but it does keep happening for me. I could not reproduce it on Motif.

@@ -1,0 +1,2 @@
+Properties and preferences dialog should disable combo when only one page
+

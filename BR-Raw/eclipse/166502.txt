@@ -1,0 +1,3 @@
+[Preferences] Settings transfer is not transferring input state
+
+20061201 We are not transferring input state correctly. As a result we always get "Workbench layout will get reset"

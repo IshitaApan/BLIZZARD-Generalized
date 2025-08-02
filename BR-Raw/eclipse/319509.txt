@@ -1,0 +1,3 @@
+[Viewers] Empty rows in CheckboxTableViewer with virtual table
+
+Build Identifier: 20100218-1602 If setAllChecked(true) is called on CheckboxTableViewer (based on table with SWT.VIRTUAL flag) and viewer is scrolled down, empty rows are displayed. Reproducible: Always Steps to Reproduce: 1. Launch attached snippet. It was taken from http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.jface.snippets/Eclipse%20JFace%20Snippets/org/eclipse/jface/snippets/viewers/Snippet029VirtualTableViewer.java?view=markup and modified: CheckboxTableViewer is used and button for checking all items is added. 2. Press button. All items are checked now. 3. Try to scroll down and you will see empty checked rows. If rows are not checked after snippet launch, rows are displayed as expected.

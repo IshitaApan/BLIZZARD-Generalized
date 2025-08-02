@@ -1,0 +1,3 @@
+[WorkbenchParts] Javadoc change: document limitations for implementers of ISaveablesSource
+
+See bug 140909

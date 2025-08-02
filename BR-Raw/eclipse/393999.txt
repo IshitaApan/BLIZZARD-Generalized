@@ -1,0 +1,3 @@
+[TabbedProperties] The support for changing color of a tab-label (see Bug 385795) is not yet complete
+
+We missed a one line change when fix for Bug 385795 was delivered a couple of months back in Kepler 4.3 M2. In that fix, we made provision for specifying a different tab-color; but the specified color is not yet actually used internally in the paint() method.

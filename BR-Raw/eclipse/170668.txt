@@ -1,0 +1,3 @@
+[DataBinding] [Patch] Add SWTObservables.observeTooltipText()
+
+Adds support for binding to SWT Control TooltipText property.

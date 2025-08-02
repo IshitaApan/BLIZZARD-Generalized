@@ -1,0 +1,3 @@
+[Progress] Half-busy cursor API on site progress service
+
+Currently the Team components set the half-busy cursor in views that are running a job via the IWorkbenchSiteProgressService mechanism. But we can't show this cursor on the toolbar or view title pane. It would be better if the site progress service had API for setting the cursor on the partpane. This would allow showing the half-busy cursor for the entire part.

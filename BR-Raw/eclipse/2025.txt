@@ -1,0 +1,3 @@
+[Examples] Multipage editor example 1st page name should be "source" (1GDKRLL)
+
+The name of the editor's first page should be "Source" instead of the filename. NOTES:

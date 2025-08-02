@@ -1,0 +1,3 @@
+[Commands] PageSwitcher should not assume that current page is always first
+
+I20080222-1622 I tried to add PageSwitchers (bug 146623) to views and the MultiPageEditor, but hit an obstacle with the new API: PageSwitcher assumes that the current page is always the first page returned by getPages(). This assumption works e.g. in the Search view, where the current search result is always moved to the top of the history, but it fails for parts that have an intrinsic ordering, such as the JUnit view (launching order) or multi page editors. PageSwitcher should have an additional callback, e.g. public int getCurrentPageIndex();

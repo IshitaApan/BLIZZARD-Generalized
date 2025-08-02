@@ -1,0 +1,3 @@
+[Dialogs] Remove the ControlAnimator from the Preferences and TitleArea dialog
+
+M2 We have decided to remove the control animations. We are also going to remove the background colors from the error message and keep them as the same as the plain message background.

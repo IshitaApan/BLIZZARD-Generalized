@@ -1,0 +1,3 @@
+Version deltas file so that incompatible changes will be ignored
+
+The deltas file needs to be versioned so that incompatible changes will be discarded allowing the workbench to be constructed as if there were no deltas in existence.

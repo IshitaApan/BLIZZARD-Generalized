@@ -1,0 +1,3 @@
+Open Resource dialog flashes on every keystroke
+
+N20061119-0010 The Open Resource dialog flashes heavily on every keystroke. E.g. when I start typing plugin.xml, the whole list, the status line, and the OK button are first cleared and then redrawn. The Open Type dialog does not flash in this scenario.

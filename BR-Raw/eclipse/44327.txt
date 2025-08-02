@@ -1,0 +1,3 @@
+new compiler option...
+
+...warn possibly incorrect conditional: if (foo); while (foo); { ... } for (int x=0;i<len;i++); { ... } etc. the first should warn if there are (likely) no side-effects. the last two (with proceeding '{') should always warn. this can be even more general as any time you have a '{' after a ';' (in a method) it is likely an error (though not always).

@@ -1,0 +1,3 @@
+AbstractTableInformationControl - Usage of SWT.LINE_DOT
+
+I think the SWT.LINE_DOT is not supported by the SWT Label. RAP seems to have problem with that. Can we replace the following? Label separator = new Label(parent, SWT.SEPARATOR | SWT.HORIZONTAL| SWT.LINE_DOT);

@@ -1,0 +1,3 @@
+[CommonNavigator] Project Explorer: cannot drop to Hierarchy view
+
+You can drag and drop an element onto the Hierarchy view from the Outline or Package Explorer. You cannot from the Project Explorer, you get a drop disabled cursor.

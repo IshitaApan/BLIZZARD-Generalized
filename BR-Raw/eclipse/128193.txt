@@ -1,0 +1,3 @@
+[Field Assist] Javadoc warnings in ContentAssistCommandAdapter
+
+See http://download.eclipse.org/eclipse/downloads/drops/I20060215-2000/compilelogs/platform.doc.isv.javadoc.txt and search for "warning" in the file.

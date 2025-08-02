@@ -1,0 +1,3 @@
+TVT3.0: Multiple Mnemonics in Tasks -> Filters
+
+From the main Workbench view, click the Task menu (drop down arrow) and select Filters. There are duplicated mnemonics for (D). See the attached screenshot.

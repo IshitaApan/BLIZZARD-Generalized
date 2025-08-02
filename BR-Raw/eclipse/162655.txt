@@ -1,0 +1,3 @@
+[Undo] [IDE] - Undoing a delete should check for existence of resources to be restored
+
+N20061027. - I deleted two projects (along with their content). I read the warning that undo delete cannot restore the content and said "OK." - Then I checked out those same projects from HEAD. - Then I selected "Undo Delete Resources." This overwrote my code with empty projects. I think that "Undo Delete Resources" should become invalid if the resources exist again, because you'll end up replacing content without keeping a backup.

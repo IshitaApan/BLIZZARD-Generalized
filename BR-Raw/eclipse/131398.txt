@@ -1,0 +1,3 @@
+[Markers] Problems view doing a bundle lookup everytime it populates a table enty
+
+20060307 Whenever we populate a table entry we do a getIDEImageDescritpr with a path which causes us to hit the bundle code to do a lookup. The 3 icons in the problems view should be defined in workbench images so this happens once.

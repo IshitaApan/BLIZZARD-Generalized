@@ -1,0 +1,3 @@
+[R21PRES] Close button shown when views not closeable
+
+RC1 build - run the browser example using the R2.1 presentation - the views have close buttons in the titlebar, but should not because the perspective has fixed="true" (meaning that all initial views are non-moveable and non-closeable)

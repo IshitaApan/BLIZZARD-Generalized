@@ -1,0 +1,3 @@
+Preference import and export wizards should advocate use of .epf extension
+
+That support has been lost since moving from the pref dialog to wizard /** * The default extension for preferences files. */ protected static final String PREFERENCE_EXT = ".epf"; //$NON-NLS-1$

@@ -1,0 +1,3 @@
+[Editor Mgmt] Shell title shows file name when closed
+
+Eclipse 2.1 RC2 Attached is an image where you can see all editors are closed, yet the shell title displays the name of a file. I have only seen this happen with linked resources, but it is not 100% reproducable.

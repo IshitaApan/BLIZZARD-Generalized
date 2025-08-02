@@ -1,0 +1,3 @@
+Undo / Redo marker actions not updated
+
+I20060906-1200 If a file gets delete after adding/changing/removing a marker then the Undo and Redo actions are not updated and still show, e.g. Undo Add Task Redo Add Task Executing the undo or redo does nothing (no feedback, no .log entry) and the undo and redo menu text remains the same and enabled.

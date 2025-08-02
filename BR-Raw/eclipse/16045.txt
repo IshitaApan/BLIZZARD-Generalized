@@ -1,0 +1,3 @@
+Esc key doesn't close the About box
+
+Minor, TRIVIAL little issue: should be able to close the About box with the escape key.

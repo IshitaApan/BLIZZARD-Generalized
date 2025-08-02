@@ -1,0 +1,3 @@
+[Commands] Can't add "Save All" command to main toolbar
+
+Build ID: 3.4 Steps To Reproduce: It doesn't seem possible to add the Save All command to the main toolbar. Window > Customize Perspective > Commands doesn't appear to show the command; it would be good if Save, Save All, Print, behaved like other ISV contributed commands.

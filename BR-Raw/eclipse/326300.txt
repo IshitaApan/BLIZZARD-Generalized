@@ -1,0 +1,3 @@
+EPartService's activate(MPart) method may not work if you activate the window's active part
+
+This is the e4 variant of bug 326299.

@@ -1,0 +1,3 @@
+[KeyBindings] Toggle Mark Occurrences shortcut is broken
+
+As of some milestone after M3, SHIFT-ALT-O does not work at all.

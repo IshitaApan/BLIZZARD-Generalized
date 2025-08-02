@@ -1,0 +1,3 @@
+F2 does not work in Outline view
+
+Edit -> Show Javadoc does not work from Outline view but does not when using the shortcut key (F2). I assume this is because of the new editor key binding support.

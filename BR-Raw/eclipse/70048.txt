@@ -1,0 +1,3 @@
+[DND] Testing coverage needed for detached windows.
+
+There is currently no coverage for detached windows in the dnd test suite.

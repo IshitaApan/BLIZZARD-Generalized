@@ -1,0 +1,3 @@
+remove EXPERIMENTAL markings from 3.3 IDE Undo API
+
+Need to remove the EXPERIMENTAL javadoc from the new API I introduced in 3.3. See org.eclipse.ui.ide.undo org.eclipse.jface.fieldassist

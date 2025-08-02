@@ -1,0 +1,3 @@
+[Compatibility] Create the legacy handler service
+
+Created attachment 159989 Legacy handler service v01 Create the LegacyHandlerService and allow global handlers and window/part level handlers to be added. PW

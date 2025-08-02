@@ -1,0 +1,3 @@
+ConcurrentModificationException opening out of sync file
+
+Build 20020125 1) Open a new workbench 2) Create a java project (this switches to java perspective) 3) Creat a text file in that project 4) Close the text file editor 5) In the filesystem, delete the text file 6) Switch to the resources perspective (using the perspectives combo box) 7) Double click on the text file in the navigator An internal error occurs. It is a ConcurrentModificationException on a list (one person is iterating over a list while another is modifying it). Log is attached.

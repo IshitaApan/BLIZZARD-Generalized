@@ -1,0 +1,3 @@
+[Snippets] Update Snippet054 to dispose elements correctly
+
+as described above

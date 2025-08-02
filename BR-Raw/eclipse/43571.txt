@@ -1,0 +1,3 @@
+Apparent deadlock when rebuilding all
+
+20030924 During a rebuild all the build process is locked at 35% 1) load in the platform-ui module and then import all other plugins 2) Select Rebuild All 3) A progress monitor dialog comes up stating that all are being rebuilt. At the same time progress begins in the status line which stops at 35%. Hitting cancel on the dialog does nothing.

@@ -1,0 +1,3 @@
+[Wizards] Wizard's 'Finish' button is misaligned if there are multiple pages and it cannot be finished early
+
+Build id: I20090325-1135 1. File > New > Other... 2. See that the 'Finish' button is at the end of the button bar. 3. Window > Preferences > Java > Installed JREs 4. Click the 'Add...' button. 5. See that the 'Finish' button is not the last button. 6. Close the dialog. 7. Select an existing JRE. 8. Click 'Edit...'. 9. See that the 'Finish' button is at the end of the button bar. I snooped around the code but couldn't quite figure out what was wrong. :o

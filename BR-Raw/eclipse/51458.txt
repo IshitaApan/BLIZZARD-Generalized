@@ -1,0 +1,3 @@
+[ActivityMgmt] Should be able to enable activities in xml
+
+It should be possible to enable activities by default in the plug-in.xml as some products do not need to have an initial choice.

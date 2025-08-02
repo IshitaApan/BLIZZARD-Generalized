@@ -1,0 +1,3 @@
+[FastViews Animate transition for views from restored->zoomed state (and vice versa)
+
+As I was working with the build I0322, I switched a view from normal to fast state. The view went to the fast view docking area through a series of animated steps. It made it more clear where the view went. Can you do the same for IIntroPart? It is very important to highlight when active state switches to standby to underline which of the views still carries on as Intro. I suspect this is going to be easier of done for all views in general. Since IIntroPart is currently implemented as a maximized (active) or normal (standby) view, I guess what I am really asking is transitional animation when views are restored from maximized to normal state.

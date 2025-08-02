@@ -1,0 +1,3 @@
+[Markers] ArrayIndexOutOfBoundsException while queuing viewer updates
+
+I installed Eclipse 3.2 0n Suse Linux 10.1, with CDT 3.1. The operating system was installed just 2 hours ago; I unpacked Eclipse 3.2 SDK archive and unpacked and copied CDT 3.1 (we do development in C and C++) to Eclipse folder. Immediately, upon producing changes to code in a project I'm working on, the code compiles and right then this message box "Queueing viewer updates - error" appears. On and on. Is there anything I can do to prevent this? Will I have to revert back to Eclipse 3.1 and the previous CDT package? Thanks.

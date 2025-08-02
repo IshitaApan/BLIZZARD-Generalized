@@ -1,0 +1,3 @@
+[Contributions] ActionContributionItem caches Images forever
+
+ActionContributionItem has an image cache that caches images forever, and won't release them until the Display goes down. If an Action updates its Image, such as a background color or foreground color action, It's ImageDescriptor is constantly changing. ActionContributionItem$ImageCache creates an SWT Image for each descriptor. I verified this by constantly (a.k.a. programmatically) changing an actions ImageDescriptor, using only ImageData to build the descriptor. I quickly got a "no more handles" crash.

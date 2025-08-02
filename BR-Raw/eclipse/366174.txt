@@ -1,0 +1,3 @@
+PresentationUtil is not in Juno 4.2
+
+Hi, could you provide the class PresentationUtil in Juno 4.2 or do you provide another class to replace it? We use PresentationUtil.addDragListener and PresentationUtil.removeListener. Regards, -- Vincent Lorenzo

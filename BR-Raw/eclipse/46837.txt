@@ -1,0 +1,3 @@
+[Navigator] Cannot delete Java project
+
+N20031118 Start a fresh workspace, create a Java project, delete it INCLUDING its resources ==> not possible Works if I don't delete the contents.

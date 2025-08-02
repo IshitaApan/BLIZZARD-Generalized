@@ -1,0 +1,3 @@
+[RCP] [Dialogs] new file doesn't fill in parent folder
+
+right-clicking in the package explorer on some package and selecting New->File pops up the new file dialog, however the parent folder is not filled in. This is a regression it worked for the previous integration build. I am currently using I200311111216.

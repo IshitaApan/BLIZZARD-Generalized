@@ -1,0 +1,3 @@
+build all action is available when auto-build is on
+
+Build id: 200303071024 "Build All" tool bar button and menu option (under Project menu) appear when opening a new workspace, while auto-build preference is on (default). If you turn auto-build preference off, you will end up with two "Build All" buttons and menu options.

@@ -1,0 +1,3 @@
+[Contributions] Unsafe setRedraw() in ToolbarManager.update
+
+This code should protect itself by wrapping the code in a try{} finally{} to ensure the setRedraw(true) happens when it is done.

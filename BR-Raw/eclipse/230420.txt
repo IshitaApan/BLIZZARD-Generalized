@@ -1,0 +1,3 @@
+[ActivityMgmt] The ignoring of default enabling expression enabled activities should be logged
+
+Created attachment 98867 Adds a warning each time a defaultEnabled declaration is ignored, because it targets to an expression enabled activity Build ID: I20080330-1350 Steps To Reproduce: 1. Add a defaultEnabled activity. Target it to an expression enabled activity. 2. Start Eclipse and see that the default enablement is completly ignored. More information: This adds a logging info each time a defaultEnabled activity declaration is ignored, when it targets to an expression enabled activity.

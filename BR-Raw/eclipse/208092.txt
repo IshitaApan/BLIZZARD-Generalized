@@ -1,0 +1,3 @@
+[Markers] Markers are using the category icon when flat
+
+20071031-0100 When you set the All Contents to sort by none all of the entries end up with the category icon.

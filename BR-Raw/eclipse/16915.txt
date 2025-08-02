@@ -1,0 +1,3 @@
+Editors not closed properly when reusing editors with multiple workbooks
+
+Number of editors to reuse should be independent of the number of editor workbooks but seems that if the number is 4 and you have 2 editors workbook, you may end up with 8 editors. When the editor to be reused is in another workbook, the active workbook is changed. I think that making sure the number of opened editors before closing is fixed it will make it more predictable.

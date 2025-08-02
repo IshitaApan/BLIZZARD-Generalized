@@ -1,0 +1,3 @@
+[Preferences] TVT 3.0: Project reference properties page clipped in Italian language pack
+
+See bug 70111 where the original problem got reported.

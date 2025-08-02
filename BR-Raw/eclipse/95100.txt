@@ -1,0 +1,3 @@
+[Wizards] Double click on New>Untitled Text File should create it
+
+I20050512(-2036 or so) - File>New>Other (Ctrl+N) - double click on Simple>Untitled text file > expected: a new file is created < actual: nothing happens note: pressing return works as expected

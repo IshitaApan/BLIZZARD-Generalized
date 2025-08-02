@@ -1,0 +1,3 @@
+[Perspectives] Customize perspective command tree redawing problem
+
+- go to the "Customize Perspective" Commands tab - select "Editor Navigation" (You see an arrow icon left to "Last edit location") in the "Menubar Details" column. - now select "Cheat Sheets" and you still see the same icon next to "Cheat Sheets..."! ==> this is a redraw problem: Put another window on top of the dialog and you'll see that the "Cheat Sheats..." has no icon associated. This could be a SWT problem...

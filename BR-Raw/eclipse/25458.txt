@@ -1,0 +1,3 @@
+[Font] DBCS support: new SWT API
+
+Last Friday we have included a new API in Font: public Font(Device device, FontData[] fds) { In order to have a more appropriate behavior on DBCS platforms Eclipse/UI should start using this API. Anyway, the best police still is never change the default font in the widget if you don't need to. (this new API is going to make difference in Eclipse/Motif only)

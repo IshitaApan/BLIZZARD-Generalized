@@ -1,0 +1,3 @@
+[Progress] ProgressMonitorDialogPerformanceTest#testLongNames() runs too short on windows test machines
+
+Verifying performance results for all 3.6M4 scenarios, it appeared that the ProgressMonitorDialogPerformanceTest#testLongNames() tests lasts less than 5 milli-seconds on the windows perf test machines. This is not enough to have meaningful results. Strangely, the same test duration is around 100ms on the Linux machines which is correct...

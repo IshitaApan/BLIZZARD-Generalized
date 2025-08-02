@@ -1,0 +1,3 @@
+[Themes] FontRegistry.bestDataArray() chops off all but the first "good" font
+
+M8 The font registry is not making use of the motif ability to have multiple FontData objects in a font because bestDataArray() is using only the first good font.

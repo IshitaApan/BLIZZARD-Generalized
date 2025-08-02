@@ -1,0 +1,3 @@
+[Wizards] potential NPE in WorkbenchWizardListSelectionPage
+
+Build id: 200403240800 I haven't observed this in actual code, but noticed it when doing testing for RCP. The javadoc for IWizard.getDialogSettings says it can return null, but WorkbenchWizardListSelectionPage.restoreWidgetValues does not seem to check for that case.

@@ -1,0 +1,3 @@
+[Viewers] setSelection() fails to select not-yet loaded elements in virtual table
+
+Calling setSelection() on TableViewers set to SWT.VIRTUAL only select elements which already had been shown previously, does nothing otherwise. See testcase below. It might be related to bug 86505, but opening a new issue on Billy's request..

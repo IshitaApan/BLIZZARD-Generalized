@@ -1,0 +1,3 @@
+[Dialogs] FilteredResourcesSelectionDialog's constructor doesn't specify what to put in the 'typesMask' parameter
+
+Today someone on IRC put 0 when he should've been using IResource.FILE. We should clarify the javadocs.

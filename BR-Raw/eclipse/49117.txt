@@ -1,0 +1,3 @@
+[Plan Item] Workbench needs hooks for new welcome support
+
+M6 We need to provide an extension point and some interfaces to allow for a primary feature to declare a welcome page. This extension point will be tied the new IProduct being defined by the Core team and needs to have 3 states 1) Fill whole screen 2) Collapsed on the right when the user selects something and starts working 3) Disables when it is no longer of any use

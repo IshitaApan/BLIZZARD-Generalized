@@ -1,0 +1,3 @@
+[Compatibility] stickyView extensions are not processed
+
+Need to process these while we're reading the generic view extensions.

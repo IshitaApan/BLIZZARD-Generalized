@@ -1,0 +1,3 @@
+[Compatibility] Application's commands increases in size across workbench restarts
+
+Across restarts, I am getting a linear increase in the number of commands in my MApplication. 991 14xx 1983 2479 This may or may not be one of the problems behind bug 312435. In any case, it needs to be fixed. ;)

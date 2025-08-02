@@ -1,0 +1,3 @@
+[Databinding] Observables on Text with FOCUS_OUT event incorrectly notify with no change
+
+If you get an observable on a Text for the FOCUS_OUT event, the model is updated every time, even if there is no change in the value. The observable should not trigger a model change if the Text value is the same as the model value.

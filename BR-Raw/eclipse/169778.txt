@@ -1,0 +1,3 @@
+[ErrorHandling] NPE in org.eclipse.ui.internal.ide.StatusUtil [PatchAttached]
+
+Build ID: I20061214-1445

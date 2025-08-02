@@ -1,0 +1,3 @@
+'Close'-related context menu actions should show up for all stacks and apply to all items
+
+See bug title ;)

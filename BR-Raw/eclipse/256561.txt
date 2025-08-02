@@ -1,0 +1,3 @@
+[WorkingSets] Possibly broken code in ModifyWorkingSetDelegate.getItems()
+
+I20081125-0840 While doing the dead-code analysis I found this code in org.eclipse.ui.internal.actions.ModifyWorkingSetDelegate.getItems(): 	for (int k = 0; k < adaptables.length; k++) { 		if (existingElements.contains(adaptables[k])) 			visible = true; // show if any element 							// is present in removal 		break; 	} Looks like the braces got missing.

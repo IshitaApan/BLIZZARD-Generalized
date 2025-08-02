@@ -1,0 +1,3 @@
+popup menu has no size in ctrl+e drop down editor list
+
+build 3.0 RC3 - open more editors then are visible in the editer area - press Ctrl+e to open the drop down - with the mouse popup a menu over an item in the drop down - note that the close menu is very small after selecting the menu, you get a graphic is disposed error logged. this might be similar to bug 68031

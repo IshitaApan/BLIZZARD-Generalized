@@ -1,0 +1,3 @@
+3.3 presentation: wrong view on top after restore
+
+I20070313-1051 - new workspace, enable 3.3 presentation - select Declaration view - Minimize - Restore => Expected: visible view in restored stack is Declaration => Was: visible view in restored stack is Problems (first view)

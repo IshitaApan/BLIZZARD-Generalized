@@ -1,0 +1,3 @@
+Misbehaving property page causes property dialog to fail to open
+
+Build: 2.1 If a property page extension throws an exception while constructing the page, then the whole property dialog fails to open. I believe it should use a SafeRunnable to catch exceptions in client code. See bug 36139 for a sample with stack trace.

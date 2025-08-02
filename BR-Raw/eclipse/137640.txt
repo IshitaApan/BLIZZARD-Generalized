@@ -1,0 +1,3 @@
+[CommonNavigator] New java elements not selected in project explorer
+
+3.2 RC1 - show the Project Explorer view - create a Java project - select the project and create a package (e.g. using the toolbar button) - the package is created, but not selected (it does get selected in the Package Explorer) - select the package - create a new class - the class is created, but not selected (works in the PE) In both cases, the selection gets cleared. This results in subsequent package or class creations not knowing which source folder they should apply to. E.g. try creating two packages in a row.

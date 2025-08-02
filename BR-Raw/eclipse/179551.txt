@@ -1,0 +1,3 @@
+[Undo] DefaultOperationHistory should write exceptions to log when running in Eclipse
+
+I20070323-1616 DefaultOperationHistory#handleNotificationException(..) should write exceptions to the log when running in Eclipse. Bugs like 176644 are easy to miss when exceptions only appear on the console.

@@ -1,0 +1,3 @@
+[RCP] [Perspectives] Default perspective not getting picked up from primary feature
+
+M7 According to bug 54283, the primary feature's perspective is being ignored. It brings up the resource perspective instead. If -perspective is used, it brings up both the resource perspective and the specified perspective. This is a regression from 2.1.

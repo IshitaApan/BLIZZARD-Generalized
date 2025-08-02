@@ -1,0 +1,3 @@
+Enabling breakpoint view
+
+Created attachment 138683 Patch The breakpoint view does not update breakpoint information. This is caused by the view not getting "partVisible" events. Proposed patch adds some initial code to convert E4 activation events into 3.x visible/hidden events. It also fixes couple bugs: - the order of listener on activation events - part was getting activation event before its implementation was created. This is something we'll need to re-visit on a large scope; - the bug in the ActionSetRegistry computation.

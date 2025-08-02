@@ -1,0 +1,3 @@
+Readme example prefs missing mnemonics (1GKM5TU)
+
+The readme example could have mnemonics on its preference page. It's acceptable for 1.0 though. For more details see 1GGYVZI: ITPUI:WIN - Hot key should be placed on the command buttons in Preferences page NOTES:

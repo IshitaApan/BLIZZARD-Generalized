@@ -1,0 +1,3 @@
+[Markers] copy markers from markers view should 'pretty print'
+
+I20080304-1113 1. Select one or more markers in problems view 2. Ctrl-C 3. Paste to notepad

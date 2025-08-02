@@ -1,0 +1,3 @@
+[StatusHandling] "Bug" in status dialog
+
+Created attachment 97282 Screenshot I20080422-0800 There's a disabled "Bug" in the status dialog with a tooltip saying "Support". I don't know what this is supposed to do, but it should not be there if it is not enabled.

@@ -1,0 +1,3 @@
+[RCP] early startup mechanism needs to use reflect if compatibility is not available
+
+The new early activation mechansim allows a class to be specified in the extension. If the class is not present then the supplying plugin's Plugin class is used. In Eclipse 3.0 we cannot access random plugin objects unless the runtime compatibility code is present. To support cases where it is not present, the current implementation that uses the Plugin object should be changed to use reflection.

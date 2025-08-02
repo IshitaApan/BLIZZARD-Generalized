@@ -1,0 +1,3 @@
+LazyStackRenderer collects elements shown/hidden without making use of them
+
+They are collected in hide/showRecursive but never used so they can be removed

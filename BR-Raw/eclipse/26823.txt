@@ -1,0 +1,3 @@
+[Markers] cannot reorder columns in task list
+
+-cannot reorder columns in task list -should allow for custom columns content (line number only, line in method, in file) -should allow to wrap text in a higher row for long error message: we keep adjusting the columns width all the time...

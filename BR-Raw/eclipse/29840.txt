@@ -1,0 +1,3 @@
+[WorkbenchParts] Need API to get the zoomed state of a workbench page
+
+In several of our views, we have to either get the zoomed state of a pane or toggle the zoom state of a pane. To do this we need access to the WorkbenchPage for ex: ((WorkbenchPage) getSite().getPage()).isZoomed(); ((WorkbenchPage) getSite().getWorkbenchWindow().getActivePage()).toggleZoom (MultiPageViewPart.this); WorkBenchPage is an internal class and a public API to determine and toggle the zoom state is needed.

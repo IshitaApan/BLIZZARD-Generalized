@@ -1,0 +1,3 @@
+[Dialogs] InputDialog error message not accessible
+
+build: 4/23 There does not seem to be a way for a screen reader like JAWS or Window-eyes to read the error message displayed in org.eclipse.jface.dialogs.InputDialog. Perhaps the errorMessageLabel should be Read-Only text input so that users can tab to and read the error message if one exists.

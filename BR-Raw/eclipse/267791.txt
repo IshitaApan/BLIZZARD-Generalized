@@ -1,0 +1,3 @@
+[Import/Export] Layout issue on the Import Projects page
+
+I20090309-1800 Just take a look at the screen shot. Sorry if this is a dupe, but I couldn't fine one.

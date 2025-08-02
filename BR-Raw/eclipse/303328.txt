@@ -1,0 +1,3 @@
+[UI] CSS styling broken in the contacts demo
+
+The removal of the ETabFolder has resulted in a serious regression in the styling for the contacts demo; most notably that the text doesn't change, leaving the 'dark' style with black text on a slightly less black background. Angelo Zerr has looked into it and posted: I have seen problem with SWT Label and to correct the problem you must add this code at end of methode applyCSSPropertyColor of the class CSSPropertyTextSWTHandler: else if (widget instanceof Control) {   ((Control) widget).setForeground(newColor); } (thanks a lot!)

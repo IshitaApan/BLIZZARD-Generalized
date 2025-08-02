@@ -1,0 +1,3 @@
+[Dialogs] SaveAsDialog displays OS string file path, whereas it should display the workspace-style path instead.
+
+The SaveAsDialog operates in terms of IFiles (see the use of originalFile), but when it is prompting for overwrite, it uses toOSString() instead of toString() for the path, making it display in an awkward fashion when users are used to the workspace style, forward-slash display of paths.

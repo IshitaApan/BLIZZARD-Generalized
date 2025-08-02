@@ -1,0 +1,3 @@
+[Markers] Bookmark, problem and tasks view don't restore column widths
+
+org.eclipse.ui.views.markers.internal.TableView#saveState() only saves visible column widths but restoreColumnWidths() expects the memento to have widths for all columns. A simple one-line patch is attached.

@@ -1,0 +1,3 @@
+[Compatibility] Toolbar ordering is off in 'Git Repositories' view
+
+Created attachment 199195 Screenshot depicting the problem in question. We have two items at the end of the toolbar instead of the front. From a cursory analysis it looks like we don't have opaque model items representing those items.

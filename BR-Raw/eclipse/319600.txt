@@ -1,0 +1,3 @@
+[Viewers] CheckboxTableViewer.getCheckedElements based on virtual table returns null data objects
+
+Build Identifier: 20100617-1415 If programmatically select all rows in CheckboxTableViewer created upon virtual table using setAllChecked, then getCheckedElements method returns null data objects, probably, for non-displayed rows. In spite of the fact, that table is virtual, it is expected that getCheckedElements returns concrete non-null data objects associated with rows. Reproducible: Always Steps to Reproduce: 1. Launch attached snippet. 2. Click "Select/Deselect All" to select all rows, then click "Null Rows" and message with number of rows with null data objects will be displayed.

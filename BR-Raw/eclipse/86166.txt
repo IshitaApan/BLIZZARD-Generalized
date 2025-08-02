@@ -1,0 +1,3 @@
+[Preferences] need preference pages for content types
+
+The existing content type infrastructure supports user-added file name associations, and custom encoding setting. We need to have that exposed to the end-user, probably as a preference page. I hacked a *very* simple content type preference page (based on the existing FileEditorsPreferencePage) just so I could do testing more easily. That might give you a better idea of what is being requested here (the code might not be worthy reading though). See: http://dev.eclipse.org/viewcvs/index.cgi/%7Echeckout%7E/platform-core-home/downloads.html I will add a screenshot as well.

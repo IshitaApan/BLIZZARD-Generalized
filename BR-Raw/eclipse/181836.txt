@@ -1,0 +1,3 @@
+[Commands] CommandContributionException should use the StatusManager
+
+20070407 CommandContributionException logs to the workbench log directly. I have an example that throws an InvocationTargetException that I catch and roll into an ExecutionException. It gets logged as such: catch (ExecutionException e) { 			WorkbenchPlugin.log("Failed to execute item " //$NON-NLS-1$ 					+ getId(), e); Which made it hard for me to find. We should use the StatusManager here.

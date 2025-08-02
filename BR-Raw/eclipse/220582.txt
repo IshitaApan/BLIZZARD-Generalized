@@ -1,0 +1,3 @@
+FilteredItemsSelectionDialog: add support for styled labels
+
+Created attachment 90869 patch I20080226-1155 the following patch adds support for styled labels in the FilteredItemsSelectionDialog: Label providers FilteredItemsSelectionDialog.setListLabelProvider(ILabelProvider) can now additionaly implement DelegatingStyledCellLabelProvider.IStyledLabelProvider to provide a styled label.

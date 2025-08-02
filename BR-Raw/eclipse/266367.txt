@@ -1,0 +1,3 @@
+[About] Error when closing the new About dialog
+
+build I20090224-0800 I opened the new About dialog and was clicking around in the tabs of the Installation Details. When I closed the dialog, I got an error dialog saying: 'org.eclipse.ui.internal.about.AboutPluginsPage' has encountered a problem. An internal error has occurred. Pressing the details showed me: Widget is disposed. There is nothing in my .log file so I don't have a stack trace for you. Note this happened 2 out of 3 times. (during the same Eclipse session) Not sure what the trigger is but I clicked on all tabs.

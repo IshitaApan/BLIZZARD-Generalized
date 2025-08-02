@@ -1,0 +1,3 @@
+[ActivityMgmt] Activity entry in window menu needs to be defined in object contribution
+
+We should move the activity configuration menu entry to an object contribution in the IDE plug-in so that other applications do not have to have it or hack the UI.

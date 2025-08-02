@@ -1,0 +1,3 @@
+[PerspectiveBar] Can't switch perspectives to item on the chevron
+
+RC3, Windows XP There three items in the perspective switcher: debug, resource, and java. The window is the default size. The perspective switcher is as small as it can be. The debug perspective is active and I am running a debugging session. The other two items are on the chevron. Selecting one of those items does not switch perspectives. If the perspective switcher is expanded so that the items become visible, then it becomes possible to switch the perspectives.

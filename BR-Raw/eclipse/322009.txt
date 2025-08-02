@@ -1,0 +1,3 @@
+[Compatibility] Explicit calls to CompatibilityPart's delegateSetFocus() method should be removed
+
+These explicit delegation calls should no longer be necessary with the resolution of bug 310199.

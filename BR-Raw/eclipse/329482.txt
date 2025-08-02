@@ -1,0 +1,3 @@
+Uninstantiated part may be rendered when closing another part in the same stack
+
+1. Activate the 'Javadoc' view. 2. Activate the 'Package Explorer' view. 3. Shutdown. 4. Restart. 5. Ctrl+3 > Properties 6. Hide the 'Properties' view. 7. Now the 'Problems' view is the selected element. It should be the 'Javadoc' view.

@@ -1,0 +1,3 @@
+[Dialogs] TaskPropertiesDialog and DialogMarkerProperties need a common superclass
+
+RC1 Despite these two classes being pretty much identical they share almost no code. TaskPropertiesDialog should be a subclass a DialogMarkerProperties. As this is an API change post 3.0

@@ -1,0 +1,3 @@
+[CellEditors] DialogCellEditor does not handle focusLost()
+
+Make sure you have org.eclipse.ui.examples.propertysheet_2.1.0 and open any *.usr file. Select "Richard" from the outline view and select "eyecolor" from the properties view (notice the ... button). Now open the search dialog and notice the ... button is still there. If you select other text or combo properties, notice the editor has been deactivated.

@@ -1,0 +1,3 @@
+[Compatibility] Git repo perspective has big empty space
+
+Created attachment 192570 Git repo view pic See Image. I can grab the bottom of the git repo view and drag it, although there's nothing underneath. PW

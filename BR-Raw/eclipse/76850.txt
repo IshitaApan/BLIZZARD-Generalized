@@ -1,0 +1,3 @@
+[Preferences] [WorkingSets] [Import/Export] Save perspective layouts  in preferences
+
+Could you please figure out some way to save perspective layouts, which perspective are "loaded", and working sets (and their contents) in a preferences file somewhere so that it can be shared by multiple users and across multiple workspaces.

@@ -1,0 +1,3 @@
+[StatusHandling] Error dialog flickers on opening and very strange temporary button visible
+
+N20080310-0100. Repeat steps from bug 222182 and look how the error dialog appears: it flickers for a very short time and the text gets shifted. This is bad. Also, if you look closer you see a 'Custom Operation Action' button appearing and going away quickly. What's this?

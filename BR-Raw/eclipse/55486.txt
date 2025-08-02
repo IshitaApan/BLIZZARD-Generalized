@@ -1,0 +1,3 @@
+Alt+- does not open a proper system menu
+
+Since the presentation work began I suppose, Alt+- no longer opens the system menu. Trying it on views gives a rather strange menu in a strange location, trying it on editors gives nothing.

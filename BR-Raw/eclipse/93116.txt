@@ -1,0 +1,3 @@
+Performance optimizatioin in ScopedPreferenceStore
+
+build I2005-04-26-1200 See bug 93014. Like in the PreferenceForwarder, we can short-circuit the setting of preference values where there is no change. Will attach patch.

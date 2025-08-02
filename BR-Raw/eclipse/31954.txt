@@ -1,0 +1,3 @@
+[Perspectives] NPE when CloseAll
+
+Build 200302141436 Open a workspace. Open a Resources Perspective. Open a Java Perspective. Popup Fast View menu --> Close All. Causes an NPE.

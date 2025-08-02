@@ -1,0 +1,3 @@
+PartRenderingEngine shuts down when just one MWindow is destroyed
+
+PartRenderingEngine's run(MApplicationElement, IEclipseContext) method has a big, inlined "HACK!!" comment in it. The problem is that it only checks for the disposal of one single shell. So if you have other shells hanging around (other MWindows), your whole application will be brought down even if you've only just closed one window.

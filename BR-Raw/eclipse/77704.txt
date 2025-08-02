@@ -1,0 +1,3 @@
+[Themes] Choose font should switch to busy cursor
+
+I200411022000, Motif On a SPARC 650MHz Motif, it takes a long time for the font chooser dialog to appear. When opening it from the colours and fonts preference page, there should probably be a busy cursor.

@@ -1,0 +1,3 @@
+Label lost shortcut text
+
+Build 20020502 + HEAD - you will see this in build I20020508 Using default key bindings 1. Open a new workspace 2. Create a Java project 3. Select the Packages view --> verify that the Search -> Declarations -> Workspace menu item contains the shortcut key (Ctrl+G) 4. Open the editor on a class file 5. Select the Packages view --> Search -> Declarations -> Workspace has lost the shortcut in the label Note: The shortcut itself still works.

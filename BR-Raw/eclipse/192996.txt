@@ -1,0 +1,3 @@
+[Workbench] Reduce amount of garbage created by HeapStatus
+
+Version: 3.3.0 Build id: I20070525-1350 Currently the Heap Status Monitor updates the tooltip each time it detects the UI needs updating. This can further be optimized to only update when the mouse is in the general area of the control. The savings aren't much, but it is an easy win. Patch to follow

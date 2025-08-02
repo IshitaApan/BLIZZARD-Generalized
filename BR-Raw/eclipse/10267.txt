@@ -1,0 +1,3 @@
+State of open Workbench Windows gets partially lost on shutdown
+
+If I shutdown eclipse with some editors dirty, I will get prompted to save those editors. However, certain workbench windows have already started closing. If I press cancel at that time, the shutdown is aborted, and I lost the open windows that did NOT have dirty editors and came before the window which did.

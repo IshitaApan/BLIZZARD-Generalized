@@ -1,0 +1,3 @@
+[Linked resources] Resolved location should only be shown for linked resources bound to a variable
+
+build RC1 The new folder and new file wizards were changed recently to only show the resolved location when a variable is used. The resolved location field is redundant when a linked resource is not bound to a variable. The location field should show the "(does not exist)" suffix when the link target does not exist. This is currently shown in the resolved location field.

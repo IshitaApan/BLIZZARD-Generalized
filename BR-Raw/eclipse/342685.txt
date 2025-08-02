@@ -1,0 +1,3 @@
+EditorWithStateTest and WorkingSetTest fail on Java 7
+
+The EditorWithStateTest test fails on Java 7. See attached test results. The reason is that the test assumes to run in a certain order but that is not guaranteed by JUnit.

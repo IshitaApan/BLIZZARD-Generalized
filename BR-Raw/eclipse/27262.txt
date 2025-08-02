@@ -1,0 +1,3 @@
+[Linked Resources] Deleting linked file should note shallow delete
+
+build 20021119 When deleting a linked file the delete confirmation dialog should contain a note that says that only the workspace link will be deleted and not the file system resource. The linked folder case is covered by bug 27112 which requests a deep delete option when deleting linked folders.

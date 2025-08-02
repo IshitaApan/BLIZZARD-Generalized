@@ -1,0 +1,3 @@
+[Viewers] Tooltips not working on TreeViewer
+
+TooltipSupport does not map receiver-relative coordinates to display-relative coordinates => TreeViewer#getItem(int x, int y) returns wrong item.

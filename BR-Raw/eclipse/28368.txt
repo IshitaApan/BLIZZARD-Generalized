@@ -1,0 +1,3 @@
+[Working Sets] cannot add closed projects
+
+build 12-10, win2k, j9 I have a bunch of projects in my workspace, some open and some closed. When I try to add a closed project to a working set, I get the error message "A closed project cannot be modified". I don't understand this message and I don't understand why I am getting it. As far as I know, the working set information is not stored with the project so the project will not be modified in any way by adding/removing it from a working set.

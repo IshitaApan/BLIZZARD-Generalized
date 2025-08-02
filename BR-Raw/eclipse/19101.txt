@@ -1,0 +1,3 @@
+View tab contains title text
+
+F2 build - do a search that generates some results - close all perspectives - open Java perspective - show view / Search - it appears with the last search indicated in the titlebar, but also in the tab.

@@ -1,0 +1,3 @@
+[Dialogs][EditorMgmt] Revert usage of new openEditors API
+
+I20090511-2000. We should revert the usage of the new openEditors API until the remaining issues (see bug 272884) are solved. I've reopened bug 178229.

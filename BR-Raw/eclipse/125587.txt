@@ -1,0 +1,3 @@
+[Field Assist] - need API access to the content assist cue image
+
+This spawned from a discussion in bug #120237. Need access to the image shown for the content assist cue in the workbench.

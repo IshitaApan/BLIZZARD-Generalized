@@ -1,0 +1,3 @@
+FastViewPane should not force the view part to be visible
+
+When a fastview is opened, FastViewPane calls part.setVisible(true). This prevents the presentation from making its own decisions about part visibility.

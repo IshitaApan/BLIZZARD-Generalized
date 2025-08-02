@@ -1,0 +1,3 @@
+[Forms] Not perfect error reporting in TableWrapData
+
+Created attachment 99663 How this looks Build ID: I20080502-0100 Steps To Reproduce: 1. Use invalid argument for TableWrapData constructor. 2. See error message without space: "java.lang.IllegalArgumentException: Argument not validrowspan". 3. Probably space in required in TableWrapData, before "rowspan", etc. More information:

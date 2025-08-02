@@ -1,0 +1,3 @@
+[IDE] "OK" string appears in path variable dialog
+
+Steps: 1) Define a path variable "FOO" pointing to some existing directory on disk that has sub-directories. 2) File > New > Folder > Advanced 3) Click "Variables" 4) Select "FOO", and click "Extend" 5) Select any sub-directory. Note that when you select a directory in step five the Text string "OK" appears floating below the tree view. This is presumably the status message from validating the selection.

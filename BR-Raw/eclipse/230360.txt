@@ -1,0 +1,3 @@
+[JFace] FontRegistry does not play nicely with non-UI threads
+
+This method does: ... Display current = Display.getCurrent(); if (current == null) { Shell shell = new Shell(); } This code will _always_ fail because Shell will execute if (!display.isValidThread ()) Which is always TRUE because "current" was null.

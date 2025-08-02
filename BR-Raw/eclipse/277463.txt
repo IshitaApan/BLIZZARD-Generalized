@@ -1,0 +1,3 @@
+Splash screen is not closed when app is running
+
+This is because: org.eclipse.e4.workbench.ui.internal.Workbench: public int run() { // ... // TODO get access to IApplicationContext to call applicationRunning() // Platform.endSplash(); I just report this so we don't forget :)

@@ -1,0 +1,3 @@
+[Preferences] ProjectReferencePage has too wide left margin
+
+N20060418-0010 The implementation of ProjectReferencePage#createContents encapsulates the page widgets in a composite, but without setting the left margin of its GridLayout to 0.

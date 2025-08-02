@@ -1,0 +1,3 @@
+[FieldAssist] Add CC text field content assist doesn't work as expected when narrowing suggestions
+
+Continued typing in the text field should narrow the list of results displayed in the suggest list. On Carbon, this is how it works: # Open any Bugzilla bug in the Mylyn task editor # position the caret in the 'Add CC' field # press CTRL+Space # observe suggested values # start typing (slowly) 'dg' # notice that with each successive character the list is narrowed to fewer matching results # start typing backspace (slowly) to delete the characters in the text field # notice that the list is expanded to show additional matching results as the characters are deleted On Cocoa, typing in the text field after the suggest list is displayed causes the suggest list to go away.

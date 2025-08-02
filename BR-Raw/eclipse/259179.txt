@@ -1,0 +1,3 @@
+[TabbedProperties]  TabbedPropertySheetPage extensibility option
+
+Created attachment 120766 Patch I am extending TabbedPropertySheetPage and want to make use of a title bar. getTitleImage() and getTitleLabel() provide title information, but only for currentSelection as defined within TabbedPropertySheetPage. I have my own currentSelection and there is no way to pass that into TabbedPropertySheetPage. Also, there is no other way to get to the title, since registry is private variable, and its class is an internal class. So, the only way to work around this is to pass selection into getTitleText() and getTitleImge(). Attached patch has this change.

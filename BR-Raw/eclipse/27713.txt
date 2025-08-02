@@ -1,0 +1,3 @@
+[View Mgmt] Fast view border is clipping the view
+
+In 1204 build, fast view rectangle is slightly narrower than the view it is hosting, resulting in the scroll bar being slightly truncated vertically. You can still scroll, but the view part is obviously narrower than it should be.

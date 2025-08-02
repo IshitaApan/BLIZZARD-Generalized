@@ -1,0 +1,3 @@
+[PerspectiveBar] [Compatibility] New windows open are pushed behind originating window
+
+I use multiple windows in development. I set "Preferences > General > Perspectives > Open a new perspective > In a new window". When I open a new perspective, the new window is opened, the perspective populates, and then the new window is pushed into the background. The new window should remain in the foreground and receive focus.

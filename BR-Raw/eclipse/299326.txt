@@ -1,0 +1,3 @@
+[CommonNavigator] Add new test for CNF pipelining
+
+Patch contributed by Franck Mangin, FICO, see bug 287261, bug 285529

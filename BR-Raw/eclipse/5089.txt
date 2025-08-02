@@ -1,0 +1,3 @@
+[Navigator] Dragging should occur with the middle mouse button on Linux
+
+On Linux, Drag and Drop is initiated with the middle mouse button. When dragging views around Eclipse, it should also use the middle mouse button. Currently the left mouse button is used on all platforms.

@@ -1,0 +1,3 @@
+Make group creation an advanced option in the folder
+
+See also discussion on bug 296051.

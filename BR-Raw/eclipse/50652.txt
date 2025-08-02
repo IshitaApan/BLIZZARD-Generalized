@@ -1,0 +1,3 @@
+[Tasks] JavaDoc typo in IPageLayout
+
+IPageLayout's JavaDoc on the Problem View ID is copied from the Task List view. It should say "The view id for the workbench's Problem View standard component." It currently reads: 	/** 	 * The view id for the workbench's Task List standard component. 	 */ 	public static String ID_PROBLEM_VIEW = "org.eclipse.ui.views.ProblemView"; //$NON-NLS-1$ 	/** 	 * The view id for the workbench's Task List standard component. 	 */ 	public static String ID_TASK_LIST = "org.eclipse.ui.views.TaskList"; //$NON-NLS-1$

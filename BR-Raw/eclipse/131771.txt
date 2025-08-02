@@ -1,0 +1,3 @@
+Match animated message behaviour in Preferences
+
+An enhancement should be made to Preferences so that warnings and errors show up in a sliding message area like it they do in TitleAreaDialog.

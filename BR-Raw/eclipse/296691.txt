@@ -1,0 +1,3 @@
+Change new Groups API to Virtual Resource API
+
+If we decide that 'virtual' is the right naming for new resources concept, I will make the following changes. Add IResource#VIRTUAL flag to use in #create methods Add IResource#isVirtual indicating that a resource is virtual Remove IResource#isGroup Remove IFolder#createGroup

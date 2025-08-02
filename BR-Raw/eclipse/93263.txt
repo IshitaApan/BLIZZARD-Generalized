@@ -1,0 +1,3 @@
+[Preferences] Properties and Preference Dialog is inconsistent
+
+We need to make the properties and preferences dialog consistent in thier look and feel.

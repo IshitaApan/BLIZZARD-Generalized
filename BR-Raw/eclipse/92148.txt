@@ -1,0 +1,3 @@
+[WorkbenchParts] Global Refactorings disabled after opening editor
+
+In build Build id: I20050419-1200, I selected some code in a class that was read only for the purpose of extracting a method. All the entries in the refactor menu were disabled. Making the file writable made all the menu items enabled. This is regression since this used to work OK for me.

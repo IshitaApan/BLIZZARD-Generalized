@@ -1,0 +1,3 @@
+[Workbench] [Contexts] Dialog Shell retained in memory by EnabledSubmissions
+
+Using OptimizeIt, each time I open and close the Debug launch configurations dialog, 1 Shell is leaked, 20 EnabledSubmission are leaked. The shell is referenced as the active shell from the 20 EnabledSubmissions that remain in the enabledSubmissionsByContextId map of WorkbenchContextSupport. On the close of the launch configuration, removeEnabledSubmissions is not called. The submissions are added in checkWindowType(Shell) but since the shell is not registered, no dispose listener is added and then the submissions are not removed when the shell is disposed.

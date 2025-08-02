@@ -1,0 +1,3 @@
+[CellEditors] applyEditorValueAndDeactivate() in ComboBoxCellEditor gets index exception.
+
+The problem is in this method. See line marked with "@ERROR" below. private void applyEditorValueAndDeactivate() { selection = comboBox.getSelectionIndex(); Object newValue = doGetValue(); markDirty(); boolean isValid = isCorrect(newValue); setValueValid(isValid); if (!isValid) { //@ERROR //THIS LINE CAUSES AN ERROR. IT ASSUMES SOMETHING IS SELECTED. IN EDIT //MODE, THIS IS NOT TRUE IF I JUST TYPE SOMETHING INTO THE CELL EDITOR. //IN THIS CASE, selection IS AN INVALID INDEX. setErrorMessage( MessageFormat.format(getErrorMessage(), new Object[] {items[selection]})); } fireApplyEditorValue(); deactivate(); }

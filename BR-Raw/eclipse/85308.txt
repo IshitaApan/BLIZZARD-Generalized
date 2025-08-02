@@ -1,0 +1,3 @@
+[Progress] Turning off verbose mode after restart has no effect
+
+Build: I20050215-0800 1) Start in the Java perspective, with a Java editor open on some file 2) Open the progress view 3) Turn on "verbose mode" in the progress view 4) Shutdown and restart Eclipse -> Observe: some system jobs are shown in the view. Fine. 5) Turn off "verbose mode" in the progress view -> Observe: system jobs are *still* shown in the progress view. It seems if you are in "verbose mode" on startup, then system jobs will always be shown in the progress view and they can no longer be turned off.

@@ -1,0 +1,3 @@
+[StatusHandling] Remove returned param from AbstractStatusHandler#handle method
+
+We don't need the param in this method. The product handler now decides if handling should be stopped or not. Other handlers don't affect the handling flow directly with the returned param.

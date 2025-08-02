@@ -1,0 +1,3 @@
+@CanExecute is not executed using DirectItems
+
+When you have a DirectMenuItem, @CanExecute is not executed before the item is displayecd. Only after clicking.

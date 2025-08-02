@@ -1,0 +1,3 @@
+[CommonNavigator] Test contribution for CNF
+
+Patch contributed by Franck Mangin, FICO, see bug 287261, bug 285529

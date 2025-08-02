@@ -1,0 +1,3 @@
+[Workbench] Workbench#isRunning returns true when the event loop is not yet running
+
+isRunning() returns the value of the boolean field runEventLoop, which is initialized to true upon creation of the Workbench instance. Therefore, PlatformUI#isWorkbenchRunning will return true as soon as the Workbench instance is created. It should probably return true only after the Workbench has been restored and/or initialized properly.

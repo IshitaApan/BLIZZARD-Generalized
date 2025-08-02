@@ -1,0 +1,3 @@
+[Model] E4XMIResource fails when creating a resource with ModelComponents
+
+The problem is that the ID generation stuff expects that everything is ApplicationElement which is not correct for the ModelComponents-Element. We should check for the case that the EObject is not an MApplicationElement and only set the xml:id in this case.

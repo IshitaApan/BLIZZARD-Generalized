@@ -1,0 +1,3 @@
+[ViewMgmt] [Contributions] activating the view menu does not activate the view
+
+The title pretty much says it all, when you activate the view menu in a view (not the popup) the view does not get activated. This is particularly problematic for view actions that depend on the active part (which might not be the view when the menu is opened), such as the variables view. Also using the new menu commands, the ExecutionEvent can have the wrong active part in it, which causes all manner of problems for view commands that need a reference to the view. To reproduce: Open the view menu in a view that currently is not active Expected: The view gets activated and the menu opens, much like right-clicking in the view Happens: Nothing, the menu opens

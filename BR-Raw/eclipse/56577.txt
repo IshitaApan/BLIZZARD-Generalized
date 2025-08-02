@@ -1,0 +1,3 @@
+[Colors/Fonts] Importing color preferences is not applied until restart
+
+build: M8 I imported someones preferences from https://bugs.eclipse.org/bugs/attachment.cgi?id=8973&action=view and expected to then go to the Worbench>colors and fonts page to see them applied but they were not. After a restart they were however applied. I think the imported preferences should take effect immediatey.

@@ -1,0 +1,3 @@
+[releng] Add e4 Contact demo to PSF and build
+
+org.eclipse.e4.demo.contacts in the directory e4/org.eclipse.e4.ui/examples needs to be added to the PSF and included in the build. PW

@@ -1,0 +1,3 @@
+exception in file system import wizard page
+
+Using eclipse stable build 20011219 1. File-> Import 2. Choose file system; Next 3. Click Browse button next to Directory field. Choose a directory (e.g d:/) 4. Type a letter in the Folder field (as long as there is no project with the name of that one letter). You get a Null pointer exception. Easy to fix. In WizardFileSystemResourceImportPage1#sourceConflictsWithDestination add the following check before the return statement: 	if (getSpecifiedContainer() == null) 		return false;

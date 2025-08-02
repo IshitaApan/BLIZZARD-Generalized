@@ -1,0 +1,3 @@
+[Perspectives] perspectiveExtension: required attribute "relative"?
+
+created a perspectiveExtension/view but get the error Plugin NJVPlugin, extension org.eclipse.ui.perspectiveExtensions Required attribute 'relative' not defined Unable to process element: view in perspective extension: null filed "relative" is not marked as required.

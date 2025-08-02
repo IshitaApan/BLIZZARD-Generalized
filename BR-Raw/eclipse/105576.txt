@@ -1,0 +1,3 @@
+TVT 3.1 - TCT 467 - Disable All and Enable All strings not externalized for translation
+
+OS : Windows XP Must fix Build date:26/07 Blocking: NO Language: ARA Bitmap Location: Z:\defects\CDT_EnglishText Tester Name: Mohamed Esmat Problem Description: The English words "Enable All" and "Disable All" are not found on the files. How to recreate the problem: 1. Window ->Preferences ->General ->Capabilities

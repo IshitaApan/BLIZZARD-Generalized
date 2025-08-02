@@ -1,0 +1,3 @@
+[Compatibility] HandledToolItems aren't returning an image for 3.x commands
+
+The 'Git Repositories' view from EGit only has icons for half of its tool items.

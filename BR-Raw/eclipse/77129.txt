@@ -1,0 +1,3 @@
+[KeyBindings] Esc doesn't close dialogs
+
+Build id: 200410260800 Esc currently doesn't close any pop-up anymore (e.g. the 'Open Type' dialog). Steps: - Enable Emacs Bindings - Open 'Open Type' or another modal dialog - Hit Esc - Observe: The dialog doesn't close - Observe: The status bar indicates that Esc has been pressed

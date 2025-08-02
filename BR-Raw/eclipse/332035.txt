@@ -1,0 +1,3 @@
+[Compatibility] Duplicated editor does not indicate its dirty state
+
+I20101207-0250 1. Open a file. 2. Make it dirty. 3. Window > New Editor 4. The new editor doesn't have the asterisk in its tab item's text.

@@ -1,0 +1,3 @@
+[MPE] notification when active page of a MultiPageEditorPart changes
+
+3.4 M1. I could not find a listener that informs when the active page of a MultiPageEditorPart changes.

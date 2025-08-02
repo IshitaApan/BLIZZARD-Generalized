@@ -1,0 +1,3 @@
+[Dialogs] FilteredItemsSelectionDialog should filter history before search results are available
+
+I20070418-1012 The FilteredItemsSelectionDialog should filter history items before search results are available. When I open the Open Type dialog and type a pattern that matches history items, I currently have to wait until the search for workspace matches is done. In the old Open Type Dialog, history items were filtered immediately. This is a noticeable performance regression for the Open Type dialog and should be fixed for 3.3.

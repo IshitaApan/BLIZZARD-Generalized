@@ -1,0 +1,3 @@
+[DataBinding] UnmodifiableObservableValue should delegate the isStale() method to its wrapped value.
+
+Build ID: Build id: I20080516-1333 Steps To Reproduce: 1. Create an IObservableValue which is stale 2. Wrap the IObservableValue into an UnmodifiableObservableValue 3. UnmodifiableObservableValue#isStale() returns false

@@ -1,0 +1,3 @@
+[Workbench] Toolbars in  CTabItems not rendering in RIGHT_TO_LEFT
+
+M1 If I set the orientation of the CTabItems in the Eclipse window id RIGHT_TO_LEFT they are not rendering - they wither have whitespace or cutoff entries. STEPS 1) Apply the patches in Bug 72426 2) Start Eclipse I will attach a screenshot

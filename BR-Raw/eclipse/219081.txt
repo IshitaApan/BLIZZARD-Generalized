@@ -1,0 +1,3 @@
+FilteredItemsSelectionDialog: Avoid unecessary calls to cp.getElements()
+
+Created attachment 89833 patch 20080215 The attached patch for the FilteredItemsSelectionDialog avoids that contentProvider.getElements(null) is called unnecessarily. - added a cp.getNumberOfElements if the size is all that has to be known - don't use contentProvider.getElements to evaluate selected elements by using the (already remembered) selection

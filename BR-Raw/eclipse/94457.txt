@@ -1,0 +1,3 @@
+[WorkbenchParts] (regression) toggles in debug views do not restore state properly
+
+I20050509-2010 * exit the workbench from the debug perspective with the "show logical structures" toggle on * restart the workbench > the toggle is off and remains off even after the start of a debug session

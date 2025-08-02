@@ -1,0 +1,3 @@
+[Viewers] [JFace] Java doc for TreeSelection is wrong
+
+Build ID: I20090126-1800 The default constructor of TreeSelection says "Note that TreeSelection.EMPTY is not equals() to StructuredViewer.EMPTY". But TreeSelection.EMPTY.equals(StructuredViewer.EMPTY) == true

@@ -1,0 +1,3 @@
+[Working Sets] Working set dialog should not enable OK unless there is a working set selected
+
+2.0.1 20020821 The dialog used for selecting working sets has OK enabled even if there is nothing selected STEPS 1) Select the filters dialog in the Tasks view 2) Select the "on working set" button 3) Hit select - the OK button is always enabled

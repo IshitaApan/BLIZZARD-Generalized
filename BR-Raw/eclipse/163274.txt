@@ -1,0 +1,3 @@
+[JFace] Provide customizable ToolTip at JFace level
+
+More and more elements in JFace and UI request Customizable TooltipSupport. We should think about providing a common class providing a solid base for Tooltip implementations.

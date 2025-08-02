@@ -1,0 +1,3 @@
+[Themes] Colors and Fonts page does not expand on search
+
+20040514 If I reduce the list of the avaialble fonts the matches are not displayed even though the tree is reduced when I type. STEPS 1) Open the fonts and colours preference page 2) Type console 3) It will be reduced to the Basic tab but not expanded to show the matches

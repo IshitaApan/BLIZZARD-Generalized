@@ -1,0 +1,3 @@
+WorkingSetManager resource change listener not thread safe
+
+Resource changes can occur in any thread, and so the resource change listener installed by WorkingSetManager can be called in any thread. However, the ResourceNavigator listens to working set changes and tries to update its viewer, which can only happen in the UI thread. The result is an illegal thread access exception from SWT. To reproduce: 1) Create a java project 2) Add that project to a working set 3) Make the navigator or packages view show only that working set 4) Delete the project. Attaching log...

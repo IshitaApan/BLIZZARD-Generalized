@@ -1,0 +1,3 @@
+[ViewMgmt] [New Look] JUnit icon doesn't update anymore [JUnit]
+
+I20040217 See attached screen shot. The icon in the fast view shows an error although a tests passed green.

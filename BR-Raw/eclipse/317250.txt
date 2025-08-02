@@ -1,0 +1,3 @@
+[Compatibility] second Java perspective in perspective switcher
+
+Created attachment 172174 Two Java Perspectives in the PS In 4.0 SDK I20100616-2127 I opened a couple of perspectives, then I opened a new window to hold some legacy files. The original window perspective switcher now has a second java perspective at the end. PW

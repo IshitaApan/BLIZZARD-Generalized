@@ -1,0 +1,3 @@
+[Dialogs] Every PopupDialiog is leaked if PopupDialolg.HOVER_SHELLSTYLE or SWT.ON_TOP is set
+
+I20051206-1200 Every PopupDialiog is leaked if PopupDialolg.HOVER_SHELLSTYLE or SWT.ON_TOP is set. Reason: a deactivate listener is added to the popup shell's parent but is never removed.

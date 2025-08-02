@@ -1,0 +1,3 @@
+[KeyBindings] Keys pref page: switching scheme not applied
+
+3.3 RC1 Switching the scheme on the 'Keys' preference page sometimes doesn't get applied. I found this out while adding some key bindings on both schemes for testing bug 187306. Now, in an empty workspace it first seemed not reproducible but I then found some easy steps: 1. start fresh workspace using 3.3 RC1 2. on the 'Keys (Legacy)' preference page switch to 'Emacs' 3. press 'OK' 4. on the 'Keys' preference page switch to 'Default' 5. press 'OK' 6. go to either 'Keys' or 'Keys (Legacy)' preference page ==> both are still in 'Emacs' mode So - something smells here. When I got into that mode it also behaved strange when I entered key bindings using the new page.

@@ -1,0 +1,3 @@
+[Compatibility] second window prevents paste in first window
+
+I was working with the 4.0 SDK, I20100614-2011. I opened a second window to host my java files that are just resources, not in the classpath. I copied something out of one, but when I switched to the main window to paste in my editor, it was pasted in the second window editor. PW

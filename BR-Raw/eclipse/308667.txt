@@ -1,0 +1,3 @@
+[Compatibility] Cannot 'Step Into' with F5
+
+F6 and F7 works. F5 does not. Workaround is to use Ctrl+Alt+Click.

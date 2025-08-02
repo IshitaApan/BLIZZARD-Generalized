@@ -1,0 +1,3 @@
+[JFace] AbstractResourceManager.find() returns a RefCount instead of the created resource
+
+M6 If you attempt to call find on an AbstractResourceManager subclass you will get back a RefCount object instead of the resource bound to the desired descriptor. RefCount is a private class that is unusable to clients of this API. This should be addressed for 3.2 to address the intention of the method description.

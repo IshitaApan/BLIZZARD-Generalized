@@ -1,0 +1,3 @@
+[Dialogs] CPD's 'Shortcuts' tab doesn't honour dialog font settings
+
+1. Window > Preferences > General > Appearance > Colors and Fonts 2. Basic > Dialog Font 3. Click the 'Edit...' button and increase the font size a bit. 4. Click 'OK' to close the dialog. 5. Window > Customize Perspective... 6. All the tabs honour the font size change except for the 'Shortcuts' tab.

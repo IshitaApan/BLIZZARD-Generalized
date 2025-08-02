@@ -1,0 +1,3 @@
+Prompting for saving a dirty shared editor inconsistent
+
+02-14 build. Open Java file "A" in Workbench window 1. Dirty the editor. Open Workbench window 2, and open the same resource while dirty. Try to close Workbench window 2 (Alt+F4), you get prompted to save. Try to close Editor (Ctrl+F4), you don't get prompted. In either case you close the editor, but you only get prompted to save in the first scenario.

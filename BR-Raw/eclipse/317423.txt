@@ -1,0 +1,3 @@
+[Model] Get rid of the AbstractContainers like PartDescriptorContainer, ...
+
+Some of the containers we defined where solely used by Application and our old Model-Contribution story and hence are "useless" now: * PartDescriptorContainer * BindingTableContainer Stuff I'm unsure why we have containers are: * TrimContributions * MenuContributions * ToolBarContributions but to me it looks like they are only used by Application-class so beside that I guess they are abstract, right?

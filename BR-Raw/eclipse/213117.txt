@@ -1,0 +1,3 @@
+[Trim] fast view bar is broken
+
+In Eclipse 3.4m4 fast view bar doesn't show more then 5 icons and it is not rendered correctly when docked to the left of the Workbench

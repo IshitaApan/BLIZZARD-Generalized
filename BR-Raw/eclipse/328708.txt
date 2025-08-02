@@ -1,0 +1,3 @@
+Colors and Fonts preference page: Reset is broken
+
+I20101025-1800 Colors and Fonts preference page: Reset is broken - open 'Colors and Fonts' preference page - click Restore Defaults - click OK, reopen Preferences - select 'Java Editor Text Font' - click Edit..., choose a different font A - click Reset - click Edit Default..., choose a different font B => Bugs: - tree item label says "(overrides default: Text Font)", but it shouldn't override - Edit Default... button is disabled - 'Java Editor Text Font' is decoupled from its parent font (e.g. when I change the parent, then the child font doesn't change in the tree, and even more confusingly, its preview shows the system default font)

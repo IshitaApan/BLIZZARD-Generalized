@@ -1,0 +1,3 @@
+[ActionSets][Contributions] QuickMenuAction funtionality should be made public
+
+The QuickMenuAction class should be made public and usable by IWorkbenchWindowPulldownDelegate{2}. As it is you need to roll this functionality yourself in the run method of your delegate (and it is by no means straightforward).

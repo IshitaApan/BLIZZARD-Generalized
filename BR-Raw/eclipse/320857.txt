@@ -1,0 +1,3 @@
+Too many (or too expensive) context updates on Java editor activation
+
+Created attachment 175190 Profiler screenshot (1) Switching the Java editor is not fast enough. This is caused by too many context updates (and Computation invalidations). The number of updates should be reduced. See profiler screenshots (1) and (2).

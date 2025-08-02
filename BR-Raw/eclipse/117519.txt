@@ -1,0 +1,3 @@
+Provide clear() method on ListenerList
+
+Please provide the following method on ListenerList 	/** 	 * Removes all listeners from this list. 	 */ 	public synchronized void clear() { 		listeners = EmptyArray; 	}

@@ -1,0 +1,3 @@
+Reorder of items in ToolBar and Menu doesn't reflect in Renderer
+
+When we DnD of ToolItem or MenuItem in outline of e4 Designer, the designer refreshes with a wrong result. For example, if we have two items: Open and Save in order. When we change the order to Save and Open by moving Save, in Renderer we have only Open.

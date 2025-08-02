@@ -1,0 +1,3 @@
+[Dialogs] TVT3.0:  Truncated text in Customize Perspective window.
+
+OS : RHEL 3.0 Must fix Severity: Build date: 070704 Language: DEU Blocking: NO Problem Description: In the Customize Perspective window, the complete description cannot be viewed even when the slide bar is pulled all the way over to the right. Increasing the window size only distorts the font. See attached screen capture.

@@ -1,0 +1,3 @@
+[EditorMgmt] Add new file association for external programs adds duplicates
+
+I am using Eclipse 3.0RC2. Steps: - Add a new file association (i.e.: *.ines) - To that file association, add an External program and press OK. - Re-open the preference page and inspect the programs for *.ines: the external program is duplicated - Press OK and re-open the preference page. Inspect the programs for *.ines: it has tripled. And so on and so on… If you restart eclipse, the multiple instances are cleared out and only the unique external program is present.

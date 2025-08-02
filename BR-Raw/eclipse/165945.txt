@@ -1,0 +1,3 @@
+[rulers] Support in-place CVS annotation ruler in PDE editor
+
+Follow-up to bug 163952 comment 1. [..] > 2) It would be nice if the PDE editor supported annotations. > > [..] The second issue is more complicated > since quick diff is only supported by AbstractDecoratedTextEditor. [..] Please move to PDE if they could already implement this today.

@@ -1,0 +1,3 @@
+[Compatibility] IWorkbenchWindowConfigurer's setShowPerspectiveBar(boolean) method is ignored
+
+The perspective switcher always shows up even if 'false' is used.

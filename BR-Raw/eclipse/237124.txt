@@ -1,0 +1,3 @@
+[Forms] Document how '&' is interpreted in Form Text
+
+A string like this <form><p>Description..</p><p><span color="org.eclipse.ui.forms.TITLE">See also:</span></p><li style="image" value="obj16/topic_small.gif" indent="21"><a href="http://host/script.cgi?arg=foo&arg2=bar">My Label</a></li></form> when passed into the setText() causes an exception. [Fatal Error] :1:235: The reference to entity "resultof" must end with the ';' delimiter. This is because the '&' character in the href needs to be escaped otherwise it will be interpreted as the start of an escape sequence. This is surprising and should be documented.

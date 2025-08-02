@@ -1,0 +1,3 @@
+Ctrl+V goes to a wrong handler on the "Add Repository"dialog
+
+Using build I20100614-2011 Ctrl+V when pressed Ctrl+V to paste new P2 location on the "Add Repository" dialog, the paste goes to the last active Eclipse part. To duplicate: - Help -> Install new software; select "Add" - Put cursor in the "Location" field, make sure there is some text in the clipboard (for instance, "download.eclipse.org") - Press Ctrl+V - notice that paste goes to the last active Eclipse part, in my case, Package Explorer

@@ -1,0 +1,3 @@
+[QuickAccess] Quick access closes during resize on Linux
+
++++ This bug was initially created as a clone of Bug #363582 +++ Very hard to resize the Quick access list since it tends to close at random points during the resize.

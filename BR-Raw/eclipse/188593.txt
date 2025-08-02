@@ -1,0 +1,3 @@
+[KeyBindings] Conflicts with Emacs keybindings scheme in zh locale for same command
+
+I20070523-0010 - start with -nl zh - switch keybindings scheme to Emacs - click OK to work around bug 188076 - go to Keys pref page again and sort by binding => There are a few conflicts, some even for the same command (e.g. two "Content Assist" entries with binding "*Alt+/"), but all the conflicting bindings run one of the commands when hit.

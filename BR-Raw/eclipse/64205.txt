@@ -1,0 +1,3 @@
+BlockedJobsDialog not resizing vertically
+
+M9 When you have a blocked jobs dialog open it will not resize vertically - it looks like the bottom attachment for the viewer is missing.

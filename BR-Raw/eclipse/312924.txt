@@ -1,0 +1,3 @@
+[Compatibility] Ctrl+F6 does not honour activation list
+
+The returned editors need to be based on activation order. As is it's dependent on which ones were instantiated first.

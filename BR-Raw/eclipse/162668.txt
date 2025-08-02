@@ -1,0 +1,3 @@
+[FieldAssist] Javadoc warnings in N20061028-0010
+
+/builds/N200610280010/src/plugins/org.eclipse.platform.doc.isv/../org.eclipse.jface/src/org/eclipse/jface/fieldassist/ControlDecoration.java:691: warning - @param argument "decoration" is not a parameter name.

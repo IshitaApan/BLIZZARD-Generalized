@@ -1,0 +1,3 @@
+[Viewers] ViewerLabelProviders that implement IColorProvider do not clear colours
+
+3.3 M6 With the recent M6 build I often have remaining italic content even though no jobs are running or waiting. This is pretty distracting. If that's I new feature then I didn't get its pattern ;-)

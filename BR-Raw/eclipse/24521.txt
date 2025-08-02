@@ -1,0 +1,3 @@
+[Viewers] TreeViewer.update() does not work correctly with filter
+
+When I add an element which does not satisfy the filtering condition and then update it so that it does, call to update does not show the element. This is because[StructuredViewer.update]: public void update(Object element, String[] properties) { 	Assert.isNotNull(element); |	Widget item = findItem(element); |	if (item == null) |		return; the code silently ignores that the element may become visible... btw. later in code of this method: 	if (needsRefilter) { 		refresh(); 		return; 	} This is quite inefficient, as it needs to query all visible items; however only one element may actually change (change visibility and/or sort order).

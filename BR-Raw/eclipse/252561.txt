@@ -1,0 +1,3 @@
+[Wizards] WizardNewProjectCreationPage and WorkingSetConfigurationBlock needs to update its deprecated comments
+
+http://help.eclipse.org/stable/nftopic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/dialogs/WizardNewProjectCreationPage.html#WizardNewProjectCreationPage(java.lang.String,%20org.eclipse.jface.viewers.IStructuredSelection,%20java.lang.String[]) Sadly, the method was not removed before 3.4 and since it will never be removed now, the now-false "This method will be removed before 3.4 ships." statement should be removed from the javadoc comment.

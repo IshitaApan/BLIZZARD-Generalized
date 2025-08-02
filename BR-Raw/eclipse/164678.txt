@@ -1,0 +1,3 @@
+[Keys] KeysPreferencePage - remove use of 1.4 API
+
+The method replaceAll(String, String) is undefined for the type String	org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/internal/keys	KeysPreferencePage.java	line 1387	1163611126484	746277

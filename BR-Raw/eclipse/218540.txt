@@ -1,0 +1,3 @@
+[Perspectives] Perspectives always open in same window, regardless of preference
+
+Build ID: I20080207-1530 Steps To Reproduce: 1. Close all perspectives except one, say Resource. 2. In Preferences->Perspective, set "Open a new perspective" to "in a new window." 3. Open a new perspective, such as the Debug perspective using Window->Open Perspective->Other: Debug. Expected: A new window with the new perspective, for a total of two windows. Actual: One window containing both perspectives. Note that if the new perspective shows up in the "short" perspective menu (you don't have to use the "Other" dialog), it opens in a new window as expected.

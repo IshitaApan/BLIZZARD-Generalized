@@ -1,0 +1,3 @@
+Remove CTabFolder/CTabItem references from the TrimStack
+
+Created attachment 191538 TrimStack patch v1 The TrimStack code currently has references to CTabFolder and CTabItem. This means that people that have written their own part stack renderers cannot get any min/max functionality.

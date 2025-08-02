@@ -1,0 +1,3 @@
+[Viewers] CellLabelProvider#getToolTipImage() not working
+
+Eclipse 3.3 M5 CellLabelProvider#getToolTipImage() does'nt seem to be used at all. I was overriding it returning an image, but its not showin in my tooltip. Ben

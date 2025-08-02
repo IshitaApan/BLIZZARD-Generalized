@@ -1,0 +1,3 @@
+Parts References Tests give an Error Dialog
+
+While testing for the I-build I was consistently getting an error dialog; "Could not restore workbench layout." reason: "Propblems occurred restoring workbench". Some digging indicates that the workbench.xml was missing the 'input' definition from the page definition. One of my files has: "<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>" Paul's just verified that it fails on hix box as well so this may block the test run. There's a suspicious change in WorkbenchWindow (Fix for Bug 183101...) so I'm going to revert the change...removing it does allow the tests to pass.

@@ -1,0 +1,2 @@
+[Viewers] Snippet to show how to implement double-click editing
+

@@ -1,0 +1,3 @@
+[Mni/Max] Editor area both visible and minimized
+
+Build: I20070320-0010 1) Maximize the console view 2) Paste some stack trace into the Java stack trace console 3) Click a link in the stack trace that will cause an editor to be opened -> The console view unzooms, and the editor becomes visible. However, there is a still a fast view bar on the right hand side that still contains the iconified editor area.

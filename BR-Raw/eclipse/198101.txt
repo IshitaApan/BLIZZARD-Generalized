@@ -1,0 +1,3 @@
+[DataBinding] ComboObservableValue fails to clear cached value
+
+ComboObservableValue fails to update cached currentValue during the doSetValue(...) call. As the result, event may not fire if the next combo selection happens to be the same as cached value. Proposed change (new lines end with // FIX): public void modifyText(ModifyEvent e) { if (!updating) { String oldValue = currentValue; currentValue = ComboObservableValue.this.combo.getText(); fireValueChange(Diffs.createValueDiff(oldValue, currentValue)); } else // FIX currentValue = ComboObservableValue.this.combo.getText(); // FIX

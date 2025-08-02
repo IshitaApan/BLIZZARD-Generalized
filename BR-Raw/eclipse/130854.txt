@@ -1,0 +1,3 @@
+[CellEditors] JFace TableViewer ignoring ICellEditor validator state
+
+Using a validator on a TextCellEditor and entering invalid text into a cell results in ICellModifier.modify() being called with a null value, rather than an error being reported and the value being discarded. TableEditorImpl.saveEditorValue() *does actually check for editor validity*, but in the case of invalid values does nothing but no-op with comment "///Do what ???" and then calls cellEditor.getValue() which, for TextCellEditor's anyway, always returns null if its validator has invalidated the current value.

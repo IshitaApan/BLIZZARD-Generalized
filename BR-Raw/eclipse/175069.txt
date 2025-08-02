@@ -1,0 +1,3 @@
+[Preferences] ResourceInfoPage is not setting dialog font on all widgets
+
+3.3M5 The text file encoding widgets are not using the dialog font.

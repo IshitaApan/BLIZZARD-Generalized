@@ -1,0 +1,3 @@
+[CommonNavigator] StructuredViewerManager refresh job shows up in the progress view
+
+The refreshJob in StructuredViewerManager shows up in the progress view - it should be a system job as it really make no sense to the user. It is potentially long running ( I saw it show up) so we should also review ways to make it more effecient as it blocks the UI Thread.

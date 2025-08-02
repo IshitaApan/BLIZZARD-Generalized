@@ -1,0 +1,3 @@
+[LinkedResources] "Preferences > Linked Resources > New..." should not show "Variable..."
+
+I20100425-2000 "Preferences > Linked Resources": The "New..." and "Edit..." dialogs should not show the "Variable..." button. When I select a variable, the "New Variable" dialog show an error (Path must be absolute.), and when I try to click "Extend...", nothing happens.

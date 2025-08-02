@@ -1,0 +1,3 @@
+[PropertyPages] Property pages extension point should also deprecate adaptable
+
+3.2 We deprecated the propertyPages extension point attribute objectClass in favour of enabledWhen. We should also deprecate the adaptable flag as it is used with objectClass.

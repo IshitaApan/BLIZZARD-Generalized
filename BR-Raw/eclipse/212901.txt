@@ -1,0 +1,3 @@
+[QuickAccess] spurious empty roll-over tooltips
+
+Created attachment 85199 Screenshot I20071213-0010 Quick Access shows a spurious empty roll-over tooltip with these steps: - hover over a long editor name (but not the first listed editor) => rollover-tooltip appears - move mouse horizontally to the left without leaving the table row => empty tooltip appears (see screenshot)

@@ -1,0 +1,3 @@
+Delete IStatusLineWithProgressManager
+
+M7 IStatusLineWithProgressManager is now obsolete and should be deleted by M8

@@ -1,0 +1,3 @@
+Context refactoring
+
+Based on discussions over the past weeks, I'm doing a refactoring of the context API. Major changes: - Renamed IComputedValue to IContextFunction - Renamed *Value to *Function - Renamed UIContextScheduler to UISchedulerStrategy - Added concept of ILookupStrategy to delegate lookup of keys that are not yet defined in a given context - Re-implemented OSGi service support using lookup strategy I also fixed a couple of NPE's I found while testing with the e4 photo demo (null realms, etc)

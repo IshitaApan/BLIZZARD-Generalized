@@ -1,0 +1,3 @@
+Maximizing & restoring views results in missing titles
+
+Build Identifier: I20110914-0200 Click on the maximize button on the tab-area, and restore the view. The titles on the package explorer and outline view don't get redrawn. Reproducible: Always Steps to Reproduce: 1.Click on maximize button on any view 2.Click on the restore button 3.Notice at least of the tab title don't get redrawn.

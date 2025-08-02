@@ -1,0 +1,3 @@
+[Dialogs] Open Resource should have "open with" area to override default open behavior
+
+When using Open Resource window you should be able to rc on any of the items found and open choose to open in the text editor instead of having to accept the default open behavior of the resource.

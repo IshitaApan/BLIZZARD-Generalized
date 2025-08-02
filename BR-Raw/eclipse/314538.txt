@@ -1,0 +1,3 @@
+Selection service considers context layers incorrectly
+
+in I20100523-1612 I installed the EMF SDK and opened our /org.eclipse.e4.ui.model.workbench/model/UIElements.ecore file. If I open the Properties view it shows the correctly selected element, but if I select a different element in the ecore editor, the Properties view is not updated. PW

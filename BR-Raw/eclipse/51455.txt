@@ -1,0 +1,3 @@
+[New Look] Java Browsing perspective broken layout
+
+The layout in the Java Browsing Perspectives only has a projects view and is missing the other 3 views beside it. It seems like the changes to layout or forcing tab folders to be created has caused this. see attached pic

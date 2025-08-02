@@ -1,0 +1,3 @@
+[performance] Add a preference for showing the heap monitor
+
+M1 Add a preference for turning on the heap monitor and set it to true in the SDK plugin customization. We can turn off the preference when we ship.

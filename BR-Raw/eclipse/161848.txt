@@ -1,0 +1,3 @@
+[JFace] Javadoc quality in org.eclipse.jface
+
+As Tod announced on the platform-ui mailing list he wants to set the compiler settings to stricter mode so to ensure the javadoc quality. Because the weather was so lousy in Austria today I tried it and took the effort (~2 hours). I'll attach the patches package wise. This is a starting point.

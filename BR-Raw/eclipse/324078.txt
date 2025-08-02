@@ -1,0 +1,3 @@
+[IDE] Cannot create a virtual TreeViewer in ContentOutlinePage
+
+org.eclipse.ui.views.contentoutline.ContentOutlinePage has a private field TreeViewer treeViewer, that is initialized in the createControl method. If you want to use a virtual tree viewer, you cannot do that by subclassing as it requires an additonal flag in the constructor call. As a consequence, you have to double all the code in your implementation. Possible solutions - provide a protected setTreeViewer() method - extract the initialization flags into a protected method protected int getFlags() { return SWT.MULTI | SWT.H_SCROLL | SWT.V_SCROLL; }

@@ -1,0 +1,3 @@
+[IDE] The field shell has been removed
+
+from CopyProjectAction.java in org.eclipse.ui.ide/extensions/org/eclipse/ui/actions	line 49 reported as Binary Compatibility Problem by the API tooling.

@@ -1,0 +1,3 @@
+Support for multiple window icons
+
+I20090617 As the fix for bug 280823 I added a single branded icon to the workbench window. However, for optimal display across platforms we should be specifying an array of images for the window shell, rather than a single image. Steps to fix this: - Add an icon[] element to the model, probably on MWindow - When creating the model in org/eclipse/ui/internal/WorkbenchWindow, populate the model with the array of icons from the IProduct data (see WorkbenchWindow.initializeWindowImages). - In the renderer, create images for the array of icons, and pass them to the shell (WBPartFactory.createWidget).

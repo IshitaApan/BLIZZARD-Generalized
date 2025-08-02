@@ -1,0 +1,3 @@
+[MPE] first page is blank upon creation
+
+Build id: I20060131-1200 This one must be a recent regression. 1. File > New > Other > Product Configuration. 2. Enter the name of a file. Press Finish. Note how the first page is completely blank. If you switch to another page, then return to the first page, it populates fine. Same thing happens when you create a new Target Definition file.

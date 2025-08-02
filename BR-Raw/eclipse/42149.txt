@@ -1,0 +1,3 @@
+[Decorations] Decorations Calculation never says anything other than 20%
+
+Build 200308261317. Win2K. When a lengthy decorations calculation takes place, all that is ever indicated is that the calculation is 20% complete. This number is never updated even though the calculation is still occurring. Either update the value appropriately or don't bother. The current scenario makes it seem like something is not working. My test case is a workspace with Eclipse loaded.

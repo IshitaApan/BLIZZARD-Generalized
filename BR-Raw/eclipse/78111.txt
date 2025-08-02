@@ -1,0 +1,3 @@
+[WorkingSets] Add support for dynamically created working sets
+
+3.1 M3 As part of the JDT team's explorations into grouping by working sets (in the Package Explorer and other navigation views), they would also like to be able to show dynamically created working sets. For example, a working set representing the set of recently used files.

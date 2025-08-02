@@ -1,0 +1,3 @@
+Should prompt for new name on paste to same location
+
+Build 20020517 JDT has changed to prompting for a new name when pasting to same location. See bug 6178. The Navigator should support this as well, to be consistent.

@@ -1,0 +1,3 @@
+Task list tab shows incorrect number of items
+
+build 20020517 The task list tab indicates I have (0 items). The title indicates (correctly) that I have 1 item.

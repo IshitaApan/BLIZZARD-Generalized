@@ -1,0 +1,3 @@
+-perspective at product program arguments is not working in 4.2M6
+
+Build Identifier: 4.2 M6 The program arguments of the product configuration of my project has this: -perspective myDefaultPerspective But after start the runtime the perspective that appears is Resource. This works properly in Eclipse Indigo. Reproducible: Always Steps to Reproduce: 1. create a product configuration and add -perspective <your perspective> 2. use as product: org.eclipse.platform.ide 3. use as Application: org.eclipse.ui.ide.workbench

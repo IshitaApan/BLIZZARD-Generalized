@@ -1,0 +1,3 @@
+[Working Sets] No internationalized icons in extension point org.eclipse.ui.workingSets
+
+extension point org.eclipse.ui.workingSets does not support internationalization (nl structured folders strategy) this doesn't work <extension point="org.eclipse.ui.workingSets"> <workingSet ... icon="$nl$/icons/myWorkingSet.gif" ... </workingSet> </extension>

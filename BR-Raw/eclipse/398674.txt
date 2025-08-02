@@ -1,0 +1,3 @@
+IWorkbenchPage.setEditorAreaVisible(boolean) behaviour has changed in eclipse 4
+
+In eclipse 3.6, if the editor is made invisible by calling page.setEditorAreaVisible(false), opening a new editor forces the editor area to become visible again. This allows you to have the editor area hidden to maximise view real estate when not necessary, but have it reappear as necessary. In eclipse 4, opening a new editor doesn't force the editor area to appear. We can work around this in our RCP by explicitly calling IWorkbenchPage.setEditorAreaVisible(true), and we don't have to support both eclipse 3 and eclipse 4, but I'm raising this bug as I'm not sure whether the change in behaviour is intentional or not.

@@ -1,0 +1,3 @@
+[Wizards] [Perspectives] New menu has two separators when no shortcuts
+
+build I20050217 In Debug perspective, open the File > New menu. It has two separators between Project... and Other... It should have only one.

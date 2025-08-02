@@ -1,0 +1,3 @@
+[Compatibility] 'Reset Perspective' doesn't perform tag migration
+
+The layout of the perspective is correctly reset by copying over the regenerated perspective but the tags are not mirgated so things like action sets and wizard shortcuts do not get reset.

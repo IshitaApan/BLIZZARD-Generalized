@@ -1,0 +1,3 @@
+[Markers] "Filters" list should be "Show"
+
+In the "Configure Contents" page, the first list is filters, so things that are checked I won't see. But the "Type" list is the opposite: things that are selected I *will* see. I think I was expecting the first list to be inclusive, not exclusive, since it was "Configure Contents" which I equated with decide what I will see (not what I won't). The fact that one list is exclusive and the other inclusive may be a subtle point of confusion for some. I don't feel strongly about this though and perhaps filters is the right answer.

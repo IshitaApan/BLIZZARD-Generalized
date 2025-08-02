@@ -1,0 +1,3 @@
+[DataBinding] DecoratingObservable should self-dispose when the decorated observable is disposed
+
+DecoratingObservable should dispose itself in response to the disposal of its decorated observable. One thing we'll have to address is that all existing observables may call firstListenerAdded() / lastListenerRemoved() in response to an addDisposeListener() / removeDisposeListener() call. We should try to eliminate this case to avoid hooking listeners when all we're interested in is disposal.

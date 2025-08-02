@@ -1,0 +1,3 @@
+[Markers] Show All menu entry is not persisted
+
+If you select Show All it will not be restored on return. Not an issue in the dialog.

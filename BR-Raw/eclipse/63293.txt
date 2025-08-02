@@ -1,0 +1,3 @@
+[Workbench] Should deprecate IWorkbench.getPreferenceStore()
+
+build I20040520 IWorkbench.getPreferenceStore() returns the preference store for org.eclipse.ui.workbench, where we store only internal preference settings. The method has been here since 2.0, and has been implemented this way since 2.1. Clients should use the new PlatformUI.getPreferenceStore() instead. Propose deprecating it with the following note: 	 * @deprecated this returns the preference store for the <code>org.eclipse.ui.workbench</code> 	 * plug-in. Only internal preferences are stored here. Clients should use 	 * {@link PlatformUI#getPreferenceStore()} instead.

@@ -1,0 +1,3 @@
+[Preferences] Need a way to set EncodingFieldEditor group name
+
+3.3 M4 There is currently no way to set the EncodingFieldEditor's group name. I would like to set this to e.g. "Spelling Dictionary Encoding" where I use the editor. Even better in my case would be the ability to remove the group box border plus the group name.

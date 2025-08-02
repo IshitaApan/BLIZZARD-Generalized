@@ -1,0 +1,3 @@
+[Linked Resources] Prompt for deep copy/move
+
+build 20021119 When copying or moving a linked folder we should prompt the user whether to do a shallow vs. deep copy/move. Similar to deleting a project in the workspace vs. on disk.

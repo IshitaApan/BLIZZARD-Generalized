@@ -1,0 +1,3 @@
+PageBookView#getAdapter not working
+
+M7 The getAdapter() method in PageBookView must delegate to the super method if the current page doesn't adapt (e.g. returns a null adapter). Without this fix, the current progress service hooks, implemented via an adapter implementation on WorkbenchPart don't work with page book views.

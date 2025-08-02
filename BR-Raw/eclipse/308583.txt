@@ -1,0 +1,3 @@
+IPageLayout ratios are being ignored
+
+Because of this, the perspectives don't come up as expected and you have to resize the sashes in every perspective.

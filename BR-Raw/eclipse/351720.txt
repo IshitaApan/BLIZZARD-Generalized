@@ -1,0 +1,3 @@
+R4_development branch of org.eclipse.ui.workbench has files from the original 3.x bundle
+
+When I cloned the R4_development branch I got deleted files like ViewPane and BasicPartList. It looks like the repository isn't correct.

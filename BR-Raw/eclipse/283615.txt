@@ -1,0 +1,3 @@
+[CSS][UI] Part id should be used as CSS id
+
+We should automatically set the css id of the created widget to be the id of it's part. That way, one can make corresponding changes to semantically tag (model) and style (css).

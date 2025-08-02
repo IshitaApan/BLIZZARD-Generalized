@@ -1,0 +1,3 @@
+[PresentationAPI] Allow for custom sashes
+
+We need the ability to replace the sashes/splitters used through perspectives with our own custom branded sashes. Some initial investigation - it seems like LayoutPartSash encapsulates the entire sash behavior. I would think this could be added to the presentations extension point.

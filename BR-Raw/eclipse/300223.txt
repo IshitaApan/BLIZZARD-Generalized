@@ -1,0 +1,3 @@
+[EditorMgmt] FileEditorMapping needs to implement hashCode(), and improve clone() and equals()
+
+See bug 236104 comment 4.

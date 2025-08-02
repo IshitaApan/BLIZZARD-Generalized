@@ -1,0 +1,3 @@
+[Navigator] When deleting a linked resource, it asks if you're sure you want to delete any read-only files
+
+I have a linked resource called Foo, which links to c:\foo. In this directory are several read-only files. In the Navigator in the Resource perspective, I try to delete this resource. It asks to confirm, and says that only the link will be deleted, the link target will not be changed. I say OK. Then it gives me a dialog for each read-only file in c:\foo, warning me that the file is read- only, do I really want to delete it. This contradicts what it said about not touching the target resource. I'm using 3.0 M8.

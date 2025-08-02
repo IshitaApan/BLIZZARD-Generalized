@@ -1,0 +1,3 @@
+[Preferences] Import prefs does not show busy cursor
+
+build I20040212-0800 - Window > Preferences - Import the prefs from the UI team's dev resources page - it takes some time, but there is no feedback that this is a long running operation (e.g. I wasn't sure I hit the Finish button, so I hit it again). Should at least show a busy cursor.

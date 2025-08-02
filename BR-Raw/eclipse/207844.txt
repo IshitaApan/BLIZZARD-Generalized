@@ -1,0 +1,3 @@
+[DataBinding] Support SWTObservables.observeText for Shells.
+
+Created attachment 81499 SWTObservables.observeText(Shell) patch The attached patch adds support for observing the Shell.text property.

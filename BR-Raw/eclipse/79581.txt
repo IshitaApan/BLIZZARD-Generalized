@@ -1,0 +1,3 @@
+[Commands] request: Declare a command for "Link with Editor"
+
+I200411240800 Platform/UI should declare a retargetable toggling action/command for "Link with Editor". Currently, almost every decent view that shows editable elements has its own view toolbar button "Link with Editor". I would like to toggle these buttons via a keyboard shortcut (and the shortcut should be the same in every view :-). I'm not sure whether this should go into to the IDE or the RCP layer, but I'm sure you'll find a good place.

@@ -1,0 +1,3 @@
+[Wizards] New project wizard; Next enabled with no selection
+
+I200403240800 In a new workspace, File>New>Project Click "Show All Wizards" In Simple, select "Project" Click "Show All Wizards" to turn it off No selection but Next is still enabled.

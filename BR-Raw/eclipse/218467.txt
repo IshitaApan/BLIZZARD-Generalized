@@ -1,0 +1,3 @@
+[Undo] Tighten up  IUndoableOperation spec and AbstractOperation to discourage/prevent null labels
+
+GMF creates CompositeCommands with null labels. These NPE when shortenText(getOperation().getLabel()) is invoked from update.

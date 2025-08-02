@@ -1,0 +1,3 @@
+[JFace] ModalContext event loop should guard against SWTExceptions
+
+I was generating a patch and clicking Finish on the wizard would not close the wizard even though the patch was created succesfully. It turned out that the problem was that writing to the console caused an error due to word wrap being on. There are two problems here. There was no error message shown to the user and writing to the console should not cause a command to fail.

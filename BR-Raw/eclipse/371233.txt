@@ -1,0 +1,3 @@
+UIEventPublisher does not publish changes to EMF Map values
+
+The UIEventPublisher does not publish changes to the persited_state because in this case the notification is not coming from the MApplicationElement but the StringToStringMapImpl.

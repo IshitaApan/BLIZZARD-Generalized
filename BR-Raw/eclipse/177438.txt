@@ -1,0 +1,3 @@
+Accessibility : Preferences Dialog UI has problems in High Contrast Mode on SLED 10
+
+Build ID: 3.2.2 Steps To Reproduce: 1.Set the OS in high contrast Mode 2.Set Font size of Application font to Sans 28 3.Restart platform 4. Bring up Preferences in Eclipse and notice that UI is not displayed completely. More information:

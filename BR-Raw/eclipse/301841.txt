@@ -1,0 +1,3 @@
+[LinkedResources] ImportTypeDialog needs Javadoc
+
+HEAD ImportTypeDialog needs Javadoc (type, constructor, setResource(..)) and probably an @noextend tag.

@@ -1,0 +1,3 @@
+[Undo] - API - promote ability to quietly compute status to operations API
+
+In bug #155588, we introduced the IUndoableOperation2 interface, which allows operations to compute their execution status. While implementing workspace undo, I introduced the notion of "quietly computing" status. This means compute the execute, undo, or redo status without prompting the user. This is useful not only in test cases, but in practice, when an object wants to quietly monitor the undo history and purge it when it is no longer valid. This notion was introduced into AbstractWorkspaceOperation, but it would be advantageous to promote it to IUndoableOperation2, so that background validators and test cases can be made more general, and more operations can particpate in this idea.

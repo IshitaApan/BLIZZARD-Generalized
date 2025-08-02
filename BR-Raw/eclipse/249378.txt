@@ -1,0 +1,3 @@
+[Viewers] Make ArrayContentProvider a singleton
+
+ArrayContentProvider contains zero state, and is not intended to be subclassed. Adding a static getter class to allow sharing a single instance of the ArrayContentProvider will improve performance and reduce memory usage.

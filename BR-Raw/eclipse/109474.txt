@@ -1,0 +1,3 @@
+[EditorMgmt] Multiple Editors closing at once
+
+For developers like me, I open one Window after another (in Java), but rarely close them. The counter raises to 15-20. From time to time I wanna get rid of most of the windows, but not of all, cause the last 4-5 windows, I wanna get hold of. Therefore I'm looking for an option, which allows me, to specify a bunch of windows to be closed at once, and the remaining to be left opened. The feature I have once seen in Opera looks like: Window => *Overview of Windows* => a Dialog with List of currently opened windows => select the windows to be closed => press Button => will be processed (closed), remainings are left opened.

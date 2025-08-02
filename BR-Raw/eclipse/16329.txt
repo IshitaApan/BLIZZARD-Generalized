@@ -1,0 +1,3 @@
+[EditorMgmt] Activate editor (F12) does not set focus in editor
+
+activate editor shortcut (f12) not always work: for example, moving with ctrl+tab from the java editor to the toolbars and then pressing f2 doesnt activate the editor

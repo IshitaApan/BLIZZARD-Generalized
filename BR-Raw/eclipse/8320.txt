@@ -1,0 +1,3 @@
+ArrayIndexOutOfBoundsException in fast view
+
+build 20020123 - Add a View to the fast view (e.g. Ant Console) - Select it, right click on its title bar - Select Move->View An ArrayIndexOutOfBoundsException is thrown. From now on every click on the fast view gives back this exception.

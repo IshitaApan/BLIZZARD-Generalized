@@ -1,0 +1,3 @@
+[DND] Dialog opened on drop is hidden
+
+Build 20011116. - Drag a file from Windows Explorer to the Navigator or Packages view. - Do it again to the same destination folder, with Eclipse partially obscured behind Windows Explorer. - It opens a dialog prompting whether to overwrite the existing file, but the dialog is not visible. Eclipse should be brought to front.

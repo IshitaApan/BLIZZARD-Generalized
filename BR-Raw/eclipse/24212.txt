@@ -1,0 +1,3 @@
+[Tasks view] Support read-only tasks in Task list
+
+JDT has now support for generating tasks from source, e.g. //TODO will add a task and show it in the task list. Such tasks can only be edited and changed in the source code. For this reason we would like to have support in the task list for such non-modifiable tasks. For example, we could add a marker attribute "read-only" and if this attribute is set then menu actions to delete or change the task will be disabled.

@@ -1,0 +1,3 @@
+Perpective > Show View sub menu not ordered...
+
+(build 2002-01-09) The list of views in the Perspective > Show View sub-menu is not ordered. It should be ordered alphabetically just like the Perspective > Open menu. Otherwise, it is a real pain scanning the list for a particular view.

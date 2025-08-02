@@ -1,0 +1,3 @@
+[RCP] 'WorkbenchWindowConfigurerTest' failing on all platforms
+
+It throws an NPE from the Perspective's 'onActivate' due to new code added to check for special cases on switching back to the 3.0 presentation.

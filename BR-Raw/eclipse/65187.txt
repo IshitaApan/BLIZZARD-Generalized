@@ -1,0 +1,3 @@
+[Themes] Cascading*Registry leakage from Colors and Fonts pref page
+
+Small leak on I20040529 For each ColorsAndFontsPreferencePage this is created, the cascading font and color registries are leaked. This is because the superclasses register a runnable with Display#disposeExec

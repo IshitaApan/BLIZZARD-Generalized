@@ -1,0 +1,3 @@
+Non-restorable views appear on a restart
+
+We should be removing the MPlaceholders for views declared as 'non-restorable' on shutdown so that they won't appear on the next restart...

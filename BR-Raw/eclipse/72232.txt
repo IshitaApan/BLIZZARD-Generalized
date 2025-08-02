@@ -1,0 +1,3 @@
+[Keys] Indicate sort order on Keys > View page
+
+I20040817 The Keys' view page columns can be sorted by pressing on the column header. Good! The current sort column should be indicated (visible for the user).

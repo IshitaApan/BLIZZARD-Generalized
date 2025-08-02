@@ -1,0 +1,3 @@
+[Workbench] Document when getSaveables is called by workbench
+
+It would be good to document when getSaveables will be called by the workbench. This will allow clients with strange use cases (like Compare;-) to know when they need to fire a CLOSE event when the saveables for the part change.

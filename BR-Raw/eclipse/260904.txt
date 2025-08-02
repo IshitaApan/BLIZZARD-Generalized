@@ -1,0 +1,3 @@
+API to capture the functionality of the new Customize Perspective Dialog
+
+The new CPD allows users to hide menu items and toolbar items discreetly. We should also provide API access this this functionality (so that various products/RCP apps can define a set of initial values to the 'override' list. The most obvious place to provide declarative API would be an extension to the existing 'perspectiveExtensions' EP; providing something similar to its current 'shortcut' extensions. This information would be used to seed the information into new workspaces only; once seeded the new mechanism would manage it through its own state persistence. Do we need a programmatic equivalent?

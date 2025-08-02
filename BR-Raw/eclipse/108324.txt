@@ -1,0 +1,3 @@
+[MPE] MultiPageSelectionProvider should implement IPostSelectionProvider
+
+The current MultiPageSelectionProvider doesn't implement IPostSelectionProvider. This means that any editor parts within the multi-page editor part can not forward post selection to the selection service and anyone listening to the service. SSE is trying to remove our own internal selection management but this makes it difficult since text editors use post selection to update the text selection from cursor key movement.

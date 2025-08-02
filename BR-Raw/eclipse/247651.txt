@@ -1,0 +1,3 @@
+javadoc warning in org.eclipse.ui.workbench in I20080916-2000
+
+Constructing Javadoc information... /builds/I200809162000/src/plugins/org.eclipse.platform.doc.isv/../org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/about/IInstallationPageContainer.java:47: warning - @return tag has no arguments. /builds/I200809162000/src/plugins/org.eclipse.platform.doc.isv/../org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/about/IInstallationPageContainer.java:37: warning - @return tag has no arguments. 2 warnings http://download.eclipse.org/eclipse/downloads/drops/I20080916-2000/compilelogs/platform.doc.isv.javadoc.txt

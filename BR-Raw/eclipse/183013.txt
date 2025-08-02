@@ -1,0 +1,3 @@
+[Wizards] Errror importing into linked EFS folder - "undefined path variable"
+
+1. Implement a EFS plugin - with a writable file system. 2. Create a linked folder to the file system 3. select to import into the linked folder 4. select a valid zip file 5. the following error is reported " Destination folder location is based on an undefined path variable." The problem seems to be in org.eclipse.ui.dialogs.WizardResourceImportPage - validateDestinationGroup if (container.getLocation() == null) { if (container.isLinked()) { should use getLocationURI ?

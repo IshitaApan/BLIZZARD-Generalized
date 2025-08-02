@@ -1,0 +1,3 @@
+[RCP] [intro] RCP workbench does not open intro
+
+I Build id: 200404270800 Intro on RCP fails to bind, and so you cant see your intro. Looked at the code. It seems like the workbench does not restore Momento state when running only RCP plugins.

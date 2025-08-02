@@ -1,0 +1,3 @@
+Tab from other window shows displaying Intro if new content available
+
+I20070320-0010 An extension point to detect new intro content was recently added, see Bug 176661. If I implement this by adding a class to org.eclipse.ui.intro.universal as follows: public class ContentDetector extends IntroContentDetector { 	public ContentDetector() { 	} 	public boolean isNewContentAvailable() { 		return true; 	} } and changing plugin.xml accordingly I see remnants of a hidden view in the area where tabs normally display (see attachment). This occurs only in the following circumstance. Start Eclipse Close Eclipse with the Welcome screen maximized Restart Eclipse

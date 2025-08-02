@@ -1,0 +1,3 @@
+Clean up activity code
+
+M9 The code for the old activity menu action (and associated strings) still exist in the code base. These should be cleaned up.

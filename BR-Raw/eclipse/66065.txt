@@ -1,0 +1,3 @@
+Test to verify that EditorReferences are still working
+
+Write a test to verifiy Bug 64043. "Need to verify that we are not defeating the editor reference support to avoid initializing unseen editors."

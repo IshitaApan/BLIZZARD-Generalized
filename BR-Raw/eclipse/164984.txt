@@ -1,0 +1,3 @@
+[JFace] DefaultToolTip shouldn't be abstract
+
+since all values can be accessed using getter/setter there's no need any more to declare it abstract.

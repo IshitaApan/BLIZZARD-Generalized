@@ -1,0 +1,3 @@
+[ui] Many dialogs about unavailable sites
+
+I20100309-0100 I ran a "Check for Updates" immediately after my machine had come out of standby. I don't think the wireless had fully connected yet, and the check for updates failed (fine). However, I got a half dozen nested dialogs about each of the sites that it could not find. They were all stacked on top of one another, and I had to dismiss each one individually. I would expect it to accumulate this into a single dialog rather than one dialog per repository.

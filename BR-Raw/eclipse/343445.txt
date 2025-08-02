@@ -1,0 +1,3 @@
+[model] transient data does not notify
+
+The new transient data map <String, Object> does not notify about changes and the owner contains a setTransientData(*) member. It should be more like org.eclipse.e4.ui.model.application.MContribution.getPersistedState() PW

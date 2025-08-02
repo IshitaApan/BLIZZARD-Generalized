@@ -1,0 +1,3 @@
+Can't resize fast view. (1GIRSG0)
+
+Drop a view over the shortcut toolbar. 	Maximize the window. 	Make the fast view bigger (95% of the window size). 	Restore the window size. 	 	You can't resize the fast view anymore unless you maximaze 	the window again. 	The same happens when making the window smaller. Maybe you 	could keep a ratio and change the fast view size acording to the window 	size.	 NOTES:

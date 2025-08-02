@@ -1,0 +1,3 @@
+Bring Eclipse window to the front when opening file from command line
+
+With the new support for opening a file in Eclipse from the command line (or through associating file types with Eclipse), we should bring the Eclipse window to the front when opening a file.

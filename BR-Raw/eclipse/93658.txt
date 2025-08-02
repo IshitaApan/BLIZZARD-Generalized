@@ -1,0 +1,3 @@
+[Preferences] pref. page shows only one content type (Text)
+
+n20050503 With this build, the content type pref. page shows only one node: the text content type. Happens on existing/new workspaces.

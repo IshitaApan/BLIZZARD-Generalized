@@ -1,0 +1,3 @@
+Refactor ESelectionService into multiple classes
+
+While there is a master/slave relationship "enforced" by the current implementation, it is non-obvious as the code is quite convoluted. The implementation needs to be refactored to enhance readability.

@@ -1,0 +1,3 @@
+[CommonNavigator] Improve DnD tracing and add DnD test suite
+
+There are no DnD tests for the Common Navigator. Also, the CNF has many test utility classes (basically stolen from JDT), these should be moved into a lower level area, and it looks like org.eclipse.ui.test.harness is a good place. (Perhaps we can get the JDT to use these identical versions as well so there is only one copy that everyone uses). Finally, the DnD tracing needs to be improved to show more information and show it more concisely.

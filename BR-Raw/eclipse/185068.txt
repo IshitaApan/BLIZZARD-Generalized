@@ -1,0 +1,3 @@
+[KeyBindings] New Keys pref page: table does not update when binding is cleared
+
+I20070502-0010. The table does not update when deleting all text in 'Bindings' field i.e. the latest value is still shown in the table.

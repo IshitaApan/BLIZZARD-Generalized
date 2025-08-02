@@ -1,0 +1,3 @@
+Required field inconsistency on New File wizard
+
+I20060330-0010. See attached picture: there's an error on top saying the link location field is required but in contrast to the other fields it is not indicated as such.

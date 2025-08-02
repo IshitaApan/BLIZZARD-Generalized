@@ -1,0 +1,3 @@
+[Preferences] Mock 3.2 - Truncated strings in Preference - keys dialog
+
+Instructions to recreate the bugs Go to Windows > Preferences. Expand General. Select Keys. "Edit" and "Export" strings are truncated.

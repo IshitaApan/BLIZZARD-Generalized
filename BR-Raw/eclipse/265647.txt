@@ -1,0 +1,3 @@
+[Compatibility] Replace LegacyHook's extension point with an e4 Service
+
+Right now the access to the legacy code is through a custom extension point. Since we now have the ability to declare services in E4 we should change over to using that mechanism.

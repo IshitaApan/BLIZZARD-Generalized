@@ -1,0 +1,3 @@
+Render menus on SWT.Show
+
+Created attachment 171222 menu contribution v02 Processing of submenus is done on SWT.Show. This works for both standard menus and popup menus, and processes MMenuContributions into the about to show menu. MRenderedMenus (MenuManager) are visible to the system now but currently skipped, and I think I have more options for addressing objectContributions. PW

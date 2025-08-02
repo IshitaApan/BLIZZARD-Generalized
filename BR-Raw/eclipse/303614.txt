@@ -1,0 +1,2 @@
+compatibility: copy over ObjectActionContributorManager, ..., all the way to registerContextMenu
+

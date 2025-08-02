@@ -1,0 +1,3 @@
+[Compatibility] Some of WTP Source Editing context menu contributions are misbehaving
+
+The "Source" context menu item is missing from Structured Text Editors. It is appended to the ITextEditorActionConstants.GROUP_EDIT group from the editorContextMenuAboutToShow() method. Additionally, the "Refactor" menu item is always visible regardless of if it has any actions. It displays the arrow as if it has a submenu, but once you mouse over it, the text is grayed out and it becomes disabled. Similar to the "Source" context menu, it is appended to ITextEditorActionConstants.GROUP_EDIT group from the editorContextMenuAboutToShow() method.

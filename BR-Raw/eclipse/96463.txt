@@ -1,0 +1,3 @@
+[WorkbenchParts] (regression) Toolbar flashes when switching editor instances
+
+If I switch between two instances of the GEF Logic example editor, the entire toolbar flickers and is redrawn.

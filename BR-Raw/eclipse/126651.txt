@@ -1,0 +1,3 @@
+[Commands] request: enhance commands to open import/export/new wizards with parameter to indicate desired wizard
+
+I'm going to attach a patch that adds a parameter to the import/export/new wizard commands. The parameter is optional. Omitting it gives the old behavior (a dialog allowing user to choose the desired wizard). Passing a wizard id as the parameter takes the user directly to the wizard with that id.

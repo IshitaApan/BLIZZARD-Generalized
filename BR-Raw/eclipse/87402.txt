@@ -1,0 +1,3 @@
+[KeyBindings] parameters: Unresolved handler conflicts on show view commands
+
+I20040308-0800 If the IParameterValues for the show view command is initialized, it leads to unresolved handler conflicts. This happens because the IParameterValues points at ViewRegistry, which submits a handler in its constructor. This problem can be triggered by open the key assist dialog or the keys preference page.

@@ -1,0 +1,3 @@
+[ViewMgmt] Standalone View does not resize when implementing ISizeProvider
+
+Created attachment 77665 View implementing ISizeProvider Build ID: I20070828-0800 I am trying to create a Standalone view using the new size constraints - I'd like it to resize if necessary when the constraints change. Unfortunately, the View will only resize if it is NOT created as standalone. The ISizeProvider methods are called when the view is first created, but after calling firePropertyChange(IWorkbenchPartConstants.PROP_PREFERRED_SIZE), the methods are not reevaluated. see bug 51580 for more info.

@@ -1,0 +1,3 @@
+[Markers] Tasks column too small in the new markers view
+
+Tasks column too small in the new markers view. We need to take into account the twistie.

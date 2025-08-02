@@ -1,0 +1,3 @@
+[Forms] Adopt new MPE key binding API
+
+Created attachment 84202 patch Internal code was used as a temporary fix for bug 177331 and API was requested to avoid this in bug 184074. This API is almost ready and the changes need to be adopted by forms. Attached is a slightly modified version of the patch from bug 184074 comment 4. The only difference is that I removed a comment about the temporary fix. This patch depends on the patch for the MultiPageEditorPart in bug 184074 comment 3, so the commits should be coordinated.

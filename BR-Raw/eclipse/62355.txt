@@ -1,0 +1,3 @@
+PerspectiveBarContributionItem leaks a GC
+
+0513 It's the GC created in PerspectiveBarContributionItem.shortenText(...)

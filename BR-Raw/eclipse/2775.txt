@@ -1,0 +1,3 @@
+[JFace] Opening a font field editor with preview text does not use the change label (1GJ6I1N)
+
+If you open a font field editor with a preview text specified the label for the change button does not show up. We need to add the line changeButtonText = JFaceResources.getString("openChange"); //$NON-NLS-1$ to the method 	public FontFieldEditor( 		String name, 		String labelText, 		String previewText, 		Composite parent) NOTES:

@@ -1,0 +1,3 @@
+[Contributions] StatusLineContributionItem should be moved to JFace
+
+The JFace ApplicationWindow class lets you add a StatusLineManager, but an application using it has to become dependent on the Eclipse UI to be able to use it, because StatusLineContributionItem is in org.eclipse.ui.texteditor, and that shouldn't be the case. The StatusLineContributionItem class should be moved to org.eclipse.jface.action.

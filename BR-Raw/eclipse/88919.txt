@@ -1,0 +1,3 @@
+[KeyBindings] registry: Preference changes should update bindings immediately
+
+steps: - add a new key binding in the keys preference page for something (I use Ctrl+shift+alt+k for the first command that appears - File > Export > Preferences > Export All (you could also choose just to export key preferences here) - remove the key binding set above - File > Import > Preferences - choose file exported to above - finish - now go to the keys preferences page, note that the new key binding is not there until after a restart. I sugest there be a listener on the keys preferences to re-calculate the bindings when they are changed

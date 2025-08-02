@@ -1,0 +1,3 @@
+[CSS][UI] Odd coloring of shutdown dialog
+
+The dialog for confirming workbench closing has odd coloring. It's from this in webby.css: Composite { 	background-color: rgb(241, 240, 245); } Need to make that expression more specific to the layout of the perspective contents.

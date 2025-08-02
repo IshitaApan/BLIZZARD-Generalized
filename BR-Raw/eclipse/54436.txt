@@ -1,0 +1,3 @@
+[Contributions] Status line items collapse
+
+I20040310 1. open a Java or Text editor 2. start incremental find (Ctrl+J) Observe: the status line items are still OK 3. start typing ==> items get collapsed This worked in all previous releases (including I20040309).

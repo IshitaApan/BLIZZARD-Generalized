@@ -1,0 +1,3 @@
+[CSS] Reduce whitespace usage in the default Eclipse themes
+
+One of the major complains I hear is that the new styling of Eclipse 4 wastes a lot of space. I suggest to reduce this to a minimum in the default themes and see if community themes go a different way.

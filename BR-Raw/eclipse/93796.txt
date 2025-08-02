@@ -1,0 +1,3 @@
+[Help] Help menu cleanup
+
+As per the polish dynamic team call, Help menu should be cleaned up to look like this: Welcome ------ Help Contents Search Dynamic Help ------ Key Assist Tips and Tricks... Cheat Sheets... ----- Software Updates -> Find and Install... Manage Configuration ----- About Eclipse Platform

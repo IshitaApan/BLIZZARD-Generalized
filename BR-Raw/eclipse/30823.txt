@@ -1,0 +1,3 @@
+[Navigator] RenameResourceAction.invokeOperation should use validateEdit/setContents
+
+build 20030129 RenameResourceAction.invokeOperation deletes an existing target resource before moving the source. When the target resource is an existing file it should be renamed by calling setContents instead of deleting the conflicting resource and then moving the source. If it is read-only validateEdit should additionally be called before doing the setContents. If the source file is read-only as well, validateEdit needs to be called for the source and the destination together.

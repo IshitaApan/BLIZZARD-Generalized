@@ -1,0 +1,3 @@
+[FieldAssist] Info popup in ContentProposalAdapter shows obsolete information
+
+This problem occurs when the info popup dialog is already up. When I scroll through a list of content proposals in the content proposal popup dialog, if the current selection has extra information to show, the associated info popup dialog comes up. Then if I scroll to another selection which does not have any extra information to show, the info popup dialog does not go away. Instead, it keeps showing the context information from my last selection. Shouldn't the info popup be closed if the new selection has no additional information to show? Thanks.

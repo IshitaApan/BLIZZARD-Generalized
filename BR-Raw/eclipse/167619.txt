@@ -1,0 +1,3 @@
+[Undo] 'Undo Delete Resources' should not be available after full project deletion
+
+I20061212-0010. When deleting a project with all its contents there's a comment in the dialog that I cannot undo (OK). Once the project is gone I can still undo the project which is unexpected. Undoing the deletion results in an empty project which can be in a completely weird state (e.g. a Java project without a .classpath file). Adding Markus to track whether deleting from the Package Explorer is affected too.

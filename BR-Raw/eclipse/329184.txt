@@ -1,0 +1,3 @@
+Detached view that is an activation target candidate can prevent perspective switching
+
+1. Detach the 'Outline' view. 2. Window > Open Perspective > Debug 3. Window > Open Perspective > Java 4. The perspective switch doesn't actually happen. You see the 'Debug' perspective's content with an 'Outline' view detached. Closing the 'Outline' view in the 'Debug' perspective will workaround this problem.

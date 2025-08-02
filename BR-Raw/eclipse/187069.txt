@@ -1,0 +1,3 @@
+[Min/Max] Adding a legacy fast view with a maximized part puts the view in the wrong stack
+
+New WS, java perspective Maximize the editor area Click on the legacy FVB's button and choose 'ErrorLog' It appears in the bottom stack's trim, not the legacy FVB Certainly an issue introduced when fixing the 'showView' for edge conditions.

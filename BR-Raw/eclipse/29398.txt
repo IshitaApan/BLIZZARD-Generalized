@@ -1,0 +1,3 @@
+[MPE] Allow bookmarks and tasks in plugin.xml source
+
+A bookmark should be possible from the source tab of the plug-in manifest editor for the same reason that bookmarks are allowed in other text-based files.

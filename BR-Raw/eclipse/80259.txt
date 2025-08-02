@@ -1,0 +1,3 @@
+WorkingSetManager not correctly disposed
+
+I20041201 The workbench plug-in resets instance variables in its reset method. Therefore the workingset manager isn't correctly disposed. Will provide a patch that fixes the problem.

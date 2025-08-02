@@ -1,0 +1,3 @@
+Appearance preference page misses "Use mixed fonts and colors for labels"
+
+In 4.2, the Appearance preference page misses the "Use mixed fonts and colors for labels" option. This is a major problem because a user could have disabled this option in 3.8 but cannot enable it again after migrating to 4.2. BTW: The new Appearance page doesn't use the dialog font.

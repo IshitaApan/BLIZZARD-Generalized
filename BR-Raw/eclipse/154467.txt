@@ -1,0 +1,3 @@
+[WorkingSets] (Patch attached) Smart selection of single WorkingSets
+
+If you open the "Select Working Set" dialog, you can check an item in the list and press ok to activate this Working set. If you do a double click in the list, nothing happens (not nothing, but nothing visible for the user). The dialog is closed and nobody knows whats going on. Here is a patch to extend the dialog by selecting the working set you double.clicked on.

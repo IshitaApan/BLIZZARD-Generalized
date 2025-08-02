@@ -1,0 +1,3 @@
+[StatusHandling] Support tray broken for single errors, shows wrong IStatus
+
+The support tray's lastSelectedStatus remains null until more than one error occurs while the dialog is open. If it's null, then the support tray's createContents() method will never create the support area correctly, and any provider registered via Policy.setErrorSupportProvider() will never appear. In other words, the support tray doesn't show anything until you get at least two bad errors. If you only get a single fatal error, you can't get any support.

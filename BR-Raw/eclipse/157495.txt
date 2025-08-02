@@ -1,0 +1,3 @@
+[Viewers] public subclasses of ViewerSorter should be changed to ViewerComparator
+
+The following 3 classes in the ui should be changed to be subclasses of ViewerComparator: ResourceSorter WorkbenchViewerSorter FileViewerSorter This will involve deprecating old classes and methods, and adding new classes and methods for each of these classes and to classes that reference these sorter classes in their API.

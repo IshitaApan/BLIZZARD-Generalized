@@ -1,0 +1,3 @@
+[Wizards] Accessibility: Reading of back/next buttons by Screenreader
+
+When using the ScreenReader JAWS V8, back buttons are read as “less back button” and next buttons are read as “next greater button” This is because of the <> signs on the buttons. As far as we know, the </> signs come from the JFace/SWT classes, and other texts should be underlayed to this buttons.

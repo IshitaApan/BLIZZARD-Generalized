@@ -1,0 +1,3 @@
+[CSS] UnsupportedOperationException from CSSValue#getCssText() with comma-separated values
+
+A comma-separated CSS property causes an UnsupportedOperationException as Measure#getCssText() doesn't handle the LexicalUnit.SAC_OPERATOR_COMMA. There are other SAC_OPERATOR values that it doesn't handle either, though I'm not certain that we actually support any properties that accept such operators.

@@ -1,0 +1,3 @@
+[CommonNavigator] CNF test improvements
+
+Various improvements and corrections.

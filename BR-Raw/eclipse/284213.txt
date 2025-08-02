@@ -1,0 +1,3 @@
+[CSS] ETabFolder paddings shouldn't be averaged for text loc
+
+When you set the ETabFolder tabTopPadding and tabBottomPadding, their values are not respected to determine the space above and below the label. Instead, their values are added together then averaged. 1) The values are added together to determine the tab height 2) The text position is determined by calling getTextMidline().

@@ -1,0 +1,3 @@
+[Viewers] ViewerDropAdapter holds currentTarget forever
+
+Build ID: 3.3.2 Member currentTarget should be set to null after drop or after cancel, because it holds a domain object, which can't be garbage collected after Viewer.setInput(null).

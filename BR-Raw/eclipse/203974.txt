@@ -1,0 +1,3 @@
+[Markers] [Markers] markers view: Twistis on configure filter dialog not correctly laid out
+
+Created attachment 78750 screen shot I20070919-0010 In new markers view: 1. Filter>Configure Filters... 2. Collapse all twistis Is: They are not on top, see screen shot

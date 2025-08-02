@@ -1,0 +1,3 @@
+[Contributions] Contributions to the status trim bar are never disposed.
+
+I've been working on a control contribution to the status bar and I ran into some problems because it was never being disposed. I tracked down the problem to the dispose() implementation in TrimContributionManager.ToolBarTrimProxy which looks like: public void dispose() { if (tbm != null) { tbm.removeAll(); tbm.dispose(); } } The problem is that tbm.removeAll() clears out the contribution items in the toolbar manager, so when the tbm.dispose() call is made it does not dispose the contribution items. Reversing these two calls seems to fix the problem.

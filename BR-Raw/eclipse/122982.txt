@@ -1,0 +1,3 @@
+[KeyBindings] errors: No warning when creating an invalid keybinding sequence
+
+I tried to map COLUMN_PREVIOUS to ARROW_LEFT in my plug.xml. But I set it to "LEFT" instead. LEFT is unrecognized, yet there was no warning in the .log file indicating that an invalid sequence had been set. I also have debug keybindings enabled in my options file, and it did not spew any complaints either.

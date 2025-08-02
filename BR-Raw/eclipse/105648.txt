@@ -1,0 +1,3 @@
+[Undo] - ObjectUndoContext should match if objects are equal
+
+While prototyping solutions for bug #89599, I added behavior to ObjectUndoContext so that an object undo context will match successfully against another object undo context if both contexts' objects are equal. Even though this is likely not going to be the technique used by platform text to provide matching undo contexts for documents, it is a reasonable expectation that ObjectUndoContext behave this way.

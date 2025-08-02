@@ -1,0 +1,3 @@
+Test Status Handler should only be enabled when running the test suites
+
+As the test status handler eats a lot of exceptions it is making it hard to work or run other suites with it loaded. It should only be enabled when the suites are running.

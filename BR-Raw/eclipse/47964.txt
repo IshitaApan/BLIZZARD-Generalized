@@ -1,0 +1,3 @@
+[KeyBindings] help with multi-stroke keyboard shortcuts pops up unusable window
+
+I was excited to test out the new keybindings introduced in the latest integration build and I enabled the "help me with multi-stroke keyboard shortcuts" option. However the help wasn't much use because the window that pops up is too narrow. I will attach a screen shot to clarify.

@@ -1,0 +1,3 @@
+[Perspectives] Workbench switch perspective when new project is created, even if setup to no switch
+
+I200403161300 I have the preference workbench>perspectives>'switch to associated perspective when creating new project' set 'Never switch'. I create a java project and the workbench switch to the java perspective (my current perspective was a custom perspective based on the java perspective).

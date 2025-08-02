@@ -1,0 +1,3 @@
+[Viewers] TableViewer.remove doesn't post selection change
+
+When using org.eclipse.jface.viewers.TableViewer.remove(Object[]) and the remove includes the current selection, the item is deleted and the selection goes away. But no selection change event is fired (where at the very least it should be an empty IStructuredSelection). PW

@@ -1,0 +1,3 @@
+[Viewers] Error while debugging but no log
+
+I was debugging an IllegalArgumentException. I clicked on one of the traceback lines after the breakpoint was hit and got a dialog informing me that an error occurred and that I should see the log for details but the log was empty. After this, the debuuger no longer opens files (i.e. it still stps at breakpoints but I can't look at the source). I am using Eclipe build I20040413 and IBM VM build 1.4.1, J2RE 1.4.1 IBM build cxia321411-20040301.

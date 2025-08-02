@@ -1,0 +1,3 @@
+ProgressManagerUtil.getModalShellExcluding() should work for stacked dialogs
+
+ProgressManagerUtil.getModalShellExcluding(Shell) only works correctly if there is a single modal dialog open. It should work if there are stacked dialogs. See bug #229668#c10 for example.

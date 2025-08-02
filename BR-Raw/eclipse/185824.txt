@@ -1,0 +1,2 @@
+[QuickAccess] CamelCase algorithm needs to be better
+

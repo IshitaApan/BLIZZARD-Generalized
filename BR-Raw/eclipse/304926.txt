@@ -1,0 +1,3 @@
+[CommonNavigator] TextActionHandler in o.e.navigator.resources is a poor duplicate of the good one
+
+It looks like this was copied from the real one in org.eclipse.ui.ide when the CNF was created because it needed an updateActionBars() method. Everything else is the same, except they have actually diverged due to many fixes from Paul last year. I will modify the original to add the required method and refer to the original.

@@ -1,0 +1,3 @@
+[DataBinding] use Double.isNaN(d) instead of d!=d to check for NaN
+
+There are two warnings in StringToNumberParser related to the fact that we use "doubleValue == doubleValue" to determine whether the value is NaN (suprisingly, NaN is never == NaN, even if it is the same variable). We should be using Double.isNaN(doubleValue) instead.

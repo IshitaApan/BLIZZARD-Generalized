@@ -1,0 +1,3 @@
+[Perspectives] Build Automatically update problems for multiple windows
+
+Build 20021029. Problem does not occur in Build 20021023. 1. Open a Resources Perspective. 2. New Window. 3. Preferences --> Workbench --> Build Automatically --> Off Notice that the first window gets the additional tool item, but the new window does not. 4. Preferences --> Workbench --> Editors --> Close Editors Automatically --> On. Notice that both windows get the additional tool item. 5. Preferences --> Workbench --> Build Automatically --> On Notice the flash that occurs while window in the back gets focus briefly.

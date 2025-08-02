@@ -1,0 +1,3 @@
+[Compatibility] Rendering the call hierarchy of a method for an unopened Java file shows the 'Type Hierarchy' view
+
+Seems JDT calls bringToTop(IWorkbenchPart) with a null argument. The internal logic in WorkbenchPage does not consider this and we end up getting a "random" MPart to render (in this case, the 'Type Hierarchy' view).

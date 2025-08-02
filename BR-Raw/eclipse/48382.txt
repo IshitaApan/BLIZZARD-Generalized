@@ -1,0 +1,3 @@
+Deadlock running automated tests
+
+I20031209 The automated tests for this build failed due to a deadlock. The stack trace is attached. All of the jobs involved are from the new marker view work. The problematic pattern is in Worker-4 and Worker-1, both of which are trying to join another job while owning an ILock. I recommend releasing the ILock before attempting to join the job.

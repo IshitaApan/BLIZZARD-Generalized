@@ -1,0 +1,3 @@
+[Wizards] PDE product wizard is not obvious to use.
+
+see attached image. The wizard for creating a new product opens with a file name initialized to ".product" which is selected. Generally this would imply that this is a good default but if you start typing you will replace the text with something else that is also a good name. If you require an extension for a file you should add it yourself like the "Export Archive" wizard.

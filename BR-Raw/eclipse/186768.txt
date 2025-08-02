@@ -1,0 +1,3 @@
+[Trim] AbstractContributionFactory cannot be used
+
+Build ID: I20070503-1400 Steps To Reproduce: 1. Create your own AbstractContributionFactory implementation to contribute to a "toolbar:org.eclipse.ui.trim.status". 2. Add this factory to the menu service. 3. Run the application. More information: TrimContributionManager, line 220: MenuAdditionCacheEntry cache = (MenuAdditionCacheEntry) cacheIter.next(); throws ClassCastException because the AbstractContribution action is tried to be cast to MenuAdditionCacheEntry. PS: I hope I use this factory the right way -- I follow the tutorials.

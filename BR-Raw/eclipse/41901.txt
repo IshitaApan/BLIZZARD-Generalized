@@ -1,0 +1,3 @@
+NPE upon startup
+
+Build: I-20030820 Upon startup, I found about the NPE pasted below was logged 12 times. Error Aug 24, 2003 12:59:06.784 An internal error occurred during: "Open Progress View". java.lang.NullPointerException at org.eclipse.swt.widgets.Display.asyncExec(Display.java:461) at org.eclipse.ui.progress.UIJob.run(UIJob.java:73) at org.eclipse.core.internal.jobs.Worker.run(Worker.java:61)

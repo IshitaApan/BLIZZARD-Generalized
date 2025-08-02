@@ -1,0 +1,3 @@
+[DataBinding] JavaBeanObservableValue may cause NPE when used with ComputedValue
+
+Build ID: I20070625-1500 Steps To Reproduce: Simple case: new ComputedValue() { final IObservableValue name = BeansObservables.observeValue(dto, "name"); //$NON-NLS-1$ @Override protected Object calculate() { return name.getValue() != null; } }; More information: When ComputedValue recalculates the value, it calls the makeDirty() and then stopListening() methods which, in turn, may result in call to lastListenerRemoved() (if there are no other listeners attached) in the JavaBeanObservableValue class, causing listenerSupport.dispose() call. From now on, adding new listeners (which happens next during the calculate call) will cause NullPointerException.

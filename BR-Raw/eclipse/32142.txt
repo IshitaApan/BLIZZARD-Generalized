@@ -1,0 +1,3 @@
+[Workbench] Closing all perspectives does not seem to fire appropriate events
+
+Using the latest eclipse ui code (as of feb 18, 2003 morning), if you - run the workbench - open the resource perspective - select a project in the Navigator view - select Window > Close All Perspectives - look at the Edit menu Notice the Copy item is still enabled, and it should not be. This use to work in build 200302061700 (last integration build before we started work on 2.1 RC1)

@@ -1,0 +1,3 @@
+[BiDi] [Markers] BIDI3.5:HCG_Incorrect file path display  in Problems view
+
+Created attachment 130998 problems view Build ID: I20090313-0100 Steps To Reproduce: This is Bidi specific defect, in the test case upper English letters represent Hebrew letters 1.Open eclipse and C/C++ perspective 2.Create new c++ project and create directory and subdirectory with Hebrew names (AAA/BBB AAA, BBB are Hebrew chars) under src directory Add new source cpp file with Hebrew name XX.cpp under subdirectory BBB. 3. Edit file and insert syntax error 4. Build, get errors 5. Inspect file pathes in Problems view Ecpected result src/AAA/BBB/XX.o and src/AAA/BBB Actual result: src/XX/BBB/AA.o src/BBB/AAA More information: Linux RedHat5

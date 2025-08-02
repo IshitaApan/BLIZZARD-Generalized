@@ -1,0 +1,2 @@
+[WorkingSets] UI usage of getName() should be migrated to getLabel()
+

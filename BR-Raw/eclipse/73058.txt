@@ -1,0 +1,3 @@
+[Images] ImageDescriptor.createImage() javadoc needs dispose() reference
+
+org.eclipse.jface.resource.ImageDescriptor.createImage() javadoc needs dispose reference. When creating images using the above call, the Javadoc just says that a new image is created. Reciently I had troubles with a "No more handles" bug, which turned out to be that I was never disposing of the images I had created. It would be very useful to have the Javadoc for the createImage() calls mention that all images must be explictly disposed of. Mentioning this might help other people avoid this problem in the future. Something along the lines of: Note: All Images created using this call must be explictly disposed of using the dispose() call. They will not be automatically garbage collected.

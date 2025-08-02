@@ -1,0 +1,3 @@
+[RCP] tab style for M9
+
+the tab style in the IDE in M9 should use the curved style

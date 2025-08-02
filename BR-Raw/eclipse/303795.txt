@@ -1,0 +1,2 @@
+compatibility: Compare editor hits NPE because of missing SaveablesLifecycleListener
+

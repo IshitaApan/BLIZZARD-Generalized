@@ -1,0 +1,3 @@
+move each core application service to its own package
+
+In M4, some services have their own package, others are provided in core.services. Boris and I talked about moving each service (API) to its own package. Reasons are: - aids with discoverability - helps separate application services from other public API in the core.services package (such as IDisposable, JSONObject) - helps to emphasize that services can be setup and consumed individually - will make it easier to move to separate bundles if that is ever needed This means moving Adapter, Logger, IStatusHandler to their own packages.

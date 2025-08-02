@@ -1,0 +1,3 @@
+LabelProvider dispose() is not called when provider disabled
+
+If you disable the CVs decorator from the preferences the dispose() method is not called on LabelProvider. we would like to hook here to clear some caches when the decorator is not needed. In addition, we expect the lightweight decorator constructor to be called when it is re-activated (which currently isn't the case either).

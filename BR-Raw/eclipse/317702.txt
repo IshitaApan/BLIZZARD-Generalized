@@ -1,0 +1,3 @@
+ToolItemRenderer needs to consider menus for dropdown tool items
+
+The instantiated ToolItem does have the correct SWT.DROP_DOWN style but clicking on it does nothing.

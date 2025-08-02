@@ -1,0 +1,3 @@
+[Dialogs] Resource deletion could be run in the background
+
+If I delete a resource in Eclipse and the deletion is blocked by another job, I get a blocked dialog. I then have to wait until the blocking job finishes. It would be nice if I could have the deletion run in the background and occur when it can. In essence, this is what happens in window except that windows uses a non-modal dialog instead of a "Run in Background" button.

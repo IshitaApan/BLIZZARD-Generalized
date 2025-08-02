@@ -1,0 +1,3 @@
+[Progress] Should stop creation of Regions during a paint
+
+We are currently creating regions during a paint for the ProgressFloatingWindow. Although SWT can handle this now (see Bug 52733) this should be removed for the sake of safety.

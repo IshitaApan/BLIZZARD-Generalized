@@ -1,0 +1,3 @@
+[Markers] All content provider needs a type field
+
+As All shows everything the type column would be very useful for filtering.

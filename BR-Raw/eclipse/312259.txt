@@ -1,0 +1,3 @@
+Keybindings are being sent to the wrong place
+
+The 4.0 I20100507-1253 SDK is unusable. http://download.eclipse.org/e4/sdk/drops/I20100507-1253/index.php The keybindings seem to be sent exclusively either to an editor or a view so if you try to delete some text you might end up deleting a file. At the moment, I believe it is caused by attachment 167232 from bug 310839 comment 12 though that is not necessarily an indication of the context code being bad, it could be something in the handlers or the 4.0 workbench implementation.

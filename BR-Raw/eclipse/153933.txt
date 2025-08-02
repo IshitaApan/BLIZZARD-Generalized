@@ -1,0 +1,3 @@
+[Dialogs] [RCP] Dialog.DLG_IMG_HELP not available in RCP apps
+
+This is something I noticed while looking at bug 139430. The image for Dialog.DLG_IMG_HELP is only initialized in IDEWorkbenchAdvisor, so referring to it from TrayDialog.createHelpControl is not going to work for RCP applications.

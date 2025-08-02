@@ -1,0 +1,3 @@
+[DetachedView] No close box on shell of torn off views.
+
+1) Drag any view out the content area of the shell that contained it. 2) Notice that the view is hosted in its own shell, which does not have a close box (but oddly *does* have a maximize button) Doing this on a Windows machine results in a shell with a close box (but no maximize button).

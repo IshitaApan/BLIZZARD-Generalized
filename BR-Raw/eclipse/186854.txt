@@ -1,0 +1,3 @@
+[Contributions] separator with visible="false" is still visible
+
+When defining a menu contribution in XML the separators that are to be used as groupmarkers are visible. They should just be group markers. Example XML: <menu label="DoIt" mnemonic="I"> <separator name="z.ex.rcp.mail.separator1" visible="false"> </separator> <command commandId="z.ex.rcp.mail.open" icon="icons/sample3.gif" label="C1"> </command> <separator name="z.ex.rcp.mail.separator2" visible="false"> </separator> <command commandId="z.ex.rcp.mail.open" icon="icons/sample2.gif" label="C2"> </command> <separator name="z.ex.rcp.mail.separator3" visible="false"> </separator> </menu> PW

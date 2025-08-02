@@ -1,0 +1,3 @@
+[Compatibility] Tooltip of 3.x parts are not being updated
+
+In 3.x, hovering over the 'Problems' view that's currently obscured will provide tooltips.

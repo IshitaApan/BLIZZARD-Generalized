@@ -1,0 +1,3 @@
+[PropertiesDialog] UI polish for file system attributes on Resource properties page
+
+I20100209-2300 - Permissions table needs mnemonic (e.g. &r) - The note should talk about "folder", not "directory" - Checkboxes have white background on Linux-GTK and gray bg on Mac-Cocoa Why are attributes not shown for projects?

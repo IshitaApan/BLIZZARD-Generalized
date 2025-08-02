@@ -1,0 +1,3 @@
+IWorkbenchWidget has incorrect copyright info
+
+20060512 The copyright should say 2005,2006 and it is missing a since 3.2 tag

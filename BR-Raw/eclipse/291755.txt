@@ -1,0 +1,3 @@
+[Filters] Filters implementation and API cleanup
+
+This bug is raised to track reviewing and cleanup of filters API and implementation.

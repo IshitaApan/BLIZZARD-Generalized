@@ -1,0 +1,3 @@
+[Preferences] Importing preferences does not fire property change events
+
+M2 Importing preferences does not cause property change events to be fired. Set a breakpoint in ActivityPersistanceHelper, line 88 and then try and import the file i am about to attach. No events are recieved.

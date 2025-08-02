@@ -1,0 +1,3 @@
+[Progress] ProgressView doesn't track property of IAction
+
+Build ID: Eclipse 3.3 Steps To Reproduce: In the javadoc for IProgressConstants.ACTION_PROPERTY, it says that the ProgressView will keep track of enabled state and tooltip text. However, this doesn't seem to be the case. I would have my Action associated with my Job run only once. After it runs, it sets itself to be disabled. However, the Job Progress View doesn't disable the Action.

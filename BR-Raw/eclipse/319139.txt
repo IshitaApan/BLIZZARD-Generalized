@@ -1,0 +1,3 @@
+[Import/Export] Cocoa: Import existing projects into workspace has misaligned text fields
+
+Build Identifier: 20100617-1415 In Eclipse Cocoa, the dialog that pops up after doing Import -> Existing projects into workspace has misaligned text fields. The text field next to the label "Select root directory" seems way above than the label and the browse button than it should be. In windows, this looks fine. Same for the text field next to "Select archive file". Reproducible: Always Steps to Reproduce: 1. Go to File -> Import -> Existing Projects into workspace. 2. Notice that the text fields next to "Select root directory" and "Select archive file" are misaligned with the label and the browse button.

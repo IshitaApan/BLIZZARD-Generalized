@@ -1,0 +1,3 @@
+[Perspectives] [ViewMgmt] No API for adding multiple instances of the same view in IPageLayout
+
+It isn't currently possible to add multiple instances of the same view to a perspective through IPageLayout. Because of this you cannot create a perspective with multiple instances of the same view in its default layout.

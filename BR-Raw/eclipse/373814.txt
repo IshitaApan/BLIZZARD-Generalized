@@ -1,0 +1,3 @@
+Missing setFocus() call on maximize/minimize/restore of stack
+
+Found while investigating Bug 348398. Double clicking to maximize/unmaximize works inconsistently based on the fix on bug 348398. However, using the buttons/actions to max/min the view always loses focus.

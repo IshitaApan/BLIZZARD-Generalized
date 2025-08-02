@@ -1,0 +1,3 @@
+[Viewers] TreePath.getParentPath() should return empty path
+
+TreePath.getParentPath() specifies that it returns null for an empty path. However, it also returns null for a one element path. I think it should return the empty path for a one element path, to be consistent with an empty path representing a root element in a tree.

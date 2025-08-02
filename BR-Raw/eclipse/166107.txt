@@ -1,0 +1,3 @@
+[Quick Access] Quick Access should allow matching to an element for more than one string
+
+Build ID: I20061102-1715 Steps To Reproduce: 1. Use Quick Access and choose java perspective after typing "j" 2. Use Quick Access and choose java perspective after typing "jav" 3. Quick Access only remembers the java perspective was selected after typing "jav" More information: Quick Access should support multiple strings for the same element. For example, it should remember that the Java Perspective was selected after typing "j" once, and for typing "jav" another time. AF

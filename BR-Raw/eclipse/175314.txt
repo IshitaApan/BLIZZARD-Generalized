@@ -1,0 +1,3 @@
+Delete commented code in WorkbenchActionBuilder
+
+WorkbenchActionBuilder has about 225 lines of code commented out in createHelpMenu. From the looks of it, this was added as test code when the command handler work was first being done. It was introduced in revision 1.16 by cmclaren. I'm going to delete it.

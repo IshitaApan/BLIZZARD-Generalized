@@ -1,0 +1,3 @@
+[Compatibility] No icon for view tool item
+
+Created attachment 198428 Screenshot depicting the behaviour in question. It seems like drop down tool items for views don't get icons for whatever reasons.

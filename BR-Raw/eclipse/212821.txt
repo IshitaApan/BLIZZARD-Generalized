@@ -1,0 +1,3 @@
+Only WorkbenchMarkerResolutions being shown
+
+Looks like quick fixes are broken in the I20071212-0010 build. The markers in question (tried some custom WTP markers and some JDT ones as well) correctly display the "Quick Fix" menu item (the IMarkerResolutionGenerator is successfully called and returns the fixes) but, when "Quick Fix" is selected, you get a dialog with title "Could not fix" and text "No fixes available for <marker description>". Looks like this issue has appeared at some point recently during M4.

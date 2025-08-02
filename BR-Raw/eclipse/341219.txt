@@ -1,0 +1,3 @@
+[MPE] MultiPageEditorSite may not end up forwarding post selection events
+
+If an inner editor of an MPEP doesn't actually implement IPSP, no post selection events are fired even though MultiPageSelectionProvider implements the IPSP interface.

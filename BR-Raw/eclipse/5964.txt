@@ -1,0 +1,3 @@
+SEVERE: Silent crash importing all *.txt from c:\
+
+Build 20011105. On my home Win98 machine (256M RAM, plenty of disk), I did the following: - File / Import / File system - select c:\ - Select All - Select Types / *.txt It went away for quite a while, then crashed silently. No dialog, no .log output, nothing.

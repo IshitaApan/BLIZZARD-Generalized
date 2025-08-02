@@ -1,0 +1,2 @@
+[Compatibility] Appearance preference page has typo and misses mnemonics
+

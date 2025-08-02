@@ -1,0 +1,3 @@
+[Dialogs] InputDialogTest and TitleAreaDialogTest needs to close its opened dialogs when finished
+
+Currently, the two dialogs that are opened by the two test methods stays up for the entire run of the JFace test suite. If another test were to invoke something like display.getShells(), they would get two more shells than what they expected. The tests should close the dialog when the tests are done.

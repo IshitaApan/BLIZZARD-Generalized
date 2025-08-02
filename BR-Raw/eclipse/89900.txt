@@ -1,0 +1,3 @@
+[Progress] showInDialog blocks if the parentShell is modal
+
+20050331 IProgressService#showInDialog blocks until all modal shells are closed. This will mean that it will not open if it is called on a modal parent. ProgressMonitorFocusJobDialog should check if the shell blocking it is the specified parent - if so then it should proceed. We also should remove the code that looks for a non modal parent in the null case and fall through to the new shell provider.

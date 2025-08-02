@@ -1,0 +1,3 @@
+Need hover help for Animation Icon
+
+That mentions double click opens a view.

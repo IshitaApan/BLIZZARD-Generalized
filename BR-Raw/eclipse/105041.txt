@@ -1,0 +1,3 @@
+[IDE] Double-clicking on a closed project should open it
+
+Double-clicking on a closed project should open it. Steps to reproduce: 1. Click on a closed project. Expected results: The project gets opened. Actual results: Nada.

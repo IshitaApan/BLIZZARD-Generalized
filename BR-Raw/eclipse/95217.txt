@@ -1,0 +1,3 @@
+[Commands] Remove experimental handlerSubmission element from the "org.eclipse.ui.commands" extension point
+
+See Bug 95193 for background. The handlerSubmission element in the "org.eclipse.ui.commands" extension point was added during the 3.0 development cycle. It was always marked as experimental, as was shipped as experimental with 3.0. Now, a complete replacement for it exists (i.e., the 'org.eclipse.ui.handlers" extension point) in 3.1. Is it time to remove the handlerSubmission element entirely, and make a note in the 3.1 migration guide?

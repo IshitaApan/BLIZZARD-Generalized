@@ -1,0 +1,3 @@
+[DataBinding] BeansObservables.observeList returns a list without an element type
+
+When constructing an IObservableList from BeansObservables the list that is returned doesn't have an element type. The scenario that this causes an issue in is when attempting to observe a detail list. Currently when you run TestMasterDetail an exception is thrown when a person is selected and this is because the detail list has an element type of Object.class instead of the appropriate type. We need to ensure that the type is set on the list that is returned from the observables factory.

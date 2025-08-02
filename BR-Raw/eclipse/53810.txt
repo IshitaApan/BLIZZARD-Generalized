@@ -1,0 +1,3 @@
+[Workbench] Use of hard coded font spews warnings on some platforms
+
+In the ViewPane, a font has been hard coded. This font does not exist on GTK and is resulting in a whole bunch of warnings spewed to the console: org.eclipse.ui.internal.ViewPane.createTitleBar(ViewPane.java:449): status.setFont(new Font(status.getDisplay(), "Arial", 9, SWT.NORMAL)); //$NON- NLS-1$

@@ -1,0 +1,3 @@
+[CSS] Themes can't load local or http-based resources
+
+I used to be able to reference http: resources and local files using the url() notation, but that doesn't seem to work any more. What to do if I want my smiling mug as a background?

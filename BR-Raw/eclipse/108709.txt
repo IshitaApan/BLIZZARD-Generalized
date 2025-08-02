@@ -1,0 +1,3 @@
+[Contributions] Every single Java editor is leaked
+
+N20050831-0010 (HEAD of org.eclipse.ui.workbench as of now) The code that was introduced into PopupMenuExtender in order to fix bug 108314 and it leaves RunToLineActionDelegate instances alive which refer to the editor via fAction. The new code introduced a life-cycle problem in Platform UI because 2 RunToLineActionDelegate instances get created for each opened editor but RunToLineActionDelegate.dispose() is never called.

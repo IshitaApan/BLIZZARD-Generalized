@@ -1,0 +1,3 @@
+[Commands] request: add command to show intro/welcome main page
+
+I noticed there is no command corresponding to the action class org.eclipse.ui.internal.IntroAction. I'm attaching a patch that defines the command in org.eclipse.ui and uses setActionDefinitionId in the IntroAction constructor to associate the action with the command.

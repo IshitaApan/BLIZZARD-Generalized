@@ -1,0 +1,3 @@
+Lost scheduled callback
+
+Earlier this week we refactored ProgressManager to extend ProgressProvider instead of JobProgressAdapter. We moved the "aboutToRun" and "done" methods into an anonymous inner class created by the method getChangeListener(). We neglected to also copy the "scheduled(IJobChangeEvent)" method. This means the progress manager is not updated when new jobs are scheduled. The consequence is that sleeping or waiting jobs NEVER appear in the progress view. The "scheduled" method should also be moved into the anonymous inner class inside getChangeListener.

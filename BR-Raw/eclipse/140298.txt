@@ -1,0 +1,3 @@
+[Forms] Small (but funny) typo in Javadoc of Form
+
+Spot the typo in the javadoc of org.eclipse.ui.forms.widgets.Form "...the body of the worm will participate in wrapping..."

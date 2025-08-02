@@ -1,0 +1,3 @@
+[CSS] Review keyline property names
+
+ETabFolder has three keyline colors, with the following names as realized in the CSS: 	tab-area-keyline-color: xxx; 	body-keyline-color: xxx; 	tab-keyline-color: xxx; Are we happy with these names? The correspond to: 	Color tabAreaKeylineColor; // The exterior keyline color of the top tab area 	Color bodyKeylineColor;		// The keyline color of the left, right, and bottom of the body 	Color tabKeylineColor;		// Keyline color for the tabs themselves

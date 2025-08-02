@@ -1,0 +1,3 @@
+[JFace] Animated warning in new class wizard moves away but never reveals message text
+
+I20060328-0010, worked fine in 3.2M5 - import a plugin as binary - open a class file and make sure the name of the type declaration is selected - open New Java Class wizard => The (valid) warning message moves through the message area from bottom to top and then leaves the area blank as long as no error is shown (e.g. add a character to the name -> still no warning).

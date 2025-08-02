@@ -1,0 +1,3 @@
+[IDE] Use operation validation API for IDE actions
+
+We should use the Resources/Core operation validation API in the IDE actions for manipulating resources.

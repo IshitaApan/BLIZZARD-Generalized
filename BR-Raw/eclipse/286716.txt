@@ -1,0 +1,3 @@
+[Workbench] IWorkbenchPreferenceConstants.PROMPT_WHEN_SAVEABLE_STILL_OPEN has malformed javadocs
+
+The monospaced text extends incorrectly to the entire second sentence. http://help.eclipse.org/stable/nftopic/org.eclipse.platform.doc.isv/reference/api/org/eclipse/ui/IWorkbenchPreferenceConstants.html#PROMPT_WHEN_SAVEABLE_STILL_OPEN /** * Stores whether or not the workbench prompts for saving when a dirty * editor or view is closed, but the Saveable objects are still open in * other parts. If * <code>true<code> (default), the user will be prompted. If <code>false</code>, there will be * no prompt. * * @see Saveable * @since 3.2 */ The first 'code' tag should be closed.

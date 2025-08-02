@@ -1,0 +1,3 @@
+Missing help context IDs for Keyboard Shortcuts actions
+
+F3 Chris says: in org.eclipse.ui.internal.WorkbenchActionBuilder.makeActions() actions for the Window | Keyboard Shortcuts menu are created: there is a new context for ShowViewMenuAction, but the rest seem to be missing. 'show system menu' is in ShowPartPaneMenuAction 'activate editor' is ActivateEditorAction the rest are all instances of CycleEditorAction, CyclePartAction, or CyclePerspectiveAction. if you guys want to change these in the code now, i will add the help. just provide me the context id's for my contexts_workbench file, if you don't, let me know.. but then you should at least disable show_view_menu_action_context so it doesn't look out of place.

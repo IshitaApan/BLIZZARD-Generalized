@@ -1,0 +1,3 @@
+Should ResourceChangeValidator#validateChange take a progress monitor
+
+Since the validation might take some time it might make sense to pass a progress monitor into validateChange.

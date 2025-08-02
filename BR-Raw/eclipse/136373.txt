@@ -1,0 +1,3 @@
+[EFS] Can't browse for files when creating linked resources
+
+Build id: I20060412-0847 File > New > File Click Advanced Click Browse. Nothing happens, and an error appears in the log. Same for the new folder dialog. java.lang.NullPointerException 	at org.eclipse.ui.internal.ide.dialogs.CreateLinkedResourceGroup.handleLinkTargetBrowseButtonPressed(CreateLinkedResourceGroup.java:376) 	at org.eclipse.ui.internal.ide.dialogs.CreateLinkedResourceGroup.access$13(CreateLinkedResourceGroup.java:372) 	at org.eclipse.ui.internal.ide.dialogs.CreateLinkedResourceGroup$3.widgetSelected(CreateLinkedResourceGroup.java:260) 	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:90) 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)

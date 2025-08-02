@@ -1,0 +1,3 @@
+[Mac] Menu items "About Eclipse SDk" and "Preferences" of Top menu "Eclipse" not disable after show the dialog of "About Eclipse SDK"
+
+Investigate whether this is an issue on Cocoa as well. +++ This bug was initially created as a clone of Bug #257324 +++ Build ID: M20071023-1652 Steps To Reproduce: 1. Launch Eclipse on MAC, and open the dialog of "About Eclipse SDK" by [Eclipse]->[About Eclipse SDK] 2. Click the [Eclipse] top menu, open the [Eclipse] top menu 3. The menu items [About Eclipse SDK] and [Preferences] still enable click, them should be disable. More information:

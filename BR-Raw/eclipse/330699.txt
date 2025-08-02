@@ -1,0 +1,3 @@
+[Compatibility] Toolbar drop downs do not appear
+
+Toolbar drop downs in the workbench window like search, new class, run/debug all don't show up.

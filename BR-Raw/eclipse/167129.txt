@@ -1,0 +1,3 @@
+[StatusHandling] Status extension point is not dynamic
+
+The status extension point is not dynamic aware. All workbench extension points must be dynamic aware. This means that when a new bundle is loaded that has a status extension appears it should be acknowledge (if necessary) and when that bundle goes away it is no longer used. I'm not sure the first case is applicable but the second definitely is. If you want help with this let me know - I've done the rest of the workbench dynamic support.

@@ -1,0 +1,3 @@
+[Colors/Fonts] Colors and fonts should have an isEditable flag
+
+The XML for describing colors and fonts should have an isEditable flag. Any contribution with this set to false will not be shown in the configuration UI.

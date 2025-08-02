@@ -1,0 +1,3 @@
+[Themes] New Dialog fonts don't take
+
+Build: I-20051025-0800 Window > Preferences > General > Appearance > Color and Fonts > Dialog Font. Change the font to Italics 12 for example. Press OK everywhere you can. Close the preferences dialog. Reopen it. The new fonts have not taken effect. They also do not take effect in any wizard, etc.

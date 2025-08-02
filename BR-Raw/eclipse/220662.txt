@@ -1,0 +1,3 @@
+[Markers] Problems view custom configuration with all types selected does not pick up new types
+
+I20080226-1155 Some plug-ins in my workspace produced the new API problem markers. My Problems view was set to show "All Errors" (On any element, Error, all types selected), but the API problems did not get selected. There must be a way to configure the Problems view to also show all new problem types -- and this should be used in the default "All Errors" configuration.

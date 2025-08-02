@@ -1,0 +1,3 @@
+wrong bug number in MenuHelper comment
+
+Created attachment 223985 proposed patch Just a typo: The bug mentioned in a comment in MenuHelper is wrong. The bug number is "291232"; but the correct bug number is "391232".

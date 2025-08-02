@@ -1,0 +1,3 @@
+[DataBinding] Please javadoc org.eclipse.core.databinding.observable.ObservableEvent and subclasses
+
+Please provide a general description of the class purpose and of the diff field. I initially thought I was accidentally using some internal class. Also these names are very generic and different plugins often have declared similar class names. When the javadoc tooltip shows up it is easy to figure out which one is used in the code. Not sure if UI still maintain these classes or not. Thanks you!

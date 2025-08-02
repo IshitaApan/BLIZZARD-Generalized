@@ -1,0 +1,3 @@
+Drag and drop of a part hides one side of a sash
+
+1. Open a clean e4 workspace 2. Open an untitled text file 3. Move the Problems view into editor area, above 'Untitled 1' (so that the editor area is split) 4. Drag the Problems view on the upper half of the 'Untitled 1' editor (this actually performs a drop operation but results in the same layout) 5. Repeat step 4 _five_ times Result: The sash ratio is not longer 0.5 but perhaps 0.7 6. Repeat step 4 again Result: The upper sash half, i.e. the 'Untitled 1' editor is gone 7. Close the Problems view Result: SWTException. Editor area is killed.

@@ -1,0 +1,3 @@
+[Decorators] Useless descriptor field in DeclarativeDecorator
+
+the descriptor field in DeclarativeDecorator is never assigned.

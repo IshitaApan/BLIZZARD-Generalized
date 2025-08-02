@@ -1,0 +1,3 @@
+Need an index based setSelection for ILazyContentProviders
+
+20050812 It is currently very ineffecient to set a non visible selection in the TableViewer as we cannot look up the items without creating them all. It is possible to use getTable().setSelection() but we should 1) Have an API where you can reveal 2) Implement the selSelection where we give the performance warning and just call super

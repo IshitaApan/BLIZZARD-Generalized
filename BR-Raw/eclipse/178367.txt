@@ -1,0 +1,3 @@
+[Min/Max] Stack 'selectedTabId' handling does no correctly handle multi-instance views
+
+In the processing for the currently selected tab in a view stack we aren't honoring the 'secondaryId'. This means that multi-instance stacks are not correctly handled. Also, restoring a stack while it's showing a view doesn't make that view the new 'selected' tab view (probably because it's 'pane' is the FastViewPane at that point.

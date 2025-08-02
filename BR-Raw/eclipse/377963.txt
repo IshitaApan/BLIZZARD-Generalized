@@ -1,0 +1,3 @@
+Restarting brings emacs scheme keybindings back
+
+I started up a clean workspace inner. Create a plugin project with one of the examples, then navigate around an open java editor. I switched to the emacs scheme on Preferences>General>Keys, and then CTRL+A moves the the beginning of the line, and CTRL+K deletes the line (with a popup) and F9 is undo. I switched back to the default key scheme. Now CTRL+A selects all and CTRL+Z is undo. If I restart and start moving around, CTRL+A moves to the beginning of the line again, and CTRL+Z is moving the editor up and down. PW

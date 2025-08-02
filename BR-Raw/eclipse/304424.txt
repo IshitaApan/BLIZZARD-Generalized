@@ -1,0 +1,3 @@
+Update for SWT.OpenDoc change
+
+Created attachment 160689 Patch SWT renamed a recently introduced constant: SWT.OpenDoc -> SWT.OpenDocument The attached patch updates IDE class that uses it. The SWT change was released today and will appear in the nightly build. Platform/UI developers who work using the nightly builds will need to either close the org.eclipse.ui.ide.application bundle or checkout SWT from CVS Head: http://eclipse.org/swt/cvs.php until the next I-build.

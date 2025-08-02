@@ -1,0 +1,3 @@
+[LinkedResources] Linked Resources properties page should have a Remove button
+
+I20100810-0800 Project properties > Resource > Linked Resources > Linked Resources: Especially for invalid locations, a Remove button would be handy to remove one or multiple links.

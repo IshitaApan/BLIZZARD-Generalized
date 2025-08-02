@@ -1,0 +1,2 @@
+[Databinding] Create snippet to demonstrate Databinding for Table-Inline-Editing
+

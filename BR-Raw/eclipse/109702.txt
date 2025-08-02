@@ -1,0 +1,3 @@
+[IDE] [Progress] startup workspace refresh blocks ui
+
+the refresh action at startup of eclipse blocks the ui and cannot be moved into background. this is a similar problem as mentioned in bugzilla 82406 for the package explorer. only the refresh out of the navigator view has the possibility to switch to background.

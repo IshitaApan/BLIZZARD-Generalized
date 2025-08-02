@@ -1,0 +1,3 @@
+TableViewer.getElementAt does not behave as documented
+
+org.eclipse.jface.viewers.TableViewer.getElementAt(int index) is documented (in JavaDoc) to return null if the index is out of bounds. But in practice it throws an IllegalArgumentException. (I realize that this method is internal to the framework, but either the implementation or the doc should be corrected)

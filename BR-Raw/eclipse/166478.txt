@@ -1,0 +1,3 @@
+[Viewers] Compiler warnings in N20061130-2300
+
+1. WARNING in /Eclipse JFace Tests/org/eclipse/jface/tests/viewers/SimpleTableViewerTest.java (at line 108) TableViewerColumn tvc = new TableViewerColumn(tableViewer, SWT.NONE); The local variable tvc is never read

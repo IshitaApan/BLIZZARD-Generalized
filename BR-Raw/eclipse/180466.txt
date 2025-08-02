@@ -1,0 +1,2 @@
+[StatusHandling] StatusManager#getManager() can't return null
+

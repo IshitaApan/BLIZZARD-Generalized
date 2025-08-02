@@ -1,0 +1,3 @@
+E4 Contacts Demo's theme toolbars and menus grow after each execution
+
+The E4 Contacts demo (org.eclipse.e4.demo.contacts) seems to have manifested new behaviour where the theme-related toolbar sections and theme menus multiply after each execution. Either this wasn't happening before or I really need to have my eyes checked!

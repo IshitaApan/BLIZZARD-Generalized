@@ -1,0 +1,3 @@
+[FastView] wrong target for restore fastview animation
+
+june 23 - 12a - open a view along the bottom of the window (e.g., console) - make it a fast view - open the fast view (with vertical orientation) - close the fast view - use the context menu to untoggle fast view The restoration animation will be aimed at where the fast view was opened (i.e., the vertical space directly above the fast view bar) but the view is actually restored to the stack along the bottom edge of the window (a horz. orientation).

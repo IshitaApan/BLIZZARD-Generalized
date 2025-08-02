@@ -1,0 +1,3 @@
+[Markers] Problem view sections collapse after manual build
+
+3.2 M6 The sections in the problem view collapse after a manual build For example: - set autobuild off - expand the errors section in the problem view - click on a problem - fix the problem - build - notice that the "error" section is now collapsed.

@@ -1,0 +1,3 @@
+Tooltip wrong on start up for label retarget toolitem from action set
+
+F2 1) Install readme examle 2) Open readme editor 3) Select outline 4) Exit/Restart 5) Note that the tool tip for the leftmost readme tool item is "Open Readme Browser - Retartget Label Update" - this is incorrect, its the tooltip of the action not its handler 6) Window>Readme File Editor>Outline Action 5 - this is the correct label 7) Click in the editor and then back in the outline, the toolitem now has the correct tooltip.

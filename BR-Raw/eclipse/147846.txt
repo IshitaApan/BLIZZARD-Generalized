@@ -1,0 +1,3 @@
+[OLE] OLE Error using Open With > In-Place Editor
+
+3.2 RC7 and latest 3.3 I-build (I20060614-0843) 1. select any file (text, html, java, ...) in the Navigator 2. Open With > In-Place Editor ==> error dialog appears, nothing in .log. Empty editor gets opened.

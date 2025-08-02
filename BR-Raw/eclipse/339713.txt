@@ -1,0 +1,3 @@
+[Markers] number of visible items not preserved when view is closed
+
+Build id: I20110310-1119 Problems view -> Configure contents -> Number of items visible per group Set the value to 10, close the Problems view, open the Problems view. Note that value is reset back to the default (100). Rest of the values on the "Configure contents" dialog seems to be preserved on view being closed. In 3.6 equivalent value is preserved when view is closed and reopened.

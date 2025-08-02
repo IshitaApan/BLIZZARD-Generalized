@@ -1,0 +1,3 @@
+[Compatibility] Activation list calculations are off due to the code not considering placeholders
+
+The activation list reordering code assumes that parts have parents via getParent(). This usually returns null because it's the part's placeholder that will actually have a parent.

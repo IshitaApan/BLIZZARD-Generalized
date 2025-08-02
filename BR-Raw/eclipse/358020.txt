@@ -1,0 +1,3 @@
+[Commands] [Compat] Git-Commit Dialog destroys IEclipseContext by calling IEvaluationContext#addVariable
+
+When creating a new file (e.g. Ecore Model, EMF Generator Model) though my current package explorer selection is point to project1 the preselected element in the wizard is point to something completely different. It somehow looks like the current selection in the package explorer is not published appropriately.

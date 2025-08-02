@@ -1,0 +1,3 @@
+[Progress] Progress view shows two entries for same job
+
+I20070327-0800 * Start workbench * Select projects and "Team > synchronize with repository" (I selected all debug projects in this case) * Perspective automatically switches to team * Progress view was in foreground, and shows two jobs for the same "synch" job * Pressing "Remove all finished operations" button on progress view removes one of the jobs Screen shots to be attached.

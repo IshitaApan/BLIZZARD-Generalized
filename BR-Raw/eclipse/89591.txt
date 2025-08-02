@@ -1,0 +1,3 @@
+ContainerCheckedTreeViewer can be deleted
+
+20050330 The internal ContainerCheckedTreeViewer is not longer referenced in the UI and can be deleted.

@@ -1,0 +1,3 @@
+Expression language support for object contributions
+
+I20040422 To get better control over the context menu lauch config contributions object contributions have to support the expression language. Enclosed two patches which add this support to the workbench. The patches are compiled against version I20040422/20. But since they are very local they should work against HEAD as well.

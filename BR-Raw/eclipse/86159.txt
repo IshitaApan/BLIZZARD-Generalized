@@ -1,0 +1,3 @@
+[Decorators] Make lightweight decorators work for ResourceMapping
+
+Now that we have ResourceMappings, it would be nice to be able to have the ability to contribute lightweight decorators to them. I have an patch that does this.

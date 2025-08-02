@@ -1,0 +1,3 @@
+[Mac] NSToolbar leak in CocoaUIEnhancer
+
+Created attachment 129981 Fix Please apply this patch.

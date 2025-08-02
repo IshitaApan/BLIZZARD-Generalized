@@ -1,0 +1,3 @@
+[Progress] Details button always enabled, never shows any details.
+
+Many operations I perform (Delete a project for example) when opening the progress dialog shows a progress bar that moves along BUT when ever I press details, it never shows anything. Can we disable the button in the case where we have no details?

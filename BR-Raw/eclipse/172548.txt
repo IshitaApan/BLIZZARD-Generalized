@@ -1,0 +1,3 @@
+[Dialogs] Support SWT.CANCEL in FilteredTree
+
+FilteredTree should support SWT.CANCEL. If this bit is set then there is no need for us to create the toolbar/clear button.

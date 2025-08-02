@@ -1,0 +1,3 @@
+[Dialogs] PopupDialog's HOVER_SHELLSTYLE should use SWT.TOOL
+
+3.3.x and 3.4 M5. The SWT.TOOL flag should be used to create hover style shells, hence the PopupDialog's HOVER_SHELLSTYLE should use SWT.TOOL.

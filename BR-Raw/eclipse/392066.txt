@@ -1,0 +1,3 @@
+add toString method to XMLMemento
+
+Created attachment 222403 toString patch I'd like to see an implementation for toString() for XMLMemento that returns the XML content. If acceptable I added an appropriate patch for this.

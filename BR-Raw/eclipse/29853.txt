@@ -1,0 +1,3 @@
+[Workbench] OpenWithMenu and setFile
+
+The constructor that only takes the IWorkbenchPage mentions that the user must use the setFile method...this method does not exist.

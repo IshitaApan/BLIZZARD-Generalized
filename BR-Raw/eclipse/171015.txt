@@ -1,0 +1,3 @@
+A typo in ProgressMonitorFocusJobDialog javadoc
+
+There is a typo in the class javadoc /** * The ProgressMonitorFocusJobDialog is a dialog that shows progress for a * particular job in a modal dialog so as to give a user accustomed to a modal * UI a more famiiar feel. */ I think, there should be familiar instead of famiiar.

@@ -1,0 +1,3 @@
+Renderer does not synchronize ToolItem selection state with MToolItem
+
+Build: I20100318-2100 I have an app with an MToolBar defining a set of tool items of type "radio". When I select a different tool item, the button states change. Upon quitting the application, however, the change of state is not written to the delta. As a result, when running the application again, the toolbar item states are not what they should be.

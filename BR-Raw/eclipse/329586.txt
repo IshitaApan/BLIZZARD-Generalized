@@ -1,0 +1,3 @@
+[Compatibility] ModeledPageLayout getEditorReuseThreshold() method should mirror 3.x implementation
+
+getEditorReuseThreshold() should return -1 instead of 0.

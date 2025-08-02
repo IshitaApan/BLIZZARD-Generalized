@@ -1,0 +1,3 @@
+ControlDecoration uses the wrong GC method to render text
+
+The constructor of the Hover in ControlDecoration: 			hoverShell.addPaintListener(new PaintListener() { 				public void paintControl(PaintEvent pe) { 					pe.gc.drawString(text, hm, hm); 					if (!CARBON) { 						pe.gc.drawPolygon(getPolygon(true)); 					} 				} 			}); The size of the hover is correctly performed when there are carriage returns in the text. However, the text is painted as String. This causes only the first line to be painted and the rest of the hover is empty. The fix is to use GC.drawText' instead.

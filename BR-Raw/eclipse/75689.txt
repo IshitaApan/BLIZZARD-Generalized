@@ -1,0 +1,3 @@
+[Progress] Progress bar does not work while creating patch
+
+Using build I200410050800. While creating a patch file, progress is always empty even if the cvs diff takes a long time. Seem to be a regression as it worked with M2...

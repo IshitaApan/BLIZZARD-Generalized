@@ -1,0 +1,3 @@
+Close all saved does not work all the time
+
+Using build 2002-05-08 with latest UI code Close all editors Create a new file f1.txt Select Close All Saved from the file menu. Nothing happens. It should close the file as no changes have been made

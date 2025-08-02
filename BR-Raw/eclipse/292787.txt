@@ -1,0 +1,3 @@
+[Filters] Should filters work only with IFileInfo?
+
+This came to my mind while reviewing the filters code. I thought that some people would like to filter out some resources relying on their markers, properties or content types. What do you think?

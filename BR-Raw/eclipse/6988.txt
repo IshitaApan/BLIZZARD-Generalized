@@ -1,0 +1,3 @@
+[Perspectives] left toolbar view could be movable
+
+i would be could if one you change the position of the views in the left toolbar with drag and drop.

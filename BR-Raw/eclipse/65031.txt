@@ -1,0 +1,3 @@
+[Preferences] Local History preference page doesn't use dialog font
+
+RC1 see attached screen shot

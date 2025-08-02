@@ -1,0 +1,3 @@
+[Dialogs] Context Menu > Copy in ErrorDialog ignores details
+
+3.2 RC7 and I20060614-0843 1. follow e.g. bug 147846 to make an ErrorDialog appear 2. verify: there's no context menu for the dialog (OK) 3. click 'Details' 4. verify: there's a context menu inside the detail area 5. context menu > Copy 6. paste into some text editor ==> the pasted text is only the message of the dialog but does not contain the detail information. This is especially strange because the menu is only available when the details are shown ;-)

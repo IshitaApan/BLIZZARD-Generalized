@@ -1,0 +1,3 @@
+Retire org.eclipse.ui.examples.presentation plug-in
+
+The master of the platform ui Git repo still contains the org.eclipse.ui.examples.presentation project. As the Presentation API has been removed and deprecated I suggest to delete the project from master. I still still be available in the branches for the releases.

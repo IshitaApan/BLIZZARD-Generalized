@@ -1,0 +1,3 @@
+[Import/Export] Export to .tar.gz or .tar.bz2
+
+Right click a Java project. Choose "Export...". A window opens where you can choose between different export targets. There is no ".tar.gz" target or ".tar.bz2". I would like to have either one (or both). If I must choose one, I prefer ".tar.bz2", but I don't really have a strong opinion about it; ".tar.gz" would be fine as well. The reason I somewhat prefer bzip2 is that bzip2 makes files noticably smaller than gzip, and my impression is that gzip is slowly being outcompeted. A Linux-GTK implementation would be good enough for me, but it is possible that "Unix All" would be a better platform as other Unix users could probably be interested in this as well.

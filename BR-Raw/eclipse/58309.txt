@@ -1,0 +1,3 @@
+workspace builds are not completing
+
+Build I20040413 (0800) Builds are behaving poorly. I did Build All. The progress dialog says that it is WAITING: Building Workspace, but it's not doing a thing for several minutes now. I hit Cancel; the progress dialog disappears. Do a Build All. Same thing, but now there are two WAITING: Building Workspace entries.

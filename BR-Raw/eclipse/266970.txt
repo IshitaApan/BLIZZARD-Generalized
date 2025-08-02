@@ -1,0 +1,3 @@
+[CSS] Widget.setData keys should be qualified
+
+There are many cases where we use Widget.setData(keyString, value) to remember some CSS value. See SWTElement for many examples. These key strings are often of the form "active", "hover", etc. They should be fully qualified to reduce conflicts since others may be using the widget's setData. So should instead be: "active" -> "org.eclipse.e4.ui.css.swt.active" "hover" -> "org.eclipse.e4.ui.css.swt.hover" Also, we should have final static fields to hold keys with these as values, eg. in DynamicPseudoClassesSWTActiveHandler we would have final static String WIDGET_ACTIVE_KEY = "org.eclipse.e4.ui.css.swt.activeLost"

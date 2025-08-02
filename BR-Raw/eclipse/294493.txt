@@ -1,0 +1,3 @@
+XMI definition of part icon is ignored
+
+The icon URI definition for parts seem to be ignored as the part tabs don't have any icons.

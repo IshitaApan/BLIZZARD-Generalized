@@ -1,0 +1,3 @@
+[GlobalActions] Can no longer open new perspective
+
+3.4 M4 and I20080129-1400. 1. start fresh workspace 2. Window > New Window 3. close the Java perspective 4. try to open it again (via button or menu) ==> doesn't work: just brings the other window to front

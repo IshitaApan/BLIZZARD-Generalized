@@ -1,0 +1,3 @@
+Need logic to grant focus to parts when their tab item has been selected
+
+Build Id: I20100421-2055 I'm not sure why, but I noticed that in e4 on the macosx-cocoa, selecting an element often causes a blue focus halo to appear. It's a bit ugly.

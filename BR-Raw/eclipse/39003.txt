@@ -1,0 +1,3 @@
+[JFace] Window exception handler
+
+Hi all, The org.eclipse.jface.window.Window class contains the following sequence of code: public static void setExceptionHandler(IExceptionHandler handler) { 	if(exceptionHandler instanceof DefaultExceptionHandler) 		exceptionHandler = handler; } The instanceof check actually prevents setting a custom exception handler. The DefaultExceptionHandler class is made private and cannot be extended to hack around of this code. The DefaultExceptionHandler handles exceptions by printing stacktrace to the standard output. This problem effectively prevents the use of jface Window and it's subclass ApplicationWindow classes in any non trivial application. Regards, Peter.

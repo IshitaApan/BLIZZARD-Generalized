@@ -1,0 +1,3 @@
+[EditorMgmt] Javadoc inconsistent for EditorManager#findEditors
+
+The Javadoc comments for the two org.eclipse.ui.internal.EditorManager#findEditors methods are inconsistent/wrong. The description of findEditors(IEditorInput, String, int) says (correct): If none match, returns an empty array. Whereas the @return tag says (incorrect): the matching editor, or <code>null</code> if no match fond The description of findEditors(List, IEditorInput, String, int, List) has a @return tag although the method is void. Also note the typo ('fond') in all the @return tags of the findEditor[s] methods.

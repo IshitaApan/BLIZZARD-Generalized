@@ -1,0 +1,3 @@
+[ActivityMgmt] Activities property tester should test on IWorkbench instead of Object
+
+I20061205-1200 The expressions property tester I contributed in bug 164878 tests on any Object, however as Dirk correctly pointed out it should test on something more appropriate, like an IWorkbench. I will provide a patch.

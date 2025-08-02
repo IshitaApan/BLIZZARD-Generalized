@@ -1,0 +1,3 @@
+[Progress] Make the jobs dialog non modal
+
+Having a modal jobs dialog causes all sorts of trouble for jobs that want to open another dialog but need a shell they can rely on (like the WorkbenchWindow). As the jobs can be run in the background anyways there is no need to force modality of the dialog.

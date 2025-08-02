@@ -1,0 +1,3 @@
+[Dialogs] Dialog should support remembering size and position
+
+There are several dialogs that remember its size and position. Since restore the size and considering screen size and font changes isn't trivial JFace's Dialog class should support remembering and restoring size and position. These would realy ease the task for subclasses. May be you can steel the code from OpenTypeSelectionDialog.

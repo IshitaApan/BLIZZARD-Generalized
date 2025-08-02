@@ -1,0 +1,3 @@
+Heap status plug-in generates a lot of Color garbage
+
+20050428 The Heap status plug-in is constantly calling Display.getSystemColor() which is creating new Color instances all of the time. This generates a lot of garbage and should be cached.

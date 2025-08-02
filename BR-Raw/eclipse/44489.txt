@@ -1,0 +1,3 @@
+Exception in log when performing multiple background checkouts
+
+In build I20031008, an exception appeared in the log while I was performing multiple checkouts in the background. I'll have to attach it as past does not seem to work in Mozilla on GTK.

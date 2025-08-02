@@ -1,0 +1,3 @@
+[Min.Max] Need to be able to change the orientation of a minimized stack
+
+We currently use the aspect ratio of the existing view stack to set the orientation to be used when showing the view as fast views. While this works in most cases there are enough (i.e. minimizing a -maximized- stack usually gets HORIZONTAL even if the stack is usually vertical, minimizing stacks one at a time can change the remaining stacks' layout enough to give the wrong result). For those cases where we get it wrong we should allow the user to change the value...Note that this still applies to the whole stack, not individual views (as in the case of the FVB).

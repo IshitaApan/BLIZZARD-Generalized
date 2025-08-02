@@ -1,0 +1,3 @@
+[EditorMgmt] [QuickAccess] Can't tell preference pages with same name apart.
+
+If I have two plugins installed that use the same title for their preference pages, CDT and JDT's "Syntax Coloring" pages for example, it's impossible to tell them apart. We just changed the name of the 6 pages in WTP to match to match the others, and it's rather annoying. Perhaps show the preference tree path like it does for files?

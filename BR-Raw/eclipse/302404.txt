@@ -1,0 +1,3 @@
+The WizardNewFolderMainPage should not have to use icons
+
+But instead take advantage of the existing icons, and overlay programatically the linked and virtual images with the OverlayIcon class.

@@ -1,0 +1,3 @@
+All menu items receive checks when selected
+
+Menu items receive checks when selected. This is due to a recent change to make sure that check menu items actually received their checks when triggered from the keyboard.

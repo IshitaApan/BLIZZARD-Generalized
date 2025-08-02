@@ -1,0 +1,3 @@
+[Preferences] EncodingFieldEditor.store() does not store correct  value
+
+3.3 M4 EncodingFieldEditor.store() does not store the correct value in the following scenario: 1. open with the default checked 2. select an encoding from the combo 3. call store() ==> the new value is not stored into the preference store. REASON: AbstractEncodingFieldEditor.updateEncodingState(boolean useDefault) misses the following call: setPresentsDefaultValue(useDefault);

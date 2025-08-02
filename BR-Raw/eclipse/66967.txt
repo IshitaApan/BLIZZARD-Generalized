@@ -1,0 +1,3 @@
+[Contributions] PropertyParser should be deprecated (or removed)
+
+Internal class org.eclipse.ui.ide/org.eclipse.ui.internal.ide.model/PropertyParser should be deprecated. People should be using the extension point org.eclipse.core.runtime.contentTypes instead Note that the tags XML_FIRST_TAG and XML_DTD_NAME have already been deprecated. Can we actually remove these instead of deprecating them?

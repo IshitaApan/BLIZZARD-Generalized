@@ -1,0 +1,3 @@
+[ErrorHandling] [statushandling] WSDM#getSecondaryMessage should consequently check for message duplication
+
+We look for duplication in all possibilities except if we have only an exception name.

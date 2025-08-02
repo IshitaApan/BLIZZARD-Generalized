@@ -1,0 +1,3 @@
+[Markers] Delete handler in problems view should spawn a job
+
+As the file I/O can be very time consuming for large data sets. See Bug 222973 for some stack traces of slow deletes.

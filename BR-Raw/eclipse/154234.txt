@@ -1,0 +1,3 @@
+[Dialogs] ErrorDialog.createDialogArea javadoc references missing createCustomArea method
+
+The javadoc for ErrorDialog.createDialogArea indicates that subclasses should override the createCustomArea method. This method does not exist in 3.2.

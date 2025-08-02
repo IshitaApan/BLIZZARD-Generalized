@@ -1,0 +1,3 @@
+[Viewers] FilteredTree.getBoldFont calls filter.setPattern many times
+
+getBoldFont is called by the label provider for each matching item. We are doing too much work.

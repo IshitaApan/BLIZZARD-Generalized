@@ -1,0 +1,3 @@
+[Undo] - some dialog messages have &Undo when not appropriate
+
+some of the dialogs that say something like... Continue with "Undo blort"? have an ampersand in the Undo. The menu commands should not be used in text since there may be mnemonics assigned.

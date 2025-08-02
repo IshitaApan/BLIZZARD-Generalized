@@ -1,0 +1,3 @@
+SafeRunnable needs to be accessible in JFace
+
+We need to be able to access the SafeRunnable in JFace in order that some error protection can be added to preferences and properties dialogs.

@@ -1,0 +1,3 @@
+SelectionServiceImpl leaks RATs
+
+SelectionServiceImpl.track adds an IRunAndTrack that is never removed. So for example each time an editor is opened and closed two extra RATs are added to the application context (once for open and once for close).

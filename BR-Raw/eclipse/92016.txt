@@ -1,0 +1,3 @@
+[Workbench] [RCP] IDEWorkbenchWindowAdvisor does not respond to changes in editor title
+
+Load the org.eclipse.ui.tests plugin. create a file ending in .test, and open it in the "Name Test Editor". Change the title of the editor by typing gibberish in the "title" field. Notice that the window title does not change to reflect the new editor until you select a new editor tab and then go back to the original.

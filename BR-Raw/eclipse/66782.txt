@@ -1,0 +1,3 @@
+IntroPart setInitializationData can die on an NPE
+
+RC2 If you supply a bad image, it's possible that imageDescriptor.createImage() can return null. We don't check for this.

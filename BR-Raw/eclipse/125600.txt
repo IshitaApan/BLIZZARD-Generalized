@@ -1,0 +1,3 @@
+[Field Assist] - popup shell should be resizable with size retained
+
+from bug #120237. <Dani>- resizing is not persisted <Susan>Is this a hard requirement? I notice that it causes problems in the text implementation with the positioning of the secondary popup (which doesn't track it). I'm not sure this should be done at the level of the content proposal popup but if it is a requirement I will make sure the API allows you to do so <Dani>There should at least be an option to easily enable it. Again, this is need in order to convince people to use the new field assist support instead of the one in Platform Text which I'd like to deprecate in favor of the field assist support.

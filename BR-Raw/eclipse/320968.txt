@@ -1,0 +1,3 @@
+PerspectiveSwitcher is leaking an image
+
+The getOpenPerspectiveImage(Display) returns an Image that is never disposed.

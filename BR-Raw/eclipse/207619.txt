@@ -1,0 +1,3 @@
+[CommonNavigator] StackOverflowError when attempting to import with at least 2 projects in workspace
+
+using eclipse-SDK-I20071023-0800-win32 1. switch to resource perspective 2. create 2 projects (simple or java) 3. file -> import... You get a stack overflow error. This does not seem to happen if you're in the Java perspective. Maybe related to project explorer.

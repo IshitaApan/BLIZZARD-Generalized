@@ -1,0 +1,3 @@
+Failing 'open with system editor' should default back (1GFBF3C)
+
+If you try to open a file that does not have a system editor, you will get an error 'Unable to open external editor for <file>'. If this occurs, the default editor should be reset. Right now the editor remains as the System Editor so double clicking on the file again will give the same error. NOTES:

@@ -1,0 +1,3 @@
+[compatibility] Editors do not get reused
+
+BuildId: I20101029 I use the following settings for Preferences > General > Editors: * Close editors automatically: true * Number of opened editors before closing: 8 * When all editors are dirty or pinned: open new editor I've noticed that editors are never closed with > 8 editors when none are dirty. Unable to check if this was still present in 1104 as I can't get a running image :(

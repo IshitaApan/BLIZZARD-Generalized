@@ -1,0 +1,3 @@
+[Min/Max] Maximized Views show restored state on restart
+
+New workspace, close intro, maximize Package Explorer Shut down / restart Stack shows as restored and you have to click it twice to 'unzoom'. This is a startup life-cycle issue; at the time when the stack's states are being restored the WorkbenchPage hasn't set the active perspective yet so we return prematurely from the PartStack's 'setState' method...

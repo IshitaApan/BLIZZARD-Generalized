@@ -1,0 +1,3 @@
+[Import/Export] Import File System Problem
+
+When going to import some files if you choose General, then Filesystem. As you browse to the folder where you want to import items from and select it, the option to "Select All" is not available until you either select the folder or a file in the folder.

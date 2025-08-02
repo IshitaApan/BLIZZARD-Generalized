@@ -1,0 +1,3 @@
+[Compatibility] Provide an EvaluationService and ContextService
+
+Created attachment 160231 Eval and Context service v01 The debug view needs access to these in order to start up. PW

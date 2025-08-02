@@ -1,0 +1,3 @@
+Renderer does not do layout after a child view has been added
+
+Created attachment 155557 Illustrative patch - likely not complete After a new part is added to a part container, renderer does not do layout. As a result, new part stays invisible until, say, the contaning window is resized. To duplicate, launch the product from the "org.eclipse.e4.ide.application" bundle with the photo demo bundle added to the launch configuration. Use Window -> Show View and select any available view, press OK. Note that nothing visible is added. Now resize the application window and the new view shows app. (The view added via parent.getChildren()).add(stack); and activated via EPartService.activate(); see ShowViewHandler#openView()).

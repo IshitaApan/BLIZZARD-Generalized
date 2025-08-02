@@ -1,0 +1,3 @@
+PerspectiveMenu has bad null check.
+
+It's possible that a NPE may be thrown in getPerspectiveShortcuts() if the current perspectives's perspectiveActionIds field is null. Patch forthcoming.

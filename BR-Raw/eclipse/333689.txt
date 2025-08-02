@@ -1,0 +1,3 @@
+[About] About dialog text - needs to not cache system property values
+
++++ This bug was initially created as a clone of Bug #302184 +++ This bug is opened to represent a fix for bug 302184 in the 3.7 stream. The original bug will be used to track a fix for 3.6.2.

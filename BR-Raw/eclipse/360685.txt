@@ -1,0 +1,3 @@
+[Compatibility] Saved perspectives lose tool item image after workspace restart
+
+1) Open a Java Perspective 2) Save perspective as Foo 3) Notice saved perspective has correct image in PerspectiveSwitcher 4) Exit and save workspace 5) Re-open workspace Notice that the saved perspective's image has changed to the default image.

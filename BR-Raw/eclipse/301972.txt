@@ -1,0 +1,3 @@
+Add UI for EFS.ATTRIBUTE_IMMUTABLE
+
+Bug 297228 introduced EFS.ATTRIBUTE_IMMUTABLE that corresponds to "Locked" on Mac OS X. The new attribute has to be exhibited in resource's property page.

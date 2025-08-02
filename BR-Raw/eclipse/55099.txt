@@ -1,0 +1,3 @@
+[DND]  Holding the mouse down on an editor tab for too long will split the editor area.
+
+This may not be a DnD bug...just guessing. Ensure that you're using multiple editor tabs. Open multiple editors. Click and hold the mouse button on one of the editor tabs for a few seconds. Don't move the mouse. Release the button. The screen will split as if you had dragged the editor to a new position.

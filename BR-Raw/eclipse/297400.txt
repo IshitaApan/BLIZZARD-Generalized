@@ -1,0 +1,3 @@
+Create an E4 base application
+
+Created attachment 154156 Bundle contaning the base E4 application We need some starting point to use as an E4 application (minus compatibility layer). This will also serve as a place to add E4-specific views and explore extensibility story. The app provides few menus and top-level window.

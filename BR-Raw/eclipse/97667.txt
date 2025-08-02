@@ -1,0 +1,3 @@
+[Preferences][PatchProvided] Pref Page General/Editors - problems
+
+The three links "See ..." at the top do not use the dialog font. Suggest changing the mnemonic of "Number of opened editors before closing" from 'g' to 'n' -- depending on the font used 'g' is a suboptimal letter for mnemonics (see screenshot with Trebuchet MS. Alignment problems see screenshot.

@@ -1,0 +1,3 @@
+[IDE] IDE does not need to check for VM version
+
+Since 3.1, startup.jar checks if the VM being used is the correct one. Therefore the IDEApplication no longer needs to do the same check. Patch coming.

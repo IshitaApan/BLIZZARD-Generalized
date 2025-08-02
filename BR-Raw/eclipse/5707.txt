@@ -1,0 +1,3 @@
+Display.setAppName() has no effect on X-Display application name
+
+APP_NAME defaults to "SWT" which is always used, even if 'appName=Eclipse' is specified in the product.ini. The problem is that the X display is opened before display.setAppName() is applied.

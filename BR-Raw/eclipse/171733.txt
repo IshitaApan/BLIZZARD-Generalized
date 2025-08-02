@@ -1,0 +1,3 @@
+Reference to Java 5 methods on SearchPatternAuto
+
+SearchPatternAuto in HEAD has several references to the Java 5 method Character.toUpperCase(int) and toLowerCase(int). I believe this will cause compile errors in the build, so marking as critical.

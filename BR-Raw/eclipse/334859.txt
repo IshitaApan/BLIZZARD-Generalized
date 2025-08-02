@@ -1,0 +1,3 @@
+[Compatibility] Editor action bars should only be hidden when the editor is closed or a different type of editor has been activated
+
+4.1 build: I20110118-1548. I couldn't find the pattern yet: some disabled menu items are shown while others don't show up. 1. start new workspace 2. paste "public class A {}" into Package Explorer 3. activate the 'Outline' view ==> 'Edit' menu is very small. For details compare the 'Edit' and other menus with 3.x. If the contributor added a menu then it should also be visible - even if disabled.

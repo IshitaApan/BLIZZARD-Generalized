@@ -1,0 +1,2 @@
+NPE on startup (part 2)
+

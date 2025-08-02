@@ -1,0 +1,3 @@
+[BiDi] Cannot launch with com.ibm.icu.base
+
+The fix for Bug 303889 has an unintended consequence. We can no longer launch a workbench RCP app using com.ibm.icu.base (which can shave about 6M off of a 13M RCP app) We might need a replacement for use of BiDi in the Platform plugins. PW

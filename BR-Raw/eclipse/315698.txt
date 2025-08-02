@@ -1,0 +1,3 @@
+'persistedState' feature not reconciled for existing contributions
+
+Raised by Brian on bug 315468 comment 3.

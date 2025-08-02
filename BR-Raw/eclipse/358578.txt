@@ -1,0 +1,3 @@
+[Compatibility] Non-restorable views are still in the workbench after restart
+
+If a view extension defines its 'restorable' attribute as 'false', it should be closed on shutdown.

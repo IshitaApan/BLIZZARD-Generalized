@@ -1,0 +1,3 @@
+[RCP] [PerspectiveBar] A large empty area on the top with a perspectivebar on the left
+
+We define a new RCP Application using the hello RCP wizard. We define the method ApplicationWorkbenchWindowAdvisor>>preWindowOpen as follows: configurer.setShowCoolBar(false); configurer.setShowMenuBar(false); configurer.setShowPerspectiveBar(true); PlatformUI.getPreferenceStore().putValue(IWorkbenchPreferenceConstants.DOCK_PERSPECTIVE_BAR,IWorkbenchPreferenceConstants.LEFT); As result we have a large empty area on the top.

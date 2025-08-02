@@ -1,0 +1,3 @@
+[EFS] Eclipse 3.2M4's SelectionListenerAction's computeResources() method does not take ResourceMappings into consideration
+
+eclipse: 3.2M4 plugin: org.eclipse.ui.ide class: org.eclipse.ui.actions.SelectionListenerAction method: computeResources()

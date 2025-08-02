@@ -1,0 +1,3 @@
+[Dialogs] Error text in Move dialog is red, layed out poorly
+
+1. select a folder 2. context menu, select "Move" 3. deselect the folder in the dialog You will get a warning message at the bottom of the dialog. There are a few problems: 1. This warning message is too long to fit in the dialog and gets clipped. It needs to be multiline and wrap. 2. There should be more layout space on the left since atm the text is scrunched up against the left edge of the dialog 3. Warning/error messages usually have the warning/error icon preceeding the message (?)

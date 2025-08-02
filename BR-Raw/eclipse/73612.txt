@@ -1,0 +1,3 @@
+[Markers] "Open All" does not work with multi-select in the bookmarks view
+
+Eclipse 3.0.1 RC2 See the bookmark view test plan: http://dev.eclipse.org/viewcvs/index.cgi/~checkout~/org.eclipse.ui.tests/Eclipse%20UI%20Tests/Manual%20Scenario%20Tests/Attic/Bookmarks%20View.html Step 12 fails (cannot select multiple markers and press enter to open all)

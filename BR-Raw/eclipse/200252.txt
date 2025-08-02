@@ -1,0 +1,3 @@
+[JFace] Use logger instead of printStackTrace() in SafeRunnable
+
+SafeRunnable will print a stack trace to the console when running standalone. I would like to change this to use the logger if available.

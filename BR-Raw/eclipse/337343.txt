@@ -1,0 +1,3 @@
+[Compatibility] Implementations of IPartListener2 that also implement IPageChangedListener do not get notified of page change events
+
+junit.framework.AssertionFailedError: expected:<1> but was:<0> 	at junit.framework.Assert.fail(Assert.java:47) 	at junit.framework.Assert.failNotEquals(Assert.java:283) 	at junit.framework.Assert.assertEquals(Assert.java:64) 	at junit.framework.Assert.assertEquals(Assert.java:195) 	at junit.framework.Assert.assertEquals(Assert.java:201) 	at org.eclipse.ui.tests.multipageeditor.MultiVariablePageTest.testOneEditor(MultiVariablePageTest.java:301) 	at org.eclipse.ui.tests.multipageeditor.MultiVariablePageTest.testPagePartListener(MultiVariablePageTest.java:363)

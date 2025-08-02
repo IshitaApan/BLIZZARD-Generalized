@@ -1,0 +1,3 @@
+[Workbench] Use BundleEvents to narrow down starting state
+
+As per bug 171584 the platform needs to use a synchronized bundle listener to be able to see the LAZILY_AWAITING_ACTIVATION state. PW

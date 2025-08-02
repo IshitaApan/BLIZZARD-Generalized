@@ -1,0 +1,3 @@
+[Dialogs] Support IColorProvider/IFontProvider in FilteredItemsSelectionDialog
+
+The wrapper ILabelProvider implementation inside FilteredItemsSelectionDialog "cancels" the IColorProvider (returns null) and does not implement IFontProvider. Moving to this class made me loose all color/font decoration. See bug#193849.

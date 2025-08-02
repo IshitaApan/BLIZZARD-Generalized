@@ -1,0 +1,3 @@
+[DataBinding] Provide POJO observables
+
+There have been quite a few requests on the newsgroup recently about trying to use POJOs and filling up logs with error messages about not being able to register property change event listeners. It would be nice to provide a cleaner solution than using the JavaBean support that we provide today.

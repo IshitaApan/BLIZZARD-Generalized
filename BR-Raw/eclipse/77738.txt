@@ -1,0 +1,3 @@
+[IDE] IDE plug-in needs to get off of the core compatibility layer
+
+20041102 The IDE plug-in is still on the compatibility layer. All of the code that needs migrating is in IDEWorkbenchAdvisor

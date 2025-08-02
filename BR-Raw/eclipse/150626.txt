@@ -1,0 +1,3 @@
+[Import/Export] Create working sets when importing several projects.
+
+Hi, During import of team project sets, it is possible to define a new working set. A similar option should be available for importing already existing projects from a local filesystems or archives.

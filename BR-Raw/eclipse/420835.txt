@@ -1,0 +1,3 @@
+DnDAddon - Replace Green with a nicer color
+
+As discussed with several people on EclipseCon Europe we should use a better color color for DnD of Views and the toolbar. @Eric, can you give a tip where this color is defined?

@@ -1,0 +1,3 @@
+[Preferences] "New text file encoding / line delimiter" preferences should be on General > Workspace
+
+I20050527-1300 On Preferences > General > Editors, there are two preferences that don't really belong there: "New text file encoding" and "New text file line delimiter" are also applicable without editors and should therefore be on General > Workspace.

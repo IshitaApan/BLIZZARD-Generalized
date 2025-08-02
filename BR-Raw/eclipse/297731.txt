@@ -1,0 +1,3 @@
+[Filters] We could have IResourceFilterDescription#delete instead of IContainer#removeFilter ?
+
+This is the pattern used for resource markers. It is just a minor issue, however would make new API look more consistent.

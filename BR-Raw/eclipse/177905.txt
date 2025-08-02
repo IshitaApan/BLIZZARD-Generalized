@@ -1,0 +1,3 @@
+[Min/Max] Dragging open Fast View by using its tab makes it go unresponsive
+
+To repro: minimize a stack, open one of its views and drag the tab to place the view into a new stack. It shows up but no longer takes input.

@@ -1,0 +1,3 @@
+[LinkedResources] The Linked Resource property page does not follow dialog fonts
+
+[LinkedResources] The Linked Resource property page does not follow dialog fonts, both under the 'Path Variables' and 'Linked Resources' tabs.

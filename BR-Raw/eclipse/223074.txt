@@ -1,0 +1,3 @@
+[ErrorHandling] WorkbenchStatusDialog API review
+
+As M6 is the API freeze I think we need to decide if some changes are required here 1) It is not a dialog it is something that manages the opening of a dialog. It needs to be renamed. 2) Test mode just means "run in sync exec". I am not sure why we even want this as an asyncExec and a syncExec is a no-op on the UI Thread. 3) Is it the intention of this class to just provide an API way to invoke an internal dialog? The dialog itself can't be modified as InternalDialog is where all of the work is done.

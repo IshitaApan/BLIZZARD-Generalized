@@ -1,0 +1,3 @@
+Remove 'name' argument from IEclipseContext#runAndTrack
+
+I20090618 IEclipseContext#runAndTrack has a "name" argument that is only used for debugging purposes. I would like to remove this because it has very limited value - people can just as easily define a toString on their Runnable that can be used for debugging purposes. Clients are likely to find the parameter confusing, and will be unlikely to provide a string that provides us with much value as a debugging aid. Also, the runAndTrack(IRunAndTrack) method doesn't have such a name, which is inconsistent. I'd like to make this change now to avoid the churn of changing it once we have more adopters.

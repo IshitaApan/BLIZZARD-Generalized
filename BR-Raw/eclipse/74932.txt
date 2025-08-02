@@ -1,0 +1,3 @@
+[KeyBindings] The Key Assist Action should be available from the Help menu
+
+The new Key Assist action is useful but there is currently no way to discover CTRL+SHIFT+L in the UI (at least I didn't find it). I suggest to make this action available from the Help menu.

@@ -1,0 +1,3 @@
+Populate the legacy e4xmi with workbench actions
+
+The current menu bar is very lonely.

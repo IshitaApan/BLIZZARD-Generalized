@@ -1,0 +1,3 @@
+[View Mgmt] No lazy creation of collapsed Fast Views?
+
+Not sure, but I thought that Views are now loaded lazily in the same way as editors. I had a collapsed fast view (Ant View) and its contents was created on start-up. If this is intentional (since it is a "fast" view and should pop-up quickly) then pls close this bug again.

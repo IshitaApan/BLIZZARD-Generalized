@@ -1,0 +1,3 @@
+[Import/Export] Warning should be displayed when no projects are available in the archive/directory
+
+Created attachment 121526 this is how it looks while i am trying to import the .zip file i.e.tableviewer.zip i had imported a zip while doing an SWT project like "swt-3.3.1.1-win32-win32-x86.zip" ..but now i am unable to add any(ANY zip or rar) file..i am able to select the zip file but in the window it doesn't show anything,hence i am unable to finish the task.. Please help.

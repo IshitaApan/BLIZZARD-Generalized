@@ -1,0 +1,3 @@
+"Failed to map binding" written to console for certain custom key bindings
+
+4.2 M7 - new workspace - bind command "Copy from Right to Left" to Ctrl+Alt+Shift+Left and "Copy from Left to Right" to Ctrl+Alt+Shift+Right. - restart => The following is printed to the console (but not written to the log): Failed to map binding: org.eclipse.e4.ui.model.application.commands.impl.KeyBindingImpl@186ed7a (elementId: null, tags: [type:user], contributorURI: null) (keySequence: Ctrl+Alt+Shift+Left) Failed to map binding: org.eclipse.e4.ui.model.application.commands.impl.KeyBindingImpl@150f0a7 (elementId: null, tags: [type:user], contributorURI: null) (keySequence: Ctrl+Alt+Shift+Right) Despite these messages, the key bindings do work in compare editors.

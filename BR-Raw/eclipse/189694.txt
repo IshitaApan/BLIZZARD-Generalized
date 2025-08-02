@@ -1,0 +1,3 @@
+ApplicationWindow#run() can hang Eclipse due to Menu#isEnabled
+
+In ApplicationWindow#run() we call Menu#isEnabled to cache our enabled state. This actually crawls all of the children of the menu to determine the state. When the Shell is disabled this will return true and so when the shell is re-enabled all of the menus will be inactive. I will be attaching a Steve approved patch.

@@ -1,0 +1,3 @@
+IDEIdleHelper should be a system job
+
+RC2 The IDEIdleHelper is not a system job so you periodically get a "Collecting garbage" job showing up in the ProgressView.

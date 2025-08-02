@@ -1,0 +1,3 @@
+ViewElement should not try to create an ImageDescriptor from a null icon URI
+
+The 'Welcome' view does not specify an 'icon' attribute. As a result, its model part descriptor's iconURI feature is null. ViewElement should check this null value first instead of trying to use it to create an image descriptor.

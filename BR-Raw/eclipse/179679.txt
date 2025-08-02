@@ -1,0 +1,3 @@
+[Dialogs] FilteredItemsSelectionDialog: make sure all jobs are cancelled when closing dialog
+
+M6 The jobs that are created by the FilteredItemsSelectionDialog should be canceled when closing the dialog. See bug 179511 for the scenario where the jobs are blocked, but the user can still close the dialog.

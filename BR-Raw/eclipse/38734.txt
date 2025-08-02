@@ -1,0 +1,3 @@
+[Navigator] PasteAction should get clipboard contents only when needed
+
+build 20030605 PasteAction.updateSelection checks whether there is a valid paste target after getting the clipboard contents. The paste target check does not involve the clipboard content and should therefore be done earlier, before reading the clipboard. The method also reads the FileTransfer data from the clipboard to check if the paste action should be enabled if there is no resource data. It does not actually use the file data. The new Clipboard.getAvailableTypes API should be used instead.

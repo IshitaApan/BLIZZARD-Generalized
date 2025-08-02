@@ -1,0 +1,3 @@
+[WorkbenchParts] Part's image and image descriptor are leaked if changed
+
+build I20050610-0010 - open a java editor on a file that has an error or warning - close the editor - it leaks an Image and an ImageDataImageDescriptor These are held onto by JFace's DeviceResourceManager.

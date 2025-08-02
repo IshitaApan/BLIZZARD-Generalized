@@ -1,0 +1,3 @@
+Cleanup context strategy
+
+Created attachment 167134 Patch Remove unused pieces of the context strategy code.

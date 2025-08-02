@@ -1,0 +1,3 @@
+[ui] ExitHandler fails on dependency injection
+
+Simple Example: Until yesterday, I could specify a Handler (that was bound to a command using the workbench model) like this: public class ExitHandler { public void execute(IWorkbench workbench) { workbench.close(); } } Today, I get the exception: java.lang.RuntimeException: could not find satisfiable method execute in class class org.eclipse.e4.demo.contacts.handlers.ExitHandler PW

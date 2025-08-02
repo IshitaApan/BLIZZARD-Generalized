@@ -1,0 +1,3 @@
+[Workbench] (regression) Workbench menus disappeared after closing the perspective
+
+We have several menu items on the RCP workbench, when we close the perspective from the perspective bar,(right mouse click on the perspective tab and select close) the menu items on the workbench all disappeared. This leaves the workbench in a state that is not useable. I am attaching the RCP tutorial part3, the only change I made to the tutorial code was to add configurer.setShowPerspectiveBar(true); We are running Eclipse 3.0.1 M2, this used to work in Eclipse 3.0

@@ -1,0 +1,3 @@
+[Markers] Switch the markers view to a non virtual view
+
+I will attach a patch for switching the markers view to a non-virtual one. I don't want to do this yet as I am not convinced that any of the problems I am seeing are anything to do with VIRTUAL.

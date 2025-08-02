@@ -1,0 +1,3 @@
+[QuickAccess] Quick Access Dialog should include properties
+
+The Quick Access Dialog should also include a Properties node and elements. AF

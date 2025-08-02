@@ -1,0 +1,3 @@
+[Contributions] Improve Javadoc for IActionBars.updateActionBars
+
+R3.2 The Javadoc for IActionBars.updateActionBars is not accurate: it says: * Clients who add or remove items from the menu, tool bar, or status line * managers should call this method to propagated the changes throughout * the workbench. However, the method must also be called if a global action (which is already in the menu) is retargeted using: IActionBars.setGlobalActionHandler

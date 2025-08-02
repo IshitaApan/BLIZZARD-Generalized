@@ -1,0 +1,3 @@
+ESS will not work without parts
+
+While windows without any parts probably isn't a very interesting shape, it is still possible to create such a thing. In this scenario, the ESS may not work properly because we rely solely on the active part for selection information. It should be possible to have a selection at the window level as-is.

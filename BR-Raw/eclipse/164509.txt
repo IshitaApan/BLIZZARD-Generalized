@@ -1,0 +1,3 @@
+Breaking API change: ColumnViewer#getItemAt(Point)
+
+The patch for bug 161399 has introduced a breaking API change: The (package-private) class ColumnViewer got an additional method protected abstract Item getItemAt(Point point); which must be implemented by subclasses of AbstractTreeViewer. This causes a compile error in our MockTreeViewer (in org.eclipse.jdt.ui.tests).

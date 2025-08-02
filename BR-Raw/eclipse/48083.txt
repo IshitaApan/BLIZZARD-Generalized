@@ -1,0 +1,3 @@
+[KeyBindings] Keyboard accessibility on assistant dialog
+
+I20031203 I am trying the new 3.0 keybindings, and I have the "help me with multi stroke..." turned on. When I type the first accelerator and then wait, a popup menu appears with a list of options. Ironically, this popup is not keyboard accessible. I.e., I cannot use the up and down arrow keys to scroll through this list to select the accelerator I want (or even to browse the list). It would also be nice if the accelerators corresponding to disabled actions were greyed out in this menu. I realize this might be difficult to do...

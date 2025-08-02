@@ -1,0 +1,3 @@
+[ErrorHandling]  Errors for multiple jobs are displayed in many dialogs
+
+Build ID: I20071211-0010 Steps To Reproduce: 1. Try org.eclipse.ui.tests/Manual Component Tests/StatusHandling.txt, section 'Job'. Please launch new eclipse and then perform manual tests. 2. During the first run error dialog will be displayed twice. For further tests statuses will be displayed in one dialog.

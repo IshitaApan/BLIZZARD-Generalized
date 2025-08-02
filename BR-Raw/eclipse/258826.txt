@@ -1,0 +1,3 @@
+[Commands] TextState cannot go back to its original state
+
+TextState starts off as null, but cannot be reset to null (IllegalArgumentException). PW

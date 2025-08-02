@@ -1,0 +1,3 @@
+Widget is disposed in WorkbenchContextSupport.unregisterShell
+
+N20050224-0010 Thanks for fixing the leak in WorkbenchContextSupport. However, there is now a widget is disposed exception in unregisterShell. This can happen if the shell being unregistered is already disposed (which is perfectly legitimate). The test case is to use the Next/Previous editor dialogs (CyclePartAction).

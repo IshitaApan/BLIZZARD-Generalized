@@ -1,0 +1,3 @@
+[KeyBindings] "In Windows" context is confusing
+
+build I20040413 In the Keys pref page, I went to add a keybinding. - selected Compare category - selected Select Next Change command - typed Ctrl+/ as the key sequence - went to hit Add, but noticed that the default When was wrong: Debugging - wanted to change it to Always, but this has been removed - it seems like "In Windows" is the best choice, but this is really non-obvious - I had to scan all the other contexts to determine that this is probably the broadest scope - it says it extends "In Dialogs and Windows" which also made me pause (Why would the broadest scope need to extend anything?) I suggest going back to Always as the broadest scope, and making that the default selection for When.

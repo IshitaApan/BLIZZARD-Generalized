@@ -1,0 +1,3 @@
+[Import/Export] Import projects wizard layout improvements
+
+3.1M4 I found two small layout problems with the Import Projects wizard. 1. The Import Projects wizard does not call initializeDialogUnits(), and hence the "Browse..." and select/deselect buttons are not of the appropriate size. 2. The selection buttons create a layout but leave the default margins, and hence do not align correctly with the Browse... button.

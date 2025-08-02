@@ -1,0 +1,3 @@
+Editor state is always restored irregardless of the IPreferenceConstants.USE_IPERSISTABLE_EDITORS preference
+
+1. Open a text editor. 2. Select some text. 3. Window > Preferences > General > Editors 4. Uncheck the 'Restore editor state on startup' preference. 5. Click 'OK'. 6. Shutdown. 7. Restart. 8. The editor's selection is restored.

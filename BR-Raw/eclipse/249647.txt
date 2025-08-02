@@ -1,0 +1,3 @@
+[ErrorHandling] Enable new ErrorDialog to open the SupportDialog by default
+
+The behavior between a MessageDialog and an ErrorDialog is different the new errorDialog (the one with the bug icon) does not open the statusTray by default. We know we can 'write our own' Dialog, but we were thinking about extending the one already there (apparently the methods we need are private) or passing a property to the JVM to get the tray to be open ?

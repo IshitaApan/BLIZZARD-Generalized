@@ -1,0 +1,3 @@
+[Compatibility] Source->Generate Getters/Setters leaves editor non-dirty
+
+If you pick any source level refactorings (e.g. Generate getters/setters), the code is generated ok but the editor remains unmodified (no '*').

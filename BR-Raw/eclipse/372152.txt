@@ -1,0 +1,3 @@
+Deprecate workbench window advisor methods for custom window creation
+
+The following methods no longer have any effect in 4.2 and should be deprecated: WorkbenchWindowAdvisor: createWindowContents(Shell shell); createEmptyWindowContents(Composite parent); IWorkbenchWindowConfigurer public Menu createMenuBar(); public Control createCoolBarControl(Composite parent); public Control createStatusLineControl(Composite parent); public Control createPageComposite(Composite parent); public IStatus saveState(IMemento memento);

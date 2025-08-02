@@ -1,0 +1,3 @@
+[Progress] Task Name Not Displayed in ProgressMonitorDialog with openOnRun==false
+
+When setOpenOnRun(false) is used on a ProgressMonitorDialog, the task name is not displayed correctly. Steps to reproduce: 1) Instantiate a ProgressMonitorDialog 2) Call setOpenOnRun(false) 3) Call run() 4) After a delay, call open() Actual Result: The default task name "Operation in Progress" is displayed. Expected Result: The task name specified in the call to the monitor's beginTask method. Suggested fix: Call setMessage(task) whenn the dialog is opened.

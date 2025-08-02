@@ -1,0 +1,3 @@
+[Browser] Bad usage of URL#equals(Object) in WebBrowserEditorInput
+
+HEAD WebBrowserEditorInput#equals(..) calls URL#equals(Object), but the latter resolves the host of the URLs via DNS lookups, which is most of the time not what you want. You should instead compare the strings from URL#toExternalForm(). Furthermore, WebBrowserEditorInput should also override hashCode() (equal objects must have equal hash codes). Note that URL#hashCode() is also broken, so you should use URL#toExternalForm() there as well.

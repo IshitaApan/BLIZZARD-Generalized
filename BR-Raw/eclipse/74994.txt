@@ -1,0 +1,3 @@
+[Decorators] DecoratorManager activated on startup of an empty workspace
+
+On startup of an empty workspace, the DecoratorManager is initialized. It seems to be triggered by the ResourceNavigator (note that in this case it was not even visible since the intro view was still maximized).

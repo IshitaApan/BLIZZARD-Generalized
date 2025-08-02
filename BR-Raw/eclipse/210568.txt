@@ -1,0 +1,3 @@
+[Import/Export] Refresh button does not update list of projects
+
+Refresh button does not update list of projects Steps to reproduce 1. Invoke Import Existing Projects wizard 2. Select any folder as the root directory [List of project will be shown] 3. Copy another project into that folder 4. Press Refresh The new project is not shown. I would expect that the Refresh button rescans the directory for new projects.

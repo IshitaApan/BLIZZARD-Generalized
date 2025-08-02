@@ -1,0 +1,3 @@
+@PreSave not called for Lifecycle-Handler
+
+The @PreSave annotation is not called at all

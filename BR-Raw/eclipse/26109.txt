@@ -1,0 +1,3 @@
+[Dialogs] Need a FormData version of the button sizing API
+
+The button sizing API in Dialog assumes the developer wants a GridData. We should promote the FormData version in PathVariablesDialog to Dialog.

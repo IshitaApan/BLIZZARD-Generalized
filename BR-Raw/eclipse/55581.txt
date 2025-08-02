@@ -1,0 +1,3 @@
+[KeyBindings] pressing Ctrl-F6 again closes editor list
+
+i20040322 Pressing Ctrl-F6 opens a list of open editors for easily switching between them. With this build, after the list is appearing, pressing Ctrl-F6 again closes it (it used to traverse the list of editors).

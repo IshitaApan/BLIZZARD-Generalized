@@ -1,0 +1,3 @@
+[Workbench] allow 'Copy' on the status line
+
+3.2 M5. As described in bug 119259, something that costs a lot of time is constructing a fully qualified name (e.g. of a type) to paste into e.g. bugzilla. We might offer an action 'Copy qualified name to clipboard' but are hesitating as this doesn't seem to fit in the existing actions. An alternative is to allow 'copy' on the Eclipse status bar: Either make it selectable or just offer a context menu on it that has 'Copy'.

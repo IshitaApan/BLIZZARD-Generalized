@@ -1,0 +1,3 @@
+[CommonNavigator] Link With Editor should be at the bottom of the view menu
+
+I20060918-2000 To be consistent with the package explorer and the navigator view the Link With Editor item should be at the bottom of the view menu in the project explorer

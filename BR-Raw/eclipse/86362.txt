@@ -1,0 +1,3 @@
+[PropertiesView] Can not access AdapterFactory, when plugin is not loaded
+
+I added propertysheet support to my application. When I had it working more or less ok, I refactored this support to a separate plugin and suddenly my property sheet stopped working. No error messages or log - my view just did not manage to get the IPropertySheetPage for my view. Closer inspection and debugging lead me to conclude that the problem lies in the overzealously lazy loading of the AdapterFactory, which avoids loading of the plugin bundle at any cost when retrieving adapters. The lazy loading in AdapterFactoryProxy should either force the plugin to be loaded, or if this behavior is intentional, there should be a (preferably declarative) way of forcing the plugin to be loaded.

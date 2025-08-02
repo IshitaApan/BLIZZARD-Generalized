@@ -1,0 +1,3 @@
+[Compatibility] ISources.ACTIVE_SITE_NAME not in the context
+
+3.x handlers needs these.

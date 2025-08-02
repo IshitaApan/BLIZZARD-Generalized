@@ -1,0 +1,3 @@
+[Compatibility] Separators don't show up in view toolbars
+
+The ToolBarManager doesn't have the right style (at least need SWT.FLAT).

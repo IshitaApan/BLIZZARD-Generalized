@@ -1,0 +1,3 @@
+[Contributions] PageSite.registerContextMenu does not handle the same menu being registered under different ids
+
+build N20050506 PageSite.registerContextMenu always creats a new PopupMenuExtender. It should do the lookup to see if a matching extender already exists for the menu manager and selection provider.

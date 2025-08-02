@@ -1,0 +1,3 @@
+Sashes should honor the NO_MOVE tag
+
+As a way to support 'fixed' sashes we should honor the existing NO_DRAG tag for MPartSashContainers.

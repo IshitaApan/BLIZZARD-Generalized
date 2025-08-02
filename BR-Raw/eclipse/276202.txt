@@ -1,0 +1,3 @@
+[Forms] NPE if dispose() called on FormToolkit more than once
+
+Build id: I20090512-2000 java.lang.NullPointerException 	at org.eclipse.ui.forms.widgets.FormToolkit.dispose(FormToolkit.java:711) At the moment, if you invoke dispose() twice on a FormToolkit instance, an NPE will be thrown. public void dispose() { if (colors.isShared() == false) { colors.dispose(); colors = null; } boldFontHolder.dispose(); } As can be seen, the 'colors' field is set to 'null' which is the cause of the NPE. It's okay to repeatedly invoke dispose() on an SWT widget so I feel this pattern should be extended for a FormToolkit also.

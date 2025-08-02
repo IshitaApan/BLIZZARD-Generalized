@@ -1,0 +1,3 @@
+[Workbench] IMemento.getChildren does not match Javadoc API spec (1GKNTYG)
+
+The Javadoc API of IMemento.getChildren specifies that a list 	is returned but the code returns an array. NOTES:

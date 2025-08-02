@@ -1,0 +1,3 @@
+ScopedPreferenceStore.setToDefault(String) sends unneccessary event
+
+3.4 M6. ScopedPreferenceStore.setToDefault(String) sends unneccessary event in case where the current value is already the default default value. This is in contrast to setValue(...) where we only send the event if the values differ. This caused by fix for bug 130248.

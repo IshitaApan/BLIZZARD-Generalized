@@ -1,0 +1,3 @@
+[CommonNavigator] [Project Explorer] Description should not be editable
+
+I assume the textarea and scrollbar for the description was added for usability (easier for screen readers) or to help copy and paste, but if you try tabbing through the dialog it now ends up entering tab characters into this area indefinitely. :) Setting the read-only bit would probably fix this, but it would preferably use a different control for the description too. The constant border and disabled scrollbar are distracting and rarely used. While we're talking about tabbing, initial focus should be on the first field, not the tab. The initial underline on the tab looks odd and means that users can't enter text in the filter immediately.

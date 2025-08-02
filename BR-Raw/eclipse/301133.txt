@@ -1,0 +1,3 @@
+Unhide the linked resources locations tab in the Linked Resources property page
+
+The mentioned tab was hidden in M5 since it needed polishing. There are new icons in the page, so when this bug is fixed, I will raise another one to track creating new icons by our UI designers.

@@ -1,0 +1,3 @@
+[Presentations] [perfs] PresentationActivateTest#Presentation... test has an invalid duration
+
+Verifying performance results for all 3.6M4 scenarios, it appeared that the 'PresentationActivateTest#Presentation org.eclipse.ui.internal.presentations.classic.WorkbenchPresentationFactoryClassic standalone without title activation()' test lasts less than 5 milli-seconds on all perf test machines. This is not enough to have meaningful results. This test has to be rewritten or removed from the benchmark...

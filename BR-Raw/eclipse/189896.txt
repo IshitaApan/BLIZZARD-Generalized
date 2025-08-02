@@ -1,0 +1,3 @@
+[Commands] handler service snapshot context assertion failed
+
+The snapshot context is filled in with all the sources without taking into account they can be null. It will not accept null values. PW

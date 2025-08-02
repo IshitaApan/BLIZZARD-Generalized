@@ -1,0 +1,3 @@
+[Compatibility] Workbench thinks there's an active editor even if it's behind views
+
+1. Open an editor. 2. Drag it to a view stack. 3. Activate another view in that stack. 4. Ctrl+W 5. The editor gets closed. This doesn't feel right... :|

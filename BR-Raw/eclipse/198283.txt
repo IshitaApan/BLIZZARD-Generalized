@@ -1,0 +1,3 @@
+[WorkbenchParts] Assert.isTrue(activePartReference != ref) hit although no actrive editor open
+
+I don't have steps to reproduce but what I see some time is hitting the assert "Assert.isTrue(activePartReference != ref)" in PartList#partOpened(WorkenchPartReference). However when I hit the assert no corresponding editor was opened. What I did is the following: - opened an editor - closed it - reopened it Debugging it showed that the variable activePartReference is still referring to the closed editor. I am marking this bug as critical since we have UI test cases which fail randomly because of this behaviour.

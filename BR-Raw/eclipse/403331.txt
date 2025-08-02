@@ -1,0 +1,3 @@
+ModelAssembler fails silently if fragment cannot be applied and does not print name of offending bundle
+
+Created attachment 228418 Patch If the ModelAssembler class fails to merge a model fragment with the runtime application model, it fails without an info message on the console. This makes it hard to identify the problem. Together with Markus Kuppe and Lars Vogel we created the following attached patch to give a info message.

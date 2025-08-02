@@ -1,0 +1,3 @@
+[Undo] Undo/RedoActionHandler nits
+
+The UndoActionHandler and RedoActionHandler have some small nits. These come up when setting the handlers for undo/redo actions on the toolbar. 1. they don't set the DisabledImageDescriptor 2. they don't set the tool tip text to describe the undo/redo about to be performed The second one is really an OperationHistoryActionHandler nit, I guess.

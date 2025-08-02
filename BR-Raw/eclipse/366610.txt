@@ -1,0 +1,3 @@
+[Compatibility] Early startup not all executed
+
+The implicit early startup was not called on org.eclipse.ui.tests.TestPlugin failed: org.eclipse.ui.tests.api.StartupTest

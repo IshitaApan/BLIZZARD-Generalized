@@ -1,0 +1,3 @@
+[ActivityMgmt]  Need API to access the set of defaultEnabled activities.
+
+In order to implement the Restore Defaults button required in bug 61090 we need a way to access the set of defaultEnabled activities. This does not currently exist in the activities API.

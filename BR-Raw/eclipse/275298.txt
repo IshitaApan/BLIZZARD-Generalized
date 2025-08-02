@@ -1,0 +1,3 @@
+[About] IInstallationPageContainer and InstallationPage still claims to be experimental
+
+Both types are from org.eclipse.ui.about and claims to be experimental and may change before 3.5. I suggest tagging as @noreference if the claim is valid or removing the claim if it is no longer valid.

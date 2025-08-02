@@ -1,0 +1,3 @@
+[DataBinding] ComputedList contribution
+
+Created attachment 81492 ComputedList patch I've written a ComputedList class based on ComputedValue, which I am contributing to the DataBinding project. See attached patch.

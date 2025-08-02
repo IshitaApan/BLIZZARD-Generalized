@@ -1,0 +1,3 @@
+[Preferences] provide API for showing a specified preference page
+
+There is no way for a plugin to open the (workbench) preference dialog with a certain peference page selected. Enabling this would allow plugins to refer the user to a certain preference page, for example when a misconfiguration is detected during execution of an action. Also this enables developers to write a new search panel to find a text in the preference pages and get the user right there. A method select(IPreferencePage page), select(IPreferenceNode node) or select(String path) in org.eclipse.jface.preference.PreferenceDialog would help.

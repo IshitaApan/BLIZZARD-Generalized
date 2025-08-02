@@ -1,0 +1,3 @@
+Need to allow products to override editor associations
+
+For 2.0, we need to allow products to specify which editor should be the default associated with a specific file type. This can be done by using the preference store to specify the order of editor associations. For example, plugin A defines an XML editor. Plugin B defines a better XML editor. The product should be able to say that plugin B's editor gets used instead of A's.

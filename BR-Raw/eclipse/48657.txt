@@ -1,0 +1,3 @@
+[javadoc]
+
+I20031210 The package org.eclipse.ui.progress does not have complete javadoc - no @since tags - doesn't say if the classes/methods are designed to be subclassed, extended, etc. - only one sentence per class javadoc, could use more description - @param and @return tags unspecified (empty tags only)

@@ -1,0 +1,3 @@
+Creating regular file under group gives wrong warning in wizard
+
+Build id: I20091125-2200 1) Create a new group folder 2) Select the group, and do File > New > File 3) Type "a.txt" The wizard now says: 'a.' is an invalid name on this platform It looks like the error message is not being updated correctly as the user types.

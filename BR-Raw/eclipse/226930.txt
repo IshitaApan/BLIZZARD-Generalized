@@ -1,0 +1,3 @@
+Debug tests DNF
+
+In the latest nightly builds the debug tests are DNF. When I download and use the latest nightly build, I found the ViewMangementTests are hanging.

@@ -1,0 +1,3 @@
+[Commands] javadoc issues in commands
+
+ActiveShellExpression - no javadoc for public final EvaluationResult evaluate(final IEvaluationContext context) { LegacyHandlerSubmission#evalate has no javadoc ActionHandler#addHandlerListener javadioc is wierd (since tag and reference to an interface) ExtensionParameterValues missing javadoc

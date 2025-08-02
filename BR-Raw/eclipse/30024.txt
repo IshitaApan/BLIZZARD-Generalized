@@ -1,0 +1,3 @@
+[Linked Resources] Variable dialog should have option to "extend"
+
+Build: I20030122 Doing some more usability testing with linked resource scenarios, I found the path variable dialog to be missing something. In the JDT build path variable dialog, there is a button to "extend" the given variable... that is, select an existing directory relative to the given path. See the libraries page of the java build path property page for an example (click "Add Variable..."). If my variable is TEMP -> c:\temp And I want my linked resource to be located at c:\temp\foo, I have to type in the extension by hand. If I'm not sure of the directory name, I have to drop down to windows explorer to figure it out.

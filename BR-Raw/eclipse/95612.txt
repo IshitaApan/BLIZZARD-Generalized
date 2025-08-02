@@ -1,0 +1,3 @@
+[Forms] try to click on a link cause scroll and do nothing
+
+3.1M7 To reproduce: - open a product editor - size your window such that the editor has a vertical scrollbar and that the "eclipse product export wizard" link is visible when the scroll bar is to the top. - scroll to the top (just in case you did not do it before). - click on the link previously indicated You will notice that the editor scroll down and that nothing happens.

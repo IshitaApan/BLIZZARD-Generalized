@@ -1,0 +1,3 @@
+[Dialogs] ResourceInfoPage should set background on read-only text widgets
+
+ResourceInfoPage uses read-only text widgets to act as selectable labels for non-editable fields such as the timestamp and file path. As noted in bug 71765, read-only text widgets aren't intended to be used this way, and on many platforms do not look like labels: they use a different background colour from labels and do not work with pixmap-background themes. In the short term, it would be nice to set the background colour on each of these text widgets to be the widget background colour. It will at least let the appearance on many GTK+ themes match the appearance on Windows.

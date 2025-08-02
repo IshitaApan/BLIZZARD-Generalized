@@ -1,0 +1,3 @@
+[Workbench] Workbench could avoid re-reading feature ini's to speed startup
+
+Build 3.0.1. This is a very small improvement, but it was large enough to show up on my list of potential optimizations. Essentially it avoids re-reading the feature INI's on startup. Our product has LOTS of feature plug-ins (103), so this adds up. Attached is the proposed change; it isn't sophisticated, essentially saying "if I had at least one tips and tricks / welcome page before, I probably have one now". To be more robust, the stored preference would have to be cleared on a -clean. The net savings on a 3GHz P4 / 2G RAM was 181ms for multiple warm runs. It obviously should be a tad larger for cold runs on a less performant machine.

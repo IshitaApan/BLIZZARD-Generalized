@@ -1,0 +1,2 @@
+[StatusHandling] During the modality switch the state of details/support is not preserved correctly
+

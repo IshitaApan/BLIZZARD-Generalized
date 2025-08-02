@@ -1,0 +1,3 @@
+[Perspectives] Externalized error message in PerspectiveRegistry
+
+WorkbenchMessages.Perspective_errorLoadingState is externalized. It shouldn't be.

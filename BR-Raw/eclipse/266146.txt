@@ -1,0 +1,3 @@
+[CSS] JUnit for: Property retrieval must check instanceof and return null
+
+Created attachment 126734 junit test

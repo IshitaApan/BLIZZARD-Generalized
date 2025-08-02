@@ -1,0 +1,3 @@
+[Font/Colours] Hard to find definition of "mapped to" font
+
+I20040324 In the Colors and Fonts pref page, Text Compare Appearance category. Select Compare text font The comment correctly states that this font is mapped to the Text Font. But how can I quickly find the Text font? No indication is given of which category the Text font is defined within.

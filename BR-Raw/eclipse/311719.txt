@@ -1,0 +1,3 @@
+[Compatibility] View menus have disappeared
+
+Presumably caused by the StackRenderer changes introduced by bug 308094.

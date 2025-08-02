@@ -1,0 +1,3 @@
+Finish enabled when no items selected initially in import preferences
+
+If you successfully import once by choosing specific import types. Then return to the import wizard, there will be no specific types selected for import but the finish is enabled... this is a bug.

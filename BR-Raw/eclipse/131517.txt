@@ -1,0 +1,3 @@
+[BiDi] Bidi3.2: [HCG]Wrong display of title window in RTL layout
+
+- Create a simple project - In this project, create a simple file abcABC.txt (Where A,B,C stand for the 3 first letters of the Hebrew alphabet. - Open this file In LTR layout the title of the window is : Resource - abcCBA.txt - Eclipse Platform In RTL layout the title appears as : txt - Eclipse Platform.CBAResource - abc which is not understandable (at least on the first glance)

@@ -1,0 +1,3 @@
+Unneeded System.out.println()
+
+I200405120800 org.eclipse.jface.preference.PreferenceDialog#getShortenedString(String) has a 'System.out.println()' statement that looks suspicious.

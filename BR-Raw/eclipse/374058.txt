@@ -1,0 +1,3 @@
+Quick Access drop-down list is overly wide
+
+Created attachment 212541 Screenshot of Quick Access dop-down When starting to type in the "Quick Access" field, a drop-down with matching items appears. Only the width is way wider than necessary. See the attached screenshot. Reproducible with 4.2 M5

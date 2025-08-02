@@ -1,0 +1,3 @@
+e4.ui.services dependency on org.eclipse.core.runtime
+
+The bundle org.eclipse.e4.ui.services uses the core.runtime bundle and the Platform class. This is a global singleton so it should be avoided.

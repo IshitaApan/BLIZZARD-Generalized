@@ -1,0 +1,3 @@
+[Viewers] Need access to the element comparer of a tree selection
+
+To fix bug 127654 I need to create a new tree selection based on a current tree selection. To correctly create the new tree selection I need access to the element comparer of the old selection. I will provide a patch that adds the API. Side note: without the new API no client will be able to create a new tree selection which is a modification of a current selection. Since we added tree selections in 3.2 I opt to add the API change for 3.2 as well.

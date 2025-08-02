@@ -1,0 +1,3 @@
+[JFace] StringConvertor.asDisplayableString should be deprecated
+
+R2.1 This is the same as asString - there is no need to keep it around any longer. It is also not currently in use in the workbench.

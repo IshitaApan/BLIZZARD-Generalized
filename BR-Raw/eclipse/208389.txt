@@ -1,0 +1,3 @@
+[Markers] New Marker view should use default Properties dialog
+
+20071101-0010 - Select a problem marker in the new markers view and open the context menu - Select 'Properties' This opens a custom dialog. For a consistent user experience, it would be better to use the default properties dialog. The dialog also contains some UI issues: 'Creation Time:' should be 'Creation time:' 'On Element:' should be 'On element:' 'In Folder:' should be 'In folder:' See http://www.eclipse.org/articles/Article-UI-Guidelines/Contents.html Guideline 1.6 The spacing between some of the labels also seems a bit big

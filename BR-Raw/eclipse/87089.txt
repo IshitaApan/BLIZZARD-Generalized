@@ -1,0 +1,3 @@
+[Viewers] LabelProvider.getImage is not invoked after the TreeViewer changes introduced on 24/01/2005
+
+If you compare the versions 1.26 and 1.25 of the method doUpdateItem(Item item, Object element) in org.eclipse.jface.viewers.TreeViewer, you will notice a change in the way the image of the element is calculated. In 1.25, the image of the Element is set in the "buildLabel" method which doesn't have a special treatment for ITableLabelProvider. In 1.26, if the label provider is a ITableLabelProvider, instead of calling ILabelProvider.getImage(Object), the code always invokes ITableLabelProvider.getColunmImage(Object). This change has broken the icons on one of the EMF generated editors (the mapping editor) as the images I will attach here demostrate.

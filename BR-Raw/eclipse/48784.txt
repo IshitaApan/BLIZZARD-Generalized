@@ -1,0 +1,3 @@
+[MPE] ClassCast exception Workbench page isPartVisiable for MultiPageSite
+
+This causes problems when you have nested editors in a MulitPageEditor. Nested editors share one site, and when a nested editor calls isPartVisible it returns the parent MultiPageEditorSite. I not sure why MultiPageEditorSite does not inherit from PartSite, but it doesnt and the call throws a classException. public boolean isPartVisible(IWorkbenchPart part) { 	return ((PartSite)part.getSite()).getPane().isVisible(); } Thanks for your help,

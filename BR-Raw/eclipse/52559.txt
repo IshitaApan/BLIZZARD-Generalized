@@ -1,0 +1,3 @@
+[EditorMgmt] Dragging editor between windows does not work
+
+I20040219 With two windows open, drag an editor from one window to the other. Only the editor tab is dropped. The contents of the editor remain in the initial location.

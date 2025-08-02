@@ -1,0 +1,3 @@
+org.eclipse.ui.plugin.AbstractUIPlugin.loadDialogSettings() is using URLgetFile() (1GDTWUZ)
+
+org.eclipse.ui.plugin.AbstractUIPlugin.loadDialogSettings() is using URLgetFile() this will fail when the install directory is not local see initializePluginPreferences for an example of using a stream NOTES:

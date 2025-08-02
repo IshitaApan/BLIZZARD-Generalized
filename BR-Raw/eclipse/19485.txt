@@ -1,0 +1,3 @@
+[Themes] Should use color setting for fonts.
+
+F2 1) Window>Preferences>Debug>Console>Text Font>Change (pick any) OK 2) Window>Preferences>Debug>Console>Text Font>font setting Change is not remembered

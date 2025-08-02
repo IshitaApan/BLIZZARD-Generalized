@@ -1,0 +1,3 @@
+Leaking RetargetAction and LabelRetargetAction etc on editor switching
+
+20020602 Using OptimizeIt 3.02 Professional Open a Java Editor on a compilation unit Open an editor on a .properties file (focus is now on the .properties editor) Perform a GC Mark the current instance count Give focus to the editor Give focus to the .properties file Perform a GC I will attach a screen shot of the results.

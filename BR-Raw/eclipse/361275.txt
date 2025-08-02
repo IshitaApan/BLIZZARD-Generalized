@@ -1,0 +1,3 @@
+Perspective switcher in another workbench window will not update its tool item
+
+1. Window > New Window 2. Right-click on a perspective in the perspective switcher > Show Text 3. Only the active workbench window will be updated, the one behind will not.

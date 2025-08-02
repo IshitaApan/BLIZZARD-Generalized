@@ -1,0 +1,3 @@
+[api] missing specs in ShowViewHandler
+
+3.1 HEAD New constructors were recently added to the API ShowViewHandler class without proper Javadoc: public ShowViewHandler() public ShowViewHandler(boolean makeFast) The release comment for the change does not point to a bug report that describes the change. This makes it very hard to track down the approvals for this API change.

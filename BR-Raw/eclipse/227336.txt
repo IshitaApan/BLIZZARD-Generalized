@@ -1,0 +1,3 @@
+View menu item doesn't provide a name for screen reader
+
+20080416 open linux 2.1, screen reader enabled - set the focus in the package explorer - use tab to navigate to the view menu (triangle) in the package explorer toolbar - screen reader only reads 'Push button'. No name is provided for this button

@@ -1,0 +1,3 @@
+[Field Assist] - API - behavior of text insert not taking selection into account
+
+Field Assist Example - set acceptance style to "Insert into field content" - type some text into the text and combo - select a subset of the text and invoke content assist - choose a proposal in the popup outcome: text is inserted at the insertion point expected: text should be inserted, but should replace any selected text Is this a regression?

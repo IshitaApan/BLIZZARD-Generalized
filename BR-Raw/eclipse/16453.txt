@@ -1,0 +1,3 @@
+[Perspectives] Redundant preference in Workbench->Perspective.
+
+In Workbench->Perspective we have: Open a new perspective Same window New window and New Project options Open perspective in the same window Open perspective in a new window Do not switch the prespective The options "Open perspective in the same window" and "Open perspective in a new window" should be replaced by one single option. Some thing like: "Open perspective". The fact that the perspective is going to open in a new window or not is defined by the "Open a new perspective" preference.

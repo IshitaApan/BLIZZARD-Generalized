@@ -1,0 +1,3 @@
+SWTEventHelper drag/drop broken
+
+The last change removed the Display.map() call.

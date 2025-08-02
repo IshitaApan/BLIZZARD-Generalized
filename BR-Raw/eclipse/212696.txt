@@ -1,0 +1,3 @@
+[ErrorHandling] [Dialogs] Error dialogs: Ctrl-C doesn't copy errors, eventhough there are a "Copy" popup menu
+
+Build ID: I20070621-1340 Steps To Reproduce: 1. Run some job that's return a multiple-errors status (a MultiStatus containing Status with exceptions) 2. The error dialog shown up with details buttons to show the error details as a selectable list. 3. In the details panel, select an error and press Ctrl-C. The selected error is not copied. Right-Click and select copy, then all of the errors are copied More information: * Because we already provided the copy function, it would be better if we also tie Ctrl-C to that function * As user can select individual error, copy should only copy that error

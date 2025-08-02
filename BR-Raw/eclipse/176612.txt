@@ -1,0 +1,3 @@
+BasicSplashHandler documentation needs clarification
+
+The javadoc for getContents() needs clarification. The default implementation assumes that the IProgressMonitor returned via getBundleProgressMonitor() can be casted to a Composite.

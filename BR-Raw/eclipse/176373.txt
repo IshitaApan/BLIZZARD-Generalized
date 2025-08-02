@@ -1,0 +1,3 @@
+[Preferences] NLS33:button labels on Content Types Preferences truncated
+
+Build ID: eclipse-SDK-3.3M5eh-win32.zip The following strings in eclipse/plugins/org.eclipse.ui.workbench/org/eclipse/ui/internal/messages.properties are truncated when replaced with long translations ContentTypes_fileAssociationsAddLabel = &Add... ContentTypes_fileAssociationsRemoveLabel = &Remove

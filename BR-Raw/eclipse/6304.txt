@@ -1,0 +1,3 @@
+cannot synch a .java file and another resource
+
+1. select a .java file and another resource (a .properties file, for instance) in the package viewer 2. open the context menu the Team entry is not there. it should be.

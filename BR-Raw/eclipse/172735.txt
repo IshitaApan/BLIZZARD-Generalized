@@ -1,0 +1,3 @@
+[Viewers] regression? Selection not revealed in tree of launch configuration dialog
+
+I20070201-0800, WinXP as well as Linux GTK I have a lot of launch configurations in my workspace. When I open the Debug... dialog, the last used launch configuration is selected in the tree and shown on the right. However, the selection in the tree is often not visible -- I have to scroll down to see it. It should automatically be revealed.

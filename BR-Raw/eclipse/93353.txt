@@ -1,0 +1,2 @@
+[Dialogs] InternalErrorDialog#buttonPressed should explicitly call super
+

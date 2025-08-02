@@ -1,0 +1,3 @@
+[FastView] IPageLayout.addFastView does not seems to work at all in 3.0M9
+
+Here's my code... public class RPCCorePerspective implements IPerspectiveFactory { 	public RPCCorePerspective() { 		super(); 	} 	public void createInitialLayout(IPageLayout layout) { 		defineLayout(layout); 	} 	public void defineLayout(IPageLayout layout) { 			layout.addFastView("customer.views.CustomerView", .8f); } } This code worked in 3.0 M8 but fails in 3.0 M9. The view id that I used is valid. The call to addFastViews fails on an internal assertion. To me it looks like an internal coding error.

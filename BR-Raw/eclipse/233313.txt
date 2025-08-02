@@ -1,0 +1,3 @@
+[Preferences] Mistake in javadoc for PreferencePage
+
+Build ID: M20080221-1800 Steps To Reproduce: Open source code for org.eclipse.jface.preference.PreferencePage. The javadoc of the PreferencePage states that: "Subclasses must implement the createControl framework method to supply the page's main control." I think this should be "Subclasses must implement the _createContents_ framework method to supply the page's main control." More information: Because createControl is inherited from DialogPage and implements buttons and decoration. The method then calls the abstract createContents that people use to fill out the preference page with SWT controls.

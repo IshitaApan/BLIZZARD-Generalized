@@ -1,0 +1,3 @@
+Javadoc warnings in N20081024-2000
+
+/builds/N/src/plugins/org.eclipse.platform.doc.isv/../org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/IWorkbenchActionConstants.java:727: warning - Tag @see: reference not found: org.eclipse.ui.internal.ShowInAction 1 warning

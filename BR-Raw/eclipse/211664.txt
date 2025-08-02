@@ -1,0 +1,3 @@
+[ErrorHandling] ErrorDialog should not display 'Details' button when the children status don't have message
+
+Build ID: I20070625-1500 Steps To Reproduce: Currently, ErrorDialog will display the 'Details' button when the status is a MultiStatus or the status has exception. But if it is MultiStatus and all its children status don't have any message, 'Details' button will open a list with nothing in it. It would be nice if ErrorDialog can check if the children status have any message. If not, don't display the 'Details' button. More information:

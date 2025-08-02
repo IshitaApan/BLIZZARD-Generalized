@@ -1,0 +1,3 @@
+[Commands] handlers: Key binding availability dependant on view focus
+
+build i0125 and build i031 When I am in the Outline view (for a Java editor) and I click on a method and hit ctrl-shift-g nothing happens. I have to click on the method name in the Java editor and then hit the keys in order for the search to happen. Let me know if you want to see a demo or need more information about my setup. (workbench.xml?)

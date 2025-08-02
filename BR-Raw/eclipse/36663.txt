@@ -1,0 +1,3 @@
+IEditorInput.getPersistable() should have a javadoc comment
+
+Now it has a simple /* */ comment. It's a matter of adding another asterisk.

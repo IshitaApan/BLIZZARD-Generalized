@@ -1,0 +1,3 @@
+Test suites crash on OS X
+
+The session test for Bug95357Test was added to the standard API suite instead of the session test suite. This test crashes the OS X tester and no tests after it will complete. This should be moved to the appropriate suite.

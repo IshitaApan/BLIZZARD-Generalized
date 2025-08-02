@@ -1,0 +1,3 @@
+[project explorer] Reuse the Project Explorer provided by Eclipse platform ui
+
+After a discussion with Eclipse platform ui team, the "Expermental Resource Navigator" will be renamed to the "Project Explorer". Is there any reason for the WTP team to have a view with the same name - given the custom groups have been removed during the M5 port?

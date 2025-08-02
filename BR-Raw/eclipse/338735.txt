@@ -1,0 +1,3 @@
+[Compatibility] Can't open editor by dragging it to shared area
+
+eclipse.buildId=I20110225-1300 I commonly drag a file from the Package Explorer to the editor area to open it. This doesn't work in 4.1.

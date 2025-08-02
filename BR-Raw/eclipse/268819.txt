@@ -1,0 +1,3 @@
+[WorkbenchLauncher] 'Workspaces' preference page's 'Remove' button should enable/disable itself more intelligently
+
+1. Window > Preferences > General > Startup > Workspaces 2. Select a workspace. 3. Click 'Remove'. 4. There is now no selection, but the 'Remove' button is still enabled.

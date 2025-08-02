@@ -1,0 +1,3 @@
+[RCP] [CoolBar] Toolbar is missing build action
+
+I20031119 The toolbar is missing the build action. See attached screen shot

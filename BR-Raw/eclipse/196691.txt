@@ -1,0 +1,3 @@
+Inncorrect Class Name in Javadoc
+
+The class comments for org.eclipse.ui.part.MultiPageEditorPart contains the following sentence: "The contributor must be a subclass of <code>AbstractMultiPageEditorActionBarContributor</code>." I was not able to find the class AbstractMultiPageEditorActionBarContributor, but I was able to find org.eclipse.ui.part.MultiPageEditorActionBarContributor which is an abstract class. Should the word "Abstract" be removed from the comments?

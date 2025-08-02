@@ -1,0 +1,3 @@
+[Jobs] "Error Running Jobs" dialog should be resizable and does not use Dialog font
+
+The list does not use the dialog font.

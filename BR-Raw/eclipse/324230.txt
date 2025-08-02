@@ -1,0 +1,3 @@
+NPE thrown when unrendering an MPartSashContainer that contains unrendered children
+
+java.lang.NullPointerException 	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.hideChild(SashRenderer.java:317) 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:517) 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:528)

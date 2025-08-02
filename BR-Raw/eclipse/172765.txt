@@ -1,0 +1,3 @@
+[DataBinding] Consistency when registering property change listeners
+
+JavaBeanObservableValue currently looks for the add property change listener method that accepts the property name. This is an optional part of the JavaBean spec[1] defined in section 7.4.5. If this method is not found we need to fall back on the non-optional part of the spec defined in 7.4.1 where the property name is not part of the method signature. [1] http://java.sun.com/products/javabeans/docs/spec.html

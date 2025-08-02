@@ -1,0 +1,3 @@
+[Wizards] [resources] File System Import changes file permissions
+
+Creating a Project (simple or otherwise) and importing files into it using the import->File System wizard takes away the executable permission from the imported exec files.

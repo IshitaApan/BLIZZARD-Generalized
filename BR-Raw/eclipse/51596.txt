@@ -1,0 +1,3 @@
+[Jobs] Progress Dialog on dual monitor setup opens on the wrong monitor
+
+Build I20040205 on WIN NT/SP6. I have a dual monitor setup and I usually run eclipse on the second monitor. The normal progress dialog opens correctly centered on the second monitor. The new progress monitor (the one which shows that a operation is blocked by a background process with the list of background tasks operating) always opens on the first monitor.

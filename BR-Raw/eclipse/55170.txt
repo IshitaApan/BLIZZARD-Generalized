@@ -1,0 +1,3 @@
+[Colors/Fonts] Changing a font in the Colors and Fonts preference page causes all views and editors to appear active
+
+build I20040317 - open two or more sets of views and create a setup where you have a split editor pane with two editors - open the preferences and go to the Workbench > Colors and Fonts page. - Edit the "part title font" in the Workbench Appearance category. - hit the OK button NOTE that now all views and editors that were the selected tab are drawn in the "Active" color, but there should only ever be one editor and view active

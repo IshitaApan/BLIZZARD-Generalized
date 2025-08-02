@@ -1,0 +1,3 @@
+Wizard should ensure compliance with createControl  contract
+
+IDialogPage create control states that the created control must be accessable via getControl. This should be checked with an Assert as its failure can cause problem which are difficult to diagnose.

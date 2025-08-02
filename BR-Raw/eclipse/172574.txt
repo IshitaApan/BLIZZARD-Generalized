@@ -1,0 +1,3 @@
+[IDE] DeleteProjectDialog inconsequent selection behavior
+
+Normally, choosing an option in an radio group can be done by clicking on the labels instead clicking on the buttons itself. As the "(Contents cannot be restored using "Undo")" text is in an extra label, clicking on it does nothing. I see me often clicking on that label to select the corresponding option. Attached is a little patch to select the correct radio when clicking on the extra label.

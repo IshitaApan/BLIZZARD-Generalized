@@ -1,0 +1,3 @@
+[Help] Help search combo too prominent
+
+20050214 The new help search combo on the toolbar is too prominent. The search plugin org.eclipse.search tries to integrate all kind of searches in the search dialog. It feels that the help search sets a wrong example here. What about something more lightweigth? For example on F1 show a window containing a search box.

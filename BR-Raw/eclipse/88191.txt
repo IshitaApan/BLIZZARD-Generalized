@@ -1,0 +1,3 @@
+[Preferences] Temporary shell created in PreferenceConverter
+
+org.eclipse.jface.preference.PreferenceConverter has this code to set its default font data: Shell shell = new Shell(); FONTDATA_ARRAY_DEFAULT_DEFAULT = shell.getFont().getFontData(); shell.dispose(); Rather than creating an extra Shell, is it not sufficient to use display.getSystemFont() ?

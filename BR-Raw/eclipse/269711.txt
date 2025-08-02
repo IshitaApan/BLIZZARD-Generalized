@@ -1,0 +1,3 @@
+[jface] org.eclipse.jface.viewers.StructuredViewerInternals.AssociateListener contains an invalid api tooling tag
+
+@noinstantiate is not valid for interfaces.

@@ -1,0 +1,3 @@
+ESelectionService should not notify listeners if the active part does not post selections
+
+Even if you do not set a selection provider for your IWorkbenchPart implementation, we are still propagating selection events for that part within the given workbench window.

@@ -1,0 +1,3 @@
+[JFace] JavaDoc of ControlDecoration#setDescriptionText is wrong
+
+Created attachment 187514 patch Current: -------- Set the image shown in this control decoration. Update the rendered decoration. Expected: --------- Set the description text that may be shown in a hover for this decoration. Update the rendered decoration.

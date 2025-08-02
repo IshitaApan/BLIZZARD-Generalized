@@ -1,0 +1,3 @@
+[ViewMgmt] [RCP] Closing views closes perspective
+
+Build: I20030730 If you close all parts in a workbench page, the page is closed automatically. This is very disorienting if you were closing the last view and then planning to open another view, or working in a perspective with only editors, and then have the perspective disappear when the last editor is closed. The platform should allow the user to empty their workbench page.

@@ -1,0 +1,3 @@
+OpenWithMenu unnecessarily downcasts to WorkbenchPage
+
+I got an exception when trying to use 'Open With...' in the compatibility layer. On line 344, we downcast to invoke openEditor(IEditorInput, String, boolean, int), which is actually a public API method. We should remove the downcast so that it will run on unchanged.

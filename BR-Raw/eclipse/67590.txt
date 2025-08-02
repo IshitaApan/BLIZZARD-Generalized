@@ -1,0 +1,3 @@
+[Presentations] The 'Save All' command has no effect
+
+Sometimes, invoking the 'Save All' command (from the menu or as Shift+Ctrl+S) does not have any effect -- the file is not saved (while 'Save' works). It will not work until I restart Eclipse.

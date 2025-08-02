@@ -1,0 +1,3 @@
+Fix for Bug397677 does not consider logger being optional
+
+Created attachment 228468 proposed fix The fix for Bug397677 does not consider the @Optional injection given to private Logger logger

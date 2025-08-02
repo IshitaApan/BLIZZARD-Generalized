@@ -1,0 +1,3 @@
+[Dialogs] Changed initial focus behaviour
+
+Build 20021008 Win2k Something changed (for the worse) in the focus behaviour this build. For example, select a project in eclipse, and press delete. The warning dialog's initial focus is now on the default button (instead of the radio buttons in the dialog). This is possibly a regression on bug 14981.

@@ -1,0 +1,3 @@
+[WorkbenchParts] partVisible not sent when editor restored
+
+I20050209 In bug 85005, Tom says: > When quering the workbench page whether A.java is visible, it returns false. > When activating A.java, an IPartListener2 will receive a partActivated event > for A.java, but not a partVisible event. When an editor becomes visible, it should always fire a partVisible event. It should not matter whether the editor is being lazily materialized or not.

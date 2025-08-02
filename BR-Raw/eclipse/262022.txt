@@ -1,0 +1,3 @@
+[FieldAssist] ContentProposalAdapter.recomputeProposals might throw a NPE
+
+When a control using content proposal gets disposed during usage the recomputeProposals() method might throw a NPE. This is caused by getting "allProposals" using a call to getProposals() which is allowed to return null. When using allProposals.length this will crash. I'm not sure if the simple solution if ((allProposals == null) || (allProposals.length == 0) { proposals = new IContentProposal[0]; close(); } else { // cont. will work or if the popup will have problems with a disposed control.

@@ -1,0 +1,3 @@
+[Commands] handlers: Ctrl+E has no effect
+
+build I20050324-1400 - Ctrl+E in an open editor (plain text or Java) has no effect at the moment - Choosing Switch to Editor from the Window > Navigation menu works OK

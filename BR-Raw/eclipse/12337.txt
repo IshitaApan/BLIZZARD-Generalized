@@ -1,0 +1,3 @@
+Edit menu items remain disabled after viewpart activation
+
+20020326-1324-I on Linux-Motif 1) open a CU 2) change focus to outline 3) verify that most edit menu items are disabled 4) change focus back to editor 5) observe that the edit menu items remain disabled I replaced the org.eclipse.ui plugin with an old one (20020321) and the problem is gone.

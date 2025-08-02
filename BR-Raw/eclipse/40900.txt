@@ -1,0 +1,3 @@
+[Jobs] Jobs not always shown on startup
+
+20030723 Jobs are not always shown the first time the view is. Switching to verbose mode handles this. The easiest way to replicate is to run the Error jobs - they only show up when you switch the verbosity. John you also have another case correct?

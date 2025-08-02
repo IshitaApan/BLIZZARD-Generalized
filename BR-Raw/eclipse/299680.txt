@@ -1,0 +1,3 @@
+Loading model deltas should properly process exception and fallback to the base model
+
+Created attachment 156134 Exception stack If model deltas are incorrect the only way to re-start an E4 application is to clear the workspace. The delta load and merge process should properly catch exception and fallback to the base model rather then: 			} catch (Exception e) { 				throw new RuntimeException(e); 			} (In my case, exeception occurs on shutdown resulting in invalid delta file. That prevents subsequent starts of an application until workspace if cleared.)

@@ -1,0 +1,3 @@
+[Undo] - Inconsistent button labeling on prompt for undoing non local changes
+
+The dialog has Yes, Discard Undo, Cancel Should be OK, Discard Undo, Cancel

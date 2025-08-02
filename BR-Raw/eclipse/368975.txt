@@ -1,0 +1,3 @@
+[Compatibility] Ctrl+E shows hidden views
+
+1. Open an editor. 2. Drag a view into the shared area. 3. Close it. 4. Ctrl+E 5. You should only see the one editor but the hidden view is also in the list.

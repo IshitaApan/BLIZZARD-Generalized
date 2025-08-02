@@ -1,0 +1,3 @@
+Compare view prevents Ctrl + F6 working
+
+20021023 If you have a compare view up you cannot use Ctrl+F6. STEPS 1) Open some editors 2) Hit Ctrl+F6 editors come up 3) Compare a class with another version 4) Hit Ctrl+F6 - nothing

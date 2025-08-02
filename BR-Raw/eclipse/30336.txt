@@ -1,0 +1,3 @@
+[Working Sets] Canceling working set remove does not restore MRU list
+
+build 20030121 -Select a working set in the Navigator so that it gets added to the working set MRU list -Open the working set selection dialog -Remove the selected working set -Cancel the selection dialog ->The working set is no longer in the working set MRU list in the navigator view menu. The working set selection dialog should restore the complete MRU list when the dialog is cancelled.

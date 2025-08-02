@@ -1,0 +1,3 @@
+[Progress] Progress entries should have a smaller minimum size
+
+M3 Currently the minimum size for progress entries is quite large - we should determine which constraint is causing this and reduce the size.

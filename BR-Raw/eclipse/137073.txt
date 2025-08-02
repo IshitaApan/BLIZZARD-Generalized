@@ -1,0 +1,3 @@
+[Preferences] Encoding field editor never fires value change events
+
+The class AbstractEncodingFieldEditor never fires VALUE property change events unless the validaty of the value has also changed. I will attach a patch that corrects the problem.

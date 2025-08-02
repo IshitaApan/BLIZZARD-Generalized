@@ -1,0 +1,3 @@
+[Dialogs] Store size and position of ElementList/TreeSelectionDialog
+
+20060105 There should be an easy way to have a ElementListSelectionDialog and a ElementTreeSelectionDialog store their size and position without having to extending these classes (to override getDialogBoundsSettings() and getDialogBoundsStrategy()). A ElementTreeSelectionDialog is typically used by creating an instance of it and use the setters (setMessage(), setContentProvider()....) to customize it. Suggestion is to offer a setter setDialogBoundsSettings(IDialogSettings, int strategy)

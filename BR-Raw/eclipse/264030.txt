@@ -1,0 +1,3 @@
+[IDE] Platform UI refrences update.configurator
+
+the class IDEWorkbenchWindowAdvisor in the ui.ide.application bundle references classes that come from the update.configurator bundle. This is a problem you are trying to ship platform configurations that do not include any update manager code. The code in openWelcomeEditors(IWorkbenchWindow) should use an enhanced BundleGroup that includes the notion of an associated bundle and the dependency on update removed. Failing that (and very much less than optimally) the errant code could be wrappered in a try/catch for ClassNotFound and the dependency on Update made optional (cough cough)

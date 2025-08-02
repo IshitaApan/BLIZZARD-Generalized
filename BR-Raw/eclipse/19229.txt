@@ -1,0 +1,3 @@
+Changing color scheme in windows messes up view colors
+
+Build F2 (20020602) Win2K If you switch windows color scheme after you started eclipse, then Eclipse hangs on to some of the old colors for certain things. Examples of this are background colors for view icons like the 'X' to close the view, and the gradient color of the title bar for a view. - Go to display properties in windows -> Appearance. - Set your scheme to "Maple" - Open Eclipse - Set your scheme to "Slate" - Go back to Eclipse - Focus on one of the views Notice how the views still use colors from the old scheme.

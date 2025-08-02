@@ -1,0 +1,3 @@
+[Wizards] New menu has two separators in a row if no shortcuts
+
+build I20030205 - open Debug Perspective - in the File / New submenu, there are two separators in a row Either this has always been like this, or it's due to the recent addition of the Examples... item

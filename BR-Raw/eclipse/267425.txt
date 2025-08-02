@@ -1,0 +1,3 @@
+[Perspectives] problem with outline view and min/max
+
+See bug 11001 rcjsuen says: Paul, I'm seeing a problem with the 'Outline' view on I20081112-1200. I guess this might've been caused by the changes to this bug? 1. Open a file that supports the 'Outline' view (like a Java file). 2. Open/Activate the 'Outline' view. It should render the outline appropriately. 3. Open/Activate another view. 4. Invoke Ctrl+M to maximize that view. 5. Invoke Ctrl+M to unzoom. 6. Notice that the 'Outline' view now has no content.

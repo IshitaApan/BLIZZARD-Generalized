@@ -1,0 +1,3 @@
+[UI][CSS] Parts not always getting styled
+
+I noticed a case where the perspective tab was getting styled but the other tabs weren't. There may be sequencing problems where we call too early to style the UI, then parts are added unstyled. This was in the legacy app. In order to ensure the styling engine is run, we should call the styling engine on SWTPartFactory.bindWidget().

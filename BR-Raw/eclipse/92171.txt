@@ -1,0 +1,3 @@
+WorkbenchPage.getViewStack is too eager to activate views
+
+This method is too eager to activate views. The method states that it returns the IViewParts that are stacked with the given part, but it actually causes new parts to be created in the stack by calling getView(true). This is a performance issue due to unnecessary part creation. The current behavior may also mislead callers into believing that the method returns the set of *tabs* in the stack (the method could never do so because not every tab has an associated IViewPart).

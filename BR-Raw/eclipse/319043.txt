@@ -1,0 +1,3 @@
+[Compatibility] Rendering a new toolbar doesn't cause a layout
+
+When a part goes active and toolitems disappear (like switching from the Java editor gets rid of Toggle Mark Occurrences) the space is not reclaimed. Worse, if there was no space the newly visible items (switching to the Java editor) don't appear. Eric, is their something we should put in the ToolItemRenderer and possible the ToolBarRenderer so they basically say: toolbar.layout(item) or parentShell.layout(toolbar)? PW

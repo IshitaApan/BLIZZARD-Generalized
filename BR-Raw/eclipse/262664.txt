@@ -1,0 +1,3 @@
+[Help] On Cocoa Firefox cannot be used as the help browser
+
+I20090127-0100 MacOS Cocoa Eclipse/Preference In the preference page General/Web Browser select Firefox as the web browser. Help/Help contents. Expected Result: Help Opens Actual Result: Help fails to open, a dialog appears with this message "Close Firefox. A copy of Firefox is already open. Only one copy of Firefox can be open at a time."

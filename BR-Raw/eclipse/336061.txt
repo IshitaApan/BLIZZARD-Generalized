@@ -1,0 +1,3 @@
+Extra (empty) menu in the workbench window's menu bar
+
+Created attachment 188132 screenshot SDK 4.1 M5 shows an extra (empty) menu on OS X between Run and Window. See the attached screenshot.

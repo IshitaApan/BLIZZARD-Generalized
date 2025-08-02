@@ -1,0 +1,3 @@
+[StatusHandling] Handling of jobs statuses needs polishing
+
+It is possible to pass StatusAdapters with such property (from IProgressConstants), but it is impossible to show those errors to the user (and user may want to see them). Currently it is possible to show those errors only using another StatusAdapter as a trigger.

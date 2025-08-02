@@ -1,0 +1,3 @@
+[Dialogs] Progress Preferences dialog problems
+
+does not use dialog font

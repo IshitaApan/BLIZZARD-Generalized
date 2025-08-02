@@ -1,0 +1,3 @@
+[Field Assist] - secondary popup should update on same delay as its invocation delay
+
+This bug is opened from Dani's comments in bug #120237. >2. no auto-delay for showing additional info. It should at least use a > post-selection changed listener and not constantly update the additional > info hover while pressing e.g. the down arrow key. There is a delay on invoking the secondary popup, but there is no delay on updating this popup as selections occur. Should either honor the invocation delay or use a different listener as Dani suggests.

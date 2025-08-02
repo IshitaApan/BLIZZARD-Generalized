@@ -1,0 +1,3 @@
+Typo in javadoc: ResourceSelectionDialog.java
+
+In the Javadoc for org.eclipse.ui.dialogs.ResourceSelectionDialog, the example says: dialog.setInitialSelections(selectedResources)); note the extra ')'. I noticed when trying to paste this example into my own code.

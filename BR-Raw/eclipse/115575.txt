@@ -1,0 +1,3 @@
+[JFace] Window documentation referring to nonexistent method
+
+The javadoc for org.eclipse.jface.window.Window states some methods subclasses can override including: * <li><code>getToolTipText</code>- reimplement to add tool tips</li> However this method is not defined in the Window class or any of its baseclasses.

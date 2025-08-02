@@ -1,0 +1,3 @@
+Infinite error dialogs due to error closing error dialog
+
+Build: I20070320-0010 I installed GEF using update manager, and chose to apply changes without restarting. This caused an error in the registry, and an error dialog opened. When I clicked "ok" on the error dialog, another error occurred, and the dialog reopened. This led to an infinite recursion of error dialogs. Well, almost infinite. Eventually the process ran out of handles, at which point I got a fairly entertaining series of dialogs, as shown in the attached screen shot.

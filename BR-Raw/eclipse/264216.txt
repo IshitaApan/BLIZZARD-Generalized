@@ -1,0 +1,3 @@
+[CommonNavigator] DnD within a single object always shows as allowed
+
+Created attachment 125150 Patch from Anton This is because the plugin transfer is handling reporting on the drag over. Not sure exactly why this is, but Anton has a nice patch that fixes this.

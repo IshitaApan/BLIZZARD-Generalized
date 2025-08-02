@@ -1,0 +1,3 @@
+[Markers] Poor job name: Fetching children of Searching for markers
+
+Build id: I20051025-0800 1) Open the progress view and the problems view 2) Start a long build. There is a job in the progress view called "Fetching children of Searching for markers". First, this is not a good name. Second, it should probably be a system job.

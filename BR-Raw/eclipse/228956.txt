@@ -1,0 +1,3 @@
+[RCP] [Doc] Document expression-based actitivies
+
+The javadoc states: * Will also return <code>null</code> if the view descriptor exists, but * fails the Expressions check. This is really out of context as nobody really knows what "expressions" means in this context. Is this related to the authorization story? Javadoc should really be improved to link to the related topics.

@@ -1,0 +1,3 @@
+[DataBinding] ComboSingleSelectionObservableValue setValue() does not change selection
+
+Created attachment 75407 Test case for ComboSingleSelectionObservableValue#setValue Build ID: HEAD Steps To Reproduce: 1. Run attached test case More information: ComboSingleSelectionObservableValue#doSetSelectionIndex uses getCombo().setText(getCombo().getItem(index)); to set the selection. This seems to work for CComboSingleSelectionObservableValue but not for Combo. Changing the line to getCombo().select(index); makes the test case pass. The attached test case checks both the selection and the expected text.

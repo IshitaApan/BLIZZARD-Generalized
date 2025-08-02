@@ -1,0 +1,3 @@
+Commands, Handlers, and keybindings should use leaf lookup
+
+Created attachment 180689 Use active leaf v01 The command, handler, and binding service should use the activeLeaf() lookup when it's time to execute. PW

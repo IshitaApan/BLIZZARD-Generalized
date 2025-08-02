@@ -1,0 +1,3 @@
+[Compatibility] WorkbenchWindowControlContributions do not have their dispose() method called
+
+When a new workbench window is created and closed, instantiated WorkbenchWindowControlContribution instances are not getting disposed. This can cause a leak.

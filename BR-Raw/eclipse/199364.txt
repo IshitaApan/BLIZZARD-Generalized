@@ -1,0 +1,3 @@
+[Browser] Internal Web Browser get pop up with the address bar empty
+
+The internal web browser poped up when triggered with this code IWorkbenchBrowserSupport browserSupport = MyPlugin.getDefault() 			.getWorkbench().getBrowserSupport(); browser = browserSupport.createBrowser(IWorkbenchBrowserSupport.LOCATION_BAR, 					null, null, null); URL url = new URL(inURL); browser.openURL(url); The browser works fine, but the address bar is empty at the initial stage and need to drop down it to view the URL and set it.

@@ -1,0 +1,3 @@
+[WorkingSets] IWorkingSetManager#createWorkingSetNewWizard(String[]) does not work as speced
+
+I20070514-0010 Spec says: "workingSetIds a list of working set ids which are valid workings sets to be created" Is: But passing in an array of size>1 results in a dialog which does allow to create any working set type, not only the requested one. See implementation in WorkingSetNewWizard: if (descriptors.length > 1) { page = workingSetTypePage = new WorkingSetTypePage(); } else { editPageId = descriptors[0].getId(); page = workingSetEditPage = registry.getWorkingSetPage(editPageId); } Should: Only allow to create working sets which have a type which is element of workingSetIds I will attach a patch...

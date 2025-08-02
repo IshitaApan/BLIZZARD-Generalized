@@ -1,0 +1,3 @@
+README: [Fonts] DBCS: customized font won't be saved
+
+Driver : RC2 and I20030319 Platform: RedHat 8.0 Professional ja_JP.eucjp locale Steps 1. at Preferences - font, select Text Font, click change button 2. select "jisx0208.1983" for char set, "fixed (kochi)", "12" for size, then click OK button. make sure "kochi-fixed-regular-12" is displayed. 3. click OK 4. get back to the font preference menu, "misc-fixed-regular-12" is shown.

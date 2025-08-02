@@ -1,0 +1,3 @@
+[EditorMgmt]  Back and Forward menu items don't open dropdown menus
+
+Build ID: I20071101-0010 The Navigate menu's Back and Forward menu items have lost their functionality to open a dropdown menu of edit locations. Their enablement state is correct but the menu items are essentially dummy menu items.

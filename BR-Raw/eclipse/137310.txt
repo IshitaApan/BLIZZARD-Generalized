@@ -1,0 +1,3 @@
+[CommonNavigator] NewActionProvider should use a different name than the group.new marker
+
+The NewActionProvider should use a name like "group.new.menu" instead of "group.new" as the name of its submenu to avoid conflics with the Menu.findByPath() API.

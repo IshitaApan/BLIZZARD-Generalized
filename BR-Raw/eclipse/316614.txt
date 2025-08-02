@@ -1,0 +1,3 @@
+[Compatibility] MHandledMenuItems in the main menu needs images
+
+We should query for a Command's image via the ICommandImageService.

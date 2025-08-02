@@ -1,0 +1,3 @@
+[Markers] Multiselection in problems view yields invalid status message
+
+I20050906-1200 select multiple problems in the problems view -> the status message reads: "problem.statusSummarySelected"

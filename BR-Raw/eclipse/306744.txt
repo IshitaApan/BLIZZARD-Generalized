@@ -1,0 +1,3 @@
+[Compatibility] Editors can no longer be restored across workbench restarts
+
+Caused by bug 305846.

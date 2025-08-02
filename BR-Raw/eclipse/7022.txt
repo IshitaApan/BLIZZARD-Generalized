@@ -1,0 +1,3 @@
+[Workbench] Splash screen with progress bar
+
+Many people observe the problem with hanging splash screens. Also, loading Eclipse can take a lot of time depending on the workspace. It would be good have a progress bar to indicate whether it's really hanging or still booting. Of course, some status info should be displayed as well (like which plugin is being loaded, etc.). Please have a look at the Gimp splash screen to see what I mean.

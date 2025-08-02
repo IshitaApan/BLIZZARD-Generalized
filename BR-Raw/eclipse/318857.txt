@@ -1,0 +1,3 @@
+Contributed menu items reordered
+
+I20100701-1105. The ordering for most of the menu (and sub-menu) items contributed by plug-ins like Search, JDT or Debug are inverted. This destroys the intent of the plug-in developers about how important an entry is and also makes it hard for long time users to switch to 4.0 since everything is at a different place. For me this is a blocker though it's only 'major' by bugzilla rules.

@@ -1,0 +1,3 @@
+[Graphics] Improve Look and Feel of FilteredTree
+
+I think the L&F of the FilteredTree is not yet optimal. I am using variants of it in my own projects, since the functionality is quite cool. For some ideas how the widget could be improved, see the attached screenshots. If there is a plan to adapt some of the ideas, I can contribute patches based on my own work. Ben

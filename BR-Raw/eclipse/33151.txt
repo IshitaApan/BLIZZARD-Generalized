@@ -1,0 +1,3 @@
+[Navigator] F2 in Outline does not work
+
+RC1 build - new workspace - new Java project, say no to perspective switch prompt - new Java class Test - position cursor over Test class name in editor - F2 - you get the popup - select class Test in Outline - F2 - no effect - choose Edit / Show Tooltip Description - it works

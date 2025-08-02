@@ -1,0 +1,3 @@
+Application.e4xmi should be default for "applicationXMI"
+
+Currently if I do not provide a value in my product configuration for "applicationXMI" I receive: org.eclipse.core.runtime.AssertionFailedException: null argument:applicationXMI argument missing I suggest to add the default that if no parameter "applicationXMI" is specified that the application tries to use "Application.e4xmi".

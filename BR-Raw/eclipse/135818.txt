@@ -1,0 +1,3 @@
+ITreeSelection does not offer getElementComparer()
+
+N20060410-0010 The API addition from bug 133375 only made it into TreeSelection, but not ITreeSelection. Since AbstractTreeViewer#getSelection() only promises to return an ITreeSelection, clients who need to modify a selection currently have to assume that tree viewers use a TreeSelection internally. I guess the best action now would be to deprecate ITreeSelection and use TreeSelection in javadocs that refer to ITreeSelection now. We've seen with StructuredSelection that clients tend to use the implementation anyway, so I think it would be best to not use an interface at all.

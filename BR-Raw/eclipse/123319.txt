@@ -1,0 +1,3 @@
+[Markers] ClassCastException during marker update
+
+3.2 20050116 It is possible to get the following ClassCastException during marker updates. This is because the refreshes are not IMarkers and should not be processed. !ENTRY org.eclipse.core.jobs 4 2 2006-01-10 16:00:48.468 !MESSAGE An internal error occurred during: "Process resource updates". !STACK 0 java.lang.ClassCastException 	at org.eclipse.ui.views.markers.internal.MarkerView$MarkerProcessJob.getExistingMarkers(MarkerView.java:206) 	at org.eclipse.ui.views.markers.internal.MarkerView$MarkerProcessJob.run(MarkerView.java:169) 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)

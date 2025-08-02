@@ -1,0 +1,3 @@
+[Workbench] Move editor management decisions into the presentation API
+
+There are currently a number of bugs that require decisions about editor arrangement to be made by the presentation. The current API does not allow this since presentations do not carry any persistent state. This enhancement requests that the following enhancements be added to the presentation API. 1. Presentation objects may carry persistent information, and can save and restore that information in the workbench. 2. The protocol for adding new parts to a presentation should allow the presentation to make decisions about the location of the new part, while still allowing it to determine which dragover affordance was being displayed when a part was dropped.

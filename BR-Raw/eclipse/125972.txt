@@ -1,0 +1,3 @@
+[PerspectiveBar] Show text for perspective is set again when changing preferences
+
+Using I20060131-1200, I don't show the text for the perspectives buttons that are docked on the left. I changed some preferences and when I applied the changes, the text was back.

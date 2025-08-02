@@ -1,0 +1,3 @@
+[Workbench] XMLMemento loses text data on deserialization when createChild called before putText
+
+When you first create a child memento and then set the text data, as in: mementoToSerialize.createChild("type","id"); mementoToSerialize.putTextData(textData); the text data will no longer be there after serializing and then deserializing the memento.

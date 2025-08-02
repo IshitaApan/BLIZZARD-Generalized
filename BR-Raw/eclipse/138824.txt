@@ -1,0 +1,3 @@
+[CommonNavigator] Remove obsolete API
+
+As part of the work on bug 112215, I introduced API to the common navigator very late in the 3.2 development cycle. Michael Elder provided feedback, and I subsequently changed the API to address his concerns. As a result, we ended up with types and methods in the common navigator API that are currently deprecated but have never been part of a release. I would like to remove the deprecated API. Do you think this can still be done now? Patch to follow.

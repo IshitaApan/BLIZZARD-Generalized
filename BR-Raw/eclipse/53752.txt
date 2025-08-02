@@ -1,0 +1,3 @@
+[Themes] Font preference not used across sessions
+
+build i0303, winxp, j9sc20031212 I changed my default text font: Window -> Preferences -> Workbench -> Colors and Fonts -> Uncategorized -> Text Font to be the system default but wheneven I start Eclipse it is reverted back to the default default. (10pt Courier new I think)

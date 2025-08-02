@@ -1,0 +1,3 @@
+[Jobs] Progress view enhancements
+
+I like the idea of progress view. It allows developer to see what is happening in the backgroud. To make that view more convenient I have the following suggestions. -- Add "Clear All errors" button to the view header. -- Improve error dialog. You always have to click "details >>" button to see the actual error -- Move completion percentage value at the beginning of task info. This will allow to use narrow view and still see the percentage (especially cvs operations and build progress).

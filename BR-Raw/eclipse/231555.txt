@@ -1,0 +1,3 @@
+[EditorMgmt] EditorHistory shouldn't store invalid items
+
+Currently, EditorHistory removes non-existant entries during a getItems() (probably when the menu is shown). This logic could probably be included in the add(*) as well, since we shouldn't add items we know are just being removed. See bug 228004 PW

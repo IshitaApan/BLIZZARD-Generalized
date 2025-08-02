@@ -1,0 +1,3 @@
+[DataBinding] Load of known null value in CompositeMap
+
+Found by FindBugs: line 232 The variable referenced at this point is known to be null due to an earlier check against null. Although this is valid, it might be a mistake (perhaps you intended to refer to a different variable, or perhaps the earlier check to see if the variable is null should have been a check to see if it was nonnull). I don't know what the proper fix would be at this point. We also have a bug in Snippet017TableViewerWithDerivedColumns, or in CompositeMap: - start Snippet017 - select "Della Duck" - change Mother to: "Downy O'Drake" expected: Grandmother column for Della Duck changes to "unknown" actual: Grandmother column for Della Duck remains "Downy O'Drake"

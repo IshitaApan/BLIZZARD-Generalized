@@ -1,0 +1,3 @@
+[Themes] [JFace] Bug in addAllocatedFontsToStale()
+
+200410190941 In addAllocatedFontsTo we do checks to see if the various font variations are the default font. If they aren't, we add the base font to the stale queue. We should be adding the font we're checking to the queue.

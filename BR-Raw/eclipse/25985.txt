@@ -1,0 +1,3 @@
+Need to remove duplicate settings
+
+UIPlugin and WorkbenchPlugin Why do these two classes deal with the same preferences? If you look at initializeDefaultPreferences method for the two classes, you will notice that the same preferences are initialized. Storage-wise it also looks like some of the preferences are being stored twice. We should be sure that there are no lost preferences from this change.

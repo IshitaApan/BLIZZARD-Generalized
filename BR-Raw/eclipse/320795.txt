@@ -1,0 +1,3 @@
+[Compatibility] Single tab of ecore editor are visible
+
+When there is only one tab in an MPEP, clients will usually explicitly hide them by setting the tab height on the CTabFolder. This doesn't seem to be working for the ecore editor.

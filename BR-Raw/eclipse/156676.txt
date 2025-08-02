@@ -1,0 +1,3 @@
+QuickAccess popup should include dirty indicator
+
+I20060906-1200 The QuickAccess popup (Ctrl+E) should include a dirty indicator (*) like the 'Window > Navigation > Quick Switch Editor' action does.

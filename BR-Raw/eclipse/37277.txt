@@ -1,0 +1,3 @@
+Title Area Dialog requires navigation to the error message
+
+2.1 it is currently not possible to navigate to an error message. Sceen reader users need to use the JAWS cursor to find the error message and continue. We should 1) Make the label navigable 2) Make the label the next element in the tab order after the next button (we may get this for free).

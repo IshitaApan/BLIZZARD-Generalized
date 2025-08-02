@@ -1,0 +1,3 @@
+"Select Working Set" doesn't?
+
+Window->Select Working Set. Create a working set and select it. OK. The navigator still shows all projects. On a related note, the java browsing views now let you select working sets individually for each view. If this is the way it will work, then it's confusing to have "Select Working Set" in the main Window menu if it doesn't do anything in any of the views.

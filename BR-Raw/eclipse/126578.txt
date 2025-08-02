@@ -1,0 +1,3 @@
+[Commands] handlers: Each opened Text and Java editor is leaked due to ProxyKeyBindingService
+
+N20060206-0010. Our memory leak tests failed in N20060206-0010. I've tracked this down to changes in ProxyKeyBindingService.setScopes(...).

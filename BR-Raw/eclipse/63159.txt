@@ -1,0 +1,3 @@
+[Progress] Progress dialog "Run in Background" button does not resize with larger font
+
+If you set the dialog font to something large, the "Run in background" button does not correctly resize.

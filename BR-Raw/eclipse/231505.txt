@@ -1,0 +1,3 @@
+[Forms] Invalid comment for TableWrapData
+
+Build ID: I20080502-0100 Steps To Reproduce: 1. TableWrapData speaks about some unknown HTMLTableLayout. 2. For FILL comment speaks only about column, but FILL can be used also for vertical layout. More information:

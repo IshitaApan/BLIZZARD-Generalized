@@ -1,0 +1,3 @@
+'Add All Plug-ins to Java Search' not in Ctrl+3
+
+Eclipse 4.0 SDK build #40 Workaround: 1. Open 'Plug-ins' view. 2. Select all, right-click, add to Java search.

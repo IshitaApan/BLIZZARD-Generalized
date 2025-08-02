@@ -1,0 +1,3 @@
+[MPE] Improve MultiPageEditorPart.setActiveEditor
+
+This method in MultiPageEditorPart would be improved by adding a break statement after the setActivePage call.: 	public final void setActiveEditor(IEditorPart editorPart) { 		int count = getPageCount(); 		for (int i = 0; i < count; i++) { 			IEditorPart editor = getEditor(i); 			if (editor == editorPart) { 				setActivePage(i); 			} 		} 	}

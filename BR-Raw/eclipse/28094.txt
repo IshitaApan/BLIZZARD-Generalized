@@ -1,0 +1,3 @@
+[MPE] Ruler menu actions do not work on multi-page editor
+
+When a mutli-page editor that contains a text editor as one of its pages contributes actions to the editor’s ruler menu, these actions do not run when selected. An example of this is in the multi-page editor example (org.eclipse.ui.examples.multipageeditor). To recreate: Install the multi-page editor example. Create and open a new .mpe file. Right click the ruler of the editor and select “Add Bookmark”. Nothing happens.

@@ -1,0 +1,3 @@
+[FastView] Cannot drag tab folder onto fastview bar
+
+It should be possible to turn all the views in a tab folder into fastviews by dragging the folder onto the fast view bar. This was possible in 2.1 but is no longer possible.

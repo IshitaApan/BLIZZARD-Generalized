@@ -1,0 +1,3 @@
+Javadoc for the AbstractUIPlugin stop method talks about shutdown, rather than stop
+
+Build ID: M20080911-1700 Steps To Reproduce: 1. Look at the Javadoc for AbstractUIPlugin.stop. 2. 3. More information: The Javadoc for the Activator (extends AbstractUIPlugin) stop method talks about shutdown, rather than stop, which if not wrong, is unclear.

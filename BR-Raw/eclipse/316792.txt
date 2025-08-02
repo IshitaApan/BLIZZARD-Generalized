@@ -1,0 +1,3 @@
+Toolbar images should be center aligned
+
+Currently if one of the children controls on the trim bar causes the trim bar height to grow, the other controls on the bar are aligned at the top. They should be center aligned.

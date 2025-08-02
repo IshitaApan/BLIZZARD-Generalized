@@ -1,0 +1,3 @@
+Paste in bultin-browser goes to address field instead of form input field
+
+Build ID: I20080617-2000 Steps To Reproduce: Launch a web application into the built-in browser that has a form. Click in a form field to place the cursor there. Press Ctrl-V or Select Edit/Paste in the menu. In either case the cliboard content is appended to the address bar in the browser.

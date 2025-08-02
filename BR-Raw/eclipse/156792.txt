@@ -1,0 +1,3 @@
+[EditorMgmt] Close a Tab with the middle button
+
+It would be ui-friendly if the tabs could be closed with the middle button as firefox does.

@@ -1,0 +1,3 @@
+[MPE] MultiPageEditorPart.setActivePage() doesn't send pageChange()
+
+Build F3 I'm not sure if this is by design or not, but when you send setActivePage() to a MultiPageEditorPart, it does not invoke its pageChange() method. This method is often overridden by subclasses to provide additional behavior on page changes. If this is, in fact, the desired behaviour, it should probably be documented in setActivePage().

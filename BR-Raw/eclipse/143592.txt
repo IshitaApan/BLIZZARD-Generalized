@@ -1,0 +1,3 @@
+[Contributions] Toolbar contributions from two editors displayed simultaneously
+
+Using 3.2RC4 When switching between editors, it seems that the toolbar buttons for the new editor are added before the ones for the old editor are removed. As a result, sometimes all workbench parts move down (making the toolbar two rows tall) and then move back up, creating an undesirable flashing effect. You can easily reproduce this by switching between two editors, both of which have a lot of different items on the toolbar (but not enough that either needs two rows on the toolbar).

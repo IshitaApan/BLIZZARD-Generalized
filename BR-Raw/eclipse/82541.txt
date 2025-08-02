@@ -1,0 +1,3 @@
+[Dialogs] SaveAsDialog should better handle closed projects
+
+I20050111-0800 The SaveAsDialog show closed projects and even enables the OK button. This makes no sense since we cannot save the file into a closed projects. An error dialog is the result. I suggest to disable the OK button if a closed project is selected.

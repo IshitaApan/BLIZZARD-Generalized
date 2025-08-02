@@ -1,0 +1,3 @@
+[Trim] (Regression) Minimize view fails to expand adjacent views in its place
+
+Created attachment 83345 screenshot Build ID: I20071101-2000 (3.4M3) Steps To Reproduce: 1. Launch Eclipse 3.4M3 2. Minimize any view 3. Notice that the view collapses down to its title bar, however the empty space is not filled by the adjacent views/editor area as expected. See attached screenshot

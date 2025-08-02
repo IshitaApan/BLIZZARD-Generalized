@@ -1,0 +1,3 @@
+MToolControls aren't rendered on MacOS X
+
+Build: HEAD 2010/05/05 @ 7am I was trying out to add a MToolControl to discover that WorkbenchRendererFactory is missing a tool control renderer. Implementation to follow.

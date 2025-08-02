@@ -1,0 +1,3 @@
+[Commands] Provide commands for copying build ID/config info to the clipboard
+
+These commands would be incredibly useful while verifying or reporting bugs. They probably shouldn't have any default keybindings.

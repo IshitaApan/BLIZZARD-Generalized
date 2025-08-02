@@ -1,0 +1,3 @@
+[DataBinding] SWTUtil should use timerExec(0,...) rather than asyncExec
+
+In the event that you have a lot of cross-realm bindings, the current implementation of DisplayRealm generates a lot of flicker due to excess asyncExecs. It should be using SWTUtil.greedyExec instead. (Note: if you make this change, you may want to remove the display filter from WorkQueue. There are certain methods that do not like being called from an event filter, so running arbitrary asyncExecs during a filter may not always be safe.)

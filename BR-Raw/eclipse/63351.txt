@@ -1,0 +1,3 @@
+[Navigator] Import/ExportResourcesAction not removed as listeners of selection service
+
+Open and closing the navigator view, these actions are leaked. It would appear that the dispose for these actions is not getting called?

@@ -1,0 +1,3 @@
+TVT1: Hardcoded string "System Editor"
+
+Select a java file and bring up the context menu, select "Open With". "System Editor" is still in English.

@@ -1,0 +1,3 @@
+[Viewers] IDecorationContext.getContextIds() comment says it should be removed before M5
+
+There is a similar comment in DecorationContext.

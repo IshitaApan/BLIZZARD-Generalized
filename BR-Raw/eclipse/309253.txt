@@ -1,0 +1,3 @@
+[Compatibility] Title bar not updated with current perspective name
+
+Eclipse 4.0 SDK, 20100413-1143, Win7 The title bar for the workbench window shows the name of the first perspective shown, and doesn't update as the perspective changes. Not a huge deal but given there is no perspective switcher (and thus no indicator of current perspective) it is easy to lose track of where you are if you are switching around a lot.

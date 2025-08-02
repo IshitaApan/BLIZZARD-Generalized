@@ -1,0 +1,3 @@
+Resetting a perspective with multiple minimized stacks causes 'widget is disposed' errors
+
+Found when testing the new min/max work... This is a bad one; open a fresh session, maximize the editor area and then reset the perspective...whamo ! The workbench is left in an unusable state...

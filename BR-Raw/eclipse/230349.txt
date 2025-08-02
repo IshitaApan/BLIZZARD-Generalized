@@ -1,0 +1,2 @@
+[StatusHandling] Status label provider should not be disposed when its modality is switched
+

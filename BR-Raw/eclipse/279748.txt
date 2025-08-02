@@ -1,0 +1,3 @@
+[Progress] Job with property KEEP_PROPERTY doesn't keep if status not Status.OK_STATUS
+
+Sample code: Job job = new UploadJob((IStructuredSelection) selection); job.setProperty(IProgressConstants.KEEP_PROPERTY, Boolean.TRUE); job.setUser(true); job.schedule(); If job successed then it keeps in Progress view; otherwise if IStatus.ERROR returned then it doesn't keep.

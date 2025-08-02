@@ -1,0 +1,3 @@
+[KeyBindings] New keys preference page doesn't link to help
+
+The new keys preference page doesn't link to the help system like the old one. This is important (new keys workflow) and low risk. PW

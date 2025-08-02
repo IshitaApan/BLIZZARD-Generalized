@@ -1,0 +1,3 @@
+[CellEditors] DialogCellEditor incorrectly displayed in TableViewer - RC2 bug
+
+Bug appeared on migration from M4 to RC2 - Linux GTK platform, JDK 1.3.1 Table has 2 columns, multiple rows column 0 : text display with TextCellEditor (arbitary text) column 1 : text display with subclass of DialogCellEditor - opens a FileDialog Steps: 1 - all rows/column have data set 2 - select column 1 - DialogCellEditor displayed as expected 3 - do not change anything but immediately select column 0 - TextCellEditor displays as expected 4 - then select column 0 of any other row BUG : the original column 0 now displays the DialogCellEditor for its row. Need sample code? Could strip out with a bit of work.

@@ -1,0 +1,3 @@
+[Wizards] NPE importing from zip file
+
+Build id: I20060208-0848 I got this NPE in my log when trying to import an existing project from a zip file: 	at org.eclipse.core.internal.resources.Workspace.loadProjectDescription(Workspace.java:1399) 	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage$ProjectRecord.setProjectName(WizardProjectsImportPage.java:145) 	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage$ProjectRecord.<init>(WizardProjectsImportPage.java:132) 	at org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider(WizardProjectsImportPage.java:919)

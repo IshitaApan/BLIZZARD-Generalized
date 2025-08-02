@@ -1,0 +1,3 @@
+[Editor Mgmt] (regression) Pin gone from editor menu
+
+RC2 Pin is no longer on the editor menu. I consider this a fairly important regression, as it means I can no longer pin an editor with the keyboard. The toolbar item still exists and works fine.

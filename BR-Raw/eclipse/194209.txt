@@ -1,0 +1,3 @@
+[CommonNavigator] ProblemsLabelDecorator does not scale well with Project Explorer
+
+When opening a project, The ProblemsLabelDecorator fires a LabelProviderChangedEvent for all resources contained in this project. While in a ProblemTreeViewer, like the Package Explorer, this is handled in an optimized way by filtering out updates to resources which are not realized in the tree view, the Common Navigator has no such means. The result is that for a project with e.g. 50000 resources, a label update for 50000 elements is triggered even though the project is not even expanded in the view.

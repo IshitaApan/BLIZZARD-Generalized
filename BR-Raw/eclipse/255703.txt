@@ -1,0 +1,3 @@
+[Forms] JavaDoc of SharedHeaderFormEditor broken
+
+HEAD of today SharedHeaderFormEditor#createPageContainer javadoc is broken. Current doc: Overrides <code>super</code> to create a form in which to host the tab folder. This form will be responsible for managing

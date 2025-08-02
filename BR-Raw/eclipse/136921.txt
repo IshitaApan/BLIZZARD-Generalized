@@ -1,0 +1,3 @@
+[IDE] New File dialog locks for 20 seconds
+
+I have fairly large workspace (many thousands files in 150+ projects). Whenever I try to create a new file, "New File" dialog stays locked for 15-20 seconds before I can start typing file name. CPU utilization is 100% during this time. Eclipse 3.2 I20060331-2000, WinXP SP2, tried with both IBM Java 1.5.0 SR1 and SUN 1.5.0_05.

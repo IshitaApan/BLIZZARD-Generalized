@@ -1,0 +1,3 @@
+Quick Access incremental suggestion list generation is either unintuitive or wrong
+
+Version: 4.2.2 Build id: M20130116-1800 - type 'b' (w/o the quotes) in the Quick Access field - there are many completions offered that have a 'b' in their middle (eg.- Commands > A'b'ort Release) - however a suggestion that starts with a 'b' like "Commands > 'B'uild Clean" is not shown - it looks like each category is limited to its first five matches, but it would be more intuitive/valuable to have suggestions that match what is being typed (Commands > Build Clean should win over Commands > Abort Release for 'b')

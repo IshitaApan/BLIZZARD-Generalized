@@ -1,0 +1,3 @@
+Launching with -persistState false leads to an NPE
+
+Like reported on the newsgroup launching with this flag set to true leads to an NPE because we still try to load the deltas.

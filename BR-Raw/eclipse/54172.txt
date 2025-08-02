@@ -1,0 +1,3 @@
+[ViewMgmt] Undocked view is gone
+
+I200403040800 I accidentially undocked a view from a maximized Eclipse on a single monitor laptop. I could undock the view by dragging it over the Windows taskbar. After releasing the mouse button the view was gone. I don't see it on the desktop. I can't restore it in the perspective because it is still open.

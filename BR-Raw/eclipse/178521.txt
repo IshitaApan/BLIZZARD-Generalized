@@ -1,0 +1,3 @@
+[Min/Max] Restored view stack should become active
+
+I20070321-0010 - minimize view stack - click Restore => I would expect that the top view of the restored view stack becomes active (as in the 3.0 presentation).

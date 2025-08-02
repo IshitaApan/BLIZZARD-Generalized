@@ -1,0 +1,3 @@
+[Wizards] Small overhead in WizardDialog
+
+Here is code of method WizardDialog.updateDescriptionMessage: private void updateDescriptionMessage() { pageDescription = currentPage.getDescription(); 	setMessage(currentPage.getDescription()); } As you can see, it access currentPage.getDescription() two times, but value of this method is already in field pageDescription.

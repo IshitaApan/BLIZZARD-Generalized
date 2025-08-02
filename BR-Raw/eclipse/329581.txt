@@ -1,0 +1,3 @@
+[Compatibility] View perspectiveExtensions to placeholder folders do not show up
+
+The view is correctly added to the folder but it is not visible on startup. Perspective factory code: public void createInitialLayout(IPageLayout factory) { factory.createPlaceholderFolder( "leftFolder", IPageLayout.LEFT, 0.25f, //$NON-NLS-1$ factory.getEditorArea()); } View extension: <view id="org.eclipse.ui.views.ResourceNavigator" relationship="stack" relative="leftFolder" visible="true"> </view>

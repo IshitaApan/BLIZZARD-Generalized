@@ -1,0 +1,3 @@
+[ActivityMgmt] e.printStackTrace() in ActivityCategoryPreferencePage
+
+} catch (DeviceResourceException e) { e.printStackTrace(); // ignore } This should probably be logged, rather than printed to the console.

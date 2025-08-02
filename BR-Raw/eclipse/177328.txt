@@ -1,0 +1,3 @@
+javadoc warning in N20070314-0010
+
+/builds/N/src/plugins/org.eclipse.platform.doc.isv/../org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/menus/IContributionRoot.java:60: warning - Tag @link: can't find addContributionItem(IContributionItem) in org.eclipse.ui.menus.IContributionRoot

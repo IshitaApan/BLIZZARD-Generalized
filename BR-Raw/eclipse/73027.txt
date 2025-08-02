@@ -1,0 +1,3 @@
+[Dialogs] Buttons are too high
+
+I20040831 Buttons are no longer oval but have a rounded rectangle shape (see first screenshot). The second screenshot shows how buttons using the small system font should look like.

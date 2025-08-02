@@ -1,0 +1,3 @@
+[StatusHandling]Reduce the incompatibility between status dialog and  jface ErrorDialog
+
+It is possible to automatically open support area when an error issues (bug 249647), but the open support button will still be a visible functionality difference between ErrorDialog and status dialog. Also, status dialog may display a link to the error log. It should be possible to easily remove those differences.

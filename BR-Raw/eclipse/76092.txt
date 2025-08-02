@@ -1,0 +1,3 @@
+[Themes] Fonts preference page shows always "defaults to ... font"
+
+I20041005 1. open Colors and Fonts preference page 2. change the Java > Java Editor Text Font Observe: it still says "defaults to Text Font" The user has no clue whether it now uses the new setting or still defaults to the Text editor font.

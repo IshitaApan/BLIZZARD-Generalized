@@ -1,0 +1,3 @@
+[Workbench] Startup progress always on top
+
+Running with platform core + UI from HEAD. The startup progress dialog seems to now be always on top. Even when I maximize other applications such as web browsers or Notes the progress dialog stays on top. This is very disruptive because it means I can't really use other applications while I wait for Eclipse to start. For applications with a longer startup sequence this would be even more of a pain.

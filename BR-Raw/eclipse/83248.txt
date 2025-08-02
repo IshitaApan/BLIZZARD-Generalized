@@ -1,0 +1,3 @@
+Warnings in javadoc generation
+
+If you check N20050119-0010/compilelogs/platform.doc.isv.javadoc.txt, you will find that there are a lot of warnings during the javadoc generation of platform plugins. I will attach patches to get rid of them.

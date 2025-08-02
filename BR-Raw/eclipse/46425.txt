@@ -1,0 +1,3 @@
+[Contributions] "Close Project" disabled
+
+build i1111, winxp, sunjdk 1.4.2 I downloaded the new integration build and ran it against my old workspace. Unfortuanatly the Open and Close Project menu items are both disabled. This happens in both the Package Explorer and the Navigator View.

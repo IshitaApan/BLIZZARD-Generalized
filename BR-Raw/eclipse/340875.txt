@@ -1,0 +1,3 @@
+Opening file from minimized package explorer does not switch to editor
+
+1 - Minimize the package explorer 2 - Open the package explorer (fly out, covering part of the editor) 3 - double click a file to open it The file opens in the editor, but the package explorer remains open retaining focus. I expect the package explorer to go back to minimized and the focus to go to the opened file.

@@ -1,0 +1,3 @@
+Use injection for WorkbenchLogger
+
+WorkbenchLogger "reaches out" to get a log and a trace instance. It should instead use injection to make it a more reusable piece (and to eat our own e4 programming model dog food).

@@ -1,0 +1,3 @@
+[Preferences] DBCS: "Use System Font" button truncated
+
+Driver: RC2 Platform : RedHat 8.0 Professional, motif, gtk2.2.1 locale : ja_JP.eucjp, ko_KR.euckr, zh_CN.gb18030, zh_TW.big5 Steps get into Preferences - Workbench - Fonts The button "Use System font" is truncated on motif, most of it isn't shown on gtk.

@@ -1,0 +1,3 @@
+[Commands] 'testOpenBasicEditor' is giving a failure based on a Handler clash
+
+This test is now failing. Paul's already aware of it and says it's a problem with the test; not a code defect...

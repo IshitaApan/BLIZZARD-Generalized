@@ -1,0 +1,3 @@
+[Dialogs] Open Resource does not sort entries correctly
+
+I20071204-1547 I opened the Open Resource dialog and types "plugin.xml". The list of matches contained: plugin.xml - org.eclipse.search.tests plugin.xml - org.eclipse.search The sorter should make sure that shorter entries are shown before longer entries with the same prefix, i.e.: plugin.xml - org.eclipse.search plugin.xml - org.eclipse.search.tests

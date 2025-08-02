@@ -1,0 +1,3 @@
+[WorkbenchLauncher] Eclipse launched with gcj should alert user to potential problems
+
+On the newsgroups there are a lot of questions from newbies that ultimately boil down to running Eclipse under gcj instead of the Sun JVM. IIRC, running under gcj is non-tested, non-supported, and has multiple known issues. Because gcj is standard fare on most Linux distros it would be wise for Eclipse to detect if it is running under gcj and alert the user that he is using an untested, unsupported configuration. Bug 13573 touches on this idea but is essentially a different, more specific issue. Specifically, see Bug 13573, comment 4 and Bug 13573, comment 7 This is a wall that many first-time users are hitting and it leaves a bad impression.

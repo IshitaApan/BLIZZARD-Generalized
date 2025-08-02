@@ -1,0 +1,3 @@
+Define common injection annotations
+
+We currently have three copies of the various annotations for injection (@Inject, @In, @Out, etc). We should have a single set of annotations in a common place rather than copying them everywhere. This is inhibiting wider use of annotations within the e4 workbench because currently each bundle needs to redefine them. I propose creating a new bundle org.eclipse.e4.core.services.annotations that contains these common annotations (and possibly others in the future).

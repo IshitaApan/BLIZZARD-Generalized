@@ -1,0 +1,3 @@
+[Perspectives] Current perspective not shown in Open Perspective menu or tool item
+
+build I20040106 - open the Java perspective - the Window > Open Persective menu includes the Java perspective item, and it has a bullet indicating it's the current perspective - likewise for the "Open a Perspective" item in the shortcut bar - switch to the Resource perspective - it is not shown in the Open Perspective menu or tool item This has the side effect of not showing the bullet for the current perspective, since the current perspective is not included. This bug is probably a regression due to removing recently used perspectives from the list. However, the current perspective should always be included.

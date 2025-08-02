@@ -1,0 +1,3 @@
+Extra separator in progress status item
+
+there is an extra separator between the drag handle and the progress region in the status bar. this should be removed

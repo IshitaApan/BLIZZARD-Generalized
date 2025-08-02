@@ -1,0 +1,3 @@
+[DND] Confirmation to move read-only file opens twice
+
+Drag&Drop a read-only file from one project to another in the Navigator. A confirmation dialog appears to confirm the move of the file. If you press "No" on the confirmation dialog, the dialog opens again asking the same question.

@@ -1,0 +1,3 @@
+[Preferences] FileFieldEditor does not call doCheckState
+
+org.eclipse.jface.preference.FileFieldEditor does not call doCheckSate() during checkState() which makes it difficult to subclass this editor to perform additional checks like it is possible with StringFieldEditor

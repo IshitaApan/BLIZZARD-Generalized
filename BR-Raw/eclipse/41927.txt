@@ -1,0 +1,3 @@
+[Dialogs] Selecting in PreferenceDialog generates too many invalid entries
+
+20030825 If you select an entry, close the dialog and then reopen it selecting anotehr entry will result in a "this page has invalid values" although you selected nothing.

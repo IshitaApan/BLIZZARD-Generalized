@@ -1,0 +1,3 @@
+[Perspectives] Resetting a perspective with an open minimized stack leaves cheese
+
+Take a perspective, minimize a stack and open it by clicking on a view icon. Reset the perspective...you end up with a grey box left over from the open minimized stack... We should be at least closing any open trim stacks before doing the reset.

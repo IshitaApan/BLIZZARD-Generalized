@@ -1,0 +1,3 @@
+[Commands] request: Window > Show View > Other... should have keyboard shortcut
+
+I should be able to bind 'Window > Show View > Other...' to a keyboard shortcut, e.g. Category: Window Name: Show View... default assignment: Alt+Shift+Q, V A command for 'Open Perspective > Other...' is also missing, but that's less severe for me.

@@ -1,0 +1,3 @@
+[ErrorHandling] SafeRunnableDialog layout needs polish
+
+I20090313-0100 I ran a JFace snippet and the error dialog popped up. Looks ugly.

@@ -1,0 +1,3 @@
+[QuickAccess] changes focus which each arrow key causing lots of distracting flashing
+
+1) Open quick access 2) Type a letter to get a populated drop down. 3) Use the arrow key to scroll up and down in the drop down. The focus is constantly switching from the tree back to the search field text widget. This causes the window trim to get and loose the focus look with each key press. It is very distracting and flashy.

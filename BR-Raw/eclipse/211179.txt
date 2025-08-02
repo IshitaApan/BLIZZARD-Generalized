@@ -1,0 +1,3 @@
+[DetachedWindows] Detached eclipse windows may render outside desktop
+
+Build ID: I20070621-1340 Steps To Reproduce: 1. Start with XP on two monitors (right click on Desktop, Properties, Settings, "Extend my Windows desktop onto this monitor") 2. Detach a view into a floating window (doesn't matter what view) 3. Move that window onto the second monitor/desktop 4. Shutdown Eclipse 5. Switch XP to a single monitor (reverse process in step 1) 6. Restart Eclipse 7. The view will now not be visible. It remains rendered off screen on the now defunct second desktop. It is very difficult to move this window back onto the first desktop, or even "re-attach" it, since you can't click on it. More information: I found this issue when using remote desktops onto my main machine.

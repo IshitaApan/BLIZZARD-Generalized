@@ -1,0 +1,3 @@
+[Key Bindings] Missing command for Project > Properties
+
+build I20030313 The command entry for Project > Properties is missing. In the code, the action has its actionDefinitionId set, but the command is missing from the plugin.xml. The command id is org.eclipse.ui.project.property. Erich, since you reported this, I'm assuming you approve that this be fixed for RC3.

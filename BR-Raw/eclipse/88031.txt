@@ -1,0 +1,3 @@
+[Preferences] Allow to show all preferences
+
+I20050315-0800 When we open the preferences from the editors we only show some preference nodes. When the user now wants to change some other preference he has to close and reopen the preference dialog via Window > Preferences in order to get all preferences. There needs to be a way to show all preferences. A possible solution might be to use the filter field: make it read-only and show: "Filtered". Then the "Clear" button could be used to show all preferences.

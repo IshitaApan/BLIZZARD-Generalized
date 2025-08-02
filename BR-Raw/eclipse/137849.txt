@@ -1,0 +1,3 @@
+Unable to set comparator in StructuredViewer
+
+While verifying bug 135284, I noticed the following in org.eclipse.jface.viewers.StructuredViewer public void setComparator(ViewerComparator comparator){ ====>	if (this.sorter != sorter){ 		this.sorter = comparator; 		refresh(); 	} } shouldn't it be: public void setComparator(ViewerComparator comparator){ ====>	if (this.sorter != comparator){ 		this.sorter = comparator; 		refresh(); 	} } Otherwise, it looks like you are never able to set a viewercomparator because this.sorter will always equal sorter. Note: I set severity to major because bug 135284 was major and if this bug is not fixed, it somewhat defeats the purpose of fixing bug 135284.

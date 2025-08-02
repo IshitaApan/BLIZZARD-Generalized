@@ -1,0 +1,3 @@
+[Preferences] Faulty preference page causes all preference pages to fail
+
+Integration Build 20011204. If you hit a bug in a preference page, all other preference pages fail to update until the preference page is closed and reopened.

@@ -1,0 +1,3 @@
+Selecting Ant configs in the LCD is brutally slow
+
+Build 20040511 Selecting Ant launch configs in the launch configuration dialog is brutally slow.

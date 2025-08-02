@@ -1,0 +1,3 @@
+[Progress] Progress view does not shrink
+
+Build ID: I20080617-2000 Steps To Reproduce: Progress view doesn't shrink when there is just a few or no jobs running. I think it would be a good idea to shrink the viewport to fit. More information:

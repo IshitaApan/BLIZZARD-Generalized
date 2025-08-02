@@ -1,0 +1,3 @@
+[GlobalActions] "Close Unrelated Projects" is dangerous and needs confirmation
+
+I20090317-1745 "Close Unrelated Projects" is a dangerous operation with and hence needs a confirmation dialog (with a "don't nag me again" checkbox, if you want). I just inadvertently executed this action from the context menu, and now I have to manually restore my workspace state. Even if Undo would work, that would still cause a full build of all closed projects.

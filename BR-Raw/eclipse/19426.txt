@@ -1,0 +1,3 @@
+Editor name in tab changes
+
+F2 1) Open a plugin.xml file using the default PDE editor 2) Open some other file 3) Exit/Restart the workbench 4) Note that the PDE editor tab says plugin.xml, click on it, its name changes to the plugin name.

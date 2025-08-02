@@ -1,0 +1,3 @@
+Strings in Combo drop down list are truncated
+
+Long strings writtenn in Japanese/Chinese are truncated in a dropdown list of a ComboBox. The list is not wide enough. The combo box's parent has GridLayout and the combobox has GridData with HORIZONTAL_FILL.

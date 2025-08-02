@@ -1,0 +1,3 @@
+[GlobalActions] Convert some File actions
+
+Convert the ActionFactory actions for QUIT, PROPERTIES, IMPORT, and EXPORT PW

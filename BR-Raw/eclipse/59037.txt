@@ -1,0 +1,3 @@
+[Navigator] Package explorer flicker when switching/closing editors
+
+If 'Link with editor' is active I see a lot of redrawing going on in the Package Explorer view when I switch between editors (or close an open editor). If the file opened in the second editor already appears in the Package Explorer, it is simply selected and there is no flicker. If, however, the view has to be scrolled to show the second file, I see a lot of redrawing before the view is shown in the new position. The Outline view also seems to draw a white background before drawing the content for the active editor, but it's not nearly as annoying as the Package Explorer (it's true that hte PAckage Explorer has much more items, though).

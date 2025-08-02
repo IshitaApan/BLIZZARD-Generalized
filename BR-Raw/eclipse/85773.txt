@@ -1,0 +1,3 @@
+[presentations] Close icon is wrong in r21 presentation
+
+I20050215-2300 switch to the R21 presentation window > preferences > general > appearance > current presentation > Eclipse 2.1 style > restart eclipse Notice that the icon for the view menu is incorrectly being used as the icon for the close menu.

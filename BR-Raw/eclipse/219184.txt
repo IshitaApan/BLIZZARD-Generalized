@@ -1,0 +1,3 @@
+[Commands] [Commands] IHandler#dispose is never called
+
+I noticed that my handler's dispose method is never called. Here is what I did to create it: - Create a new plugin project based on the "Hello World, Command" sample - Edit the class that the wizard creates (Samplehandler.java) to override the dispose() method of AbstractHandler. - Put a breakpoint in the method. - Debug a runtime workbench, run the command, and shut down and notice that dispose() is never called.

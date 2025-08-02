@@ -1,0 +1,3 @@
+[DnD] Maximize intro, then put intro in stand-by, now can't resize views
+
+Do the following (with a normal workbench window): Help - Welcome (i.e. show full window welcome) Double click tab, or click the restore icon Now try to resize the package explorer or any view and you will not be able to. You won't get the size grips either. Dragging a view will clear this up, as well as lots of other GUI actions. This also happens to me pretty consistently, but there were times when this didn't occur. It happened to me 4 out of 5 times I performed the above steps.

@@ -1,0 +1,3 @@
+[Forms] Non ASCII character in comment in SharedScrolledComposite.java
+
+I20100525-0800 On Linux checkout org.eclipse.ui.forms SharedScrolledComposite.java cannot be read using UTF-8, there is a non ASCI character in a comment.

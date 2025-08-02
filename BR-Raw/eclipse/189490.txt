@@ -1,0 +1,3 @@
+[CommonNavigator] Go To->Resource won't enable
+
+I0524 1. Open the Project Explorer in the Resource perspective 2. Create a vanilla project P 3. Create a folder F 4. Create a file resource R Open the Navigate->Go To file. "Resource..." will remain disabled.

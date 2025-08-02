@@ -1,0 +1,3 @@
+Mnemonics are programmatically changed, should not be
+
+The MnemonicAssigner class in IDE plugin changes the mnemonic that was assigned to a string in the .properties file. We should not do this as the translators will use what is in the .properties file as the assigned mnemonic for every translated language. We should remove this for 3.2, probably not necessary for 3.1.1

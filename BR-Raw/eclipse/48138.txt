@@ -1,0 +1,3 @@
+[Dialogs] Public API for ContainerCheckedTreeViewer, ResourceTreeAndListGroup
+
+These are very useful classes. They are good for use in wizards.

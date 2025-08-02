@@ -1,0 +1,3 @@
+Local history preference "Entries per file" can only be lowered, never increased
+
+build F1 -set the "Entries per file" local history preference from the default 50 you probably have now to 10 -restart ->You can no longer set the value higher than 10. Doing so results in a message "Above maximum Entries per file: 10".

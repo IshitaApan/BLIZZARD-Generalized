@@ -1,0 +1,3 @@
+[Markers] Quick filter selection is not updating the view
+
+20050411 Selecting and deselecting filters from the drop down is not changing the filters until you open the dialog

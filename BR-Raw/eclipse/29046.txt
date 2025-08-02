@@ -1,0 +1,3 @@
+[Preferences] Decorators Preference page list not sorted
+
+20021218 We need to sort the list of decorators on the decorators preference page.

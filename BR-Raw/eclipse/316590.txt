@@ -1,0 +1,3 @@
+Main menu increases in items across workbench restarts
+
+I20100610-2220 With the closure of bug 316558, the main menu is now persisted correctly...and also restored upon restart. This causes it to stack up with the WAB and makes the main menu bigger on every restart.

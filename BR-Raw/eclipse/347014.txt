@@ -1,0 +1,3 @@
+Leak of N number of listeners for N tab changes, preserved until the folder is destroyed
+
+A MenuDetectListener is attached to the tab folder in StackRenderer's showTab(MUIElement) implementation. Since this method is called every time there's a tab change, we are creating N listeners for N number of tab changes.

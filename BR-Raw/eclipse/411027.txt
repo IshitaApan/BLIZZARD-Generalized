@@ -1,0 +1,3 @@
+WorkbenchPage - Remove raw type warnings for ActionSets
+
+Gerrit review: https://git.eclipse.org/r/13872

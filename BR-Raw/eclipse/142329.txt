@@ -1,0 +1,3 @@
+SlaveContextService does not accept NULL expression
+
+SlaveContextService#activateContext(String contextId, Expression expression, boolean global) attempts to construct an AndExpression containing the default expression and NULL. This results in a NullPointerException. The fix is to avoid constructing the AndExpression and simply use the default.

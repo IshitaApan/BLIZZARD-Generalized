@@ -1,0 +1,3 @@
+[Workbench] Finalize API for Platform constants in org.eclipse.jface.util.Util
+
+I20090217-2200 Finalize API for Platform constants in org.eclipse.jface.util.Util. A bunch of useful methods and constants have been added with bug 239485, but they still say: 	 * <b>Note:</b> this may be made internal in 3.5 Furthermore, isCocoa() is missing, and for completeness, you could also add isLinux().

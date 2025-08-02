@@ -1,0 +1,3 @@
+[Viewers] TreeSelection should subclass StructuredSelection
+
+TreeViewer.getSelection() now returns a TreeSelection, which implements IStructuredSelection, but does not extend StructuredSelection. Clients who downcast to StructuredSelection instead of IStructuredSelection will be broken unless we make TreeSelection a subclass of StructuredSelection.

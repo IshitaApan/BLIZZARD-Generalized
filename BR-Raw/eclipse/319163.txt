@@ -1,0 +1,3 @@
+[Compatibility] No icon for Pin Editors
+
+We aren't processing any CommandContributionItems set directly. PW

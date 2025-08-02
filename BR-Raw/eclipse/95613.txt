@@ -1,0 +1,3 @@
+[Import/Export] importing existing projects from zip does not work
+
+in 0513 I am trying to get some existing projects into my workspace. I want them actually imported (i.e., copied) into the workspace location. It appears that the only theoretical way of doing this is zip it up and then import from the zip. Ok, so I zipped them up in a structure that looks like foo.zip bar/ .project ... project stuff ... fred/ .project ... project stuff ... ... When I import existing projects from that zip I get a workspace project sturcture like workspace/ bar/ .project bar/ .project ... project stuff ... fred/ .project fred/ .project ... project stuff ... ... The directory sturcture from the ziup is not being trimmed.

@@ -1,0 +1,3 @@
+[Workbench] would like to establish my workspace (and no longer be prompted)
+
+I20040316 The new support to provide a workspace chooser (bug 32147) is best for users who switch workspaces frequently. However, For developers who live in a single workspace, or who change workspaces infrequently, turning this dialog off (checkbox), and having it always open the previously used workspace would be simpler. An "open workspace" or "switch workspace" operation would let the user change workspaces after the fact (or setting the preference to turn the dialog back on)

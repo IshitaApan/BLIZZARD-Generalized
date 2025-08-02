@@ -1,0 +1,3 @@
+[Wizards] new search wizard does not seem to search submenus
+
+Searching for "Junit" in New Wizard does not find the "JUnit *" elements (Java > Junit > ....). Happens on Luna 4.4m2

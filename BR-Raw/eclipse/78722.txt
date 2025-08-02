@@ -1,0 +1,3 @@
+[Perspectives] First time perspective trigger doesn't explain what perspective is
+
+This is from the new eclipse user point of view. If you create a new java project, at the end of the wizard it asks you "Do you want to switch to the Java Perspective?" The new user has no idea what a perspective is. Some explaination or help that would pop up at this time would really help this new user.

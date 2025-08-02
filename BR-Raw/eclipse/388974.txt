@@ -1,0 +1,3 @@
+Move the org.eclipse.ui.tutorials.rcp.part* projects to examples
+
+I cloned repo git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git and then imported all projects from the bundles folder. In the runtime workbench, the first time I tried to cut some text, the workbench just quit. After wasting some time to find the bug, I discovered that the org.eclipse.ui.tutorials.rcp.part* projects are in the wrong folder. They must be moved away (e.g. into the examples folder), since normal work is not possible when these bundles are in the workspace.

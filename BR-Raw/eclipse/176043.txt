@@ -1,0 +1,3 @@
+[Commands] Need to be able to restore the toolbar without breking plug-in boundaries
+
+20070301 It is currently only possible to hide the toolbars but not to show them again unless you are on the Mac (see Bug 173927). We can't toggle the contribution's state without accessing internal code in the workbench from ide. We should convert the action to a command, handler and property tester. If we define the command and the property tester in workbench and add a menu contribution for it in the ide we can get this behaviour without having to access internal code.

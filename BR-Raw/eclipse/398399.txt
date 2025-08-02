@@ -1,0 +1,3 @@
+ToolItemUpdateTimer unnecessarily creates array of Runnable
+
+Created attachment 225769 A patch that prevents unnecessarily creating an array of Runnable The issue has been described in https://bugs.eclipse.org/bugs/show_bug.cgi?id=389251#c27 .

@@ -1,0 +1,3 @@
+[Viewers] getChild still used in indexForElement
+
+indexForElement() in AbstractTreeViewer still uses getChild() and not getChildren(). This should probably also change to using getChildren() and do the same thing as insertionPosition().

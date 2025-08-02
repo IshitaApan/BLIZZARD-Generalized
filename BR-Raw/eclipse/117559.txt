@@ -1,0 +1,3 @@
+[WorkingSets] WorkingSetComparator logic is backwards
+
+The comparator should compare the labels first, THEN the unique ids (as the comments indicate), not the other way around (as implemented).

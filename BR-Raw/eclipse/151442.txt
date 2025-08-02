@@ -1,0 +1,3 @@
+Javadoc error in ResourceAndContainerGroup.getResource()
+
+/** * Returns a string that is the path of the currently selected * container. Returns an empty string if no container has been * selected. */ public String getResource() { return resourceNameField.getText(); } I don't believe "...currently selected 'container'..." is what is meant for this method, as 'container' is refers to the container field of this group, not the resource file name that this method is associated with.

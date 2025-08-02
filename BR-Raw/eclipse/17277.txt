@@ -1,0 +1,3 @@
+Java Editor: converting line delimiters and undo
+
+If I convert line delimiters for a file and then choose 'undo' only the last delimiter is changed. My test file had 3000 lines :-)

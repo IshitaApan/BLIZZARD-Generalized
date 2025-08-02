@@ -1,0 +1,3 @@
+[DND] Check selection in NavigatorDragAdapter.dragStart
+
+build 20030129 NavigatorDragAdapter.dragStart assumes there is a selection. This may not be true on some platforms (Linux). If a selected item is dragged the click that starts the drag deselects the item first. dragStart should check if the selection is empty and set doit to false if it is to abort the drag. See bug 30249.

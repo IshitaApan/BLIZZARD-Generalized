@@ -1,0 +1,3 @@
+The "Edit Resource Filter" dialog doesn't populate the "Type" field
+
+Steps: 1) Open the "Edit Resource Filter" dialog on a compound filter 2) See, that "Type" is not populated

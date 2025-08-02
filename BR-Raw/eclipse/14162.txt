@@ -1,0 +1,3 @@
+Need a perspective switcher
+
+Build 20020416 With the menu changes, and the removal of the numbered perspective items, we need another way of switching between perspectives. We should add a perspective switcher, similar to the editor and view switchers (Ctrl+F8?) It should show just the open ones in MRU order. Note: MRU order for perspective switching is supported by the usability studies.

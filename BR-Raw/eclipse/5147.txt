@@ -1,0 +1,3 @@
+[JFace] DialogSettings convenience methods do not check for null
+
+In DialogSettings, convenience methods like getBoolean() do not check for null. They just call getString(String) then try to convert. This method can return null, though.

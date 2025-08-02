@@ -1,0 +1,3 @@
+[Preferences] StringButtonFieldEditor should disable button when disabled.
+
+setEnabled() should not only enable/disable the text string, it should also enable/disable the button, or should provide the capability for enabling/disabling the button separately. This problem is most evident when using a DirectoryFieldEditor. After disabling it, the user can still press on the "Browse..." button.

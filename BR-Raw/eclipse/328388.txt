@@ -1,0 +1,3 @@
+4.1M2 users will encounter problems when upgrading to 4.1M3 due to the introduction of MArea
+
+There are two ways to "solve" this problem. 1. Upgrade the version numbering in the deltas reconciler (refer to bug 317954). The deltas.xml will then be ignored and the user will start with a "blank" model. 2. Upgrade the user's model after the deltas have been applied by introducing an MArea into their perspectives where applicable (depending on whether they have an 'org.eclipse.ui.editorss' MPartSashContainer or not?).

@@ -1,0 +1,3 @@
+[Undo] - action handlers should refer adapter requests to their part
+
+The undo and redo action handlers provide an IAdaptable that describes ui info about the triggering action. Currently they can provide their progress monitor, undo context, workbench part, etc., and answer null for unknown requests. It would be better if they pass the adapter request on to their part if they don't recognize the class. In this way, more part-specific information can be provided. For example, an editor part could provide its text viewer, etc., which is useful for the responding undo manager.

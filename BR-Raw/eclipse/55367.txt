@@ -1,0 +1,3 @@
+[ActivityMgmt] Activitiy/Category need description returned
+
+Description was removed from the activity API way back in November. It needs to be returned.

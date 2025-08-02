@@ -1,0 +1,3 @@
+[WorkingSets] select working set dialog should be resizable
+
+3.2 M3 test pass: From the toolbar choose the working set cool item and choose "edit". > expected: the opening dialog is resizable so I can display all my working sets at once < actual: not resizable

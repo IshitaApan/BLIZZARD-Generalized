@@ -1,0 +1,3 @@
+[Commands] "Aggressive" error reporting for action def with definitionId and no command
+
+I200410120822 See bug 73756 and bug 76089. The error reporting added in bug 73756 tends to overwhelm the developer. If you have the error log set to show on new errors you can't work with this reporting and the log gets big very fast :-) Possibly report the problem once per action definition per Eclipse session?

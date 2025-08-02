@@ -1,0 +1,3 @@
+[Progress] [RCP] Progress Service Dialog requires a call to the progress service
+
+Build ID: M20070212-1330 Steps To Reproduce: Run the simple rcp attached in the class Startup.java you must uncomment the line 24 to get the progresmonitordialog More information:

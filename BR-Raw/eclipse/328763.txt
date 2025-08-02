@@ -1,0 +1,3 @@
+[Commands] CommandContributionItem's getCommand() method should spec that it 'null' may be returned
+
+Can happen for undefined commands and other such unfortunate happenings.

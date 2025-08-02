@@ -1,0 +1,3 @@
+[Progress] Dialog with "run in background" appears, even though "always run in background checked"
+
+1) Edit the source for any java file in a plugin (i.e. hit space, and leave the file "dirty") 2) Start a self hosted workspace 3) When the "save changes dialog" appears, say yes. 4) Notice that a dialog appears that has the "run in background" button.

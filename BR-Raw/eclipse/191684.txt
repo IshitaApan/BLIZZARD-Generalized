@@ -1,0 +1,3 @@
+[StatusHandling] Status Dialog needs enhancements
+
+Status Dialog it lacks some functionality: * selection change is not propagated to ErrorSupportProvider * there is no possibility of adding actions that should execute after closing the dialog - I would like to be able to launch Troubleshoot wizard or something like that. Or even simple workspace synchronization. Status Dialog is ugly. I think it would be nice, if the details were displayed as sections (like in compiler->errors/warnings preference page).

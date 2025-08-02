@@ -1,0 +1,3 @@
+Prevent moving of parts tagged with IPresentationEngine.NO_MOVE
+
+This is a simple fix, the underlying code is already there for the perspective construction, we just need to inhibit the drag operation.

@@ -1,0 +1,3 @@
+[Contributions] Customize Perspective has hiding conflicts for toolbars and menus
+
+Created attachment 232723 Add prefix check If a toolbar and a menu has the same id and both elements shell be hidden updateHiddenElements does not consider the prefix in its containment check. The outcome is that only one of the item (either a toolbar item or a menu item) may be hidden at a time. The fix is trivial in adding the prefix to the contains check. Then both items may be hidden at a time. Reproduction can be done by hiding the file menu and toolbar items

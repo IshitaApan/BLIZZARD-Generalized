@@ -1,0 +1,3 @@
+[QuickAccess] can't find Open Perspective/Show View->Other with Quick Access
+
+3.3RC2 I can't find either of these "Other..." menu items using the quick access list. Is this because they're nested items? Shouldn't there be a command for these?

@@ -1,0 +1,3 @@
+sysout in photo demo
+
+shutting down I get a "dispose called!" from org.eclipse.e4.demo.e4photo.ExifTable We should be using tracing for sysouts. org.eclipse.e4.workbench.ui.internal.Activator.trace(String, String, Throwable) is an example but I don't know if we should make it easy to use for client plugins, or simply if we should re-use it for our examples. PW

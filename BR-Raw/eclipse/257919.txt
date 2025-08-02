@@ -1,0 +1,3 @@
+[Viewers] OwnerDraw: Open type doesn't display the selected type
+
+Created attachment 119780 Open Type capture This happens about once an hour, and when it happens it is reproducible. I20081202-1812 I have platform-ui, platform-ui-tests, and platform-ui-examples checked out in my workspace, and go to the Plug-ins view and add all the plugins to the java search path. I have EclipseEnvironmentInfo.class open, and do a CTRL+SHIFT+T. When I type in my class "GlobalizationPref", it doesn't display it as found (but something else). But if I hit ENTER, it will open the correct class, and it looks like the status at the bottom is pointing to the correct plugin. Once it is in the remembered history, it displays the correct class. PW

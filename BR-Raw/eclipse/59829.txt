@@ -1,0 +1,3 @@
+[Dialogs] Working set created by the Team Project Set import wizard misses an icon
+
+Steps to reproduce: 1. File > Import > Team Project Set 2. choose to Create a working set containing the imported project 3. after the projects have been imported, go to the Select Working Set dialog 4. the new working set has no icon I think that after the workbench is restarted the icon is there.

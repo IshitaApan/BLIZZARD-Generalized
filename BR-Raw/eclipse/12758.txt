@@ -1,0 +1,3 @@
+NPE in SelectionEnabler
+
+SelectionEnabler.isEnabledFor(ITextSelection) should do a null check for classes just as SelectionEnabler.isEnabledFor(IStructuredSelection) does. Otherwise, I get an NPE in SelectionEnabler.verifyElement(ITextSelection).

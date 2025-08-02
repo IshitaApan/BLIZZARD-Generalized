@@ -1,0 +1,3 @@
+[Markers] DCR: Image and description for IMarkerResolution
+
+20030218 The Java editor shows quickfixes contributed as marker resulutions. besides a label, a proposal image and a description (hover widow on current selection) is shown. It would be good to have a IMarkerResolution2 extension that lets the contributors define their own image and description. see bug 32255

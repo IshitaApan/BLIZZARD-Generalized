@@ -1,0 +1,3 @@
+Views without view icon get red box by default
+
+Please remove this feature. If a few does not specify a icon it should not get one for free.

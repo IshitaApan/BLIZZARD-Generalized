@@ -1,0 +1,3 @@
+[Commands] Slow to close dialogs due to ContextAuthority.sourceChanged triggering multiple menu updates
+
+3.3 M7 - noticed it was slow closing one of our dialogs (taking a second or two) - took a YourKit profile - it shows 1 call to ContextAuthority.sourceChanged(int) leading to 17 calls to MenuManager.update. A similar issue was reported and fixed in M7, but this aspect of the problem still remains.

@@ -1,0 +1,3 @@
+[Dialogs] Open Resource dialog: history items should not look disabled
+
+I20060922-0010 Open Resource dialog: history items should not look disabled (gray). Only the divider line should be gray.

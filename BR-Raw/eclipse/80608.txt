@@ -1,0 +1,3 @@
+SWT.error does not initialize the causing exception.
+
+SWTException stores the "cause" exception in a public field named "throwable". This prevents access to the causing exception in a standard way, the Exception.getCause method. SWT.error should call initCause to set this up.

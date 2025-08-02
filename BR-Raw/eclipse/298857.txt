@@ -1,0 +1,3 @@
+Change on the property horizontal of PartSashContainer has no effect
+
+The modification of property horizontal in PartSashContainer by API is not synchronized with SWT/JFace.

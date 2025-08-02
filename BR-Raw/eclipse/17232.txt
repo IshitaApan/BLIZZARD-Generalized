@@ -1,0 +1,3 @@
+WWinPluginAction is a source of memory leak
+
+F1 WWinPluginAction creates a RetargetAction in its constructor and then calls partActivated on it, which registers the RetargetAction as a propertyChangeListener partDeactivated seems to be never called on that RetargetActin, which leads to memory leaks

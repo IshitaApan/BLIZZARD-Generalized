@@ -1,0 +1,3 @@
+[Dialogs] TypeFilteringDialog appends unnecessary comma
+
+Whenever the last extension that is shown in the 'Other Extensions' field is not the last extension in the list passed to the dialog an extra comma is appended at the end.

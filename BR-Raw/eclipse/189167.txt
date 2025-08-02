@@ -1,0 +1,3 @@
+[KeyBindings] Binding.equals() gives back wrong value
+
+org.eclipse.jface.bindings.Binding.equals() in line 272 (in 3.2.2 line 268) return (getType() != binding.getType()); This expression gives back false instead of true if the two values are same. Need to change to: return (getType() == binding.getType());

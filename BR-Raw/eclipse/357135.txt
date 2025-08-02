@@ -1,0 +1,3 @@
+GenTopic should generate UIEvents with comments and javadoc warning supression
+
+I've been told that UIEvents is a generated class. The generator should probably add a comment that the class is generated. Super deluxe would include comments with instructions on how to run the generator. It should also generate such that it does not contain warnings. A @SuppressWarnings("javadoc") is likely sufficient as it is not clear if the variables need any description more than just the name.

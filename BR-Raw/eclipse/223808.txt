@@ -1,0 +1,3 @@
+[PropertiesDialog] Properties dialog page hierarchy screwed up
+
+I20080325-0100 Compare e.g. contents of the tree in the Properties dialog for org.eclipse.core.expressions from CVS in I20080318-0800 (OK) and I20080325-0100 (multiple child pages shown as top-level pages).

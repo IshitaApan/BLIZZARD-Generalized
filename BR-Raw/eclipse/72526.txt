@@ -1,0 +1,3 @@
+[ActivityMgmt] Recode the 'restore defaults' option for the activity enabler
+
+A hack was used for 3.0 to provide the restore defaults ability of the activity enabler. Now that we have IActivity.isDefaultEnabled() API we no longer need this hack and it should be removed.

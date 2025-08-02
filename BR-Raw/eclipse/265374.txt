@@ -1,0 +1,3 @@
+[KeyBindings] Compiler error on BindingManagerTest on I20090217-2200
+
+Maybe something changed with ECJ or something, I dunno. I was using a 0203 build and wasn't getting this. Error is on line 84: The method getLastEvent() from the type BindingManagerTest.TestListener is never used locally

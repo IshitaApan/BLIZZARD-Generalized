@@ -1,0 +1,3 @@
+View pane not closing when part is closed
+
+I20111201 (4.2) If I close a view below the editor, the view pane sticks around. This seems to be a painting problem - if I minimize/restore the window it disappears. This has been consistently reproducible so far today...

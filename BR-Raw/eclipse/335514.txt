@@ -1,0 +1,3 @@
+[Compatibility] Context help in 'Help' view is stale
+
+I20110125-2200 Launch Eclipse, select a view and hit F1, the correct context help displays in the help view. Now click around to different views, note that the title for the context help is correct but the description and links are not. For example after clicking on the JavaDoc view I see About JavaDoc This view allows the user to view help pages, view the help table of contents or search the help system. See also: The Help View Sometimes the title and description both match but often the description comes from a previously selected view or editor.

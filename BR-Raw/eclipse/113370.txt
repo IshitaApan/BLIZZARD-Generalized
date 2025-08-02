@@ -1,0 +1,3 @@
+[Dialogs] The window title  SafeRunnable displays is always English in non-English language
+
+The window title SafeRunnable displays is not resourced out correctly. So the error dialog always displays the English "Error" even in non-English language. In plugins\org.eclipse.jface\src\org\eclipse\jface\util\SafeRunnable.java, In SafeRunnable#handleException(Throwable e): 		MessageDialog.openError(null, JFaceResources.getString ("Error"), message); //$NON-NLS-1$ It should specify "error" instead of "Error".

@@ -1,0 +1,3 @@
+[Viewers] ColorAndFontCollector and getColorAndFontCollector() visibility conflict
+
+I'm creating a viewer for a custom table and extending StructuredViewer. In StructuredViewer the method getColorAndFontCollector() is protected so I should be able to access it. But the return type is ColorAndFontCollector which is declared as a package level class thus I can't call the method because the return type isn't visible to viewers outside of the viewers package.

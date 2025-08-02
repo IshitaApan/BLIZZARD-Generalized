@@ -1,0 +1,3 @@
+[ViewMgmt] Ant View will not display first in the Java Browsing perspective
+
+1) Launch new install (or just new workbench) of eclipse. 2) Create new simple java project 3) Open Java Browsing perspective 4) Select Window->Show View->Ant observer: no ant view is displayed however, if open the console view first the Ant view is displayed as expected. Follow this set of steps to see it work properly; 1) Launch new install (or just new workbench) of eclipse. 2) Create new simple java project 3) Open Java Browsing perspective 4) Select Window->Show View->Console 5) Select Window->Show View->Ant observe: the Ant view is displayed as expected I believe that this is platform neutral but I've not tested it on my PC yet.

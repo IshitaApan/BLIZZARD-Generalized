@@ -1,0 +1,3 @@
+[RCP] [Javadoc] documentation error
+
+JavaDoc for org.eclipse.ui.application.WorkbenchAdvisor incorrectly states: "preShutdown - called just after event loop has terminated but before any windows have been closed; use to deregister things registered during initialize" Software should not use preShutdown() to "deregister things registered during initialize" because preShutdown() is not necessarily followed by shutdown. For instance, if there are dirty documents open, the user will be prompted to save changes. One option from this prompt is to cancel the shutdown. Clearly, if the user does cancel and preShutdown() deregisters things registered during initialize then 'things' are not going to work!

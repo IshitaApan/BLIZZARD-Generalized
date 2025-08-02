@@ -1,0 +1,3 @@
+FilteredItemsSelectionDialog flickers when pattern changes
+
+I20070525-0010, was OK in I20070523-0010. The FilteredItemsSelectionDialog flickers when the pattern is changed. E.g. open the Open Type dialog and slowly type "Array" (wait until search is done after every keystroke). => The table always first becomes blank and then the new items are shown.

@@ -1,0 +1,3 @@
+[Min/Max] Opening a view that gets placed in a minimized stack doesn't get focus
+
+Minimize the Java perspective's Outline stack Open the Ant view (which has a placeholder in that stack) The stack correctly restores but: 1) It doesn't have focus 2) It's -first- in the tab order, not last as expected This is almost certainly an ordering issue where I should be restoring the stack -first- in 'showView' before proceeding with the view's open...

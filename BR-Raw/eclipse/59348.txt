@@ -1,0 +1,3 @@
+[EditorMgmt] list of editors does not add a scrollbar when larger then the screen
+
+If I open > 50 editors then open the drop down list, it should have a scrollbar, however it is just larger then the screen and the top is not visible. It should have a maximum number of editors it will show before adding a scrollbar and a max height (the screen height) ... maybe 20 or so.

@@ -1,0 +1,3 @@
+[LinkedResources] Linked Resources properties page: 'Convert' button is dangerous
+
+N20100207-2000 The new Linked Resources properties page has a dangerous 'Convert' button, which immediately applies changes and offers no way to revert. The Cancel button should work (i.e. only apply changes when the user clicks OK), or at least the button should be called Convert... and ask the user *before* it changes anything. In the dialog, the text should not be editable and the Return key should close the dialog (e.g. via StyledText#setEditable(false)).

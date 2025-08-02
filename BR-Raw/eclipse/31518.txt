@@ -1,0 +1,3 @@
+[Workbench] MessageLine used hardcoded color
+
+20030206 The MessageLine uses the hardcoded color RGB ERROR_BACKGROUND_RGB = new RGB (230, 226, 221);

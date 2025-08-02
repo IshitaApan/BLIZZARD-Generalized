@@ -1,0 +1,3 @@
+[Compatibility] Action's style is not respected in main menu/toolbar
+
+Actions like 'Build Automatically' needs to be a toggle/checkbox.

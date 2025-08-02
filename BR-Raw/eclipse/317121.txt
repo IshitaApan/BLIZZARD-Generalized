@@ -1,0 +1,3 @@
+[Compatibility] Second open of File menu shifts contributions around
+
+The first time we open the File menu, the Restart item is by Switch Workspace. The second time it opens, Restart appears at the top. The cleanup was calling removeGui(*) on the child elements. Then the Restart item was added and rendered by the listener at idx==0. Then the later call to createGui(*) on all children skip Restart because it already has a widget. PW

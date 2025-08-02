@@ -1,0 +1,3 @@
+Test failures in EPartServiceTest, ESelectionServiceTest
+
+EPartServiceTest -testEvent_PartActivated2 -testEvent_PartDeactivated2 -testSwitchWindows ESelectionServiceTest -testThreePartSelection If I rollback attachment 163896, the problem goes away. It's quite possible the culprit is in the EPS/ESS implementations themselves. Will take a look.

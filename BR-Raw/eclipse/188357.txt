@@ -1,0 +1,3 @@
+[EFS] Export to tar not working with pluggable filesystem
+
+Build ID: I20070323-1616 Steps To Reproduce: 1. install a EFS I believe this is an example at /cvsroot/org.eclipse/www/eclipse/platform-ui/plugins/org.eclipse.ui.examples.filesystem 2. create a linked folder in the workspace 3. select to export / choose export to tar 4. each file selected to be exported fails More information: Failure point appears to be in org.eclipse.ui.internal.wizards.datatransfer.TarFileExporter line 74 IPath location = contents.getLocation(); Needs to be modified to use getLocationUri()

@@ -1,0 +1,3 @@
+usability improvements to import external project
+
+build M5. If a new developer was brought onto a project where they didn't use CVS, they would have to import several projects into their workspace. To do this, they would have to click: File > Import > External Projects. Here they have to browse to the location on disk where projects exist and then import one project at a time. It would be a more user friendly solution if the user could choose many projects at the time. Or at the very least, remember the last file location the user "browsed" to when they choose the last project.

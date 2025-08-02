@@ -1,0 +1,3 @@
+[ViewMgmt] [RCP] View in fixed perspective should not be minimizable
+
+A fixed perspective is just that - fixed. Unchangeable, unmovable, immutable. It's intended to be used for RCP applications for less sophisticated users that might be confused if their views suddenly start closing or scurrying down to the bottom of the window. Therefore the minimize and maximize actions should not be invocable or visible anywhere, for example the view system menu and the view tab area. See related bug 64836 which appears to ask for the opposite of this.

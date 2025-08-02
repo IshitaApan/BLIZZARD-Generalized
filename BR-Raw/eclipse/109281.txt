@@ -1,0 +1,3 @@
+[Viewers] ContentViewer does not null out input on handleDisposed
+
+While tracking down a possible leak I were calling viewer.setInput(null) when viewer.getInput()!=null but that gave an assert exception because the ContentProvider had been nulled out in handleDisposed(). I suggest you also null out Input to keep the state consistent since the code actually call inputChanged as if input had been nulled out. protected void handleDispose(DisposeEvent event) { if (contentProvider != null) { contentProvider.inputChanged(this, getInput(), null); contentProvider.dispose(); contentProvider = null; input = null; // add this line for consistency } if (labelProvider != null) { labelProvider.removeListener(labelProviderListener); labelProvider.dispose(); labelProvider = null; } }

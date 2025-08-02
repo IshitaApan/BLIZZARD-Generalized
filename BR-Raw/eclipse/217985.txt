@@ -1,0 +1,3 @@
+Port 3.3.2 CommonNavigator performance improvements to 3.4
+
+We need to release Bug 216827 into the 3.4 stream

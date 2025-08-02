@@ -1,0 +1,3 @@
+[KeyBindings] interactions: Next Word (ALT+F in emacs) mode is flaky
+
+Thanks for adding this, but it's flaky. Works sometimes and not others. If I restart, it works again for awhile. When it doesn't work, it brings up the file menu. I haven't figured out any pattern to this.

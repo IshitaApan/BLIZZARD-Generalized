@@ -1,0 +1,3 @@
+[Viewers] [Javadoc] Incomplete javadoc for DialogCellEditor
+
+The javadoc for #openDialogBox() does not say how to indicate that the dialog box was canceled. The de-facto behaviour is that if null is returned, it is considered as "cancel".

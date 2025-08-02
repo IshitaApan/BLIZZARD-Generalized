@@ -1,0 +1,3 @@
+doDelete() does not consume event on StyledText
+
+If the delete key is pressed in a StyledText widget, some work will be done to delete the current selection. However, the event is not marked as doit=false. This means that listeners further down the chain aren't readily notified that some work has already been done. The workaround for this problem is to attach a modify listener to the widget. This modify listener can either notify or remove the key down listener that doesn't want to do duplicate work.

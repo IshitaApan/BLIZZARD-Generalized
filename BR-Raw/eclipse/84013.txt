@@ -1,0 +1,3 @@
+[javadoc] IWorkbenchPage description of view is incorrect
+
+The javadoc of IWorkbenchPage says: Only one instance of a particular view type may exist within a workbench page, which is invalid since 3.0.

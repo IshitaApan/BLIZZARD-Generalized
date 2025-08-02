@@ -1,0 +1,3 @@
+Sash tests failing over part renderer call
+
+Created attachment 149255 Fix test failures v01 It is failing when trying to instantiate the part renderer ... it's not in a realm and the context is missing some information. PW

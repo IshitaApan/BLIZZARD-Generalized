@@ -1,0 +1,3 @@
+[DataBinding] Content providers should support AbstractTableViewer
+
+Observable(List|Set)ContentProvider should check for AbstractTableViewer instead of TableViewer, so that it may be used with non-standard Table widgets.

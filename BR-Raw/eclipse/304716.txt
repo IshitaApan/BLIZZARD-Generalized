@@ -1,0 +1,3 @@
+[UX] [Progress] Show Eclipse startup progress in the Eclipse icon on the Windows 7 Task Bar
+
+From Bug 302529, we should show Eclipse startup progress using the TaskItem progress support in SWT. There is some work done on this on Bug 302529 but the progress did not match perfectly.

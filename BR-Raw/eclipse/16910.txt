@@ -1,0 +1,3 @@
+[Examples] Readme file creation wizard is too tall
+
+The Readme file creation wizard is too tall and has a cliped control at the bottom. The container list could be made shorter.

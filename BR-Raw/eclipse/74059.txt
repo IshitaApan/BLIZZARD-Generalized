@@ -1,0 +1,3 @@
+[Viewers] ViewerLabel#hasNewImage() is wrong when setImage(..) has not been called
+
+I200409140800 The Javadoc of ViewerLabel#hasNewImage() states: @return boolean. <code>true</code> if the image has been set to something new. But the current implementation also returns true when 'startImage' is != null, and setImage(..) has not been called. A fix could be to set 'newImage' to 'initialImage' in the constructor, and then update getImage() to just return newImage. For clients that use the pattern ... if (updateLabel.hasNewImage()) item.setImage(updateLabel.getImage()); ..., the current implementation makes them call Item#setImage(..) too often. The same problem applies to hasNewText().

@@ -1,0 +1,3 @@
+[IDE] Allow a user to force the removal of all problem markers
+
+We've ran into situations when we see stray problem markers in the problems view. These markers cannot be deleted anymore because the code (builder)supposed to take care of them either is not around anymore or simply cannot identify them by type or by some other attribute. Currently, the only way to get rid of these markers is by deleting the metadata. The platform could provide an action which a user could use to remove all problem markers from the problems view. To keep the workspace in a consistent state, it may be that after deleting the markers, the action will have to trigger a full build.

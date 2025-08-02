@@ -1,0 +1,3 @@
+Need a way to access the TreeItem or TableItem on a refresh
+
+It is not currently possible to know when an item is refreshed. This is required for ownerDraw support in viewers.

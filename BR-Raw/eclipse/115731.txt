@@ -1,0 +1,3 @@
+WorkingCopyPreferences.removeNode is broken
+
+WorkingCopyPreferences.removeNode() does this: //... removed = true; String[] keys = keys(); WorkingCopyPreferences.keys() does this: checkRemoved() WorkingCopyPreferences.checkRemoved() does this: if (removed) { throw new IllegalStateException(message); Therefore, WorkingCopyPreferences.removeNode() always throws an exception. This is a problem because of Bug 111144, among other things. It would be nice to be able to remove a preference node. Suggested fix: in removeNode(), don't set removed=true until the work is complete. And/or, don't call checkRemoved() all over the place.

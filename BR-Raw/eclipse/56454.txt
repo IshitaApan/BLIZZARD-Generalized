@@ -1,0 +1,3 @@
+[Activities] Configure Activities dialog does not use dialog font
+
+Reached through: Window/Configure Activities...

@@ -1,0 +1,3 @@
+[Compatibility] Handlers activated at the global level
+
+Handlers that are activated at the global level need to use their activeWhen clause to determine the correct handler if there are more than one. PW

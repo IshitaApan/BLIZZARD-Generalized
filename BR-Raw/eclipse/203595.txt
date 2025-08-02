@@ -1,0 +1,3 @@
+[Contributions] SubMenuManager should use ListenerList's clear() method
+
+Created attachment 78549 Patch to call clear(). Per the javadocs of clearListenerList(ListenerList), bug 117519 has been resolved and the new clear() method should be used instead.

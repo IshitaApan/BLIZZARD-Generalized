@@ -1,0 +1,3 @@
+[Progress] non-responsive blocked dialogs
+
+When an operation is executed with IRunnableContext.run(false, false, ...) and a blocked dialog shows up, then the blocked dialog is not responsive since there is nobody to process the events. The non-responsiveness shows up as follows: - the details button is not responsive - the progress bars shown in the details area are not updated - you cannot cancel a thread in the details area In this situation we should disable the details button and collapse the details area. To detect the forked=false case could you make the following test: ModalContext.isModalContextThread(Thread.currentThread(). If the current thread isn't the modal context thread then the operation wasn't forked.

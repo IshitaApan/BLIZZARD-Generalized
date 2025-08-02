@@ -1,0 +1,3 @@
+[DnD] Wrong api doc for org.eclipse.ui.part.PluginTransfer
+
+I20070717-1020 Class comment first sentence Is: ...a workbench in a drop and drop operation. Should: ...a workbench in a drag and drop operation.

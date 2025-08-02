@@ -1,0 +1,2 @@
+[StatusHandling] Move StatusDialog and StatusNotificationManager into WorkbenchErrorHandler
+

@@ -1,0 +1,3 @@
+Internal error dialog focus default
+
+Build: 20020404 The internal error dialog defaults the focus to the "Yes" answer, it should default to "No". The main problem I have with defaulting to "Yes" is that an absentminded Enter causes the entire workspace to shutdown.

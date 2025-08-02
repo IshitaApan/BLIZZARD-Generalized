@@ -1,0 +1,3 @@
+Minimized stacks are missing on restart
+
+Run a fresh inner (no deltas) Detach the Outline view by dragging it right maximize the editor area close restart There are no minimized stacks visible If yoiu put a breakpoint in the WBWRenderer's processContents where it's restoring the trimBars before the restart you can see that there is only the one 'top' trim bar in the model, not sure where they went...I'll attach my deltas file, to my untrained eye the minimized stacks seem to be there (i.e. if you do a find on 'left(' there is a ToolControl defined).

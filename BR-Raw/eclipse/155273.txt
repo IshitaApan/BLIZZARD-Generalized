@@ -1,0 +1,3 @@
+[Markers] Visibility of problems view columns should be configurable
+
+The columns displayed in the problems view are not necessarily relevant to all eclipse-based products. For example, the "In Folder" field is very physical file oriented but many products today use a logical structure. Also if new fields are added (see bug https://bugs.eclipse.org/bugs/show_bug.cgi?id=155270), they might not be of interest to all product families. The columns displayed should be configurable. Products and users should be able to manage the visibility of problem view columns, turning irrelevant ones off by default.

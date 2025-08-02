@@ -1,0 +1,3 @@
+Detached windows do not get rendered automatically
+
+I20110125-2200 1. F1 2. Detach the 'Help' view. 3. It has now disappeared. 4. Pressing 'F1' again does nothing. Resetting the perspective doesn't help. Closing and reopening the perspective doesn't help. Restarting doesn't help. If you restart the 'Help' view will appear in a detached window.

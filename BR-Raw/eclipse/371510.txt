@@ -1,0 +1,3 @@
+[Compatibility] IWorkbenchSiteProgressService.warnOfContentChange not implemented in 4.x
+
+This method is used to let the user know that the contents of a view have changed. I believe this was previously implemented by setting the tab font to bold. Current 4.x implementation in WorkbenchSiteProgressService: public void warnOfContentChange() { 		// site.getPane().showHighlight(); } Note there is also bug 282585 for marker views in particular, which is a different problem. In that case the problem is that warnOfContentChange is not called at all.

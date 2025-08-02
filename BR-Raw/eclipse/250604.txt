@@ -1,0 +1,3 @@
+[FieldAssist]  API - ContentProposalAdapter needs isShowing() method
+
+Please implement a method ContentProposalAdapter.isShwoing(). The method should return a boolean whether the content assistant proposal popup is open or not.

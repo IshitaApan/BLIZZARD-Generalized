@@ -1,0 +1,3 @@
+Minimized shared area magically comes back
+
+1. Minimize the shared area (with nothing in it). 2. Close the 'Outline' view. 3. The shared area is now restored.

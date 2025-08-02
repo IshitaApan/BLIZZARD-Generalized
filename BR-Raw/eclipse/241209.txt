@@ -1,0 +1,3 @@
+[Markers] [Problems View] Changing columns in the preferences makes errors disappear from the view
+
++++ This bug was initially created as a clone of Bug #240299 +++ 1. Have a code with some errors in it. Example: <?php class Test{ function test($a)} function test2(){ $d = 5; if ($d =! 0){ echo ; } } } ?> 2. In the view menu choose Preferences 3. Move a column from Show to Hide (or the opposite way) -> OK See that errors disappear from the view!!! (Go to the menu -> Show -> Show All to see them again)

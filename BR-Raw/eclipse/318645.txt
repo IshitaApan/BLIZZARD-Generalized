@@ -1,0 +1,3 @@
+Duplicate menu contributions after editor switching
+
+Build Identifier: Build id: I20100630-1856 Steps to reproduce: 1. Open a Java file 2. Make sure the 'Source' menu is okay 3. Open a text file 4. Switch back to the Java file 5. Open the 'Source' menu again: all contributions are duplicated Additional switching back and forth will add even more duplicates to the 'Source' menu. Reproducible: Always

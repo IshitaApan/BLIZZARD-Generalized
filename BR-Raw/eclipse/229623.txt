@@ -1,0 +1,3 @@
+[Commands] ShowViewAction no longer respects the 'makeFast' parameter
+
+Clicking on the FVB and selecting a view from the resulting -menu- (i.e. not opening the dialog) now results in the view being opened in the perspective instead of as a fast view.

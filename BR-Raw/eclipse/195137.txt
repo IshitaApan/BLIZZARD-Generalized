@@ -1,0 +1,3 @@
+[Viewers] Tooltip for multiline comment in History view hinders selection
+
+N20070702-0010 The tooltip for multiline comments in the History view hinders selection of the row behind, e.g.: - open CVS History for /org.eclipse.core.expressions/.classpath - move mouse to column "Comment" of rev. 1.7 - click -> clicks "through" the tooltip and selects the row - move mouse down to rev. 1.6 - Shift+click to select both items -> mouse click does nothing -> expected: should select rev. 1.6 and dismiss the tooltip If you now press Alt+Tab to file a bug, the tooltip even stays up, although the workbench window has lost focus.

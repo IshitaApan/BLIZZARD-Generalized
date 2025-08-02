@@ -1,0 +1,3 @@
+[Databinding] Removing LinkedList dependency from Realm
+
+When trying to compile Databinding with GWT-Compiler it would be nice that to replace LinkedList because this is not part of GWT-Classlib and would have to be ported from harmony (with many dependencies)

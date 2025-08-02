@@ -1,0 +1,3 @@
+[Commands] Ctrl-C not working in marker properties dialog
+
+I20080429-0100 - right click on a problem in the problems view and click "Properties". Select the description text and try copying using Ctrl-C. Using "Copy" from the context menu does work.

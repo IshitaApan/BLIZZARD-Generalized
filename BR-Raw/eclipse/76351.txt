@@ -1,0 +1,3 @@
+[Dialogs] API - InputDialog with customizable style bits
+
+I think sometimes it might be useful to have an Input Dialog where the user enters a few lines of text and not just one. So, maybe it would be a good idea to add another constructor to the InputDialog class where you can pass in your own Text component, which might be defined as whatever you want, since Text can be easily defined as a multi-line component with an SWT.MULTI bit.

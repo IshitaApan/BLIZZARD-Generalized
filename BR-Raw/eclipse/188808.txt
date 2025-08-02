@@ -1,0 +1,3 @@
+[Preferences] Workbench Preferences dialog cannot filter default preference page
+
+Build ID: 3.3 Steps To Reproduce: 1. Unzip an Eclipse SDk package to somewhere. (Or, clean the exist eclipse configuration directory) 2. Copy the Attached TestFilter_1.0.0.jar to eclipse/plugins folder. 3. Launch Eclipse then Click "Windows" -> "Prefereneces" in order to open the Preferences dialog. 4. You will find the Prefereneces display an empty area and no contents yet. And no default node is selected. 5. But if click any page node from left, show corresponding page. 6. Next time to launch eclipse, all of them are normally. I pasted the two screen-shots, one is correct pictures and another is wrong. More information:

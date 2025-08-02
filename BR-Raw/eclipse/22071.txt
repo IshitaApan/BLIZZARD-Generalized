@@ -1,0 +1,3 @@
+[Editor Mgmt] Graphical hint for pinned editor
+
+It would be nice if a pinned editor window would have some graphical decorator so that one immediately sees that it is pinned.

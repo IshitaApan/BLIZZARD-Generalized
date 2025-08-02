@@ -1,0 +1,3 @@
+[Contributions] Warnings in log about Next/Previous Annotation action contributions
+
+eclipse.buildId=I20060117-0800 On startup, the build writes these warnings to the log: Warnings while parsing the action sets from the 'org.eclipse.ui.actionSets' extension point The class was not null but retarget was set to true: plug-in='org.eclipse.ui.editors', id='org.eclipse.ui.edit.text.gotoNextAnnotation', class='org.eclipse.ui.internal.editors.text.NextPulldownActionDelegate' The class was not null but retarget was set to true: plug-in='org.eclipse.ui.editors', id='org.eclipse.ui.edit.text.gotoPreviousAnnotation', class='org.eclipse.ui.internal.editors.text.PreviousPulldownActionDelegate'

@@ -1,0 +1,3 @@
+[IDE] Need a way to disable forced GC done by IDEIdleHelper
+
+3.2 M4 Some of our performance tests which drive the event loop and wait until the UI settles down can now be affected by a forced GC performed by the IDEIdleHelper. In order to compare the performance tests with 3.1 we need to disable this in our tests.

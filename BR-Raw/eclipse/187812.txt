@@ -1,0 +1,3 @@
+[KeyBindings] IBindingService.getActiveBindingsFor(ParameterizedCommand)  does not work
+
+I20070517-1700. IBindingService.getActiveBindingsFor(ParameterizedCommand) does not work i.e. returns an empty array. Test Case: 1. in org.eclipse.jdt.internal.ui.preferences.CodeAssistAdvancedConfigurationBlock change getKeyboardShortcut(...) to use getActiveBindingsFor 2. start target 3. define a key binding for e.g. the 4. go to Java > Editor > Content Assist > Advanced observe: the key binding is not shown

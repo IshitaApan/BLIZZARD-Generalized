@@ -1,0 +1,3 @@
+[Viewers] ViewerDropAdapter couples auto-scroll and auto-expand
+
+For some reason, the ViewerDropAdapter provides a single method to enable/disable auto scrolling and expanding when dropping. I have a view that hits the server when expanding a tree, so I don't want the auto-expansion but I still want the scrolling. I will attach a patch to ViewerDropAdapter that separates these.

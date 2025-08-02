@@ -1,0 +1,3 @@
+[Themes] Themes not applied on restart
+
+20060216-0100 When you select a theme and then restart Eclipse the theme is not applied unless you deselect and reselect it. STEPS 1) Install the supplied plug-in 2) Select Come on You Reds. You will see all of the fonts go Script 3) Exit Eclipse and restart. Default fonts everywhere.

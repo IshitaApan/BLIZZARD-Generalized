@@ -1,0 +1,3 @@
+[ViewMgmt] [RCP] Should have an app-level preference for whether detached views are supported
+
+build I20040413 Note all RCP apps will want to allow detached views. There should be a hidden preference for this that the app can configure via plugin_customization.ini. Should consider for M9.

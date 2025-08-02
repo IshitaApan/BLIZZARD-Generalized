@@ -1,0 +1,3 @@
+[Preferences] ESC no longer closes the preference dialog
+
+Hitting escape does not close the preference dialog - it only clears the filter combo.

@@ -1,0 +1,3 @@
+[Progress] Stale API field in IWorkbenchSiteProgressService
+
+While viewing the API of IWorkbenchSiteProgressService, I noticed this API field: /** * The property that is sent with busy notifications. */ public static final String BUSY_PROPERTY = "SITE_BUSY"; //$NON-NLS-1$ I could find no references to this API in the SDK, which suggests to me it was never implemented. This should likely be deprecated with a message saying it has no effect. If it has some effect I'm not seeing, the javadoc should explain this more (the property is "sent" to whom? Is this intended for clients to fire this event or for clients to receive this event, what listener API does it correspond to, etc)

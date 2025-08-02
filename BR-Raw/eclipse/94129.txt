@@ -1,0 +1,3 @@
+[Workbench] Performance test regression caused by workbench harness change
+
+N20050509 Core has a UI startup test that measures the time until UITestApplication starts running. This test had a 16% improvement over 3.0 in 3.1 M6, and since late last week has a 33% regression. This appears to be caused by a change in Workbench that now waits until early startup participants complete, combined with the new early startup participant in the ui test plugin that waits for three seconds. Discussing with Nick, the plan is to: - Remove the three second delay - Add a system property to avoid blocking on early startup participants before running the tests. This would be used by any performance test that is sensitive to startup time.

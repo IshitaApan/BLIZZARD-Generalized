@@ -1,0 +1,3 @@
+[Compatibility] Executions that fail do not have any exceptions thrown
+
+At the moment, E4HandlerProxy just swallows exceptions. This means that a client using the IHS will think a handler execution has succeeded even when it actually hasn't. Minimally, we should rethrow the ExecutionException from the IHandler's execute(ExecutionEvent) method if the implementation throws one.

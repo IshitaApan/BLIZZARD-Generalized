@@ -1,0 +1,3 @@
+[QuickAccess] Roll-over tooltip too wide
+
+[I20071211-0010], Windows XP and Windows Vista Steps: 1. Hit Ctrl-3 to open the Quick Access Dialog 2. Type "er" 3. Hover over one of the cut-off entries -> a roll-over tooltip (native) appears. It is way too wide. Note that in the build referenced above, you will see another tooltip (non-native), which I will remove. This bug is only about the native one being to wide.

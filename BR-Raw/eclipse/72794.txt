@@ -1,0 +1,3 @@
+[Decorators] Hierarchy view shows wrong visibility for public method [type hierarchy]
+
+3.1 I200408241200 Visibility decorations are all wrong for methods in Hierarchy view. See attached screenshot.

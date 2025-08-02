@@ -1,0 +1,3 @@
+[Compatibility] Ctrl+F7 does not honour activation list
+
+Right now it just returns a list of views based on which ones were created by the renderer first. This list needs to depend on activation order.

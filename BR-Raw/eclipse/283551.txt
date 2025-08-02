@@ -1,0 +1,3 @@
+[FieldAssist] ContentProposalAdapter Class-JavaDoc and Method-JavaDoc contradict each other
+
+The class documentation says: --8<-- This class is not intended to be subclassed. --8<-- But there are methods like openProposalPopup, closeProposalPopup who state something like this: --8<-- This method is used by subclasses to explicitly invoke the opening of the popup. If there are no proposals to show, the popup will not open and a beep will be sounded. --8<-- So did we opened the class since its first release but forgot to update the JavaDoc of the class?

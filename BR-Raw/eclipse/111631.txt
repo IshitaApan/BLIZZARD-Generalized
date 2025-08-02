@@ -1,0 +1,3 @@
+[Viewers] TreeViewer needs more TableViewer API
+
+As the TreeViewer is meant to replace the TableTreeViewer we need to add some of the API that the TableViewer had to it so that it can be used like a table. 	public void insert(Object element, int position) 	public void add(Object[] objects) Both need to be added.

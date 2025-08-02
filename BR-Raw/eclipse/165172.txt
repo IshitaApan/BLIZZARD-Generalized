@@ -1,0 +1,3 @@
+[EFS] FileEditorInput should implement IURIEditorInput
+
+Now that we have IURIEditorInput, we should change IFileEditorInput to implement this interface.

@@ -1,0 +1,3 @@
+[FastView] Artifacts when starting workspace that has open fast view
+
+Created attachment 133602 screenshot 1) Start 3.4.2, create a fresh workspace 2) make Package explorer and hierarchy view fast views 3) open package explorer 4) exit eclipse 5) Start 3.5 latest, choose the same workspace 6) see icons from closed package explorer (attached)

@@ -1,0 +1,3 @@
+[Viewers] Javadoc for setAllChecked() does not mention that only visible items are checked
+
+setAllChecked which was added (by me) in 3.2 does not mention that all chidren must be visible for it to be checked (see setSubtreeChecked). We will have to leave it as it is API and does not expand the tree but I think we should deprecate it as setSubtreeChecked is really the only useful one. Boris what is your opinion?

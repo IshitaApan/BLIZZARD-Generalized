@@ -1,0 +1,3 @@
+Creating a part from PartDescriptor does not copy over persistedState collection
+
+When creating a part with the PartService, the persistedState collection is not copied over. That seems, at the least, inconsistent with the fact that most everything else is copied over. The fix would be a line of code in PartServiceImpl.createPart(), near line 675.

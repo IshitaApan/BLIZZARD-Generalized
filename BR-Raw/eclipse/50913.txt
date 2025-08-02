@@ -1,0 +1,3 @@
+Cannot copy problems to clipboard anymore
+
+Build 200401281649 When selecting any Java problem and performing a copy action (in problem view), then the pasted value is: Severity	Description	Resource	In Folder	Location 	Creation Time

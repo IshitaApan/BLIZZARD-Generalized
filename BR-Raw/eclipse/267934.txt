@@ -1,0 +1,3 @@
+[Perspectives] Space doesn't check/unckeck focused list item
+
+This might be an SWT issue. I submitted here because there might be some missing code in platform ui code. Reproduce: Switch to a perspective, like "Team Sync". Ctrl+Shift+T is missing by default. Right click on toolbar, and press "Customize Perspective...". "From Tool Bar Visibility" (which might be better to be spelled as Toolbar Visibility), open "Search" tree item, and check "Open Type (Ctrl+Shift+T)". You will prompted by a yes/no question. Press Yes. Now the form switches to "Command Groups Availabililty". Focus seems to be on "Java Navigation" checkbox, but pressing "Space" does check/unckeck the first item of "Available command groups", in my case Annotation Navigation.

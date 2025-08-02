@@ -1,0 +1,3 @@
+[Progress] 'User Operation is Waiting' progress dialog is not accessible
+
+I20060217-1115 The 'User Operation is Waiting' progress dialog is not accessible. I found no way to give focus to the list of jobs nor to cancel a job. Tab and/or Up/Down keys should select jobs and Cancel and/or Delete should cancel the selected job. Steps to reproduce: Start checking out org.eclipse.swt from CVS. While the checkout progresses, select .classpath_win32 in the Package Explorer and press F2.

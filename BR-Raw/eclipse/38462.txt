@@ -1,0 +1,3 @@
+[Dialogs] Tree in Preference & Properties dialog should be resizable
+
+I20030604 On MacOS X the native tree isn't as compact as on other platforms. As a result some of the tree items in the Preference and Properties dialogs are barely visible. Since horizontalls scrolling is cumbersome, it would be nice to have a sash between the tree and the dialog's content. Remembering the dialog's size and the sash position would be helpful, too.

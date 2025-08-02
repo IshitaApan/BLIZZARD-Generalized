@@ -1,0 +1,3 @@
+[MenuMgmt] IContributionManager.remove has undocumented behavior
+
+build 20030820 The doc for IContributionManager.remove says that null will be returned if "this manager has no contribution items with the given id". When I call remove on a menu with an invalid ID I get an IllegalArgumentException instead of a null return value.

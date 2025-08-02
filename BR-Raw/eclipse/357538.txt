@@ -1,0 +1,3 @@
+[Compatibility] Contributed view from a perspective extension gets moved out of the shared area
+
+I20110913-0200 1. Install Mylyn. 2. Open the 'Task Repositories' view. 3. Place it in the shared area. 4. Open the 'CVS Repository Exploring' perspective for the first time. 5. It gets put outside the shared area.

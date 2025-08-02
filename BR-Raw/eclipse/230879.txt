@@ -1,0 +1,3 @@
+Bad test in PlatformUITest
+
+3.4M7 There's a typo in testWithoutDisplayAccess_async - we test RCPTestWorkbenchAdvisor.syncWithoutDisplayAccess instead of RCPTestWorkbenchAdvisor.asyncWithoutDisplayAccess.

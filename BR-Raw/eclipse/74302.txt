@@ -1,0 +1,3 @@
+[Perspectives] no null check in SavePerspectiveAction.
+
+The following code in saveNonSingleton() calls getPerspective() but does not check for null, description = reg.findPerspectiveWithId(page.getPerspective() .getId()); Need to verify that this is OK or fix.

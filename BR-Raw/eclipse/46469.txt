@@ -1,0 +1,3 @@
+[Contributions] widgets: Tooltips for menu/toolbar items should include all key bindings
+
+Tooltips can include short-cut key information. - For example tooltip for resume button can be 'Resume (F8)'. - Short-cut key information can be displayed at a newline, for example Resume F8 - This feature can be configurable so that it can be turned off by experienced users. It can be configured to show 1) nothing 2) 'Resume' 3) 'Resume (F8)' 4) 'F8' 5) 'Resume' F8

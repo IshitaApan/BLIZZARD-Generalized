@@ -1,0 +1,3 @@
+Keyline at bottom of toolbar clipped by SPACER control
+
+In TrimBarLayout.tileLine(), the spacer control needs to be set to the size of the toolbar so it doesn't clip the bottom keyline of the toolbar.

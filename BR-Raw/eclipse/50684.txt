@@ -1,0 +1,3 @@
+Lock not available but no jobs are running
+
+I20040121 What I did: 1) Initiated a background project tag 2) While waiting, I tried typing in an editor in a different project -> Busy "blocked by background job" dialog popped up. 3) Hit cancel in the dialog. 4) Try to edit again 5) Repeat 3-4 a few times -> Finally the background tag is done, but it still claims to be blocked. Will attach the stack. It looks like the ProgressMonitorJobsDialog is not sending the cancel through to the underlying runnable, but just closing immediately and leaving behind the waiting task. I need to investigate a bit more.

@@ -1,0 +1,3 @@
+[Commands] Show View cannot be executed from the Command Composer
+
+The command composer has an execute function to allow users to check out their commands. While some command won't work from that situation, Show View used to until I changed from workbench.getActiveWorkbenchWindow() to HandlerUtil.getActiveWorkbenchWindow(event). I suspect that being in a dialog is not providing the ACTIVE_WORKBENCH_WINDOW_NAME variable. PW

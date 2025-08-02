@@ -1,0 +1,3 @@
+[Contributions] Some submenus are still visible
+
+Usually, if all children are hidden, the menu will automatically be hidden (i.e. the above isVisible call will return false). In some cases, unfortunately, this is not the case, so we must calculate it ourself.

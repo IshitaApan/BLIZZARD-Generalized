@@ -1,0 +1,3 @@
+[ActivityMgmt] Allow preference page to be a plugable component
+
+The activity preference page should not be hardcoded. We should provide a default page in the IDE that can be replaced by other products. It should be sufficient for us to define the preference page in the SDK plugin along with the activities.

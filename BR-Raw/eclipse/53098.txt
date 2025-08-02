@@ -1,0 +1,3 @@
+[KeyBindings] KeyBinding service must bind (DEL) key to ActionFactory.DELETE
+
+In WorkbenchActionBuilder#makeActions(..), the ActionFactory.DELETE is explicitly *not* registered with the keybinding service. That's why binding Edit > Delete to Ctrl+Alt+Shift+D doesn't work. What's worse is that the DEL key doesn't run the registered GlobalActionHandler. Do we really have to install a hardcoded KeyListener for SWT.DEL on every control which should react to the DEL key, or is there a better way (or will there be a better way)?

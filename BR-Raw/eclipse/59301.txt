@@ -1,0 +1,3 @@
+[GlobalActions] View gets uninitialized ViewSite in its init method
+
+I've run into a use case when I wanted to use view's ActionBars in the init method of the view. But this can't be done because site.getActionBars() returns null in the context of method IViewPart.init. This is clearly seen in ViewFactory..busyRestoreView: First a ViewSite object is created, then it is passed to the view's init method and _then_ the ViewSite is initialized with action bars (and pane). I don't see the reason why the ActionBars object isn't initialized _before_ it is passed to the view. Could it? If required, I could provide more information about the motivation of my use case.

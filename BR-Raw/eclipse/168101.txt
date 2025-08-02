@@ -1,0 +1,3 @@
+Can't create link to path variable location
+
+Build: I20061214 1) Create a path variable "FOO" with location c:\temp 2) Create a directory in the file system at c:\temp\location 3) Create a linked folder in Eclipse, and give the location FOO/location. This should resolve to c:\temp\location, but the new folder wizard does not resolve the path variable.

@@ -1,0 +1,3 @@
+[KeyBindings] New Keys preference page removed binding for command with initial keybinding conflict
+
+I20070511-0010 + JavaElementView 1.0.3 from http://www.eclipse.org/jdt/ui/update-site - open Keys preference page and sort by Binding => conflict for 'Views > History' and 'Views > JavaElementView' (Alt+Shift+Q, Z) - change binding for JavaElementView to Alt+Shift+Q, E => bug: * in front of History's 'Alt+Shift+Q, Z' stays, but there's no conflict any more - close and reopen Keys pref page => 'Views > History' has lost its binding (and also does not work) => Expected: should be Alt+Shift+Q, Z

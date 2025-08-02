@@ -1,0 +1,3 @@
+[Compatibility] IWorkbenchPage's getViewStack(IViewPart) method needs to consider placeholders
+
+This method was never reimplemented after perspectives were implemented.

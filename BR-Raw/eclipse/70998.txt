@@ -1,0 +1,3 @@
+[ActivityMgmt] Capabilities Import Preferences failing.
+
+Capability enablements are not imported properly when importing preferences. I tried with base eclipse and disabled the Java Capabilities and kept Team enabled, and exported. I then disabled Team and enabled Java, closed and reopend the preference page and imported the preferences I previously exported; the Capability enablements are unchanged. Kim Horne - oooh. I think the problem is the import, not export Kim Horne - we dont have a preference listener listening for capability changes Kim Horne - yah, I bet thats it

@@ -1,0 +1,3 @@
+[Viewers] [Snippets] New snippet to demonstrate the usage of ComboViewers
+
+Currently there is no snippet which demonstrates the usage of the ComboViewer.

@@ -1,0 +1,3 @@
+[Field Assist] [API] - Add 7x7 information control decoration to FieldDecorationRegistry
+
+Please see attached zip file containing icon recommended by media design team.

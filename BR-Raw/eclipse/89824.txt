@@ -1,0 +1,3 @@
+[Forms] Position of Go button in Help Search view changes
+
+If you expand and contract the Default Scope area the position of the Go button will shift (and the combo will shrink and grow). I will attach two screencaps - note the space to the right of the Go button.

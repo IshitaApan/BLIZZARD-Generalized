@@ -1,0 +1,3 @@
+[Workbench] Workbench event loop does not terminate if Display is closed
+
+In the dispose() method of my application, I incorrectly closed the current Display. This caused the Workbench event loop to keep going forever, as it would keep getting an exception and then continue because the runEventLoop field was never turned off. This is different from how 3.3.1 used to work. Attached is a patch to fix the problem which has been tested to properly show the exception and terminate.

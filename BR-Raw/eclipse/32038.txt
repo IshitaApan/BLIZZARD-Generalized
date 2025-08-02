@@ -1,0 +1,3 @@
+Use shared images for properties, tasks, bookmarks views
+
+build 20030214 I'm in the process of adding to the shared images defined in ISharedImages. The PropertySheetPage, MarkerUtil and BookmarkNavigator should use the shared images for copy, paste and delete referenced in the CTOOL folder. See bug 26423.

@@ -1,0 +1,3 @@
+[PopupDialog] - need constant for horizontal spacing
+
+PopupDialog provides a constant for vertical spacing used in the contents, but not for horizontal spacing.

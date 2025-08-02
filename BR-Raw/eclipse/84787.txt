@@ -1,0 +1,3 @@
+[Preferences] the preferencePage extension point does not support IExecutableExtension
+
+We're checking for the class attribute in PreferencePageRegistry reader and if it's null we're discarding the extension. IExecutableExtension allows for omission of the attribute in favour of a nested "class" element. PreferencePages which attempt to utilize this feature are being tossed. This likely affects other workbench components that check to ensure a class attribute. I need this addressed for my activities work. I'll fix it up.

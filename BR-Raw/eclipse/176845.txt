@@ -1,0 +1,3 @@
+[Min/Max] Restore from Editor-Area leaves View unrestored
+
+Eclipse: 3.3 M5 Presentation: 3.3 Doubleclick the package explorer to maximize it, while having some editors open. Then hit "Restore" from the Editor FVB and notice the package explorer still showing the "restore" button in his view, although it has been restored from by the editor area already. Ben

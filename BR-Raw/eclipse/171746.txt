@@ -1,0 +1,3 @@
+[DataBinding] [Workbench] Set default realm in createAndRunWorkbench()
+
+The data binding framework, being at the core level, does not know about SWT but has a notion of a "default realm" that corresponds to SWT's default display. (Realm has #asyncExec and #syncExec.) The Workbench should initialize the default realm to be the SWT UI thread.

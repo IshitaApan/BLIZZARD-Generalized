@@ -1,0 +1,3 @@
+[CSS][UI] How to handle margins
+
+In order to implement margins, we require that the control in question have a parent composite on which we can set marginLeft, marginRight, etc. This requires a rather odd contract between the widget construction and the styling, since the only reason for the composite and layout is to support the styling. It's also unrealistic to wrap every widget in a composite even if it will never have margins set. Another idea is for CSS to create the composite/layout on the fly when margins are being set. This would require the widget to be reparented.

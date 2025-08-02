@@ -1,0 +1,3 @@
+[WorkbenchLauncher] Drive letter treated as case sensitive on windows: Same workspace listed twice in list
+
+Build ID: 3.3 RC4 Steps To Reproduce: 1. Open Workspace "C:/tmp/deleteme", close Eclipse 2. Open Workspace "c:/tmp/deleteme", close Eclipse 3. Open Eclipse, check number of recent workspaces. More information: It's really a nuisance, but the overall issue is that C: and c: are treated as being different on windows, which is incorrect and leads to false assumptions (in my case that one workspace is two).

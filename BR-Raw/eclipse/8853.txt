@@ -1,0 +1,3 @@
+[Perspective] Customize view does no longer work
+
+1. Select Perspective -> Customize... -> View Note: Selected views don't correspond to perspective look 2. Add a view (or select all or deselect all) 3. Press OK ==> views in perspective don't correspond to my choice The two other property groups ("Other" and "New Wizard") work.

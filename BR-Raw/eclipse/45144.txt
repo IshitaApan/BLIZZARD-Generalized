@@ -1,0 +1,3 @@
+[PropertiesView] Properties View label provider does not clear the image
+
+Properties View does not clear the image when the LabelProvider.getImage() retrns null. Attached exmaple: I have added onto the org.eclipse.ui.examples.propertysheet example to provide a ColorLabelProvider that returns null image for black and an image for all other colors. Select "richard" and note there are no image displayed. Now select an color besides black, and the color image appears as expected. Now select the color black and notice that the color image is still there.

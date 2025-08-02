@@ -1,0 +1,3 @@
+[Themes]  Cannot customize values of colors/fonts when theme is used.
+
+RC2 Changing and applying values in the colors/fonts page has no effect when you're using a theme other than the default. Exiting and rentering the page shows the original values, yet the reset button is enabled.

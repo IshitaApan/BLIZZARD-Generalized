@@ -1,0 +1,3 @@
+The ImportExportPage filters allows an empty category to appear
+
+In the Import or Export Wizard dialog, within a given category, if you have a PatternFilter allowing one wizard through and a WizardActivityFilter allowing a different wizard through, then the category remains in the display, though empty. I noticed that NewWizardNewPage does also use PatternFilter and WizardActivityFilter, but it also has one last filter WizardEmptyFolderFilter. Adding this filter to ImportExportPage does indeed seem to fix the problem.

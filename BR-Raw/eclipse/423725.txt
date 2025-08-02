@@ -1,0 +1,3 @@
+[Contributions] Popup menus slowdown over time (> 5 seconds)
+
+I've debugged this with Paul and it appears the issue is in org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.merge(MExpression, MExpression) because the two expressions are identical. This causes the expression to grow larger and larger on every menu popup which makes the menu take longer to show up.

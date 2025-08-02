@@ -1,0 +1,3 @@
+Project menu Build Working Set item has extra separator
+
+build i20040520 The project menu "Build Working Set" submenu should be disabled when there are OR when you can not build a working set. (i.e. you are building automatically). Secondly. The submenu looks strange with the extra separator on the top when there are no working sets. This separator should not exist unless there is a working set. Perhaps "Select Working set..." should be on top (so it keeps the same position) and then once there is a working set, you add the separator and then the working sets.

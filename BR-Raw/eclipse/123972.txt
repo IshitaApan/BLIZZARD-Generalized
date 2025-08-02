@@ -1,0 +1,3 @@
+[Undo] Support approval of undoable operation execution
+
+In GMF we do some common validation on our commands before we proceed to execute, undo or redo them. This validation is external to the command's ability to execute, undo or redo itself. Registering an IOperationApprover with the operation history for this of validation would give us an elegant solution. However, the IOperationApprover only supports approval of undo and redo. We also require support for approval of operation execution. Would you consider adding a proceedExecuting() method to the IOperationApprover interface, or to an extension of the IOperationApprover interface?

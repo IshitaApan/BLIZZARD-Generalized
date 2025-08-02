@@ -1,0 +1,3 @@
+New wizard disables Finish even with valid selection (1GEAPG3)
+
+Open the New wizard dialog. Select Basic and then File. Notice the 	finish button is enabled now. Click on Basic again and notice the 	Finish button is disabled even thought File is still selected in the list. NOTES: NE (05/28/01 2:32:52 PM) 	It's the Next button, not the Finish button.

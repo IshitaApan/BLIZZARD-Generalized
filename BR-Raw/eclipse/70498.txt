@@ -1,0 +1,3 @@
+Initial drag-over affordance is wrong
+
+Eclipse 3.0 When starting a drag, the initial drag rectangle and cursor are wrong. To reproduce: 1. Drag a view tab very slowly (1 pixel at a time) 2. Stop dragging as soon as the drag rectangle appears. Notice that the initial rectangle covers the entire view stack rather than just the currently selected view tab and the arrow cursor is still shown. As soon as you move the cursor by 1 additional pixel, the correct affordance is drawn.

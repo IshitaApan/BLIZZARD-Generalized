@@ -1,0 +1,3 @@
+[Workbench] javadoc for WorkbenchAdvisor.preStartup() should mention that event loop is not running yet
+
+WorkbenchAdvisor.postStartup() mentions that the event loop is not running yet when this method is called. It would be helpful to also mention this in preStartup(). This was info important for an example in bug 282333.

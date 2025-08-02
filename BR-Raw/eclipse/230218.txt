@@ -1,0 +1,3 @@
+[JFace] Test failures in PresentationsTestSuite and RCP Tests
+
+I20080502-0100. org.eclipse.ui.tests.presentations.PresentationsTestSuite org.eclipse.ui.tests.presentations.Bug48589Test junit.framework.ComparisonFailure: The title should be equal to the expected:<A&&B.txt[]> but was:<A&&B.txt[ - Bug 48589 Project]> This seems to be caused by the workspace using 'unibrow' (aka 'single editor') mode. This is causing the editor's title to be adorned with the project, causing the failure. The test itself hasn't changed in two years so perhaps it's changed the WS is running in or that WS has change options?

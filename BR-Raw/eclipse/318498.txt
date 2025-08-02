@@ -1,0 +1,3 @@
+Many toolbars on top of one another
+
+I don't know how to reproduce this. I'll attach a screenshot.

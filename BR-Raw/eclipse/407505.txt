@@ -1,0 +1,3 @@
+Maximise-Restore causes hidden editor area to be shown
+
+In our Eclipse-based RCP we don't always need to have an editor area, so hide it using WorkbenchPage.setEditorAreaVisible(false). When maximise is called on a view org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.maximize(MUIElement) has special code for finding the editor area (Lines 645-653 in 4.2.2). Even though it is not visible it is getting added to elementsToMinimize which means is gets tagged with MINIMIZED & MINIMIZED_BY_ZOOM and therefore set to visible when restore is called.

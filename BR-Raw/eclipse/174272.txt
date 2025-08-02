@@ -1,0 +1,3 @@
+FileStoreEditorInput needs to be restorable
+
+3.3 M5 The FileStoreEditorInput needs to restorable on startup. Therefore it needs to return an IPersistableElement and there needs to be an element factory.

@@ -1,0 +1,3 @@
+[Trim] Maximize/restore on new presentation makes part lose focus
+
+Eclipse 3.3 I20070322-0950 - new presentation: If you maximize/restore some workbench part, lets say, the current editor for example, it loses the focus on restore, transferring it to another view stack. This leads to a funny behavior, where a sequence of Ctrl+M's makes the focus cycle through all part stacks of perpective.

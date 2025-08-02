@@ -1,0 +1,3 @@
+[UI] Resizing feedback stops working
+
+While we have seen this on other platforms we have a repeatable test case for the Mac (bogdan, please check if this is the exact scenarion, I'm entering it from memory): Fresh WS, open two other perspectives hit Ctrl-F8 (select perspective) Resize the main window the feedback for the resize doesn't occur until after the mouse button is released.

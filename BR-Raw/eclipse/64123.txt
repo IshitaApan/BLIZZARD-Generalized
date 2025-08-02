@@ -1,0 +1,3 @@
+Memory leak in WorkbenchSiteProgressService
+
+The dispose method of WorkbenchSiteProgressService is the following. Notide that if the waitCursor is null, the listener is not returned. If I close all open instances of the sync view, the waitCursor is null so a reference to the sync view stays around. The removeListener should either be done first or in a finally block. 	public void dispose() { 		if (updateJob != null) 			updateJob.cancel(); 		if (waitCursor == null) 			return; 		waitCursor.dispose(); 		waitCursor = null; 		ProgressManager.getInstance().removeListener(this); 	}

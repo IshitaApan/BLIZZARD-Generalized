@@ -1,0 +1,3 @@
+[ErrorHandling] [statushandling] WorkbenchStatusDialogManager.setStatusListLabelProvider is inconsistent
+
+setStatusListLabelProvider functions correctly if there is only one status displayed. If there is more, messages switch places, and custom label provider is used in different way. Configuring WSDM with custom label provider is too difficult.

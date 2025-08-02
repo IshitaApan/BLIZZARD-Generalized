@@ -1,0 +1,3 @@
+[Markers] New view doesn't rank fatal errors first any longer when sorting per Java type
+
+Build id: I20071213-1700 As you can see when watching the screenshots in bug 213012, the new view doesn't rank fatal errors any longer, like it used to do in the legacy view.

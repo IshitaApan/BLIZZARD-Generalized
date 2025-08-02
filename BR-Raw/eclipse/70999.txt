@@ -1,0 +1,3 @@
+[ActivityMgmt] Saving of activity preferences happens on shutdown
+
+We serialize the state of the activity manager on workbench shutdown, writing preferences as appropriate. This should be done as soon as the activity set changes, NOT on shutdown. Currently, if you change your activity set (from the capabilities page) and then export your preferences, your changes are not exported. This is closely related to Bug 70998.

@@ -1,0 +1,3 @@
+ModelAssembler doesn't set contributorURI on root-element
+
+We are missing to set the contributorURI on the root element of a fragment contribution and so translation of those item fails.

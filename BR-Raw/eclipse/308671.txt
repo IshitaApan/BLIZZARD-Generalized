@@ -1,0 +1,3 @@
+[Compatibility] Cannot quit from 'File' menu
+
+1. File > Exit 2. The workspace is saved but the workbench is not brought down.

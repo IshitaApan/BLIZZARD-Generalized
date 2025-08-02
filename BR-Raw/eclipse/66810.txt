@@ -1,0 +1,3 @@
+ClassCastException in WorkbenchIntroManager
+
+RC2 If the intro part cannot be created we create the error view. However, in WorkbenchIntroMananager.getViewIntroAdapterPart we blind cast to ViewIntroAdapterPart

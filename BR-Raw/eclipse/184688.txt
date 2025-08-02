@@ -1,0 +1,3 @@
+org.eclipse.ui.dialogs.SearchPattern has a few painful glitches
+
+HEAD org.eclipse.ui.dialogs.SearchPattern as a few painful glitches that need to be corrected ASAP, since they cause subtle problems in the Open Type dialog. I'll attach a fix for these problems: - calls String#trim() when only last character should be deleted - should detect string ending in " " or "<" as RULE_EXACT_MATCH, not RULE_CAMELCASE_MATCH - isValidCamelCaseChar(..) always returns true To reproduce the problems of the blocked bugs, you usually have to type very quickly (or paste the whole pattern).

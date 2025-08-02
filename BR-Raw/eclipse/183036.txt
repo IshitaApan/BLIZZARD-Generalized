@@ -1,0 +1,3 @@
+Need to move HighContrast check out of the PreferenceInitializer
+
+We are currently doing a high contrast check in the preference initializer of the workbench. We need to move that to the initialization of the theme manager so that it all runs in the UI Thread. I am adding Bug 22243 as dependant on this as they will need the ThemeManager to initialize thier preference constants. It may more sense for them to register a theme listener and update thier preferences when this change happens rather than do the check in thier preferences.

@@ -1,0 +1,3 @@
+[Services] [Doc] Add documentation for org.eclipse.ui.services
+
+Some documentation needs to be added to the Advanced section of the ISV guide. PW

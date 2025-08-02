@@ -1,0 +1,3 @@
+[StatusHandling] Display.sleep should be used instead of Thread.yield
+
+Created attachment 113966 Fix Event loops (in Window, SWT apps) use Display.sleep to suspend UI thread until some event appears. I think the same mechanism should be used in event loop in WorkbenchErrorHandler. Kevin, could you confirm?

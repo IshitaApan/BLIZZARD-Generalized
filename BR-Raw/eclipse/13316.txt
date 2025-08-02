@@ -1,0 +1,3 @@
+Multi-selection in working set dialog ignored
+
+20020409 - New Working set support - create 2 working sets - select 2 working sets - press OK - reopen dialog ===> only one is selected Multiple-selection should work (ok) and - be applied to views that support working sets (e.g. Navigator) - be selected the next time I open the working set dialog

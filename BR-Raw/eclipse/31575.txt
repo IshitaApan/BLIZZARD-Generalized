@@ -1,0 +1,3 @@
+[Workbench] DrillDownAdapter always uses colour icon set
+
+DrillDownAdapter creates its action with a colour icon set. It should use three sets (enabled, disabled and hover). When added to the local tool bar, they stand out as the only one in colour. I have seen all three sets being supplied to the platform UI, so it is just a matter of hooking them up.

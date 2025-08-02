@@ -1,0 +1,3 @@
+[Perspectives] Toolbar MenuDetect listeners leaking
+
+When I reset perspective we are leaking ToolBarContributionItem MenuDetect Listeners. STEPS 1) Look at workbench with Optimize It 2) Reset perspective 3) 10 menu detect listeners on items will be left around. Toolbars are not being leaked and we create this listener in ToolBarContributionItem fill(Coolbar,int) using an inner class that we have no reference too. The reference graphs indicates that the Display still has the listener in the event table

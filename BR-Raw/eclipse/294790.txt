@@ -1,0 +1,3 @@
+[KeyBindings] LegacyActionTools should support SWT.F13 - F20
+
+HEAD Follow-up to bug 287454: There are more places where SWT.F13 - F20 should be supported: - LegacyActionTools has 3 tables where support ends at F12 - org.eclipse.ui.keys.SWTKeySupport (deprecated) has 2 tables that also end at F12

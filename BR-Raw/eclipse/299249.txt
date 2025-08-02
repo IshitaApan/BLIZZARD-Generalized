@@ -1,0 +1,3 @@
+[CommonNavigator] Add ResourceWrapperContent/Label provider for new CNF tests
+
+Created attachment 155723 Patch

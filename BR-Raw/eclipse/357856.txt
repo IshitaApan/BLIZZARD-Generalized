@@ -1,0 +1,3 @@
+Perspective tool item can be hidden if saved as a longer name
+
+I20110914-0200 1. Window > Save Perspective As... > Give it a longer name than the one it has now > OK 2. The tool item disappears from the perspective switcher. Resizing the window causes a layout and resolves this problem.

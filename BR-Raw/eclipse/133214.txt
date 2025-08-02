@@ -1,0 +1,3 @@
+[Field Assist] - required field color hard to see
+
+the required field color is too subtle. It's not a very good cue, especially if we are using it in lieu of showing an error status message when fields are empty. See also bug #133044

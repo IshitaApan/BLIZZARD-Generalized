@@ -1,0 +1,3 @@
+[Progress] Accessibility problem with Jobs error dialog: can't hide without mouse
+
+N20050523-0010 When a background job reports an error (e.g. during editor reconciling), there's no way to get the focus back to the workbench window with the keyboard alone. E.g. when you reproduce bug 96315, the error dialog keeps popping up whenever you close the dialog. The error dialog is not minimizable by keyboard. A blind user has no way to get out of the loop. This is a major accessibility problem. This was originally mentioned in bug 49999.

@@ -1,0 +1,3 @@
+[Properties view] CopyPropertyAction does not dispose clipboard
+
+build I20021127 CopyPropertyAction allocates a Clipboard but does not dipose it. Should add a dispose method here, and call it from PropertySheetPage.dispose().

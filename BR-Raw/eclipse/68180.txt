@@ -1,0 +1,3 @@
+[ActivityMgmt] Capabilities Preference page tree expansion
+
+The tree should not always be fully expanded. The problem I have is that many of our categories are fairly long, and this forces the user to scroll past much of the tree to find what they are looking for. I suggest the tree should be fully expanded only if the entire expanded tree does not require a vertical scrollbar.

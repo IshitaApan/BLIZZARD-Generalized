@@ -1,0 +1,3 @@
+[WorkbenchLauncher] Incorrect Service ranking for splash StartupMonitor
+
+Workbench.createSplashWrapper() creates a StartupMonitor in order to get the splash screen disposed. It is currently using a string for the service ranking: properties.put(Constants.SERVICE_RANKING, Integer.toString(Integer.MAX_VALUE)); The code that is sorting StartupMonitors is expecting an Integer object in the property: properties.put(Constants.SERVICE_RANKING, new Integer(Integer.MAX_VALUE)); If it doesn't get an Integer object it just assigns a value of 0 for the ranking.

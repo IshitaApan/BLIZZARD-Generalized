@@ -1,0 +1,3 @@
+AddBookmarkAction should adapt selection (1GHWE2N)
+
+The AddBookmarkAction should adapt the selection to IFile 	rather than just relying on instanceof. 	See AddBookmarkAction.createMarker(String markerType) 		and updateSelection(IStructuredSelection selection) 	Note that there was a similar fix for OpenResourceAction (see PR 1GF5XJ5). NOTES:

@@ -1,0 +1,3 @@
+[KeyBindings] CommandContributionItem does not pick the best key binding
+
+Created attachment 80659 CommandContributionItem Patch Build ID: v20070601-0630 Steps To Reproduce: 1. Create a context menu contribution 2. Add a command contribution for org.eclipse.ui.edit.cut More information: CommandContributionItem is not resolving key bindings to the best value, instead choosing the first returned value. This results in actions like Cut resolving to Shift+Delete instead of Ctrl+X. Attached is a patch that calls getBestActiveBindingFor() instead of getActiveBindingsFor().

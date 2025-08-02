@@ -1,0 +1,3 @@
+[RCP] Should rename getDefaultWindowInput to getDefaultPageInput
+
+build I20031216 The input for a new workbench page is obtained from WorkbenchAdvisor.getDefaultWindowInput(), which is spec'ed as "Returns the default input for newly created workbench pages." This should be renamed to getDefaultPageInput().

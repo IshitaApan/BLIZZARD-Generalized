@@ -1,0 +1,3 @@
+F1 Help doesn't work for global retarget actions contributed via XML
+
+GM6 - create CU - select the CU in the Package Explorer - open pop-up menu - goto Refactor->Rename - press F1 observe: you get help - now select Refactor->Rename from the global menu - press F1 observe: you don't get help. A lot of actions in the global menu bar are effected by this.

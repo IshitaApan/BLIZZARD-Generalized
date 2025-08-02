@@ -1,0 +1,3 @@
+New workbench windows have no title
+
+I20100701-1105. New workbench windows have no title which makes it impossible to switch between them via task bar. Test Case: 1. start with new workspace 2. Window > New Window ==> new window has no title

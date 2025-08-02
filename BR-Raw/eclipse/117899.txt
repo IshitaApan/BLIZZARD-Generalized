@@ -1,0 +1,3 @@
+[WorkingSets] document new empty-aggregate strategy
+
+The new pattern for using aggregates should be documented. Initial points include the IWorkbenchPage methods and the WorkingSetFilterActionGroup.

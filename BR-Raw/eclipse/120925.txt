@@ -1,0 +1,3 @@
+[Import/Export] wizards missing context help
+
+I20051214-0800 - Go to File -> Import... - Hit F1 (or Shift-F1 on linux or Help on mac) - Bug: There is no context help available

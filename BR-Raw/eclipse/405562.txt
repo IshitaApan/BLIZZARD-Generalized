@@ -1,0 +1,3 @@
+Save All saves only the selected Saveables in a ISaveablePart
+
+Clicking on "Save All" saves only the selected resource in the project explorer(and other SaveableSources). WorkbenchPage.saveAllEditors(boolean, boolean) calls EPartService.savePart(MPart, boolean), which doesn't save all dirty resources.

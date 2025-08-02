@@ -1,0 +1,3 @@
+Missing setFocus call on tab selection
+
+In the 3.x code, if you click on a tab, DefaultTabFolder will listen for mouse down events and send out EVENT_GIVE_FOCUS_TO_PART which eventually calls the setFocus method in PartPane. This always gives focus to the control contained by the tab folder and never to the tab folder itself. In 4.x, we set the focus to the control on the initial click, but if you click again on the tab, focus will go to the tab instead of remaining in the control. We need to add some code that preserves the 3.x behaviour and always gives the focus to the control.

@@ -1,0 +1,3 @@
+QuickAccess items are unordered
+
+I20060906-1200 Most items in the QuickAccess popup (Ctrl+E) are in no apparent order. Editors, Views, Perspectives, and New should be sorted alphabetically (like Commands already is). Menus and Preferences would probably be easier to understand if they were arranged hierarchically as they appear in the workbench window or the preferences dialog (e.g. there are 4 nodes under Preferences that start with "Editor").

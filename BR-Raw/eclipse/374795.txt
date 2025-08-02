@@ -1,0 +1,3 @@
+Open Element dialog (CDT) has text field disabled in 3.8M6
+
+Using I20120314-1800 (M6) and N20120309-2000 1. With CDT installed and a CDT project (Hello world is OK), open the Open Element dialog (Ctrl+shift+t) with no text selected in the editor. 2. The text field where the element name should be entered is disabled This works correctly in I20120228-0800 with the same version of CDT (8.1.0.201203191015). So, something must've changed in the platform between I20120228-0800 and N20120309-2000.

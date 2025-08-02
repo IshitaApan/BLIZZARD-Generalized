@@ -1,0 +1,3 @@
+[ICU] Degradation comment for performance regression in CollatorPerformanceTest#testCollator
+
+Now that the CollatorPerformanceTest#testCollator is finally working, it shows 300% regression from 3.4 to 3.5. A bit of history: Bug 270769 - test never run, that's why we see regression only now Bug 229719 - original code change Bug 229782 - the performance test for the code change The original code change was to switch default collator from java.text.Collator to ICU's Collator. That change was done in 3.4. At this time the test essentially measures performance of the com.ibm.icu.text.RuleBasedCollator and its dependent classes in 3.4 vs. 3.5.

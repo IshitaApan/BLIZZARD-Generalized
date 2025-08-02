@@ -1,0 +1,3 @@
+[Compatibility] cannot drag stack in second WorkbenchWindow
+
+I started with a new workspace and dragged around my outline view. Then I opened a second window and attempted to place its outline view in a similar position. The second window won't allow dragging of any views/stacks. Remy mentioned: Widget widget = (Widget) event.getProperty(EventTags.NEW_VALUE); if (widget instanceof Shell) { if (dndMgr == null) { dndMgr = new DnDManager((MWindow) changedElement); } } PW

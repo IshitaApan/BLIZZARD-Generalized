@@ -1,0 +1,3 @@
+Need to handle multiple activites in a prompt
+
+Our prompting about adding activities should handle both the single activity and multiple activity cases. If the user says do not show me again we should not prompt for those activities any more.

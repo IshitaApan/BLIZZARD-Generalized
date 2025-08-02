@@ -1,0 +1,3 @@
+[Services] [Doc] Small blurb for org.eclipse.ui.ISaveablesLifecycleListener
+
+I need a small blurb for org.eclipse.ui.ISaveablesLifecycleListener to add to the isv doc. i.e. Is it a global service or hierarchical service, does it involve any cleanup, etc, and why you would get it (like a sentence). PW

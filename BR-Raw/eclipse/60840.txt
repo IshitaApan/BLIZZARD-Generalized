@@ -1,0 +1,3 @@
+[KeyBindings] Delete key does not work in Combo boxes when the Combo box is in a Toolbar
+
+Steps to reproduce: NOTE - this is not reproducible in a stand alone SWT application 1) Contribute a control contribution to a toolbar that contains one or more Combo boxes. 2) Enter some text in the Combo box. 3) Place the cursor in the middle of that text and press delete key. bug: Notice that nothing happend. No text was deleted. The problem is in WorkbenchKeyboard.java. Apparently this same bug was discovered with Text widgets and a fix was submitted for just the Text widget case. I think the fix should apply to Combo widgets as well. Patch to follow.

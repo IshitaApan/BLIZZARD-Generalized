@@ -1,0 +1,3 @@
+PathVariableSelectionDialog has references to java.io.file
+
+M3 PathVariableSelectionDialog needs to remove it's java.io.File references

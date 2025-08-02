@@ -1,0 +1,3 @@
+e4 applications don't get focus
+
+Upon startup, e4 based applications (including the 4.0 SDK) don't receive focus. Bogdan mentioned that this has to do something with the splash screen.

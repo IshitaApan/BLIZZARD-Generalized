@@ -1,0 +1,3 @@
+WBWRenderer arbitrarily modifies the window's parent's active context chain
+
+The window's parent's context arbitrarily changes its active child to the window being rendered in createWidget(*).

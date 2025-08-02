@@ -1,0 +1,3 @@
+[Progress] ProgressDialog should not use SWT.SHEET
+
+The progress dialog comes up as a SHEET right now and looks funny. Suggest it be a normal dialog instead.

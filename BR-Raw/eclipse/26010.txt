@@ -1,0 +1,3 @@
+[resources] need path variable implementation
+
+In conjunction with the linked resources (bug 6664), Core needs to implement path variables, similar to Java's classpath variables. These variables need to be able to be set to file and folder locations on disk and persisted. They will be used when constructing linked resources.

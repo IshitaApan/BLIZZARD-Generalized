@@ -1,0 +1,3 @@
+[Commands] misc: Many identical entries in 'Uncategorized'
+
+The 'Uncategorized' category in the Keys preference page has many identical entries due to entries that are now auto-generated from the action contributions. What do the 4 "Add Task" entries do? Are they doing something different?

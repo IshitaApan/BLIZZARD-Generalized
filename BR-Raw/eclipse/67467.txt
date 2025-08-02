@@ -1,0 +1,3 @@
+[Presentaions] Toolbar layout missing buttons for stack view in Breakpoints view
+
+Build: 3.0 RC2 I have a layout where the Breakpoints view is stacked with several other views. When I first open Eclipse and bring the Breakpoints view to the top, several buttons are missing from its local button bar. If I maximize and then restore the view, it is back to normal.

@@ -1,0 +1,3 @@
+[Compatibility] Huge toolbar buttons with EcoreDiagramEditor
+
+Created attachment 203657 screenshot When I open the Ecore Tools diagram editor (org.eclipse.emf.ecoretools.diagram.part.EcoreDiagramEditor), I see huge buttons in the toolbar : see attached screenshot.

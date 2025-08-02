@@ -1,0 +1,3 @@
+[Import/Export] Get overwrite prompt before no resources selected prompt
+
+3.1 RC1 - File > Export > Archive - clear any selected resources - enter an archive file name where the file already exists - Finish - it prompts to overwrite the file; choose Yes - it says "There are no resources currently selected for export" (OK) Should get the "no resources" prompt first, and not bother with the second one. Should check the other export wizards too.

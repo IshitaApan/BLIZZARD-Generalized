@@ -1,0 +1,3 @@
+'Advanced>' vs 'Advanced>>'
+
+rc2 any reason why sometimes we have 1 '>' and sometimes 2 '>'s ? example for 1: jproject build properties > source > add folder > create new folder example for 2: select the project, 'New > folder'

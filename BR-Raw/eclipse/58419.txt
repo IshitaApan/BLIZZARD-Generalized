@@ -1,0 +1,3 @@
+[Progress] "Run in Background" dialog should be possible to remember my decision
+
+I20040413 I like the new dialog which allows me to push stuff into the background. There's just one thing: now all operations are modal again but with a dialog. It should be possible to remember my decision (of course by operation): - if I press "Run in Background" and check "Remember my decision" then all following operations which are of the same type will automatically run in background - if I simply check "Remember my decision" and don't put it into background then all following operations which are of the same type will automatically run modal And of course: the must be UI (preferences) to change my mind later.

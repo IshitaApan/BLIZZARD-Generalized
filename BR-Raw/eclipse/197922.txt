@@ -1,0 +1,3 @@
+[Commands] Restart command In file Menu
+
+It will be nice to have a restart action in the file menu (and an associated keyboard short cut). Each time we add plugin to our plugin directory the platform must be restarted, to do this i actually have to do: file -> switch workspace -> other -> ok

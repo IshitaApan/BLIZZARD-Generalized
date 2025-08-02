@@ -1,0 +1,3 @@
+[Trim] Need API to lock all trim
+
+One of the standard RCP scenarios identified by Nick was the ability for an RCP app to 'lock' the trim. For now he thinks that simply having the capability to have -all- the trim locked or not would suffice. The proposed change would add a new preference in IWorkbenchWindowConstants (LOCK_TRIM="Lock Trim"), 'false' by default. This does -not- need to be a dynamic preference; there would be no GUI to change it so it wouldn't require pref change listeners... Then I'd modify the TrimLayout to respect the value by querying it on construction.

@@ -1,0 +1,3 @@
+[Compatibility] Secondary workbench windows are not restored with the menu bar or the tool bar
+
+I20100727-1520 1. Window > New Window 2. File > Exit 3. Start Eclipse up again. 4. Notice that one of the workbench windows doesn't have a menu bar or a tool bar.

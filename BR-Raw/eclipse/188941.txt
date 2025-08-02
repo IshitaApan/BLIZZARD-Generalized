@@ -1,0 +1,3 @@
+[Min/Max] Switching to the R2.1 presentation using the pref dialog ends up with new min/max behavior
+
+This is a subset of the defect covered in bug 182142. The fix for this part is trivial... patch coming.

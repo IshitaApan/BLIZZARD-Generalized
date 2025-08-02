@@ -1,0 +1,3 @@
+[Jobs] Behavior of new Job error dialog
+
+I20040113 We had an error in one of our jobs which runs when the selection changes. This caused the new Job error dialog to appear. But first I could not close it since it was automatically reopened when the editor got focus. After I noticed that the dialog isn't modal I could close it by first selecting another editor. There should be a way to minimize the dialog and then later bring it up again.

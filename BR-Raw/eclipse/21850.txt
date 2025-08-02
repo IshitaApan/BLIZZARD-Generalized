@@ -1,0 +1,3 @@
+Using zero as code assist auto activation delay prevent the code assist window from appearing [editor]
+
+In preference window -> editor -> code assist tab, if the value for Auto activation delay is zero, pressing the Auto activation trigger will not pop the window. This smell like a wait(0) is done before popping the window but a wait(0) mean wait forever. But thats just my intuition :)

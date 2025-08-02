@@ -1,0 +1,3 @@
+problems view quick fix: dialog should check resource by default
+
+I20060207-1305 1. Select a marker in the problems view, e.g. a Java problem 2. Activate quick fix from the context menu 3. The dialog that shows up has the ok button disabled as no problem is checked in the lower half. The problem selcted in step 1 should be checked by default

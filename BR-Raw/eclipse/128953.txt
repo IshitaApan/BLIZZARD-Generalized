@@ -1,0 +1,3 @@
+[Markers] Problems view loses focus
+
+Eclipse 3.2M5 The Problems view immediately loses focus, whenever you click on a marker that is opened in the currently active feature editor. To reproduce: - Create a feature.xml that has a warning. - Close all editors. - Double click on the warning in the problems view. (Editor opens, is active) - Now single click on the same item. Result: Problems view immediately gives away focus to the feature editor.

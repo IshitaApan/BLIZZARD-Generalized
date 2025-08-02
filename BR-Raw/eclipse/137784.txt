@@ -1,0 +1,3 @@
+[Progress] progress colors not alternating correctly
+
+20060420 When we refresh entries in the progress viewer we frequently do not get alternating colours (usually all grey). STEPS 1) Load the jobs example 2) Start a job 3) Start a second job Both are grey.

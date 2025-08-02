@@ -1,0 +1,3 @@
+[Compatibility] ISelectionService cannot be found from the workbench window's service locator
+
+SSIA

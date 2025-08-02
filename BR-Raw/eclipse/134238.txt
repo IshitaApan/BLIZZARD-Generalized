@@ -1,0 +1,3 @@
+[Undo] TriggeredOperations should close open operation on RuntimeExceptions
+
+I20060331-2000 See bug 134227 comment 0, step 8: 8. Do the multi quick fix again: -> Caused by: java.lang.IllegalStateException: Cannot open an operation while one is already open An exception in Platform Text causes the DefaultOperationHistory to be in an illegal state which causes exceptions later. The operation history should clean up upon errors e.g. if an open operation is performed it should make sure to close it in case of errors.

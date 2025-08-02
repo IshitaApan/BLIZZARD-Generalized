@@ -1,0 +1,3 @@
+[Compatibility] create the main menu
+
+We have access (currently) to the WorkbenchActionBuilder but we are converting the basic menu to part of the LegacyIDE.e4xmi file.

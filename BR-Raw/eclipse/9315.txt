@@ -1,0 +1,3 @@
+Task list update is slow when switching selection
+
+Build 20020205 - certain projects had 100s of errors (due to CVS resource conflicts) - had task list filters set to show all tasks in same project - update when changing from a projects with many errors to a project with no errors is very slow -- the removal of items in the task list is visible (animated)

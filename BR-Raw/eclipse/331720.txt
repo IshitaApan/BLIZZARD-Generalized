@@ -1,0 +1,3 @@
+[Compatibility] Insufficient number of editor references generated on startup
+
+1. Open two files. 2. Close. 3. Restart. 4. Ctrl+F6, you will only see one editor when you should see two.

@@ -1,0 +1,3 @@
+[Actions] ReferenceCleanerThread in ActionContributionItem cause application can not exit normally.
+
+When the standalone application exit, the display disposed, will call ReferenceCleanerThread.stopCleaning() method, it simply set the running field to false, but "reference = referenceQueue.remove();" in line 196 still blocking. And you must call System.exit() explicitlly to terminate the currently running Java Virtual Machine. so I think it is a bug. My env: XP home edition, jdk 1.4.2_04, and eclipse-SDK-I20040514-win32 Regards, Eric

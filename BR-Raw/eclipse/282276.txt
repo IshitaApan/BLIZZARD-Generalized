@@ -1,0 +1,3 @@
+[ContatcsDemo] ThemeSwitcher should force a relayout
+
+When switching the Theme the workbench should be instructed to relayout itself because computedSizes() might have changed (e.g different font-heights, ..)

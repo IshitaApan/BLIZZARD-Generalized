@@ -1,0 +1,3 @@
+[Decorators] Add properties to decoration context
+
+In order to support Team state decorations properly, I need the ability to associate properties with a decoration context. I will attach a patch.

@@ -1,0 +1,3 @@
+[Import/Export] Import Projects Wizard: Finish is enabled even if no project is selected
+
+In Import Existing Projects Wizard, the Finish button is enabled even when no projects are selected for import. When the Import wizard is first invoked, Finish is disabled, since no projects have been selected for import. If a directory with no Eclipse projects is selected, Finish remains disabled. If a directory with at least one Eclipse project is selected, then Finish becomes enabled. If none of the projects are selected for import, then Finish remains enabled. Although this behaviour does not cause any functional problems, the UI seems inconsistent.

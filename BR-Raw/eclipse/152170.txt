@@ -1,0 +1,3 @@
+[FilteredTree] Make it easier to use other viewers
+
+Right now it's not easy to make use of a checkboxtreeviewer in a FilteredTree. It's possible to override createTreeControl(...), however, it adds a disposelistener which references a protected field (refreshJob). Maybe it would be best to put this dispose logic somewhere else so clients can use their own custom tree viewers (ie., createTreeViewer(...)? Does this make sense :)?

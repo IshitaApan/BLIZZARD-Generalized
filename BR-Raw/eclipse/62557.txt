@@ -1,0 +1,3 @@
+[Progress] progress view "verbose" does not retain checkmark
+
+build i0517-1219 - in the progress view use the drop-down menu to "show verbose" - close the view - open the view via double-clicking in the bottom right of the app window - note that the checkmark doesn't appear next to "verbose" in the menu - note that it is showing all jobs - choose "verbose" from the menu - note it reduces the number of jobs shown in the view - choose "verbose" from the menu - note that the checkmark appears

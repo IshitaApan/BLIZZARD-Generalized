@@ -1,0 +1,3 @@
+[DynamicUI] [Commands] [Contexts] [KeyBindings] Commands architecture isn't dynamic
+
+After the initial reading there is no attempt made to keep the state of the command architecture in sync with the registry.

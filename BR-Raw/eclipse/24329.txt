@@ -1,0 +1,3 @@
+[Navigator] Navigator uses Workbench preference store
+
+20021001 The ResourceNavigator uses the workbench preference store currently for backwards compatibility. It should be migrated over to using its own preference store and the preference page should update it.

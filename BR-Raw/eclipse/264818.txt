@@ -1,0 +1,3 @@
+[Markers] Problems view: Status line shows wrong selection count summary
+
+Created attachment 125614 Screenshot N20090212-2000, already broken in 3.4.1, was OK in 3.3.2 Problems view: Status line shows wrong selection count summary. Expected: Counts of errors, warnings, infos are counts in selection Was: Counts are total numbers.

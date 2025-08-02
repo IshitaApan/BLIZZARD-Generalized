@@ -1,0 +1,3 @@
+[ToolTips] Open/Add new API for ToolTips
+
+- don't make shouldCreateToolTip final - add new API method ColumnViewerToolTipSupport#createToolTipContentArea(Event, Object, Composite) - Allow DefaultToolTips displayed more than once (For ToolTips in ToolTips).

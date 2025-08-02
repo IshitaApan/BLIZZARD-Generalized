@@ -1,0 +1,3 @@
+[PopupDialog] ordering of size and location menu items
+
+Follow-up to bug 140226. The ordering of the size and location menu items is a bit strange: 1 Move 2 Resize 3 Remember Size 4 Remember Location 1 and 2 are fine and mimic Windows' Alt+Space menu. 3 refers to 2 and 4 refers to 1, which is somewhat 'mixed'. I would prefer Move, Resize, Remember Location, Remember Size or Move, Remember Location, Resize, Remember Size

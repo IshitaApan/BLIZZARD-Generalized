@@ -1,0 +1,3 @@
+[DND] Files deleted when dragged to mozilla
+
+In the Resource or Java perspectives, after dragging an html file from the navigator to be viewed in Mozilla, the file is deleted from the Eclipse views and from the filesystem. Not true of IE 5.5 or Netscape 4.72 on the same machine. Versions: - Eclipse 2.0.2 - NT 4.0 SP6 - Mozilla 1.2.1

@@ -1,0 +1,3 @@
+[Working Sets] Add to / Remove from Working Set... Context Menu in Navigator and Package Explorer
+
+Editing working sets in large projects is painful, it would be really handy if there was a context menu in the navigator and package explorer that was something like: Working Set Add to Working Set... (add the current resource to the selected working set) Remove from Working Set (only enabled when you're in a working set)

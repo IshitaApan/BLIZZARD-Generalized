@@ -1,0 +1,3 @@
+[Jobs] Machine Speed Preference
+
+I20031119 It seems that teams are now using that preference to decide whether a job is run in the background or not. This is not what the preference tells me: it says it controls how many jobs can be run in the background and not which kind of jobs. If this really controls which kind of jobs run in the background then this should also be shown in the UI.

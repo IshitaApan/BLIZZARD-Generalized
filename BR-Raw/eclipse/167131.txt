@@ -1,0 +1,3 @@
+[StatusHandling] constants in StatusManager not futureproof
+
+The constants in StatusManager (IGNORE, LOG, SHOW, SHOWANDLOG) aren't futureproof. They could be expressed in OR style. Is there a good reason to have SHOWANDLOG?

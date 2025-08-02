@@ -1,0 +1,3 @@
+[Undo] - javadoc - clarify disposal responsibilities in ICompositeOperation
+
+If a composite operation is disposed, it should dispose all of its children. If a child of a composite operation is removed before the composite is disposed, it should dispose the removed operation. This should be documented.

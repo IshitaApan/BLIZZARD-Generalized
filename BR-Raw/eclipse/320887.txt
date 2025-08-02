@@ -1,0 +1,3 @@
+[Compatibility] Eclipse context of PageSites are never disposed
+
+Created attachment 175215 PageSite patch v1 We activate/deactivate them properly but never actually dispose them _individually_. So technically speaking, they're just going to lie around forever until you actually close the view. And keeping shared parts in mind, you'd have to close them in every single perspective you have up.

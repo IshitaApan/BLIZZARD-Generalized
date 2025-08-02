@@ -1,0 +1,3 @@
+[EFS] Drag and Drop of Folder with Spaces produces two folders in Navigator View (and other views that deal with resources)
+
+If you grab a folder on the file system that has spaces in the name and drag it into a project in the navigator view, the folder is copied twice, once with escaped spaces (%20) and once without any escaped spaces. The folder with escaped spaces is the one with the content, the other folder has no content. This is a fairly serious bug for us because we use the CopyFilesAndFoldersOperation to do our own manipulation like this and the bug is in that class.

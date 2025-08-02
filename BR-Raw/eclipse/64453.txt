@@ -1,0 +1,3 @@
+Turning part into fastview prevents tab selection
+
+Start with two stacks of views. 1. Click on a view in stack A 2. Click on a view from stack B 3. Right-click on the view from stack A and turn it into a fastview This will cause another view in stack A to become revealed, but you cannot click on the view to give it focus or give the tab the active appearance.

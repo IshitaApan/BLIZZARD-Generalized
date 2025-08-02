@@ -1,0 +1,3 @@
+[Jobs] Duplicate search marker jobs
+
+Build 20040310 While doing operations, I got locked while a build was running. Looking at the progress, I observed there were 3 instances of a searching marker job in the queue, awaiting to proceed. The scheduling of these search jobs should be smart enough to avoid stepping on itself. If it is already scheduled, it shouldn't reschedule one, or if doing so, it should cancel pre-enqueued one.

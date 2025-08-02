@@ -1,0 +1,3 @@
+[RCP] IWorkbenchAction should be API
+
+Was it intentional to mark this class as not subclassable? Is it expected that every client implement their own disposable action interface?

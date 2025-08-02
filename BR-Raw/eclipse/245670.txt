@@ -1,0 +1,3 @@
+[Preferences] Regression: Preferences dialog reveals focus widget when shell is activated
+
+M20080827-2000 and I20080827-0935, was fine in 3.4 - open Preferences dialog - make sure a vertical scrollbar appears in the right pane (e.g. make the dialog smaller or go to a big page like Errors/Warnings) - give focus to the topmost widget in the right pane - scroll down with the mouse until the focus widget is not visible any more - switch to another application - switch back to Eclipse => ScrolledComposite automatically scrolls to reveal the focus widget. There's no reason why the SC should scroll in this scenario. Probably introduced by the fix for bug 245159.

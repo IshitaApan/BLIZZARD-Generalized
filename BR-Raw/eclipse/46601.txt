@@ -1,0 +1,3 @@
+[RCP] Configuration details does not work
+
+Multiple problems. The dialog is not scrollable, and hence the information is not readable. If you scroll off the bottom using the arrow keys, then the "Close" button does not work. And a user is reporting a NullPointerException (see Bug 44228).

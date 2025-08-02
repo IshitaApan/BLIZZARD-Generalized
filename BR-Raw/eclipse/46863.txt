@@ -1,0 +1,3 @@
+[RCP] Window menu missing separator between Preferences and list of windows
+
+build N20031117 - Window > New Window - the Window menu correctly shows the list of windows when there is more than one, but it's missing the separator between Preferences and the list of windows - this is a regression from M4, most likely due to the RCP changes

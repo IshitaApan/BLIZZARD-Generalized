@@ -1,0 +1,3 @@
+[WorkingSets][Graphics] Aggregates should have an icon
+
+They should use the same icon as the action set does. It will need to be copied into workbench. MvM, I'm including you on this just in case the graphics people come through with a new version of the icon - it'll need to be updated in two places now.

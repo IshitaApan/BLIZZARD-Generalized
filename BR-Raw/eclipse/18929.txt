@@ -1,0 +1,3 @@
+Switching view  to fast view leaves a "zumbi" view around
+
+build 20020602 (F2) Tested only on windows 1) Supposed you have Package and Hierarchy together on the same view. 2) Drag the Package view making it be a Fast View 3) Resize the hierarchy view to be wider 4) At this point you got a huge gray area 5) Try switch to another view, look like the old view is around (no log found)

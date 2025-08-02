@@ -1,0 +1,3 @@
+[Markers] Configure Contents dialog missing mnemonics and punctuation
+
+follow up on bug 213162 - open the problems view - open the view menu - open 'Configure Contents...' The list is labeled 'Configurations'. It needs a column ':' and mnemonics. The size of the button 'Select...' is too small

@@ -1,0 +1,3 @@
+Resizing minimized view gets "left behind"
+
+Running on linux I20101209-1744 Open a minimized view and start to resize it, things work well if I move the mouse slowly. If I move the mouse too quickly, the view does not follow, gets left behind and stops sizing. When this happens, if you release the mouse button, the view is left in a wierd state where moving the mouse over the edge of the view continues the size operation.

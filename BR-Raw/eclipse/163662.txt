@@ -1,0 +1,3 @@
+[Progress] ProgressManagerUtil javadoc  incorrect
+
+From revision 1.40 of ProgressManagerUtil (build I20060829-0800) there is /** * The ProgressUtil is a class that contains static utility methods used for the * progress API. */ /** * @since 3.2 * */ /** * @since 3.2 * */ /** * @since 3.2 * */

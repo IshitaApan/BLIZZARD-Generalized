@@ -1,0 +1,3 @@
+[Compatibility] ISources.SHOW_IN_SELECTION and ISources.SHOW_IN_INPUT is not in the context
+
+We're getting nulls out of the ExecutionEvent.

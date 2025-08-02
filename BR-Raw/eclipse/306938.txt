@@ -1,0 +1,3 @@
+[Compatibility] Progress dialog comes up when opening a file
+
+This doesn't happen on 3.x and is rather annoying now that John's performance improvements have made this dialog pretty much obsolete. I believe I implemented a renegade/naive implementation of IRunnableContext methods or something somewhere. Will check what happens on 3.x and compare...

@@ -1,0 +1,3 @@
+[About] Installation Details dialog is not remembering size
+
+I noticed while investigating bug 264042 that the installation details is not remembering its size, yet the code intends to do so (it overrides getDialogBoundsSettings()). The problem is that the shell size is being set in configureShell() which causes the remembered bounds to be ignored, because a resize event has already been received. The fix is to provide the default size only if there are no dialog settings stored.

@@ -1,0 +1,3 @@
+[Dialogs] OK button is in the wrong position if dialog explicitly calls layout() before initializeBounds()
+
+Select a project in the Package Explorer and hit delete. When the Delete Resources dialog pops up for confirmation, the 3 buttons are displayed in the following order: Preview, OK, Cancel. On the Mac this should be: Preview, Cancel, OK. Appears to be a problem on both Cocoa and Carbon on Eclipse 3.5 Version: 3.5.0 Build id: I20090414-0800

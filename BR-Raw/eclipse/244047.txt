@@ -1,0 +1,3 @@
+[Browser] Extension point schema previews open in internal browser
+
+I20080812-0800, was OK in 3.4 Extension point schema previews open in an internal browser, even though I've set Preferences > General > Web Browsing > Use external Web browser.

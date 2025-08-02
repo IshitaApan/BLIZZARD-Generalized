@@ -1,0 +1,3 @@
+[IDE] [WorkingSets]'Build Working Set' menu item not working
+
+I'm developing an eclipse-based editor, which is composed of 4 plugins. I created a working set made up to these 4 plugins inorder to be able to build and run these plugins in one shot. BUT, the 'Build Working Set' compile option does nothing when i select it. My working set does appear in the list, but when i select it, the build process does not start at all. I recently migrated to 3.1M7. All was fine in 3.0.1. I just imported all the 4 old plugin projects into 3.1M7 and created a new working set definition in 3.1M7.

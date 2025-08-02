@@ -1,0 +1,3 @@
+[Tasks] default sorting order in Problems view is incorrect
+
+20030625 the top one should be 'severity descending' it makes no sense at all to have the most sever problems at the bottom of the list

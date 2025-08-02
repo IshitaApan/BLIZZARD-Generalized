@@ -1,0 +1,3 @@
+[CommonNavigator] More helpful error message when an invalid suppressedExtensionId is referenced
+
+The current error message does not show the if of the NCE that had the bad reference.

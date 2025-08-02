@@ -1,0 +1,3 @@
+[Wizards] Simple Project creation wizard needs better titles
+
+We use the title Project for both of our simple project pages. We should use Project and Project References.

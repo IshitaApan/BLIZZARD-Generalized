@@ -1,0 +1,3 @@
+[Perspectives] NPE: CustomizePerspectiveDialog in method getVisibleIDs
+
+Build ID: 20090619-0625 Steps To Reproduce: 1. Launch an RCP Application which has no menu contribution item with the ActionFactory.NEW.getId() id. 2. Select a perspective -> customize -> wait for the "Customize Perspective"-dialog -> click "Ok" 3. A NPE is thrown as, in this case, the "wizards" member variable has not been initialized. More information: This also happens if there is no menu contribution item with the id of - "SHORTCUT_CONTRIBUTION_ITEM_ID_OPEN_PERSPECTIVE" - "SHORTCUT_CONTRIBUTION_ITEM_ID_SHOW_VIEW"

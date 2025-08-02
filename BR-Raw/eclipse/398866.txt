@@ -1,0 +1,3 @@
+Dynamic menu contribution position in application model not equal to rendering
+
+Created attachment 225972 wrong rendering position The rendered position of a dynamic menu contribution element is not equal to its defined position within the application model. The enclosed screenshot figures the situation.

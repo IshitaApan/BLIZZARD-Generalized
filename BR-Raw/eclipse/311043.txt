@@ -1,0 +1,3 @@
+[Compatibility] Get prompted to save an untitled file even if you said "No"
+
+1. Make a new 'Untitled Text File'. 2. Type some stuff in it. 3. Ctrl+W. 4. Click 'No'. 5. A 'Save As' dialog appears!

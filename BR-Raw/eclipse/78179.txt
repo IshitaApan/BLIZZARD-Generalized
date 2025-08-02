@@ -1,0 +1,3 @@
+[Progress] ProgressManager's 'subTask' throws NPE on null string
+
+Most progress monitors work correctly when 'subTask' is called with an empty string EXCEPT for 'org.eclipse.ui.internal.progress.ProgressManager' which blindly does: if (name.length() == 0) return; instead of... if (name != null && name.length() == 0) return;

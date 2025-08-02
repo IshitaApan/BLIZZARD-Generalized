@@ -1,0 +1,3 @@
+Create and example that modifies the model
+
+An example of walking the model and modifying it in the running eclipse. PW

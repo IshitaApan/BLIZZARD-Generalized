@@ -1,0 +1,2 @@
+[KeyBindings] Resetting to defaults on the keys preference page doesn't set the key configuration
+

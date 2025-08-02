@@ -1,0 +1,3 @@
+Add "active" context variables
+
+In many cases in SDK we see the following pattern: RunAndTrack() { ... getActiveLeaf().get("some_name"); ... } While this works, it might be not efficient as RaT will be called on every change of the active part, regardless if the observed value of "some_name" changed. I'd like to see if we can add "active" variables that will serve as a buffer and will only trigger RaT above when the "some_name" value changed. The RaT would look like this: RunAndTrack() { ... getActive("some_name"); ... }

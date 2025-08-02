@@ -1,0 +1,3 @@
+[PropertiesView] Multi-instance Properties View
+
+The property view should allow to open multiple instances. Use cases/requirements/ideas can be found at http://wiki.eclipse.org/Platform_UI/Multi-instance_Properties_View

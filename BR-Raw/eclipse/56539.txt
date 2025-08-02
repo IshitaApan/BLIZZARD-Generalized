@@ -1,0 +1,3 @@
+[KeyBindings] Can't unbind key on keys preference page
+
+1. It is impossible to remove default key bindings for debug actions (e.g. Step Over) on build M8. The reason is impossibility to select key binding in the list. Selection resets immediately. 2. There are no key binding for Team/CVS actions (Update, Commit, etc.)

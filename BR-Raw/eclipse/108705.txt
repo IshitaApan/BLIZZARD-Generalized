@@ -1,0 +1,3 @@
+[Contributions] errors: ObjectActionContributor should safeguard against misbehaving plugins
+
+When using the Java Persepective and the Package Explorer all closed projects no longer have "right-click" context menu available to them. However, there is a caveat. If I right-click on a project that is open (which does show the menu) and then try to right-click on a closed project again, the menu now shows up.

@@ -1,0 +1,3 @@
+[Colors/Fonts] Configuring colors when a theme is active is problematic
+
+Currently the color/font page uses the default definitions for determining whether a color or font is set to the default value. This is wrong - the definitions needs to be the base definitions merged with teh theme overrides.

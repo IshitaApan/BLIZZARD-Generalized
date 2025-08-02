@@ -1,0 +1,3 @@
+[Preferences] Import preferences could be more intuitive
+
+Build 3.0M3 Why can't I simply select a *.epf file, and simply import it (if it is a resource).

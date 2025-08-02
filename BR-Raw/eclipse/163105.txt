@@ -1,0 +1,3 @@
+[Preferences] WizardPreferences export page not using dialog font correctly
+
+Version: 3.3.0 Build id: I20061031-0656 The WizardPreferences export page is propagating the parent font rather than using the dialog font support in Dialog.

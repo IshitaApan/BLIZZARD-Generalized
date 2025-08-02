@@ -1,0 +1,3 @@
+Double click should expand import/export trees
+
+In the new Import and Export dialog, the tree should be expandable using double- click. It currently is not.

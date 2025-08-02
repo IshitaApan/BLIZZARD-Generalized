@@ -1,0 +1,3 @@
+[FieldAssist] Content assist does not work well with combo box.
+
+To replicate the problem on a combo box with content assist enabled. This can be seen from the SDK Example provided with eclipse. Verified on 3.2-3.4 1. Click on the button to show the drop down list for the combo 2. Click on the editable text field of the combo 3. Initiate content assist on that text field 4. Now when we move the mouse, the focus is on the drop down list of the combo although it is hidden behind the content assist popup. Clicking once will fill the text field of the combo box with the value from the drop down list (which is hidden now). May be the combo box drop down list should close as soon as content assist is in effect?

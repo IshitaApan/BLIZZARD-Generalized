@@ -1,0 +1,3 @@
+[IDE] Open Resource shows files in build directory as well as source directories
+
+In a Java project, I have a Source and a Build directory. When I use the Open Resource menu to look at a non-Java file, the Open Resource window shows me both the copy in the Source directory(s) and also the one in the Build directory. I think the Build directory source should be filtered out, since it is more natural to want to edit the one in the Source directory(s) -- otherwise changes may be overwritten with the next edit to the Source file. Clearly when the source and build directories are the same then the result should not be filtered, but it should be filtered from the build directory when they are different.

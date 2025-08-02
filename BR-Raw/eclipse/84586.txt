@@ -1,0 +1,3 @@
+Launch doesn't wait for build if launching while "cleaning" before build
+
+If I launch from the Java perspective while a build is in progress, and then switch to the debug perspective, no dummy launch appears (although the progress view shows a pending launch).

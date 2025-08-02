@@ -1,0 +1,3 @@
+[KeyBindings] New Keys preference page: Remove Delete button next to schema
+
+I20070502-0010 New Keys preference page: There's a "Delete" button next to the schema combo. When I click it, nothing happens, so I guess it should be removed (at least for now). If you add some behavior, please be sure to rename it to Delete..., add a "Do you really want to delete..." dialog, and also add possibilities to create new schemas and restore the default schemas.

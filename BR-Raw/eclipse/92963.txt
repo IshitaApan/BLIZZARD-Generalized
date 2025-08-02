@@ -1,0 +1,3 @@
+[RCP][WorkbenchAdvisor] Allow workbench advisors to continue to run after the last window has closed.
+
+Our RCP application needs to continue to run after the last workbench window has closed. Currently the workbench is hard coded to shutdown when the last workbench window is closed. We would like to propose new API in the workbench advisor framework to override this behavior.

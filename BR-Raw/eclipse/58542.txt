@@ -1,0 +1,3 @@
+Dangerous change to setSystem in MarkersViews
+
+In MarkerView.refresh() there is the line uiJob.setSystem(true); Which may happen after the uiJob has run. As a result it is possible that it is not being used to decrement the count of jobs and the progress monitor can run forever.

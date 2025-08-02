@@ -1,0 +1,3 @@
+[Commands] SelectAllHandler vulnerable to NPEs
+
+M1 If getMethodToExecute() executes while the display has no focus control then line 103 dies with an NPE. There should be a null check on the focus control.

@@ -1,0 +1,3 @@
+[Markers] Tasks view not clearing high and low priority items
+
+When the priority of a task changes from high to normal the icon is not updated. This is also an issue for sorting. STEPS 1) Open a task view with some FIXME tasks 2) Create a new normal task - it will show up with a ! icon and one FIXME will have no icon.

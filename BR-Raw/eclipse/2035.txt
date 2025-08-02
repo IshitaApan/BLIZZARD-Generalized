@@ -1,0 +1,3 @@
+[Wizards] Previous location of project content area not remembered (1GDQUX8)
+
+When I create a new project and set the content area to something other than the default, it would be good if the last choice was remembered so that when I go to create the next project, if I choose not to use the default area, that value is used as the initail setting for the file prompter. Users who want to create several projects in the same non-default area will benefit greatly from this. NOTES:

@@ -1,0 +1,3 @@
+[Perspectives] Saving perspective layout via export preferences
+
+Request from KH to save perspective layout as preference data so that the layout can be exported and imported as part of preferences. There are probably some other sets of data besides perspective layout that would also be useful to save as preferences.

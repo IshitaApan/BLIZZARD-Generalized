@@ -1,0 +1,3 @@
+[Workbench] Initial workbench window isn't drawn correctly
+
+I20031216 2000 - launch Eclipse with new workspace Observe: Initial workbench window seems to be empty (see attached screenshot). After resizing it shows up normal.

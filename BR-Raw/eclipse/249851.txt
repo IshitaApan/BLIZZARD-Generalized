@@ -1,0 +1,3 @@
+[QuickAccess] Quick access doesn't open perspective if all perspectives are closed
+
+I20080918-0100 1. Window > Close All Perspectives 2. Ctrl+3 > Resource 3. Hit 'Enter'. 4. Nothing happens. :( In QuickAccessDialog's handleElementSelected(String, Object) method, there's a null check for the active workbench page. Unfortunately, when there are no perspectives open, we have no active workbench page. Thus, the method just returns and nothing happens.

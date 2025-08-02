@@ -1,0 +1,3 @@
+[WorkbenchLauncher] splash screen blocks the switch workspace dialog and creates illusion of hung application
+
+While starting up the "select workspace" dialog sometimes comes up behind the splashscreen and is completely obscured. A user may interpret this as the application having hung.

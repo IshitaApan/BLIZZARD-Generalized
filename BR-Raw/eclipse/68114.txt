@@ -1,0 +1,3 @@
+IDE does not contribute a product extension
+
+The 3.0 product model uses extensions to define products. There is a compatibility layer mechanism that transforms primary features into products. As part of the work to get the UI off of using features to present the About dialog and determine branding, there was to be an IDE product extension defined in a plugin.xml. The content of the about.ini etc was to be moved into the plugin.xml and plugin.properties as appropriate. I'm putting this forward as an RC4 bug as 1) the change is in markup not code 2) it is relatively easy to test I will work on a change and attach a patch as appropriate.

@@ -1,0 +1,3 @@
+Programmatic enabling of decorators doesn't take
+
+I thought I fixed the lazy enablement of the CVS decorator but it turns out I was fooled because I didn't disable the decorator in XML. When I fixed that, it surfaced a bug in UI where the programmatic setting of decorators doesn't take. It appears to work (it is checked on the preference page) but some items are not decorated (a few are but most are not) and the setting is lost after a restart. It should be straight forward to duplicate the behavior present in the preferences dialog (i.e. to make it work properly). I will try it out and send a patch to UI when completed.

@@ -1,0 +1,3 @@
+vertical trims are not supported
+
+On e4, I can contribute trims to the locations toolbar:org.eclipse.ui.trim.status and toolbar:org.eclipse.ui.trim.command2, but the vertical locations toolbar:org.eclipse.ui.trim.vertical1 and toolbar:org.eclipse.ui.trim.vertical2 do not work; nothing shows up when I use them. I'm not sure about command1.

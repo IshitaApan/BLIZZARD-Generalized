@@ -1,0 +1,3 @@
+[Wizards] New wizard should not always show 'Show all'
+
+The new wizard dialog should only use the 'show all' if here are both primary wizards and non-primary wizards. If all wizards are primary then the categorized tree should not be shown. If there are no primary wizards then the tree should be shown immediately.

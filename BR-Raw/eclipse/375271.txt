@@ -1,0 +1,3 @@
+[CSS] Deprecation warnings should be more helpful
+
+Currently: !MESSAGE CSS property has been deprecated: simple More useful: !MESSAGE CSS property 'simple' has been deprecated: renamed as swt-simple

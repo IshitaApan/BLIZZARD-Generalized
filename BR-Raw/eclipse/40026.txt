@@ -1,0 +1,3 @@
+[Jobs] cancel hint
+
+3.0 20030710 When a job is cancelled via the 'cancel' context menu item the actual running job may not terminate immediatly. As a hint to the user you should show that the job is waiting to be cancelled. One option would be to prefix the name shown in the view and/or use an icon: [+] (Cancelling) Refreshing with remote CVS

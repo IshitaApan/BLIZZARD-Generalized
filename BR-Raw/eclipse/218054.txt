@@ -1,0 +1,3 @@
+[Contributions] ActionFactory.OPEN_NEW_WINDOW needs to be converted
+
+This is an action that needs to be converted into a handler for the command and a command action returned from ActionFactory. PW

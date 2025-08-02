@@ -1,0 +1,3 @@
+Paste enablement only updated when selection changes
+
+Build 20020328 - select a file in the Navigator - choose Copy - Paste is disabled - change the selection away, then back to the same file - Paste is now enabled Paste should be enabled whenever there is an appropriate resource on the clipboard. The best way to do this would be using change callbacks from the clipboard, since I could copy from the Navigator then Paste in the Packages view, or vice versa, and these actions don't know about each other. But SWT doesn't seem to support this. For now, we should just update our actions as best we can.

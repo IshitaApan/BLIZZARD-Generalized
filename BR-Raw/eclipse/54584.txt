@@ -1,0 +1,3 @@
+[Preferences] Appearance Pref Page inconsistend spacing; dialog font
+
+see screenshot

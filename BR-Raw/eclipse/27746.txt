@@ -1,0 +1,3 @@
+[startup] 20021204 hidden views still activated
+
+i thought this was fixed (i might be wrong) but hidden views are still activated on startup

@@ -1,0 +1,3 @@
+API refers to non-API type UIResourceFilterDescription
+
+I20100112 CreateGroupOperation and CreateFolderOperation have constructors that require a UIResourceFilterDescription[]. However this is a non-API type, so clients can't reference it without using internals. Either the constructor should be removed or something like UIResourceFilterDescription needs to be promoted to API. Also, shouldn't CreateFolderOperation be renamed CreateVirtualFolderOperation?

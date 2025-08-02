@@ -1,0 +1,3 @@
+[Wizards] Problem with creating a new file
+
+RMB on a project New -> File Enter a file name and select a directory Click on "Advanced <" Finish button does not function.

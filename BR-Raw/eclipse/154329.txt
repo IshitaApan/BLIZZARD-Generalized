@@ -1,0 +1,3 @@
+[Viewers] Provide widget independent TableViewer  implementation
+
+At the moment the concrete classes to provide a table or a tree require that the underlying Widget is an org.eclipse.widgets.Table and org.eclipse.widgets.Tree. It would make sense to extract all code parts who don't depend on the concrete-widget to an AbstractBaseClass between: - ColumnViewer > TableViewer => ColumnViewer > AbstractBaseTableViewer > TableViewer - AbstractTreeViewer > TreeViewer => AbstractTreeViewer > AbstractBaseTreeViewer > TreeViewer

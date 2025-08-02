@@ -1,0 +1,3 @@
+Active parts aren't set correctly in events
+
+Created attachment 140992 Patch A specific manifestation is that save command applies not to the currently active part, but to the last active part. This is caused by the mismatch in what the context thinks the active child is and what the model processing is. The current order is: set the active tab in the CTabFolder, then update context. It should be: set context, when update CTabFolder. The processing of the CTabFolder uses information from the context and the context is still set to the previous active child. Hence we get this strange behaviour where "save" command saves not the currently active editor, but the previous editor.

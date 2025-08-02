@@ -1,0 +1,3 @@
+Window previous view - opens in mystery place
+
+Stable Build: 20020125 Choose Window > Navigation > Previous View (or Next View) It opens a small hovering popup with which there are several problems 1) The popup appears somewhere randomly in the middle of the screen and not where the users attention is currently focused (i.e. near the menu bar) 2) You should be able to dismiss it by clicking away from it (just like you can do with menus). I realize esc works but first reaction is to click off it.

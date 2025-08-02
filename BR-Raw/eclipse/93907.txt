@@ -1,0 +1,3 @@
+[Editor Mgmt] [Contributions] Editor actions enabled when editor opened without activating it
+
+build N20050505 - change to open on single-click - in the Navigator or Package Explorer, single-click on a .readme file - the readme editor's "1" toolbar button is enabled, but it should not be because the editor is not activated The problem is that EditorActionBars initializes enabledAllowed to true instead of false. It should only be enabled when setEnabledAllowed(true) is called.

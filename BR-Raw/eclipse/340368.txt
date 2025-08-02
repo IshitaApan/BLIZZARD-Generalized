@@ -1,0 +1,3 @@
+[Compatibility] No tooltip for the new pin view toolbar button
+
+Build ID: I20110312-1300 The pin view toolbar button is new in e4. I appreciate if there is a tooltip showing what it does.

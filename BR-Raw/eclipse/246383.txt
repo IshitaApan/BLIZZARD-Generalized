@@ -1,0 +1,3 @@
+[KeyBindings] AWT Text fields no longer receive delete key pressed event in workbench
+
++++ This bug was initially created as a clone of Bug #243210 +++ Build ID: I20080617-2000 Steps To Reproduce: Our product utilizes editors with AWT components embedded into them. Since moving to Eclipse 3.4, the delete key pressed event is never received by the AWT text fields. Previously, this event was injected on the AWT Event Queue threat. Eclipse 3.4 only injects the delete key released event on the AWT Event Queue. It appears that SWT processing is somehow "stealing" the delete key pressed event. More information:

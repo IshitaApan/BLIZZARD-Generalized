@@ -1,0 +1,3 @@
+[Commands] Removed unused Action classes related to Update Manager
+
+As part of bug 215914, Tim replaced the action classes in the ui.ide bundle used to open the "Find and Install" and "Manage Configurations" dialogs with handler classes in the update.ui bundle. As a result, these classes are no longer used and can be removed. In the org.eclipse.ui.ide bundle: org.eclipse.ui.internal.ide.update.ConfigurationManagerAction org.eclipse.ui.internal.ide.update.InstallWizardAction Since they are the only 2 classes in the package, the org.eclipse.ui.internal.ide.update package can also be removed. Also the manifest file should be updated so the bundle doesn't export the removed package.

@@ -1,0 +1,3 @@
+Bloopers on Problems view's Quick Fix Dialog
+
+I20070208-0010. There are bloopers on the Problems view's Quick Fix dialog: - intially some text in some columns cannot be read - I cannot resize those columns to read it - 'Quick Fix' is in the title and directly beneath it - the text that is below 'Quick Fix' says: "Select the fix ..." which indicates that I can select ONE fix. Why is there a check box table then?

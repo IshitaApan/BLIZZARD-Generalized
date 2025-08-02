@@ -1,0 +1,3 @@
+ErrorDialog not showing inner statuses
+
+i20040505 ErrorDialog#populateList(List, IStatus, int) is always adding the root status message instead of the sub status specific message. Will add a sample dialog to show the problem.

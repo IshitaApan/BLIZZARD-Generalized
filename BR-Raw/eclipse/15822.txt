@@ -1,0 +1,3 @@
+[View Mgmt] Support to show a view without making it active
+
+Console views and other output only views (e.g. JUnit Test Results) should show up without taking away focus from the currently active part. There is currently no way to do this and the workaround is remember the previously active view, show the ouput view, and then give focus back the previously active view. This results in some quick activation flicker. It would be better to have a showView method that can shows a part without activating it.

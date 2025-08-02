@@ -1,0 +1,3 @@
+[DataBinding] ObservableListContentProvider should use AbstractListViewer.insert
+
+See Bug 75625 comment 18.

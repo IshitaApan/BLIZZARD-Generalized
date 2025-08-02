@@ -1,0 +1,3 @@
+ProgressMonitorJobsDialog should not sync exec using parent shell
+
+As it can be null. We should do the following if(!PlatformUI.isWorkbenchRunning()) return; 				 PlatformUI.getWorkbench().getDisplay()

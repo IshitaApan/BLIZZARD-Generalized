@@ -1,0 +1,3 @@
+[Decorators] DecoratorManager should reschedule in the run() method
+
+See Bug 77039. Our current support reschedules in a done() which has a potential to create the job twice. This was originally done as we could not reschedule inside of run() but we no longer have this restriction. Adding John as I want him to look this over with me.

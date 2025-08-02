@@ -1,0 +1,3 @@
+[Preferences] Preference links don't switch preference pages if dialog already open in tips and tricks
+
++++ This bug was initially created as a clone of Bug #191677 +++ I20070608-0010, was working in 3.2.2 Preference links from the doc pages don't switch preference pages any more if the preferences dialog is already open. This makes it tedious to e.g. work through the Tips & Tricks document and following preference links, since you always have to close the dialog first for the links to work. Filing against Platform/UI, since the used org.eclipse.ui.window.preferences command is from org.eclipse.ui.

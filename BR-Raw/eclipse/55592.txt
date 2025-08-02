@@ -1,0 +1,3 @@
+[Contributions] SubActionBars does not properly handle menu listeners
+
+build I20040318 While investigating a leak of Java editors (bug 53473), we found that the JavaOutlinePage's CustomFiltersActionGroup hooks a menu listener on the menu manager of the page site's action bars. This is a SubMenuManager. Its implementation of addMenuListener simply delegates to the parent. There are two problems here: 1. These menu listeners are not disposed when the action bars are disposed. 2. When the menu is shown, the listener is given the parent menu manager to add to, not the sub menu manager.

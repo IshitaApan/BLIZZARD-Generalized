@@ -1,0 +1,3 @@
+[Markers] Unused NLS messages reported on startup using I0321-1210
+
+Starting I20060321-1210, I got this in the console log. !ENTRY org.eclipse.osgi 2 1 2006-03-21 20:21:07.984 !MESSAGE NLS unused message: filtersDialog_selectAllTypes in: org.eclipse.ui.views.markers.internal.messages !ENTRY org.eclipse.osgi 2 1 2006-03-21 20:21:07.984 !MESSAGE NLS unused message: filtersDialog_deselectAllTypes in: org.eclipse.ui.views.markers.internal.messages

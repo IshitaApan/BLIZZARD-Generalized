@@ -1,0 +1,3 @@
+[StatusHandling] Clipboard in WSDM is never used
+
+Created attachment 113961 Fix

@@ -1,0 +1,3 @@
+[Properties] keywords for property pages
+
+20050429 Property pages don't seem to support keywords. Shouldn't thay also allow the <keywordReference id="org.eclipse.jdt.ui.buildpath"/> tag?

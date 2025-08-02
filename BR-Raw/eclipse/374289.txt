@@ -1,0 +1,3 @@
+Updating toolbar images has no effect
+
+Tested using https://github.com/paulweb515/eclipseExamples : the org.eclipse.example.commands.toolbar project. The handlers are updating the images, but the HandledContributionitems are not updating correctly.

@@ -1,0 +1,3 @@
+[Markers] Can't toggle item limits in Problems view any more without losing limit
+
+I20110308-2000 I can't toggle item limits in Problems view any more without losing limits. After I've disabled the limits, the next time I enable limits, the value is "1". The stored value should not be changed.

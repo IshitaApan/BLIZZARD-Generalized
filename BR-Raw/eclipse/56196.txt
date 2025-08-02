@@ -1,0 +1,3 @@
+[Progress] Cannot create file when using repository
+
+I200304250010 1) Create a new workspace 2) Add a repository connection 3) Create project A 4) Check out a larger project B While the check out is running 5) File>New>File 6) Select project B 7) Add a name 8) Press Finish -> File cannot be created because this is blocked by a background operation

@@ -1,0 +1,3 @@
+[RCP] Need separate API for showing fast view bars and perspective bar
+
+build I20040219 In the new look, the shortcut bar on the left has been broken up into fast view bars (which can be at left, right and/or bottom [there are ongoing changes here]) and the perspective bar (at top right). IWorkbenchWindowConfigurer.get/setShowShortcutBar(boolean) should be broken up into separate methods get/setShowFastViewBars(boolean) and get/setShowPerspectiveBar(boolean). The corresponding preference constants in IWorkbenchPreferenceConstants need to be added as well.

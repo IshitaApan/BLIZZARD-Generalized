@@ -1,0 +1,3 @@
+[FastView] Clicking on empty editor area does not close fast view
+
+I200403171300 Clicking on empty editor area does not close fast view

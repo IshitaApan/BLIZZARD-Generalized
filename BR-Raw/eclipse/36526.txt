@@ -1,0 +1,3 @@
+ErrorDialog leaks a clipboard
+
+Build: 2.1 The JFace ErrorDialog leaks a clipboard instance in the copyToClipboard method: private void copyToClipboard(){ StringBuffer statusBuffer = new StringBuffer(); populateCopyBuffer(status,statusBuffer,0); Clipboard clipboard = new Clipboard(list.getDisplay()); clipboard.setContents( new Object[] {statusBuffer.toString()}, new Transfer[] {TextTransfer.getInstance()} ); } clipboard.dispose() should be called at the end of this method.

@@ -1,0 +1,3 @@
+[Markers] New Problems view does not select current problem from editor
+
+I20071106-0816 The Problems view used to select and reveal the problem at a Java editor's caret position. The new Problems view doesn't.

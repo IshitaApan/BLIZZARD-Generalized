@@ -1,0 +1,3 @@
+[Import/Export] Cannot import tar files with 8-bit filenames
+
+On importing .tar.gz, the file is treated as a zip-file and produces a "Source file is not a valid Zip-file"-error message. This happens for all .tar.gz-files.

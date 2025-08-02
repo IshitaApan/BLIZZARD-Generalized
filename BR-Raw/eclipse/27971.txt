@@ -1,0 +1,3 @@
+[View Mgmt] Tasks view missing its toolbar icons
+
+build N20021209 - after working for a while, noticed that the Tasks view is missing its toolbar icons and view (triangle) menu See the attached screen shots. TaskList.java has not changed recently, so I'm assuming this is a broader problem. I'll try to find steps to reproduce it.

@@ -1,0 +1,3 @@
+[CommonNavigator] Mac OSX: Dragging file in Project Explorer creates backwards animation
+
+Build Identifier: I20110127-2034 Dragging a file from one project folder to another will create an animation (of a semi-transparent image of the file) to move from the destination location to the source location, which is the opposite of the file move. This animation is counter-intuitive and appears that the drag operation failed. In Package Explorer no animation exists, this would probably the easiest fix for the Project Explorer. Reproducible: Always Steps to Reproduce: 1. In Project Explorer: Create two project folders, A and B. 2. Create a file in A. 3. Drag file to B. 4. Animation appears of a file moving from B to A, opposite of what you did.

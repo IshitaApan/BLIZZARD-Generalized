@@ -1,0 +1,3 @@
+[Field Assist] - decorated fields should not size the created control
+
+The philosophy of DecoratedField is that the client creates the target control and accesses it with normal SWT coding. The decorated field manages the decorations but otherwise statys out of the way. This philosophy is violated when DecoratedField sets the width of the field to IDialogConstants.ENTRY_WIDTH. Sizing decisions should be made by the client of the decorated field, not the field itself.

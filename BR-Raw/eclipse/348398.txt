@@ -1,0 +1,3 @@
+Missing setFocus call on tab selection
+
+Work TBD from, initially from Bug 346148.

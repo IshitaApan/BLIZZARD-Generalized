@@ -1,0 +1,3 @@
+using -data is not intuitive enough
+
+we have this question asked on the newsgroup every week and i see it asked on other forums too: 'how to updgrade from eclipse build X to build Y?' seems like using -data is just something nobody ever comes up with we should provide some help for people here vame had something, other ides have something too: you can point the ide to a workspace we could ask on startup - that would be good current solution is not intuitive to anyone marking as major, since when we ship 2.1 there'll be thousands of frustrated people copying their workspaces thinking that this is the way to upgrade

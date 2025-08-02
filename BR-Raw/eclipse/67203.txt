@@ -1,0 +1,3 @@
+[Import/Export[ Import from Zip File and File System gives no feedback about read-only files
+
+Test Pass for 3.0 RC2 1. have JUnit with corresponding code 2. add the following line to TestCase.java: // read-only 3. close the editor and make the file read-only 4. start to import JUnit from File system 4. Uncheck "Overwrite existing...without warning" 5. Click "Finish" ==> dialog appears 6. Click "Yes To All" Stuff gets imported and wizard closes - no info about read-only files. Now, what do I have to expect? Has TestCase.java been overwritten? Were there other read-only files? Which ones? Fact is: read-only file TestCase.java has not been imported. I would expect a dialog that asks me what do to with read-only files or at least tell me that which ones were not imported.

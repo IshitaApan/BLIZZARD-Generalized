@@ -1,0 +1,3 @@
+[Dialogs] InputDialog NPE when invoking setErrorMessage(...) too early
+
+06081200 build Setting the error message this early is probably not anticipated, but it shouldn't throw an exception... public class Main { 	public static void main(String[] args) { 		Display display = new Display(); 		Shell shell = new Shell(display); 		InputDialog dialog = new InputDialog (shell, "TEST", "value", "test", null); 		dialog.setErrorMessage("error"); 		dialog.open(); 		shell.open(); 	} }

@@ -1,0 +1,3 @@
+[Workbench] Workbench should check for existing display before creating one
+
+The Workbench.createDisplay() should check to see if a display exists already before creating a new one. In the case of the new launcher a splash bundle may have already created a display for splash screen purposes. Suggest checking Display.getCurrent();

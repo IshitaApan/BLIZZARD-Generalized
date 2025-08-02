@@ -1,0 +1,3 @@
+[Field Assist] - API - Deprecate DecoratedField and related classes
+
+If ControlDecoration is adopted in replacement of DecoratedField by all existing SDK clients, then we should deprecate DecoratedField.

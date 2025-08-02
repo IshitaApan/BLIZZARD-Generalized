@@ -1,0 +1,3 @@
+[Compatibility] View action are disabled when its view is not active
+
+The 'Breakpoints' view's 'Remove Selected Breakpoints' and 'Remove All Breakpoints' actions are disabled when the view is inactive. They enable themselves when the view becomes the active view. In 3.x they are always active.

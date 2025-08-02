@@ -1,0 +1,3 @@
+[Markers] Show tooltips for table columns in marker views
+
+3.1 Now that TableColumn support tooltips (see bug 4572), we should provide tooltips for the columns in the marker views, at least for the icon columns where the column heading may be cryptic.

@@ -1,0 +1,3 @@
+[Wizards] Create folder blocked should avoid locking workspace
+
+Version 3.1.M3. - In the Resource perspective, I did a Team/CVS Update on a large Java project and sent it to the background. - I then went into a different project, and tried to create a new directory from the Navigation pane. That action was blocked. Should I not be able to create a new folder at the same time? Thanks, Gary

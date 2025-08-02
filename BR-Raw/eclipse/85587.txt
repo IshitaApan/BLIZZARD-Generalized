@@ -1,0 +1,3 @@
+[IDE] Save before clean all
+
+The test plan for Platform UI states that a build should prompt to save unsaved resources. However, when we "clean all", no such prompt appears. Should it?

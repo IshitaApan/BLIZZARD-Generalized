@@ -1,0 +1,3 @@
+[Presentations] Ability for differing view stack presentations within the one presentation extension
+
+Currently, when creating a presentation, you can differ how views are presentation in only a few ways. Standalone vs regular views and within standalone, with or without a title. For many applications this is insufficient for branding or other reasons. I would like to see the ability to request the views be presented in a specific way. I see this as being implemented by the perspective by passing in some untyped object. The presentation API would interogate that object to determine how the view stack is created.

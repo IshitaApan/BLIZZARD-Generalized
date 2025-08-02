@@ -1,0 +1,3 @@
+NPE due to ResourceWorkingSetFilter
+
+The private method isEnclosed() gets called from API method select(...). This happens when an element is added to a list/table. Unfortunately isEnclosed() accesses a field which is null. The field is only != null during the filter(...) call. Test Case: 1. Set a working set on a window 2. Add a new package in the Java Browsing perspective.

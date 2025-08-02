@@ -1,0 +1,3 @@
+[Key Bindings] F3, F4 and other keys seem to be broken
+
+Build 20020813 For some reasons F3 and F4 stopped working in several views. Also, [Delete] key doesn't work anymore in Search view without having changed anything there. I heard about an SWT change in that area? Since we are in non-breaking API mode for 2.1 I guess this changes needs to reverted.

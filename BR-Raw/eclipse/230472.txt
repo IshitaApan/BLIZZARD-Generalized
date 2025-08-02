@@ -1,0 +1,3 @@
+[ActivityMgmt] Expression controlled Activities aren't correctly synchronized with the internal enabled list when they are persisted and reloaded
+
+Created attachment 98930 Remove expression controlled activities persistence Build ID: I20080330-1350 Steps To Reproduce: 1. Start Eclipse and activate an initially deactivated expression controlled activity, so it gets into the enabled list. 2. Close Eclipse correctly, so the enabled state gets saved. 3. Restart Eclipse and watch the correctly disabled expression controlled activity be wrongfully in the enabled list. More information: This patch excludes expression controlled activities from (a) persistence and (b) be later wrongfully reloaded (if the activity has been extended with an expression in between).

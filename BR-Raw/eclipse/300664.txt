@@ -1,0 +1,3 @@
+[GlobalActions] Make 'Build All' retargetable
+
+Currently only "Build Project" is retargetable. It would be nice to have that ability also with the "Build All" action.

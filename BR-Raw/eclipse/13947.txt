@@ -1,0 +1,3 @@
+"New Item Shortcuts" don't appear in drop down menu
+
+build 20020412 -select Window->Customize Perspective -check the TestCase and TestSuite items under "New Item Shortcuts" ->Note that no menu items appear in the "New Item" toolbar item menu This works for all other items except for the two that are in the JUnit subcategory of the Java category.

@@ -1,0 +1,3 @@
+[Properties] Error in log about invalid extension element
+
+Build: I20060307-1315 I get two instances of this message at the start of every session: !ENTRY org.eclipse.ui 4 4 2006-03-07 17:28:33.031 !MESSAGE Plugin org.eclipse.ui.ide, extension org.eclipse.ui.propertyPages Unknown extension tag found: enablement I suspect this is related to the work done for bug 106839.

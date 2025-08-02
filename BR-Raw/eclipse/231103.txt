@@ -1,0 +1,3 @@
+[Markers] Remove marker preference page
+
+Which is redundant due to the preferences being in the view.

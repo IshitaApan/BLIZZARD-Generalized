@@ -1,0 +1,3 @@
+[Progress] Searching dialog not closing
+
+I200406162000 1. Start on a new workspace 2. Create a new Java project 3. Search for '*' Type Declarations in Workspace Observe: When the search is done, the Searching dialog is still up. You have to press Run in background to dismiss it.

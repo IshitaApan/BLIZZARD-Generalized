@@ -1,0 +1,3 @@
+[Compatibility] Editor to be opened not brought to top if it's already there
+
+Build i0224-2000 - have multiple editors open - have "Open Mode - Single Click" preference set - when you click on a file in the Package Explorer it opens the editor on a single click - but when you already have multiple editors open and you click on the file in the Package Explorer, it does not bring your editor into focus unless you double-click.

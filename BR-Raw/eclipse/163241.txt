@@ -1,0 +1,3 @@
+[Undo] Allow Undo notification to be turned off
+
+When deleting a project you will always been notified that it removes the Undo History. Could we add a "Don't show this" checkbox to its dialog settings? Thanx, PW

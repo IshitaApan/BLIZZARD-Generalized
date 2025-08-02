@@ -1,0 +1,3 @@
+Icons for "Sync with Editor", "Collapse All"
+
+We currently have no colored (hover) icon for the "Sync with Editor" and "Collapse All" actions. Also there is not disabled icon for the "Sync with Editor" action.

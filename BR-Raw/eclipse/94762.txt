@@ -1,0 +1,3 @@
+[Undo] Undo dialog concatenates messages result in two periods
+
+See attached screen shots. Since there isn't a clear standard right now if sentences have to end with a period we either have to define this or the dialog has to have some smartness

@@ -1,0 +1,3 @@
+Preferences Dialog clean up
+
+from build I20050126 the following issues need to be checked for the preferences dialog - more margin in content area on left - there should be a few more pixels on the left hand side of the Bold banner text on top - align clear button + text + icons on far right - square off the content area (i.e. no CTabFolder corners) - try adding a separator under title in pref. page

@@ -1,0 +1,3 @@
+[Compatibility] View toolbar button doesn't show command name as tooltip
+
+4.2 M5, EGit 1.3.0.201201270251 Some view toolbar buttons don't show tooltips in 4.2 (but works fine in 3.8). An example is the "Refresh" button in the "Git Repositories" view. The button is contributed via <menuContribution locationURI="toolbar:org.eclipse.egit.ui.RepositoriesView"> <command commandId="org.eclipse.egit.ui.RepositoriesViewRefresh" style="push"> </command> ... where the command doesn't have a "tooltip" attribute. In 3.8, the name of the command is used in that case, see CommandContributionItem#updateToolItem().

@@ -1,0 +1,3 @@
+[MPE] getAdapter(IEditorStatusLine.class) not working for MultipageEditor
+
+I20030923 As an example: use FindReplace dialog on Source page of PDE's plug-in editor and observe: status is written in dialog but not in the workbench window's status line.

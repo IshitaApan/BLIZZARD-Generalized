@@ -1,0 +1,3 @@
+[Commands] CommandSerializationTest failure in HEAD
+
+org.eclipse.ui.tests.commands.CommandSerializationTest.testOneParameterCommand() This seems to fail with the ParameterizedCommand changes made from bug 222861 PW

@@ -1,0 +1,3 @@
+Window > Show View is gone
+
+N20081201-2011 and probably I20081202-0800. Several main menus (e.g. Window > Show View) are gone. I suspect that this is caused by bug 182714.

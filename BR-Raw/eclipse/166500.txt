@@ -1,0 +1,3 @@
+[Viewers] AbstractViewerEditor too much optimization
+
+I think the optimization of not recreating the listeners every time is not appropriate. 2 ways to solve this: - writing part to into an instance variable - recreating the the listener everytime The same applies to the mouse-listener.

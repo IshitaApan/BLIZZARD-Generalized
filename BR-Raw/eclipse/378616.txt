@@ -1,0 +1,3 @@
+New trim-toolbars for minimizes stacks don't fit CSS styling colors scheme
+
+Created attachment 215157 trim toolbar with default (no) styling The colors are not styled yet, see attachment.

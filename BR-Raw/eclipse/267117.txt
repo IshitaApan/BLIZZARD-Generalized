@@ -1,0 +1,3 @@
+[JFace] Provide possibility for subclasses to check if a column is visible in ViewerRow
+
+Currently this is decided by checking with width but this makes Nebula-Grid fail.

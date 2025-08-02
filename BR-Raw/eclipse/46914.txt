@@ -1,0 +1,3 @@
+[MenuMgmt] Eclipse hangs on description of menubar details
+
+To reproduce: Window - Customize Perspective... Select 'Commands'-Tab Select 'Help' in the left list and then 'Search >' in the middle list (or anything else, doesn't matter). Press F2 ("show description") -> A tooltip-like widget appears "No description available" and Eclipse does not react any more Eclipse is - eclipse-platform-3.0M4-linux-gtk.zip - eclipse-JDT-3.0M4.zip Linux is Debian Sid with KDE 3.1

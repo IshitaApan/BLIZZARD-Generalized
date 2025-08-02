@@ -1,0 +1,3 @@
+[Linked Resources] New path variable dialog allows editing existing variables
+
+build 20021204 The new path variable dialog displays a warning when the name of an existing variable is used. When selecting ok the existing variable value is set to the new value. The new dialog should not allow overwriting existing variables. The edit dialog should be used for this purpose. The new dialog should display an error and disable the ok button if a variable name is already in use.

@@ -1,0 +1,3 @@
+CellEditorActionHandler relies on English accelerators
+
+The CellEditorActionHandler creates actions using the String definitions in messages.properties in org.eclipse.ui. The accelerators in these definitions will only be set in English as the accelerators are not translated. If they are to be used they should be set explicitly. The issue is with all of the handlers.

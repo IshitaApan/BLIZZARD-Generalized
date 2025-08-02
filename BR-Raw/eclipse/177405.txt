@@ -1,0 +1,3 @@
+[Preferences] Layout issues with Text Boxes and Scrollbars
+
+Build ID: I20070313-1051 Steps To Reproduce: 1.Open preference window 2.notice that default size of right-hand tree control is not big enough to render contents. More information: Documented here (Item #4): http://www.bugblogger.com/2007/02/eclipseos_x_ran.html

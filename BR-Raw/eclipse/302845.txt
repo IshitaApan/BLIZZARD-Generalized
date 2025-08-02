@@ -1,0 +1,3 @@
+[EditorMgmt] Changing the sort order in Switch to Editor makes it lose its selection
+
+Build Identifier: 20090920-1017 I really LOVE the "Switch to Editor". However, when you select something, and then change the sort order by clicking on a column heading, the selection is lost. Reproducible: Always Steps to Reproduce: 1. Open a couple of files in the editor. 2. Open the Switch to Editor (ctrl-shift-e by default). 3. Select one or more editors, by (ctrl-)clicking them. 4. Click on a column heading to change sort order of the table. 5. The selection is lost.

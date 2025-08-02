@@ -1,0 +1,3 @@
+[Contributions] Regression test for action delegate dispose
+
+build I20041214-2000 Need a regression test for bug 81165.

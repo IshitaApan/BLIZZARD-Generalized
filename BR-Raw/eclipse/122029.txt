@@ -1,0 +1,3 @@
+[Wizards] Change "General" back to "Basic"
+
+Renaming basic to general doesn't really do anything but frustrate the user that has learned to search for "basic". Standard Views are still grouped under the heading "basic".

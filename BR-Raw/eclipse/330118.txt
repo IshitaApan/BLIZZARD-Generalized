@@ -1,0 +1,3 @@
+Reduce number of RaTs created on context update
+
+Created attachment 183012 Patch At present we create new RaT on every context update notification. Because of the way listeners are registered, the "extra" RaTs gets coalesced with the "initial" RaTs and, in the long run, we don't end up with leaks. That, however, is less than ideal as each context update creates new RaT for listeners which gets garbage collected. The attached patch changes that so that context injection creates RaTs only on the initial processing of the injection requestor. The patch also fixed bug in @Active processing.

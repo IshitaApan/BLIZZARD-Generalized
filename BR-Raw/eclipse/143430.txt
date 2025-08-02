@@ -1,0 +1,3 @@
+[CommonNavigator] CommonNavigator requires initialInput to be Adaptable
+
+I have a root nodes that is not Adaptable and that does not fit well with CommonNavigator.getInitialInput which requires (for no real good reason ?) to be Adaptable. Should this not just be an Object ?

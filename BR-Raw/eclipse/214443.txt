@@ -1,0 +1,3 @@
+[Markers] Problem view filter created even if I hit Escape
+
+3.0M4 If I Configure Contents in the Problems view and push the New button to create a Filter, hitting Cancel in the input dialog still creates a filter.

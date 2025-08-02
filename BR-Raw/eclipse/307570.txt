@@ -1,0 +1,3 @@
+[Compatibility] WorkbenchPage's hidePart(MPart, boolean, boolean) should not ignore e4 parts
+
+Right now, we return 'false' if the client implementation is not a CompatibilityPart. The workbench should be capable of closing e4 parts.

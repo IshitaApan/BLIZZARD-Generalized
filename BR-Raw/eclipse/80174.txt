@@ -1,0 +1,3 @@
+[DynamicUI] Show View->Other window empty
+
+The dyanmic UI changes introduced were not correct. We are not flagging the category->view mappings as being stale in the ViewRegistry properly. As such, all categories are viewless.

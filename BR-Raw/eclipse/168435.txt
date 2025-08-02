@@ -1,0 +1,3 @@
+[EditorMgmt] Cannot undo decision to get prompted for save if resource is opened elsewhere
+
+N20061219-0010 (same problem in 3.2 but the given steps won't work) 1. open a text file 2. Window > New Editor 3. do some editing 4. close one editor ==> you get a save dialog with a checkbox. If I check this checkbox I have no choice in the future to undo this decision. This needs to be added to the 'Editors' preference page.

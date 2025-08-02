@@ -1,0 +1,3 @@
+[KeyBindings] errors: WorkbenchKeyboard error dialog should tell which command failed
+
+I20041214-2000 See bug 81136 for the trigger of this bug.

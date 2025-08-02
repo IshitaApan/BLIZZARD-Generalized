@@ -1,0 +1,3 @@
+[DataBinding] [Databinding] Extend ControlObservableValue to observe Size, Location, Bounds and Focus of a control
+
+Created attachment 111901 Adding new observable attributes While working on the E4 prototype application I had observe the bounds of shell here's a patch providing this for any control by extending the ControlObservableValue.

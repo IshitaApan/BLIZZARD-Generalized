@@ -1,0 +1,3 @@
+[Viewers] Memory leak in TreeViewerTest, or TreeViewer, or Tree
+
+The JFace tests produce OutOfMemoryErrors if you add the tests from TreeViewerTest multiple times, as in: addTestSuite(TreeViewerTest.class); addTestSuite(TreeViewerTest.class); addTestSuite(TreeViewerTest.class); addTestSuite(TreeViewerTest.class); addTestSuite(TreeViewerTest.class); Of all test methods, testBulkExpand seems to leak the most memory (25k), determined by poor man's leak checking with Runtime.getRuntime().freeMemory(). Nick, would you have time to look at this together? I don't have a tool for diagnosing memory leaks.

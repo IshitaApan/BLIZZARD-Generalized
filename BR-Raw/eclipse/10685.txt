@@ -1,0 +1,3 @@
+RefactorActionFactory refers to internal class TextActionHandler
+
+Build 20020228 RefactorActionFactory refers to TextActionHandler which is an internal class. Standard components like the Navigator must not refer to internal classes.
