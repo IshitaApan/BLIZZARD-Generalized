@@ -117,6 +117,22 @@
         "mainClass": "blizzard.core.items.BLIZZARDRunner",
         // "projectName": "BLIZZARD-Tool-New",
         "args": "-task getResult -repo ecf -queryFile reformulated-sample-query-ecf.txt -topk 10 -resultFile sample-results-ecf.txt"
-    }
+    },
+    {
+        "type": "java",
+        "name": "Launch BLIZZARDRunner: aspectj",
+        "request": "launch",
+        "mainClass": "blizzard.core.items.BLIZZARDRunner",
+        // "projectName": "BLIZZARD-Tool-New",
+        "args": "-task reformulateQuery -repo aspectj -bugIDFile inputs/aspectj_bug_ids.txt -queryFile outputs/reformulated-query-aspectj.txt"
+    },
+    {
+        "type": "java",
+        "name": "Launch BLIZZARDRunner: birt",
+        "request": "launch",
+        "mainClass": "blizzard.core.items.BLIZZARDRunner",
+        // "projectName": "BLIZZARD-Tool-New",
+        "args": "-task reformulateQuery -repo birt -bugIDFile inputs/birt_bug_ids.txt -queryFile outputs/reformulated-query-birt.txt"
+    },
     ]
 }
