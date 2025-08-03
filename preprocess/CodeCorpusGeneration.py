@@ -1,6 +1,24 @@
 import os
 import shutil
 import csv
+import re
+
+# Regex to detect Java text block ("""...""")
+TEXT_BLOCK_PATTERN = re.compile(r'"""\s*(.*?)\s*"""', re.DOTALL)
+
+def fix_text_blocks(code):
+    """Replace Java text blocks with safe string concatenation format."""
+    def replace_block(match):
+        content = match.group(1)
+        # Remove illegal backslash-newline
+        content = re.sub(r'\\\s*\n', '', content)
+        # Escape quotes
+        content = content.replace('"', '\\"')
+        # Convert multiline to concatenation
+        lines = content.splitlines()
+        return '"{}"'.format('" +\n"'.join(lines))
+    return re.sub(TEXT_BLOCK_PATTERN, replace_block, code)
+
 
 def collect_and_copy_java(src_dir, dest_dir, mapping_file_path, stats_csv_path):
     """
@@ -24,7 +42,17 @@ def collect_and_copy_java(src_dir, dest_dir, mapping_file_path, stats_csv_path):
             for file in java_files:
                 src_path = os.path.join(root, file)
                 dest_path = os.path.join(dest_dir, f"{counter}.java")
-                shutil.copy2(src_path, dest_path)
+                
+                # Read and fix content
+                with open(src_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                fixed_content = fix_text_blocks(content)
+                # Write fixed content to destination
+                with open(dest_path, 'w', encoding='utf-8') as f:
+                    f.write(fixed_content)
+
+
+                # shutil.copy2(src_path, dest_path)
                 mapping[counter] = src_path
                 counter += 1
 
@@ -47,13 +75,13 @@ def collect_and_copy_java(src_dir, dest_dir, mapping_file_path, stats_csv_path):
 
 if __name__ == "__main__":
     # Example usage
-    source_directory = r"/home/ishita/BugLocalization/Data-22k/Code Corpus/birt" # replace project names with aspectj, birt
-    destination_directory = r"Corpus/birt"
+    source_directory = r"/home/ishita/BugLocalization/Data-22k/Code Corpus/eclipse" # replace project names with aspectj, birt, eclipse, 
+    destination_directory = r"Corpus/eclipse"
     mapping_file_directory = r"Lucene-Index2File-Mapping"
-    mapping_file = os.path.join(mapping_file_directory, "birt.ckeys")
-    stats_csv_file = os.path.join(mapping_file_directory, "birt.csv")
+    mapping_file = os.path.join(mapping_file_directory, "eclipse.ckeys")
+    stats_csv_file = os.path.join(mapping_file_directory, "eclipse.csv")
 
     collect_and_copy_java(source_directory, destination_directory, mapping_file, stats_csv_file)
-    print(f"Copied {len(os.listdir(destination_directory)) - 1} files to '{destination_directory}'")
+    print(f"Copied {len(os.listdir(destination_directory))} files to '{destination_directory}'")
     print(f"Mapping written to '{mapping_file}'")
 # 7121 java files for aspectj
