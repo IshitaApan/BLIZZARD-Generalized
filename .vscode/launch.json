@@ -134,5 +134,13 @@
         // "projectName": "BLIZZARD-Tool-New",
         "args": "-task reformulateQuery -repo birt -bugIDFile inputs/birt_bug_ids.txt -queryFile outputs/reformulated-query-birt.txt"
     },
+    {
+        "type": "java",
+        "name": "Launch BLIZZARDRunner: eclipse",
+        "request": "launch",
+        "mainClass": "blizzard.core.items.BLIZZARDRunner",
+        // "projectName": "BLIZZARD-Tool-New",
+        "args": "-task reformulateQuery -repo eclipse -bugIDFile inputs/eclipse_bug_ids.txt -queryFile outputs/reformulated-query-eclipse.txt"
+    },
     ]
 }
