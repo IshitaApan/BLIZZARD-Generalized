@@ -1,0 +1,3 @@
+[quick fix] add quick fix for method needs a method body
+
+We should provide a quick fix for: public class Foo { 	public void f(); // error needs a method body } The quick fix replaces the semicolong with a stub method body

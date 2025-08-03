@@ -1,0 +1,3 @@
+"Move to Top Level..." fails with stacktrace [refactoring]
+
+I20021113 Performing "Refactor->Move to Top Level..." results in the following stacktrace: java.lang.reflect.InvocationTargetException 	at org.eclipse.jdt.internal.ui.refactoring.CreateChangeOperation.run (CreateChangeOperation.java:106) 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run (ModalContext.java:95) Caused by: Java Model Exception: Core Exception [code 4] Overlapping text edits 	at org.eclipse.jdt.internal.corext.refactoring.structure.MoveInnerToTopRefactoring .createChange(MoveInnerToTopRefactoring.java:277) 	at org.eclipse.jdt.internal.ui.refactoring.CreateChangeOperation.run (CreateChangeOperation.java:98) 	... 1 more

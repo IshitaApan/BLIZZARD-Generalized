@@ -1,0 +1,3 @@
+bogus char left in refactoring input page - preview
+
+select an expression, extract as temp enter 'xxx' as name, hit backspace 3 times - it stays 'x'

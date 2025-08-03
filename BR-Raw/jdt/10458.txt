@@ -1,0 +1,3 @@
+Support DND to set focus in Hierarchy View
+
+Please enable Hierarchy view to support DND as a way to "focus on" something, whether it be a project, source folder, package, or type.

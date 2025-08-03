@@ -1,0 +1,3 @@
+[navigation] Open package (F3) doesn't open package
+
+Build ID: M20070815-0800 Steps To Reproduce: 1. Place cursor on a package name 2. Press F3 3. 'Open' window appears with a list of packages in all projects appear (multiple packages are found in opened projects) 4. Select a package (double-click on name or select and click OK) 5. Nothing happens I'd expect that this operation opens a package in Navigator and/or Package Explorer but neither of them is updated.

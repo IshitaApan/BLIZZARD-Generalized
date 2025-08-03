@@ -1,0 +1,3 @@
+[quick fix] 'add unimplemented methods' does not recognise RuntimeExceptions correctly
+
+If the imlpementation of a method defined inan interface additionally (to the interface declaration) throws some RuntimeException - which is legal - quick fix will add a new method when run the next time. However, there is no error indocatur until something changes in the interface (eg a new method is added). After quick fix was run, there are errors about duplicate methods. How to reproduce: - open the attached interface and implementing class - uncomment the second method in IInterface.java - now run quick fix 'add unimplemented methods' on ImplementingClass.java

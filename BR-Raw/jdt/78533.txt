@@ -1,0 +1,3 @@
+problem with "organize imports" and generic bounds [code manipulation]
+
+In Eclipse 3.1M3, "organize imports" removes imports used only as generic bounds. //example: import java.util.Collection; public interface ErrorDemo { 	public <T extends Collection> void method(); }

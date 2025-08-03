@@ -1,0 +1,3 @@
+[spell checking] spell errors not going away after ignoring or adding word to dictionary
+
+Adding a word to the dictionary using quick fix does not cause the error to go away. The errors disappear after the next reconcile. I.e. you have to modify the content of the file in order to get rid of the spell errors.

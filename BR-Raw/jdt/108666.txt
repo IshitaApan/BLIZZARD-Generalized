@@ -1,0 +1,3 @@
+[refactoring] Infer type argument gives strange result
+
+M20050831-1200 + the two plug-ins in \\Rosenberg.zurich.ibm.com\public\t\jabiru\plugin-export\M20050831-1200.from20050902_1247 Found this while verifying bug 105829: 1. create 5.0 project with JUnit 2. add the following CU public class A { 	void foo() { 		Vector v1= new Vector(); 		Vector v2= new Vector(); 		v2.add(v1); 		v1.add(v2); 	} } 3. use infer type directly on CU A ==> no changes 4. use it on the project ==> public class A { 	void foo() { 		Vector<Vector> v1= new Vector<Vector>(); 		Vector<Vector<Vector>> v2= new Vector<Vector<Vector>>(); 		v2.add(v1); 		v1.add(v2); 	} }

@@ -1,0 +1,3 @@
+[refactoring] Refactoring filter: radio group items should not be separated
+
+I20061031-0656 Refactoring filter: radio group items should not be separated (Show All is separated but is connected with other items).

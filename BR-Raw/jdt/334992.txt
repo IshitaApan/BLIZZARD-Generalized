@@ -1,0 +1,3 @@
+[quick fix] "Return the allocated Object" hides "Assign statement to local variable"
+
+HEAD The "Return the allocated Object" quick fix hides the more interesting "Assign statement to local variable" quick assist. Have a line like this: new StringBuffer(); With the warning for unused objects enabled and the caret at the end of the line, Ctrl+1 jumps to the warning and only offers "Return the allocated object" and "Remove", but does not show the "Assign statement to local variable/field" quick assists. The quick assists should also be shown in this situation, and they should have precedence over the quick fixes.

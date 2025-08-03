@@ -1,0 +1,3 @@
+JavaWorkingSetPage.setSelection should work without container being set [general issue]
+
+build 20020925 JavaWorkingSetPage.setSelection requires that the associated wizard be created and a container be set in the wizard. See bug 24099 for details. This should be fixed before I release new API to address bug 17945.

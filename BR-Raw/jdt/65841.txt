@@ -1,0 +1,3 @@
+[typing] Pasted comment wrong when using smart paste
+
+If you have a comment like this: // this is a comment And you copy/paste the entire line to a new line (including leading indentation) you get the correct result: // this is a comment However, if you copy/paste the line *without* the leading indentation to a new line, you incorrectly get: // this is a comment

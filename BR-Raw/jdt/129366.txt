@@ -1,0 +1,3 @@
+Update the JDT wizard images to use the PNG format
+
+As per bug 116260, please update the JDT UI wizard images to use the new png format.

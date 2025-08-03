@@ -1,0 +1,3 @@
+[build path] use the new 'deprecated' and 'read-only' classpath variables
+
+I20070119 JDT core will soon release support to mark classpath variables as deprecated and read-only (bug 138599). We can now - mark the JUnit varibales as deprecated: Message: Use the JUnit container instead - support 'read-only' in the VariableBlock: Disable 'Edit' for read-only vars and a '(non modifiable)' to their label. I suggest to change this also for JRE_LIB: Ask jdt.launching to use the new flags, remove all special code dealing with the JRE variables.

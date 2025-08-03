@@ -1,0 +1,3 @@
+[quick fix] don't update location  when cursor at end of problem
+
+- place the cursor at the end of a problem - CTRL + 1 jumps to the beginning of the problem

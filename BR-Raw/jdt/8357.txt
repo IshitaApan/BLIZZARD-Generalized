@@ -1,0 +1,3 @@
+Pull Up: should remove final from field
+
+Pull up 'fName' in test case. -> Compilation Error in TestCase The final modifier has to be removed (or the refactoring should not allow to move final variables.

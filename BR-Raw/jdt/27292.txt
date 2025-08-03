@@ -1,0 +1,3 @@
+FindActions should not call exists on selectionChanged
+
+I20021127 see bug 27097

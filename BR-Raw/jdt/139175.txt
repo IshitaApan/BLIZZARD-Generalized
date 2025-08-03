@@ -1,0 +1,3 @@
+Use radio button for JUnit view's history menu item
+
+I20060428-0010 Bug 138888 has introduced radio buttons everywhere, but this one was missed. Patch follows. Dani, could you please approve for RC2 (if there's a rebuild)?

@@ -1,0 +1,3 @@
+Highlight method exit points fail
+
+When the return type is primitive like int or void, this function works well. But if the return type is a class, like Vector, my Eclipse 3M9 just highlights all the occurrences of "Vector" in the file. This function should be smarter.

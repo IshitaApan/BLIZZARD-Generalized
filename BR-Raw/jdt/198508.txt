@@ -1,0 +1,3 @@
+[content assist] Code completion enhancement - semicolon after calls to void methods
+
+Why doesn't the code editor code completion automatically put a semicolon upon inserting a call to a void method? That would really save some time, since the cursor is always placed in the parameter list (between the method call brackets), and for void methods you always have to move to the end of the line and put a semicolon. I can't off the top of my head think of a situation where you do not need to manually enter a semicolon upon a call to a void method.

@@ -1,0 +1,3 @@
+[clean up] Allow dialog profile
+
+I20061024-1200 When executing clean up with wizard, it should be possible to enable and edit a profile in the wizard. The profile is only stored in the dialog settings.

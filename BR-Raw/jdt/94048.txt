@@ -1,0 +1,3 @@
+[code manipulation] "Generate Constructor using Fields" doesn't work
+
+In a Java project I cannot use the context menu "Generate Constructor using Fields". I get this error message: "There are no constructors from the superclass which may be used." Using Eclipse 3.1M4 this menu item was working. In 3.1M5a and 3.1M6 it doesn't.

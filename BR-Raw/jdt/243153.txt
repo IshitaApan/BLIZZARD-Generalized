@@ -1,0 +1,3 @@
+[extract method] Extract Method... missing from context menu for field initializers
+
+I20080805-0100. Inline... is always missing and Extract Method... is missing for variable initializers.

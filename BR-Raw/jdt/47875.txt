@@ -1,0 +1,3 @@
+Java search: too many cascading menus
+
+- remove everything except reference. Inline reference in main menu - make it work in progress (per default enabled)

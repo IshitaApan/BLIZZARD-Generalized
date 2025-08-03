@@ -1,0 +1,3 @@
+[syntax highlighting] default constructor of deprecated type should be rendered with strikethrough
+
+Build Identifier: M20100211-1343 import java.util.ArrayList; import java.util.List; public class DeprecatedTest { 	private final List<Object> instances; 	 	public DeprecatedTest(){ 		instances = new ArrayList<Object>(); 		instances.add(new Depr()); 		instances.add(new Depr1()); 		instances.add(new Depr2()); 		instances.add(new Depr3());		 	}	 	 	@Deprecated 	public class Depr{} 	@Deprecated 	public class Depr1{} 	@Deprecated 	public class Depr2{} 	@Deprecated 	public class Depr3{}	 } Reproducible: Always

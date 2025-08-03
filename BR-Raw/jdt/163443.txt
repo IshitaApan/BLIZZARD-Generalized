@@ -1,0 +1,3 @@
+[clean up] private constructor with parameter flagged as unnecessary
+
+When invoking clean up with "Remove unused private member - constructor" enabled on the example class from the clean up preference page, the constructor is not being removed. class Example { private Example() {} public void bar() { int i= 10; } }

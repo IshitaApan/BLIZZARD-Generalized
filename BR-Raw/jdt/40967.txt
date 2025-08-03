@@ -1,0 +1,3 @@
+JUnit: Second list is not accessible [JUnit]
+
+20030730 The second list does not have its label read by a screen reader as it has a button between the label and the list in the z order. This can fixed by either a) Using the moveUp() or moveDown() method to change the z order of the widgets. This is the preferable choice as most commercial screen readers use this algorithm but it requires that the label and the list are siblings (have the same parent). b) Add an AccessibleListener to the control. This will likely be a problem in JAWS still though as it does not use MSAA.

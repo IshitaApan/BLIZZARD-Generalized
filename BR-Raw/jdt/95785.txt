@@ -1,0 +1,3 @@
+[5.0] Content assist for Collection#toArray(T[]) does not show additional info
+
+N20050518-0010 (also with HEAD of JDT/UI and JDT/Core) - have 'Fill argument names on completion' and 'Guess filled method arguments' enabled - in the method below (in a 5.0 project), execute contant assist after toArray and choose "toArray(Object[] a)": public void test(java.util.List aList){ aList.toArray } => There's not javadoc for this method => the line now reads: aList.toArray(toarray - convert collection to array) - changing the parameter type to List<Object> splits the proposal in two and emits a beep when the proposals are inserted: - toArray(T[]) T[] - Collection - toArray(T[]) T[] - List => Expected: only the one from List is proposed; no beep.

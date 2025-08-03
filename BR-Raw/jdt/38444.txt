@@ -1,0 +1,3 @@
+new project, cancel deletes existing files [code manipulation]
+
+1. Begin to create a project. Get past the step where it creates an actual directory, say /workspace/foo. 2. Move some files into /workspace/foo. 3. Cancel the new project creation. Result: /workspace/foo is gone, including the files moved in there outside Eclipse (this is not just class files -- source code is gone as well). Expected result: /workspace/foo is only deleted if no user-created files are in that directory; i.e., it may only be deleted if the files it contains were explicitly created during interaction with Eclipse. A real solution to this bug might also solve bug 20042.

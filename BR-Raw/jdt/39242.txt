@@ -1,0 +1,3 @@
+[misc] NPE in JavaOutlinePage.getMainType
+
+Build: I20030618 I found this NullPointerException in my log file... I cannot figure out what I was editing as there is no local history that corresponds to that time. It is possible that I was browsing read-only types in the repository view. Log file attached.

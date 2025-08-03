@@ -1,0 +1,3 @@
+[api] Need public api for EditorUtility.getActiveEditorJavaInput(..)
+
+We are using internal jdt calls to perform some of our operations. We are using EditorUtility.getActiveEditorJavaInput(..) and would like to replace it with public api. We couldn't find public API to replace this usage. This is blocking our effort to remove access to JDT internal source.

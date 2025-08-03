@@ -1,0 +1,3 @@
+[package explorer] Better defaults when switching to working set mode
+
+I20070503-0010. 0. start fresh workspace 1. go to Package Explorer 2. add a project 3. add a working set 4. add the project to that working set 2. view menu > Top Level Elements > Working Sets ==> customization dialog comes up with just 'Other Projects' preselected. I would also expect that my working set(s) are pre-selected. I think that would be the 80% use case.

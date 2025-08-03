@@ -1,0 +1,3 @@
+[nls tooling] Find Broken NLS Keys should be enabled for packages and editors that edit a Java property file
+
+I20060315-1200 The Source > Find Broken NLS Keys action should be enabled for editors that edit a Java property file i.e. editor's who's editor input has "org.eclipse.jdt.core.javaProperties" content type.

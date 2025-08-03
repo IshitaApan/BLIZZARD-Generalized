@@ -1,0 +1,3 @@
+Duplicate projects in projects view [browsing]
+
+In the Java Browsing view, I have a situation where I have ended up with a duplicate list of projects (as shown in attached screenshot). For some reason, the list of projects seems to have been built twice. I can see each one of them by drilling down through it. I have disabled the '-noupdate' from the launch (trying to get Omondo UML installed) and have restarted several times. It may be due to a glitch in the rebuilding process.

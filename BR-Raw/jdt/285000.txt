@@ -1,0 +1,3 @@
+[preferences] Add UI option for unused object allocation problem
+
+Once bug 236385 is fixed, the new option needs to be exposed in the UI.

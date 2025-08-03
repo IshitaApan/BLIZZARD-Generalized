@@ -1,0 +1,3 @@
+Change Method Signature dialog does not show "static" in Method Signature Preview. [refactoring]
+
+The Refactor/Change Method Signature dialog does not show "static" in Method Signature Preview for static methods. Version: 3.0.0 Build id: 200310101454

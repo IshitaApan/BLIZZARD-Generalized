@@ -1,0 +1,3 @@
+PasteActionTest#test2 failts
+
+N20031109 After converting to RCP the above test started to fail

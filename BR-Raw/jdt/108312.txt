@@ -1,0 +1,3 @@
+[typing] Smart semicolong option should support anonymizing a class
+
+1) Place the caret between the closing parenthesis ')' and semicolon ';'. 2) Type an open brace '{'. 3) Type Enter key (carriage return). See that closing brace '}' is automatically added, but semicolon ';' is illegally misplaced. ----------------- Bug.java ------------------------ class Bug { Object object=new Object(); }

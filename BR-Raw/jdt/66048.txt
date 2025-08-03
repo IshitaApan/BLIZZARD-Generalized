@@ -1,0 +1,3 @@
+Adpat JDT test cases to new code formatter defaults
+
+I20040606 The default code formatter settings have changed to Java convention. The JDT/UI test cases must be adapted.

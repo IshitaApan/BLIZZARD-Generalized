@@ -1,0 +1,3 @@
+correct indentation messes with comment boxes
+
+3m7 /* ******** */ /* */ /* ******** */ comes out /* ******** */ /* */ /* ******** */

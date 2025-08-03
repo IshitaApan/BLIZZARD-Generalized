@@ -1,0 +1,3 @@
+Mark method exits does not work for non-primitive types
+
+3.0 M9 It works for methods with primitive or void return types. Steps to reproduce: 1. Select method with a non-primitive return type. Expected result: The method exists are marked Actual result: The occurrences of the type in the file are marked.

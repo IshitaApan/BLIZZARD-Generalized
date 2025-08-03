@@ -1,0 +1,3 @@
+[formatter] Code format comment /*- (java standard do not format comment)
+
+Eclise 3 Milestone 4 There is a java standard refering to comments, see link: http://java.sun.com/docs/codeconv/html/CodeConventions.doc4.html chapter "5.1.1 Block Comments" where it is described that block comments starting with "/*-" have a special format and they should not be formated example: /*- * Here is a block comment with some very special * formatting that I want indent(1) to ignore. * * one * two * three */ This comment should not be formated. BTW: it's great that eclipse now has comment formatting :-)

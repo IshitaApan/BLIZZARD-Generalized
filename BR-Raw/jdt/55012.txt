@@ -1,0 +1,3 @@
+ResourceToItemMapper should take into account new IViewLabelProvider
+
+ResourceToItemMapper should take into account new IViewLabelProvider to prevent the flashing in the packages view when decorators update. I will attach a modified version of the class.

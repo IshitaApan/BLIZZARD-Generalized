@@ -1,0 +1,3 @@
+[working sets] 'Assign Working Set...' in Package Explorer with 'Top Level Elements > Projects' shows invalid UI element
+
+I20090317-1745. 1. choose 'Top Level Elements > Working Sets' 2. choose 'Top Level Elements > Projects' 3. 'Assign Working Set...' ==> it shows invalid 'Show only Package Explorer working sets' check box which is not applicable

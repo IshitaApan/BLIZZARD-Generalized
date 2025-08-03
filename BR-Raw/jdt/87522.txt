@@ -1,0 +1,3 @@
+[quick fix] remove assignment without sideeffects can have side effects
+
+When eclipse reports an unused variable and offers to remove the variable and all assignments without side effects, it can have side effects. For instance MyDialog d; d = new MyDialog(); In this case it would remove the constructor "new MyDialog()". However the constructor could be doing something useful, such as displaying itself. Thus removing it will have side effects. If it just changed it to this: new MyDialog(); it would not have side effects.

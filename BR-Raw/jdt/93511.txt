@@ -1,0 +1,3 @@
+[5.0][syntax highlighting] Autounboxing not marked in constructor invocation
+
+N20050503-0010 The autounboxing syntax highlighting does not mark the constructor invocation: int intVar= new Integer(13);

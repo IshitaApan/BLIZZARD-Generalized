@@ -1,0 +1,3 @@
+JUnit preference page margins too wide
+
+Build: 20020521 The left, right, top and bottom margins on the JUnit preference page are too wide. They are inconsistent with the other preference pages. Adding the following lines in JUnitPreferencePage.createContents(Composite) will fix this problem: 	layout.marginWidth = 0; 	layout.marginHeight = 0;

@@ -1,0 +1,3 @@
+[content assist][preferences] Need new checkbox in Content Assist preference page for CODEASSIST_DEPRECATION_CHECK
+
+I added a new option for Code Assist, JavaCore#CODEASSIST_DEPRECATION_CHECK (bug 127296). This option should be added to Content Assist preference page.

@@ -1,0 +1,3 @@
+Strings#insertMarks(..) drops directional punctuation characters at end of StyledString
+
+I20100323-0800 Strings#insertMarks(..) drops directional punctuation characters at end of StyledString. It stops copying at originalString.length().

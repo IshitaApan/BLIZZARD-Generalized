@@ -1,0 +1,3 @@
+[ltk][scripting] indicate on wich project a refactoring is applied [refactoring]
+
+N20060428 Apply a refactoring script. On the second page it should be somehow indicated on which project the refactoring will be applied. I.e. when having a refactoring 'Extract method 'private void init()' form 'main.Main.start()'to 'main.Main' the user does not know which project will be modified if there are multible projects with multible Main classes. Datails could contain: - Project: P1 or - Destination type: P1/main.Main or ...

@@ -1,0 +1,3 @@
+JavaCompletionProcessor: error message never shown
+
+form bug 31764 The API says that an error message is shown when computeCompletionProposals or computeContextInformation return null, so only when no proposals are shown. However, teh current code does only return an error message when the number of corrections is > 0 public String getErrorMessage() { 	if (fNumberOfComputedResults == 0) 		return JavaUIMessages.getString ("JavaEditor.codeassist.noCompletions"); //$NON-NLS-1$ 	if (PreferenceConstants.getPreferenceStore().getBoolean (PreferenceConstants.CODEASSIST_FILL_ARGUMENT_NAMES)) { 		return fExperimentalCollector.getErrorMessage(); 	} else { 		return fCollector.getErrorMessage(); 	} }

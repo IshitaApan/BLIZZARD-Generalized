@@ -1,0 +1,3 @@
+[refactoring] Do not ask to save unrelated editor when refactoring
+
+3.3M5 Refactorings ask to save all editors even if such an editor is unrelated to the refactoring. We need a way to tell that an editor (e.g., for a remote element) does not need to be saved prior to a refactoring.

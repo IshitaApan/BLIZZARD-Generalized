@@ -1,0 +1,3 @@
+[clean up]  Use of modifier final messes volatile variables
+
+When applying the Clean Up Wizard with the option "Use modifier 'final' where possible" active, it doesn't check if an variable has the "volatile" keyword. The result is a compiler error for affected classes.

@@ -1,0 +1,3 @@
+Junit - HierachyRunView does not propagate status properly [JUnit]
+
+Only the image is updated but not the status in the TestRunInfo.

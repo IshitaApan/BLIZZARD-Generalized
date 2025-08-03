@@ -1,0 +1,3 @@
+All types dialog shows obfuscated classes
+
+JDK 1.4 includes obfuscated classes (a, a1, b, c, d) etc. This classes show up prominently in the Open Type dialog. They should be less prominent. Options: a) sort lower case class names after the ones that start with a capital letter b) filter them out completly. I suggest to a)

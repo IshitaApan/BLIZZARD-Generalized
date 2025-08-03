@@ -1,0 +1,3 @@
+[spell checking][preferences] Dictionary is missing
+
+When spell-check is enabled, every word is marked as having been misspelt. I suppose that's because the dictionary is missing (or empty).

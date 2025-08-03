@@ -1,0 +1,3 @@
+[rulers] Transfer focus to vertical ruler hovers
+
+I20060322-1335. A first cut of this is attached to bug 132318 as patch. Problems with this patch are: - the interaction between text and annotation hover is often wrong - the position of the annotation presenter is wrong (mostly off by one line). It should appear directly over the hover.

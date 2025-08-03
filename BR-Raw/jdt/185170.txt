@@ -1,0 +1,3 @@
+[working sets] New wizards started off working sets have wrong init values
+
+I20070502-0010. If a working set is selected then the new wizards (e.g. New Source Folder) are initialized with a random (I guess the first project in Java Model) project. Sometimes this project is not even in the selected working set.

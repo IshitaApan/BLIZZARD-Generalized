@@ -1,0 +1,3 @@
+[browsing] Packages view does not show children of packages from jars in hierarchical presentation
+
+3.2 and HEAD; was OK in 3.1.2 The Packages view does not show children of packages from jars in hierarchical presentation mode. Steps: - import org.junit as binary plug-in - switch to Java Browsing perspective - set Package Presentation of Packages view to Hierarchical - select org.junit in Projects view -> package junit is shown as empty package with no children

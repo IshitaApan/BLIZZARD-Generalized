@@ -1,0 +1,3 @@
+Regression in ActivateJavaEditorTest#testActivateEditor()
+
+ActivateJavaEditorTest#testActivateEditor() (Activate 30 Java editors) has a small regression on all platforms. See http://download.eclipse.org/eclipse/downloads/drops/I20110329-0800/performance/epwin2/Scenario1.html OpenJavaEditorStartupTest#testJavaEditorStartup() also shows a smallish regression. See http://download.eclipse.org/eclipse/downloads/drops/I20110329-0800/performance/epwin3/Scenario53.html This could possibly be same as bug 337007.

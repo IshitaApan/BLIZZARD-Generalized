@@ -1,0 +1,3 @@
+[content assist][key bindings] Emacs bindings not working on content assist and quick fix
+
+The choice in the popup with alternatives is not possible to move with emacs keys ctrl-p/n, just the down/up arrow keys. This is possible in jbuilder with emacs emulation.

@@ -1,0 +1,3 @@
+[JUnit] TypeRenameParticipant still uses 'isTest' property
+
+N20060529-0010 TypeRenameParticipant still uses 'isTest' property to check enablement in the plugin.xml. To avoid loading of the JUnit plug-in, it should use the same tests as JUnitLaunchShortcut (only loads jdt.launching).

@@ -1,0 +1,3 @@
+JavaDoc view should use a style sheet
+
+The JavaDoc view is now using the HTML widget. To improve the rendering of the javadoc it should make sure that the corresping style sheet is available.

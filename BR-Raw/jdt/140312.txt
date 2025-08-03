@@ -1,0 +1,3 @@
+'Occurrences in File' quick menu (Ctrl+Shift+U) not available in binary class
+
+I20060504-2000 + ZRH plugins from 05-0010 'Occurrences in File' quick menu (Ctrl+Shift+U) is not available in binary classes. This used to work in earlier builds (at least in M4, it worked).

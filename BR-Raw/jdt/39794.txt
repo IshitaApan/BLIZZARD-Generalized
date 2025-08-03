@@ -1,0 +1,3 @@
+rename method does not ask for saving, misses refs [refactoring]
+
+20030703+export from 0709 class A{ void foo(){} } and , in other file class B{ void f(A a){ a.foo(); } } make B.java dirty select the call to a.foo() refactor, rename you're not asked to save files and the reference in B.java is not updated

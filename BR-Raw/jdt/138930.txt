@@ -1,0 +1,3 @@
+[refactor + jar export] refactoring info loss when jar-desc-file is created
+
+When you create a jardesc-file your selected refactorings get lost. Due to that, on subsequend exports the refactoring information isn't included in the jar file anymore.

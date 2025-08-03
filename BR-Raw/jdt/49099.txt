@@ -1,0 +1,3 @@
+Reduced Search menu does too much [search]
+
+I200312180010 The reduced search menu preference (work in progress) does too much and therefore I cannot use it: Exmples: - select an interface (in outline or any other view where you already know it is an interface. Try to search for implementors ==> not possible. - same applies for fields: it is no longer possible to search for read/write access.

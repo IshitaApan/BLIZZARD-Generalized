@@ -1,0 +1,3 @@
+[clean up][infrastructure] Light clean up
+
+Version: 3.2.0 Build id: I20051116-1332 Light clean up means that when the clean up action is executed on a cu in an editor no refactoring wizard is shown. The clean ups which have been selected last time in the wizard are executed and applyed to the active cu without a preview/dialog. Users can assign a key combination to the clean up action and executed clean up by just pressing the key combination. The wizard is still shown when clean up is executed by selecting cus in the package explorer. See also Bug 87537

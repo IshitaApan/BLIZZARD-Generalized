@@ -1,0 +1,3 @@
+[getter setter] generating getters disobeys declaration order [code generation]
+
+When generating getters for a class, the getters were generated in alphabetical order, whereas I expected them to be generated in the same order as the variables declared in the class.

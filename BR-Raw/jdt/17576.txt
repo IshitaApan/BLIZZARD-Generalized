@@ -1,0 +1,3 @@
+JavaSearchPage.SearchPatternData must be a static class
+
+F1 it's a non static class now, which leads to leaks: the static variable (!always a leak danger!) in JavaSearchPage contains a list of previous patterns, each holding an instance of JavaSearchPage (exactly because SearchPatternData is not static) static fields of type List + non static nested classes = trouble

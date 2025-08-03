@@ -1,0 +1,3 @@
+[breadcrumb] don't open last element automatically
+
+The current strategy to open the last element automatically is confusing for the user (me ;-).

@@ -1,0 +1,3 @@
+[javadoc export] bad resizing behaviour
+
+3.4 - Open 'Project > Export Javadoc...' - The wizard opens up too big on certain resolutions (bug 226110) - Resizing the wizard does not resize the element selection trees - The wizard does not remember its size.

@@ -1,0 +1,3 @@
+Search results should be removed when cu is moved
+
+Build 20020521 1. Create project P with 2 source folders 'src1 and 'src2' 2. Create cu X.java under 'P/src1'. public class X { } 3. Search for declaration of X 4. Move X.java to 'P/src2' Observe: The search result in still in the search view. Attempting to double-click on the search result opens a 'Search Error' dialog saying: An error occured while creating a Java element. Reason: X.java does not exist

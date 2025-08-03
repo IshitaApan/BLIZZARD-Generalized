@@ -1,0 +1,3 @@
+[refactoring] Rename sourcefolder fails with JME
+
+I20060228-1207 Steps to reproduce: - Create new Java project, default settings - Create new source folder, check to update exclusion filters in other source folders - Invoke rename refactoring on source folder -> JME because of a wrong classpath (renamed source folder is incorrectly nested in the new classpath)

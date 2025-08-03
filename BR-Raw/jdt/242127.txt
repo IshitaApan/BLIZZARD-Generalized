@@ -1,0 +1,3 @@
+[extract method] Allow method extraction from field initializer
+
+Build ID: I20080617-2000 (3.4.0) If I select a field's initializer and try to extract a method, Eclipse complains that "Only statements from a method body can be extracted." It would be nice if this extraction were allowed.

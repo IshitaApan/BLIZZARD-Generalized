@@ -1,0 +1,3 @@
+Searching and search result presentation
+
+I should be able to tell search whether it should consider potential matcher or not. Often I use search for references as the peer operation to open on selection, i.e., e.g., I know there is exactly one caller and I want to jump to it. In addition, potential matches should be presented at the end of the result list and not at it's beginning.

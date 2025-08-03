@@ -1,0 +1,3 @@
+Sometimes can/can't extract local from assignment.
+
+If you hilite the paranthesized expression INCLUDING THE PARENTHESES, then it's possible to extract a temporary. But if the same expression is selected EXCLUDING THE PARENTHESES, then Eclipse refuses to extract a temporary. Why do the parantheses decide the eligibility of extracting an assignment expression? ----------------------- Bug.java ---------------- class Bug { { int[]x=new int[5]; int y=1+(x[0]=2+3); } }

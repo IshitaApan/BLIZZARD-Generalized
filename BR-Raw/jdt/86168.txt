@@ -1,0 +1,3 @@
+[type wizards] Allow the creation of a compilation unit called package-info.java
+
+See jsl 7.4.1.1, the package.html file has been replaced by a package-info.java file. Also see http://www.onjava.com/pub/a/onjava/2004/04/21/declarative.html?page=last. See jsr175 close to the end.

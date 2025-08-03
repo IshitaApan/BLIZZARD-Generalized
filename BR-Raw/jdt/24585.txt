@@ -1,0 +1,3 @@
+Rename field with getter misses getter of interface [refactoring]
+
+I have an interface "I" with a getter I::getThings(). Then there is a class "Impl" implementing the interface, which has a field "fThings" and a getter Impl::getThings(). In my case, Impl is an inner class. Now I chose to rename fThings to fStuff, telling the refactoring wizard to "Rename getter" as well. Refactoring works fine, except that I get a compiler error which correctly states that Impl doesn't implement interface I any more (I::getThings() was not renamed). Rename seems to miss the case of virtual getters. Eclipse Version: 2.0 Build id: 200210081304

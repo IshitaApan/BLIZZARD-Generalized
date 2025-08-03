@@ -1,0 +1,3 @@
+JUnit tries to execute abstract classes [JUnit]
+
+Starting with 3.1M3 the JUnit component suddenlty tries to execute tests from abstract classes: class abstract AbstractTestCase extends TestCase { public void testDefaultTestHere() {} } class ComponentWithDefaultTest extends AbsractTestCase { public void testComponentSpecificBehaviour() {} } In former releases only the fixtures of ComponentWithDefaultTest were executed, 3.1M3 tries now to instantiate AbstractTestCase and fails obviously.

@@ -1,0 +1,3 @@
+[build path] New project wizard does not remove created folders on cancel
+
+I20070527-0010 Fup of Bug 153173 1. Create a new Java Project P01 2. Delete project but not its content 3. Go to Project location in file system, delete everything in P01 except src dir 4. Open new java project wizard 5. Name: P01 6. from existing type in P01 location 7. Next> 8. Cancel Is: On file system 'bin' has been created and not removed on cancel Should: Be removed

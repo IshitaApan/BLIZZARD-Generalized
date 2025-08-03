@@ -1,0 +1,3 @@
+[typing] Automatically close parenthesis does not work when content assist popup is up
+
+M20050831-1200 + ZRH plugins from R3_1_maintenance Followup to bug 96059. import java.util.ArrayList; import java.util.Map; public class Test { 	{ 		new ArrayList//caret here 	} } - enable autoclosing all brackets - at indicated position, write "<Map.", wait for popup, write "Entry>(" => expected: a closing parenthesis is automatically inserted => was: just the opening parenthesis is there

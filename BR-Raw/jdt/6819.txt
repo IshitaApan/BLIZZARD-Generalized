@@ -1,0 +1,3 @@
+Problem setting source folder on existing project
+
+Build 2001-12-06 Start with the following existing structure on disk (not at default location): MyProject /build /dev/src/com/foo/A.java 1) Open new java project wizard. Enter project name. 2) Select the external directory "MyProject" as the location 3) Hit next. Choose "Use source folders..." 4) Click "Create New Folder", enter "dev/src" 5) Choose /MyProject/build as the output folder 6) Hit finish. In the packages view, it shows the source folder "dev/src", AND the non-source folder "dev". Basically the same folder appears twice. If you try to delete the folder "dev" (which appears to be empty), the content on disk is deleted.

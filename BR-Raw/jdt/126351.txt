@@ -1,0 +1,3 @@
+[implementation] remove usage of the deprecated javadocCompletionProcessors extension point
+
+we should replace our usage and contribute to the javaCompletionProposalComputer ext. pt.

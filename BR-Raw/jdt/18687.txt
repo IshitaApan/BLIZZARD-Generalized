@@ -1,0 +1,3 @@
+Surround with try catch - should propose NumberFormatException
+
+Build F2 From EC: Hi all! I'd like to know if the following is a bug or is the normal behaviour of eclipse. 1) type the code below: int t= Integer.parseInt("1234"); 2) select the line typed in the step 1. 3) try to "surround with try/catch". I do this by pressing alt+S T. Eclipse gives the following messsage: No uncaught exceptions are thrown by the selected code. Catch java.lang.RuntimeException ? I think that eclipse should suggest something like: try { .... } catch (NumberFormatException e) { }

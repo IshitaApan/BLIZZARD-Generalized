@@ -1,0 +1,3 @@
+Empty wizard after pressing cancel
+
+Build F1 Self-hosting workspace with all projects in source 1. Open type hierarchy on Action 2. In the Type Hierarchy view select type org.eclipse.jdt.internal.ui.typehierarchy.HistoryAction 3. Select field fViewPart 4. Select Refactor -> Pull Up... 5. Press Cancel on the very first dialog ==> empty wizard comes up

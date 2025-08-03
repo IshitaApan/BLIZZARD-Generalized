@@ -1,0 +1,3 @@
+[implementation] Streams not being closed in Javadoc views
+
+Created attachment 86538 Patch to org.eclipse.jdt.ui Version: 3.4.0 Build id: I20071213-1700 Both the javadoc view and hover are forgetting to close their streams after reading the css file. This causes a fie handle to 'leak' until the stream is garbage collected. I have attached a patch that will close the input streams after reading them. I also changed the string buffer to pre-allocated to 1500 bytes (slightly larger than the css file being loaded) to reduce the amount of garbage created.

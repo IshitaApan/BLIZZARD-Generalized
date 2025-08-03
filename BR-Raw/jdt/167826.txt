@@ -1,0 +1,3 @@
+[rename] Rename field does not allow refactoring to an existing name
+
+Build ID: 3.2.0 Previous I could refactor a name to an existing name and I would receive an warning that there was a nameclash. That clash could I then deal with after the refactoring. In 3.2.0 I am not even allowed to do the refactoring. A simplyfied example. I have a static class like public class CONST { public static final int TIMEOUT_1 = 1000; public static final int TIMEOUT_2 = 2000; } At some point I realize that I do not need the TIMEOUT_2. I would then refactor TIMEOUT_2 to TIMEOUT_1, and remove one of the declarations in the class. This feature is something that I use really often.

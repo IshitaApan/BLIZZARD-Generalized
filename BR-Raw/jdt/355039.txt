@@ -1,0 +1,3 @@
+[nls tooling] Error searching references to the selected properties key
+
+Created attachment 201699 stacktrace I control-clicked on a property key in a bundle.properties file and got the attached error: ClassCastException: org.eclipse.core.internal.resources.Project cannot be cast to org.eclipse.core.resources.IStorage eclipse.buildId=I20110613-1736 java.version=1.6.0_26 java.vendor=Sun Microsystems Inc. BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR

@@ -1,0 +1,3 @@
+RemoteTestRunner.runFailed omits stack trace [JUnit]
+
+i200409211200 RemoteTestRunner.runFailed omits the stack trace, just prints the exception message to the console. I was having a NPE while building a test suite, but the only feedback I would get would be: Failed to invoke suite(): java.lang.NullPointerException The code in the suite method was not trivial, so I could only figure out where it was happening by debugging with an NPE-based breakpoint.

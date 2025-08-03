@@ -1,0 +1,3 @@
+[rulers] Expansion hover in vertical ruler shows breakpoint annotation and 'Add a breakpoint'
+
+I20070918-0010 - enable Prefs > Java > Editor > Hover > Expand vertical ruler icons upon hovering - set a line breakpoint - hover over the breakpoint in the vertical ruler => expansion hover shows breakpoint annotation and 'Add a breakpoint' => expected: only existing breakpoint is shown, like in 3.4 M1

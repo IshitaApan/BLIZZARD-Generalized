@@ -1,0 +1,3 @@
+Java Editor: Local Histroy menu entries are enabled for read-only files
+
+F1 - make file read-only - open it - observe: context menu contains Local History actions. Only compare makes sense for read-only files

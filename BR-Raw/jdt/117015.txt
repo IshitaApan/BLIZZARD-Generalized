@@ -1,0 +1,3 @@
+[refactoring] Rename type should not rely on ".java"
+
+20051118 It is now possible to have compilation units from files that have a different file extension than .java. The strategy for rename type and rename CU has to be to always preserve the existing file suffix. A patch from bug 89977 fixes some stuff. But there are still issues. e.g. Checks.checkCompilationUnitNewName(cu, newElementName) should not add .java. It should better get the full new CU name as 'newElementName' (what also simplifies the understanding of this API)

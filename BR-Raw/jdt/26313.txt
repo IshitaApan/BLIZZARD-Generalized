@@ -1,0 +1,3 @@
+Assign to new local should not be available on assignmet statement
+
+Build I2002113 Quick assist new local should not be available on statements like x= name when selecting name.

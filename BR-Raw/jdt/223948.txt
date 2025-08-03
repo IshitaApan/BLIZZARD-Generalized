@@ -1,0 +1,3 @@
+[breadcrumb] High Contrast: Arrows in breadcrumb disappear
+
+Created attachment 93470 screenshot I20080325 - winXP see screenshot. The breadcrumbs doesn't have any buttons in high contrast view.

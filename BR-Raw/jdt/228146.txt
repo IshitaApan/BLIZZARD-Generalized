@@ -1,0 +1,3 @@
+[JUnit] flaw in JUnitPropertyTester.test(...) logic?
+
+In the JUnitPropertyTester.test method, there exists the following block of code: } else { // is IAdaptable element= (IJavaElement) ((IAdaptable) receiver).getAdapter(IJavaElement.class); if (element == null) { IResource resource= (IResource) ((IAdaptable) receiver).getAdapter(IResource.class); element = JavaCore.create(resource); if (element == null) { return false; } return false; } } Should the 2nd "return false;" be removed?

@@ -1,0 +1,3 @@
+[clean up] UI imrpovements for multiple file clean up
+
+20060919 - select more than one CU, start 'Clean Up' - the wizard that shows up could be improved the following way: - description should be changed to: 'Cleaning up 5 selected files' - body: Using profile '<a>ProfileX</a>' for files in project 'X' (<a>Configure...</a>) Using profile '<a>ProfileY</a>' for files in project 'Y' (<a>Configure...</a>) - Checkbox: Do not show this dialog again

@@ -1,0 +1,3 @@
+new class wizard: incorrect terminology used
+
+1. new class wizard 2. press Add.. in interfaces 3. the dialog you see has a title 'Extended Interfaces Selection' this is incorrect - it should be 'Implemented Interfaces Selection' (this bug was pointed out on the wsad newsgroup)

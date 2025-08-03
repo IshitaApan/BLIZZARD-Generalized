@@ -1,0 +1,3 @@
+Packages view: can't open MANIFEST.MF of JAR file
+
+1. Drill into a JAR with a manifest file (MANIFEST.MF) in the Packages view. Note: The JAR must be on the build path. 2. Double-click MANIFEST.MF -> nothing happens 3. From the context menu select "Open" -> nothing happens I used ant.jar in org.eclipse.ant.core as my test case.

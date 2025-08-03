@@ -1,0 +1,3 @@
+BulletListBlock is not read only
+
+I20070517-1700 1. Go to Java>Code Style>Clean Up preference page 2. Set caret into the bullet list 3. Start typing Is: You can edit it Should: Be read only

@@ -1,0 +1,3 @@
+Unconventional order of add-remove-edit buttons in Change Method Signature
+
+I20050126-0800: The order of the buttons in the parameters tab is currently: Add Edit... Up Down Remove The 'Remove' button should be placed directly after the 'Add' button

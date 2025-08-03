@@ -1,0 +1,3 @@
+Change Method Signature: Rename method name issues
+
+20040211 - When the name is empty, the error says 'Choose a name'. Needs a dot. - When 'XXX' is entered, the wizard does not warn about the discouraged name - When entring the same name as the declaring type an error says 'Method cannot have the same name declaring class'. This is not forbidden, just discouraged. Note that the message says 'class' also if the declaring class in an interface - Clear the return type field. The message saye <'' is not a valid return type name>. Should avoid ''.

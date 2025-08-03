@@ -1,0 +1,3 @@
+JavaDocCompletionProcessor should be have configurable case sensitivity
+
+Need implementation of the following JavaDocCompletionProcessor method public void restrictProposalsToMatchingCases(boolean restrict.

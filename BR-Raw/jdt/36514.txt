@@ -1,0 +1,3 @@
+call hierarchy: should remove 'search ... using ..' preferences
+
+we should decide whether the answer should be true or false and remove the preference settings - no user will ever understand what the setting means

@@ -1,0 +1,3 @@
+Confusion after setting hover prefs due to disabled hover - remove hover toggle
+
+20021113 i set the 'shift' hover to source - nothing happens on hovering with shift down

@@ -1,0 +1,3 @@
+type hierarchy: history dialog, button enablement incorrect [type hierarchy]
+
+20030806 in the history dialog, the 'Remove' button is enabled when nothing is selected and disabled when everything is selected both are wrong this bug is a twin of bug 41500 (i don't know if the same code is used in both or one copies from the other)

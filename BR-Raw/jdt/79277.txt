@@ -1,0 +1,3 @@
+Extract local variable does not handle nested types [refactoring]
+
+200411170800: Steps to reproduce: - Create assignment "Modifier.ModifierKeyword keyword= Modifier.ModifierKeyword.PUBLIC_KEYWORD" - Select rhs expression ->Resulting type is unqualified by enclosing instance

@@ -1,0 +1,3 @@
+Cannot delete unsaved file
+
+Once a file is marked dirty and I try deleting it it wont allow me to delete it till I save it.

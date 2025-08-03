@@ -1,0 +1,3 @@
+Navigate Goto Resource does not find certain files
+
+If I open a Java perspective and then Navigate | Go to | Resource, not all files are visible only those that are under the java source directory. If I open a navigator view or perspective, all files are seen. Should the the goto resource should be the same.

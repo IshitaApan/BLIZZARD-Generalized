@@ -1,0 +1,3 @@
+[Extract Class] Fields that are kept may not be renamed in ui
+
+public class Foo { private int test; } Use Extract Class. In the ui it is possible to rename test to something else independantly of its checked status. It should revert to the original name if unchecked.

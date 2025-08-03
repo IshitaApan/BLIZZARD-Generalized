@@ -1,0 +1,3 @@
+Move refactoring enabled for non-static methods
+
+1) select a static and a non-static method in the outline 2) Refactor>Move ->the wizard tells to move 2 static members.

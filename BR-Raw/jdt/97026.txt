@@ -1,0 +1,3 @@
+Extract Interface misses type reference to replace [refactoring]
+
+I20050527-0010 Steps to reproduce: - Create Junit project - Extract interface from TestFailure, using all methods -> One reference in DefaultFailureDetailView is not updated

@@ -1,0 +1,3 @@
+Turning off lightbulb preference doesn't turn the lights off right away
+
+When you turn off the lightbulb preference, editors with existing lightbulbs continue to show them. Closing and reopening the editors gets rid of them.

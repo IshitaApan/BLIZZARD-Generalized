@@ -1,0 +1,3 @@
+[refactoring] Extract Interface: preview opens on wrong screen
+
+20050329 I work on a dual monitor setup and have the eclipse workspace (no detached windows) open on the right screen. - Open the Extract Interface wizard (open correctly on the same monitor as Eclipse), enter a name, press 'Preview' - The preview wizard window opens on the left screen

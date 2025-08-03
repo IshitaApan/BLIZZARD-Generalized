@@ -1,0 +1,3 @@
+[projection] Incorrect folding in CU without terminating linebreak
+
+I20050215-2300 - Have a CU with contents "package copying; public class Class { }" (no linebreak here) - collapse class folding -> a "}" remains on the last line. Expected: last line is empty - set caret to end of text and press Enter -> after reconciling, there are two boxes with dots. Expected: only one box. => Folding at the end of file is only correct if the file ends with at least two empty lines.

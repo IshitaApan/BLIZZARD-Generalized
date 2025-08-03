@@ -1,0 +1,3 @@
+Export Javadoc does not give any error when the path to javadoc.exe is bogus
+
+Version: 2.1.0 Build id: 200303272130 I had a bogus path to javadoc.exe in Preferences/Java/Javadoc. When I clicked Finish in the Export/Javadoc wizard, nothing happened. I gave up using the feature until today when I ran accross my bad Preference setting. Obviously, the wizard needed to give the user some kind of error message. (FYI, this happened when I upgraded my set up from Sun's 1.4.1_01 to 1.4.1_02.)

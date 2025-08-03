@@ -1,0 +1,3 @@
+[navigation] provide 'Collapse All' action in Java Outline view
+
+This would be quite valuable for classes with inner/nested classes.

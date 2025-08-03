@@ -1,0 +1,3 @@
+Support to add an internal JAR from the context menu
+
+When an internal JAR is shown in the package explorer it should be possible to append it to the build class path with an "Add to Build Path" action. Thoughtworks feedback: Adding a jar to the classpath is too laborious. Right click on the jar and "Add to build path" would be nice.

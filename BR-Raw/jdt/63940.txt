@@ -1,0 +1,3 @@
+Quickfix shows same text for 5 method options
+
+build M9 - open class UIPreferenceInitializer in org.eclipse.ui.internal - change the following line FROM: store.setDefault(IWorkbenchPreferenceConstants.OPEN_NEW_PERSPECTIVE, IWorkbenchPreferenceConstants.OPEN_PERSPECTIVE_REPLACE); TO: store.setddDefault(IWorkbenchPreferenceConstants.OPEN_NEW_PERSPECTIVE, IWorkbenchPreferenceConstants.OPEN_PERSPECTIVE_REPLACE); - now save it - now select the quickfix option from the left hand side of the editor - note that the popup window has 5 versions of the same text, even though there is space for more text - compare with the Ctrl+space popup it seems that there could be more information here

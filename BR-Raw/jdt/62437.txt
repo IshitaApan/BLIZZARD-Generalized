@@ -1,0 +1,3 @@
+Hang on 0506 build related to indexing?
+
+My development environment "hung". I did ctrl-break and will attache stack dumps. I can't read these (easily) in detail, but looked related to JDT indexing, so thought I'd route to JDT first. The only thing "unusuall" I was doing in IDE was that I'd just copied a java source file form one plugin/package to another plugin/package. The first was open in an editor before the copy, after the copy I opened the second one, then closed the first one. Then it hung. Hopefully the stack traces will be more revealing. This was with 0506 I-build, using following VM: java version "1.4.2" J9 - VM for the Java(TM) platform (build 2.1) IBM J9SE VM (build 2.1, J2RE 1.4.2 IBM J9 build 20040422 (JIT enabled))

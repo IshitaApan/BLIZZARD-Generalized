@@ -1,0 +1,3 @@
+[hovering] Add action to open external javadoc to javadoc hover
+
+I20080226-1155 Add the action from bug 220908 to the javadoc hover.

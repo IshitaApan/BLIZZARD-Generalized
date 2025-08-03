@@ -1,0 +1,3 @@
+[clean up] Does remove used import on organize import if syntax error
+
+I20061114-1636 Given: package test; import java.util.Observable; import java.util.Observer; public class E1 { 	public void foo(Observable ob) { 		ob.addObserver(new Observer() { 			public void update(Observable o, Object arg) { 			} 		}; 	} } 1. Run clean up on E1 with 'Organize Imports' enabled Is: import java.util.Observer; is removed Should: not be removed This is major because with clean up on save enabled this results in imports been removed which are required, on save. This is especially bad when a conflicting import (List) is removed. Strange is, that when just running 'Organize Imports' then the import is not removed. Must be a clean up problem...

@@ -1,0 +1,3 @@
+JUnit tests can't be launched with a 1.3 level jvm anymore
+
+In latest 3.1 integration builds the eclipse textrunner doesn't work if you select a 1.3 level jvm for running the test. It crashes for a dependency from IdentityHashMap (java 1.4). Although eclipse need a 1.4 jre, selecting a 1.3 jre from the run/debug configuration should be possible: this is a show stopper for anyone needs to compile projects using jre 1.3. build 200412140010 java.lang.NoClassDefFoundError: java/util/IdentityHashMap 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:448) 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:343) 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:195)

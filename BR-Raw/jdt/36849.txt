@@ -1,0 +1,3 @@
+ImportEdit.removeImport(ITypeBinding)
+
+we have addImport(ITypeBinding) addImport(String) but only removeImport(String) we need the other one for consistency

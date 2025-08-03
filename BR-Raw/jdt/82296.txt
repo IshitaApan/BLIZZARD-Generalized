@@ -1,0 +1,3 @@
+[typing][preferences] Move "tabs to spaces" function from JavaEditor to TextEditor
+
+As described in bug 71271 comment 7, it would be nice if already existing "tabs to spaces" function would be moved from JavaEditor to TextEditor - then all subclasses of TextEditor will benifit from that.

@@ -1,0 +1,3 @@
+[jar exporter] runnable JAR: UI nitpicking
+
+I20071211-0010 - Combos need setVisibleItemCount(20) - Better copyright warning message: "This operation repacks referenced libraries. [..]"

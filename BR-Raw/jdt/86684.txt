@@ -1,0 +1,3 @@
+Infer type arguments: creates compile errors when "assume clone returns same object type" is checked
+
+EclipseCon build - load JUnit 3.8.1 - infer type arguments - check the clone check box - observe: you get two compile errors. Both are caused by the fact that clone on Vector returns object not Vector.

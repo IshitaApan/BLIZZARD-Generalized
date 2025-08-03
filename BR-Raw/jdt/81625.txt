@@ -1,0 +1,3 @@
+[hovering] Combined Hover does not work in ja_JP locale with NLPack
+
+A combined hover does not work correctly in JavaEditor with NLPack. An opened hover does not display javadoc documents but sources. In org.eclipse.jdt.ui.nl1_3.0.1/plugin_ja.properties sequentialHover=\u6700\u9069\u306A\u5439\u304D\u51FA\u3057 I delete this line, hover works fine. eclipse.buildId=I200406251208 java.version=1.4.2_05 java.vendor=Sun Microsystems Inc. BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ja_JP

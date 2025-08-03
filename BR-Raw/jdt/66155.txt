@@ -1,0 +1,3 @@
+generalize type: not externalized string
+
+3.0 rc1 method ChangeTypeRefactoring.getConstraints contains a non-nls'ed string: "Analyzing..."

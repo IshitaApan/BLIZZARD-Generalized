@@ -1,0 +1,3 @@
+nls: 'find string' dialog needs a button to open nls wizard
+
+The compilation units which have no strings to externalize are of no interest. They should be removed from the table. Otherwise, the action should be called 'Count Strings to Externalize...'.

@@ -1,0 +1,3 @@
+[painting] redraw behavior
+
+build M7 Annotated method AnnotationPainter.handleDrawRequest with a repaint counter. 1) Open TestCase.java 2) add line >String s= < to tearDown method, set caret at end of line 3) spell checking enabled, otherwise default settings 3) type a single space -> 1 immediate repaint, 3 after timeout 4) type " -> auto inserted closing " + linked mode -> 10 immediate repaints, 3 after timeout

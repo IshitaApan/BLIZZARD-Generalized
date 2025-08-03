@@ -1,0 +1,3 @@
+Incorrect quick fix proposals [quick fix]
+
+If I invoke CTRL+1 on a method's name to select "Rename in File", I get quick fixes to create the method in each of the superclasses. The method is private, so it doesn't make sense to create the method in a superclass. Also, I would rank "Rename in File" as higher priority even when the other option applies. Currently it is the last item on the list.

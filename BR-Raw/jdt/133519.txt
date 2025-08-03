@@ -1,0 +1,3 @@
+[spell checking] Add @category to JavaDocTagDictionary
+
+Title says it all...

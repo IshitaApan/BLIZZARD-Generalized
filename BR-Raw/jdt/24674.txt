@@ -1,0 +1,3 @@
+"try" template should use printStackTrace()
+
+By default the "try" template is defined as: try { ${cursor} } catch (${Exception} e) { } It should probably use printStackTrace(), for example: try { ${cursor} } catch (${Exception} e) { e.printStackTrace(); } When you are not sure how to handle an exception, sending printStackTrace() is a useful best practice. Failing to do this causes thrown exception to be masked.

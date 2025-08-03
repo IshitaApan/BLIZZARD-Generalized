@@ -1,0 +1,3 @@
+More info in Console open on type dialog
+
+When open on type gets multiple hits in the same package you cannot determine which file you are opening. For example, if I have one version of a class in source, and one in a jar, then I have no idea which one I'm opening.

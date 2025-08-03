@@ -1,0 +1,3 @@
+[5.0][content assist] content assist  completely replaces the import statement in static import
+
+from bug 108704 comment 1 > if you type: > > import static java.lang.Math.<<content assist> > > ...and select one of the suggestions, the content assist *completely* replaces > the import statement with the selected method, rather than importing it > properly. I reproduce the problem with N20060421-0010. Note: The JDT/Core completion proposals are correct.

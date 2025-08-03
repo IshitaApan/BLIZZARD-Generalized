@@ -1,0 +1,3 @@
+[breadcrumb] Dropdown opens and then closes when clicking shrinked item
+
+I20080507-2000 - Import org.eclipse.jface.text from CVS - Open Type: AnnotationBarHoverManager - Show in Breadcrumb - Make editor so narrow that the package breadcrumb item is shrinked (only shows icon) but type item is still shown with icon and text - Click on the package icon => Dropdown quickly opens and closes again; tooltip stays => Expected: Dropdown should stay open

@@ -1,0 +1,3 @@
+Javadoc locations in archives should correctly handle ! in path
+
+see bug 83929. when separating archive path and internal path '!/' is used as separator. We only look for '!'

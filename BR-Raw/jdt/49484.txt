@@ -1,0 +1,3 @@
+"Errorless" Launch Config fails [JUnit]
+
+Create a JUnit Launch configuration. On the Test tab 1) Be Sure "Project" is an empty field. 2) Select "Run all tests in the selected project, package or source folder". 3) Select the Project to search for tests. 4) Click Run The Progress view shows "ERROR: Launch: invalid project specified" If you specify the Project field, even without "Run a single test" being selected, it works. I don't know what will happen if the Project doesn't match the selection in "Run all tests..." 3.0 M6

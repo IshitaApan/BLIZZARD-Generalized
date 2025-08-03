@@ -1,0 +1,3 @@
+[implementation] Possibly broken code in JavadocLinkTypeCompletionProposal.computeReplacementString()
+
+I20081125-0840. While doing the dead-code analysis I found this code in org.eclipse.jdt.internal.ui.text.javadoc.JavadocLinkTypeCompletionProposal.computeReplacementString(): The else-branch is never executed.

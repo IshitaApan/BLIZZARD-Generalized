@@ -1,0 +1,3 @@
+Goto source doesn't work when running a single test [JUnit]
+
+RC 1 - JUnit setup - select VectorTest.testCapacity - run->JUnit Test - in JUnit view part go to hierarchy - select testCapacity - activate Goto File from context menu Observe: you get an error dialog saying that the test class can't be found.

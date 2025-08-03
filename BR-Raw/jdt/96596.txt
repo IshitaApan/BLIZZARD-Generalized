@@ -1,0 +1,3 @@
+[syntax highlighting] Improper display of custom tags
+
+N20050525-0010 Spawned from bug 22285. See there for an initial patch and comments to improve it.

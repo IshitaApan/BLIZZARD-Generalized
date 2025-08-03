@@ -1,0 +1,3 @@
+Pullup incorrectly reports errors [refactoring]
+
+I have a heirachy C derives from B derives from A. A contains protected member variable foo. C contains a method bar() which references foo. If I attempt to pull-up bar() to B, the refactoring preview incorrectly informs me that foo cannot be access from B. If I proceed, there are in fact no problems.

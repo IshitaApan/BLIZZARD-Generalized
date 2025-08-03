@@ -1,0 +1,3 @@
+Reorder parameter refactoring of constructors broken [refactoring]
+
+The following refactoring does not work: reorder parameters of constructors. This works for non-constructor methods but fails for constructors. A simple (double, double) will demonstrate the flaw. The constructor itself is changed but none of the constructor references are updated.

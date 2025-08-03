@@ -1,0 +1,3 @@
+Change Method signature refactoring: Message is strangely located
+
+20030206 1. When opening the refactoring on a method to modify the method signature, a label at the bottom of the dialog says 'Specify the new order...' This message is strangely located. The indent is confusing. I suggest that the StatusDialog is used, (where the message background is different, and that the message gets an 'Info' image.

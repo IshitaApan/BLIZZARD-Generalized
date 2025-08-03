@@ -1,0 +1,3 @@
+Patch to use LocalResourceMappingContext
+
+A LocalResourceMappingContext has been added to the Resources plugin. Here is the change required to JDT UI.

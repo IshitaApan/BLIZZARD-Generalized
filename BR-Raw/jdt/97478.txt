@@ -1,0 +1,3 @@
+[refactoring] Extract method from generic method
+
+I think I've already logged this somewhere. My apologies if true. Given method: import java.util.List; public class A { 	private <T> int foo(List<T> list) { 		return list.size(); 	} } Extract expression "list.size()". This leads to a compile error, because the generic parameter <T> is not added to the new method.

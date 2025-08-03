@@ -1,0 +1,3 @@
+[formatting] Non-Javadoc-Headers are always formatted
+
+Non-Javadoc-Headers are reformatted by the new code formatter, regardless of the 'Format header comment' option. I think this behaviour is not desired because such headers are often used to store version control information. The only current option to avoid this behaviour is to disable comment formatting completely (which is not a nice option). I'll append a test java file to check the described behaviour.

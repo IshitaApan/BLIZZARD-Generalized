@@ -1,0 +1,3 @@
+Remove references to internal code in jdt.junit plug-in
+
+N20050525-0010

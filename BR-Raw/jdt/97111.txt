@@ -1,0 +1,3 @@
+Generate Delegate Methods generates unnecessary TODO tags and synchronized modifiers
+
+Rather than adding a method that delegates to the selected field, it creates the correct methods, but uses the "Method Body" code template for the method body. So instead of generating: public String getStuff() { return myField.getStuff(); } it generates: public String getStuff() { //TODO }

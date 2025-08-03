@@ -1,0 +1,3 @@
+Method inlining yields compile errors on method bodies with try/catch [refactoring]
+
+3.0 M4: When using the "Inline" refactoring on a method with body like the following: int alignOffset(int offset) { try { return document.getLineInformationOfOffset(offset).getOffset(); } catch (BadLocationException exception) { return offset; }; } the body is directly assigned to the target variable at the call site when calling "offset= alignOffset(offset)": offset= try { return document.getLineInformationOfOffset(offset).getOffset(); } catch (BadLocationException exception) { return offset; };

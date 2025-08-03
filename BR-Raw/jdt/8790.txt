@@ -1,0 +1,3 @@
+[Wizards] Non-api subclassing of BasicNewResourceWizard
+
+The JavaDoc for BasicNewResourceWizard indicates that that should not be subclassed. It is being subclassed by: org.eclipse.jdt.internal.ui.wizards.NewElementWizard org.eclipse.jdt.ui.examples.projects.ExampleProjectCreationWizard

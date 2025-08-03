@@ -1,0 +1,3 @@
+[Theme] More Java editor features in Compare Editor
+
+When comparing java elements, the local side does not benefit from the fact that there is compilation context available. Specifically, there is no java search and no hyperlinking. Clearly this is tricky to do for the non-local part of the compare but for the local it should behave as an editor. Is this a problem with reusing the jdt editor part? (i.e. the compare can only provide a generic text editor)? This was initiated from compare of local vs. head.

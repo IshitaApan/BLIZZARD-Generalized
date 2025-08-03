@@ -1,0 +1,3 @@
+[content assist] additional info (javadoc) missing
+
+I20050426-0849 The additional info (javadoc) is missing.

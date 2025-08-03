@@ -1,0 +1,3 @@
+[rename] Rename in editor should save file if operation started in saved file
+
+Rename in editor should save file if operation started in saved file.

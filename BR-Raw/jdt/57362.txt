@@ -1,0 +1,3 @@
+organize import and class with first charachter '_' don't work [code manipulation]
+
+Test case : -- Class a._AClass package a; public class _AClass { } -- Class b.BClass package b; public class BClass { private _AClass _aClass; } organize import in class b.BClass don't work (don't find a._AClass) regards

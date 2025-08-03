@@ -1,0 +1,3 @@
+UndoManager and perform change operation must call #dispose on change to be executed if validation fails
+
+3.0 Dispose isn't called if the change object couldn't be executed (isValid didn't return a fatal error).

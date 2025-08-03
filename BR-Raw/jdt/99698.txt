@@ -1,0 +1,3 @@
+[formatter] Code formatter > Braces: no preview for 'Annotation Type Declaration'
+
+I20050610-1757 (3.1RC2) Code formatter > Braces: there's no preview for 'Annotation Type Declaration'.

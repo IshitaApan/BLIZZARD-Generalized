@@ -1,0 +1,3 @@
+[typing] 'Correct Identation' strange behaviour
+
+For this code 'Source' -> 'Correct Identation' result is ugly and not the same as using 'Source' -> 'Format': // comment JButton button = new JButton("test"); button.addActionListener(new ActionListener() { public void actionPerformed(ActionEvent e) { doSomething(); } });

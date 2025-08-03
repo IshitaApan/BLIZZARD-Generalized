@@ -1,0 +1,3 @@
+[working sets] rename 'select working sets' in working set mode?
+
+20041215 When in the 'Show working sets' mode, you still have the action 'Show working copy...'. It opens a dialog 'Configure working sets'. Double clicking an entry select a working copy node. Wouldn't it be better to rename it to 'Configure working sets' (only when in the working copy mode) and drop the selection behaviour?

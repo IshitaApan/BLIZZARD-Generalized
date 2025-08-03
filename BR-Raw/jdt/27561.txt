@@ -1,0 +1,3 @@
+ProblemsLabelDecorator.getErrorTicksFromWorkingCopy should avoid calling exists()
+
+input for 20021203 calling exists() is expensive ironically, it may be cheaper to let the exception happen (we do not expect it to heppen to frequently), catch it and do the right thing will attach profile showing that method taking 8% of time needed to open java editor

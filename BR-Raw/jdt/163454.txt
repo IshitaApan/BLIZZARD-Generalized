@@ -1,0 +1,3 @@
+Typo in JavaDoc of org.eclipse.jdt.internal.corext.Corext
+
+/** * Facade for JavaPlugin to not conterminate corext classes. */ should be /** * Facade for JavaPlugin to not contaminate corext classes. */ BTW: I tried to search for other occurrences of "conterminate" but didn't find a way in source of imported plug-ins as "Binary projects with linked content".

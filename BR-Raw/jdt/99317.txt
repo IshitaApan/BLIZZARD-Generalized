@@ -1,0 +1,3 @@
+[quick fix] Wrong order of quickfix proposals for unhandled exception [quickfix]
+
+I20050610-0010 Use following cu: import java.net.URI; public class Class { 	public void run() { 		// some comments 		URI uri= new URI("http://www.somewhere.net"); 		// some comments 		System.out.println(uri.getHost()); 	} } - Invoke quick fix in the string literal -> The proposals are (in order): - Add throws declaration - Mark non-externalizable - Externalize Strings - Surround with - SuppressWarnings -> The two exception-related proposals should be proposed successively

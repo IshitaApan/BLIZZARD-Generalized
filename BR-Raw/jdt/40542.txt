@@ -1,0 +1,3 @@
+JUnit - status bar should better show test class name [JUnit]
+
+Build 3.0M2 In addition to showing the test method name, it should prefix it with the class name. The test hierarchy shows this information, but the animation time penalty is quite bad, and for big suites, it is not a viable alternative.

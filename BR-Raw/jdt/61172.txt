@@ -1,0 +1,3 @@
+[rulers] quick assist hides quickfix icon
+
+1) mistype a method call ->you get a quick fix but the quick fix is overlayed by the quick assist 2) press the quick assist icon ->you the the quick fix proposals

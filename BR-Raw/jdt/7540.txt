@@ -1,0 +1,3 @@
+JDT Type hierarchy "Lock view ..." doen't work always
+
+If the "Lock view and show members in hierarchy" is selected before any method is selected in method pane, the class pane isn´t updated, if a method is selected afterwards. Selecting a method and select "Lock view..." works as expected

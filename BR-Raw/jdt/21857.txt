@@ -1,0 +1,3 @@
+Javadoc code completion does not work for public method of public inner class
+
+Consider the following example, where the cursor is placed at the end of the javadoc comment line. Pressing Ctrl-Space now should complete with "someMethod()", shouldn't it? However, in Build 200206271827, it doesn't. public class TestCompletion { 	/** 	 * {@link InnerTest#so 	 */ 	public TestCompletion() { 		super(); 	} 	public class InnerTest { 		public void someMethod() {} 	} }

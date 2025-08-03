@@ -1,0 +1,3 @@
+[preferences] UI addition: Warning for Unused Generic Parameter
+
+- Ref bug 385780 (test case if required is mentioned in that bug). - Need a UI for warning unused generic params - options : {ignore,warning, error}

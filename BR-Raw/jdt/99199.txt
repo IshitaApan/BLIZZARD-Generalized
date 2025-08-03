@@ -1,0 +1,3 @@
+[quick fix] Configure access rules should use the new configure build path icon
+
+We have a icon for Configure build path actions (see the action in the Build Path menu). We should use it for the quick fix.

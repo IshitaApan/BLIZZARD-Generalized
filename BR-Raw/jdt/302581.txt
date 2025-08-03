@@ -1,0 +1,3 @@
+[implementation] Deadlock fetching AST during label decoration
+
+I20100209-2300 I got this deadlock yesterday while doing some Java coding. I will attach two stack traces that are about four minutes apart that appear to be in roughly the same state. It also seemed strange that it is fetching AST's during label decoration in the UI thread - I thought expensive label decoration work was supposed to happen in a background decoration thread.

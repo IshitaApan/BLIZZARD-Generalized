@@ -1,0 +1,3 @@
+exception on Code Style preference page
+
+Nightly build 0319 - start a new eclipse install - show the Java > Code Style preference page - will get the attached exception

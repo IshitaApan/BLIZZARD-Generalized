@@ -1,0 +1,3 @@
+[content assist] inserting anonymous type proposal not correctly formatted
+
+3.5 M7. 1. type "new Runnable(" 2. content assist ==> new Runnable(){ ==> there's a missing space This is not a regression introduced by the new proposal kind but was already an issue in 3.4. The reason is that the string used to format is not always correct.

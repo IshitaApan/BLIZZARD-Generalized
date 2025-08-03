@@ -1,0 +1,3 @@
+Doc should be updated for org.eclipse.jdt.ui.SharedASTProvider.getAST(ITypeRoot, WAIT_FLAG, IProgressMonitor)
+
+This method can return null if the operation is canceled. This is not clearly specified right now.

@@ -1,0 +1,3 @@
+Local history uses wrong character encoding
+
+i set the windows->preferences->editors->TextFileEncoding to GBK it a Chinese charactor set.and then i wrote some Chinese in the println method just as System.out.println("²Ù×÷Ê§°Ü"); after some modify,i replace this code back from Local History.a mistake appeared.it left a mess in the println sentence.the same mistake appear in WebSphere Application Developer 5.0

@@ -1,0 +1,3 @@
+[breadcrumb] Not updated anymore when switching from drop down to editor
+
+I20080122-1600 1. Go to breadcrumb 2. Open a drop down 3. click into editor Is: from now on the breadcrumb is not updated anymore when setting the cursor Should: show element at cursor location Reason is that the breadcrumb thinks he's still active.

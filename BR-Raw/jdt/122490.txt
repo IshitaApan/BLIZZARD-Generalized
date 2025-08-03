@@ -1,0 +1,3 @@
+Wrong visibility update in Move Static Method
+
+Build id: I20051220-0800 Having: ------------------------ package aa; public class Bug { private static String NAME= "N"; private static String getNAME() { // move to b.Target return NAME; } // public boolean isName(String n) { // uncommenting solves a), but not b) // return getNAME().equals(n); // } } ------------------------ package b; public class Target { } ------------------------ When moving: - warning message: will chng vis. of Bug.getNAME() to public - but: a) does not make Target.getNAME() public b) makes Bug.NAME public without telling

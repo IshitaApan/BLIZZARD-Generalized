@@ -1,0 +1,3 @@
+[search] Java search results shown with squashed icons
+
+The stop/halt icon (used for unknown images) doesn't have the correct size and a search result including such an icon shows up incorrectly. The icon should have the same width as the Java Element Labels with adornments. We should also use a different icon (question mark, or just a grey sphere) in this case. The halt icon is too invasive.

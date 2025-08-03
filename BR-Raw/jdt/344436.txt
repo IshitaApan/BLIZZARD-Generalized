@@ -1,0 +1,3 @@
+[imports on paste] Allow to cancel 'Update imports on paste'
+
+3.7 M7. Adding imports on paste can result in a search when it tries to resolve on-demand conflicts. When the search index is still built this results in a blocked UI, see e.g. bug 343837.

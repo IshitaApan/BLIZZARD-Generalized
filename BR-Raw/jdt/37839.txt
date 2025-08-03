@@ -1,0 +1,3 @@
+[inline] wizard does not indicate which method will be inlined [refactoring]
+
+20030506 inline method wizard should say sth like: "inline method Foo.bar(int, boolean)"

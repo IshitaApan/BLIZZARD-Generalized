@@ -1,0 +1,3 @@
+JUnit integration on top of Hyades
+
+Hi, I'm responsible of the Hyades test UI plugins and in charge of this new feature (already discuss between Hyades' committers and you). Can you contact me to discuss on how we can engage this. Thanks

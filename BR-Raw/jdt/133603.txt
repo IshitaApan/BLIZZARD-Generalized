@@ -1,0 +1,3 @@
+'Extract Supertype' dialog size
+
+I20060328-0010 1. Start with a fresh workspace 2. Create a class 3. Execute 'Refactor->Extract Supertype' ->The List 'Types to extract a supertype from:' is only visibel after resizing the dialog (see screenshot)

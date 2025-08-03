@@ -1,0 +1,3 @@
+Clipped message in refactoring dialog
+
+Build: 2.1 RC3a The refactor > change method signature refactoring opens a dialog where parameter ordering is specified, etc. On Linux Motif, the message at the bottom is clipped to be only a couple of pixels high. It is impossible to read. From Windows, I can see this message says, "Specify the new order of parameters and/or their new names".

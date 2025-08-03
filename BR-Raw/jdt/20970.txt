@@ -1,0 +1,3 @@
+class/interface filters in type browsing view [filters] [browsing]
+
+Build 20020625 (GM2) A post 2.0 feature request... I think it would be useful to have "filter classes" and "filter interfaces" in the type browsing view. One use scenario for this: when the type hierarchy view is open on a package, it can't show interfaces. To get around this I generally stack the type browsing view with the type hierarchy view, so I can look at interfaces as well as classes. For this case it would be nice to be able to filter out classes in the type browsing view.

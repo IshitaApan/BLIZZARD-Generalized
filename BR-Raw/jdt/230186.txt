@@ -1,0 +1,3 @@
+[typing] Format Element does not format code when caret inside comments
+
+Build ID: I20080502-0100 Steps To Reproduce: 1. Move cursor inside javadoc block 2. Press Alt-D 3. Nothing happens More information:

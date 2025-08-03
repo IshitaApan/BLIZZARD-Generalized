@@ -1,0 +1,3 @@
+Move instance method active for classes not on build path
+
+RC0 - create a test case that allows moving a method to a new file (best is to create only one class) - move the CU to a folder not on the build path - select the method in the outliner and activate move method observe: the refctoring comes up. The refactoring should open a message box and should inform the user that the CU isn't on the build path instead.

@@ -1,0 +1,3 @@
+Quick Assist failure
+
+Given this simple class: package whatever; public class ShowBroken extends Thread { ShowBroken() { name = getName(); } } Placing the cursor on the variable 'name'. Notice that quick assist only offers 'Local Rename' as an option. Changing the variable to 'foo' will convince quick assist to offer: Create local variable 'foo' Create field 'foo' Create parameter 'foo' Remove assignment Local Rename The variable 'name' is defined as a private member of Thread and should not be visible to class ShowBroken.

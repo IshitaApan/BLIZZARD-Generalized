@@ -1,0 +1,3 @@
+[plan item] Affordance for F2 opportunity in Java editor
+
+There should be a small label explaining that F2 pins the hover.

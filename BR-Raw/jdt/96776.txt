@@ -1,0 +1,3 @@
+JUnit test case wizard fails on methods with generics
+
+If I use the wizard to create my junit test cases and select a method with generics in its signature such as: public PropertyTableModel(final List<Pair<String, String>> data) public final void setData(final List<Pair<String, String>> data) then the wizard completely fails to create my new test cases: I assume that the angle brackets are sending it crazy.

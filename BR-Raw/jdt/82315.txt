@@ -1,0 +1,3 @@
+[nls tooling] Link to properties file does not work if file is open(ed) in text editor
+
+I20050104-1600 The editor is opened but the key is not found.

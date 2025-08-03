@@ -1,0 +1,3 @@
+Builder pref - Cannot exclude folder from resource copying
+
+Build 20020521 - F1 UI builder pref page currently prevents enter a folder name for the resource copy exclusion filter (folder is specified with a '/' suffix). Since 20020521, JDT/Core now supports excluding folders: The setting allowing for filtering resource copy now also supports folder filtering. Folder names are recognized by their '/' suffix, e.g. "META-INF/" specifies filtering out all folder named 'META-INF' (and their contents)

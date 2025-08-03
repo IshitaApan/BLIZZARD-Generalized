@@ -1,0 +1,3 @@
+Search results not selected in external jar
+
+Build 20020115 1. Make sure you have JDK1.3.1 as the default JRE (and that you have source for rt.jar) 2. Open java.io.File 3. Select field 'tmpFir' 4. Searcg for references to this field 5. You should get 3 matches in method getTempDir() 6. Double-click on the search result Observe: The first match is not selected.

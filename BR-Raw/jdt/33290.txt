@@ -1,0 +1,3 @@
+Smart quoting should not occur when following an escape char
+
+When typing " at the end of a string, Eclipse helpfully interprets this as a move to the right; so "In here|" typing a " at the cursor point (|) will result in "In here"| However, this is not desirable if trying to type an encoded quote in Java, which is preceeded with the \ escape character: "In here|" -> Type \ "In here\|" -> Type " "In here\"| The desired behaviour for a " following a \ would be to just insert the " and not move on a space "In here|" -> Type \ "In here\|" -> Type " "In here\"|"

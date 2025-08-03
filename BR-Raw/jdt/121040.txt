@@ -1,0 +1,3 @@
+Patch for API changes in Team
+
+I have cleaned up some API a bit which resulted in a change in a JDT class. I will attahc a patch that swithes to using a new method name.

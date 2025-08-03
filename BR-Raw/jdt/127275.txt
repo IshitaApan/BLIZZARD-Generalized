@@ -1,0 +1,3 @@
+[compiler] Generalize ProblemReporter#localSourceEnd
+
+3.2 M5 Fup on bug 127078. Philippe suggests that we generalize localSourceEnd in the following manner: sourceStart(Binding, ASTNode) sourceEnd(Binding, ASTNode) with systematic calls.

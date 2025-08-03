@@ -1,0 +1,3 @@
+'move..' is always disabled in the outline context menu
+
+'move..' is always disabled in the outline context menu this comes from ReorgGroup which includes 'move' as well (maybe it shouldn't) maybe this should be adressed together with Dirk's menu restructuring

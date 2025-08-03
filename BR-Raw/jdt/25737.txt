@@ -1,0 +1,3 @@
+Control+PERIOD does not navigate to next warning
+
+If my CU has only Warnings, Control+PERIOD does not work. Why is this? On the ? Toolbar it is labeled "Next Problem". I am trying to fix warnings indicated by JDT's compiler such as non-externalized strings, and by CheckStyle. This Action should still be enabled when there are warning in the CU.

@@ -1,0 +1,3 @@
+[rename] Minimize Refactor popup should set focus back to editor
+
+I20070206-0010. Minimize Refactor popup should set focus back to editor

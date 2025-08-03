@@ -1,0 +1,3 @@
+[content assist] Argument guessing proposes toString() and hashCode() of outer types [code assist]
+
+3.1 RC3 - Enable argument guessing - Consider following snippet: public class Foo { 	public class Bar { 		public Bar() { 			setInt<Ctrl+Space> 		} 		public void setString(String string) {} 		public void setInt(int integer) {} 	} } -> Argument guess is Foo.this.hashCode() -> Unqualified calls to toString() and hashCode() are not proposed. Suggest to remove them in this context as well. In case there are no reasonable guesses, we might insert the default value of the expression type, like '0' for ints and "<linked mode here>" for strings.

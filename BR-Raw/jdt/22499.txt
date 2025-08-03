@@ -1,0 +1,3 @@
+Code assist mangles/truncates import statements [code manipulation]
+
+I used code assist to insert an anonymous inner class, which caused SelectionChangeEvent and ISelecitonChangeListener to get aded as imports. My list of imports became truncated at approximately 3180 characters. Before the new imports were added, the import statements also totalled 3180 characters. The result is that the last 1 1/2 imports were lost, and the CU no longer compiled.

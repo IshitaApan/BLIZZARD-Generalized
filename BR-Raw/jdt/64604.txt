@@ -1,0 +1,3 @@
+Quickfix "put ... in parenthesis" shows wrong expression
+
+With 3M9 I get for the expression if (!Integer.parseInt(value)>0) { a quickfix suggesting Put 'instanceof' in parenthesis "instanceof" is wrong there. Note: The quicktip showing the expected result is correct.

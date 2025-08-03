@@ -1,0 +1,3 @@
+[refactoring] 'Add final modifier' save action collides with 'rename' refactoring
+
+I found a collision between the 'add final modifier to local variables' save action and the refactorings 'extract local variable' followed by 'rename'. To reproduce: 1.	Activate 'Add final modifier to local variables' save action 2.	In a method, write 	System.out.println("foo"); 3.	Save the file 4.	Select "foo" and apply 'extract local variable' refactoring. This yields 	String x = "foo"; 	System.out.println(x); 5.	Select the x in the first line and hit ALT+SHIFT+R ('rename' refactoring) 6.	Type something short as new variable name, e.g. xy, and hit ENTER -> Error message: A local variable declaration or reference must be selected to activate this refactoring

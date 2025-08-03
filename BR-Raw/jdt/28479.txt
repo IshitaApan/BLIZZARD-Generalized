@@ -1,0 +1,3 @@
+logical packages not recognized as Java by Search [browsing]
+
+1) Select a logical package 2) open the search dialog ->it defaults to the File search, I would have expected that it defaults to the Java search

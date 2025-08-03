@@ -1,0 +1,3 @@
+[code manipulation] Overriding methods and delegates should have separate comment and code templates
+
+It would be extremely helpful if overriding methods and delegates would have separate comment and code templates. Each of these cases needs a different comment, and also the needs for the method body are different. E.g. an overriding method needs a TODO-comment, while in a delegate, it will be a pain in the neck to manually delete each of these TODO-comments.

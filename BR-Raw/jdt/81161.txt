@@ -1,0 +1,3 @@
+[nls tooling] Hyperlink navigation from ClassFile to .properties finds no key
+
+I200412142000 - import o.e.ui.workbench.texteditor and dependencies as linked projects - open ContentAssistHandler - navigate from one of the two getString(...)s with Ctrl-Click to the properties file -> PropertiesFileEditor opens, but keys are not found

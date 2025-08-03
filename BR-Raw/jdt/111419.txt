@@ -1,0 +1,3 @@
+[general] move refactoring missed to update qualified names [refactoring]
+
+I20050928-1300 In the move (others are probably affected as well) refactoring I checked to update the qualified names. The preview showed no changed non-Java files but there had to be some. The reason for this is that per default the file name pattern field is empty and the 'Preview' button enabled which gives the impression that '*' is used. This is not the case. Either add '*' behind the scene or do it the same way as the Search dialog i.e. enter a '*' per default and disable the button if the field is empty.

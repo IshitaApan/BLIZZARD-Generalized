@@ -1,0 +1,3 @@
+Search view should link to search preference page
+
+I20050405-0800 The Search view should link to the search preference page. If I have set a file search result table limit, I only see (showing 20 of 85 files) in the description, but neither the context menu nor the view menu give me a way to configure this filter. I would add "Preferences..." to the view menu (for all search result pages).

@@ -1,0 +1,3 @@
+[preferences] Code template preference page buttons are not grayed out if invoked as project specific property page
+
+3.1 RC1 Steps to reproduce: - Invoke Override Method on a project with no project-specific settings - Follow link to code template preference page -> Edit, Import, ... buttons are disabled, but not grayed out -> Toggling 'Enable project specific settings twice correctly grays out the buttons

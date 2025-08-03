@@ -1,0 +1,3 @@
+[CommonNavigator] [Java] Java packages disappear when switching to Hierarchical mode
+
+[I20060413-0010] To reproduce: From the Project Explorer view menu, select Package Presentation->Hierarchical. Result: All source folders have no children Expected: package folders appear hierarchically under source folders.

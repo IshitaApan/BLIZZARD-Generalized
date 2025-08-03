@@ -1,0 +1,3 @@
+[working sets] closed projects are disappearing from working sets
+
+http://bp3.blogger.com/_KxCJvjRke2k/SGKLM8LgbyI/AAAAAAAAAAw/N_fa7V_N1-A/s320/3.png http://bp2.blogger.com/_KxCJvjRke2k/SGKLMwjnDBI/AAAAAAAAAA4/e2vwbiMZWaQ/s320/4.png http://bp3.blogger.com/_KxCJvjRke2k/SGKLOUyaZtI/AAAAAAAAABA/BKYRu1KSBxA/s1600-h/1.png When i add closed projects to a working set, that already contains closed projects, old closed projects are excluded from it.

@@ -1,0 +1,3 @@
+Generate setter produces incorrect code
+
+If you have a variable like fDefault with a declared prefix of f and generate a setter for it, the code produced will be, e.g., public void setDefault(String default) { fDefault = default; } The generated code is wrong on several levels. First, it does not compile because default is a keyword. Second, the formatter screws it up, producing odd indentation and in some cases extra closing braces. The user has to manually fix the generated code. I am hoping this can be fixed for 2.1. It's not hard to detect keywords. It's not hard to generate identifiers, esp. in this case, where any non-keyword identifier will do. E.g., use "d".

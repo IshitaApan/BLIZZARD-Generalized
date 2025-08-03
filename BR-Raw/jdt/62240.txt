@@ -1,0 +1,3 @@
+Use of deprecated API SearchEngine#searchAllTypeNames
+
+I20040513 + org.eclipse.jdt.core v_428a In org.eclipse.jdt.core v_428a, the version SearchEngine#searchAllTypeNames (...) that takes a matchMode and isCaseSentive is being replaced with a version that takes a matchRule.

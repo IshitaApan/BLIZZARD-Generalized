@@ -1,0 +1,3 @@
+[clean up] cleanup wizard: progress reporting tweak
+
+3.2 when the cleanup wizard is running, the numbers (xxx of yyy) are appended after the class name which makes them unreadable. If they were prepended (i.e., "(xxx of yyy) ClassName"), it would make them more useful.

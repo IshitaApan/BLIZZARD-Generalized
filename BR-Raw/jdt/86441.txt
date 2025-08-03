@@ -1,0 +1,3 @@
+Source>Generate Delegate Methods selects all methods per default [code manipulation]
+
+Since version 3.1M5, Source>Generate Delegate Methods has a different behaviour concerning the boxes that are checked by default. It now checks *all* methods from the source class. The previous behaviour was to check only those methods that had no delegate method already. If I now click OK, all checked methods are created, even those that exist already.

@@ -1,0 +1,3 @@
+Add constructors from fields issues
+
+200300813 a. add visibility buttons like 'Add constructor from super class'

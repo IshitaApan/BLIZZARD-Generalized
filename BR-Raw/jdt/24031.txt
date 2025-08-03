@@ -1,0 +1,3 @@
+CompilerPreferencePage has strange temps
+
+there're 4 locals called: fTaskTagsStatus, fResourceFilterStatus, fMaxNumberProblemsStatus, fComplianceStatus the first 3 are not even read

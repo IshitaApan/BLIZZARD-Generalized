@@ -1,0 +1,3 @@
+[refactoring] Move Member Type to New File destroys variable declarations
+
+Eclipse 3.1RC2: Executing "Move Member Type to New File" on the class A.B in public class A { public static class B { @SuppressWarnings("unused") private final String a, b; public B(String a1, String b1) { a = a1; b = b1; } public String getA() { return a; } public String getB() { return b; } } } results in public class B { @SuppressWarnings("unused") private final String; String a; String b; ... which, of course is incorrect. (compiler error, etc.) (The presence or absence of the annotation does not change anything.)

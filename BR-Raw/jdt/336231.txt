@@ -1,0 +1,3 @@
+[quick assist] "Invert conditions" not available for assert statement
+
+HEAD e.g. -------------------------------------------------------- 	void foobar() { 		String a = ""; 		assert !(a instanceof String); 	} -------------------------------------------------------- Fix to go in AdvancedQuickAssistProcessor.getBooleanExpression(ASTNode)

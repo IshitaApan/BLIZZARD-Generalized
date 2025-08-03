@@ -1,0 +1,3 @@
+Problem Tree Viewer not propagating Label change
+
+Build 20020409 In the handleLabelProviderChanged method in ProblemTreeViewer a changed event on a resource is adapted to the Java elements it represents but the change is not propagated. As a result when the CVS decorator is turned on the ProblemTreeViewer is not decorated. The last line LabelProviderChangedEvent e= new LabelProviderChangedEvent((IBaseLabelProvider) event.getSource(), mapped); should read super.handleLabelProviderChanged(new LabelProviderChangedEvent ((IBaseLabelProvider)event.getSource(), mapped));

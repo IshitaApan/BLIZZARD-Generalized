@@ -1,0 +1,3 @@
+[javadoc location] a jar file inside a workspace
+
+When indicating the "Javadoc location" for a JAR file (a library), it will interesting to give Eclipse a location inside the workspace, when exactly the same logic that "Java Source Attachement" (give either a folder or a zip file).

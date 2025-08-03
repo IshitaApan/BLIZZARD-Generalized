@@ -1,0 +1,3 @@
+Provide select all / deselect all buttons for JavaWorkingSetPage
+
+As discussed in bug 46669, a select all and deselect all button would be very nice to have on the working set editor page. It seems that each contributor to the working set type needs to provide the UI for their working set page so I've created a patch against CVS HEAD for JDT UI to use for the 'Java' working set type. Is this something that could be added for the 3.1 release? Thanks a lot!

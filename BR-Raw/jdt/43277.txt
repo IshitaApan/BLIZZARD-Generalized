@@ -1,0 +1,3 @@
+[refactoring] [dcr] Move type to new file
+
+Currently, there's "Move Member type to new file". We should extend that to "Move type to new file", and support moving additional top level types of a CU to new files. Example: - File A.java: public class A {} class Data {} - want to move "Data" to its own CU

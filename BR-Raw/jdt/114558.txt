@@ -1,0 +1,3 @@
+[content assist] Inconvenient ranking of template proposal on exact match
+
+I20051031-2000 Steps to reproduce: /** * @return null<Ctrl+Space> */ -> template proposal for "null" template is ranked after link proposal for NPE -> On exact match, templates should be ranked highest in this case

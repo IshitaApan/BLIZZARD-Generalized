@@ -1,0 +1,3 @@
+[syntax highlighting] {@link} tag syntax coloring does not work when on two lines
+
+Set a color for {@link} tags from the preferences page. When you have a link tag that is on two lines, the part of it that is on the second line is not colored properly.

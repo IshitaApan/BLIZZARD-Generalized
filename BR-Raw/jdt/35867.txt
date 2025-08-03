@@ -1,0 +1,3 @@
+[navigation] "//" breaks backwarsds bracket matching
+
+Clicking on the opening bracket will mark the closing one but it won't work the other way round when the block contains a string declaration initialized with a XPath expression: public void demo() { 	String query = "//input[@name='blah']/@value"; }

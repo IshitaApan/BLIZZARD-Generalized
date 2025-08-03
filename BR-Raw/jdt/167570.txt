@@ -1,0 +1,3 @@
+[quick assist] Convert local variable to field misses references
+
+I20061212-0010 Have: public class Bug { 	void foo() { 		Bug i = new Bug(); 		i.foo(); 	} } Use the 'Convert local variable to field' quick assist on i (after 'Bug i') ==> the 'i' on 'i.foo()' is not linked and hence not updated.

@@ -1,0 +1,3 @@
+Refactoring should use IWorkbench.saveAllEditors [refactoring]
+
+Refactoring is looping on all windows and pages to save all editors in the workbench. That results in multiple dialogs (one per window). There is new API in IWorkbench to save all editors. Trigger bug 15691 is defered for 3.0

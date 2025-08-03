@@ -1,0 +1,3 @@
+Reuse editor in Search view does not check it the editor is pinned.
+
+Build 20021017 Do a search to finds 2+ items from java files. Close all editors. Make sure the reuse editors preference is set (in search preference page). Make sure the workbench preference "close editors automaticly" is set. Click in one item to open one editor. Pin it the editor. Click in the second item. It should open a second editor since the first one is pinned. See bug 25068.

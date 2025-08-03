@@ -1,0 +1,3 @@
+Package explorer drag'n drop does not always work
+
+build 20030129 When an already selected item is dragged the drop does not work. This is because the item is deselected by the drag click on some platforms. Navigator has the same problem. The drag is started because the selection is not checked but there is no drag data that can be set for the drop. See bug 30655/bug 30249 for details on how to fix this.

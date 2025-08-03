@@ -1,0 +1,3 @@
+Rename doesn't work if there are any compilation errors
+
+Type in the following code: 		int abc = 0; 		if (true) { 			 System.out.println(abc) 		} Try to rename abc. It will fail because system.out.println doesn't have a semicolon. I should be allowed to rename even if there are comilation errors.

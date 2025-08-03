@@ -1,0 +1,3 @@
+[navigation] Outline should not expand member types automatically
+
+Build 20020418 - Open Type on String - the outline shows 3 member types expanded - I don't care about these - In this case they're private, but member types should not be expanded even if public. If I want to see a member type, I'll expand it.

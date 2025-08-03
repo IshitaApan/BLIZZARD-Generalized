@@ -1,0 +1,3 @@
+[syntax highlighting] Task Tags parsing bug
+
+1) Add "BUG" to your Task Tags 2) Comment the following code 	case Level.DEBUG_INT : it will recognize "BUG" in "DEBUG" as a Task Tag.

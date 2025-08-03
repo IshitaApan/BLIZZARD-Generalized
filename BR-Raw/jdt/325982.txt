@@ -1,0 +1,3 @@
+[JUnit] Name of the test is not updated in the "Result Comparison" dialog
+
+Build Identifier: 3.6 Helios The name which is set when the "Result Comparison" dialog is opened is never updated. It should update when a new test is selected and the content of the view is updated. Reproducible: Always Steps to Reproduce: 1. Run a test suite where several tests fail 2. Open the "Result Comparison" dialog for one 3. Select a different test The content of the dialog changes but the test name below the title bar stays the same.

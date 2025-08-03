@@ -1,0 +1,3 @@
+Junit truncates failure trace messages
+
+(RC4) This came up in the newsgroup some time ago, but I can't find a bug. The junit view will truncate long trace messages, making comparisons of long assertions impossible within eclipse. If the messages are copied to the clipboard and then pasted into an editor, the full message is included. The junit view should never truncate messages.

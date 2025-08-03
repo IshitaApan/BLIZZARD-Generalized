@@ -1,0 +1,3 @@
+Provide option(s) that allow to hide/filter based on access restriction type
+
+I200505092010 See bug 88744. We can either leave the option (CODEASSIST_HIDE_RESTRICTED_REFERENCES) and specify different set of allowed values or replace it with new option(s).

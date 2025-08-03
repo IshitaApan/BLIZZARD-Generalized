@@ -1,0 +1,3 @@
+Organize import on a package prints to the console
+
+I ran organize import on a package containing two CUs and I got timing statements like the following printed to the console: total time 80 ms, cus: 2

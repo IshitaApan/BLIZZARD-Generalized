@@ -1,0 +1,3 @@
+JUnit contextual launch must port to new XML Expr Language
+
+Conextual Launch has migrated to use the new XML Expression Langauge for enablement logic. Unfortunately, the JUnit plugin.xml will need to be updated in order to support the Run context menu feature. A patch will be provided.

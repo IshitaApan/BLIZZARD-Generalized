@@ -1,0 +1,3 @@
+JUnitAddLibraryProposal contains e.printStackTrace call
+
+I20040316

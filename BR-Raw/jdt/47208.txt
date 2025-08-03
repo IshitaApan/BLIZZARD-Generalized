@@ -1,0 +1,3 @@
+Generate Javadoc dialog lays out too wide [javadoc]
+
+If one uses a custom doclet and sets the doclet class path to a long path (e.g. with many JAR files on it), the "Generate Javadoc" dialog lays out to try and fit the full doclet class path on the screen; this results in a very wide dialog.

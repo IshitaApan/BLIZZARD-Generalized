@@ -1,0 +1,3 @@
+Can't collapse import container in members view [browsing]
+
+F3 - link Java Browsing to active editor - open Java Browsing perspective - open ClassFileDocumentProvider - expand import container in members view - select first import - try to collapse import container.

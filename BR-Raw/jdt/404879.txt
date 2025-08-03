@@ -1,0 +1,3 @@
+[typing] Regression on auto-insert of {}
+
+Up until M6 given source text such as (@ is the cursor position) @xxxx it was possible to insert type if (yyyy != null) {@xxxx then new line to get if (yyyy != null) { xxxx } Now (in M6) and in eclipse-SDK-I20130402-0800-win32.zip we get if (yyyy != null) { }xxxx Super-irritating.

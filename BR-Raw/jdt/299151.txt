@@ -1,0 +1,3 @@
+Search opens on wrong page when started from Java editor
+
+I20100107-1410, probably due to bug 292924 When started from a Java editor, the Search action opens on the File Search tab instead of the Java Search tab.

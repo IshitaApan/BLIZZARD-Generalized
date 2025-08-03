@@ -1,0 +1,3 @@
+CVS Project pref page; Change Sharing dialog does not use dialog font and standard margins
+
+context menu of shared project -> properties -> cvs page -> click on "Change Sharing..." Observe the dialog does not use the dialog font.

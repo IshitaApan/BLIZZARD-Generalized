@@ -1,0 +1,3 @@
+[navigation] 'Open Implementation' doesn't detect method after last character
+
+Put the cursor behind a valid method name and hit "Open Implementation". It says that you need to selected a overridable method. As other features like Open Call Hierarchy, mark occurences, etc allow to span the selection backwards, it should be consistent. public class A { protected void foo|() { } } Pipe marks the cursor.

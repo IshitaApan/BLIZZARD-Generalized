@@ -1,0 +1,3 @@
+refactoring pref page: use groups for accessibility
+
+20021114

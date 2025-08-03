@@ -1,0 +1,3 @@
+IndexOutOfBoundsException in HTML2TextReader
+
+R2.1 1. Open java.regex.Pattern 2. Hover over "Pattern" ==> IndexOutOfBoundsException

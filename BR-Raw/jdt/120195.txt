@@ -1,0 +1,3 @@
+[performance] huge memory usage when large file selected in package explorer
+
+3.2M2 I have a large .java file (25MB - generated junit test suite) When I select it in package explorer, the memory usage shoots to ca 600MB. (speculation: it probaly parses the file to see if it's a runnable class or something)

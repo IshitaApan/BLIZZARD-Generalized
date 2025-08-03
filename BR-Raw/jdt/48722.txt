@@ -1,0 +1,3 @@
+Extract Constant refactoring: proposed name
+
+I20031211 When extracting the constant "win32" the proposed name for the constant is: WIN__ I don't see a reason why WIN32 isn't used.

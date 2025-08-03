@@ -1,0 +1,3 @@
+JUnit: New Test Case wizard does not init dialogs when browsing for test class
+
+Build 20021113 Open the new Test Case wizard Browse for a test class, select a class (e.g. TestCase), press OK Press the browse button again and press OK Previous selection is replaced with first entry in list. This happens because the dialog is not initialized with the current value (in my example TestCase).

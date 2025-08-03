@@ -1,0 +1,3 @@
+[render] Colored labels don't update on 'Apply'
+
+I20070502-0010. Colored labels don't update on 'Apply' when changing their colors.

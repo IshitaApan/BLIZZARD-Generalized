@@ -1,0 +1,3 @@
+Extract superclass should make created class abstract if it inherits from an abstract class
+
+I20060428-0010 - have the following CUs - extract a superclass of A and B and name it LazyAB, extracting doNothing() > expected: LazyAB is abstract < actual: compile error in LazyAB as common() is not implemented --------- A.java --------- abstract class A extends AbstractAB { void doNothing() { } } --------- B.java --------- abstract class B extends AbstractAB { void doNothing() { } } ----- AbstractAB.java ---- abstract class AbstractAB { abstract void common(); } --------------------------

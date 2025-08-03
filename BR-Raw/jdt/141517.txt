@@ -1,0 +1,3 @@
+[JUnit] High memory consumption from JUnit history
+
+3.2 - I20060505-1306 I am running with -Xmx512M on the command line; and noticed the heap size monitor to say 493M of 512M allocated, which is way more than in average for my self-hosting workspace (usually cruising at 240M). Using yourkit 5.5, I got a memory dump, which shows 50M are held by the JUnit history. This is not a leak per se, since I flushed history and the memory got claimed back correctly (still 50M for junit history is huge... entire JavaModel only takes 17M).

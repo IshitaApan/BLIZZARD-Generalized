@@ -1,0 +1,3 @@
+DBCS: Key and Value in string externalize
+
+When invoking "Externalize String" for Java applicatopn includes Japanese string, Key name at Wizard contains the Japanese DBCS. The objective is to create i18n application, Key name should be ASCII name by default Moreover created properties file contains Japanese string as is for Value. It should be converted Unicode encoding like \uXXXX as VAJ does.

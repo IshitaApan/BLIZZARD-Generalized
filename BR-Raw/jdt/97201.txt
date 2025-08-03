@@ -1,0 +1,3 @@
+[content assist] Rendering of inner types in Javadoc code assist wrong
+
+RC1 - code assist after 'Inn'. Label is rendered 'R.Innner', should be Inner. public class R { 	class Inner { 		 	} 	/** 	 * @see Inn 	 * 	 */ 	private void foo() { } }

@@ -1,0 +1,3 @@
+Add regex content assist support for File search page
+
+I20031007

@@ -1,0 +1,3 @@
+F1 help missing
+
+3.0RC2 copied JDT UI items out of bug 67368 from Debbie: Within an editor (editting a file) right click to get the context menu. The following menu items have no F1 help: Open in Call Hierarchy source -> generate constructor using fields

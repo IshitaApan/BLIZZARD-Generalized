@@ -1,0 +1,3 @@
+PackageView - logic container doesn't show up in classpath order [package explorer]
+
+Build 20030206 The JRE System Library container shows up at the bottom of my project's children, where it is actually ordered first on my build path. This feels inconsistent with our approach of sticking to the build path.

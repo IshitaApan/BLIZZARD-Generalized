@@ -1,0 +1,3 @@
+[preferences] missing node ids for new preference pages
+
+N20050606 preference page set opened from the java editor's context menu> preferences does not yet include the additional preference pages added during 3.1

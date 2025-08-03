@@ -1,0 +1,3 @@
+Cannot turn javadoc generation off
+
+Eclipse 2.1 RC1 Apologies if I'm missing something, but since moving from M3 to RC1, the options under Prefs->Java->CodeGeneration no longer include a way of stopping Eclipse from adding javadoc comments on creation of new types. The help system still reflects the M3-style help dialogs which _did_ have these options. I could just edit the javadoc templates, but I'd rather not. I want to just turn them off altogether. Have these options been removed, or have they just been moved to a different location?

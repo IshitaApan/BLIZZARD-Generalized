@@ -1,0 +1,3 @@
+[typing] Move lines acts strangely when moving a javadoc start
+
+3.1-RC2 Left over from bug 98060: - have the code below in a Java editor - move the first '/**' line into the javadoc comment -> the comment is automatically closed ----- snip ----------- /** /** * comment */ --------------------- Reason: IndentUtil.shiftLines delegates to indentLines() when a single line is concerned. IndentUtil.indentLines still has the same bug as described in 98060. The fix is to not delegate (this is not needed at all). IndentUtil.indentLines could be deleted for that matter...

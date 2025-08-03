@@ -1,0 +1,3 @@
+[navigation] NPE finding occurences of static initializer
+
+I20050627 Steps: 1) Open the type hierarchy of a source class that has a static initializer. 2) In the lower pane of the Hiearchy tab, rightclick on the static initializer and pick menu item OccurencesInFile>>Identifier. See this NPE in the Error Log: java.lang.NullPointerException 	at org.eclipse.jdt.ui.actions.FindOccurrencesInFileAction.run (FindOccurrencesInFileAction.java:157) 	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun (SelectionDispatchAction.java:222) 	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run (SelectionDispatchAction.java:198) 	at org.eclipse.jface.action.Action.runWithEvent(Action.java:996) ...

@@ -1,0 +1,3 @@
+sort members: 2 dialogs if file read-only [code manipulation]
+
+20030206 all other source actions show 1 error dialog if file is read-only this action shows 2

@@ -1,0 +1,3 @@
+The combo box showing the available JDKs should be sorted
+
+I20051031-2000 The most recent JDKs should be shown first.

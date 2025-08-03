@@ -1,0 +1,3 @@
+Refactor/move doesn't remember non-java files
+
+When refactoring with "rename", the list of non-java files is remembered from use to use. When using "move", the previous settings are ignored, and the last "rename" settings are used. This is based on the M5 build.

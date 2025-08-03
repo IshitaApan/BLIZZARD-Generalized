@@ -1,0 +1,3 @@
+[implementation] Don't set clipboard if textData is null in ClipboardOperationAction.doCutCopyWithImportsOperation()
+
+R3.4. We should not set the clipboard if textData is null in ClipboardOperationAction.doCutCopyWithImportsOperation(). See bug 200743 comment for details.

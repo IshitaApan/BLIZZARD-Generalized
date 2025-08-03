@@ -1,0 +1,3 @@
+Change method signature: Edit dialog: Flaws in input validation [refactoring]
+
+20031119 In the 'Refactoring > Change Method Signature' dialog, press edit. 1. Change the parameter name to an existing parameter name. Dialog does not complain. You will get the conflict message after pressing 'ok' 2. Clear the return type field. The error message is '' is not a valid return type. Should be like: 'The return type can not be empty.'

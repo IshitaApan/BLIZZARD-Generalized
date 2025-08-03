@@ -1,0 +1,3 @@
+[junit] History... menu entry is checked on empty history
+
+I20060215-0010 Use the drop-down menu to open the testrun history dialog -> History... entry is checked, which makes no sense, since this is a command and not a toggle option

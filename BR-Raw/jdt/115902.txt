@@ -1,0 +1,3 @@
+[content assist] Content assist in empty method parameter list inserts method again
+
+I20051108-1011 public class Try { void m() { new String(); } } Put caret to after "new String(" and press Ctrl+Space Expected: proposals for constructors Was: new String(String|);

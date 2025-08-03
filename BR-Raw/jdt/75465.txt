@@ -1,0 +1,2 @@
+[5.0][hovering] JavaSourceHover should handle type parameters
+

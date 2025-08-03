@@ -1,0 +1,3 @@
+rename java doc reference to parameter [refactoring]
+
+as in the summery - we should offer to rename java doc references to paramaters

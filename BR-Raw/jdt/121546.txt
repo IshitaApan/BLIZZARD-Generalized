@@ -1,0 +1,3 @@
+Cannot validate Javadoc URL starting with https
+
+3.2 M4 On the Javadoc location properties page is possible to define a Javadoc URL. There is also a button to validate the specified location. If the URL starts with https a message pops up saying "Unable to validate location". Is this by design or is https not supported?

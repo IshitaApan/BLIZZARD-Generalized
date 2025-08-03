@@ -1,0 +1,3 @@
+[implementation] useless statement in getAutoEditStrategies(...)
+
+In JavaSourceViewerConfiguration.getAutoEditStrategies(...) the line autoEditStrategies.toString(); is useless.

@@ -1,0 +1,3 @@
+[dom] Call for "Quick Fix" for reference to an object's member field
+
+For reference to an objects member function/method, such as: stringBuffer.toString(); "Quick fix" can help to create a new field/local variable. So, what about reference to an objects member variable/field? such as: gridBagConstrains.insets; I suggest "Quick fix" can also help to do the similar for this, since in this case it's an obvious syntax error. -- Roger Ye

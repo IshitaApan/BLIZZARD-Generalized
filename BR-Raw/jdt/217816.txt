@@ -1,0 +1,3 @@
+[breadcrumb] doesn't update after renaming file
+
+I20080205-0010 linux-gtk - create file p.A - open a Java editor on A.java - enable the breadcrumb view - right click on 'A' and invoke Refactor > Rename - rename to 'B' - the editor is updated, but the breadcrub still shows (the non-existing type) 'A'

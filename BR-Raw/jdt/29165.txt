@@ -1,0 +1,3 @@
+exception when deleting a class in I20030107 (win2k)
+
+steps to reproduce the exception : - selected class in package explorer - selected delete in contextmenu

@@ -1,0 +1,3 @@
+Package Explorer->Refactor->Move does not allow non-Java projects as destination
+
+Build id: 200302211557 Although you can see non-Java projects and resources on the Package Explorer view, when moving a resource (Refactor->Move), only Java projects are offered as options for destination. If I can use this option to move any resource (from the user perspective, it looks like the same move action - when working with non-Java resources - as offered by the Resource Navigator), I should be able to use it to move to any kind of project.

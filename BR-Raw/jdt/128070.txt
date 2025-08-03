@@ -1,0 +1,3 @@
+[implementation] Check usage of CustomSourceInformationControl
+
+I20060215-1200 CustomSourceInformationControl is claimed to be used for the change hover but it's also used to show the projected Java source. Is this needed? - if yes: change the CustomSourceInformationControl Javadoc - if no: use simple SourceInformationControl see also bug 127987.

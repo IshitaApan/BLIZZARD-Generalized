@@ -1,0 +1,3 @@
+Indenting Java breaks comments
+
+When correcting indentation (ctrl-I in my configuration), java comments are not properly preserved. My original code [1] is 'indented' to code [2], which is unexpected and syntactically incorrect. thanks PhF .. [1] try{ /* for(int i=0; i<8; i++){ System.out.println("something");} */ somethingElse(); .. [2] try{ /* */ for(int i=0; i<8; i++){ System.out.println("something");} */ somethingElse();

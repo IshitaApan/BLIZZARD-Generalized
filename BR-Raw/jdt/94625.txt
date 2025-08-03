@@ -1,0 +1,3 @@
+[Forms] [preference pages] Moving selection of triangle does not scroll
+
+I20050509-2010 - Preferences > Java > Compiler > Errors/Warnings - expand sections until vertical scroll bar appears - scroll to top - set focus to an open section triangle - press arrow down key several times => the selection moves out of the visible region => Expected: the area is scrolled down such that the selection is visible (including as much as possible from the section's contents). It would also be nice if the area could be scrolled with Ctrl+Shift+Arrow_Up/Down (as for Trees) or Ctrl+Arrow_Up/Down (as in the editor).

@@ -1,0 +1,3 @@
+[build path] Set focus to DialogPackageExplorer when showing second project wizard page
+
+N20060504-0010 To reproduce: 1. Open the new Java Project Wizard throgh clicking on New Java Project button in the toolbar 2. Type in a name 3. click next 4. click the help button in the lower left corner or press F1 Is: Nothing happens 5. Select the 'Source' 6. Click the button or press F1 Now the correct help is shown. Not sure why that is. I guess because the focus is on the 'Back' button. When the wizard is started through 'New->Project->Java Project' a help is shown, but the wrong one.

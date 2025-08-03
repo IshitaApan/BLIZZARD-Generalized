@@ -1,0 +1,3 @@
+[build path] Custom attributes set by IClasspathContainerPage implementations are discarded on save
+
+Custom attributes set by IClasspathContainerPage implementations are discarded on save. I wanted to add some configuration properties that need to be associated with my classpath container and thought of using custom attributes (IClasspathEntry.getExtraAttributes()) for that purpose. However, if I set those attributes in IClasspathContainerPage.finish() method and make IClasspathContainerPage.getSelection() to return IClasspathEntry with those attributes, they seem being discarded when JDT saving changes to container.

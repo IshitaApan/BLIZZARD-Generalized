@@ -1,0 +1,3 @@
+'Refactor -> Undo' enabled after consecutive change
+
+I200411022000 Having: package test2; public class A { 	public C c= new C(); 	public void foo() { 	} } package test2; public class B { 	public void bar() { 		new A().foo(); 	} } package test2; public class C { } and: - open all 3 CUs - move A#foo() to C - remove 'a' from 'new A().c.foo(a);' in B - save B - Refactor -> Undo -> lost parenthesis in B because undo did no longer match

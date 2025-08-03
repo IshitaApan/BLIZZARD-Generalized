@@ -1,0 +1,3 @@
+Generate serial version ID broken
+
+I20070828-0800 + plug-in export 1. start with Java6 2. create JUnit project with JUnit source 3. run the clean up that generates the serial version ID ==> tons of warnings in the preview Same if I try the quick fix on one of these files. An Error dialog is shown with a very strange and untrue message (see attached picture).

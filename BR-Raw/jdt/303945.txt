@@ -1,0 +1,3 @@
+[preferences] add Errors/Warnings option "Suppress optional errors with @SuppressWarnings"
+
+The corresponding UI option needs to be added based on bug 295551 comment 24.

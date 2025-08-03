@@ -1,0 +1,3 @@
+cannot create protected or private interfaces [code manipulation]
+
+F3 the spec allows creating protected or private nested interfaces but eclipse disallows it (the new interface wizard)

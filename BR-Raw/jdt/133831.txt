@@ -1,0 +1,3 @@
+Configure Deprecation fix action: UI issues
+
+20060329 - The margins seem too big: Make sure that only one composite has margins set. - Wording: 'Do not fix references' is misleading I suggest: 'No fix configured' - option should be disabled when method is abstract or field is not constant

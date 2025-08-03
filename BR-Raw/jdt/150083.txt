@@ -1,0 +1,3 @@
+Incremental find is disabled when text editor is embedded in MultiPageEditorPart
+
+It looks like AbstractTextEditor.getStatusLineManager() is the culprit. MultiPageEditorSite.getActionBarContributor() always returns null so AbstractTextEditor.getStatusLineManager() will always return null. Shouldn't AbstractTextEditor.getStatusLineManager() just call getEditorSite().getActionBars().getStatusLineManager()? As currently written, it seems any editor without a contributor will have the same problem.

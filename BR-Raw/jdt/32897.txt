@@ -1,0 +1,3 @@
+Cannot configure Javadoc referenced classes
+
+In the second step of the Generate Javadoc wizard, I should be able to configure referenced classes. For example, JUnit is listed in the listbox. If I try to configure it and enter a URL for it (which is correctly validated), the OK button of that dialog does not work; only the cancel button does!

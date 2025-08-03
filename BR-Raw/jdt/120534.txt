@@ -1,0 +1,3 @@
+Open Type does not work for fully qualified nested type
+
+I20051213-0010 Open Type does not work for fully qualified nested types, e.g java.util.Arrays.ArrayList: - enter "java.util." => "ArrayList - java.util.Arrays" appears - append "A" => "Arrays - java.util" is shown, but Arrays.ArrayList is not available any more - press backspace to make pattern "java.util." again => "ArrayList - java.util.Arrays" is not shown again; removing and re-adding the dot makes the nested class appear again. The nested class should be consistently shown or not shown. - set pattern to "java.util.Arrays." => no type shown; expected: nested types of fully qualified type should be listed

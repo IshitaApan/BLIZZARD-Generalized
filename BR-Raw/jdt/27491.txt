@@ -1,0 +1,3 @@
+Cannot add classpath variable to project
+
+build id : 200212020010 The buttons OK and extend... are always disabled in the add variable dialog

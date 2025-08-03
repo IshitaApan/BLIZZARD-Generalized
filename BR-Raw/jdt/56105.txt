@@ -1,0 +1,3 @@
+Shouldn't use @todo as a default todo tag
+
+I20040324 We shouldn't used @todo as a default todo tag. Doing so causes grief when using @todo inside Javadoc tags.

@@ -1,0 +1,3 @@
+[preferences] Must not load preference pages code when initialize preferences
+
+I20070601-0010 In org.eclipse.jdt.ui.PreferenceConstants.initializeDefaultValues we do reference: NewJavaProjectPreferencePage WorkInProgressPreferencePage This is a performance blooper, see http://wiki.eclipse.org/index.php/Performance_Bloopers 'Eager preference pages' for details

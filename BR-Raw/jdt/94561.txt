@@ -1,0 +1,3 @@
+Move member methods and CUs not on build path
+
+RC0 - create a CU not on build path - create a method foo() - select the method in the outliner - activate Refactor->Move observe: you get a dialog telling you that not possible target exists. You should get a dialog first telling you that the CU is not on the build path

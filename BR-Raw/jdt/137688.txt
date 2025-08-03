@@ -1,0 +1,3 @@
+[performance] Improve initial performance for new AbstractLineTracker implementation
+
+3.2 RC1 The new AbstractLineTracker implementation hits us on open editor performance scenarios. We should use the old implementation as long as the document is not dirty.

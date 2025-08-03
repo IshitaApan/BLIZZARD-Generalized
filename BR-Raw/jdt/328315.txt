@@ -1,0 +1,3 @@
+[call hierarchy] hidden view title not bold when result arrives
+
+N20101020-2000 but probably broken since day one. The hidden view title is not bold when the result arrives.

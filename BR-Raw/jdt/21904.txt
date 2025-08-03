@@ -1,0 +1,3 @@
+[misc] Can't Ctrl+C copy from class file editor without source
+
+The 'Ctrl+C' copy shortcut doesn't work in the Java class file editor (the one which appears when no source is available). The Windows shortcut 'Ctrl+Ins' works correctly. There's also no context menu with 'Copy' on it, nor is 'Copy' eabled on the 'Edit' pull down menu. Curiously, 'Select All' IS enabled, but doesn't seem to do anything.

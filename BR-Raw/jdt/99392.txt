@@ -1,0 +1,3 @@
+[refactoring] Use Supertype Where Possible... leaves dialog open
+
+I20050610-0010 + plug-in export for smoke 1. Have A.java like: ---------------------------- public class A { 	void foo() { 		C c= null; 		c.toString(); 	} } class B extends A {} class C extends B {} ---------------------------- 2. select 'C' after 'class' 3. Refactor > Use Supertype Where Possible... 4. seelct 'Object' 5. press OK ==> source has been changed but dialog stays open saying it's not possible to do the change.

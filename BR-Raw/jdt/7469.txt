@@ -1,0 +1,3 @@
+Preferences -> Java -> Templates
+
+The template body editor window at the bottom part of a Templates preferences page should contain both vertical and horizontal scroll bars.

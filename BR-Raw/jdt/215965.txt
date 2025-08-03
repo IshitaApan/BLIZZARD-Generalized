@@ -1,0 +1,3 @@
+[breadcrumb] Activating editor should set focus into breadcrumb if it was the focus component
+
+I20080115-1740 1. Set focus into breadcrumb 2. Switch to another view 3. Switch back to editor Is: Focus is in text widget Should: Focus is in breadcrumb

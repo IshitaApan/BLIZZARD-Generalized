@@ -1,0 +1,3 @@
+[formatter] Add FORMATTER_ALIGNMENT_FOR_ASSIGNMENT support in the code formatter preference page
+
+Following of bug 71766. We need the UI part to get the support in the code formatter preference page. Let me know if the name of the constant is ok. We can change it. It is tagged as 3.2, so it can be changed till 3.2 release.

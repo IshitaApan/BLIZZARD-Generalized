@@ -1,0 +1,3 @@
+JUnit 4.0 classes not being recognized correctly.
+
+I was using Eclipse 3.2M4 and using JUnit 4.0. I was using their adapter to hook into Eclipse, via RightClicking on the JUnit test file, Selecting Run>JUnit Test. This behavior went away when I updated to 3.2M5. Now the only way I can run the test is by going to the Run menu, and creating a brand new "Run Profile" for it.

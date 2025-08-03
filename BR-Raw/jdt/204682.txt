@@ -1,0 +1,3 @@
+[JUnit] Any class that references org.junit.Test is run as a test
+
+Build ID: I20070921-0919 Steps To Reproduce: If you place the following class in a package, and run all tests in the package, this class will also get picked up, and cause an error. This can make it challenging when trying to write custom JUnit runners. Does core provide a way to search for annotation classes only when they're actually used as annotations? package bug; import org.junit.Test; public class ReferencesTest { 	Test getTest() { 		return null; 	} } More information:

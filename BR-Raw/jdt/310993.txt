@@ -1,0 +1,3 @@
+[hovering] {@value} resolution in Javadoc doesn't work if constant doesn't explicitly declare static final
+
+Created attachment 166456 Fix HEAD {@value} resolution in Javadoc hovers doesn't work if constant doesn't explicitly declare static final. The patch also fixes a bug for {@value #FIELD_REF} resolution.

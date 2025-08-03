@@ -1,0 +1,3 @@
+[preferences] Make  "Fill Argument names..." the default
+
+When you use the Microsoft Office Visual Basic Script editor (I do from time to time) one of the most practical things about it is the tooltip that appears underneath a method when you are adding the parameter values to it, in the following way: myMethodInvocation( ); -------------------------------------------------- | myMethodInvocation(username (String), age(int))| -------------------------------------------------- This is a super-practical feature. You don't have to do <ctrl>+<space> for evey parameter. You select the signature once and as of then the tooltip with the parameternames and types appears underneath the line you're editing.

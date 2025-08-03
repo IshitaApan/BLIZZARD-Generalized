@@ -1,0 +1,3 @@
+NPE when renaming a source folder
+
+I used the Platform SDK 3.5 M5 and: - created a new Java project with all the defaults - tried to rename the source folder either by hitting F2 or Refactor->Rename... Notice the attached NPE stack trace in the log.

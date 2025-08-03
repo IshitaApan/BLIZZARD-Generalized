@@ -1,0 +1,3 @@
+[navigate] Show hand pointer for single-click tables and trees
+
+I20090525-2000 We should show the hand pointer for single-click tables and trees (Quick Outline, Quick Type Hierarchy, Hyperlink popup, Breadcrumb popup, maybe more). This would make it immediately clear that these items are effectively links that are already activated on single click. See also http://msdn.microsoft.com/en-us/library/bb545459.aspx#hand .

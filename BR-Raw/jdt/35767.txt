@@ -1,0 +1,3 @@
+Hook method getTypeComment(ICompilationUnit) is not called [code manipulation]
+
+In org.eclipse.jdt.ui.wizards.NewTypeWizardPage the hook method getTypeComment(ICompilationUnit parentCU) should be called from createType(IProgressMonitor monitor). This is true for inner classes; but otherwise only the new type comment template mechanism is used, without giving getTypeComment (and thus overloading sub-classes) a chance to hook in. (I've written a Wizard subclassing NewTypeWizardPage which provides a type comment containing xDoclet Tags. Now only the temlate type comment is inserted in the generated code) Version 2.1, Build id: 200303211418

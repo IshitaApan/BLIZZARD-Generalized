@@ -1,0 +1,3 @@
+type hierarchy makes work much slower even though it's invisible
+
+20021210 i had a big type hierarchy open but put in the background - behind the package explorer i added 1 type to the workspace boom - tyhe whole thing froze for 2 minutes because the type hierarchy was doing a lot of work that i did not ask for and no busy cursor it makes it quite impossible to work if you have a type hierarchy open anywhere

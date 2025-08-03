@@ -1,0 +1,3 @@
+new class wizard defaults to wrong project
+
+20030307 1. new workspace 2. import org.apache.ant project as binary. 3. switch to java perspective. 4. use new project button to create project zzz 5. use new class button. Notice that the source holder is org.apache.ant. The gray-lighted element in the package explorer is zzz

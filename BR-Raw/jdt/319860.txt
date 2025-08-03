@@ -1,0 +1,3 @@
+[organize imports] Unused import added for reference to nested type from Javadoc
+
+R3.6 - works in R3.5.x. 1. start with new workspace 2. enable Javadoc processing 3. paste this: --------- %< --------- package p; /** * {@link I}. * @see C */ public class Main { 	public interface I { 	} 	public class C {} } --------- %< --------- 4. Organize Imports (Ctrl+Shift+O) ==> the following unnecessary imports are added and flagged ad unused: import p.Main.C; import p.Main.I; For me this is major as we report unused imports as errors.

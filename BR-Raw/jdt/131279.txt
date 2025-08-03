@@ -1,0 +1,3 @@
+[refactoring] Introduce indirection should use delegate comment for method stub
+
+I20060307-1315 The generated method is not an overriding method, but rather a static delegate.

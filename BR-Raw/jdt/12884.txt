@@ -1,0 +1,3 @@
+find strings to externalize - should be cancelable
+
+instead of a busy cursor it should show a progress dialog with cancelation

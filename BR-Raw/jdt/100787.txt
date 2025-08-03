@@ -1,0 +1,3 @@
+[search] JavaSearchEditorOpener holds onto last used editor
+
+RC3 - do a search - open the search result - close all editors observe: JavaSearchEditorOpener holds onto the last used editor to open a match. Although this is not a leak we should try to not hold onto closed editors.

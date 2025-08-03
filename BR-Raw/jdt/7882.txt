@@ -1,0 +1,3 @@
+Rename method to Constructor Name: Warning shows twice
+
+When renaming a method, I enter the class name, and press Next. I get warning that the method will have a constructor name, but I get this same warning twice.

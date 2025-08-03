@@ -1,0 +1,3 @@
+[navigation] Remove workaround in open implementation after search is fixed for nested types.
+
+After the bug 295894 is fixed , remove the workaround in the line 213.

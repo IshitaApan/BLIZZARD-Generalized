@@ -1,0 +1,3 @@
+Find Broken NLS Keys results should be explained
+
+I20060328-0010. The results should explain what the problem is, like the old NLS Keys search did, e.g. Unused keys in: messages.properties Alternatively the view description could be augmented to indicate this.

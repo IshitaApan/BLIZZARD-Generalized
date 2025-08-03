@@ -1,0 +1,3 @@
+[package explorer] 'Up' in toolbar not correctly updated after 'Go Into'
+
+I20070918-0010 Probably caused by the fix for bug 202244 (was OK in I20070828-0800). - set up JUnit as in smoke test - in Package Explorer, go into src => 'Up' toolbar button is disabled (expected: enabled) - go into a package => 'Up' enabled - click 'Up' repeatedly => 'Up' is never disabled (expected: disabled when the workspace is reached)

@@ -1,0 +1,3 @@
+Search Result descriptions don't use singular
+
+Text and Java search result descriptions (visible in Search view's title toot tip and Search histories) don't show singular text version if there's exactly one match

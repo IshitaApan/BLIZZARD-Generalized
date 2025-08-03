@@ -1,0 +1,3 @@
+[misc] Javadoc view keeps prompting about HTML widget
+
+Dear Javadoc view, I was pleased the first time you warned me about the lack of an HTML widget on my platform. However, now that you've told me about it 100 times, I think it's time you and I stop talking about this problem. Thanks, Jared Linux-GTK

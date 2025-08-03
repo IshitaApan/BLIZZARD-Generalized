@@ -1,0 +1,3 @@
+[quick fix] Suggest to add missing type for for-each variable
+
+Given the code: ArrayList<T> list = new ArrayList<T>(); for (item : list) { // error } There is an error on "item", as it is undeclared. Quickfix asks if you want to create a class, interface or enum for "item", or add a type parameter "item" to the class. I would expect a suggestion of declaring an iterator variable "T item". (Also the compiler is confused because it says on "list" that "Cannot convert element type T to item", so it thinks item is a type.) This looks like a trivial content-assist but saves a lot of typing when iterating through complex generic containers-inside-containers.

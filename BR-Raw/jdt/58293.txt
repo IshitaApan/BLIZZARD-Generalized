@@ -1,0 +1,3 @@
+Introduce Factory: create Java Model Exception
+
+I20040413 Test Case: public class A { public A() { } 	 	public static void main(String[] args) { System.out.println("Hello World"); A a= new A(); 	} } class B extends A { } Encapsulate constructor A(). Observe: you get a JavaModelException

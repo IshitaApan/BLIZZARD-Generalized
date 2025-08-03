@@ -1,0 +1,3 @@
+[toString] finish toString() builder wizard
+
+See bug 26070.

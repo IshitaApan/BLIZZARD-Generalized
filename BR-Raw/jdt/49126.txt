@@ -1,0 +1,3 @@
+Javadoc > Project generation [javadoc]
+
+Open generated index file in browser does not take in account the -d option when using a custom doclet.

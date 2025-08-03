@@ -1,0 +1,3 @@
+Introduce Parameter introduces compile errors when used on arrays
+
+In M8, applying the Introduce Parameter refactoring on the argument passed to doSomething(...) in the following scenario: public class AClass { public void method1() { method2(); } public void method2() { doSomething(new int[] {1, 2, 3}); ... } ... } Gives: public class AClass { public void method1() { method2(new int[]={1,2,3}); } public void method2(int[] ints) { doSomething(ints); ... } ... } Where did that equals sign in the call to method2 come from? It causes a compile error. Also, what happened to the spaces after the commas in the array creation?

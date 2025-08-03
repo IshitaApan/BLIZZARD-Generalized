@@ -1,0 +1,3 @@
+Memento problem with org.eclipse.jdt.search.resultpage.grouping [search]
+
+build I20040611-0010 Saw the following entry in my log: !ENTRY org.eclipse.ui 4 4 Jun 11, 2004 13:16:05.683 !MESSAGE Memento problem - invalid integer for key: org.eclipse.jdt.search.resultpage.grouping value: TRUE

@@ -1,0 +1,3 @@
+[nls tooling][hovering] 'Externalized String' hover modifier key does not work
+
+I20070322-1800 The 'Externalized String' hover modifier key does not work (tooltip never shows up). Interestingly, it works as part of the Combined Hover.

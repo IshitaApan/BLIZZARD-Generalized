@@ -1,0 +1,3 @@
+[introduce factory] refactoring doesn't work with nested constructors
+
+The nested constructor call in the following code is not refactored correctly: public class Test { 	 public Test(Test tal) { 	return; } public static void main(String[] args) { 	Test test = new Test(new Test(null)); } }

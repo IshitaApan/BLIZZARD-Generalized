@@ -1,0 +1,3 @@
+Bad initial focus on 'New Code Formatter Profile' dialog
+
+I200303040800 windows>preferences>java>code formatter>New... The focus is set on the checkbox 'open the edit dialog now', it should be on the text field 'Profile name'.

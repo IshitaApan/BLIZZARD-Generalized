@@ -1,0 +1,3 @@
+[rename] rename packages deletes files if subpackages are available and to rename, too.
+
+Build ID: M20070212-1330 Steps To Reproduce: 1. Create package a.b.c with Class C1 2. Create package a.b.c.d.e with Class C2 3. Open the refactoring dialog in the package explorer on a.b.c and rename it to a.b.c.d (and check the "rename subpackages"-option. Expected result: Two packages: a.b.c.d with file C1 and a.b.c.d.d.e and file C2 Real result: One package: a.b.c.d.d.e WITH ONLY C2!!

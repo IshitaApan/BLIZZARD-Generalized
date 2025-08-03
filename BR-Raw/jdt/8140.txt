@@ -1,0 +1,3 @@
+Code assist for anonymous inner types adds empty line
+
+button.addActionListener(new ActionListener() { 			/* 			 * @see ActionListener#actionPerformed(ActionEvent) 			 */ 			public void actionPerformed(ActionEvent e) { 			} <--- here ---> 		}

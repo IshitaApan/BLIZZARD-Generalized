@@ -1,0 +1,3 @@
+[search] 'Copy Qualified Name' should also work in search result view
+
+I20060815-0948 Open java.lang.Integer, select the type name, and press Ctrl+G. I would expect that 'Edit > Copy Qualified Name' is enabled now, but it isn't.

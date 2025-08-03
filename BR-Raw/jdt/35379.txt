@@ -1,0 +1,3 @@
+(possibly regression) Moving to default package adds ".*" import[ccp]
+
+Build I20030319 - import JUnit 3.7 - create a class Foo in the default package - in the package explorer grab junit.awtui.ProgressBar - drag it to the default package - click OK in the apearing dialog - click OK in the apearing dialog ==> a new package import is added to TestRunner: import .*;

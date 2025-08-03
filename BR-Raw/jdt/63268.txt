@@ -1,0 +1,3 @@
+error while activating view
+
+I'm not sure what caused this behaviour. I created a workspace this morning, imported a few projects, and ran the UI Test Suite. However, I got an error when trying to activate the Hierarchy view (by clicking on it). The error looks like an infinite loop. The trace is over 800 lines long, so I'll attach it in a minute.

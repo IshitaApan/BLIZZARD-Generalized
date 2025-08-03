@@ -1,0 +1,3 @@
+Error when opening editor on class file not hosted in a Java project
+
+I20030214 - create Simple project - create a file A.class - open it observe: you get an error saying that Simple doesn't exist.

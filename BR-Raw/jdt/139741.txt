@@ -1,0 +1,3 @@
+No way to import refactoring history from JAR file
+
+Build: 3.2 RC2 When exporting a JAR file, there is an option to export the refactoring history along with the content. However, there doesn't seem to be any corresponding import wizard for importing content along with refactoring history. If I use the "archive file" import wizard on a jar that contains refactoring history, the refactoring history does not seem to be imported (no refactorings available on the refactoring history property page). The 3.2 M4 New & Noteworthy mentions a "JAR Import Wizard", but I don't see one in 3.2 RC2...

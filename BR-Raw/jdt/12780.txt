@@ -1,0 +1,3 @@
+JAR which is generated inside workspace does not appear
+
+Summary says it all. It is there after a refresh from local.

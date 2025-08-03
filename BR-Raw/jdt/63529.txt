@@ -1,0 +1,3 @@
+Shorten the Job description for Search Jobs
+
+The Job description is shown in the progress segment in the status bar. To avoid that the label in the segment gets compressed like "Search for Referen...space" it should be shortened to only show the Job's main function, e.g. "Java Search", "File Search", ...

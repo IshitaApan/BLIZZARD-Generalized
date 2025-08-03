@@ -1,0 +1,3 @@
+[nls tooling] Properties file editor screws selection on double-click
+
+I20090611-1540 (had it on Cocoa and WinXP) The properties file editor screws the selection on double-click for certain properties: - Have a.properties with content: 123.ch: Hello - double-click before '2' => selection is '23.c' => expected: whole property 'abc.ch' selected or just 'abc' (like in 3.4.2)

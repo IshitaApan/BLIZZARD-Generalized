@@ -1,0 +1,3 @@
+[hovering] Wrong font in SourceViewerInformationControl
+
+3.2. RC1 The SourceViewerInformationControl uses the default text font instead of the Java editor font.

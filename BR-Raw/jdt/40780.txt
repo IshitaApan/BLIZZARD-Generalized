@@ -1,0 +1,3 @@
+[plan item] Improve context views
+
+Declaration View and Javadoc View should compute their contents in background Both should provide a context menu containing at least Copy and F3 (where available).

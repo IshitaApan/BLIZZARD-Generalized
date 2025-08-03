@@ -1,0 +1,3 @@
+[JUnit] Workspace should take precedence over platform JUnit libraries
+
+When launching a vanilla JUnit test (not PDE test) on a project that contains classes in org.eclipse.jdt.junit.*, the tested project is placed in the classpath of the launched JVM _after_ the jdt.junit.* plug-ins found in the platform. This is inconsistent with other behavior: when Eclipse is being run in the Run-time workbench, or when running a PDE test, the tested project is placed first.

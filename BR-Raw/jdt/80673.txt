@@ -1,0 +1,3 @@
+Package explorer using working sets does not display source folders correctly on project creation
+
+Using I200412081200 Do the following steps: - Open new java project wizard and enter a name - set the location to the workpace and use the project folder as root - click next - click on "Add folder" and enter a name - on the following dialog, click "no" - click finish We just created a source folder, but the icon displayed in the package explorer looks like a normal folder (which is not on the classpath).

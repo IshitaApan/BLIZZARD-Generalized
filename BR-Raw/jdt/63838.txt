@@ -1,0 +1,3 @@
+[misc] highlight control statement when break/continue selected [mark occurrences]
+
+3.0m9 it's pretty confusing sometimes what a 'continue' or 'break' refers to. it would be cool to have the control statement highlighted when i select the 'continue' or 'break'. it'd also take labels into account.

@@ -1,0 +1,3 @@
+code generation pref page: layout makes it hard to find two checkboxes [code manipulation]
+
+20030820 the 2 checkboxes on the code gen pref page are located at the bottom of the page and very easily missed when you see the page. they should be made more prominent.

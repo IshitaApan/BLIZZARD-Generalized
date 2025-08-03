@@ -1,0 +1,3 @@
+[templates] iterable_element gives up on collection of generic types
+
+In RC1. Create this method: 	private static void count(Class<?>... classes) { 		fore 	} The template completion suggests "name" as the name of the element variable. Taking out the type parameter gives 	private static void count(Class... classes) { 		fore 	} Here, the template suggests "class1", which is much nicer.

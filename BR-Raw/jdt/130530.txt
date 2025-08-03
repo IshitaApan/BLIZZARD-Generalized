@@ -1,0 +1,3 @@
+[decoration] Java type decoration could also decorate abstract top-level types
+
+I20060301-0800 As already discussed, decorating every top-level type does not seem useful, as the decoration image is not really discriminating anymore. However, it would be useful to decorate abstract classes, in order to get a quick overview about interface and implementation of a package

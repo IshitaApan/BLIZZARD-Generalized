@@ -1,0 +1,3 @@
+[templates] NLS template doesn't work in line comments
+
+Build 20040219 I defined a template to map 'nls' to '//$NON-NLS-1$' In a code line where 2 string literals occur, I completed on nls first and inserted the template. Then right behind it (after one space) I tried again to complete on nls, and this time it did not work anymore. This used to be working fine before.

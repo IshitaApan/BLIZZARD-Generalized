@@ -1,0 +1,3 @@
+[nls tooling] NLS hovers / Ctrl+Click not consistent for duplicate keys
+
+20041103 With the following files, the key A.0 is duplicate. - Ctrl + Click: Junps to 'hello' - Hover over "A.0" in class A: shows 'world' public class A { 	String h= Messages.getString("A.0"); //$NON-NLS-1$ } messages.properties: A.0=hello A.0=world

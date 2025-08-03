@@ -1,0 +1,3 @@
+[quick fix] Quick fix to add the missing cases of a switch on enum is not being proposed
+
+### package p1; public class UseEnum { 	public void foo(DeclEnum e) { 		switch(bar()) { 			case C1: 				break; 		} 	} 	public DeclEnum bar() { 		return null; 	} } enum DeclEnum { 	C1, C2, C3; } ### With the above example, notice the warning on switch(bar()). Quick fix to add the missing cases is not being proposed. It is proposed if 'switch(e)' is used.

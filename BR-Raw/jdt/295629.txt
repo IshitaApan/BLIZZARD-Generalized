@@ -1,0 +1,3 @@
+[spell checking] Dictionary remains in memory after spell checking is turned off
+
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.5) Gecko/20091102 Firefox/3.5.5 Build Identifier: I20091117-1545 Dictionary remains in memory after spell checking is turned off. However when eclipse is restarted after disabling spell checking the dictionary is not loaded Reproducible: Always Steps to Reproduce: 1. Start Eclipse and open an editor 2. Turn on spell checking 3. Take a memory snapshot. SpellCheckEngine , LocaleSensitiveSpellDictioanry and other dictionary related object types are present. 4. Turn off spell checking 5. Objects mentioned in point 3 are still present.

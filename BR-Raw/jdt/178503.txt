@@ -1,0 +1,3 @@
+[JUnit] JUnit View actions missing or not working for JUnit tests which are inner classes
+
+hi, if you have unit tests which are inner classes, then some JUnit View actions are missing or not working. Specifically, (1) if the inner class unit test is wrapped as a suite, then the 'run suite' option in the context menu on the suite element does not appear (2) in the same situation as above, if you right-click on an individual test an re-run it, you get an error dialog saying "Test type does not exist" thanks, Andrew ps. the reason I'm using inner classes is that I need a core set of tests run twice in different setup scenarios. The tests depend on accessing configuration information, and so test decorators are not a suitable mechanism.

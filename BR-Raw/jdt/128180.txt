@@ -1,0 +1,2 @@
+[ltk][refactoring] Refactoring history wizard should offer cancel button on fatal error warning dialog
+

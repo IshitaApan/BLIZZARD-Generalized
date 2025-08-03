@@ -1,0 +1,3 @@
+Organize import misses type references in javadoc
+
+20040211 - organize import the following coe - IClassFile and ICompilationUnit go away import org.eclipse.jdt.core.IClassFile; import org.eclipse.jdt.core.ICompilationUnit; /** * Implemented by {@link IClassFile} and {@link ICompilationUnit} */ public interface IOpenable { 		 }

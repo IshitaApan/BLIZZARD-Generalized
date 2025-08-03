@@ -1,0 +1,3 @@
+Operation unavailable attempting to search a local variable [search]
+
+Build 20031023 Selecting a local variable declaration in a Java editor and attempting to search for references to this local variable brings up a dialog saying the the operation is unavailable for the selected element.

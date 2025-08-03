@@ -1,0 +1,3 @@
+Fail to show source of selected element only in single-click mode
+
+Build 20020521 1. Start new workspace 2. Open Java perspective 3. Create Java project Test 4. Create cu X.java in default package: public class X { 	public void foo() { 	} } 5. Select 'source of selected element only' 5. Close X.java 6. Change preferences to open perspective in new window and use single-click to open editor 7. Open Java Browsing perspective 8. Select Test, then default package, then X, then foo Observe: The whole cu source is still shown. It is only when you click in the editor that only the source of foo is shown.

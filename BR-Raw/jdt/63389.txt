@@ -1,0 +1,3 @@
+[projection] Do we need a folding region for  the top-level type?
+
+The Java editor is currently defining a folding region for the top-level type. I couldn't find a good use of this folding region and in particular it leads to some visual instability when hovering in the vertical rule in between methods. Therefore I suggest to not add this folding region.

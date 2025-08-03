@@ -1,0 +1,3 @@
+[open type] package filters don't work any more
+
+I20070123-1715 In 3.3M4, the user could enter "java.util.*" or "java.util." as pattern in the Open Type dialog, and the found matches were all types in that package. In HEAD, it looks like all types from the workspace are shown. Hint: FilteredTypesSelectionDialog.TypeItemsFilter.fPackageMatcher is never set.

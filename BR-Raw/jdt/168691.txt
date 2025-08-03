@@ -1,0 +1,3 @@
+[create on paste] Source paste cannot handle simple syntax errors
+
+3.3 M4 I often have snippets in bug reports that do not compile. In such situations the pasting source feature simply gives up with an error dialog. It should handle such scenarios gracefully. Try this: ------------%<-------------- class Test { /** !!! this line breaks it !!! void foo() { doSomething(); } } ------------%<--------------

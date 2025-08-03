@@ -1,0 +1,3 @@
+[Search][Javadoc] SearchMatch in class javadoc reported with element of type IImportDeclaration
+
+jdt.ui and jdt.core from HEAD 20040803: package p; /** * @see p */ public class AA { } Search for references to package p. Was: The resulting SearchMatch has an element of type IImportDeclaration. Expected: the enclosing element is the IType "p.AA". This may be due to a bad fix for bug 54962. jdt.ui reminder: disabled RenamePackageTests#test0()

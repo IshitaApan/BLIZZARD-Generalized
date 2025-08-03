@@ -1,0 +1,3 @@
+Formating pref page: remove the icons in the tabs
+
+The icons add minimal value and we should remove them.

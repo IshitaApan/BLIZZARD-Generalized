@@ -1,0 +1,3 @@
+Search should use the package compression... [search]
+
+Enable package compression in the Java preferences and change the Search sort order to be 'Parent Name'... it would be nice if the package names were compressed using the same compression as the packages view.

@@ -1,0 +1,3 @@
+[content assist] package-info.java Javadoc should use fully qualified names
+
+Build ID: M20071023-1652 Steps To Reproduce: 1. Use code completion in javadoc (e.g. for a @link) to a class which is not in the current package and not used in the code. 2. Note that an import is added. The import is not reflected in the code, so is invalid - the javadoc should instead use a fully qualified name. Organise imports will remove this import, so the link in the javadoc will be invalid - See bug #92821 for details. More information:

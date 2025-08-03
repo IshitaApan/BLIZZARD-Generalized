@@ -1,0 +1,3 @@
+Move Inner Type to Top Level: Error dialog layouted wrong
+
+RC1 1. Create a class with an inner class, make the file read-only 2. Select the name of the inner class, choose 'Move Inner Type to Top Level' 3. error dialog that shows up is strangely layouted. see screenshot

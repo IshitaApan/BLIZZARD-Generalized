@@ -1,0 +1,3 @@
+[call hierarchy] Control-drag (or something) to add to a call hierarchy instead of replace
+
+Build Identifier: I frequently need to track down several call hierarchies and I end up switching between several in the history, losing my local context when I switch back to one I was using. If you control-select sever items in the same outline, you can get a call hierarchy on all of them, but it would be nice to be able to add items from different classes/interfaces by (for instance) control-dragging them into the call hierarchy list. Right now control-drag into a call hierarchy does nothing. Reproducible: Always

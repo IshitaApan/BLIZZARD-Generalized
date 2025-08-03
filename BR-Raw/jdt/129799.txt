@@ -1,0 +1,3 @@
+type decorations issues
+
+20060228 - also for class files - look at refresh problems: - decorators turned on - change in editor: class to interface

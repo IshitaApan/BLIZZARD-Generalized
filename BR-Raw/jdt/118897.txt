@@ -1,0 +1,3 @@
+ASTParser resolves bindings without request
+
+I20051130-1215 ASTParser resolves bindings without request when certain conditions hold, although setResolveBindings(true) has not been called. The following extract from internalCreateAST(IProgressMonitor) looks suspicios: if (this.rawSource != null) { needToResolveBindings = this.unitName != null && this.project != null && this.compilerOptions != null; ... I would not expect to get bindings unless I explicitly requested them. This can be a serious performance hit for clients that only need lightweight ASTs.

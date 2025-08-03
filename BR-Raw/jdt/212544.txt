@@ -1,0 +1,3 @@
+[working sets] page should add selected items
+
+I20071211-0010 1. select some files in the Package Explorer 2. File > New > Java Working Set ==> selected files aren't added I would expect that I can simply enter a name and click 'Finish'

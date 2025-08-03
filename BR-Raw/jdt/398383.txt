@@ -1,0 +1,3 @@
+The NewWizardMenu class gets leaked when ever calling a context menu
+
+Steps to reproduce: Call a context menu in a view/editor more times. The issue happens in the Java Editor, the Package Explorer, Project Explorer , Navigator views ... Attached is a patch.

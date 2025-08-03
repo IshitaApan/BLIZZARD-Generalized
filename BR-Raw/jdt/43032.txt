@@ -1,0 +1,3 @@
+Autoindent/Smart Tab in case statement
+
+... case label: { <press Enter here> I <new cursor position> Indentation level should be one less.

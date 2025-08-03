@@ -1,0 +1,3 @@
+[compiler] Allow to suppress fall-through warning
+
+R3.4. The fall through warning for switch statements is very good and we have it enabled. There is however some good/valid code were this warning is wrong and we would like to have a flag to ignore that. I suggest to add a $FALL-THROUGH$ (like the NON-NLS) tag that tells the compiler that fall through is intended by the programmer. Note that our source has to be 1.4 compliant and hence we cannot use @suppressWarning.

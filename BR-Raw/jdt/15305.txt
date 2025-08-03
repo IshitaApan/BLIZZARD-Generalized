@@ -1,0 +1,3 @@
+incorrect deletion of fields (multi-declaration case)
+
+20020502+latest public class A { int i, j; } delete field i by calling (delete action i the outliner does it too) IField::delete(false, new NullProgressMonitor()); you end up with: public class A { j; }

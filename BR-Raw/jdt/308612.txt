@@ -1,0 +1,3 @@
+[implementation] DBCS3.6: Javadoc does not pop up on methods containing CJK Ext-B.
+
+Build Identifier: I20100330-0800 OS:Windows 7 JRE:IBM Java 1.6 Locale:Japanese Reproducible: Always Steps to Reproduce: 1.Import the attached Java file into a Java Project with the encoding UTF-8. 2.Click the mouse on methodASCII(), javadoc pops up. 3.Click the mouse on methodCJK&#x53F1;(), javadoc pops up. 4.Click the mouse on methodCJKExtB&#x20B9F;(), javadoc does not pops up.

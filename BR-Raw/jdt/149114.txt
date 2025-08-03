@@ -1,0 +1,3 @@
+[quick fix] 'create class' quickfix with varargs finds wrong superclass
+
+(place cursor on 'UnknownClass', hit quick fix, choose 'create class') import java.util.*; public class Strange { 	{ 		// suggests "class UnknownClass implements Number[]" (doesn't do varargs) 		Arrays.<Number>asList( new UnknownClass() ); 		// suggests "class UnknownClass" (same issue, I assume) 		Arrays.<Number>asList( new Integer(42), new UnknownClass() ); 	 		// now this is the weird one 		// suggests "class UnknownClass implements Arrays[]" 		Arrays.asList( new UnknownClass() ); 	} } This is with build i20060602-1317

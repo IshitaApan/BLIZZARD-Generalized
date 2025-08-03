@@ -1,0 +1,3 @@
+[Extract Class] NPE when array.length access is assigned
+
+package p; public class ArrayLenghthAccess { 	private int test=new int[8].length; } Use Extract Class on ArrayLenghthAccess leads to a NPE

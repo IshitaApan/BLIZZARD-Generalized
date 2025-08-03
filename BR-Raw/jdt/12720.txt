@@ -1,0 +1,3 @@
+Can't DND into non-source folder in Packages view
+
+Build 20020321 In the Packages view, I can drag a file from the file system onto a project, a package or a source folder. However I cannot drag it onto a non-source folder. I can, however, drag the file onto the project, and then drag it into the non- source folder from within the packages view. The packages view should allow me to drag a file into any folder, just like in the Navigator view.

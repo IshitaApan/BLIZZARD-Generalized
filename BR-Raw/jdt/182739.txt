@@ -1,0 +1,3 @@
+[quick fix] Change method to Quickfix proposes invalid array dimension
+
+In the following code: public class ArrayTest { 	public void test(String[] a){ 		blubb(a); 	} 	private void blubb(int a[]) { 	} } The quickfix proposes: change method blubb(int[]) to blubb(String[]) but creates: private void blubb(String[] a[]) { }

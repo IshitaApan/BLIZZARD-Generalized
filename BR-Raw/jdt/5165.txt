@@ -1,0 +1,3 @@
+package viewer project sorting
+
+i have a (library) project Refactoring Tests Resources and other projects org.eclipse.... before 205 they used to be sorted alphabetically now they're not. is that intentional?

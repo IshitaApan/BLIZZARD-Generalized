@@ -1,0 +1,3 @@
+Unsupported major.minor version 49.0 during quick fix.
+
+I use Sun JDK 1.4.2 to run Eclipse 3.1 200409140800 and Sun JDK 1.5.0 RC to run my application. Eclipse is configured to compile for JDK 1.5. I get error message "Unsupported major.minor version 49.0" when I try to use "Add generated serial version ID" quickfix for the following class ------------ package test.cheetah; public class Test implements java.io.Serializable { } ------------

@@ -1,0 +1,3 @@
+[content assist] Content assist inserts wrong method for override proposal
+
+I20051213-0010 Invoke content assist where indicated. Although I choose run(), a stub for finalize() is inserted. public enum Try { THIS, THAT(), ANONYMOUS() {} { new Runnable() { //content assist, choose run(), inserts finalize() } } }

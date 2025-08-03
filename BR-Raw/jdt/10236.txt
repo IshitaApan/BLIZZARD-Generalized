@@ -1,0 +1,3 @@
+Enable decorators in Type hierarchy view
+
+See the packages view for how to do this.

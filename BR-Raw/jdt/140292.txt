@@ -1,0 +1,3 @@
+RC2: JUnit 4 test finder tries to run abstract test classes
+
+Even if a class looks like a JUnit 4 test, if it is abstract, it cannot be run. However, the JUnit 4 test finder still attempts it. For example: abstract public class CTest { 	@Test public void b() { 		 	} }

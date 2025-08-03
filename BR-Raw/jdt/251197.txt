@@ -1,0 +1,3 @@
+[breadcrumb] Dropdown for children of project should look like Package Explorer
+
+I20081014-1600 The breadcrumb dropdown for children of a project should look like the Package Explorer: - show libary nodes 'JRE System Library', 'Plug-in Dependencies', .... - bonus points: show "Referenced Libraries" node

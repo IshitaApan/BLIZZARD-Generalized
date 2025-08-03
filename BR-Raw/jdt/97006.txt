@@ -1,0 +1,3 @@
+[package explorer] Working set order is not restored after switching to project mode and reopening package explorer
+
+I20050527-0010 Steps to reproduce: - Switch to workingset mode - Create several working sets - Rearrange them - Switch to project mode - Close package explorer - Reopen package explorer - Switch to workingset mode -> The working set dialog lost the order of the workingsets -> The order should be persisted either in the specialized Java workingset dialog or in the package explorer itself

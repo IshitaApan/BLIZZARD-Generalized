@@ -1,0 +1,3 @@
+[1.5] Code assist for Javadoc and generics creates comments with warnings
+
+Go to the "#" and hit Ctrl + Space. -------------------------- import java.util.List; /** * @see # */ public class TestGenericComment { 	void somthing(List<? extends Object> objects) { 		 	} }

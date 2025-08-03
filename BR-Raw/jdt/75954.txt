@@ -1,0 +1,3 @@
+Changing anything on Launcher blows away JUnit Test Method
+
+If you create a launcher that launches a test method (via a right click on the method and select debug). Then you go in and want to change which project it runs against it blows away the method. I have already checkout the HEAD from cvs, debugged, pin-pointed, fixed and tested the JUnitMainTab.java code and have a fix that fixes this bug and takes into account the workaround for bug 65399. I will submit this patch file to the developer mailing list after submitting this bug report. Thanks. Jim

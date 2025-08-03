@@ -1,0 +1,3 @@
+Undo for Encapsulate Field did not undo changes in subclass
+
+20040914088 I used the encapsulate field refactoring and this caused changes in both the type and its subclass. The Undo operation correctly undid the changes in the type but the changes in the subclass remaind.

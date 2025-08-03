@@ -1,0 +1,3 @@
+Quickfix should do a team checkout
+
+2.1 M5 / clearcase / eclipse-ccase plugin 0.9.3 Quickfix says no corrections available for a read only file that is under source control (i.e. not checked out). Quickfix should propose the corrections and check the file out automatically to implement them.

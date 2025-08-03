@@ -1,0 +1,3 @@
+[build path] "Ok" button in "New Variable Classpath Entry" window is disabled
+
+Goto Project->Properties->Java Build Path->Libraries for a java project Click Add Variable Click Configure Variables to add a new variable Click Ok to get back to the "New Variable Classpath Entry" The "Ok" button in this window is disabled. The only way out of this window is to click "cancel" (which does not cancel the creation of a new variable :) or close the window by clicking the aqua closebutton in the upper left corner of the window I'm on MacOS X 10.4.6 with java 1.5.0_06-112

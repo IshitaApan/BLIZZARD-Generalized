@@ -1,0 +1,3 @@
+[templates] need more flexible type mechanism
+
+Templates provide some rudimentary support for indicating the type of a variable. If you use ${array}, for instance, the template tries to pick an array for that variable. But the built-in types are already insufficient, and I cannot imagine that we could possibly satisfy 80% of the users with only built in types. (For instance, I've written templates which cry for ${string} and ${iterator} types.) I think that the template support should provide some sort of generic mechanism for specifying the type of a variable. Something like ${java.lang.String string} or ${int index}. (20020215 build)

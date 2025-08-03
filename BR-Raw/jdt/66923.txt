@@ -1,0 +1,3 @@
+[typing]Can delete word (Ctrl-Backspace) on read only file
+
+When you open read-only java file, all editing functions are disabled except deleting with Ctrl-Backspace and Ctrl-Del, then it is imposible to save this file. On simple text file it works ok - it blocks all edditing functions (including Ctrl-Backspace). I am using build 200406111814

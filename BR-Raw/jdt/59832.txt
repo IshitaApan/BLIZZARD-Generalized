@@ -1,0 +1,3 @@
+Bindings.findMethodDefininition(binding) finds wrong definition
+
+I20040422 0800 1) Enabled annotation roll-overs 2) Create the following type: package p1; public class A { void doit() { } } 3) Create a subclass in a different package: package p2; import p1.A; public class B extends A { 	void doit() { 		// 	} } I get two roll-overs in the editor next to B.doit: - "The method B.doit() does not override the inherited method from A since it is private to a different package" - "overrides P1.A.doit" These statements contradict eath other.

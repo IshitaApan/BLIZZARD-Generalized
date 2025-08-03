@@ -1,0 +1,3 @@
+Compiler error in ViewSiteDecorator
+
+I only caught this after committing a rather large set of changes. ViewSiteDecorator implements IViewSite, which is a violation of our API. IViewSite now extends (indirectly) IServiceLocator. This means ViewSiteDecorator needs to implement two new methods. 	public Object getService(Object key) { 		return fViewSite.getService(key); 	} 	public boolean hasService(Object key) { 		return false; 	} If the "Decorator" in ViewSiteDecorator refers to the decorator pattern, then you probably actually want: 	public boolean hasService(Object key) { 		return fViewSite.hasService(key); 	} I would rather not back out my change. Could someone please respond ASAP (if you happen to be working from home)? Thanks.

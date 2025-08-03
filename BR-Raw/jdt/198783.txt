@@ -1,0 +1,3 @@
+[Extract Class] does not work if internal class has comments
+
+Use Extract Class on org.eclipse.compare.contentmergeviewer.TextMergeViewer.Diff with getters and setters on all field. It will result in a NPE

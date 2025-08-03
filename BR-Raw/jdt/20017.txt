@@ -1,0 +1,3 @@
+Self Encapsulate does not work correctly when "this.field = value" is used before refactoring [refactoring]
+
+As an example I start with this class: public class Test { 	 	private Object obj; 	public Test (Object obj) { 		this.obj = obj; 	} } Then apply the "Self Encapsulate" refactoring on the obj field, which results: public class Test { 	 	private Object obj; 	public Test (Object obj) { 		this.getObj() = obj; 	} 	private void setObj(Object obj) { 		this.obj = obj; 	} 	private Object getObj() { 		return obj; 	} } The "this.getObj() = obj;" in the constructor should be "setObj(obj);" correctly. My Eclipse version was: 20020602

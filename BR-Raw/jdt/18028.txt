@@ -1,0 +1,3 @@
+Rename package doesn't check if all resources are writeable
+
+F1+ - create a package with a CU in it - make the CU read-only - try to rename the package. observe: after finish you get an unexpected exception dialog. Precondition checking should check for read only files inside packages.

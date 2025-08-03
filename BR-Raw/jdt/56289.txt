@@ -1,0 +1,3 @@
+Organize imports with Javadoc link to member type generates unused import
+
+build I20040325-2030 In the Javadoc IDEWorkbenchAdvisor.declareWorkbenchImages, there is a link in the Javadoc to a member type: (named in {@link IDE#SharedImages IDE.SharedImages}) - organize imports - it prompts to disambiguate SharedImages (there's on in the o.e.ui.internal as well as the member type of IDE) - choose IDE.SharedImages - it generates an import for the member type, but marks it as an unused import (which I have set to report as errors)

@@ -1,0 +1,3 @@
+Should listen to F_SOURCEATTACHED and F_SOURCEDETACHED java deltas
+
+Build 20020416 Right now, when one change the attached source of a jar, a F_REMOVED_FROM_CLASSPATH java delta is fired, which is obviously wrong. As a consequence, the UI reacts by closing the class file editors opened on this jar, which is right for a F_REMOVED_FROM_CLASSPATH java delta. However I tried to fix the delta to be a (F_SOURCEDETACHED | F_SOURCEATTACHED) delta, but the UI would not react. In this case, I think it should refresh the class file editor to get the new source. For now, I will fire a (F_REMOVED_FROM_CLASSPATH | F_SOURCEDETACHED | F_SOURCEATTACHED) delta, and I will remove the F_REMOVED_FROM_CLASSPATH when this bug is fixed.

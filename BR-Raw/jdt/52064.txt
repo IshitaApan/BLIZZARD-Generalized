@@ -1,0 +1,3 @@
+Content assist in "New Class" Dialog shows interfaces
+
+Content Assist is available for the superclass in M7. However it also lists interfaces. If an interface is selected, the generated class "extends" it instead of "implementing" it.

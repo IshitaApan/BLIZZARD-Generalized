@@ -1,0 +1,3 @@
+[introduce parameter object] UI problems
+
+I20070503-0010 - "Select fields for parameter object class:": - needs mnemonic that transfers focus into the table - add a bit of white space above the label - Edit dialog: - problem: the dialog is used for field names (checked) and for parameter names (unchecked). It should change the names depending on checkbox state. - dialog title should be title case and relate to the action that opened it, i.e. "Edit Field Name" - label needs colon and mnemonic - label is too verbose, change to "Field name:"

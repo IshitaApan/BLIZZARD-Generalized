@@ -1,0 +1,3 @@
+rename type: no progress reported when changes are performed [refactoring]
+
+smoke test for 20020612 when you rename a type there's no progress reported in the change preforming phase

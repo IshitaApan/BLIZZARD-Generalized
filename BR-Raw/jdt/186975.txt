@@ -1,0 +1,3 @@
+[introduce parameter object] don't introduce varargs on reordering
+
+20070515 as seen in test TestVarArgsReordered reordering foo(String[] a, int... is) automatically changes to foo(int[] is, String... a) I think this is too sophisticated as only the user can tell us if a var arg makes sense for 'a'

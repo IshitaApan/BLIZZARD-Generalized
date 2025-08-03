@@ -1,0 +1,3 @@
+Qualified Name if you create a test case [JUnit]
+
+Create a package "foo" Create a class "X" in package "foo" Now select the class "X". Now try to create a new TestCase for the class ... File/New/Other../Java/Junit/Test Case Observe you will be greated with "Name must not be qualified".

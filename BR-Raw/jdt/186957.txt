@@ -1,0 +1,3 @@
+[render] selected label drawn with color
+
+20070515 See screenshot: The selected element in the JUnit view is rendered with color. Selected and focused element should never use color.

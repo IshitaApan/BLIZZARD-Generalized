@@ -1,0 +1,3 @@
+Moving generic static method fails to update references
+
+Against I20050513-0010. Project will be attached. Given code: public class Exposer<T> { 	static <T> Exposer<T> createExposer(Class<T> clazz) { 		return new Exposer<T>(); 	} 	 	void foo() { 		createExposer(String.class); 		createExposer(int.class); 	} } class Foo { 	 } Move method createExposer to Foo. The references to the method are not updated.

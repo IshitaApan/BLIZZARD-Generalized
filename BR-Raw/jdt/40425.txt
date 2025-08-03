@@ -1,0 +1,3 @@
+Incorrect description when no corrections available [quick fix]
+
+We have this line of code: stopTime= ((Long)entryValue).longValue(); The cast is unnecessary and is flagged as such (great!). If I Ctrl-1 with "((Long)entryValue)" selected I get the "no corrections available" but the description that pops off reads "NullChange (null)"

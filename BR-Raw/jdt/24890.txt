@@ -1,0 +1,3 @@
+working sets: empty name inconsistencies [dialogs]
+
+20021016 The 'New Working set' dialog allows empty names while the 'Edit' dialog does not like them

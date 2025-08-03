@@ -1,0 +1,3 @@
+[5.0][content assist] Content Assist infos don't work for Class#getAnnotation(Class<A>)
+
+I200412210800 class X { void m() { X.class.//Ctrl+Space } } Content Assist for "<U> Class<? extends U> asSubclass(Class<U> clazz)": - misses argument name and type argument (shows "asSubclass(Class arg0) Class - Class") - does not show javadoc Also doesn't work for isAssignableFrom(Class<?> cls) and isAnnotationPresent(..).

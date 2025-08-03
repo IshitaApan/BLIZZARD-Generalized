@@ -1,0 +1,3 @@
+Support CTRL-A in Types pane and others [type hierarchy]
+
+In a Java Browser, when I am in the Types pane, I would like to use the standard (at least on Windows) CTRL-A to perform a "Select All" instead of using the mouse. I can then perform ops on all the types (like moving them). Thank you considering this request. Gary

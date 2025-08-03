@@ -1,0 +1,3 @@
+Show in>doesn't work from synchronize view
+
+1) perform a synchronize in the Java perspective 2) select a resource that has changes and is in the workspace 3) Navigate>Show in>Package Explorer -> beep The problem is that the show in logic doesn't check whether the selection (TeamFile) can be adapted to an IResource. This is a common navigation, i.e., you want to check/edit an affected file. Navigating to the PackageExplorer is already possible from the context menu. The fix is to also check for the IResource adapter when the slection isn't an IJavaElement. I'm tempted to fix it for RC3 since it is a real value add. Dirk - I remember you have complained about this too Kai - please approve if you agree

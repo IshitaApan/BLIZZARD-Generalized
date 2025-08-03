@@ -1,0 +1,3 @@
+Small bug in spelling problem information
+
+In class JavaSpellingProblem, in the following line postfix= fDocument.get(end + 1, line.getOffset() + line.getLength() - end); I think, the addition of "+ 1" is not correct, it removes the char directly behind the word.

@@ -1,0 +1,3 @@
+Java Browsing, Members View: types for fields [browsing]
+
+Currently, the Members View of the Java Browsing perspective shows return types for functions, and types for method parameters. It would be helpful to extend this so that fields were also displayed with their type indicated.

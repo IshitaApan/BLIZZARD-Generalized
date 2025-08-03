@@ -1,0 +1,3 @@
+package name shortening pref page - tooltip works as help
+
+tooltip in the pref page where you can specify pattern to shorten package names contains some useful information that should be exposed on the page itself (you can write patterns with numbers!) current behavior is sub-optimal (users must be lucky to find that feature)

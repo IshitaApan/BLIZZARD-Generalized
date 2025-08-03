@@ -1,0 +1,3 @@
+Missing classes in hierarchy [type hierarchy]
+
+I200405180816 Open type hierarchy on IWorkbench. The implementing class Workbench is not shown. You have to press 'Show subtype hierarchy' to see it.

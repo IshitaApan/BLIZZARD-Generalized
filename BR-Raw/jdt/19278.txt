@@ -1,0 +1,3 @@
+jar source attachment: jar icon not refreshed [package explorer] [browsing]
+
+F2 .a jar with no source attached .attach source the icon is still suggesting that no source is attached

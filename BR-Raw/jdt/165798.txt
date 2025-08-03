@@ -1,0 +1,3 @@
+[compare] Patch to use new API from Compare
+
+I have simplified the API for structure creation for compare (see bug 162561). I will attach a patch that converts the Java and properties structure creators to use this new API. The old API is deprecated and, since it was added in 3.3, will be removed once all the clients in the SDK have committed the patches. The API change also adds progress monitoring to the API.

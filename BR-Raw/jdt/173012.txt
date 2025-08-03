@@ -1,0 +1,3 @@
+[build path] Edit 'Source Attachment for cp variable' dialog too big
+
+I20070206-0010 1. Open Java Build Path Properties page 2. On Libraries tab add a variable 3. Select Variable 4. Edit... Is: Shown dialog is death ugly (see screenshot). It has twice the size it needs, and it is resizable.

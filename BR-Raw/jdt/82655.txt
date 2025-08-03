@@ -1,0 +1,3 @@
+Search dialog does not store more than 6 pattern strings
+
+Using build I200401110800. Perform 6 different java searches in a brand new workspace. Now open search dialog, select Java tab and enter a string to search ("XXXXXXX" for example) and perform the search (whatever kind of search...). Now reopen the dialog and look at previous search. I expect to see "XXXXXXX" in the list but I only see first 6 initial search I've done before. It seems that it was due to fPreviousSearchPatterns list size limitation added in javaSearchPage.writeConfiguration() method... Set as major as after 6 first search, no previous pattern is ever stored in Search dialog.

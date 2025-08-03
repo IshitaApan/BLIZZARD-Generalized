@@ -1,0 +1,3 @@
+[spell checking] spellcheck dictionaries in fragments are ignored
+
+Created attachment 76898 enable dictionaries in fragments According to javadoc in org.eclipse.jdt.internal.ui.text.spelling.SpellCheckEngine.getDictionaryLocation() dictionaries for java spellchecker could be added by org.eclipse.jdt.ui fragments. Unfortunately it seems imposible now, as SpellCheckEngine looks for dictionaries using Bundle.getEntry() method, which actually doesn't look into fragments, but only in host plug-in. There is a longer story about this here: http://dev.eclipse.org/mhonarc/lists/equinox-dev/msg00194.html Please take a look at attached patch that hopefully fixes this.

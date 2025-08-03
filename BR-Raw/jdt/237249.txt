@@ -1,0 +1,3 @@
+[implementation] Make JavaLeakTest.testJavaEditorActionDelegate() more robust
+
+3.4 RC3. Make JavaLeakTest.testJavaEditorActionDelegate() more robust.

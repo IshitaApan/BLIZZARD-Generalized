@@ -1,0 +1,3 @@
+[render] image appears to need centering when custom draw is used
+
+3.3RC1 On GTK when I turn on JDT's Show Colored Labels preference, the images in the Package Explorer view all shift up to the top of their tree cells. I assume this shift is a result of switching to use custom draw to draw the items once multi-coloured texts are needed. It looks like the images need to be drawn a few pixels down in order to be vertically centered in their cells. A screenshot of this will be attached next, and you'll notice that the image in the selected item touches the top of the selection bar but has a large gap below it. This does not happen on win32 because its item heights are tighter relative to its item's content.

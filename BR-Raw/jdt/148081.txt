@@ -1,0 +1,3 @@
+[hovering] Hover and F2 do not work for some error messages
+
+create a try block without a catch or finally. There is no squiggly underline on the closing brace, so the error is not easily accessible using F2. Type "; ff" in a method body somewhere. There *IS* a squiggly underline under the semicolor, but F2 fails there too.

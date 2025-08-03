@@ -1,0 +1,3 @@
+[preferences] JDT/Core has added a new option to find redundant superinterfaces
+
+Please see https://bugs.eclipse.org/bugs/show_bug.cgi?id=77918 We need a new option to appear in the UI to find redundant superinterfaces

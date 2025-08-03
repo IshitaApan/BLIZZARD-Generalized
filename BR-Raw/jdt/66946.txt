@@ -1,0 +1,3 @@
+JavaDoc wizard forgets about options on 3rd page [javadoc]
+
+3.0RC2 The options: - JRE 1.4 source compat. - Save the settings... (the checkbox) - Open generated index file in browser are not remembered in (or reloaded from?) the javadoc.xml when rerunning the wizard.

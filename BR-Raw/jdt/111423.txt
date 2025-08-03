@@ -1,0 +1,3 @@
+Caller hierarchy lists methods unsorted
+
+I20050928-1300 + plug-in export for I20051004-0800 1. open caller hierarchy on ProjectionMapping.toImageRegion(IRegion) ==> caller list is unsorted and no option to enable sorting

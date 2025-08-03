@@ -1,0 +1,3 @@
+[compiler pref page] Surface the 'Warning on assignments to parameters' new option into the user interface
+
+As of M5, bug 53773 adds a new compiler option to ignore/warn/raise errors upon assignments to parameters. The default value for this is ignore. The user may tune this as explained in bug 53773, but the option should ultimately surface into the compiler preferences.

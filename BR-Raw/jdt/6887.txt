@@ -1,0 +1,3 @@
+Create Getter and Setter should create isFoo for booleans
+
+Create getter and setter should create an 'is' method for booleans not a 'get' method.

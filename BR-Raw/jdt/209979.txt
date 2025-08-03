@@ -1,0 +1,3 @@
+Compare Java structure: Ignore White Space only works partially
+
+I20071113-0800. Compare Java structure: Ignore White Space only works partially i.e. some members still show up in the structure even though there are no changes after clicking the 'Ignore White Space...' toolbar button. Test Case: 1. compare org.eclipse.jdt.internal.ui.preferences.SmartTypingConfigurationBlock rev. 1.21 with rev. 1.22 2. click the 'Ignore White Space...' toolbar button ==> createMessage() method is shown even though there are no changes I'm marking this as major because with the new Clean Up on Save (Save Actions) support I have many deletions of unneccessary whitespace which cause lots of noise even when 'Ignore White Space' is enabled.

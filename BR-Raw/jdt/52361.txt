@@ -1,0 +1,3 @@
+[templates] linked mode not exited / annotations not redrawn when inserting anonymous completion
+
+M7 0. Auto-closed parenthesis on 1. Insert this code: import java.lang.Runnable; void m() { method(<caret> } -> closing parenthesis gets inserted -> linked mode entered 2. type "new Runnable(" -> nested linked mode is entered for second parenthesis, also autoclosed 3. use code completion to complete the anonymous type -> you end up with this code: void m() { method(new Runnable() { public void run() { } }) } -> Linked mode is still drawn 4. Press <Tab> or <Enter> -> linked mode is not exited -> annotations keep being drawn The only way to get away with the annotations is to open a new parenthesis somewhere outside the initial code.

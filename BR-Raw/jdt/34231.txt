@@ -1,0 +1,3 @@
+Cannot refactor method sig from String to String[] [refactoring]
+
+I have a constructor Foo(String) that I want to change to Foo(String[]) with Refactor/Change method sig. In the dialog, I a message: "The type name 'String []' is not a valid identifier". Version: 2.1.0 Build id: 200303071024

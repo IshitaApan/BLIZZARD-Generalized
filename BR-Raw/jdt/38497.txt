@@ -1,0 +1,3 @@
+Missleading quickfix proposal name [quickfix]
+
+I20030604: Define the following method: 	void m(int i, float r) {} Call it using 	m(2.3, 1); Onw of the proposed quick fixes is "Cast argument 1 to 'int'" which is confusing. We should rephrase the proposal.

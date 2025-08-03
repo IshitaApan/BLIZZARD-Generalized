@@ -1,0 +1,3 @@
+[breadcrumb] keys don't work after dropdown opened via arrow button
+
+Follow-up to bug 233646. After an arrow in the breadcrumbs bar has been clicked, almost all keys don't work any more (Up/DownArrow, Command+W, Esc, etc.). Only repeated presses of the Tab key give back the keyboard focus. The best solution would be SWT support to accept toolbar button clicks in the workbench window when the dropdown's shell has focus (making also the workaround for bug 232015 obsolete).

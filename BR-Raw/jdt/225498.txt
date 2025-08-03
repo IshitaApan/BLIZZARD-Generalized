@@ -1,0 +1,3 @@
+[preferences] Save actions has no vertical scrollbar
+
+Created attachment 94672 Screen shot Build ID: I20080330-1350 Steps To Reproduce: 1. Open "Save Actions" preference page. 2. Configure it to have more than 10 action to perform. 3. More information:

@@ -1,0 +1,3 @@
+[misc]  invoking 'Format Source' from Outline view
+
+Eclipse : 3.1M5a Right now to format a function, you have to highlight the function and choose 'Source --> Format' or 'Ctrl+Shift+F'. This can be cumbersome if the function is spanning more than a screenful. What would be cool is to be able to select the function in Outline view and choose 'Format'.

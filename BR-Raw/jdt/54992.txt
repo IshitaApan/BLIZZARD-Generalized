@@ -1,0 +1,3 @@
+'Hide Local Types' button hides all types
+
+I20040316 The 'Hide Local Types' button in the outline view/page hides all types of the compilation unit. Only the package declaration and the imports are displayed.

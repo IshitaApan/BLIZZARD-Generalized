@@ -1,0 +1,3 @@
+[templates] 'import' template should evaluate to nothing
+
+HEAD The 'import' editor template currently evaluates to the given id, e.g. '${bla:import(org.eclipse.swt.SWT)}' evaluates to 'bla'. It should always evaluate to nothing.

@@ -1,0 +1,3 @@
+Export JavaDoc should examine jdk compliance
+
+The Export Javadoc wizard should examine the jdk1.3/jdk1.4 compliance for a project and add the appropriate javadoc switch by default to the javadoc args viewer. Result of not fixing: Javadoc users will get errors in the console complaining about all their assert statements, and then have to figure out the switches to add to correct this problem.

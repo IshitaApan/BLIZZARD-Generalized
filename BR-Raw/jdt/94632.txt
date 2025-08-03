@@ -1,0 +1,3 @@
+[Build path] Build path submenu shown on working sets
+
+I20050509-2010 The build path submenu is shown in the context menu of working sets in the package explorer.

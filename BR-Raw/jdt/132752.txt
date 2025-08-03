@@ -1,0 +1,3 @@
+[misc] @sine tag is kept in generated documentation
+
+In javadoc documentaion generation tag @since is not expanded to 'Since': but is kept as '@since' (in javadoc view for example).

@@ -1,0 +1,3 @@
+[1.5][search]Rename field fails on field based on parameterized type with member type parameter
+
+M4 test pass (I20041214-2000-gtk) - Have the class below - Rename fList to fElements Expected: the field and the reference in the ctor are renamed Actual: only the field is renamed; no warning in preview Note: the same operation succeeds when not a nested type is used as parameter (e.g. String). --------- snip ----------- package com.example.m4testing; import java.util.List; public class Test { 	static class Element{ 	} 	 	static class Inner { 		private final List<Element> fList; 		 		public Inner(List<Element> list) { 			fList= list; 		} 	} }

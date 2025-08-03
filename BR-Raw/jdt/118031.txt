@@ -1,0 +1,3 @@
+[clean up] Add @Override and @Deprecated only for 5.0 projects
+
+20051125 I selected a compilation unit to process in a 1.4 project. Clean up has 'add @Override and @Deprecated' on by default. Would be better if it is unchecked or even disabled

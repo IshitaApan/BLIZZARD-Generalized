@@ -1,0 +1,3 @@
+Label of "New Classpath Entry" dialog doesn't show banded background
+
+I2003-02-27 The "New Classpath Entry" dialog contains a label that is supposed to display some status information. On MacOS X, the label is display with either white or gray background. However, there should be no colored background instead the common OSX background should show through.

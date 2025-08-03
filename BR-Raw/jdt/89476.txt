@@ -1,0 +1,3 @@
+'dot' should not autoactivate code assist in dialog fields
+
+While testing code assist in the super class field in the new class wizard I noticed that '.' auto activate code assist. IMO this makes sense for cases where we have a method class after a dot. But in the case where we only enter class names '.' shouldn't auto activate code assist. Opinions.

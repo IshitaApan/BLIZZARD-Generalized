@@ -1,0 +1,3 @@
+Move static members: Labels [refactoring]
+
+20031217 - The window title says 'Move static member(s)' the brackets look really ugly. Why not just write 'Move static members'? It's the name of the refactoring. Or be precice and write either 'member' or 'members' - When moving a single method that returns something it says 'Destination type for 'IJavaElement create(File)': This looks like my method is in IJavaElement, but that's the return type. -> Put the return type behind the method name (or leave ir away!) like it is done in the outline (use JavaElementLabels to render this) or put the declaring type 'JavaCore.create(IFile)'

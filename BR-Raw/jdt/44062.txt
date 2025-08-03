@@ -1,0 +1,3 @@
+javadoc command should correspond to default JDK [javadoc]
+
+The java command should match the selected JDK in preferences. In OSX, I found that the default runtime was 1.4.1 but the javadoc command was using JDK 1.3.1 javadoc.

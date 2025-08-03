@@ -1,0 +1,3 @@
+No tooltip for Junit view when docked as Fastview [JUnit]
+
+Using RC1, the tooltip appears as the empty string for the JUnit launch view.

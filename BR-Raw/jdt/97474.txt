@@ -1,0 +1,3 @@
+[typing] Moves line down/up with javadoc corrupts source
+
+If you have a simple class with 2 methods that both have javadoc and attempt to use the "move line up/ down" feature in the editor and move one through the other the methods get corrupted. I'll create an attachment with a before and after.

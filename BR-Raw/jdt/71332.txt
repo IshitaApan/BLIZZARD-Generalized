@@ -1,0 +1,3 @@
+TVT3.0:  ''text ui'' etc in English in New JUnit Test Case panel
+
+OS : RHEL 3.0 Build date: 0730 Language: CHS Problem Description: Create a Java project, click File > New > Others, Select Junit Test Case under JUnit Click Next, there are strings in English: "text ui", "swing ui", "awt ui". Can someone make sure these are externalized for the next release? Thanks.

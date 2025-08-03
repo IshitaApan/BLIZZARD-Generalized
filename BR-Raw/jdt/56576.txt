@@ -1,0 +1,3 @@
+[navigation] Quick outline: first member not selected when switching to inherited mode
+
+3.0M8: Quick outline: first member not selected when switching to inherited mode - open type org.eclipse.swt.widgets.Text - press Ctrl+O - type "getM" (-> list becomes empty) - press Ctrl+O again -> expected: "getMenu()" is selected in the background; Enter key should go to it -> was: no item selected; Enter key does nothing

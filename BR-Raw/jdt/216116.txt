@@ -1,0 +1,3 @@
+[breadcrumb] No tooltip for 'External Plug-in Libraries' project
+
+HEAD The breadcrumbs bar does not show a tooltip for the 'External Plug-in Libraries' project (e.g. add the org.eclipse.equinox.registry plug-in to Java Search and open type IExtension).

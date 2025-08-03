@@ -1,0 +1,3 @@
+Remove dependancy on runtime.compatibility
+
+build i20070109 The org.eclipse.jdt.ui bundle has a dependancy on the org.eclipse.runtime.compatiibility bundle. Is this still required? I don't believe so, so I will attach a patch removing this dependancy.

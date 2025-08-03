@@ -1,0 +1,3 @@
+[Clean up] Make 'Add unimplemented methods' multi-quickfixable
+
+When I add a new method to an interface, I get lots of errors. E.g. with visitor pattern. - Quickfix could pick up on the fact afterwards and suggest to fix all the errors in one go. - A new refactoring could know about this upfront and add a more explicit procedure. Øyvind

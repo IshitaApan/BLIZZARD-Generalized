@@ -1,0 +1,3 @@
+wrong indent after 'enter'
+
+3.0 m9 quite annoing usability problem: create this: public int getFoo(){<CARET_HERE>} press Enter you get public int getFoo(){ } which is _never_ right. i get annoyed by this every 5 minutes or so. the same bug in: if(condition){<CARET_HERE>} press Enter, you get if(condition){ } which, againi, is never what you want

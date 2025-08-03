@@ -1,0 +1,3 @@
+[api] Need to disable source folder field in NewPackageCreationWizard through OpenNewPackageWizardAction.
+
+This defect relates to 133719 to make a new requrest for OpenNewPackageWizardAction. The latest comment from Martin Aeschlimann: "We can also add API to OpenNewPackageWizardAction so it can be configured with a NewPackageWizardPage.(similar to the type actions, see for example OpenNewInterfaceWizardAction.setConfiguredWizardPage(NewInterfaceWizardPage). If that's what you want, please open a new bug." More information:

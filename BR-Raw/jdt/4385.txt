@@ -1,0 +1,3 @@
+QualifiedAllocationExpression.sourceEnd incorrect if type is an AnonymousLocalTypeDeclaration
+
+Consider the following source: 		Protectable p= new Protectable() { 			public void protect() throws Exception { 				setUp(); 				basicRun(result); 				tearDown(); 			} 		}; SourceEnd of the QualifiedAllocationExpression new Protectable is the e of Protectable and not the closing } of the type declaration

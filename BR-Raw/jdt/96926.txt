@@ -1,0 +1,3 @@
+[quick fix] Change method return type quick fix gives invalid proposal for wildcard types
+
+Against I20050527-0010: Code: 	void a() { 		ArrayList<? extends Number> b = null; 		return b.get(0); 	} Ask for a quick fix on the compile error. Three things happen: 1) BAD: The quick fix is entitled "Change method return type to '? extends Number'". 2) GOOD: The correct return type, Number, is shown originally. 3) BAD: However, the top completion proposal, and the one chosen if the user simply hits return, is "? extends Number", which creates a compile error.

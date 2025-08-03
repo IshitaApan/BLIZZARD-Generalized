@@ -1,0 +1,3 @@
+Renaming a CU->have to enter .java
+
+The refactoring knows that I'm renaming .java. If the user doesn't enter then it should be added automatically. Rename CU should behave the same as Create Class.

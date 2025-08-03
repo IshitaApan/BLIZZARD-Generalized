@@ -1,0 +1,3 @@
+extract method: incorrect on nested loops (compile errors)
+
+public class A{ 	void f(){ 		for (int i = 0; i < 10; i++) { 			/*[*/for (int j = 0; j < 10; j++) { 			}/*]*/ 		} 	} } the new method is: 	protected int dd() { 		/*[*/for (int j = 0; j < 10; j++) { 		} 		return j; 	} which results in a compile error

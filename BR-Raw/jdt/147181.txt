@@ -1,0 +1,3 @@
+[implementation] Incorrect use of instanceof TextSelection
+
+In AbstractTextEditor, selectAndReveal is an if conditional that uses (selection instanceof TextSelection) I'm pretty sure you mean selection instanceof ITextSelection I discovered this while investigating bug 134047 which might have involved implementing ITextSelection with something other than TextSelection, and I was just seeing if any one mistakenly used cast or intanceof TextSelection :)

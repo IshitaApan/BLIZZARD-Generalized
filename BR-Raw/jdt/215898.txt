@@ -1,0 +1,3 @@
+[breadcrumb] Method signature should be truncated
+
+I think the breadcrumbs should treat method signatures like how the 'Outline' view treats it by only showing the parameter types and both the parameter types and the parameter names.

@@ -1,0 +1,3 @@
+[preferences] Pref to set editor background color
+
+It would be very useful to add a preference to change the background color of the Java editor, since all of the other elements are editable.

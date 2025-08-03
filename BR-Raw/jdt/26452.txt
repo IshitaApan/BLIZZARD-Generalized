@@ -1,0 +1,3 @@
+Wrong automatically generated import statements
+
+For the following class: public final class OuterClass { 	 	void outerMethod() { 		 		new Object() { 			 			class Subroutine { 			} 			 			private void innerMethod() { 				Subroutine sub = null; 			} 			 		}; 	} } When one presses ctrl+shift+o the following statement is added: import OuterClass..Subroutine;

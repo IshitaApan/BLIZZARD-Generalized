@@ -1,0 +1,3 @@
+CodeCompletionPerformanceTest#testApplicationWithParamterGuesses2()  unreliable
+
+3.7 but also on the baseline. CodeCompletionPerformanceTest#testApplicationWithParamterGuesses2() is unreliable. The test jumps up and down. In 3.6 it looked good. We need to investigate why this now happens in 3.6 baseline builds and 3.7.

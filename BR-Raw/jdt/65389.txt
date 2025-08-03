@@ -1,0 +1,3 @@
+'#' should be a default auto activation trigger for javadoc content assist
+
+'#' should be a default auto activation trigger for javadoc content assist, since we offer code assist in situations like /** @see Vector#<caret_here> */. IMO, we should make all these characters auto activation triggers: "@#.<".

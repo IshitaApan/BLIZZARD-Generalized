@@ -1,0 +1,3 @@
+[refactoring] Wizard-based refactorings cannot be started
+
+I20061128-0800 All wizard-based refactorings just do nothing when they are started via the normal UI actions. In the SDK, this affects Pull Up, Extract Supertype, Clean Up, and Externalize Strings.

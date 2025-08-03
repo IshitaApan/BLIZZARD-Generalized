@@ -1,0 +1,3 @@
+prepare Compare for encoding support
+
+I20031111 The Compare plugin only supports the global workspace encoding. It does not support encodings per file.

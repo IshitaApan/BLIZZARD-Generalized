@@ -1,0 +1,3 @@
+Add UI for new JDT Core option: OUTPUT_LOCATION_OVERLAPPING_ANOTHER_SOURCE
+
+Follow-up of bug 287164. We need to add UI for new JDT Core option: OUTPUT_LOCATION_OVERLAPPING_ANOTHER_SOURCE.

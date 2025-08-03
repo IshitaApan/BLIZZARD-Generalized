@@ -1,0 +1,3 @@
+awkward to change default output folder
+
+Build I20021210 1. Create a new Java project P1 On the Java Settings page hit the Browse next to Default output folder. Observe: The dialog is empty, shows an error "No entries available", and only allows Cancel. Expectation: As with other dialogs, it would be better if I had an opportunity to create folders at this time. unable to create a linked output folder

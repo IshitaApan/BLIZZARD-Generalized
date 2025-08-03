@@ -1,0 +1,3 @@
+Jar exporter: add directories entries not persisted between sessions
+
+- follow smoke test for jar exporter - check Add directories entries - observe: when opening the jar description file the item isn't checked.

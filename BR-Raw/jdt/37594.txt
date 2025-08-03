@@ -1,0 +1,3 @@
+Quick fix for 'hidden variable'
+
+When you get the compiler warning stating that you have a local variable in a method which is over-riding a field in your class, I would like to have the QuickFix option to rename the local variable and all its occurences in the method.

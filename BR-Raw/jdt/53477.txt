@@ -1,0 +1,3 @@
+AnonymousClassDeclaration has wrong range
+
+I200400226 public class K { 	class Inner { 	} 	void make() { 		new K(){}.new Inner(){/*x*/}; 	} } The AnonymousClassDeclaration whose implementation is marked by /*x*/ should have a range covering "{/*x*/}". Currently, getStartPosition() and getLength() return a range covering "{}.new Inner(){/*x*/}". (For Markus' memory: This makes NodeFinder return a wrong node, causing problems in ChangeSignatureRefactoring test A_testAll51_in)

@@ -1,0 +1,3 @@
+Unable to use JarPackager headless
+
+Beginning with the 04/23 Integration build, I am unable to utilize the JarPackager in a headless environment. Specifically, I have defined my own Ant tasks which perform operations including jar packaging. The problem is in JarFileExportOperation.getDirtyEditors(Shell parent). Is it possible to accept null for parent and have the method just return an empty array?

@@ -1,0 +1,3 @@
+[Team API] Removal of exception from IDiffTreeVisitor requires coordinatd release
+
+I've been cleanup up the IDiffTree API and it turns out that the accept method and the IDiffTreeVisitor do not need to throw CoreException so I would like to remove them.The problem is that two classes in JDT and LTK declare and handle the exception so we need to coordinate the removal of the change. This can be done at any time that is convenient for tyou but must be in for M5.

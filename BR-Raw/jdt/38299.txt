@@ -1,0 +1,3 @@
+Show Hourglass Pointer while opening the help system
+
+Even on my 1.8 GHz powered 500MB RAM machine the external online help needs up to five seconds to open when pressing SHIFT-F2 on a source line. Would be great to have visual feedback of the status, e.g. by showing a wait cursor instead of the mouse cursor.

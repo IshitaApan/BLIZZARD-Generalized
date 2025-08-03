@@ -1,0 +1,3 @@
+Extract Constant should be disabled on switch-case constant
+
+I20050209-0800 enum Color { 	RED, BLUE(), YELLOW() {}; 	public static final Color fColor= RED; } class ColorUser { 	void use() { 		Color c= Color.fColor; 		switch (c) { 			case RED : //extract constant "RED" 				break; 			default : 				break; 		} 	} }

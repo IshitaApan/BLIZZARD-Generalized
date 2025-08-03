@@ -1,0 +1,3 @@
+Javadoc properties page prevents keyboard navigation
+
+Build 20020521 The Javadoc properties page for a project sets the focus to the javadoc location as soon as it is selected. As a result if you are using the keyboard to move through the list entries you have to tab out everytime you hit it. STEPS 1) Open the properties on a java project 2) Use the keyboard to move through the list of pages 3) When you hit the javadoc page the cursor is taken and you have to tab out

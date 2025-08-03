@@ -1,0 +1,3 @@
+Typing a brace destroys subsequent character
+
+I20040106 + plugin-export 20040108_1804 Typing a brace destroys the subsequent '/' character: public class Example { 	public Example() {	} 	// <- insert '{' before comment 	public static void main(String[] args) { } } All Preferences 'Java > Editor > Typing' have the default setting.

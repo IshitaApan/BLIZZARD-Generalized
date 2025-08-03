@@ -1,0 +1,3 @@
+[refactoring] Rename type with similar elements has distorted images in preview
+
+I20060307-1315 Steps to reproduce: - Enable update similar - Preview proposed renames for elements Attaching screenshot...

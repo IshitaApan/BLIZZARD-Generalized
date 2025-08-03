@@ -1,0 +1,3 @@
+Missing mnemonic in "Visible Categories..." view menu
+
+I2006030328-0010. There's no mnemonic for the "Visible Categories..." view menu entry.

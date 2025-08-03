@@ -1,0 +1,3 @@
+[1.5][model] Method to validate type parameter names missing in JavaConventions
+
+Build I200409011200: For consistency, class JavaConventions should provide a method to syntactically validate the name of a type parameter

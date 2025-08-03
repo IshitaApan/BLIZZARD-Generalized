@@ -1,0 +1,3 @@
+[formatting] Javadoc comment formatter: some options don't work anymore
+
+M6 test pass The two options "Blank line before Javadoc tags" and "New line after param tags" don't work anymore. Tested with the following code snippet: /** * Method two * @param s1 this is the first parameter having a useless comment * @param s2 this is the second parameter having a useless comment */ public void two(String s1, String s2) { } expected to get /** * Method two * * @param * s1 this is the first parameter * having a useless comment * @param * s2 this is the second parameter * having a useless comment */

@@ -1,0 +1,3 @@
+Primary working copies: Type search does not find type in modified CU
+
+M2 See test cases AllTypesCacheTest.testWorkingCopies() & testWorkingCopies2(): Editor is opened and the type name of the opened type is modfied. testWorkingCopies(): editor is saved: new type is found in index but also old type is still found testWorkingCopies2(): editor is not saved: new type is not found in index

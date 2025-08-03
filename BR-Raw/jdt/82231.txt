@@ -1,0 +1,3 @@
+[build path] Hard to find type restriction compiler problem preferences
+
+I20050104-1600 There compiler preference page contains a Warning/Error node with many sub-entries . I tried to find where I could change the 'warning' for the access of internal types to 'error'. No luck until I realized that the Build node also contains Warning/Error settings.

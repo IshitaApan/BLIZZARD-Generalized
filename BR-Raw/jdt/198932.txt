@@ -1,0 +1,3 @@
+[Extract Class] Parameter object visibility too low
+
+Perform a Extract Class with getters & setters on org.eclipse.compare.contentmergeviewer.ContentMergeViewer The resulting parameterObject has a private visibility albeit some of it's field have a protected visibility.

@@ -1,0 +1,3 @@
+Package Explorer working set mode can't be restored anymore
+
+M4 test pass - create project - go into this project - press go up to show all projects again - switch to working set mode - close Eclipe - restart observe: Package explorer comes up in project mode again. Even if you switch to working set mode again the package explorer will be in project mode on every restart. Problem is that the package explorer restores the last frame on restart which in this case is alwasy the JavaModel.

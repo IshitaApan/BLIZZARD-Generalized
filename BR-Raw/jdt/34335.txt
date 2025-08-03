@@ -1,0 +1,3 @@
+DND doesn't work
+
+RC2 Linux-GTK Drag and drop doesn't work. I've tried it in the DNDExample and in the package explorer and drags are never initiated.

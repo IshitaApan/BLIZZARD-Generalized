@@ -1,0 +1,3 @@
+Cannot copy a Java project in the packages view
+
+There is no way to copy a Java project in the packages view. You can copy a project in the Navigator. This is a functional gap.

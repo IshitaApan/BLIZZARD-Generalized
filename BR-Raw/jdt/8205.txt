@@ -1,0 +1,3 @@
+Missing mnemonic: Outline View->Open Super Implementation
+
+Select a method in the outline view. "Open Super Implementation" on the popup menu is missing a mnemonic.

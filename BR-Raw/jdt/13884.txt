@@ -1,0 +1,3 @@
+NLS tool - not optimized for self hosting [refactoring]
+
+The key names generated are not matching our conventions. They should be at least an option to generate key names, which are similar to our conventions to reduce editing of them. - no use of '_' but use capitalization ('fooBar' instead of 'foo_bar') - use numbers as postfix only if ambiguous

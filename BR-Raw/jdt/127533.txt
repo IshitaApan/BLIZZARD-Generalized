@@ -1,0 +1,3 @@
+[1.5][compiler] warning on unused @SuppressWarnings annotations
+
+3.2M4 there should be a warning on unused @SuppressWarnings annotations (just like we have one on 'unused exceptions') for example here the annotation is unused - it just pollutes code: If it was for a whole class if would've been even worse @SuppressWarnings("unchecked") //unused void doNoEvil(){ System.out.println("hello world"); }

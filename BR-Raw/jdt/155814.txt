@@ -1,0 +1,3 @@
+[build path] Browse default output folder prepends '/'
+
+I20060829-0800 On the second page of the new java project wizard. 1. Select 'Browse' for the default output folder location 2. Select some folder 3. Click 'OK' Is: Name has a '/' prefix Should Not have a prefix

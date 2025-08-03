@@ -1,0 +1,2 @@
+No content assist in dialog text fields and combos
+

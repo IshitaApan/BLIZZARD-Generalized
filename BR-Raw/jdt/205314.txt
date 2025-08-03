@@ -1,0 +1,3 @@
+[open type] Open Type dialog looses history entries
+
+I20071002-1342 + plug-in export I don't have steps yet but Markus also saw this. Previously used entries disappear from the open type dialog history. I'll watch it closer and try to come up with steps.

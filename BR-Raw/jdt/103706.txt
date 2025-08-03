@@ -1,0 +1,3 @@
+[formatter] indent empty lines
+
+The formatter clears today all empty lines. Many of us like to start typing at the cursor position, without the well known 'up-line-end-enter semantic' that creates a well idented position. Because we use our formatter as a project-specific (cvs) setting, i need today to patch _every_ eclipse stable build (we uuse them, really), which implied a local eclipse-update-site with all the work associated with its maintenance. However, i decided to submit not only this issue, but the patches too.

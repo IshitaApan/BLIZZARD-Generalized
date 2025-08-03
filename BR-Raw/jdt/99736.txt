@@ -1,0 +1,3 @@
+[render] Hide non-public members hides public enum constants.
+
+Found in 3.1RC2. In the option view, the "Hide Non-Public Members" option hides enum constants, even when they are public. Example: public enum Foo { BAR } with "Hide Non-Public Members" on, just shows Foo. Should show BAR as a child of Foo.

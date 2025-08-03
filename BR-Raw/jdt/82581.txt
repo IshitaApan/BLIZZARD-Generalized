@@ -1,0 +1,3 @@
+[misc] Javadoc double-click strategy wrong for non-tags
+
+I20050111-0800 Use an e-mail address inside Javadoc as test case.

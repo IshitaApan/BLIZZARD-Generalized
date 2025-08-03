@@ -1,0 +1,3 @@
+[type wizards] New Class Wizard: auto completing generics type resets super class name field
+
+Build ID: I20070621-1340 Steps To Reproduce: have this base class: package test; public abstract class BaseObject<T> { 	public abstract T getObject(); } then extend this one with the new java class wizard In the superclass text field input: test.BaseObject<S<cursor>> then invoke code completion and select Short or something like that, then when you complete only Short> is still there in the field. More information:

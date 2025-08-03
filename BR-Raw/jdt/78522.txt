@@ -1,0 +1,3 @@
+[navigation] All Ctrl+Click link targets should also be available under one command/action
+
+I200411100800 All Ctrl+Click link targets should also work with Open (F3)

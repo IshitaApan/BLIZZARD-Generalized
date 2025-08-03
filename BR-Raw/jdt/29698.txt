@@ -1,0 +1,3 @@
+drag and drop of java files between packages in package explorer doesn't work
+
+the <preview> <ok> <cancel> dialog shows up, but <ok> has the same effect as <cancel> and <preview> would only show movements of files and no changes in imports of other java files. on <ok> in the preview it only moves the file(s) (as indicated ) without changing referencing imports.

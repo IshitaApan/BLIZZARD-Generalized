@@ -1,0 +1,3 @@
+ast: CatchClause has incorrect startingPoint
+
+CatchClause begins on the 'e' temp here: package p; class A{ 	void m(){ 		try{ 		} catch (Exception e){ 			m();			 		} 	} }

@@ -1,0 +1,2 @@
+[breadcrumb] Remove left/right arrows
+

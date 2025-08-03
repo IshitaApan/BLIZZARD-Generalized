@@ -1,0 +1,3 @@
+[assist] completion in throws clause or in javadoc @throws tag should propose only exception class
+
+When I'm here: /** {@link Unsupp and ask for autocompletion, it comes up with a window listing a few types, among them java.lang.UnsupportedOperationException. When I'm here: /** @throws Unsupp or here: /** @exception Unsupp autocompletion has no idea what could possibly follow.

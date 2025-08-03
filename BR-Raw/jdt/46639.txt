@@ -1,0 +1,3 @@
+JavadocWizard disposing Window.getDefaultImage()
+
+Build I20031111 JavadocWizard.performFinish() OptionalMessageDialog.open(..., Window.getDefaultImage(), ...); I believe passing Window.getDefaultImage() to the dialog is bad. When the dialog closes, it disposes of the default window image.

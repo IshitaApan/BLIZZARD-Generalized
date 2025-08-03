@@ -1,0 +1,3 @@
+CVS label decorations should be recursive, when using tree view in package explorer
+
+When using the the tree view in the package explorer, package com.foo.bar is shown as a child of package com.foo. Therefore the CVS label decorations of package com.foo should mark it as dirty even if only com.foo.bar contains dirty files. So the label decoration should be recursive, as they were before Version 3.2 M5. This would make it a lot easier to find edited files for commit, when the tree nodes are collapsed. IHMO the CVS actions should also be recursive, when using the tree view. However, I understand that this can be dangerous when committing/replacing files unintentionally.

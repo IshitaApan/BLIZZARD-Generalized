@@ -1,0 +1,3 @@
+Add Bookmark action is disabled in the Editor
+
+The Add Bookmark action is provided in the Edit menu but it is disabled on text selections. Text Editors should retarget this action so that it also operates on text selections.

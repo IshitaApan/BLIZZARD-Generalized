@@ -1,0 +1,3 @@
+enhancements for "Introduce Factory" [refactoring]
+
+I20031119 It would be useful if the new "Introduce Factory" refactory would allow to specify on which class the "createXxx" method is created. The current behavior always creates the method on the least likely class.

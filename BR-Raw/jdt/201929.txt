@@ -1,0 +1,3 @@
+Member of local type should not have a fully qualified name
+
+HEAD class C { 	void m() { 		new Cloneable() { 			class MemberOfLocal { 			} 		}; 	} } ITypeBinding#getQualifiedName() on 'MemberOfLocal' returns ".MemberOfLocal". Expected: returns "", see Javadoc: 'Local types (including anonymous classes) and members of local types do not have a fully qualified name. For these types, and array types thereof, this method returns an empty string.' The problem can e.g. be seen in Eclipse when you place the caret on 'MemberOfLocal' and press Ctrl+Shift+M => 'import .MemberOfLocal;' is added.

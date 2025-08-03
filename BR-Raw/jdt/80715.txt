@@ -1,0 +1,3 @@
+ITypeBinding#isAssignmentCompatible(..) doesn't work across binding resolvers
+
+I200412081200 We tried to replace our TypeRules#canAssign(..) method by ITypeBinding#isAssignmentCompatible(..). This resulted in many test failures in UseSupertypeWherePossibleTests and ExtractInterfaceTests. The reason is that isAssignmentCompatible(..) doesn't work corrctly with bindings that are isEqualTo(..), but not identical. E.g. in UseSupertypeWherePossibleTests.testNew7(), we call isAssignmentCompatible with two type bindings for the same type p.B (isEqualTo == true, but not identical) and get false as result. We reverted TypeRules to our old implementation in HEAD.

@@ -1,0 +1,3 @@
+[nls tooling][quick assist]  Suggestions to fine tune quick assists in Properties File editor
+
+FUP of bug 358384 1)use the standard 'Rename in workspace' shorcut for the proposal in the properties file Also, the text in addl info box shows 'Start the Rename refactoring' not 'Start Rename refactoring' 2) From bug 358384 comment#18 Remove Key(s) -> addl info is not very clear that it is modifying 2 different files. We use '...' to show modifications in different parts of the same file for other proposals. I'm not sure if we also use it to show changes in 2 different files already, but I think we probably should indicate it, ex: mention the file names, in that case.

@@ -1,0 +1,3 @@
+[misc] File not saved on disk after "resave" editor context
+
+N20060604-0010 - create project, package, A.java - open A.java in editor - go to OS explorer - delete A.java on disk - go back to workbench and activate editor observe: you get a dialog asking you whether you want to save the content - say yes observe: the dialog claims that the file exists. Strange, since I just deleted it. Say yes for override observe: the file doesn't end up on disk. You get an editor that the file doesn't exist.

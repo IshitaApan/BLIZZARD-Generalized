@@ -1,0 +1,3 @@
+org.eclipse.jdt.internal.corext.codemanipulation.AddGetterSetterOperation method[generateSetterMethod] has a miss
+
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; OfficeLiveConnector.1.4; OfficeLivePatch.1.3) Build Identifier: 20090920-1017 When studing AddGetterSetterOperation、a problem happened. Method - generateGetterMethod if (existing == null || !querySkipExistingMethods(existing)) Method - generateSetterMethod if (existing == null || querySkipExistingMethods(existing)) in the method generateSetterMethod, I thingk have to add a "!". Reproducible: Always Steps to Reproduce: 1.confirm the AddGetterSetterOperation's source

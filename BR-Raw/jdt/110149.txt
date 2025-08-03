@@ -1,0 +1,3 @@
+Auto completion does not always work in Move Static Members dialog box
+
+Build ID: I20050921-0010. Select Move on a static method. Type (only one) package, type ., press Ctrl+Space. Now select a class and press Enter. Expected: The class appears behind the dot Actual: Nothing happens Note that it works correctly for package completion and if more than one package is used.

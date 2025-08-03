@@ -1,0 +1,3 @@
+[preferences] "New Template" and "Edit Template" dialogs margin spacing
+
+The spacing at the top, left and right should be the same as the spacing between the OK button and the bottom.

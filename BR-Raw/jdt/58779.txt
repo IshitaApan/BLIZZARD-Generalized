@@ -1,0 +1,3 @@
+[reconciling] Java reconciler should not be triggered by "normal" marker changes
+
+I20040413 The Java reconciler listens for marker deltas and if there's one it reconciles the CU. We could be smarter and only reconcile if the delta contains a maker type that is handled by J Core.

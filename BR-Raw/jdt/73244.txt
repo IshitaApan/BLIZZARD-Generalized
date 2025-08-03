@@ -1,0 +1,3 @@
+[options] Improve "Unnecessary declaration of thrown checked exceptions"
+
+I20040901 There could be some additional option which allows to ignore the following cases: - abstract methods - methods which are overridden (scope: workspace) Currently we have set this check to ignore because it flagged to many framework methods. See also eclipse.platform newsgroup message: news://news.eclipse.org:119/cgvvab$9tl$1@eclipse.org

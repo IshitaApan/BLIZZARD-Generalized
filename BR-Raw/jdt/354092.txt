@@ -1,0 +1,3 @@
+[preferences] Java Compiler property page doesn't gray out all widgets (without project specific settings)
+
+Build id: I20110803-1800 Steps to reproduce: 1. Create new Java project. 2. Open properties dialog for this project. 3. Open Java Compiler page. Note that by default 'Enable project specific settings' is disabled and all widgets below are grayed (see Screenshot 1). 4. Switch to another property page but do not close the dialog. 5. Switch back to Java Compiler page. Note that some widgets are not grayed any more but no action can be done on those widgets (see Screenshot 2). Reproducible: Always

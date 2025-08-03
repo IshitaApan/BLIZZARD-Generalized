@@ -1,0 +1,3 @@
+Don't set caret to 'null'
+
+I20100429-1549.

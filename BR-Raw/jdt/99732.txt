@@ -1,0 +1,3 @@
+[build path] Exclusion filters are added on new source folder when unnecessary
+
+In RC2. If you add a source folder inside another source folder, the outer folder's exclusion filters are updated to avoid ambiguity. Now, remove the inner folder from the class path, and re-add it. Every time this is done, the inner folder is added to the outer folder's exclusion filter, ad infinitum.

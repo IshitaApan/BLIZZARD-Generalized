@@ -1,0 +1,3 @@
+[nls tooling] External Strings doesn't use validateEdit
+
+I tried to externalize some strings in the CVS UI plugin. It failed because my message class (CVSUIMessages) was read only. The tool should use validateEdit to make the file writtable.

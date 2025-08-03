@@ -1,0 +1,3 @@
+[quick fix] enhanced for loop should not show up on 1.4 projects
+
+RC1 I also get the enhanced for loop proposals in a 1.4 project

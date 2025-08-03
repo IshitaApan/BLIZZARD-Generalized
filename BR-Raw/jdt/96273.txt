@@ -1,0 +1,3 @@
+[JUnit] Rerun failed test - failures first doesn't force save
+
+Unlike "rerun last test", "rerun failed test - failures first" doesn't ask the user if they want to save any changes. It just starts Junit. Still a great feature!

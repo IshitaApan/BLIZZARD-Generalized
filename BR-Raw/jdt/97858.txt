@@ -1,0 +1,3 @@
+[preferences] Pref Page Java/Editor/Typing  - dialog font problem
+
+Open pref page. Click on "formatter prefrence page". Create a new formatter with a indention of 8. OK. Insure the new formatter is selected in the combo. Click on Apply. Switch back to Java/Editor/Typing observe the message does not use the dialog font anymore.

@@ -1,0 +1,3 @@
+[resources] remove preceeding slash in paths presented to user
+
+RC1 1. set a file to read-only 2. open the file in the editor, select its type name 3. choose 'rename' from the refactoring context menu 4. enter a new name (Note that the action could detect that the rename will never be possible on a read only file (bring an error dialog instad of letting the user to enter a name) press 'Preview' 5. the error dialog shows the following messages 'File /xx/ss/A.java is read only' 'Affected resource '/ss/dd/X.java has compile errors' The first message is probably a duplicate of bug 33357.

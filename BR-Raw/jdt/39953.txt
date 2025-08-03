@@ -1,0 +1,3 @@
+Navigator sort wrong in Java Source Attachment -> Workspace
+
+If you rc a jar file, properties, java source attachment, and then click workspace, and then navigate to a lib directory which contains sub directories, the subdirectories and files are treated as items and sorted whereas in the main navigator subdirectories are given higher sort order over file items.

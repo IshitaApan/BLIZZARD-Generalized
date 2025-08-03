@@ -1,0 +1,3 @@
+[code manipulation] Smart paste adds import for type parameter
+
+In RC1. Create class A: import java.util.List; public class A { 	class Counter<T, L extends List<T>> { 		private L _attribute; 	} } Now, copy the inner class "Counter", and paste it into empty class B: public class B { // PASTE HERE } imports are added: import L; import java.util.List; "import L" is wrong.

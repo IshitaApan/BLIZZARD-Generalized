@@ -1,0 +1,3 @@
+Change method signature does nothing for local types [refactoring]
+
+Test pass M4. Title says it all.

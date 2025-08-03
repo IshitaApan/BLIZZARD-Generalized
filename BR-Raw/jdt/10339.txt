@@ -1,0 +1,3 @@
+Refactoring: Pull up should have "select/deselect all" options
+
+When selecting multiple methods for pull up, it would be nice to have the option to select/deselect all.

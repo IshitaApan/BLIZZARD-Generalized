@@ -1,0 +1,3 @@
+[preferences] Pref Page Java/Editor/Syntax Coloring - Color label enablement
+
+The "Color:" label should be disabled when the color button is disabled.

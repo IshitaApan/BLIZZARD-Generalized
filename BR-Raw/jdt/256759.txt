@@ -1,0 +1,3 @@
+[implementation] Implementations of IContextInformation should also implement hashCode()
+
+I20081125-0840 Implementations of IContextInformation should also implement hashCode().

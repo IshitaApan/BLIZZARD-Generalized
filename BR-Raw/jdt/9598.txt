@@ -1,0 +1,3 @@
+Self encapsulate field: Renamed method might shadow existing method in base class [refactoring]
+
+20020212 1. field: private IType fClass; 2. encapsulate field, choose setter name getClass 3. compile error in the created class 	private IType getClass() { 		return fClassC; 	} 'Return type is not compatible with java.lang.Object.getClass()'

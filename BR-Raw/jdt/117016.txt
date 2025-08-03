@@ -1,0 +1,3 @@
+[refactoring] Move Inner to Top should not hardcode ".java"
+
+20051118 It is now possible to have compilation units from files that have a different file extension than .java. The strategy for refactorings should to be to always preserve the existing file suffix. Move inner to Top still hardcodes '.java'. A patch from bug 89977 fixes some stuff. There is also bug 117015 that is related.

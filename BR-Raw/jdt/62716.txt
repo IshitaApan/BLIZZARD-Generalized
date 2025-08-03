@@ -1,0 +1,3 @@
+Java Editor Text Hover prefs: Error Message stays unless row selected
+
+200405180816 - Open Java > Editor > Hovers prefs page - Click or doubleclick checkbox in front of "Variable Values" to check -> Error message, is OK - Click again to uncheck => Error message persists. Only goes away after clicking into the table or selecting another row.

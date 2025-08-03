@@ -1,0 +1,3 @@
+[build path] New Java project wizard should allow to set compliance for project only
+
+I20060301-0800 The link to configure the compliance on the Java project wizard only allows to configure the workbench preference. It would make sense to hava a link to configure the project settings as well.

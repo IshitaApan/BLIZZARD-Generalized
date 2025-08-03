@@ -1,0 +1,3 @@
+[hovers] Rich annotation hover cuts quick fix links with big font
+
+Created attachment 93634 Screenshot I20080325-2233 Rich annotation hover cuts quick fix links with big font. Looks like only the image heights are taken into account to calculate the height of the links.

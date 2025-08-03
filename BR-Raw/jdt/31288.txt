@@ -1,0 +1,3 @@
+read-only source folder not renamed
+
+- 'rename' read-only source folder - confirm renaming on read-only source folder - supply a new name -> nothing changes

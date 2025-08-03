@@ -1,0 +1,3 @@
+[search] No fine-grain search for instanceof criteria
+
+Build 3.4M5 Along the lines of providing fine-grain search functionality, it feels the instance-of pattern got ommitted.

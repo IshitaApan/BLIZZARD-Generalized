@@ -1,0 +1,3 @@
+Move CompilationUnit/Type refactoring does not update static imports
+
+I200411022000 It instead adds normal imports. Starting with: import static test.Test1.foo1; import static test.Test1.foo2; and moving Test1 to package test2 results in: import static test.Test1.foo1; import static test.Test1.foo2; import test2.Test1.foo1; import test2.Test1.foo2;

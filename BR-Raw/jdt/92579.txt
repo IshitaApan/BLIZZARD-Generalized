@@ -1,0 +1,3 @@
+[Viewers]  TreeViewer.expandAll() not working was: [navigation] quick outline should expand nodes to show all filtered matches
+
+Once you start typing in the popup outline to filter the elements, all of the TreeItems should be expanded. Currently, if you have two inner classes both with matches to the filter string, only the first treeitem is expanded. Why is the first nested class expanded and not the second?

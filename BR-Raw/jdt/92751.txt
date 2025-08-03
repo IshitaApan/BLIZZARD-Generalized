@@ -1,0 +1,3 @@
+wording: open type "checking histroy elements"
+
+I20050420 + ZRH 0426 when doing 'Open Type' for the first time, there is a dialog saying something about "histroy" elements

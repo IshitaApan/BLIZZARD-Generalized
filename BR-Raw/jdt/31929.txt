@@ -1,0 +1,3 @@
+Missing projects in Packages Explorer with Closed Project filter on
+
+build i2003-02-14, win2k, J9 I have "hide closed projects" selected in my filter settings for the packages explorer view. When I exit my workspace and come back in, the Packages Explorer only displays some of my open projects. When I change the filter settings to show closed projects (hit ok) and then back to hiding the closed projects, the display is correct.

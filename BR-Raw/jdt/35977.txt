@@ -1,0 +1,3 @@
+What's New documentation uses wrong keystroke
+
+I was reading the Whats New in Eclipse 2.1, and one of the new features claims to be 'Structured selections': using Edit->Expand Selection or Ctrl+Shift+Up Arrow to highlight progressively larger amounts of Java text. However, the keystroke for this is actually Alt+Shift+Up Arrow; Ctrl+Shift+Up Arrow goes to previous member.

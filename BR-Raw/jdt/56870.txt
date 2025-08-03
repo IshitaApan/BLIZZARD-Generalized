@@ -1,0 +1,3 @@
+copied file not shown in package explorer / java browser [ccp]
+
+If I use copy/paste on a file, the new file will not be shown in the Package Explorer unless I close and reopen the project. Nor will it be shown in the "Java Browsing", it will - though - be shown in the Navigator (resource perspective). I'm currently running 3M8 Build id: 200403261517 on W2k Funny thing though, the "team" part flags the package as being dirty, i.e. the ">" is prepended to the package in the package explorer. Kind regards

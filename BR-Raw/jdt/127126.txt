@@ -1,0 +1,3 @@
+[quick assist] keybinding for 'Split/Join variable declaration'
+
+I20060208-0848 It would be convenient if I could assign a keybinding to the 'Split variable declaration' and the 'Join variable declaration' quick assists. Since they are never applicable at the same position, it would be nice if they could even get the same keybinding, e.g. named 'Split/Join variable declaration'.

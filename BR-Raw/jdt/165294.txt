@@ -1,0 +1,3 @@
+[misc] Annotation model of Java editor should respect annotations from underlying file buffer annotation model
+
+3.3 M3 Currently, the Java editor uses its own CompilationUnitAnnotationModel which inherits from ResourceMarkerAnnotationModel. This annotation model has no connection to the annotation model of the underlying file buffer. This makes it hard to populate a Java editor with annotations that need to be updated on document changes. Ideally, this should be possible to set up during file buffer creating and disposal events. We should investigate whether the CompilationUnitAnnotationModel could delegate to the file buffer annotation model rather than inherit from a resource marker annotation model.

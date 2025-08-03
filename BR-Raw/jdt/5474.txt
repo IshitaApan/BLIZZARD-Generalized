@@ -1,0 +1,3 @@
+should not use tool tips for labels
+
+To be consistent with other preference pages, the debug preference labels for step filtering (filter sythetic methods, etc), should not specify tool tips. Instead, the relevant information should just be in the label.

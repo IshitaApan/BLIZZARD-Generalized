@@ -1,0 +1,3 @@
+[package explorer] Selected Working Set not shown until edit
+
+Build ID: I20070514-0010 Steps To Reproduce: 1. Select Working Set 2. Package Explorer shows nothing 3. Edit Working Set, do nothing but click Finish 4. Working Set Content is displayed in package Explorer More information: The steps above can be repeated, if I deselect the working set, package explorer displays all projects. If I select my working set again, steps 1-4 have to be done again.

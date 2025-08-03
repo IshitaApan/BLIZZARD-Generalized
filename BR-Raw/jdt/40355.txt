@@ -1,0 +1,3 @@
+quick fix: list of completions not wanted when there's only 1 [quick fix]
+
+20030716 int f(){ 	return 1; } change '1' to 'true' use quick fix to change method type content assist window appears with 1 proposal (i don't need it then) moreover, after pressing esc i'm not taken to where i was before, i'm stuck in the method declaration

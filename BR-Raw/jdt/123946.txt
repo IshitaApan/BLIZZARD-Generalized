@@ -1,0 +1,3 @@
+[quick assist] "Add keyword 'final' to all unchanged variables and properties"
+
+This function can be provide with the "Format" function

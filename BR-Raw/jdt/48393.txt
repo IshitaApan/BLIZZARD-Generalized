@@ -1,0 +1,3 @@
+inline final static field [refactoring]
+
+Please provide a refactoring to inline a constant (final static field).

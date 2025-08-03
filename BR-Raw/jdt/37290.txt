@@ -1,0 +1,3 @@
+call hierarchy: Searching for callees into anonymous inner classes fails
+
+When a search for callees "hits" an anonymous inner class instance creation, it sometimes fails with an ArrayInstanceOutOfBounds. This is due to the way anonymous inner classes are handled in CalleeAnalyzerVisitor. This is actually the bug that caused the error in Bug #36980, Comment 6.

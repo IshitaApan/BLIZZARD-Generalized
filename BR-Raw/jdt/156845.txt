@@ -1,0 +1,3 @@
+[content assist] wrong type arguments for a type parameterized with a local type
+
+From bug 155435: - have the CU below - invoke content assist at the caret (|) < expected: the CompletionContext::getExpectedTypesKeys() returns a parameterized type binding for java.util.Stack. binding.getTypeArguments() returns an array of size one and a binding for the local type L. > actual: The type binding for the type argument is p.T instead of L -------- T.java ----------- package p; import java.util.Stack; public class T { void m() { final class L { } final Stack<L> stack = new | } } ---------------------------

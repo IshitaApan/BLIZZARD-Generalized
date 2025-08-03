@@ -1,0 +1,3 @@
+[code manipulation] Plug-in editor creates deprecated old Plug-in when "Class" is selected
+
+Steps to reproduce it: (1) create new plug-in project with "UI" contributed sections (2) delete referenced plug-in class (3) click on "MANIFEST.MF" (4) select "Overview" section of plug in editor (5) click on "Class:" link for Plug-in class (6) this will generate old (2.0) style plug-in rather than new 3.0+

@@ -1,0 +1,3 @@
+[navigation] Open Type Hierarchy loses selection
+
+build I20030211 - open a CU (e.g. BookmarkNavigator.java) - position the cursor between methods - F4 - it opens the type hierarchy on the class, but also changes the text editor's selection to select the class name It should not affect the text editor selection.

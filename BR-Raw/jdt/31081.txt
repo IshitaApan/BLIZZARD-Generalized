@@ -1,0 +1,3 @@
+Double clicking in packages viewer expands/collapses tree node
+
+Build I20030205 - preference double click open mode - show member of compilation unit - double click on a CU observe: tree node gets expanded

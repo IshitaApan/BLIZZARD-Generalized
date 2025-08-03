@@ -1,0 +1,3 @@
+RefactoringSearchEngine2 should support granularity
+
+The old search engine only collected affected compilation units if only those where requested. The new one keeps every match in memory which for example is unnecessary for inline method. The new engine should support a granularity mode and you should check evey caller of getAffectedCompilationUnits to see which granularity mode is appropriate.

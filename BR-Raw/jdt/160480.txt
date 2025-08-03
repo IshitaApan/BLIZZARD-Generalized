@@ -1,0 +1,3 @@
+[model] Synchronize shows duplicate entries for resources in default package
+
+When synchronizing with our CVS repository, files in a default package are shown twice: - Project [server] -

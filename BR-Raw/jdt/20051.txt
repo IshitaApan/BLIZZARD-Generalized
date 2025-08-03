@@ -1,0 +1,3 @@
+Renaming:  Operation cannot be performed
+
+Using the 06/12 integration build. 1. Create a plug-in project. 2. Try to rename it using refactor->rename..., you get the Java message dialog saying: "The resource is not on the build path of a Java project". First, what does this message mean? Second, are we not allowed to change the name of a PDE project after it is created?

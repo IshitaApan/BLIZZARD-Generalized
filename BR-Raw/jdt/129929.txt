@@ -1,0 +1,3 @@
+IDE no longer responsive when junit tests are running
+
+Build 3.2m5 When running the junit tests for JDTCore, I observed that it is almost impossible to further edit some files (e.g. buildnotes) until the tests have completed. I accept the tests are using lots of CPU, but this is on a different VM instance. Other applications are still responsive (email client, web browser, etc...). Is this progress reporting causing grief here ?

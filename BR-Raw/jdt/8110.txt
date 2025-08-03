@@ -1,0 +1,3 @@
+Extract Local Variable Dialog details
+
+- mnemonics missing - description is almost the same as label of the name field. -> name field could be simple 'Variable name:' - huge dialog - the tree on the second page should be expanded (to some degree at last)

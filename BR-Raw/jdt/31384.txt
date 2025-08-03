@@ -1,0 +1,3 @@
+Deleting a Link deletes the content of the link result in loss of data
+
+I20030206 - create a normal Java project - create a folder and link the folder to an existing workspace. Observe: the link is rendered as an empty package and a lot of ghost folders are rendered as well. - delete the link folder/package Observe: this also deletes folders from the source folder as well (the .metadata directory and sometimes projects as well), resulting in Loss of DATA. Note that the dialog that pops up states that only the link will be removed from the workspace.

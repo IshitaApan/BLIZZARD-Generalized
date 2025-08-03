@@ -1,0 +1,3 @@
+[jar packager] Unused and missing NLS messages caused entries in .log file
+
+I20051031-2000 Attaching patch...

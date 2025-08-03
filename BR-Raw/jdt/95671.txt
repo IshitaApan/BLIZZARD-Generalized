@@ -1,0 +1,3 @@
+[javadoc] Missing and duplicate mnemonics on JavadocConfigurationBlock, etc
+
+N20050517-0010 There are no mneumonics to switch between Javadoc URL specification and Javadoc in archive specification. 'B' is used for both Browse buttons in Javadoc in archive grouping. On my platform this means I cannot use the keyboard to get to the second button (easily). The warning message for the Validate... contains an extra space before the period. "Location might be invalid . Files..."

@@ -1,0 +1,3 @@
+[render] JavaElementLabelProvider should support colored labels
+
+JavaElementLabelProvider should also support colored labels. Is it enough to implement IStyledLabelProvider?

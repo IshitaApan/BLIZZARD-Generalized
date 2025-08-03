@@ -1,0 +1,3 @@
+[implementation] Export templates doesn't release the file
+
+If you do an export templates from Window->Preferences->Java->Code Style->Code Templates, the file exported into is not released. That means it can't be accessed by anyone else (for example, I tried to use wordpad to look at it and it wouldn't because it was locked). It is only released when you close out Eclipse entirely. Thanks.

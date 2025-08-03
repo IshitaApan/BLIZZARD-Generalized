@@ -1,0 +1,3 @@
+[typing] Smart semicolon fooled by method braces
+
+Build: I20030710 Start writing a setter method, like this: public void setValue(int i) {} Then position cursor between the braces and fill in the method body. You end up with this: public void setValue(int i) {this.value=i}; Problem: when you type the semicolon, it jumps over the closing method body brace and places it at the end of the line, resulting in a syntax error.

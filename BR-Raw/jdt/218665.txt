@@ -1,0 +1,3 @@
+[breadcrumb] single click to open by default
+
+Build ID: I20080207-1530 Steps To Reproduce: By default, Eclipse is configured to use double-click to open items. This makes the breadcrumb bar navigation (via popup selector lists) too slow as compared to the native breadcrumb bar in Windows Vista Explorer. The General -> Open Mode can be set to single click, but that will affect all the views and not only the breadcrumb bar. More information:

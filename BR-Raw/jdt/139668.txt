@@ -1,0 +1,3 @@
+[quick assist] Surround with runnable is superfluous
+
+3.2. RC2 1. Select at least one line 2. Ctrl-1 3. A quick assist 'Surround with runnable' is shown The surround with runnable quick assist is the hard coded version of the 'Surround with runnable' template proposal wich can be accessed trough the source menu or through Alt-Shift-Z. Surround with runnable can and should be removed. Surround with runnable template should be used instead.

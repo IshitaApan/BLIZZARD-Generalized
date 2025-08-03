@@ -1,0 +1,3 @@
+change signature refactoring interaction: validate as you type [refactoring]
+
+- Select a method that takes an arg in some interface (whatever) and refactor the signature - in the dialog you get, the arg's type and name shows up in a table - click in the type box and type the new type name. - notice that the OK/Finish button is still disabled - click on the Edit button - then click ok - notice that the OK/finish button is enabled. If I cannot directly edit the type name, the table cell should not be editable. Better however would be to allow users to directly edit the cells and hit ok.

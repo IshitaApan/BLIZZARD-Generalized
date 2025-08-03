@@ -1,0 +1,3 @@
+Restore Defaults in java hover preferences leads to wrong UI state
+
+Preferences > Java > Editor > Hovers. The 'Restore Defaults' button restores the checked state of the checkboxes in the key modifiers table wrongly. The values of the preferences are correctly restored behind the scenes, but the checkboxes are always restored to the state they were when the dialog was opened. Steps in 3.0 RC1: - new workspace - Preferences > Java > Editor > Hovers - uncheck 'Combined Hover' - press OK - Preferences > Java > Editor > Hovers - press 'Restore Defaults' => expected: 'Combined Hover' is checked => was: 'Combined Hover' stays unchecked (but is logically checked, which can be seen by the error message that comes up when checking 'Variable Values'

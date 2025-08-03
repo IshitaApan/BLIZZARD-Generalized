@@ -1,0 +1,3 @@
+Override/Implement Methods dialog: better labels for insertion position [code manipulation]
+
+The Override/Implement Methods dialog says: Insertion Point: - First Method - Last Method - a() - b() ... I *never* know whether that means before or after the selected method. Better labels would be: Insert after: - Class Declaration Header - a() - b() ... or Insert Before: - a() - b() ... - End of Class

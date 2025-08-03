@@ -1,0 +1,3 @@
+[organize import] incorrectly removes import for Map.Entry
+
+I have a class that compiles with this import: import java.util.Map.Entry; If I do an organize import on the class or the project, this import is removed and the project no longer compiles. There is no warning about unused classes though (correct). I am using eclipse 3.2 M5.

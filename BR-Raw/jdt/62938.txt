@@ -1,0 +1,3 @@
+quick fix list should pre-select what's already filled in [quick fix]
+
+Maybe this is a feature request, but I've been having this problem for months and just now figured out what was causing it (I thought it was keystroke glitches on my part). When I select "add throws declaration" from quick fix, usually the desired exception is filled in (in linked edit mode), and I'm given a list to choose from if I want to change it. My inclination is to just hit "enter" signifing "accept", but the list actually has "Exception" selected (instead of IOException, in my typical case) so the value I wanted is changed and another used instead. To "work around" I have to change the selection, or hit "ESC", which seems unnatural to me.

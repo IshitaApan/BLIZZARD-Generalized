@@ -1,0 +1,3 @@
+[breadcrumb] start filtering when user types *
+
+I20080115-1740.from20080122_1152 Breadcrumbs start filtering when I type an alphanumeric character. Should also work when I type a *.

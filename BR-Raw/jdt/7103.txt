@@ -1,0 +1,3 @@
+Property sheet only shows name for Java elements
+
+we should show at least the same information as user's get for resources

@@ -1,0 +1,3 @@
+[open type] terminator in open type doesn't work anymore
+
+I20070601-0010. The '<' and ' ' terminator in open type don't filter anymore. Major Regression. Test Case: 1. type "Hash" 2. type "<" ==> also shows "Hashtable" which is wrong.

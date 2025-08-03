@@ -1,0 +1,3 @@
+[astrewrite] Syntax errors when copying bodydeclarations inside enum
+
+I20050222-0821 + JDT UI Head Steps to reproduce: - Create compilation unit with enums: public enum RGB_COLOR { RED, GREEN, BLUE } public enum HSV_COLOR { } - Drag&Drop one of the enum constants to the other enum, or rearrange them -> Syntax errors occur

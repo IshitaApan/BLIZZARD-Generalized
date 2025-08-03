@@ -1,0 +1,3 @@
+Packages view sorts case senstive
+
+If I have three folders aa Ba and ba They will be sorted in the order Bab aa ba But they should be in case insensitive order aa Bab ba

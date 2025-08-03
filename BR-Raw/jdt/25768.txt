@@ -1,0 +1,3 @@
+Package Explorer flashes too much on refresh and delete
+
+build I20021105 - extracted a zip containing 22 non-Java files (.mxsd files from Dejan) into org.eclipse.ui - in Package Explorer, refreshed org.eclipse.ui - it flashed alot while refreshing - selected the 22 files and deleted them - it flashed even more

@@ -1,0 +1,3 @@
+Wrong labels in rename method refactoring
+
+Labels of the container nodes in the preview page of the Rename refactoring are a constant string: "update method references" or "update method reference" This is bad - it should show the name of the CU like in the type refactoring. Furthermore it should name declarations changes as such and not as reference changes.

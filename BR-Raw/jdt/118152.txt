@@ -1,0 +1,3 @@
+If there is unsaved editor, jar export progress window blocks save dialog
+
+I have saved jarexport description files. If there is any unsaved editors in the workbench and if I right click on jardesc file and select export, progress window is shown. Same time, save dialog pops up. Progress window is the top window and blocks. You cannot access to the save dialog. Cancelling the progress window does not help. Only solution is to kill eclipse.

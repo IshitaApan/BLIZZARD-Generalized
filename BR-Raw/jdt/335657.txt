@@ -1,0 +1,3 @@
+[call hierarchy] Refresh does not bring back removed roots
+
+I20110127-2034. 1. open CH on foo 2. add bar via DnD 3. delete foo 4. refresh ==> foo is not coming back. However, deleting the last node (so that view is empty) and then refresh, brings back that node. ==> either never bring back a root or always bring them back.

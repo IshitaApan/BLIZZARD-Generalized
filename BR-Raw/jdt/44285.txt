@@ -1,0 +1,3 @@
+Search does not like anonymous types [search]
+
+20031007 smoke 1. Open AboutDialog.java 2. In the editor select the method 'actionPerformed' from the anonymous ActionListener. 3. Press CTRL + H 4. The search dialog shows: junit.awtui.AboutDialog.1..actionPerformed(ActionEvent) Looks weird.

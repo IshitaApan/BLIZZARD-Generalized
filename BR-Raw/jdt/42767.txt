@@ -1,0 +1,3 @@
+Grabbing vertically on add constructor/ gen contructors using fields action
+
+The source actions related to creating constructors is not relayouting properly on resize. The lowermost checkbox is grabbing vertically when it shouldn't be. In the case of the gen. constructors using fields dialog, the upper combobox and label are grabbing vertical space when they shouldn't be either.

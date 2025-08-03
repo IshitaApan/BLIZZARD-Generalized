@@ -1,0 +1,3 @@
+Unable to log info messages during jar packaging
+
+Using the 04/18 Integration build, I still can't get an info message into the status maintained by JarFileExportOperation. In my JarWriter implementation, the close() method is throwing a CoreException which contains a status whose severity is set to IStatus.INFO. However, note that JarFileExportOperation.addToStatus() only accepts ERROR and WARNING (and only when they are being logged respectively which they are for my package data).

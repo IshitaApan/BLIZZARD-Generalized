@@ -1,0 +1,3 @@
+[build path] build path page overwrites changes in classpath
+
+I have plugin which contribute page into the Project Properties Dialog (java project). In this page IJavaProject.setRawClasspath() called for current project. I do the following steps: 1. Open Project Properties Dialog 2. Select Java Build Path page. Do nothing with it. 3. Select "MyPage". 4. Do something which calls setRawClasspath(). (file .classpath updated with new values!) 5. Press OK. Dialog closed. oops! File .classpath updated again with old values. It reproduced with M7 and M6.

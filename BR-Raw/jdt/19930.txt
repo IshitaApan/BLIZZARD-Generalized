@@ -1,0 +1,3 @@
+Refactor->Extract Local Variable should guess name [refactoring]
+
+Build F2 90% of the time, when I extract a local variable, the variable name could be easily inferred from selected code. If the last message send in selected code is of the form 'getXXX', the variable name should probably be XXX. e.g. I just extracted a local variable from the following code: getEditorPart().getToolTipHandler() not surprisingly, I named the variable toolTipHandler. It would be nice if the action figured this out for itself and seeded the variable name text field with this guess.

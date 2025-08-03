@@ -1,0 +1,3 @@
+[ast rewriter] Incorrect indenting after inline method
+
+Build: I20051115 1) Start with this code: 	void foo(int x) { 		if (x++ < 6) 			x++; 	} 	void bar() { 		int x = 2; 		if (x < 10) 			x++; 		else 			foo(x); 	} 2) After a refactor > inline of foo(), the result is: 	void bar() { 		int x = 2; 		if (x < 10) 			x++; 		else 			if (x++ < 6) 			x++; 	} Note the inlined if statement is incorrectly indented (with default formatter settings).

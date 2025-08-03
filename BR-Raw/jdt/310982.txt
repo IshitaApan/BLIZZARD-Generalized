@@ -1,0 +1,3 @@
+[hovering] Improve rendering of class references in annotation hovers
+
+HEAD See e.g. hover for org.junit.tests.running.classes.SuiteTest.All: - type links should not be fully qualified - type links should not be rendered in 'header' style (should show underlines)

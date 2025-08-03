@@ -1,0 +1,3 @@
+Override icon hides synchronize icon [icons]
+
+Build 20020920 If you have the following cu: public class X { synchronized boolean equals(Object o) { } } The Outline for X.equals(Object) shows the override icon (green triangle) but it doesn't show the synhronize icon (watch).

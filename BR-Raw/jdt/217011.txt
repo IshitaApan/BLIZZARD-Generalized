@@ -1,0 +1,3 @@
+No error when running JUnit4 on a project using JRE 1.4
+
+I am opening this to cover PDE in the case where the user does something very unorthodox. We had bug 209510 opened when a user tried to run a plug-in compiled with 1.4 with junit4. When I tried this with the regular junit launcher, I did not get any errors in the launch dialog, only after I clicked Run did I find out it did not work. PDE uses JUnitLaunchConfigurationTab directly from debug. So if we could add logic to JUnitLaunchConfigurationTab to verify the JRE version is 1.5 or greater when using Junit4, it would solve the problem in both the traditional JUnit launcher and PDE's JUnit launcher. Though this could very well be wishful thinking :)

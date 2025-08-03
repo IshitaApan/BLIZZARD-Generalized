@@ -1,0 +1,3 @@
+QuickDiff provider name has & in preference list
+
+I20030820 Disk and Remove (from optional zrh tools plug-in) have a & in the label of the preference page.

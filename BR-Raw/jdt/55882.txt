@@ -1,0 +1,3 @@
+Added user library not checked [build path]
+
+Works in I2004032400010 + plug-in export Add a user library after pressing add you get a dialog with an unchecked checkbox where I have to check the added library again. The added library should be checked by default.

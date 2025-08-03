@@ -1,0 +1,3 @@
+[search] Working Set... menu item should appear after MRU working set items
+
+build I20050315 In the References, Declarations submenus, the Working Set... menu item often appears intermingled with the MRU working set items. It should appear after them, at the end of the menu, for consistent positioning that leverages the user's motor memory.

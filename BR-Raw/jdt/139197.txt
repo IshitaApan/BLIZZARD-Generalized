@@ -1,0 +1,3 @@
+[refactoring] 'Introduce Indirection' do nothing when right-clicking on method name in .class file
+
+I20060428-0010 1. Open an external .java fil using File > Open File... 2. Refactor > Introduce indirection... Observe: You get no dialog (as you can expect because of the ellipsis)

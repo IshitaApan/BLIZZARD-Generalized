@@ -1,0 +1,3 @@
+[dnd] Show forbidden feedback when DnD reordering doesn't reorder
+
+I20070807-0010. Show forbidden feedback when DnD reordering doesn't reorder, e.g. when a member is simply moved above/below itself.

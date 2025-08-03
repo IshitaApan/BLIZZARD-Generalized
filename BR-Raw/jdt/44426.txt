@@ -1,0 +1,3 @@
+Move member to top level: Wrong constructor [refactoring]
+
+20031008 - Create the following CU - select the member type in the outliner, choose: 'Move member type to new file' - The code is changed to use a constructor with 'this', howvere, the created type does not have this constructor public class A { 	 	class Vector { 			 	} 	 	public void foo() { 		Vector v= new Vector(); 	} } --- -> Vector v= new Vector(this); -- class Vector { 	/** 	 * 	 */ 	Vector() { 	 		// TODO Auto-generated constructor stub 	} 		 }

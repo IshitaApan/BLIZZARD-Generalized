@@ -1,0 +1,3 @@
+[extract method] Doesn't consider enum type as static
+
+Created attachment 173222 Fix HEAD Extract Method refactoring doesn't consider enum type as static: public class A_test1058 { 	private enum B { 		X, Y; 		 		private void extracted() { 			new Runnable() { 				public void run() { 					System.out.println(/*[*/2 + /**/ 3/*]*/); 				} 			}.run(); 		} 	} }

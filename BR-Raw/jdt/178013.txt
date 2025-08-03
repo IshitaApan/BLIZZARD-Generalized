@@ -1,0 +1,3 @@
+[refactoring] Remove reference to internal ChangeExceptionHandler
+
+20070319 jdt/internal/ui/refactoring/RefactoringExecutionHelper references the internal class ltk.internal.ui.refactoring.ChangeExceptionHandler. That reference should be removed.

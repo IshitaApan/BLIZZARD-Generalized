@@ -1,0 +1,3 @@
+JavaElementLabels broken for nested anonymous types
+
+3.0M4 package p; public class A { 	void m() { 		new Runnable() { 			public void run() { 				new Thread() { 					public void run() { 					} 				}; 			} 		}; 	} } Select 'new Thread() {...}' in the outline -> The label in the workbench StatusLine says: "p.A.1..newThread() {...} - prj/src" but should probably be: "p.A.new Runnable() {...}.new Thread() {...} - prj/src" Example in "real" life: PerformRefactoringUtil#handleChangeAbortException(.). Probably the same cause as for bug 44285: IType#getTypeQualifiedName('.') returns a strange name for anonymous source types.

@@ -1,0 +1,3 @@
+[JUnit] update job leaks
+
+There are situations when the JUnit update jobs are not properly stopped. Need to add safety checks to make sure that the update job is stopped.

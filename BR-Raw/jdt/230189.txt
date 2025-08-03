@@ -1,0 +1,3 @@
+[api tooling] Extending an @noimplement interface should not be an error
+
+Build ID: I20080502-0100 (Eclipse 3.4M7) Consider following rather common scenario: /** @noimplement Do not implement directly. Extend abstract base Foo instead. */ public interface IFoo { //... } public abstract class Foo implements IFoo { //... } With following client code: interface IFooBar extends IFoo { public void bar(); } class MyFooBar extends Foo implements IFooBar { public void bar(); } In this case, the client code legally implements IFoo, because it does so by extending abstract base Foo. This scenario should not be flagged as an error: Just extending an interface does not introduce any binary compatibility issues. But currently the API Tooling flags IFooBar extends IFoo as an error.

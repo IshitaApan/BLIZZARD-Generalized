@@ -1,0 +1,3 @@
+[CommonNavigator][Java] (NeedsApproval)JavaNavigatorContentProvider should return IWorkspaceRoot as parent
+
+The viewer that the Java extension contributes to uses IWorkspaceRoot as its input element, so to ensure correct expansion for paths, the JavaNavigatorContentProvider should return IWorkspaceRoot as the super parent (instead of an IJavaModel). This also supports fixes made as part of bug 139511.

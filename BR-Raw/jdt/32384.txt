@@ -1,0 +1,3 @@
+Cannot open type hierarchy after a cancel
+
+JUnit setup 1) open the type hierarchy on TestCase 2) press F4 on Object 3) cancel in progress bar 4) press F4 on Object again ->nothing happens

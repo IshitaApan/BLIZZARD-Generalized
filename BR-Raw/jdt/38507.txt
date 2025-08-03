@@ -1,0 +1,2 @@
+NewTestCaseWizard - "Type name is empty" error msg on dialog open [JUnit]
+

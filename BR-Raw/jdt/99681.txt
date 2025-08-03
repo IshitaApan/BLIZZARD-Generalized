@@ -1,0 +1,3 @@
+[refactoring] Convert anonymous creates unnecessary fields for enum types
+
+In RC2. Given import java.util.HashSet; public class Exposer { 	enum Color { 		RED, GREEN, BLUE; 	} 	 	/** 	 * @param args 	 */ 	public static void main(String[] args) { 		 		new HashSet<Color>() { 			public void addAllColors() { 				add(Color.RED); 				add(Color.GREEN); 				add(Color.BLUE); 			} 		}; 		 	} } Converting the HashSet to nested creates three unused fields, red, green, and blue.

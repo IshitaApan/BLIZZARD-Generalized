@@ -1,0 +1,3 @@
+[plan item] Configurable Next/Previous actions
+
+Toolbar drop down, or editor specific control. Needs to be coordinated with Platform UI.

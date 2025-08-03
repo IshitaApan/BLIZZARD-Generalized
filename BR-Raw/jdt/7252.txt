@@ -1,0 +1,3 @@
+Can add a variable with no associated jar file to a build path
+
+It is possible to add a variable to the build path for a project using add variable but this will not pick up the classes in that directory. The user although warned can still select it. STEPS 1) Define a classpath variable PATH_TEST that is a directory with classes in it 2) Open the properties dialog on a JavaProject 3) Select the Libraries Tag 4) Select Add Variable 5) Select PATH_TEST 6) You will get a message that Resolved path does not exist. However OK is enabled so you can select this and believe it is valid.The UI correctly shows the empty circle to indicate it is not found but it is easy to miss the cause of this.

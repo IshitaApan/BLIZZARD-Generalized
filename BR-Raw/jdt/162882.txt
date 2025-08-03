@@ -1,0 +1,3 @@
+[preferences] [clean up] Clean Up and Code Formatter preference pages: combo should have label
+
+I20061030-1704 The combo to select the current profile on the Clean Up and Code Formatter preference pages should have label, e.g. Clean Up profile: [profile combo] [edit] [remove]

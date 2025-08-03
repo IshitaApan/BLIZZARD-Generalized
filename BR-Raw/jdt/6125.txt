@@ -1,0 +1,3 @@
+JAR packager reports open files very late
+
+1. edit in a file, don't save 2. open the JAR packager on it's project 3. enter all path, destination, name of jar packager description, etc 4. press finish: 'JAR creation failed: Unsaved Editors' 5. To save, I have to quit the wizard, save, open the wizard again and then enter all fields again - I should be allowed to create a JAR with unsaved editors - If not, there should be a dialog to allow saving

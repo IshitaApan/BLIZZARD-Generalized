@@ -1,0 +1,3 @@
+Quick fix suggests to cast 'null' to 'int'
+
+RC1 private void foo(int i, Object b) {	 	foo(null, '1'); } Suggestion is cast null to int

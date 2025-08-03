@@ -1,0 +1,3 @@
+[junit] JUnit container source attachment broken for 3.8.2
+
+3.3 RC2 The JUnit container needs to be adapted to the new source location of the JUnit 3.8.2 orbit source bundle. See bug 183958

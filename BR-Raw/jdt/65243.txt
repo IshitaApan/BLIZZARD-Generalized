@@ -1,0 +1,3 @@
+Build path dialog: Disable 'Add folder' when ex-/inclusion selected
+
+RC1 On the build path dialog it would be better to disable 'Add folder' when ex-/inclusion selected to avoid confusion to what 'Add folder is releated'

@@ -1,0 +1,3 @@
+dropping on type hierarchy method viewer updates input
+
+20050616-0010 - Open a element in the type hierarchy - enable 'Show all inherited methods' - select a method from Object, drop it to itself - Hierarchy of Object is built Drop to itself can happen easely when clicking quickly on entries. Dropping on the method viewer should be disabled (and I think it was before)

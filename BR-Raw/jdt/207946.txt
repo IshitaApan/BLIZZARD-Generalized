@@ -1,0 +1,3 @@
+[call hierarchy] Call Hierarchy: constructors do not call a type
+
+I20071030-0010. The Call Hierarchy now allows to be opened on a type in which case it lists the constructors as callers. This is wrong. Markus explained that this is a handy workaround to start with all constructors. If we really want this then we should simply feed the call hierarchy with all these constructors as roots and not show the type.

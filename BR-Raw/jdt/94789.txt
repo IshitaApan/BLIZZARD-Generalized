@@ -1,0 +1,3 @@
+Introduce parameter does not call validateEdit [refactoring]
+
+I20050509-2010: Steps to reproduce: - Checkout project in watch/edit mode, using send notifications to CVS server and always prompt settings - Invoke Introduce Parameter on method of this project -> Refactoring does not prompt whether the user would like to send the notification or not -> Refactoring should call Checks.validateModifiesFiles

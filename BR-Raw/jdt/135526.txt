@@ -1,0 +1,3 @@
+[hovering] quick diff hover misses java partitioning
+
+N20060407 - have a cu with some javadoc - change a line in the javadoc and hover over the quick diff indication > expected: the change hover is colored as javadoc < actual: it is colored like java source The fix is trivial: SourceViewerInformationControl should specify the partitioning when creating the source viewer configuration.

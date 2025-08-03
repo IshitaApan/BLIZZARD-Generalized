@@ -1,0 +1,3 @@
+[clean up] Clean up details section should use HTML bullet list
+
+I20070417-0800 3.3M7 polish item. A bullet list would look much better. Also for the save actions additional actions info field.

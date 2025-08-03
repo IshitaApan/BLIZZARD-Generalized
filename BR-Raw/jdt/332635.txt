@@ -1,0 +1,3 @@
+[nls tooling] Eclipse style NLS: Property key hyperlinks do not work for properties files coming from a JAR
+
+See Javadoc for PropertyKeyHyperlink and PropertyKeyHyperlinkDetector. " XXX: This does not work for properties files coming from a JAR due to missing J Core functionality. For details see http://bugs.eclipse.org/22376 "

@@ -1,0 +1,3 @@
+[JUnit] Compare Result dialog should not be modal
+
+Currently, the compare results dialog (in the Failure Trace view) is modal which means that I can't copy&paste several typos from it back into the source code.

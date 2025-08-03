@@ -1,0 +1,3 @@
+Refactoring: Create package in move dialog is blocking
+
+20050124 - Select a compilation unit, choose Refactor -> Move - In the dialog select a source folder and press 'Create folder...' - Enter a package name and press ok - Blocked dialog shows up. 'Operation blocked by background work', but no background operation visible It seems the operation blocked itself out. The 'create package' has been started in the model context thread and tries to get a lock which is taken by the refactoring operation - The blocking dialog could be improved: Blocking has nothing to do with a background work here - Running a modal context thread should better automatically transfer the locks/scheduling rules of the caller thread.

@@ -1,0 +1,3 @@
+JUnit New TestCase wizard inserts "[" in method name [JUnit]
+
+For the method (in the class being tested) with the signature "static double[] applyPixelEncoding(double[][] pm, double value[])" and for which another method exists with the same name but different signature, the wizard generates the method in the test class "public void testApplyPixelEncoding[DArrayDArray() {}"

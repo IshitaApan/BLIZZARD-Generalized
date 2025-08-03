@@ -1,0 +1,3 @@
+Format option loses place in editor (1GHQFU6)
+
+If you select the Format option from the pop up menu in a Java Editor your current selection location is lost requiring you to search around for it again. STEPS 1) Open a relatively large .java file 2) Go near the bottom 3) Select format - you are sent back to the top. NOTES:

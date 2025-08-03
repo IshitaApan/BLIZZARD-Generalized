@@ -1,0 +1,3 @@
+[breadcrumb] context menu does not appear on right-click on the Mac
+
+I20080122-1600, Mac OS 10.4 The context menu does not appear on right-click on a breadcrumb item when the focus was in the styled text area before. Works fine on second click (when the breadcrumb bar has focus).

@@ -1,0 +1,3 @@
+AddMethodDelegateAction includes System.out.println statements
+
+Are these trace statements? Then we should use the options mechanism to enable them. If these are error messages then we should show a dialog to the user or log them in the log file. 						if (fgOverrideFinalsFlag) { 							System.out.println ("method final"); //$NON-NLS-1$ 							System.out.println (overwrittenMethod); 						}

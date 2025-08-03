@@ -1,0 +1,3 @@
+[api] Promote private Constants for Introduce Parameter Object Refactoring to API
+
+Some action constants are still at the wrong place, because of the API freeze.

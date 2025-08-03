@@ -1,0 +1,3 @@
+[quick fix] Static import of non existing method proposes to create type
+
+I20080513-2000 Given: import static other.Test2.sin; public class Test { } 1. Quick fix at error Is: 'Create class sin in type other.Test2' Should: 'Create static method sin in type other.Test2'

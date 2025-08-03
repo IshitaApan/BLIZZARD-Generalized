@@ -1,0 +1,3 @@
+[introduce parameter object] Introduce Parameter Object substitutes wrong class
+
+3.3M7 I20070503-1400 public class A { 	public static void main(String[] args) { 		method(5, 6); 	} 	public static void method(int x, int y) { 		System.out.println(x + ", " + y); 	} } Extract a parameter object class Point in a separate CU on x any y and name it point. The result is: public class A { 	public static void main(String[] args) { 		method(new Point(5, 6)); 	} 	public static void method(java.awt.Point point) { 		System.out.println(point.x + ", " + point.y); 	} } The method call no longer matches the signature, which now references java.awt.Point.

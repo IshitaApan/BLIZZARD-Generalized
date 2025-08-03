@@ -1,0 +1,3 @@
+[projection] redraw problem with JavaEditor.resetProject()
+
+After calling resetProjection() the CompilationUnitEditor seems to keep the [..] annotations on each region that could be folded (see screenshot attached). If anything redraws the editor (e.g. scrolling, activating another editor), the annotations disappear. Note that in the screnshot I made one partly disappear by scrolling.

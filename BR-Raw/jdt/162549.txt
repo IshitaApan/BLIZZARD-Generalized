@@ -1,0 +1,3 @@
+[surround with] Surround-with-if generates wrong code, brackets not matching
+
+Hi, Please refer to the attached screenshot, I have a code snippet with some lines commented off in the end, when performing Source / Surround With / if statement, I see a wrong output, the curly brakets even don't match, It seems the template has been molested by those ending commets which also contain curly brackets.

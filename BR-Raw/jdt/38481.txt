@@ -1,0 +1,3 @@
+getters/setters: insertion point incorrect
+
+20020604 public class Ad { 	 	void f(){} 	 	int foo;	 	int foo1; 	int foo2;	 } i seleced f() as the insert point and it added the getter after all the fields

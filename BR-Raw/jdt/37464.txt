@@ -1,0 +1,3 @@
+call hierarchy: Should not use working copies
+
+The call hierarchy should not use working copies of compilation units since these may go away (e.g. when an editor is closed).

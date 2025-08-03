@@ -1,0 +1,3 @@
+Should have shortcuts for new file and folder (1GIF4F6)
+
+Another vote for adding File and Folder to the new menu in the Java perspective. NOTES:

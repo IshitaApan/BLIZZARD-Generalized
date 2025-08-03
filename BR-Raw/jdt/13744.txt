@@ -1,0 +1,3 @@
+jar export wizard: wrong path to resource folders
+
+Ther jar export wizard creates since last integration build 20020412 a wrong path to the resource path of eg. images. The wizard adds a "src/" below the image or resource path. I have my sources in "src/" and the binaries in "bin/".

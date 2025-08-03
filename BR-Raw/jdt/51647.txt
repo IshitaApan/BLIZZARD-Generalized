@@ -1,0 +1,3 @@
+[navigation] Quick Outline: Toggle inherited method does not reveal selection
+
+20040211 - Open java.lang.reflect.Field and press CTRL+O on 'getShort'. - Press CTRL+O again see attached screenshot: -> getShort not revealed anymore, tree scrolled horizontally

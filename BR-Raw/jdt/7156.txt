@@ -1,0 +1,3 @@
+Search using previous search from Java Search page's list gives wrong results
+
+1. Search via Java Search page (search dialog) 2. Search for something else 3. Select the first Search from the drop down 4. Search ==> searched for wrong java element

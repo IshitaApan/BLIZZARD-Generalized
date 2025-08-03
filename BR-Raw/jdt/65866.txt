@@ -1,0 +1,3 @@
+ASTFlattener generate code with syntax error visiting ArrayCreation
+
+The "public boolean visit(ArrayCreation node)" method of "org.eclipse.jdt.internal.corext.dom.ASTFlattener" appends an "=" between array type and the (optional) initializer. example of code produced: new Class[] = {List.class, ArrayList.class} instead of: new Class[] {List.class, ArrayList.class} To fix the bug simply remove the "fResult.append('=');" line in the visit method.

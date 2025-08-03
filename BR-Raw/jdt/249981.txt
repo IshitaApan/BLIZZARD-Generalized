@@ -1,0 +1,3 @@
+[quick diff] Text should use latest RangeDifferencer
+
+It appears that the text component has it's own instance of RangeDifferencer that was copied from the old RangeDifferencer in compare. The old algorithm was very memory intensive which causes it to degrad in performance as the number of differences in the file increase. Either the algorithm used by Text should be upgraded or the compare differencer should be pushed down to Compare/Core and used by Text.

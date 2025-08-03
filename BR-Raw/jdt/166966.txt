@@ -1,0 +1,3 @@
+[Compare] Support for validateEdit in Java structure compare
+
+Adding support for validateEdit in compare required some minor changes to the JavaStructureCreator. I will attach a patch.

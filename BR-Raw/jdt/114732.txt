@@ -1,0 +1,3 @@
+[clean up] Activating clean up via Ctrl+Enter gives wrong wizard message
+
+I20051102-0010 - have code: private void mm() {} private void mm2() {} - invoke quick fix on mm() to remove the unused private method - start the clean up with Ctrl+Enter => The Clean Up dialog message is: "Select compilation units on which you want to apply the cleanups. You can select individual cleanups on the next page." Expected: Select compilation units on which you want to apply the 'Remove unused private methods' cleanups.

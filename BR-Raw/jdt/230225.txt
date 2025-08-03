@@ -1,0 +1,3 @@
+[breadcrumb] Drop-downs need polish on linux-gtk
+
+I20080502-0100 Drop downs are ugly and don't work correct on linux 1. They are not aligned with breadcrumb item 2. They show a title area 3. They take focus (the title area) when clicking on breadcrumb item We should change the sell style of the drop downs such that no title area is shown (like for content assist pop up). The drawback is, that the drop downs wont be resizable anymore on some platforms (bug 23980), unless we draw our own resize handle like we do for the Javadoc hover. The good thing is that the drop downs resize them self if a node is expanded. Dani? What's your thoughts? IMHO the title bar looks very ugly.

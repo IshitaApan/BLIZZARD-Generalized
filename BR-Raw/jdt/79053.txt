@@ -1,0 +1,3 @@
+Compare: Title not informative enough, when comparing methods from different compilation units
+
+Eclipse I20041110 When comparing two methods (with the same signature) from two classes in the same package the title for both "panes" only shows "method() - project/folder/package". As the "order" (left->right) doesn't seem to be the order in which you selected the methods, but the order they apear in the package-explorer it's not possible to "see" which method is from which class, you must know it. -> When comparing methods from different compilation units the name of the compilation unit should be displayed in the title of the code pane.

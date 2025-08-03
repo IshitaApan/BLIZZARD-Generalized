@@ -1,0 +1,3 @@
+add to build path/remove from build path actions enabled on empty workspace
+
+20030228 they should be disabled because they make no sense there

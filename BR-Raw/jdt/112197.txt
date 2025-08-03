@@ -1,0 +1,3 @@
+[quick fix] "Add @SuppressWarnings 'unchecked' to 'foo()'" appears twice
+
+N20051009-0010 + jdt.core v_616 See bug 89529 for the new raw type warning, which is also suppressed by @SuppressWarnings("unchecked"). import java.util.ArrayList; import java.util.Collection; public class A { void foo(Collection c) { new ArrayList(c); // quick fix // "Add @SuppressWarnings 'unchecked' to 'foo()'" // appears twice, expected: only once } }

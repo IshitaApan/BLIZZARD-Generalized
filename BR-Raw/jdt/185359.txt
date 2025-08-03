@@ -1,0 +1,3 @@
+[introduce parameter object] has inconsistent type qualification schema
+
+I20070502-0010 Given: package test; public class E01 { 	public E01 createE01() { 		return new E01(1); 	} 	public E01(int number) { 	} } 1. Select constructor E01 2. Introduce Parameter Object 3. Accept default except select 'Nested Class in E01' Is: ... public E01 createE01() { 	return new E01(new E01.E01Parameter(1)); } ... Should: ... public E01 createE01() { 	return new E01(new E01Parameter(1)); } ... It is not qualified elsewhere in E01, qualification is not required.

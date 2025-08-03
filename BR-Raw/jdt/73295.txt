@@ -1,0 +1,3 @@
+No javadoc comment inserted with new serialVersionUID field
+
+When the code: private static final long serialVersionUID = 1L; is generated, the new field comment is not used. Version 3.1.M1.

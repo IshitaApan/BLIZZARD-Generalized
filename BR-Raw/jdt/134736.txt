@@ -1,0 +1,3 @@
+[move type] Moving interface from class to another interface produces misleading error message
+
+Moving interface A from class Foo to interface Bar produces misleading error message: "Only 'public static' types and 'public static final' fields with variable initializers can be moved to an interface." class Foo { 	public interface A {} } interface Bar {}

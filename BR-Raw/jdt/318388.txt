@@ -1,0 +1,3 @@
+Replace "org.eclipse.jdt.launching.jreContainerMarker" with JavaRuntime.JRE_CONTAINER_MARKER
+
+FUP of Bug 312402

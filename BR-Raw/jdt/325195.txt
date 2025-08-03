@@ -1,0 +1,3 @@
+[clean up] Write test for bug 322543 (Stops working after 100 problems in one CU)
+
+HEAD. Write a test to verify fix for bug 322543 (Stops working after 100 problems in one CU).

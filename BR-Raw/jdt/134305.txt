@@ -1,0 +1,3 @@
+Incorrect layout for Cleanup dialog
+
+I20060331-1210 The Cleanup dialog does not layout correctly if the dialog font is set to a larger size. Screenshot to follow...

@@ -1,0 +1,3 @@
+[Viewers] Fix Javadoc for StyledCellLabelProvider#styleDecoratedString(..)
+
+Created attachment 125552 Javadoc fix HEAD The Javadoc for StyledCellLabelProvider#styleDecoratedString(..) is a bit terse and partly wrong (about 'null'). Here's a polished version. I would also change the order of the parameters to match the new name of the method (decoratedString is the target, so it should go first): - Is: styleDecoratedString(StyledString styledString, String decoratedString, Styler decorationStyler) - Better: styleDecoratedString(String decoratedString, StyledString styledString, Styler decorationStyler) - Or even better: Move it to StyledString: styleDecorations(String decoratedString, Styler styler)

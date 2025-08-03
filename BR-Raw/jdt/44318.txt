@@ -1,0 +1,3 @@
+annotation hovers don't show up
+
+...if Preferences-->Java-->Editor-->Annotations-->Analyze annotations while typing is turned off. upon saving/compiling files the yellow and red underlines for warnings and errors show up, but not the hovers.

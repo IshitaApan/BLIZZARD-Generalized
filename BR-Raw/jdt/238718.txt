@@ -1,0 +1,3 @@
+[navigation] Quick Outline filters items incorrectly
+
+Ctrl+O doesn't work as expected. It filters out some items incorrectly. Write a sample class, with the following code: public class CtrlO { 	boolean loaded; 	public void load() { 	} } Now press ctrl+o and type "lo" to filter all methods/members but items starting with lo (like loaded or load). You can see that load is removed as you type lo, and just loaded field remains in the list.

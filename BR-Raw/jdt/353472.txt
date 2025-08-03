@@ -1,0 +1,3 @@
+[override method] generating a method override should copy annotations
+
+While working on null annotations in method signatures (bug 186342) I came to wish that completion in a case like this: class A { 	public @NonNull Object foo(@Nullable Object input) { return this; } } class B extends A { 	| // Ctrl-space here } when selecting proposal "override foo" should create s.t. like: 	 	@Override 	public @NonNull Object foo(@Nullable Object input) { 		// TODO Auto-generated method stub 		return super.foo(input); 	} All these annotations should be seen as part of the method specification and not copying them will probably render the override incompatible with the inherited method.

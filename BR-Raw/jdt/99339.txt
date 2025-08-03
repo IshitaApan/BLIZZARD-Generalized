@@ -1,0 +1,3 @@
+NPE during Use Supertype Refactoring [refactoring]
+
+3.1 RC1 Steps to reproduce: - Invoke Use Supertype Refactoring - Proceed until preview - Go back and select other type -> NPE on fEnvironment, which has been null for performance reasons

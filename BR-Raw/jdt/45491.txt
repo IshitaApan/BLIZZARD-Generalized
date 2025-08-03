@@ -1,0 +1,3 @@
+Wrong dependency between compiler javadoc options
+
+The boolean option 'Missing javadoc tags in public types, methods and fields' is not disabled when the "master" javadoc option 'Problem in Javadoc tags' is set to 'Ignore'. Correct behavior should be indentical for example to compiler option: 'Local variable declaration hides another fields or variables' and its dependent option: 'Include constructor or setter method parameters'

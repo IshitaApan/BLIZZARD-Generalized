@@ -1,0 +1,3 @@
+Moving linked resource onto self deletes linked resource
+
+build 20030206 -create a linked folder LA. -move the linked folder to its parent project. ->the linked folder is deleted and an error message appears. The move operation should no be possible.

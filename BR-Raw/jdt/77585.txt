@@ -1,0 +1,3 @@
+Create Enum wizard: file misses header comment
+
+I200411022000 The file which is created by the New Enum wizard has no header comment. Creating a Class or Interface has header comment.

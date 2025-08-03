@@ -1,0 +1,3 @@
+[API] access to AddUnimplementedMethodsOperation
+
+We are using internal jdt calls to perform some of our operations. In order to add method stubs for unimplemented inherited members, we are using the following internal classes / apis - AddMethodStubOperation - IRequestQuery (requried for AddMethodStubOperation) - StubUtility2 (to find unimplemented methods) - ASTNodes - NodeFinder - RefactoringASTParser - JavaPreferenceSettings (to get CodeGenerationSettings for AddMethodStubOperation) We couldn't find public API to replace this usage. This is blocking our effort to remove access to JDT internal source.

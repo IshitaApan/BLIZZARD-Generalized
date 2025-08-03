@@ -1,0 +1,3 @@
+[preferences][templates] importing template preferences does not update the template store
+
+RC1 Importing preferences may change the custom (code) templates. However, the TemplateStore instance storing the templates for the Java editor does not update itself. Steps to reproduce: - import a preferences file with custom template for the file comment - create a new class -> the old file comment is used Solution is to create a IPropertyChangeListener in JavaPlugin and reload the (Code)TemplateStore upon a preference change.

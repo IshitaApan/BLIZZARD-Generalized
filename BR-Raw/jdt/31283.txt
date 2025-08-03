@@ -1,0 +1,3 @@
+Push down refactoring: Preview not resizable
+
+20030206 1. select a method and choose 'push down' 2. in the dialog press the 'preview...' button 3. the dialog coming up can contain som long problem descriptions, but the dialog is not resizable

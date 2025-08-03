@@ -1,0 +1,3 @@
+Need access to type binding of anonymous enumerations
+
+enum XXX { A { void foo() {}}; } - currently there is now API to access the typ[e binding of the anonymous enum created by { void foo() {}} To make anonymous enums more consistent with AnonymousClassDeclaration the EnumConstantDeclaration should have a subnode AnonymousEnumDeclaration. The AnonymousEnumDeclaration would then resolve to a ITypeBinding. As with type declarations there should be an abstract class AbstractAnonymousTypeDeclaration which works as a super class for AnonymousEnumDeclaration and AnonymousTypeDeclaration.

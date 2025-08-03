@@ -1,0 +1,3 @@
+Remove $NON-NLS$ tag quick fix can result in compile error
+
+I20050920-0010 Users might not be aware of the exact non-nls tag syntax and hence add some additional comments behind the tag, e.g.: <some code> //$NON-NLS-1$ some additionaal user comment The quick fix results in: <some code> some additionaal user comment

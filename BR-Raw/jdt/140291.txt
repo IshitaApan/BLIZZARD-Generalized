@@ -1,0 +1,3 @@
+Run both JUnit 3 and JUnit 4 tests in a container
+
+Given a container (project or package) that contains both JUnit 3 and JUnit 4 tests, the user probably intends both test kinds to run when they run all tests in the container. (One of my original patches had this by default, but it doesn't work in the latest patches).

@@ -1,0 +1,3 @@
+JUnit: Exceptions when add new JUnit launch config
+
+Build 20021113 1. Create Java project called JUnit and import JUnit 2. Press Run... from running man button 3. Select JUnit and press New 4. Press Search ==> nothing happens except an exception being written to .log (see attached file)

@@ -1,0 +1,3 @@
+55% of open type hiearchy spent in sorting [type hierarchy]
+
+20021210+latest 1213 junit workspace typehierarchy on Object 55% is spent in sorting

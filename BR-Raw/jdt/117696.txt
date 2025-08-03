@@ -1,0 +1,3 @@
+ExtractInterfaceProcessor should not hardcode ".java"
+
+I20051122-1300 See bug 89977. You should use JavaModelUtil#getRenamedCUName(..) to compute the name of the new interface's compilation unit (new file should have the same extension as fSubType's cu). Note that checkTypeName(String name) uses 'fSuperName' as well as 'name' to refer to the new type. It should either use 'name' exclusively (also in checkSuperType()) or else use 'fSuperName' and remove the 'name' parameter.

@@ -1,0 +1,3 @@
+[nls tooling][quick assist] 'Remove key' should be called 'Remove property'
+
+'Remove key' should be called 'Remove property'.

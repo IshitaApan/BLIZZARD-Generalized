@@ -1,0 +1,3 @@
+[quick fix] Also add imports when invoking 'Copy 'org.eclipse.jdt.annotation.jar' to build path'
+
+I20120430-2000. Like the quick fix that adds JUnit, we should also add the imports, so that the we don't have any errors after invoking the quick fix. Test Case: class A { public @NonNull Object foo(@Nullable Object input) { return this; } } class B extends A { }

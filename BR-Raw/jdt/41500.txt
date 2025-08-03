@@ -1,0 +1,3 @@
+call hierarchy: history dialog, button enablement incorrect [call hierarchy]
+
+20030806 in the history dialog, the 'Remove' button is enabled when nothing is selected and disabled when everything is selected both are wrong

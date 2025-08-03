@@ -1,0 +1,3 @@
+Browsing views should add listener to page [Browsing]
+
+Suggestion from Nick (bug 30751): Note that you should be using the page's selection service, not the window's.

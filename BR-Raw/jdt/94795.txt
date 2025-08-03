@@ -1,0 +1,3 @@
+Refactoring continues after canceling the Save All job
+
+I20050509-2010 'Save All Modified Resources' prior to a refactoring can be circumvented by: - start a long-running job that locks the workspace (e.g., with the org.eclipse.ui.examples.job plug-in) - dirty a CU opend in an editor - invoke Encapsulate Field on a field in this CU - choose OK in the 'Save All Modified Resources' dialog - cancel the unnamed job in the progress dialog (will file separate PR for the unnamed job) - wait -> progress dialog opens again - cancel the long-running job from the first step -> the refactoring proceeds :-)

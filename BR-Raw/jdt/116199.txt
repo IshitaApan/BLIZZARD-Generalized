@@ -1,0 +1,3 @@
+[render] Easy-to-read .jar file reference
+
+In the "Package Explorer" one often ends up with complicated or long paths to the jar files that are rererenced, and because of this the file name often ends up outside the viewable area, the explorer being relatively narrow. The idea here is simply to replace the label text with "shortname (path)" in stead of "path/shortname". I.e. in stead of the current label text that might be M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar Use jarfile.jar (M2_REPO/junit/junit/3.8.1) or jarfile.jar (M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar) This way, one can always see the name of the jar file in the browser.

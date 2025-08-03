@@ -1,0 +1,3 @@
+Go to Previous target not acting like Go to Next target
+
+Go to Previous target is searching through unselected targets such as warnings. The behavior is dissimilar from Go to Next target whose action is reflecting the selection of the drop down to configure targets. The checkmarks for the two are the same, but the behavior differs.

@@ -1,0 +1,3 @@
+JUnit does not give any feedback (i.e. busy) when starting tests. [JUnit]
+
+build I20040529 When running tests (especially JUnit Plug-in Test suites) there is a long delay before the test starts, during this time you are not given feedback as to what is happening and tend to assume something went wrong.

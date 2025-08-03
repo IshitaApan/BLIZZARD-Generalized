@@ -1,0 +1,3 @@
+Rename not allowed when package fragement with same name exists in different source folder [refactoring]
+
+Build I20021119 Create the following structure Test src org.eclipse.code tests org.eclipse.code.tests Now try to rename org.eclipse.code.tests to org.eclipse.code. You get an error that the package already exists in project Test. That's correct but the package lies in a different source folder. We should allow this case.

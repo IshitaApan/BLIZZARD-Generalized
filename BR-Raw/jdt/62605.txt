@@ -1,0 +1,3 @@
+Binding of a simple name representing a constuctor is ITypeBinding but should be IMethodBinding
+
+I20040514 The binding of the simple name "Test" in the following statement "new Test();" is a ITypeBinding. Since the name refers to a constructor the binding should be a IMethodBinding.

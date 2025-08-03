@@ -1,0 +1,3 @@
+[TableCursor] dispose selected item cause exception
+
+not sure if it's a bug: i have a TableCursor and want to remove it under some cisrcumstances. ok, so i call dispose() however, somebody else calles resize just a bit later dispose in TableCursor is handled in asychEcex (i could not find another widget that does it) so my call loses - which leads to an exeption (the widget is not good anymore so i wanted to prevent exceptions by calling dispose()). Could this be changed to synchExec maybe? the my call would win because it's first. Can dispose happen from a thread different than ui, btw ? (i guess not - by looking at Widget::dispose()). If it cannot - then what's the rationale for using *exec() ?

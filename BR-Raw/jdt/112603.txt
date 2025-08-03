@@ -1,0 +1,3 @@
+Push Down does not add @Override
+
+N20051013-0010 Push m() down, leaving it abstract in Try. The method in Sub should get an @Override annotation iff the target is in a 5.0 project. public class Try { protected void m() { System.out.println("working..."); } } class Sub extends Try { }

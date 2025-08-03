@@ -1,0 +1,3 @@
+[refactoring] Inline method on class with varargs constructor
+
+Against I20050513-0010 Attaching whole project, because I've not been able to determine exactly what the minimum feature set to expose the bug is. Using the attached project, inline the method getSides() on class Card. Inside the caller getSide(), a new undefined local variable is introduced. Interestingly, the local variable always has the same name as the name of the local variable through which getSides() is called from CardTest.test00threeSideConstructor.

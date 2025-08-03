@@ -1,0 +1,3 @@
+extract interface: incorrect interface created when extracted methods use the extracted interface
+
+package p; class A { public void m(A foo) { foo.m(foo); } } package p; public class As { void r(A foo) { A local= null; foo.m(local); } }

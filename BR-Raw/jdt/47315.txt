@@ -1,0 +1,3 @@
+Add quick fix for remove an unused @ Javadoc tag. [quick fix]
+
+The 3.0.m5 Javadoc warnings are *great* and will improve our Javadocs. Could we hae quick fixes for the new warnings when possible. For example: when a @throws is no longer valid, a quick fix to remove the comment would be great. Version 3.0.m5.

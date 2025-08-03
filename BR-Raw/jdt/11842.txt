@@ -1,0 +1,3 @@
+new TestCase not always initialized correctly
+
+It works for CUs but not for classes Test Case: select class Test in the Packages view and create an new TestCase ==> only superclass field is initialized

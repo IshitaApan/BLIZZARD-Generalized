@@ -1,0 +1,3 @@
+[browsing] Java Browser will not enable viewing Hierarchy for package in >1 folder
+
+1. Consider workspace/proj/src/test/com/a and workspace/proj/src/test/com/a If com.a is viwed in the PackageExplorer the View Hierarchy options works fine. If one goes the the Java Browsing perspective and selects the proj then "a" shows up in the packages, but the View Hierarchy option is unavailable. 2. In general, why can't one open the Hiearchy View on any aggregate: project, folder or package, or group of packages. (If one opens on a Project the results are bizarre-in my case I see mostly interfaces, and certainly not all classes).

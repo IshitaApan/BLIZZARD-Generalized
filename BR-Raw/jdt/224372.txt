@@ -1,0 +1,3 @@
+[hovering] Severity config should be easier in case on non-project settings
+
+I20080326-1950. Currently, if a project has no project specific problem settings and the user clicks on that button to configure the severity he ends up in properties dialog where he cannot directly set the severity. We should ask the user whether to change the project or workspace settings before opening the dialog.

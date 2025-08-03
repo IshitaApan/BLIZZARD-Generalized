@@ -1,0 +1,3 @@
+Extract method in static initialisers [refactoring]
+
+I got this: static { // do something } I want this: static { methodCall(); } private static void methodCall() { // do something }

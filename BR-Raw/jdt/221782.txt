@@ -1,0 +1,3 @@
+[jar exporter] JAR Export Wizard Should Warn You if Skipping Class files
+
+Build ID: 3.3.1.1 Steps To Reproduce: 1. Create a class with a compiler warning (e.g., unused import). 2. Export to a JAR file, leaving "Export Class files with compile warnings" unchecked. 3. Finish the export. Note that you get no indication that anything went wrong. However, the JAR file contains no class file and of course will not execute (NoClassDefFoundError). More information: I just wasted a lot of time on this. In retrospect, I should have noticed this checkbox. However, since Eclipse is unable to do what I was asking, ideally I should have received a warning -- something like "Warning: Class files with compile warnings were skipped". Thanks.

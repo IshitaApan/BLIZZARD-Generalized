@@ -1,0 +1,3 @@
+DBCS3.1: JUnit example build error
+
+Driver : Eclipse 3.1 I20050509-2010 Linux GTK, and example JVM : IBM 1.4.2 SR1a Platform : RHEL 4 WS ja_JP.UTF-8 locale Steps 1. File > New > Example.., select Example Project -JUnit, click Next 2. use default project name "JUnit", click Finish Result following error is shown at Problems view The project was not built since the source file /JUnit/junit/framework/TestSuite.java could not be read I tried to open it and got This file is unreadable using the "UTF-8" character encoding

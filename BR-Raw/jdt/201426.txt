@@ -1,0 +1,3 @@
+[search] New SearchPattern constant R_CAMEL_CASE_MATCH name may be misleading for users
+
+JDT/Core version v_809 (eg. build I20070828-0800). Added SearchPattern constant R_CAMEL_CASE_MATCH name must have a name which better indicates to user that its behavior will be different than R_CAMELCASE_MATCH constant.

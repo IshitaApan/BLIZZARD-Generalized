@@ -1,0 +1,3 @@
+[clean up] 'add this qualifier' super.field becomes super.this.field
+
+hi, the 'clean up' service to add of missing 'this.' change e.g. super.strName to super.this.strName. thats wrong. other point: how can i change my user name and emal from musolf@dilloncs.de to frank.musolf@sabre.com ? regards frank

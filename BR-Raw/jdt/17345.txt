@@ -1,0 +1,3 @@
+add "org" to "Organize Imports"
+
+Preferences>>Java>>Organize Imports I'd like to see the entry "org" added to the existing entries "java, javax, com". The package prefix "org" is so common ... why not add it to the existing ones ... eclipse itself has mostly this prefix.

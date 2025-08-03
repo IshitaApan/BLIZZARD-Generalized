@@ -1,0 +1,3 @@
+Compiler warning in I20070516-0010
+
+1. WARNING in /ui/org/eclipse/jdt/internal/ui/text/AbstractInformationControl.java (at line 748) IWorkbenchPartSite site= part.getSite(); The local variable site is never read

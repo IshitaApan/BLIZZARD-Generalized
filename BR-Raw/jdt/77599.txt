@@ -1,0 +1,3 @@
+[5.0] Structure comparing of enums does not work
+
+I200411022000 1. Create enum (either as separete file or inside a class): public enum E { 	A, B, C, D, F, Incomplete } 2. Delete B and save 3. compare ==> no structural difference gets reported

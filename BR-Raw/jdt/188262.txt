@@ -1,0 +1,3 @@
+[javadoc export] source version '1.6' missing for selection
+
+3.3 RC1 On the last page of the Javadoc exporter open the 'JRE source compatibility' combo. '1.6' is missing. The combo is modifiable, but we should have 1.6 for convenience and consistency.

@@ -1,0 +1,3 @@
+[breadcrumb] Should have "Hide Breadcrumb" in context menu
+
+I20100425-2000 The only visible way to hide the breadcrumb again is to click the toolbar button. We should add a "Hide Breadcrumb" item to the context menu (and bind it to the "Toggle Breadcrumb" command). Like "Hide Toolbar".

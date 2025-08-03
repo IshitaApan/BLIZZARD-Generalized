@@ -1,0 +1,3 @@
+Filter text in title is wrong
+
+I200405190010 1. Search for declaration of T ==> 1 match 2. Enable one of the filters ==> "Filters Matched 1" This is wrong since it did not match anything. It should be like in the Task view where it says; "Filter matched i of n items".

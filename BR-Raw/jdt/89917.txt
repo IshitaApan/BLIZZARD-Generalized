@@ -1,0 +1,3 @@
+[formatter] UI for "Keep empty array initializer on one line" option is confusing
+
+The checkbox for "Keep empty array initializer on one line" causes confusion like bug 89299, as it appears to do nothing if "Array initializer" is set to "same line". Is there a reason the checkbox can't just be disabled if it would have no effect?

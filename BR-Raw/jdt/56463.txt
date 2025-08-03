@@ -1,0 +1,2 @@
+First page of new project wizard does not use dialog font [dialogs] [code manipulation]
+

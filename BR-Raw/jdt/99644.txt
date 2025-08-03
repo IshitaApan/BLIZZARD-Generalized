@@ -1,0 +1,3 @@
+[quick fix] Unused parameter quick fixes have disappeared (regression?)
+
+In RC2, with warnings enabled for unused parameters: public void foo(int x) { } A quick fix on the warning on x gives "No suggestions available". In N20050608-0010, it gives three options: add @SuppressWarnings to the parameter, add @SuppressWarnings to the method, and remove the parameter. These are all gone. Is this intentional?

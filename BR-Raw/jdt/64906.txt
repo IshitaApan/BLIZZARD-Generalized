@@ -1,0 +1,3 @@
+Externalize Strings: bold items in table don't use dialog fonts [nls] [refactoring]
+
+RC1 - set an unusual dialog font - open externalize strings observe: bold items aren't rendered in dialog font.

@@ -1,0 +1,3 @@
+[refactoring] RefactoringSearchEngine2 allows null monitor, but does not handle them
+
+the search method allow null as progressmonitor, but do not handle the null correctly

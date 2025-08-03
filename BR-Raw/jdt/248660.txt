@@ -1,0 +1,3 @@
+[implementation] AbstractJavaCompletionProposal leaks file handle
+
+Current HEAD AbstractJavaCompletitionProposal#getCSSStyles forgets to close the input stream while reading the css file.

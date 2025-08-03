@@ -1,0 +1,3 @@
+Menu cleanup in JDT UI
+
+* Navigate - Open type Hierarchy (F4) should become dynamic based on the preference setting 	1) Open type hierarchy (F4) opens type hierarchy perspective 	2) Show type hierarchy (F4) shows the type heirarchy view in the current perspective	 - Open Call Heirarchy TO Show Call Heirarchy - Show Outline (Ctrl+O) TO Quick Outline - Open type Hierarchy (Ctrl+t) TO Quick Type Hierarchy Package Explorer - Cut only show cut when the show members preference is enabled. cut is only ever enabled on source elements. Fallback is to only add cut when the action is enabled. Refactor - move introduce paramater to below change method signature

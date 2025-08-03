@@ -1,0 +1,3 @@
+Parameter assist highlighting doesn't always match editor
+
+Build 20020426 (M5 patch 1) Type the following in the body of a java method: int[] source, destination; System.arraycopy(source, <cursor> Now hit Ctrl+Space at <cursor>, and hit enter to select the only match in the popup list. Now the "parameter assist" window is supposed to highlight the parameters as they are typed in the editor. Since I have already typed the first parameter before doing code-assist, the highlighting will always be off by one parameter as I type.

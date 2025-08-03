@@ -1,0 +1,3 @@
+[search] Unable to search just for references to overridden method
+
+I have a class Obstacles extends Rectangle, which overrides containsPoint(int, int). I would like to search to references to this method. When I search, I get all references to Rectangle#containsPoint(int, int) instead. How can I make this search? Which method is the bytecode calling?

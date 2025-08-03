@@ -1,0 +1,3 @@
+quick fix: method name not offered
+
+void d(){ 		class D{ 			void fs(){ 				dsss(); //error 			}; 		} 	} d is not offered as a fix

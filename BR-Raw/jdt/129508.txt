@@ -1,0 +1,3 @@
+[quick assist] convert to enhanced for should not be applicable sometimes
+
+3.2M5 convert should not be applicable here for (Iterator<Integer> iter = removed.iterator(); iter.hasNext();) { Integer id = iter.next(); //do stuff iter.remove(); //after convert this is broken } or here for (Iterator<Integer> iter = removed.iterator(); iter.hasNext();) { Integer id = iter.next(); //do stuff boolean x= iter.hasNext(); //after convert this is broken } in general, whenever the iterator is used for anything else than the next() call, the conversion should be disabled. It's quite annoying to have to go back and fix those problems (revert to old code) after I just did clean up.

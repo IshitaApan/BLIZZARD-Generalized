@@ -1,0 +1,3 @@
+Failing test case NewForLoopJavaContextTest.testInnerArray()
+
+Build input for I200506-1600 I disabled the failing test case NewForLoopJavaContextTest.testInnerArray() for the build. Expected: 	for (Inner inner : array) { 		 	} Was: 	for (A.Inner inner : array) { 		 	}

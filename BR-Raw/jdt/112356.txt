@@ -1,0 +1,3 @@
+[syntax highlighting] Syntax highlight isn't applied to auto-unboxed expressions with a cast
+
+In this example, neither the setBool() with explicit cast, nor the assignment to b2 indicate that the object is being auto-unboxed. It's unclear to me exactly what should be highlighted, the final term of the expression (this happens with non-casted expressions), or maybe the cast itself. --- public abstract class BoxingHighlightExample { abstract public boolean getBool(); abstract public void setBool(boolean b); public void demonstrate() { Boolean o1; Object o2; o1 = getBool(); o2 = getBool(); setBool(o1); setBool((Boolean)o2); boolean b1 = o1; boolean b2 = (Boolean)o2; } }

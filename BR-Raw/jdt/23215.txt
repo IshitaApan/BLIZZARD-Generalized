@@ -1,0 +1,3 @@
+Type Hierarchy: Ctrl + 1 doesn't work [type hierarchy]
+
+Type Hierarchy allows to switch between its 3 views by hitting Ctrl + 1, Ctrl + 2, Ctrl + 3 (that's what Tooltips say). 2 & 3 work fine, but my Hierarchy doesn't react on Ctrl + 1. Maybe there's an interference with Quick Fix (Ctrl + 1 too, but only active in JavaEditors). Version: 2.0 Build id: 200208201620

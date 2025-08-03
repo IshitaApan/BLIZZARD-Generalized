@@ -1,0 +1,3 @@
+[typing] New Javadoc comment starts with 2 blank lines instead of 1
+
+build I20030211 Before a method with no comment, type /** <enter>. You get: 	/** 	 * 	 * 	 */ This has one more blank Javadoc line than I expect.

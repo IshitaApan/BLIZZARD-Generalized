@@ -1,0 +1,3 @@
+[nls tooling] Exernalize Strings Wizard always imports accessor class
+
+I was externalizing strings in some new files yesterday and noticed that I was just internalizing everything because these were strings that didn't need to be externalized (ie., HTML tags). When I ran through the wizard, it gave me an unused import on my access class. The wizard should probably be more intelligent in when it decides to add the import.

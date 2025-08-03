@@ -1,0 +1,3 @@
+"Reconcile Java views" preference is meaningless
+
+"Window->Preferences->Java->Reconcile Java views" I don't think anyone will know what this preference does. It should be given a more meaningful title.

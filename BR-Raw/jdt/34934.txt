@@ -1,0 +1,3 @@
+[dnd] not consistent
+
+RC2 Drag support is not consistent for all JDT UI views: package explorer: support file, resource and selection transfer type hierarchy: only selection transfer is supports. Hence non DnD from type hierarchy to workbench parts (e.g the editor, navigator) or to another application. Java outliner: same as type hierarchy browsing perspective: no file transfer hence no DnD to another application.

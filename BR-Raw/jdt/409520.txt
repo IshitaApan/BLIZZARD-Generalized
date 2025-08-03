@@ -1,0 +1,3 @@
+[1.8][quick fix] "Add unimplemented methods" should not create stubs for default methods
+
+BETA_JAVA8 and master The "Add unimplemented methods" quick fix should not create stubs for default methods. public class MyString implements CharSequence { } => When compiling against a 1.8 JRE, the quick fix also adds stubs for chars() and codePoints(), which are new default methods in CharSequence. "Source > Override/Implement Methods" already looks good (only selects abstract methods).

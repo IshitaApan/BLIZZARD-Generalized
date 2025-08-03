@@ -1,0 +1,3 @@
+[extract superclass] Extract Superclass without 'Use the extracted class' removes code
+
+I20060718-0800 Given: package test; public class E1 { 	private static void foo() {} 	public void bar() {foo();} } 1. Select 'E1' 2. Refactor>Extract Superclass 3. Type in 'Super' 4. Deselect 'Use Superclass where possible' 5. Select 'foo' 6. Finish Is: 'foo' is removed from E1 but not added to Super Should: be added to Super and private changed to protected

@@ -1,0 +1,3 @@
+[preferences] 'Errors/Warnings' page: allow to filter a section for a value
+
+I20100804-1800. The 'Errors/Warnings' page should allow to filter a category for a value, e.g. ~warn code style code style ~error

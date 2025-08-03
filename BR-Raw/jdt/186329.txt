@@ -1,0 +1,3 @@
+[introduce parameter object] Inlining fails if name of parameter on super class differs
+
+package p; public class A { 	public void foo(int xg, int yg, int zg) { 	} } class B extends A { 	public void foo(int x, int y, int z) { 		System.out.println(x); 	} } using defaults results in: package p; public class A { 	public void foo(FooParameter parameterObject) { 	} } class B extends A { 	public void foo(FooParameter parameterObject) { 		System.out.println(x); 	} }

@@ -1,0 +1,3 @@
+Debugger silently fails to prompt for source
+
+20011025 Drop The debugger silently fails to bring up the source prompt dialog when the class file does not exist in the workspace. For example, I created Test.java in the filesystem public class Test { public static void main(String[] args) { while(true) { System.out.println(System.currentTimeMillis()); try { Thread.sleep(1000); } catch (InterruptedException ie) { return; } } } } I ran in via the command line and the JDI debug flags. I started the 20011025 version of Eclipse and started a remote debug launch. The debugger connected to the VM. I clicked the main method and hit pause. I clicked "step out" to get out of the Thread.sleep(long) call. I then could not get the debugger to prompt me for source.

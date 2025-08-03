@@ -1,0 +1,3 @@
+Externalize Strings should remember the input values of the last time. [refactoring] [nls]
+
+It whould be handy if the package selected (and every other value that most of the time would be the same as the previous time) is remembered for the next time!! in the Externalize Strings dialog Now i always have to change the package (2 times!) in that dialog most of the time you want one resource bundle file for you application

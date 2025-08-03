@@ -1,0 +1,3 @@
+[CommonNavigator] Navigator: Delete fails with nested resources
+
+20071030 - create project 'p', with folder 'folder' and file 'file' inside the folder p folder file - select 'folder' and 'file', press delete - Delete fails The DeleeResourcesRefactoring doesn't allow to delete resources nested in each other. > Either we need to disable 'Delete' when a nested selection happens (See DeleteResourcesRefactoringAction in ltk.refactoring.ui.tests) or we must process the selection first to 'normalize' it

@@ -1,0 +1,3 @@
+[QuickDiff] Let QuickDiff hovers adapt to horizontal scrollbar
+
+Test Case: - on a long line: make a change such that you have to scroll horizontally to see the change - use QuickDiff -> Hover shows line from its start and does not match the horizontally scrolled text in the editor

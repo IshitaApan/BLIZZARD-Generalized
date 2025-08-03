@@ -1,0 +1,3 @@
+Method stub for "main" interferes with main method template [code manipulation]
+
+Build 20040513 When codeassisting behind "main", the codeassist menu incorrectly offers both a main method template and a main method stub (the latter appears first and shouldn't appear at all).

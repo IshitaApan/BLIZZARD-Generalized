@@ -1,0 +1,3 @@
+Java editor syntax prefs: FULL_SELECTION for 'Foreground:' list
+
+I20040512-0800 Preferences > Java > Editor > Syntax: 'Foreground:' list/table should have SWT.FULL_SELECTION flag set to allow selection of an entry by clicking on the white space to the right of the item label (like the lists in 'Appearance' and 'Hovers' tabs).

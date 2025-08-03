@@ -1,0 +1,3 @@
+[preferences] Provide a generic way to update dependencies
+
+I200409280800 On the spelling preference page, check to spell-check comments Click Restore defaults The nested checkboxes under "spell-check comments" remain enabled.

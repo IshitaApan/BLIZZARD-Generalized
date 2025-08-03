@@ -1,0 +1,3 @@
+[navigation] Find Occurrences: declaration of method parameter is write-access
+
+Find Occurrences: declaration of method parameter is write-access (methods, constructors, anonymous class creation expr, ...). Currently, those are flagged as read-access.

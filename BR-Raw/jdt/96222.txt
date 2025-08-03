@@ -1,0 +1,3 @@
+[build path] Java User Libraries import/export format is not backward compatible
+
+Hi, I have problems importing Java User Libraries from Eclipse 3.0.2 to the latest Eclipse 3.1M7. It appears that the format of .userlibraries file has been changed and is not compatible with previous Eclipse release anymore. I have investigated the difference and found out that new Eclipse 3.1M7 fails to process path values with backslash ("\") separator. Replacing backslash characters by Unix-like slash "/" fixes the problem. Could you look at the problem, please.

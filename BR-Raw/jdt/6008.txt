@@ -1,0 +1,3 @@
+deleting a source folder does not remove it from classpath
+
+see summary

@@ -1,0 +1,3 @@
+F2 should work even if "Hide Text Hover" is enabled
+
+- enable "Hide Text Hover" - position the cursor on a type - press F2 observe: nothing happens although I explicitly requested JavaDoc help.

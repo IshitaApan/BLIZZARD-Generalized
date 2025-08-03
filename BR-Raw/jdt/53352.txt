@@ -1,0 +1,3 @@
+Test case wizard generates wrong code
+
+When clicking on a class and then doing new -> junit test case the code generated includes this: public static void main(String[] args) { 		junit.textui.TestRunner.run(QueryAnalizerTest.suite()); 	} the suite() methods is not found in generated class. I fix if by changing to 		junit.textui.TestRunner.run(QueryAnalizerTest.class); but I don't use to run is as an app, so maybe the fix action shuold be different

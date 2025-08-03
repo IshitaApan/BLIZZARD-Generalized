@@ -1,0 +1,3 @@
+Preferences dialog opened from 'Search' view should be scoped
+
+I20110307-2110 1. Open the 'Search' view. 2. Ctrl+F10 > Preferences... 3. Everything is available in this preference dialog. Perhaps it should only be scoped to 'General > Editors > Text Editors > Annotations' and 'General > Search'?

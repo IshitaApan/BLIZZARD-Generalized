@@ -1,0 +1,3 @@
+IMethodBinding#getJavaElement() drops extra array dimensions and varargs
+
+v_542 IMethodBinding#getJavaElement() drops extra array dimensions and varargs: public class TestArray { public int[] bar(int a[]) { // element is (nonexistent): test1.TestArray.bar(int) return a; } public Object[] bar2(Object[] o[][]) [][] { // element is (nonexistent): test1.TestArray.bar2(Object[]) return o; } public void bar3(Object... objs) { // element is (nonexistent): test1.TestArray.bar3(Object) } }

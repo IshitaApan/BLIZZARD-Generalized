@@ -1,0 +1,3 @@
+[misc] Focus on Javadoc view looses selection in Java browsing views
+
+Steps to reproduce: 1. Open Java Browsing perspective 2. Open Javadoc view 3. Select a class in Types view 4. Scroll down in the Javadoc view Result: The selection in Project, Packages and Types is lost. When browsing classes it's tedious to always reselect the project, the package and the class. The selection shouldn't be lost when scrolling in the Javadoc view.

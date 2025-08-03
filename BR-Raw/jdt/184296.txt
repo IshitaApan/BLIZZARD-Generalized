@@ -1,0 +1,3 @@
+[package explorer] Duplicate dynamic Web project created programmatically
+
+Driver: WTP 2.0 04261031 When using the Web services wizard to programmatically create a dynamic Web project (say "bu1Client"), 2 projects with the same name got created. The contents of the projects are: bu1Client - build - src - WebContent bu1Client - src - Web App Library - JRE System Library - Apache Tomcat v5.5 - build - WebContent If I close and open the projects, the duplicate project disappears. The same goes for closing and reopening the workspace. To reproduce the problem, just go through a Web service scenario with client slider set to TEST with a non-existing client project.

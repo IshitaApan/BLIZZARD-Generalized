@@ -1,0 +1,3 @@
+Not all interfaces shown in Type Hierarchy
+
+I200402102000 Open Type Hierarchy on package junit.framework. Observe: only one interface instead of three is shown. Nothing in .log

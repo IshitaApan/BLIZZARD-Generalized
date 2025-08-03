@@ -1,0 +1,3 @@
+Newly added items are not inserted at correct position in package explorer
+
+I20030319 (RC3) On MacOS X: - create new Java project "test" - select project - create folder "A" inside this project Observe: "A" shows up as last child of "test" - collapse tree node "test" - exapnd tree node "test" Observe: now "A" shows up at correct position

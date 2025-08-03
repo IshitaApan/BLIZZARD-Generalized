@@ -1,0 +1,3 @@
+Cannot create a Source Folder in a new Java Project
+
+build 20020404 If you try and create a Source Folder in a Java Project you have just created you get an error preventing you from hitting finish. STEPS 1) Create Java Project Foo 2) Open New->Source Folder 3) Enter Bar as the name - you will get "Cannot nest entry Bar inside entry Foo/Bar" 4) Create a folder Bar. 5) Add it as a source folder in the Properties Dialog for Foo. No problem.

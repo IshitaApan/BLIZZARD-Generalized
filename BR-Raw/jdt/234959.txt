@@ -1,0 +1,3 @@
+[ltk] [wording] Deleting a file no longer mentions that it will be deleted from the file system
+
+In 3.3, if you delete a file from a project you got the dialog asking "Are you sure you want to delete "xxx" from the file system?". In 3.4, it asks "Are you sure you want to delete "xxx"?". We feel that this is an important change because it's not clear, especially for users coming from other IDE's, that the file will actually be deleted from the file system. in many other IDE's like Visual Studio, deleting a file only deletes it from the project itself. I know it sounds trivial, but we've already run into some customers complaining about there files going missing even with the 3.3 dialog. :) Can we please change the text back to how it was?

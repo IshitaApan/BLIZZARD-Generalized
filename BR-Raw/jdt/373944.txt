@@ -1,0 +1,3 @@
+[breadcrumb] should show package-info.java
+
+Breadcrumb should show package-info.java as child of a package (as a CU).

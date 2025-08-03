@@ -1,0 +1,3 @@
+[rulers][preferences] allow disabling of range indicator on left of java editor
+
+I found that the range indicator (the dark stripe displayed on the left of the java editor, showing the range of the current java element) does not add any useful infomrtaion to me, actually it adds noise on the gutter where many indicators (problem markers, debug breakpoints, override indicator ...) are shown. Please provide a way to turn it off. PS : I am not the only one, see news://news.eclipse.org:119/cp6njn$67h$1@www.eclipse.org

@@ -1,0 +1,3 @@
+Show type hierarchy cancel ends up with empty dialog
+
+1) open type hierarchy on object 2) cancel ->the search is cancelled but an empty dialog is showing up.

@@ -1,0 +1,3 @@
+Show Profile dialog sizes badly when custom dialog font is used
+
+I20050509-2010 When a custom dialog font is use, the Show Profile dialog may not be large enough to show all controls. Either it should size properly or add the controls to a scrollable pane. Image forthcoming.

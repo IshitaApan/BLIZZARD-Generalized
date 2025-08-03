@@ -1,0 +1,3 @@
+[clean up] On save clean up should leverage ICleanUps requrieAST
+
+I20070109-1805 If format on save is the only clean up it is not required to create an AST, but at the moment CUPSL does not use the requiresAST query on ICleanUp and therefor creates an unnecessary AST in this corner case.

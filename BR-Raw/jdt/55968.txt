@@ -1,0 +1,3 @@
+[misc] segmented view does not work with new methods
+
+i2004-03-24+plugin export - add a new method into a class by typing: public void test() {[enter] - the closing bracket is made automatically and the cursor is placed in the method - press "show source of selected element only" - observed behavior: the selected segment is the whole class rather than the method in which the cursor was

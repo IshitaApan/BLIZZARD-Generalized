@@ -1,0 +1,3 @@
+JUnit view tab should be in italics while tests are running [JUnit]
+
+3.1M3 While JUnit tests are running, JUnit views should look busy and properly have their tab be rendered in italics.

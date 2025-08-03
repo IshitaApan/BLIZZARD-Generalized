@@ -1,0 +1,3 @@
+[content assist] Auto-complete for Javadoc @link reference
+
+When using auto-complete for javadoc @link a double notation is presented: 1. inside a javadoc style comment, start entering a class to link to, e.g. Object. 2. press Ctrl+space to auto-complete and choose one of the {@link Object} options. This will result in a: {@link {@link Object}} notation instead of only {@link Object} This did not appear in 3.2M6

@@ -1,0 +1,3 @@
+[painting] Should not search for occurrences if element under cursor is the same
+
+I would like to drop here a new feature request. I think it would be very useful to highlight all variable occurrences when the editor’s cursor is located over the variable. It’s also useful to be able to navigate between these occurrences to understand the variable usage evolution. I have already written plugins for JBuilder and JDeveloper that do this. If you want to see how it works, you can get them from http://home.t- online.de/home/simeon.zverinski/variablehighlighter/.

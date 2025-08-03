@@ -1,0 +1,3 @@
+modifiersChanged() hook not called in NewTypeWizardPage [code manipulation]
+
+The modifiersChanged() hook in NewTypeWizardPage is not being called when a modifier radio-button is selected (public/default/private/protected), it is only being called if a check box is selected (abstract/final/static). I suspect a missing "else if" clause in typePageDialogFieldChanged() in NewTypeWizardPage is the culprit. As such am unable to extend NewTypeWizardPage and validate modifier settings (working on custom "class" wizard extension).

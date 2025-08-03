@@ -1,0 +1,3 @@
+[quick fix] "Change type" uses "? extends Number" as variable type in generic enhanced for loop
+
+Build ID: I20080617-2000 (3.4.0) Steps To Reproduce: Please apply the quickfix, and see the illegal result. ---------------------- Bug.java --------------------- import java.util.*; class Bug { 	{ 		ArrayList<Number>list=new ArrayList(); 		HashSet<Short>set=new HashSet(); 		for(AbstractCollection<Number>bunch:Arrays.asList(list,set)); 	} }

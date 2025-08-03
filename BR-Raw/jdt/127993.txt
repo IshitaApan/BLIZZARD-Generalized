@@ -1,0 +1,2 @@
+Add implementations for SyncContentAdapter#save and restore
+

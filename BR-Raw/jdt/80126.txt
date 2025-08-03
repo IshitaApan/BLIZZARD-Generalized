@@ -1,0 +1,3 @@
+[assist] CompletionRequestor.setIgnored should allow POTENTIAL_METHOD_DECLARATION
+
+20041203 The code in CompletionRequestor.setIgnored should be updated as new constants POTENTIAL_METHOD_DECLARATION and METHOD_NAME_REFERENCE are larger than VARIABLE_DECLARATION public final void setIgnored(int completionProposalKind, boolean ignore) { if (completionProposalKind < CompletionProposal.ANONYMOUS_CLASS_DECLARATION 	|| completionProposalKind > CompletionProposal.VARIABLE_DECLARATION) { 	throw new IllegalArgumentException(); }

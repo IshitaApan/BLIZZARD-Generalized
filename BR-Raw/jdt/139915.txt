@@ -1,0 +1,3 @@
+[nls] Find Broken Externalized Strings action should not be enabled for accessor classes not on build path
+
+3.2 RC2 The Find Broken Externalized Strings action does not correctly work on accessor classes not on the build path and should therefore be disabled.

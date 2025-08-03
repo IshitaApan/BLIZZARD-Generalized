@@ -1,0 +1,3 @@
+[Extract Class] Used import removed
+
+Use Extract Class on org.eclipse.compare.ZipFileStructureCreator.ZipFolder using create getters and setters. The needed import HashMap will be removed.

@@ -1,0 +1,3 @@
+ACC: JUnit gui is not accessible [junit]
+
+1) JUnit GUI is not screen reader accessible (can't read w/ MS Inspect or JAWS) 2) Moderately keyboard accessible........can't move between different areas without the use of the mouse

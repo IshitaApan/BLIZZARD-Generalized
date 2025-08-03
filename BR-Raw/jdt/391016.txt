@@ -1,0 +1,3 @@
+[organize imports] null returned even though SharedASTProvider.WAIT_YES was used
+
+Created attachment 221833 stacktrace I got the attached "IllegalArgumentException: AST must not be null" while modifying a Java file during a full rebuild of my huge workspace (that takes several minutes to compile). Eclipse SDK Version: 3.8.0 Build id: I20120608-1200

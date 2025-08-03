@@ -1,0 +1,3 @@
+[compiler] Compiler gives misleading Range for invisible field
+
+public class A { 	private int test; 	public static A a = new A(); } class B { 	private void foo() { 		A.a.test=8; 	} } In method foo() the small a is highlighted while the real problem is test. This leads to a wrong change visibility quickfix. (The visibility of A is "raised" to friend access)

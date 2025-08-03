@@ -1,0 +1,3 @@
+[inline] Inline local in constructor with compile error does remove code
+
+I20061121-1845 Given: package test; public class E1 { 	public E1(String label) {} 	public E1() { 		String s= "foo"; 		this(s); 	} } 1. Select variable 's' 2. Inline 's' (either through quick assist or through refactor menu) Is: public E1() { 	this(s); } Should: public E1() { 	this("foo"); } No exception is thrown.

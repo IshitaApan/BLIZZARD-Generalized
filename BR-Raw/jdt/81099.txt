@@ -1,0 +1,3 @@
+JUnit preference does not Restore Defaults [JUnit]
+
+I200412142000 Restore Defaults has no effect on the "Show JUnit view only when error occurs" preference.

@@ -1,0 +1,3 @@
+'show in packages view' - does not work fo java files not in source folders
+
+20020502 open a java file that is in a resource folder (so it is not an ICompilationUnit - just a file with .java extension) 'show in packages view' is present in the context menu but it does nothing

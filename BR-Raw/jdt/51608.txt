@@ -1,0 +1,3 @@
+project creation wizard: add folder button lets one add existing folder the first time
+
+M7 test pass, I200402102000 1. Create a new java project 2. configure using src and bin folders 3. on the second page, press "add folder" 4. enter "src" as the folder name into the mask -> there is no complaint about the added folder, although it already existed -> when pressing "add folder" a second time, a different dialog comes up, allowing to specify where to add a new folder. Entering an existing folder name here gets flagged as an error. -> it seems that although there is an entry for the preconfigured "src" folder, it does not yet exist really.

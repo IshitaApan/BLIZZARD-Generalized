@@ -1,0 +1,3 @@
+Missing description on preference pages
+
+Build 20020409 Java preference pages have a description (ended by .) Java -> Refactoring Java -> Junit don't. They start directly with the preferences. Note: Filed separate PR for Java -> Debug

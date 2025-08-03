@@ -1,0 +1,3 @@
+[refactoring] PromoteTempToField doesn't properly set the type and the modifiers of the resulting variable declaration statement
+
+If you change the getType() of VariableDeclarationStatement class to return double instead of int, three tests are failing in org.eclipse.jdt.ui.tests.refactoring.PromoteTempToFieldTests. They are test8, test13 and test15 (existing tests in 3.1). Three new tests are also failing. testMultiVariableDeclFragment01, testMultiVariableDeclFragment02, testMultiVariableDeclFragment03. These tests are new since 3.1 is out. The problem comes from the fact that the type of the variable declaration statement is not set. So a default type (int) is retrieved. I will attach a patch for it. This would be a candidate for 3.1.1.

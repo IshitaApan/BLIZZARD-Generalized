@@ -1,0 +1,3 @@
+Need filter to hide anonymous inner classes in Package Explorer
+
+I20031007 see also bug 43999

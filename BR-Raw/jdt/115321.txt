@@ -1,0 +1,3 @@
+[clean up] Qualify with 'this' does not generate a 'this' if more then 350 warnings in a CU
+
+Version: 3.2.0 Build id: I20051102-1600 In large CUs it is possible that there are more then 350 'unqualified field accesses' but the clean up does only handle the first 350 and ignores the rest. The 'qualify with this' clean up should not try to fix the warnings but use an ast visitor to find the unqualified field accesses.

@@ -1,0 +1,3 @@
+New Project/package/class not selected in package explorer
+
+I20030129 - create one of the java elements using the wizard. observe: the new element is not selected in the package explorer. The reason is that we post resource deltas asynchronously.

@@ -1,0 +1,3 @@
+Java Perspective slow to switch to the first time
+
+Build 20020530. I have a workspace with a Java, Java Browsing, Debug, and Resource perspectives open. The workspace is saved with the Resource perspective active. The Java Perspective is on the Packages view and a class is expanded (e.g. org.eclipse.ui.internal.WorkbenchPage) so that its methods are listed. When I start the workspace and attempt to switch to the Java Perspective it takes on the order of 10 seconds, whereas switching to other perspectives is only about 4 seconds. If I go to the Packages View, collapse my project (i.e., org.eclipse.ui), switch back to the Resources perspective, save and re-open workspace then switching to the Java perspective takes about 4 seconds.

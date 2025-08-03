@@ -1,0 +1,3 @@
+[New Search] Lose sort order
+
+20040326 - 8am build I'm using the flat layout & choose to sort by parent name, but this setting is not propagated to new search views in other perspectives/windows.

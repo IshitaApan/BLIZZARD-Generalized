@@ -1,0 +1,3 @@
+Quick-fix duplicates comments
+
+Enter codes below in a class: public void run(){ // some comments URI uri = new URI("http://www.somewhere.net"); System.out.println(uri.getHost()); } There is a red wave line under "new URI(...)", after quick-fixed this problem with "Surround with try/catch" option, the comments line is duplicated.

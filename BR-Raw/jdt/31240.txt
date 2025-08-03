@@ -1,0 +1,3 @@
+quick fix: new methods called from construcotr calls should be static [code manipulation]
+
+class A{ 	A(){ 		this(bar()); //<<< wiggly here 	} 	A(int y){} } the new bar method should be static (otherwise it will not compile) same for 'this(..)'

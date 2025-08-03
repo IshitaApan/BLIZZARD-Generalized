@@ -1,0 +1,3 @@
+[preferences][content assist] New Jdtcore options to add inside preference page
+
+build I20050322 + Jdtcore head JavaCore#CODEASSIST_FORBIDDEN_REFERENCE_CHECK and JavaCore#CODEASSIST_DISCOURAGED_REFERENCE_CHECK options have been added. If these options are enabled non accessible types will not be proposed by completion. If these options are disabled non accessible types will be proposed but will be less relevant than other completion. JavaCore#CODEASSIST_FORBIDDEN_REFERENCE_CHECK replace the old option JavaCore#CODEASSIST_ACCESS_RESRICTION_CHECK. These new options need to be show inside the code assist preferences.

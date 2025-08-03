@@ -1,0 +1,3 @@
+Save Failed: org.eclipse.jdt.internal.compiler.ast.LocalDeclaration
+
+Version: 3.1.0 Build id: I20050527-1300 (RC1) Steps to reproduce: 1.) Have a Class Foo like this: public class Foo { 	private static void foo() { 		 @interface Bar { 			public String bar = "Hu"; 		} 	} } 2.) Save Actual Results: Error Dialog showing with the message: Save Failed: org.eclipse.jdt.internal.compiler.ast.LocalDeclaration Expected Results: No error Dialog Regards, Ben

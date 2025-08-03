@@ -1,0 +1,3 @@
+Choose Package subdialog of New Class dialog crashes if source dir is not on java build path  [dialogs]
+
+There is no code for checking whether given IPackageFragmentRoot exists. Simmilar problem is in Choose Source Dir dialog - it allows you to select project even if it is not a source folder.

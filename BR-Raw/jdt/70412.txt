@@ -1,0 +1,3 @@
+[api] Formatting a large file makes Eclipse freeze (enabling/disabling of partitioning updating)
+
+Formatting a large java file (by right-click -> Source -> Format) makes Eclipse freeze (or returns without formatting the file). The problem occurs with Eclipse 3.0, Eclipse 3.0M8, but the same operation works fine with Eclipse 2.1.3 (using WinXP or Linux-gtk). An example of such a large file is file X.java in http://www.lucike.info/download/software/projectx/ProjectX_Source_0.81.7.zip (from http://www.lucike.info/page_projectx.htm).

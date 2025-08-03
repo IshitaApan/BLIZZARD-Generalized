@@ -1,0 +1,3 @@
+[Commands] New APIs in IWorkbenchCommandConstants are missing '_' separators
+
+3.5 M6. The new constants in IWorkbenchCommandConstants are missing '_' separators which make them hard to read and which make them differ from the action constant. Examples: - action is called CLOSE_ALL but constant is FILE_CLOSEALL instead of FILE_CLOSE_ALL - action is called CLOSE_PERSPECTIVE but constant is WINDOW_CLOSEPERSPECTIVE instead of WINDOW_CLOSE_PERSPECTIVE I'm sorry I did not notice before the API freeze. I suggest to ask the PMC to change that for final 3.5.

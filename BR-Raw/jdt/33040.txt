@@ -1,0 +1,3 @@
+No single Undo for generate delegate methods
+
+RC 1 - JUnit setup - open TestCase - select fName - generate delegate methods for all String methods - press Ctrl+Z Observe: only one method is removed.

@@ -1,0 +1,3 @@
+Enable assertions during unit tests [JUnit]
+
+As I understand it, Java 1.4 assertions are disabled by default unless the vm argument "-ea" exists. I would like very much for Eclipse to have an option to always enable assertions while running my unit tests from the "run as... JUnit test" menu item. I realize that I can define a runtime configuration and specify the parameters there, but if this were the "default", that would be very helpful.

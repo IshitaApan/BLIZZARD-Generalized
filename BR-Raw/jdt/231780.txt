@@ -1,0 +1,3 @@
+[jar exporter] JAR Export should use a buffered output to gain speed
+
+the jar exporter writes the generated jar byte by byte to the filesystem. (verified using sysinternals File Monitor) This is less of a problem when using a local harddisk but makes exporting to network drives unneccesarily slow. Reccomendation : use a BufferedWriter in the export code.

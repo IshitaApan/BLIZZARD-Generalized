@@ -1,0 +1,3 @@
+[preferences] Java Editor Preferences page: mnemonics only work on second stroke
+
+I20050509-2010 On the Java > Editor preference page, I have to press a mnemonic twice to make it really work. E.g. - click on "Mark Occurrences", press Alt+O -> focus is somewhere "between" tab and contents - press Alt+O again -> checkbox gets switched now

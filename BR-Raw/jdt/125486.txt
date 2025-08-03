@@ -1,0 +1,3 @@
+[refactoring] Delete subpackages of default package should not be available
+
+I20060125-0800 Delete subpackages of default package should not be available. Also check special case in JavaElementUtil#getPackageAndSubpackages().

@@ -1,0 +1,3 @@
+Refactorings properties page polish
+
+N20060405-0010 Martin, Erich, and I found several polish items for the Refactorings properties page: - Tree should also resize vertically when dialog is resized - Checkbox tree is confusing and not a common Eclipse UI metaphor. Remove checkboxes and change "Remove" button to remove selected items. - Changes in dialogs should not be applied when the user presses Cancel. If a working copy mode is not feasible, at least remove the "Restore Defaults" and Apply" buttons and change "Remove" to "Remove...".

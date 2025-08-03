@@ -1,0 +1,3 @@
+[clean up] Should use bindings recovery
+
+I20080502-0100 Is: Clean up (and save actions) do not use binding recovery at the moment. In the best case this leads to unsatisfying results when organizing imports, in the worst case this leads to problems like bug 230127. Should: Enable bindings recovery for clean up and save actions

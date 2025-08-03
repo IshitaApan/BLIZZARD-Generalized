@@ -1,0 +1,3 @@
+move of read-only java file gives error dialog after confirmation
+
+- 'move' read-only java file - uncheck all options - choose dest package - press ok - confirm the movement of a read-only file -> error dialog

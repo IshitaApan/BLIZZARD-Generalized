@@ -1,0 +1,3 @@
+[rename] Inplace Rename refactoring not consistent with dialog refactoring
+
+I20070313-1051 The editor inplace Rename refactoring is not consistent with dialog refactoring: while the dialog refactoring forces/requires the user to look at the preview when textual matches are replace, no preview is shown when renaming inplace. So - either the preview is really a must in the textual case and then it also has to appear in the inplace mode, or it is not a must and then the user must not be forced to look at it in the dialog mode.

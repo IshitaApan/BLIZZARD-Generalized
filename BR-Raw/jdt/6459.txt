@@ -1,0 +1,3 @@
+usability: working set filter dialog avoidance
+
+would it be possible to avoid showing the working set dialog on applying a working set? i mean, it could (in the menu) show me a list of set i have. just like search does (which is a very useful feature)

@@ -1,0 +1,3 @@
+[navigation] Menu items References/Declarations->Workspace/Project/Working set not present in Outline view
+
+Using build I20051214-0010. All items Workspace, Project, Working Sets... for References and Declarations popup menu items have disappeared in this build. Looking at Search main toolbar menu, these items are disabled. However, I can reach them thourgh other views or in editor.

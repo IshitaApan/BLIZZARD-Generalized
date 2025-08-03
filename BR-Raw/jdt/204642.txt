@@ -1,0 +1,3 @@
+[change method signature] Logical error in restoreSelection of ChangeParametersControl
+
+Build ID: I20070625-1500 Steps To Reproduce: 1. Open source org.eclipse.jdt.internal.ui.refactoring.ChangeParametersControl 2. Find method createRemoveButton(Composite buttonComposite) 3. In line 534, This line should not be there, or will not restore selection More information: Fixing method: From: if (itemCount != 0 && index >= itemCount) { index= itemCount - 1; getTable().setSelection(index); } To: if (itemCount != 0) { if (index >= itemCount) index = itemCount - 1; getTable().setSelection(index); }

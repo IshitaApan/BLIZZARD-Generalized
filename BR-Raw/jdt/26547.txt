@@ -1,0 +1,3 @@
+Automatic closing of strings is not smart enough
+
+Trying to add strings around an existing identifier is highly annoying when the Automatically close Strings option is set. For example, when I try to add Strings around: System.out.println(a) before a then I get two quotes. I suggest the rule to not close a string when there is a letter that belongs to an identifier to the left or right.

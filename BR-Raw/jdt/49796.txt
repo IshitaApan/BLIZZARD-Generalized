@@ -1,0 +1,3 @@
+Generalize Type refactoring leaks a GC [refactoring]
+
+M6 The Generalize Type refactoring leaks a GC every time it's invoked. It's the one created at: ChangeTypeWizard$ChangeTypeInputPage.addTreeComponent (line 234)

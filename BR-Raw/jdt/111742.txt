@@ -1,0 +1,3 @@
+[quick fix] fix for assigning raw
+
+When writting: List<Foo> l= new ArrayList(); A quick fix may be offered to convert to: List<Foo> l= new ArrayList<Foo>(); additionaly to the quick fix "add @SuppressWarnings("unchecked")".

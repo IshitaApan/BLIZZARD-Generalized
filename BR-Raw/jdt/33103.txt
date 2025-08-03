@@ -1,0 +1,3 @@
+Non externalized menu names in JDT UI
+
+RC1 There are references to non-externalized names in JDT which show up in the pulldown for the PackageExplorer. They appear to be in: PackagesView.java - org.eclipse.jdt.ui/src- jdt/org/eclipse/jdt/internal/ui/browsing LayoutActionGroup.java - org.eclipse.jdt.ui/src- jdt/org/eclipse/jdt/internal/ui/packageview

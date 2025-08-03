@@ -1,0 +1,3 @@
+Update refs in String/Java Doc should be off by default
+
+When renaming an element then the options to Update references in Strings/Java Doc/Comments is on by default it should be off.

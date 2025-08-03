@@ -1,0 +1,3 @@
+Deleting default package gives blank string in message
+
+build I20021105 - in Package Explorer, select a default package - hit Delete - dialog box message is: Are you sure you want to delete ''? It should use the same text as shown in the view: Are you sure you want to delete '(default package)'?

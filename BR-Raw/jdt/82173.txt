@@ -1,0 +1,3 @@
+[5.0][typing] Angle Bracket<> auto closing should work in more situations
+
+I20041221-0800 Angular Bracket auto closing does not work for a field type. In this example: void m() { HashMap hm= new HashMap(); ... ... an opening bracket < is - automatically closed when inserted between HashMap and () - not automatically closed when inserted between HashMap and hm. It should be closed in both cases.

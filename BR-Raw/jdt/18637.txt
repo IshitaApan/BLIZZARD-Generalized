@@ -1,0 +1,3 @@
+Templates preferences: table layout problem
+
+In Preferences>Java>Templates the table comes up with an incorrect initial layout (columns are not wide enough around 100 pixels). workaround adjust manually fix candidate for F3

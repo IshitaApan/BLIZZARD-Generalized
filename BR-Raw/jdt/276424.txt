@@ -1,0 +1,3 @@
+[content assist][preferences] 'Favorites > Edit' button opens dialog with title "New ..."
+
+I20090514-2000. The Java > Editor > Content Assist > Favorites preference page's Edit button opens a dialog with "New ..." in the title. It should be "Edit ...".

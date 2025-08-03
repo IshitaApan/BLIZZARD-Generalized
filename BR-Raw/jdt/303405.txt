@@ -1,0 +1,3 @@
+[preferences] Add new options to 'code formatter' to expose constants from bug 270209
+
+Once bug 270209 is fixed, the two new constants need to be exposed in the code formatter preference page.

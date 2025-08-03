@@ -1,0 +1,3 @@
+[create on paste] DBCS3.4: Copy/Paste text file into package generate unexpected snippet.java file
+
+Created attachment 97579 Screenshot Build ID: I20080413-0942 ===== Steps To Reproduce ===== 1.New a simple Java project. 2.New a package, eg: TestPackage 3.Copy one text file from file system, eg: CopyTest.java 4. Right click on "TestPackage", select Paste from content menu. ===== Expected Result ===== CopyText.java file should display in TestPackage tree. ===== Actual Result ===== "Snippet.java" file is generated in TestPackage tree. More information: ==== Environment ===== Build Level: I20080413 Platform: RHEL5.1 Affected Locale(s):TChinese, Korean

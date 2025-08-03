@@ -1,0 +1,3 @@
+[content assist] code assist with colored labels
+
+20080306 The following patch adds colored labels to code assist. API additions: jface.text - ICompletionProposalExtension6 adds support for colored labels jdt: - CompletionProposalLabelProvider.createStyledLabel(.)

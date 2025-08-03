@@ -1,0 +1,3 @@
+Cannot add breakpoint on super()
+
+If you are in a constructor and you wish to breakpoint on "super()", it is currently not possible.

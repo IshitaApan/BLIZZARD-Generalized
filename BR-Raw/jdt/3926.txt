@@ -1,0 +1,3 @@
+issue copying file with duplicate name (1GF60YK)
+
+I tried to copy a package.html file from one package to another using the "copy" menu entry in the packages view. The destination package already had a file called package.html so I was presented with a "Duplicate names" dialog. The dialog has two radio buttons, one for "replace element" and one for "rename to". Issues: - The replace button is grayed out - "Rename to" is ambiguous. Am I renaming the thing being copied or the file already at the destination. Since I actually wanted to overwrite the file and the rename renames the file being copied, I could not accomplish the task. Note that the copy action from the navigator works as desired. NOTES: 	KH (6/12/2001 7:11:31 AM) 		Moving to JUI for comment.

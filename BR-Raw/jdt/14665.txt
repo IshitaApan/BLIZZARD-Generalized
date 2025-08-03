@@ -1,0 +1,3 @@
+Mnemonic collisions on Tag Configuration dialog
+
+3 of the buttons on the Tag Configuration Dialog have A as a mnemonic

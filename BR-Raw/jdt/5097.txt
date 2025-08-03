@@ -1,0 +1,3 @@
+Version Info in Package View marks all members of a type as changed
+
+Version Info in Navigator marks all members of a type as changed, even if only one member actually was modified.

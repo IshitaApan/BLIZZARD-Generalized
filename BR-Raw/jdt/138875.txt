@@ -1,0 +1,3 @@
+[refactor apply script] 'next' button isn't enabled by default
+
+If one opens the 'refactor' -> 'apply script' dialog for the n'th time (n>0) the previous refactor script is selected but the 'Next' button is not enabled. Toogling between 'Clipboard' and 'File' enables it.

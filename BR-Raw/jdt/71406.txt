@@ -1,0 +1,3 @@
+[rulers] request for click & event modifiers from ruler annotations
+
+The debugger would like to be able to register for "shift-click" and "alt- click" events on breakpoints in the editor ruler. This way we can implement features such as enable/disable in the ruler and "show breakpoint properties" via mouse clicks, rather than having to display the context menu.

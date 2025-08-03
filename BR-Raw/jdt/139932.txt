@@ -1,0 +1,3 @@
+[quick assist] Surround with runnable removes semicolon
+
+3.2. RC2 Given: public void foo() { 	int i= 10; 	System.out.println(i); } 1. Select line ' int i= 10;' 2. 'Alt-Shift-Z' 3. Surround with runnable Is: int i; Runnable runnable = new Runnable() { 	public void run() { 		i = 10 	} };		 System.out.println(i); Should: int i; Runnable runnable = new Runnable() { 	public void run() { 		i = 10; 	} };		 System.out.println(i);

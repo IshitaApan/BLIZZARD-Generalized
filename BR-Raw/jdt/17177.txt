@@ -1,0 +1,3 @@
+Javadoc wizard doesn't remember checked options between 2 runs
+
+Build 20020521 The Javadoc wizard doesn't remember that I checked 'Open generated index file in browser' between 2 runs. As a result, I cannot just press Finish, but I need to press Next twice, then check the option again, then press Finish.

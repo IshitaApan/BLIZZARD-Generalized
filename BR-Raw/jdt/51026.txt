@@ -1,0 +1,3 @@
+[Junit] sources
+
+Is there a reason why the Junit sources aren't bundled w/ the JUnit plugin anymore? Debugging Junit tests w/out source is cumbersome.

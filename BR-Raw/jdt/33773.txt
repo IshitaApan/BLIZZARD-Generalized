@@ -1,0 +1,3 @@
+Task Tags preference page clean-up
+
+We should remove the group box around table. Change the title to above the table to something like: "Strings indicating tasks in Java comments:"

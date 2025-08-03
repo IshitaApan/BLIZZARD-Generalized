@@ -1,0 +1,3 @@
+[perfs] Comments applied for performance tests may be obsolete
+
+Looking at code in HEAD today, I can see that ActivateEditorTest test suite references the Performance.setComment in testActivateEditor() method. The comment given in argument is defined by return of the getDegradationComment() method which is overridden in the ActivateTextEditorTest test suite and returns: "This test is slower than in 3.4 due the changes in Platform UI, see bug 258253 for details." As bug 258253 was fixed and verified in 3.5 this comment should be removed for 3.6 performance tests, hence I guess remove the override of the getDegradationComment() method in ActivateTextEditorTest...

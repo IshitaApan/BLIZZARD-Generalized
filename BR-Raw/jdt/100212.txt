@@ -1,0 +1,3 @@
+[refactoring] Encapsulate field breaks static import statement.
+
+To Import.x do Refactor>>EncapsulateField. See the resulting static import statement is illegal. -------------------- bug/Bug.java ---------------------- package bug; import static bug.Import.x; class Bug { int y=x; } -------------------- bug/Import.java ------------------- package bug; class Import { static int x; }

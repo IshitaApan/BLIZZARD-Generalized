@@ -1,0 +1,3 @@
+AnnotationType.PROBLEM?
+
+Why is there no PROBLEM annotation type? The method IAnnotationType.isProblem() has been deprecated.

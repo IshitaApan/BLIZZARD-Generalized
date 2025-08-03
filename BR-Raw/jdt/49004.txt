@@ -1,0 +1,3 @@
+primary_type_name misses the last character in the name
+
+20031217 set template to try { 	${line_selection}${cursor} 	} catch (${Exception} e) { 	// ${todo}: handle exception ${primary_type_name} } results in 		try { 			codeStream.invokespecial(this.binding); 		} catch (Exception e) { 			// TODO: handle exception CodeSnippetAllocationExpressio 		}

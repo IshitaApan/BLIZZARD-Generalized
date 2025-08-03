@@ -1,0 +1,3 @@
+[breadcrumb] Improve label decorations
+
+I20080305-1100 1. Breadcrumb item images should be decorated 2. Breadcrumb item labels should not be decorated 3. The tool tip text should be decorated 4. It must not flicker

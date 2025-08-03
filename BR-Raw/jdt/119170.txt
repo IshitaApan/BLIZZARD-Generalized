@@ -1,0 +1,3 @@
+[quickfix] "change access to static" fails when field or inner class hides static class name
+
+package bug; public class Foo { public static int bar() { return 42;} } package bug; public class Bar extends Foo{} package bug; public class Bug { private static class Foo {} public void cool() { Bar b = new Bar(); // apply quick fix on next line and choose // "change access to static using 'Foo'" // this will change the warning to an error b.bar(); } } package bug; public class Bug2 { private static final String Foo = ""; public void cool() { bug.Foo f = new bug.Foo(); // apply quick fix on next line and choose // "change access to static using 'Foo'" // this will change the warning to an error f.bar(); } } ===== A fix would be to add the package name (i.e. »bug.Foo.bar()«).

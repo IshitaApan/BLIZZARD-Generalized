@@ -1,0 +1,3 @@
+[navigation] Paste text then type Numpad_Enter doesn't work in Ctrl+O dialog
+
+Build Identifier: If I copy some text(for example - charAt), then go to the class(say String), then I want to go to that method, so I type ctrl+O, paste the text(charAt) in the textbox, then type enter. This will not work - nothing happens. If I move the up and down key, then enter tyoe, it will go to that method. Of course there are many other ways to navigate to a method - for example we can type charAt in the outline view. This is a very very small issue, but if Eclipse can fix this, it would be a little better : ) Reproducible: Always

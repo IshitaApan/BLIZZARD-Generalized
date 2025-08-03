@@ -1,0 +1,3 @@
+[refactoring] NPE in generalize type
+
+3.0 rc1 for (int k=0;;) {} select k and run generalize type: java.lang.NullPointerException 	at org.eclipse.jdt.internal.corext.refactoring.structure.ChangeTypeRefactoring.checkSelection(ChangeTypeRefactoring.java:355) 	at org.eclipse.jdt.internal.corext.refactoring.structure.ChangeTypeRefactoring.checkInitialConditions(ChangeTypeRefactoring.java:290) 	at org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run(CheckConditionsOperation.java:82) 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1673) 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:58) 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:101)

@@ -1,0 +1,3 @@
+[clean up] sort members is confused with different modifiers
+
+I20080325-0100 - Enable 'Sort members' in clean up - Disable to sort fields and enums - use clean up on the following file public interface Main { public final String PREFIX = "."; //$NON-NLS-1$ public static final String PROP1 = PREFIX + "AncestorVisible"; //$NON-NLS-1$ public static final String PROP2 = PREFIX + "IgnoreAncestor"; //$NON-NLS-1$ } result does not compile. The problem must be the different modifiers (meaning the same in an interface)

@@ -1,0 +1,3 @@
+[preferences] Indent new annotation style combo
+
+I200402102000 The combo for text styles on the annotation preference page depends on the above check box. This should be shown by indenting the combo. Nice to have for M7 since it is in N&NW.

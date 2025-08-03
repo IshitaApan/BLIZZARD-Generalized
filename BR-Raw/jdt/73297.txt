@@ -1,0 +1,3 @@
+[quick fix] Open Build path dialog quick fix
+
+A jar was removed and not replace with the newer one. Subsequently, I got the error "The project was not built since its build path is incomplete. Cannot find the class file for javax.activation.DataSource. Fix the build path then try building this project...". It is a minor thing, but for beginners quite helpful if upon double-click on this error, the project properties - Java Build Path would open in the "Libraries" tab.

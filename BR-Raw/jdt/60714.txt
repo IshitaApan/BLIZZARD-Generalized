@@ -1,0 +1,3 @@
+Call Hierarchy: display search scope in view title
+
+Call Hierarchy should display the current search scope in the view title, like the Search View does. E.g.: Members calling 'updateView()' - in Workspace Calls from 'updateView()' - in Working Set: my projects

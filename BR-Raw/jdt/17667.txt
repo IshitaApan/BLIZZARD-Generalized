@@ -1,0 +1,3 @@
+Code assist close
+
+F1 - create class public class A { 	public static void main(String[] arguments) { 		da 	} } - open code assist after da - press t observe: code assist closes although there are a lot of Data* classes

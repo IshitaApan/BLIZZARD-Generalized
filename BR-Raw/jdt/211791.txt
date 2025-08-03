@@ -1,0 +1,3 @@
+[JUnit] JUnit launch shortcut enhancements
+
+From bug 208039. The JUnit launch shortcut should be enhanced to an ILaunchShortcut2 to properly selection sensitive launching. For example, when a test method is selected in the outline, and run/debug is pressed, just the single test should be run instead of the entire test class (similar when a method is selected in an editor). Will attach a patch.

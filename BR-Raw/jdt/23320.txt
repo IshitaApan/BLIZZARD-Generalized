@@ -1,0 +1,3 @@
+Incomplete classpath and circular classpath options should be surfaced
+
+Build 200209031019 New options have been added to JDT/Core (see bug 23318) for controling the error level of incomplete classpath and circular classpath problems. These options should be surfaced in the Compiler->Others preferences.

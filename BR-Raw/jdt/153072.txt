@@ -1,0 +1,3 @@
+[ccp] 'Copy' enabled with empty selection in classfile editor
+
+3.3.M1 test pass 1. Open a class file without attached source Is: 'Copy' is enabled Should: Not be enabled, or the editor should have a selection 2. Select something 3. Deselect something Is: 'Copy' is not enabled, which is correct.

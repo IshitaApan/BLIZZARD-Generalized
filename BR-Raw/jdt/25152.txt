@@ -1,0 +1,3 @@
+Code format too tight when creating a missing method [code manipulation]
+
+When you choose the quick fix 'create method', the code generated butts up below the method without a new line: }	 /** * Method precompile. */ private void precompile() { } instead of: } /** * Method precompile. */ private void precompile() { }

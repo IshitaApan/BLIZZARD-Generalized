@@ -1,0 +1,3 @@
+Switch Bindings#findMethod(IMethodBinding, ..) to IBinding#getJavaElement()
+
+Switch Bindings#findMethod(IMethodBinding, ..) to IBinding#getJavaElement(). Currently causes failing tests in Inline Method due to bug 88769 and bug 88765.

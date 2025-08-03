@@ -1,0 +1,3 @@
+Unnecessary cast not detected anymore
+
+In 3.0M2 this was detected, but not in I20030722 anymore. 	public void foo(String s) { 		int r = ((Object) s).hashCode(); 	}

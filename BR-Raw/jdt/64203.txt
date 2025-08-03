@@ -1,0 +1,3 @@
+[syntax highlighting] Wrong highlighting when method parameter alone is used as initializer of a local variable
+
+In the following example, the first line of the method body shows 'n' as if it were a local variable. The second line is OK. void m(int n) { 	int j = n; 	int k = n + 1; }

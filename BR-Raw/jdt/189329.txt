@@ -1,0 +1,3 @@
+[refactoring] error list does not provide a label
+
+The rename error list currently does not have a label. Some screen readers will read text labels that are close to an edit box/list/outline/tree view but for completeness we should manually add a label for these controls. This can be done like so: textInput.getAccessible().addAccessibleListener( new AccessibleAdapter() { public void getName(AccessibleEvent e) { e.result = "Workspace" }});

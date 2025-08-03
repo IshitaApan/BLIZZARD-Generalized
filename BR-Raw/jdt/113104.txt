@@ -1,0 +1,3 @@
+[hovering] Consider adapting AbstractInformationControl to new PopupDialog
+
+For 3.2 M3, platform UI will be releasing a PopupDialog (see bug #72374). Attached are the patches to the AbstractInformationControl that were made in testing the support. I'm opening a separate bug so that I can verify and track the original bug separately.

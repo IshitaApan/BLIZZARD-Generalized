@@ -1,0 +1,3 @@
+Completion for anonymous inner class results in syntax error
+
+1) enable smart brackets 2) type in Runnable runnable= new Runnable(<code assist>) ->you get the code below with one superflus parenthesis: Runnable runnable= new Runnable() { 			public void run() { 			} 		})

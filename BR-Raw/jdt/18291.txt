@@ -1,0 +1,3 @@
+incorrect dialog title in surround with try.catch
+
+the title is 'Surround with &try/catch block' mnemonics do not work well in dialog titles

@@ -1,0 +1,3 @@
+[inline] Inline local should add explicit cast for primitive types
+
+Try to inline variable l in the following code: public class Inline { 	public long inline(int i) { 		long l = i; 		return l << 50; 	} } and you will get public class Inline { 	public long inline(int i) { 		return i << 50; 	} } which is wrong. The "return" statement should be 		return (long) i << 50; First the cast, then the shift, not the other way round. (Shifting an int by 50 is equivalent to shifting it by 18)

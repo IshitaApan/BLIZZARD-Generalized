@@ -1,0 +1,3 @@
+[Add Import] on private enum constants results in compilation error
+
+Eclipse SDK Version: 3.2.0 Build id: M20060629-1905 Consider the following snippet: --- public class Machine { 	private State state; 	public boolean isAlive() { 		return state != State.DEAD; 	} 	private enum State { 		IDLE, RUNNING, DEAD 	} } --- Run Source -> Add Import on "State.DEAD". Two compiler errors appear: - DEAD cannot be resolved. - The import Machine cannot be resolved.

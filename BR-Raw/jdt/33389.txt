@@ -1,0 +1,3 @@
+Read-Only files: Quick fix enabled and gets checkmark!
+
+RC1 1. set a file to ready only. 2. Open the file an set the cursor inside 3. Open the 'Edit' menu. Note that 'Quick fix' is enabled, but 'Content assist' is not 4. Choose 'Quick fix' 5. Open the context menu: Quick fix got a checkmark!

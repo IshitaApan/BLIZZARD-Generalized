@@ -1,0 +1,3 @@
+TVT2: hardcoded string in NewTestSuiteCreationWizardPage.java
+
+Build F3 In NewTestSuiteCreationWizardPage.java there is a hardcoded string that shows up in the JUnit Test Suite creation page. I have attached a screenshot from a Japanese tester that shows where this appears. To replicate: From the resource perspective, project in the Navigator. Right click on it to bring up a context menu. Select New -> Other.... On the New wizard, expand Java in the left frame, then select Junit. In the right frame, select TestSuite、 then click on Next. 'JUnit Test Suite' page appears. Under 'Test Classes to iclude in Suite:' box, text '... class selected' appears in English This bug was opened in response to TPRS ID=120

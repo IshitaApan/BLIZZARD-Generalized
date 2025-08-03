@@ -1,0 +1,3 @@
+"Organize Imports" imports inner classes but the compiler think it unnecessary [code manipulation]
+
+Here is an example. There are two packages, a and b. Class A is in package a, with an inner class named AA (showed in the code following). ----- A.java --------------------------------------- package a; public class A { 	public class AA { 		 	}; } And there is a class named B in package b that use class A and A.AA: ----- B.java ----------------------------- package b; public class B { 	public void useA() { 		A a = new A(); 		A.AA aa = a.new AA(); 	} } If I use the "Organize Imports" command, it will add two import statements: import a.A; import a.A.AA; But after that, the compiler shows a warning, saying that "the import a.A.AA is never used".

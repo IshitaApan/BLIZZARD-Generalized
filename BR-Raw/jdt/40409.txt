@@ -1,0 +1,3 @@
+quick fix: nonsensical proposal [quick fix]
+
+20030716 void f(){	 	int i= f(); } the proposal you get is: 'change variable type to void' which makes no sense

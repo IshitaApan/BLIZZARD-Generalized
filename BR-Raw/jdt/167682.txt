@@ -1,0 +1,3 @@
+[package explorer] 'Referenced Libraries' node stays when all libraries filtered
+
+I20061212-0010 The 'Referenced Libraries' node stays in the Package Explorer when all libraries are filtered (enable filters 'Libraries from external' and 'Libraries from project'). This is inconsistent with the 'Plug-in Dependencies' node which is removed as soon as the 'Libraries from external' filter is active.

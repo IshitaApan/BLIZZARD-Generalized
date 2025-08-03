@@ -1,0 +1,3 @@
+[refactoring]  rename refactoring updates non-matching FQN
+
+Class foo.Transient Class foo.TransientProperty Refactor rename Transient -> TransientEquipment with 'update fully qualified name in ....' will change <class name="foo.TransientProperty"> to <class name="foo.TransientEquipmentProperty"> <-- incorrect and <class name="foo.Transient"> to <class name="foo.TransientEquipment">

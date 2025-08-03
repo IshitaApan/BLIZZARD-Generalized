@@ -1,0 +1,3 @@
+call hierarchy: location of menu entry
+
+'Open Call Hierarchy' menu entry should be located right below 'Open Type Hierarchy'

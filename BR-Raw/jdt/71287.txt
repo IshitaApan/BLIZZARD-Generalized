@@ -1,0 +1,3 @@
+Reuse editor preference has no effect in tree mode
+
+options -> Reuse editors to show matches in workbench -> search - has no effect

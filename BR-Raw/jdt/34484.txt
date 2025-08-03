@@ -1,0 +1,3 @@
+[wording] "Filters" menu icon missing from Package Explorer view menu
+
+The Navigator and Package Explorer both have a "Filters" item in the view menu. In the Navigator, the Filters menu item has an icon. In the Package Explorer, it does not. Same for Projects view in the Java Browsing perspective.

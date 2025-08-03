@@ -1,0 +1,3 @@
+Userlibrary preferences - Changing a jar clears attributes
+
+If a userlibrary is created there is no way to change the jar file and holding src and javadoc.

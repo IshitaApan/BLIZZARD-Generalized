@@ -1,0 +1,3 @@
+References in Project: Title shows wrong project
+
+I200405060200 1. in the Java editor select a type from project A which comes not from the same project as the opened file (project B). 2. search for refs in project ==> title says project A, matches are from B

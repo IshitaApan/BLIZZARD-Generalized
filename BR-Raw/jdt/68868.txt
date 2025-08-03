@@ -1,0 +1,3 @@
+Sometime a search results in the error "Memento problem" [search]
+
+Sometimes when I do a search via Java editor popup menu References->Workspace, I get the following error in the error log: Memento problem - invalid integer for key: org.eclipse.jdt.search.resultpage.grouping value: TRUE An exception stack trace could not be found. eclipse.buildId=I200406251208 java.version=1.4.2_04 java.vendor=Sun Microsystems Inc. BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US Seems to be random. I can't find a specific search that causes the error, but it happens somewhat frequently.

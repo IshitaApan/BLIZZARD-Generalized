@@ -1,0 +1,3 @@
+[formatting] Repeated insertion of new line when formatting javadoc comment
+
+Formatting the following javadoc comment multiple times results in the insertion of a new line before 'test' *each* time: 	/** 	 * <pre></pre> 	 * test 	 */

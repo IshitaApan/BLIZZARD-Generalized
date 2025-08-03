@@ -1,0 +1,3 @@
+[render] Unexpected colored labels in Packages view
+
+3.3 M7 0. enable colored labels 1. have org.eclipse.jface.text in source 2. open Java Browsing perspective 3. select project org.eclipse.jface.text 4. observe: some labels in Packages view are colored 5. scroll down: one of the colored labels loosed the color again

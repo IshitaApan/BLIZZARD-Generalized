@@ -1,0 +1,3 @@
+[quick fix] reimplement serial version quick fix without launching new VM
+
+see http://java.sun.com/j2se/1.3/docs/guide/serialization/spec/class.doc6.html#4100

@@ -1,0 +1,3 @@
+[search] Filter read/write variable references
+
+The java search view filters for read and write access should be updated to filter read and write references to local variable, too.

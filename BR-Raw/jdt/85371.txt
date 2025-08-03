@@ -1,0 +1,3 @@
+Imported new classes not in open type dialog
+
+I20050215-2300 0. start a workspace which has org.eclipse.help imported as binary project (not linked) 2. import org.eclipse.help again from I20050215-2300 3. open type ==> only IContext is available but there should also be an IContext2 which has been added in I20050215-2300 I've seen this already once this week.

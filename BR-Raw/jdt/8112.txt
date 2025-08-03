@@ -1,0 +1,3 @@
+[misc] links in Javadoc hovers
+
+would be very cool to be able to navigate javadoc by clicking on a link (like @see .....)

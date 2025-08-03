@@ -1,0 +1,3 @@
+[quick fix] Adapt JDT maker reolutions to WorkbenchMarkerResolution
+
+See bug 114754 for the changes that Tod made. We should change our resolutions to implement the new API

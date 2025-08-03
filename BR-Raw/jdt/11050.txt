@@ -1,0 +1,3 @@
+Devide Sorting in two main parts: fields and methodes
+
+would it be possible for one of the next releases, to adapt the sorting order of VAJ in the Outline view. I mean, first all attributes, which are sorted alphabeticly, and then all methods which are also sorted alphabeticly. At the moment, there will be make no difference between the attributes and methods, so that the sorting is done over them all together and not divided in two parts: attributes and methods. It would be nice, if that could be done. Thanks Daniel

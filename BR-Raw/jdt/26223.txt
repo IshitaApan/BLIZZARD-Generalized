@@ -1,0 +1,3 @@
+[Action sets] Resouce Navigation should be enabled on JavaPerspectives by default.
+
+Build id: 200211130841 Resouce Navigation action set should be enabled on java perspectives by default.

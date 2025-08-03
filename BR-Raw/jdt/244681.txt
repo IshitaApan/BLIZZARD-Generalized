@@ -1,0 +1,3 @@
+[create on paste] Two .java files created when pasting source with secondary type before primary type
+
+I20080617-2000 1. Start a new workspace 2. Copy/Paste the following in Package Explorer: package p; class Y { } public class X { } Observe: 2 .java files are created. If you put secondary type Y after X, then only 1 .java file is created.

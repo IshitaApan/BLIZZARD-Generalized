@@ -1,0 +1,3 @@
+type filters ignored in dialog fields [refactoring] [code assist]
+
+3.0rc2 add a type filter for *awt* now awt.List is filtered out from code assist and such. however, if you use Move refactoring and use code assist in the dest field, you still see awt.List in there (why a binary type would end up in the move dest list is another question)

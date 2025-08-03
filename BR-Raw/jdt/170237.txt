@@ -1,0 +1,3 @@
+Missing 'throw' in org.eclipse.ltk.internal.core.refactoring.ContentStamps.set(IDocument, ContentStamp)
+
+I20070109-1805 A CoreException is created but not thrown there. I guess it should be thrown. See patch.

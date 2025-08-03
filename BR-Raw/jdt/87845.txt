@@ -1,0 +1,3 @@
+[1.5][dom][javadoc] allow javadoc references to vararg methods
+
+MethodRefParameter nodes should support variable arity references like "#foo(String...)" and "#foo(String... args)". This problem is a follow-on from bug 83393. The 1.5 spec for the Javadoc tool does not mention the possibility of a variable arity indicator in method references. However, the 1.5 Javadoc tool itself does indeed support it. Since it makes sense to have a way to explicitly refer to variable arity methods, it seems more likely that the Javadoc spec is wrong in this case.

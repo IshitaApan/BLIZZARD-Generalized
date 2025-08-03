@@ -1,0 +1,3 @@
+NPE in externalize strings dialog
+
+1. Select Java file 2. Externalize Strings 3. Next 4. Click "Browse" next to "test.properties". Click OK in the dialog without selecting anything. NPE occurs.

@@ -1,0 +1,3 @@
+[refactoring] Enable filtering in the Move refactoring preview dialog
+
+I20050928-1300 + plug-in export for I20051004-0800 While testing the move functionality of the smoke test I moved a CU to another package using Refactor > Move... and checked and Update fully qualified... The new filter support was disabled but it would be handy to have it here as well even though textual matches are already grouped.

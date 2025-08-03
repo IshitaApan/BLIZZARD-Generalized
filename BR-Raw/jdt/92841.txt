@@ -1,0 +1,3 @@
+Inline Method duplicates generic type arguments list [refactoring][5.0]
+
+HEAD void use () { Vector<? extends Number> vn = me(); } private Vector<? extends Number> me() { Vector<Integer> vn= new Vector<Integer>(); vn.add(13); return vn; } Inlining me() gives this (generic type arguments lists duplicated): void use () { Vector<Integer><Integer> vn1= new Vector<Integer><Integer>(); vn1.add(13); Vector<? extends Number> vn = vn1; }

@@ -1,0 +1,3 @@
+PasteResourceFromClipboardActionTest are useless
+
+Do to the fix of bug 78450 the test got useless since the action is now always enabled. We should change the test in a way that they check if there is a paster and make sure that for the original disabled tests we don't get one.

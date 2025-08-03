@@ -1,0 +1,3 @@
+[Quick Assist] "Assign parameter to field" does not work for existing field
+
+In this small example, there does not occur the quick-fix to "Assign parameter to new field": public class Foo { 	private final Bar bar; 	 	public Foo(Bar bar) { 	} } Even worse: when I remove the final from the variable declaration, invoking the quick-fix creates a new variable bar2 instead of reusing the existing one.

@@ -1,0 +1,3 @@
+Team Aware Content Provider
+
+Now that JDT has a model provider and defines a team content provider, it is a short step to having a content provider that shows sync state. I already have a first cut at this. I will attach it as a patch. It would be really nice if it could make it into M4.

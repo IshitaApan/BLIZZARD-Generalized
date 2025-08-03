@@ -1,0 +1,3 @@
+Encoding: refactoring should flush the undo stack on encoding changes
+
+Refactoring should flush the undo stack on encoding changes. It is questionable what to do if the encoding changes since the encoding has an impact on the number of characters. Alternativly the UndoTectFileChange could remember the encoding and could compare it in isValid(...).

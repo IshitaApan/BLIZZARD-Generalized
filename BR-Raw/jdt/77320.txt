@@ -1,0 +1,3 @@
+Junit performance [JUnit]
+
+We have 2315 unit tests. When run from Eclipse, it's reporting to take ~122 seconds. When run from ant, it reports taking ~25 seconds. The majority of this time is spent with the JUnit view showing "Launching...". This has gotten worse and worse as we add more UTs. I expect Eclipse to be slower than Ant, but not by this much.

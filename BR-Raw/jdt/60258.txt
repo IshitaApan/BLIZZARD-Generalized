@@ -1,0 +1,3 @@
+jface.text templates uses extension registry
+
+jface.text templates support (TemplateStore) is using the Eclipse extension registry. In the past, jface text, like jface, was independent of the Eclipse plug-in mechanism and extension registry. Is this change intentional?

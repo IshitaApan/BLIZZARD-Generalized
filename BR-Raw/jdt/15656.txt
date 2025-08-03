@@ -1,0 +1,3 @@
+Two differerent Views are called "packages"
+
+There are two different views called Packages - one in the Java Browsing perspective and one in the Java Perspective. This is very confusing for someone trying to get one of the using Show V

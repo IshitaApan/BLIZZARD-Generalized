@@ -1,0 +1,3 @@
+[jar import] Fatal errors when renaming fields in external jar
+
+Build Id: I20051213-0010 Steps to reproduce: 1. Create project "Bar". 2. Create Class: ---------- package bar; public class Bar { 	static String b; 	String a; 	 } ---------- 3. Export the JAR to "a.jar" outside the workspace without Refactoring Information. 4. Rename field "a" to "a2" 5. Rename field "b" to "b2" 6. Rename "Bar" to "Bar2 7. Export a JAR with refactoring information to "b.jar". 8. Delete package bar. 9. Add "a.jar" as an external jar. 10. Import b.jar with the wizard, refactoring a.jar. Observe: Two fatal errors are generated for the two fields although both are renamed.

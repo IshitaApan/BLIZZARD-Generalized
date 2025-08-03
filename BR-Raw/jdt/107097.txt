@@ -1,0 +1,3 @@
+Error dialogs pop up when browsing for a JAR.
+
+Build: 3.2M1 On a workspace containing two Java projects: one open and one closed: 1. Bring up the Java build path property page for the open project. 2. on the Libraries tab, press 'Add JARs...' You will get two error dialogs (per closed project) complaining about the project being not open.

@@ -1,0 +1,3 @@
+[refactoring] Move member type to new file creates compile error
+
+Against I20050513-0010. public class Exposer<T> { 	class Inner { 		T foo; 	} 	 	T foo() { 		Inner inner = new Inner(); 		return inner.foo; 	} } Move Inner to a new file. The resulting code does not compile (the required type parameter is not added to the Inner reference in foo())

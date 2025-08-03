@@ -1,0 +1,3 @@
+"Build" button appears on toolbar when "New Java Project" wizard is active
+
+Build 20050330 Whenever I press the "New Java Project" button on the toolbar, the "Build" button appears on the toolbar while the resulting wizard is active. The button disappears (causing the other toolbar buttons to shift again) when the wizard is dismissed.

@@ -1,0 +1,3 @@
+[misc] Display deprecation info at top of Javadoc
+
+Created attachment 108925 Enhanced deprecation display for javadoc hover and view Version: 3.4.0 Build id: I20080617-2000 Currently the deprecation info for a class is displayed at the bottom of the javadoc instead of at the top. The javadoc tool prints deprecation info at the top of the descriptions to make it more visible. Attached is a patch to update the new JavadocContentAccess2 method of javadoc generation to display the contents of the @deprecated tag at the top. No tests have been added/updated and no NLS has been done.

@@ -1,0 +1,3 @@
+[hovering] Hovering on closing bracket shows incorrect block in switch statements
+
+Created attachment 215158 incorrect behavior Hovering feature on the closing bracket of nested blocks seem to be having some trouble with the code at the end of this comment. The attachment illustrates the seemingly incorrect behavior. package p; public class P { 	public String foo(Animal animal) { 		String value = null; 		switch (animal) { 		case CAT: 			value = "Cat"; 		case DOG: 		{ 			{ 			value = "Dog"; 			} 		} 			//$CASES-OMITTED$ 		default: 			value = "Parrot"; 		} 		return value; 	} } enum Animal { 	CAT, DOG, PARROT }

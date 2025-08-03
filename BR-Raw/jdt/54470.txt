@@ -1,0 +1,3 @@
+Eclipse should disallow usage of types defined in default package
+
+Considering that it is illegal to import a type from an unnamed namespace (see Bug 54404), Eclispe should not allow (through its UI) users to use types defined in unnamed namespaces from types in named namespaces. Basically i guess this involves blocking such "unnamed-namespace" types from the Browse dialogs used in Create Class, Create Interface, Refactor wizards etc. when being invoked for a type defined in a named namespace. For steps to see the problem please see Bug 54404 - JDT cannot resolve import of types in default package.

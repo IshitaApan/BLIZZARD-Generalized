@@ -1,0 +1,3 @@
+[open type] Open type is slow
+
+I20071120-1300 1. Start self-hosting workspace (with all jdt.core projects as source) 2. Ctrl+Shift+T 3. Type A Observe: You see 'Searching x%' for several seconds (maybe 30s)

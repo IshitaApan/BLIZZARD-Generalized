@@ -1,0 +1,3 @@
+Quick fix "Add throws declaration" resets existing javadoc
+
+If a method already has javadoc @throws declared for SOME of the exceptions thrown from the method causing the Quick fix to appear, and I apply the quick fix, then my javadoc @throws declarations for ALL concerning exceptions are reset :-(

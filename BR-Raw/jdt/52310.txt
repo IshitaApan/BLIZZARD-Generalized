@@ -1,0 +1,3 @@
+[Refactor] Moving a class from default package has missing "." from imports
+
+Moved a class from the default package and ended up with imports missing the last ".". For example: I got something like org.eclipseMovedClass instead of org.eclipse.MovedClass

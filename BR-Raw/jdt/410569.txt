@@ -1,0 +1,3 @@
+Remove 'org.eclipse.releng.tools' from the list of not loaded plug-ins
+
+4.3 RC4.

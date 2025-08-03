@@ -1,0 +1,3 @@
+Failing test case after fixing bug 109963 in head.
+
+After fixing bug 109963 one test case fails in AssistQuickFix test.

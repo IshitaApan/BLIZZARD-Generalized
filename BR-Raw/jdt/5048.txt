@@ -1,0 +1,3 @@
+Too many declarations in hierarchy of (jdt)Parser.initialize()
+
+Build 204 In a self-hosting workspace, open type Parser (from JDT), and select its initialize() method in outliner. Request to search declarations in hierarchy, it incorrectly finds over 100 matches, as if it was not taking into account the accurate location of the Parser.

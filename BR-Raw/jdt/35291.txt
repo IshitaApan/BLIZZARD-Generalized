@@ -1,0 +1,3 @@
+OrganizeImports proposes less variants, than manual code assist  proposals
+
+I've got the following code: 		for (int i = 0; i < list.getLength(); i++) { 			Node item = list.item(i); 			if (item.getNodeType() == Node.ELEMENT_NODE) { 				result.add(getElementUniqueName((Element) item)); 			} 		} 		return result; All types except "Element" are resolved. Apply "Organize Imports", there are 3 variants (including e.g. javax.swing.text.Element), but no org.w3c.dom one. On manual code assist (i.e. CTRL-SPACE after "Element"), I'm getting required org.w3c.dom. There are no clashes in imports. Eclipse 200303120800.

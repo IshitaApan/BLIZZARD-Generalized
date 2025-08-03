@@ -1,0 +1,3 @@
+[hovering] Quick fix problem hover: remove border around scrollable area
+
+HEAD Quick fix problem hovers have a 5px border around the scrollable area. This is a waste of space and looks wrong. The scrollbars should be at the very edge of the content area. Might also reduce the borders in the header and to the left of the "n quick fixes available" label a bit.

@@ -1,0 +1,3 @@
+filter dialog: initial focus is on cancel, should be on top control or list [dialogs]
+
+RC1 - Open the filter dialog for members view, package explorer etc. Expected: top control has focus Actual: Cancel button has focus This is annoying, because I first have to tab through. The default behaviour for dialogs should be to give focus to the first element that expects interaction. If the user just wants to cancel the dialog, he can always hit 'Esc'.

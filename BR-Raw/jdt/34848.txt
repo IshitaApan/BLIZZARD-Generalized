@@ -1,0 +1,3 @@
+Accessibility: cannot easily switch between the type hierarchys
+
+Before there were keybindings we had support to switch between type hierarchies using ctrl keys. We had to remove this support for 2.1. Here are the options: 1) adding global actions (initially with no keybinding defined) 2) add the actions to switch between the hierarchy displays to the View drop down (which is accessible) 3) revive the ctrl keys and use a key listener. I suggest that we do 2) for 2.1.

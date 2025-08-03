@@ -1,0 +1,3 @@
+[dnd] selection feedback if 'drop_none' is confusing
+
+I20070731-0800. Selection feedback when dropping isn't possible is confusing. If possible we should not show selection feedback if dropping isn't possible. Not sure whether this is possible.

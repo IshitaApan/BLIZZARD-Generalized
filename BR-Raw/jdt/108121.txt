@@ -1,0 +1,3 @@
+[ccp] Also create project when pasting code snippet into Package Explorer
+
+I20050823-0800 + plug-in export I like the new feature which generates the Java elements when pasting code snippets into the Package Explorer. Of course I tried to paste onto an empty Package Explorer and it did not work. I'd like to create a new project when pasting code snippet on Package Explorer where no project is selected.

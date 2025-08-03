@@ -1,0 +1,3 @@
+[formatting] unstable comment formatting
+
+- open TestCase - in the editor set the carret in a method declaration's name (e.g., ru|n()) - press CTRL-SHIFT-F multiple times -> the formatting changes in each `format'

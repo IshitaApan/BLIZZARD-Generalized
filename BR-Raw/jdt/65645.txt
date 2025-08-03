@@ -1,0 +1,3 @@
+[preferences][projection] Don't use code folding by default
+
+Code folding is turned on by default in current builds. I can imagine people wanting this feature (I'll probably use it for imports), but he default behavior should not be to hide code from the user. Even as an Eclipse committer who's heard all the buzzing lately about code folding, it took me a minute of gaping at my editor in confusion to realize why I couldn't see my code.

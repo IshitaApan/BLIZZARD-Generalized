@@ -1,0 +1,3 @@
+TVT - Attach Source title is truncated
+
+This defect was opened due to TVT testing on WSAD. On the Libraries tab of the Java Build Path properties, click on Attach Source button. Click on the Extension button for the Root variable path. The title is too long in French and it gets truncated (15 characters are truncated).

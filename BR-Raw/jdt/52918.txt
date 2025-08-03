@@ -1,0 +1,3 @@
+[Types view] Changed modifier -> type icon not updated
+
+The types view (Java Browsing -> Types) does not reflect changes of the type modifier. Examlpe: public class A {}. - While removing the public modifier (change to default/package scope) the types view still shows the class icon to be public. Even after saving and compiling it. I consider it a bug. Thanks, Martin (Kersten)

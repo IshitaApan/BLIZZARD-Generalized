@@ -1,0 +1,3 @@
+[clean up] Bullet list on clean up wizard does not respect dialog font
+
+I20070527-0010 Fub of bug 188313 1. Go to General>Appearance>Colors and Fonts 2. Set Basic>Dialog Font to size 16 3. Ok, Ok 4. Source>Clean Up Is: Bullet list uses small font Should: Bullet list should use dialog font

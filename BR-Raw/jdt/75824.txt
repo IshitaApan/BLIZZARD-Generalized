@@ -1,0 +1,3 @@
+[UI] Menu in the package explorer view doesn't work anymore
+
+With Eclipse in Linux/GTK Menu in the package explorer doesn't work anymore. We cannot "select a working set", "filter", "sort" etc... in this view

@@ -1,0 +1,3 @@
+"Assign statement to local variable" removes preceeding comment [quick assist] [ast rewrite]
+
+Consider the method public void a() { // here is a comment System.getenv("");X } where X denotes the cursor. If the quick fix "Assign statement to local variable" is used the comment disapears...

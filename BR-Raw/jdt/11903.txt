@@ -1,0 +1,3 @@
+'add javadoc comment' adds non-java doc comments
+
+1. (default code-generation preference settings) 2. select the method and 'add javadoc comment' package p; class A{ public String toString() { return super.toString(); } } it adds /* * @see Object#toString() */ which is not a javadoc comment

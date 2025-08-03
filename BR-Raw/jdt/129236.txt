@@ -1,0 +1,3 @@
+[hovering] Focus javadoc hover shows blank popup window
+
+If I hover over a class to get its javadoc hover, and hit F2 to give it focus, the focused javadoc window is blank. eclipse 3.2M5 on PPC OSX 10.4.5

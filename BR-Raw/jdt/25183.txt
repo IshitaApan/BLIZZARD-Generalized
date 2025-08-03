@@ -1,0 +1,3 @@
+AST: ITypeBinding of interface returns constructor
+
+20021018 + jcore for 20021022 LocalCorrectionsQuickFixTest.testUnimplementedMethods Set breakpoint in UnimplementedMethodsCompletionProposal.findUnimplementedInterfaceMethods to see that the ITypeBinding of a interface returns a constructor

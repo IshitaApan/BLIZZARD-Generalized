@@ -1,0 +1,3 @@
+Libraries need to support activity filtering
+
+The libraries dialog shown by the class path dialog needs to support activity based filtering, i.e., when PDE isn't active then the Required Plug-ins Container should not be shown.

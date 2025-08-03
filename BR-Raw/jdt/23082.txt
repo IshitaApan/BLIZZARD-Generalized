@@ -1,0 +1,3 @@
+extract  interface: default package
+
+incorrect interface cu is created: package ; //<<<ERROR interface I{ }

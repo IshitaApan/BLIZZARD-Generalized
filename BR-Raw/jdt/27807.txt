@@ -1,0 +1,3 @@
+Need library and library with source as shared images
+
+PDE has two places (plug-ins view and classpath container page) where our label provider needs to render classpath entries. An easy solution would be to add 'library' and 'library with source' images to the list of shared images currently supported by JavaUI.getSharedImages() (currently, the closes image is JAR but we cannot render entry with source attachment). An ideal solution would be a label provider similar to JavaElementLabelProvider that can render classpath entries. Either one works for us. Exposing the two images is less work.

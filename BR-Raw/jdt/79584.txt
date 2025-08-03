@@ -1,0 +1,3 @@
+[5.0] JavaModel: Method parameter type is not marked as type variable
+
+20041126 - Create the folloing code in a selfhosting workspace and open it in the editor - set a break point in JavaElementLabels.getMethodLabel where the parameter types are printed (change the method name to force a refresh) - The signature of the type parameter is 'QT;' which marks the type as an unresolved type. Should it be a type variable 'TT;'? public interface Test<T> { 	void foo(T t); }

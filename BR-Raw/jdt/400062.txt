@@ -1,0 +1,3 @@
+[hovering][javadoc] Failure to access attached Javadoc should be shown to the user
+
+4.3 M5a. Currently JDT Core ignores some exceptions and returns 'null'. This violates the API/Javadoc. Bug 400060 tracks that part. Once this is fixed we need to adjust our code to handle those exceptions and show them to the user without logging them.

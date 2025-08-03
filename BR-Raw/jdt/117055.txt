@@ -1,0 +1,3 @@
+[clean up][string fix] Wrong preview node name
+
+Version: 3.2.0 Build id: I20051116-1332 Having: public class E { 	public String s1; //$NON-NLS-1$ 	public String s2 = ""; } Running Source -> Clean Up -> Add/Remove NON NLS tag The nodes for the edit groups on the preview page are: &Remove unneccessary '$NON-NLS$' tag &Add missing '$NON-NLS$'tag but there should be no '&'.

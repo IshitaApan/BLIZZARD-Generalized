@@ -1,0 +1,3 @@
+[runtime] Preferences.contains() returns false even if property has been set
+
+Build: 20020819 0. get store (instance of org.eclipse.core.runtime.Preferences) 1. use store.setValue('key', false); 2. use store.contains('key'); ==> returns false which is a severe bug in my opinion. Reason for the bug is that the key is removed from the store if the value is the same as the default value [ok]. There is a list with default values which is also checked when using contains [ok] but unfortunately the getDefaultBoolean method returns false even if there is no default [bug]. It should either return null or add the key to the default list as soon as returning 'false'

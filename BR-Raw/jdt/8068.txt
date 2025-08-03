@@ -1,0 +1,3 @@
+search: missing working set names on 'seearch for implementors'
+
+select sth in the editor, open the context menu, go to: search note: in all 5 entires there are names of working sets you defined except for: 'implementors'

@@ -1,0 +1,3 @@
+[breadcrumb] Improve name compression algorithm
+
+Occaisionally the project name disappears in the editor breadcrumbs. It usually reappears if I switch selected elements (cursor to a different method), so it's not a huge issue. Breadcrumb drop-down remains selectable even while name is hidden. Attaching screenshot to illustrate.

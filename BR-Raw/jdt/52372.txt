@@ -1,0 +1,3 @@
+Cannot cancel open type
+
+Build 20040212 If indexing is happening, 'Open Type...' (Ctrl+Shift+T) can take a long time. Pressing 'Cancel' has no effect. Also no progress is shown to the user.

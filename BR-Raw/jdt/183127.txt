@@ -1,0 +1,3 @@
+[package explorer] [working sets] Working set order lost for non visible working sets
+
+I20070417-0800 Given a pkg explorer with visible and non visible working sets and top level element working sets: 1. Configure Working Sets... 2. Select a non visible working set 3. Move it all the way to to top of the list 4. Ok 5. Configure Working Sets... Is: The non visible WS is at the bottom of the list Should: Be at the top?

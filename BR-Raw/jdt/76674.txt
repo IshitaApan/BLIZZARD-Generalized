@@ -1,0 +1,3 @@
+Code assist always proposes current type in @see tag
+
+Using build I200410190941. Test case: 	"IXX.java", 	"/**\n" + 	" * @see IYY\n" + 	" */\n" + 	"public interface IXX {}", 	"IYY.java", 	"public interface IYY {}" In IXX.java, set cursor just after @see IYY and launch completion. Then, you get 2 proposals in the list: IXX.java IYY.java This is not correct, first proposal (current type) should not be proposed!

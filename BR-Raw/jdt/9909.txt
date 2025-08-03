@@ -1,0 +1,3 @@
+template: toarray - using ${type} is wrong
+
+using ${type} in toarray is wrong it puts the name of the enclosing type - which is very much not what is needed. only the user knows to what type the casting should be done suggest creating ${enclosing_type} for enclosing types

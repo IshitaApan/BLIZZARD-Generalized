@@ -1,0 +1,3 @@
+[JUnit] println in TestElement
+
+When running plugin tests I am getting prints to the console. It looks like a println in org.eclipse.jdt.internal.junit.model.TestElement.setStatus(*) PW

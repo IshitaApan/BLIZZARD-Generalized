@@ -1,0 +1,3 @@
+Externalize strings quickfix proposal has no additional info [quickfix]
+
+N20050512-0010 - Create unexternalized string - Invoke quickfix - The proposal 'Externalize strings' which invokes the refactoring has no associated additional info string

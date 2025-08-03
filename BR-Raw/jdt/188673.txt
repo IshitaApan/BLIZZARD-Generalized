@@ -1,0 +1,3 @@
+[api] Requesting a public way to Link to the UserLibraryPreferencePage
+
+There should be a public way to "Link" to the org.eclipse.jdt.internal.ui.preferences.UserLibraryPreferencePage from another preference page. Currently we use the following code to link to the page from our preference page. ((IWorkbenchPreferenceContainer) getContainer()) .openPage(UserLibraryPreferencePage.ID, null); The problem is that this is an internal reference to ID. We can of course just hard code the string defined in ID, but this doesn't protect us from this string changing in the future. Should this ID constant perhaps be defined in a public constants file? It is also possible that I am missing something here, and there is already a way to do this.

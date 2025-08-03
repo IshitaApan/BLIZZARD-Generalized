@@ -1,0 +1,3 @@
+JUnit dirty indicator appears to early
+
+opening a compilation unit in the editor marks the test result as dirty.

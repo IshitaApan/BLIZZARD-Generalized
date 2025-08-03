@@ -1,0 +1,3 @@
+Infer type arguments fails on junit.framework
+
+I20050803 + ZRH export of 0805 - import junit381 as source - select the package junit.framework in the pkg explorer

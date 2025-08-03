@@ -1,0 +1,3 @@
+Can't search for References, ... to an ITypeParameter [search]
+
+I20041214-2000 /** * @param <ELEMENT> the element */ public class A<ELEMENT> { 	ELEMENT e; } Searches for ELEMENT give an "Operation Unavailable" dialog. E.g. the constructor of FindReferencesAction restricts available element types to not include ITypeParameter. Depends on bug 81190.

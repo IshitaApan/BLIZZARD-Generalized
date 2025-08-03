@@ -1,0 +1,3 @@
+[clean up] fix indentation on clean up and save
+
+The new save participants feature looks great. However it doesn't seem to have the most useful feature of converting tabs to spaces and vice versa.

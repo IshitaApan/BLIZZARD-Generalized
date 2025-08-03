@@ -1,0 +1,3 @@
+[jar exporter] ANT build file does not create Class-Path Entry in Manifest
+
+Created attachment 90673 fix for missing Class-Path entry Build ID: I20080219-1124 Steps To Reproduce: 1. File > Export > Java/Runnable JAR File 2. Wizard Page "Runnable JAR File Specification" shows up 3. check "save ANT File" 4. Click "Finish" The created build.xml does not create a Class-Path entry with the value "." More information: The Jar file created with the wizard has the following Entry in its Manifest: [---] Class-Path: . [---] The Jar file created via the saved ANT script does not contain this Attribute. This entry is not neccessary, but property files or other resources outside of the JAR file will not be found.

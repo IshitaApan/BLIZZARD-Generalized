@@ -1,0 +1,3 @@
+[source manipulation] Constructor Using Fields should check all fields by default
+
+3.1 for value type classes like class A{ 	private final int length; 	private final int width; 	private final String name;	 } it would be useful to have a quick fix to create a constructor to init all those fields. Ie. 	public A(int length, String name, int width) { 		this.length = length; 		this.name = name; 		this.width = width; 	}	 there's a separate source action for that but it's a little heavyweight for this. At least, a quick fix to *open* the 'Create Constructor using fields' could be offered (pre-select the field checkboxes then, please)

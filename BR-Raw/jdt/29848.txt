@@ -1,0 +1,3 @@
+Add Javadoc Comment creates incorrect declaration [javadoc]
+
+Create a subclass of TransferHandler. Override canImport. The Javadoc comment generated is "@see javax.swing.TransferHandler#canImport (javax.swing.JComponent, java.awt.datatransfer.DataFlavor)", but it shuold be "@see javax.swing.TransferHandler#canImport(javax.swing.JComponent, java.awt.datatransfer.DataFlavor [])" - note the missing [] on the second parameter.

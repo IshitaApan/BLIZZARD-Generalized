@@ -1,0 +1,3 @@
+Re-format all files [code manipulation]
+
+I could be nice to have the ability to re-format all Java files in one time. Beyond, to do all java file based actions on a selection of files (as for search for example).

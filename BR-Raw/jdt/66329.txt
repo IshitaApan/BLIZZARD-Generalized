@@ -1,0 +1,3 @@
+Javadoc @link completions include elements excluded by type filter [javadoc]
+
+When performing a content assist (ctrl+space) on a {@link } tag in a javadoc, there are elements available that are excluded in the type filter. Specifically, I have "com.sun.*" in the type filter and when I enter: {@link ByteBu<ctrl+space>} the list includes "com.sun.corba.se.internal.ior.ByteBuffer" which is excluded by the filter. If this is a WAD (works as designed) then I would like to request that this be added to post-3.0 work for consistency between code and doc. Eclipse version: 200405211200

@@ -1,0 +1,3 @@
+[nls tooling] NLS hover shown in place of Java hover
+
+Hover over any reference of a public string field of org.eclipse.jdt.internal.corext.refactoring.nls.NLSRefactoring class. => The hover says - "The properties file could not be detected", which is not right.

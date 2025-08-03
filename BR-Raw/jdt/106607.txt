@@ -1,0 +1,3 @@
+Paste class declaration to container should select created element
+
+Paste class declaration to container should select created element (like e.g. new type wizard does).

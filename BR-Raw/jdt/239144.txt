@@ -1,0 +1,3 @@
+[javadoc export] JavadocWizard#executeJavadocGeneration() mixes vmArgs and progArgs
+
+I20080624-0800 Since bug 139818, JavadocWizard#executeJavadocGeneration() mixes vmArgs and progArgs. In 1.81, line 282, ... IStatus status= fStore.getArgumentArray(vmArgs, vmArgs); ..., everything is shoved into vmArgs, which is a problem since the command line may become too long. Furthermore, org.eclipse.jdt.ui.examples.MyJavadocExportWizardPage (from jdt.ui.tests) does not work as expected. Its #updateArguments(..) is: toolOptions.add(tag + ":a:\'"+ description + '\''); When I fix the command to use " instead of ' around the description, it still does not work, probably because all progArgs are processed by JavadocWizard#checkForSpaces(String).

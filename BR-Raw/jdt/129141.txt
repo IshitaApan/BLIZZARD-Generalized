@@ -1,0 +1,3 @@
+Attempt to import a named method-scoped class when using auto-complete
+
+Eclipse will attempt to import a named method-scoped class, which is an error.

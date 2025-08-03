@@ -1,0 +1,3 @@
+ElementMapper should not use Integer keys computed from System#identityHashCode
+
+I20041215 While trying to fix bug 80912 I encountered that using as integer key computed with System#identityHashcode in a normal hash table can produce severe problems. It is possible that two objects produce the same identity hash code over time. The fix is to use IdentityHashMap.

@@ -1,0 +1,3 @@
+[CommonNavigator][Java] Deleting multiple projects does not remove them from project explorer
+
+To reproduce: -Create an enterprise application with a default ejb and web module. -select those three -delete, choose option "delete content on file system". What happens: only the first of the three projects is removed from the project explorer, the other two seem to be left. But they are removed in the file system, and a restart of eclipse shows the right project explorer. I will attach a screenshot. To the left you will find the three projects before deletion, to the right the project explorer after deletion. Two phantom projects are left.

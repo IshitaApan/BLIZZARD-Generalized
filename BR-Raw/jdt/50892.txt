@@ -1,0 +1,3 @@
+Search empty using Search perspective
+
+Build 20040129 Here is my setup: - I have my own Search perspective defined. - I set the preference to use this perspective to report matches. - I'm NOT using the new search view. - I have one window per perspective. When I search for references to a method from the Java perspective, it briefly switches to the Search perspective, then come back to the Java perspctive, continue progress reporting (saying that matches are found), but at the end no result is shown in the Search perspective.

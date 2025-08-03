@@ -1,0 +1,3 @@
+CUEditor won't let me insert just one TAB
+
+Given the following code: 	Pattern pattern = selected 		? new Pattern(null,...) 		: new Pattern(nul,...); <<CARET>>g.setBackgroundPattern(pattern); I cannot insert a single TAB at the Caret location. typing TAB inserts two TABs. BACKSPACE deletes both.

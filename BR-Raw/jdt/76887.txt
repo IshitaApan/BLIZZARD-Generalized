@@ -1,0 +1,3 @@
+[content assist] Template validation is case sensitive
+
+Test case: Type SYS Ctrl-Space Type o You are left with no code completions. This differs from the code completion proposals where the prefix matching is not case sensitive. (note this is a problem in both the JDT TemplateProposal and the JFace text TemplateProposal)

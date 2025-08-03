@@ -1,0 +1,3 @@
+template pref page: should give warning if there are 2 {cursor} vars in a template
+
+like in summary: template pref page should give warning if there are 2 {cursor} vars in a template

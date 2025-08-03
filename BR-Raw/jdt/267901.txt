@@ -1,0 +1,3 @@
+[compare] TextMergeViewerCreator looks obsolete
+
+It looks like org.eclipse.jdt.internal.ui.compare.TextMergeViewerCreator became obsolete.

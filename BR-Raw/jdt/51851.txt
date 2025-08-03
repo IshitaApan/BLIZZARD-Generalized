@@ -1,0 +1,3 @@
+[navigation] Outliner is not updated correctly
+
+build 20040212 1) create the following class public class X { int aaa } 2) place your cursor just after 'aaa' 3) type "bbb,ccc" the outliner contain -------------- X +-ccc : int -------------- 'aaa' and 'bbb' are missing (sometimes the problem does not occur) Java delta seems correct FIRING POST_CHANGE Delta [Thread [org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]]: <NONE> FIRING POST_RECONCILE Delta [Thread [org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]]: [Working copy] X.java[*]: {CHILDREN | FINE GRAINED} 	X[*]: {CHILDREN | FINE GRAINED} 		bbb[+]: {} 		ccc[+]: {}

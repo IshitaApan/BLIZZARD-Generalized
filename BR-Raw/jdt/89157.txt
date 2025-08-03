@@ -1,0 +1,3 @@
+[JUnit] Search for referring tests does nothing in non Java editors
+
+Version: 3.1.0 Build id: I20050322-1757 When you select "Search|Referring Tests..." from any non java editor nothing hapens at all. It should popup the same info dialog that is used when the action run with no java element selected in the java editor. It would be even better if this action could be disabled when it is not applicable.

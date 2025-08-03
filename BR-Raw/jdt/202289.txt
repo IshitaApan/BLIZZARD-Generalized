@@ -1,0 +1,3 @@
+[organize imports] Organize Imports action should not open an editor
+
+I20070904-0800. The Organize Imports action should not open an editor.

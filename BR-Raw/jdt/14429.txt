@@ -1,0 +1,3 @@
+Smoke 20020423: replace from local history wrong indentation
+
+- load TestCase.java - edit method runTest - save - replace method with latest from local histroy observe: the method is wrong indented IMO the culprit is a change DB did at MemberEdit.

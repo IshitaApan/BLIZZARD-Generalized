@@ -1,0 +1,3 @@
+[Graphics] Import Export icons in Package Explorer are different then File menu
+
+The export icon has an arrow point towards the icon of the workbench window. The import icon has an arrow pointed away from the application window. It's backwards. Why is export going in and import going out?

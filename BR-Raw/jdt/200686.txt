@@ -1,0 +1,3 @@
+[templates] Error dialog when error in java context template evaluation shows no message
+
+I20070815-1600 See bug 200685 for steps.

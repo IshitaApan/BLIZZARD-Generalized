@@ -1,0 +1,3 @@
+[templates][typing] quote cancels template parameters
+
+define a template as follows ----------------------------- method(${parameter},${paramter2}); ----------------------------- when using the above template if you put string as the first parameter and the auto-closing of quotes is enabled eg. ---------------------------- method("hello",parameter2); ---------------------------- when you press tab the second parameter is not highlighted!

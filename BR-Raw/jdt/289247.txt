@@ -1,0 +1,3 @@
+[1.5][compiler]Detecting duplicate methods should not consider return type
+
+See the Sun bug http://bugs.sun.com/view_bug.do?bug_id=6182950 In javac 7, two methods are considered duplicates (or a name clash error) regardless of their return types. This behaviour is now more consistent with javac 1.5, which reported name clash errors on methods and ignored their return types. Only in 1.6 was a change made that included return types when detecting duplicate methods. We have decided to make this change across all compliance levels (1.5, 1.6, 1.7) in the 3.6 release so users will not be surprised by the change if they compile their code using javac 7.

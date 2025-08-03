@@ -1,0 +1,3 @@
+[refactoring] Assertion fails in ExtractTempRefactoring.
+
+Steps: 1) Hilite all of the System...getKey() expression. 2) Pick menu item Refactor>>Extract Local Variable. 3) Press Ok. The wizard then warns of a duplicate local variable. 4) Press Back. 5) Change suggested variable name from 'key' to 'foo'. 6) Press Ok. Assertion then fails. ------------------------ Bug.java ---------------- class Bug { { System.getenv().entrySet().iterator().next().getKey(); String key; } }

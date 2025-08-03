@@ -1,0 +1,3 @@
+Search Engine should not search in working copies that aren't on the build path
+
+20030206 See bug 30706 for a detailed describition

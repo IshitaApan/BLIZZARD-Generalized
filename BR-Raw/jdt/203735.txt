@@ -1,0 +1,3 @@
+[render] Wirte Access colored label preference not correctly updated
+
+I20070918-0010. 1. make an occurrence search with write accesses 2. observe: yellow colored labels 3. select another view 4. change the color and press 'Apply' ==> color not changed (bug) 5. press OK ==> color is still not changed (bug) 6. select the Search view ==> color is now changed This is on WindowsXP and Linux.

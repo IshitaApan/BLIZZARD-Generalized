@@ -1,0 +1,3 @@
+UndoManager creates potential memory leak [refactoring]
+
+3.0 The refactoring undo manager doesn't call dispose in all cases where a undo/redo object is no longer needed. This can result in a memory leak since the undo/redo object could register for listeners and therefore relies on the fact the dispose is called correctly. Cases where dispose isn't called: - if the undo stack reaches it maximum number of change objects and the last one is removed from the stack. - if the undo/redo stack gests flushed and one of the change objects causes an exception during sending dispose. - if the undo/redo object isn't valid anymore and can therefore not be executed.

@@ -1,0 +1,3 @@
+Wrong rendering of unbound User library in package explorer [package explorer]
+
+RC1 - create a user library for JUnit - now edit the .classpath file so that the class path entry points to a non existing library (e.g. <classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JUnit2"/>) - save - the package explorer contain two JRE entries.

@@ -1,0 +1,3 @@
+Pref Pages button order
+
+The button order of: New.../Add... Edit... Remove Should be the same on the following preference pages: Classpath Variables Debug/Detail Formatter Editor/Templates Installed JREs Organize Imports Task Tags @@@ There should be no extra space on: Classpath Variables Task Tags @@@@ The "Up" and "Down" Buttons on Organize Imports should be placed after "New...", "Edit...", and "Remove" for consistency. There should be an extra space between "Remove" and "Enable All" on Debug/Step Filtering for consistency. There should be an extra space between "Remove" and "Search" on Installed JREs for consistency.

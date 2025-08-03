@@ -1,0 +1,3 @@
+[refactoring] Rename preview: should see if derived things are filtered
+
+I20061031-0656 Rename preview: the header should indicate when derived things are filtered (similar to Problems or Search view).

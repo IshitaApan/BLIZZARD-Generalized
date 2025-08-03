@@ -1,0 +1,3 @@
+[build path] order of  details pane entries
+
+20050214-0010 1. create a new Java project, enter a name and press next 2. the detail pane starts with 'remove project from...' That's a complicated option, better start with 'Create new source folder' and we should also have a 'Link additional source..'

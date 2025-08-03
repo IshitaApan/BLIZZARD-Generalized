@@ -1,0 +1,3 @@
+[Extract Class] Update of field fails if qualifier is used
+
+package p; public class UpdateQualifiedName { 	private int test; 	public void foo() { 		UpdateQualifiedName name = new UpdateQualifiedName(); 		name.test= 5; 	} } The update of name.test fails.

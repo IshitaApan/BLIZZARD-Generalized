@@ -1,0 +1,3 @@
+NPE in code formatter preference page
+
+20011206 Open the code formatter preference page Go to the style tab Go to the number of spaces... field Backspace until the field is empty NPE

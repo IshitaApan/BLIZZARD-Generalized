@@ -1,0 +1,3 @@
+[refactoring] convert anonymous to nested should use name conventions
+
+20050606 the 'convert anonymous to nested' refactoring doesn't use name conventions and didn't use the 'f' prefix for fields as I configured.

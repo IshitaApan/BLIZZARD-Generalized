@@ -1,0 +1,3 @@
+[search] Colored labels in Occurrences search
+
+I20070821-0800 Colored labels (matching characters highlighted) would also be nice in results from Search > Occurrences in File > ...

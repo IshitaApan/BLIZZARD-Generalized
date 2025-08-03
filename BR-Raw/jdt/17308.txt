@@ -1,0 +1,3 @@
+Misleading  checkbox in Self Encapsulate field wizard
+
+The following checkbox was misleading to me: [ ] Encapsulate field accesses in declaring class If I check does it mean: a) ONLY the declaring class will be processed? b) the delcaring class will ALSO be processed together with all sub-classes? From experience I learned that b) is the right answer.

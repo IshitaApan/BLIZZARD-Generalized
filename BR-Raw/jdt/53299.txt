@@ -1,0 +1,3 @@
+Synchronizing 5 projects is locking too much
+
+Build 20040219 While synchronizing 5 projects, I started editing one file in project no.1, while no.3 was being synchronized (1 was long done). I still got locked on validate edit, though the project 1 should have been released from the sync rsc lock. (I did check that no other competing job was getting in the way)

@@ -1,0 +1,3 @@
+NPE in NewMethodCompletionProposal.apply
+
+Build 20020602 (F2) Sorry, no steps. I was writing code for a couple of hours, and I noticed this stack in my log afterwards. I was using the java browsing perspective to write code. Hopefully the stack trace contains enough information to be useful... Attaching complete log file, but here's the top of the stack: java.lang.NullPointerException 	at org.eclipse.jdt.internal.ui.text.correction.NewMethodCompletionProposal.apply(Ne wMethodCompletionProposal.java:253)

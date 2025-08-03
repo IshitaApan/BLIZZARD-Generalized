@@ -1,0 +1,3 @@
+[preferences]  Add examples  for new FORMATTER_INSERT_NEW_LINE_AFTER_ANNOTATION_ON_* constants
+
+HEAD A few of the new options for FORMATTER_INSERT_NEW_LINE_AFTER_ANNOTATION_ON_* constants do not have examples showing in the preview pane: 1) Insert new lines after annotations on fields 2) Insert new lines after annotations on types

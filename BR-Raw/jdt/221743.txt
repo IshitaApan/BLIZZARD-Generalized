@@ -1,0 +1,3 @@
+[preferences] Save Actions preference page layout is smushed
+
+Created attachment 91797 cropped screenshot 3.4M5 on RHEL5 with a fresh workspace The text for "Configure the formatter settings on the Formatter page" is wrapped but there's not enough vertical space for the second line. Resizing the dialog doesn't cause the layout to update.

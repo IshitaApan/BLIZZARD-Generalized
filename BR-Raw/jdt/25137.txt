@@ -1,0 +1,3 @@
+Paste enabled with deleted file on clipboard [ccp]
+
+build 20021018 -In the Windows Explorer select a file and copy it to the clipboard -Delete the file -In the package view select a target ->The paste menu item is enabled even though the file on the clipboard does not exist. The paste operation results in an error. The paste menu item should be disabled in this scenario. Note: I just released a fix for bug 16129 that fixes this for the Navigator PasteAction.

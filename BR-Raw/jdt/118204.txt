@@ -1,0 +1,3 @@
+[clean up][code style] Clean up "Qualify access to static field with declaring class" inserts fully qualified type
+
+I20051123-1200 - xy/Try.java: package xy; public class Try { static String fgName; public static void main(String[] args) { System.out.println(fgName); } } - Clean up "Qualify access to static field with declaring class" changes reference to "xy.Try.fgName". Should be "Try.fgName".

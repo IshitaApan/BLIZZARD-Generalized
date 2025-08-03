@@ -1,0 +1,3 @@
+member sort pref page - incorrect message
+
+20030206 it should say that this order is used by the Sort Members action otherwise people will have no clue in order order that action will sort their files

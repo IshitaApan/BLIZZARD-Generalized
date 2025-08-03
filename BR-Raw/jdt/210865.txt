@@ -1,0 +1,3 @@
+[search] 'Occurrences in File' does not work in Outline
+
+HEAD Occurrences in File (Ctrl=Shift+U) does not work in Outline any more.

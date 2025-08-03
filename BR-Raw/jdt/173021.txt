@@ -1,0 +1,3 @@
+[rename] Weird behavior upon right mouse click in Refactor popup
+
+I20070206-0010. Weird behavior upon right mouse click in Refactor popup: It goes into 'move' mode and adds an item to my Windows task bar while moving.

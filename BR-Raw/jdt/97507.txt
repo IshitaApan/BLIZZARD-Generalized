@@ -1,0 +1,3 @@
+[refactoring] Introduce factory fails for bounded type parameters
+
+In RC1. Given class: public class A<T, L extends List<T>> { 	private L _attribute; 	A(L list) { 		_attribute = list; 	} } Invoke "Introduce Factory" on A. The result is 	public static <T, L> A<T, L> createA(L list) { 		return new A<T, L>(list); 	} The bounds on the type parameters have been lost, so it doesn't compile

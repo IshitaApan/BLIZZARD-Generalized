@@ -1,0 +1,3 @@
+Outline selection should not synchronize on editor activation
+
+Build F2. Selection in outline for Java editors is always synchronized to reveal the current cursor position after an editor is activated. This is true even when Java > Editor pref setting for "synchronize outline selection on cursor move" is not selected. Try opening two Java source files. Position the cursor inside the class name on one of the imports. Switch to other editor in the editor area and switch back to the first editor. Outline selection should change to reveal the import the cursor is on. I think this is new behavior in F2, I didn't notice it in F1. Outline selection should only change if the preference is selected, I expect it to not change any of its state otherwise.

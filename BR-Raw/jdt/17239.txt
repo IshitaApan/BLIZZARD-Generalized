@@ -1,0 +1,3 @@
+Mssing context on error in Rename Element [refactoring]
+
+F1 - create class A with method foo and bar - rename foo to bar observe: the error presented in the wizard doesn't have a context.

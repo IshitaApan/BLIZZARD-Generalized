@@ -1,0 +1,3 @@
+[JUnit][api] Need public API to provide JUnit test searching
+
+Build ID: I20080617-2000 Steps To Reproduce: To generate an Ant buildfile that contains the project's JUnit tests for bug 222615 we need a public API method for test searching. Currently I use internal code: new org.eclipse.jdt.internal.junit.launcher.JUnit4TestFinder().findTestsInContainer(container, result, null); More information:

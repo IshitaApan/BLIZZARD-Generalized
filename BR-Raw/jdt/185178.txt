@@ -1,0 +1,3 @@
+[nls tooling] Find Broken Externalized Strings reports wrong messages
+
+The function 'Find Broken Externalized Strings' activated for the whole Java project reports 'unused keys' in the property file and 'undefined keys' in the Java file in case of call 'Messages.getString("Test.0")' is spread over two lines, first line contains 'Messages', second line contains '.getString("Test.0")'.

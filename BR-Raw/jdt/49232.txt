@@ -1,0 +1,3 @@
+Refactoring: Move static method content assist key binding is CTRL-SPACE [general issue]
+
+On OS X the content assist key-binding is OPTION-Space, but in the refactoring you can only use CTRL-SPACE.

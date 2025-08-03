@@ -1,0 +1,3 @@
+[navigation] Quick type hierarchy jumps to type instead of method
+
+Created attachment 195595 Fix I20110512-2000, was OK in 3.6.2, broken by the fix for bug 337887 "Ctrl+T, Enter" on bar() and baz() select the type Sub instead of the method: package xy; public class Try { void foo() { } } class Sub extends Try { void foo() { } private void bar() { } static void baz() { } }

@@ -1,0 +1,3 @@
+[preferences] avoid formatter profile version increment
+
+Created attachment 88910 Patch 20080205-0010 The code that splits the 'new line after annotation' setting incremented the formatter profile version. We should avoid this if possible, as all projects in existing workspaces will get changes in org.eclipse.jdt.core.prefs org.eclipse.jdt.ui.prefs which means a lot of work for users. The attached patch reverts the version increment change. I tested that the version increment is not necessary. I also tested that workspaces that got the version increment will continue to work (the version will be set back again, no settings lost)

@@ -1,0 +1,3 @@
+NPE in JUnit view plus strange behavior
+
+I200405060200 + plug-in export for I200405110800 I was running two JUnit plug-in tests from two different workbench window (maybe I switched to early from one window to the other). I then saw very odd behavior: the JUnit view switched showing results from both tests (see attached picture which shows that the jdt.ui.tests are run but a result from the refactoring tests is reported (below title). The cause for this might be the following NPE(?):

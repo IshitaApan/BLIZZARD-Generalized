@@ -1,0 +1,3 @@
+Navigate/Show in/Package Explorer doesn't work
+
+With build I200405281200, if I select a Java file in the Navigator in the Java Perspective and then choose Navigate/Show in/Package Explorer, the Package Explorer is shown but the java file from the navigator is not visible or selected (i.e. the view doesn't expand the project or folder containing the java file).

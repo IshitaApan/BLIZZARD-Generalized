@@ -1,0 +1,3 @@
+[syntax highlighting] Argument of {@code *}/{@literal *} in Javadoc should not use HTML markup coloring
+
+In Java source editors, the argument of an {@code *} or {@literal *} tag in Javadoc should not use "HTML markup" coloring. E.g. "<String>" is not an HTML tag and should be rendered the same as "Set" here: * {@code Set<String>}

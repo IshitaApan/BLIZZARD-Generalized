@@ -1,0 +1,3 @@
+[clean up] semantic change when removing blocks in nested if-then-else
+
+If you run clean up and use "no block for single statements" then the braces are removed from the following. if (a) { if (b) doSomething(); } else doSomethingElse(); which actually results in the symantically different code if (a) if (b) doSomething(); else doSomethingElse(); It was only during reformatting I spotted the code move on the screen.

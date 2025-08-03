@@ -1,0 +1,3 @@
+Generate Delegate Methods for multiple fields problem
+
+I20050509-2010 In the CU below: - invoke Generate Delegate Methods - choose equals() from a and hashCode() from b - generate -> two delegate methods for a "class C { 	Object a; 	Object b; } "

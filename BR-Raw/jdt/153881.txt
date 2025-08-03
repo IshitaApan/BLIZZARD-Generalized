@@ -1,0 +1,3 @@
+[quick fix] 'Create annotation' does not appear for unresolved annotation in non-existing package
+
+I20060810-1230 package xy; public class SomeClass { @scratch.Unimportant void foo() {} // quick fix missing @Unimportant void foo2() {} // quick fix OK } Make sure there's no package 'scratch'. For '@scratch.Unimportant', only quick fixes to create class interface, or enum show up. Expected: only 'Create annotation'.

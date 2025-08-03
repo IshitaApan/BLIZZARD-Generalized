@@ -1,0 +1,3 @@
+[render] UIEJB3Validator reports a build path problem
+
+Recently, we started seeing a red exclamation mark on EJB 3.0 and 3.1 projects when they are first created. The only error shown is that there are no EJBs defined in the EJB project. After some digging (thanks, Nitin), we discovered that the red exclamation mark is due to bug 215980, where they are attempting to show build path problems in a more pronounced fashion. However, not having EJBs in an EJB project is not a build path problem, and thus should not show the red exclamation mark.

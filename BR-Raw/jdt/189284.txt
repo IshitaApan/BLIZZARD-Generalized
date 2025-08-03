@@ -1,0 +1,3 @@
+[clean up] Clean Up wizard allows to Finish with 0 or >1 selected profiles
+
+3.3 RC2 Found while verifying bug 188910. The Clean Up wizard allows to Finish with 0 or >1 selected profiles. This is not good as the user has no clue which one got applied. As this is probably an easy fix I suggest to fix for RC3.

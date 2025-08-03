@@ -1,0 +1,3 @@
+[WorkingSets] working sets: edit dialog should not display an error on open
+
+3.2 M3 test pass The resource working set dialog shows the same behavior, so this may be inherited from platform-ui - please move if needed. - have a Java working set with one project - delete the project - from the pkg explorer, select the WS, ctx menu > Configure... > expected: the dialog shows a warning that the WS is empty < actual: the dialog shows an error

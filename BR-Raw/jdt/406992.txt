@@ -1,0 +1,3 @@
+[content assist] Template proposal should not be more relevant than constructor proposal
+
+package xy; public class CompletionTest { 	{ 		new File() 	} } - put caret between () - press Ctrl+Space => 4.3 M5a allowed me to choose a constructor proposal, press Enter, and then see context information. But now, I get a bunch of less interesting template proposals in front.

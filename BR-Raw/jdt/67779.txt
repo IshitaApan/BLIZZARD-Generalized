@@ -1,0 +1,3 @@
+color tuning
+
+We received a set of small color adjustments from the artists. These changes should be integrated into RC3 * occurrences highlight: 255, 248, 147 * current line highlight: 232, 242, 254 * completion proposal background: white method parameter background: white

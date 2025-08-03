@@ -1,0 +1,3 @@
+NPE resetting Java > Code Formatter preference page [formatter]
+
+M2 candidate - Window - Preferences - go to the Java -> Code Formatter page - press Restore Defaults button at bottom, will get the attached exception

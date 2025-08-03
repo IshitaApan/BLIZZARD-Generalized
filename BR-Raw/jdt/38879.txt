@@ -1,0 +1,3 @@
+Getter/setter code gen
+
+Build 3.0-M1 Amongst the options offered to generate code should figure one allowing non- static field accesses to be qualified with 'this'. We (jdt/core) use this convention instead of 'f' prefixes.

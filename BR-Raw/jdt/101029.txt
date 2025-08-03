@@ -1,0 +1,3 @@
+Remove log statement from JavaElementLabels
+
+RC3 The Java element labels class currently creates a log statement if the number of parameters differ from the number of names. However due to the current nature of binding keys this happens for all non static inner classes. As a result a log entry is generated when hovering over the constructor of such classes. Since the mismatch of the length of the arrays can't be fixed for 3.1 we decided to remove the log statement. For the full details see bug 99137.

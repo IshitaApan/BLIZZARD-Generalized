@@ -1,0 +1,3 @@
+Infer generic types generates doubled type parameter
+
+Against N20050609-0010. void foo() { 	List<List<String>> l = new ArrayList(); } Infer Generic Type Arguments gives the uncompiling void foo() { 	List<List<String>> l = new ArrayList<List<String><String>>(); }

@@ -1,0 +1,3 @@
+Code completion should indicate deprecated methods
+
+The icon for deprecated methods should be overlaid with a warning icon.

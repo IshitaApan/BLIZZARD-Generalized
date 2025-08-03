@@ -1,0 +1,3 @@
+[navigation] next / previous sub-word jumping misses some sub-word start/ends
+
+I200405060200 Preferences > Java > Editor > Navigation > "Smart cursor positioning in Java names" checked. /** * @see GenericVisitor#visitNode(ASTNode) */ - set caret to after "Generic", Ctrl+Right -> was: caret jumps to after "visitNode"; expected: caret after "Visitor" - set caret to after "visit", Ctrl+Left -> was caret before "Generic"; expected: caret before "visit" I guess the problem is the '#' character, since it works fine if '#' is replaced by '.'

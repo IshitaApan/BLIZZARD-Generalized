@@ -1,0 +1,3 @@
+[call hierarchy] should open callee on double click
+
+I20030604 A double click on a caller in the callers view will neither open the caller file (as context menu -> open does) nor expand the tree item. Open the file would be more intuitive IMHO, but something should happen anyway.

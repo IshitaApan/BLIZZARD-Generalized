@@ -1,0 +1,3 @@
+Refactor - need two undos to completely undo method extraction [refactoring]
+
+Build F2 If you use Refactor to extract a method, it requires two 'Undo' operations to undo the refactoring. The first Undo removes the call to the new method, and the second Undo removes the new method. Refactor->Extract Method is a single operation, so it should only require a single Undo.

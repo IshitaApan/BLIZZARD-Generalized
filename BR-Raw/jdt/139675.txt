@@ -1,0 +1,3 @@
+[quick fix] Convert 'if-else Blocks to Statements' is a no-op
+
+3.2. RC2 Given: if (true) 	if (false) <cursor> { 		; 	} else { 		; 	} 1. Cursor to <cursor> 2. Ctrl-1 3. Change 'if-else' blocks to Statement Is: 	nothing happens Should: if (true) 	if (false) 		; 	else 		;

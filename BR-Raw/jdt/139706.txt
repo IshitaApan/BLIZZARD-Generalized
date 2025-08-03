@@ -1,0 +1,3 @@
+"Link Source Folder" must check that new folder does not yet exist
+
+If a linked source folder has the same name as a non-source project folder it can't be used properly. Instead, the non-source project folder is shown as source folder presenting it's original content (eg. images). I suggest to show a warning/error message if the name of a linked source equals a non-source project resource. (This is already done for existing source folders). Quite misleading is the browse button appended to the name input field. It encourages one to pick a non-source folder from the current project.

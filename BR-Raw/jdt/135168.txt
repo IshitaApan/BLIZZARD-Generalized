@@ -1,0 +1,3 @@
+[Java Sync] Mixed source folders duplicate contents
+
+I20060331-2000 I am not exactly sure what "Show All" is supposed to do, but I think it's broken now, with the new java model option in the synchronize view. It seems that "Show All" is doing an intersection of the different view types, instead of a union of them. For me, this ends up being "show less". The best way I can describe this is with a series of screen snapshots. So three snapshots will follow, all of different views of the current incoming and outgoing changes in the swt project. Snap 1) Show Workspace Snap 2) Show Java Workspace Snap 3) Show All

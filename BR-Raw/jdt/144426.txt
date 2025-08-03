@@ -1,0 +1,3 @@
+[compiler] Compiler incorrectly reports "assignment to variable has no effect" when it is a duplicate
+
+Eclipse 3.2RC4 for Win23: eclipse-SDK-3.2RC4-win32.zip Running on Windows XP SP2 public class Test { 	public static void main(String[] args) { 		int x = 2; 		if (true) { 			int x = 4; 		} 	} } "x = 4" is underlined with multiple markers: "The assignment to variable x has no effect", and "Duplicate local variable x". I believe that the first one is incorrect ("has no effect").

@@ -1,0 +1,3 @@
+can't turn off Filter imports
+
+Version: 3.0.0 Build id: 200405140800 Linux Gtk+ Turned on Filter Imports in the search view, now I can't turn it off. Option to turn off Filter Imports is unavailable.

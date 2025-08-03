@@ -1,0 +1,3 @@
+Refactoring asks to save on non-resource related editors
+
+3.3 Some rename refactorings (rename project, folders) and all move refactorings (move folder, move file) prompt to save all dirty editor as they want to make sure that no editor has a file open that is going to be moved. All other editors only save non-Java resources (bug 175495) We should not save editors that are not resource related. Launching solved that problem by testing if a editor input adapts to IResource. (bug 114093).

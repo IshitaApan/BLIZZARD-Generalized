@@ -1,0 +1,3 @@
+[implementation] OperationCanceledException gets logged
+
+N20050521-0010 OperationCanceledException gets logged if reconcile is canceled during Java editor reconcile or if AST creation is canceled during AST Provider's AST creation.

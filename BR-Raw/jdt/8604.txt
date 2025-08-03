@@ -1,0 +1,2 @@
+J Search opens type selection dialog if code resolve has > 1 result
+

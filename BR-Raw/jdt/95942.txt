@@ -1,0 +1,3 @@
+[5.0] quick assist: assign to new local infers illegal type
+
+N20050519-0010 - have this code: class X { void m(Class<? extends List> clazz) { clazz.getSuperclass(); } } - caret on the method body - quick assist: assign to new local variable > expected: Class<?> superclass= clazz.getSuperclass() < actual: Class<? super ? extends List> superclass=clazz.getSuperclass()

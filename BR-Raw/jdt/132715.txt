@@ -1,0 +1,3 @@
+Java synchronization always has an empty org package
+
+The Java synchronization always has an empty org package. I will attach a patch that fixes this.

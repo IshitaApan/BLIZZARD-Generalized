@@ -1,0 +1,3 @@
+[api] Add action constants for IDEActionFactory and ActionFactory IDs
+
+We have added action constants for most ActionFactory IDs but not for all. We currently directly refer to ActionFactory and IDEActionFactory for those actions: ActionFactory.REFRESH IDEActionFactory.ADD_BOOKMARK IDEActionFactory.ADD_TASK

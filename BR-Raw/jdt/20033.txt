@@ -1,0 +1,3 @@
+Add Javadoc comment on type swallows line delimiter
+
+Build 20020612 1. Add type T 2. select T in the Outline and select "Add Javadoc Comment" ==> ... */public class T { This is a regression from fixing bug 19344: Add Javadoc comment broken Note that the original problem was fixed and all callers of the fixed method have been verified. It seems that the action that generates the Javadoc does something different for types (maybe some workaround was added when the additional line delimiter was detected (-> bug 19344) and the workaround was not applied to methods.

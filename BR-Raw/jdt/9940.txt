@@ -1,0 +1,3 @@
+Request: decorators in java browsing views
+
+Feature request. I'd like the decorators (the team decorators in particular <g>) to appear in the Java browsing views when turned on.

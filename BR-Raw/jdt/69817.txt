@@ -1,0 +1,3 @@
+Externalize Strings Wizard: should not touch escaped characters [nls] [refactoring]
+
+Eclipse 3.0 Externalize a string containing escaped characters "\r\n\t\f". The cell editor on the table shows only "square" characters insted of the escape sequences. Said characters should not be translated when editing strings. They are (correctly) not changed when written to the .properties file without change.

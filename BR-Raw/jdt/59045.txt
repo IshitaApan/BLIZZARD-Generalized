@@ -1,0 +1,3 @@
+no more support to reuse editors
+
+The old search provided the option Window>Preferences>Workbench>Search>"Reuse Editors to Show Matches". This option is no longer honored by the new search implementation. This is a loss of function and we have to revive this option.

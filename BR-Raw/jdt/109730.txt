@@ -1,0 +1,3 @@
+Surround with runnable quick assist
+
+Version: 3.1.0 Build id: I20050906-1200 Until now surround with runnable was only a text templat. This patches add a quick assist for surround with runnable. Variable declarations are made final and initializers are split off if required. Surround with runnable does not guarantee to generate syntactically correct code in every situation. i.e.: int i = 10, j = i; System.out.println(i); System.out.println(j); Applying surround with runnable on System.out.println(i); results in final int i = 10; int j = i; Runnable runnable = new Runnable() { public void run() { System.out.println(i); } } System.out.println(j);

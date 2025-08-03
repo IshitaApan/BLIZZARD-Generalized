@@ -1,0 +1,3 @@
+quick fix: native methods do not specify a body either [quick fix]
+
+20021016 just like abstract ones - so you can offer removing the modifier

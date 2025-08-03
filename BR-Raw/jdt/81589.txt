@@ -1,0 +1,3 @@
+[1.5] 3.1M4 static import of enum [organize import]
+
+when there is a switch/case statement involving typesafe enum constants, organize imports adds 'static import...' statements... but then compiler throws warning saying that import is never used, although it actually is.... so its a spurious compiler warning.

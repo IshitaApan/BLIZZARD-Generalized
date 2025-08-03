@@ -1,0 +1,3 @@
+Open Type broken: "Could not uniquely map the type name to a type"
+
+Smoke for 20021213 It seems to be broken on per project basis e.g. it works for types in JDT UI but not for types in jdt.ui.tests and jdt.launching.j9. See attached picture for an example.

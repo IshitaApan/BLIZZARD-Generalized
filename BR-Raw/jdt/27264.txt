@@ -1,0 +1,3 @@
+opening/closing java files in presence of hiearchical package explorer is slow
+
+will attach profiles

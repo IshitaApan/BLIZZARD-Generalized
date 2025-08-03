@@ -1,0 +1,3 @@
+Modify parameters refactoring remebers last state [refactoring]
+
+2.x - select a method with 2 arguments - activate modify parameters - change order and one name - click next to see preview - press cancel - activate refactoring again observe: the dialog shows the last entered settings.

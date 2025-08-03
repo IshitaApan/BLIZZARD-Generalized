@@ -1,0 +1,3 @@
+Need API to know if project is shared
+
+Michael, you suggested to use RepositoryProvider.getProvider to implement a non-shared filter (see bug 21896). I did this but can only do it with a very dirty hack: because the above API actually tries to load the provider it fails for every provider which comes from a plug-in that JDT UI did not declare as required (e.g. CVS). See attached .log for details. The hack is to catch NoClassDefFound exception but this gives wrong results in the viewers. So I'm back with my request to get an API which tells if a project has a repository provider or not (boolean return value). Thanks, Dani

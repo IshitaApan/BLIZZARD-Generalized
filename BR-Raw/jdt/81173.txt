@@ -1,0 +1,3 @@
+Rename Type Parameter should rename reference in @param tag
+
+Rename Type Parameter should rename reference in @param tag. /** * @param <ELEMENT> the element */ public class A<ELEMENT> { 	ELEMENT e; }

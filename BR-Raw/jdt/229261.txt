@@ -1,0 +1,3 @@
+[breadcrumb] Stays on top when workbench window is moved
+
+I20080428-1300 1. In breadcrumb open a drop down _by left click a label_ 2. Move the workbench window around Is: Drop down stays on top at original location Should: Either close drop down or move with the workbench window I guess closing it is easier, and content assist proposal popup does the same. Probably should fix for M7, although no harm done.

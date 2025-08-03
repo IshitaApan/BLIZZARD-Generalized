@@ -1,0 +1,3 @@
+Source formatting is very slow
+
+The code formatting of longer java source files in M4 is extremely slow.

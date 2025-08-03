@@ -1,0 +1,3 @@
+[Extract Class] Warn if visibility problems will occur
+
+Use Extract Class on org.eclipse.compare.CompareEditorInput with getters and setters on all fields as top level. The resulting code will contain Errors because the type InternalOutlineViewerCreator is not visible for the extracted class.

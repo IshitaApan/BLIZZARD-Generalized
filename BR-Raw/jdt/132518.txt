@@ -1,0 +1,3 @@
+[build path] Build path error when renaming sub folder
+
+I20060309-1000 1. New Java Project with seperate source and output folder 2. Build Path->New Source Folder... 3. Create src/sub source folder 4. Configure Build Path... 5. Source Tab 6. Select src/sub 7. Edit... 8. Change src/sub to src2 -> src excluds an empty path 9. OK -> Build Path Error: The project is missing required source folder src2

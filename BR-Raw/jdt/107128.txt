@@ -1,0 +1,3 @@
+[typing] Move lines destroys indentation of outcommented code
+
+I20050811-1530 Move lines destroys the indentation of code that has been commented out. IMO, Move lines should never try to be smart about the contents of a commented section. It should just add/remove whitespace in front of the // (same behavior as when moving other statements). public class Klass { 	int bar; //	void foo() { //		System.out.println("foo"); //	} } - select the 3 commented lines - press Alt+Up -> document looks like this (note the removed tab in fromt of System.out.pr...): public class Klass { //	void foo() { //	System.out.println("foo"); //	} 	int bar; }

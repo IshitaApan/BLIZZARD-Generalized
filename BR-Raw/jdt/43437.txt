@@ -1,0 +1,3 @@
+Scanner does not like string literals
+
+20030922 1. Create a scanner and initalize it with the string "\"hello\"" 2. Read two tokens: You get a TokenNameStringLiteral and a InvalidInputException: Unterminated_String I'd expect to get - TokenNameStringLiteral and a - TokenNameEOF

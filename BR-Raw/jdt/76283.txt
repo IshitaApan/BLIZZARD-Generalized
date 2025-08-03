@@ -1,0 +1,3 @@
+[performance] Problems requested twice when opening a Java editor
+
+I20041013 When opening a Java editor, problems are requested once during ICompilationUnit#becomeWorkingCopy and once during ICompilationUnit#reconcile. The IProblemRequestor should be disabled during #becomeWorkingCopy so as to avoid to compute problems (which involves the full resolution of the working copy).

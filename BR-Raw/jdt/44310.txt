@@ -1,0 +1,3 @@
+Escape sequences remain in externalized strings [refactoring] [nls]
+
+I20030930: When using the "Externalize strings" refactoring on a string like: "Ignores all occurrences of \"{0}\" in the document" the escape sequences are not correctly resolved. In the properties file, the newly inserted line looks as follows: key=Ignores all occurrences of \"{0}\" in the document At least escape combinations for " should be correctly translated. Other escape sequences like \r,\n,\b, ... make less sense.

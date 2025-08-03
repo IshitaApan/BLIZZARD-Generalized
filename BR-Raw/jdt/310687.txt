@@ -1,0 +1,3 @@
+[search] JavaSearchPageScoreComputer returned to adapt C++ Editor Input
+
+Build Identifier: Helios M6 In SearchPageDescriptor.computeScore, an adapter for org.eclipse.ui.part.FileEditorInput(/search_tab/src/search_tab.cpp) to ISearchPageScoreComputer is requested, and a JavaSearchPageScoreComputer is returned. Reproducible: Always

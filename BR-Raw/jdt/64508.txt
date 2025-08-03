@@ -1,0 +1,3 @@
+Move CU refactoring: Button size and label
+
+20040528 The button doesn't seem to have the standard size (use SWTUtil). There also seems to be a space between 'New' and '...'

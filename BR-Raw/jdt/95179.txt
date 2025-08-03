@@ -1,0 +1,3 @@
+[type filters] Type Filters not respected
+
+Using 0506, I re-enabled my java.awt.* Type Filter, and invoked Organize Imports. I prompted to resolve AWT's and SWT's Rectangle. AWT should have been filtered.

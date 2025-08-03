@@ -1,0 +1,3 @@
+code templates pref page: opening a dialog on typing is unexpected [code manipulation]
+
+20030206 when i start typing (or even press an arrow key) in the template preview a dialog pops up it's unexpected and unusual

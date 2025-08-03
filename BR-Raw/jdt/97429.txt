@@ -1,0 +1,3 @@
+[build path] Native library attribute should be available on the container as well
+
+RC1 Why don't we have a native library attribute for class path containers ?

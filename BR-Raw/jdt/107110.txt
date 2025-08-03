@@ -1,0 +1,3 @@
+IMethodBinding.isSubsignature not yet correctly implemented
+
+20050816 HEAD I added a new test 'MethodOverrideTest' to test our implementation of isSubignature but for IMethod. The results are compared the IMethodBinding.isSubsignature, which seems to not correctly implemented yet. In MethodOverrideTest (org.eclipse.jdt.ui.tests) turn DEBUG_SHOWRESULTS to true to see the problems.

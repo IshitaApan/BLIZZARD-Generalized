@@ -1,0 +1,3 @@
+Radio bullet on Packages view's Filters... item [filters]
+
+Build 20020530 The Filters... item on the view menu has a radio bullet, even though there are no other items in this group to choose from.

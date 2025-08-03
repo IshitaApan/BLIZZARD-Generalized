@@ -1,0 +1,3 @@
+Need API to process StyledString
+
+I20080415-0800. In order to support BIDI we need to be able to run the string through the TextProcessor and adjust the styles. Simplest would be to get proccessText(*) methods that do the same as TextProcessor.process(*).

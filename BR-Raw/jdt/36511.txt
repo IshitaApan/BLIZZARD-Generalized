@@ -1,0 +1,3 @@
+call hierarchy: details list should be a table with icons
+
+details list should be a table with icons - we can reuse the icons used by 'find in file'

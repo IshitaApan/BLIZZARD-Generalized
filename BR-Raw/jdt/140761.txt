@@ -1,0 +1,3 @@
+[junit] decouple filtering from presentation mode
+
+RC3 From bug 140125: changing the filter ('Show Failures Only') should not switch the presentation ('Show In Hierarchy') at the same time. The two functions should be decoupled what simplify the usage (and documentation) and to avoid confusion. This was a high priority item in RC3 that didn't make it.

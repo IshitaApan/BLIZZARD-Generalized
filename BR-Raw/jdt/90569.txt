@@ -1,0 +1,3 @@
+combobox needs to remember more items
+
+[This bug is linked to bug https://bugs.eclipse.org/bugs/show_bug.cgi?id=72151] Description copied from that bug. I often search for 10-20 different things in various files over the course of an hour. But the dropdown combobox in the find/replace dialog only appears to remember the last 7 search terms. Ideally, the computers memory should exceed mine :-) Request: make it remember 30 items - that should exceed the list of things that I can remember searching for :-)

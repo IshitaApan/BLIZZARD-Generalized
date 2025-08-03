@@ -1,0 +1,3 @@
+Notify user explicity when trying to type in a read-only editor
+
+If you have a binary class that has attached source and you try to edit the file there is no indication that this file is read only in the editor. This may confuse many users. (like me) There should be some kind of notification that this file is read only. (Maybe as a line at bottom of the editor, or in the status bar, or an infopop that automatically comes up when you start to type, or in the editor's title (but this won't work as well since it can be obscured by other editor tabs))

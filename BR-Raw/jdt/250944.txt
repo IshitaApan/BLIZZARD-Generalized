@@ -1,0 +1,3 @@
+Adopt NodeFinder from jdt.core.dom
+
+We should use the new NodeFinder from bug 53024 and get rid of GenericVisitor.

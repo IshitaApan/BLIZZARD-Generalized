@@ -1,0 +1,3 @@
+NPE buildpaths.CPVariableElement.equals()
+
+Eclipse 20030221 RH 8.0, motif Install eclipse Start eclipse with a new workspace Open the 'Classpath Variables' preference page (Window>Preferences>Java>Classpath Variables' Close the preference page doing nothing (hit ok) Re-open the 'Classpath Variables' preference page. The attached log is generated.

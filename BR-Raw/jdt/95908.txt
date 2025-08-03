@@ -1,0 +1,3 @@
+[5.0][content assist] toarray template inserted as content assist method argument guess
+
+from bug 95785: N20050518-0010 - have 'Fill argument names on completion' and 'Guess filled method arguments' enabled - in the method below (in a 5.0 project), execute contant assist after toArray and choose "toArray(Object[] a)": public void test(java.util.List aList){ aList.toArray } => the line now reads: aList.toArray(toarray - convert collection to array)

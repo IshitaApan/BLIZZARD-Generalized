@@ -1,0 +1,3 @@
+[quick assist] Split && condition not available with else branch
+
+200410050800 The quick assist "Split && condition" is not available in this example: if (true && false) { //a } else { //b } When I remove the else branch, it shows up. It should always be available in the whole condition (also when caret is inside "true", see bug 74522).

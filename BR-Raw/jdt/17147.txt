@@ -1,0 +1,3 @@
+Java Editor: missing error indication
+
+F1. - create new Java project - create new class Test - add the word 'Test' as shown below public class Test { 	Test } Observe: and error appears in the overview bar but no wiggly line. Hovering over the closing bracket shows an error hover.

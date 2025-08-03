@@ -1,0 +1,3 @@
+LinkedPositionUI has a reference to SWT.COLOR_RED
+
+LinkedPositionUI(ITextViewer, LinkedPositionManager) - org.eclipse.jdt.internal.ui.text.link.LinkedPositionUI has a reference to SWT.COLOR_RED which will be unreadble if the user sets their background colour to Red. We will be adding a getErrorText colour to JFaceColours in build >20020411. You may want to use that.

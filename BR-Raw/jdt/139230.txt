@@ -1,0 +1,3 @@
+[content assist] Camel Case + insert common prefix not working
+
+I20060428-0010. 1. enable Camel case and "insert common prefix automatically 2. in the Java editor type "JE" + code assist ==> the first item is directly inserted even though there are more completions.

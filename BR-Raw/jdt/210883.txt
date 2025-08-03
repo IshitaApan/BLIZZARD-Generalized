@@ -1,0 +1,3 @@
+Link with editor fails for Java Projects
+
+There is an issue with the Java content provider where it is returning an IJavaProject instead of an IProject. Scenario: Create a Java Project and add a few classes, files, etc using the Navigator view. Open the new files using the Navigator view. Open the Project Explorer and press the link with editor button.

@@ -1,0 +1,3 @@
+Quick FIx: create local variable deletes comment above it
+
+Eclipse 20040930 WinXP Using create local variable quickfix for 'x' on this deletes the comment block: /* * */ x = "hi"; create field 'x' is ok though. Possibly related to bug 66871 ? Channing

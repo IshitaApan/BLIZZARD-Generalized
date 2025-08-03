@@ -1,0 +1,3 @@
+quick fix: adds bogus whitespaces on 'add throws declaration'
+
+class A{ 	void a() throws Exception{ 	} 	 	void f(){ 		a(); 	} } qf the call to a() 'add throws declaration' you will get 'void f() throws 	Exception{' i have to go and fix it every time it used to work :(

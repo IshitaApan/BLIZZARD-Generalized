@@ -1,0 +1,3 @@
+[misc] Quick Outline with inherited members sorts by offset across declaring types
+
+HEAD With the fix for bug 126184, the Quick Outline is now strangely sorted when in "show inherited members" mode. All members are sorted by source offset, regardless of the declaring type. By default, they should still be sorted by declaring type and then by source offset.

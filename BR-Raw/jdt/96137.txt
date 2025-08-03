@@ -1,0 +1,3 @@
+(regression) Type hierarchy displays its name in the content area when empty
+
+The empty type hierarchy displays the word "hierarchy" twice at the top of the view. The patch attached to bug 68537 included a fix for this, but the code that went into CVS did not.

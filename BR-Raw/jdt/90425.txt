@@ -1,0 +1,3 @@
+Code Templates preference pages show recursive links between project-specific and workspace settings
+
+I20050405-0800 Java > Code Style > Code Templates preference pages show recursive links between project-specific and workspace settings. The links should not appear in a dialog that was opened from another settings dialog.

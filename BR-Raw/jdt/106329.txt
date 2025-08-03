@@ -1,0 +1,3 @@
+[refactoring] Pull Up fails with method type variable of the same name as class type variable
+
+I20050803-0800 - pull up countItem(..) to Collector -> compile errors, since references to method type variable T have been replaced by E - remove 'static' modifier from countItem(..) and pull up again -> no compile error, but changed semantics because the method parameter types don't use the method type variable any more. package org.example; import java.util.HashMap; class Collector<E> { 	 } public class Stats<T> extends Collector<T> { 	static <T> void countItem(HashMap<T, Integer> frequencies, T item) { 		Integer frequency = frequencies.get(item); 		if (frequency == null) 			frequency = 1; 		else 			frequency++; 		frequencies.put(item, frequency); 	} }

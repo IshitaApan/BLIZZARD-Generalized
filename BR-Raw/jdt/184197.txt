@@ -1,0 +1,3 @@
+New Java Project wizard should filter out aggregate working sets
+
+HEAD The New Java Project wizard should filter out aggregate working sets. It's probably best to filter out all non-editable sets, see IWorkingSet#isEditable().

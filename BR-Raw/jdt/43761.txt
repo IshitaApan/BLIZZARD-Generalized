@@ -1,0 +1,3 @@
+Implemented Interfaces Selection dialog behavior
+
+a) Add two interfaces. -> Two interfaces have been added to the list box on the "New Java Class" dialog. Close the dialog via the x in the upper right hand corner. -> Two interfaces have been added. b) Add two interfaces. -> Two interfaces have been added to the list box on the "New Java Class" dialog. Close the dialog via "Cancel". -> Both interfaces will not be added. @@@@ Shouldn't closing the dialog equate to a "Cancel"?

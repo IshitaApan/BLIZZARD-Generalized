@@ -1,0 +1,3 @@
+[preferences] Surface new compiler warning option in preference page
+
+3.5 stream Follow up for bug 115814. Pref label could be: "Comparing identical" and should be categorized amongst potential programming problems.

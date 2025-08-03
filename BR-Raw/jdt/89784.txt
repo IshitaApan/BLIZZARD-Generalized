@@ -1,0 +1,3 @@
+Typo in Infer Generic Type Arguments refactoring dialog
+
+I20050330-0500 Typo in Infer Generic Type Arguments refactoring dialog: infering -> inferring

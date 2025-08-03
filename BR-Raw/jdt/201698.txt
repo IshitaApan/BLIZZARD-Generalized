@@ -1,0 +1,3 @@
+[working sets] Adopt new working set configuration block API
+
+I20070828-0800 We should adopt the new API and get rid of our implementation. See bug 199904

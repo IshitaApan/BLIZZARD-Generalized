@@ -1,0 +1,3 @@
+[save actions] Work around core bug 208541
+
+I20071031-1800 Bug 208541 leads to unsatisfying behavior when format edited lines, remove trailing withe spaces and/or correct indentation on save are enabled. Including the line delimiters of changed regions seams to improve the situation. But even with this fix there are situation where it does not work (see new test case). To make this test green to I have to merge edits in the CodeFormatFix if possible.

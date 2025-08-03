@@ -1,0 +1,3 @@
+[content assist] code assist in file of simple project logs exception
+
+I20090515-1143. Broken since 3.3 but fix would be very simple. Markus, what do you think?

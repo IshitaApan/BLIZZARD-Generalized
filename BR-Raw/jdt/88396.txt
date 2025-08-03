@@ -1,0 +1,3 @@
+[5.0] [refactoring] [move] Move member type refactoring does not update static import
+
+Given the following source file: package pack; import static pack.Test.Color.*; public class Test { enum Color {WHITE, BLACK} public static void main(String[] args) { Color c = BLACK; switch(c) { case BLACK: System.out.println("Black"); break; case WHITE: System.out.println("White"); break; } } } Put the cursor on the definition of "Color". Select Refactor -> Move Member Type to New File. Hit ok. The static import in Test.java is now squiggled. It still reads: import static pack.Test.Color.*; It should read: import static pack.Color.*;

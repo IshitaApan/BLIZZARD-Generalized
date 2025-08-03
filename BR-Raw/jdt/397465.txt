@@ -1,0 +1,3 @@
+[hovering] Open Declaration doesn't work in Javadoc hover on IPackageFragment
+
+Open Declaration doesn't work in Javadoc hover on IPackageFragment. This action is available in the toolbar of the Javadoc view and in rich Javadoc hovers. It's also available via the element icon in the Javadoc header (the icon is a clickable link). If there's a package-info.(java|class) or package.html file, then we should open that one in an editor. Otherwise, we should open the Package Explorer and select/reveal the package fragment.

@@ -1,0 +1,3 @@
+[build path] New source folders should always be inserted on top
+
+RC2 - create a new project - create a new source folder sources - create a new source folder tests observe: the new source folder is appended at the end. Interesting is that source is prepended. Martin, can you please comment on this.

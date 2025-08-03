@@ -1,0 +1,3 @@
+[type hierarchy] Member types in interfaces are decorated with package access
+
+Create a new Java project and the following interface: public interface Top { 	interface Member {} 	class Bottom {} } Open the Hierarchy view for each of the member types. A package-access decoration is displayed even though both types are public member types of the "Top" interface.

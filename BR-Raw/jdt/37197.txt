@@ -1,0 +1,3 @@
+Basepath for relative pathes in JAR-exporter
+
+The basepath for the JAR-exporter is the eclipse-install-directory. I prefer it to be the root of the project (the description is saved in), so that relative pathes end inside the project. Now: <jardesc> <jar path="workspace/projectdir/jar.jar"/> Desired: <jardesc> <jar path="jar.jar"/> Reason: To make the jardesc-files portable for shared projects

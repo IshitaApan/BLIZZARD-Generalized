@@ -1,0 +1,3 @@
+setProjectJavadocLocation() only in internal package [api] [javadoc]
+
+If You want to set the project javadoc location by API so You have to use an internal class, there is no public interface. see class org.eclipse.jdt.internal.corext.javadoc.JavaDocLocations (Otherwise the method setLibraryJavadocLocation() is public at org.eclipse.jdt.ui.JavaUI - thats ok.)

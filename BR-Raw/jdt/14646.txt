@@ -1,0 +1,3 @@
+Template - local variable name should default to type name last segment
+
+Build 20020423 When iteration over an array of IClasspathEntry[], the inserted local variable is 'iClasspathEntry', where it would make more sense to propose 'entry'. A simple way to solve this problem would be to default to a name computed by extracting the last segment of the name starting with an uppercase, and converting the uppercase into a lowercase one. IClasspathEntry --> entry Runnable --> runnable IResource --> resource

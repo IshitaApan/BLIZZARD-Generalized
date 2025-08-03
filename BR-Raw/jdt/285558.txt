@@ -1,0 +1,3 @@
+[misc] Source attached shows blank untill reopened in the editor
+
+Created attachment 143378 Screenshot attached Build ID: I20090803-1800 Steps To Reproduce: 1. Create a Java class Foo and compile it. 2. Export the .class files and the sources to separate Jar files (Let's call them foo_bin.jar and foo_src.jar respectively) 3. Now create a new Java project, add foo_bin.jar as an external jar library to the project and Open Type for Foo. 4. Foo.class is open and when you click on "Attach Source" and attach the foo_src.jar, the editor shows nothing but blank. More information: When I close the editor tab and open Foo again, it shows the source alright. From then on, things are okay. See the attachment also.

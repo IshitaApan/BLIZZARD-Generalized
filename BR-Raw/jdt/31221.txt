@@ -1,0 +1,3 @@
+provide filter for closed projects [filters]
+
+20030206 closed projects are non-java projects but it does not work the other way so there's no (filter-based) way to remove only closed projects

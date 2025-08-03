@@ -1,0 +1,3 @@
+[nls tooling] nls wizard deletes wrong accessor field
+
+I20080324-1800 Given: package test; public class E1 { 	public String s1= "Value"; 	public String s2= "Value"; } 1. Eclipse style externalize E1, accept all defaults 2. Source>Externalize... 3. Change key 'E1_1' to 'E1_0' Is: Field 'E1_0' is removed in 'Messages' resulting in compile error Should: Field 'E1_1' should be removed Not a regression: This is also in 3.3.2. In 3.1.2 the field is not deleted but renamed, resulting in a compile error due to duplicated fields.

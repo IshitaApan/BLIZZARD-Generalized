@@ -1,0 +1,3 @@
+compiler preference page: combo boxes should have equal sizes
+
+combo boxes have different sizes - depending on whether the entry is 'error' or 'warning' - they should be equal-sized

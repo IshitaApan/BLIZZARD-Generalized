@@ -1,0 +1,3 @@
+JUnitLaunchShortcut#launchConfiguration() should call DebugUITools#launch() instead of config.launch() [JUnit]
+
+I20040324 ILaunchConfiguration#launch(String, IProgressMonitor) never performs a build prior to the launch. DebugUITools#launch(ILaunchConfiguratio, String) saves and builds the workspace according to the current preference settings.

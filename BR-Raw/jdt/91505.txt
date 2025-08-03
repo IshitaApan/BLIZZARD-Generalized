@@ -1,0 +1,3 @@
+Typo in new API: JavaElementLabels.getDeclararionLabel(..)
+
+I20050414-1107 Typo in new API: JavaElementLabels.getDeclararionLabel(..) ^ should be t Can we still correct this (it's new 3.1 API)?

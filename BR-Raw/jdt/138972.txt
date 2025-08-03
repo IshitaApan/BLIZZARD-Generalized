@@ -1,0 +1,3 @@
+[replace jar][inline method] Missing warning message
+
+My client is using a method which has been inlined now. Performing 'Replace JAR' does not show that refactoring which seem reasonable to me. However, one could get a warning message about the change and its consequences.

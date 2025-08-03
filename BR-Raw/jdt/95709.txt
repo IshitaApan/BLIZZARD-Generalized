@@ -1,0 +1,3 @@
+[CellEditors] [nls tooling] Strange selection behaviour in the NLS table
+
+M7 1. open an already translated file with lots of strings in the NLS wizard, e.g. UserLibraryPreferencePage 2. select the first value so that the cell ediotor appears 3. use the scroll bar to scoll so that the (still selected) entry is not visible anymore 4. select a new entry -> the table suddendly scrolls and a different entry than intended gets the selection

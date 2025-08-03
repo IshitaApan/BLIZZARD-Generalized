@@ -1,0 +1,3 @@
+Pull up could add import statements as necessary [refactoring]
+
+When pulling up a method, the necessary import statements might not be present. Pull up could figure out which import statements to add.

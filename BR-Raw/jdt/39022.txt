@@ -1,0 +1,3 @@
+Add Javadoc Comment does not work for fields. [code manipulation]
+
+200306110800 1. Have a field without javadoc 2. select the field name 3. Choose Source->Add Javadoc Comment -> the comment will be added for the class, not the member field.

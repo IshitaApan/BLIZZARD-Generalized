@@ -1,0 +1,3 @@
+Improve option settings for JDK 1.4
+
+What we currently offer isn't sufficient. We should discuss with Philippe, this is important for the next milestone

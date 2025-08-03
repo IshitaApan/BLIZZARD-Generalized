@@ -1,0 +1,3 @@
+The members list in push down menu does not fill the requester [refactoring]
+
+It only fills the requester horisontally when the requester is resized. Øyvind

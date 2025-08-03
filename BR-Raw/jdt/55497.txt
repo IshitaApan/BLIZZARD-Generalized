@@ -1,0 +1,3 @@
+[syntax highlighting] Support case-insensitive Task Tags in JavaCommentScanner
+
+Following a JDT/Core change. Preference pages already support it.

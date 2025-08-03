@@ -1,0 +1,3 @@
+Rename Java file to non Java file causes most actions to crash
+
+F2 - open Java file in editor - rename it so that it has the extension .txt Almost all Java relevant actions in Edit, Source, Refactor, Naviagte and context menu are still enabled. Executing them almost always leads to some sort of exceptions.

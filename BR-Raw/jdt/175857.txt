@@ -1,0 +1,3 @@
+[common navigator][actions] Show In should reference the project explorer
+
+org.eclipse.jdt.ui registers the showInPart extension to use the ResourceNavigator in a number of places. It should use the Project Explorer.

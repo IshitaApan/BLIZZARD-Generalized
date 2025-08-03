@@ -1,0 +1,3 @@
+Name Conflict dialog should be improved
+
+Build F1 See attached picture. The problem is that that CU name including the .java is in quotes and that the user should enter a new name for it. Unfortunately . is not accepted in that name. We should use better wording.

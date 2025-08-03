@@ -1,0 +1,3 @@
+Loading .importorder file fails when package prefix entry starts with an uppercase letter [code manipulation]
+
+After saving my manually configured import order definition in the organize imports preferences page, I can't load it again ( Error Box: Not a valid import order file). The reason seems to be the existence of package prefix entrys which start with an uppercase letter.

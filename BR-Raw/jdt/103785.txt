@@ -1,0 +1,3 @@
+[content assist] sort methods with less arguments first
+
+3.1 List<String> li= null; li.ad |code assist The proposals are: add(int index, String element) add(String element) .. I checked that all proposals get the same relevance from jdt.core It would be better that for method with the same name, methods with less argumnets are ordered first. That would be consistent with the JavaElementSorter used for the package explorer

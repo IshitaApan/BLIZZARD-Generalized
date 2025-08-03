@@ -1,0 +1,3 @@
+[call hierarchy] "Expand with Constructors" should auto-expand single constructor
+
+The "Expand with Constructors" action in the Call Hierarchy should auto-expand the "[constructor] ..." node if there is only one. There's a 99% chance that the user wants to expand this constructor after choosing the action. I would also try how it feels if we do the same when a node is automatically expanded with constructors due to the view settings. I think it could be convenient too, but it could also become confusing.

@@ -1,0 +1,3 @@
+[quick fix] Missing fixes for new compile errors for "missing switch default" follow-up problems
+
+I missed to add quick fixes for two new compile errors that have been added with bug 374605. This is bad for users, since they not only get lengthy error messages (bug 383631) but also lose the available quick fixes.

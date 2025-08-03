@@ -1,0 +1,3 @@
+[clean up] clean up does not convert static accesses as promised
+
+3.2 M3 test pass - have the CU below - choose Source>Clean up - select all check boxes > expected: the access to 'new Foo().BAR' is converted to 'Foo.BAR' < actual: no changes are done Note: the quick fix works as expected ------ Foo.java ------ public class Foo { 	public static void main(String[] args) { 		System.exit(new Foo().BAR); 	} 	 	final static int BAR= 3; }

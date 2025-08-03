@@ -1,0 +1,3 @@
+JUnit useless launch config name when there is no selection
+
+1) give the packages view focus 2) remove the selection 3) bring up the launch config dialog 4) create a new JUnit launch configuration ->it is given the name (1) should fix

@@ -1,0 +1,3 @@
+[project explorer] Missing label for JRE containers in status bar
+
+3.2 RC1 Selecting a jre container in the project explorer displays the icon correctly in the status bar, but without the corresponding element label

@@ -1,0 +1,3 @@
+[clean up] Convert for loop does not check index variable
+
+I20061031-0656 Given: package test1; public class E1 { 	void foo(Object[] x) { 		int i= 0; 		for (int j = 0; j < x.length; j++) 			System.out.println(x[i]); 	} } 1. Place cursor after for 2. Ctrl-1 Is: Convert to enhanced for loop is offered Should: Not be offered, convert changes semantic FUB of Bug 160312

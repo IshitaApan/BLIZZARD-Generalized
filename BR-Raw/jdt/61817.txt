@@ -1,0 +1,3 @@
+[api] Provide API to execute move refactorings headless [refactoring]
+
+Since there is public API for "RenameSupport", I was wondering why there isn't similar "MoveSupport" (or is there...) to kick off Java move/refactoring.

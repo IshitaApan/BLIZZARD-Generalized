@@ -1,0 +1,3 @@
+[generate constructor] Generate constructor using fields should respect field order
+
+The "generate constructor using fields" generates a constructor where the parameters and the field assignment are sorted alphabetically. It should respect the order the fields are declared, like the "generate getters and setters".

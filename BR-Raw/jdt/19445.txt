@@ -1,0 +1,3 @@
+Text editor should not display tooltip and help infopop simultaneously
+
+Build 20020602 - open Java editor - hit F1 - context help infopop appears - hover over an expression - hover help tooltip appears You can get it so that the infopop obscures the tooltip. Should avoid bringing up tooltip when help is up. Can use IHelp.isContextHelpDisplayed(). See bug 14314 and bug 18473.

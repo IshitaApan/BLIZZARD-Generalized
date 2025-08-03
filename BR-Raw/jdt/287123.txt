@@ -1,0 +1,3 @@
+[quick assist] Join variable declaration quick fix should be proposed for initialized variables
+
+The "join variable declaration" quick fix is offered for code like this: String something; something = "blah"; But it is not for initialized variables, like this: String something = null; something = "blah";

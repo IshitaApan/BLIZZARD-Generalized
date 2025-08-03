@@ -1,0 +1,3 @@
+[call hierarchy] should allow searches for fields
+
+See bug 73270 for detailed explanation. Searching for references to a field, and then continuing to search for references to those references is common. The Call hierarchy view allows this type of local recursive search.

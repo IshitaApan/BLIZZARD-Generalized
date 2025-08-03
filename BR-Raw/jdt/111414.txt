@@ -1,0 +1,3 @@
+Open Type dialog: 'Fully Qualify Duplicates' does not work as expected
+
+I20050928-1300 The menu 'Fully Qualify Duplicates' in the Open Type dialog does not affect the qualification (which is always on for duplicates) but actually appends the container info.

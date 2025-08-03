@@ -1,0 +1,3 @@
+[content assist] invalid positioning of parameter hints
+
+build 200505250010 1) have the following code snippet class A { boolean method1(String arg1, String arg2) { return true; } boolean method2() { return method1("dsds",); } } 2) invoke content assist at directly after the opening '(' in the method1 call --> parameter hint comes up, OK 3) move caret behind the ',' --> parameter hint updates, highlighting the second parameter, OK 4) invoke content assist --> new parameter hint comes up, incorrectly placed and incorrectly initialized

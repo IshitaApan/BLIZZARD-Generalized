@@ -1,0 +1,3 @@
+Override/Implement Methods dialog should expand first element in viewer.
+
+The treeviewer in the Override/Implement dialog isn't automatically revelaing the first element in the list, but it should to be consistent with other dialogs.

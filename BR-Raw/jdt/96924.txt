@@ -1,0 +1,3 @@
+[content assist] don't show templates in restricted situations
+
+I20050527-0010 There are some situations where only very few code completions make sense. - Within a generic wildcard signature after the '?', where only the 'extends' and 'super' keywords make sense (bug 93119). - Within the modifiers of a method, where only modifiers make sense We should try to avoid showing templates in these situations. See bug 93119 - we should not show the 'else' and 'elseif' templates in these cases, or at least rank them lower than the correct keywords. Should investigate whether there is an easy fix for RC2 that does not break custom templates.

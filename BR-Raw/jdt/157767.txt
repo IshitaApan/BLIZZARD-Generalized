@@ -1,0 +1,3 @@
+[clean up] Code formatter allows to import clean up profiles
+
+20060919 - go to the 'Clean Up' preference page - create a new profile - export profile as text.xml - go to the 'Formatter' preference page - import the text.xml - new profile created, no warning I think a warning dialogs should say that this was saved as clean up profile. Ok to create a new profile containing only the code formatter settings? Or just an error dialog...

@@ -1,0 +1,3 @@
+API Request - Package selection dialog including pre-reqs
+
+The Java debugger requires the ability to specify a "pacakge to run in" in the snippet editor. To do this, we use the API on JavaUI to create a package selection dialog for a project. However, we need to be able to choose from packages in pre-req projects/jars as well. Currently the API only specifies packages in a single project.

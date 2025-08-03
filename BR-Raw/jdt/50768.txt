@@ -1,0 +1,3 @@
+[navigation] outline popup cannot be scrolled
+
+I20040128 If I open the content outline popup on a class with a large number of methods (such as core.internal.resources.Workspace.java), it fills the height of the screen, and there is no way to scroll down in the list (no scrollbars, and arrow down does not cause it to scroll).

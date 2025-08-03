@@ -1,0 +1,3 @@
+Display view contents not restored properly
+
+Exit a workspace with a display view present that has content with formatting. When the workspace starts up and the display is viewed, the restored content will have lost the formatting.

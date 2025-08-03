@@ -1,0 +1,3 @@
+[options] Warn about unused local variables and private members
+
+I think we should warn about unused local variables and unused private members by default. These things are errors akin to unused imports, which we already warn about.

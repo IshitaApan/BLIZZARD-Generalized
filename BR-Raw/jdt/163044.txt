@@ -1,0 +1,3 @@
+[clean up] Custom profile not removed when going back
+
+Given: package pack; public class E1 { 	public void foo() { System.out.println(10); 	} } 1. Run Source>Clean Up... on E1 2. Make sure Eclipse [built-in] is profile for E1 project 3. Select 'Custom profile' 4. On 'Code Organizing' select 'Format source code' 5. Press next Is: code is formatted 6. Press back 7. Select 'Use configured profile' 8. Press next Is: Code is formatted Should: Not be formatted This is veeeeeeeeeeery bad, and very easy to fix. I would like to have that in M3. Will attach a patch. Markus?

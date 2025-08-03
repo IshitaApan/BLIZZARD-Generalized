@@ -1,0 +1,3 @@
+Allow to disable icons in vertical ruler
+
+I20031023 A feature for Dirk

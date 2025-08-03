@@ -1,0 +1,3 @@
+[misc] BIDI: constants and comments rendered incorrectly
+
+I20080427-2000. See bug 106638 comment 42 and 43. Time permitting for 3.4.

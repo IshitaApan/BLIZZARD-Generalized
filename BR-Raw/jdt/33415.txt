@@ -1,0 +1,3 @@
+Some actions don't have icons
+
+We have some custom versions of workbench actions. The workbench actions have icons assigned to them, but we don't. This makes the context menu in the package explorer inconsistent with the one in the navigator. The actions are: cut copy paste refresh import export delete

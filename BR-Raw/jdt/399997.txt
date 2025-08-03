@@ -1,0 +1,3 @@
+[hovering] Bracket hover gets messed up when code is folded
+
+4.3 M5a. When code is folded then the bracket hover gets messed up. This is because the code does not use the visual/widget offsets where needed. Test Case: 1. paste the attached snippet into the 'Package Explorer' 2. fold 'foo' 3. hover over the closing brace of the class ==> hover is wrong and huge

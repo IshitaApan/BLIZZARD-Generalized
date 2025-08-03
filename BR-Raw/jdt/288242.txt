@@ -1,0 +1,3 @@
+[content assist] Each completion proposal computer should be able to configure the shared context
+
+I20090901-0800. Each contributed completion proposal computer should be able to configure the internal collector that's used to compute the shared core context. Workaround for clients is to compute their own core context: CompletionProposalCollector collector= new CompletionProposalCollector(cu, true); // configure the collector here cu.codeComplete(getInvocationOffset(), collector); collector.getContext();

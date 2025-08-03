@@ -1,0 +1,3 @@
+[toString] custom toString builder dialog should offer help
+
+The "Configure custom toString builder" dialog should offer a help icon to directly jump to the "toString() Generator: Code Styles" page.

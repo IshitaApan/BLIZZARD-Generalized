@@ -1,0 +1,3 @@
+[toString] Wrong code generated with String concatenation
+
+When String concatenation style is used, wrong code is generated, for example: public class A { 	String ss[]; 	@Override 	public String toString() { 		final int maxLen = 10; 		return "A [ss=" + ss != null ? Arrays.asList(ss).subList(0, 				Math.min(ss.length, maxLen)) : null + "]"; 	} } The "ss != null ? .. : null" fragments should be enclosed in parenthesis, otherwise there's a compilation error or unexpected behavior.

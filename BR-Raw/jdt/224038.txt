@@ -1,0 +1,3 @@
+[breadcrumb] <clinit> appears in breadcrumbs drop down
+
+[I20080325-0100] - open DecoratorManager.class - drop down list of members - actual: list contains <clinit>() - expected: no <clinit> in that list - the Outline view does not show it either

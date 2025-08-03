@@ -1,0 +1,3 @@
+[implementation] Activating an editor can trigger two AST creations
+
+3.4 RC2. We have a hole in our code where editor activation can lead in the creation of two ASTs.

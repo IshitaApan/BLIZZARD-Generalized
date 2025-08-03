@@ -1,0 +1,3 @@
+[clean up] CleanUpSaveParticipantPreferenceConfiguration should show workspace settings as defaults
+
+From bug 173055 comment 2: The disabled project settings are loaded from the defaults instead of the current workspace settings.

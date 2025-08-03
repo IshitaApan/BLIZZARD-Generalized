@@ -1,0 +1,3 @@
+Only one User Library of many added to runtime classpath
+
+DefaultProjectClasspathEntry#expandProject() by default compares containers by using the "variable name" of the classpath container. This leads to only one of "n" classpath containers beeing added to the runtime classpath. Solution: UserLibraryClasspathContainer should implement IRuntimeContainerComparator for example as follows: 	public boolean isDuplicate(IPath containerPath) { 		return containerPath != null && containerPath.equals(getPath()); 	}

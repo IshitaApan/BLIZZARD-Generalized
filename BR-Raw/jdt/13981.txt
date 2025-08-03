@@ -1,0 +1,3 @@
+Show In Packages view not precise
+
+Build 20020416 0. Set Package explorer preference to show members 1. Select a method in the Outline or Type Hierarchy view 2. Navigate -> Shwo in Packages View ==> CU is selected instead of method

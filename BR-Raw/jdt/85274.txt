@@ -1,0 +1,3 @@
+Project rename Undo after error does nothing [refactoring]
+
+(Using 3.1 M5 practice build) If you set the .project file of an unshared Java project to read-only and perform a Refactor/Rename from the Packages Explorer, you will get an error. When this happens, the user is presented with the option to Undo but this does not revert the project to it's original name. Either the Undo should work or be disabled.

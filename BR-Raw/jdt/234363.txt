@@ -1,0 +1,3 @@
+JAR selection dialog not using dialog font
+
+3.4 RC3 - Change the dialog font - Select a Java project, open properties - Go to Java Build Path page, 'Add JAR..' - The filter filed on top doesn't use the dialog font

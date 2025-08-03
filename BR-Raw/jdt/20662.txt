@@ -1,0 +1,3 @@
+add .jar file to java build path from context menu in navigator [build path]
+
+I'd like to be able to add a jar file to the current project build path from the resource navigator, via the context menu. This is a lot simpler than going through the project properties. It feels more natural to me to right click and add the library.

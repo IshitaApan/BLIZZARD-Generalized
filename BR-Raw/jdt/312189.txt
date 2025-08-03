@@ -1,0 +1,3 @@
+[quick assist] BadLocationException when applying proposal while preview is computed
+
+I20100504-0800 Follow-up to bug 293995 and bug 195834. The workaround for the deadlock from bug 293995 comment 9 made bug 195834 reappear on GTK.

@@ -1,0 +1,3 @@
+[content assist] Still too many semicolons after constructor completion
+
+Follow-up to bug 280801 (AnonymousTypeCompletionProposal 1.93) public class Try { 	void foo(Object o) { 		take(null, (String) o); 	} 	private void take(Runnable r, String s) { 	} } Replace 'null' with 'new Runna' and accept the proposal. Result: 		take(new Runnable() { 			 			@Override 			public void run() { 				// TODO Auto-generated method stub 				 			} 		};,, (String) o); // too much ^^

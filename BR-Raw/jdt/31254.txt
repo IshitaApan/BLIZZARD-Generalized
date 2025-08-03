@@ -1,0 +1,3 @@
+Change Method signature refactoring: Table leaves cursor edit mode
+
+20030206 Change Method signature refactoring: Doubleclick should open edit window

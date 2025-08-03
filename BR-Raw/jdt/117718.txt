@@ -1,0 +1,3 @@
+[clean up][infrastructure] Use flags for clean ups instead of boolean parameter list
+
+Version: 3.2.0 Build id: I20051122-1300 Boolean parameter lists in constructors for ICleanUps do not scale.

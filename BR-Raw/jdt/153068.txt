@@ -1,0 +1,3 @@
+[build path] Configure Output Folder dialog does not validate names
+
+I20060807-2000 Build Path > Configure Output Folder... dialog does not validate the file name and results in an error dialog after pressing OK.

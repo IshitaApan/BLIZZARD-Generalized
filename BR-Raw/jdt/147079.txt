@@ -1,0 +1,3 @@
+[rename] wizard won't show if the Internal Web Browser View is open
+
+When the Internal Web Browser View is open, the Rename-Type refactoring wizard won't show. After a click on the Refactor->Rename context menu entry, nothing happens. Steps to Reproduce: 1. Create a new Java Project e.g. TestProject 2. Create a new class in the default package, e.g. TestClass 3. Open the Internal Web Browser View via the Window -> Show View -> Other -> General -> Internal Web Browser menu. 4. Open TestClass.java with the Java Editor. 5. Select the class name, and select Refactor -> Rename from the context menu. When the Internal Web Browser View is closed, the Rename-Type wizard will open again. Im using Eclipse SDK 3.2 RC7 Build id: I20060602-1317

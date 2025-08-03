@@ -1,0 +1,3 @@
+Wording on "File Search" page
+
+I20031203 The button next to the "File Name Patterns" combo is labeled "Browse...". A more appropriate term would be "Choose..." (identical to the term used for the Scope). For me "Browsing" is more associated with exploring a network or a filesystem but not for picking an item from a list.

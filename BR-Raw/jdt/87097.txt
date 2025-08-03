@@ -1,0 +1,3 @@
+New Java Project dialog too tall [code manipulation] [dialogs]
+
+If I select new->project from the file menu, and then select java project (or any project for that matter) from the dialog that comes up, I get a new dialog where I can specify the project name. The dialog is called "New java project". This dialog is far too large, it doesn't fit in a 740x1024 screen even though there is plenty of empty space at the lower part of it. This means that I have to resize the dialog to be able click the buttons at the bottom of it.

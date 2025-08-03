@@ -1,0 +1,3 @@
+[preferences] Errors/Warnings page no matches message should not be indented
+
+3.7 M7. The "no matches" message should not be indented.

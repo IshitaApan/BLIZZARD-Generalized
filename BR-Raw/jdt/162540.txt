@@ -1,0 +1,3 @@
+[clean up] clean up for editor must not create additional AST
+
+I20061024-1200 If clean up is executed on the active editor then it must use the editor's AST (via ASTProvider) and not create a second one.

@@ -1,0 +1,3 @@
+Search LabelProviders should not override getText()
+
+Three search subclasses of DecoratingLabel Provider override getText and do not use the label provider. They are org.eclipse.search.internal.ui.util.FileLabelProvider org.eclipse.jdt.internal.ui.search.JavaSearchResultLabelProvider org.eclipse.search.internal.ui.SearchResultLabelProvider. As a result if DecoratinglabelProvider wishes to implement ICombinedLabelDecorator it cannot as it cannot rely on its subclasses to use their label providers. These special code should be moved to the label providers for these classes.

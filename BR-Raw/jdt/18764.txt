@@ -1,0 +1,3 @@
+JDT Welcome page: should not open in new window
+
+The JDT Welcome page opens the Java perspective in a new window. Need to check whether the OpenJavaPerspectiveAction opens the page with the same input as the workbench opens the first window.

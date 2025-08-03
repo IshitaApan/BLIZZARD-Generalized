@@ -1,0 +1,3 @@
+Attaching source redraws editor many times, causing much flashing
+
+build I20030316 Kevin called in to report the following: - with an installed JRE that does not have source attached, - open a type in the rt.jar (e.g. java.awt.Color) - attach source - the editor flashes many times before it displays the source, then continues to flash for several more seconds I was able to reproduce it on Win XP.

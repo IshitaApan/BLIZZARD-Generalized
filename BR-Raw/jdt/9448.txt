@@ -1,0 +1,3 @@
+Improve layout and appearanceof the refactoring error page [refactoring]
+
+- the top viewer should have a pane and may be step buttons - the lower viewer should have a pane with a title.

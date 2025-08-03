@@ -1,0 +1,3 @@
+Introduce factory active for classses not on build path
+
+- create a class not on the build path - select a constructor in the outliner - activate Introduce Factory Observe: the refactoring tries to start which generates exceptions in the log. The standard dialog box should be shown instead informing the user that the CU isn' on the build path. Tobias, can you please look into this. Will be an easy fix.

@@ -1,0 +1,3 @@
+[breadcrumb] click between icon and text does nothing
+
+I20080401-0851 Breadcrumb item selection feels unreliable: A click between icon and text (at the sport where no tooltip appears) does nothing. It should select the item like when I click on icon or text. Right-click also does nothing, unless the breadcrumb bar already has focus.

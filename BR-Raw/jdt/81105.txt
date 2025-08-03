@@ -1,0 +1,3 @@
+[quick fix] Change field to method: does not appear when non-accessible field exists
+
+I20041214-2000 import java.util.HashMap; public class A { 	{ 		int s= new HashMap().size; // No suggestion 		int s2= new HashMap().siz; // OK 	} }

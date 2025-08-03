@@ -1,0 +1,3 @@
+close project enabled on a closed project
+
+20030206 create a non-java project in package explorer close it from the context menu open the context menu again - both 'open project' and 'close project' actions are enabled

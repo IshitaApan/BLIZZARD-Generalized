@@ -1,0 +1,3 @@
+[templates] some typos in templates
+
+Build ID: I20070621-1340 Steps To Reproduce: Open [Preference]-[Java]-[Editor]-[Templates] and edit while and templates. The following template variables seem to be typos. for collection ${type:elem(collection)} -> ${type:elemType(collection)} ${name:name(type)} -> ${name:newName(type)} toarray (${type:elem(collection)}[]) -> (${type:elemType(collection)}[]) while iterator ${type:arg(it)} ${elem:name(type)} = (${type}) ${it}.next(); -> ${type:argType(it)} ${elem:newName(type)} = (${type}) ${it}.next(); while enumeration ${type:arg(en)} ${elem:name(type)} = (${type}) ${en}.nextElement(); -> ${type:argType(en)} ${elem:newName(type)} = (${type}) ${en}.nextElement(); More information:

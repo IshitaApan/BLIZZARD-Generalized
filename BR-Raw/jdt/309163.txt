@@ -1,0 +1,3 @@
+Remove J2SE-7 EE support
+
+As J2SE-7 is incomplete, JDT should remove the execution environment definition from 3.6 before shipping: * Removing the EE extension in org.eclipse.jdt.launching * Remove the "JavaSE-1.7.profile" from org.eclipse.osgi * When setting default compiler compliance, jdt.launching should set compliance to 1.6 settings when a 1.7 VM is detected as the default JRE. Not sure if JDT core needs to do anything here (Olivier?).

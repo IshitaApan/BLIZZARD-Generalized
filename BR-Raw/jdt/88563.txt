@@ -1,0 +1,3 @@
+[code manipulation] Offer implicit functions as override/implement options
+
+A class that implements Cloneable may need to implement clone(). A class that implements Serializable may need to implement readObject/writeObject. These special methods could usefully be offered as Source->Override/Implement Methods options.

@@ -1,0 +1,3 @@
+ResourcesPlugin.getWorkspace().getRoot().getLocationURI() has no trailing /
+
+I20051129-1200 ResourcesPlugin.getWorkspace().getRoot().getLocationURI() used to return a URI with a trailing /, but in the latest I-build, the / is missing. Was this change intended? It leads to problems in other components, e.g. it breaks the new Java Project wizard.

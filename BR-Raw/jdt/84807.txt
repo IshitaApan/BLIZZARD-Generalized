@@ -1,0 +1,3 @@
+Introduce Factory: strange generation of source code
+
+Example: public class X<T> { 	public X(T t) { 	} } class call { 	void foo() { 		X<String> x= new X<String>("Eclipse"); 	} } - select X in "new X<String>("Eclipse"); - introduce factory produces: public class X<T> { 	public static X<String> createX<String>(String arg1){return new X<String>(arg1);} 	public X(T t) { 	} } class call { 	void foo() { 		X<String> x= X.createX < String > ("Eclipse"); 	} } which doesn't compile.

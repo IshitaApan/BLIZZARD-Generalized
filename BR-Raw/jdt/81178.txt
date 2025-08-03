@@ -1,0 +1,3 @@
+[refactoring] disable extract method on case constants
+
+20041215 It's currently possible to extract an method from a case expression which result in something like: private void foo(int e) { switch (e) { case foo(): break; } }

@@ -1,0 +1,3 @@
+[code assist] parameter guessing can use new API from jdt.core
+
+3.4 M6 Code assist parameter guessing can now use the new API CompletionContext.getVisibleElements(..) to find parameter guesses. This should improve performance as no second code assist is required anymore.

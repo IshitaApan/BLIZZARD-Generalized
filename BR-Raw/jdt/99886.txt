@@ -1,0 +1,3 @@
+[package explorer] Package Explorer focus is not synchronized with the active editor part
+
+During startup Package Explorer tree is closed regardless of the editor currently opened.

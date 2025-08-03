@@ -1,0 +1,3 @@
+[preferences] Inconsistent setting of Java Compiler compliance level in preferences.
+
+I have Eclipse with jre (JRE 1.6) in eclipse/ directory. When starting for first time in new workspace it sets Window -> Preferences -> Java -> Compiler -> Compiler Compliance level to 1.6 But when I press "Restore Defaults" on the same preference page, it reverts to 1.4 value. This behaviour seems inconsistent specially for products based on Eclipse+JDT that normally ship with their JREs.

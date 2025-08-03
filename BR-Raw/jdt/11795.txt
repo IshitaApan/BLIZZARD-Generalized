@@ -1,0 +1,3 @@
+java browsing: members type shows imports strangely
+
+give this code: package p; import java.util.List; public class A { 	class D{ 	} } i see the import container as a child of both A and D strange

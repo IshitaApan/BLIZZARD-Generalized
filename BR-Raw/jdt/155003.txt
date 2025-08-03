@@ -1,0 +1,3 @@
+[model] Missing exception types / wrong signature?
+
+R3.2 and 3.3 M1 Hovering over a binary method call no longer shows the exception types. Tracked this down to JavaElementLabels line 476 and 477 where a wrong signature seems to be produced (for the test case below the signature is "()!+LTest;". This used to work in 3.1 and should be fixed for 3.2.1 Test Case: hover over "newInstance" in the code below: public class Test { public void x() throws InstantiationException, IllegalAccessException { 	 getClass().newInstance(); } }

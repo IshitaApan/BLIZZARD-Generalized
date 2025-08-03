@@ -1,0 +1,3 @@
+[hovering] No tooltips for local variables
+
+Build 20031023 Hovering over a local variable declaration/reference doesn't show a tooltip. JDT/Core now supports code select on local variable. UI side should be fixed to show the local variable declaration in a tooltip.

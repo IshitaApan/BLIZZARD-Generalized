@@ -1,0 +1,3 @@
+move instance method: cannot move to the same file [refactoring]
+
+200307010 there's a limitation in move instance method refactoring that does not allow one to move a method to another class if that another class is in the same file as the source class we should remove this limitation

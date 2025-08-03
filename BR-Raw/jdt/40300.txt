@@ -1,0 +1,3 @@
+Compiler pref page does not disable unavailable preferences [build path]
+
+I20030716 + plug-in export If I set a parent preference to ignore I'd expect that sub-properties get disabled.

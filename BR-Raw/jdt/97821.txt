@@ -1,0 +1,3 @@
+[package explorer] eternal loop when recreating deleted compilation unit
+
+3.1-RC1 As shown to Dirk: - open pkg.Test.java in a Java editor (not dirty) - make sure that Test.java is visible in the package explorer - delete Test.java from outside of the workbench - return to the workbench - to the dialog asking whether to save or close the file, press 'Save' - in the opened save dialog, accept the defaults, saving the file under its old name > the package explorer gets into an eternal loop in PackageExplorerProblemTreeViewer.remove(Object[]) The fixpoint iteration never terminates as super.remove triggers a setSelection (from preservingSelection) which recreates the removed element in every loop.

@@ -1,0 +1,3 @@
+[quick fix] 5.0 types suggested in 1.4 project
+
+20050217 In statements like buf2.append("xxx"); //$NON-NLS-1$ Enum and Annotation are suggested for the unresolved buf

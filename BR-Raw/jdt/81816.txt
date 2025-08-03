@@ -1,0 +1,3 @@
+Missing org.eclipse.jdt.text* performance results on Linux and Windows
+
+In build N20041222-0010, there are a number of scenarios which do not have results available (i.e. n/a). I assume this is a problem based on the assumption that the performance tests run the same way on Linux and Windows.

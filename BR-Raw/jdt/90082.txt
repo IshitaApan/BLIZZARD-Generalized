@@ -1,0 +1,3 @@
+[1.5][generics] "New Class" wizard is not able to implement generic interfaces
+
+In Eclipse 3.1 (JDT version I20050219-1500), the wizard for creating a new class seems unable to implement generic interfaces while specifying its argument. For example, implementing Comparable<Integer> is impossible; you have to first implement Comparable, and then correct the genearted stub for specifying its type argument. (in this example, replacing the Object argument of comparesTo by Integer.)

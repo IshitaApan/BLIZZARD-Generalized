@@ -1,0 +1,3 @@
+[5.0][content assist] Function parameter assist does not work with some parameterized types
+
+If I have a function like private int fn(HashMap <String,HashMap<String,Integer[]>> map, int p1, float p2) { } then when the parameter assist pops up when I call fn(), it interprets the commas in the parameterized type as commas that separate parameters, so the following are highlighted (bolded), in order, as if they are parameters: HashMap <String HashMap<String Integer[]>> map int p1 float p2 What should happen is that angle brackets should hierarchically "escape" comma interpretation.

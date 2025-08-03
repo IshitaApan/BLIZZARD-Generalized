@@ -1,0 +1,3 @@
+[jar exporter] JAWS cannot read label on JAR Export wizard
+
+JAWS cannot read the "Select the resources to export:" label. To see this problem, select a Java project and do a File->Export, open Java and select JAR File and click next. I also noticed this problem with other tree views, tables, lists, etc throughout the product (Export Ant Buildfiles, plug-in Deployable Features, etc.)

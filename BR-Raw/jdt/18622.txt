@@ -1,0 +1,3 @@
+20020601build.  Search dialog does not close after file or help search.
+
+F2 build. Search dialog does not close after file or help search. The results are displayed, but one must press cancel to close the dialog From the java search page it works O.K. - dialog closes after doing search.

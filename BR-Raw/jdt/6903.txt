@@ -1,0 +1,3 @@
+1GOMQ6H:- NullPointerException when exporting to a jar
+
+When creating a jar with .class and .java files, WSWB generates an Null pointer exception. Steps to reproduce problem: 1. create a java project named "bug1" 2. extract the attached bug.jar to some temporary directory. 3. copy the java file Person.java and class files Person.class and Person_Pickler_Vj.class to the project "bug1" directory.  select the bug1 project, and do a refresh from local. 4. do File/Export/Jar on project bug1, you should be able to get a NullPointerException. p.s. Note that Person_Pickler_Vj.class is IMPORTANT. This class file does not have corresponding source file.

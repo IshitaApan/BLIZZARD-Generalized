@@ -1,0 +1,3 @@
+[formatting] Remove workaround made to fix 231093
+
+3.4 RC2. Once bug 232768 is fixed we need to remove the workaround in JDT Text.

@@ -1,0 +1,3 @@
+[clean up] inside editor behaves unexpected
+
+Build id: I20051213-0010 Invoking Context Menu > Source > Clean Up... inside a java editor currently does nothing (no dialog, no error message). We should either assume the enclosing cu as a selection or disable the action.

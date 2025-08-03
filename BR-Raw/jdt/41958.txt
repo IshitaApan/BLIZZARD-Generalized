@@ -1,0 +1,3 @@
+No reaction to F2 after Java Tooltip Hover showed up
+
+200308250800 + export 20030826_1219 Smoke Test: - open TestCase.java - hover over method call "run" in method run(TestResult) - Hover appears and tells to "Press F2 for focus." - Pressing F2 *after* the hover appeared does *not* focus the tooltip description

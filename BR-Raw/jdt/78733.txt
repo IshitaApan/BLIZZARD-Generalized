@@ -1,0 +1,3 @@
+ITypeHierarchyViewPart.setInputElement() does not select methods
+
+If you pass an IMethod to the ITypeHierarchyViewPart.setInputElement (IJavaElement element) it does not select the method like the normal "F4" in the Java Editor does. My use case is as follows: Properties p = new Properties(); p.getProperty("foo"); Where Properties is java.util.Properties and you try to "F4" (an action implemented using ITypeHierarchyViewPart) the getProperty method. I'm using Eclipse 3.0.

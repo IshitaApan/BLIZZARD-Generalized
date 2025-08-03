@@ -1,0 +1,3 @@
+[build path]  Removing an attribute removes selection
+
+I20061214-0010 1. expand rt.jar on the 'Libraries' build path page 2. click 'Remove' ==> the entry is update but the selection is lost EXPTECTED: the entry is still gray selected (because the list does not have the focus)

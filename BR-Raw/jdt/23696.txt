@@ -1,0 +1,3 @@
+Extract Interface: Distinction between overridden/implemented and new methods
+
+If I have a toString() method in a class, I rarely want it to be part of the extracted interface. There should be some visual indication or the possibility to select only the newly declared methods in the class.

@@ -1,0 +1,3 @@
+NewContainerWizardPage.getCurrentTextSelection javadoc wording
+
+"Returns the test selection..." should be "Returns the text selection..." This occurs in the method description and the @return doclet.

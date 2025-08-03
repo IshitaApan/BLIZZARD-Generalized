@@ -1,0 +1,3 @@
+[preferences] Improve preview of enum constant formatting
+
+Following bug 108916, the preview page of the enum constant formatting should include an example where the enum constant has some arguments. I believe this would make it clearer when settings the option for wrapping enum constants.

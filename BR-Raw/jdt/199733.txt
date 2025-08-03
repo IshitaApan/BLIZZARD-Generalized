@@ -1,0 +1,3 @@
+[hashcode/equals] Generated Hashcode ignores byte fields
+
+Build ID: I20070621-1340 Steps To Reproduce: 1. Select a class with a byte field, eg public class Bug { 	byte	a; } 2.Source | Generate hashCode() and equals() and generate it The generated hashCode method doesn't reference the byte fields. The hashcode produced for the above method produces a result of: public int hashCode() { 	 final int prime = 31; 	 int result = 1; 	 return result; } Which while strictly permissable results in hashtable's performance degrading to that of a list.

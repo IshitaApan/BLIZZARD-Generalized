@@ -1,0 +1,3 @@
+Add JUnit libraries Quick Fix [JUnit]
+
+Currently the Quick Fix only works on a line containing "TestCase". It should also work on lines w/ a) "junit.framework" b) "Test suite()" c) "TestSuite"

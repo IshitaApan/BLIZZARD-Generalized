@@ -1,0 +1,3 @@
+[nls tooling] Externalize Strings wizard broken
+
+Since we moved to the new NLS format, I cannot externalize strings any more. Whenever I open the wizard on a file and check the option to use the new NLS format, I get the following error: 'Some keys are invalid' I also get error overlay on a bunch of keys in the checkbox column. I cannot work until this is fixed.

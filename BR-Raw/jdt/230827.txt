@@ -1,0 +1,3 @@
+[breadcrumb] Keyboard navigation in drop down tree does not work on OSX
+
+I20080502 1. Open a CU 2. Show in Breadcrumb 3. Press arrow down key (drop down opens) 4. Press arrow down key again Is: Although the Tree has the focus keyboard navigation does not work at all. It only work after a click into the tree with the mouse. Should: Work like on all other platforms Dani? Do you know if you do something special for the content assist? It works there...

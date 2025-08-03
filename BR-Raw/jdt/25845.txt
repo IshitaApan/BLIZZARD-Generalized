@@ -1,0 +1,3 @@
+Support for manually attaching source to a class path container
+
+From Dejan: There is a work item on the ability to manually attach source to classpath entries managed by classpath container. We discussed it and we have workable options but we would like if we can have it by M3 because we want to start self-hosting using classpath containers ourselves.

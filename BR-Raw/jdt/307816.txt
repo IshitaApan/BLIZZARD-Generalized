@@ -1,0 +1,3 @@
+[call hierarchy] Open Location action in context menu should be disabled when selection is empty
+
+HEAD. The Open Location action in the Location Viewer context menu should be disabled when selection is empty.

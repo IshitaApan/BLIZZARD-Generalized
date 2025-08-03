@@ -1,0 +1,3 @@
+[5.0] for/foreach templates insert fully-qualified name of nested parameterized types
+
+I20050509-2010 for/foreach templates insert fully-qualified name of nested parameterized types: 	void loop(List<Integer>[] arry) { 		for // with temporaty variable 	} 	void loop2(List<List<Integer>> list) { 		foreach 	} In both cases, the proposed type is "List<java.lang.Integer>".

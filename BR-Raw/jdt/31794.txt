@@ -1,0 +1,3 @@
+Types views show too many errors
+
+create this in 1 file (e.g. A.java) class B{} class A extends B{ 	+ //<<syntax error } class P {} class O extends P{} in java browsing you see error decorations for all 4 types, which is incorrect

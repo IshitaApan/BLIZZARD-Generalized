@@ -1,0 +1,3 @@
+[mark occurrence] Occurrences in File does not work in class files
+
+HEAD Occurrences in File does not work in class files any more (e.g. Object.class).

@@ -1,0 +1,3 @@
+Editable Table: can have empty rows [refactoring]
+
+See work done for Bug 46926 Using the change method signature refactoring as suggested in Bug 46926: 1. Click on 'Add' to add a new parameter 2. Click away from the new line so that it is not selected There is now an empty line in the table. The result is an error saying 'Enter the type for the new parameter' but there is (apparently) nothing in the table. You can click the first line of the table and remove it but its possibly confusing. I suggest that if the user clicks away from the new line without entering anything, the line should be removed from the table.

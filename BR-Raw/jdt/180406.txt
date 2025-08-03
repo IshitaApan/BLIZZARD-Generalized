@@ -1,0 +1,3 @@
+[Common Navigator] Patch for bugs 179179, 157314, 156357
+
+The fixes for bug 179179, bug 157314, and bug 156357 overlap with the same set of files (particularly PackageExplorerActionProvider and the extension in the plugin.xml). There is one dependency (implementation) in org.eclipse.ui.navigator that changes how the extension state model is managed (see bug 156357) which requires the latest version in HEAD. The release of this patch will fix bug 157314 and bug 179179. Bug 156357 has other changes (not in the JDT extension) to come.

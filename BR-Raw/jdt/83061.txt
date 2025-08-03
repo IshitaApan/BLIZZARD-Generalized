@@ -1,0 +1,3 @@
+[nls tooling] Ctrl+Click and 'Navigate > Open' should not start a search
+
+I20050112-1200 On Ctrl+Click and 'Navigate > Open (F3)', the Properties File editor starts a lengthy search for references to the selected property key. This is a fairly unusual action, and it is confusing for the user that a seemingly quick command needs so much time when invoked in the Properties File editor. The Java Editor always jumps to the declaration of the current item, which is always a fast operation. The right command for this 'property key reference search' would be 'Search > References > Workspace'. This would also solve the problem of displaying multiple targets; the Search view is perfect for this.

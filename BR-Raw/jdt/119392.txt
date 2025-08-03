@@ -1,0 +1,3 @@
+Misleading dialog caption for derived rename compilation unit [refactoring]
+
+I20051130-1215 + ZRH plugin export Steps to reproduce: - Invoke Rename refactoring on cu - Choose to configure the name matching strategy -> Dialog shows "Rename Type", but should inherit the caption from the user input dialog.

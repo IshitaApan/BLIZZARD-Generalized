@@ -1,0 +1,3 @@
+Meaningless brackets presented with primitive display options
+
+With the primitive display options all turned on, booleans are rendered: enableCancelButton= false [] doubles have the same problem

@@ -1,0 +1,3 @@
+Quickdiff hover hides the added lines
+
+I200405111200 Linux-GTK The hover displayed for added lines when putting the cursor on the quickdiff bar is as wide as the editor, hiding the text. A few weeks ago, it was only one character wide, this was way better.

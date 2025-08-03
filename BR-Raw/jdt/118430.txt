@@ -1,0 +1,3 @@
+Search looking in system libs even though told not too
+
+Build 3.2m3 When searching for declaration of "wait*" methods in working set: Jdtcore+test projects, it finds matches inside system JARs, but the checkbox "Search the JRE system libraries" was deselected. The working set "Jdtcore+tests" contains the JDT/Core projects (including test ones). Amongst the unexpected matches was: Object#wait()

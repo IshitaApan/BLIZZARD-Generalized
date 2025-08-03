@@ -1,0 +1,3 @@
+[quick fix] @SuppressWarnings Quick Fix availability detection wrong when problem reported as Error
+
+I20130810 The fix for bug 338350 uncovered lots of new "unchecked cast" warnings in my code (core.resources). No quick fix is proposed in this case. It would be useful to have a quick fix to resolve these new problems.

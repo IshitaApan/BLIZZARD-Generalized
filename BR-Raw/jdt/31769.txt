@@ -1,0 +1,3 @@
+progress monitor indication incorrect after resizing [JUnit]
+
+20030211 i'm running a test class with 95 tests i have junit as a fast view in the middle of it running, i resized the view a bit, which made the progress bar jump immediately to 100% and stay there (the numbers were still ticking correctly) don't know if it's junit or swt

@@ -1,0 +1,3 @@
+[hashcode/equals] Elements not inserted at correct location
+
+20080508 - create the following class public class T { 	private Runnable x; 	 } - Invoke 'Generate Hashcode/Equals' - Select field and 'Insert as first member' New methods are added last, after x. Should be before x.

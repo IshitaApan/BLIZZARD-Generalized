@@ -1,0 +1,3 @@
+Templates don't work in "Show source of selected element only" mode
+
+> Template variables do not work correctly when the editor is in "Show source > of selected element only" mode. > > It appears that edits in the active variable fields are misinterpreted as > being in a different place in the file (presumably because the indexing is > 'zoomed' for the selected element). This leads to the changes to variables > being ignored, or the cursor jumping into the body of the template (and > switching off the active variable fields). >

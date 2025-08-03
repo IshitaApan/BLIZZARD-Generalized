@@ -1,0 +1,3 @@
+junit: DND.ERROR_CANNOT_SET_CLIPBOARD must be handled
+
+problem in class CopyTraceAction Clipboard::setContents throws SWTError(DND.ERROR_CANNOT_SET_CLIPBOARD) it must be handled see bug 14029

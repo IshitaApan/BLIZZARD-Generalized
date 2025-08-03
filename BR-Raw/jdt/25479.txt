@@ -1,0 +1,3 @@
+Open Type Dialog causes CPU to churn
+
+Eclipse 2.0.1 & 2.1, Windows 2000 & Windows NT When I open the Open Type Dialog, my CPU is pegged for as long as the dialog is open. Not sure what it is doing in there, but it seems unlikely that it needs to work that hard just sitting open. -Andrew

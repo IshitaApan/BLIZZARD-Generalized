@@ -1,0 +1,3 @@
+bracket hightlighting: can't change color
+
+the color changing option in the preference page seems to be always disabled

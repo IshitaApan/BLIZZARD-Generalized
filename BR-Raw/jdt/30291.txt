@@ -1,0 +1,3 @@
+SearchUsagesInFileAction should show dialog in case of failures
+
+Build I20030122 SearchUsagesInFileAction should show a dialog in failure/error cases (e.g. code resolve fails).

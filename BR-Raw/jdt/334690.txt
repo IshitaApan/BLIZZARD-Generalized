@@ -1,0 +1,3 @@
+[preferences] Add new formatter option for the new JDT/Core option added in bug 282988
+
+Once the formatter is updated, the corresponding option should appear in the UI. I'll provide the patch for it if bug 282988 ends up being released.

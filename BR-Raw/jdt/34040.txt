@@ -1,0 +1,3 @@
+It takes a minute to expand a project in Package explorer
+
+Build: RC1 For scalability testing, I'm developing against WSADIE. I imported a plug-in whose classpath contains >200 external jar entries. The project is initially collpsed. In the package explorer view, if you click on the + to expand the project, it will take about 60 seconds for the project to expand. After it expanded, I went into the view filters and changed it so that I could see the hidden '.*' files, it will take another minute to update the view.

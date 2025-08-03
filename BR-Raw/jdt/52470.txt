@@ -1,0 +1,3 @@
+CallHierarchy: SourceLocation View doesn't deliver IJavaElement selection
+
+M7 Steps: - Open Java Browsing Perspective - Open CallHierarchy - single-click on source location -> observe: JavaBrowsing Views lose their JavaElement I guess it's because there's no SelectionProviderMediator which delivers IJavaElements for selected source positions.

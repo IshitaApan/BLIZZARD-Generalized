@@ -1,0 +1,3 @@
+[rename] Misleading inline rename preview for static method hiding
+
+3.3M6 I20070323-1616 In the following code (single source file): public class X { 	public static void method() { 	} } class Y extends X { 	public static void method() { 	} } Go to either method and invoke inline rename (Alt-Shift-R). Both unrelated methods are marked for renaming. Once one is changed the false match reverts to its original name.

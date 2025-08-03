@@ -1,0 +1,3 @@
+Javadoc info for content assist only shown once
+
+I20030916 Javadoc infos for content assist are only shown the first time an editor is opened. Afterwards, no javadoc is shown any more. - open a java source file (e.g. public class A { }) - Press Ctrl+Space to invoke content assist => works: selection in proposal list shows javadoc hover (if javadoc available) - Press Esc, press Ctrl+Space again => fails: selection in proposal list does not make any javadocs appear

@@ -1,0 +1,3 @@
+packages view: keyboard focus lost after switching layout [browsing]
+
+RC1 - browsing perspective, packages view - normal selection in the list in the view - invoke the view menu (Ctrl+F10) - choose Layout->Hierarchical -> view gets updated as expected -> keyboard focus is lost. There is no way to get out by keyboard only. expected: the element previously selected in the list is not selected; and if needed expanded. I suspect the focus is still with the list that was replaced by the tree.

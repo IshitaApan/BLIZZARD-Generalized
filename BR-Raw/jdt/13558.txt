@@ -1,0 +1,3 @@
+move cu with ref update broken
+
+20020409 try moving a cu from 1 package to another - dnd of not - no not press 'preview' nothing happens - file is not moved! it is moved if you do press 'preview'

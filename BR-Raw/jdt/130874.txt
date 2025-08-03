@@ -1,0 +1,3 @@
+[templates][preferences] Java Code Templates preferences: Cancel does not work after 'Restore Defaults'
+
+I20060307-1315 - open preferences - change templates at Java > Code Style > Code Templates - click OK, open prefs again - click 'Restore Defaults' -> defaults restored - click Cancel => expected: restored defaults dismissed, preferences retain my changes => was: all changes lost, since 'Restore Defaults' seems to save changes

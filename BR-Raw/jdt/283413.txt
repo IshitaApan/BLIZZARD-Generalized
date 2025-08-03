@@ -1,0 +1,3 @@
+[content assist] Package-level javadoc requires fully-qualified refs for @see and @link tags
+
+Currently, eclipse will auto-complete class names in the current package, but they are not fully qualified. This produces warnings when running javadoc, and the hyperlinks are not generated.

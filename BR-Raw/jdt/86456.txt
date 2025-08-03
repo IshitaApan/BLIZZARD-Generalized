@@ -1,0 +1,3 @@
+[Dialogs] Dialogs open on wrong monitor
+
+For the details see bug 58936. Package Explorer - New Project is caused by NewProjectAction which uses the shell from the workbench window - Properties dialog is caused by PropertyDialogAction which takes a shell in the constructor.

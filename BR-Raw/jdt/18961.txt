@@ -1,0 +1,3 @@
+Adding new class creates class in wrong package in Java Browsing Perspective [browsing]
+
+Hi, I'm working on a class in package A and want to create a class in package B in the Java Browsing perspective. I select package B in the Packages view go into the Types view, click the right mouse button and select New Class. The new class is created in package A instead of package B. Environment: Windows 2000 JSDK 1.4.0 Eclipse F2

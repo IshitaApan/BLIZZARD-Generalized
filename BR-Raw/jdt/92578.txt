@@ -1,0 +1,3 @@
+[typing] Javadoc of overriding methods no longer created
+
+When I stepped up to M6, the "javadoc" of overriding methods (i.e. methods that are overriding an inherited method or implementing an interface method) were no longer being produced. For example if you typed "/*" and then hit enter, it use to produce: /* (non-javadoc) * @see java.lang.Runnable#run() */ It isn't doing that now. Has this function been removed? Thanks, Rich

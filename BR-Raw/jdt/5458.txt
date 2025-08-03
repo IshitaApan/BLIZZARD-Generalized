@@ -1,0 +1,3 @@
+Add unimplemented deprecated methods
+
+Build 20011025 (aka 206) When generating stubs for unimplemented methods, the @deprecated tag should be inserted in case the method to implement was itself deprecated.

@@ -1,0 +1,3 @@
+[implementation] new option causing error in org.eclipse.ui.editors
+
+I picked up N20051001-0010 and it looks like a new compiler preference has added a compile error to org.eclipse.ui.editors. From my problems view: Severity	Description	Resource	In Folder	Location	Creation Time	Id 2	Unnecessary cast from Object to IEncodingSupport AbstractDecoratedTextEditor.java org.eclipse.ui.editors/src/org/eclipse/ui/texteditor	line 348	October 3, 2005 10:32:56 AM	7034 PW

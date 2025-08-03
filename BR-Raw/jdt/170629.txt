@@ -1,0 +1,3 @@
+[Dialogs] PopupDialog -  Quick Type Hierarchy does not properly support dialog fonts
+
+I20070110-1600 - the 'Type hierarchy of...' label does not use the dialog font - the filter field uses the dialog font but does not resize vertically and thus clips text with larger fonts

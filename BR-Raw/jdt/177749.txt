@@ -1,0 +1,3 @@
+[api] Make AbstractReusableInformationControlCreator  API
+
+I20070313-1051 We have 4 internal copies of AbstractReusableInformationControlCreator. This is a pain to maintain and should therefore be provide as API.

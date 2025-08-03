@@ -1,0 +1,3 @@
+JVME (does not exist) in JavaElementNameComposer.appendTypeParameterLabel
+
+HEAD. Test Case: run org.eclipse.jdt.ui.tests.refactoring.RenameTypeParameterTests

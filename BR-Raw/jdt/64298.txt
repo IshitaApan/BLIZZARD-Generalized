@@ -1,0 +1,3 @@
+JAR files already in build path still shown when adding JARs.
+
+When adding JARs to the Java build path in 3.0M9, the JAR's that are already added do not get filtered out anymore like with all previous builds (M8 and lower). Instead, the complete list of all available JARs is shown.

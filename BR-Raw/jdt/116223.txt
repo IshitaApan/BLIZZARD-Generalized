@@ -1,0 +1,3 @@
+[refactoring] ProcessorBasedRefactoring does not handle exceptions thrown by participants
+
+I20051108-1011 ProcessorBasedRefactoring protects itself against participants that throw an exception in createChange(..). However, it does not catch execptions thrown in initialize(..) or in checkConditions(..). We had a case where initialize(..) threw a ClassCastException, which generated a wrong error message (participant does not extend required type). I think we should protect all call backs and disable participants that throw a RuntimeException.

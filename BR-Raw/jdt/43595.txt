@@ -1,0 +1,3 @@
+Javadoc formatter adds an extra line every time you format
+
+20030924 Everytime you format a comment with a blank line another blank line is added. STEPS 1)Add a comment like this: 	/** 	 * Get the progress monitor for a job. If it is a UIJob get the main 	 * monitor from the status line. Otherwise get a background monitor. 	 * 	 * @return IProgressMonitor 	 */ 2) Make a change in another method and format. It will look this this afterwards 	/** 	 * Get the progress monitor for a job. If it is a UIJob get the main 	 * monitor from the status line. Otherwise get a background monitor. 	 * 	 * 	 * @return IProgressMonitor 	 */

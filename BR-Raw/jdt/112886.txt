@@ -1,0 +1,3 @@
+[nls tooling] Configuring accessor class toggles off "Use Eclipse's..." setting
+
+I20051004-0800 On a file that has never been externalized. Source>Externalize Strings... Toggle on "Use Eclipse's string externalization mechanism" Click Configure... Make changes to accessor class On return to the externalization wizard, "Use Eclipse's string externalization mechanism" is toggle off.

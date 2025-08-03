@@ -1,0 +1,3 @@
+Can't restore a secondary top level from key
+
+Example: package p; public class TwoTypes { } class SecondType { } - create key for SecondType. - try to restore it using ASTParser.createASTs. - null is returned This is type can be used outside of CU TwoTypes.java it should be possible to restore that key. Problem seems to be in NameLookup#seekTypesInSourcePackage Jerome, this PR is important for use for the new canAssign implementation we did to overcome the contest limitations of ITypeBinding#isAssignmentCompatible

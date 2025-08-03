@@ -1,0 +1,3 @@
+Request that IMG_OBJS_JAVADOCTAG be added to ISharedImages
+
+We are currently using JavaPluginImages.IMG_OBJS_JAVADOCTAG in our source. We need to replace that with pulic API. So we'd like to request that this be moved to ISharedImages. This is blocking our effort to stop using internal jdt calls.

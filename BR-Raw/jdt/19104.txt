@@ -1,0 +1,3 @@
+Basket for problems with .java files outside build path
+
+1) .java file is not inside a source folder - "Rename" refactoring is enabled but does not work: no preview and does not rename if finished is pressed. 2) .java file that is inside a non-Java project - Lots of problems when views hold on to a working copy which can not be mapped to a compilation unit after the editor has been closed - shows red squiggly lines when using "Show Source of selected element only" - same problems as 1) MORE WILL FOLLOW TOMORROW

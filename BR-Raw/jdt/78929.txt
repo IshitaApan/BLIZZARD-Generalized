@@ -1,0 +1,3 @@
+[package explorer] search-result naviagtion dones honor "link with editor"
+
+hi. when I navigate through the a search result via the buttons "show next match" / "show previuous match" the editor shows correctly the right java file, but the package explorer is not correctly updated ("link with editor" is set) cya - Marcel.

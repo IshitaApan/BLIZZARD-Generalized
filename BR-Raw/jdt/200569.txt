@@ -1,0 +1,3 @@
+[render] Poor text highlighting in Open Type dialog
+
+Created attachment 76458 example screenshot Build ID: I20070809-1105 Steps To Reproduce: 1. Ensure coloured labels are enabled (Java > Appearance) 2. Open 'Open Type' dialog 3. Enter part of a class name More information: As can be seen in the attached screenshot, it is not easy to read the package name against the blue background. The grey text changes to white when it has focus (by pressing the down arrow key).

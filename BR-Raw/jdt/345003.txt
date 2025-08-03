@@ -1,0 +1,3 @@
+[preferences] Project-specific formatter profile changes lost after import/modify/rename
+
+3.6.2 and HEAD - import org.eclipse.jdt.junit from CVS - edit project-specific code formatter properties - edit the profile - change an option - change the name of the profile to "A" - click OK, OK => change is lost, i.e. does not show up in org.eclipse.jdt.core.prefs Works fine when trying a second time without changing the profile name.

@@ -1,0 +1,3 @@
+EditorOpener leaks last opened editor
+
+I20070321-1800, has been like this for a long time org.eclipse.search.internal.ui.text.EditorOpener leaks the last opened editor. Bug 100787 was for the same problem in JavaSearchEditorOpener, but I guess there's a better fix for both cases: Instead of holding a reference to an IEditorPart, the actions could just use IWorkbenchPage.getReference(IWorkbenchPart) to get a lightweight IEditorReference.

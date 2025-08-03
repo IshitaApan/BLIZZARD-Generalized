@@ -1,0 +1,3 @@
+[package explorer] Add Task action not disabled for closed projects
+
+Build: 2.1 RC3 1) Create a simple project 2) Close this project 3) Switch to java perspective 4) Select the closed project in the package explorer Select the action Edit > Add Task (this action should be disabled since the current selection is a closed project) 5) Type a task name in the dialog and click OK -> Error dialog: "Resource /Foo is not open" It shouldn't let me click OK if it's not OK.

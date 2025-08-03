@@ -1,0 +1,3 @@
+Browsing Java src not on class path
+
+When browsing Java src which is not on the classpath it is annoying to have millions of Quickfix light bulbs and error indicators. I suggest to disable this feature and have a special icon in the editor tab to indicate that the source file is not on the classpath and therefore behaves differently in certain operations (search, quickfix, etc.)

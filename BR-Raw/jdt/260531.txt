@@ -1,0 +1,3 @@
+[compare] auto-indent not working as expected
+
+HEAD. Auto-indent does not work as expected in the Java compare editor (it behaves like in text editor and not like in Java editor). If you have e.g.: 	if (tools != null) {<CARET> 		IEditorInput editorInput= getEditorInput(sourceViewer); 		sourceViewer.unconfigure(); 	} and hit return, then you should get: 	if (tools != null) { 		<CARET> 		IEditorInput editorInput= getEditorInput(sourceViewer); 		sourceViewer.unconfigure(); 	} But instead we get: 	if (tools != null) { 	<CARET> 		IEditorInput editorInput= getEditorInput(sourceViewer); 		sourceViewer.unconfigure(); 	}

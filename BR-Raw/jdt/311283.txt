@@ -1,0 +1,3 @@
+[navigation] Open Declaration should work like hyperlink in .java file not on classpath
+
+I20100429-1549 Open Declaration (F3) should work like hyperlink (Ctrl+click) in a .java file that is not on the classpath. Use case: I have SWT from CVS, and I'm in Control.java from another platform. Ctrl+click works perfectly for members that are declared in the same file, and it works reasonably well when I Ctrl+click other references (only opens types that are on the classpath, but that's OK and expected). F3 always shows a 'Cannot Perform Operation' dialog, which is unnecessary, since the implementation in the hyperlink could and should be used.

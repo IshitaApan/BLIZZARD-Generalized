@@ -1,0 +1,3 @@
+Extract Local Variable refactoring does not remember final state [refactoring]
+
+I always use final for variables, which are not modified after initialization. When I use Extract Local Variable, I always need to toggle the switch, Eclipse just forgets my previous toggling.

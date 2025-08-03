@@ -1,0 +1,3 @@
+[Compare] Changes needed to support file buffers
+
+In order to fix bug 159518, changes need to be made to some Java compare classes. I will attach a patch.

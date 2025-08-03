@@ -1,0 +1,3 @@
+Search for reference gives strange results when references are in static initialisers [search]
+
+[M4] When references to a class or method are in the static initialiser for a class (which is also in a package other than the default one) the results contain spurious nulls. Test case: package foo.bar; public class Test { static { new Test().toString(); } } Highlight "Test" (either place) and search for references in the workspace. The result will be: nullnullbar.Test.{...}

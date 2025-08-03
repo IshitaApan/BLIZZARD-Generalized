@@ -1,0 +1,3 @@
+[refactoring scripts] Create/apply refactoring script dialog to/from clipboard has disabled next buttons
+
+I20060807-2000 1. Invoke Refactor>Create Script 2. Select All Is: if clipboard is the selected location then (sometimes) 'Create' is still disabled>Select 'File' as location 3. Select Clipboard as location 4. Create 5. Invoke Refactor>Applay Script Is: 'Clipboar' is selected and next is disabled 6. Select 'File' 7. Select 'Clipboard' Now 'Next' is enabled

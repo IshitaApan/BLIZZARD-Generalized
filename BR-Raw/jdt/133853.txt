@@ -1,0 +1,3 @@
+endless loop in icu.RuleBasedBreakIterator_New
+
+20060329 - double click on the second occurence of 'API' /** * */ package other; /** * @category API */ public abstract class Controller { 	/** 	 * @category API 	 * @category API 	 */ 	abstract int getValue() 	 	 	 }

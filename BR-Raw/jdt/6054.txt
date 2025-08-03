@@ -1,0 +1,3 @@
+renaming a read-only package resets the read-only flag [refactoring]
+
+as said in the summery: renaming a read-only package resets the read-only flag

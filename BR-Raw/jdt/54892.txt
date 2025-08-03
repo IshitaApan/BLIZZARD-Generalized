@@ -1,0 +1,3 @@
+[call hierarchy] javadoc misleads Call Hierarchy
+
+Using build I20040226 on a Win2K SP4 box, the Call Hierarchy view is consistently fooled by method names present in javadoc statement. Take this situation: a certain method A is mentioned in the javadoc comments for another method B (for example, in a {@link} tag). When using Call Hierarchy for method A, it lists method B as calling method A. This is of course not true, since method A only appears in method B's javadoc comments. Call Hierarchy should ignore any javadoc or regular comments appearing in the methods.

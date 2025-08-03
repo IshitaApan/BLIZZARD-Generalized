@@ -1,0 +1,3 @@
+JUnit scroll lock not working [JUnit]
+
+Build I20040504 The JUnit view's scroll lock button has no affect. The the list of failures scrolls as new entries are added.

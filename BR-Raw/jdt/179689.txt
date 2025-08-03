@@ -1,0 +1,3 @@
+[spell checking] SpellCheckEngine needs a lot of memory
+
+N20070327-0010 I have a user dictionary with less than 500KB contents, but SpellCheckEngine takes up more than 6MB at run time.

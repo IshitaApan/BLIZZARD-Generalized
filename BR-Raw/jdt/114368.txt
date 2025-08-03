@@ -1,0 +1,3 @@
+[build path] New Java Project wizard: project not marked as exported on build path page
+
+I20051031-0010 + ZRH plugins from 20051031_1611 Open the New Java Project wizard. On the second page on tab 'Order and Export', the package fragment root (source folder or project) is unchecked. After the project has been created, the 'Properties > Java Build Path' page shows it checked. It should already have been checked in the wizard.

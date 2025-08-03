@@ -1,0 +1,3 @@
+TextEdits: Moved positions removed
+
+20030625 See TextBufferTest.testMoveWithRangeMarker2 The RangeMarker is inside the MoveSource, and the MoveSource inside a delete: The resulting range of the Range Marker is deleted, not moved (TextBufferTest.testMoveWithRangeMarker shows that is works if there is no surrounding delete)

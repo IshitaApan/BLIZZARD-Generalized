@@ -1,0 +1,3 @@
+[content assist] Parameter hints disappear immediately
+
+3.2 M3 (seems to work in 3.1.1) While looking at bug 115589 I found this one. 0. ensure that auto-insertion of params is enabled 1. added the following to an existing method: List l; l.add(index, l); 2. organized the imports (select java.util.list) 3. remove everything after l.ad 4. code assist 5. select the 2-parameter add(...) method ==> parameter hints appear but go away immediately.

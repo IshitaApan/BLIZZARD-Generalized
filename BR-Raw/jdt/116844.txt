@@ -1,0 +1,3 @@
+JUnitBaseLaunchConfiguration should call this.getEnvironment
+
+This is related to bug #88640 and bug bug #77566. Eclipse 3.2 starts use new API (just great!), but org.eclipse.jdt.internal.junit.launcher.JUnitBaseLaunchConfiguration.java calls String[] envp = DebugPlugin.getDefault().getLaunchManager().getEnvironment(configuration); instead of String[] envp = this.getEnvironment(configuration); It makes impossible to change environment in derived classes. I suggest to implement "getEnvironment" method in JUnitBaseLaunchConfiguration, which will return result of DebugPlugin.getDefault().getLaunchManager().getEnvironment(configuration) call. Regards, Vladimir Kondratyev

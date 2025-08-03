@@ -1,0 +1,3 @@
+[syntax highlighting] Syntax highlighting for Javadoc Tags also underlines space after tag
+
+I20050610-0010 Enable 'Syntax Coloring > Javadoc > Tags' and enable option 'Underline'. In this example, the spaces after @author and @deprecated are also underlined: /** * @author myself * @deprecated use something else */ Javadoc > Tags is the only element I found where leading or trailing spaces are underlined.

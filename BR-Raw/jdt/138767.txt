@@ -1,0 +1,3 @@
+Empty folders in Sync View after update
+
+Build id: N20060426-0010 Not sure if this is CVS or JDT-UI. It is related to bug 135168, which is fixed. If I do a synchronize of SWT projects (and if there are quite a few incoming and outgoing changes) and then update, I get empty folders showing up in the sync view. I'll attach a screen snap.

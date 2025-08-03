@@ -1,0 +1,3 @@
+[clean up] Convert for loop gets lost with array being qualified name
+
+Created attachment 99720 proposed fix With 3.4M7 and following code: public class MyArray2 { 	private Object[] array; 	 	public void method() { 		MyArray2 copy = null; 		 		for (int i = 0; i < copy.array.length; i++) { 			array[i].equals(null); 		} 	} } Using "Clean Up" with only option "Convert for loops to enhanced for loops", I get: public class MyArray2 { 	private Object[] array; 	 	public void method() { 		MyArray2 copy = null; 		 		for (Object element : copy.array) { 			element.equals(null); 		} 	} } Should be: no conversion, as index variable is used to iterate other array.

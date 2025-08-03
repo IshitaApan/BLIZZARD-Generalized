@@ -1,0 +1,3 @@
+jdt.ui RenameTypeParameterTests#test10() not running anymore
+
+Version: 3.4.0 Build id: I20071120-1300 this jdt.ui test is running OK with v825, but not with HEAD. expected result: package p; class A<T>{ 	private T f; 	class B<T>{ 		static <S> S f(S t) { 			T s=t; 			return null; 		} 	} } actual result: package p; class A<T>{ 	private T f; 	class B<T>{ 		static <S> S f(S t) { 			S s=t; 			return null; 		} 	} }

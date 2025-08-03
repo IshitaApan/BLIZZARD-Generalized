@@ -1,0 +1,3 @@
+Getter/Setter code templates should provide access to ${enclosing_method} [code manipulation]
+
+The auto-generated code template for getter/setters don't let you use ${enclosing_method} in the comment; whereas the comment for auto-genned methods or overriden methods does. I'll attach simple fix.

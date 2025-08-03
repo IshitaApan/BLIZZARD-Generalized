@@ -1,0 +1,3 @@
+Using the "Remove" button to remove source code file in the Java Build Path/Libraries does not remove path
+
+Eclipse 3.1M7 Java 1.5.0_02 In the Java Build Path/Libraries tab, if a source code file has been attached to a library, then using the "Remove" button will not remove the path. Instead one needs to use "Edit" to clear the field. Steps to reproduce: 1. Attach src.jar to the rt.jar 2. Select "Source code attachment:" line 3. Click "Remove" (UI shows that there is no attachment) 4. Click "OK" to accept 5. Reopen Java Build Path/Libraries 6. Discover that src.jar is still attached to rt.jar

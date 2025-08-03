@@ -1,0 +1,3 @@
+[open type] sort prefix matches before camel case matches
+
+I20070116-1510 see screenshot: When looking for IType, the dialog first shows camelcase matches, with the full match very late. Prefix matches should better be sorted first (after the history).

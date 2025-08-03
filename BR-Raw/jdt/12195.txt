@@ -1,0 +1,3 @@
+TestCase creation wizard: no progress when pressing super button
+
+There is no progress shown in the wizard when pressing the browse button for selecting the super class. This is not consistent with the New Class wizard.

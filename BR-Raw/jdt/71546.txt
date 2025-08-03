@@ -1,0 +1,3 @@
+CVS decoration not updated for jars after a commit
+
+When committing a jar that is in the classpath, the CVS decoration is not updated in the package view. The decoration is first updated when closing the package view an opening it again.

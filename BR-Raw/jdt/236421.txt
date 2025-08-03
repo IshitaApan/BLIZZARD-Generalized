@@ -1,0 +1,3 @@
+[spell checking][implementation] PersistentSpellDictionary closes wrong stream
+
+CVS HEAD as of today (06/10/2008) PersistentSpellDictonary has an OutputStreamWriter which is never used but closed in finally. Instead the FileOutputStream is used to write the file but is never closed. Attached a little patch to remove the OutputStreamWriter and close the FOS instead.

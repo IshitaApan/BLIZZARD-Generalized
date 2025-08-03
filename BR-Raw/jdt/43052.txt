@@ -1,0 +1,3 @@
+[templates] Code Assist, for loops and int arrays
+
+I typed in the following code: int[] array = new int[10]; for using code assist to complete the for loop (array with temporary variable) results in a loop that uses i both for the loop counter and for the inner temp variable. This causes problems when trying to change the name of the temo variable or the loop counter.

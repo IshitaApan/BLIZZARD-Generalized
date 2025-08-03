@@ -1,0 +1,3 @@
+Organize Imports can remove required inner interfaces [code manipulation]
+
+import com.epiphany.shr.sf.ClusterSingletonStepped.SingletonStep; After organize imports, this import is turned into: import com.epiphany.shr.sf.ClusterSingletonStepped; If it is not legal to have inner interfaces I appologize and I will flog the coder. Otherwise, it appears that organize imports can potentially cause compiler errors that are hard to track down. I run it, and things look ok, but part of my import is gone. Interface definition: public abstract class ClusterSingletonStepped extends ClusterSingleton { ..... public interface SingletonStep ..... } Thanks for looking at this. Please let me know if I can add any additional information or answer any questions.

@@ -1,0 +1,3 @@
+AddDelegateMethodsActions
+
+With the next integration build isInterface returns true for annotations. Some of the isInterface || && isAnnotation checks can be simplified now.

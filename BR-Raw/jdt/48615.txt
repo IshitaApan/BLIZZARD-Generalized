@@ -1,0 +1,3 @@
+Javadoc formatting messes up non-javadoc comments.
+
+Javadoc formatting formats up non-javadoc comments and should not. We have our license text at the top of each source file in /* */ comments. Source/Format formats these comments and should not. This is not good for our project since all of the license text formatting is blown away. For example, paste the following in a Java file and format: http://jakarta.apache.org/commons/license.html Version 3.0.m5.

@@ -1,0 +1,3 @@
+[Automatic Javadoc/Comment Formatting] Gives an NPE
+
+When enabling the automatic formatting of Javadoc/comment sections (Preferences > Java > Work in Progress) the action "Source > Format" (Ctrl+Shift+F) fails with a null pointer exception. Reason: Call to "IDocument.getPartition(int)" in "org.eclipse.jdt.internal.ui.text.comment.CommentFormatter#format(String, int, int[], String) : String" returns "IDocument.DEFAULT_CONTENT_TYPE", for which no comment factory object is available. Fix: Correct fix is to use "IDocumentExtension3#getPartition(String, int)" with IJavaPartitions.JAVA_PARTITIONING to get the correct partition type.

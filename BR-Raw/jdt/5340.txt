@@ -1,0 +1,3 @@
+Cancelling add exception breakpoint has no effect
+
+1) Go to the breakpoints pane in the debug perspective 2) Click the J! button to add an exception 3) In the progress dialog, click cancel. The progress dialog closes immediately 4) Eventually the exception list comes up, it ignored the cancelation request. It should either honour the cancellation request or diable the cancel button (when calling ProgressMonitorDialog.run pass false for the canceleable parameter).

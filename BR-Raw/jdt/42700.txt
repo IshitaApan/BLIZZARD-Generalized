@@ -1,0 +1,2 @@
+Add support for editing values in Externalize Strings wizard
+

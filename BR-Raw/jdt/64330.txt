@@ -1,0 +1,2 @@
+Pull-Up: error message should be more clear when all super types are binary
+

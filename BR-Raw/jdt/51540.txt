@@ -1,0 +1,3 @@
+"Encapuslate field" can fail when two variables in one variable declaration. [refactoring]
+
+Start with: public class Test { 	int fFoo, fBar; } "Encapsulate field..." fFoo. This yields in: public class Test { 	private int fFoo, fBar; 	void setFoo(int foo) { 		fFoo = foo; 	} 	int getFoo() { 		return fFoo; 	} } However, if some classes in the package refer to fBar, the code becomes uncompilable, because fBar is now private too....

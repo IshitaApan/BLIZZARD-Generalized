@@ -1,0 +1,3 @@
+[package explorer] Invalid dialog about deleting read-only elements when deleting a linked resource folder
+
+Created attachment 106485 Screenshot showing problematic dialogs Build id: I20080617-2000 (Eclipse 3.4) 1. Create empty project foo. 2. Create linked resource folder, using a path variable e.g. WIND_HOME -> D:\tmp 3. Refresh the project, and press cancel while refreshing (not sure if this is required, but I did it). 4. Select the linked resource, and delete. --> A dialog tells me that I'm deleting the link but not the files linked --> I press OK, but now a dialog asks whether I'm ok deleting read-only files This must be wrong, because I'm only deleting the link but not the files? It's very confusing. See also attached screenshot.

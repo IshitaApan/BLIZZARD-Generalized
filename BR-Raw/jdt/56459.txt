@@ -1,0 +1,3 @@
+Pref Page Type Filters [code manipulation]
+
+The buttons are not sized according to the dialog font.

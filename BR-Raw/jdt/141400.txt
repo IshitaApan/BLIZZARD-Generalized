@@ -1,0 +1,3 @@
+[Model Sync] New non-Java files do not appear in Sync View
+
+I20060511-0800 The Java model content provider does not show new non java files in the sync view. Repro: 1. Check out the same project twice in the workspace. 2. Create a binary file and commit it in one of the projects (I created a .png). 3. Sync the other project, notice how the binary file is missing from the incoming changes when the Java Workspace model is selected.

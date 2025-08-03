@@ -1,0 +1,3 @@
+[typing] Moving first line of header comment increases indentation
+
+Given a class like this: /** * Header comment */ class Foo { } Put the cursor on the first line, and use Alt+Down, Alt+Up to move it down, and then up. An extra space is added in front. If you now select the entire file and use Source > Indent, the whole file is shifted one character to the right.

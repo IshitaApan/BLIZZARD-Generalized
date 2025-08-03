@@ -1,0 +1,3 @@
+[build path] New Project Wizard creates default output folder although value changed to non default
+
+I20060519-1206 1. Start 'New Java Project Wizard' 2. Type in name 'P01' 3. Select 'Create separate src and output folders' 4. Next 5. Change Default output location to 'P01/binary' 6. Finish Is: A folder 'bin' is created Should: The folder should not be created Not a regression to 3.1.2 I think problem is that the 'bin' folder is created after first page.

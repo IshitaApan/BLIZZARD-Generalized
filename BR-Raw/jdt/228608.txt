@@ -1,0 +1,3 @@
+[hovering] executing javascript in javadoc potentially malicious
+
+I have following class: /** * <script> * window.open("http://google.com"); * </script> */ public class Test { } Now, when javadoc popup is displayed, or javadoc view is visible any javascript is executed, which is potentially malicious. Would it be possible to strip <script> contents before rendering javadoc?

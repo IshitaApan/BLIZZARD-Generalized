@@ -1,0 +1,3 @@
+Following bug 109980, the compliance 6.0 should be added to the compiler's compliance list.
+
+If the JRE/JDK used is a 1.6/6.0 VM, then the compliance 6.0 should be available. Compliance 1.6 implies source level 1.6 and target level 1.6.

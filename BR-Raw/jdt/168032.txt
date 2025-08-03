@@ -1,0 +1,3 @@
+[package explorer] cannot reveal resources in closed working sets
+
+3.3 M3 - make sure to have the Package Explorer in working sets mode - open any file - collapse the working set containing that file - in the editor do a "Show in > Package Explorer" from the context menu Observe: you hear a beep, but the file is not revealed in the Package Explorer - expand working set, try again Observe: not it works

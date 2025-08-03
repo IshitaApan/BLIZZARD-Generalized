@@ -1,0 +1,3 @@
+[inline refactoring] Method inlining breaks runtime behavior.
+
+This program runs fine as is. But if the add(x,y) method is inlined, then the resulting logic compiles but throws an NPE at runtime. public class Bug { static String[]field; public static void main(String[]args){ add((field=args).length,field.hashCode()); } static int add(int x, int y){ return y+x; } }

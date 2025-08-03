@@ -1,0 +1,3 @@
+[junit] can run single method anymore
+
+20060920-0010 - select a test method (e.g. X.foo) - chose 'Run > As Junit plugin test' from the context menu - JUnit view complains about 'X.foo' not found

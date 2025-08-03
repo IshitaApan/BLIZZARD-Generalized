@@ -1,0 +1,3 @@
+[breadcrumb] Styled text keeps focus when opening drop down on the Mac
+
+Created attachment 101713 fix I20080522-1800 Open a child drop down by clicking on an arrow in the breadcrumb. Is: The styled text has still the focus, which ultimately leads to the situation that the drop down does not close when clicking into the styled text. Should: The breadcrumb should have focus This worked in RC1 and got introduced by bug 232015 Workaround is to open drop downs only by clicking the items, and not the arrows. Probably must fix for RC3

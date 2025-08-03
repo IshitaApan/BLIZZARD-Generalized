@@ -1,0 +1,3 @@
+[implementation] JavaOutlinePage should dispose CustomFiltersActionGroup
+
+see bug 53473 for the patch to fix. also see 55592.

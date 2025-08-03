@@ -1,0 +1,3 @@
+[rename] Failure caused by misnamed class when renaming a package
+
+While trying to rename a package and it's subpackages the operation failed with this message, Refactoring An unexpected exception occurred while performing the refactoring. See the error log for more details. org/eclipse/ltk/internal/ui/refactoring/UIPerformChangeOperation$1 (Wrong name: org/eclipse/ltk/internal/ui/refactoring/UIPerHormChangeOperation$1) UIPerHormChangeOperation includes a typo. ^

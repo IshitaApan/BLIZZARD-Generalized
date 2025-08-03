@@ -1,0 +1,3 @@
+Occurrences search: Annotations not shown in re-opened editor [search]
+
+200405210010 - select return type of "TestResult run()" in TestCase.java - Search > Find Occurrences in File -> search annotations are correctly shown in vertical ruler - close editor - Navigate > Back -> only one search annotation is shown in vertical ruler -> expected: all annotations shown "Go to Next/Previous Annotation" also finds only one of the occurrences.

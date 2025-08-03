@@ -1,0 +1,3 @@
+[junit] Rerun failed first does not work with JUnit 4
+
+3.2 RC2 Could not find a setup where rerun failed first works with JUnit 4 testcases

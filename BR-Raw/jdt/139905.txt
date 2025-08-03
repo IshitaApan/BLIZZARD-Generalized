@@ -1,0 +1,3 @@
+[junit] No tests found must not be logged
+
+3.2 RC2 Steps to reproduce: - Comment all tests in junit.tests.AllTests#suite() - Select package junit.tests - Run as junit test -> No tests found is logged -> Dialog should have caption "JUnit", a better message such as "No testcases have been found in 'junit.tests'" and no details button.

@@ -1,0 +1,3 @@
+When detected a 1.5 JDK on a fresh workspace as a default the default compiler complaince should be switch to 5.0
+
+3.1 Compiling with compiler complaince 1.4 against a 5.0 VM can cause some trouble with covariant return types. Therefore when detecting the default VM for a fresh workspace the launching plug-in should switch the default compiler compliance to 5.0 when a 1.5 VM is detected.

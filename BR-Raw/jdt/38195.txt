@@ -1,0 +1,3 @@
+Delete dialog polishing [refactoring]
+
+Build 20030527 - dialog title should read "Confirm Delete" not "Delete" - the dialog page will not wrap if text is too long since CLable doesn't support wrap style. In general, should we implement a "reusable" message page ?

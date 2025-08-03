@@ -1,0 +1,3 @@
+Empty dialog after use supertype where possible [refactoring]
+
+1) execute a "use supertype where possible" refactoring in a case where no supertypes can be used. ->end up with an empty dialog with no indication that no super types can be used. We should show the user that no supertype could be used in the dialog.

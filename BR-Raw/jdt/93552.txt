@@ -1,0 +1,3 @@
+[5.0][hovering] Hover for binary type variable is '/'
+
+N20050503-0010 - open java.util.ArrayList from a 5.0 rt.jar - hover over "E" in "public class ArrayList<E>" -> hover is just a '/' (slash) For source types, the hover text is the type variable name.

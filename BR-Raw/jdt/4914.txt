@@ -1,0 +1,3 @@
+can't extract class expression
+
+class B{ 	Object m(){ 		return /*[*/B.class/*]*/; 	} } cannot extract the selected fragment

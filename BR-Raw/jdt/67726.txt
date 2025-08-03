@@ -1,0 +1,3 @@
+Refactoring fails if validate edit returns a cancel status [refactoring]
+
+RC2 According to bug 67164 validate edit can return a status having the cancel flag set. Currently refactoring treats this as a non error resulting in the fact that the refactoring continues which will very likely result in a failing change execution.

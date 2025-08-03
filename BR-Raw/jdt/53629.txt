@@ -1,0 +1,3 @@
+ChangeMethodSignature: content assist with focus doesn't work
+
+M7++ - ChangeMethodSignature - Edit a parameter type - content assist - Tab -> cell editor disappears, proposals are NOT inserted. The problem is the TextCellEditor: When content assist proposal popup gets focus (Tab or mouseclick), the Text loses focus and the TextCellEditor is deactivated. Subclass of TextCellEditor could override focusLost() and only deactivate the editor if focus is not lost to proposal popup. Additional problem might be TableViewerImpl, which installs as focusListener on the CellEditor and directly calls applyEditorValue() to deactivate the editor.

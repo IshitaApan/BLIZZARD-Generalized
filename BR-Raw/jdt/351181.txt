@@ -1,0 +1,3 @@
+[hovering] Javadoc hover should have default modifier set
+
+HEAD and BETA_JAVA7 On the Hovers preference page, the Javadoc hover should have default modifiers set. I suggest Ctrl+Shift. The Javadoc hover is often useful even if the Combined Hover shows a problem hover. Bug 243397 requests a possibility to easily jump to the Javadoc hover, but I think the separate modifier would still be useful. BTW: I don't see what the default modifier for the "Externalized String" hover is good for. I would remove that.

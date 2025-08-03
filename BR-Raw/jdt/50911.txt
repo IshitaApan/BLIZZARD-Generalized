@@ -1,0 +1,3 @@
+New search: can't search for a search result
+
+I20040128 (5pm) -> New search view turned on The "search" context menu doesn't appear on selections in the search results view. I use this frequently for back-tracing when browsing code. Search for references to a method, and then search for references to the referencing method, etc. Ctrl+Shift+G to search on a selection in the search results view also used to work.

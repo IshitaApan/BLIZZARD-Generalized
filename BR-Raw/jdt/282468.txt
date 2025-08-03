@@ -1,0 +1,3 @@
+[typing] Add Javadocs somewhat slow and have annoying progress window
+
+Build ID: Build id: 20090619-0625 Steps To Reproduce: When adding javadocs (pressing the shortcut key), it takes a fair bit of time to add the comments and it always display a progress window that flashes rapidly. Not showing the progress window would probably make the addition of javadocs faster and would remove the annoying flashing of window that one barely have the time to read. Not a big deal but would make it more pleasing to the eye :)

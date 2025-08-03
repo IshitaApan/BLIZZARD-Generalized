@@ -1,0 +1,3 @@
+Move To Top Level: compilation error when moving an inner class extending another #2[refactoring]
+
+Consider the following case: public class Outer { public static class A {} public class B extends A {} } If I move Outer.B to top level, I end up with a compilation error. This can be fixed by qualifying the base class (Outer.A).

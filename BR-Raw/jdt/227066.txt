@@ -1,0 +1,3 @@
+JUnit launch config tab does not provide id
+
+JUnitLaunchConfigurationTab from org.eclipse.jdt.junit does not override the #getID method. This prevents clients from inserting tabs into JUnit tab group when a new tab is contributed via the org.eclipse.debug.ui.launchConfigurationTabs extension point.

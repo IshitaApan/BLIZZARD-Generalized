@@ -1,0 +1,3 @@
+[package explorer] Refresh action not available on Java package folders
+
+M3. F5 (Refresh) is available as a context menu entry for ordinary source folders but not for Java package folders in the e4 Java Package explorer. Please restore the 3.x functionality.

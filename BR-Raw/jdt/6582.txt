@@ -1,0 +1,3 @@
+VMPreferencePage - CheckboxTableViewer has no columns anymore
+
+20011204: CheckboxTableViewer has no more columns upon creation. You have to create the first column as well. I encountered the same problem in TemplatePreferencePage, because I used the same code as in VMPreferencePage.

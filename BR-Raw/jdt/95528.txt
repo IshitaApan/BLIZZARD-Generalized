@@ -1,0 +1,3 @@
+[content assist] additional '(' after proposal insertion
+
+N20050517-0010 - invoke content assist after: System.out.p - type '(' -> auto insertion with an additional '(': System.out.print(false() This is using 'completion inserts' and 'argument guessing'.

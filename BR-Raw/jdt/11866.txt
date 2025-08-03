@@ -1,0 +1,3 @@
+Wrong labels in Update Test Suite dialog
+
+"Test Classes to be included" is written with TestClasses (missing space) The status line talks about methods being selected instead of types. The action name is written together (TestSuite) instead of Test Suite

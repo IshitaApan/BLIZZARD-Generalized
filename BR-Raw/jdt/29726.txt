@@ -1,0 +1,3 @@
+New compiler setting added: OPTION_ReportIncompatibleNonInheritedInterfaceMethod
+
+JavaCore#OPTION_ReportIncompatibleNonInheritedInterfaceMethod COMPILER / Reporting Interface Method not Compatible with non-Inherited Methods When enabled, the compiler will issue an error or a warning whenever an interface defines a method incompatible with a non-inherited Object one. - option id: "org.eclipse.jdt.core.compiler.incompatibleNonInheritedInterfaceMeth od" - possible values: { "error", "warning", "ignore" } - default: "warning" --- FYI - we used to always be reporting an error, where we should not. Now we default to a warning - not critical for 2.1M5, default is likely the best anyway. test case: interface I { int clone(); // should only be a warning }

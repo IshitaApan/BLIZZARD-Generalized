@@ -1,0 +1,3 @@
+[actions] Format Element formats (marks dirty) read-only file
+
+Current behavior is as follows - Step 1: Open Read only file in Java editor Step 2: Select Source > Format Element from the main menu Step 3: The read-only file is formatted and marked dirty Expected behavior is as follows - Step 1: Open Read only file in Java editor Step 2: Select Source > Format Element from the main menu Step 3: A dialog appears asking the user if they would like to make the file writable. Step 4: If user selects 'yes' the file is made writable and selected element formatted else Format Element operation is aborted. This expected behavior is currently implemented by 'Format' accessed through Source > Format main menu item.

@@ -1,0 +1,3 @@
+Cleanup - Random serial version ID?
+
+'Add serial version ID' has options 'Generated' and 'Random'. Is the random really just any random number? What would be the use case for this? AFAIK, the options of the quick fix are: - Default (1L) - Generated (only useful if serialized objects already exist) I would use labels with the descriptions above to help the user decide which one is appropriate for his use case.

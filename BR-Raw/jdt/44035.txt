@@ -1,0 +1,3 @@
+[formatting] Error in formatting parts of java code snippets in comment
+
+This is for build I20030930. The Java code formatter options are set to Format java code snippets. Taking the following comment: /** * The following is a Java snipet. * * <pre> * while ((size = availableSize(stream, size)) > 0) { * System.out.println("available"); * } * </pre> */ public void test() { } And trying to format it here is what we got: /** * The following is a Java snipet. * * <pre> * while ((size = availableSize(stream, size)) > 0) { * System.out.println("available"); } * </pre> */ public void test() { }

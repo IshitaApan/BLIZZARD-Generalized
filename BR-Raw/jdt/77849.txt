@@ -1,0 +1,3 @@
+[1.5][wizard] Java project wizard does only create projects for 1.4
+
+Currently, new java projects default to 1.4 compliance. In order to develop 1.5 projects, the JRE container has to be changed, and the compiler compliance as well, but at two different places in the project properties. The new project wizard already offers a page to choose the JRE container. The compiler compliance however has to be set manually in the project properties afterwards. For consistency, compiler compliance should be configurable in the wizard too, possibly with a warning when using incompatible configurations (like 1.4 compiler compliance and 1.5 JRE, but not vice-versa)

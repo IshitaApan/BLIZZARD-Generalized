@@ -1,0 +1,3 @@
+Anonym type can have field as parent
+
+JavaElementLabels does only the 'is parent method' test

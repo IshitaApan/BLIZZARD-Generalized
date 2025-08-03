@@ -1,0 +1,3 @@
+Move super class constructor combo up.
+
+Move the combo selection for the super class constructors to be above the field treeviewer for the "Create constructor using fields" source action.

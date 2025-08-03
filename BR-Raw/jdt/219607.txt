@@ -1,0 +1,3 @@
+[hovering] Rich Problem hover doesn't show spelling quick fixes
+
+N20080221-0010. The rich Problem hover doesn't show spelling quick fixes.

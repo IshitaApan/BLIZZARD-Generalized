@@ -1,0 +1,3 @@
+Editor tooltip for class files should show full path (1GI74EF)
+
+When you hover over the editor tab for a .class file, it just shows you the simple file name. It should show the full path, as for other editors. NOTES:

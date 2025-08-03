@@ -1,0 +1,3 @@
+[Refactor] Convert anonymous to nested on Generic - Compile Errors
+
+Version: 3.1.0 Build id: I20050527-1300 (RC1) Steps to reproduce: 1.) Have a class Foo like this: enum Direction { 	UP, DOWN, LEFT, RIGHT; } public class Foo { 	void foo() { 		new Object() { 			Direction dir = Direction.UP; 		}; 	} } 2.) Click into the anonymous class and call Refactor > Convert Anonymous Class to nested 3.) Call the nested Class "Bar" Actual Results: Compile errors Expected Results: No Compile errors - new Bar(UP); should be new Bar(Direction.UP); - Direction dir = Direction.up; should be Direction dir = Direction.UP; Regards, Ben

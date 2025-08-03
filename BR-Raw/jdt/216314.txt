@@ -1,0 +1,3 @@
+[breadcrumb] Drop downs should use table viewer instead of tree viewer
+
+I20080122-1600 Drop downs should use a table. We're using the FilteredTree from platform at the moment.

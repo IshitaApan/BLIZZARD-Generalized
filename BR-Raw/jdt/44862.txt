@@ -1,0 +1,3 @@
+Remove task tag quick fix shouldn't automatically delete the full line
+
+In the following code the quick fix to remove the todo deletes the full line rather than just the end of line comment. 				if (!display.isDisposed()) 					;//TODO display.beep(); 			}

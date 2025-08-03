@@ -1,0 +1,3 @@
+[BiDi] ComplexExpression: Bidi data in 'Outline' view is reordered wrongly (BIDI3.6_BDL)
+
+Build Identifier: 3.6.0-I20100330-0800 In order to recreate the problem follow the following steps: BIDI3.6_BDL: Complexxpression: Bidi data in 'Outline' view is reordered wrongly 1. Run Eclipse in LTR mode 2. Create java project 3. create java class 4. create Hebrew-named method which has Hebrew-named parameter 5. Examine appearance of created methos in Outline view Result: method-name(parameter type) structure looks wrong when Hebrew data is involved (see attachment) Notice: The problem doesn't exist on Win OS Reproducible: Always

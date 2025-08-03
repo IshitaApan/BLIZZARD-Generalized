@@ -1,0 +1,3 @@
+[misc] "Clean Up on save, Undo" should leave file uncleaned, but saved
+
+I20061107-0800 "Clean Up on Save" is a global setting, but sometimes, I edit a file and I do not want to clean it up. Currently, I have to - undo all applied clean ups individually, - hunt for the preference page, - disable the save participant, - save, - enable the preference again. I think a good way to streamline this use case would be to combine the Clean Up on Save changes in a single undo operation. The undo should revert all Clean Ups and leave the file saved.

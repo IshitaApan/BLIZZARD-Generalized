@@ -1,0 +1,2 @@
+Declaration View does not refresh when you change Java-code color preferences
+

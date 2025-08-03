@@ -1,0 +1,3 @@
+[spell checking] spell checking does not work for reused editors
+
+3.0 M7 0. enable spell checking 1. set the editor preference to close editors automatically (allow only 1 editor) 2. open a CU with misspelled words in the Java editor ==> observe: spell check warnings appear 3. open another CU with misspelled words in the Java editor ==> observe: no spell check warnings

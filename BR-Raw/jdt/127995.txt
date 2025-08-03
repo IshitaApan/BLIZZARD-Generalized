@@ -1,0 +1,3 @@
+RemoveCastOperation does not set TextEditGroup
+
+In the refactoring preview this change nodes do not have a description therefor.

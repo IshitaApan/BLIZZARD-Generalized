@@ -1,0 +1,3 @@
+[content assist] Anonymous constructor completion adds a ')' too much
+
+I20090513-2000 Anonymous constructor completion adds a ')' too much: public class Try { void method(Runnable r) { 	method(new Run) } } - set prefs > Content Assist > Completion inserts - put caret after 'new Run' - content assist, choose 'Runnable() Anonymous Inner Type' => result: 	method(new Runnable() { public void run() { // TODO Auto-generated method stub } })) => expected: only 1 closing parenthesis at the end

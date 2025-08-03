@@ -1,0 +1,3 @@
+[generate delegate] new methods not inserted at correct location
+
+20080508 - create the following class public class T { 	private Runnable x; 	 } - Invoke 'Generate Delegate Methods' - Select 'x' and choose 'First member' New method is added last, after x. Should be before x.

@@ -1,0 +1,3 @@
+[ccp] [dnd] Copy/Move internal JAR not working in some scenarios
+
+I200403240010 Reorg: Move (and Copy) internal JAR not possible if the target doesn't contain a source folder or of the folder is on the Java build path Expected: 1. it should allow to drop it in any container 2. it should add the JAR to the Java build path and define an exclusion filter

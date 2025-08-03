@@ -1,0 +1,3 @@
+[nls tooling] Wrong dialog title for 'Externalize Strings...'
+
+N20060428 1. Select multible java elements 2. Execute 'Source -> Externalize Strings...' 3. If multible strings are found a dialog is shown with title Is: 'Find Strings to Externalize' Should: 'Externalize Strings' Introduced by Bug 137180

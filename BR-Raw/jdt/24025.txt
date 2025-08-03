@@ -1,0 +1,3 @@
+Quick fix create method gets wrong parameters if parameters are arrays
+
+Steps: 1)type somewhere: Object[] test1= new Object[]{}; Object[] test2= new Object[]{}; if(compareTheseArrays(test1,test2)){ System.out.println("they are the same"); } 2)A Quick fix icon will appear and ask you to create Method compareTheseArrays, select this. 3)note that the method created takes Object as parameters and not Object[]. Should this be? version. 20020920. JRT.

@@ -1,0 +1,3 @@
+[refactoring] signature preview inconsistency
+
+The signature preview isn't consistently shown in the refactoring dialogs. For example, extract method is showing the signature preview in a different way than change method signature. The change method signature preview is the recommended way and we should make a pass over all refactoring dialogs.

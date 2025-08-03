@@ -1,0 +1,3 @@
+java editor: undo does not work correctly
+
+20020612 .create new class .'override methods...' - add clone() .undo .redo .undo the plain text editor does not exhibit this mis-behavior you're left with garbage like (pressing undo/redo more times produces even more garbage): public class Dfg { r.clone(); //<<GARBAGE } //<<GARBAGE }

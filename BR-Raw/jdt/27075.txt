@@ -1,0 +1,3 @@
+ViewerSorter could maybe lazily initialize Collator
+
+calling JavaElementSorter creates a lot of new objects (ViewerSorter calls Collator.getInstance() which is the culprit) so maybe fSorter could be initialized lazily

@@ -1,0 +1,3 @@
+[getter setter] Generate Getters and Setters fails
+
+Build ID: I20080516-1333 Steps To Reproduce: 1. Add a member to an existing class 2. Choose generate getters/setters. Select the setter for the new member (generating getters/setters for new classes works) 3. Error message "Node does not exist" More information:

@@ -1,0 +1,3 @@
+Types aren't filtered for 'explicit import' QuickFix [quick fix]
+
+I20031216 With this snippet use QF on List: import java.util.*; import org.eclipse.swt.widgets.*; public class Import { 	public static void main(String[] args) { 		List l; 	} }

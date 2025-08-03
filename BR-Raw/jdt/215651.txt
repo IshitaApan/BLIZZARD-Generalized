@@ -1,0 +1,3 @@
+[breadcrumb] strange behavior when a resource is selected
+
+I like the fact that I can select a resource. However, currently I see strange behavior like missing twisties.

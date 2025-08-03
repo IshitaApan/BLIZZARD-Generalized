@@ -1,0 +1,3 @@
+Some improvements to the new java doc wizard page ext-point
+
+Created attachment 78644 proposed changes I20070918-0010 Just my 2 cents...

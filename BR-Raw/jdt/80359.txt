@@ -1,0 +1,3 @@
+Selection inside comment using surround refactoring [refactoring]
+
+200412011139: When selecting an entire line ending with a //$NON-NLS-n$ comment using the line number ruler, the error message "Selection ends inside a comment" appears. The refactoring should be able to deal with such selections, since it ends on a single-line comment, which is obviously contained in the selection.

@@ -1,0 +1,3 @@
+[build path] Build path  actions: use as source folder and link additional source should not append to the end
+
+RC2 All these actions always add the element to the end of the package fragment root list. Source folder should IMO always be added before User and JRE libraries.

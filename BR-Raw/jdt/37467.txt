@@ -1,0 +1,3 @@
+Add Types/Source/Organize Imports [code manipulation]
+
+Please add a Types/Source/Organize Imports menu item and make sure it is enabled when _multiple_ types are selected. We use this nice feature all the time but this would make it easier to use. Thanks.

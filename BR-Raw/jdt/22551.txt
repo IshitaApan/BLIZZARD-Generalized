@@ -1,0 +1,3 @@
+Hierarchy pane missing "New..." menu item in context menu [type hierarchy]
+
+(R2.0) I can almost use Eclipse like a Smalltalk Class Hierarchy browser. This is one of two problems. My custom perspective has a Packages pane, a Hierarchy pane (which includes methods of course) and a code editor pane. I cannot create a new class that is a subclass of the selected class in the Hierarchy pane. Note that I can do this in the "Types" pane from the context menu. The workaround is to use the Packages context menu, but this does NOT pick up the superclass that I have selected in the Hierarchy pane.

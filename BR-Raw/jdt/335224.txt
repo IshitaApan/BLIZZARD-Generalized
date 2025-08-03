@@ -1,0 +1,3 @@
+[JUnit] New JUnit Test Case wizard doesn't store method stub selection state
+
+HEAD The New JUnit Test Case wizard doesn't store method stub selection state when you click Finish on the first page. Reason is that NewTestCaseWizardPageOne#saveWidgetValues() is only called on setVisible(false).

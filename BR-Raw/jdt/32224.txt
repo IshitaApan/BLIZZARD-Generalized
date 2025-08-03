@@ -1,0 +1,3 @@
+[Show In]Back-linking doesn't work for .class files in jars
+
+Build 20030218 1. Enable back-linking in Package Explorer 2. Open Object (in rt.jar) Observe: An editor on Object.class opens (it shows the attached source). However Object.class is not shown in Package Explorer Note that Alt-Shift-s->Package Explorer doesn't work either.

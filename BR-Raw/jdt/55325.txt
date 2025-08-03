@@ -1,0 +1,3 @@
+[typing] Starting Javadoc comment inserts @param tags for next method
+
+build I20040318 - open type TrimLayout - before method setSpacing, start a new method by typing a Javadoc comment - you get @param tags for the next method (even though it has its own Javadoc) For example: Type this: 	/**<Enter> Before this: 	/** 	 * Sets the empty space surrounding the center area. This whitespace is 	 * located between the trim and the central widget. 	 */ 	public void setSpacing(int left, int right, int top, int bottom) { 		leftSpacing = left; 		rightSpacing = right; 		topSpacing = top; 		bottomSpacing = bottom; 	} You get: 	/** 	 * 	 * @param left 	 * @param right 	 * @param top 	 * @param bottom 	 */

@@ -1,0 +1,3 @@
+[bidi] BIDI3.3:<HCG:Directory path in new Java project wizard is not shown correctly with -nl iw flag.>
+
+Steps To Reproduce: Note: treat Caps Lock latin letters as BiDi letters Hebrew\Arabic. Prerequisite : use a workspace with BiDi characters. i.e : c:\CBA\FED. 1. Run eclipse with -nl iw. 2. Go to "File->New->Project->Java Project..", press the "Next" button. 3. Notice that the workspace path is shown in RTL direction in the "Directory" text box. Actual Result: The dir path is presented as such : FED\CBA\:c Expected Result: c:\CBA\FED

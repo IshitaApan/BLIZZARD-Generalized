@@ -1,0 +1,3 @@
+[actions] The width of "New Java Class" wizard is different depending on the operation.
+
+Build ID: I20070323-1616 Steps To Reproduce: 1. Eclipse launch in Windows Vista (Japanese) 2. Window > preference > General > Appearance > Color and Fonts "MS UI Gotic" set as the Dialog font. 3. Execute "New Java Class" wizard. More information: The width of the wizard displayed by Operation-1 and Operation-2 of the operations is different. Operation-1: - File menu > New > Other - Select "Class" Operation-2 - Click Downward triangle of (C+) button in the tool bar - Select "Class"

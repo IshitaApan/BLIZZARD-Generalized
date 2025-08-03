@@ -1,0 +1,3 @@
+Inconsistencies between Open Super Implementation and Override Method Indicator
+
+3.1 RC2 Consider the following snippet: class Top<E> { void add(E[] e) {} void add(String[] t) {}; } class Sub extends Top<String> { void add(String... s) {} } -> Override Method Indicator selects Top#add(E[]) -> Open Super Implementation selects Top#add(String[]) -> Since the overridden method is ambiguos, these facilities should either give a hint that the overridden method is ambiguos or select the same

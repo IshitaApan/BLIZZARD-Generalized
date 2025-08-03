@@ -1,0 +1,3 @@
+[code manipulation] Generate constructor using should not use code body templates
+
+As the constructor is ready-for-use after creation, TODOs and other additional strings from the code templates should not be inserted. This would also render the source actions more coherent (create delegate method and getter/setter generation do not use templates too).

@@ -1,0 +1,3 @@
+Task Tag preference page: default tab (bold) doesn't pick up dialog font
+
+RC1 See screen shot.

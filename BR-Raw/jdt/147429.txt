@@ -1,0 +1,3 @@
+[syntax highlighting] Autoboxing coloring not working on negative numbers
+
+In preferences, Java->Editor->Syntax coloring->Java->Auto(un)boxed expressions is enabled, the coloring is not working for negative numbers, although auto-boxing still occurs.

@@ -1,0 +1,3 @@
+Deadlock while editing Java File
+
+Build id: 200405130010 While editing a java file the UI became unresponsive. I had just removed some projects then started typing into a java editor that was already open. As soon as i started typing the UI locked up. I don't have a reproducible test case, but luckily i was running with a console and got a thread dump.

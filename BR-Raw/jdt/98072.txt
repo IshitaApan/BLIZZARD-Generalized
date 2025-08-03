@@ -1,0 +1,3 @@
+[JUnit] JUnit: slash in project name in configuration tab leads to error log
+
+Against N20050602-0010: 1) From the Run... dialog, create a new JUnit launch configuration. 2) In the "Project: " text field, type "a/b" The stack trace below is logged in the Error Log. The fix is one line, and the error trace is ugly. Recommend fix for RC2.

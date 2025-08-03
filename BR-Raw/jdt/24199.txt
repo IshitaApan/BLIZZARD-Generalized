@@ -1,0 +1,3 @@
+New Classpath Variables
+
+Why should a full rebuild of the workspace be required when you add a classpath variable? Because it's a new variable it doesn't affect any existing projects. It would be more convenient if a rebuild were not required when adding a new classpath variable. Thanks.

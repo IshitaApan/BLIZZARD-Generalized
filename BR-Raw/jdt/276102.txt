@@ -1,0 +1,3 @@
+[quick assist] 'convert to enhanced for loop' unnecessarily blocked for multiple-assigned variable
+
+The fix for bug 274199 just blocks that case, although an easy solution would exist. Just introduce a new variable for 'src[i]', and don't reuse 'output'. This already works fine when I replace String output = src[i]; with String output = "A" + src[i]; Example from bug 274199: public class ForLoopTest2 { public static void main(String[] args) { String[] src = new String[] { "1", "2", "3", "4" }; for (int i = 0; i < src.length; i++) { String output = src[i]; if (output.length() == 1) { output = output + "-XXX"; } System.err.println("path="+ src[i] + ",output="+output); } } }

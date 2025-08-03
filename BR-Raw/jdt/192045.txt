@@ -1,0 +1,3 @@
+[nls tooling] Properties file editor should have "toggle comment" action
+
+It would be great if in the properties file editor there were some way to do the equivalent of the Java "toggle comment" action to add/remove # to the beginning of each line. So, given a file foo.properties: # Neato properties p1=a p2=b p3=c I would like to highlight lines 2-4, select the "Toggle Comment" action (I'd even be happy to have the key combo be the same as the Java editor key combo even though it makes less sense here) and get this result: # Neato properties #p1=a #p2=b #p3=c Selecting the same action again with same lines highlighted would revert to the original version.

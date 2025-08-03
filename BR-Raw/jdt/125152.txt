@@ -1,0 +1,3 @@
+[refactoring] Rename Project does not update Java Build Path
+
+I have two projects "Project1" and "Dependency1" which is a "Required project on the build path" for the first. When "Dependency1" is renamed to "NewName1" I get the error: Build path entry is missing : /Dependency1 The expected behavior would be that Eclipse updates the build path entries of referencing projects, so that the user may not be forced to update manually the out of sync entries.

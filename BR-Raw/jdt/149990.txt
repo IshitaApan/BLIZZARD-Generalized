@@ -1,0 +1,3 @@
+[clean up] Remove block changes semantic of if-then-else
+
+I20060704-0800 Given: package test; public class E { 	public void foo() { 		if (false) { 			while (true) 				if (false) 					; 		} else 			; 	} } 1. Cursor at ^ 2. Ctrl-1 Is: 'Change if block to stmt' is available Should: Not be available Same for clean up. But clean up is much harder to fix. Quick fix is legal here: if (false) { 	while (true) { 		if (false) 			; 	} } else 	; But not the clean up, since it will change the while block to a stmt. I need to detect that case beforhand...

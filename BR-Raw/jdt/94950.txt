@@ -1,0 +1,3 @@
+[nls tooling] Switching to Eclipse mechanism should automatically convert keys
+
+N20050512-0010 Steps to reproduce: - Create cu with unexternalized string which has NO reference to message bundles (both eclipse and non-eclipse approach) - Invoke Externalize String refactoring - Proposed key names have format <Class>.n - Check 'Use Eclipse's string externalization mechanism' -> The proposed key names are invalid with the Eclipse approach -> Wizard should regenerate keys which do not yet exist

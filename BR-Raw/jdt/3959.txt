@@ -1,0 +1,3 @@
+Dupilcate entry in save before copy dialog (1GF9IYY)
+
+Open two java perspectives in two windows. Open the same .java file in both perspectives Change the contents of the file but do not save Select copy from the file's popup menu Note that in the dialog that appears the file is listed twice. NOTES:

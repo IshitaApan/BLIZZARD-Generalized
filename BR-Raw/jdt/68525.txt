@@ -1,0 +1,3 @@
+[Workbench] label in type hierarchy view not wrapped
+
+3.0rc3 the 'All types of the current hierarchy .....' does not wrap although it is a very long string and i have to max the view to read it

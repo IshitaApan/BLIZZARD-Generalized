@@ -1,0 +1,3 @@
+Show In doesn't work for class file in rt.jar
+
+I20030611 - create Test project that uses Jar container - open NumberFormat.class - activate Show In... and choose Package Explorer Observe: NumberFormat.class doesn't get revealed.

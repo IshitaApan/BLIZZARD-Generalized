@@ -1,0 +1,3 @@
+[jar exporter] program arguments are ignored
+
+20071127 - create a project with JUnit 3.8.1 code (from the smoke test) - create a Java application launch configuration for 'junit.textui.TestRunner' add 'junit.samples.VectorTest' as program argument on the second tab page - create a runnable JAR from this launch configuration - run the created JAR The command says that arguments must be specified. It seems that the program arguments 'junit.samples.VectorTest' are not used.

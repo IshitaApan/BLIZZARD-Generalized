@@ -1,0 +1,3 @@
+Java Browsing views get cleared in combination with type hierarchy
+
+1. Add Type Hierarchy view to Java Browsing perspective 2. Select a type in the type hierarchy ==> Java Browsing views show correct state 3. Click on a Java Browsing view "Types" or "Packages" ==> Java Browsing views get cleared.

@@ -1,0 +1,3 @@
+[1.5][search] Need to distinguish between raw and restricted search in the case of instantiated types
+
+I20041130 Code select now return a special IJavaElement when resolving code list List<String>. If we hand such an element over to the search engine we need means to distinguish between searches for List and searches for List<String>. One idea is to add additional flags to SearchPattern.

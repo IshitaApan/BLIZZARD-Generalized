@@ -1,0 +1,3 @@
+Incorrect decorator for inner classes of an interface [render]
+
+public interface I { class IC {} } In Package Explorere and Members IC shows up with a blue triangle (package private). It is of course public. When public is added it shows up with no decorator. In any case it is questionalbe both here and when IC is a member of a class wether the decorator should be abasent in the latter case or whether it should be the gree circle.

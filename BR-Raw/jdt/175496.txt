@@ -1,0 +1,3 @@
+[preferences] Separate "null dereference" and "null reference" compiler options
+
+JDT UI, following the release of bug 170704, would you please surface the new null-related options game in the user interface?

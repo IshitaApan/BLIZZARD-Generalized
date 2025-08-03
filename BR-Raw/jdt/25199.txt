@@ -1,0 +1,3 @@
+Do not show import declarations children on members view [browsing]
+
+R2.0.1 In the Java Browsing Perspective, the Members View has a plus sign where you can see the import declarations. When you have many import statments and the import declaration has focus it can be annoying if trying to navigate to a method because if you "close" the import declarations (pressing the minus sign) it reopens because import has the focus and you are obliged to scroll down the view until you find the method you want. Suggestion is to keep the import declarations (very useful) but do not show its children (useless in my opinion). This way the import declarations can be viewed like a method (that is usually what I want).

@@ -1,0 +1,3 @@
+Can't extract local variable from super send [refactoring]
+
+- Import the following Java class into Eclipse: public class Foo { public String toString() { 	return super.toString() + new Integer(1).toString();	 } } - Select 'super.toString()' and choose 'Extract local variable' - An error message appears saying: 'Cannot extract this kind of expression into a local variable'.

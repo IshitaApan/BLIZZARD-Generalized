@@ -1,0 +1,3 @@
+[quick fix] Add quickfix for remove unnecessary nls tags
+
+Following bug 48976, a quickfix could be added to get rid of the unnecessary nls tag. It should support nls tag in the middle of a line comment.

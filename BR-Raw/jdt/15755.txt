@@ -1,0 +1,3 @@
+"Browse workspace..." in "Attach source..." should default near the jar
+
+Build: 20020508 In the "Attachments for <jar>" dialog (from Project->Properties->Java Build Path->Libraries tab->Attach Source) there is a "Browse Workspace..." button. When I click that I get an "Archive Selection" dialog. This dialog should default to the container that the jar is located in so that I don't have to hunt throughout the entire workspace for the source (which is most often very near the jar).

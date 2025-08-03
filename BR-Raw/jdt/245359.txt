@@ -1,0 +1,3 @@
+'Open Resource...' dialog looses working set selection if more than one selected
+
+Build ID: I20080617-2000 Steps To Reproduce: 1. Open "Open resource" dialog. 2. Select some working sets to search through. 3. Find some resource and select it to close the dialog. 4. Repeat from #1 and you'll see that selection of working sets is lost ("Window working set" is selected). More information:

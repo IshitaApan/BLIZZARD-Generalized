@@ -1,0 +1,3 @@
+Package Explorer context menu should not allow refresh on a closed project
+
+build 20030214 Brought the Navigator context menu build, refresh, open project, close project actions in sync with Package Explorer with one exception. Our refresh action is not enabled/visible when a closed project is selected. I think this is correct and the Package Explorer context menu should reflect this. See bug 31422.

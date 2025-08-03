@@ -1,0 +1,3 @@
+Pull Up: Usage of editor selection is confusing
+
+1. Open junit.framework.TestCase 2. make a selection 'setUp' inside of method 'runBare' 3. From the edit menu, select 'Pull Up' As I see in the dialog that the acction was aplied to the code resolve ('set up'). I would have expected to take the element at the selection 'runBare'. -> The desription should mention the name of the method.

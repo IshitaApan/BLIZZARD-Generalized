@@ -1,0 +1,3 @@
+[build path] "Add Java Source Attachment" default path should be Jar's path
+
+When using Buildpath Jar-> Properties -> Add Java Source Attachment -> (External File Or External Folder), the default folders for the browse dialog can be improved to improve usability and productivity. The most appropriate starting folder for the dialog is surely the folder containing the Jar for which we are setting the source path, since the soource archive or folder will likely be nearby (ie locality principle). Currently, I am getting "My documents" for source folder everytime, and I waste valuable effoct navigating around to the network drive where our library archives are maintained. Similar behavior for source archives zips.

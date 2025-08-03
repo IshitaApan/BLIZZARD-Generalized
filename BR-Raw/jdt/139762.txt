@@ -1,0 +1,3 @@
+Open type dialog sorted incorrectly
+
+A screenshot will be attached. In the screenshot the first item starts with ClassType and the last item is ClassAndMethod.... In the middle there are items that start with "Cli" and "Clo". I use 3.2RC2

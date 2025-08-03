@@ -1,0 +1,3 @@
+JDT UI breaks api rules by implementing SourceRange [refactoring]
+
+3.0rc1 jdt ui has an implementation of ISourceRange (because the one from jcore is internal and we did not feel like creating a n-th class for the same thing: pair of ints). however, according to the API ISourceRange should not be implemented

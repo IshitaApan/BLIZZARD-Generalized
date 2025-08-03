@@ -1,0 +1,3 @@
+Hardcoded usage of \t for indent
+
+Build 20020418 While fixing the indent problem for extract method I did a search for \t in JDT UI. The following classes are IMO suspicious regarding their usage of \t JavaAutoIndentStrategy.java NLSLine.java NLSRefactoring.java StubUtility.java SurroundWithTryCatchRefactoring.java

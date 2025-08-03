@@ -1,0 +1,3 @@
+[5.0] Unconventional formatting of annotations in ASTRewrite
+
+20050104: Adding a MarkerAnnotation ast node to a method declaration with visibility modifiers results in unconventional formatting of the modifier ast node list. Example: public int foo(); Adding marker annotation @Override results in: @Override public int foo(); The formatting should be: @Override public int foo();

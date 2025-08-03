@@ -1,0 +1,3 @@
+[preferences] Add new options to 'code formatter' to expose constants from bug 284789
+
+As bug 270209 is fixed, the new constant to align method declaration needs to be exposed in the code formatter preference page.

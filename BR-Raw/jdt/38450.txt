@@ -1,0 +1,3 @@
+Delete: Removing default package removes source folder
+
+20020604 1. Create new Java project, add source folder 'src' with a file 'A.java' 2. In the package explorer select the 'default package' in 'src' 2. press delete Note that the source folder is removed as well. But looking at the project's build path you see that the folder is still on the class path (but not existing) I'd expect that removing the default package does not remove the source folder (only the package's content)

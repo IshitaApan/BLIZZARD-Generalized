@@ -1,0 +1,3 @@
+Error range for unresolved names in qualified references
+
+20031211 1. in the following code public void foo() { int i= xxx.yyy; } 2. if 'xxx' is undefined, but the compiler marks 'xxx.yyy' as unresolved. It would be better to only mark 'xxx'

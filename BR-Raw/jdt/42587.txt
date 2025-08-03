@@ -1,0 +1,3 @@
+Left over from content assist
+
+M3 - set preference that content assist should overwrite - open content assist on some word so that the rest of the word is indicated to be overwritten - transfer focus to the content assist widget using TAB - Esc -> overwrite indication is still there

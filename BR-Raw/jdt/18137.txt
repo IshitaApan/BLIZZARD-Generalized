@@ -1,0 +1,3 @@
+No uncaught exception are thrown by selected code. - .. But there is an uncaught IOExcption
+
+eclipse build=20020521 Consider code 1 public Object foo(String name) 2 { 3	Object a; 4	a = super.createFilmType(name, false); 5	return a; 6 } *** Line 4 throws an IOException. So I select that line and select contextmenu source\surround with try ... I get a message "No uncaught exceptions are thrown..Catch java.lang RunTimeExc?" This is incorrect!

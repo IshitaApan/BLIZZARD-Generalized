@@ -1,0 +1,3 @@
+Class Creation Dialog generates syntax error
+
+Build 20020115 If you create a class that will require import statements due to the interfaces it implements or the class it extends they will be created within the comment for the class. Here is an example of the comment of the generated class /* import org.eclipse.core.resources.IResourceChangeListener; import org.eclipse.jface.viewers.ITreeContentProvider; * (c) Copyright 2001 MyCorporation. * All Rights Reserved. */ Steps 1) Select the class creation dialog 2) Enter a class name 3) Choose an interface to have it inherit from 4) Hit OK - you will get an error from Eclipse 5) The class will be created - look at its definition

@@ -1,0 +1,3 @@
+Hierarchical (java) search results: Matches in parents not visible
+
+I20040507 Steps: - Have a jdk with source - Search for java.util.Random -> There are matches in class files (in import statements) as well as matches in method bodies. In the hierarchical search results view mode, I cannot see whether there are search results in the class file or not. Two solutions come to mind: a) Render parent items witout matches "disabled" (grey-white icon, grey label) b) Show match count on parent labels also for count == 1

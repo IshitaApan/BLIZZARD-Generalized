@@ -1,0 +1,3 @@
+[breadcrumb] editor sets input while breadcrumb is active
+
+I20080115-1740 1. Open a CU 2. In the breadcrumb select .project file Is: .project file shows up, then the input for the breadcrumb is set to the editors selection and the selected .project file is gone Should: not change the input 3. Select .project file again Is: now it stays strange

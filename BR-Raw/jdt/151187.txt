@@ -1,0 +1,3 @@
+[build path] Hide default package in DialogPackageExplorer
+
+I20060718-0800 The DialogPackageExplorer should not show the default packages.

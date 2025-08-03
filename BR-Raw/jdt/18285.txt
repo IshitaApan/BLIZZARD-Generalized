@@ -1,0 +1,3 @@
+Double-clicking on import statement transfers to referenced type
+
+Build 20020528 In the package view outline, double-clicking on a type import statement does open the editor on the target type, instead of the unit hosting the import reference.

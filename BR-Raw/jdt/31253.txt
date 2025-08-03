@@ -1,0 +1,3 @@
+local rename of constructors should rename class too [code manipulation]
+
+20030206 public class A { 	A(int y){} } select 'A' in the constructor name- local rename does not change class name works the other way round though - select A in class name and local rename will rename the constructor for you

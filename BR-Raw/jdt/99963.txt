@@ -1,0 +1,3 @@
+[extract local] on generic 'this' needs type arguments
+
+I20050610-1757 (3.1RC2) Extract Local Variable, Extract Method and Introduce Parameter don't add type arguments when extracting 'this' of a generic type: Select 'this' in the class below => the type is always just MyArrayList. Expected: MyArrayList<E>. class MyArrayList<E> extends ArrayList<E> { 	void inspect() { 		for (Iterator<E> iter= this.iterator(); iter.hasNext();) { 			iter.next(); 		} 	} }

@@ -1,0 +1,3 @@
+No types available after opening a closed project
+
+hi, I am using: Version: 3.1.0 Build id: 200408170800 I had a few java projects that were closed before the last shutdown of hte eclipse platform. When I restarted the platform, i used the context menu to open one of the projects. I waited till i saw that the progress monitor showing that it had started building the classes. At this point, I hit Ctrl+Shift+T to get the "open type" dialog - but instead, I got an error dialog whote title was "Type Selection" saying that "No types available". At this stage, keeping the project open, if I shutdown and restart the eclipse platform, Ctrl+Shift+T works as expected. But I should not need to restart eclipse. Could this be rectified?

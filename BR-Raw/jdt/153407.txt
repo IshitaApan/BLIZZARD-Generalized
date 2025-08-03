@@ -1,0 +1,3 @@
+[working sets] Package Explorer hides PDE Container if working set is used
+
+R3.2 and I20060810-0010 If a working set is applied to the Package Explorer then the PDE Container goes away. Steps: 1. have JDT UI and Text plug-ins in source 2. create a working set with just the text plug-ins 3. set the Package Explorer to show projects as top level elements 3. use the working set in the Package Explorer ==> PDE Container is gone even for org.eclipse.ui.editors whose PDE Container also contains other text plug-ins.

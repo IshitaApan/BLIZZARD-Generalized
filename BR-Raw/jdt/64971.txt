@@ -1,0 +1,3 @@
+Code manipulation actions - insertion point after an existing method will insert at the end instead
+
+I am using Generate Delegate Methods. I want to specify the position of the newly generated methods. Any combination for insertion point works (cursor position, at the beginning, at the end) except when I want to insert the new methods after any existing method. If I choose this option they will get positioned at the end of the file rather than being located after the method I chose in the dialog. Build id: 200405290105

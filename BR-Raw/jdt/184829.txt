@@ -1,0 +1,3 @@
+[package explorer] Back linking in Package Explorer broken
+
+I20070501-0010. Back linking in Package Explorer no longer works for non *.java files. Works in the Navigator.

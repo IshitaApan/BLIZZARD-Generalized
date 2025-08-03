@@ -1,0 +1,3 @@
+[working sets] 'Working Set Assignments' dialog should better handle multiple selections
+
+I20070502-0010. The 'Working Set Assignments' dialog should better handle multiple selections: 1) if only some selected projects are already part of a working set then the item looks like: "[gray checked] workingsetName (x of y)". This is strange and the only thing the user can do is either add or remove all. 2) what should the user expect if the selection contains projects and working sets?

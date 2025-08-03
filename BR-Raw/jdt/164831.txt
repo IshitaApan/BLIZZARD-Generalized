@@ -1,0 +1,3 @@
+[preferences] Content Assist preference page: should indent checkboxes for access restrictions
+
+I20061114-1636 Content Assist preference page: should indent checkboxes after "Proposals with access restrictions:". "Show camel case matches" has nothing to do with access restrictions, so it should be left-aligned with the "Proposals with..." label, and the "Hide..." checkboxes should be indented. I'm not sure about "Hide deprectaed references", but it should probably also be indented.

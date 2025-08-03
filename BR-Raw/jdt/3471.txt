@@ -1,0 +1,3 @@
+Leading '/' in src page of Java wizard is misleading (1G842TH)
+
+1. create new java project "jp" with Create Java Project wizard. 	2. in wizard goto second ("Source") page 	Observe: the Build Output Folder is "/jp/bin" 		Since this looks like a Unix pathname I interpret the leading "/" as an indication for a absolute pathname. 	 	Other tools use something like: 		{WORKBENCH}/jp/bin 	or shell variable syntax: 		$WORKBENCH/jp/bin NOTES: EG (1/30/01 10:34:33 AM) 	desktop is using the same convention for presenting paths. 	General issue: how to show a workbench relative path

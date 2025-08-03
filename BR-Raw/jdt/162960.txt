@@ -1,0 +1,3 @@
+[content assist] field completion does not apply required proposal
+
+I20061031-0656 package p; public class P { 	void m(Q q){ 		q. // Ctrl+Space, Enter 	} } package q; public class Q { 	public Object aField; 	public void aMethod() { } 	public class AClass { } } => 'aField' shows up as content assist proposal, but applying it does not add an import for q.Q. Works fine for aMethod(). No support for AClass, but that's OK.

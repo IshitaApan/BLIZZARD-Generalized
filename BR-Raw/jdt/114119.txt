@@ -1,0 +1,3 @@
+[ast rewrite] Following of bug 85298, the anonymous cannot be deleted
+
+Following the steps described by Markus in bug 85298 comment 2, the anonymous is not removed. Debugging the code it appears that the anonymous is located using its name. This cannot work. The name of an anonymous is empty. The source range should be used instead. isLocal() is no longer the problem.

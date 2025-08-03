@@ -1,0 +1,3 @@
+Refactoring tests should use SourceCompareUtil [refactoring]
+
+I20030825 Some of the refactoring tests still use assertEquals to compare source code. This asked for trouble if the two file have different line delimiters. All code should compare source code using SourceCompareUtil.compare. Note: I would like to see the method on RefactoringTest. AbstractCUTestCase already has such a method and having the method on RefactoringTest instead of in SourceCompareUtil gives us the possibility to merge the two classes in the long term.

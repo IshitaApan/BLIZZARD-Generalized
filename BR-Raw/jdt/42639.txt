@@ -1,0 +1,3 @@
+Outline view fails to highlight overriding methods consistently [type hierarchy] [render]
+
+The Outline view no longer consistently highlights a method that overrides one in a base class. I first noticed this problem under 3.0M3. See the attachment for a testcase. Overriding methods "iFunc" and "jFunc" are not marked in the outline view, though they are correctly marked in the Hierarchy display.

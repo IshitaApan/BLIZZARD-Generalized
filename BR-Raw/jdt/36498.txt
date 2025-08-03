@@ -1,0 +1,3 @@
+outline view signature incorrect for templated functions/methods
+
+try this code: class A { 	template <class B> B aMethod( B aParm ); }; template <class A, typename B> void aFunction( A a, B b ); the name of the method shows up twice in the signature in the outline view.

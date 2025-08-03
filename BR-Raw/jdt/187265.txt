@@ -1,0 +1,3 @@
+[refactoring] strange OperationCancelledException in Introduce Indirection
+
+Version: 3.3.0 Build id: I20070516-0010 Sun JRE 1.6 Test case as described in bug 186749 Wait until "Adjusting visibility" is displayed in the progress monitor. Click the cancel button. --> a strange error msg is displayed - click OK, the dialog disappear (I'll attach screen shots)

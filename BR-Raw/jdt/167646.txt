@@ -1,0 +1,3 @@
+[package explorer] Source generation actions still enabled after delete
+
+20061212-0010 - select a java file on the package explorer - press 'Delete' and confirm to delete - after the delete open the 'Source' global menu > 'Generate Getter' and other source generation menues are still enabled

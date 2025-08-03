@@ -1,0 +1,3 @@
+No QF for uncaught exception type in explicit super call to constructor
+
+RC1 - Given a class CC with default constructor throwing an IOException - create new class C derived from CC - add a default constructor C() Observe: no QFs are proposed for the error: "Unhandled exception type IOException"

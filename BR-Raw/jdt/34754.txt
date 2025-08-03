@@ -1,0 +1,3 @@
+Array out of bounds in code assist
+
+Build: 2.1 RC2 I got into a state when invoking code assist where the popup window was empty. I can't reproduce it, but I was typing while the popup was open. When I entered a character that narrowed down the possible search values to zero, I was left with an empty popup window. In my case I had entered resource.getK (and there are no methods starting with "getk" on IResource). This resulted in an ArrayIndexOutOfBoundsException in the log. I will attach the log.

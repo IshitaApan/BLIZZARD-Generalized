@@ -1,0 +1,3 @@
+Code Templates are not preserved
+
+the new code templates are a great feature. The problem is when you close eclipse and start it up again they seem to be reset to the defaults.

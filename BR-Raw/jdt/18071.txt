@@ -1,0 +1,3 @@
+Package Viewer: Too many refreshes
+
+F1 - when a working copy is closed, it's package is updated - update on a package results in a refresh as the abstract filter claims that IMAGE is a filter property

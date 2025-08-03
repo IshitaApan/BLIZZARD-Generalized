@@ -1,0 +1,3 @@
+[introduce parameter object] clean up refactoring activation code
+
+I20070605-0010 The code in RefactoringExecutionStarter.startIntroduceParameterObject(IMethod, Shell) does too much work outside of the refactoring. We should move the initialization code from IntroduceParameterObjectRefactoring's constructor to checkInitialConditions(..) and just abort with fatal RefactoringStatus.

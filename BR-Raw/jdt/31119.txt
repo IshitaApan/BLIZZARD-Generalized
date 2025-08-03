@@ -1,0 +1,3 @@
+Build Path dialog opened for wrong project if element from external JAR is selected [build path]
+
+Build I20030206 Build Path dialog opened for wrong project if element from external JAR is selected 0815 problem with parents of elements from external JARs.

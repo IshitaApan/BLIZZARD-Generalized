@@ -1,0 +1,3 @@
+[JUnit] New Test Case Wizard: Class Under Test Dialog -- allow Enums
+
+Enums should be selectable types in the dialog.

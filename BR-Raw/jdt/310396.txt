@@ -1,0 +1,3 @@
+[implementation] Deadlock in SharedASTProvider.getAST()
+
+Created attachment 166031 Thread dump of deadlocked eclipse Build ID: I20100422-1310 I was editing a Java file (Project.java from o.e.core.internal.resources). I think that I tried scrolling the editor right when Eclipse deadlocked. Thread dump attached.

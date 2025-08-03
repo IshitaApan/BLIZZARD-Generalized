@@ -1,0 +1,3 @@
+Structured results expands import statements
+
+1) catch-up with the team 2) double click on a Java file to see the structured changes ->the first node which is typically the import container is expanded and scrolls away the more interesting changes. Suggest that the structured view knows about the importcontainer and does not expand it.

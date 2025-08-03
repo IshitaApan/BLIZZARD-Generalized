@@ -1,0 +1,3 @@
+Java Templates
+
+In the build 1203 i have the following problems: 1> If i edit a template of JAVA like stderr then the dialog that gets opend will display: JAVA_DOC as type. 2> Filecomment and Typecomment are there but empty is this wanted?

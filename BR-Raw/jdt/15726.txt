@@ -1,0 +1,3 @@
+moves field comments from one field to another [quick fix]
+
+20020508 public class A { 	int field; //field comment 	A(int fred){ 		_fred= fred; 	} } you are offered to create field _fred but then it steals the comment: 	int field; 	private int _fred; //field comment

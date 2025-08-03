@@ -1,0 +1,3 @@
+[actions] Format should not stop on read-only files, it should skip instead.
+
+If I only have a few files checked out, when I try to format all the source code in my project, the formatter stops, since it detects some of my files being read-only. It should not halt at read-only files, instead it should just skip them and only format the writable files. It would provide better usability, as it will do as much as possible, which in this case is exactly what I want. Note, this issue is not related to the following bugs 27207, 69193, and 121552 that want to format the read-only files. I do not want that!

@@ -1,0 +1,3 @@
+[5.0] autoboxing syntax coloring fails with signed primitive value
+
+AS IS: with 3.1.1 M20050811-0400, followed code fragment have different coloring on the auto-boxed int value, if the value has + or - sign before (in the preferences for auto-boxing: the boxed values should be bold and red). TO BE: both occurencies of value in put(..., +-value) should be colored in the same color as the first case. Example: TreeMap<String, Number> summary = new TreeMap<String, Number>(); int value = 0; summary.put("key", value); // value is shown in bold and red color - OK summary.put("key", -value); // value has usual font properties - NOK summary.put("key", +value); // value has usual font properties - NOK

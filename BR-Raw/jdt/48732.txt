@@ -1,0 +1,3 @@
+ChangeTypeRefactoring: shouldn't create Error exception
+
+I20031211 The method collectAffectedUnits contains shouldn't contain code like if (selectedMethod == null){ throw new Error(RefactoringCoreMessages.getString ("ChangeTypeAction.exception")); //$NON-NLS-1$ } Bindins.finsMethod can return null and the code should handle the case and not throw an error which isn't very helpful for the user. So please check this in checkActivation/checkInput and generate a corresponding refactoring status.

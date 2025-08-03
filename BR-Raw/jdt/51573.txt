@@ -1,0 +1,3 @@
+[formatter] built-in profile; OK button enablement
+
+Please disable the OK button on the "Show Profile ... [built-in]" dialog for the built-in profiles. This should be in addition to the warning. It's easy to read over a message, but a disabled OK button is a clear message that one cannot save changes.

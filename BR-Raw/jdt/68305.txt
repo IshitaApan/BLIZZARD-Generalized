@@ -1,0 +1,3 @@
+[navigation] mark occurrence of exception disregards inner exceptions
+
+Marking e1 will mark both URLs but the second one is never caught by e1 but by e2. try { 	URL u1 = new URL("mal://formed"); 	try 	{ 		URL u2 = new URL("mal://formed"); 	} 	catch( Exception e2 ) 	{ 	} } catch( Exception e1 ) { }

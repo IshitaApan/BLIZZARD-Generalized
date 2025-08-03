@@ -1,0 +1,3 @@
+'Format' should be under 'Source'
+
+20030206 'format' should be a submenu entry for 'source' it looks very strange now that we have the 'sort members' action (people who use it often probebly use the shortcut anyway)

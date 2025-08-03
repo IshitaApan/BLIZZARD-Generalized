@@ -1,0 +1,2 @@
+Remove reference to getDefaultSettings and convert UI to Java conventions being the default
+

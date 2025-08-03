@@ -1,0 +1,3 @@
+[api] missing specs and @since  tags on GenerateNewConstructorUsingFieldsAction fields
+
+3.1 HEAD GenerateNewConstructorUsingFieldsAction static public final int DOWN_INDEX= 1; static public final int UP_INDEX= 0; These 2 fields were private in 3.0; now they're public, and therefore API. If the intent was to make them API, add specs and @since 3.1 tags.

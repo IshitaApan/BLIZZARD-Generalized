@@ -1,0 +1,3 @@
+[spell checking] Java characters are spell checked
+
+static final char OBJ = '\ufffc'; This get's highlighed by the spell checker. I don't think spell-checking a char ever makes sense, but I could be wrong :-).

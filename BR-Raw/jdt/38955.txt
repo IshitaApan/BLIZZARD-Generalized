@@ -1,0 +1,3 @@
+old junit launches not killed after run finished [JUnit]
+
+20030611 on windows old junit launches are killed (good) on linux gtk they live and clutter my workbench (bug)

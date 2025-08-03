@@ -1,0 +1,3 @@
+tomcat launcher not usable
+
+M4 candidate If I create a tomcat launch config, I am told that catalina_home is not defined. However, there is no way to define the variable. (I did set catalina_home in Run/Debug->String Substitution, but I still get "variable not defined" in the launch config dialog.

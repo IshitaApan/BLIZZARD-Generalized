@@ -1,0 +1,3 @@
+Javadoc problem with project/package formatting
+
+I've just downloaded 3.0 M9 and set up the following Javadoc comment setting: "New line after @param tags" UNCHECKED If I manually call format in an open file, param's description goes in the same line as @param, as expected. However, if I right-click a project or package to format several files at once, param's description are incorrectly put in a new line. Actually, if I right-click just one file from the Package Explorer and format it, it mess up the params. The bottom line: this option is respected only when using Ctrl + Shift + F or the associated menu, but not from Package Explorer.

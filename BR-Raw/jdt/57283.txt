@@ -1,0 +1,3 @@
+JavaDocExport: if destination path has spaces, the JavaDoc is generated into the incorrect (truncated) path or fails [javadoc]
+
+Steps to reproduce (Eclipse3.0M8): Create a project with any name; Create some classes there; Execute Export->Javadoc. In the wizard, in the destination editbox, type any name that contains spaces. If the spaces are only in the last segment of the path (say, c:\tmp\my project), the javadoc is just generated in the incorrect (truncated) location (in this example, c:\tmp\my). If there are spaces before the last segment (e.g., c:\Documents and Settings\user\My Documents\my project), generation only produces 2 empty folders (in this example, C:\Documents and the destination that was typed) and fails to do anything else.

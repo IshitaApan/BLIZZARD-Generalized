@@ -1,0 +1,3 @@
+DCR: Javadoc for implementers of a method (1GJJ5LD)
+
+If I hover over a method which implements an interface 	or overrides a method I would like to see the corresponding 	Javadoc (unless I also added my own Javadoc). NOTES:

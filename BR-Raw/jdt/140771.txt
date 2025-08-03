@@ -1,0 +1,3 @@
+[generate constructor] generate constructor for enum [code generation]
+
+When using [Source->Generate constructor using fields] for an enum, the generated constructor is public by default. This is illegal (as far as I understand), and should always be private. It shouls also ommit the call to super().

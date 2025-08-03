@@ -1,0 +1,3 @@
+Java serialization execution can not be removed from the debug view
+
+The generation of the serial ID runs a VM. This process appears in the debug view, however the process is complete the entry is not removed from the debug view nor can it be removed manually. Side questions: - why do we need to run a VM? - why can't that be done in a background job?

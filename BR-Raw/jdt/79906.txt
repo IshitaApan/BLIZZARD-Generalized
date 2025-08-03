@@ -1,0 +1,3 @@
+[refactoring]  convert anonym to inner should follow naming conventions
+
+20041201 The 'convert anonym to inner class' refactoring should follow the naming conventions. - use field pre/suffixes for introduced fields, remove params and local pre/suffixes for used variables - use 'this' if preferred by the user for example: public void foo(final int pVar1) { final int lVar2= 1; Runnable r= new Runnable() { 		public void run() { 			int x= pVar1 + lVar2; 		} }; } -> private final class Inner implements Runnable { 		private final int fVar1; 		private final int fVar2; 		private Inner(int pVar1, int pVar2) { 			super(); 			fVar1 = pVar1; 			fVar2 = pVar2; 		} 		public void run() { 			int x= fVar1 + fVar2; 		} 	}

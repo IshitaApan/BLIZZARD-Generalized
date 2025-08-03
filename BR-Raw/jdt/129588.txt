@@ -1,0 +1,3 @@
+[rulers] No error icon in editor left ruler
+
+Build 3.2M5 When typing following code in editor (without building), there is no error indication in left ruler, where one appears when building. public class X { 	{ 		(a 	} } Note that if removing the open parenthesis, the error icon appears as expected.

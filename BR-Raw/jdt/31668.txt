@@ -1,0 +1,3 @@
+Icons squished in Types view
+
+I20030211 Now that (non-java) resources are available in the types view, I see squished icons. The attached picture shows what I mean. I think what's happening is that the package.html's icon is 16x16, and it constrains all the other icons in the tree to 16x16, but the JDT icons want to be wider than 16 to add decorations ("F", "A", etc) to the side.

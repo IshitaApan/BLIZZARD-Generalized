@@ -1,0 +1,3 @@
+Extract Interface shows duplicated warning message for unconventional type names
+
+200412142000: Steps to reproduce: - Extract new interface named "t"

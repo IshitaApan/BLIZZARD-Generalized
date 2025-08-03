@@ -1,0 +1,2 @@
+Rename extension internal-testRunTabs in jdt.junit. It doesn't follow id conventions
+

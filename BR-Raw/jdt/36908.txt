@@ -1,0 +1,3 @@
+[Workbench] Workbench Window becomes disabled
+
+The workbench window's client area becomes completely disabled sometimes when I save a java file. Everything from the toolbar (inclusively) down is disabled to mouse and keyboard. Is there somewhere that setEnabled(false) is being called? Only the menu can be used, and I am forced to close the window because there is no way to get it enabled again. This happens to me more than once per day. For some users, they would be forced to exit Eclipse.

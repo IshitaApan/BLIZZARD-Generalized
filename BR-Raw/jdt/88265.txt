@@ -1,0 +1,3 @@
+Make SourceRange API
+
+JDT/Core uses source ranges to indicate the range of elements in source. Since most of the JDT/UI can deal with source range from IJavaElements and DOM/AST we implemented our own source range with implements ISoureRange to not be forced to copy source ranges retrieved from JDT/Core. Would it be possible to allow implementation of ISourceRange ?

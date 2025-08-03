@@ -1,0 +1,3 @@
+[implementation] DBCS4.1: Not pop up Javadoc when the mouse is on a class with CJK Extension B
+
+Build Identifier: I20110329-2200 OS: RedHat Enterprise Linux 6.0 Eclipse SDK Version: 4.1.0 Build id: I20110329-2200 If a class has CJK Extension B in the name, java doc message does not pop up when the mouse cursor stays on the class name. Reproducible: Always Steps to Reproduce: 1.Copy the following three classes in your Java Editor --------------------------------------- /** * @author ABC */ class U0041_A {} /** * @author ABC */ class U304B_か {} /** * @author ABC */ class U20B9F_

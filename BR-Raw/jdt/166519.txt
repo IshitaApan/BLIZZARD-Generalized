@@ -1,0 +1,3 @@
+[build path] display read-only access rules for execution environments
+
+3.3 JDT has added support for access rules to be defined on execution environments. The access rules are based on OSGi profiles for each environment and users should not be allowed to edit the rules. However, we'd still like users to be able to see the rules. Currently, the build path edit page filters access rules from the UI for JRE containers. We'd like to be able to display the rules (selectively, for certain JRE container paths - i.e. just execution environments) in read-only mode. The associated launching feature is bug 163444.

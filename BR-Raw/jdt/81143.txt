@@ -1,0 +1,3 @@
+[refactoring] pull up reports unnecessary visibility problems
+
+20041215 class A { } class B extends A { 	void foo(List<String> args) { 	} } class C extends A{ 	void foo(List<String> args) { 	} } -> pull up 'B.foo' reports: 'method foo in C has visibility less than protected which will result in compiler errors' package visibility is ok here too

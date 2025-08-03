@@ -1,0 +1,3 @@
+"Organize Imports" and "Format" format long import lines inconsistently. [code manipulation]
+
+Given individual import statements that are longer than the allowed source code line length, "Format" breaks those up into multiple lines at the "." characters in the package/class names. "Source/Organize Imports" undoes those changes.

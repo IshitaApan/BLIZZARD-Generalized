@@ -1,0 +1,3 @@
+[RenameSupport.create] PROBLEM
+
+In a java file, use the JDT API [My Code]: IField field = type.getField("..."); try{ RenameSupport rs = RenameSupport.create(field,"newName",RenameSupport.NONE); rs.openDialog(null); } catch(Exception e){ ... } [My Problem]: "Rename Field" dialog is opened ok.But the "newName" string isn't displayed.The dialog still displays the old name,and I should again input the new name.

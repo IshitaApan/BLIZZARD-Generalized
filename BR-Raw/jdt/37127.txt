@@ -1,0 +1,3 @@
+add checkbox for "public abstract" in Extract Interface [refactoring]
+
+Interface methods that are automatically generated, such as by the "Extract Interface," contain "public abstract" modifiers. This is obsolete and some compilers and style checkers complain about this.

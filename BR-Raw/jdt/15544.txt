@@ -1,0 +1,3 @@
+JavaDoc wizard includes non-selected packages
+
+If you have two source folders: src and test, and tell the JavaDoc wizard to use only the packages in src, it will include any matching packages from the test source folder. Eg. If I have select the package 'ca.beq.tundra' in the 'src' folder, the generated JavaDocs will also include classes from the 'ca.beq.tundra' package in the 'test' folder. Using integration build 0502.

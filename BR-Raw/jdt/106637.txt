@@ -1,0 +1,3 @@
+[quick fix] "Change method..." QuickFix loses final keyword.
+
+If the "Change method..." QuickFix is applied, then the final keyword is lost. -------------------------- Bug.java ------------------ import java.util.*; class Bug { void foo(final HashMap map){} {foo(Collections.EMPTY_MAP);} }

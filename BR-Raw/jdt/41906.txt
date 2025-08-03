@@ -1,0 +1,3 @@
+[typing] Code assists handles anonymous inner classes less than optimal
+
+Type the following code and press return at the indicated cursor position. addActionListener(new ActionListener() { <<<cursor_position>>> ) You get the following code: addActionListener(new ActionListener() { ) } The normal brace and the curly brace should really be exchanged.

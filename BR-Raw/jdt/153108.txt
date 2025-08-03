@@ -1,0 +1,3 @@
+[ccp] paste CU without target project should set compiler compliance inferred from JRE
+
+I20060807-2000 - have a workspace with default compiler compliance 1.4, but an installed Java 5 vm - copy the contents of a CU containing Java 5 constructs to the clipboard - unselect everything in the pkg. explorer - paste > creates a new project _pasted_code_ > compile errors due to Java 5 constructs > compiler compliance is set to workspace default (1.4)

@@ -1,0 +1,3 @@
+source generation actions: should be available on most cus
+
+20020604 it should be available on compilation units that have 1 type or more than 1 type if 1 of the types is the primary type some 99% of all cus known to man belong to that category

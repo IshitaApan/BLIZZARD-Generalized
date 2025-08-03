@@ -1,0 +1,3 @@
+2 ASTs created while typing
+
+N20060407 1. Check out org.eclipse.jdt.tests.compiler 2. Open GenericTypeTest 3. Position cursor just before the last closing curly braket 4. Start CPU profiling 5. In GenericTypeTest.java, type 'a', wait 1s, type another 'a', wait 1s, etc. (do this for 15s) 6. Stop profiling Observe: It appears that 2 threads are creating ASTs (the reconciler thread and a SelectionListenerWithASTManager thread)

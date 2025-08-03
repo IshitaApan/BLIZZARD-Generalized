@@ -1,0 +1,3 @@
+Methods-override dialog should present methods sorted (abc..)
+
+Imagine a class extending JPanel. I want to override setBackgroundColor(Color c). I don't know where in the class-hierarchy the method is declared, so i've to search more or less to all entries in the tree, eye-scanning setBa.. . It's not so easy, as there are quite a few methods. So it would be nice to sort the method names in alphabeticall order, and really great would be a method searching. Could the code assist used for that?

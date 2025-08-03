@@ -1,0 +1,3 @@
+[templates] ClassCastException when using templates in javadoc
+
+Build input for I20060124: When inserting a template inside javadoc and the "use formatter" option is checked, a ClassCastException is thrown when applying the template.

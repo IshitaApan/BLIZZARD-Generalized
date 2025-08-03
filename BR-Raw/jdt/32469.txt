@@ -1,0 +1,3 @@
+disabled breakpoints still rendered as enabled
+
+20030221 disable a breakpoint - icon does not change but the breakpoint is disabled major - renders the important feature not very useful

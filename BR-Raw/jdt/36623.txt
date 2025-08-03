@@ -1,0 +1,3 @@
+call hierarchy: Unable to find calls from static initializer
+
+Calls from a static initializer are not found.

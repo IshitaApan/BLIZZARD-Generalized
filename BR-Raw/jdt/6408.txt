@@ -1,0 +1,3 @@
+Attempts to set breakpoint on unsaved resource fails
+
+Create an empty class call Test Paste in: public static void main(String[] args) { 		while(true) { 			try { 				throwIt(); 			} catch (Exception e) { 			} 		} 	} 	 	public static void throwIt() throws InterruptedException { 		while(true) { 			Thread.yield(); 		} 	} Do NOT save Attempt to add a breakpoint on the Thread.yield() line We silently do not add the breakpoint.

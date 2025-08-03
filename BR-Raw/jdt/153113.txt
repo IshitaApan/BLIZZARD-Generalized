@@ -1,0 +1,3 @@
+[package explorer] empty name node for classfolder on project
+
+20060808 Create a project with a classfolder on the project -> Empty node rendered

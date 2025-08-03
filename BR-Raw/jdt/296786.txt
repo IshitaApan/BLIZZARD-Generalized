@@ -1,0 +1,3 @@
+[actions] Opening a project in Package Explorer forces me to select the project to open twice
+
+I20091201-1600 Steps: 1. Close a project in Package Explorer. 2. Pick 'Open project' from context menu for the project. => Instead of opening the project, 'Open Project' dialog pops out asking to me to select the project(s) I want to open one more time. I'm using Working Sets as Top Level Elements.

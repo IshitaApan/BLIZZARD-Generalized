@@ -1,0 +1,3 @@
+[quick fix] 'Change type to List<String>' is offered on constructor invocation.
+
+Created attachment 199503 screenshot ------------------------------------------- List<String> list=null; list= new ArrayList(); //QF on ArrayList ------------------------------------------- The quick fix does not make sense here, interfaces and abstract types should not be proposed for constructor invocations.

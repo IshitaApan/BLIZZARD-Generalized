@@ -1,0 +1,3 @@
+[clean up] Use modifier 'final' where possible: error for private field
+
+I20061107-0800 The Clean Up "Use modifier 'final' where possible > Private field" erroneously adds 'final' when the field is assigned again in a constructor calling this(): public class Try { private int fField; public Try() { fField= 12; } public Try(int val) { this(); fField= val; } }

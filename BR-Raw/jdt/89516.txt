@@ -1,0 +1,3 @@
+Override indicator: heuristic improvements
+
+M6 test pass public class Test extends ArrayList<String> { public boolean add(int i) { return false; } } Method witk base types shouldn't be considered overriding methods with type parameters.

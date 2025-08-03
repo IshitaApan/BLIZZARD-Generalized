@@ -1,0 +1,3 @@
+Organize imports wipes comments between statements [code manipulation]
+
+Any comments between import statements, eg, copyrights, are lost when doing organize imports. They should be preserved.

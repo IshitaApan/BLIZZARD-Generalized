@@ -1,0 +1,3 @@
+[typing] Smart Typing Preferences: Plural of "parenthesis" is "parentheses"
+
+Smart Typing Preferences says: Typing > Automatically close... - Strings - Brackets and parenthesis' - Braces [..] The correct plural of "parenthesis" is "parentheses". I would find it more convenient, if the characters of the bracket classes would also be part of the preference names, e.g.: - (Parentheses), [square] and <angular> brackets - {Braces} or - Parentheses(), square[] and angular<> brackets - Braces{}

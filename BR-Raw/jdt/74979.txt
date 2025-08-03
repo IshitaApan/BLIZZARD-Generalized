@@ -1,0 +1,3 @@
+[JUnit] key bindings for 'Rerun Test'
+
+There are two specific keybindings I want for JUnit: 1) Run the last test run (function just like the button on the JUnit view) 2) Run As JUnit ( Just like choosing Run As JUnit from the run menu).

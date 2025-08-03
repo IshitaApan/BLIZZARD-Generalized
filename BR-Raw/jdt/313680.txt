@@ -1,0 +1,3 @@
+[nls tooling][spell checking] Typing in Properties File editor removes all spelling errors
+
+R3.5 and N20100519-2000. Typing in Properties File editor removes all spelling errors.

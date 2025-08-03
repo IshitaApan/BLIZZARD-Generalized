@@ -1,0 +1,3 @@
+Inline Method: attempts to inline any constructor -- just deletes constructor[refactoring]
+
+Inline Method seems to attempt to inline any constructor. It appears to never create any changes except for deleting the constructor when the "Delete method declaration" checkbox is selected.

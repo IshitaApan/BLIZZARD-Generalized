@@ -1,0 +1,3 @@
+[preferences] Move parameter name timeout preference to 'Java'
+
+I20051213-0010. The parameter name timeout preference is currently under content assist which is wrong (see 120545). We have to move it to 'Java'.

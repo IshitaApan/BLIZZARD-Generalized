@@ -1,0 +1,3 @@
+jar packager: no error message but buttons disabled
+
+20020314 on the 'jar manifest' wizard page, if you select to use existing manifest file there's no error message but next and finish are disabled user should be informed what to do to make the wizard happy

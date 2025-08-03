@@ -1,0 +1,3 @@
+[spell checking] Don't spell check Java strings per default
+
+3.3 M7 We should not spell check Java strings out of the box.

@@ -1,0 +1,3 @@
+extract method: cannot extract (entire) try/catch block
+
+public class A{ 	String f(int y, int z, boolean ff){ 		/*[*/try{ 		} catch (Exception e){ 		}/*]*/ 		return null; 	} 	void f(){} } cannot extract the selected fragment

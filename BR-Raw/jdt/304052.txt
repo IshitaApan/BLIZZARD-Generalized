@@ -1,0 +1,3 @@
+[preferences] Add new 'code formatter' options to disable formatting of line/block comments starting on first column
+
+Once bug 251133 is fixed, the two new constants to disable/enable the formatting of block/line comments which start on first column need to be exposed in the code formatter preference page.

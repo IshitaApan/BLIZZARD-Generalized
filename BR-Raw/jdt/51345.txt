@@ -1,0 +1,3 @@
+double clicking a search result leaves focus on search pane instead of editor
+
+double clicking a search result should set focus to the editor pane as per double clicking a 'problem'. this assists rapid development as the developer can start editing the search result without manually changing focus. changing focus would not limit any user either as the search pane is most commonly used with a mouse.

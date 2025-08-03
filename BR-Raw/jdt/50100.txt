@@ -1,0 +1,3 @@
+[Performance] Huge performance issue with problem decorators
+
+Using 0106 build, it takes minutes to update the markers for a compilation unit containing 250 problems (maximum limit). Each time I save the unit, the UI dies for several minutes. There is a running job in the background that I cannot identify. This is something new. I was not that bad with M5. I set it as critical, because it makes the editor unusable.

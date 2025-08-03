@@ -1,0 +1,3 @@
+[junit] JUnit runner collecting classes outside of src tree
+
+I have tests which extend XMLTestCase from XMLUnit. The JUnit runner attempts to execute the tests in XMLTestCase which causes a failure because it has no tests. I do not think that the runner should attempt to run tests in XMLTestCase since its not in the source tree.

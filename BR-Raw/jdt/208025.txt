@@ -1,0 +1,3 @@
+[JUnit] JUnit resource mapping incorrect for containers
+
+3.4 When a container is specified for running tests (i.e. package or source folder), the resource mapping for the launch configuration is incorrectly mapped to the project (instead of the package or source folder). The problem appears to be in JUnitMigrationDelegate. Will attach patch.

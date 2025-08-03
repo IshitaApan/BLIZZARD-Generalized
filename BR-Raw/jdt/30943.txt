@@ -1,0 +1,3 @@
+${package_statement} should be called ${package_declaration} [code manipulation]
+
+20030129 + latest ${package_statement} does not represent any statement but a declaration

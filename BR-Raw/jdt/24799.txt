@@ -1,0 +1,3 @@
+Java structure compare fails too many times
+
+Using 1009, when I synchronize with the cvs server and I compare my outgoing changes with the repository contents, I get too many times "Java Structure Compare (Can't Compare Structures)". This didn't happen in the past. I don't know what changed, but this is frustrating and make the whole synchronization process very difficult to use. It is not always the same files which are failing. I didn't get anything in a .log file.

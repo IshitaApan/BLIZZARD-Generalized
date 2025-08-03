@@ -1,0 +1,3 @@
+[inline] inline method refactoring started on static field
+
+I20080807-1402. 1. replace BreadcrumbMessages.java with: 	private static Class thisClass= BreadcrumbMessages.class; 	private static final String BUNDLE_NAME= thisClass.getName(); 	public static String BreadcrumbItemDropDown_showDropDownMenu_action_toolTip; 	 	static { 		// initialize resource bundle 		NLS.initializeMessages(BUNDLE_NAME, thisClass); 	} 	private BreadcrumbMessages() { 	} 2. select 'thisClass' in "NLS.initializeMessages(BUNDLE_NAME, thisClass);" 3. Refactor > Inline... ==> should not allow to refactor 4. start to refactor all invocations ==> gives tons of wrong edits

@@ -1,0 +1,3 @@
+[introduce parameter object] Introduce Parameter Object handling of packages
+
+3.3M7 I20070503-1400 1. Summon Introduce Parameter Object refactoring on some code. 2. Enter a fully qualified class name. - Warnings are displayed to ensure class/package naming conventions are observed. 3. OK is disabled - click Preview. 4. A fatal error is reported: "Type name cannot contain a dot(.)." The dialogue should either accept or reject fully qualified type names, not this inconsistent hybrid. Of course, a fully qualified name doesn't make much sense for nested types.

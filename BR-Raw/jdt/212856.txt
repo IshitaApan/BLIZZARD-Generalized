@@ -1,0 +1,3 @@
+[clean up] Remove parentheses is too aggressive also for modulo operator
+
++++ This bug was initially created as a clone of Bug #208752 +++ Build ID: M20071023-1652 Steps To Reproduce: Following code k = 2 * (n % 10); incorrectly converted into k = 2 * n % 10; This is not correct (try n = 5). AFAICS, the fix for Bug #208752 only covers integer division but not modulo.

@@ -1,0 +1,3 @@
+[5.0][content assist] Completion of static import generates illegal generic.
+
+Steps: 1) Paste at top of file: import static java.lang 2) Place caret at the end of pasted line. 3) Type '.' (period). A completion menu pops up. 4) Press the Down Arrow key repeatedly until the Class menu item is hilited. 5) Type Enter (carriage return) to pick the Class menu item. See that the generated import statement illegally contains a generic template.

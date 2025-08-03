@@ -1,0 +1,3 @@
+[quick fix] Remove invalid modifiers does not work for constructors
+
+Hi, When I write the bad statement "static private SomeConstructor() {", Eclipse gives me a hint to remove the invalid modifier "static", but it does not work! In other words clicking on the hint will do nothing (just moves the cursor on the middle of the static keyword!)

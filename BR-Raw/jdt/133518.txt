@@ -1,0 +1,3 @@
+[JUnit] Wording of new 'enable assertions JUnit preference
+
+I20060328-0010. We normally avoid to use 'Enable xyz' after a checkbox. In addition we should not use "JUnit launch configurations" because this could be misinterpreted: the preference also affects the 'JUnit Plug-in Test' launch config. Better might be: "Add '-ea' to VM arguments when creating new launch configuration".

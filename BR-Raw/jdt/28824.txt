@@ -1,0 +1,3 @@
+Quick Fix: Type Mismatch -> Cast bug [quick fix]
+
+When using code assist to apply a cast to the following statement: DefaultMutableTreeNode root = getParentContainer().treeMapperTree.getModel ().getRoot(); You get: DefaultMutableTreeNode root = getParentContainer().(DefaultMutableTreeNode) treeMapperTree.getModel().getRoot(); When you should get: DefaultMutableTreeNode root = (DefaultMutableTreeNode) getParentContainer ().treeMapperTree.getModel().getRoot(); Seems to be getting confused about where the cast statement should go because the treeMapperTree isn't using getters (i.e. getTreeMapperTree()). When using getters then the cast works fine... Should also work without getters, hence bug.

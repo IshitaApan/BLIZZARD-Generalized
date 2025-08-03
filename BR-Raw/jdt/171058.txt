@@ -1,0 +1,3 @@
+[package explorer] use FilteredResourcesSelectionDialog in 'Go To > Resource...'
+
+Build ID: I20061214-1445 Steps To Reproduce: 1.Select a resource 2.Click Navigate in menu 3.Click Go to 4.Click Resource More information: 'Go to resource' dialog uses old dialog class. Now it extends ResourceListSelectionDialog. It should use new class - FilteredResourcesSelectionDialog.

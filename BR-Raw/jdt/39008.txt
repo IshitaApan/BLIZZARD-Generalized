@@ -1,0 +1,3 @@
+[refactoring] change method signature annoying defaults
+
+When adding a new parameter in Change Method signature refactoring you get the following defaults: int arg0 0 These default values do not make sense and are not helpful. We should not suggest them, but rather leave them empty.

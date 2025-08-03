@@ -1,0 +1,3 @@
+[open type] FilteredTypesSelectionDialog package pattern doesn't work properly
+
+Build ID: Build id: I20070809-1105 Steps To Reproduce: 1. Type '.*' . Result: It shows all types in the workspace. Even if the classes are in default packages. Is it properly behavior of this window? 2. Type something before '.*' eg. 'org.eclipse.*' . Result: It do nothing. Probably it's problem with implementation of TypeItemsFilter#equalsFilter(...).

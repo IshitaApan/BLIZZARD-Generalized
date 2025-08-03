@@ -1,0 +1,3 @@
+[projection] Bizarre folding behavior
+
+Folding has become extremely unstable in 3.2. What usually seems to happen is that if I start editing an inner (nested) class, the whole folding structure gets messed up. Large chunks of code are not visible any more. Turning off folding does not help in this case. The file has to be closed and reopened to make the missing text visible.

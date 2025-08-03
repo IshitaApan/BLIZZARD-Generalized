@@ -1,0 +1,3 @@
+Out of sync filter message [search]
+
+I200406111238 - search for references to Refactoring - limit number of matches to 10 - switch group mode to CU observe: filters matched 21 - switch to flat mode observe: filters matched 84 <== seems already wrong - switch back observe: filters matched 0 <== is definitelly wrong

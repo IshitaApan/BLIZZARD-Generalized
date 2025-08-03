@@ -1,0 +1,3 @@
+False error feedback from "Show in package explorer"
+
+Build 20030107 1. Open a .java file in the Java editor. 2. Click "Collapse All" in the packages view to collapse the tree. 3. Right click on the top-level type in the Outline view and choose "Show in Package Explorer" 4. The packages view correctly expands to the selected type, but an error dialog pops up: Title: "Show in Package Explorer" Message: "Couldn't reveal the selected element in Package Explorer. May be the element is filtered out." This happens any time the tree needs to be expanded to reveal a type.

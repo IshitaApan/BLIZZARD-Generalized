@@ -1,0 +1,3 @@
+[ast rewrite] first annotation not on new line
+
+This is related to bug #82641. With the new preference "Insert new line after annotations" set to true the behavior when adding a new Annotation is different based on whether the field has access modifiers. If the field does not have any access modifiers then the following behavior is seen when adding an Annotation ast node to a field declaration Example: String foo; Add an annotation: @MyAnnotation String foo; Add second annotation: @MyAnnotation @AnotherAnnotation String foo; If an access modifier exists then the code looks like this after the 2nd annotation is added. @MyAnnotation @AnotherAnnotation public String foo; Behavior should be the same whether the declaration has access modifiers or not.

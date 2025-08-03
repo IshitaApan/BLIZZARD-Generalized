@@ -1,0 +1,3 @@
+Pull Up reports error even though there is none
+
+Build 2.1 RC1 1. Add A.x() and B.x() 2. Start to Pull Up B.x() 3. On the second wizard page select to delete A.x(). 4. Press "Finish" ==> error warns about the fact that there will be a compile error. This is not true: 5. Press "Finish" again ==> everything is done as expected.

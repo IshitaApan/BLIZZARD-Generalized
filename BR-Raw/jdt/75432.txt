@@ -1,0 +1,3 @@
+Pull up refactoring leaves unused imports
+
+After using the pull up refactoring on a method, the method is removed from the sub class and put into the super class, but the sub class still has unused imports from before the refactoring. Can the refactoring be enhanced in a way that the imports of the sub class are organized after the refactoring?

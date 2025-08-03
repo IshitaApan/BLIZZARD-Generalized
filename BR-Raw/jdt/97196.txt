@@ -1,0 +1,3 @@
+[quick fix] visibility linked proposals eat space
+
+RC1 see bug 73206: 2) When creating a constant, problem (1) does not occur. However, if the visibility is set to default, and then the user tabs through all the linked-mode fields back to visibility, and sets the visibility back to public, the space after "public" is gone, leading to the non-compiling: publicstatic final int NINE = 9;

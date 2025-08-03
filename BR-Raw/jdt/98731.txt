@@ -1,0 +1,3 @@
+Move member type to new file adds incorrect type variable
+
+In N20050607-0010: public class Cells { static class Cell<T> { } void raw(Cell arg) { } } Move Cell to a new file. Result: public class Cells { void raw(Cell<T> arg) { } }

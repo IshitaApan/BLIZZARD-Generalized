@@ -1,0 +1,3 @@
+[formatting] Offer comment formatting options per comment type
+
+Is it possible to avoid formating simple comments, not JavaDoc? I often comment big pieces of code using /* */ pair, but when I format code, it breaks structure of code inside of comments. :-( In same time, I would like to have JavaDoc comments formated, because they start with /**. Is it possible to have additional switch for this? Or, if it is already exists, please point on it. ;-)

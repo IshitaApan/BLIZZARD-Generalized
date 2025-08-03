@@ -1,0 +1,3 @@
+[formatter] Project specific formatter dialog shows wrong default profile
+
+RC3 - create a new workspace global formatter profile - make it the default - create a project - open project specific formatter properties observe: the disabled protion of the dialog shows that the default profile is a built in profile. IMO this is wrong.

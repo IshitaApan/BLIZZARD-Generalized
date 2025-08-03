@@ -1,0 +1,3 @@
+[content assist] Only call ICodeAssist.codeComplete(...) once
+
+3.2 and 3.3 M3 JDT Text calls JDT Core code assist twice on each invocation. This happens because the final proposal list is computed by several different completion processors. Two of them (the "no type" and the "other proposals" processor) call ICodeAssist.codeComplete(...). Note that this is not a bug but works as designed since we eat our own dog food by contributing the processor via extension point. We could however try to improve the performance by providing an internal processor that only combines the two and only calls JDT Core once.

@@ -1,0 +1,3 @@
+[refactoring][refactoring] Move member type to new file does not update type parameters
+
+In RC2. Given code: class Sub extends ArrayList<Sub.Color> { 	static class Color {} } Move Member Type to New File on Color. The type parameter is not updated, leading to a compile error.

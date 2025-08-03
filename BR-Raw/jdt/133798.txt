@@ -1,0 +1,3 @@
+Categories filter group should sort menu entries
+
+I20060329-0010. The menu entries in the Categories filter group are not sorted and it looks pretty random which categories end up in there. (see also bug 133797).

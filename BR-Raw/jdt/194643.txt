@@ -1,0 +1,3 @@
+[change method signature] does not persist types  with whitespaces correctly in Scriptable Refactoring
+
+In class: package p; public class ScriptTest { 	public void foo(){ 	} } 1. Add a new Parameter String ... s with default "Hallo" 2. Apply refactoring 3. Create a refactoring script 4. Undo refactoring 5. Apply refactoring script 6. It fails because the string tokenizer does not recognize the whitespace in the type correctly You need to have applied the Patch of bug https://bugs.eclipse.org/bugs/show_bug.cgi?id=194636

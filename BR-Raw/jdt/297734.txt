@@ -1,0 +1,3 @@
+[spell checking] words after URL not correctly spell checked
+
+Created attachment 154406 Screenshot illustrating the problem When xml file contains a tag which attribute has url as a value all characters after url are ignored until spell check iterator finds space character.

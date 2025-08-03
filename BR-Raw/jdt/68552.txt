@@ -1,0 +1,3 @@
+CallHierarchyViewPart uses deprecated setTitle API [call hierarchy]
+
+The string currently being passed into setTitle should be passed to setContentDescription instead.

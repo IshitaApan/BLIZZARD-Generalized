@@ -1,0 +1,3 @@
+new formatter does allow else on separate line
+
+3m7 I cannot make the (extremely good!) new code formatter do this if (foo) { xxxx } else { yyyy } The old one allowed it.

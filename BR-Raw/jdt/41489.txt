@@ -1,0 +1,3 @@
+[Dialogs] Move resource should filter closed projects
+
+The move resource dialog should either filter closed projects or should offer a functionality to open closed projects. The error message "The selected destination is not accessible" is inadaquate.

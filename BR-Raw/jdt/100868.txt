@@ -1,0 +1,3 @@
+[code assist] Code assist does not recommend methods in anonymous enum subclass
+
+In RC3. Consider code: public enum Foo { 	A { 		tos<<>> 	}; } Where the cursor is at <<>>. Invoking code assist does not offer to override toString: it only offers class names.

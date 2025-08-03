@@ -1,0 +1,3 @@
+[type wizards] NPE on content assist for a new workspace
+
+1. Open a new workspace. 2. Go to File -> New -> Class. (Open any New type wizard). 3. Check "Enclosing type". 4. Press Ctrl+Space in the text field of Enclosing type. We get an exception in Error Log view. org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:63) .... Caused by: java.lang.NullPointerException 	at org.eclipse.jdt.internal.ui.refactoring.contentassist.CUPositionCompletionProcessor.computeCompletionProposals(CUPositionCompletionProcessor.java:159)

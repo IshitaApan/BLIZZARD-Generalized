@@ -1,0 +1,3 @@
+[content assist] Ctrl+Shift+Space does not use proposal kinds settings
+
+The Ctrl+Shift+Space context information seems to use all the proposal computer available rather than the currently selected list of proposal kinds. In the case of Mylar this means that users see two duplicated lists of entries, since the Mylar proposal kinds extend and enhance the JDT kinds.

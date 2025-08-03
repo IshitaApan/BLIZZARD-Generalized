@@ -1,0 +1,3 @@
+[templates] Template name contains invalid characters
+
+Hello. From the beginning I use the mechanism of templates. And all my templates start with an underscore, '_xyz'. No problem, I've export my templates from an old Eclipse 3.1 and imported in Eclipse Europe (about tells me it is the Version: 3.3.1 Build id: M20070921-1145). But if I want to edit an old template or create a new one, I become an error message, that the name of the template start with an invalid character. If if export the template, edit the template name in an external ASCII Editor and import the template again, it can, again, start with an underscore. Why have you prevent that a template name can start with an underscore. TIA Jan

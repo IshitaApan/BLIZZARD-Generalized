@@ -1,0 +1,3 @@
+Bad focus in the 'New User Library' dialog [build path]
+
+I20040330 window>preferences>java>build path>user libraries>new The focus is set on the checkbox by default. It should be on the text field.

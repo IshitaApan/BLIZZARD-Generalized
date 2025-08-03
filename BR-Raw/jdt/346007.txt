@@ -1,0 +1,3 @@
+[JUnit] ITestSuiteElement.getSuiteTypeName() returns name of suite, rather than type name
+
+Build Identifier: Calling ITestSuiteElement.getSuiteTypeName() on a test suite returns the string passed into junit.framework.TestSuite.TestSuite(String), rather than the name of the type. Reproducible: Always

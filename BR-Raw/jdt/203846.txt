@@ -1,0 +1,3 @@
+[package explorer] [working sets] Configure Working Sets dialog issues
+
+I20070918-0010 - Package Explorer in working sets mode - view menu > Configure Working Sets... => dialog should be called "Configure Working Sets", not "Select Working Sets" - double click an item => does nothing, better would be to open the edit dialog - click New... => creates a Java Working Set. I would have expected the working set type selection page as in bug 186945.

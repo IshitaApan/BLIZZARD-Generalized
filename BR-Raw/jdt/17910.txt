@@ -1,0 +1,3 @@
+OpenRefactoringWIzardAction: is API but has protected method that us internal classes
+
+F1 Opt to remove the class and use an internal helper class instead.

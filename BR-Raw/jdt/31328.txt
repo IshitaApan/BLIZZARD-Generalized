@@ -1,0 +1,3 @@
+hover key modifier text field: selection is not replaced by new modifier
+
+- given text: Ctrl - select text: Ctrl - press: Shift -> result: Ctrl + Shift expected: Shift (the same holds for the key modifier text field of 'hyperlink style navigation', please fix it too or reassign the bug to me once it is fixed for the hovers pref. page)

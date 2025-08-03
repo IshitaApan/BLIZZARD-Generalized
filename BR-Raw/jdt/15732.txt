@@ -1,0 +1,3 @@
+String not found message not cleared
+
+Build 20020508 - did a search, and it found no matches - the status line shows "String Not Found" in red - the message remains even if I click around, switch between editors of the same type (even though I didn't search in the other editors), or switch to another view and back to the editor Either the message should not be shown in the first place, or it should not stick around as long.

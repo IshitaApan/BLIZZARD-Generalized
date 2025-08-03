@@ -1,0 +1,3 @@
+[nls tooling] NLS: when switching to new Eclipse mode the common prefix should change
+
+When switch from traditional mode to Eclipse mode the wizard should automatically adjust the keys (e.g. exchange the . with a _). Currently you simply get a message that some keys are invalid but actually you don't have a clue why they are. Some better error message would already improve this. For example if in Eclipse mode say that keys can't contain '.'

@@ -1,0 +1,3 @@
+Mainfest File Corrupt
+
+Hello! I have been trying to export my code, specifying a manifest, into a jar file. However, my manifest file is not placed in the jar. A blank manifest file is inserted instead. I go to File->Export->Jar file I select my project, mark "export generated class files and resources", specify the jar name and check the "compress jar" option. <Next> I check "Save a description of this jar file in the workspace" <Next> I mark, "Use existing manifest from the workspace" and specify the location of my manifest file. <Finish> I couldn't attach my manifest file, but here is it's contents. . . Main-Class: com.sbc.cb.Application Class-Path: . cbhelp.jar jaxb-rt-1.0-ea.jar jhall.jar lumberjack.jar pvjfc60.jar

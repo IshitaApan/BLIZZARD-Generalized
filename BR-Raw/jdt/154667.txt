@@ -1,0 +1,3 @@
+IClassFile#getType() should not throw JavaModelException
+
+I20060816-1200 IClassFile#getType() is a handle-only query and should therefore not throw a JavaModelException. The implementation in ClassFile already doesn't throw the JME.

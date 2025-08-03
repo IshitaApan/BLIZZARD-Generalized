@@ -1,0 +1,3 @@
+Call hierarchy: close "top" file and it won't open again
+
+Steps: 1. Open a project with JUnit 3.8.1 sources 2. Open junit.framework.Assert 3. Double click fail( String ) method 4. Press Ctrl+Alt+H 5. Close Assert.java 6. In the "Call Hierarchy" view double-click "fail( String )" -- the "root" of the hierarchy Observed: Assert.java does not open Expected: Assert.java should open Build: 200405280010 Was first observed with early M-s (around 5 or 6 maybe)

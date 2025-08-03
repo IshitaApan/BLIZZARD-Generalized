@@ -1,0 +1,3 @@
+[organize imports] aborts on conflict too early
+
+I20070904-0800. Organize Imports no longer fixes those imports that it when there's a conflict.

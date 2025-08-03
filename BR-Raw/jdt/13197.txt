@@ -1,0 +1,3 @@
+new class wizzard creates protected constructor instead of public
+
+When creating a class with the classwizzard using 'Constructors from superclass' the constuctor is created with protected visibility and not with public visibility.

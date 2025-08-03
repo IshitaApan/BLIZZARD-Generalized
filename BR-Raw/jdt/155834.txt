@@ -1,0 +1,3 @@
+[build path] Linking source to project should always be available
+
+3.2.1 RC3 The option to link source to the project is only possible when a project is selected. This should always be available. Applies to the build path properties dialog and the Build Path menu entries in the Package Explorer.

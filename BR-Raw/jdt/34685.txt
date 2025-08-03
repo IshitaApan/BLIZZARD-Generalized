@@ -1,0 +1,3 @@
+Error indicated but no error squiggle or message
+
+If you use the following file you get an error outline but no indication of what the problem is or any error message. The error is that "commn.xml" does not exist; it should read common.xml. main.xml <?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE project [ <!ENTITY buildmagic SYSTEM "file:buildmagic/commn.xml"> ]> <project name="external" default="external"> &buildmagic; <target name="external" depends="myCommon"> 	<echo message="external"/> </target> </project> buildmagic/common.xml: <target name="myCommon"> 	<echo message="common"/> </target>

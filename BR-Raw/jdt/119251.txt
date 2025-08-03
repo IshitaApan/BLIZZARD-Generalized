@@ -1,0 +1,3 @@
+[quick assist] "Invert if statement" removes parts of condition
+
+Build id: I20051130-1215 Consider the following code: ------ public class A { 	{ 		if (!a() && !b() && !c() && !d()) 			foo(); 		else 			bar(); 	} 	private void foo() {} 	private void bar() {} 	private boolean a() { return false; } 	private boolean b() { return false; } 	private boolean c() { return false; } 	private boolean d() { return false; } } ----------- Call "Invert if statement" on the if. Expression is changed to if ((a()) || (b()))

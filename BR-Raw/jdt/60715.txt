@@ -1,0 +1,3 @@
+Can't switch (read, ...) filters after search for method
+
+I200404281424 + zrh-plugins from 20040430_1758: Can't switch (read, ...) filters after search for method - Search for references to a field - check "Filter Reads" - Search for refs to method (a) Reads filter filters all matches Read filter should have no effect on method references (b) Cannot uncheck read filter since menu entry is disabled. Workaround is to search for field refs, uncheck filter, go back to method refs search.

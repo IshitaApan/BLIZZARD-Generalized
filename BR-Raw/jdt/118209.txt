@@ -1,0 +1,3 @@
+Rename type wizard does not close when pressing finish [refactoring]
+
+I20051123-1200 + ZRH plugin export Steps to reproduce: - Create JUnit Project - Start Rename type on 'TestRunner' - Choose update references and similar elements only - Press Finish - Warning appears regarding broken scripts - Press Finish again -> Nothing happens

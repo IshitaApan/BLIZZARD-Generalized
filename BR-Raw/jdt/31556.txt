@@ -1,0 +1,3 @@
+Export jar from Navigator view fails
+
+(M5 build) In Navigator view (resource perspective), right-click on a src/ directory containing your sources, select export->jar file and the package selector opens with no resource selected (and finish button disabled); but it seems that the src/ dir is really selected, because if you re-select it in the window, it ends up with a "jar creation failed" and a lot of duplicate entries in the error log. If you try the same from the Projects view (Java browsing perspective), it works fine.

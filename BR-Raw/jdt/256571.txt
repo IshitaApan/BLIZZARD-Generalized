@@ -1,0 +1,3 @@
+Possibly broken code in RenameInformationPopup.getPolygon(boolean)
+
+I20081125-0840 While doing the dead-code analysis I found this code in org.eclipse.jdt.internal.ui.refactoring.reorg.RenameInformationPopup.getPolygon(boolean): The return at the end is dead code.

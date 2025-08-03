@@ -1,0 +1,3 @@
+[clean up] Add this qualifier radios interconnected
+
+I20070515-0010 1. Window Preferences... 2. Java>Code Style>Clean Up>Edit... 3. Member Accesses 4. Enable Use this qualifier for field accesses 5. Enable Use this qualifier for method accesses 6. Select Always Is: Only one of the radios is selected Should: Not change in both sections

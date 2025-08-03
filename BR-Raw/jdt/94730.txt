@@ -1,0 +1,3 @@
+[projection] Nondeterministic folding summary
+
+I20050509-2010 With the CU below: - fold the method declaration -> 'bar()' is shown as summary - unfold again - select the method name 'bar' - type 'foo' - fold the method declaration again -> 'void' is shown as summary "interface Bar { 	void 	bar(); } "

@@ -1,0 +1,3 @@
+[plan item] Smart tab on empty lines
+
+When having the caret on an empty line, pressing tab cleans up the line and sets the caret it the right indentation column.

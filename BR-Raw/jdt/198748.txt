@@ -1,0 +1,3 @@
+[content assist] Pressing ';' should work with all methods
+
++++ This bug was initially created as a clone of Bug #198508 +++ As per bug 198504 comment 4 public class Test { 	public void foo(int a) { 		 	} 	public void bar() { 		f//content assist, select 'foo' and press semicolon 	} } This does not work for me; the selection is ignored and the text replaced with 'f;' Note that if 'foo' takes no arguments, it does work.

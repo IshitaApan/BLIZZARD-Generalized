@@ -1,0 +1,3 @@
+Global Search Dialog needs Persistent History Lists
+
+Global Search Dialog should keep persistent history lists. At the moment all settings are lost after worckbench shutdown. I would recommend to limit the number of entries saved to 10.

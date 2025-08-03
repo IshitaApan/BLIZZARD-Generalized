@@ -1,0 +1,3 @@
+[Extract Class] improve default class and parameter names
+
+I20070807-0010 The default names for the new class and the parameter are currently <classname>Parameter and parameterObject. "Parameter" is not an appropriate term in this context. A better choice would be <classname>Data and data (or fData, depending on code style for fields).

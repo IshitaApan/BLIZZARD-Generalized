@@ -1,0 +1,3 @@
+[hovering] Report protection in hover-help
+
+1. Hover the mouse over a method call in the JavaEditor 2. When the hover-help pops up note that it contains the method signature and JavaDoc, but not the method's protection The protection information is also useful to potential callers of that method and should be reported with the signature.

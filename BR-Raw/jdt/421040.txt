@@ -1,0 +1,3 @@
+[dom] TypeBinding.getDeclaredModifiers simply delegates to getModifiers()
+
+Per Javadoc, ITypeBinding.getDeclaredModifiers() is supposed to return "the modifiers ... as specified in the original source declaration of the class or interface". In the present implementation, it simply delegates to getModifiers() which is wrong.

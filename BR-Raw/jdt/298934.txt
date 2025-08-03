@@ -1,0 +1,3 @@
+NonInitialTypingTest#testTypeAMethod() results are not reliable
+
+Verifying performance results for all 3.6M4 scenarios, it appears that results for NonInitialTypingTest#testTypeAMethod() test are completely unreliable (at least on Linux test machines). It seems that something should be done to stabilize this test or remove it from the benchmark.

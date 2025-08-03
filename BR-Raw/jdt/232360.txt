@@ -1,0 +1,3 @@
+[search] 'Limit to' group and Match locations dialog do not use dialog font
+
+Created attachment 100497 Screenshot HEAD 'Limit to' group in Java search does not use dialog font.

@@ -1,0 +1,3 @@
+[hovering] Java source hovers not readable using Ubuntu 10.04 (white-on-black tooltips)
+
+Created attachment 169526 Fix I20100520-1744, follow-up to bug 312966 Java source hovers are not readable using Ubuntu 10.04 (which uses white-on-black tooltips by default), see e.g. attachment 168593. The fix is to use a better "System Default" if the brightness of the Java editor default text color is too close to the hover background color (resorting to the editor background color in that case).

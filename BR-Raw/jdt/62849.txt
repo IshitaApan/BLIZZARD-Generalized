@@ -1,0 +1,3 @@
+opening .options files uses external editor too often
+
+should fix for 3.0 - not critical for 3.0 M9 steps to reproduce: 1. search for files named .options 2. try to open from Search view ==> tries to open external editor Navigator or Package Explorer open it in internal text editor

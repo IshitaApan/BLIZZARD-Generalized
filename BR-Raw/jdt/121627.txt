@@ -1,0 +1,3 @@
+[[code generation wizards] AddGetterSetterAction object should provide getter method for dialog result.
+
+I have a scenario where multiple document edits are desired as part of a quick fix implementation: 1. Invoking AddGetterSetterAction.run() to offer the creation of Getter/Setter methods 2. If the above is not canceled, change the access modifier for a public field to private. Unfortunately, the AddGetterSetterAction has no private field which tracks the dialog result (e.g. Window.OK) ... As a work-around, the user can use edit-undo to back off the access modifier change after a cancel operation...

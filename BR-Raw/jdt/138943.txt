@@ -1,0 +1,3 @@
+[clean up] CorrectionMarkerResolution.findOtherMarkers(IMarker[]) creates AST for each marker
+
+N20060427 This does not scale at all and can be done much faster.

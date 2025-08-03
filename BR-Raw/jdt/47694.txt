@@ -1,0 +1,3 @@
+Local rename jumps to first occurence of name
+
+plugin-export/I20031126.from20031127_1934 In QuickAssistProcessor, go to method 'getRenameLocalProposals', set the cursor in the name and invoke 'local rename'. The editor reveals the first occurence of this method (at the top of the editor). It should stay on the selected name. Seems to be a regression.

@@ -1,0 +1,3 @@
+Use suprttype where possible: table should have focus
+
+RC1 - JUnit setup - select TestCase - Refactor->User supertype... Observe: table doesn't have focus

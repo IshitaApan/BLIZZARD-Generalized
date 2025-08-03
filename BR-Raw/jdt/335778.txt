@@ -1,0 +1,3 @@
+[quick assist] 'Pull Negation up' and 'Push Negation down' unnecessarily available
+
+3.7 M5 ------------------------------------------------------------ package snippet; public class Snippet { 	void foo(Object a) { 		if (!(a instanceof String)) { 		} 	} } ------------------------------------------------------------ - Select "!(a instanceof String)" - Ctrl+1 - 'Pull Negation up' and 'Pull Negation down' are available, but they do not really do anything here...

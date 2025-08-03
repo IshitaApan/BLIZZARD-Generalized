@@ -1,0 +1,3 @@
+[junit] New JUnit launch configs mapped onto wrong existing ones
+
+3.2 RC3 When starting a JUnit test via (context) menu it first tries to find an existing launch configuration. The code that does the matching does not take the loader into account and hence unexpected results can happen, e.g. saying that no tests are found even though there are tests. For 3.2 we either need to fix the code which matches launch configurations or put this into the readme.

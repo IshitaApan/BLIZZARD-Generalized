@@ -1,0 +1,3 @@
+Incorrect indentation after newline
+
+I have my preferences set as follows: Java | Editor | Displayed tab width: 8 Java | Code formatter | Insert tabs for indentation: No Java | Code formatter | Number of spaces representing an indentation level: 4 When I have the following code: class ContainerSelection extends Selection { } and I position the caret after the { and press Enter, Eclipse inserts a new line and 8 spaces. It should only insert 4.

@@ -1,0 +1,3 @@
+Constructor not found by class wizard or by 'Add constructors from superclass'
+
+Build F2 I tried to subclass TextEditorAction using the Create a Java Class wizard. This class has a single protected constructor. I ensured that 'Constructors from superclass' was checked. I changed the package to place the subclass in my own package. When I hit Finish, the resulting class did not contain any constructors. I also tried to add the constructor using 'Add constructors from superclass', from the Outline's menu. This reported that the class has no unimplemented constructors. I was able to add the constructor by hand with no compiler errors.

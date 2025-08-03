@@ -1,0 +1,3 @@
+inline local variable - removes comments [refactoring]
+
+I-20021113 w2k w/ jdt.core patch: public class Test0 { 	void foo() { 		final int value= 42; 		// some valuable important comment which will be erased 		System.out.println(value); 	} }

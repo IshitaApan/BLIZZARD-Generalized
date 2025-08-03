@@ -1,0 +1,3 @@
+Potential IDE freeze on Template Preference Page
+
+Comments from Adam Kiezun: SEVERE: 1. go to template pref page. 2. select the first one 3. edit the name - empty the field and then put a single space whole IDE freezes (infinite loop?)

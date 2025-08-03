@@ -1,0 +1,3 @@
+Default selection for New Package Wizard should be "Name"
+
+R2.0.1 Select a source folder. Press CTRL + N and navigate using the keyboard to Java/Package. Use ALT + N to go to the next page. Focus is on the Back button. Since I'm navigating with the keyboard I would expect the focus to be on "Name:" instead of "Back".

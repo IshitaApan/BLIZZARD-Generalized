@@ -1,0 +1,3 @@
+Reorg: doesn't support to move an internal JAR [refactoring] [ccp] [dnd]
+
+It should be possible to move an internal JAR to another project and have the build class path updated. feedback from thoughtworks: I couldn't find a simple way to move a jar file and have the build path automatically correct itself. I ended up moving it in the resource perspective and then manually editing the classpath file

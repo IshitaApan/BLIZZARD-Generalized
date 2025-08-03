@@ -1,0 +1,3 @@
+Move Static Member(s); should have combo box [refactoring]
+
+The Dialog "Move Static Member(s)" should feature a MRU combobox instead of a simple text field for destination type.

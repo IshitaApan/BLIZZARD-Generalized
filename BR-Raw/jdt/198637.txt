@@ -1,0 +1,3 @@
+[preferences] Restore default unchecks 'colored labels'
+
+I20070731-0800 Given a fresh workspace: 1. Go to Preferences>Java>Appearance 'Show colored labels' is enabled 2. Press 'Restore defaults' Is: 'Show colored labels' is unchecked Should: The default should be restored, whatever that is

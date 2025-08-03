@@ -1,0 +1,3 @@
+[nls tooling] Properties File editor does not properly color first = or : on continuation lines
+
+I200412162000 [nls tooling] Properties File editor does not properly color first = or : on continuation lines. In this example, all = and : characters are black, although those on continuation lines should be blue: key1= value\n\ notakey1= value2 key2: value\n\ notakey2: value2

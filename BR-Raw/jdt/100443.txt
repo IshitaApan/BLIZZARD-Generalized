@@ -1,0 +1,3 @@
+[open type] Open type dialog doesn't show compress JDK information anymore
+
+RC2 - create workspace - create project - open all types dialog - type "JFrame" observe: the nice compressed JDK information doesn't appear anymore. The problem is caused by fixing bug 98378 in JDT/Core. They now use the "OS" slashes for external jars as they did in 3.0. This has to be fixed for 3.1

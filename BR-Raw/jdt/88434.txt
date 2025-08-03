@@ -1,0 +1,3 @@
+[navigation] Would like to navigate to a type declaration directly
+
+1) Consider the following code and execute an Open Declaration at "|" CellClient c= new CellClient(); c|.bar(); 2) Open declaration selects CellClient >c<= new CellClient(); c.bar(); This is correct. However, there is no way to directly navigate to the type declaration, i.e., CellClient. It would therefore be helpul to not only have an "Open Declaration" action but also offer an "Open Type Declaration"

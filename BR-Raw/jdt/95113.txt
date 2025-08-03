@@ -1,0 +1,3 @@
+Suspicious code in JavaStructureDiffViewer
+
+From bug 92985: JavaStructureDiffViewer line 88 invokes "children.length", but children's value gets overwritten in each iteration of the for loop (line 90), and this value could be null (implied by "children != null" check in line 91).

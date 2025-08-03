@@ -1,0 +1,3 @@
+[1.7][preferences] new warning for missing try-with-resources
+
++++ This bug was initially created as a clone of Bug #349326 +++ This bug is to track the new Errors/warning preferences UI. New options are: - Potentially unclosed variable of type closeable. - Unclosed variable of type closeable - Resource of type Autocloseable not managed with try-with-resource (1.7+ only)

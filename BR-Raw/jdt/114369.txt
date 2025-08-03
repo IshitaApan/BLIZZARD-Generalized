@@ -1,0 +1,3 @@
+Remove unused local and field too dangerous for multi quick fix
+
+Version: 3.1.0 Build id: I20051025-0800 The two clean ups: Remove unused local variable and assignments without possible side effects and Remove unused private field and assignments without possible side effects are too dangerous to apply in a batch mode, at least without warning the user. Reason: private int i= methodWithSideEffect(); foo () { int j= methodWithSideEffect(); } in both cases i and j are removed as well as the two calls to methodWithSideEffect which will change the semantic of the program. Possible solutions: 1. Not having these two multi quick fixes 2. Warn the user 3. Only remove variables if this does not remove any method call 4. ?

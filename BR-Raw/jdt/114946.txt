@@ -1,0 +1,3 @@
+Fold two JDT initialize Job back into one
+
+M3 We have now two initialize Jobs. One for UI and one for Core. We should fold them back into one. Either Core has to provide another method or we remove the Job from the Core method. This has to be a coordinated effort since removing the Job in Core without adjusting the code in UI will result in a blocking UI thread.

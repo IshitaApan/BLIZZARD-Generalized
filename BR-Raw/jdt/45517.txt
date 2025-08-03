@@ -1,0 +1,3 @@
+Add a 'Field comment' code template
+
+20031024 The user should be able to specify a 'field comment' template. See 'CodeTemplateContextType.TYPE_COMMENT' as an example You have to - define a new variable type - specify the variables avaiable in this template - create an API in Codetemplates so it can be used Users are: - AddJavadocCommentAction - JavadocTagsSubProcessor.getMissingJavadocCommentProposals

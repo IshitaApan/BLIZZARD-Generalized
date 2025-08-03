@@ -1,0 +1,3 @@
+Quick Fix: return guessing should check visibility
+
+M1 The "add return statement' quick fix should check the visbility for the elements guessed

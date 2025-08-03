@@ -1,0 +1,3 @@
+keyboard shortcut for sort members
+
+It would be nice to have a keyboard shortcut to sort members.

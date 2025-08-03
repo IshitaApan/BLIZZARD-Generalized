@@ -1,0 +1,3 @@
+IStorageMerger is not called in three-way merge with no common ancestor
+
+I20060131-1200 IMergeContext.merge(IDiff[], boolean, IProgressMonitor) does not attempt to automerge two revisions if no common ancestor is available. Depending on the file content, no common ancestor is needed for automerging (e.g refactoring history files, where merging is simple the union operation). I suggest to call the corresponding IStorageMerger with an empty stream in this case, or have a predicate which tells whether the merger supports three-way merging with no common ancestor.

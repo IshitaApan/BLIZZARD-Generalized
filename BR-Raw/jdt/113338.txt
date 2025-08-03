@@ -1,0 +1,3 @@
+[sort members] Usability improvements of sort members action
+
+I20051018-0932 + ZRH plugin export from 20051021 - The sort members action unnecessarily shows a dialog prompting whether to sort fields as well or not. This seems interrupting and more or less useless, as it resembles more a preference, which is set once and left untouched. A better solution could be a MessageDialogWithToggle to attract the users attention to the potentially arising problems when sorting fields and guiding her to the members sort order preference page where she can configure the desired behavior - Invoking sort members on a type with less than 2 members pops up a dialog telling that there were not enough members to sort. This is interrupting and unnecessary as well IMHO.

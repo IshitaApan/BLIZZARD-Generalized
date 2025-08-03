@@ -1,0 +1,3 @@
+the "Change to Constructor" QF deletes my code.
+
+RC1: - create class C - create method "int C()" int C() { return 19*19; } - use QF to "Change method to constructor" Observe: return statement is removed - add "if (true) return 123;" as the first line of method C() - use QF again Observe: no return statement is removed.

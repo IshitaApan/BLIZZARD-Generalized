@@ -1,0 +1,3 @@
+[syntax highlighting] deprecated needs a default color
+
+1) enable semantic highlighting 2) enable deprecated highlighting -> the default color is black and no default style There should be a reasonable default style. My first choice would be strikethrough which we currently cannot do. Some dark yellow for "warning" would be my second choice

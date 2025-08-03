@@ -1,0 +1,3 @@
+[preferences] Pref page; Restore defaults does not reset error status correctly
+
+Version: 3.1.0 Build id: 200409140800 @@@@ Window/Preferences/Java/Editor/Hovers Select "Variable Values" Enter "Ctrl" as its hover. Delete "Ctrl" in text area so that it is empty. Click on "Restore Defaults". Observe the error will still be there.

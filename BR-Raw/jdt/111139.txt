@@ -1,0 +1,3 @@
+Add FORMATTER_INSERT_SPACE_BEFORE_PARENTHESIZED_EXPRESSION_IN_RETURN to the code formatter preference page
+
+This new option should be added in the whitespace section (control statements) of the code formatter preference page. It makes the insertion of a space after the return keyword optional when the following expression is a cast expression, a parenthesized expression, a string literal or prefix expression. For all other types of expressions, the insertion of a space is mandatory.

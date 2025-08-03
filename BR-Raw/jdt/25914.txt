@@ -1,0 +1,3 @@
+Method signature refactor does not update Outline
+
+I used the refactoring utility to change the type of one of the params in an interface. The utility completed successfully, but did not update the Outline window, which still shows the old signature.

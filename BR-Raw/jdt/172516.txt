@@ -1,0 +1,3 @@
+use the new 'deprecated' and 'read-only' classpath variables
+
+JDT/Debug should also use the new 'deprecated' and 'read-only' classpath variable attributes, such that JDT/UI can remove the special code (in CPVariableElement) to prevent the user from editing these well-known variables. I'll attach a patch for the declarations. For a full-fledged solution, you could also add a quick fix (ext. pt. "org.eclipse.ui.ide.markerResolution"). See also JDT/Core bug 138599, JDT/UI bug 171049.

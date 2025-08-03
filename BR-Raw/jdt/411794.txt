@@ -1,0 +1,3 @@
+[JUnit] Add a monospace font option for the Junit view
+
+Some unit testing frameworks rely on monospace ascii layout in their results. One example of this is the spock framework https://code.google.com/p/spock/ The JUnit results view should be configurable so that it can display a monospace font.

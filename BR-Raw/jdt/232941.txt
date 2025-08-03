@@ -1,0 +1,3 @@
+[actions] Refresh action does not work on src-folders
+
+- Change contents of a source folder externally - Select the source folder in the Package Explorer - Hit F5 -> Folder contents are not refreshed "Refresh" from the context menu works more often, but not always. Interestingly, the ant target "eclipse.refreshLocal" does not work on source folders, either.

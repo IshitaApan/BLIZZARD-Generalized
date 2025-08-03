@@ -1,0 +1,3 @@
+call hierarchy: Search scope should be persisted
+
+Search scope should be persisted when the platform shuts down or when the view is closed and reopened.

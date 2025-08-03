@@ -1,0 +1,3 @@
+[build path] Errors creating Java project with existing name (non-case sensitive)
+
+I20060807-2000 1. create Java project 'Foo' 2. try to create Java project 'Foo' ==> correctly says that 'Foo' already exists 3. try to create Java project 'foo' ==> no warning but some text at the end of the dialog saying that correctly says that the specified external location already exists and that those resources will be imported. 4. press OK ==> error

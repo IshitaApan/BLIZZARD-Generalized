@@ -1,0 +1,3 @@
+[extract superclass] extract superclass refactor can cause stack overflow in refactored code
+
+If i have these 2 classes... public class ExistingSuper { void method() { // do something } } public class Subclass extends ExistingSuper { @Override void method() { super.method(); } } ...and I extract a superclass for 'SubClass' and select the method to be moved up to superclass then I get this... public class Extracted extends ExistingSuper { public Extracted() { super(); } @Override void method() { this.method(); } } ...which has super.method() replaced with this.method() which causes a stack overflow. It should remain as super.method().

@@ -1,0 +1,3 @@
+typing in editor does not flush refactoring undo stack which leads to garbage on undo
+
+20030227 public class Test { 	void f(){ 		int tempName= 0; 		int fred= tempName; 	} } inline the tempName temp change 'fred' to 'me' in the editor (by typing), without saving undo the refactoring you're left with garbage public class Test { 	void f(){ 		int tempName= 0; 		int me= 0;tempNam 	} }

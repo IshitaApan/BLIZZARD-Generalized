@@ -1,0 +1,3 @@
+[breadcrumb] 'Copy' doesn't work from breadcrumb bar
+
+I20080502-0100 - Open a Java editor with the Breadcrumb bar enabled. - Set cursor at a method body - In the breadcrumb bar press right mouse button and choose 'Copy' from the context menu - Paste into the editor. -> Copy did not seem to work 'Copy qualified name' works.

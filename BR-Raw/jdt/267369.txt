@@ -1,0 +1,3 @@
+[navigation] 'Open Implementation' should also be available as command
+
+I20090304-0834 'Open Implementation' should also be available as a command, so I can assign a key binding like for 'Open Super Implementation'.

@@ -1,0 +1,3 @@
+Inconsistent terminology for content assist
+
+The keybinding entry for "content assist" is labeled content assist. The TabItem under Java->Editor preference page is labeled "code assist". besides the inconsistency, I thought the name "code assist" was already taken by a competitor's product.

@@ -1,0 +1,3 @@
+[clean up] performance degredation in clean up tests
+
+20070320 The clean up performance tests show that something must have happened between 20061214-1445 and 20070109-1805 In particular with the performance.views.CleanUpPerfTest#testControlStatementsCleanUp() http://download.eclipse.org/eclipse/downloads/drops/I20070320-0010/performance/eclipseperflnx1_R3.3/org.eclipse.jdt.ui.tests.performance.views.CleanUpPerfTest.testControlStatementsCleanUp().html

@@ -1,0 +1,3 @@
+[ccp] new artwork for 'copy qualified name'
+
+RC4 We just got the the icon for the new action 'copy qualified name' (added as polish in RC2, see bug 119259). We should use it for 3.2. The UI design team chose a different name that fulfills their naming scheme. That means the change also impacts source code.

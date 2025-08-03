@@ -1,0 +1,3 @@
+Filter to hide anonymous inner classes in Outline View
+
+A new feature was added in 3.0 to show all the inner classes. However in some cases (for example when you are implementing a large number of event listeners) this makes the Outline view very difficult to use because it becomes very cluttered. Also, the word "Anonymous" is quite long and comes at the front so that typically the useful information (the class name) is scrolled out of view. Could the class name be used instead (e.g. ControlListener$1)?

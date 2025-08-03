@@ -1,0 +1,3 @@
+[syntax highlighting] Semantic highlighting sometimes doesn't appear in class file editor
+
+I20101207-2000 Semantic highlighting sometimes doesn't appear in class file editor. Steps: - set an access and modification breakpoint on JavaEditor.fSemanticManager - open a class file editor => suspended in JavaEditor.installSemanticHighlighting() and in ClassFileEditor.doSetInput(...).new Job() {...}.run(IProgressMonitor) When the Job proceeds first, semantic highlighting are missing. Furthermore, fSemanticManager and other fields are not volatile, so they aren't guaranteed to be up-to-date (this is not an issue any more if you know that the field will not be modified after the job has been scheduled).

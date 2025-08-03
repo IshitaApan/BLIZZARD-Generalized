@@ -1,0 +1,3 @@
+[open type] Open Type history shows stale visibility info in type history
+
+3.1 Steps to reproduce: - Open a public source type using Open Type - Change visibility of the type to default - Open the type again -> Type history displays the type as public, the workspace type match is correctly displayed as default

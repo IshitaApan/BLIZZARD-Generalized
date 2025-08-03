@@ -1,0 +1,3 @@
+[Extract Class] Missing field update in junit.awtui.ProgressBar
+
+Use Extract Class on junit.awtui.ProgressBar and generate getters and setters on all fields. The field fProgressX is not updated

@@ -1,0 +1,3 @@
+[clean up] convert iterable loop ignores single non block body statement
+
+3.2 public class Cleanup<K> extends ArrayList<K>{ void foo(){ 	for (Iterator<K> i = iterator(); i.hasNext(); ) 		System.out.println(i.next()); } } this does not compile after cleanup (convert to enhanced for loop)

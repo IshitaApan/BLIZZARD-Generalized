@@ -1,0 +1,3 @@
+'Remove from Build Path' must be disabled for referenced JARs
+
+I20100217-1031. Currently removing a referenced JAR from the build path removes the referencing JAR. This is wrong. ==> We have to disable 'Remove from Build Path' for referenced JARs.

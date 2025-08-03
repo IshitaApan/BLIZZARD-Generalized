@@ -1,0 +1,3 @@
+InferTypeArgumentsAction.selectionChanged logs closed project
+
+20060104 See bug 122319, the InferTypeArgumentsAction doesn't seem to test for closed projects. We should also investigate if checking for source folders isn't too expensive here, using getRawClasspath would be more performant.

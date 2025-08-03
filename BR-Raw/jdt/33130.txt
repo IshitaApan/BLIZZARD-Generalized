@@ -1,0 +1,3 @@
+Type Selection Dialog maintains sizes
+
+RC1 If you start Eclipse in the default (Tahoma 8) font and then change the Dialog font the next time the Type selection dialog is opened it will be cut off STEPS 1) Start Eclipse with default fonts 2) Open a Type Selection Dialog 3) Change the Dialog font 4) Open again - it will be sized based on the last selection

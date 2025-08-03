@@ -1,0 +1,3 @@
+[outline view] Add Go Into like functionality
+
+Problem: The java outline view currently shows an outline of the entire CU, though most uses are only interested in the outline of the class itself. Because of the tree nature of the view, a fair amount of screen space is wasted on whitespace in front of the methods. It would be nice to be able to eliminate this whitespace by providing the ability to view only the class portion of the CU, either through a preference, or Go Into functionality like the Package Explorer. The second option would be preferrable, in order to deal with multiple classes/CU.

@@ -1,0 +1,3 @@
+Move refactoring doesn't honor read-only flags
+
+Build I20030115 - JUnit setup - create TestCase.java in junit.runner - make it read-only - move TestCase from framework to runner - answer yes to override observe: the file in runner gets replaced althouh it is read-only

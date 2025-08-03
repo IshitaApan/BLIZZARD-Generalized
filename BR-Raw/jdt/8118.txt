@@ -1,0 +1,3 @@
+Extract Local Variable: Cant extract my expression
+
+1. junit.swing.AboutDialog: select 'GridBagConstraints.CENTER' try to extract it as local variable. -> can't, refactoring claims that this is not an expression.

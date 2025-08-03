@@ -1,0 +1,3 @@
+[find broken keys] finds keys in plugin dependent projects in workspace
+
+20060403 - in workspace with the ZRH projects in source I select 'org.eclipse.search' and use the 'find broken keys' action - most of the matches are in text plugins

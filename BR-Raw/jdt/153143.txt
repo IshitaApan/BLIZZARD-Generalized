@@ -1,0 +1,3 @@
+[package explorer] Regression: PDE Container not shown when referenced plug-in in source
+
+I20060807-2000, worked fine in I20060804-0010 (probably from fix for bug 152735) - new workspace, get org.junit from CVS - new plug-in project: - first page: all defaults - second page: uncheck both 'Plug-in Options' - Finish => Expected: Package Explorer shows 'Plug-in Dependencies' as child of project, although that node has no children to show => Was: not there - add dependency to org.junit => 'Plug-in Dependencies' still missing; only external plug-ins show up when added

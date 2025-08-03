@@ -1,0 +1,3 @@
+[refactoring] Rename Extract Supertype to Extract Superclass
+
+The name should more accurately reflect the refactoring's capabilities.

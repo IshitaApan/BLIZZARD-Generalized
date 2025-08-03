@@ -1,0 +1,3 @@
+[1.5][Java Element Image Provider] Does not enumerate IJavaElement.TYPE_PARAMETER
+
+20040824: Image provider does not have a case statement for type parameter java elements and fails with AFE Steps to reproduce: - Create non-generic class C - Insert method declaration 	static <S> S wassup() { 	 return null; 	} - Select wassup in the java outline

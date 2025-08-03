@@ -1,0 +1,3 @@
+In/correct quick fix for non-static access to static member [quick fix]
+
+I have classes like so: com.me.Common extends org.junit.TestCase and com.me.MyTest extends Common. In my test, I have JUnit assertXXX calls coded like so: this.assertXXX(...); I therefore get warnings for non-static access to static members, which is nice! The quick fix changes this: this.assertXXX(...); to this: MyTest.assertXXX(...); I was expecting: Assert.assertXXX(...); Any thoughts? Aside from the quick fix wouldn't Assert... be "more correct"?

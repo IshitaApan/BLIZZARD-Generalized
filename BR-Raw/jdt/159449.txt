@@ -1,0 +1,3 @@
+[clean up] Clean Up Wizards throws exception (converting for loops)
+
+Hi, I just tried the new cleanup wizard. It works as expected for all but one file. This file seems to be nothing special: it compiles normally. However, the attached exception is always thrown when I am pressing next on the Clean Up wizard page. When I'm deactivating the selection "Convert for loops to enhanced", then everything works fine. Seems to be a bug in the for loops refactoring. Best regards, Ulli

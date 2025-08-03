@@ -1,0 +1,3 @@
+[breadcrumb] Does not show popup arrow if first child added
+
+Created attachment 97768 screen shot I20080427-2000 Given: package pack; public class Test { } 1. Open in editor with breadcrumb enabled 2. type: public void foo() { } Is: There is no arrow between 'Test' and 'foo' Should: Show arrow

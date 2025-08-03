@@ -1,0 +1,3 @@
+[navigation] Forward history cleared after going back in navigation history
+
+build I20030710 - select a method call to a method in the same class - hit F3 to open the declaration - use the back buttons to go back to the call site - the forward history gets cleared shortly thereafter, making it more difficult to get back to the declaration Seems to only occur for navigations within the same file.

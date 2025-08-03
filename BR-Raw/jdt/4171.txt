@@ -1,0 +1,3 @@
+Accessibility: Code Formatter Page too large with a large text font (1GJL58E)
+
+If the Text font is set to be very large (say 36 point) the CodeFormatter preference page is created so large that it ends up bigger than the display. The text in the preference page should be scrollable. It also does not pick up changes to the font size so if the user changes the size of the text font they will have to reopen the preference dialog to get the change picked up. STEPS 	1) Set the Text Font in the font preference page to be 36 point 	2) Close the preference dialog 	3) Reopen the preference dialog and select the code formatter page NOTES:

@@ -1,0 +1,3 @@
+Introduce Factory: uses NLS key that doesn't exist
+
+N20031114 Key use: Refactoring.syntax_error Please use the NLS search facility to make sure your NLS stuff is correct. To enable NLS search go to Search Dialog->Customize and check NLS page.

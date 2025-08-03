@@ -1,0 +1,3 @@
+[typing] imports disappear
+
+I20050209-0800 + JDT UI from HEAD 1. open a CU with several imports 2. enable folding (ensure imports are folded) 3. remove code so that first import is no longer needed 4. run Organize Imports ==> all imports are gone 5. close and re-open the editor ==> imports are back

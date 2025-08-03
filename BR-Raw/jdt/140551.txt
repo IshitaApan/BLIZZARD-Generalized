@@ -1,0 +1,3 @@
+[junit] Strange ignored node in JUnit view
+
+3.2 RC3 The ignored items in the JUnit view can't be opened. A dialog is shown. This is probably caused by the 'hacked' name. This should be fixed for 3.2.

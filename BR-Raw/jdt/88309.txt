@@ -1,0 +1,2 @@
+Reenable sort members on enums
+

@@ -1,0 +1,3 @@
+[refactoring] API additions for Replace Invocations
+
+I need some API additions for the new "Replace Invocations" refactoring: org.eclipse.jdt.ui.actions: + constant IJavaEditorActionDefinitionIds.REPLACE_INVOCATIONS + constant JdtActionConstants.REPLACE_INVOCATIONS + ReplaceInvocationsAction.java org.eclipse.jdt.ui/plugin.xml: + action and command definitions Erich, could you please give PMC approval?

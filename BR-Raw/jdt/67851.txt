@@ -1,0 +1,3 @@
+SelectionListenerWithASTManager should synchronized access to listener list
+
+RC2, for post 3.0: SelectionListenerWithASTManager.PartListenerGroup should protect the access to the ListenerList from the job.

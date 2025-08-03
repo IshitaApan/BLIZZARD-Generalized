@@ -1,0 +1,3 @@
+[preferences] Preview window in Preferences->Java->Properties File Editor displays incorrect background color
+
+The properties file editor seems to inherit its background color from the setting in Preferences->Java->Editor->Syntax. However, the preview window in Preferences->Java->Properties File Editor always displays a white background.

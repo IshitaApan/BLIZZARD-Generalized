@@ -1,0 +1,3 @@
+RTF-styles no longer copied in java editor
+
+I20040506-0200 Copying text from the java editor used to copy the selected source range also in RTF format. This no longer works - the only type in the clipboard is text.

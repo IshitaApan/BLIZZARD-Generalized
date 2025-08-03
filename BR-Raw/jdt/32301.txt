@@ -1,0 +1,3 @@
+2 Packages with similar names have a problem displaying in the Java browsing perspective.
+
+Hello, Thanks for a wonderful IDE with all these rich features. I think we have a small bug in the Java Browsing Perspective. As an example: Please create a package called "test" in your project. Then create a parallel package called "test_a". After refreshing project, test_a will show up as a child of "test" and also as its parallel project. "test_a" is actually a parallel package, and should show up only alongside "test", not under it. Thanks, agam

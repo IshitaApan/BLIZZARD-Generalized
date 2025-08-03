@@ -1,0 +1,3 @@
+[build path] Add JARs... should filter JARs that are already on the build path
+
+Created attachment 106600 xVID video of the problem Build ID: 3.4 Steps To Reproduce: 1. Create several project 2. Add JARs to one of them project (last one in the project list) 3. Open project properties 4. Try to add more jars. Problems: - By default 1st project's jars list is expanded (why do I need it I am editing last project) - All jars are in the list (used to show only new ones) See attached video More information:

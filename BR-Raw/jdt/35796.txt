@@ -1,0 +1,3 @@
+Drag and drop freezes Windows explorer(modal dialog problem) [dnd]
+
+- Close all programs(important) - Create an empty resource project - Select any file and drop it into a folder in the project - Bring the Windows explorer to front so that it covers the middle of the screen, but that the folder in the project remains visible. Make sure there is only *one* Windows explorer window running(important). - Drag and drop the same file to the same place - The Windows explorer window now appears to be frozen. *Behind* the Windows explorer there is a modal requester asking whether the file should be replaced. Click in the Eclipse window, close requester, and Windows explorer now works again. No exceptions in log.

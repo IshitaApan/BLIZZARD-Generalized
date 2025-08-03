@@ -1,0 +1,3 @@
+[5.0][content assist] parameter hints for generic types
+
+I20050426 we should offer parameter hints for the type parameters to a generic type: Map<K,V> map;

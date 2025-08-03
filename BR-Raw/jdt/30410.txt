@@ -1,0 +1,3 @@
+Change method signatue [refactoring]
+
+Build I20030122 The refactoring doesn't update the variable name and import statements in reimplemented methods. Case class A { public void foo(ICompilationUnit cu) { } } class B extends A { public void foo (ICompilationUnit cu) { } } - select foo in A and activate change method signature. - change cu to sr - change ICompilationUnit to ISourceReference

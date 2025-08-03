@@ -1,0 +1,3 @@
+Outline inconsistent with source, and showing blank entries
+
+build I20030220 After doing some edits to a file, the outline had some blank entries at the end. Also, clicking on the some of the remaining items jumped to the wrong place in the source. See attached screen shot. Edits I was doing included pasting methods in from another CU and deleting methods in the text (all in text editor, not outline).

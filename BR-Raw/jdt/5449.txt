@@ -1,0 +1,3 @@
+TVT Text Expansion/Truncations in new java class dialog
+
+Screen slightly truncated on the right edge and the shortcut keys on the buttons are duplicated. Ref TVT case 17.17 http://jumpstart.raleigh.ibm.com/jumpstart/TVTDOCS/eclipsewbtvt.htm#_Toc52795490 3

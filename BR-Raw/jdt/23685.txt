@@ -1,0 +1,2 @@
+nls wizards: unconventional name for Messages should not be an error
+

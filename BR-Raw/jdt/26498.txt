@@ -1,0 +1,3 @@
+No feedback when deleting empty package which is not a leaf [refactoring]
+
+Build 20021114 1. Disable filtering of empty packages 2. Select an empty package which is not a leaf (e.g. junit.samples) 2. Delete it ==> no feedback, nothing happens. I see two solutions 1) Dialog informs the user about the fact that this thing can't be removed 2) Dialog asks the user if he want to delete everything below two This wasn't an issue so far but when deleting empty nodes in the Package Explorer with hierarchical layout it is weird to get no feedback.

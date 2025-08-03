@@ -1,0 +1,3 @@
+[Wizards] Details textbox from "New Java Project" wizard chomps rightmost text
+
+Build ID: Ganymede RC4 Steps To Reproduce: 1.With the computer screen configured to 1024x768 create a new Java Project 2.Fill the first screen and choose next 3.On the second screen a "Details" textbox will show on the botton. But it chomps about one character on the end of line. More information: If you hide and then unhide the Details textbox it works as expected. Although pressing "back" and then "next" the problem is repeated.

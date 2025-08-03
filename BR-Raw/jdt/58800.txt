@@ -1,0 +1,3 @@
+NLS Search: should support search again
+
+20040413 - do a NLS search (I got an unused key entry) - do a searh again observe: the unused key entry is doubled.

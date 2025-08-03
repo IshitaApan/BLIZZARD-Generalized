@@ -1,0 +1,3 @@
+[package explorer] PackageExplorerPart select & reveal should adapt to IJavaElement
+
+The select and reveal code in PackageExplorerPart Show In functionality should allow for adapting the selection element to IJavaElement. Currently it expects the selection to be an IJavaElement or adaptable to IResource. It should also check if its adaptable to IJavaElement. This is blocking us from supporting the Show In ... Package Explorer functionality for our editor.

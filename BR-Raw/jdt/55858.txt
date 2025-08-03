@@ -1,0 +1,3 @@
+Moving methods/fields does not update Java code/JavaDoc references [refactoring]
+
+M8 Testing Seen with static, static-final and instance fields, with @see and {@link } JavaDoc tags.

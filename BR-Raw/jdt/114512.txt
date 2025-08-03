@@ -1,0 +1,3 @@
+[working sets] Package explorer should only allow working sets that have an updater installed
+
+I20051101-0010 The package explorer started to support working sets different than the Java working set. However, the package explorer must ensure that an working set updater is installed otherwise it will end up showing stale/bogus content.

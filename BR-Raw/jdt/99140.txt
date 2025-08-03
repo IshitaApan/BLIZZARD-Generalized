@@ -1,0 +1,3 @@
+[preferences] Syntax coloring preference page does not update preview
+
+N20050609-0010 + JDT/Core & UI from HEAD Syntax coloring preference page does not update preview: - enable 'Auto(un)boxed expressions' -> changing one of the color or font settings does not update the preview - toggling 'Enable' updates the preview

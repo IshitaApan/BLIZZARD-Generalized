@@ -1,0 +1,3 @@
+Delete key does nothing on default package
+
+Select a default package Press Delete key ==> no user feedback

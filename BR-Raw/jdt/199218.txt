@@ -1,0 +1,3 @@
+[Extract Class] should retain formatting and comments of extracted fields
+
+I20070807-0010 - Have: import java.util.Map; public class Bla { 	private int prev; //doc 	//doc2 	 	/** Javadoc */ 	private Map/*<String, Object>*/ fVariables; //line comment 	// more comments 	 	private int next; } - extract class from field fVariables => extracted class is: import java.util.Map; public class BlaParameter { 	public Map fVariables; 	public BlaParameter() { 	} } => expected: make sure all comments surrounding the variable declaration are moved to the new class

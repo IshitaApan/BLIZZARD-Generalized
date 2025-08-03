@@ -1,0 +1,3 @@
+[refactoring] We need to restore JavaMoveProcessor.canUpdateReferences()
+
+I20100112-0800. We need to restore org.eclipse.jdt.internal.corext.refactoring.reorg.JavaMoveProcessor.canUpdateReferences().

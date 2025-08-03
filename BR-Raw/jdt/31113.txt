@@ -1,0 +1,3 @@
+Don't offer to do a deep copy/move of linked resources
+
+build 20030206 Resource navigator no longer offers a deep copy/move. Package explorer should remove this feature as well. See bug 30669.

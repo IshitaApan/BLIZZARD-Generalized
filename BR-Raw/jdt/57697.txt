@@ -1,0 +1,3 @@
+DBCS:The ok button disabled when Factory method name's first charactor is not lower case. [refactoring]
+
+Reporter: Tony Liu OS: RHEL WS 3.0 -gtk Language: KOR Build level: wswb-30M8-200403291703 JDK Version: IBM JDK 1.4.2 Beta Test case #: JDT09 Summary: DBCS:The ok button disabled when Factory method name's first charactor is not lower case. Steps to recreate problem: 1- Open a DBCS java file. 2- Select constructor declaration or call in the java editor and choose Refactor > Introduce Factory.. 3- Specify Factory method name as DBCS name or SBCS name(but first charactor is not lower case). <<Error>> The ok button disabled. (jdt09.jpg) (jdt09-2.jpg) <<Expected Result>> The Factory method name allowed to first charactor is not lower case.

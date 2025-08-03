@@ -1,0 +1,3 @@
+Add _$ to list of prefixes for field getter/setter creation [code manipulation]
+
+A common convention is to use _ for instance variables and _$ for static instance variables. Although _ will be stripped by default, it would be useful if _$ was also in the list. Of course, this is settable for individual users (which I've already done) but since it is not an uncommon coding convention (and won't harm anyone in general if present) then I would vote for it to be added to the getter/setter generation prefixes.

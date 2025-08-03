@@ -1,0 +1,2 @@
+[javadoc wizard] Allow setting of -source 1.5 through UI
+

@@ -1,0 +1,3 @@
+Keyboard execution of all auto fix hints in current cursor line [quick fix]
+
+To allow fast typing, without having to worry about casts, it would be nice, if CTRL + 1 (auto fix) could find all the hints that are available for the current line. An example: public class AutoCast { Object getObject(){ return this; } void autoCast(){ AutoCast castMe = getObject(); } } My cursor is behind the semi-colon of getObject(). To add the cast "(AutoCast)" with the help of Eclipse, I would want CTRL + 1 to find the last auto fix hint prior to the cursor in the same line. With this feature, a lot of lazy-typing would be very comfortable: "Don't worry about casts, while you are writing code. Simly let Eclipse add all of them when the line of code is completed."

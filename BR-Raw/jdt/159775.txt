@@ -1,0 +1,3 @@
+[msic] Javadoc View formats version tag as "@version", not "Version:"
+
+When processing Javadoc comments for classes, the Javadoc View formats some tags properly, e.g. displaying the 'author' tag as "Author:" in boldface. However, the 'version' tag is displayed as "@version" rather than "Version:". To reproduce: 1. Create any Java class 2. Write a Javadoc comment for the class, containing various tags (I've tried @author, @see and @version) 3. Activate Javadoc view: the 'author' and 'see' tags are formatted correctly but the 'version' tag is not.

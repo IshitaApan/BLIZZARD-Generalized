@@ -1,0 +1,3 @@
+[clean up] Save participant does set cursor to editor top
+
+I20061024-1200 (+plugin export) Given: package test; import java.io.*; public class E1 { } and enabled clean up on save participant with save participant profile. 1. Make editor dirty 2. Save Is: cursor jumps to editor top. Should: Stay exactly where it is. Also all foldings are expanded.

@@ -1,0 +1,3 @@
+[search] Java search result view should not enable polymorphic filter by default
+
+3.3 M2 warm-up build. Talking with philippe about polymorphic methods functionality added since bug 73401 has been fixed, it seems that setting Search View default to filter polymorphic matches is not a good idea. The consequence of this default is that user may not have all matches while searching for method references (ie. change is breaking current behavior) and so can think it's a bug in Search Engine. As we also need to finalize this functionality on some missed specific cases (sub-types, generic methods, final classes, etc.), it's better not to change current behavior. Functionality will still be there, but not documented and without impact on current behavior.

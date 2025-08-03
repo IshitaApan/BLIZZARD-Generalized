@@ -1,0 +1,2 @@
+rename refactoring should be disabled for anonymous types [refactoring]
+

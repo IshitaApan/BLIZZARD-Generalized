@@ -1,0 +1,3 @@
+[source actions] Strange behavior in "Generate Constructor using Fields"
+
+I find the behavior of "Generate Constructor using Fields" is strange in some case. Suppose you have the following file: class ID { 	private int publicPart; 	private int localPart; } Then when you call "Generate Constructor using Fields", it generates: public ID(int part, int part2) { 	super(); 	// TODO Auto-generated constructor stub 	publicPart = part; 	localPart = part2; } I don't known why the names of the two arguments are "part" and "part2", instead of "publicPart" and "localPart". The first line of the generated code, "super()", is also unnessary. So I think it will be better if you delete this line if the class does not inherit from other class (except Object).

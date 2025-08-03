@@ -1,0 +1,3 @@
+IAE / Some copy operations don't pick up all of the collapsed regions
+
+New feature to collapse regions of Java source - very nice. The way I copy between files is to position the cursor to the start of the file, use Ctrl+Shift+End to select all of the text between cursor and EOF, or sometimes Shift+Arrow keys to highlight a selected region. After this use Ctrl+C to copy into the clipboard. The collapsed regions are not included. Using Edit>Select All to select the file's contents does work, but holding down the shift key and using the keyboard arrows or Ctrl+End to traverse the selection cursor over collapsed regions doesn't pick up the collapsed bits.

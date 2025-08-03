@@ -1,0 +1,3 @@
+[typing] Auto-indent doesn't work for simple IF statements
+
+if (value == null)<<ENTER_KEY>> should cause the indent level to increase. then I could type: if (value == null) return;

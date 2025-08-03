@@ -1,0 +1,3 @@
+[preferences][navigation] correct editor-specific context menus
+
+I20050215-2300 (m5 test pass) - open the preferences from the context menu in a) the java editor b) the properties file editor -> the java editor does not show the spelling page -> the properties file does not show the properties editor preference page fix is easy: change AbstractDecoratedTextEditor.collectContextMenuPreferencePages to include the spelling page, remove the obsolete entry from JavaEditor, and add the properties file editor page in PropertiesFileEditor.

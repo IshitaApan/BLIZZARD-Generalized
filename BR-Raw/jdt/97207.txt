@@ -1,0 +1,3 @@
+[refactoring] Infer Generic Type Arguments NullPE with missing bindings
+
+Version: 3.1.0 Build id: I20050527-1300 (RC1) Steps to reproduce: 1.) Have a class like this: public class Main { 	public void loadSashWeights() { 		Hashtable<String, I[]> hash = new Hashtable<String, I[]>(); 		hash.put("Foo", new int[] { 3 }); 	} } 2.) Run Refactor > Infer Generic Type Arguments Actual Results: Find the attached Error Log Expected Results: - Regards, Ben

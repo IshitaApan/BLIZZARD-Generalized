@@ -1,0 +1,3 @@
+"Copy Trace" Action in "Failure Trace" View enabled for empty table.
+
+The "Copy Trace" action should probably be hidden or unavailable when there is nothing in the "Failure Trace" view. Currently the user is given the option to copy a trace of nothing to the clipboard.

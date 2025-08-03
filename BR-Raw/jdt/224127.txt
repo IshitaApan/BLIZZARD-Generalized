@@ -1,0 +1,3 @@
+[breadcrumb] Show non-Java resources as children of packages
+
+I20080325-0100 In the breadcrumbs bar, show non-Java resources as children of packages (e.g. *.properties files). Non-Java resources are already shown as children of projects and source folders.

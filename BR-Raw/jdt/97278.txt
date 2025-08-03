@@ -1,0 +1,3 @@
+[code manipulation] Add constructor from superclass proposes wrong constructor
+
+RC1 public abstract class A<T> { 	public T fT; 	public A(T ft) { 		super(); 		// TODO Auto-generated constructor stub 		fT = ft; 	}	 } class Sub<E> extends A<String> { public Sub(String ft) { 		super(ft); 		// TODO Auto-generated constructor stub 	} } - run add constructor from superclass inside sub observe: the dialog offeres Object(), however generate a default constructor results in a compile error since A doesn't provide a default constructor.

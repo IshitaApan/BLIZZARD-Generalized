@@ -1,0 +1,3 @@
+[navigation] Expand Selection|Enclosing Element should work on boundaries
+
+Take this example (the caret is at the |): updateTable(keepSameLeavesVisible|, true); When you now invoke Expand Selection|Enclosing Element, the whole line gets selected, but I want keepSameLeavesVisible to be selected. The reason is, that I just from word to word using Ctrl-Left/Right and this stops at the word begining/end. Currently, to be able to use ES|EE, I still need to press Left/Right to step one character into the word.

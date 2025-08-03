@@ -1,0 +1,3 @@
+[clean up] Make field final replaces volatile with final
+
+Build ID: M20071023-1652 Steps To Reproduce: 1. define volatile private field 2. do not write any code that sets the field 3. use clean-up with "Add final modifier to private fields" option 4. volatile keyword is now replaced with final keyword More information: Volatile field may be modified by JNI code, thus I think it's not correct to apply the clean up rule in this case.

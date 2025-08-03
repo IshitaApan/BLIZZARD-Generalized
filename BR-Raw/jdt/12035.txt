@@ -1,0 +1,3 @@
+refactoring error page: must be able to handle working copies
+
+as it is now the error page always gets the original element from the working copy i pass it in the JavaSourceContext it should be able to just use this working copy - otherwise i have no way to present error context correctly

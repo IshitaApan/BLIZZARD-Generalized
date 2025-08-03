@@ -1,0 +1,3 @@
+[extract method] remember selected access modifier
+
+In subsequence calling the Refactor-ExtractCommand one has to set the access modifier always if the default selection ("private") is not desired. It would be nice if the editor can memorise the selected modifier as the editor do with the checkbox "Qualify constant references with class name"

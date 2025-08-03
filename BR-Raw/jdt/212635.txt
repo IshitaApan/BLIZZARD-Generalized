@@ -1,0 +1,3 @@
+support "Link with Editor" command
+
+Created attachment 84993 Fix All views with "Link with Editor" actions should support the new command from bug 79581.

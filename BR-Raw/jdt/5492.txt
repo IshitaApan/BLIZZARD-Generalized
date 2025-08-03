@@ -1,0 +1,3 @@
+Open in Hierarchy method list is enabled even when nothing is selected
+
+206 1) Ensure no item is selected in the hierachy view's member list 2) Right click - not on an item 3) Open is present and enabled 4) Select Open, nothing happens

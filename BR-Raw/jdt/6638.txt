@@ -1,0 +1,3 @@
+"Add Method Overrides" menu pick
+
+It would be nice to have an "Add Method Overrides" menu pick (analogous to the "Add Unimplemented Methods" menu pick in certain context menus) that would bring up a selection box of currently-unoverridden base-class methods and insert stubs for the selected methods.

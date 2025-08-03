@@ -1,0 +1,3 @@
+[build path] Configure Output Folder dialog should show the default output folder
+
+I20060807-2000 The Build Path > Configure Output Folder... dialog should show the default output folder so that it is clear which folder is used when choosing this radio button.

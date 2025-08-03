@@ -1,0 +1,3 @@
+[pull up] final method in interface makes uncompilable code
+
+Observed behavior: If class Foo implements interface IFoo and I try to pull up (Refactor->Pull Up...) method final int getSome(){ return 1; } The method in IFoo becomes final int getSome(); which is not compilable because interface methods cannot be final. Expected behavior: pulled method should not have final modifier if destination class is interface.

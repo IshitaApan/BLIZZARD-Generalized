@@ -1,0 +1,3 @@
+[projection][hovering] projection hover is too big
+
+N20060418 Projection hovers are always the size of the editor's client area instead of this being only the maximum size. This is caused by the fix for bug 135841. Must fix for 3.2.

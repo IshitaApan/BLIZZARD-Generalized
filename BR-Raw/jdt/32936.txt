@@ -1,0 +1,3 @@
+[pull up] No progress monitoring when switching to method page [refactoring]
+
+RC1 - JUnit setup - select TestCase.countTestCases - pull up - press next observe: you don't see and task or subtaskm labels.

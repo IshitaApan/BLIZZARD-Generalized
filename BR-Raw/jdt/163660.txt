@@ -1,0 +1,3 @@
+[surround with try/catch] Surround With templates not showing in javadoc
+
+When I select some javadoc text and invoke the 'Surround With' menu I get no ptions other than 'Try/catch block'. The next part of the popup menu contains the text: 'none applicable'. I've checked the registered templates and there are several listed for the javadoc context. The surround with functionality works fine when used on java code. The problem also appears in 3.2.0

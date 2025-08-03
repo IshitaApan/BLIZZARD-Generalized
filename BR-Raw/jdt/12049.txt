@@ -1,0 +1,3 @@
+Java Browing is not saving its state.
+
+Open a java browing perspective. Select a project, package and type. Exit the workspace Re-start it. The selected project,package and type are not selected anymore.

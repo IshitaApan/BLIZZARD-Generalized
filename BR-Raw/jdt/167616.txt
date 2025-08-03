@@ -1,0 +1,3 @@
+[build path] Java project gets into weird state when .classpath is gone
+
+I20061212-0010 1. create a Java project P 2. delete the .classpath file 3. close P 4. open P 5. open the build path dialog ==> shows a JRE system library 6. press OK ==> P still doesn't shows a JRE 7. create class C ==> errors are reported

@@ -1,0 +1,3 @@
+[typing] Blank line causes javadoc indentation regression
+
+In N20050609-0010. Given a javadoc comment: 	/**	 	 	 * oops, extra return there. 	 */ 	public static String noop() { 		return ""; 	} Select All on the file, then Source > Correct Indentation. N20050608-0010 leaves this unchanged. N20050609-0010 (the latest), formats this as 	/**	 	 * oops, extra return there. */ Likely minor (who does that?), but a regression.

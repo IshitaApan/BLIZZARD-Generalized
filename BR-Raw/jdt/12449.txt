@@ -1,0 +1,3 @@
+delete action in type hierarchy is not registered on 'del' key
+
+TypeHierarchyViewPart should call ReorgGroup.createDeleteAction see PackageExplorerViewPart

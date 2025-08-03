@@ -1,0 +1,3 @@
+Package Viewer toolbar redraws on selection change [general issue]
+
+I20030128 - in package viewer move selection with cursor down key Observe: on every selection change the navigator's toolbar (containing the triangle for the filter menu and the close box) is redrawn. On MacOS X this redraw is so slow that the selection change becomes really slow too. Note: both the resource navigator and the Java outliner don't have that problem (and are much faster).

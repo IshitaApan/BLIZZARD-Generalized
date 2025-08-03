@@ -1,0 +1,3 @@
+Java Working Set and synthetic library containers
+
+RC1 - create Java working set just containing the source folder "compare" of the Compare plugin - use this working set to filter Package Explorer Observe: the synthetic library container is visible, but empty

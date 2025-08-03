@@ -1,0 +1,3 @@
+Unsufficient progress reporting when renaming a linked source folder
+
+I20030206 - create a project - create a source folder ui and link it to the ui folder of org.eclipse.jdt.ui observe: you get lots of error messages due to missing imports - now rename the source folder to ui2 Observe: you get a progress bar in the application window. The progress gos to 95% really quick and then states there for 40 seconds. Furthermore no tasks are presented.

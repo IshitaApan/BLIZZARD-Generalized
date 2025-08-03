@@ -1,0 +1,3 @@
+[5.0] [refactoring] renaming method in annotation doesn't work
+
+M4 See bug 81058 for the clory details.

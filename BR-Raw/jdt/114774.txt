@@ -1,0 +1,3 @@
+[javadoc location] validate does not work with ! in path
+
+I20051102-0010 See bug 98104 and bug 83929 comment 6. A path with ! works now, but the 'Validate' button always says such a location is invalid.

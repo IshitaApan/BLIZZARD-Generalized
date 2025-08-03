@@ -1,0 +1,3 @@
+[painting] Erroneous bulb icon in left ruler
+
+Build 3.2M5 Having the following source in Java editor, I noticed an unexpected bulb icon in the left ruler. It seems to imply a quickfix is available though none is actually. (in 1.5 source mode) public class X { 	void foo(Object... os) {} 	public static void main(String[] args) { 		new X().foo(args); 	} }

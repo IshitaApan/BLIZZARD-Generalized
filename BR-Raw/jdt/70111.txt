@@ -1,0 +1,3 @@
+TVT3.0: Java Project Properties has truncated text and buttons
+
+On the menu bar from the main Workbench panel, click File -> New -> Projects Select Java Project Click Next In the Project Name put java-project Click Finish On the menu bar from the main Workbench panel, click Project Click Properties Select Javadoc Location Even though I enlarge the window, the description and the right side buttons (Browse, Validation, Apply) are truncated. See the attached screenshot.

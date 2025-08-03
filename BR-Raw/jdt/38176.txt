@@ -1,0 +1,3 @@
+Quickfix for wrong casing on field could be improved
+
+2.1 In the source for InternalPlatform, I added a field: boolean noVersionCheck. Elsewhere in the code, I made reference to it but got the casing wrong in an assignment: noversioncheck = false. Clicking on the light bulb gave me some suggestions, but the suggestion for noVersionCheck was far down the list. It would be nice if it checked for simple case mismatches. The list also included some static final fields, which can't be assigned to.

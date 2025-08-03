@@ -1,0 +1,3 @@
+Create static field quick fix creates an instance field [quick fix]
+
+When referencing a class field that doesn't exist, the quick fix to 'create field in type...' creates an instance field, not a static field. e.g. Open quick fix on reference Foo.x when x doesn't exist creates private [type] x; rather than private static [type] x;

@@ -1,0 +1,3 @@
+Find Broken NLS Keys does not always detect unused key in accessor class
+
+I20060328-0010. Have eclipse style NLSed accesor class with: 	public static String T_0; 	public static String T_1; Have properties file with: 	T_0=eclipse style No reference to either T_0 or T_1. Find Broken NLS Keys correctly reports unused key (T_0) in properties file but only reports key T_1 as unused in the accessor class. It should report T_0 as well.

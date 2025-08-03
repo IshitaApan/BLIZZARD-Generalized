@@ -1,0 +1,3 @@
+Source -> Override methods fails in inner classes [code manipulation]
+
+In Version: 3.0.0 Build id: 200312182000 Type the following in the Java editor, in the header of a class : private MouseTrackAdapter mouseTrackListener = new MouseTrackAdapter() { XXX }; right mouse click where the XXX in the above line is and choose Source -> Override/Implement methods. You get the correct methods in the pop up. choose some, and say ok. You get an error and the methods are not generated.

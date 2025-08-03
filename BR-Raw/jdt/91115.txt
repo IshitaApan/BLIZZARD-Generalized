@@ -1,0 +1,3 @@
+Change method signature does not select table items on tab [refactoring]
+
+I20050405-0800 + ZRH plugin export Tabbing through the table items of a newly created parameter does not select the entire text of the table item anymore, but places the cursor at the end of the item text. While this is certainly convenient in the new type wizard, the old behavior is more appropriate for change method signature, extract method and introduce parameter.

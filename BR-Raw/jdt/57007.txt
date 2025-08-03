@@ -1,0 +1,3 @@
+Type Filter page should be empty by default
+
+M8 The type filter page should be empty by default.

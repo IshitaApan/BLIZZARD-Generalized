@@ -1,0 +1,3 @@
+Change type refactoring: NLS has two keys ChangeTypeRefactoring.invalidSelection with different values
+
+N20031114 Please use the NLS search facility to make sure your NLS stuff is correct. To enable go to Search Dialog -> Customize and check NLS search. Then fill in the NLS search page.

@@ -1,0 +1,3 @@
+Projects showing up in Package Explorer twice [package explorer]
+
+20040527-0800 When I load the platform-ui module and org.eclipse.tests from HEAD org.eclipse.tests is showing up twice in the PackageExplorer. This is not a a problem in the Resource Navigator. Open type only shows it once so it doesn't look like there are two instance in the workspace

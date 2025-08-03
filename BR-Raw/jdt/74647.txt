@@ -1,0 +1,3 @@
+JUnit view truncates failure message
+
+When the message in the jUnit failure is long, the JUnit view truncates the message, even though there is a horizontal scrollbar. It should just show the whole message....

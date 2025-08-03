@@ -1,0 +1,3 @@
+Vertical ruler Roll-Overs should only appear for vertical ruler annotations
+
+I200402102000 Roll-over shows all annotations also those which I explicitly disabled to show up in the vertical ruler. M7 candidate.

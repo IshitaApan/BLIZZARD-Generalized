@@ -1,0 +1,3 @@
+"Extrude" is not a good name for the quick assist
+
+build I20030206 We should not use "extrude" to describe this quick assist. "extrude" means forcing (often through some device) to produce something. We should find a brief phrase to describe the operation and use it instead. I assume we are avoiding extract since it is used in the various refactorings. This assist causes the program to behave differently - it should be clear from the description that the transformation has this characteristic.

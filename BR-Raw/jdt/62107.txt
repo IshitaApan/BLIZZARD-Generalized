@@ -1,0 +1,3 @@
+[misc] Add option to disable link with selection in Javadoc view
+
+With browser widget enabled JavaDoc view became quite convenient. However it is annoying when it is jumping when selected context is changed. Please add an option to pin current JavaDoc view. If time permits, it will be great to remember previous pinned JavaDocs and show them in a dropdown similar to the one used for Console view or even better in a tabs.

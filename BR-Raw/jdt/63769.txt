@@ -1,0 +1,3 @@
+Endless loop after Show in Package Explorer
+
+there are situations when you run in an endless loop in show in package explorer when the action is attempting to reveal an element.

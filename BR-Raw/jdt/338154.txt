@@ -1,0 +1,3 @@
+[typing] "Automatically close <angle> brackets" should not add > when type argument follows
+
+HEAD The "Automatically close <angle> brackets" feature from the Typing preference page should not add the closing > when it is already present. This already works fine for (parentheses): import java.util.*; public class Try { void foo(Object o) { List<String> var= new ArrayList|String>(); foo|var); } } When you replace the "|" with "<" and "(", respectively, then you see the good behavior for "(" and the bad additional ">" that gets inserted after the "<".

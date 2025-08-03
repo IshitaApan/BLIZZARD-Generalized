@@ -1,0 +1,3 @@
+[templates] add different ui for linked mode depending on usage
+
+Linked mode should allow to be configured programmatically to have a different ui. This would allow the instance that is setting up linked mode to determine how it will look like. Use case is auto-closing: the box is too disturbing there, while it may be good for more complex templates.

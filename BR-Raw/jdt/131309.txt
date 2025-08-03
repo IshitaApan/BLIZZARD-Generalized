@@ -1,0 +1,3 @@
+Multiple entries for 'add deprecation info'
+
+20060310 - rename method TestDecorator.countTestCases() and mark delegate as deprecated - open preview: multiple entries 'create deprecation info' Either this is a bug, or maybe one is created per overriding method: add this to the label 'create deprecation info for xy()'

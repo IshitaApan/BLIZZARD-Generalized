@@ -1,0 +1,3 @@
+[organize imports] Organize imports removes needed import statement.
+
+Build ID: I20080330-1350 (3.4M6) Steps To Reproduce: Please organize imports and see that the import statement is wrongly removed, causing a compile error. In the sample below, I put both classes in the same compilation unit. But the problem also occurs if in different units. ------------ bug/Bug.java ------------------ package bug; import bug.Bug.*; class Bug{ 	interface Proto{}; }class Foo implements Proto{}

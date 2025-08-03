@@ -1,0 +1,3 @@
+Buttons cut off in externalize strings dialog
+
+I20021031 Linux/Motif. Open the Translate Strings dialog on a Java file. "Translate" is cut off at the top "Edit Key" is cut off at the bottom.

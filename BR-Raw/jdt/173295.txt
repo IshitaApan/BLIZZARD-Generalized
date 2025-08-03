@@ -1,0 +1,3 @@
+[rename] Rename popup: Esc should quit rename mode
+
+I20070206-0800. When I press the 'Alt' and then 'Esc' it is still in rename mode but it should not.

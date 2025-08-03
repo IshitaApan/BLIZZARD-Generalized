@@ -1,0 +1,3 @@
+[open type] Support  access to "Type Filters" preferences directly from the Open Type dialog
+
+I find that the type filters preference is a very handy feature and useful for cutting down on the size of files in the open types dialog, as well as duplicates. But I find this feature hard to discover under the "Appearance" preferences, it seems like the preference page should not be under appearance. Also it would be really nice to have a hook from the open types dialog to set this feature (i.e. select an item in the open types dialog and choose "Ignore all members in package "javax.blah.blah" or some such support).

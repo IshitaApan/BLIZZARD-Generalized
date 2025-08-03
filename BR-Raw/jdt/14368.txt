@@ -1,0 +1,3 @@
+Create getter and setter insert code into read-only file
+
+1. Create a class C as follow: package jp1; public class C { 	private int id; } 2. Close it and mark it as read only 3. Reopen it and you should not be able to modify anything 4. From the outline view, select "id - int" and right mouse click and select "Create getter and setter". 5. The class becomes package jp1; public class C { 	private int id; 	/** 	 * Gets the id. 	 * @return Returns a int 	 */ 	public int getId() { 		return id; 	} 	/** 	 * Sets the id. 	 * @param id The id to set 	 */ 	public void setId(int id) { 		this.id = id; 	} } and the editor is dirty, but you cannot save it until clear the read-only flag.

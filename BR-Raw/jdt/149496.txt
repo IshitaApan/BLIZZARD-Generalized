@@ -1,0 +1,3 @@
+[hashcode/equals] Generate hashCode() violates naming conventions
+
+The "Generate hashCode() and equals()" option generates code like this: public class TestClass { 	private int aValue; 	@Override 	public int hashCode() 	{ 		final int PRIME = 31; 		int result = 1; 		result = PRIME * result + aValue; 		return result; 	} } The variable "PRIME" should be "prime" to conform to Sun Java Naming Conventions: http://java.sun.com/docs/codeconv/html/CodeConventions.doc8.html#367 It should be all uppercase only if it were a static final class field. The current behaviour makes checking tools like checkstyle to warn about it (see LocalFinalVariableName checking): http://checkstyle.sourceforge.net/config_naming.html

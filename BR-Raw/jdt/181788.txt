@@ -1,0 +1,3 @@
+[quick fix] Quick fix to import static from favorite class
+
+In 3.3M6 The content assist to import a static member from one of several favorite classes is a godsend. I'd like to extend it to work the same as instance methods in the class--not only would static members from favorite classes be available for content assist, but also as quick fixes. So if I type sin(3) And Math.* is in my favorites, a quick fix on the error would include the option to import static Math.sin.

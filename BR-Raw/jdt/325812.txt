@@ -1,0 +1,3 @@
+[type hierarchy] Open Type Hierarchy should work for selection of more than one logical packages
+
+OTH should be enabled for multi-selection of logical packages since we support TH for all type containers.

@@ -1,0 +1,3 @@
+need IImportStructure::removeImport
+
+to implement moving classes corretly.

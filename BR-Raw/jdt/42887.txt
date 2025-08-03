@@ -1,0 +1,3 @@
+Deleting of resources that don't exist [ccp] [reorg]
+
+See bug 42391 for details.

@@ -1,0 +1,3 @@
+New Search: Tooltip texts should be commands
+
+Tooltips usually don't describe what their widget does, but are just short commands in title case. Where the new search view e.g. says "Shows the next match", it should read "Show Next Match" (as in the old search view). This applies to all buttons.

@@ -1,0 +1,3 @@
+[CommonNavigator][Java] Patch for various issues in the Java extension
+
+This patch provides: (1) Improved Open Action Provider (2) Menu options: Open Type Hierarchy (3) Slight modifications to OpenViewActionGroup to hide properties action from Java extension (already contributed by Resource extension) (4) Integration with Intercept framework for Add/Remove (5) Common Wizard definition (6) References/Declarations search menu options

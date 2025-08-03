@@ -1,0 +1,2 @@
+Leverage new initializeAferLoad method from JDT/Core
+

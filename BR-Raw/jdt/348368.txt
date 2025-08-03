@@ -1,0 +1,3 @@
+[syntax highlighting] Add highlight for inherited fields
+
+Please add support to highlight inherited fields. Example: class A { ... protected int a; protected int x; ... } class B extends A { ... protected int b; void isntThatCoolIfSomeoneOverridesA() { a = b; x = b * b; } ... } In the example, "a" and "x" should be highlighted using a special "inherited field" style.

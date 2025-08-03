@@ -1,0 +1,3 @@
+[build path] Warning message on Java Compiler page should link to Java Build Path as well
+
+I20050627-1435 (3.1) The warning message on the Java Compiler project properties page should link to Java Build Path as well. I suggest to replace the "Configure..." link by two links "Configure Installed JREs" and "Configure Build Path...". The "Configure Build Path..." should just go to the Java Build Path page iff the page is a properties page. If it is in the main preferences, it should show the dialog to select a project for project-specific options.

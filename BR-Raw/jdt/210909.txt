@@ -1,0 +1,3 @@
+[save actions] Remove workaround for bug 208541
+
+I20071113-0800 After bug 208541 is fixed we can remove the workaround from bug 208568

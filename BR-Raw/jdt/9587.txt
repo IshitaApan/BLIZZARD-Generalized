@@ -1,0 +1,3 @@
+Self encapsulate field: chosen argument names must be valid identifiers
+
+1. In the code gen pref page set field name suffix to _ 2. Encapsulate field private IPackageFragment package_; -> 	private void setPackage(IPackageFragment package) { 		package_= package; 	} 'package' is a reserved keyword

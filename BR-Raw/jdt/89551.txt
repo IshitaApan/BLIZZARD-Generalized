@@ -1,0 +1,3 @@
+[content assist] Order of completion proposals does not seem correct
+
+build I20050329-2000 1) create p/ZZZ.java package p; public class ZZZ {} 2) create q/X.java package q; public class X { void zzz() { zz<<cursor>> } } 3) do ctrl+space at <<curosr>> location ZZZ is the first proposal and zzz() the second. But in this case zzz() should be the best proposal.

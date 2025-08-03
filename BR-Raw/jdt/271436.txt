@@ -1,0 +1,3 @@
+Reminder: mark activate editor tests gray if Platform UI does not fix the regression
+
+I20090401-0901. If Platform UI does not fix their regression (see bug 258253) we need to mark our editor activation tests gray for 3.5.

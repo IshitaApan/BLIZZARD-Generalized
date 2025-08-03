@@ -1,0 +1,3 @@
+[clean up] Code clean up does not remove outer class qualifier if possible
+
+I20080219-1124 Fup of bug 219478 Given: package test1; public class E1 extends E2 { private int i= 1; private class E1Inner extends E2 { public E1Inner() { System.out.println(i + E1.this.i); } } } class E2 { private int i= 1; } 1. Run clean up: remove this qualifier for non static fields Is: no changes Should: System.out.println(i + i);

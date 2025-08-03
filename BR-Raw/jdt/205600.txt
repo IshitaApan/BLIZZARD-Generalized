@@ -1,0 +1,3 @@
+[clean up] 'Sort members' action uses workspace/project clean up options
+
+[I20071002-1342] Source > Sort Members... brings up the confirmation dialog but does nothing when you click OK. I picked the "Sort all members" option. Nothing in the .log.

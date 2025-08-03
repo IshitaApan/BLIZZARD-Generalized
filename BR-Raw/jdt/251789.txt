@@ -1,0 +1,3 @@
+Open External Javadoc should use Web Browser settings
+
+The original enhancement request (bug #125426) was closed, possibly mistakenly, without being addressed. The original request was to use the internal browser when the users selects Open External Javadoc. I also see this issue in 3.3.2 - there is no way to use the internal browser for viewing javadocs. +++ This bug was initially created as a clone of Bug #125426 +++ Please look up the setting in Preferencs->General-Web Browser to decide whether to launch an external browser or use the internal browser when the user selects Navigate->Open External Javadoc. At the moment regardless of the choice an external browser is launched. Many thanks Jonathan

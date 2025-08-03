@@ -1,0 +1,3 @@
+[navigation] Outliner doesn't highlight the name of the package declaration for package-info
+
+RC2. 1) Create a project P with src/bin as source/output folders 2) Create a package 'p' 3) Create a file in this package that contains: @java.lang.Deprecated package p; Click on the package declaration in the outliner and you get the position of the 'p' in Deprecated. It looks like the first 'p' is highlighted. This looks awkwards.

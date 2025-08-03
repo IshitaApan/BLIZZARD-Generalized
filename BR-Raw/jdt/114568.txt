@@ -1,0 +1,3 @@
+[content assist] methods without parameters should never show linked mode
+
+3.2 M3 test pass - enable automatic bracket closing - have the CU below - code assist at the caret (|) - insert method() > expected: there is no linked mode, the caret is behind the closing parenthesis < actual: a linked exit position is set up on the line following the method call. class X { void method() { this.meth| } }

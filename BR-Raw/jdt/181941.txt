@@ -1,0 +1,3 @@
+[search] References to package filtered although all filters are disabled
+
+I20070410-1043 Select package /org.eclipse.jdt.ui.tests/ui/org.eclipse.jdt.ui.tests.dialogs and search for references in workspace. Search view content description says: "[..] 3 references in workspace (no JRE) (3 matches filtered from view)". But when I open the filters dialog, all filters are disabled. Enabling the "Potential matches" filter in the dialog (but not from the menu!) reveals the 3 matches.

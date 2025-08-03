@@ -1,0 +1,3 @@
+[refactoring] [move] Move method out of non-static inner class too strict.
+
+The inner class is non-static, but the method only accesses a static field. So Eclipse shouldn't refuse to move it. Interestingly, Eclipse allows moving the 'number' field, but not the method, even though they're in the same inner class. ------------------------- Bug.java ------------------ public class Bug { public static int field; class Inner{ int number=field; int method(){return field;} } }

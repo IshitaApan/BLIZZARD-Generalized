@@ -1,0 +1,3 @@
+Remove non-default-encoding-alert from CompilationUnitEditor
+
+no longer necessary with new encoding support.

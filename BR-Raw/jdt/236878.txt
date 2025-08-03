@@ -1,0 +1,3 @@
+[misc] Context type registry should be defined via extension (plugin.xml)
+
+3.4 RC4. Currently we have a hole in our template context story: template contexts can be contributed via XML but the context type registry is created in code and the definition which contexts are available are done in code. See for JavaPlugin.getTemplateContextRegistry() example. This means that clients cannot contribute new context types to existing registries, e.g. the one used by the Java editor.

@@ -1,0 +1,3 @@
+[clean up] Huge clean up dialog on OSX
+
+Created attachment 100129 screen shot I20080513-2000 Given fresh workspace 1. Create a java project 2. create a class 3. Source > Clean Up... Is: Dialogs hight is screen height Should: Have useful height

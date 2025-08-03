@@ -1,0 +1,3 @@
+TVT2: Mnemonic doesn't work in Java Editor prefs
+
+Japanese TVT tester found a non-functional mnemonic in Preferences>Java>Editor on the Syntax tab. Pressing Alt+B doesn't activate the bold checkbox. Build F2 NL fragments generated on 6/11 Window>Preferences Select Java Select Editor Click on Syntax tab press Alt+B... checkbox does not work.

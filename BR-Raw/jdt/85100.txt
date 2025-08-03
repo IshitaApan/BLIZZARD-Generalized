@@ -1,0 +1,3 @@
+Java Class wizard does not generate all necessary methods
+
+Build: I-20050209 Open the Class wizard, and make sure the 'Inherited Abstract Methods' is checked. Create a new class that implement org.eclipse.jface.viewers.ITableLabelProvider. The newly created class will have compilation errors as it is missing some methods. It appears as though only the methods declared by ITableLabelProvider were generated for the class. ITableLabelProvider subclasses IBaseLabelProvider. I would expect that methods declared on the latter should also be generated.

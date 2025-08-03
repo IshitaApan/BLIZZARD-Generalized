@@ -1,0 +1,3 @@
+Quick Fix 'Change workspace compliance settings to 5.0' with project specific settings [quick fix]
+
+M4 test pass. The Quick Fix 'Change workspace compliance settings to 5.0' does not make much sense when the project already has project specific settings. Either the Quick Fix should not appear when the project overrides workspace settings, or the user should be asked whether the project should take over workspace settings.

@@ -1,0 +1,3 @@
+[jar import] Does not work for methods with unqualified parameter types
+
+I20051213-0010 Jar import currently does not work for methods with unqualified parameter types. The handle identifier is recorded when the refactoring is applied. During JAR import however, the method stubs are all fully qualified, resulting in a failure to recreate the handle. Should be fixed for M4 since Rename method is affected. Attaching patch...

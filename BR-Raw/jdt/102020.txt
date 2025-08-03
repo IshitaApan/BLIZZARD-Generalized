@@ -1,0 +1,3 @@
+[move member type] adds call to uncreated field [refactoring]
+
+In I20050627-1435. Code: public class Foo { 	private static final class Bar { 		private Class baz() { 			return getClass(); 		} 	} 	private void bar() { 		new Bar(); 	} } Select Bar, and Move Member Type to New File. The new class created is: final class Bar { 	private Class baz() { 		return _foo.getClass(); 	} } 1) The call should simply be getClass(), with no reference to _foo. ("_" is the field prefix set in the Preferences)

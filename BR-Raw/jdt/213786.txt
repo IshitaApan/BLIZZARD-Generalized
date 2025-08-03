@@ -1,0 +1,3 @@
+[JUnit] Add context menu action to import junit test results from package explorer
+
+Version: 3.4.0 Build id: I20071213-1700 When using tools such as Maven or Ant to run your unit tests it can be quite inconvenient to use the import results action in the JUnit view, as it requires an absolute system path. One solution is to add a context menu to files that look like test results. I will attach a patch that adds a content type for the JUnit test result (required quite a few changes). The patch requires a bit of cleanup (action placement and NLS)

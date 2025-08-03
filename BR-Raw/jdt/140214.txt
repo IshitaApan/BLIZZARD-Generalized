@@ -1,0 +1,3 @@
+[clean up] PotentialProgrammingProblemFix must be cleaned up
+
+N20060504-0010 The PotentialProgrammingProblemsFix class must be cleaned up: - Fallback must be removed - Policy needed when calculation of id fails (warn the user) - ITypeBinding must be used to get the binary name - Code needs to be cleaned up it's hard to understand and read

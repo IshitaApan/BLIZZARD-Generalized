@@ -1,0 +1,3 @@
+What should canceling setRawClasspath do ?
+
+2.1.2 we now allow canceling the call setRawClasspath (see bug 43692). What should canceling really do? Canceling the build or also reset the classpath to its old values ? Philippe, can you comment on what Java Core is doing here.

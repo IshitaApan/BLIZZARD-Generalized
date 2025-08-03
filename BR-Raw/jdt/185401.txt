@@ -1,0 +1,3 @@
+[introduce parameter object] Table should support multiselect
+
+Table should support multiselect like CMS for easy moving of multiple fields.

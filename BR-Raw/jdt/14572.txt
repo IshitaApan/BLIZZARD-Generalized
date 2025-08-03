@@ -1,0 +1,3 @@
+JavaCapatibilityConfigurationPage.java misspelled
+
+org.eclipse.jdt.ui.wizards.JavaCapatibilityConfigurationPage.java Should probably be spelled: org.eclipse.jdt.ui.wizards.JavaCapabilityConfigurationPage.java (capability instead of capatibility)

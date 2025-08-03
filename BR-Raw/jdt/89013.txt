@@ -1,0 +1,3 @@
+Changes to ResultCollector --> API
+
+From the changes via bug 84998 our debug completion processors are all broken. DisplayCompletionProcessor, JavaSnippetCompletionProcessor, DetailsCompletionProcessor, CodeSnippetCompletionProcessor, and BreakpointConditionCompletionProcessor. We will need to work with ZRH to find the new mapping of functionality.

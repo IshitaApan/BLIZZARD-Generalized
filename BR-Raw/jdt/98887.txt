@@ -1,0 +1,3 @@
+All types search job shouldn't create images in non UI thread
+
+RC1 Although SWT supports creating images in non UI threads there is a limitation to it on Motif. When no event loop is active this can result in a deadlock. To avoid this the search job should only create the descriptors and the real image should be fetched in the UI thread.

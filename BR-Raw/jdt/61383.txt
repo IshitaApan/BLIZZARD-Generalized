@@ -1,0 +1,3 @@
+[preferences] Syntax highlighting list not updated on Restore Defaults
+
+- enable advanced highlighting -> advanced highightings appear in list - Restore Defaults -> advanced highlighting becomes disabled but the highlightings are not removed from the list

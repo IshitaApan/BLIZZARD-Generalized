@@ -1,0 +1,3 @@
+Rename "Ant Preferences" to "Ant" in workbench->Preferences
+
+"Preferences" is redundant.

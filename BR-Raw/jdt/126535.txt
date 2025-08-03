@@ -1,0 +1,3 @@
+Direction mode issues with model based merging
+
+I20060131-1200 The direction mode of the Synchronize Dialog/View currently does not work as the Team -> Synchronize modes do. Incoming mode and conflict mode show outgoing changes as well

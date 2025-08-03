@@ -1,0 +1,3 @@
+[ltk] allow changes to be executed after the 'main' change during an undo [refactoring]
+
+In the current implementation, during an undo, the changes provided by the participants are executed (in reverse order) before the 'main' changes provided by the refactoring processor. This is a problem if the participant's changes need the state after refactoring (or after undo refactoring) to be successfully executed (see bug 60049). It would be better if there was a way to say 'this change need to be executed when the workbench is in its new state'.

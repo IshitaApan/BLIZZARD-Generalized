@@ -1,0 +1,3 @@
+[nls tooling] NPE in externalize string wizard
+
+I20050330-0500: Steps to reproduce: - Externalize abitrary string - Choose eclipse message bundles - Use key of the form ClassName + a.b.c.d -> Key validation fails with NPE

@@ -1,0 +1,3 @@
+Regression in some 'JavaReplaceAll' performance tests
+
+Looking at I20080305-1100 performance results, it seems that JavaReplaceAll#test() and JavaReplaceAllWithQuickDiffTest#test() show a significant regression. Here are the numbers: - JavaReplaceAll#test(): between -6.2% and -18.9% - JavaReplaceAllWithQuickDiffTest#test(): between -5.6% and -15.8% For these tests, it seems that something happened between I20071120-0800 and I20071127-0800 builds (not 100% sure as one of the test box does not show the same gap).

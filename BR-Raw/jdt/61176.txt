@@ -1,0 +1,3 @@
+Need better dialog when change type isn't supported
+
+I20040505 - run change method signature on the return type of foo: public void virtualMethod() { class Local { String foo() { return null; } } } The dialog that comes up tells !ChangeTypeAction.exception!. First there seems to be an NLS error. The String isn't NLS correctly. Second, this isn't an exception. The dialog should say something like: The operation isn't supported inside local types.

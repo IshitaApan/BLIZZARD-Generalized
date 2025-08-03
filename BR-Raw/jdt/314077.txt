@@ -1,0 +1,3 @@
+[move member type] Incorrect message while 'Move Type to New File' when CU not on Build path
+
+Build I20100520-1744 - New workspace - Open a Java file placed anywhere on the file system (but is not on build path) Use following snippet package q; public class B { void foo() { System.out.println(); } } class A{ 	 } - Select class 'A' - From the Menu bar 'Refactor' -> Move Type to New File => Dialog saying ' To activate this refactoring, please select the name of a member type or a secondary type' comes up. However dialog saying 'the CU is not on the build path' should come up.

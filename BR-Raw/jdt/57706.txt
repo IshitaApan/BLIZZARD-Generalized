@@ -1,0 +1,3 @@
+[navigation] expecting an override indicator for overrides in anonymous classes
+
+Currently no override indicator is shown when I override/implement a method in an anonymous class. Given that we show override indicators for normal overrides it is confusing to not see the override indicator in this case.

@@ -1,0 +1,3 @@
+[quick fix] Create 'for' loop for int array creates duplicate local variable
+
+package com.test; public class C1 { 	private int[] nums; 	private void foo() { 		nums 	} } ------------------------------------------ In the above example, hover over 'nums' in foo() and apply the quick fix "Create 'for' loop". It results in the following code: 		for (int i = 0; i < nums.length; i++) { 			int i = nums[i]; 			 		} The local variable 'i' is duplicate and has compilation error.

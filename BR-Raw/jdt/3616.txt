@@ -1,0 +1,3 @@
+No icon for method parameters in code assist list (1GD014D)
+
+Trigger code assist in a method with parameters so that a parameter name shows in the list. Note that the parameter name has no icon. NOTES:

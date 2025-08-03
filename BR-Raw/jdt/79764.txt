@@ -1,0 +1,3 @@
+[JUnit] Stop button is not disabled after tests finished in debug mode
+
+Smoke for I20041130. Launch a JUnit test in debug mode with "Keep Junit running..." OFF. After the test run has finished, the "Stop" button is still enabled, even though the VM is already down. Pressing the button disables it.

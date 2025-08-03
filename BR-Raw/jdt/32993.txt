@@ -1,0 +1,3 @@
+Preferences->Java->New Project uses different border for group box
+
+RC 1

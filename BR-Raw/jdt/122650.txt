@@ -1,0 +1,3 @@
+ASTParser.createBindings(IJavaElement[]) returns wrong element
+
+When invoking createBindings() with an IMethod of a generic method inside a class file in a jar with or without attached source, a type binding instead of a method binding is returned, for example in the following case for foo: ---------- package gTest; public class Test4 { 	<E> void foo(E e) { 	} } ---------- For non-generic methods or methods which only use their declaring types' type parameters, the correct method binding is returned.

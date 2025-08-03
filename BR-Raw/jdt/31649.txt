@@ -1,0 +1,3 @@
+Quick assist surround proposals need different label
+
+20030211 All uix fix/assist proposals have a descriptive label 'Remove xx', 'Change to..' The surround template proposals should follow this rule as well. e.g. 'Surround with {0} template'

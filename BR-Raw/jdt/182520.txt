@@ -1,0 +1,3 @@
+open / close project takes 100 % of the CPU
+
+Version: 3.3.0 Build id: N20070415-0010 J2RE 5.0 IBM J9 2.3 Windows XP x86-32 build j9vmwi3223-20070201 Found while verifying fix for bug 181900. Test scenario: same as for bug 181900, open/close org.eclipse.update.configurator project in the monster workspace. the open / close dialog shows up 5 sec but then, a background job takes 100% of the CPU, and the workstation becomes barely usable until this background job has completed (sometime 3 minutes !) Taking traces and snapshots leads to a package explorer issue, while trying to update the projects tree. To be attached files: 1 - jvm dumps 2 - Yourkit snapshots 2 - screen shot

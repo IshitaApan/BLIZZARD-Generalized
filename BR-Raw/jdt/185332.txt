@@ -1,0 +1,3 @@
+[introduce parameter object] does not respect field prefix/suffix settings
+
+I20070502-0010 Given: package test; public class E01 { 	public E01(int number) {} } 1. Go to Preference Page Java>Code Style 2. For fields define a prefix 'foo' and a suffix 'Bar' 3. Ok 4. Select constructor E01 5. Introduce Parameter Object 6. Accept defaults Is: package test; public class E01Parameter { 	public int number; 	public E01Parameter(int number) { 		this.number = number; 	} } Should: package test; public class E01Parameter { 	public int fooNumberBar; 	public E01Parameter(int number) { 		fooNumberBar = number; 	} } Also hint that a 'this' qualification is not required in this case...

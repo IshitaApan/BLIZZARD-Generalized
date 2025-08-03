@@ -1,0 +1,3 @@
+Window working set has strange name in type hierarchy view
+
+Build id: I20051206-1200 Don't know if this is JDT/UI or Platform/UI but when the window working set is selected a strange name is presented in the title bar of the view (see attached screen shot)

@@ -1,0 +1,3 @@
+[extract method] should declare method static if extracted from anonymous in static method
+
+I20060725-0800 public class Try { public static void main(String[] args) { new Runnable() { public void run() { //extract method on "xx", extract to class Try System.out.println("xx"); } }; } } The extracted method is nonstatic, which results in a compile error.

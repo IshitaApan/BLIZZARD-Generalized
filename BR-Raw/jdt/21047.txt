@@ -1,0 +1,3 @@
+code formatter availability inconsistent
+
+Sometimes the hotkey (ctrl-shift-f) and the menu entry for formatting the source code are disabled, while the entry in the context menu is enabled and works as expected. I didn't find any patterns on when this occurs till now.

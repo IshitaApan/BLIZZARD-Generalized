@@ -1,0 +1,3 @@
+[open type] revert using new API to open several editors at once
+
+I20090508-2000. We need to revert using the new API to open several editors at once for two reasons: 1) there are bugs in the activation of editors (see bug 272884) 2) there's currently no API to lazily reveal a selection and hence the type is not selected in the editors

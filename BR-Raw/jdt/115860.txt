@@ -1,0 +1,3 @@
+ModelProvider and ResourceMapping
+
+JDT should create a ModelProvider (If you don't already have one for the refactoring history support) and should ensure that their ResourceMapping subclasses override the getModelProviderId to return the id of the JDT model provider. Once this is done, we can make the method in ResourceMapping abstract to force new subclasses to provide their own id.

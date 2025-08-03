@@ -1,0 +1,3 @@
+JavaElementLabels#getTypeSignatureLabel(...) should handle capture
+
+N20050524 When bug 96410 is fixed, the binding key for 'get(null)' in the following example will contain a 'capture-of ?' return type and a 'capture-of ?' argument. class Key<E extends Key<E>> {} class Store<F extends Key<F>> { 	F get(F f) { return null; } } public class X<T> { 	Store<?> store; 	Key<?> key = store.get(null); } JavaElementLabels#getTypeSignatureLabel(...) should handle Signature#CAPTURE_TYPE_SIGNATURE as well.

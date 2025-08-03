@@ -1,0 +1,2 @@
+JavaEditor should honor the tab width setting of the JavaFormatter
+

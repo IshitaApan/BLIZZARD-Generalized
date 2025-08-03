@@ -1,0 +1,3 @@
+[5.0] Mark inherited members doesn't work for parameterized types
+
+I20050509-2010 public class MyList extends ArrayList<String> implements List<String> { 	@Override 	public boolean add(String o) { 		// TODO Auto-generated method stub 		return super.add(o); 	} } Neiter selecting ArrayList nor List marks the method add(String o). However this method overrides the method from ArrayList and implements the one from List.

@@ -1,0 +1,3 @@
+[model] JavaCore.newLibraryEntry(.., IClasspathAttribute[], ..) should check for null
+
+I20070109-1805 JavaCore.newLibraryEntry(.., IClasspathAttribute[], ..) should throw an exception if the given IClasspathAttribute[] is not null. Currently, null is silently accepted and leads to NPEs when the extra attributes are accessed later. Although unspecified, passing null for accessRules is currently accepted (and explicitly handled). Therefore, it's maybe better to continue allowing null for accessRules. Even jdt.core code currently relies on this behavior, see ClasspathEntry.decodeAccessRules(NodeList). I just fixed a broken invocation in our class BuildPathSupport, but such problems may be hard to find in general since creation and usage are quite separated.

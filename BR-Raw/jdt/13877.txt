@@ -1,0 +1,3 @@
+NLS tool - values are not displayed correctly
+
+On the first page, the values ".", "...", "\n" are displayed as "", "", " ". At least the case of "." seems to happen for windows as well. I think "\n" should be displayed in the escaped notation again, as "\n".

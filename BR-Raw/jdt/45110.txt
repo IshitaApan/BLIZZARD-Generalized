@@ -1,0 +1,3 @@
+No constant for '..compiler.problem.missingAnnotation'
+
+20031015 The constant for "org.eclipse.jdt.core.compiler.problem.missingAnnotation" is missing. e.g. JavaCore.COMPILER_PB_MISSING_ANNOTATION;

@@ -1,0 +1,3 @@
+'show in packages view' - surprising behavior
+
+in the editor, when there's no selection or the selection cannot be resolved - 'show in packages view' finds the cu in the packages view. when the selection resolves to sth - it shows the cu that declares the thing the selection resolves to. this is highly surprising - i do not pay any attention to the current selection when using this useful action. these 2 things are really 2 different action - that's how i see it.

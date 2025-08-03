@@ -1,0 +1,3 @@
+call hierarchy: 'refresh' should available only in dropdown menu
+
+toolbar button is not conventional and not accessible we should remove it from there and put in the dropdown menu (context menu is ok, i guess)

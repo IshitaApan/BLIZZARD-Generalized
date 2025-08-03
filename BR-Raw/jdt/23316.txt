@@ -1,0 +1,3 @@
+preference to turn off automagic-closing-brackets
+
+there should be a way to turn it off - i'm not used to it and it gets in my way a bit

@@ -1,0 +1,3 @@
+renaming of source folder leaves "Missing source folder <new folder name>" marker
+
+- autobuild is off - the folder is neither ready-only nor derived - the marker disappears on the next 'build' my guess from our discussion is that first the folder gets added to the classpath with its new name and only then the folder is renamed (instead of the other way arround)

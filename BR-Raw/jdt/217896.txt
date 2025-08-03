@@ -1,0 +1,3 @@
+[build path] New Java Project - JRE group's radio buttons are misbehaving
+
+Created attachment 88922 Screen shot. Using Eclipse 3.4 M4. In the new Java Project wizard, the JRE group contains 3 radio buttons, but the "Use default JRE" radio button is not behaving correctly with regards to the other two radio buttons. Steps... 1. File > New > Java Project. 2. On the first page of the wizard, in the JRE group, select the "Use default JRE" radio button. 3. Notice that the previously selected radio button is still selected. 4. No matter what you do, you cannot get the "Use default JRE" radio button to become unselected. The "Use default JRE" radio button is not playing nicely with the other radio buttons.

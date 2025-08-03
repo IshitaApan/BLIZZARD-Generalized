@@ -1,0 +1,3 @@
+[search] rename "Java Search Job"
+
+The Job description is shown to the user and Jobs are an implementation detail. Therefore change the Job description to Searching Java

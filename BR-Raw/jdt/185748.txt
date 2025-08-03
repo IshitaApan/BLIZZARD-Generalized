@@ -1,0 +1,3 @@
+[introduce parameter object] all options in dialog should be persisted
+
+HEAD All options in the Introduce Parameter Object dialog should be persisted when the dialog is closed and restored as defaults when the dialog is opened again. Destination, getters, and setters should be stored, and the delegate settings should be shared with Rename Method and Change Method Signature. See e.g. RenameInputWizardPage.dispose().

@@ -1,0 +1,3 @@
+Persist "update references" refactoring preference
+
+The "Move" refactoring dialog should persist the "Update references to the moved element(s)" preference. In addition, the default setting for the button should be ON. The common case for a refactoring is that the user wants us to update references.

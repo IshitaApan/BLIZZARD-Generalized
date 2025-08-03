@@ -1,0 +1,3 @@
+[implementation] If two editors use the 2.x-compatible API, one or both doesn't work
+
+At least one problem is that 3.0 installs partitioners for every editor that might possibly edit a file, but each editor expects its own partitioner to be installed. Leading to the famous white screen with blue line.

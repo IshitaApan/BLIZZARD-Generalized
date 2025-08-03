@@ -1,0 +1,3 @@
+[introduce factory] does not check for existing factory methods
+
+I20050510: Steps to reproduce: - Invoke Introduce Factory on the constructor class TaskUtilities { 	public static TaskUtilities createTaskUtilities() { 		return null; 	} 	public TaskUtilities() {} } -> Refactoring inserts second method createTaskUtilities without issueing an error

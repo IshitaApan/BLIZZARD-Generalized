@@ -1,0 +1,3 @@
+Mark method exits by itself is not working
+
+Build I200405190010 1. Check Java > Editor > Mark occurrences > Mark method exits (only) 2. Select the return type of a method containinga return statement Observe: the return type is not highlighted. Expectation: it should be. 3. Check Java > Editor > Mark occurrences > Mark exceptions (in addition to Mark method exits) 4. Select the return type again Observe: the return type is highlighted.

@@ -1,0 +1,3 @@
+Default for compiler compliance level
+
+From a mail from Philippe: In order to reflect the migration to 1.4, compiler settings for JDT/Core projects should be: - compiler compliance 1.4 - source compatibility 1.3 - generated classfile compatibility 1.2 These are 1.4 compilers defaults anyway. JDT/UI got informed that their defaults in 1.4 compliant mode do not match expectation. Martin, can you please change our defaults.

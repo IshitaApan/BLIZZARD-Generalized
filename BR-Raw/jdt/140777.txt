@@ -1,0 +1,3 @@
+[nls tooling] Wrong dialog title for 'Externalize Strings...'
+
+RC3 - Use 'Externalize Strings' on a package that doesn't contain any string to externalize. - Dialog with title 'Find Strings to Externalize' shows up, should be 'Externalize Strings...' See also bug 139145

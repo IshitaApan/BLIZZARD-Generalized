@@ -1,0 +1,3 @@
+Searching for references ignores selected working set [search]
+
+In build I20030826 (M3 candidate), if I select a java method and perform a Search>References and select a working set, the search is still performed on the entire workspace.

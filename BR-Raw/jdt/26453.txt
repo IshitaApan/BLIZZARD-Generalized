@@ -1,0 +1,3 @@
+Use of extracted constant should be qualified by class name
+
+When extracting a constant the constant should be qualified by the enclosing class name since its static. e.g. return "foo"; replaced by return Enclosing.FOO_CONSTANTS

@@ -1,0 +1,3 @@
+Infere type arguments active for classses not on build path
+
+- create a class not on the build path - select a member in the outliner - activate Infere ... Observe: the refactoring comes up. A dialog box should be shown instead.

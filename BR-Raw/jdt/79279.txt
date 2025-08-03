@@ -1,0 +1,3 @@
+Extract Interface should be disabled on annotations [refactoring]
+
+Title says it all...

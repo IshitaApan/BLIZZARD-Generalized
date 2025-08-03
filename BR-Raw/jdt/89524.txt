@@ -1,0 +1,3 @@
+[refactoring] [5.0] Wrong change preview in introduce parameter
+
+M6 test candidate Steps to reproduce: - Create the following method: 	/** 	 * @param string 	 */ 	public void foo(String string) { 		String s= new String(); 	} - Invoke introduce parameter on constructor invocation - Consult preview -> Clicking on the "AboutDialog", "foo(String" and "Change signature" tree item shows erroneous change

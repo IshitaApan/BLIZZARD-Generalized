@@ -1,0 +1,3 @@
+[preferences] Java Editor preference page cut off in High Contrast
+
+RC2 1) Change your window resolution to 1152x768 2) Select Use High Contrast from the Accessibility options 3) Restart when prompted 4) Open the preference dialog 5) Select java - > Editor

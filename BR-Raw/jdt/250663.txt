@@ -1,0 +1,3 @@
+Fix for 249932 causes JDT Launching bundle to be activated
+
+N20081012-2000. The fix for bug 249932 causes the JDT Launching bundle to be activated. We probably have to live with it but filing this bug to record it and give it a last consideration.

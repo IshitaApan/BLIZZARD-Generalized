@@ -1,0 +1,3 @@
+[clean up] 'Only format changed regions' off by one at line end
+
+HEAD as of 20071002_1138 public class A { 	int a= 1; 	int b= 2; 	int c= 3; 	int d= 4; } - append '//' to line that declares b => c is also formatted. Expected: only line b formatted

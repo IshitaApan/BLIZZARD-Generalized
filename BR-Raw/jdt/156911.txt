@@ -1,0 +1,3 @@
+[Compare] Modify Java compare classes to support file buffers
+
+In tomorrows integration build (which will probably be today by the time you read this bug), there will be support for the use of file buffers in compare editors. The use of file buffers requires modifications to the Java compare classes. I will attach a patch. Also, any feedback is welcome.

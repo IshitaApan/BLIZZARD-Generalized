@@ -1,0 +1,3 @@
+Matching bracket not working
+
+hi, I was trying to match a bracket in a core jdk class (BasicScrollBarUI) inside the method actionPerformed() for the curly brace at the end of the line: 1156. The short cut key is Ctrl+Shift+P (default). The first time that i performed this key combo, the cursor was moved to the beginning of line 1164, which is correct. At this location, when I tried the same keys, where previously I was taken back to the end of line 1156, now I just get a <ding> sound - as though there was an error. This was working in the latest integration build before RC2. I would really appreciate it if this could be fixed soon. Thanks

@@ -1,0 +1,3 @@
+M5: JUnit preferences aren't saved between sessions [JUnit]
+
+If I disable all stack trace filters in the Java > JUnit preferences page, then apply, everything is fine for this session. When I restart Eclipse, however, the filters are all reenabled. Also, if I remove all filters, they reappear when I restart.

@@ -1,0 +1,3 @@
+utilize classpath variable initializers
+
+From JCORE: "the CLASSPATH VARIABLE INITIALIZE should be leveraged by the orgg.eclipse.jdt.launching plugin to initialize JRELIB, JRESRC etc." CLASSPATH VARIABLE INITIALIZER============================== Added extension point to jdtcore so as to allow client plugins to register classpath variable initializers. Extension point is "org.eclipse.jdt.core.classpathVariableInitializer"). (also check development resources for design notes on this topic) Note that each classpath variable, if unbound, will trigger its registered initializer exactly once per session. If unsuccessful, it will stay unbound.

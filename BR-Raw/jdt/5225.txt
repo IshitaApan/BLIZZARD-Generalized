@@ -1,0 +1,3 @@
+1.0 -- Casting problem in RunToLineAction class
+
+The Java editor fails to open a java source file when we have PICLDebugTargets in the debug view. There is java.lang.ClassCastException at org.eclipse.jdt.internal.ui.javaeditor.RunToLineAction.getContextFromModel (RunToLineAction.java:111) The getContextFromModel() method incorrectly assumes that all debug targets are of type JDIDebugTarget. I see a few other spots in RunToLineAction where a debug target is blindly cast to a JDIDebugTarget without checking it first. I am seeing this with the R1.0 (0.137 build) driver. I don't think this is a new problem.

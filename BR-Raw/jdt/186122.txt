@@ -1,0 +1,3 @@
+[build path] strange parent resource is not accessible error message on linke source
+
+I20070503-1400 1. Create a new Project P01 2. P01>Build Path>Link Source 3. Variables... 4. New... 5. Name 'Foo', Location 'c:\foo\bar' 6. OK 7. OK 8. Folder name 'c:\foo\bar' Is: Strange error message "Cannot create linked resource '/P01/foo/bar'. The parent resource is not accessible."

@@ -1,0 +1,3 @@
+[breadcrumb] Need two clicks to open child arrow drop down if other already open on osx
+
+I20080513-2000 In the breadcrumb on OSX 1. Open a child drop down through the child arrow 2. Click on another child arrow Is: Drop down closes but other drop down does not open, another click is required Should: Close drop down and open other drop down like on other platforms I think the problem is, that on OSX the tool bar buttons do not work at all as long as another shell has focus (the drop down in this case). On the first click the focus is transfered into the workbench windows which closes the drop down. And now the toolbar button works again hence the required second click. Not sure what I can do (except implement my own toolbar). Seems to be a platform problem.

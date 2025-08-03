@@ -1,0 +1,3 @@
+[api][spell checking] Source viewer: Ignoring or adding word does not remove squiggles
+
+3.3 RC4 Ignoring or adding word to dict does not remove squiggles if the source viewer is not inside a text editor.

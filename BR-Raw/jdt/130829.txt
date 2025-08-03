@@ -1,0 +1,3 @@
+[hovering] Empty yellow box over imports
+
+Build: I-20060307-1315 Put the mouse pointer over an import statement in the Java editor, and you will get a empty yellow box. Screenshot to follow.

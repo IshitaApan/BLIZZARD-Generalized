@@ -1,0 +1,3 @@
+rename of read-only package doesn't ask for confirmation on 'OK'
+
+- 'rename' read-only package - leave everything unchecked except 'Update ref. to renamed element' - 'Update ref. to renamed element' can be checked or unchecked - press ok -> renames without asking for confirmation

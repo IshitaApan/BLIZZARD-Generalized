@@ -1,0 +1,3 @@
+[content assist] Adopt new char array based StyledString.append methods
+
+N20080315-0100. We need to replace the calls to StyledStringBuilder.append(new String(char[]), ...) with StyledStringBuilder.append(char[],...).

@@ -1,0 +1,3 @@
+Need ITypeBinding#getDeclaringClass() for capture types
+
+ITypeBinding#getDeclaringClass() currently returns null for capture type bindings. It should return the declaring type. For our TTypes, we need to be able to distinguish capture bindings from different projects even if they have the same key (rare case, I agree, but it could happen). Therefore, we have to store the project in which the capture binding is declared. We want to do this via getDeclaringClass().getJavaElement().getJavaProject(). Could this be implemented for the next I-build?

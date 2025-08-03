@@ -1,0 +1,3 @@
+[breadcrumb] Remember maximal drop-down height
+
+I20081014-1600 Breadcrumb dropdowns should remember their maximal height. It's nice that the default size of the dropdown is as small as possible, but if the list gets long, the height is currently constrained to about 17 items. The dropdown should store the height when the user resized the dropdown, and use the user-specified height as maximal height.

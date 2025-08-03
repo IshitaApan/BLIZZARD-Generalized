@@ -1,0 +1,3 @@
+Dialogs for source actions do not use dialog font [dialogs]
+
+select a cu in package explorer context menu "Source": "Override/Implement methods..." "Generate Getters and Setters..." "Generate Delegate methods..." "Add constructor from superclass..." "Generate constructor using fields..."

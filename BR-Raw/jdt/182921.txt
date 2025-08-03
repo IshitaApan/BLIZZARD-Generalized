@@ -1,0 +1,3 @@
+[Sync View] Missing outgoing/incoming icon in Java Model
+
+I20070417-0800 The synchronize view has lost the incoming and outgoing icons when using the Java Workspace model.

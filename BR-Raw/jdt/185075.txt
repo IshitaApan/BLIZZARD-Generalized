@@ -1,0 +1,3 @@
+[JUnit] leaking TestRoots with multiple running tests
+
+20070205 - JUnit source - run 'AllTest' several times, repeat clicking 'rerun' button in the JUnit view With the profiler I found that the TestRoots are still in memory - all are still added as ElementChangedListener until the first modification happens - some are still available in the TestRunSession

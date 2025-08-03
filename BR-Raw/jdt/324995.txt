@@ -1,0 +1,3 @@
+[preferences] New formatter profile version must not automatically touch existing projects
+
+HEAD after bug 318010 comment 3 - In 3.7 M1, create a workspace and a project with project-specific formatter settings. Set "Insert new line after annotations on members" to "do not insert". - Start the same workspace with HEAD => unsolicited changes in org.eclipse.jdt.core.prefs and org.eclipse.jdt.ui.prefs The same bug has already been detected as bug 217874, but the resolution was wrong.

@@ -1,0 +1,3 @@
+[misc] Renaming a project with an open editor fills log
+
+I20030716+plugin-export 1) have a Java file open in the Java editor 2) rename the enclosing project -> exception in log but no stacktrace

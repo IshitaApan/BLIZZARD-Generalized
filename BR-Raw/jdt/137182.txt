@@ -1,0 +1,3 @@
+[hovering] Annotation hover always placed at same horizontal position
+
+3.2 RC1 The annotation hover is not placed where the change is but always at the same horizontal position.

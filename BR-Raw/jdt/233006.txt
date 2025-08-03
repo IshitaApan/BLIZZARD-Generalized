@@ -1,0 +1,3 @@
+[quick fix] Fix project setup tries to add plugin dependencies to Java project
+
+I20080516-1333 1. Paste SWT hello world snipped into PE http://www.eclipse.org/swt/snippets/ 2. On the import statement do quick fix 3. Select 'Fix Project Setup...' Is: Adding library Plugin Dependencies is proposed Should: Add SWT or at least don't propose anything Adding the proposed library is a no-op, nothing in the log.

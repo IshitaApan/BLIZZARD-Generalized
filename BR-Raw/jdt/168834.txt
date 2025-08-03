@@ -1,0 +1,3 @@
+[getter setter] should remove final field modifier
+
+I20061219-1300 Given: package test; public class E { 	private final int field; 	public E() { 		field= -1; 	} } 1. Source>Generate Getters and Setters... 2. Check 'field' (why is it not already checked?) 3. OK Is: Dialog is asking me if I want to skip the generation of the setter (due to final modifier of field) Should: What I want is that the action removes the final modifier. There is code which can do that: VariableDeclarationRewrite

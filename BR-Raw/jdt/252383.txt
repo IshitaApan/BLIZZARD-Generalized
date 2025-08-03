@@ -1,0 +1,3 @@
+[browsing] NPE when switching to/from Welcome
+
+I20081027-1800. 1. open Java Browsing perspective 2. open Welcome 3. close Welcome ==> NPE:

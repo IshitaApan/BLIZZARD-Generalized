@@ -1,0 +1,3 @@
+Cleanup, remove parenthisis cause problem
+
+The line: if (("" + rootAttributes.get("type")).equalsIgnoreCase("delta")) { results in: if ("" + rootAttributes.get("type").equalsIgnoreCase("delta")) {

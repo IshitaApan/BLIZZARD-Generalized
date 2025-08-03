@@ -1,0 +1,3 @@
+wrong ordering of specifiers (annotations) after refactoring overriding method
+
+After refactoring a method to make it protected, the @Override annotation in inheriting methods gets placed _after_ the protected keyword, instead of above it, as is done nicely when using the quickfix `Add unimplemented methods'

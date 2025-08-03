@@ -1,0 +1,3 @@
+Alignment problem in Java Editor pref page
+
+I20030604 Incorrect alignment of radio buttons and color chooser button (see attached screenshot).

@@ -1,0 +1,3 @@
+[clean up] takes wrong profile
+
+I20061030-1704 Clean up on active editor takes wrong clean up profile. I can provide the workspace if you cannot reproduce. Marking as major since the user has no clue what's going on.

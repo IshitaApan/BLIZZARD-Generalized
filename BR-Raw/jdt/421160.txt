@@ -1,0 +1,3 @@
+[content assist] Make constructor of ParameterGuessingProposal public
+
+We'd like to subclass ParameterGuessingProposal but can't since the constructor is private. Opening it would allow us to get rid of quite a few lines of duplicated code on recommenders side. It would be nice if this change could be merged into 4.3.2 too. A change-set is available in gerrit [1]. [1] https://git.eclipse.org/r/#/c/17938/

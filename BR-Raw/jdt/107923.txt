@@ -1,0 +1,3 @@
+[quick fix] Shouldn't offer "Add throws declaration" quickfix for overriding signature if result would conflict with overridden signature.
+
+Applying the "Add throws declaration" quickfix results in illegal signature. ------------------------- Bug.java ------------------ class Bug implements Runnable { public void run() { Class.forName(null); } }

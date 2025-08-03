@@ -1,0 +1,3 @@
+Bad progress reporting on rename method
+
+I20050527-0010 While verifying bug 87256 I noticed that the progress reporting here is very bad. You first get a message saying: search for occurrences with no progress and then one saying searching for references with now real progress. To reproduce, try to rename Change#getName to Change#getName2 in a workspace having LTK and JDT/UI in source. Markus, can you please have a look. If easy to fix we should consider for RC2.

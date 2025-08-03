@@ -1,0 +1,3 @@
+Override/Implement Methods dialog does not (properly) resize [code manipulation]
+
+The Override/Implement Methods dialog contents are not re-layouted properly when the windows is resized, i.e. the list on top is not scaled at all on windows and unproportionally (regarding the bottom part of the dialog) on linux.

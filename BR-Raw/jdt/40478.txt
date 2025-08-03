@@ -1,0 +1,3 @@
+[convert local] convert local variable to field can declare field as final if method is construtor [refactoring]
+
+The "Convert Local Variable to Field" refactoring pops up a dialog box. Part of that dialog box as where to initialise the field. If "Current method" is selected then the option below "Declare field as 'final'" is greyed out. This should not happend if the "Current method" is a constructor because you can have the field as final.

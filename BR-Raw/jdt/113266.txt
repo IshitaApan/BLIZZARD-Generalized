@@ -1,0 +1,3 @@
+[syntax highlighting] javadoc tag names including period is not highlighting correctly
+
+javadoc allows tag names including period. Eclipse correctly shows it in "javadoc view" and hover text. However syntax highlight does not consider to such tag names.

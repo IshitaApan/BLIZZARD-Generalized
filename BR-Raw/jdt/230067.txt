@@ -1,0 +1,3 @@
+[organize imports] Organize imports adds useless and invalid static imports
+
+Sample, class: ---- package sample; class Test<T> { 	 	private static String TEST = "constant"; 	 	static class Inner extends Test<String> { 		 		public void test() { 			TEST.concat("access"); 		} 		 	} 	 } ---- Organize imports adds: import static sample.Test.TEST; The import is unnecessary and invalid (compile error because the constant is private).

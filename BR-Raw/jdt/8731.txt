@@ -1,0 +1,3 @@
+Modify method parameters: unclear error message when renaming a paramter
+
+Build 20020129 Rename a method parameter for a method that is also declared in an interface. You get the following message: Method ... is declared in an interface. Perform this action there. This makes only sense if I reorder parameters.

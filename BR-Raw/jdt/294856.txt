@@ -1,0 +1,3 @@
+[encapsulate field] Back + Preview or OK ==> duplicated code
+
+I20091111-0800. 1. paste this: public class Bug { 	private int i; } 2. Refactor > Encapuslate Field... 3. click Preview 4. click Back 5. click Preview or OK ==> code is duplicated

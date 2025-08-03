@@ -1,0 +1,3 @@
+[content assist] Content assist offers wrong type completion after TypeName
+
+Broken in 3.8, was OK in 3.7.2 - create a new Plug-in project, all defaults - paste this class: package p; import org.eclipse.core.runtime.IStatus; import org.eclipse.core.runtime.Status; class Test { 	boolean foo() { 		IStatus jobResult = null; 		return jobResult == Status.; 	} } - put caret after "Status." and press Ctrl+Space => First two proposals are type proposals for Status and MultiStatus. These are both wrong and should not show up.

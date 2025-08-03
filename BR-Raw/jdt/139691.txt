@@ -1,0 +1,3 @@
+[navigation] Syntax highlighting broken in Declarations view
+
+I20060428-1315 The declarations view does not highlight comments and Javadoc anymore.

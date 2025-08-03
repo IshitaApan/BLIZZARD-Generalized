@@ -1,0 +1,3 @@
+[preferences] Widget gets enabeled when restore to defaults is pressed
+
+1. set Workspace Compiler > Javadoc > 'Malformed Javadoc comments' setting to 'warning' 2. click 'OK' 3. open project properties of that preference 4. click 'Restore Defaults' ==> some of the widgets become visually enabled but in fact they are disabled. Martin, can you please investigate. If easy to fix then we should add it for 3.1.1. However since the widgets don't accept any user input the state is confusing but doesn't cause any harm. So not a stop ship.

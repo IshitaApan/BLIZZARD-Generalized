@@ -1,0 +1,3 @@
+Disable Back and Next buttons when showing progress in Rename Type wizard
+
+I20051130-1215 The Back and Next buttons in the Rename Type wizard must be disabled while the wizard is showing progress. The Cancel button is the only one that should be enabled during transitions from one wizard page to the other (in both directions). Philip, could you please have a look?

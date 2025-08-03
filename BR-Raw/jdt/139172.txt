@@ -1,0 +1,3 @@
+Inline binary method should fail with a more precise message
+
+I20060428-0010 - try inlining a call to System.currentTimeMillis() < actual: fails, says "cannot inline abstract method" > expected: fails, says "cannot inline native method"

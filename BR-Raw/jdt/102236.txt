@@ -1,0 +1,3 @@
+[JUnit] display execution time next to each test
+
+It would be nice if after running a test the time taken by each test case, and each test suite, was displayed to the right of the test. [Apologies if I've guessed wrong which component to assign this to, I'm afraid I don't get much enlightenment from the descriptions of the component at https://bugs.eclipse.org/bugs/describecomponents.cgi?product=JDT]

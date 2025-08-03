@@ -1,0 +1,3 @@
+[refactoring] Refactoring history doesn't seem to be formatting strings properly
+
+I20100426-0852 1. Create a Java project. 2. Make a class in the source folder. 3. Delete it. 4. Access the project's properties > Refactoring history 5. Keep expanding, you'll see a 'Delete element' entry, select it. 6. I get the following in the details text box. Delete element from {1} - Original project: 'Test' - Original element: 'Main.java'

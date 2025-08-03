@@ -1,0 +1,3 @@
+New project wizard: second page remove from class path should ask for removal of folder when linked
+
+RC1 - create a new project - switch to the second page - link in additional source observe: there is no way to unlink the addtional source We should offer to unlink the folder when the folder is removed from the build path again.

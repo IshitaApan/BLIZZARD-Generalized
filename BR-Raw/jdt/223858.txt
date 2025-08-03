@@ -1,0 +1,3 @@
+[hovering] Clicking 'Configure Annotation Preferences' opens Preferences behind hover
+
+I20080325-0100, Mac OS X 10.5.2 - have hover enrichment set to 'after delay' - in a Java problem hover, click 'Configure Annotation Preferences' => opens the Preferences dialog behind the hover shell (hover has focus in the end) Expected: Hover closed as on other platforms.

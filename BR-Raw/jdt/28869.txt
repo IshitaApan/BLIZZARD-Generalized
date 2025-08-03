@@ -1,0 +1,3 @@
+Parse error with final local vars without immediate assignment
+
+Consider this prototype code: void foo() { final PreparedStatement statement; try { statement = xxx.prepareStatement(...) } catch (..) { // handle errors } return statement; } For this kind of thing I often use a final local variable - mostly to enable the compiler to find my errors (like assigning more than once). However, with Eclipse I get parse errors (cursor on the line that declares the local var) when using refactoring functions, such as "Reorganize imports". The Eclipse version used is Eclipse 2.1 M4.

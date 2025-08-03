@@ -1,0 +1,3 @@
+Wrong formatting in Extract Local Variable [refactoring]
+
+200404131323 public class A { 	void m() { 		int i= 1 + 2; 	} } Select "1 + 2" and choose Refactor > Extract Local Variable. Result has a newline too much: public class A { 	void m() { 		 int j= 1 + 2; 		int i= j; 	} }

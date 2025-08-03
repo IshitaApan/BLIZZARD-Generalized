@@ -1,0 +1,3 @@
+Checking off a method/field in the refactoring wizard navigates list to top
+
+See pictures I'll attach afterwards. 1. I navigated to the bottom of the list 2. Checked "measureBlackLevel()" 3. The list navigated to top I expected "3.jpg" instead of "2.jpg". Øyvind

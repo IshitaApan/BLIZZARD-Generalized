@@ -1,0 +1,3 @@
+Package explorer is filtering out plugin dependencies [package explorer]
+
+Build 20040506 When expanding the Plug-in Dependencies container, it is counter-intuitive to hide project dependencies. These are shown in the build path wizard itself, when you expand this container. I would expect to see them all the time.

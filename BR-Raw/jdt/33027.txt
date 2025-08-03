@@ -1,0 +1,3 @@
+Externalize Strings does not use code template for constructor
+
+Build 2.1 RC1 Externalize some strings and choose to generate the Messages class. Observe: the file and type comment templates are used but not the one for the constructor.

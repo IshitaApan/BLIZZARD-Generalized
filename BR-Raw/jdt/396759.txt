@@ -1,0 +1,3 @@
+[implementation] Editor saves over changed file
+
+I find that if I open a file, make a change but do not save it to disk, then switch branches with egit, I get no prompt or reminder that my edit is incomplete, or that I may corrupt the equivalent file in the switched-to branch. Should it be possible to switch branches with unsaved editing changes?

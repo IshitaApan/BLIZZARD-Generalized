@@ -1,0 +1,3 @@
+status bar doesn't show project of PackageFragmentRoots
+
+The status bar doesn't show the project of selected PackageFragmentRoots. For every other JavaElement, the project is appended after a separator " - ". Remedy: StatusBarUpdater.LABEL_FLAGS should include JavaElementLabels.ROOT_POST_QUALIFIED

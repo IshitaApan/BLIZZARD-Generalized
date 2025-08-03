@@ -1,0 +1,3 @@
+No doc/help on synthetic accessor method warning
+
+In Java code, what does the following warning mean, how would I fix it and why should I care: Access to enclosing method aMethodName(...) from the type aTypeName is emulated by a synthetic accessor method. Thank you, Gary

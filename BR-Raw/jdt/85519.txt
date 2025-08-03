@@ -1,0 +1,3 @@
+[implementation] saveAs existing file fails - content replaced with original content
+
+I20050215-2300 (m5 test pass) - have pkg/Test1.java open - have pkg/Test2.java open - dirty Test1.java - save Test1.java as Test2.java expected: content of Test2 gets replaced with data in Test1 actual: a second editor with Test2.java is opened, Test1.java is closed, the unsaved changes in Test1.java are lost -> lost data.

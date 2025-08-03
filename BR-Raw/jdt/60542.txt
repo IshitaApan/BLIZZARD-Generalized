@@ -1,0 +1,3 @@
+Externalize Strings Wizard: proposes lowercase messages.properties [nls] [refactoring]
+
+I20040428 Externalize Strings Wizard proposes TitleCase class "Messages" and lowercase properties file "messages.properties". This is bad, since the NLS Search page tries to determine the .properties file from the CU name. It fails if the default names are used. The defaults should be "Messages.java" and "Messages.properties".

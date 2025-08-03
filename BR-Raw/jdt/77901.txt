@@ -1,0 +1,3 @@
+Java refactor (renaming a class name) missed something [refactoring] [rename]
+
+The Java "refactor" operation for changing the name of a class misses a certain kind of reference to the class: the Java construct Foo.class, which returns the instance of class java.lang.Class for class Foo. 1. Create a valid, complete Java class called "Foo" in a source file Foo.java. 2. In a method of Foo, add this line: Class dummy = Foo.class; 3. Save the Java source file. 4. Right-click on the *.java file in the Package Explorer 5. Choose Refactor > Rename 6. Enter "Bar" as the new class name When you look at the result, you'll see that "Foo.class" was not changed to "Bar.class" as it should have been.

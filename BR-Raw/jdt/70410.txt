@@ -1,0 +1,3 @@
+[spell checking] Hardcoded paths make copy of workspace unusable and eventually corrupt the original one
+
+R3.0 I copied an existing workspace but had several problems due to hard coded paths in files. One of them was caused by the fact that user defined spell checking dictionary can only be stored as full local path instead of relative workspace location where applicable. The very bad thing about this is that it points into my original workspace and I then can get very strange behavior and even modify/corrupt the original workspace. I think it should be possible to copy an existing workspace and then use it without running into various problems.

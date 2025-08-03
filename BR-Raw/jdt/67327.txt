@@ -1,0 +1,3 @@
+[content assist] Method Parameter code assist is not working
+
+Method parameter code assist is not working when method parameters wrapped to more then one line. Ff I format the same code to one line, the code assist works.

@@ -1,0 +1,3 @@
+New API is needed to better identify referenced jars in the Class-Path: entry
+
+When jars are referenced in the Class-Path: entry, they are all displayed using the name of the jar that referenced them. This makes it really difficult to: - know the names of the jars referenced inside the Class-Path: clause - distinguish them in the package explorer. A new API might be needed to let JDT/UI provide a good display of these jar entries.

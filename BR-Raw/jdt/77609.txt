@@ -1,0 +1,3 @@
+Move instance method and references in binary types [refactoring] [move]
+
+M3 test candidate public class A { 	public void foo(B b) { 	} } - create a class D that references A#foo but put it onto the class path as binary - move A#foo Observe: no complains about the fact that foo is referenced from binary. Since we offer the possibility to generate a delegate we should do so when referenced from binary. I think that other refactorings are affected by this as well. Markus, can you remmeber what the current story is with reference is binaries.

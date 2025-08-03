@@ -1,0 +1,3 @@
+Persist the size of the refactoring wizard
+
+The initial size of the refactoring wizard is often too small and we are getting usability complaints. Suggest to persist the size and position of the refactoring wizard. When restoring the position/size we should check that the wizard still fits on the current screen.

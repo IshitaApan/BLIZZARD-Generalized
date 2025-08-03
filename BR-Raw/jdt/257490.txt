@@ -1,0 +1,3 @@
+[compiler] Quick fix for dead code does not remove all the dead code
+
+build I20081202-1812 1) enable dead code diagnosis 2) create Test.java public class Test { 	void foo() { 		if (true) { 			return; 		} 		System.out.println("1"); 		System.out.println("2"); 		System.out.println("3"); 	} } A dead code problem is reported on the line 'System.out.println("1");' 3) apply the proposed quickfix 'Remove' The line 'System.out.println("1");' is removed. The quickfix could also remove next lines which are also dead code.

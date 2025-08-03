@@ -1,0 +1,2 @@
+[keybinding] Need to update plugin.xml action declarations with new  scheme
+

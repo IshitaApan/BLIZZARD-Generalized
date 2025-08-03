@@ -1,0 +1,3 @@
+[RC1] Sometimes cannot find Type in OpenType Dialog
+
+There is something strange going on in the OpenType dialog. I have a Type called "ElementTypes" with an inner Class of "ElementDescriptor". When I want to find this type in the OpenType Dialog and type "Element" I see 3 Matching Types (besides lots of workspace matches): ElementDescriptor ElementFactory ElementTypes Then I type a "T", and the List is narrowed down to "ElementDescriptor" only. What is even more strange: sometimes it seems to work ok, sometimes not. I did not yet discover a pattern for this, though.

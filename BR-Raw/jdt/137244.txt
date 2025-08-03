@@ -1,0 +1,3 @@
+Type Info filter also needs to search using prefix when CamelCase fails
+
+JDT-UI part to fix issue in Open type described in bug 137087. To test this, you need to apply patch https://bugs.eclipse.org/bugs/attachment.cgi?id=38802&action=view on JDT/Core HEAD... Scenario is: 1) Copy in clipboard pattern "Hashmap" given in bug 137087 2) Open type dialog and paste your pattern in one shot => with JDT/Core patch, you should get HashMap in types list 3) Set cursor at the end of string and suppress last three characters (eg. you only get "Hash" in type string) => you get many other matches: OK 4) Add again "map" at the end to retrieve initial pattern: "Hashmap" => you get no result in types list: KO Extpected behavior is to have only "HashMap" back on types list

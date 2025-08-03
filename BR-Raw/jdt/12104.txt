@@ -1,0 +1,3 @@
+modify parameters: not allowed on some constructors
+
+public class A extends Error{ 	A(String s){} }

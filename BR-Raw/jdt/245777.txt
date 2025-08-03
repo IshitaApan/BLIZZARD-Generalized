@@ -1,0 +1,3 @@
+[refactoring] TypeContextChecker creates stub with syntax error
+
+Build ID: I20080617-2000 Method TypeContextChecker#appendTypeParameters fails to insert the closing '>'. When the result is passed to the parser (I observed this in resolveSuperInterfaces) this unnecessarily requires syntax recovery to luckily get the intended result.

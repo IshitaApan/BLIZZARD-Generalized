@@ -1,0 +1,3 @@
+java editor refers to internal jcore classes
+
+ClassFileEditor CompilationUnitDocumentProvider JavaMarkerAnnotation

@@ -1,0 +1,3 @@
+[painting] Add a performance test for the WhitespaceCharacterPainter
+
+Add a performance test for the WhitespaceCharacterPainter.

@@ -1,0 +1,3 @@
+[preferences] Errors/Warnings page garbled when opened via problem hover
+
+On the Mac, the Errors/Warnings page comes up garbled when opened via the problem hover (e.g. hover on an unused variable and then click the toolbar button). The page has a big white area on top that doesn't render widgets, but the widgets are there (mouse clicks still work). Resizing the dialog fixes the problem. The problem is the combination of two calls in OptionsConfigurationBlock: - control.setFocus() in #selectOption(Key) - parent.update() in #highlight(..)

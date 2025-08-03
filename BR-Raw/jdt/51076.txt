@@ -1,0 +1,3 @@
+Quick fix misses and presents wrong name for target field class
+
+Observe this example: public class Test { 	class Foo { 		void foo() { x = 4; } 	} 	void foo() { 		bar(new Runnable() { 			public void run() { x = 5; } 		}); 	} 	void bar(Runnable runner) { } } Quick-fix markers are activated for "x = 4" and "x = 5". For "x = 4", there is no suggestion to add a field to 'Test'. For "x = 5", there is a suggestion to add a field to ''. This should be 'Test'

@@ -1,0 +1,3 @@
+[JUnit] Separate UI from non-UI code
+
+Currently, the org.eclipse.jdt.junit bundle contains both UI and non-UI code. This prevents using the JUnit launcher code in a headless context and is basically a blocker for a decent JUnit integration with Buckminster. See this discussion in the buckminster-dev newsgroup: http://dev.eclipse.org/mhonarc/lists/buckminster-dev/msg00759.html

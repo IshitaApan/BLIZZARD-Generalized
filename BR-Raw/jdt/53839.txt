@@ -1,0 +1,3 @@
+new search: remember the sort options
+
+I20040302 the group-by capabilties and the buttons are great. So good that I would want the group-by setting to be remembered across sessions.

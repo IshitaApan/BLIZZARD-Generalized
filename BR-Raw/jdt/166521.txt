@@ -1,0 +1,3 @@
+[typing] Smart Paste into string should not escape single ticks (')
+
+I20061129-1340 Smart Paste into string should not escape single ticks ('), since escaping them is not necessary. Likewise for pasting " into a char literal. Proof: This program prints truetrue: public class Try { public static void main(String[] args) { System.out.print("''{0}''" == "\'\'{0}\'\'"); System.out.print('"' == '\"'); } } Bug 74235 requests to make escape characters configurable, but I think that's not necessary any more if this bug is fixed.

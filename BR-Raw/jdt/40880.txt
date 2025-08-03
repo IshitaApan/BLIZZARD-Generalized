@@ -1,0 +1,2 @@
+Wrong error range for 'indirect static access'
+

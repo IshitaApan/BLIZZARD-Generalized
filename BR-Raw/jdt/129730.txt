@@ -1,0 +1,3 @@
+[java perspective] add progress view to view shortcuts
+
+20060228 As sson as platform ui added the new constant we will add it to the default views (in the view menu only) layout.addShowViewShortcut(IPageLayout.ID_PROGRESS_VIEW);

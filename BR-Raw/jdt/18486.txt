@@ -1,0 +1,3 @@
+Need documentation for startup extension point.
+
+Need document <extension point="org.eclipse.ui.startup"/> See bug 7679

@@ -1,0 +1,3 @@
+[reconciling] Reconciling too much
+
+Build 20031202 Whenever the editor gains focus; it is triggering a forced reconciliation. This is too naive, and wastes lots of cycles. e.g.: - open editor - select one element in outliner - go back to editor A reconciliation is triggered even though nothing has changed which requires this.

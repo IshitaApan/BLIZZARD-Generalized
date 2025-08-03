@@ -1,0 +1,3 @@
+New API in ISearchResultView breaks old if null is used
+
+Build 20020519 ISearchResultView.searchStarted(.....). Clients were passing a null parameter that now has to be cast to IActionGroupFactory or IContextMenuProvider to get rid of compile errors.

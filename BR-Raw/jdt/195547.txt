@@ -1,0 +1,3 @@
+[preferences] Code formatter preference page > Line Wrapping: 'Show invisible characters' removes wrap line
+
+N20070705-0010 Code formatter preference page > Line Wrapping: Toggling 'Show invisible characters' removes the gray vertical line in the preview that shows where the formatter wraps.

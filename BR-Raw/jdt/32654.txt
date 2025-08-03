@@ -1,0 +1,3 @@
+[Refactoring] Change method signature with problems
+
+2.1 I20030214 I observed some problems when using the "Change method signature" refactoring. This seems to happen when the original method signature includes an array parameter. Problem: I introduced a new method parameter of type boolean with default value set to true. Previewing the changes, I had to realize that the resulting code was incorrect in _some_ cases. Example: x.method(anObject, new Object[]{ anotherObject }, Integer.MAX_VALUE, false); became x.method(anObject, new Object[]{ anotherObject }, Integer.MAX_VALUEtrue, false);

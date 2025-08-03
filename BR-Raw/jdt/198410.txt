@@ -1,0 +1,3 @@
+[dnd] Strange dialog quickly appears when dropping on invalid target
+
+I20070731-0800. 1. select a top-level type in the Package Explorer and open it in the editor 2. select the type in Package Explorer again 3. drag it onto the Outline view ==> feedback says dropping forbidden 4. drop it anyway ==> you quickly see a dialog which should not happen

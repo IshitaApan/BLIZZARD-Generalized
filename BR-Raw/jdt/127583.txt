@@ -1,0 +1,3 @@
+[1.5][compiler] Call to constructor with mismatched type parameter and arguement not detected
+
+/* * This compiles fine in Eclipse 3.2M4 (BuildID: I20051215-1506) * It does not compile using Sun's Javac 1.5.0_06 */ import java.util.ArrayList; import java.util.Collection; import java.util.List; public class Test { private final List<Collection> aList = new ArrayList<Collection>(); public void foo() { final List<Collection<?>> listCopy = new ArrayList<Collection<?>>(aList); } } My apologies: I have not been through the JLS to actually work out which behaviour is incorrect. Testing suggests this is only an issue with raw types.

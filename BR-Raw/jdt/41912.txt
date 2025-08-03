@@ -1,0 +1,3 @@
+Pull Up fails while creating method stub in subclass
+
+200308201005 + export 20030825_1222 Pull Up fails while creating method stub in subclass due to bug in ASTNodeFactory#newDefaultExpression. I'll add a fix. Steps: pull up "getCount", declare abstract in destination, create stubs checked - file A.java: public class A extends Root { 	private int fCount; 	public int getCount() { 		return fCount; 	} } - file B.java: public class B extends Root { } - file Root.java: public class Root { }

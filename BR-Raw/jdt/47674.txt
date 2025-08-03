@@ -1,0 +1,3 @@
+Formatting problem with paste
+
+M5: - create class Bar with this code: public class Bar { 	void foo() { 		int i= 1; 		if (i == 2) { 			i= 1; 		} 		i= 2; 	} } - select full line "i= 2" and cut to clipboard - paste line inside if-statement Observe: the closing bracket is indented public class Bar { 	void foo() { 		int i= 1; 		if (i == 2) { 			i= 1; 			i= 2; 			} 	} }

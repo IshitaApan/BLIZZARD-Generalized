@@ -1,0 +1,3 @@
+add variable button can't add variable only edit. [build path}
+
+Project->properties->java build path->Library tab->add variable button will only allow you to extend or edit a variable not add a variable. The only way to add a classpath variable is to go Window->preferences->java->classpath variables->new button.

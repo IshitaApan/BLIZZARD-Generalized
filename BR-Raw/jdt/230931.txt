@@ -1,0 +1,3 @@
+[dialogs] Project Setup Fixes dialog does not use dialog font and does not rewrap
+
+Created attachment 99114 Screenshot I20080502-0100 The 'Project Setup Fixes' dialog does not use dialog font and does not rewrap when resized. The dialog appears when you invoke the quick fix 'Fix project setup...' on a reference to an unavailable type. The initial dialog size was OK, I made it smaller to show the rewrapping problem.

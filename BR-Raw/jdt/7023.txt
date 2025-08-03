@@ -1,0 +1,3 @@
+Refactoring too many builds when auto build is on
+
+Refactoring saves compilation units for the precondition checking and this can trigger an autobuild. This autobuild should be supressed since you need to build again after the refactoring.

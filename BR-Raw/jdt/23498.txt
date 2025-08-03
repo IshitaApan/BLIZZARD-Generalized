@@ -1,0 +1,3 @@
+'Add closing parent' feature improvement
+
+20020911 The 'Add closing parent when typing open parent' should check if there isn't already a closing parent following. String) Adding a parent before 'String' should not add a closing one.

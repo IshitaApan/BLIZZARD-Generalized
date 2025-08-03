@@ -1,0 +1,3 @@
+Editor preferences do not take effect on open editors
+
+I-20040224 Go to the Java > Editor > Syntax preference page. Change the keyword color to red. Press Ok. At this point, we use to see the preview update. Not on this build (problem #1). Press Ok, and close the pref dialog. The java editor that was already open did not update. I had to close it and reopen it for the colors to take effect (problem #2)

@@ -1,0 +1,3 @@
+Type heirarchy show final class icon only on double click [type hierarchy]
+
+When opening a type heirarchy, the icons for the heirarchy do not show final classes (ie. the little 'F' in the icon). When the icon is double clicked to open the class, the icon changes.

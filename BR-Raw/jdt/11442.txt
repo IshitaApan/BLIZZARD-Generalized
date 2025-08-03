@@ -1,0 +1,3 @@
+Labels of CheckedTreeSelectionDialog aren't localized
+
+The button labels of the CheckedTreeSelectionDialog aren't localized. (See createSelectionButtons()). The class SelectionDialog (which is one of its superclasses) already provides localized labels I think. So you might want to replace the hard coded names with SelectionDialog.SELECT_ALL_TITLE and SelectionDialog.DESELECT_ALL_TITLE (or add your own translation). Even better, because "select all" and "select none" are used quite often, tell the Platform/JFace team to add these to the IDialogConstants interface class.

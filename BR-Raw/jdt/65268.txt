@@ -1,0 +1,3 @@
+[projection] editor is missing collapse all action for code folding
+
+From preferences|Workbench|Keys|Edit category Edit there are actions "expand" (i.e. "expand current") and "expand all" but "collapse" has no "collapse all" equivalent this is one of the necessary IMO enhacements to code folding to make it usable and useful, along with collapsing headers (bug 61328) and performance enhancements

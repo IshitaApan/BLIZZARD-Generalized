@@ -1,0 +1,3 @@
+quick fix: should not add 'return' to new void methods [quick fix]
+
+20020924 it creates methods like: private void md() { 	return; } which is bogus

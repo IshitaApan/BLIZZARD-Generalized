@@ -1,0 +1,3 @@
+[package explorer] Callers to #members need to check accessibility
+
+build n0615 IContainer#members is spec'd to throw a CoreException if it is called on a closed project. This has not been behaving correctly and will be changed in 3.2. (bug 98740) Proper behaviour is to check to see if the project exists and is open before asking for its children. if (project.isAccessible) return project.members(); See PackageExplorerContentProvider#getChildren for one example of a place that doesn't check.

@@ -1,0 +1,3 @@
+Renaming a non-java resource shows useless preview [reorg] [refactoring]
+
+1) select a non-java resource in the package explorer 2) refactor>rename 3) a dialog shows up with a preview button 4) press preview ->no preview available Since the preview is not helpful there should be no preview button.

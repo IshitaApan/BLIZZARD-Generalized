@@ -1,0 +1,3 @@
+extract method: extracted method should be private, not public [refactoring]
+
+Currently, the default protection level of an extracted method is 'public'. This is a 'worst practice' of object-oriented programming, since it would violate encapsulation by introducing a method into the class' public API. The default selection should be 'private'. Or at least be settable.

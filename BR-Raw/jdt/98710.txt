@@ -1,0 +1,3 @@
+Filter native library and access restriction attributes on jars in JRE containers
+
+RC1 Since it is a greater effort to fix bug 97589 for RC2 we decided to filter out these attributes for jars in JRE containers. Martin, you said that this is an easy fix for RC2.

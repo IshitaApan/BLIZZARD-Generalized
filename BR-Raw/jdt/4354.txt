@@ -1,0 +1,3 @@
+Template - pressing new presents an error
+
+- go to Preferences->Java->Templates - press the new button - you get an error saying that the template name must not be null. This is annoying since I didn't have the change to specify one.

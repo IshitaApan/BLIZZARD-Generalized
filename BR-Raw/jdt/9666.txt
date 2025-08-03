@@ -1,0 +1,3 @@
+Browser Perspective: No Code Generation Actions
+
+20020212 Add getter/setter. override ect not avaiable in browser perspective Need to use GenerateGroup

@@ -1,0 +1,3 @@
+Auto-indent levels broken for cut and paste
+
+On M3: 1) Double-click on the opening brace '{' of a method. 2) Cut the method body. 3) Paste the method body. Problem: indentation is mangled incorrectly.

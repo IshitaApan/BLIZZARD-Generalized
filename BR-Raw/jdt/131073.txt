@@ -1,0 +1,3 @@
+[type hierarchy] add possibility to empty type hierarchy history
+
+This is a similar request to bug #101742: Similar to the request for the call hierarchy the type hierarchy history should also be "empty-able", i.e. it should be possible to remove all entries in the list. Until now only the search view provides similar functionality.

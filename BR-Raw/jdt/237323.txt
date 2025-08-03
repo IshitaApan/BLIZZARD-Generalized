@@ -1,0 +1,3 @@
+[misc] org.eclipse.ui.ide.markerResolution extensions not referenced in Java editor
+
+Created attachment 105058 eclipse-cs plugin (LGPL) Build ID: I20080609-1311 Steps To Reproduce: 1. Install eclipse-cs plugin 2. Import sample project 3. Open class Test.java 4. Invoke lightbulb quickfix for line 4 5. No quickfix is offered More information: Plugin and test project are attached. Some quick debugging showed that hasResolutions() is called on my CheckstyleMarkerResolutionGenerator class, which returns true for the line in question. However getResolutions() is never called and the expected quickfix is not offered. The functionality has been working from Eclipse 3.1 - 3.3.

@@ -1,0 +1,3 @@
+[preferences] Syntax Coloring Preview Window is showing colors to incorrect char set for classes element
+
+Build ID: I20090515-1143 Steps To Reproduce: 1.Go to preference page [Window->Preferences] 2.Select Syntax Coloring [Java -> Editor -> Syntax Coloring] 3.Enable coloring for Classes [check enable and provide new color other than black [more visible color will be good to identify in one shot] 4. Check Preview, you will find that "ame<St" will be colored as you selected instead of "String". public class ClassName<E> implements InterfaceName<String> { More information: I think parsing start index is problem, because total number of colored chars are correct.

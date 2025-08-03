@@ -1,0 +1,3 @@
+ClassCastException during refactoring
+
+build i0226, winxp, j9sc20031212 I was moving a class definition from an interface to a class and I got an exception. Will attach log file. example structure: package api; public interface IFoo { public class Node { ... } public class INode { ... } } package internal; public class Foo { ... } I moved the declaration of "Node" to "Foo" via the context menu in the outline view. (Refactor -> Move)

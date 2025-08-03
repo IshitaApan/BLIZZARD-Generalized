@@ -1,0 +1,3 @@
+Empty CU after reorg
+
+F2 - enable single click and show in members in packages view - open TestCase.java in editor - give focus to packages view - change it on disk - copy a method in TestCase using DnD - activate the TestCase.java editor - answer question with no - activate revert from context menu observe: CU is empty

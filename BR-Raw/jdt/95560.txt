@@ -1,0 +1,3 @@
+[content assist] generic types context info displays at wrong position
+
+M7 The context info popup for generic types displays at the wrong position. See the new & noteworthy screenshot for an example: http://mirror.switch.ch/mirror/eclipse/downloads/drops/S-3.1M7-200505131415/images/type-parameter-completion.png

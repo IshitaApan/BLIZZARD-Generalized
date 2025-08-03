@@ -1,0 +1,3 @@
+[open type] Open Type dialog should support '<' and ' ' in combination with camel case
+
+3.3 M5 Currently I can use '<' and ' ' to terminate the search string. This however does not work when entering camel case, e.g. 'DP<'

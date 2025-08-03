@@ -1,0 +1,3 @@
+Add new code formatter option
+
+To fix bug 68506, I had to add a new option: org.eclipse.jdt.core.formatter.DefaultCodeFormatterConstants.FORMATTER_INSERT_NEW_LINE_AT_END_OF_FILE_IF_MISSING. This option needs to be added in the code formatter preference page.

@@ -1,0 +1,3 @@
+[Wizards] Text and location of Open Untitled Text File
+
+I suggest we change the text for the "Open Untitled Text File" menu option for two reasons: 1) you are not actually opening a file, you are creating a new file hence use of "open" is misleading 2) it is a bit lengthy for no real benefit. I suggest changing it to one of the following: "New Text File" "New File" "New Blank File"

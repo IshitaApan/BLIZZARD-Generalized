@@ -1,0 +1,3 @@
+[content assist] adding type sometimes adds qualification instead of importing
+
+When trying to activate 'import' completion (ctrl-space), while typing some new code, the FDQN is added into the code instead of creating the associated import more often than not. Strange enough, if I save the edited text just before using the completion, the normal completion is applied (ie, import updated). Tis is a little bit painful, it was working so fine in 3.2 :)

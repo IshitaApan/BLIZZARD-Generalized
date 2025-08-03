@@ -1,0 +1,3 @@
+[build path] Build path context menu should contain 'Add source folder'
+
+20051213-0010 Select a project, open the context menu and go to the build path submenu. The submenu build path already conatins 'Link source'. 'Add new source folder' (opening the new Source folder wizard) should be next to it.

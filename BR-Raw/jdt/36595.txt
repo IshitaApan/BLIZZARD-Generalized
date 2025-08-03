@@ -1,0 +1,3 @@
+[templates] 'systrace' template produces incorrect string in anonymous classes
+
+public class Test { public static void main(String[] args) { Object test = new Object() { public String toString() { // systrace: Expected "Object.toString()", got: System.out.println("Bug.main()"); return null; } }; } }

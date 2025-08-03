@@ -1,0 +1,3 @@
+Clicking Show Project in Package Explorer results in exception
+
+Clicking Show Project in Code model results in exception in DOS box === Steps to Reproduce: Create a Java project Open the Package Explorer Click the View menu Show - Projects. (This actually is a radio group menu item. It is by default selected, so clicking it again should have no effect) === Observed behaviour: Dos box: Unhandled event loop exception Reason: java.lang.NullPointerException See .log file (will be attached) === Expected behaviour: No exception === Reproducibility: yes

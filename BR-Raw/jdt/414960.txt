@@ -1,0 +1,3 @@
+[content assist] completing with semicolon (;) leaves content assist in linked mode
+
+In Kepler there's a new feature, that also completes the trailing semicolon for method calls without parameters. That's nice. The caret jumps behind the trailing semicolon. Then for a short moment the enter key is blocked. That's not nice, because I used the enter key for code completion and now want to proceed to the next line. Could you remove the enter key from blocked keys for this feature?

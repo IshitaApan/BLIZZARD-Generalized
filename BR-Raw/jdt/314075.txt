@@ -1,0 +1,3 @@
+[encapsulate field] Incorrect message/Exception while 'Encapsulate field' when CU not on Build path
+
+Build I20100520-1744 - New workspace - Open a Java file placed anywhere on the file system (but is not on build path) Use following snippet package q; public class B { 	int a; 	void foo() { 		System.out.println(); 		System.out.println(); 	} } - Select field 'a' - From the Menu bar 'Refactor' -> Encapsulate field => Dialog saying ' The operation is not applicable to the current selection. Select a field of a class or a enum' comes up. However dialog saying 'the CU is not on the build path' should come up.

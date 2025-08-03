@@ -1,0 +1,3 @@
+Move To Top Level: puts several statements on one line [refactoring]
+
+Using 2.1 I20021008 Tried the "move to top level" refactoring on a static inner class. The new top level class has the package and import statements on one line. I'm guessing the fact I'm editing a file with unix line terminators could have something to do with it: Attaching new top level class.

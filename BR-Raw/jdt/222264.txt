@@ -1,0 +1,3 @@
+[quick assist] support boxing of primitive types for 'convert to message format'
+
+N20080310-0100 Fup of bug 295672. Given: "a " + 1 + " b"; 1. Select expression 2. Ctrl-1 Is: Convert to MessageFormat is not available Should: Available with result: MessageFormat.format("a {0} b", new Object[] {new Integer(1)});

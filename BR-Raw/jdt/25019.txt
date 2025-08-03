@@ -1,0 +1,3 @@
+Binding2JavaModel.find(ITypeBinding, IJavaProject) does not look for working copies
+
+The method uses a saved compilation unit when it should search for a working copy of the compilation unit.

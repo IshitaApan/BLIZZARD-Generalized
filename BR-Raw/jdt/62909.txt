@@ -1,0 +1,3 @@
+[performance] quick outline takes forever to show up
+
+I20040519 M9 test pass 1. Open JavaEditor.java 2. Press Ctrl+O 3. Go get some coffee 4. come back and watch the quick outline open To me it feels like the outline has gotten slower again. Suspects: - override decorators, see bug 62896 - tree implementation. JavaEditor has many inner classes - if all of these are checked for children, this may cause some slow down

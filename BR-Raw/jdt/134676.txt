@@ -1,0 +1,3 @@
+[clean up] "use final for private fields" fails for generic fields in 3.2 M6
+
+Example: public class Demo<T> { 	private T	t; 	void setT(T t) { 		this.t = t; 	} } The Clean Up Wizard adds final to field t.

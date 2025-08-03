@@ -1,0 +1,3 @@
+Jar Selection tree nodes NOT sorted [build path]
+
+Open Project Properties dialog, select the Java Build Path node, click "Add JARs...", select a dir node. My nodes come up sorted with "a" after "Z". Items are sorted within their case: A, B, C, a, b, c instead of A, a, B, b, C, c or a, A, b, B, c, C. Gary

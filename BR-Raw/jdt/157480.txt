@@ -1,0 +1,3 @@
+[clean up] Add paranoical parantheses does mess up expressions
+
+While running cleanup on our whole codebase, I've found a particular file that is incorrectly modified by the cleanup process. Specifically, this: 			if(target == null && other.target == null || 					(target != null && target.equals(other.target))) 				targetEquals = true; 			return sourceEquals && targetEquals; 		} becomes this: 			if(( && (other.target == null))(target == null) || 					((target != null) && target.equals(other.target))) { 				targetEquals = true; 			} I'll attach source before/after cleanup attached plus screenshots of every steps (including options selected for the cleanup.

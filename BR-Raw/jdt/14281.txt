@@ -1,0 +1,3 @@
+Java search page layout of Limit To
+
+The Limit To box should be top aligned with the Search For box

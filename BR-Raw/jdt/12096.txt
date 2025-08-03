@@ -1,0 +1,2 @@
+Extract local variable show preview of type and name
+

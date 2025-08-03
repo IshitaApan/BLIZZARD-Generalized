@@ -1,0 +1,3 @@
+FindOccurencesCUEngine should use ASTProvider
+
+RC1 FindOccurrencesEngine should get the AST from the ASTProvider so it can profit if the AST is already cached (2 occurences) e.g. JaavPlugin.getDefault().getASTProvider().getAST(cu)

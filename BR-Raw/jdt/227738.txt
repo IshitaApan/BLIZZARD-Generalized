@@ -1,0 +1,3 @@
+[build path] Allow to select other archives than zip and jar
+
+20080418 bug 182360 will allow archives with other suffixes than zip and jar. The 'Add JAR' dialog needs to be updated.

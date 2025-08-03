@@ -1,0 +1,3 @@
+Type Filters matches types it shouldn't
+
+The Spring framework currently has separate packages to support Hibernate2 and Hibernate3, and the classes' names are the same. For example: org.springframework.orm.hibernate3.support.OpenSessionInViewFilter and org.springframework.orm.hibernate.support.OpenSessionInViewFilter Since I'm using Hibernate3, I want to filter eveything under the "org.springframework.orm.hibernate" package. I typed "org.springframework.orm.hibernate.*", and now the classes under the hibernate3 package are filtered too, like if I had typed "org.springframework.orm.hibernate*' (without the leading dot).

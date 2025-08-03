@@ -1,0 +1,3 @@
+TextChangeManager should not setKeepExecutedTextEdits(true) on all changes [refactoring]
+
+I20030628 The default should be false since setting it to true doubles the memory consumption. Keeping executed edits should require some client action.

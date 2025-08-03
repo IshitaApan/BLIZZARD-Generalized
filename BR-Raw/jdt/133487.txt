@@ -1,0 +1,3 @@
+Find Broken NLS Keys action reports false positives
+
+I20060328-0010. Find Broken NLS Keys action reports false positives in the accessor class. 1. create Java project P 2. add package p 3. add class T with String s= "foo"; 4. externalize with default arguments 5. execute Find Broken NLS Keys action ==> reports failures in Messages classes Same problem when using Eclipse style NLSing.

@@ -1,0 +1,3 @@
+[implementation] Remove workaround for bug 137091
+
+R3.2 RC4 We added a workaround for bug 137091 which can be removed since bug 137091 got fixed for RC5.

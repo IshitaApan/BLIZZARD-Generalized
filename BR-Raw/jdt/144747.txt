@@ -1,0 +1,3 @@
+[preferences] TVT3.2:TCT807: KO: Extra mnemonic on Content Assist Advanced preference page
+
+OS : RHEL 3.1 Must fix or not a must fix: NO Build date: 20060530 Component Name: Base Windows menu Blocking: No Language: KO Bitmap Location: V:\defects\KO\04.001510.gif Tester Name: Junghan Yoo Problem Description: Extra mnemonic. Please see the screen shot attached below. Steps to reproduce: On the menu bar from the main Workbench panel, click Windows > Preference Expand and Select General Select Keys Click on the View tab on the right-hand pane This article was reassigned from Category:''TVT/Testing''.

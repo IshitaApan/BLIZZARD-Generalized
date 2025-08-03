@@ -1,0 +1,3 @@
+build path: edit source folder has no defined semantics
+
+3.2 RC2 See also bug 139706. - Have a project with source folders S, T and normal folder F. - open the build path properties on the source folder page - Edit the source folder S a) - as its new name enter 'foo' and apply > S is renamed to 'foo' b) - as its new name enter 'F' and apply > S becomes a normal folder > F becomes a source folder IMO, editing a source folder should allow either of the above operations (Rename, Edit), but not both. I would expect that selecting a conflicting name would give an error (same for linked folders, see bug 139706), and that there is no browse button at all. Instead of 'Edit', the operation would then be 'Rename'.

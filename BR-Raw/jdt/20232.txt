@@ -1,0 +1,3 @@
+export jar fails with null exception for classes without debug info (no filename)
+
+compile the following normally, then export as a jar, it works: package com.abc.test; public class Test { 	public static void main(String[] args) 	{ System.out.println("hello"); 	} } No, turn debug compilation off, then export as a jar, it fails. PS: to turn debug info off easily, you can use the attached com_ibm_sample_javacDebugOnOff.zip and unzip it into plugins then start WSAD and select the menu to turn debug off.

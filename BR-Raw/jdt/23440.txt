@@ -1,0 +1,3 @@
+save on TextEditor not call validateEdit ?
+
+SaveAs by pressing close button not call validateEdit. Here is how-to : 1. Open a checked-out file by TextEditor 2. Make changes on it. So editor is marked as modified. 3. Check-in a file on Naviator, so the file is checked in. 4. Close editor. 5. Editor askes to see if the file needs to be saved. This dialog is ok. No problem. However, if yes is selected, the file is automatically checked out or save is failed. ( This depends on prefs value ) This is very confusing. Why "open checkout" option is not available in prefs ? In another words, does editor need to call validateEdit in this situation ? Need clear design on this. .

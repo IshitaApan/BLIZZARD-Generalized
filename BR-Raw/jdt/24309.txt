@@ -1,0 +1,3 @@
+cannot inline method call if used as expression statement
+
+class A { int m(){ return 6; } void f(A a){ m(); } }

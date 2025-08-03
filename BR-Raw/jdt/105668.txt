@@ -1,0 +1,3 @@
+[quick fix] place @SuppressWarnings on variables
+
+3.1 add an option to place the @SuppressWarning annotation in the smallest scope you can. Currently, it never adds it to local variables or parameters but places them on the method which is potentially dangerous because it hides all warnings in the method

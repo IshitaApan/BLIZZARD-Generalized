@@ -1,0 +1,3 @@
+New Variable Classpath Entry impossible to save
+
+If you rc on your project and select properties and then java build path, select the library tab and then click add variable and then new. Now try enter a valid name and valid path and click ok. You now see this variable in the list but you can not click ok again. The only option is cancel which then doesn't save your new variable. The other pathway to this functionality works. You go to window preferences, properties, java, classpath variables and enter the variable. This way the variable does get saved.

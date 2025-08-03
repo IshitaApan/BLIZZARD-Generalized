@@ -1,0 +1,3 @@
+[breadcrumb] Needs review of label updating on element change
+
+I20080521-2000 Fup of bug 232817 Fix for bug 232817 is not optimal, still a lot of unnecessary updates are issues. setData should not update the labels, instead only the viewer should update the labels through calls to Item#setText and Item#setImage.

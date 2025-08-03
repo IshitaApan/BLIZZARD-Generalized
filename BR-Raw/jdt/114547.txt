@@ -1,0 +1,3 @@
+clean up does not run when finish is chosen from the resource selection page
+
+3.2 M3 test pass - use the Clean up action and make sure the "add missing $NON-NLS$" checkbox is checked - have a CU open with an NLS warning - choose Source>Clean up - check the selection on the first wizard pane: it is correct: only the active CU is checked - press Return or click "Finish" to execute the clean up > expected: the NLS tag is added < actual: no changes occur Note: the same works if I manually go to the configuration page first and then click 'Finish'

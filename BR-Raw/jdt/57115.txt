@@ -1,0 +1,3 @@
+Infinite loop during project import ? [build path]
+
+I20040330 Import the project attached in bug 56678 comment 7, the cpu usage go to 100%, Eclipse has to be killed

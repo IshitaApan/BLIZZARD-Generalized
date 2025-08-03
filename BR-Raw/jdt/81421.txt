@@ -1,0 +1,3 @@
+Closing a project with open editors leaves stale elements in Package Explorer's working set layout
+
+I20041216-0800 Closing a project with open editors leaves stale elements in Package Explorer's working sets mode. This only affects CUs not normal resources.

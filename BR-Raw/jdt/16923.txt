@@ -1,0 +1,3 @@
+Auto activation preference dialog
+
+The auto activation characters and Timeout Text fields are enabled even when Auto activation itself is disabled. This was confusing to me because I thought that "." should cause automatic code assist, but it wasn't. Disabling the feature should disable the controls what modify the details for that feature.

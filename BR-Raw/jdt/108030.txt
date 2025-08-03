@@ -1,0 +1,3 @@
+[refactoring] Move instance method inserts argument at wrong position
+
+I20050823-0800 class A { B fB; public void doit(String doitArg) { subroutine(1.2f); } public void subroutine(float subArg) { subsub(); } public void subsub() { } } class B { } - move doit(..) to fB -> compiles - move subroutine(..) to fB -> does not compile since subroutine's new parameter A a is at first position but the argument at the call site is at the second position Please fix and add a second test case where methods have 2 or more parameters.

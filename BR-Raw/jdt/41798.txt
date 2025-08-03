@@ -1,0 +1,3 @@
+New JUnit Plug-in test requires test suites to extend Test
+
+The new JUnit plug-in test seems to require test suites to extend TestSuite. Otherwise an error is reported in the launch config dialog. It is however still possible to launch a test suite by opening it in the editor and choosing Run->Run As->New JUnit Plug-in Test To reproduce, try to run (and configure) the JDT UI AllAllTests testsuite.

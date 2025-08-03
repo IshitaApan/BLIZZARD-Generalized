@@ -1,0 +1,3 @@
+extract method: incorrect return statement inserted - compile errors
+
+class A { 	int i(){ return 0;} 	void m(){ 		/*[*/i(); 		m();/*]*/ 	} } refactors incorectly to: class A { 	int i(){ return 0;} 	void m(){ 		xxx();/*]*/ 	} 	private int xxx() { 		return /*[*/i(); 		m(); 	} }

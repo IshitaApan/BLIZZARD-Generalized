@@ -1,0 +1,3 @@
+[quick fix] Rename correction image is used at wrong places
+
+3.3 RC3 Some code inside JDT UI uses the rename correction image where it should use the generic change correction image.

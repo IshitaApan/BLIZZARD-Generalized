@@ -1,0 +1,3 @@
+call hierarchy: Open Call Hierarchy beeps instead of showing info about the current method
+
+Reporting against I20030506 build. As of I20030422, the "Open Call Hierarchy" action worked for the method in which the cursor was located. In the new build, it emits a confusing beep instead of opening the call hierarchy for the current method. It works as expected if you highlight the method's name, but the other way of invoking it was more convenient. If the new behavior is intended, at the very least some hint should be provided that a method selection is required, not just a beep. I tracked down the problem to OpenCallHierarchyAction.java:113 where CallHierarchyUI.getCandidates is called and returns null instead of the "current" IMethod.

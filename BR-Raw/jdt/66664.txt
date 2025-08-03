@@ -1,0 +1,3 @@
+Rebuilding action does not show any worked()
+
+20040611 I have loaded all of Eclipse into my workspace as source using the PDE import. I went to the Java compiler preference page and changed my settings (set non- externalized strings to an error). A rebuild started and 5 minutes into it I have not had any progress in my progress bar. It is working fine as the subtasks are updating. When it finished I had seen no progress at all.

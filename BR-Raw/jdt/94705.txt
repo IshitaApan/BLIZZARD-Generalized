@@ -1,0 +1,3 @@
+[hovering] Javadoc hover's trigger region exceeds right side
+
+I20050509-2010 (MacOS X and Windows XP) Hovering over a type declaration with an 'unimplemented method' error shows the type hover when hovering over the right border of the type name. I would expect the error hover to completely hide the type hover.

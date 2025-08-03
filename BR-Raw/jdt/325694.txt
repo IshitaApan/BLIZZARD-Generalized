@@ -1,0 +1,3 @@
+[call hierarchy] Delete key should remove element from view instead of deleting it
+
+Call hierarchy could be extended in the way that it's behavior matches the "standart" behavior of the search view. 1) "Delete" action deletes the Java element from the *code*. This is VERY inconvenient. Expected: as in the Search view, the *search result* is removed from view. Additionally, "del" keybinding should be used by the "remove from view" context menu. 2) There is no way to open multiple call hierarchies at same time. Expected: as in the Search view, "Pin this view" button should be available at the view toolbar.

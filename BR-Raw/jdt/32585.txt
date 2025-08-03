@@ -1,0 +1,3 @@
+Organize Import Second Guessing Itself (regression!)
+
+file:Outer.java public class Outer{ public static class Inner{ } } ---- file:Client.java import Outer.Inner; public class Client{ { Object innerInstance = new Inner(); } } In build rc1 (I20030221-win32), 'Organize Imports' command flips between adding and removing the statement 'import Outer.Inner;' With the import statement removed, there is no 'Inner' class in scope, and therefore (correctly) causes a compiler error. This has been an issue in the past (I don't recall which version), but was working correctly in the I20030211-win32 build (among others), simply adding the import statement and leaving it be on subsequent organize import invocations. Thanks in advance

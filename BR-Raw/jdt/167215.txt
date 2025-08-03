@@ -1,0 +1,3 @@
+[preferences] Java editor templates: something is broken
+
+HEAD Preferences > Java Editor > Templates; Edit; Insert Variable... => Some of the descriptions are raw HTML, e.g. "argType - <b>${<i>id..."

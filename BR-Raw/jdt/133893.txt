@@ -1,0 +1,3 @@
+[categories filter] wrong filtering with multiple categories
+
+20060329 - create the folloing class: package other; /** * @category API */ public abstract class Controller { 	/** 	 * @category internal 	 */ 	private int value; 	 	/** 	 * @category API getter 	 */ 	public int getValue() { 		return value; 	} 	 	/** 	 * @category setter 	 */ 	public void setValue(int value) { 		this.value= value; 	} 	 } - in the outline disable all categories except 'API' - this only leaves back the type. However also 'getValue' should show up

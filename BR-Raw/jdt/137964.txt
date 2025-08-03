@@ -1,0 +1,3 @@
+[hovering][projection] sticky projection hover only contains first line
+
+N20060421-0010 The sticky projection hover only contains first line.

@@ -1,0 +1,3 @@
+JUnit 'Failures' list has items with wrong label
+
+200411111200 The JUnit 'Failures' list has items with a wrong label. I'll attach a screenshot.

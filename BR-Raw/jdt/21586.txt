@@ -1,0 +1,3 @@
+Javadoc-Help: Illegal access error
+
+2.0 1. Create a selfhosting workspace containing org.eclipse.ui. 2. Attach the following URL to workbench.jar http://download.eclipse.org/downloads/documentation/2.0/html/plugins/org.eclipse .platform.doc.isv/reference/api 3. select a package in the JAR. Press Shift + F2. 4. browser (Internet Explorer) comes up with a script error This is the old well known problem with the illegal parent access. The help servlet should also be a proxy for http:// adresses.

@@ -1,0 +1,3 @@
+[5.0][navigation] Mark occurrences could highlight statically imported fields and methods
+
+200412160010: When clicking on a static import for a field or method, all occurrences of that member should be highlighted. Same also for static star imports.

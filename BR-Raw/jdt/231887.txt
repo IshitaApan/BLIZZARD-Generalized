@@ -1,0 +1,3 @@
+[actions] cannot refresh working sets through Package Explorer
+
+Build ID: I20080502-0100 Steps To Reproduce: 1. Import some Java projects and put them into some working sets. Change the Top Level Elements in the Package Explorer to Working Sets 2. Externally modify some of the files from different working sets 3. Select the working sets in the Package Explorer, right-click, and choose Refresh. Nothing happens. (Verify by opening files that have been modified - instead of opening the file, you get the "This file is out of sync" editor) 4. If you expand all the working sets and refresh the individual projects, it works. More information: This seems to be breaking behaviour between M5 and M7 builds.

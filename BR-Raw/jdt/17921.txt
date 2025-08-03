@@ -1,0 +1,3 @@
+packages view: looses the selection on reconciling
+
+F1 after a method's signature is changed the pakckages view looses the selection case: 1. class A{ void f(){} } 2. select A::f() in the packages view 3. in the editor, change f() to f(int y) 4. note: the view lost the selection both the member view in the browsing perspective and the outliner do it correctly (keep the selection) outliner has bug 17297

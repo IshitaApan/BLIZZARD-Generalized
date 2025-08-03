@@ -1,0 +1,3 @@
+[content assist] code assist should not touch typed qualified import
+
+In code assist options (Preferences => Java => Editor), it is possible to select either import or qualified name to be inserted, when eclipse "guesses" which class is meant. This results, that it's not possible to insert qualified names with code assist, when needed to emphasize that it is a certain class in a certain package. (of course, full names can be typed without code assist, but..) The proposal is that when typing the qualified name with all of the package hierarchy, it would be left as typed, even if insert import was selected. At least I would like to have a check box in the preferences for that...

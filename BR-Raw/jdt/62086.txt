@@ -1,0 +1,3 @@
+[User library] Jars in User Libraries Can't be ordered
+
+Inorder to get a patch to Easymock to work the patch jar must be first in the classpath. There does not appear to be a way to do this with the User Libraries. I'm using the I20040506 build.

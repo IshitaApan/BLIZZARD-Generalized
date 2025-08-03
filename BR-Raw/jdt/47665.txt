@@ -1,0 +1,3 @@
+Hierarchy perspective outline is missing 'Link with editor' [type hierarchy]
+
+M5 build. I launch type hierarchies in their own perspective in their own window, like the old Smalltalk days. ;) But when I select F4 to open a hierarchy on a method, the method is not selected in the outliner of the new hierarchy perspective, nor is there a 'link with editor' option.

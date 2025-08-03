@@ -1,0 +1,3 @@
+Goto Matching Bracket bug with selection
+
+20021113 1. In this code action.setChecked(elements[i].equals(fHierarchyView.getInputElement())); select the last bracket with a selection of length 1. 2. press ctrl + shift + P 3. wrong bracket is matched

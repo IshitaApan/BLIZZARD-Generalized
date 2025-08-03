@@ -1,0 +1,3 @@
+Edit template panel doesn't resize
+
+The panel is small and can't be resized. It also has a maximize button that is not operational.

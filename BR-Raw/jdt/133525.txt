@@ -1,0 +1,3 @@
+Synchronize with model, expanding a cu
+
+M6 test path 1. Synchronize with 'CVS with model' 2. Each incoming/outgoing cu in the tree has a [+] icon 3. Clicking on the [+] icon just makes the icon go away ->If it is not possible to expand the cu (and see changes on children of a cu) then the plus icon should not be shown at all.

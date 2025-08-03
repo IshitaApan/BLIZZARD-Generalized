@@ -1,0 +1,3 @@
+[reorg] missing import statement after move refactoring [refactoring]
+
+Build id: I20050906-1200 After moving a class with the refactoring an import was missing. Here are the steps to reproduce it: create new java project create source folder test1 and test2 create Class1 in package pack1 in source folder test2 create Class2 in package pack1 in source folder test1 add field Class1 c; to Class2 create package pack2 in source folder test2 move Class2 to pack2 with the refactoring import pack1.Class1; is missing.

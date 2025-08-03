@@ -1,0 +1,3 @@
+[Compare] Adopt improved element compare support
+
+There have been some improvements to the API to support element comparisons. I will attach a patch to JDT/UI that adopts these changes.

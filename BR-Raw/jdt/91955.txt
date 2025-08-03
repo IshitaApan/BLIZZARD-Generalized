@@ -1,0 +1,3 @@
+API Request: Add modification stamp to document and document event
+
+In order to fix bug 21493 we request the API changes contained in the following patch. This will allow document listeners to track modification stamps.

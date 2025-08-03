@@ -1,0 +1,3 @@
+[api] make public constants for private edit menu groups
+
+N20060407 To get stable ordering of actions in the edit menu (see also bug 134965), we introduced edit menu groups for - assist - information These should be made part of the API constants as ITextEditorActionConstants.GROUP_XXX. Affected CUs: - BasicTextEditorActionContributor.java - BasicJavaEditorActionContributor.java - PropertiesFileEditorActionContributor.java - BasicCompilationUnitEditorActionContributor.java

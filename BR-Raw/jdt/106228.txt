@@ -1,0 +1,3 @@
+[navigation] CamelCase pattern matching in quick outline and quick hierarchy
+
+I've gotten to like this in the open type dialog. I think it would be quite useful in the quick outline opened in the java editor as well.

@@ -1,0 +1,3 @@
+Replace package name fragments should always be smaller
+
+Build 20020214 If you enter "2~." in the 'Replace package name fragments with:' field in the preferences (Java->Work in progress), com.ibm.foobar is replaced with co~.ib~.foobar. I believe that package name compression should only replace a fragment if the compressed name is actually smaller. Thus com. would not be replaced in this example, since co~. is the same length, and contains less info.

@@ -1,0 +1,3 @@
+[JUnit] Enter key does not open selected testcase
+
+Steps 1: execute some JUnit test 2: select some testcase in the Failures box ore the Hierarchy box 3. hit the enter key. Nothing happens. I think, as with a double click, the source of the selected testcase should open.

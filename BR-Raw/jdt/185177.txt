@@ -1,0 +1,3 @@
+[rename] In-place refactoring does not always force preview for contextual matches
+
+I20070502-0010. In-place refactoring does not always force preview for contextual matches. Test Case: 1. enable to replace contextual matches (which forces preview) 2. start in-place renaming of a type 3. enter lowercase type name, e.g. 'foo' 4. press 'Enter' ==> dialog comes up that warns about lowercase name but from there I can finish the refactoring without preview.

@@ -1,0 +1,3 @@
+extract method: constructor //reminder (1GEYNSB)
+
+AK (6/7/01 7:21:46 PM) 	just a reminder: DB knows well about it 	class A{ 		A(){ 			this(8 + 9); 		} 		A(int i){} 	} 	if you want to extract anything from the super or this call in the constructor you have to make the new method static. 	it's a special case. NOTES: EG (6/7/2001 11:14:08 AM) 	defer DB (09.08.2001 11:34:32) 	Currently you can't extract any expression from the argument list of super or this. Defer until the feature is implemented.

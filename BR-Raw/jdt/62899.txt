@@ -1,0 +1,3 @@
+NLS Wizard: spaces at beginning of strings must be escaped [nls] [refactoring]
+
+200405190010 - Externalize "Hello" + " World". - the space before "World" must be escaped with a \ in the properties file, since whitespace after the = is stripped by the properties file reader.

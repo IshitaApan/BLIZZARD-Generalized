@@ -1,0 +1,3 @@
+[ccp] "copy qualified name" should copy path to ICU
+
+Build ID: all 3.3 up to 3.4 AS IS: 1. select java class in package explorer 2. right click, then run "Copy Qualified Name" 3. Paste from clipboard to the text file: result is something like de.loskutov.anyedit.ui.editor.AbstractEditor.java TO BE: in step 3, the result should be just the class name WITHOUT .java suffix: de.loskutov.anyedit.ui.editor.AbstractEditor Adding .java to qualified class name doesn't make sense at all

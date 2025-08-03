@@ -1,0 +1,3 @@
+inline local variable with cast results in compile time error
+
+Having the code Object object = new Integer(2); Integer integer = (Integer) object; int i = integer.intValue(); and inlining "integer" results in Object object = new Integer(2); int i = (Integer) object.intValue(); which gives a compile time error. Expected result would be Object object = new Integer(2); int i = ((Integer) object).intValue();

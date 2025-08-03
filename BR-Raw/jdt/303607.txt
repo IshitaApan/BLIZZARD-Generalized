@@ -1,0 +1,3 @@
+[content assist] overwrite highlighting at wrong position (with collapsed folding)
+
+HEAD, was already broken in 3.6M5, but OK in 3.5.1 - Have: package xy; public class Try { 	void foldMe() { 		// to fold away 	} 	 	void test() { 		Objekt o; 	} } - fold the first method - put caret after "Obj" - press Ctrl+Space - press and hold Ctrl => highlight is before "void". Expected: "ekt". When I press Ctrl+Enter, "ekt" is correctly overwritten in the editor. Note: In HEAD, the highlight is only shown the first time Ctrl is pressed, see bug 303605.

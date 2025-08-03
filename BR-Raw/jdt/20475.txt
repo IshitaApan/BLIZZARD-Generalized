@@ -1,0 +1,3 @@
+Quick fix proposal preview: Bold off by 2 characters
+
+F3 create file class A extends Object1 { } -> Object1 is marked as temporary error, Quick Fix. Select 'Change to Object', look at the preview: The preview shows changes in bold: It is off by 2 charaters: 'ject {' is bold, should be 'Object'. From debugging I see that the resulting html is correct, bug must be in rendering. Look stupid, should be fixed.

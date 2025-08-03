@@ -1,0 +1,3 @@
+[decorators] info if class or interface is in file
+
+Currently the package explorer (and other widgets showing file lists) show a small 'J' icon for java files. It would be useful if this was one symbol for classes, and another for interfaces. The choice would be made based on the public class/interface in the file. I frequently have a class and interface of the same name in different packages, and it's hard to tell the difference.

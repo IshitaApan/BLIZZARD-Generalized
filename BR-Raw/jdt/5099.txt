@@ -1,0 +1,3 @@
+TypeCache duplicated
+
+TypeCache exists in two packages. Both used!

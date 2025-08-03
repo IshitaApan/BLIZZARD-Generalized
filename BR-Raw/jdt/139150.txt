@@ -1,0 +1,3 @@
+Externalize String and Find Broken NLS actions should have same enablement rules
+
+I20060428-0010 Externalize String and Find Broken NLS actions should have same enablement rules.

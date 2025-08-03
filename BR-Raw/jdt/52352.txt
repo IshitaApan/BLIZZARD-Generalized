@@ -1,0 +1,3 @@
+refactor: extract local variable: default: no selection of ... for literal expressions
+
+When I am extracting a local variable from a trivial/literal expression, e.g. true, 100, ... I do NOT want to replace occurrences of that expression, because the next expression e.g. true may have a totally independent/orthogonal semantic and value. In all other cases (complex expressions) the current default is o.k. best regards Thorsten van Ellen

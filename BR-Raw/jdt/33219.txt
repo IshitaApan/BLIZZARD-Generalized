@@ -1,0 +1,3 @@
+Leightweight outline no longer resizable
+
+This is a regression.

@@ -1,0 +1,3 @@
+Close parenthesis option does no longer work
+
+Using build I200409212000. Although "Close brackets and parenthesis" option is not checked, when I type "if(" in Java editor, it add automatically the closing parenthesis and then I get "if ()" I've tried to set/unset it to see whether it could be a wrong initialization after build update but it did not change anything... Problem does not happen with brackets: when I type "char[" it does not close it automatically...

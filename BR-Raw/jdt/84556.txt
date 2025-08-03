@@ -1,0 +1,3 @@
+New type wizard generates uncompilable code
+
+HEAD: the package declaration is located after the import declarations Steps to reproduce: - Create class HashedMap which extends Map (don't use the default package) - Set options to implement methods and constructors

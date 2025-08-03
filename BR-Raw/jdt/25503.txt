@@ -1,0 +1,3 @@
+Quick fix which adds NON-NLS string should add a space
+
+Build 20021029 Currently the comment is directly appended. A space in front would look nicer: Current: <myCode>//$NON-NLS-1$//$NON-NLS-2$ Desired: <myCode> //$NON-NLS-1$ //$NON-NLS-2$

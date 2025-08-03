@@ -1,0 +1,3 @@
+[ltk] Undoing a project delete has problems with encoding and markers
+
+Created this clone bug of the IDE equivalent. Will attach a patch. ---------------- Steps To Reproduce: 1. Create a project, and add at least one file to it. Add some markers to the file (tasks, bookmarks, problem markers - it doesn't really matter, so long as they can be seen in a marker view). 2. Delete the project, selecting "Do not delete contents" when prompted. 3. Now go to the Edit menu, and choose "Undo Delete Resources". 4. Open up the appropriate marker view, and examine the markers on the newly restored project. You will see that, although all the markers have been restored, they are not on the file anymore; they appear to have all been moved to the project instead.

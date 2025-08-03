@@ -1,0 +1,3 @@
+[syntax highlighting] highlight numbers
+
+In 3.0, the java editor has supported operator..... etc. much more than 2.1.3. But it has not support highlight number. Hope to enhance this feature.

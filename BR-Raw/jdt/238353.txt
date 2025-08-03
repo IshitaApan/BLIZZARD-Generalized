@@ -1,0 +1,3 @@
+[quick fix] Provide fix for boolean condition checks with non-boolean objects to check against != null
+
+If you have code like this: String arg = ci.nextArgument(); while (arg) { ... } then the JDT should provide a quick-fix and/or content-assistant to change the statement to while (arg != null) { ... }

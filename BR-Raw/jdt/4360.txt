@@ -1,0 +1,3 @@
+Template - cursor at wrong position
+
+- enter template as described in http://dev.eclipse.org/bugs/show_bug.cgi? id=4358 - enter the following code 	public void bar() { 		List list= null; 		for(list, Object, element) 	} - replace for(...) with corresponding template - you get the following code 	public void bar() { 		List list= null; 		for (Iterator iter= list.iterator; iter.hasNext();) { 			Object element= (Object) iter.next(); 		{cursor}} 	} - observe: cursor blinks at {cursor} not in the line above

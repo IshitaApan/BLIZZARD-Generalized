@@ -1,0 +1,3 @@
+[Extract Class] Final fields need constructor initialization
+
+package p; public class FinalConstructor { 	private final int test; 	public FinalConstructor() { 		test=5; 	} } Use Extract Class on all fields and create getters and setters. The code results in: package p; public class FinalConstructor { 	private FinalConstructorParameter parameterObject = new FinalConstructorParameter(); 	public FinalConstructor() { 		parameterObject.setTest(5); 	} } But a final field can only be set in the constructor. I can't see how to solve this problem, except by warning the user.

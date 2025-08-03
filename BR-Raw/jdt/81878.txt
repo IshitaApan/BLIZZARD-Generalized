@@ -1,0 +1,3 @@
+cannot edit working sets from package explorer [package explorer]
+
+3.1 M4 1. open pkg explorer and select a working set. 2. run "edit active working set" from the pkg explorer view menu. 3. select another project to include in the active working set. 4. selection finish. The dialog doesn't close and the pkg explorer doesn't update. If you cancel the dialog, turn off the working set filter and re-enable the edited working set is applied. It's although the working set was modified in the dialog, but a listener crashed (probably the pkg explorer).

@@ -1,0 +1,3 @@
+Organise Imports inserts blank lines when code formatter preferences is to clear blank lines
+
+I have Eclipse set up to clear all blank lines (which I think is the default Eclipse setting anyway) but when doing an Organise Import, the importer leaves a blank line between the top-level package name imports, e.g. import java.io.Something import java.util.SomethingElse import javax.ejb.Other import com.example.Another It would be useful if the Organise Imports didn't put a line in, if the code formatter preferences is to ignore all blank lines anyway.

@@ -1,0 +1,3 @@
+[formatting] Code formatter formats header comments
+
+Even though "format header comments" is turned off in the general settings block on the comments tab, Eclipse 3RC3 is formatting the header comments. This happened with both built-in and all newly generated format templates. regards martin

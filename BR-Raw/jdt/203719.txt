@@ -1,0 +1,3 @@
+[quick fix] Document parameter/exception generates too much
+
+I20070918-0010. 1. have: import java.io.IOException; public class Foo { 	void foo(int unused) throws IOException {} } 2. enable warning for unused param and unnecessary thrown checked exception 3. select 'unused' in the code and then quick fix 'Document parameter...' ==> adds: 	/** 	 * @param unused 	 * @throws IOException 	 */ ==> now I can no longer use the quick fix to remove the thrown exception. Same is true for the 'Document thrown exception...'

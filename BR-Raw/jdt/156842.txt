@@ -1,0 +1,3 @@
+[clean up] should not make unused private fields final
+
+I20060905-1250 With 'clean up on save' this will result in compile errors after save, which is realy anoing.

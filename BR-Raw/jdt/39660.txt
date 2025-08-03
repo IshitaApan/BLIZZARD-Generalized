@@ -1,0 +1,3 @@
+JUnit: red/green colors are too bright
+
+the colors should be consistent with the icon colors.

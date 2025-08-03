@@ -1,0 +1,3 @@
+[navigation] 'Open Implementation' on super method invocation should not open quick type hierarchy
+
+After bug 266443. 'Open Implementation' on a super method invocation should not open the quick type hierarchy. Example: package p; class A { public void method() {} } class B extends A { public void method() {} void xx() { super.method(); super.hashCode(); } } Open Implementation of "method" in "super.method()" should just open the declaration of A#method(). SuperMethodInvocations are a special case, because the call is never polymorphic. Similar case for "super.hashCode();": Should open Object#hashCode().

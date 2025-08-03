@@ -1,0 +1,3 @@
+[templates][5.0] local collections are not resolved properly
+
+N20050608 - Java5 JRE - resolve the "for - iterate over collection" template in the context below -> no collection is resolved class X { void m(LinkedList list) { for| } } CompilationUnitCompletion.LocalVariable.isCollection checks whether a type implements java.util.Collection. For efficieny reasons, we used to check whether one of the local variable's root interfaces was 'java.util.Collection'. In Java5, Collection is not a root interface any longer and therefore we need to check whether the type hierarchy of the type contains Collection. RC2 candidate as fix is trivial and not fixing it means that the old collection templates do not work for anyone using a Java5 JRE (even when developping 1.4 code).

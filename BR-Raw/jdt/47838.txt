@@ -1,0 +1,3 @@
+Make refactoring menu selection sensitive in editor [refactoring]
+
+M5 Currently all refactoring actions are enabled in the editor's context menu. Make them selection dependent. Check if code resolve might be enough (no need to create an AST).

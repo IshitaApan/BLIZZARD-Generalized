@@ -1,0 +1,3 @@
+Error introduced by "create method definition in super class/interface" Quick Assist [quick assist]
+
+I200405190010 I used this quick assist but did not notice that my method was protected and that the method got created in an interface. If a method is protected and it only implements an interface then the quick assist should not be enabled.

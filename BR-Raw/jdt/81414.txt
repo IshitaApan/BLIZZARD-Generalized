@@ -1,0 +1,3 @@
+unhelpful generated JUNIT run configuration name for source folder unit-test runs
+
+If you rightclick source folders and run unit tests, a Junit run configuration is created for that run. The name of this configuration is: "test (%NR)" where %nr is an incrementing number. I suggest the following run configuration name: "junit %project-name %source- folder-name" so for the project myXml and folder: src/test the generated name would be "junit myXml src/test" Cheers, Erik

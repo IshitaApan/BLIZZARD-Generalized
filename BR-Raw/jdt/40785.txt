@@ -1,0 +1,3 @@
+[plan item] Overview ruler improvements
+
+- navigation from ruler to editor - hovering over header area shows number of errors/warning (header annotations in general)

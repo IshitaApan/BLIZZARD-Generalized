@@ -1,0 +1,3 @@
+[breadcrumb] Multiple dropdown shells from breadcrumbs
+
+Created attachment 99545 screenshot I20080507-2000 By radiply clicking on the entries in the breadcrumb, you can end up with multiple open dropdown shells. See screenshot.

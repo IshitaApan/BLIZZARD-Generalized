@@ -1,0 +1,3 @@
+RippleMethodFinder doesn't work with generics
+
+See RippleMethodFinderTests.

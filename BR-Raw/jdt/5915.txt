@@ -1,0 +1,3 @@
+Renaming a resource brings up Java rename refactoring
+
+1) rename xxx.html in the packages view ->the rename refactoring wizard comes up ->the preview page shows a simple rename change For non-Java resources we should not show the refactoring wizard but only a dialog

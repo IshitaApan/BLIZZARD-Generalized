@@ -1,0 +1,3 @@
+Javadoc hover/view should linkify package
+
+Now that we can show package Javadoc, we should also linkify the package segments in Javadoc headers. We already have links for enclosing method/type of an element, and we should extend this to packages. Package links should not span the whole qualified package name, but only simple names. E.g. for java.lang.ref.Reference, - "java" should link to package "java" - "lang" should link to package "java.lang" - "ref" should link to package "java.lang.ref" The advantage of separately linking super packages are that - super packages become accessible - the browser widget still allows the user to select only parts of a package (if the whole qualified name is a single link, then you cannot select "java.lang" any more)

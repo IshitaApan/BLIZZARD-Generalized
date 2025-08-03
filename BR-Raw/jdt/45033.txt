@@ -1,0 +1,3 @@
+Usability: Code Formatter Preferences Page Resizes Poorly
+
+Eclipse 3.0 M4 This is just a single example of a common UI problem that exists in a wide variety of places in Eclipse, not just JDT. If you're going to allow a dialog/window to be resized (which I think you should), then some careful thought needs to go into how the widgets resize. Look at the preferences page for the JDT's Code Formatter and you'll see that when the dialog is resized the (really useful) preview text widget does not stretch and consume the remaining whitespace. Take a look at the screen shot of the dialog in various sizes to see what I mean.

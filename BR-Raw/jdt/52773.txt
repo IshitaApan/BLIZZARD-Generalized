@@ -1,0 +1,3 @@
+Check how refactorings handle non Java errors  [refactoring]
+
+Set Compiler settings to default Turn on Javadoc/Missing Javadoc comments "warning/public/check" Create new class: public class Test { private String fValue; void a() { System.out.println(fValue); } } Now invoke SEF on fValue. Click on "Preview>"

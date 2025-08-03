@@ -1,0 +1,3 @@
+[content assist] no template proposals if no whitespace in front
+
+3.3M5 I20070209-1006 Some examples I've spotted of when content assist offers too few suggestions. In the following | represents the cursor at the point when Ctrl-Alt-SHIFT is pressed. Main template not proposed: public class Two{m|} (works if a space is inserted before 'm') Sysout template not proposed: public class Two{void m(){int a=1;syso|}} (works if a space is inserted before 'syso') No proposals: public class Two{void m(){|}} public class Two{String s="s";void m(){|}} (works in both cases if a space is inserted before the cursor)

@@ -1,0 +1,3 @@
+Enum constructor: should have private method icon
+
+Enum constructors are always private (see also bug 83648). Therefore, they should be rendered as private in the Outline, too. 	enum En { 		; 		En() {} //private! 	}

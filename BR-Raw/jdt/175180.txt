@@ -1,0 +1,3 @@
+Resource mapping for JUnit configs should be file instead of project
+
+In support of bug 74480, the resource mapping for JUnit launch configs should be specialized to the file associated with the test case (or container, or project, when no type is associated with the config).

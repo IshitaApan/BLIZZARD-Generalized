@@ -1,0 +1,3 @@
+[type hierarchy] Improve label rendering in Type Hierarchy
+
+Created attachment 178833 project Project structure Test -src1 ---p -----A.java -src2 ---p -----B.java - Use attached project or create one with the above structure - Open 'Packages' view - Open Type hierarchy view on package 'p' => the entry in history dropdown is - 'p - Test/src2' It should either list all source folders the package is found in, or none at all.

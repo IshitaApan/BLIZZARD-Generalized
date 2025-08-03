@@ -1,0 +1,3 @@
+[navigation] Initial Quick Outline size too small
+
+20041012 When you use the quick outline with 'Rememeber size and location' turned off, the initial size is of the dialog is too small and not usable as is. Note that I had to turn off 'Rememeber size and location' for multi monitor problems

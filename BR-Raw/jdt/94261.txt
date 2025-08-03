@@ -1,0 +1,3 @@
+[typing] Correct indent on paste broken?
+
+20050509-2010 - select a method in the editor so that the selection contains the full lines (including indents before method) - press enter after the closing bracket (indent added) and paste - result is class A { 	void foo() { 	} 		void foo() { 	} }

@@ -1,0 +1,3 @@
+something leaks StyleRanges and Lines
+
+180K of StyleReanges and 47K of Lines after: -open editor -close editor seems like StyleRange objects are never freed

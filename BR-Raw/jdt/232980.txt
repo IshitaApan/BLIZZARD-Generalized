@@ -1,0 +1,3 @@
+[jar exporter] Runnable JAR Exporter should not preset '.xml' into File name field
+
+3.4 RC1. The Runnable JAR Exporter should not preset '.xml' into File name field (setting the type is OK). Should be trivial to fix.

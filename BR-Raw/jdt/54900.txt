@@ -1,0 +1,3 @@
+[rulers] Java Editor does not show ruler on external Java files
+
+We ran into this problem while investigating solutions for bug 54898. If you open an external Java file using the Java editor, you don't get the ruler. So if you set breakpoints in the file, you won't see the breakpoints in the editor. They will only show up in the Breakpoints view, thus making the debugging experience much harder.

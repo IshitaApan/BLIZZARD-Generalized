@@ -1,0 +1,3 @@
+characters צהו and £ doesn't work in Java editor on Swedish keyboard
+
+On a Swedish keybord the charaters едц and Ј doesnt work. If I type one of theese charaters 9 gibberlish character symbols occur on the screen. This happens on XFree 4.1.0 X server and Redhat 7.2

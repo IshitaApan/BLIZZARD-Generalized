@@ -1,0 +1,3 @@
+[refactoring] Rename Java project does not appear in refactoring history
+
+I20060428-1315 Rename Java project refactorings do not appear in the refactoring history and therefore cannot be executed via refactoring scripts. The problem is that the refactoring is associated with the original project, which does not exist anymore. Fix is to associate the refactoring with the workspace. Attaching patch...

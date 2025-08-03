@@ -1,0 +1,3 @@
+Search again menu option fails to find new occurrences
+
+R2.1 RC1 From the java editor popup menu "Search -> Occurrences in file" on an item that will generate one or more matches. Note the number of matches. Now insert another instance of the item you searched for and press save to recompile the class. RMB in the search view and "Search again" It won't find the new occurrence. Either the search again should be disabled or it should do the search again. I prefer the later.

@@ -1,0 +1,3 @@
+Access rules - 'Combine rules...' checkbox does not reflect status on required project
+
+Build: I20050426-1700 Scenario: - create new project 'RequiredProject'; - create new project 'DependentProject'; - open the latter's properties; in the 'Java Build Path/Projects' tab, add RequiredProject; - expand the newly created node and select the 'Access rules: (No restrictions)' line; - click 'Edit...'; - check the 'Combine rules...' checkbox; - click 'OK'; notice the 'Access rules: Using rules of child entries' label; - click 'Edit...' again; - the 'Combine...' checkbox should be checked, but it isn't. As a side effect, I would expect the removal of this property to be difficult (else than by recreating the project from scratch).

@@ -1,0 +1,3 @@
+[typing] Enter before right parenthesis indents differently from Ctrl+I
+
+Pressing enter before ')' indents the new line, but using Ctrl-I on the new line removes the indent. NewLine and Ctrl-I should show consistent indentation.

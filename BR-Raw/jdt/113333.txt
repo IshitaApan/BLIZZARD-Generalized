@@ -1,0 +1,3 @@
+[api][content assist] API for setMessage in ContentAssistant without cycling mode enabled
+
+Version: 3.2.0 Build id: N20051018-0010 I would like to change the behavior of ContentAssistant#setMessage (or add a new method) such that a message is displayed at the bottom of the pop up also if ContentAssistant#setCyclingMode is set to false. I also whould like to have something like ContentAssistant#clearMessage or ContentAssistant#setMessage(null) which should result in removing the label at the bottom of the pop up. At the moment I use setMessage("") which does not remove the label. Thanks.

@@ -1,0 +1,3 @@
+refactoring & source quick menus location should be confined to workbench [quick menu]
+
+I20040518 M9 testpass 1. Use eclipse without it covering the entire screen, but merely the lower left 2. Open JavaEditor.java 3. Put the editor caret somewhere on AbstractSelectionChangedListener::install 4. Without changing the selection, scroll to the very end of the end of the file 5. Press Alt+Shift+T/S to bring up the quick menu -> expected: the menu shows up somewhere in the eclipse workbench -> actual: the menu shows up on the very top of the screen, over other applications.

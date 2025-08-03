@@ -1,0 +1,3 @@
+Java Editor Preference Page is missing most of the mnemonics
+
+summary says it all.

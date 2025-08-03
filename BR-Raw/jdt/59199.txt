@@ -1,0 +1,3 @@
+NPE in JavaDocView
+
+java.lang.NullPointerException at org.eclipse.jdt.internal.ui.infoviews.JavadocView.findSelectedJavaEle ment(JavadocView.java:417) at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(Abstract InfoView.java:406) java.lang.NullPointerException at org.eclipse.jdt.internal.ui.infoviews.JavadocView.findSelectedJavaEle ment(JavadocView.java:417) at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(Abstract InfoView.java:406)

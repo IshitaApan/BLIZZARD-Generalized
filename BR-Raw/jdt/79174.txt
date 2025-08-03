@@ -1,0 +1,3 @@
+organize imports bug in 3.1m2
+
+when organizing imports in class implementing Map<K,V>, can't seem to get rid of "import java.util.Map.Entry" using ctrl-shift-o, yet it still complains that its not needed. so i deleted it manually and it stopped complaining.

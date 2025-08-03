@@ -1,0 +1,3 @@
+inline method - breaks code when inlining methods with try catch blocks [refactoring]
+
+I-20021016 linux-gtk: import java.io.IOException; public class Loo { void foo() throws IOException { try { throw new IOException(); } catch (IOException e) { } } void goo() { try { foo(); } catch (IOException e) { System.err.println(); } } } 1. select foo in goo 2. inline method 3. press finish 4. observe that two try catch blocks for IOException are produced with a compile error for unreachable catch block

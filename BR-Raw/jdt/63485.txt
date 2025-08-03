@@ -1,0 +1,3 @@
+[projection] DefaultJavaFoldingStructureProvider's element changes listener not removed
+
+I200405211200 For each Java editor opened a DefaultJavaFoldingStructureProvider is leaked as an element change listener is not getting removed from JavaCore. When the editor is closed, a new element changed listener is added when the document is set to null. The original element changes listener (added when the editor is first opened) is never removed.

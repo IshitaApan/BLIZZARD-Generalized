@@ -1,0 +1,3 @@
+[implementation] Shoud not use InvalidRegistryObjectException
+
+I20080515-2000. Text creates and uses InvalidRegistryObjectException which it shouldn't.

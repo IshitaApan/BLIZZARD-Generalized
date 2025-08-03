@@ -1,0 +1,3 @@
+[refactoring] CCE with Extract Class refactoring on a class with comment
+
+Perform Refactor > Extract Class... on the following example: // comment public class Test { 	int i; } We get this exception: java.lang.reflect.InvocationTargetException 	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:421) 	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:331) ... Caused by: java.lang.ClassCastException: org.eclipse.jdt.core.dom.CompilationUnit cannot be cast to org.eclipse.jdt.core.dom.TypeDeclaration 	at org.eclipse.jdt.internal.corext.refactoring.structure.ExtractClassRefactoring.createParameterObject(ExtractClassRefactoring.java:479)

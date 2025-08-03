@@ -1,0 +1,3 @@
+Outline pop-up: flicker when filtering
+
+1) open the outline pop-up (ctrl-O) 2) type in a letter ->observe that you can watch how the tree items are removed and then added again. Use of setRedraw(false/true) during filtering should avoid this flickering

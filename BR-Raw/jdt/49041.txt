@@ -1,0 +1,3 @@
+Search context menu not available [search]
+
+In 12162000 the search menu entry seems to be gone from everywhere. I can't search for implementors, declarations, ... in my Java code. This is a mainline workflow. The menu bar entry doesn't cut it as it involves too much context shift.

@@ -1,0 +1,3 @@
+[hovering] Enriched source hover changes size
+
+I20080204-0800 1. Open org.eclipse.jdt.internal.ui.packageview.PackageFragmentRootContainer 2. Shift-Hover over IWorkbenchAdapter 3. Enrich hover (doesn't matter which strategy) Is: The size of the hover changes: It's now much smaller. Should: Size should not change This is on xp, I can not reproduce on Vista

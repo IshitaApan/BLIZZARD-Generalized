@@ -1,0 +1,3 @@
+[navigation] "Show In > Outline" does not work (always beeps)
+
+I20060105-0800 "Show In > Outline" does not work (always beeps) when invoked from a java editor. The problem is that JavaEditor.getAdapter(IShowInSource.class) now sets a StructuredSelection, but JavaOutlinePage.getShowInTarget() expects an ITextSelection.

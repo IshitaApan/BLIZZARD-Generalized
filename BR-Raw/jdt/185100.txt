@@ -1,0 +1,3 @@
+Copy Qualified Name should not be enabled in Class File Editor without source
+
+I20070502-0010. 1. open '' 2. Edit > Copy Qualified Name ==> should not be enabled and executing it gives a dialog

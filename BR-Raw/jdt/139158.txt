@@ -1,0 +1,3 @@
+JavaModelUtil.applyTextEdit should not start rewrite sessions for empty edits
+
+I20060428-0010 Organize imports will flash and potentially scroll the editor even if there isn't anything to do. Also, clients listening for document rewrite sessions may suspend their activity and resume it afterwards, which incurrs some overhead. The applyTextEdit method should at least check whether the text edit contains any changes, and not start/stop a rewrite session if it does not. I will attach a patch.

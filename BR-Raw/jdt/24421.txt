@@ -1,0 +1,3 @@
+Better UI feedback when class path entries are missing [icons]
+
+Build 2.1.M1. I get a nice message at the top of the Project/Properties/Java Build Path when I have missing entries on my HD from what I have specified on the class path: "Class path entries are missing." BUT the dialog provides no feedback as to which ones are missing, which can be a burden to figure out if you have a long class path in the list. I would like to suggest having the list entry displayed in RED when a class path entry is missing. That would make it easy to spot. Red is pretty universal for "something is wrong" or "stop". Thank you for considering this request, Gary

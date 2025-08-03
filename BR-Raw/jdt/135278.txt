@@ -1,0 +1,3 @@
+Deadlock in TypeHistory
+
+N20060405-0010 + plug-in export See attached stack trace. Steps that made it happen for me: 1. open launch config 2. edit installed JREs 3. change default VM for 1.4 execution environment

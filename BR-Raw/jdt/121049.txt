@@ -1,0 +1,3 @@
+[implementation] Revisit calls to StyledText.setRedraw(boolean)
+
+I20051214-2000 We should try to reduce the calls to StyledText.setRedraw(boolean). For example when revealing a selection, we could check up-front whether scrolling will happen or not.

@@ -1,0 +1,3 @@
+[JUnit] Running JUnit tests constrained by package takes minutes to run on jumbos
+
+Behavior is that running JUnit tests constrained by a subpackage (by either right clicking the package in the Package Explorer and running as JUnit or manually creating the Run profile) takes many minutes to run with the progress monitor displaying "Searching for errors in <project>" Further analysis during discussion of bug https://bugs.eclipse.org/bugs/show_bug.cgi?id=82852 [82852] reveals that excessive IO is occurring during creation of the JavaProject.newTypeHierarchy(..)

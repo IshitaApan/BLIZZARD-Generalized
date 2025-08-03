@@ -1,0 +1,3 @@
+[navigation][compare] Quick Outline does not select current element if no resource
+
+I20090203-1200 In Java compare editors, the Quick Outline does not initially select the current element in remote editor panes.

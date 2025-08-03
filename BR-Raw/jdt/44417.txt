@@ -1,0 +1,3 @@
+inline call a field initializer: could detect self reference [refactoring]
+
+20031008 class A { private String fName= getName(); private String getName() { return fName(); } } - inline getName() - it result in fName= fName which does not compile

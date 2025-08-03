@@ -1,0 +1,3 @@
+Package view filter - would like ability to filter out non-shared projects [package explorer] [filters]
+
+Build 2.0 Currently I can filter out binary projects (which is a good feature), but I would also sometimes want to be able to hide non-shared projects (for quickly selecting them all and perform CVS actions for instance). Also see related bug 21822

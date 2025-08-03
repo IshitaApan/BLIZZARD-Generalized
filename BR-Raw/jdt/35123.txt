@@ -1,0 +1,3 @@
+NLS not done correctly
+
+I20030316 See usages of keys from file NLSMessages.properties: the code uses the strings and compiles new strings inside the code (using +). This is not OK. The whole string needs to be in the messages file, with parameters if needed.

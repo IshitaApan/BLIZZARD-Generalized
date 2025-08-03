@@ -1,0 +1,3 @@
+[jar exporter] External class folder not exported by runnable jar wizard
+
+Created attachment 97971 test case I20080428-1300 Given: package test; public class Main { 	public static void main(String[] args) { 		System.out.println(other.External.HELLO); 	} } 1. Add content of attached zip as external class folder to project 2. Launch Main 3. Export with runnable jar wizard 4. Run generated jar Is: Exception in thread "main" java.lang.NoClassDefFoundError: other/External at test.Main.main(Main.java:4) Should: Hello World External class folders are ignored by the jar export operation, see bug 229052

@@ -1,0 +1,3 @@
+Indirect static proposal: Wrong compiler positions
+
+QuickFix produce wrong code while trying to fix the way class accesses field of the static member of the static class instance, i.e.: instance.staticField.flag = true; Where "instance" is the static field of the same class as caller, "staticField" its static member (instance of inner class StaticField) and the "flag" is a public field. Code is a bit meaningless, but there is no matter. Using QuickFix results in: StaticField.flag = true; while should be: InstanceClass.staticField.flag = true; or staticField.flag = true;

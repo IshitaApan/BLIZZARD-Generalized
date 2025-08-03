@@ -1,0 +1,3 @@
+[build path] Can't exclude folder if exclusion pattern disabled on project/workspace level
+
+Version: 3.2.0 Build id: I20051220-0800 Create project with inclusion and exclusion patters disabled and no seperate src and output folder. On build path menu select 'New Source Folder' The wizard shows the error: Cannot nest 'P03/src' inside 'P03'. To enable the nesting exclude 'src/' from 'P03' But the check box is disabled (which is correct). The error should say something else.

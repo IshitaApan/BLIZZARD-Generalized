@@ -1,0 +1,3 @@
+[clean up] CleanUpPerfTests are measuring too much
+
+I20071204-1547 startMeasuring is called before joinBackgroundActivities and stop is called after undo. This may also the reason why most of this tests are yellow.

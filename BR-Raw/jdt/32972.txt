@@ -1,0 +1,3 @@
+Convert Local to Field: text input field doesn't have focus
+
+RC1

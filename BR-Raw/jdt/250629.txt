@@ -1,0 +1,3 @@
+[content assist] Selected proposal kinds not restored
+
+I20081007-1600 + latest plug-in export - new workspace - select all Java content assist proposal kinds, except "Java Proposals" - restart Eclipse => all 3 Java categories disabled, content assist broken

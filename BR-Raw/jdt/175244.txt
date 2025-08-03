@@ -1,0 +1,3 @@
+[clean up] Remove built in profile save participant
+
+I20070222-0951 This profile is not useful anymore with the new save action story

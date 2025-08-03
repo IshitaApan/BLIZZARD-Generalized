@@ -1,0 +1,3 @@
+Call hierarchy Sash location not saved in prefs [call hierarchy]
+
+The location of the sash in the call hierarchy view is not persisted. Open the view, drag the sash, close the view, and reopen to reproduce this bug. A separate ratio, one for each vertical and horizontal orientations, should be persisted.

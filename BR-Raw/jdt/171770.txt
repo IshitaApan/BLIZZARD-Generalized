@@ -1,0 +1,3 @@
+[pull up] Pulling Up Methods to an interface ignores other implementations of that interface
+
+Build ID: M20060921-0945 Steps To Reproduce: 1. In JUnit 3.8.1, select junit.framework.TestCase 2. Refactor > Pull Up... and select getName() & setName(.) 3. Ignore the empty list of subtypes (?) 4. Finish 5. Observe the 4 errors introduced in two direct implementers of Test (the changed interface)

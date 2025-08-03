@@ -1,0 +1,3 @@
+[Wizards] Radio button looses selection when page is disabled
+
+20040318 1. Open the new Java project wizard, enter a name 2. In the 'project layout' group, set the upper radio button 3. press 'next', the 'prev' 4. The radio has changed to the lower control This doesn't happen on the MAC

@@ -1,0 +1,3 @@
+[search] need a way to search for references to the implicit non-arg constructor
+
+i'd like to search for references to all constructors of a class - it's easy when the class has some declared construcotrs. the problem is that when the class does not declare any explicit constructors, you can still have (super()) references to the non-arg implicit constructor. but how do i search for these?

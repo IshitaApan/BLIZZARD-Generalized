@@ -1,0 +1,3 @@
+[organize imports] import broken with * groups
+
+3.3 Exported import order that contain a 'unmatched' imports group can't be imported anymore.

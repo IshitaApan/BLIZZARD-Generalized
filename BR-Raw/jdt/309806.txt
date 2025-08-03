@@ -1,0 +1,3 @@
+[ccp] Pasting a patch in package explorer ignores "Apply patch in Synchronize view" preference
+
+This preference was introduced on bug 305993. Compare doesn't provide API to inject a custom apply patch wizard so fix for bug 305993 included an addition of internal class ApplyPatchOperation in Team. To get proper behavior during paste referring this internal class is needed. Other solution is to simply wait until bug 309803 is fixed, no action will be needed then.

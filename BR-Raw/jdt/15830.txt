@@ -1,0 +1,3 @@
+Encapsulate field should allow visibility selection
+
+I love this feature! It would be even better if the first page of the dialog allowed selection of visibility. It is very common to create public getters/setters for private or protected fields. It's a little tedious to have to manually change this every time. Plus, visibility can (or could) affect how much code needs to be changed. It would be better to get it right the first time.

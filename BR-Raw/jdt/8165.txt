@@ -1,0 +1,3 @@
+NLS: various bloopers on first wizard page [refactoring]
+
+1) When the wizard opens, the wizard expands to the full height of the screen, even if only a few entries exist in the table. 2) check boxes should be combo boxes. 3) buttons on the left are not top-aligned with the table 4) the table is not left-aligned with the other widgets 5) If there's a legend to the table, it should be next to the table, not at the bottom of the wizard. 6) Windows only: The context is displayed w/ proportional font, although I never use proportional fonts in the editor.

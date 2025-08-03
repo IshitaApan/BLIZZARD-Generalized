@@ -1,0 +1,3 @@
+[search] Alt+Shift+R does not work in Search View.
+
+In the Java Browsing Perspective. I perform a Search for methods with a certain pattern. The methods show up in the Search View (Which is reall a "Found" view, but, nevermind '-) I click on a method in the Search view, and type Alt+Shift+R, nothing happens. I expect the Rename method dialog to open at that point. Non-obvious workaround: click several times on the methods name in the Search view in order to shift the focus to the Java editor. Then Alt+Shift+R works.

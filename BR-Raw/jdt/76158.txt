@@ -1,0 +1,3 @@
+misspelled constant 'DIALOG_BASED_UESR_INTERFACE' in RefacoringWizard
+
+The constant DIALOG_BASED_UESR_INTERFACE in the public class org.eclipse.ltk.ui.refactoring.RefactoringWizard should read DIALOG_BASED_USER_INTERFACE. UESR --> USER

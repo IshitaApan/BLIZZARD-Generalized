@@ -1,0 +1,3 @@
+[clean up] Clean up doesn't follow formatter options
+
+3.3 M3 I enabled Clean up on save, and used the default save participant profile. When I started using it, I noticed that it was formatting my comments, even though my active formatter profile says comments should not be formatted. When I investigated I noticed that the clean up profile has a separate check box for "format comments". Why have a separate option for this when it is already part of the general formatter profile? The expected behaviour is that my formatter settings will always be obeyed...

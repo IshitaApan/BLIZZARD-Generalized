@@ -1,0 +1,3 @@
+[misc] Save as to a location external to the workspace
+
+200409140800 I was editing an external file and wanted to make use of save as to save the copy to a new location. The only option I had was to save the file in a workspace location. I would like to be able to save as to an external location

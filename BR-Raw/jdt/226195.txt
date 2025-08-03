@@ -1,0 +1,3 @@
+[quick assist] New local variable quickfix gives illegal result.
+
+Build ID: M20080221-1800 Steps To Reproduce: Please see that applying the "Assign statement to new local variable" quickfix gives an illegal result. ----------------- Bug.java ------------------- class Bug{ 	void foo(){ 		if(0>hashCode()) 			return; 		else 			equals(null); }}

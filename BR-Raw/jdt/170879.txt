@@ -1,0 +1,3 @@
+[paste] paste patch from clipboard into package explorer
+
+I20070109-1805 I would like to be able to past a patch which I have in the clipboard into the package explorer. Pasting would apply the patch. This would be a shortcut for Team>Apply Patch...>Clipboard>Finish. Thanks (Not sure if CVS is the correct component for this request)

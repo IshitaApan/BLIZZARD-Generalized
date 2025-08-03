@@ -1,0 +1,3 @@
+Renaming a project automatically updates the build class paths
+
+Updatig the build class path is goodness but it should not always happen automatically. We should offer the user an option to not do the update. Same is true when renaming folders.

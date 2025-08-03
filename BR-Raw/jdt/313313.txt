@@ -1,0 +1,3 @@
+[implementation][preferences][spell checking] Move disabling of spelling for performance tests into tests itself
+
+R3.3. We should move the code that disables spelling for performance tests from AbstractDecoratedTextEditorPreferenceConstants into tests itself. Currently, when running the performance tests on a local machine we get different results than on the official/releng test machines.

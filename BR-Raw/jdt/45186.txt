@@ -1,0 +1,3 @@
+[UI Guidelines] Double clicking a view does not activate editor
+
+Double click on the outline view and the corresponding location in the file is selected but the editor is not active. This behavior differes from the package explorer view with "show members in package explorer" selected. When show memebers is selected, double clicking on the member selects the member in the editor, and makes the editor active. The outline view should exhibit the same behavior.

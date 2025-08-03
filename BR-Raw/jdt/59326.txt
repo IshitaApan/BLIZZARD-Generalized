@@ -1,0 +1,3 @@
+DeferredMethodWrapper needs to update imports
+
+We are going to move IElementCollector to org.eclipse.ui.progress in M9 so please update your imports accordingly in DeferredMethodWrapper . The org.eclipse.ui.progress.IElementCollector currently extends org.eclipse.jface.progress.IElementCollector but this dependency will be severed in M9 and the jface version will be deleted.

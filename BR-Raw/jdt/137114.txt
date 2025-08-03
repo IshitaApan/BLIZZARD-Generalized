@@ -1,0 +1,3 @@
+[build path] compliance settings for new Java projects are global
+
+When you go through the new Java Project wizard you are given the opportunity to change compiler compilance settings etc. The wizard does not however make it very clearl that these settings are the global ones and not the ones for the project that you are creating. When I went through this I thought "great, I'm making a new project and it is letting me set it all up" but that turned out not to be the case and I had to go an figure out what the old settings were. Furhter, it is unclear what would happen if I chose a project specific JRE what scope the compilance setting changes would have. That is, would I have a project-specific JRE but global compliance settings?

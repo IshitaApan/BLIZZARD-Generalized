@@ -1,0 +1,3 @@
+[Viewers] Need to back out of change to AbstractTreeViewer.isExpandable
+
+RC1 build For bug 44393, AbstractTreeViewer.isExpandable was changed to be more accurate when the viewer had filters. However, the performance cost of this fix is too high. See bug 65638. Need to unwind this for 3.0 and just go back to the old implementation of isExpandable: 	public boolean isExpandable(Object element) { 		ITreeContentProvider cp = (ITreeContentProvider) getContentProvider(); 		return cp != null && cp.hasChildren(element); 	}

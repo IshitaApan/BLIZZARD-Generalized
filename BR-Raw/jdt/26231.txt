@@ -1,0 +1,3 @@
+Editor on method must be opened in order to delete it from the Members context menu. [refactoring]
+
+Select a method in the Members pane on a class that is /not/ being edited. Open the context menu and the "Delete" operation is disabled. Workaround: Double click the method which opens it in an editor, /then/ you can open the context menu and choose "Delete". IMHO, I should not be forced to perform this extra step. Build id: 200211051258

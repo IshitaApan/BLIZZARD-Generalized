@@ -1,0 +1,3 @@
+Refactor > Rename is enabled for constructor but does nothing
+
+I20030716 + plug-in export 1. Select a constructor in the Outline view or Package Explorer 2. Refactor > Rename ==> nothing happens

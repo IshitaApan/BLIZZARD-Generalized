@@ -1,0 +1,3 @@
+The search view should not include an inner border
+
+I200404200800 The Search view has recently added an inner border. This makes it look different from every other view in Eclipse. The Eclipse UI team is currently investigating adding its own border around views (bug 56535), which will cause the the search view to have two borders.

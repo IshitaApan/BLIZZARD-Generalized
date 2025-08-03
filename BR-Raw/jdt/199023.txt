@@ -1,0 +1,3 @@
+[dnd] Drag from Type Hierarchy does not show default op on target in some cases
+
+Create: Project B: package p; public class Test { } package p; public class Test3 { } Project A: package test; public class Test2 { } Open Test3 in Type Hierarchy. Dragging the class to p.Test works, but dragging to test.Test2 not.

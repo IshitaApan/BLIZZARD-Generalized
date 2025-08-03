@@ -1,0 +1,3 @@
+Callhierarchy: CallLocation#getLineNumber() must not create an AST
+
++ clean up caching of fCallText, fLineNumber + remove unused ctor

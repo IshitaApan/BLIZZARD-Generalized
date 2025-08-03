@@ -1,0 +1,3 @@
+[junit] JUnit 4 container has no source
+
+3.4 Since the change to individual source bundles, the JUnit 4 container can not find it's source bundle.

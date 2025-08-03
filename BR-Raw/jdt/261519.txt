@@ -1,0 +1,3 @@
+dead code warning inconsistent with "if (true)" return value
+
+The following gives a dead code warning in the last line, because of the "if (true)" line above it: public class Main { public static void main(String[] args) { 	new Main().go(); } boolean go() { 	if (true) return true; 	return true; // dead code here } } However if I comment out the dead code line then the method is marked with an error for possibly not returning a boolean value (the "if (true)" line isn't good enough). Is the "if (true)" line considered safe enough to return a value (in which case there shouldn't be an error) or not (in which case there shouldn't be a dead code warning)?

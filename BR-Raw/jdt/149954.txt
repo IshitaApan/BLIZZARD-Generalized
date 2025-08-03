@@ -1,0 +1,3 @@
+[call hierarchy] Open Call Hierarchy should not open editor
+
+Activating "Open Call Hierarchy" for a reference of a method opens additionally an editor with the function. This did not happen in past versions. It is not necessary if one looks for other references of this funtion. To open a function definition one uses easier the "hyperlink feature".

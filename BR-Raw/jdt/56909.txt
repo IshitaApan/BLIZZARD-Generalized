@@ -1,0 +1,3 @@
+[implementation] Method EditorUtitliy.revealInEditor checks for JavaEditor
+
+In my plugin I have a MultiPageEditor that embeds a Java Editor on one of its pages. When a navigation to a Java method within the scope of my MPE is triggered the editor is correctly opened and switched to the source page, but no navigation to the method is triggered. Instead the cursor is positioned in the first row of the source code. This is due to the instanceOf check in the method EditorUtility.revealInEditor (IEditorPart part, IJavaElement element). It should be replaced by a check for the IGotoMarker interface. That would enable Java source navigation to quite a bunch of editors that have no chance to implement JavaEditor themselfes.

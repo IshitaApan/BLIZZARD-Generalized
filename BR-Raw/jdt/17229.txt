@@ -1,0 +1,3 @@
+Java prefs - build preferences should be merged back with compiler ones
+
+Build 20020521 Unless people understand our implementation, it is counter-intuitive for them to look under the 'builder' section for concerns which are still roughly compiler related... Here are some options (from Erich): 1) make builder a subnode of compiler 	- easy to do 	- not consistent with existing tab approach 2) squeeze it onto the first tab and rename it 	- dialog might get higher 	- need another title 3) add another tab "Building" (need a better name) 	- we would have the space to do so

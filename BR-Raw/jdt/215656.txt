@@ -1,0 +1,3 @@
+[breadcrumb] border not good on WindowsXP classic
+
+The border of the list viewers don't look good on WindowsXP classic

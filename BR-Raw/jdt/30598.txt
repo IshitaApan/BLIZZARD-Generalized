@@ -1,0 +1,3 @@
+When overriding a method, @see comment is wrong [code manipulation]
+
+I2003-01-22 When overriding a method, the @see comment that is constructed is wrong, e.g. having a class TestClass, when overriding java.lang.Object.clone, the comment says: @see TestClass#clone() instead of @see java.lang.Object#clone()

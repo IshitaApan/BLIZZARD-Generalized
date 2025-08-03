@@ -1,0 +1,3 @@
+Move CU doesn't add import to cus in other package fragments of source package [refactoring]
+
+If you have to source folders with a class in the first source folder andyou move the class into another package, the refactoring will refactor all classes of the first folder correctly, but doesn't take any classes of the second folder into account.

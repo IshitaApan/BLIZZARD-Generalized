@@ -1,0 +1,3 @@
+[breadcrumb] context menu > Show In > Package Explorer shows editor input
+
+I20080206-1800 - select a package fragemnt root in the breadcrumb bar - context menu > Show In > Package Explorer => was: shows editor input => expected: shows selection

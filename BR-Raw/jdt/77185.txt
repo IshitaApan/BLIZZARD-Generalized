@@ -1,0 +1,3 @@
+[classpath] entry kind "natives"
+
+We had a discussion about how to best support SWT application developement. The biggest problem is the native dll and that user have to create special launch configs with -Djava.library.path=.... to get a SWT application up and running. However the dll problems seems to be a more general problem. Although the compiler doesn't care about dll it would fit into our current story to have a class path entry kind "natives". Java/Core wouldn't benefit from the entry, but debugger could use it to construct the -Djava.library.path= command line argument.

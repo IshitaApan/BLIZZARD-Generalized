@@ -1,0 +1,3 @@
+[organize import] Should use new CleanUpAction to do multi organize imports
+
+I20070327-0800 This will allow to reuse the binding environment. First measures indicate a speedup of 3 to 4 times! It also unifies the implementations. See also bug 133277

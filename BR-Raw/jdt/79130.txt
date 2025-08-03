@@ -1,0 +1,3 @@
+SerialID Tests commented out after N20041120
+
+N20041120 The tests for the serialId quick fix failed in N20041120. I commented them out until is ckear whats the problem. http://download.eclipse.org/downloads/drops/N-N20041120-200411200010/testresults/html/org.eclipse.jdt.ui.tests_winxp.html

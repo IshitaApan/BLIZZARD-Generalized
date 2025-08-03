@@ -1,0 +1,3 @@
+quickfix "add catch block to surrounding try" does not comply with code formatter [quick fix]
+
+i have selected the code formatter option: "insert a new line in control statements" which puts catch blocks on new lines however if you use the "add catch to surrounding try" quickfix on the file below the generated catch block will not be on a new line! -----------------------------------A.java------------------------- import java.io.FileNotFoundException; import java.io.IOException; public class A { void method() { try { if(false) { throw new FileNotFoundException(); } throw new IOException(); } catch (final FileNotFoundException e) { e.printStackTrace(); } } }

@@ -1,0 +1,3 @@
+Breakpoint creation API should not use java elements
+
+Breakpoint creation would be more flexible if we modified the API to create breakpoints in terms of type names, method names, method signatures etc. Tying breakpoints to the Java model means that breakpoints cannot be created unless there is an associated java model element (and sometimes, source is not availabe, etc.). The API should be changed to provide the required information for creating the breakpoint, and an arbitrary IResource with which to associated the marker.

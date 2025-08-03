@@ -1,0 +1,3 @@
+[search] Occurrence search should honour link to editor or use another concept
+
+I20071211-0010 People who use 'Link With Editor' are used to the fact that the view is tracking the active editor. Currently the occurrence search breaks this concept in the case where the new active editor's selection doesn't resolve to a Java element. We should either clear the view or use a different concept similar to our info views which track the selection.

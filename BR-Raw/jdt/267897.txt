@@ -1,0 +1,3 @@
+[navigation] 'Open Implementation' sometimes opens Ctrl+T even if there's only one match
+
+I20090310-0100. 'Open Implementation' sometimes opens Ctrl+T even if there's only one match. Test Case: 1. open org.eclipse.jdt.internal.corext.buildpath.CPJavaProject 2. on line 29 click on getOutputLocation ==> should open org.eclipse.jdt.internal.core.JavaProject.getOutputLocation() but instead invokes Ctrl+T.

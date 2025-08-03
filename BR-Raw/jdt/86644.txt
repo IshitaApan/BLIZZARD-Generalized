@@ -1,0 +1,3 @@
+infer type args: incorrect with method type params used as type args
+
+3.1M5a public class Cell{ public <T> T f1(T l){ 	 Vector v= new Vector(); 	 v.add(l); 	 return (T)v.get(0); } } it infers: public class Cell{ public <T> T f1(T l){ 	 Vector<Cell> v= new Vector<Cell>(); 	 v.add(l); 	 return v.get(0); } } (fyi: i'm working on 'our' side of this problem)

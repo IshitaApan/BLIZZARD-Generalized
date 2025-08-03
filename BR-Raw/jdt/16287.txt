@@ -1,0 +1,3 @@
+Feature request: "Search in project" option
+
+Hi, I guess a "search in selected project" option in the search dialog would be a good feature. It could also be added to the "References", "Declarations" and "Implementators" popup menu.

@@ -1,0 +1,3 @@
+[build path] Source Attachment dialogs should leave encoding combo empty if none is set
+
+follow-up to bug 368015 We currently show the default workspace encoding if no encoding is set, but this is not always correct. We should leave the encoding combo empty if none is set. SourceMapper.findSource(String) line: 1030 calls IFile.getCharset(true), which also inspects the contents of the file if no encoding was specified. If the source file has a BOM, then the encoding is determined from the BOM. This makes sense. In my test, I had a UTF-16 file that was read correctly, although the source attachment dialog said I used MacRoman (which is the default on my system).

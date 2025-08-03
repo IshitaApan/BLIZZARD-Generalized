@@ -1,0 +1,3 @@
+Hierarchy View expands all treeitems on save
+
+I have a hierarchy perspective open rooted on a package. Whenever I save a CU in the package, the entire hierarchy view Tree is expanded.

@@ -1,0 +1,3 @@
+[preferences] syntax coloring preference page does not reflect configured settings
+
+I20041130-0800-gtk - open the java syntax coloring preference page - note that the real settings are not reflected, neither on the preview nor in the Java editor.

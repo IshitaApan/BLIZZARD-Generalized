@@ -1,0 +1,3 @@
+[navigation] Improve Java element hyperlinking if resolved to > 1 element
+
+I20080311-0800. Currently hyperlinking in the editor on a Java element that resolves to more than one element simply opens all of them while F3 gives a selection dialog. With the support for multiple hyperlinks we can improve this and show all elements in the link list.

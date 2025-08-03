@@ -1,0 +1,3 @@
+Java Example Project: Still uses JRE_LIB
+
+20030211 should update the example project

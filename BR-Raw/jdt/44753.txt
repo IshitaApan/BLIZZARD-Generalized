@@ -1,0 +1,3 @@
+Extract Local Variable also on ExpressionStatements [refactoring]
+
+Typing : System.out.println(new String()); select 'new String()' and apply ELV , works. Typing : new String() Select 'new String()' and apply ELV , does not work - error is "An expression must be selected to activate this refactoring" I'm reasonably sure "new String();" is an expresssion and can serve as an RHS. I even checked with IDEA, and we seem to agree :-)

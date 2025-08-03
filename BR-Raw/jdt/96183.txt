@@ -1,0 +1,3 @@
+[reconciling] Incremental compiler falsely complains after method moved.
+
+Move the method from Source.java to Target.java. The result is legal, but Source.java falsely shows an error indication (red x). Add some whitespace anywhere in Source.java and the error indicator rightfully goes away! -------------------- Target.java -------------------------- package bug; public class Target {} -------------------- Source.java BEFORE ------------------- class Source { public static String noop(){return "";} {noop().toString();} } -------------------- Source.java AFTER ------------------- import bug.Target; class Source { {Target.noop().toString();} // ERROR INDICATED FALSELY! }

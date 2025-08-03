@@ -1,0 +1,3 @@
+3 type constraint tests failing
+
+20040126 TypeConstraintTests.testConstraints4 TypeConstraintTests.testConstraints8 TypeConstraintTests.testConstraints19 are failing. I disabled them for now as the refactoring tests suites are unaffected.

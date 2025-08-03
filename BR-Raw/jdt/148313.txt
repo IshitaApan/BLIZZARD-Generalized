@@ -1,0 +1,3 @@
+[build path] "Configure Build Path" incorrectly appears for non-Java projects
+
+In Eclipse 3.2RC7, if I right-click a closed project or an open non-Java project in the Package Explorer, "Build Path" incorrectly appears on the context menu, and the submenu contains the single entry "Configure Build Path". Clicking on this entry opens the Info page of the project properties. (Presumably Eclipse tries to open the Java Build Path page, but it is not present.)

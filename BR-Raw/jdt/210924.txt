@@ -1,0 +1,3 @@
+[icons] Need icons for runnable jar wizard
+
+I20071120-1300 Need an icon and a wizard banner for the runnable jar wizard. The two images to replace are: wizban/fatjar_pack_wiz.png etool16/exportfatjar_wiz.gif

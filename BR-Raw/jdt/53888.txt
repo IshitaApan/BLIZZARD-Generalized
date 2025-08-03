@@ -1,0 +1,3 @@
+Mnemonic collision Text Editor -> Quick Diff
+
+20040303 The Make Default and Restore Defaults button have the same mnemonic

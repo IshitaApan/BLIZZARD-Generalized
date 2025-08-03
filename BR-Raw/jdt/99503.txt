@@ -1,0 +1,3 @@
+[5.0][enum] overridden method decorators/indicators not shown
+
+I20050610-1200 For enums methods which implementing interface methods there is no overriden method decorator in the method outline view and no overriden method indicator on the vertical left ruler in the editor. Example code (inner enum and interface both in the another class): protected interface PropsSetter { void applyTo(Properties props); } protected enum Algorithms implements PropsSetter { BRUTE_FORCE { public void applyTo(Properties props){ props.setProperty("abc", "cde"); } }; }

@@ -1,0 +1,3 @@
+[create on paste] Paste code into empty Package Explorer produces stale Java project
+
+JDT UI Head Steps to reproduce: - Start with fresh workspace - Paste following snippet to empty Package Explorer: package test; public abstract class E {} - Note the stale project (see attached screenshot)

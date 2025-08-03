@@ -1,0 +1,3 @@
+inline method deletes non-javadoc comment after the inlined method
+
+inline method on inline(): public class Test { 	 	public int inline() { 		return 0; 	} 	 	/* 	 * Method test. 	 */ 	public void test() { 		int tmp= inline(); 	} 	 } results in: public class Test { 	 	public void test() { 		int tmp= 0; 	} 	 } this only happens with non-javadoc comments.

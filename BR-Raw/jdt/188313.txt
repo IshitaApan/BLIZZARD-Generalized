@@ -1,0 +1,3 @@
+[preferences] dialog font not used in clean up dialog
+
+3.3 RC1 change the dialog font to a larger size a.) open a clean up profile The 'x of y clean ups selected' description does not use the new font b.) use clean up on multiple files The profile selection dialog that shows up doesn't use the new font

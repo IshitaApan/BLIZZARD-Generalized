@@ -1,0 +1,3 @@
+[ltk] Strange confirmation message on 'Delete project'
+
+3.4 - Select a project and press 'Delete' - A dialog asks you if you are sure to delete the resource from the file system, but still offers you a check box to decide if the project is really removed from disk. The bug got introduced by fix for bug 234959. We should revert the message to what it was in 3.3.

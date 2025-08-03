@@ -1,0 +1,3 @@
+System threads show suspended at startup
+
+Version 20011127 1. Launch Eclipse from Eclipse. 2. Note that the system threads are incorrectly rendered as suspended in the DebugView. 3. Close the DebugView and reopen it. 4. The threads are rendered correctly Somewhere along the line we're not firing a changed (suspended, etc.) event.

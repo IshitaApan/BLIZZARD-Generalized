@@ -1,0 +1,3 @@
+[Global Actions] [Help] No F1 help for certain global actions
+
+2.1 RC2 build I20030307 Certain global actions are missing their help contexts: File / Revert File / Print The workbench should have defaults for these. Handling actions can provide more specific help contexts if appropriate (e.g. the Text editor). Also need to check the following. The Navigator provides help contexts for these, but need to check the defaults. File / Refresh File / Properties File / Move File / Rename

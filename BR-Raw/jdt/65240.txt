@@ -1,0 +1,3 @@
+Hierarchical layout: Problems with inclusion filters [package explorer]
+
+RC1 See setup from bug 65234. proj src org eclipse mypack A.java otherpack B.java Set an inclusion filter of src to "org/eclipse/mypack/". The package explorer shows a package in flat mode, but not in hierarchical mode.

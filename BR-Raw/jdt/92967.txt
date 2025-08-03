@@ -1,0 +1,3 @@
+SelectionButtonDialogFieldGroup accesses unitialized field
+
+I0426, found with FindBugs Line 68 in SelectionButtonDialogFieldGroup looks like: if (fButtonsStyle == SWT.RADIO) { But fButtonsStyle is guaranteed to be 0 at this point since it hasn't been initialized yet. This should probably either be "buttonsStyle", or not done until after "fButtonsStyle= buttonsStyle;".

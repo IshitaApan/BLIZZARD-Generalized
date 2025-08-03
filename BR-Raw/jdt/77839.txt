@@ -1,0 +1,3 @@
+Type Restriction filters confusing in container children
+
+20041104 The build path UI shows Type Restriction filters also on container children. But all container implementation don't support the feature, nor the update. It would be better to filter the entries for M3

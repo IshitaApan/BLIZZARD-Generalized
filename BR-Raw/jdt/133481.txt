@@ -1,0 +1,3 @@
+Find Broken NLS Keys action should not appear on types and CUs
+
+I20060328-0010. The Find Broken NLS Keys action only works for folders and *.properties files and hence it should not appear in the view context menu on non *.properties files.

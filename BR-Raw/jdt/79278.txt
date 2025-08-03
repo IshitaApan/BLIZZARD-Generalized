@@ -1,0 +1,3 @@
+Selfencapsulate Field does not support annotations [refactoring]
+
+I20041117: Create annotation: public @interface Annotation { int property; } Invoke sef refactoring on "property" -> property is private (illegal modifier in annotations) and accessor is static and has method body. Apart from generating an accessor, sef is not of much value for annotations, so we might disable it.

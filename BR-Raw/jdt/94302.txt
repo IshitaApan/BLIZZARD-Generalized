@@ -1,0 +1,3 @@
+[Quick fix] on A.class offers odd generic replacement
+
+Probably related to 93643. Against I20050509-2010. Given code: import junit.framework.Test; import junit.framework.TestCase; import junit.framework.TestSuite; public class FlashcardTests { 	public static Test suite() { 		TestSuite suite = new TestSuite(); 		add(suite, ParserTest.class); 		return suite; 	} 	private static void add(TestSuite suite, Class<? extends TestCase> clazz) { 		suite.addTestSuite(clazz); 	} } Since ParserTest doesn't exist, there's a compiler error. Using quick fix offers "Change to Class<? extends junit.framework.TestCase>", which is no closer to compiling code.

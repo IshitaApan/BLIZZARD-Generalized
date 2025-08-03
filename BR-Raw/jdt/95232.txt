@@ -1,0 +1,3 @@
+[working sets] Edit Working Set dialog is too slow
+
+The performance of the Edit Working Set dialog for a Java Working Set is really slow, it takes a lot of time to open and finish. My current project have arround 4500 files and near 100 in the working set, the machine is a Pentium 3 1Ghz with 512ram with near half memory not in use. The dialog takes near 20 seconds to open using 100% cpu and doing no I/O. This problem could be solved if new resources are automatically included to the selected working set and the context menu allows to remove a resource from the selected working set.

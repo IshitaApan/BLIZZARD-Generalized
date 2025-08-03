@@ -1,0 +1,3 @@
+organize impors: should not touch files if it does not modify them
+
+2.0 select a package and run organize imports on it - every file is touched (cvs dirty flag appears) regardless if it was modified or not

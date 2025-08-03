@@ -1,0 +1,3 @@
+[refactoring] [ltk] filter button on preview page should do something
+
+I20050928-1300 The button on the refactoring preview page that allows to filter e.g. textual matches or visibility changes should have a button action. Currently it does nothing when the user clicks on it. It could - cycle through the options, or - open the menu

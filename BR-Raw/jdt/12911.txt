@@ -1,0 +1,3 @@
+Open Type dialog doesn't always combine types with same name
+
+Build 20020321 Create the following three classes: bar.FOO baz.Foo quux.FOO Now open the 'Open Type' dialog, and type in 'foo'. The list will have three entries in it: +-----+ | FOO | | Foo | | FOO | +-----+ This is incorrect. The two 'FOO' entries should be combined, and the list should look like: +-----+ | FOO | | Foo | +-----+ I suspect that this is due to a compare function which doesn't distinguish between strings which only differ by case, causing them to appear in an arbitrary order in a sorted list.

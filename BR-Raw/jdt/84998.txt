@@ -1,0 +1,3 @@
+[api] Make ResultCollector API
+
+Eclipse 3.0.1 In our application we provide code assist to our own Java editor. In order to be consistent with the JDT Java editor we need to provide the same look and feel for code assist (icons, ordering, display string, etc...). Currently the only way we can get that to work is using the internal class ResultCollector. Since ResultCollector is basically an implementation of ICompletionRequestor, would it be possible to make it API or at least provide the functionality to people implementing code assist for Java-like editors?

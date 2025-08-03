@@ -1,0 +1,3 @@
+[render] 'Java > Appearance > Compress all package name segments' fails for '0'
+
+Compress all package name segments, except the final segment. The 0 option that should show just last segment doesn't work properly. When 0 is entered in the text field, fully qualified names are shown instead of just the last segment. Thank you for your time on it.

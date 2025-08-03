@@ -1,0 +1,3 @@
+Error not surfaced on failed quick fix [quick fix]
+
+Build: 2.1 RC3a 1) Create a java file, A.java: public class A { } 2) In the java editor, change the class name to "Com1". 3) The word "Com1" will be underlined because it doesn't match the compilation unit name. Select the name and invoke quick fix. 4) Choose the quick fix option, "Rename the compilation unit to Com1.java" -> Nothing happens. The log file contains several stack traces Expectation: The error should be reported to the user, not to the log (since it's a user error, not a program failure).

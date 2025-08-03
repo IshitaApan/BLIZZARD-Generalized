@@ -1,0 +1,3 @@
+[breadcrumb] Non-Java resources inside jar cannot be opened
+
+I20080325-0100 In the breadcrumbs dropdown, non-Java resources inside a jar cannot be opened (e.g. rt.jar/META-INF/MANIFEST.MF).

@@ -1,0 +1,3 @@
+[linked mode][navigation] Consider linked position boundaries as word stops
+
+Now that "Rename in File" quickfix no longer selects the current token, I am trying to do it manually by typing CTRL+LEFT, CTRL+SHIFT+RIGHT. The problem with this is that it includes the whitespace coming after the variable, which is outside of the linked-edit box, and overwriting deactives the linked edit mode, which is not what I want. It should be easier to select a word. Perhaps "Next Word" should go to the end of the current word instead of the beginning of the next. Or, the linked edit box should be considered a word boundary.

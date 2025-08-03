@@ -1,0 +1,3 @@
+[implementation] Java outline viewer does not use element map
+
+build I20030307 The stack in bug 28343 shows that the JavaOutlineViewer does not use setUseHashLookup(true). So to find the SWT item for an element, the viewer has to iterate over the children, which is slow. Since the outline is updated frequently, it should use this.

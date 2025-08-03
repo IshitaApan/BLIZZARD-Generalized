@@ -1,0 +1,3 @@
+Edit-Add Task action should use Workbench dialog as Java Editor does
+
+F1 - select CU in packages view - execute File->Add Task observe: you get a different dialog than executing the action from the Java editors ruler context menu

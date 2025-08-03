@@ -1,0 +1,3 @@
+Show Type hierarchy scalability problem
+
+corner case but... 1) Open Object 2) select toString in the editor 3) ctrl-t 4) type T to filter the list ->this takes minutes The filtering is done after every keystroke. A first improvement is to do the refiltering after a time out. Another solution is to use the separate thread solution as is done in the ElementListSelectionDialog

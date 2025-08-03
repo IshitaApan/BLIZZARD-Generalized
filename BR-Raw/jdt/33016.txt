@@ -1,0 +1,2 @@
+Show In...: "Package Explorer" is enabled when opening a file from cvs repository
+

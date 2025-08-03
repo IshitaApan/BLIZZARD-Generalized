@@ -1,0 +1,3 @@
+[content assist] anonymous type completion does not add method implementation stubs when type already imported
+
+I20090514-2000 Content assist: Anonymous type completion does not add method implementation stubs when type already imported. Example: import java.util.AbstractCollection; public class Runner { 	private void foo() { 		new AbstractColl 	} } => Content assist after 'new AbstractColl' only gives: 		new AbstractCollection<E>() { 		}; => Expected: Method implementation stubs are added, like when the 'import java.util.AbstractCollection;' is not there.

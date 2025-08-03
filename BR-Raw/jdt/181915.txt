@@ -1,0 +1,3 @@
+[rename] in-place Rename Field refactoring forces preview even if textual occurrences are not updated
+
+I20070410-1043 The in-place Rename Field refactoring forces preview even if textual occurrences updating is not enabled.

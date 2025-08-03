@@ -1,0 +1,3 @@
+Method list should not have a view drop down/filter menu
+
+Opt to remove it. It takes space, is rarely used, and is inconsistent with the outliner.

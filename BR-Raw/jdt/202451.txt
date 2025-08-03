@@ -1,0 +1,3 @@
+[preferences] new compiler option for "Unnecessary declaration of thrown checked exceptions"
+
+Soon in HEAD. See corresponding JDT Core bug 73244 for details.

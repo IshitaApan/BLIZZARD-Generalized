@@ -1,0 +1,3 @@
+Action Cleanup/Dispose
+
+It would nice to have a package that was strictly for actions...just like jdt debug ui. org.eclipse.debug.iternal.ui.actions

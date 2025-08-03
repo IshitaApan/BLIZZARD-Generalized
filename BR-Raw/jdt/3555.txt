@@ -1,0 +1,3 @@
+source for binaries - 'defaults' button does not work (1G840M4)
+
+AK (1/25/01 2:43:33 PM) 	1. create a java project 	2. open the properties page for rt.jar in the project 	3. clear the 'Sources JAR file' field 	4. press 'Defaults' 	nothing happens NOTES: EG (2/1/01 10:02:53 AM) 	wait until we finish the Library presentation issue.

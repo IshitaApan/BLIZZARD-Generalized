@@ -1,0 +1,3 @@
+[WorkingSets] Resources like xml files still not saved in the Java WorkingSets
+
+Hi, following problem occurs with Working Sets under Eclipse 3.1: 1. Open Java Perspective 2. Select Package Explorer View 3. Select an Java Working Set which contains files from two projects. 4. Add some resources (e.g xml files) from the second project to the working set. 5. Close the second project 6. Reopen the second project 7. The resources still not in the working set. Only java sources was not removed from the working set. The logfile contains no exceptions or other messages for this problem.

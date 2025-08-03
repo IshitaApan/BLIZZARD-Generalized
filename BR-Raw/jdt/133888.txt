@@ -1,0 +1,3 @@
+[Model Sync] Resources not removed from view
+
+After an update or commit, the affected resources were not removed from the sync view.

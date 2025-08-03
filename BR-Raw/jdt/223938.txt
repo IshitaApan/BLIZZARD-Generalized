@@ -1,0 +1,3 @@
+[breadcrumb] remove vertical line between entries?
+
+I find the vertical line (separating the breadcrumb entries) confusing. Clicking on the little triangle button opens under the entry to the right, so it does have some relation to both the entry to the left and the entry to the right. Could this line be removed? This would let users decide if they want to think of the button as "show children" in relation to the entry to the left, or "show siblings" in relation to the entry on the right. (I find the latter interpretation easier to "get", even though it does not cover the case when you have a little triangle at the very right.)

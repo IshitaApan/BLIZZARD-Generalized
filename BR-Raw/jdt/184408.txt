@@ -1,0 +1,3 @@
+[refactoring] Move text refactoring target dialog too big
+
+I20070427-0010 1. Select constructor org.eclipse.jdt.internal.ui.wizards.buildpaths.AddSourceFolderWizardPage.AddSourceFolderWizardPage(...) 2. Refactor>Move... Is: Huge dialog, see screen shot Should: wrap the text

@@ -1,0 +1,3 @@
+Copy/Paste inserts two new lines [ccp]
+
+F3 - select a method in ouliner - copy - select CU - paste observe: method has two trailing newlines. There should be only one. May be this is a regression of the CodeFormatter fix

@@ -1,0 +1,3 @@
+[ast rewrite] replacing InstanceofExpression.LEFT_OPERAND_PROPERTY should ensure whitespace
+
+Try to extract a local from the expression "new Object()" -------------------- Bug.java ---------------------- class Bug { { System.err.println(new Object()instanceof Object); } }

@@ -1,0 +1,3 @@
+Search view's open strategy is broken
+
+3.3 M4 1. import JUnit 2. do a Java reference search for TestCase 3. in the Search view double click on TestRunner (the parent of the matches in rerunTest) ==> NOT OK: the Java editor opens but nothing is selected (caret is at 0) EXPECTED: class TestRunner gets selected 4. now click on the rerunTest ==> match is selected (OK) 5. double click on TestRunner again ==> NOT OK: nothing happens EXPECTED: class TestRunner gets selected This is pretty painful if you simply want to go the type where matches are found.

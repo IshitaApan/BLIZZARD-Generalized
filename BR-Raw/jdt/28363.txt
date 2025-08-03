@@ -1,0 +1,3 @@
+Navigate>Go to Resource has no effect
+
+JUnit setup 0) activate the package explorer 1) Navigate>Go to>Resource... 2) enter logo.gif 3) OK ->logo gif isn't selected in the package explorer

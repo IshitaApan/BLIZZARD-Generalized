@@ -1,0 +1,3 @@
+[nls tooling] Find Broken Externalized Strings utility should not list calls like Messages.getResourceBundle() as undefined keys
+
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.5) Gecko/20091102 Firefox/3.5.5 Build Identifier: I20091110-0800 Find Broken Externalized Strings utility should not return method calls like Messages.getResourceBundle() as undefined keys. If the method return type is not string then it should not be listed as an undefined key. Reproducible: Always

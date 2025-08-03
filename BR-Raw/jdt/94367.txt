@@ -1,0 +1,3 @@
+cannot clear compiler compliance setting at the project level
+
+i200505092010 Cannot disable the Java compiler project-specific preferences for some projects. Steps to reproduce: 1 - check out from CVS a Java project that has project-specific Java compiler settings enabled (example: org.eclipse.core.runtime). 2 - open the properties dialog for the project, select the Java compiler node, disable project-specific Java compiler preferences. 3 - Commit the changes by pressing "Ok" and reopen the properties dialog. It looks like the settings were not saved (project-specific settings are still enabled).

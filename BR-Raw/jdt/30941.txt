@@ -1,0 +1,3 @@
+Preferences default initialization. Can not do a syncExec
+
+20030204 The initialization of the preference default currently contains a final Display display= Display.getDefault(); display.syncExec(new Runnable() { 	public void run() { 		Color c= display.getSystemColor(SWT.COLOR_GRAY); 		rgbs[0]= c.getRGB(); 		c= display.getSystemColor(SWT.COLOR_LIST_FOREGROUND); 		rgbs[1]= c.getRGB(); 		c= display.getSystemColor(SWT.COLOR_LIST_BACKGROUND); 		rgbs[2]= c.getRGB(); 	} }); We should avoid and remove this as this is a candidate for a deadlock.

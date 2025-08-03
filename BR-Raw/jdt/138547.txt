@@ -1,0 +1,3 @@
+CorrectionMarkerResolutionGenerator has inconsistent hasResolutions and getResolutions
+
+20060425 The file i am about to attach has an unreachable code error. The CorrectionMarkerResolutionGenerator returns true for #hasResolutions and an empty collection for #getResolutions. As a result we are getting an empty Quick Fix dialog.

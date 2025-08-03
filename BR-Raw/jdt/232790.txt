@@ -1,0 +1,3 @@
+[misc] @inheritDoc tag does not inherit doc anymore
+
+I20080516-1333 Given: package test; public class E02 { 	/** 	 * My comment 	 */ 	public void foo() {} } package test; public class E01 extends E02 { 	/** 	 * {@inheritDoc} 	 */ 	public void foo() { 	} } 1. Hover over foo in E02 Is: Javadoc hover shows @inheritDoc as a link Should: Show 'My comment' This is a regression against 3.3.2 and was probably introduced by fix for bug 232293

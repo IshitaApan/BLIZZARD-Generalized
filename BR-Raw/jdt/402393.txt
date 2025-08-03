@@ -1,0 +1,3 @@
+TagScanner and markers treat package default members as API
+
+In an API type or interface, add a method or field with a package default scope. The javadoc quickfixes will allow you to add a @noreference restriction. The TagScanner will inspect the tags and they will be added to the .api_description file. This isn't correct as a package default level API could only be accessed by another API class in the same package. Since the restrictions are intended for clients, not for the bundle's internal use, there is not value in allowing the restrictions.

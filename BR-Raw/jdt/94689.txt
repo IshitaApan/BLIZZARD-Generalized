@@ -1,0 +1,3 @@
+Infer type arguments should be more graceful with exceptions
+
+The current implementation stop precessing as soon as an exception occurs. This leads to the fact that as soon there is one single file which we can't process properly the whole refactoring can't be applied. Can't we catch the standard exceptions (using ISafeRunnble) add them to a refactoring status and present them to the user and skip only those files which caused an exception. Even if we then don't change all the code the refactoring could still be helpful.

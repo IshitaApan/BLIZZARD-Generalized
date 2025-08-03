@@ -1,0 +1,3 @@
+[misc] Activate30JavaEditors performance test explanation not there
+
+I20060328-0010. Activate30JavaEditors performance test explanation not there. I suspect that the comment needs to be set before starting the performance meter.

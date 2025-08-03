@@ -1,0 +1,3 @@
+Empty popup doc in java editor
+
+1. Go to Java Perspective. 2. Double click on a java file. 3. Move the i-beam over the beginning prefixes of an import statement. For example, the "org" of "import org.eclipse.swt.SWT". An empty hover help box is displayed.

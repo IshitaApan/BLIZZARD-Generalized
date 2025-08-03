@@ -1,0 +1,3 @@
+Enable rendering of resolved information for fields
+
+No that bug 87362 is fixed we should enable rendering of resolved information for fields.

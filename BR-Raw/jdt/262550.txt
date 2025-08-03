@@ -1,0 +1,3 @@
+[compare] Ctrl+O and other navigation commands broken in Java compare
+
+I20090127-0100. Ctrl+O and other navigation commands are broken in Java compare i.e. they either don't work or give an exception.

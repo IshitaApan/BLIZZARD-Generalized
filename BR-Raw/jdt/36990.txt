@@ -1,0 +1,3 @@
+Quickfix for generating missing method ignores array dimension [quick fix]
+
+Build 20030422 When activating quickfix on: Object ob[] = tabList.getSelectedValues(); where #getSelectedValues is missing, it will generate a method of type Object, where it should have been typed with Object[]

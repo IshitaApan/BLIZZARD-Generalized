@@ -1,0 +1,3 @@
+[quick fix] QuickFix - serialVersionUID does not generates
+
+Pressing `Add default serial version ID` in quickFix adds /** * */ private static final long serialVersionUID = 1L; The same is for `Add generated serial version ID`.

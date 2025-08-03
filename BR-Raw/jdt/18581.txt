@@ -1,0 +1,3 @@
+Single element view - markers from other elements shown
+
+0) set some breakpoints in two methods, a, b 1) switch to the single element view in the editor 2) select a ->you can see the breakpoint on method b as a ghost (i.e. they do not update as user edits)

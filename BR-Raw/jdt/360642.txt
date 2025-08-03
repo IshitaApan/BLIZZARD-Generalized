@@ -1,0 +1,3 @@
+Allow to associate an editor to class files which have no source
+
+3.7. We should allow to associate an editor to class files which have no source. This will e.g. allow users to associate a disassembler to such files.

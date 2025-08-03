@@ -1,0 +1,3 @@
+[refactoring] Self encapsulate field - label clipped
+
+In the self encapsulate field dialog the label: "keep field reference" is clipped.

@@ -1,0 +1,3 @@
+[BiDi][templates] Wrong BTD in templates [BiDi 2013]
+
+Created attachment 230587 BTD disregarded for new CSS template Start eclipse as eclipse -bidi "on=y;textDir=rtl" Go to Window > Preferences > Web > CSS > Editor > Templates Select "New" button Go to Name and Description fields Right click and insert mixed BIDI text like ABCdef, where capitals stand for Hebrew letters Result: text is inserted in LTR order ( eclipse start specification is disregarded) The same problem exists also in "new HTML template" and "new JSP template"

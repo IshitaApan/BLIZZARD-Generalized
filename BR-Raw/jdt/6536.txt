@@ -1,0 +1,3 @@
+Add Javadoc on field in TH does nothing
+
+1. Select a field in the Type Hierarchy view 2. From its context menu select "Add Javadoc" ==> nothing happens. Either this menu should be removed or (preferably) the action should add the fields Javadoc.

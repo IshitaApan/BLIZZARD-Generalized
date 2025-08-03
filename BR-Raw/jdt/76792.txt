@@ -1,0 +1,3 @@
+organize imports: not correct: 0 import(s) added. [code manipulation]
+
+Organize imports falsely sums up the total of added and removed imports to display a difference. 0 import(s) added. means that the total of added and removed imports is 0. It would be better if it told the user something like: 1 import(s) removed, 1 import(s) added. The status message is slightly more useful than you might think at first glance, as in the odd case that it does not work (which I can't reproduce) you want to notice this, and a useful status message helps.

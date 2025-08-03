@@ -1,0 +1,3 @@
+[breadcrumb] dropdown opens on the wrong monitor
+
+Created attachment 99550 screenshot I have a dual monitor setup with the primary monitor on the right of the secondary monitor. When Eclipse is on the secondary monitor, clicking on an breadcrumb entry opens the dropdown shell on the primary monitor. See the attached screenshot - the red line shows the boundary between the two monitors.

@@ -1,0 +1,3 @@
+AssertionFailedException while "Refactore -> Extract Constant ..."
+
+3.0 M9 After invoking "Refactore -> Extract Constant..." on a selection inside an overwritten method of an anonymous inner class I got an AssertionFailedException "null argument" after clickin "OK" in the refactor dialog (wanted to extract this as private constant). see attached log file

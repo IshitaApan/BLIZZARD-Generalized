@@ -1,0 +1,3 @@
+[nls tooling] properties editor is RTL in RTL environments
+
+3.1.1 RC1 with arabic catalogs and -dir rtl The properties file editor is rtl in a rtl environment which make it unreadable as the keys are not lined up

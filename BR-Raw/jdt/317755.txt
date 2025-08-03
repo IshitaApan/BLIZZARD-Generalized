@@ -1,0 +1,3 @@
+[JUnit] JUnit -> Activate on Error/Failure Only not working
+
+Build Identifier: 20100617-1415 in Helios, JUnit's "Activate on Error/Failure Only" no longer works. Instead, the JUnit tab is always activated. This happens whether in Fast View or not. This happens with JUnit 3 and 4. Expected: when "Activate on Error/Failure Only" is checked and the tests pass, the JUnit dialog should not get focused. If in Fast View, the panel should not be displayed. Reproducible: Always Steps to Reproduce: 1. in the JUnit UI, in the upper right corner click the 'down arrow' icon, and check "Activate on Error/Failure Only" 2. Run a JUnit test where every test passes 3. see the JUnit UI activates (a.k.a. gets focus, displays)

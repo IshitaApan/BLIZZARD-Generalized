@@ -1,0 +1,3 @@
+[navigation] Open external web browser from Javadoc view
+
+Add a context function to the Javadoc view to open the page/a hyperlink in an external web browser.

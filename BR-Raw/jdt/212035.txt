@@ -1,0 +1,3 @@
+[search] UI for finegrained search options
+
+20070512 UI needs to be added for the options added by bug 155013

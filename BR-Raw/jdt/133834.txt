@@ -1,0 +1,3 @@
+Extract superclass should not add "extends Object"
+
+I20060329-0010 Extract superclass should not add "extends Object" to the extracted superclass.

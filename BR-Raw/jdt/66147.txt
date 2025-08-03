@@ -1,0 +1,3 @@
+Hover causes Does not exist entry in log
+
+I200406072000 1. Create a non-Java project with a *.java file 2. Open it in the Java editor 3. hover over some words ==> log entry

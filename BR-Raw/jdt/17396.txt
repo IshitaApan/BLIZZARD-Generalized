@@ -1,0 +1,3 @@
+Organize import on multiple CUs flickers
+
+20020521 Should use a WorkspaceModifyOperation

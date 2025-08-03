@@ -1,0 +1,3 @@
+[refactoring scripts] NL Questions needinf clarification
+
+Build ID: eclipse-JDT-SDK-3.3Meh.zip Steps To Reproduce: 1.tct 15: Question needing clarification filename: eclipse\plugins\org.eclipse.jdt.core.manipulation\org\jdt\internal\core\refactoring\descriptors\DescriptorMessage.properties sentence: Qualified name updating enabled implies a non-empty patterns string. Q: What does the word "implies" here mean? Would you pls reword this sentence? Thank you. More information:

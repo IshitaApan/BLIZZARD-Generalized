@@ -1,0 +1,3 @@
+Change Signature Refactoring: Error lable contains '' [refactoring]
+
+20040528 - do a 'change method signature' on a method with an argument - clear the name and the type The error says: Enter a type for '' '' shouldn't appear.

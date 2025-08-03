@@ -1,0 +1,3 @@
+Copy refactoring should use container encoding to create new file
+
+I200406091200 - Platform encoding: ISO-8859-1 - Have a folder with UTF-8 encoding - Create a java class containing some double-byte characters, e.g. �הצ - any non ASCII will do - Save - Select the java file in the package explorer, and drag-copy (hold Ctrl) it within the same folder - Accept the proposed class name in the popup - Open the new class Observe, depending on the original file - The multi-byte characters have been replaced with '?'s - The file cannot be opened because it is not readable using UTF-8 Examining the file shows that it was created using the platform encoding. Acceptable would be either the encoding of the original file, or the encoding of the container (folder in this case).

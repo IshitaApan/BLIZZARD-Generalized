@@ -1,0 +1,3 @@
+AddImportOnSelectionAction passes null process monitor to all types cache
+
+I20040611_0100 Title says it all. We should avoid passing in null since the operation can take a while.

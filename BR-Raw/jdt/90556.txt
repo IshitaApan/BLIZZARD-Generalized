@@ -1,0 +1,3 @@
+[organize import] JDT makes sensless static imports on Organize Imports
+
+eclipse 3.1M6: When "Organize Imports" gets called, JDT makes static imports of static methods from the super class, even if the method is not used at all. IMHO, "Organize Imports" should try to avoid to make "static imports" at all, since it is usually required for enums, only (and is explicitly discouraged - see http://java.sun.com/j2se/1.5.0/docs/guide/language/static-import.html). Example: public class BasePanel<T extends TreeNode> 	extends JPanel { 	public static void add2panel(Container panel, boolean adjustWidth, 		Component... comps) 	{ // bla 	} } // and here try a "Organize Imports" public class ManufacturerMainPanel<T extends DefaultMutableTreeNode> 	extends BasePanel<T> { }

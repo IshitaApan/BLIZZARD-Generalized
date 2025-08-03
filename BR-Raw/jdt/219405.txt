@@ -1,0 +1,3 @@
+[breadcrumb] Only shows java projects
+
+I20080212-0800 Have a workspace with Java projects and general projects. 1. Open the projects drop down Is: Only the Java projects are available Should: All projects should be available

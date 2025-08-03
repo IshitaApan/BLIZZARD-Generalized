@@ -1,0 +1,3 @@
+[implementation] ClipboardOperationAction does not dispose the allocated clipboard
+
+R3.4. The ClipboardOperationAction does not dispose the allocated clipboard.

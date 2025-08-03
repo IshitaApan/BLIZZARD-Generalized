@@ -1,0 +1,3 @@
+[jobs] suspend/resume causes concurrency failures
+
+Build: 3.1 M3 When IJobManager.suspend is used, it allows arbitrary threads to make concurrent modifications to resources. This causes failures when, for example, one thread is reading a resource while another is trying to move or delete it (bug 77589). This also creates concurrency holes for all plug-ins that are relying on ISchedulingRule to provide them exclusive control of resources for a given period. As desribed in bug 58678, suspend/resume was added to allow complex operations to manipulate resources across several threads. We need a replacement for suspend/resume that allows a client to migrate a scheduling rule to another thread without risk of unrelated threads gaining access to the rule in between.

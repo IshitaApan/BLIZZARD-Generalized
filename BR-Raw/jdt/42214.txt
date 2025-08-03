@@ -1,0 +1,3 @@
+New template variable that gets replaced by file name w/o extension [code manipulation]
+
+I would like there to be a template variable, for example "filename", that works like the "file" variable, except the variable's value doesn't contain the file extension. This would allow me to create template such as the following: public final class ${filename} extends TestCase { public static Test suite() { final TestSuite suite = new TestSuite(${filename}.class); ... } ... }

@@ -1,0 +1,3 @@
+NLS Wizard: Source folder content assistant shows duplicates [nls] [refactoring]
+
+200405190010 - Externalize Strings - in NLS Wizard, click 'Configure...' to open 'Configure Accessor Class' dialog - Ctrl+Space -> Source folder content assistant shows duplicates (e.g. I have 7 times 'org.eclipse.compare/compare')

@@ -1,0 +1,3 @@
+[1.5] [Generics] Erroneous quick fix results generated for this code. [quick fix]
+
+I had this code which needs fixing where marked. % cat Test.java import java.util.LinkedHashMap; public class Test<K, V> { public void check() { final LinkedHashMap<K, V> data = new LinkedHashMap<K, V>(); final Integer x = data.entrySet(); // this line needs fixing. } } <<<< So I did Ctrl-1 to get the quickfix and selected "Change type of 'x' to 'Set<Map.Entry<K,V>>'" - this gives a drop down of choices .. Set<Map.Entry<K,V>> Collection<Map.Entry<K,V>> Iterable<Map.Entry<K,V>> So I choose Iterable<Map.Entry<K,V>> but notice the code is inserted incorrectly -- I get final Iterable<Entry<K,V x = data.entrySet(); // this line needs fixing. ^^^^^ missing terminating >>

@@ -1,0 +1,3 @@
+Refactoring undo timeout should be more than 5 minutes
+
+RC3 The refactoring undo timeout is currently set to 5 minutes. It should be 20 to 30 minutes. (When testing it I set it to 5 minutes and it seems that I released the values I used for testing).

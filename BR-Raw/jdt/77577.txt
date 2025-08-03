@@ -1,0 +1,3 @@
+outline should not accept dropping folders on it
+
+3.1 M3 test pass The outline view accepts dropping folders using drag & drop: - open the navigator & outline - drag a folder (e.g. part of a class hierarchy) from the navigator to the outline and drop it on a member, for example a method. Expected: the drag is not successful, nothing happens Actual: the folder is moved from the project to the package fragment where the class of the drop target resides. Also, the move cannot be undone via undo -> major for this reason.

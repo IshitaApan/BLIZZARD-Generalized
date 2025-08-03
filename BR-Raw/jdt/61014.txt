@@ -1,0 +1,3 @@
+All types cache populated during start-up
+
+When restoring a crashed workspace the AllTypeCache Updater has shown-up during the start-up sequence before an event loop is active. The suspicion is that this updating is triggered by a delta before the runnable that triggers the initial population is executed. The solution we have discussed is that the all types cache should ignore deltas and not start updating before the runnable is executed.

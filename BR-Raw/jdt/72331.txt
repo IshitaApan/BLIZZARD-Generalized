@@ -1,0 +1,3 @@
+[1.5][Generalize Type Refactoring] Prevent refactoring of formal generic type parameters
+
+The generalize type refactoring is not applicable to formal generic type parameters

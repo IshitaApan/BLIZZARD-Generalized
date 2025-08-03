@@ -1,0 +1,3 @@
+[rename] Renaming of Project causes linked folders to be unlinked and moved
+
+When renaming a Project (Not a java project, but a "Simple" one) any linked folder gets changed to a standard folder and its contents are MOVED to the new location, instead of mantaining the linked folder. Steps to reproduce: 1) Create a new project (New > Project > Simple > Project) 2) Create a folder on C:\ (or whatever you like) and put some files in it. 3) Add the folder as a link in the project (New > Folder > (Advanced>>) > Link to folder in the filesystem. 4) Rename the project (Refactor > Rename) Now the linked folder has turned into a standard folder, and the contents have been moved. The linked folder's target doesn't exist anymore (it's been moved to the new Project location).

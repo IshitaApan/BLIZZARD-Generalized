@@ -1,0 +1,3 @@
+[breadcrumb] Should not redraw when caret moved in same element
+
+I20080806-1800 Even after bug 233510, the breadcrumb redraws too often: E.g. after the caret is moved in the same element, the whole breadcrumb is redrawn (post selection). The breadcrumb should only update a) on element change (reuse element change listener from Package Explorer, Outline, ...) b) on post selection in the editor when the enclosing element does not match the previous enclosing element

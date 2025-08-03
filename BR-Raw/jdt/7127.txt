@@ -1,0 +1,3 @@
+'refactor' menu missing from the type hierarchy perspective
+
+the 'refactor' menu is missing from the type hierarchy perspective

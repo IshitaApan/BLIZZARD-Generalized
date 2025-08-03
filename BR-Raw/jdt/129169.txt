@@ -1,0 +1,3 @@
+Allow toggle method breakpoint in call hierarchy view
+
+R32M5 since the results from using the call hierarchy view are methods, it would make sense that I would be able to toggle breakpoints on the methods.

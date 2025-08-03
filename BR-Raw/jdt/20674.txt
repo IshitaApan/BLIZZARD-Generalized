@@ -1,0 +1,3 @@
+JavaCapabilityConfigurationPage.init is not clearing the default path when classpath already exists
+
+F4 JavaCapabilityConfigurationPage.init: The doc states that when defaultsOverrideExistingClasspath is set to false and a .classpath file already exists the setting from the classpath file is taken. code is 	defaultOutputLocation= null; 	defaultOutputLocation= null; is meant to be 	defaultOutputLocation= null; 	defaultEntries= null; Class is API and this bug would prevent cliants from using the functionality. No dependences so far, fix is riskless.

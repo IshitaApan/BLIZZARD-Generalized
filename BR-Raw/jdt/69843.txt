@@ -1,0 +1,3 @@
+TVT3.0:  Unexternalized string in Preferences>Java>Task Tags
+
+OS : RHEL 3.0 Mustfix: No Severity : 3 Build date: 0712 Blocking: NO Language: CHT Problem Description: Actual Description of the problem On the menu bar from the main Workbench panel, click Window > Preferences > Java > Task Tags == > "Deafult" is in English of the tag in the Preferences window.

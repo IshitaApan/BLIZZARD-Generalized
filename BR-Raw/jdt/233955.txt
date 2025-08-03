@@ -1,0 +1,3 @@
+[misc] Put ActivateJavaEditorTest back
+
+3.4 RC3. During 3.5 we need to verify that the modified test is reliable and then put it pack to the local fingerprint/summary.

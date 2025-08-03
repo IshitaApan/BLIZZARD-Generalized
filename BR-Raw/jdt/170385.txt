@@ -1,0 +1,3 @@
+[correction] Quick Fix autocomplete should remember listbox size
+
+Build ID: 3.2.1 Steps To Reproduce: 1.Write a line of code with errors. 2.Quickfix icon will appear 3.Click the icon and a list of suggestion fixes will appear 4.Enlarge the list to read the whole text 5.Repeat this steps a second time and notice that the list still has the same size 6.This is not the case with the code complete where a resize is remembered (by default, a lot of times, the width is too small) More information:

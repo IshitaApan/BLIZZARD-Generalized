@@ -1,0 +1,3 @@
+[javadoc location] can't set any http locations anymore
+
+20060328-0010 - Try to set a javadoc location to http://www.junit.org/doc - When looking at the configured value, it is file://http:/... It seems the bug fix for bug 118626 is causing this.

@@ -1,0 +1,3 @@
+[spell checking] Words added to a dictionary still accepted after changing dictionary
+
+HEAD - have some spelling errors - use quick fix to add words to the user dictionary - change user dictionary to an empty file => previously added words are still accepted => expected: words added to the user dictionary should not be accepted after the dictionary has been removed

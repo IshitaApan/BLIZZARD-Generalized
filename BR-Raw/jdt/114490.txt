@@ -1,0 +1,3 @@
+[open type] Open Type does not support end matchers '<' and ' ' any more
+
+I20051031-2000 Open Type used to accept patterns like 'A*List<' in 3.2M2. Now, the match list stays empty. Expected: types like ArrayList, AbstractList, etc., but not AbstractBooleanListener

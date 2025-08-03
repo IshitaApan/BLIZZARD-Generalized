@@ -1,0 +1,3 @@
+[getter setter] Elements not inserted at correct location
+
+20080508 - create the following class public class T { 	private Runnable x; 	 } - Invoke 'Generate Getter and Setter' - Select getter and select 'Insert As first member' New methods are added last, after x. Should be before x.

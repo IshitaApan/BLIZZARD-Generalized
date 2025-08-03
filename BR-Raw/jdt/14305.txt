@@ -1,0 +1,3 @@
+JUnit - TestSuite should not include Abstract classes
+
+I refactored my testcases to use some abstract classes. When I now recreate the testsuite (BTW, this only works in the Java but not in the Java-Browsing perspective), the abstract classes are added. I'm using M5.

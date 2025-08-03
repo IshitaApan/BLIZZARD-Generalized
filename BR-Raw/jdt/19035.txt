@@ -1,0 +1,3 @@
+Validating Javadoc location causes connection refused in .log
+
+Build F2 1. Open properties of a Java project 2. Enter "" as Javadoc location 3. Press validate 4. Press Ok in the dialog Check the .log: !ENTRY org.eclipse.jdt.ui 4 1 Jun 04, 2002 15:35:15.453 !MESSAGE Internal Error !STACK 0 java.net.ConnectException: Connection refused: connect ....

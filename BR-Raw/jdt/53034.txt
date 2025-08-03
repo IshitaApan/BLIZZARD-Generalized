@@ -1,0 +1,3 @@
+showItem() not working when setRedraw(false)
+
+I20040224 	tree.setRedraw(false); 	getTreeViewer().refresh(); 	getTreeViewer().setSelection(selection, true); 	tree.setRedraw(true); does not reveal my selection while the followin does: 	tree.setRedraw(false); 	getTreeViewer().refresh(); 	tree.setRedraw(true); 	getTreeViewer().setSelection(selection, true);

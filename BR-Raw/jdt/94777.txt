@@ -1,0 +1,3 @@
+new project wizard: remove button enablement
+
+I20050509-2000 (M7 test pass) new project wizard, 2nd page, projects dependencies tab: - the 'Remove' button is always enabled, even when the selection is on a access rule definition. Pressing it has no effect. It should only be enabled if the selection exclusively containes projects.

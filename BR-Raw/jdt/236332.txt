@@ -1,0 +1,3 @@
+[breadcrumb] Breadcrumb misses throwing exception
+
+JDT UI from CVS HEAD as of today (06/10/2008). Just stumbled across EditorBreadcrumb#createContent public Control createContent(Composite parent) { 	if (fComposite != null) 		new IllegalArgumentException("Content must only be created once."); //$NON-NLS-1$ 		 There is a "throw" missing in order to achieve the goal.

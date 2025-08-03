@@ -1,0 +1,3 @@
+Eating CA: visual indication remains
+
+1) set preference: Insert Proposals 2) open TestCase.java 3) enable segmentated view 4) select TestCase(String) 5) place cursor at Stri>I<ng 6) activate code assist 7) select String from the proposal list 8) press Ctrl 9) press Enter -> color indication remains although content assist window closed

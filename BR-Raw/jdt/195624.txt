@@ -1,0 +1,3 @@
+[JUnit] I can't see JUnit Test result after junit window refresh (test history browsing).
+
+I can't see JUnit Test result after junit window refresh.

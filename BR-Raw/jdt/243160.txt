@@ -1,0 +1,3 @@
+[misc] missing empty line after Javadoc text in case of @deprecated
+
+I20080805-0100 + plug-in export. public class C { 	/** 	 * This is a test. 	 * 	 * @since 3.5 	 */ 	void f() { 	} 	/** 	 * This is a test. 	 * 	 * @since 3.5 	 * @deprecated as of 3.5 	 */ 	void f2() { 		 	} } ==> hover for f is OK but for f2 the empty line is missing.

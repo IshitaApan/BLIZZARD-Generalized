@@ -1,0 +1,3 @@
+Error ticks on non-Java resources
+
+This is a VAME request. They would like to show error ticks on manifest files.

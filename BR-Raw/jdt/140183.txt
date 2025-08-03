@@ -1,0 +1,3 @@
+[refactor][script] extract superclass does not pull up methods
+
+1) make sure to have a project A with the following class on two separate workspaces public class Bicycle { 	 	public void drive(){ 		 	} } 2) in one workspace perform 'extract superclass', method drive is defined by the new superclass. you'll endup with: public class Bicycle extends ADriveable { } public class ADriveable { 	public ADriveable() { 		super(); 	} 	public void drive() { 		 	} } 3) create a refactoring script and apply it to the other (unmodified) workspace and you'll endup with: public class Bicycle extends ADriveable { 	 	public void drive(){ 		 	} } public class ADriveable { 	public ADriveable() { 		super(); 	} }

@@ -1,0 +1,3 @@
+[preferences] Java Editor Property Page does not use dialog font
+
+Right click on a java project > Properties > Java Editor. The text does not use the dialog font. I20070918-0010

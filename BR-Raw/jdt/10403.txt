@@ -1,0 +1,3 @@
+Project creation should confirm the bin directory can be scrubbed
+
+When a user creates a new project for an existing directory structure, we should confirm that the output directory can be deleted then rebuilt. Some users are creating projects & pointing the output folder at a bin directory which contains more than just .class files which can be rebuilt from the available .java files.

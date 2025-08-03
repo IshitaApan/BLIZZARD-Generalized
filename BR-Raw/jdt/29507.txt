@@ -1,0 +1,3 @@
+dialog in refactor->rename reapears
+
+using refactor->rename on a method, that overrides a method in a superclass, lets the dialog about whether you want to do the renaming on the superclass' method reapear over and over. reproduced in plugin org.eclipse.pde.ui in class ManifestEditor/SchemaEditor on method updateModel().

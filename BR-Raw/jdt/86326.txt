@@ -1,0 +1,3 @@
+Java editor should override getOrientation()
+
+M5 Java editors are unreadable in RTL so we should make them always LTR.

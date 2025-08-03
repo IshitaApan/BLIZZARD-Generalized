@@ -1,0 +1,3 @@
+AST: Wrong source ranges on VariableDeclExpression
+
+20030508 In the code snipped of UnresolvedMethodsQuickFixTest.testMethodInForInit for (int i= 0, j= goo(3); i < 0; i++) { } the VariableDeclationExpression ('int i= 0, j= goo(3)') has only length 8 (should be 19)

@@ -1,0 +1,3 @@
+[extract local] Unable to refactor expression without resolved type in variable initializer
+
+Build Identifier: 20100218-1602 Selection is between "<" and ">". Alt+Shift+L (extract local) here reports "expression expected". One should not have to fix the error before refactoring in this manner. class A { public void m() { // foo is undeclared. int a = <foo + 5>; } } Reproducible: Always

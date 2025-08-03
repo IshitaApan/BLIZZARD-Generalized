@@ -1,0 +1,3 @@
+No 'Run as Junit Plug-in test' on methods
+
+3.3 M6 1. create a test case in a PDE project 2. add some test methods 3. Open the 'Run As' context menu on the method. You only see 'Run as Junit Test', but no 'Run as Junit Plu-in Test' Problem is that <test property="org.eclipse.debug.ui.projectNature" value="org.eclipse.pde.PluginNature"/> doesn't work on IMethods as they don't adapt to IResource

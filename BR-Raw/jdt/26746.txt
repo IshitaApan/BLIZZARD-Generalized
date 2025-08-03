@@ -1,0 +1,3 @@
+Organize Imports leaves an unnecessary import of inner interface [code manipulation]
+
+The compiler warns about an unnecessary import, while the organize imports does not remove it. This can be reproduced with these sources: MyClass.java: import MyInterface.MyInnerInterface; public class MyClass implements MyInterface{ 	public MyInnerInterface myMethod() { 		return null; 	} } MyInterface.java: public interface MyInterface { 	public interface MyInnerInterface { 	} }

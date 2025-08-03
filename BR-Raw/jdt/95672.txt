@@ -1,0 +1,3 @@
+Focus changes slow when java browsing perspective open
+
+To reproduce: 1. Run Eclipse in your favorite profiler 2. Open the Java browsing perspective 3. Profile the time taken to switch between java editors On my system, approx. 50% of the time is spent in JavaBrowsingPart.partBroughtToTop. Notice that this method continues to dominate activation changes, even when another perspective is active and no java browsing parts are visible.

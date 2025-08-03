@@ -1,0 +1,3 @@
+IllegalArgumentException opening NLS search page
+
+Build F1 1. select a property file which starts with lower case (e.g. x.properties) 2. open Search (e.g. Ctrl+H) ==> page does not show up, there is an error written to .log

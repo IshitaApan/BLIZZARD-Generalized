@@ -1,0 +1,3 @@
+[render] convert colored labels to SimpleStyledCellLabelProvider
+
+Created attachment 88766 first patch 3.4 M5 SimpleStyledCellLabelProvider is now offered by platform UI as API. JDT (and search) can replace their own story.

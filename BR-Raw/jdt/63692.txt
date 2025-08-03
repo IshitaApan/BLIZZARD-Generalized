@@ -1,0 +1,3 @@
+[projection][rulers] Not all annotation types in folded region rendered in rulers
+
+3.0M9 - activate code folding and find a text range with annotations (e.g. QuickDiff changes or task tags) - collapse the region => The (folded) annotations are not rendered in the overview ruler. However, if you hover over the right position in the overview ruler, the annotation message is shown in a tooltip. => expected: annotations still rendered

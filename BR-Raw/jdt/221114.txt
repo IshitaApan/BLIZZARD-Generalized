@@ -1,0 +1,3 @@
+[breadcrumb] Does not retarget editor actions if open external
+
+I20080226-1155 1. Open org.eclipse.jdt.ui/JavadocHoverStyleSheet.css (the css is opened in notepad) 2. Click into Java editor Is: Breadcrumb shows focus, all actions stay retargeted to the breadcrumb Should: Styled text is active, actions work on text selection Nothing in the log. Workaround, activate another editor and go back.

@@ -1,0 +1,3 @@
+[toString] toString template variable proposals info should start with uppercase
+
+I20090310-0100. toString template variable proposals info should start with uppercase.

@@ -1,0 +1,3 @@
+Cannot configure option for enabling/disabling exclusion filters or custom output folders on a per project basis
+
+Build M9 JDT/Core supports setting enablement for exclusion patterns and custom output folders on a per project basis. This isn't surfaced in the UI. There is only a global flag in workspace preferences.

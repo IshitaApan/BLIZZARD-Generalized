@@ -1,0 +1,3 @@
+[organize imports] Organize imports fails as long as there are parsing errors
+
+Create a new class and start typing code which requires an import like : JButton b = new JButton(); Pressing control-o will do the import. However, redo the exercise and type other code after that one like : JButton b = new JButton(); JList c = new JL JButton will be recognized as a to-be-imported type, yet the incomplete line blocks the import ! A weird and annoying issue.

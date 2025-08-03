@@ -1,0 +1,3 @@
+No busy indicator while populating type hierarchy
+
+Build: Freeze 1 In a self-hosting workspace, select the type IAdaptable in an editor and hit F4 to populate the type hiearchy. Since this interface has many sub-types, this takes several seconds to populate. There should be a busy indicator while this is happening.

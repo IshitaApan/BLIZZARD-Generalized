@@ -1,0 +1,3 @@
+Package content disapear in package explorer
+
+N20060426 With package explorer in flat layout 1. Create new java project with seperate src and output folders 2. create package p01 in src 3. create class Klazz in p01 4. Right click on p01 5. Select 'Build Path -> Use as source folder' 6. Right click on src/p01 7. Select 'Build Path -> Remove from bp' 8. Right click on p01 9. Select 'Build Path -> Include' Is: p01 is shown as empty package and has no + to expand it Should: It contains Klazz it should not be empty. The only way to access Klazz in the package explorer seams to be to close and reopen the project.

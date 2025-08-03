@@ -1,0 +1,3 @@
+[navigation] Open Hyperlink > Open Implementation does not work for external files
+
+Build id : I20100802-1800 (same behavior in 3.6) Open Implementation does nothing on files not on build path Steps: - Create a java file with the following snippet on the file system and open it in eclipse class A { 	void foo() { 		String s=""; 		 		System.out.println(""); 		System.out.append('a'); 		 		s.compareTo(""); 		s.equals(""); 		s.substring(1).equals("");		 	} } - Ctrl+click or use the command on 'println' or 'append' > Select 'Open Implementation' => nothing happens. 'Open Declaration' works correctly.

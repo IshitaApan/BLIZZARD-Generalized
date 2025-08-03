@@ -1,0 +1,3 @@
+Mark implement occurrences sometimes not working
+
+20041103 - Open 'java.awt.ProgressBar' - Select super class 'Canvas' - highlighted is 'paint' Shouldn't 'setBounds' also be highlighted? It is inherited and part of by Canvas. (Defined in Component)

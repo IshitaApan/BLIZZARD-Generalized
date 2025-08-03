@@ -1,0 +1,3 @@
+Working Set Selection (Java only) is unuseably slow. [filters]
+
+When I try to create a new Working Set in 2.1 M2, as soon as I expand a project in the tree view, my CPU is pegged for ~1minute. Typing in the "Name" box is incredibly slow. In short, it is nearly unuseable because it is so slow too respond. Win NT, 512MB, ~2400 classes in workspace (split evenly over 2 projects). -Andrew

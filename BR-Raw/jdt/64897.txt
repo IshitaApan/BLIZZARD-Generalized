@@ -1,0 +1,3 @@
+packages view: not updated when project source folders change [browsing]
+
+RC1 - browsing perspective - smoke test scenario... - import junit.zip into the previously not existing folder 'src' -> packages view shows a number of packages src.junit.framework... with errors - go to the project properties, source page - add 'src' as source folder, accept when asked to remove the project root as source folder - press OK -> the error marks in the packages view are removed -> the packages src... are still visible in the packages view -> they are only removed upon a selection change in the "projects" view

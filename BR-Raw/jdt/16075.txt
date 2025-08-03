@@ -1,0 +1,3 @@
+Strange Cut/Copy and Paste behavior
+
+I was trying to move to compilation units from one project to another in the Java Browsing perspective. I selected them in the types brwoser and selected Cut. I then tried to Paste them in another package by selecting the target package in the packages view but paste wasn't enabled. I tried to paste them in the navigator and was told that the resource no longer existed. After restoring the files from local history, I chose Copy instead and Pasted into the new package. I had two entries for each file pasted.

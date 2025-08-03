@@ -1,0 +1,3 @@
+javadoc / declaration views: should update when shown
+
+Tests 20030716 1. Open the declaration view 2. Select a reference in code -> declaration shows in view (ok) 3. Open (or bring to front when in a tabbed view) javadoc view 4. Newly opened view is empty -> should fill with content for current selection when shown / opened

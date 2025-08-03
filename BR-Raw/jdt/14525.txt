@@ -1,0 +1,3 @@
+Visual confirmation should be given when adding interfaces
+
+BUILD: 20020412 When using the Interface Selection dialog, the user should be given some sort of visual confirmation that the interfaces they select have actually been added after hitting the Add button. Perhaps placing a check mark next to interfaces that have already been added, or keeping a separate list inside the dialog of previously added interfaces. The latter sugegstion opens up the possibility of removing interfaces from the list of currently selected ones.

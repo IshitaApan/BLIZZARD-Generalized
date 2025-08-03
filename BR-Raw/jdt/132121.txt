@@ -1,0 +1,3 @@
+[clean up] Use heapsize info to decide about number of AST to build
+
+20060316 bug 99114 comment 11 has a good way to avoid OME. To avoid OOME when building AST's in patch, the current heap size can be used. We should abstract this code to a single class to be used by all users of multiple ASTs.

@@ -1,0 +1,3 @@
+Eclipse dies after SWT error
+
+build 20020321 Adding a method to a java file I get an SWT error and a dialog pops up asking if I want to exit Eclipse because of an Internal error. The log file is attached. I could not isolate the problem but I do have a workspace that reproduces it. If you need the workspace and the steps to reproduce, just let me know and I can put somewhere else or send by email.

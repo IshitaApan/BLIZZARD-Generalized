@@ -1,0 +1,3 @@
+[clean up] custom profile section in dialog: unchecked topics have enabled children
+
+I20061030-1704 Clean Up dialog, custom profile section: unchecked topics have enabled children. E.g. Code Style > Expressions > Use parentheses... is not checked, but the children are active. Changing the children has no effect unless the parent is checked too. Same problem for all nested settings.

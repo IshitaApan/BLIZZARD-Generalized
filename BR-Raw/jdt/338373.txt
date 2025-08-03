@@ -1,0 +1,3 @@
+[navigation] FUP of bug 171019: adjust selection detector for @inheritDoc javadoc tag
+
+Due to the fix for bug 171019, CTRL+CLICK on @inheritDoc tag behaves the same way as it does on a method name. This needs to be suitably changed.

@@ -1,0 +1,3 @@
+Selection of new elements in packages view is annoying
+
+from jdt-dev However, I do see that adding an import will expand the compilation unit in the Java Packages view and even expand the import declarations section in order to select the newly added import. I find this very annoying. I don't mind the option to generally "Link Packages view selection to active editor" so long as it's just limited to selecting the compilation unit. But following the addition of imports and auto-expanding to select those entries (and whatever it is that is triggering expansion of the class itself to show the methods) in the Java Packages view is overkill in my opinion.

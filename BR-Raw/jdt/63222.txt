@@ -1,0 +1,3 @@
+problem messages during refactoring are being collapsed [refactoring]
+
+i200405200800 I have seen this with other builds as well. When a problem happens during refactoring, the descriptions are collapsed, making it impossible to understand what is wrong. Will attach screenshot.

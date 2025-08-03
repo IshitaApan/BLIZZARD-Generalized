@@ -1,0 +1,3 @@
+Class javadoc created during "New Class" operation doesn't fill in variables properly [javadoc] [code manipulation]
+
+If you use the enclosing_type variable in your javadoc comment template, it is not properly filled in when you make a new class (using the New Class dialog). Probably the class should be created, then after creating and saving, javadoc should be added. I suspect the variables don't have valid values yet at the time the javadoc is prepended to the class.

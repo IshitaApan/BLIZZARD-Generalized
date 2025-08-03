@@ -1,0 +1,3 @@
+quick fix: fooled by additional dimentions in method declarations [quick fix]
+
+public class DD { 	private int DD()[]{ 	}; } add return statement - it puts retrun 0 instead of return null

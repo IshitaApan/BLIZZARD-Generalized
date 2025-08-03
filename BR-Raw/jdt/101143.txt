@@ -1,0 +1,3 @@
+Promote temp to filed shouldn't use constructor code template
+
+RC3 This refactoring is using the constructor template. Since the code we generate isn't something the user has to look at we shouldn't use the template.

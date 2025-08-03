@@ -1,0 +1,3 @@
+organize imports sometimes added to logical packages, sometimes not
+
+20021216 select a logical package - 'organize imports' is not in the context menu select the logical package and another package - organize imports is in the menu

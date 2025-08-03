@@ -1,0 +1,3 @@
+Pull up is enabled for annotation members in editor
+
+Pull up is enabled for annotation members in editor. Since we have a JavaTextSelection here we can do better and disable the action. Pull Down can be disabled as well.

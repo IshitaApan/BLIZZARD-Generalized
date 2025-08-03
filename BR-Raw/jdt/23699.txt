@@ -1,0 +1,3 @@
+Extract Interface: Should work on member and local classes as well [refactoring]
+
+Summary says it all :)

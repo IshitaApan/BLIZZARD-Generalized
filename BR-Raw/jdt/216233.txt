@@ -1,0 +1,3 @@
+[preferences] Surface new compiler option unusedDeclaredThrownExceptionIncludeUncheckedExceptions
+
+Since bug 100278 has been released, a new compiler option allows to control whether or not unchecked exceptions must be included in the unused declared thrown exception diagnosis. The option is disabled by default, which matches the current behavior.

@@ -1,0 +1,3 @@
+Classpath Variable preference page not updated
+
+Our plugins have their own set of preference pages. If someone press the apply button, some settings are performed and some Java classpath variables are set/updated. If someone has opened (instanciated) the Java classpath variable preference page before, then modified our page, then pressed apply, and then reselect it, its internal model is not updated. It still contains the old classpath variables. The Platform's path variable has excactly the same problem. I have to close and reopen the preferences dialog to see the new values.

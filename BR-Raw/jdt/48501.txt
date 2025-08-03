@@ -1,0 +1,3 @@
+Merge undo, redo, move and rename with Platform UI [refactoring]
+
+I sent an email to Daniel Megert a while back about possibly merging these commands with the same commands defined by Platform UI. This is related to Bug 45238. Basically, we would like to have the duplicates for these commands removed, and for refactoring to simply register handlers for these commands. This gets around the problem of having two commands for which key bindings need to be defined.

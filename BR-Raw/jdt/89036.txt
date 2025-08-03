@@ -1,0 +1,3 @@
+[preferences] Reduce default code assist auto activation delay
+
+"Another area where [Eclipse] is slow is in code completion. I have to wait so long for the little box to pop-up on its own that I usually either skip it or press ctrl-space to force it to open." [Excerpted from http://www.netbeans.org/switch/realstories.html] Suggest changing the default delay to 100 (ms).

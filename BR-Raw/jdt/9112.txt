@@ -1,0 +1,3 @@
+goto type presents items not visible
+
+stable 20020125 In the packages view Choose Go To > Type from the popup The resulting dialog displays things you cannot go to - it shows classes in referenced libraries even if you are not currenrtly showing referenced libraries - it shows classes not in your working set As a result if you pick that class nothing actually happens and you don't know why. Some options (food for thought): - filter the dialog (classes in current view vs. all classes) - let the user pick it then warn him its not in his current view and offer to change the view

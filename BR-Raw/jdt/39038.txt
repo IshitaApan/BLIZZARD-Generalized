@@ -1,0 +1,3 @@
+method SWTUtil.getButtonHeigthHint is misspelled [misc]
+
+"getButtonHeigthHint" should be spelled "getButtonHeightHint". The "Height" part is spelled incorrectly. This is an internal API -- package org.eclipse.jdt.internal.ui.util -- so this is not a user-visible bug, strictly speaking, but it would be trivial to fix.

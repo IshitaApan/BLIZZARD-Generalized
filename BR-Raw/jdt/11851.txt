@@ -1,0 +1,3 @@
+generated new TestCase differes form generated new class
+
+It would be nice if the generation of a new test case would do the same as generation of a new class. The thing which I noticed: new Class wizards adds javadoc while new Test Case wizard does not. 	/** 	 * Constructor for AA. 	 * @param name 	 */ 	public AA(String name) { 		super(name); 	}

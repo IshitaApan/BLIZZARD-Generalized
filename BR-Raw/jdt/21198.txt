@@ -1,0 +1,3 @@
+On JavaEditor dont use == in the isActivePart() method but instead use .equals(Object)
+
+The class JavaEditor does an == check inside isActivePart(). This means that if the part is embedded inside another one then the check fails. Rather than this can it use .equals instead and dispatch this to the other part that can specialize accordingly, e.g. instead of the current method 	protected boolean isActivePart() { 		IWorkbenchWindow window= getSite().getWorkbenchWindow(); 		IPartService service= window.getPartService(); 		return (this == service.getActivePart()); 	} it could have the last line as return (service.getActivePart().equals(this));

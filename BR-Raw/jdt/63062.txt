@@ -1,0 +1,3 @@
+[templates] "Restore Removed" button on template pref page not updated as expected
+
+Remove a template from the Ant editor templates or the Java editor templates. Click the Restore Removed After clicking, I would expect the button to return to the disabled state.

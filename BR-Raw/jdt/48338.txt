@@ -1,0 +1,3 @@
+JavaSearchResultCollector should not create 'Searching' subtask [search]
+
+Build 20031203 org.eclipse.jdt.internal.ui.search.JavaSearchResultCollector.aboutToStart() creates a subtask 'Searching'. This looks awkward as the search infrastructure is also printing this message.

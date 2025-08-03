@@ -1,0 +1,3 @@
+Stub on code assist: Should check if method name is valid Java id
+
+20040518 - between two method, enter 'while' press code assist - proposal is to create method 'while' created method is of course invalid -> should check if method name is not a keyword

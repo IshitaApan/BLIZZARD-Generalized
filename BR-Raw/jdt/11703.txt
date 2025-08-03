@@ -1,0 +1,3 @@
+Outline sorting -> constructors should be before statics
+
+build 2002-03-19 on Win98. - open a Java editor on a Java file - in the Outline view have "sort" and "hide fields" icons selected - note that the sort order seems to be statics then constructors then instance methods - in build 2002-03-14 constructors used to be listed at the top next to the class name - this is much more useful

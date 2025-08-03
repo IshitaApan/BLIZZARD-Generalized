@@ -1,0 +1,3 @@
+Compiler settings: enable state not correctly updated
+
+I200402122000 In the Java/Compiler/Advanced preference page, 'Include constructor or setter method parameter' is not correctly enable/disable when modifying the option 'Local variable declaration hides another field or variable'. Modifying one the options with sub-checkbox in 'Unused code' set the correct enable state in 'Advanced'.

@@ -1,0 +1,3 @@
+Disable empty refactor menu in context menu
+
+Build 20020515 - select default package - open context menu

@@ -1,0 +1,3 @@
+Configure Deprication Fix action should be disabled for abstract method/non constant fields
+
+I2006033 See also bug 133824 Inlining a field results in a fatal error.

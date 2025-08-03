@@ -1,0 +1,3 @@
+[preferences] template editor in preferences should honor partition type
+
+200307030800 1. Preferences, Java->Editor->Templates 2. Add a template for javadoc 3. syntax highlighting shows default (java) partition type highlighting -> should respect partition type setting, e.g. initialize the viewer with javadoc

@@ -1,0 +1,3 @@
+Use supertype refactoring: target type not named [refactoring]
+
+RC2 Make a random selection in a Java editor and choose 'Use supertype where possible' The dialog comes up and is ready to do some work. But it dosn't say which for type it would use a supertype for. Maybe the label should be improved to 'Select supertype to use for '{0}':' It might be better to limit the enablement on type references or type elements.

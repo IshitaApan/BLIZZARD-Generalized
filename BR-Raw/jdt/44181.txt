@@ -1,0 +1,3 @@
+Source->delegate works only for public methods [code manipulation]
+
+Hi, Generate Delegate methods display only public methods for target class. For classes in the same package also default and protected methods should be shown. And for subclasses in other packages protected should be shown (I think more for completeness than for usefulness). Bye

@@ -1,0 +1,3 @@
+[migrate jar] title does not change when selecting refactorings [refactoring]
+
+steps: 1) open 'Replace JAR' and select a JAR file which has no refactoring info 2) title message is getting changed to 'Jar file does not...' and 'Next' button is disabled 3) select JAR which has refactoring info 4) title message does not change, 'Next' button is enabled

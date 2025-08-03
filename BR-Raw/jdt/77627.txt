@@ -1,0 +1,3 @@
+Convert anonymous: generates unnecessary generic type [refactoring] [convert anonymous]
+
+M3 test candidate public class A<T> { 	<X> void bar() { 		Object o= new Object() {}; 	} } - convert anonymous generates public class A<T> { 	private final class DD<X> { 	} 	<X> void bar() { 		Object o= new DD<X>(); 	} } which ins't necessary.

@@ -1,0 +1,3 @@
+organize imports pref page - buttons have incorrect sizes
+
+20020307 + latest as in the summary: buttons from the organize imports pref page have incorrect sizes

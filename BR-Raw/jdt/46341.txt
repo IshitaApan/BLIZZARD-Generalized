@@ -1,0 +1,3 @@
+[formatting][implementation] comment line length not correctly applied
+
+(1105 nightly build) when formatting the declaration below, with all default code formatter options (i.e. comment line length = 80), the last word '<code>String</code>' is not correctly moved to anotherline, leaving the last line longer than 80 characters (about 87 characters i think..) 	/** 	 * Sets the set of identifiers to active activities. 	 * 	 * @param activeActivityIds 	 * the set of identifiers to active activities. This set may be 	 * empty, but it must not be <code>null</code>. If this set 	 * is not empty, it must only contain instances of <code>String</code>. 	 */ 	void setActiveActivityIds(Set activeActivityIds);

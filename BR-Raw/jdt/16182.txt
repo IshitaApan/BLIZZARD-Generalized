@@ -1,0 +1,3 @@
+sef: incorrect handling of final flag results in compile error
+
+20020515+ check the 'encapsulate .... in declaring class' checkbox class Test{ 	private final int x; 	Test(int y){ 		x= y; 	} } write access is changed to setX(y); which causes a compile error (becuase no setX method is created). the assignemnen must be left as is. and it must create no setters (any setter will result in an error.)

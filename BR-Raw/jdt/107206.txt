@@ -1,0 +1,3 @@
+[add import] Add import should special case class literal
+
+3.1, from bug 106814 comment 2: C) bogus import behavior for class literal: press Ctrl+Shift+M at the caret (|) public class Test { Object m() { return java.util.Collections.class|; } } -> type gets removed, leading dot remains, no import added

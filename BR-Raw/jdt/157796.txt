@@ -1,0 +1,3 @@
+[misc] 'Text Editing' navigation and selection commands block widget shortcuts of class file editor without source
+
+I20060919-0010, same in 3.2 Most navigation and selection commands don't work in the class file editor: - 'Edit > Select All' (Ctrl+A) is enabled, but does not do anything - 'Edit > Expand Selection To' actions are enabled, but just show a dialog - Ctrl+Left, Ctrl+Shift+Left, Home, Ctrl+Home, Shift+Home, and their equivalents with Right/End don't work

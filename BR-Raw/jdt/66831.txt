@@ -1,0 +1,3 @@
+Unable to copy project / package to window file system in 'Package Explorer' [ccp] [package explorer]
+
+Build id: 200406111814 [test case] 1. In Package Explorer, Select project 2. Right Click -> Copy In OS File System(ex. MS Windows Explorer), unable to 'Paste' [supplementation] -In Eclipse 2.1.3, I can copy. -In Resource Navigator, I can copy. I don't know that this behavior is correct or not.

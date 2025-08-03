@@ -1,0 +1,3 @@
+wrong indent when using replace from local history
+
+JUnit set-up 1) Change junit.tests.createResult() 2) save 3) replace from local history 4) select previous edition -> method is inserted with wrong indent repeat 3) indent is accumulated

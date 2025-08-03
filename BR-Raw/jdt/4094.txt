@@ -1,0 +1,3 @@
+Refactoring: Undo menu label can get very long (1GKB4LH)
+
+If my refactoring has a long name (e.g. long method name) then 	the Undo menu can get very long. NOTES: EG (9/20/2001 9:33:30 AM) 	we should use the smart label strategy to shorten the names.

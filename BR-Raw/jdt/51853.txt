@@ -1,0 +1,3 @@
+Support new compiler option PREF_PB_UNUSED_DECLARED_THROWN_EXCEPTION_WHEN_OVERRIDING
+
+20040212 Add the new setting to the compiler preference page

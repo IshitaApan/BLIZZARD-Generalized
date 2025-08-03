@@ -1,0 +1,3 @@
+[nls tooling] Duplicate entries in string externalization wizard preview
+
+N20060405-0010 There seems to be an error in the externalize string wizard preview. (see attached picture) The tree shows 2 changes for each string being externalized. If you click on the first change, you are shown the diff as expected. The second change shows nothing.

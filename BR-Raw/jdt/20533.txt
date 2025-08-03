@@ -1,0 +1,3 @@
+Unexpected popup closing eclipse with unsaved changes
+
+Build 20020617 Win2k I'm not sure if this is core, but... - In the resource perspective, create a new simple project - Create a .txt file in this project - Type something in it (to flag it as modified) - close eclipse - it will ask you if you want to save it before exiting, save it Now you should see another dialog pop up saying: "The file has been changed on the file system. Do you want to load the changes? (Yes/No).

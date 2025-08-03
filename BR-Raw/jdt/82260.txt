@@ -1,0 +1,3 @@
+ResultCollector: remove dependency to internal J Core interface
+
+I20050104-1600 Summary says it all.

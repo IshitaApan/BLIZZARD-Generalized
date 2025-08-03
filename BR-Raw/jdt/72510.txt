@@ -1,0 +1,3 @@
+Move field adds field to end of type
+
+I200408170800. I moved field TestResult.fFailures to TestSuite and could not find it until I realized that it got appended to the end of TestSuite.

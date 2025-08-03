@@ -1,0 +1,3 @@
+[quick fix] 'Remove invalid modifiers' does not appear for enums and annotations
+
+M20050923-1430 The 'Remove invalid modifiers' quick fix does not appear for enums and annotations. In the example below, no quick fix is offered. abstract enum E1 { 	public BLUE; } final @interface Annot { 	public final String value(); } When I use class or interface instead of enum and annotation, then it works.

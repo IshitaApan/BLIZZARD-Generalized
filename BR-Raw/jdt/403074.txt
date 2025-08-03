@@ -1,0 +1,3 @@
+[info views] Regressions from bug 393143
+
+This bug is the parent of bug 403000, bug 403004, bug 403016 and bug 403023.

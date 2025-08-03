@@ -1,0 +1,3 @@
+[common navigator] Adding sub-package in hierarchical mode is added twice
+
+Created attachment 109336 Attachment showing the problem Creating packages whose name contains part of an existing package will show up twice in the Project Explorer view. Once as its own package and then another time underneath the package name which is contained in the new package name. For instance, if you have a package com.test, and then create another package entities com.test.entity it will show up as its own package and then underneath the com.test package also.

@@ -1,0 +1,3 @@
+[clean up] remove trailing whitespace not visible in preview
+
+I20070206-0010 Remove trailing whitespace is not visible in preview. - public void stop() { } has a space after public, but it is not removed with the "All lines" setting - there's no example for whitespace on empty lines

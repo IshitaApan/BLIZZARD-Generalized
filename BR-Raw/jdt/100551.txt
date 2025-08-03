@@ -1,0 +1,3 @@
+[quick fix] Wrong quick fix label: Change type to 'List<>'
+
+I20050617-0010 This is the example from bug 99944 comment 1: import java.util.List; class Try { void m(List<? extends Number> arg) { List<Number> list= arg; } } The quick fix proposal label is "Change type of 'list' to 'List<>'", but the preview and the inserted correction change the type to "List<? extends Number>", which is actually correct and wanted.

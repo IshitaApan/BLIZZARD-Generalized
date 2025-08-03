@@ -1,0 +1,3 @@
+Type Hierarchy: no methods shown
+
+Smoke for build 20020129 - open type hierarchy on TestCase - switch to Subtype hierarchy - observe: you don't see any members of TestCase - lock the method view observe: now it is impossible to get the members back. You can click on any node in the upper class pane. You have to unlock the view

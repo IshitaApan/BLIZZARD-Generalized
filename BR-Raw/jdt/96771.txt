@@ -1,0 +1,3 @@
+Generate Delegate Methods method order [source actions]
+
+In the tree viewer: methods should be presented in alphabetical order and not by class/super(s). This is a regression to 3.0.x

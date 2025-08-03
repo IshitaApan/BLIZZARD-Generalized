@@ -1,0 +1,3 @@
+Modify Parameters refactoring: Accessability
+
+20020521 How can I edit a paramenter name without using the mouse?

@@ -1,0 +1,3 @@
+[hovering] quick fixes should also appear for non-Java problems
+
+I20080415-1646.from20080418_1028 We now also show the problem hover for non-Java problems (MarkerAnnotations), but these hovers don't show the available quick fixes. Examples for such problem markers are the API Tools problems, e.g. 'Missing @since tag'.

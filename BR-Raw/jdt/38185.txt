@@ -1,0 +1,3 @@
+[typing] /** + Enter should do the same as "Add Javadoc"
+
+public class X { /**<hit Enter> 	public static Object foo(int bar, Object baz) { 		return null; 	} } Will produce: public class X { 	/** 	 * 	 * @param bar 	 * @param baz 	 * @return 	 */ 	public static Object foo(int bar, Object baz) { 		return null; 	} } @@@@ public class X { //comment /**<hit Enter> 	public static Object foo(int bar, Object baz) { 		return null; 	} } Will produce: public class X { 	//comment 	 	/** 	 * 	 */ 	public static Object foo(int bar, Object baz) { 		return null; 	} }

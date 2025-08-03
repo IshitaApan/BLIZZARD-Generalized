@@ -1,0 +1,3 @@
+Quick fixes not offered in the same order [quick fix]
+
+Version 3.0.m9. For example, on an uncaught exception, when I click in the editor margin the quick fixes are: Add ... Surround... But in the Problems View, right-click/Quick Fix offers: Surround... Add ... This is confing when you are fixing a whole bunch of these all over the place. I suggest keeping it all in AB order everywhere, or at least in the SAME order please.

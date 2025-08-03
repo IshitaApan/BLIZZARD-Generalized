@@ -1,0 +1,3 @@
+[breadcrumb] Must not set focus into text widget on reveal element
+
+I20080115-1740 1. Select a package in the breadcrumb 2. press right arrow until you reach a leaf Is: when moving from parent of leaf to leaf actions in the toolbar flicker, it also takes a while move to leaf Should: not flicker, be faster Reason is that the leaf is revealed and while doing so the focus is set into to text widget resulting in retargeting all the actions.

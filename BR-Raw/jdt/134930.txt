@@ -1,0 +1,3 @@
+[navigation] Mark Occurences not triggered by clicking on outline
+
+In Eclipse 3.1.1, with "Mark Occurrences" enabled, clicking on a variable or method in the outline view caused all occurences to be marked in the editor. This was also the case in Eclipse 3.0. In Eclipse 3.2M5 and 3.2M6, clicking on a variable or method in the outline view does not mark all occurrences. Is this intentional? I rely heavily on the pre-3.2 behaviour when browsing unfamiliar or complex source code.

@@ -1,0 +1,3 @@
+Call hierarchy: clicking Show History button should show dialog
+
+When clicking the "Show History List" button (not the drop down arrow) nothing happens. To be consistent with search and the type hierarchy a dialog with the full list should be shown.

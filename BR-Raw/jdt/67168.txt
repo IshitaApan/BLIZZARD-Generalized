@@ -1,0 +1,3 @@
+Change Signature shows error message twice [refactoring]
+
+200406111814 public class TestClass { 	void change() { } 	x } Try to 'Change Method Signature' on 'change()'. The error message dialog always shows up twice.

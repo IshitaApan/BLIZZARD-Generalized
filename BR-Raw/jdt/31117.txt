@@ -1,0 +1,3 @@
+incomplete deletion of abandoned Java project [code manipulation]
+
+Build M5 1. New / Project / Java Project Name "J1" Hit Next. Observe: Project J3 appears in the resource navigator. 2. On Java settings wizard page, hit Cancel. Observe: Project J3 disappears from the resource navigator. 3. Use Windows Explorer to look at <workspace>/ Observe: <workspace>/J1/.project exists and contains <?xml version="1.0" encoding="UTF-8"?> <projectDescription> 	<name>J2</name> 	<comment></comment> 	<projects> 	</projects> 	<buildSpec> 	</buildSpec> 	<natures> 	</natures> </projectDescription> Expectation: <workspace>/J1/.project should get deleted. So should <workspace>/J1/ if it had just been created.

@@ -1,0 +1,3 @@
+Formatter setup export: If file exists, overwritten w/o warning  [code formatter]
+
+On exporting java code formatter settings: If the selected file already exists, it is overwritten without warning.

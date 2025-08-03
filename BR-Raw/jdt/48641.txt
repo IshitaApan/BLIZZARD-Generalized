@@ -1,0 +1,3 @@
+[typing] Smart paste "fixes" comments
+
+A new feature was added to M5 where smart paste fixes C style comments into Java style comments: /* * */ becomes: /* * */ The problem is that we have lots of text that is formatted the using C style and using smart paste makes the code inconistent. I don't use the feature but others on the team do. Shouldn't smart paste just indent the code?

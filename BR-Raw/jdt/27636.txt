@@ -1,0 +1,3 @@
+Organize Import ordering differs for different VMs
+
+Build 20021203 OrganizeImportTest.testBaseGroups1 failed because the import ordering was different. If fixed the test by looking at the VM version and then do different asserts. However this is just a workaround to make the tests run again. The import order must not depend on the VM version. Please remove the VM version check in the test when this PR is fixed.

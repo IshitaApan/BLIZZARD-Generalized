@@ -1,0 +1,3 @@
+[clean up] Extra parentheses not removed
+
+I20070530-0010 Given: package p01; public class Klazz { 	public void foo() { 		(new Object()).toString(); 	} } 1. Run clean up with 'Remove unnecessary parentheses' enabled Is: No changes Should: new Object().toString(); Also the quick assist is not offered

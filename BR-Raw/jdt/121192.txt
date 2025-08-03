@@ -1,0 +1,3 @@
+Cannot select initializer in Member view
+
+I20051215 1. Open Java Browsing perspective 2. Add the following type: public class X { 	{ 	} 	X() {} } 3. In the Member view, attempt to select the initializer Observe: The selection is cleared from the Member view and the initializer is not selected in the Java editor If you remove the constructor, then it works. It also works in the Outline view.

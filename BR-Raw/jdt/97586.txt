@@ -1,0 +1,3 @@
+[preferences] Access restriction link should open correct section
+
+RC1 The Java - Editor - Code assist preference page has a link to the access rules - we should be consistent on terms: On the build path page we call it 'Access rules', the error/warning page also uses this term - the link should reveal the corresponding section (pass a Map as data to the page: map.put(ProblemSeveritiesPreferencePage.DATA_SELECT_OPTION_KEY, JavaCore.COMPILER_PB_FORBIDDEN_REFERENCE); map.put(ProblemSeveritiesPreferencePage.DATA_SELECT_OPTION_QUALIFIER, JavaCore.PLUGIN_ID); - even better might be to show some information hover explaining that you can add access rules on build path entries

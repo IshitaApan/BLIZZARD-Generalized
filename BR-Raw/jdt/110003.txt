@@ -1,0 +1,3 @@
+[content assist] Strange cycling behaviour
+
+20050920 - Go to the keys preference page and configure Ctrl + Shift + Space to 'Specific Content Assist (type: Template proposals)', change the normal Content Assist from Ctrl + Space to somthing else - in the Java editor type for and press Ctrl + Shift + Space - templates show up The dialog reads: Press 'Ctrl + Space' for templates -> Should probably be 'Ctrl + Shift + Space', 'Ctrl + Space' isn't doing anything anymore (as I redefied the setting) -> Switching to templates isn't really that useful move the cursor one back. Suddly you get all proposals

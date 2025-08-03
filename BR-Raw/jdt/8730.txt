@@ -1,0 +1,3 @@
+wrong method deleted (packages view)
+
+from the newsgroup: public class TestClass { public void foo(String s) { } public void foo(String[] s) { } public void otherfoo(String s) { } } 2. click right on "foo(String s)" in package view, select "delete" ->foo(String s) vanishes in source view, package view is not updated (bug or feature?) 3. click right on "foo(String[] s)" in package view, select "delete" -> otherfoo(String s) vanishes in source view ------------------------------------------------------ 2 is a feature 3 is a bug

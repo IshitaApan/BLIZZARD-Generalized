@@ -1,0 +1,3 @@
+Remove degradation comment for ActivateJavaEditorTest#testActivateEditor()
+
+See summary.

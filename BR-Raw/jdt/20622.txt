@@ -1,0 +1,3 @@
+resize bug in "Override Method" [code manipulation]
+
+When there's lot of methods potentially overrideable and I enlarge the override method view, the inner subfields do not enlarge accordingly. I enclose a screenshot that will make clear what I mean.

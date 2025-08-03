@@ -1,0 +1,3 @@
+Additional default trace filters [Junit]
+
+junit.framework.TestResult$1 Should be filtered by default; it's the inner class Protectable. @@@@ Also you could consider adding: sun.reflect.NativeMethodAccessorImpl.invoke sun.reflect.DelegatingMethodAccessorImpl.invoke Those might only be useful if you have RTTI-test cases ... those are quite seldom and then you still could disable the filters. The method call at the bottom of the stack trace would be the actual test.

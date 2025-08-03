@@ -1,0 +1,3 @@
+Don't filter output folder and class files
+
+Create a Java project with source folder src and output folder bin. The bin folder will not be shown in the Packages Explorer. Create a Java project with source folder src and output folder output/bin. The output and bin folders are shown in the Packages Explorer. Implictly filtering out bin is confusing and inconsistent. A better way to do this would be to use a name filter for bin or add "Output folder" to the list of available filters.

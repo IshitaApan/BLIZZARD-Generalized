@@ -1,0 +1,3 @@
+Completion list not ordered as expected
+
+Type "fo" and press ctrl-space The best matches are the "for" templates but they are at the end of the list

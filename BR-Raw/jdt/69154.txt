@@ -1,0 +1,3 @@
+[navigation] Open with "Show Selected Element Only" does not narrow down in single-click mode
+
+I have "Show Selected Element Only" selected in my Type Hierarchy perspective. When I open a Type Hierarchy and click on an element in the Hierarchy pane, the Editor pane highlights that element in the source, but doesn't just show that element--it's still showing the entire source. If I then click in the Editor pane, the view suddenly changes to just that element.

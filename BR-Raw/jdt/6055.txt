@@ -1,0 +1,3 @@
+rename a read-only package does not issue a warning
+
+renaming a read-only package should ask for confirmation (e.g. issue a waring - like it does on projects and source folders)

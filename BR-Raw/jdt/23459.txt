@@ -1,0 +1,3 @@
+add preference option to turn off variable guessing on method completion
+
+request from Adam

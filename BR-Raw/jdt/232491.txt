@@ -1,0 +1,3 @@
+[breadcrumb] CVS decoration freezes eclipse if many elements to decorate in drop down
+
+If packages count > 100 and click to package in breadcrumb, then eclipse freeze at 5-10 secconds

@@ -1,0 +1,3 @@
+[quick fix] Quick fix for missing synchronized modifier
+
+We should add a quick fix for MissingSynchronizedModifierInInheritedMethod (see bug 245240)

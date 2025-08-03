@@ -1,0 +1,3 @@
+[typing] Hippie completion fills undo stack
+
+I20050202-0800 Toggling through the lists adds each item to the undo stack and hence Undo (Ctrl+Z) undoes each by each.

@@ -1,0 +1,3 @@
+[JUnit] Recreate Test Suite should be more lenient [JUnit]
+
+The code formatter will format //$JUnit-BEGIN$ to // $JUnit-BEGIN$ @@@@ Afterwards "Recreate Test Suite" issues a warning. It should not matter whether there are spaces between // and $JUnit-BEGIN$.

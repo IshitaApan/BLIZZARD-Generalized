@@ -1,0 +1,3 @@
+PackageExplorer uses deprecated setTitle method [package explorer]
+
+PackeageExplorerPart should use setContentDescription(inputText) rather than setTitle("Package Explorer : " + inputText)

@@ -1,0 +1,3 @@
+QualifiedNameFinder loads Search plug-in
+
+Build I20030207 QualifiedNameFinder forces the Search plug-in to be loaded. It should only load the Search plug-in when the user selects to search for qualified strings. Affected refactorings are all those that reference QualifiedNameFinder (through a field).

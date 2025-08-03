@@ -1,0 +1,3 @@
+Double click after { does not always select the right block of code.
+
+Past the following code in a java text editor 	public void foo() { 		String aString = "AAAAAAAAAAAAAAAAA"; 		String s1[] = new String[]{aString}; 		String s2[] = new String[]{"aaaa"}; 		Object o1[] = new Object[][]{{aString},{aString}}; 	} 1) Doubleclick after { in the line "String s1[]". It will select the code between { and }. Good. 2) Now doubleclick after the first { in the line "String s2[]". It will select aaaa without including the ". It should select everything between { and }. 3) Now doubleclick after the first { in the line "Object o1[]". It will select the contents of the second { instead of the first one.

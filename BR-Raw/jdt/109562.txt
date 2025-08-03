@@ -1,0 +1,3 @@
+[code manipulation] "Sort Members" reorders the enum constants in enums.
+
+Irrespective of the settings of preferences controlling Sort Members, it should not reorder enum constants because their order has semantic significance.

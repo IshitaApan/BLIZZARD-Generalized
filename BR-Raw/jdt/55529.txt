@@ -1,0 +1,3 @@
+JavaDocCompletionEvaluator contains e.printStackTrace call
+
+I20040318

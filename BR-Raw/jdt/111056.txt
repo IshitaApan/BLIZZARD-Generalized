@@ -1,0 +1,3 @@
+[refactoring] Move Member Type to New File does not make private member visible
+
+I20050928-1300 The fix for bug 100555 introduced this new problem: public class Try { public static class MoveToNewFile { @SuppressWarnings("unused") private String a; public String getA() { return a; } } Object tryA= new MoveToNewFile().a; } 'Move Member Type to New File' does not make the private field 'a' visible and therefore leads to a compile error. It is bad style to access private members of nested classes, but JLS3 §6.6.1 allows access from within the body of the top level class.

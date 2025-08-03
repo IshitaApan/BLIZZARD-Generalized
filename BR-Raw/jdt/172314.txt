@@ -1,0 +1,3 @@
+[Dialogs] FilteredItemsSelectionDialog does not allow us adding camel case navigation handler
+
+I20070130-0800 FilteredItemsSelectionDialog does not allow us adding a camel case navigation handler to the filter field. In JDT's previous Open Type implementation, the user could press Ctrl+Left, Ctrl+Right, etc. to jump into camel case words (e.g. |Array|List|). This functionality is missing in HEAD, and JDT/UI cannot add it since we don't have access to the Text widget (FilteredItemsSelectionDialog.pattern). When we have the Text field, it's just a one-liner for the Open Type dialog: TextFieldNavigationHandler.install(patternTextField);

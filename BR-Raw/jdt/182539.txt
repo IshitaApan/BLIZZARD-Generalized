@@ -1,0 +1,3 @@
+[package explorer][working sets] Offer delete on a working set
+
+If my working set has nothing contained within it, I should be allowed to delete it. Hitting 'Delete' prompts no confirmation dialog and right-clicking on it doesn't work since 'Delete' is greyed out. It is cumbersome to have to go and edit my working sets just for this. If it's completely empty, deleting it should be no loss, and prompting a confirmation dialog should suffice as a deterrent for misclicked deletions.

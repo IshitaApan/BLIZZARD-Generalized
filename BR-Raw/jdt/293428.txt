@@ -1,0 +1,3 @@
+[JUnit] compiler warning in I20091027-0100
+
+1. WARNING in /src/org/eclipse/jdt/internal/junit4/runner/JUnit4TestLoader.java (at line 22) @SuppressWarnings("unchecked") Class[] testClasses, // https://bugs.eclipse.org/bugs/show_bug.cgi?id=164472 Unnecessary @SuppressWarnings("unchecked") 2. WARNING in /src/org/eclipse/jdt/internal/junit4/runner/JUnit4TestLoader.java (at line 22) @SuppressWarnings("unchecked") Class[] testClasses, // https://bugs.eclipse.org/bugs/show_bug.cgi?id=164472 Class is a raw type. References to generic type Class<T> should be parameterized

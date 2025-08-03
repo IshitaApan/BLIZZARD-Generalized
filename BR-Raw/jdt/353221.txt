@@ -1,0 +1,3 @@
+[correction][quick fix] Should jump to closest problem even if there's a breakpoint
+
+BETA_JAVA7, same in 3.6.2 package xy; public class Try { 	void foo() { 		equals(); // add breakpoint 	} } - add a line breakpoint to indicated line - put caret at end of line - Ctrl+1 => expected: Caret should jump to error position => was: Caret stays at end, no quick fix offered

@@ -1,0 +1,3 @@
+[breadcrumb] Should support RTL
+
+Created attachment 97764 screen shot I20080427-2000 Start eclipse in RTL mode Is: everything is from rtl except breadcrumb, it's still ltr Should: breadcrumb should be rtl, that is, project node is on the right side and arrow points to the left, shouldn't it? Is this a must fix for 3.4? It shouldn't be too difficult to fix.

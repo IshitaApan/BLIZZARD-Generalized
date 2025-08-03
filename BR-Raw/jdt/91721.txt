@@ -1,0 +1,3 @@
+[content assist] Code assist UI: Inner types rendered with container qualification
+
+20050418 See screenshot. The label of a inner type should better just contain the name (the container name can be in the appended qualification)

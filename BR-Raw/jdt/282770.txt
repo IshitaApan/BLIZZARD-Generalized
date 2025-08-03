@@ -1,0 +1,3 @@
+[compiler] Dead code detection should have specific @SuppressWarnings
+
+As far as I can tell there is no option to selectively turn off dead code detection warnings using the @SuppressWarnings annotation. The feature either has to be disabled (globally/per-project) or @SuppressWarnings("all") has to be used. While the latter is acceptable, it seems a specific @SuppressWarnings("dead-code") could be appropriate or alternatively it could be considered to fall under the @SuppressWarnings("unused") category.

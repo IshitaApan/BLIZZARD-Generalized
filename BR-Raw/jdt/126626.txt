@@ -1,0 +1,3 @@
+Updating code formatter preferences page for bug 126625
+
+Related to bug 126625, the code formatter preferences page needs to be updated.

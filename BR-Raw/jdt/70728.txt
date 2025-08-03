@@ -1,0 +1,3 @@
+[spell checking][api (internal)] Change SpellCheckingEngine.getAvailableLocales
+
+R3.0 This method has a bad name: it does not return the available locales but the available (read-only) platform dictionaries.

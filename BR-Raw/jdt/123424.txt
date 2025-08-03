@@ -1,0 +1,3 @@
+browsing perspective does not show some packages in hierarchical mode
+
+Version: 3.2.0 Build id: I20060110-1026 Given project P1 ->src ->a ->b ->c with inclusion filter on src set to /a/b/ Now open java browsing perspective Packages shows a.b Switch Packages to Hierarchical layout No package is shown see also bug 65240

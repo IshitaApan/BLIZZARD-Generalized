@@ -1,0 +1,3 @@
+Indent Line removes tabs inside switch statement
+
+I200409212000 Indent Line removes tabs inside switch statement. Test Case: 1. open ResourceFileBuffer rev. 1.16 2. select line 119 - 169 3. Indent Line ==> break and other statements get alligned to "switch"

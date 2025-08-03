@@ -1,0 +1,3 @@
+Error ticks don't show up in Types view
+
+20020917 The error icons don't show up in types view if they are inside a class. They only appear if they are above the first type.

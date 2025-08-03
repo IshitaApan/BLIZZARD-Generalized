@@ -1,0 +1,3 @@
+Introduce parameter refactoring: offer Code Assist [refactoring]
+
+20040514 - select an expression in a method and invoke 'Introduce parameter' - The dilaog that shows up a.) does not have name code assist b.) the label should say 'Parameter name:' (not 'Parameter Name:')

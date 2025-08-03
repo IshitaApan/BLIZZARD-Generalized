@@ -1,0 +1,3 @@
+Java Search Read Filter filters too much
+
+3.0 RC2 1. select first occurrence of fOffset in BufferedRuleBasedScanner. 2. search for references in workspace ==> all matches found [ok] 3. Search view > view menu > Filter Reads ==> only 3 matches remain The read filter filters out matches which have both read and write access. Flagging as major since this can lead to wrong conclusions when analyzing code.

@@ -1,0 +1,3 @@
+NPE in AbstractReusableInformationControlCreator#canReplace(..)
+
+HEAD My runtime workbench has written this to the console: Exception in thread "Text Viewer Hover Presenter" java.lang.NullPointerException 	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractReusableInformationControlCreator.canReplace(AbstractReusableInformationControlCreator.java:65) 	at org.eclipse.jface.text.AbstractInformationControlManager.setCustomInformationControlCreator(AbstractInformationControlManager.java:424) 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:171)

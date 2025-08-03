@@ -1,0 +1,3 @@
+Move Inner Type To New File does not always honor checkbox "make field final"
+
+I20050927-1200 Move a non-static inner type to a new file. In the wizard, enter a name for an enclosing instance field, but do not check "make final". Observe: The created field is final. It works if the checkbox is checked and then unchecked again.

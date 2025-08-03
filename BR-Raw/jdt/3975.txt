@@ -1,0 +1,3 @@
+New Class Wizard does not detect package if a resource is selected (1GFCU9G)
+
+1. JUnit setup 	2. Select ok.gif in junit.swingui 	3. Open New Class wizard 	==> package is default instead of junit.swingui (as if 	a class would have been selected) NOTES:

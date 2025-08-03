@@ -1,0 +1,3 @@
+[clean up] Code clean up mistakenly removes a required "this" keyword
+
+Created attachment 90089 sample code Build ID: M20070921-1145 Steps To Reproduce: * Add the two Java classes from the attachment into a Java project. * The output is: Alpha: 9 i: 4 this.i: 4 Alpha.this.i: 9 * Enable the code cleanup setting "Remove 'this' qualifier for non static field accesses" (the "only if necessary" setting). Now run the cleanup. * The new output is: Alpha: 9 i: 4 this.i: 4 Alpha.this.i: 4 // WRONG OUTPUT! More information: Notice that in the Bravo class, "Alpha.this.i" gets changed into "i", referring to the local class field, not the outer class' field. Although this statement is unusual, this is an incorrect implementation of the cleanup.

@@ -1,0 +1,3 @@
+Better locations for assignement errors
+
+It's just a detail, but the assignement errors are misplaced i think: import java.util.Vector; public class Test { private static Object getVector() { return new Vector(); } private static void test() { int i = getVector(); // the error is on "i" i = getVector(); // the error is on "getVector()" } } i believe the error should be on "=" for both lines.

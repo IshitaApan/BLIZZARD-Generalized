@@ -1,0 +1,3 @@
+[actions] Add 'Show in...' to context menu of any Java view, not just editor
+
+Add the ALT+Shift+W (Show in...) on the right click menu on any file, not just the java ones. Note that the keyboard shortcut already exists on any type of file, it's just not mapped onto the right-click menu.

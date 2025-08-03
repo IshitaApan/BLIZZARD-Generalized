@@ -1,0 +1,3 @@
+Creating a new class creates 3 entries in local history (1GE4TOC)
+
+Creating a new class with the class wizard creates 3 entries in the local history. The oldest is empty, the others have the same content. NOTES: EG (5/23/2001 11:35:43 AM) 	is the wizard setting the contents 3 times? MA (5/25/01 10:10:32 AM) 	JDOM automatically saves the content 	2 times add import: I have to save, otherwise create hierarchy does not succeed. EG (5/30/01 9:43:51 AM) 	JDOM should provide control over the saving behaviour and not do it automatically. 	Moving to JCORE for comment.

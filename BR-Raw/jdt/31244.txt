@@ -1,0 +1,3 @@
+Renaming linked source folder copies content
+
+I20030206 - Create project with "linked src folder" - rename folder Observe: you loose the link and the content gets copied. I would expect simply renaming the link.

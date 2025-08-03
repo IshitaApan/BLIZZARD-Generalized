@@ -1,0 +1,3 @@
+[bidi] FilteredTypeSelectionDialog does not process selected type
+
+Created attachment 100931 Fix I20080516-1333 FilteredTypeSelectionDialog does not process the selected type with BasicElementLabels.

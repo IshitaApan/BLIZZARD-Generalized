@@ -1,0 +1,3 @@
+[navigation] Quick outline is initially to large
+
+Build 20041105 Linux-GTK The Quick outline (ctrl+o in the Java editor) window is enormous on Linux. What have you guys been feeding it? :-)

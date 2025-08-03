@@ -1,0 +1,3 @@
+[Organize Imports] generic method problem
+
+In Eclipse 3.1, if my code has the following line: Collections.<MyType>emptySet(); and I issue the Organize Imports command, MyType will be removed from the imports unless it is used elsewhere in that class.

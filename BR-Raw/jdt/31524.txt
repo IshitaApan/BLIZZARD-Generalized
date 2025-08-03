@@ -1,0 +1,3 @@
+Update problem in Java browsing perspective [browsing]
+
+M5+plugin export: - open Java browsing perspective - switch to segmented view - drill down to any method - in segemented editor edit method name Observe: members view is updated correctly - close segmented editor and discard changes Observe: members view still shows changed name

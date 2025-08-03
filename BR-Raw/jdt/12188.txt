@@ -1,0 +1,3 @@
+Wrong Stylesheet Flag for Javadoc + impossible to deaktivate selection
+
+javadoc: invalid flag: -stylsheet shouldbe: javadoc -stylesheetfile And it's im possible to deactivate the selecting of using the external Stylesheet.

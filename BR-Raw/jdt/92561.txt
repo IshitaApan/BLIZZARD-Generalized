@@ -1,0 +1,3 @@
+Leaked HistoryItems in DocumentManager?
+
+I20050420-1200 In a huge YourKit memory trace, I see that DocumentManager holds 303 Documents in memory. I used local history before, but when I made the dump, no local history dialog was up. YourKit says that the 'Retained size' of the array fgValues is 75,393,728 bytes. [Snapshot on my machine: I20050420-1200_1.5.0_20050425_1004.memory]

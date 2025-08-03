@@ -1,0 +1,3 @@
+[refactor/code completion] change method signature, code completion not useable
+
+We can with CTRL-SPACE initalize code completion in the type selection of the change method signature. But if we then press enter to select the right type we just pointed out with code completion. The enter is consumed by the table below and the selected value in the code completion popup is ignored. So yes you can see what values there are but as far as i know you can't select them with the keyboard (mouse is possible)

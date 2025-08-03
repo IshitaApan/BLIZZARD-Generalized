@@ -1,0 +1,3 @@
+occurrences in file: shoul beep at me if cannot find anything
+
+20030206 i should be beeped at if nothing is found (an invalid expression selected or sth) i never look at the status line status line message + beep = the way to go

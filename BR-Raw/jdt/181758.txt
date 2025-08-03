@@ -1,0 +1,3 @@
+[clean up] CUR should use its own working copy owner
+
+I20070403-1110 Would increase performance and lower memory footprint

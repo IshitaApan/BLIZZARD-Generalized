@@ -1,0 +1,3 @@
+jar packager: ide freezes on page flip, no progress shown
+
+i selected org.eclipse.jdt.ui org.eclipse.jdt.ui.tests.refactoring (couple thousands of files) and opened the jar packager or flipping the page the whole ide froze. and there was no progress report shown. it took more or less 2 minutes - of total freeze - to flip to the other wizard page. i suggest performing it in another thread and showing progress

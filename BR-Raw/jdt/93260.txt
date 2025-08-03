@@ -1,0 +1,3 @@
+TypeInfoViewer sets foreground colours unnecessarily
+
+TypeInfoViewer sets the foreground on all items to be the foreground of the table. This pattern causes problems due to bug 30994, and seems inefficient anyway. The attached patch fixes this.

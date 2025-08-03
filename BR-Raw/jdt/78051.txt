@@ -1,0 +1,3 @@
+[nls tooling] Properties Editor has no 'Show-In'
+
+20041108 It would be nice if the Properties Editor also would offer a 'Show-In' (Package Explorer and Navigator)

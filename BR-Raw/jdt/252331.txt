@@ -1,0 +1,3 @@
+[quick fix] Generate hashCode() and equals() should not be proposed if no non-static fields
+
+I20081027-1800. 1. enable the warning for missing hashCode() 2. paste: class C { 	public boolean equals(Object obj) { 		return true; 	} } ==> quick fix to generate hashCode() and equals() is proposed but I only get a dialog that this can't be done due to no non-static fields.

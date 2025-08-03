@@ -1,0 +1,3 @@
+[navigation][hovering] Javadoc view cannot find URL with anchor
+
+I have the javadoc comment: /** * <p> * Seven-bit ASCII, also known as ISO646-US, also known as the Basic Latin block of the Unicode character set. * </p> * <p> * Every implementation of the Java platform is required to support this character encoding. * </p> * * @see <a href="http://java.sun.com/j2se/1.3/docs/api/java/lang/package-summary.html#charenc">JRE character * encoding names </a> */ When I click on "JRE character encoding names" in the Javadoc view, I get a page not found. When I paste the URL: http://java.sun.com/j2se/1.3/docs/api/java/lang/package-summary.html#charenc in Mozilla, all is well.

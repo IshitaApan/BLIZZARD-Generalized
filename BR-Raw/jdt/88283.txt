@@ -1,0 +1,3 @@
+[code manipulation] The default comparator for sorting members needs to be updated
+
+The default comparator used to sort the members should be updated to support sorting of annotation type member declarations, annotation declaration, enum constants declaration, enum declarations.

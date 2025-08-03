@@ -1,0 +1,3 @@
+extract method: when the dialog comes up the text field should be selected
+
+20021216 now, it's the 'add exceptions' checkbox, which is not good

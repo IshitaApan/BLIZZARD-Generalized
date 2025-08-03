@@ -1,0 +1,3 @@
+[quick assist] "Inverse if statement" quick assist doesn't work
+
+"Inverse if statement" quick assist replaces 		if (args.length > 5) 			System.out.println("OK"); 		else 			if (args.length < 3) 				System.out.println("KO"); with 		if (args.length <= 5) 			if (args.length < 3) 				System.out.println("KO"); 		else 			System.out.println("OK");

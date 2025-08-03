@@ -1,0 +1,3 @@
+Move member to new file ignores reference to type parameter [refactoring] [move]
+
+M3 test candidate public class A<T> { 	static class Inner<X> extends ArrayList<T> { 		public void foo() { 			X x= null; 		} 	} } - move inner to new file Observe: no error although type parameter T isn't visible in new file.

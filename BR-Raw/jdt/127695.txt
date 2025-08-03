@@ -1,0 +1,3 @@
+[build path] can't change native library location for project
+
+20060214-0010 1. create 2 new projects 2. open project properties of first project, build path page 3. go to 'Projects' tab, add the other project 4. expand the node, select 'native library' 5. press 'Edit', nothing happens

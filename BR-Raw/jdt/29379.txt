@@ -1,0 +1,3 @@
+[typing] Auto-inserted bracket '}' crosses parentheses scope
+
+Suppose there is a method void foo (String []); if in some place you want ivoke the method creating the array on fly, and suppose to type something like: foo (new String [] {"x"}) automatic parentheses and curved brackets insertion makes your code looking as foo (new String [] {<cursor here>) } i.e closing curved bracket goes out of the method parameter parentheses...

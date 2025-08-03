@@ -1,0 +1,3 @@
+template: for(array) - inserts qualified type name (+ incorrect temp name)
+
+class A { 	class Inner{} 	void f(){ 		Inner[] t; 		//<<INSERT FOR(ARRAY) TEMPLATE HERE 	} } the created for loop is: for (int i = 0; i < t.length; i++) { 	A.Inner a.Inner = t[i]; }

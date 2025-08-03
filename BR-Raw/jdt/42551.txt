@@ -1,0 +1,3 @@
+Selecting Copy on Java Properties View should select element
+
+Using Eclipse 3.0 M3 build. When I select a method in the Java outline view and right-click and select Copy from the context menu, I expect it to copy the entire method into the copy-buffer. This is how the behavior used to work. Currently, it appears to only copy the method name. I use this behavior often, in order to copy a method from one class to another. This is the same behavior that Cut/Delete has from the context menu.

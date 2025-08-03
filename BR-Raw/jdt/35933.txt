@@ -1,0 +1,3 @@
+JUnit package test runner doesn't find empty tests [JUnit]
+
+The JUnit package test runner doesn't run TestCases that don't contain any test* methods themselves (but instead only inherit them). Consider the following example: public class SimpleTest extends TestCase { public void testParser() { Parser p = getParser(); assert(...); } protected Parser getParser() { return new SimpleParser(); } } // Not executed, unless a dummy test method is inserted! public class ExtendedTest extends SimpleTest { protected Parser getParser() { return new ExtendedParser(); } }

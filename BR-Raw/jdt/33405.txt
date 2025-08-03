@@ -1,0 +1,3 @@
+Refactoring extract local variable fails in nested if statements
+
+If a local variable is extracted from a nested if statement, and it only exists in the second case onwards, then the variable is positioned incorrectly between the if cases. String x; boolean test,test2,test3; if (test) { } else if (test2) { x = "ExtractMe"; } else if (test3) { x = "ExtractMe"; } -> highlight "ExtractMe" and extract to local variable 'defect' if (test) { } else final String defect = "ExtractMe"; if (test2) { x = defect; } else if (test3) { x = defect; } Of course, if the first test block also refers to "ExtractMe" then it will work properly and put the final variable declaration above the whole nested if loop. Eclipse 2.1RC1 Windows 2000, Mac OS X.2.4

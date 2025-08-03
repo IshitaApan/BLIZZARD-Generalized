@@ -1,0 +1,3 @@
+[nls tooling] externalize strings escapes ISO 8859-1
+
+Build Identifier: 20100218-1602 The externalize strings capability of eclipse escapes ISO 8859-1 characters, even if that is not necessary (since properties files are ISO 8859-1). E.g. "�" becomes "\u00FC". This makes both the properties files less readable and might (in special cases) produce some different behavior depending on the encoding settings of your JVM Reproducible: Always Steps to Reproduce: 1. write code using a string that uses some special (but still ISO 8859-1) characters like "הצ��" 2. select "source/externalize strings" 3. see the messages.properties files and notice that the characters have been escaped

@@ -1,0 +1,3 @@
+Compiler settings defaults not compatible with our 'default'
+
+20041105 When starting a fresh workbench, open the compiler preference page. The compliance settings (compliance, classfile comp. source comp, enum and assert) are all initialized with the default provided by JDT core. Unfortunatly the 'default' check box is not checked as the last enum is set to warning. Can you set 'enum' to ignore as default?

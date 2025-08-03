@@ -1,0 +1,3 @@
+Rename Refactoring: Wrong warning: another name shadows [refactoring]
+
+20040311 Selfhosting workspace with extra plugin org.eclipse.jdt.rewrite (from SNZ rep) Rename NewASTRewrite.createCopyPlaceholder Afor all references an error is created: 'Another name shadows access to the renamed element' Thsi makes no sense here: There is only one createCopyPlaceholder in the class and also the new name is not used. What could be the problem is that I have two projects with class NewASTRewrite. The two projects are unrelated, however.

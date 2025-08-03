@@ -1,0 +1,3 @@
+[nls tooling] Find Broken Externalized Strings reports false positive
+
+I20060801-0900 Running Source > Find Broken Externalized Strings on /org.eclipse.ltk.ui.refactoring/src/org/eclipse/ltk/internal/ui/refactoring/RefactoringUIMessages.properties gives these false positives: Unused keys in: RefactoringUIMessages.properties - \org.eclipse.ltk.ui.refactoring\src\org\eclipse\ltk\internal\ui\refactoring (3 matches) Undefined keys in: RedoRefactoringAction.java - org.eclipse.ltk.ui.refactoring Undefined keys in: RefactoringHistoryWizard.java - org.eclipse.ltk.ui.refactoring.history Undefined keys in: UndoRefactoringAction.java - org.eclipse.ltk.ui.refactoring

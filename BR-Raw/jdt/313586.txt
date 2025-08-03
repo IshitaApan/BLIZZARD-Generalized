@@ -1,0 +1,3 @@
+[preferences] Expose new preference in the UI
+
+The UI needs to expose the new constant introduced by the fix for bug 313524.

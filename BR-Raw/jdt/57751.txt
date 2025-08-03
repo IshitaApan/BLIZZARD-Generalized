@@ -1,0 +1,3 @@
+1) Export javadoc not based on package explorer selection but on open editor [javadoc] [export]
+
+build: eclipse r3.0 M8 I find that when making a selection of a project in the Package Explorer view, then open the popup menu and select Export > javadoc and press the Next button, the selected export option is based on the file selected in the editor and not the project in the package explorer. When exporting to jar for example the scope of the export is defined by the selection in the package explorer.

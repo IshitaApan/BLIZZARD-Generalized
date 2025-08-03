@@ -1,0 +1,3 @@
+[JUnit] Allow to run the test at the current cursor location
+
+I'd like a shortcut which allows to run the test which I'm currently writing (as described in this blog: http://www.vasanth.in/2007/11/09/EclipsePluginJUintRunner.aspx). The default shortcut should be "Alt+Shift+X, Z". Maybe you can merge the code from JUnitRunner into the junit plugin.

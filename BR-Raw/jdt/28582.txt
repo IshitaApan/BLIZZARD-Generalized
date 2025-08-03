@@ -1,0 +1,3 @@
+Quickfix icon hides the error icon in editor left ruler [quick fix]
+
+Build 20021216 In presence of problems, one cannot see an error icon in the left ruler, since it get overlapped completely with the quickfix icon. The only error indication is the underlining in the code itself.

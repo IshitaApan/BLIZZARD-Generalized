@@ -1,0 +1,3 @@
+[implementation] bug in perference initializer's setDefault method
+
+3.4 M7. Bug in perference initializer's setDefault method: the fireEvent parameter is not honored.

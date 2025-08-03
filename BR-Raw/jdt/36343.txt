@@ -1,0 +1,3 @@
+[typing] comments entering - moves text out of comment scope
+
+I've got non-javadoc comment in front of a method: // text I want to convert it to java-doc: /**<here press enter to move rest of the text to next line> text Result is: /** * */text Which is not what I've expected. I understand that if I start typing "/**" in front of method declaration, I'd probably would not like to have it commented. But I'd never start typing this way - if I don't like something to be commented, I'd create a new line first...

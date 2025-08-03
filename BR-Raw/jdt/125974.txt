@@ -1,0 +1,3 @@
+Restrict Junit launch shortcut appearance in menu
+
+The soon-to-be-attached patch improves the behavior for the Junit launch shortcut. It uses property tests from a lower level plug-in (jdt.launching), and adds a test to only appear for container when JUnit is on the buildpath.

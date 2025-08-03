@@ -1,0 +1,3 @@
+[breadcrumb] Does reopen child popup
+
+I20080527-2000 1. Open a drop down by either clicking the arrow or the item 2. Do the same on the same item again Is: Drop down closes and reopens resulting in flickering Should: Drop down should stay open

@@ -1,0 +1,3 @@
+[quick fix] Dead Code Analysis: there is no QuickFix for if/else with DEBUG
+
+Build id: N20081126-2000 Dead Code Analysis found an issue in org.eclipse.core.internal.jobs.OrderedLock if (DEBUG && success) System.out.println("[" + Thread.currentThread() + "] Operation started... " + this); //$NON-NLS-1$ //$NON-NLS-2$ else if (DEBUG) System.out.println("[" + Thread.currentThread() + "] Operation timed out... " + this); //$NON-NLS-1$ //$NON-NLS-2$ The two quick fixes that are available for this case are either remove 'success' from 'if (DEBUG && success)' or remove 'System.out.println("[" + Thread.currentThread() + "] Operation started... " + this); //$NON-NLS-1$ //$NON-NLS-2$' It should rather suggest to create two if statements, one for 'DEBUG' another for 'success'.

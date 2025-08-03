@@ -1,0 +1,3 @@
+Refactoring Preferences Page should capitalize button titles
+
+The button titles on the Java->Refactoring preference page should be capitalized

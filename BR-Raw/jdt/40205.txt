@@ -1,0 +1,3 @@
+automatically insert closing brace: does not handle '//' in strings
+
+200307150800 1. Try this snippet {	 	String s= "//"; 	 	void m() <CURSOR> } 2. Insert an opening brace 3. Press <ENTER> The expected closing brace does not get inserted

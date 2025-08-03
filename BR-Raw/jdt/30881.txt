@@ -1,0 +1,3 @@
+[type hierarchy] Type hierarchy should be computed in a background thread
+
+I20030129++ The type hierarchy is currently computed in the UI thread. We should do it in the background thread and should make it cancelable.

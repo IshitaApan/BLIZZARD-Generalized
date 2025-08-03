@@ -1,0 +1,3 @@
+[refactoring] Enable "Maximize" button on "Move" refactoring dialog
+
+Please enable the maximize button on "Move" refactoring dialog, like on "Pull up" dialog, so it turns easy to maximize the window on preview step.

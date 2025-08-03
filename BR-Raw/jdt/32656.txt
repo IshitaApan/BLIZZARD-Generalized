@@ -1,0 +1,3 @@
+Open/Close project in package explorer looses selection on java-projects. [package explorer]
+
+Not on non-java projects, which looks wrong when multiple java- and non-java-projects are opened/closed.

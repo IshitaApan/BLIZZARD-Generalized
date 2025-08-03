@@ -1,0 +1,3 @@
+Project created with default JDK and compliance set project specific values
+
+I20051031-2000 - start Eclipse with 1.5 VM - create new project and acceptr defaults - a project is created using the 1.5 JDK Observe: - the project has project specific compiler compliance level instead of using the workspace default which is 5.0 as well. Project specific compiler compliance should only be set when a project specific JDK is selected.

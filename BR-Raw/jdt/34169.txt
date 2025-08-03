@@ -1,0 +1,3 @@
+Add JUnit TestSuite blocks
+
+In RC2 I was able to add a new JUnit test suite using the wizard. After 2 or 3 calls to wizard it stopped working. The "Next" button trigers some activity (mouse pointer changes) but does not advance to the next screen. The same workspace works fine with RC1 after this problem with RC2.

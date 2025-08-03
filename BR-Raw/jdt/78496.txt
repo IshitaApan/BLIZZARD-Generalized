@@ -1,0 +1,3 @@
+ASTFlattener does not serialize EnumConstantDeclarations [code manipulation]
+
+In the class org.eclipse.jdt.internal.corext.dom.ASTFlattener, the code in the method "public boolean visit(EnumDeclaration node)" seems to expect EnumConstantDeclarations, in the "bodyDeclarations" list, but enumeration constants are stored in "enumConstants" list. NaiveASTFlattener works OK, though.

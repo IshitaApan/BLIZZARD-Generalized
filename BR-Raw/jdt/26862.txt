@@ -1,0 +1,3 @@
+Packages view in Java Browsing updates to navigator selection [browsing]
+
+If I open the Navigator in the Java Browsing perspective and select a non-jaa project, the Packages view shows the folders in the project as empty packages. I would have expected the packages view to be empty in this case.

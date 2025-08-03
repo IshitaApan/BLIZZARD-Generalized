@@ -1,0 +1,3 @@
+Cursor not located property in template [template] [code manipulation]
+
+Using build 0917. If a template with a ${cursor} variable include a javadoc comment, and is placed outside of the javadoc, the cursor is not moved to the correct location. Example template: /** */ public void ${name}() { ${cursor} } when expanded, places the cursor before the closing curley brace. If the javadoc comment is removed from the template the cursor goes to the correct location. This is probably related to the fix for bug 15247.

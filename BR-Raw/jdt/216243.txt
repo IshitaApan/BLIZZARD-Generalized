@@ -1,0 +1,3 @@
+[breadcrumb] Open action does not work
+
+I20080122-1600 1. In the breadcrumb select another type 2. Press F3 Is: Can not open selection Should: Open the type

@@ -1,0 +1,3 @@
+[compare] Java Structure Compare hides changes with 'Ignore White Space'
+
+I20060815-0800 Java structure compare hides changes when the 'Ignore White Space Where Applicable' toolbar toggle is enabled. To reproduce, compare rev. 1.45 and 1.46 of org.eclipse.jdt.core.dom.ITypeBinding. Without 'Ignore White Space', there's a change in getQualifiedName(). With the option enabled, the Java Structure Compare pane does not show the change any more.

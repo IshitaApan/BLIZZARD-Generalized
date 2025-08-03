@@ -1,0 +1,3 @@
+JAR exporter exports class files from output folder
+
+There was a problem with the output folder not being detected as such.

@@ -1,0 +1,3 @@
+[spell checking] BOM repeated in user dictionary file if encoding is UTF-16
+
+HEAD If I set the encoding of the user dictionary file to "UTF-16" and then use quick fix to add words, the file contains a BOM (fe ff) in front of every line. Expected: BOM only at start of file.

@@ -1,0 +1,3 @@
+[misc] Save not working for linked resources in Java editor
+
+Trying to open a java file stored in a linked folder, results in error message "Java editor could not initialize" and no editor is opened. Other functions like compiling or comparing work fine with files in a linked folder. In previous build of Eclipse the Java editor used to work fine on files in linked folder. The build I have found this bug in is the M4.

@@ -1,0 +1,3 @@
+JavaCore constants should be used is favor of hard-coded strings
+
+the following classes should use constants defined in JavaCode rather than hard-coded strings StubUtility CodeFormatterUtil CompilationUnitEditor JavaCodeScanner JavaCompiletionProcessor

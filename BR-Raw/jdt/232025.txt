@@ -1,0 +1,3 @@
+[hovering][correction] additional info for quick assist/fix misses focus hint
+
+I20080513-2000.

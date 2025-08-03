@@ -1,0 +1,3 @@
+[5.0] Unexspected error in Infer Type Arguments refactoring with varargs [refactoring]
+
+3.1 RC1 Steps to reproduce: - Invoke Infer Type Argument on attached project -> Instead of showing the cu in the context viewer, the stacktrace of the error could be displayed Attaching project and log

@@ -1,0 +1,3 @@
+Build 20020529 Error importing from source
+
+When I import org.eclipse.jdt.debug from source I get the following error This resource is a duplicate and was not copied to the output folder	MANIFEST.MF	org.eclipse.jdt.debug/src-jdimodel/META-INF	 STEPS 1) Select Import - Plug-ins 2) Choose "Extraxt source archives" 3) Import org.eclipse.jdt.debug

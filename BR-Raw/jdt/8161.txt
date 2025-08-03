@@ -1,0 +1,3 @@
+prefix widget on first page of NLS wizard is way too big
+
+The size of the widget should suggest that short prefixes should be used.

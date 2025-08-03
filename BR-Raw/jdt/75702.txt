@@ -1,0 +1,3 @@
+[dom] Need a way to get back from an AST to the originating ICompilationUnit
+
+We need a way to get back from an AST/ASTNode to the originating ICompilationUnit (if the AST was created for a particular ICompilationUnit). Currently, we just set a property on the CompilationUnit when we parse something with RefactoringASTParser. But this is no longer possible when the AST has been created by ASTParser#createASTs(ASTRequestor, IProgressMonitor) from bug 73675. I don't really care whether the query is added to AST, CompilationUnit, or ASTNode in general. On ASTNode, it could even be IJavaElement getJavaElement() and return the corresponding IJavaElement iff available (CompilationUnit -> ICompilationUnit/IClassFile; MethodDeclaration -> IMethod; ForStatement -> null; ...).

@@ -1,0 +1,3 @@
+[source actions] [5.0] create constructor using fields adds wrong super call to enum
+
+3.1-RC2 - have the cu below - select Source>Create Ctor using fields --------- Natural.java ----- enum Natural { 	ONE, TWO; 	 	private final int fField; 	 	 } ---------------------------- Expected ctor: 	private Natural(int field) { 		// TODO Auto-generated constructor stub 		fField = field; 	} Actual ctor: 	private Natural(String name, int ordinal, int field) { 		super(name, ordinal); 		// TODO Auto-generated constructor stub 		fField = field; 	}

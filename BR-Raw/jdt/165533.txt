@@ -1,0 +1,3 @@
+[rulers] expanded ruler icons don't perform any action when clicked
+
+Hi, I'm having the following issue since quite some time (before 3.3). When "Expand vertical ruler icons upon hovering" is enabled in the preferences of the Java editor, everything runs nicely unless I want to click on one of the symbols in the expanded pane. What happens then is that the main application window looses focus for just a glimpse of time and the little icon pane disappears again but nothing else happens. In that case the tooltips that accompany the ruler icons on hovering don't get discarded either. I hope I could make myself clear thx

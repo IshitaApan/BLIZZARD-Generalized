@@ -1,0 +1,3 @@
+Load User Libraries dialog has layout problems
+
+Reached through Pref Page Java/Build Path/User Libraries/Load...

@@ -1,0 +1,3 @@
+Strange error dialog during Move refactoring
+
+I performed a move refactoring on some classes and included a search of text files. I clicked preview and after a slight wait, got an error dialog with an error message repeated four times (I will attach the dialog). The error basically told me to go to the preview page (which is where I was goin anyway). On the preview page, everything was fine. I suspect I got the error dialog because there were text based matches and these require extra scrutiny. However, I think that the error dialog is too disconnected from the actual changes in the preview window to be of any use.

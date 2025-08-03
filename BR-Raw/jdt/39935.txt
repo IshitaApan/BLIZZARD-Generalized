@@ -1,0 +1,3 @@
+Package Explorer drop down Layout sub-menu should use radio buttons [package explorer]
+
+Using build 200307090800, if you drop down the Package Explorer view menu, and open the Layout sub-menu, you will see Flat, and Hierarchical as toggle (check) style buttons. These should be radio buttons since only one can be selected at one time. If you are using the viewActions extension point, then there is a "style" attribute you can use to specify "radio" behavior. If you are contributing these via code, there is a new constructor on Action that you can specify the style.

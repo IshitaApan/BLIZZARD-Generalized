@@ -1,0 +1,3 @@
+[call hierarchy] callers and constructor color updating broken
+
+I20090429-1800. 1. open Call Hierarchy with some expanded constructors 2. change the 'Inherited Members' color 3. click 'Apply' or 'OK' ==> most of the time nothing happens i.e. the color is not updated but sometimes all nodes collapse. Expected: the color is updated on 'Apply' and 'OK' and no nodes are collapsed.

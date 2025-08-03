@@ -1,0 +1,3 @@
+Extract Interface UI: Too much vertical spacing
+
+20050329 The vertical spacing bewteen the checkboxes on the first page of the extract Interface Wizard seems to be too big

@@ -1,0 +1,3 @@
+[JUnit] Javadoc for JUnit container
+
+Th javadoc of JUnit is not set automtcally when adding JUnit to the project. If possible, please add the javadoc to the distribution (like the source). Thanks, David

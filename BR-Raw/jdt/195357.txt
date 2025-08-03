@@ -1,0 +1,3 @@
+[spell checking] Eclipse VERY slow with custom user dictionary on quick fix
+
+Build ID: I20070625-1500 Steps To Reproduce: 1. Get attached dict. (it is russian dictionary) 2. Open any java class in java code editor 3. Print some words in russian (incorrectly). 4. Put cursor to underlined word and pres ctrl+1 for quic fix ---> Eclipse get down for 2-3 minutes. More information:

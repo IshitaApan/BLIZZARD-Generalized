@@ -1,0 +1,3 @@
+NLS wizard adds wrong keys to properties file
+
+I20040519_0100 - create a test class A with one string - externalize the string (you get a key A.0) - now change the key used in A.java without updating the properties file (for example use A.00) - add a second string - externalize the string observe: the properties file now contains an entry A.00= which is bogus.

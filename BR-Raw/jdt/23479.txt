@@ -1,0 +1,3 @@
+Initializers (static and non-static) should be displayed as private [render]
+
+The java element label provider should be changed to render the private access icon rather than package access icons for initializers, since they're not accessible outside the class.

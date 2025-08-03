@@ -1,0 +1,3 @@
+Surround with doesn't use OLD ast rewrite anymore
+
+therefore the following 		// SurroundWithTryCatchRefactoring still uses modifying rewrite - pass in a copy 		ASTParser parser= ASTParser.newParser(ASTProvider.AST_LEVEL); 		parser.setSource(cu); 		parser.setResolveBindings(true); 		parser.setFocalPosition(selectedNode.getStartPosition()); 		CompilationUnit newRoot= (CompilationUnit) parser.createAST(null); could be removed form LocalCorrectionsSubProcessor

@@ -1,0 +1,3 @@
+[typing] Smart semicolon does not work at end of string literal
+
+I20040506 0. smart semicolon is on, smart typing mode 1. have this code: String s= "asdfasdf<caret>" 2. press SEMICOLON -> expected: semicolon gets inserted after the closing quotation mark -> real: the semicolon is inserted at the caret position -> note that it works if the caret position is not before the closing quotation mark.

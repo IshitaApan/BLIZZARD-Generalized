@@ -1,0 +1,3 @@
+[content assist] overwrite highlighting on Ctrl only works first time
+
+HEAD, was OK in 3.6M5 - Have: public class Try { 	void test() { 		Objekt o; 	} } - put caret after "Obj" - press Ctrl+Space - press and hold Ctrl => "ekt" is highlighted (good) - release Ctrl, press and hold again => no highlight

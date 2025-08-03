@@ -1,0 +1,3 @@
+[code assist] Code Assist for parameterized anonymous types: overridden methods for raw, not parameterized
+
+I20050610-1757 (3.1RC2) public class Anon { 	void test() { 		new java.util.ArrayList<Integer>() 	} } Invoke content assist after 'ArrayList<Integer>(' and choose the anonymous. -> The methods to be overridden are constructed for a raw ArrayList (they have their 'E's replaced by 'Object' instead of 'Integer').

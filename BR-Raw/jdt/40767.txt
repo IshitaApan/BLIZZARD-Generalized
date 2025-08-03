@@ -1,0 +1,3 @@
+refactor rename method failure [refactoring]
+
+--------------------A.java--------------------------- package a; public class A { private static final A g_instance = new A(); private A() { } public static A getInstance()//<-- refactor rename this method { return g_instance; } } ------------------------------------------------------ ----------------------B.java-------------------------- package a; public class B { I i = new I() { public void method() { A.getInstance(); } }; } interface I { public void method(); } ----------------------------------------------------- when you rename the above marked method you get an error saying that another name shadows access to the renamed element. If you click continue B.java does not get updated.

@@ -1,0 +1,3 @@
+[browsing] Custom package filter doesn't work if all default filters are enabled
+
+Build ID: I20070621-1340 Steps To Reproduce: 1. In Java Browsing Perspective, select filters in the Packages view and disable all default filters (i.e., empty parent packages, empty packages, folders containing no packages) 2. Create a custom named filter; this will work 3. Re-enable default filters and the custom named filter will stop working 4. Disable everything and re-enable the custom filter to get it to work again More information:

@@ -1,0 +1,3 @@
+Sample code in code formatter settings in wrong
+
+Go to: Window -> Preferences -> Java -> Code Style -> Formatter -> Edit Go to New Lines page. In the preview pane, the code block: @deprecated @overrides public void bar() { } is wrong! It should be: @Deprecated @Override public void bar() { }

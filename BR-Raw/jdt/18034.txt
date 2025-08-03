@@ -1,0 +1,3 @@
+active working set indication in view menu
+
+should use the bullet (one-of) decoration and not the check mark to show the active working set.

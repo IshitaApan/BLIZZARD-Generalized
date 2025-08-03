@@ -1,0 +1,3 @@
+[typing] Add column based editing capabilities to textual editors
+
+Add column based editing: cut/copy/paste/move, etc. colums of text.

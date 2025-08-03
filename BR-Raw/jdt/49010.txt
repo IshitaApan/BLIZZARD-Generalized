@@ -1,0 +1,3 @@
+Move Static Method Refactoring: Focus problems
+
+I20031216 On Mac OS you can open the menu of a combo box with the up or down cursor keys. If you use code assist in the same field and try to use the up and down arrow keys to scroll through the code assist proposals, they don't work as expected because the underlying combo box uses the keys to open its own menu. As a result you get the combo menu on top of the code assist window (see attached screenshot).

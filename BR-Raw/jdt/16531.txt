@@ -1,0 +1,3 @@
+templates: @author has incorrect icon on preference page
+
+20020520 it has a 'java context' icon although it's a 'javadoc context' template

@@ -1,0 +1,3 @@
+Enclosing type checkbox doesn't appear in tab order in new class wizard
+
+Build 20011211 In the new class wizard, the checkbox for enclosing type doesn't appear in the tab order. The JDT code doesn't seem to be doing any magic.

@@ -1,0 +1,3 @@
+Introduce parameter refactoring: Should update javadoc
+
+20040514 - In a method that has a Javadoc comment: - Select an expression in a method and invoke 'Introduce parameter' - The parameter is added but the method's javadoc is not updated

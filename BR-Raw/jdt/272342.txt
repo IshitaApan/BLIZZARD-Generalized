@@ -1,0 +1,3 @@
+[content assist] Content assist in Display, Expressions and Variables views should show Javadoc
+
+I20090414-0800 Content assist in Display and Variables views should show Javadoc in the additional info window next to the proposals list.

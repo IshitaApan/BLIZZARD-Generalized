@@ -1,0 +1,3 @@
+[new wizard] Option not availabe to avoid default 'super()' calls
+
+When creating a new class there is no option to prevent the inclusion of a default 'super()' method invocation. However when using the Source > Add Contructors from Superclass context menu I can omit these calls. It is extremely annoying to have to continue to take these out as that is what our coding stanrds require and the ant process checks for. The ui should be consistent and provide a checkbox to exclude these default calls in the New Class Wizard and maybe the Enum wizard to if it is relevant.

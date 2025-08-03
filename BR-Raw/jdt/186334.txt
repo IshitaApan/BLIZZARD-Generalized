@@ -1,0 +1,3 @@
+[introduce parameter object] wrong names for constructor params
+
+M7 - use introduce parameter object on the folloing method and change field names to 'fX', 'fY' and 'fZ' package p; public class A extends TestCase { 	private void foo(int x, int y, int z) { 	} } - the result not only used the field names for the fields, but also for the parameters. The parameters should be unchanged from the original parameters (or we offer to configure this) public class FooParameter { 	public int fX; 	public int fY; 	public int fZ; 	public FooParameter(int fX, int fY, int fZ) { 		this.fX = fX; 		this.fY = fY; 		this.fZ = fZ; 	} }

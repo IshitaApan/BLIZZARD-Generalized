@@ -1,0 +1,3 @@
+Convert to enhanced for misses cases with cast
+
+RC1 The following case is missed: 	public void testNix() { 		List list= new ArrayList(); 		for (Iterator iterator = list.iterator(); iterator.hasNext();) { 			Object element = iterator.next(); 			 		} 	}

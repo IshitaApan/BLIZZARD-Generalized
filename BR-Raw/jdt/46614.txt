@@ -1,0 +1,3 @@
+Introduce Factory: make constructor private should be disabled for syntetic default constructors
+
+I20031111 Title says it all.

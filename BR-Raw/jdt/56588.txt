@@ -1,0 +1,3 @@
+Call Hierarchy should remove redundant mode overlays
+
+The black arrows pointing to the upper-left (or lower-right) carry redundant information on every node. It's enough to display the hierarchy mode in the title and the view toolbar. This would remove some noisyness from the tree and free overlay space for more useful information such as recursivity and multiple occurrence indicators ( https://bugs.eclipse.org/bugs/show_bug.cgi?id=41497 )

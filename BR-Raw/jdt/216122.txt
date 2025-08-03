@@ -1,0 +1,3 @@
+[breadcrumb] Handle IPackageDeclaration and IImportDeclaration
+
+I20080115-1740.from20080122_0924 Breadcrumbs should work with IPackageDeclaration and IImportDeclaration. - I cannot select these elements when they are shown in the breadcrumbs bar. - When I select these elements in the editor and then press Alt+Shift+B three times, the selection in the editor jumps to the first type declaration in the file.

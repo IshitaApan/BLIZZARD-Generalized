@@ -1,0 +1,3 @@
+[rendering] Classpath container shown differently from 3.1
+
+In Eclipse 3.1 classpath containers such as "JRE System Library", "Plugin Dependencies", etc were shown as <jar name> <path>. This had been changed in 3.2 and now it is just a full path to the jar file. I believe this is less convenient, especially when custom library containers are used that may pickup jars from weird places like C:\Documents and Settings\<user name>\.maven\repository\<long path tojar within repository>

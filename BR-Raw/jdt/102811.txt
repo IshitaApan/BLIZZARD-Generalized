@@ -1,0 +1,3 @@
+[open type] Open Type should use current selection
+
+R3.1. Spawned from bug 102541 which contains two enhancement requests. Initial comment in bug 102541: >It would be great if invoking Open Type or Open Resource could automatically >fill in search line in those dialogs from the current selection or current >word. This would allow to navigate to target resources or classes from the >configuration files that specify class names or resources, such as Spring >Framework and others.

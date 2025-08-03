@@ -1,0 +1,3 @@
+[search] Java search on working set contains items outside of the working set
+
+Using build I20041111, I did a search for all references to the method ResourcesPlugin.getWorkspace() inside my Team working set which contains the team plugings. The result contained 304 results, many of which were not in the team plugins. Some of the bad matches were marked potential matches while others were not. I would expect a search for the references to a static method to return only real mathces. I would also expect that a search in a working set would only include classes that were contained in the working set.

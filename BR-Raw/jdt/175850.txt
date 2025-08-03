@@ -1,0 +1,3 @@
+[open type] FilteredTypesSelectionDialog overrides given search scope
+
+I20070227-0800 The FilteredTypesSelectionDialog always overrides the given scope with a working set scope. E.g. NewTypeWizardPage.chooseSuperClass() passes a Java project scope, but FilteredTypesSelectionDialog.restoreDialog(..) does not consider the original scope. The result is that the superclass dialog show all classes in the workspace, and not only those visible from the enclosing project. The old TypeSelectionComponent only added working set support if the scope was null.

@@ -1,0 +1,3 @@
+Extract constant should suggest name in more cases [refactoring]
+
+I200405190010 For example if I select "new Money(21, "USD")" and then extract this to a constant no name is suggested

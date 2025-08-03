@@ -1,0 +1,3 @@
+[search] Java search result view has buggy coloring label provider
+
+Created attachment 92845 Screenshot I20080314-1059.from20080318_1156 Java search result view has buggy coloring label provider, see screenshot: - As Tree: Launch config match has no label - Both modes: Icon space too narrow, overlaps with labels. Probably because launch config match has smaller image.

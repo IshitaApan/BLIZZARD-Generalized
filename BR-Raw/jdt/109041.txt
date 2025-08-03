@@ -1,0 +1,3 @@
+[implementation] Occurrence finders should not compute current node each time
+
+I20050906-1200 This is a minor performance improvement item: currently each occurrence finder computes the node at the caret location via NodeFinder. It would be more efficient to compute the node once and initialize each occurrence finder with that node.

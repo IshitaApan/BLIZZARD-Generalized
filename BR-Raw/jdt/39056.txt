@@ -1,0 +1,3 @@
+Add constructors from Superclass no longer finding duplicates
+
+The following test case finds two constructors to override in class SmallTestB when it should find none. public class SmallTestA { 	private int fDummyInt; 	 	SmallTestA() { 		super(); 	} 	SmallTestA(int a) { 		super(); 		fDummyInt= a;			 	} } public class SmallTestB extends SmallTestA { 	SmallTestB() { 		super(); 	} 	SmallTestB(int a) { 		super(a); 	} }

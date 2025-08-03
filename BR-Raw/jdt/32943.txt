@@ -1,0 +1,3 @@
+Hierarchy view should better group types with locked methods [type hierarchy]
+
+Build RC1 When locking on a given method, occurrences of such a method are always listed behind subtypes, which is causing the end result to be quite hard to decode: Instead of: A +- foo() +- B +- foo() +- C +- foo() It currently displays: A +- B | +- C | | +- foo() | +- foo() +- foo() which goes backwards, when multiple sibling subtypes exist, the end result is even worse.

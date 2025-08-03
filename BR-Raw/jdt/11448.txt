@@ -1,0 +1,3 @@
+extract method: incorrect on anonymous inner types
+
+class A { 	void m(){ 		Object u= /*[*/new Object(){}/*]*/; 	} } this is extracted to a method with return type A which causes a compile error

@@ -1,0 +1,3 @@
+[JUnit] unable to add JUnit library to build path if eclipse install has space in path
+
+Created attachment 133556 screen shot I20090428-0100 * Create a Java project * Edit the build path * On the "Libraries" tab, press "Add Library" * Select "JUnit", press "Next" * Choose either JUnit 3 or JUnit 4, both result in errors See attached screen shot where spaces are translated to "%20".

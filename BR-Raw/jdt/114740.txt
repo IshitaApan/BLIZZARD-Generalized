@@ -1,0 +1,3 @@
+[build path] Configuring JREs from New Java Project wizard does not update list
+
+I20051102-0010 - open the New Java Project wizard - click on JDK > Configure default... - change a JRE name or add/remove JREs => in the New Java Project wizard, the combo with the JREs is not updated I would also rename the link to 'Configure JREs...', since you can do more on that page than choosing the default.

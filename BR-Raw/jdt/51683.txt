@@ -1,0 +1,3 @@
+Occurences In Exceptions: Not Javadoc aware
+
+20040211 - Enable 'Mark Occurences' - Open java.ui.FileInputStream, close() - In the Javadoc comment select 'IOException' - In the signature select 'IOException': Not the same result

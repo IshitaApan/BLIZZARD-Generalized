@@ -1,0 +1,3 @@
+Organize imports add an unused import [code manipulation]
+
+Using I20050215-2300, run Organize import on this source: package test0069; class Outer<A> { class Inner<B> { } } public class X { test0069.Outer<String>.Inner<Integer> in = new Outer<String>().new Inner<Integer>(); } It adds import test0069.Outer.Inner; that is never used.

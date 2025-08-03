@@ -1,0 +1,3 @@
+[1.5][compiler] better error message when enum constants must implement methods
+
+3.4 In the following code, the enum constants need to implement 'foo'. Currently the error is on 'foo': 'The enum TestEnum can only define the abstract method foo() if it also defines enum constants with corresponding implementations' enum TestEnum { 	test1, 	test2; 	public abstract boolean foo(); } I think it would make more sense to report this on the constants directly, like it is done for types that need to implement methods: 'The enum constant test1 must implement the abstract method foo()'. Especially if some constants implement 'foo' already it would be more natural to get the error on the constant (also better for the quick fix)

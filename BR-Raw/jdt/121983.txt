@@ -1,0 +1,3 @@
+[build path] Edit source folder -> Edit inclusen filter wrong lable for path name shown
+
+Version: 3.2.0 Build id: I20051220-0800 Edit a source folder Project1/src1 in the build path propertie page and change name to src2. Click next, the label reads: Included and excluded resources for Project1/src1 but should be Included and excluded resources for Project1/src2

@@ -1,0 +1,3 @@
+[preferences][spell checking] Spelling Pref-Page: Initial element in browse dialog not set
+
+20040527 - Open the spelling preference page - Enter a dictionary path - Press browse. The initial directory shown in the browse dialog is not the dictionary dialog. This requires you to find the same folder again every time - Note: I think the space between the text field and the browse button is some picels too wide

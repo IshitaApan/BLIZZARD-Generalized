@@ -1,0 +1,3 @@
+ProgressDialog appears before Open Type dialog
+
+M5 - start Eclipse with a populated workspace - do nothing for 10 seconds - open AllTypesDialog Observe: Sometimes you get a ProgressDialog before the Open Types dialog opens. This should never happend if Eclipse had been idle for at least 5 seconds because then the background caching thread should have started.

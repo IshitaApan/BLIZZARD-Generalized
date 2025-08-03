@@ -1,0 +1,3 @@
+Set defaults for new Java Class Wizard's method stubs options
+
+In the new Java Class Wizard, I would like to change the default options for the method stubs. Currently, it always defaults to no main method, no constructors from superclass and inherit abstract methods.

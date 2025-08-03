@@ -1,0 +1,3 @@
+[javadoc] Change compiler default options to have minimum javadoc warnings
+
+Currently, javadoc compiler options is not set by default. However, if user set it, then he can get more warnings than expected due tot the fact that some extra options are true by default (report deprecated and non-visible for example). We have to put back default for these options to not report warnings and let user set them only if he really needs them.

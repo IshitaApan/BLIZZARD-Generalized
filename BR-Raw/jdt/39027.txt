@@ -1,0 +1,3 @@
+[working sets] Edit active working set prevents removal of closed projects.
+
+When editing the "active working set" closed projects cannot be removed from the working set, the project has to be opened so it can be removed. This is a minor usability issue.

@@ -1,0 +1,3 @@
+[refactoring] Change method signature does not disallow changing implementations of binary methods
+
+3.1 RC3 Steps to reproduce: - Create compilation unit class MyList extends ArrayList { public String toString() { return super.toString(); } } - Add parameter to MyList#toString() -> CMS does not complain, causing a semantic change -> During the computation of the method ripple, the refactoring should generate an error status as soon as a binary declaration occurs in the ripple -> This problem probably affects all refactoring clients of RippleMethodFinder (2)

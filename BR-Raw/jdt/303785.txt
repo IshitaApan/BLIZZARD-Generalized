@@ -1,0 +1,3 @@
+[implementation] Dead lock while editing in a java editor
+
+Created attachment 160084 Threads dumps taken during this freeze Using I20100217-1031 build, I got a complete UI freeze while editing a class in a java editor. I had modified some lines in a method and I was attempting to jump to another method by clicking on the that new method in the Outline view. After that, I got the infinite freeze and I had to kill my eclipse session loosing all the changes I had done in the editor... :-(

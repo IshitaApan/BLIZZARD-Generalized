@@ -1,0 +1,3 @@
+Search match not revealed when in the single element view
+
+0) enable single element view (full preference settings will be attached) 1) do a reference search for JavaPlugin.getDirtyEditors() 2) double click on a match ->the match gets quickly revealed and then the editor jumps to the top again.

@@ -1,0 +1,3 @@
+Add ResourceTransfer to packages view
+
+The packages view should add the ResoruceTransfer as a drag source to its list of transfers

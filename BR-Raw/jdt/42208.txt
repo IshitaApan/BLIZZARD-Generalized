@@ -1,0 +1,3 @@
+Source hover affordance text is black
+
+Source hover affordance text is black, but should be gray.

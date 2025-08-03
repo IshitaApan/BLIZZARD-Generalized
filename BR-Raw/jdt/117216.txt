@@ -1,0 +1,3 @@
+[preferences] Support JDK version 1.6
+
+I'm on 3.2M3. I'm using JDK 1.6 and "Infer Generic Type Arguments" shows an error dialog that this action is only available with Java 5 or better. I think, the problem is that org.eclipse.jdt.internal.corext.util.JavaModelUtil#is50OrHigherJRE only checks for JDK 1.5. I've changed the last line of that method to return javaVersion.startsWith(JavaCore.VERSION_1_5) || javaVersion.startsWith("1.6"); and it seems to work (just a workaround). PS: Once there's a VERSION_1.6 compilance level, is50OrHigher() will also fail...

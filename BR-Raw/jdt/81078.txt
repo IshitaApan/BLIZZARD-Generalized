@@ -1,0 +1,3 @@
+[preferences] Restore Defaults duplicates list entries
+
+I200412142000 Restore Defaults on Java > Editor > Appearance duplicates the "Appearance color options" entries.

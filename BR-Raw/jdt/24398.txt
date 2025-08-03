@@ -1,0 +1,3 @@
+Java working set page allows empty working set
+
+build 20021001 -create a Java working set -expand a project containing more than one child -select one child so that the project is gray checked -close the edit dialog -edit the working set -uncheck the gray checked project ->No elements are checked but the finish button is enabled and no error message is displayed. See also bug 24397

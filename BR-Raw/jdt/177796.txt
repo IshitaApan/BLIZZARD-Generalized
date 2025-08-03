@@ -1,0 +1,3 @@
+[preferences] Add new options to 'code formatter' to expose constant from bug 20793
+
+Once bug 20793 is fixed, the new constant needs to be exposed in the code formatter preference page.

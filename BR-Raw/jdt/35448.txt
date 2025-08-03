@@ -1,0 +1,3 @@
+Outline does not reflect access modifier changes in editor
+
+The Outline view does not reflect the change (by changing the icon) if you modify the access modifier of a method in the editor view. e.g. a class has a method public void foo() {} you change the method signature by typing in the java editor into void foo() {} The outline view still shows the green dot (even after saving the class). Only reopening the class helps. The same happens if you declare a method final/non-final. Everything works well if you declare a method static/non-static, change the name or arguments. Build id is 200303192032. I am sure this bug was not existing in a earlier build.

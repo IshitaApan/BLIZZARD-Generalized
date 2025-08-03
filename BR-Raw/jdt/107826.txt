@@ -1,0 +1,3 @@
+Serial version quick fix improvements [quick fix]
+
+- Do not put everything on the user class path - Use only the standard output for result and error messages - Remove waitFor() - Read from stream until -1

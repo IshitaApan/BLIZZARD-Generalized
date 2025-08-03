@@ -1,0 +1,3 @@
+[refactoring] inline method - result does not compile
+
+3.1M6 Inline the setter. public class InlineMethodBug { private Object data; InlineMethodBug(Object data){ 		this.setData(data); } //inline this method, remove decl 	private void setData(Object bytes) { 		this.data= bytes; 	} } you get this (does not compile): public class InlineMethodBug { 	private Object data; 	InlineMethodBug(Object data){ 	 InlineMethodBug r = this; 	 r.r.data= data; } }

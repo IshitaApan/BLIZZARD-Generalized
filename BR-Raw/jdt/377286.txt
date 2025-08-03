@@ -1,0 +1,3 @@
+[content assist] method parameter hint tooltip matches wrong parameter
+
+I have a method with this signature: <T2, D> void test(ICallback<List<ETypedElement>, T2, D> callback, Shell shell); I write an invocation of this method : "test(callback, shell);". When I invoke the parameter hint on the second parameter (shell), "T2" appears in bold in the parameter hint tooltip. It should be "Shell shell" that is bold.

@@ -1,0 +1,3 @@
+[content assist]  guessing parameters is very slow
+
+Eclipse : 3.1M5a Guessing the parameter values in JDT has gone very slow. I have noticed this since 3.1M4. My settings are : Java Editor Code Assist Advanced [x] fill argument names [x] guess names When I turn-off 'guess' method completion & filing in input-parameter name is faster. The plugin project has about 150 Java files and depends on about 20 plugins (not a large one). What other data I can provide to debug this help?

@@ -1,0 +1,3 @@
+Move: source accepts itself as target [DnD] [ccp]
+
+I20030206 - Java project with two folder src1 and src2 where src1 is on the build path (e.g. source folder) - select src2 and start DnD and move it over src2. Observe: DnD is enabled.

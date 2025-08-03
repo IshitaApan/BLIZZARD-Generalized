@@ -1,0 +1,3 @@
+java browsing: multi-selection disabled in 2 of 4 views
+
+multi selection is disabled in the package and type views but it's enabled in project and member views

@@ -1,0 +1,3 @@
+Last item selected by default in variable selection dialog
+
+Build 20011120 - go to add a classpath variable - Browse for var name - it selects the last item by default Normally the default selection is the first item. This seems picky, but it's actually fairly annoying when using keyboard navigation for the default selection to be in the wrong place. (particularly when the one I always go for is ECLIPSE_HOME, which is always the first item <g>).

@@ -1,0 +1,3 @@
+Refactor - expression detection incorrect
+
+Build F3 Enter the following class into a Java editor: 1: public class Foo { 2:	public Object foo() { 3:		if ( ((Object)null).toString() == null ) { 4:			return (Object)null; 5:		} 6:		return null; 7:	} 8: } If you select "(Object)null" on line 3, and choose 'Refactor'->'Extract Local Variable', the action complains that "An expression must be selected to activate this refactoring. If you select the same expression on line 4, the refactoring is allowed. If you select "((Object)null)" on line 3, the refactoring is alos allowed. All three of these are identical expressions, and should all be permitted.

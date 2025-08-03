@@ -1,0 +1,3 @@
+getter and setter wizard doesn't work for subclasses
+
+With the following code block: public class Foo { protected String someString; } class Bar extends Foo { } If the Generate Getter and Setter wizard is opened inside the Bar class, a message indicating that the "operation not applicable to current text selection". Since a getter/setter has not been created in the superclass Foo, I think that Bar should be able to create the methods. If a field is added to Bar, the wizard is displayed but it still does not allow a getter/setter to be built for the someString field.

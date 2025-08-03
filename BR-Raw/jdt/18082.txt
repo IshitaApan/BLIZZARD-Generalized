@@ -1,0 +1,3 @@
+compiler pref page is the only one with icons
+
+the icons are pretty but i think we should remove them for consistency

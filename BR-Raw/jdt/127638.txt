@@ -1,0 +1,3 @@
+[nls tooling] Missing wizard description in Externalize Strings wizard
+
+I20060214-0010 Open Externalize Strings -> Wizard does not display a description, eg. telling the user to adjust the generated keys

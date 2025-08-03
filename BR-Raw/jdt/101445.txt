@@ -1,0 +1,3 @@
+E3.1RC3 User Library Prefs LoadSave  status msg
+
+Eclipse 3.1RC3 There are User Library Preferences LoadSave dialog status messages that are not being displayed. This is because the LoadSaveDialog is not registering as a DialogFieldListener for fExportImportList. The fix... IN: UserLibraryPreferencePage.LoadSaveDialog (constructor) ADD: fExportImportList.setDialogFieldListener(this);

@@ -1,0 +1,3 @@
+Package explorer out of sync when open/closing projects [package explorer]
+
+RC1 - close a project - Open the closed project in a new window va Open in New Window context menu action - open the project observe: the Java project is rendered in the additional window as folders and CUs not on the class path.

@@ -1,0 +1,3 @@
+[pull up] to interface changes field visibility
+
+I20070523-0010 This is extracted from Bug 174781 Given: package test; public interface IFace {} package test; public class Face implements IFace { 	private int i; 	public void foo() { 		i= 10; 	} } 1. Select foo 2. Refactor>Pull Up... 3. Finish Is: visibility of 'i' field is changed to default Should: Not be touched Martin? I guess not critical for 3.3, no harm done.

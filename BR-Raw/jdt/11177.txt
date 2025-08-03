@@ -1,0 +1,2 @@
+externalize strings- incorrect second page size
+

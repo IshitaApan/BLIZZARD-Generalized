@@ -1,0 +1,3 @@
+Search for references to parameterized type takes generic type [search][5.0]
+
+HEAD - Have these declarations: class Generic<E> { } class Ref { Generic<Integer> gi= new Generic<Integer>(); Generic<Double> gd= new Generic<Double>(); } - set caret into 'Generic' of 'Generic<Integer> gi' -> Ctrl+H and Ctrl+Shift+G do a search for 'Generic<E>' -> expected: they (offer to) search for 'Generic<Integer>'

@@ -1,0 +1,3 @@
+[package explorer] "Link to editor" not working
+
+build i0718 - in the Java Perspective - select "Link with Editor" in the Package Explorer - open an editor on a file - in the Package Explorer hit the "minimize tree" icon - select the editor Note that the package explorer doesn't show the selection. In order to "re-enable" the function for that editor, you either have to click on the icon (twice) or switch to another editor and back.

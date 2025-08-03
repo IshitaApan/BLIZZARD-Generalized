@@ -1,0 +1,3 @@
+Open Type dialog: removed type is not removed from history
+
+N20050608-0010 - Have this CU: package xy; public class Try { 	class Inner {} } class Secondary { } - Open all 3 types once via Open Type, so that they are in the history. - Comment out one of the type declarations, save. => The Open Type history still shows the removed type, and when it is selected, a dialog is shown: "Could not uniquely map the type name to a type ...".

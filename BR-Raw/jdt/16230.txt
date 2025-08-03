@@ -1,0 +1,3 @@
+Quick Fix: no "create field" when prefixed with "this."
+
+class Example { public Example(Object object) { this.object = object; } } Quick Fix doesn't provide a solution for "this.object" - "create field" would be appropriate.

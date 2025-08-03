@@ -1,0 +1,3 @@
+Open Type Dialog Box doesn't persist new size
+
+Open the Open Type dialog box and resize the window. Close the box and open again, the size isn't remembers.

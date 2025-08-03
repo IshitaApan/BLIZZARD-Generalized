@@ -1,0 +1,3 @@
+[quick assist] Duplicate final modifiers added during code assist.
+
+I have a method called public Double[] calc(Integer int){...} The IDE tries to assist me to add final modifiers to the int variable. But when I allow the IDE to perform this for me, it changes the method to the following : public Double[] calc(final final Integer int){...}

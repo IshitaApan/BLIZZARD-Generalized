@@ -1,0 +1,3 @@
+Infer type argument: Change is named Java model modifications
+
+RC 0 The name of the change should be Infer Type arguments. As a result the undo currently looks funny.

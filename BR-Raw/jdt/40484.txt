@@ -1,0 +1,3 @@
+Provide a linked Javadoc output view
+
+In order to make Javadoc better integrated w/ E, it would be great to have a a linked Javadoc output view. Instead of Javadoc output going to "Console" it would go to a "Javadoc" view where: o You can run and re-run the same Javadoc command as specified in an initial "Export..." o Javadoc warnings and errors can be clicked on like hyper-links. Thank you for considering this request.

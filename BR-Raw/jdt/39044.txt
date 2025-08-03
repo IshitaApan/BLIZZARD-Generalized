@@ -1,0 +1,3 @@
+Add preference for "get" prefix instead of "is" prefix in getter generation
+
+From the ng: "In Menu Source->Generate Getter and Setter how can I make Eclipse recognize getX() as a valid getter for booleans and not to prompt me to generate isX()?" Propose to add a preference to the code gen settings which allow customization. Either that or we figure out a way to put it in the getter template.

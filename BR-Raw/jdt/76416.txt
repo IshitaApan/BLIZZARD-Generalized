@@ -1,0 +1,3 @@
+Method signature using QuickFix incorrect in static methods
+
+Very Minor bug, When using quickfix to create method in an static anonymous inner class.. then the resulting method created is not static... but it needs to be. Example: 1. Create Class: public class SwingApplication { public static void main(String[] args) 	{ 		 		SwingUtilities.invokeLater(new Runnable(){ 			public void run() 			{ 				createGui(); 			} 			 		} 		); 		 	} } 2. Eclipse will give error that createGui() does not exist. 3. Use quickfix, and select 'Create method 'createGui()' in SwingApplication'. 4. Notice that the created method should be static...

@@ -1,0 +1,3 @@
+Unused method in NullQuickFixes
+
+The method isMissingNullAnnotationProblem(int) from the type NullQuickFixes is never used locally Deepak, OK to remove the method?

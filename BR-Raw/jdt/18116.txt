@@ -1,0 +1,3 @@
+Compare view does not inherit Java editor background color
+
+f1 build. Cannot use compare view if Java editor background (not from the system color scheme!) is black and text is white. Steps to reproduce. 1. Set Java editor background to black 2. Set color for "others" to white 3. Make sure you have local history for a java file 4. From file context menu choose Compare with -> local history. Pick any version available. 5. See white text on white backround, in other words text is not readable.

@@ -1,0 +1,3 @@
+No results If searched via Package view selection and dialog (1GLDN1X)
+
+The package view initializes the Search dialog with the 	fully qualified name. This is not found when searching 	for declarations. 	Search via context menu in packages view works. 	==> (Java) Search should first try to get the Java element and if 	that fails, display the the element name and not the fully qualified 	name. NOTES:

@@ -1,0 +1,3 @@
+[generate constructor] should not declare parameters as final when members are final [code generation]
+
+3.2 RC6 When I declare a set of private final member variables, then execute the Source option 'Generate Constructor Using Fields', the generated constructor parameters are also declared final. I don't think the finality of the member variables are really related to the finality of the parameters, and I think the parameters should always be non-final - or at least the wizard should provide an option to toggle the parameter finality.

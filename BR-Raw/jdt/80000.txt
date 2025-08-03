@@ -1,0 +1,3 @@
+[projection] Nested code should not be unfold if not needed
+
+having grindingly folded all not-needed parts of the code typing a single wrong letter unfolds all code again! this drives me nuts. even code not affected by typing unfolds. write a little class with, say, two methods. fold them and type something wrong just before the closing brake of the class ... et voila. btw: independently from the above -- "fold all" in the context-menu may be a lot more helpfull then "unfold all"

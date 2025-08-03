@@ -1,0 +1,3 @@
+Properties page for JRE System Library does not use dialog font everywhere
+
+I20070919-0010 The Properties page for JRE System Library does not use the dialog font everywhere (description label, group label, combos).

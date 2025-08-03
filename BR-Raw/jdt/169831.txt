@@ -1,0 +1,3 @@
+[clean up] Share project specific profiles does not work
+
+I20061219-1300 Given a project from CVS: 1. Go to project property page Java Code Style>Clean Up 2. Enable project specific settings 3. Edit eclipse built in 4. Rename to 'foo' 5. Enable 'Use blocks'/'Always' 6. Ok 7. Ok 8. Synchronize with reprository -> Outgoing changes 9. Commit 10. In another workspace load the same project from CVS 11. Go to the property page Is: Unmanaged profile 'foo' (correct) 12. Edit Is: Settings are correct 13. Source>Clean Up Is: Eclipse [built-in] is project profile Should: 'foo' should be project profile 14. Next Is: Error: Could not retrieve profile for project 'E01'

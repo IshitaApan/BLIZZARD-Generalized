@@ -1,0 +1,3 @@
+Inline actions doen't check if resource is on class path
+
+20030206 Title says it all.

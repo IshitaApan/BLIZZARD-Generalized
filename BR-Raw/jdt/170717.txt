@@ -1,0 +1,3 @@
+[content assist] Content assist fails to work
+
+I have build I20070116-1510 and am working in org.eclipse.ui.tests in ArbitraryPropertyTest (which should be submitted soon :-) basically, I have: IViewReference ref = page.findViewReference(VIEW_ID); PropListener refListener = new PropListener(); ref.addPartPropertyListener(refListener); /// later I type "ref.removePro<CTRL+SPACE>" and it lets me select the removePartPropertyListener method and puts my cursor in the insertion point. The I type "refLi<CTRL+SPACE>" and it instead complains about a syntax error ';' in the status line and will not show me completions. PW

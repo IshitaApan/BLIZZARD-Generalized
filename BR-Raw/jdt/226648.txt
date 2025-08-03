@@ -1,0 +1,3 @@
+[build path]  Enhance validation of availablity of user libraries in build path preferences
+
+Build ID: I20080409-1425 Steps To Reproduce: While in project build path the user libraries are validated for actual existence, this is not done in the preferences (window-> preferences-> java-> build path-> user libraries)- see screenshot. It would be nice if this was also the case for preferences. More information:

@@ -1,0 +1,3 @@
+no smart semicolon in single quotes
+
+20040518 Smart semicolon could be cleverer in single quotes. Having the cursor inside 'a' and press ';' you get 'a;' which is probbaly not what is intended. Another point is that for double quotes, smart semicolon is 'cleever' and jumps to the end of the line (here it would make more sense to stay in the string area) Having a consistent behavior for single and double quoted would be good to have.

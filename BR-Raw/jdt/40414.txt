@@ -1,0 +1,3 @@
+[navigation] Java Editor not in synch with Outline View
+
+I200307160800 I do not have steps to reproduce the problem. Every now and then, when I click on the Outline view, the associated Java editor does not scroll to show the method I have clicked on. If I close the Outline view and reopen it, the problem does not go away. If I close the Java editor and reopen it, the problem goes away. Clicking on a different Java editor does not fix the problem. There is no .log entry created. I will attatch my configuration details.

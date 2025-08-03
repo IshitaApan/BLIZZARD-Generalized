@@ -1,0 +1,3 @@
+[Dialogs] double click behaviour in move dialog (package view)
+
+I double-clicked on a project, but instead of expanding the project and showing the children (source folders), it accepted the project as the target and commited OK. I think it's more natural that double clicking on projects, packages, etc. would expand/unexpand the node.

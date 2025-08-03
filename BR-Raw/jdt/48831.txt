@@ -1,0 +1,3 @@
+Introduce Factory: doesn't generate needed imports
+
+I20031216 + patch Example code: package p1; public class A { 	public A() { 		 	} } package p2; public class B { 	void foo() { 	} } Create a factory method for A() in B. B is missing the import to A.

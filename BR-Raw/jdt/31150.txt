@@ -1,0 +1,3 @@
+filecomment template no longer used [code manipulation]
+
+Build: I20030206 The "filecomment" template description says it is used by the new class and interface wizards. This template doesn't seem to be used anymore. Instead I now get the template from the code generation preference page. The catch block template is also found in two places. Having two template preference pages with some overlapping entries seems confusing.

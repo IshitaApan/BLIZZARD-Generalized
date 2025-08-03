@@ -1,0 +1,3 @@
+Refactorings should inform user about unprecise matches
+
+M9 Currently refactoring considers unprecise matches during searching and refactors them as well which can lead to unexpected results. Refactorings should inform the user about this.

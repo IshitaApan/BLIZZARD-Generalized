@@ -1,0 +1,3 @@
+[browsing] Filtering empty parent packages no longer working in Packages view
+
+I20070424-0930 In the Java Browsing perspective, the Packages view doesn't filter empty parent packages any longer.

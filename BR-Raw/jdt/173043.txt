@@ -1,0 +1,3 @@
+[rename] Rename popup: Alt should not commit during move
+
+I20070206-0010. When I press the 'Alt' key while moving the Rename popup it places the shell to the closest target and ends the move operation. I would expect that 'Alt' has no special meaning.

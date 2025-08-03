@@ -1,0 +1,3 @@
+[tostring] 'Configure...' button is clipped at the bottom
+
+I20090429-0100. The 'Configure...' button is clipped at the bottom in the toString dialog.

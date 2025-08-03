@@ -1,0 +1,3 @@
+Compare unreadable in high contrast black
+
+If you are in High Contrast Black the differences in the Compare browser are shown in Grey - this is unreadable with White text. STEPS 1) Change your system colors to High Contrast Black 2) Compare two editions of a project from a repository 3) Select one of the differences - all of the highlights are shown with a grey background which is unreadable with white text.

@@ -1,0 +1,3 @@
+Simple compare error in CoreUtility.java
+
+There's a simple typo error in org.eclipse.jdt.internal.ui.util.CoreUtility in it's inner class BuildJob. The method: public boolean isCoveredBy(BuildJob other) { if (other.fProject == null) { return true; } return fProject != null && fProject.equals(fProject); } compares fProject with itself on the fifth line. It should propably be: public boolean isCoveredBy(BuildJob other) { if (other.fProject == null) { return true; } return fProject != null && fProject.equals(other.fProject); } so that you compare with other.fProject instead.

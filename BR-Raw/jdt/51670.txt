@@ -1,0 +1,3 @@
+New java search page is blank until next button pressed
+
+2.0 20040211 16:00 I've enabled the new search view and find that often the search will complete and the window will be empty. Although I know that some matches should exist, I press the next button and items suddenly appear in view and are expanded. Sorry for the lack of repeatable steps, but it does happen quite frequently.

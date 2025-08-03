@@ -1,0 +1,3 @@
+[javadoc] "Open External Javadoc" action (Shift-F2) refuses to open valid URL
+
+Configuring external Javadoc for JUnit as below fails to launch, saying "The documentation Location for 'TestCase' has not been configured." and suggests setting the location in the parent JAR 'junit.jar'. Configuration (as shown in .classpath) is: <classpathentry kind="lib" path="C:/apps/eclipse/plugins/org.junit_3.8.1/junit.jar"> 	<attributes> 		<attribute value="http://www.junit.org/junit/javadoc/3.8.1/index.htm" name="javadoc_location"/> 	</attributes> </classpathentry> Configuration was done via "Properties" dialog of junit.jar library in Package Explorer. Downloading the docs, and then using the local archive option does work.

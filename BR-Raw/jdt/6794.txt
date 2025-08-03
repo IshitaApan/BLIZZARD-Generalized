@@ -1,0 +1,3 @@
+ProgressMonitorPart.setTaskName should update text label as ProgressMonitorDialog does
+
+The ProgressMonitorDialog updates the task label if the method setTaskName is called. ProgressMonitorPart doesn't do so. As a consequence progress reporting looks different if an operation in executed in a wizard or using a progress monitor dialog. I think, they should behave the same.

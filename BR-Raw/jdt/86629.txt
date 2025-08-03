@@ -1,0 +1,3 @@
+Introduce Factory: verify bug 84724
+
+Bob, JDT/Core has fixed bug 84724. However enabling the corresponding test case in the IntroduceFactoryTests fails. Can you please have a look.

@@ -1,0 +1,3 @@
+Quick fix causes CoreException
+
+I20051129-0800 Each invocation of quick fix on the errors from the code below causes a CoreException. package pack; /** * Complete after: MyClass * MyClass * <code>My</code> * @see test.MyClass */ public class X { 	 void foo() { 	Date d;	 	 } }

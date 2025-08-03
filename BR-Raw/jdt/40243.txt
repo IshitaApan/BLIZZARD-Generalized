@@ -1,0 +1,3 @@
+inline method: loses comments [refactoring]
+
+20030715 inline method loses comments that are places before call sites. example: package p; public class A { 	private void helper1(int startLine, int startColumn, int endLine, int endColumn, boolean replaceAll, boolean makeFinal, String tempName) throws Exception{ 		helper1(startLine, startColumn, endLine, endColumn, replaceAll, makeFinal, tempName, tempName); 	}	 	private void helper1(int startLine, int startColumn, int endLine, int endColumn, boolean replaceAll, boolean makeFinal, String tempName, String tempName2) { 	} 	public void test0() throws Exception{ //		regression test for bug XYZ 		helper1(4, 16, 4, 17, false, false, "temp"); 	} } inline the first helper1 the all-important (for me) comment is gone!

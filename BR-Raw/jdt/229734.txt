@@ -1,0 +1,3 @@
+[inline] method inlining breaks control flow
+
+3.4M6 Build ID: I20080330-1350 Steps To Reproduce: Please see that the first method should always print HERE. But after inlining the second method, the first method would never print HERE. Inlining breaks the control flow. ------------------ Bug.java ----------------- class Bug { 	void first(){ 		if(false) 			second(); 		else 			System.out.println("HERE"); 	} 	 	void second(){ 		for(int x:new int[]{0}) 			if(true) 				toString(); 	} }

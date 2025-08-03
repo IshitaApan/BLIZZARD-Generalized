@@ -1,0 +1,3 @@
+[quick assist] Convert to if-return
+
+I have found that it is very common in poorly written code to find very long if statements that can be safely "inverted" in so that the the code is easier to understand and maintain. For example the wrong way is this: public void foo() { if (x) { ...do a bunch of stuff... return; } } When the elided part is long the if statements add considerably to the cognitive effort of holding this code in short term memory. I always refactor such code as such: public void foo() { if (!x) return; ...do a bunch of stuff... } Now you don't have to hold all of that code to be within that if statement in your head, but the code will execute identically. Please add an automated refactoring for this feature.

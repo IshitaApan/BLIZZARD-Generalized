@@ -1,0 +1,3 @@
+java browsing: ignores 'package name shortening' preference
+
+java browsing has a packages view but ingores my preference to shorten package names

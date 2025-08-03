@@ -1,0 +1,3 @@
+Java preference page should use group bpxes instead of labels
+
+20021113 The labels on the Radio groups in the JavaPreferencePage will not be read by screen readers. Use Group boxes instead. Also an issue for the Code Generation, New Project and Refactoring Page.

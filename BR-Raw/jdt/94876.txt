@@ -1,0 +1,3 @@
+Open Type dialog's OK button is enabled when there are no matches to filter
+
+build I20050509-2010 - Ctrl+Shift+T - type: foobar <Enter> - no types match the prefix, but Enter is allowed because the OK button is enabled OK should only be enabled if one of the matching types is selected. If no types match, chances are it's a typo and the user should have the chance to correct it without having to re-invoke the dialog.

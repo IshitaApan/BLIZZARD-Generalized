@@ -1,0 +1,3 @@
+[navigation] Changing default background color for Declaration view does nothing
+
+I'm using dark background so the default of Declaration view (kind of yellow) doesn't look good. I've tried to change the background color, but it didn't work. The option was added in #41867 bug, along with Javadoc view background color. The later works ok.

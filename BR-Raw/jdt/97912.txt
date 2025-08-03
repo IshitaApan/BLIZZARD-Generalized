@@ -1,0 +1,3 @@
+[quick fix] Autopopulate switch statement for enums
+
+A way of auto populting a switch statement with all the possible cases when using an enum as the switching parameter would be really great way of ensuring you captured all the possibilities.

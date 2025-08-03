@@ -1,0 +1,3 @@
+Junit view doesn't select failure [JUnit]
+
+When I run unit tests, and get a failure, JUnit does not select any of the failures automatically. This means to get any details, I need to select one by hand. Very annoying. Another user here reports that it does select one for him.

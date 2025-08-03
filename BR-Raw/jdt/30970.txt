@@ -1,0 +1,3 @@
+Fat icon in Type Hierarchy
+
+Build I20030205 I opened type hierarchy of FindAction (type hierarchy mode) and clicked on the types (opened them in the editor). See attached picture. Note: It might be a Platform UI problem with the rendering of icons/decorators.

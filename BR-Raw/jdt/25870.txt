@@ -1,0 +1,3 @@
+Code assist for comments doesn't add new line character.
+
+Eclipse's code assist for comment and javadoc doesn't add a line feed character to the second line of comment, it adds only carriage return character. Since other editors do not treat carriage return itself as a line feed, line nubmers for the source will appear differently between eclipse and other editors. HOW TO REPRODUCE: 1. In java file, type /** then press enter. eclipse will add the following to the source. /** * comment */ 2. Open this file with a different editor: vi, emacs, etc. You will see your comment looking like this instead... /** * comment */ 3. line number for your source after this comment will appear differently between eclipse editor and any other editor.

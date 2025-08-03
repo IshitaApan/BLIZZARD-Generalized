@@ -1,0 +1,3 @@
+[build path] checkboxes on 'new source folder wizard'
+
+20050214-0010 1. create a new Java project, enter a name and press next 2. on the configure build path page click on 'add source folder' the 'New Source Folder' wizard has two checkboxes. It seems to me that a radio would be better: - fix with adding exclusion filter - or remove them all - fix later A 'detail' link should could show all conflicting folders. A checkbox list could allow the user to apply the change (add excludion or remove) only to a few of them. If a new source folder can be added without problem, none of the radios should be shown (made invisible)

@@ -1,0 +1,3 @@
+Quick fix could have corrections when class does not override all super-methods [quick fix]
+
+build F2 A class that does not implement all methods from an interface it implements or abstract class it extends from is in Error. The className is red-highlighted and the Text-Hover displays the message:" Class <classname> must implement the inherited abstract method <super-method- name>." Since we have this information. Is it difficult have a Quick Fix displaying at least 2 possiblities: "Make this class Abstract" "Override the super-method" ROel

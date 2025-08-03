@@ -1,0 +1,3 @@
+SourceAnalzyer#ActivationAnalyzer should normalize bindings to check for recursive calls
+
+RC2 The recursion detector can be tricked by generic methods where the declaration class an method instantiation. To avoid this the check should be done by normalizing the method to its declaration first.

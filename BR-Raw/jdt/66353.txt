@@ -1,0 +1,3 @@
+Next/Previous subword actions don't set selection for copying
+
+200406090800 When I select a text range in a java editor using Ctrl+Shift+Left/Right, the selection is not copied on Ctrl+C. Setting the selection with the mouse is OK.

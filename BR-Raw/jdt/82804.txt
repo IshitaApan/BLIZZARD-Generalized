@@ -1,0 +1,3 @@
+Jar creation should use less memory
+
+I noticed that the JarWriter will read the entire file it plans to store into memory. An optimization would be to stream the file directly into the JarOutputStream. The only catch is with STORED items which need the CRC32 computed. A penalty could be taken in that case to compute the CRC in a loop and then stream the file.

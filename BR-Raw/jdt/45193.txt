@@ -1,0 +1,3 @@
+hierarchy scope search only shows types that exist in jars
+
+2.1.1 & 20031020 from bug 12955: However, the hierarchy scope search only shows types that exist in jars. No types in the source path are shown in the results. IJavaSearchScope scope = SearchEngine.createHierarchyScope(myIType); SelectionDialog dialog = JavaUI.createTypeDialog( getShell(), new ProgressMonitorDialog(getShell()), scope(), IJavaElementSearchConstants.CONSIDER_CLASSES, false); I tried this 3.0 HEAD: The type dialog does only contain types from binaries. I debugged into it. My guess is that there is a bug in HierarchyScope.buildResourceVector: The only add to this.resourcePaths is inside the 'root instanceof JarPackageFragmentRoot' then-block.

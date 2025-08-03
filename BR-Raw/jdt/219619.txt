@@ -1,0 +1,3 @@
+[working sets] Creating Java Working set from selected resource seems broken
+
+N20080220-0010. Creating Java Working set from selected resource seems broken. I tried with an IFile from the Sync view and a CU from the Types view.

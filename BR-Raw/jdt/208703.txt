@@ -1,0 +1,3 @@
+[package explorer] using Go Into in the Package Explorer view removes viewContribution actions such as Focus on Active Task
+
+"go into" in the Package Explorer view kills "Focus on Active task" action action on view toolbar. Running latest Mylyn dev build and Eclipse 3.4m3

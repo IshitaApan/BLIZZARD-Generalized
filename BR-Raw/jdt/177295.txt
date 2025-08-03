@@ -1,0 +1,3 @@
+[bidi] HCG:Undesired order of file names in RTL direction of eclipse
+
+Build ID: Version 3.2.0 Steps To Reproduce: Note : Caps Lock latin letters are Hebrew letters. Please folllow the instructions: 1. Run eclipse with -dir rtl flag. 2. open a Java project(or any other project the user want). 3. Create a file in the project, when giving a BiDi name to the file. Expected Resut: EMANELIF.txt Actual Result: txt.EMANELIF. More information:

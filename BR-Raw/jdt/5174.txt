@@ -1,0 +1,3 @@
+Goto package: Dialog shows META-INF
+
+1. package view, select CU 2. Go to - package... 3. List contains resource folders (incl META-INF)

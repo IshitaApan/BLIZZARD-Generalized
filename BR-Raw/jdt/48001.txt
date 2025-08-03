@@ -1,0 +1,3 @@
+Don't want 'e' as variable name in throw clause
+
+M5 'Surround with' refactoring and quick fix use 'e' as exception variable name. It should be possible to configure this

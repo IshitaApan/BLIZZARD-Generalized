@@ -1,0 +1,3 @@
+[ccp] PE renders file as folder if folder was overriden by file
+
+I20070710-1416 Given: P01 + bar + foo bar 1. Drag and drop file 'bar' onto 'P01' 2. Confirm to override (bug 196303) Is: bar is still rendered as folder Should: be rendered as file Workaround is close/open project

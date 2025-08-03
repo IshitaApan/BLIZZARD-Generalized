@@ -1,0 +1,3 @@
+[clean up] 'Remove unused imports' multi quick fix doesn't work on non-existing classes
+
+'Remove unused imports' quick fix doesn't work on imports of non-existing classes. Example: //A.java import foo.Bar; public class A {} //B.java import foo.Bar; public class B {} Click on 'The import foo cannot be resolved' entry in Problems view and select QuickFix, then 'Find Similar Problems' (the other class appears on the 'Problems' list), 'Select All' and 'OK'. Progress bar appears and then window is closed and nothing happens. There are no errors in Error Log view.

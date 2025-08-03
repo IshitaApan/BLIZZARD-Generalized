@@ -1,0 +1,3 @@
+[inline] inlining a parameterized method call may need explicit parameterization
+
+3.3 M5 - Example taken from bug 174265: ------- Try.java ----------- package org.example; import java.util.Collections; import java.util.Map; public class Try { void caller() { Map<String, String> emptyMap = Collections.emptyMap(); method(emptyMap); } void method(Map<String, String> map) { } } ------------------------------ - inline "emptyMap" > expected: the resulting code should compile and apparently needs explicit parameterization: method(Collections.<String,String>emptyMap()); < actual: the emptyMap() call is inlined as is, resulting in a compile error.

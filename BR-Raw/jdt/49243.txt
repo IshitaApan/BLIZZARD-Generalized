@@ -1,0 +1,3 @@
+New code formatter: missing feature
+
+The new code formatter seems to do everything and cater to all tastes. However, it still does not cover one aspect of how I format code. I like to do for-s like this: for (int i=1 ; i<10 ; i++) {} (note spaces surrounding ;-s). However, I do NOT want a space before ;-s anywhere else (ideology: in other places ; is a terminator, in the for it is a separator). The reason I can't do this is that the "space before ;" has been factored out to the level of control statements and cannot be set specifically for the for statement.

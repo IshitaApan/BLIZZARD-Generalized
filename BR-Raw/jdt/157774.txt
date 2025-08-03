@@ -1,0 +1,3 @@
+[clean up] UI issues on the clean up preference page
+
+20060919 I would - change the label 'Selected Clean Ups' to 'Details:' - make the text field read only - use '-' to separate the items

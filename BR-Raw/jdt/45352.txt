@@ -1,0 +1,3 @@
+Smart paste garbles indentation of commented code block
+
+Copy this: //	int abs(int i) { //		//TODO: use Math.abs //		if (i > 0) { //			return i; //		} else { //			return -i; //		} //	} Pasting yields: //	int abs(int i) { //	//TODO: use Math.abs //	if (i > 0) { //	return i; //	} else { //	return -i; //	} //	}

@@ -1,0 +1,3 @@
+Comment Formatter should compare values using equals()
+
+Currently, the preference values are read and compared by reference, which only works in special circumstances.

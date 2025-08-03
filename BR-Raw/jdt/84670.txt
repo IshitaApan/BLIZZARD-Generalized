@@ -1,0 +1,3 @@
+ChangeTypeRefactoring fails when parameterized type is assigned to raw type
+
+The helper method implemented in ChangeTypeRefactoring checking if a type A is assignment compatible to type B doesn't handle raw types correctlt. Had to disable test method testRawSubType

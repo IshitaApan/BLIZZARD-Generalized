@@ -1,0 +1,3 @@
+Renaming a type causes unwanted reveal in Resource Navigator [refactoring]
+
+Build F1. Choose "Refactor > Rename Element" while a type is selected and rename it. Resource Navigator reveals the source file for the type (workbench preference to link navigator selection to active editor is not selected).

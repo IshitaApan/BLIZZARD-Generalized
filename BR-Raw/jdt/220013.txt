@@ -1,0 +1,3 @@
+[hovering] image in Javadoc hover
+
+Created attachment 90501 patch 20080222 The attached patch adds the Java element image to the Javadoc hover

@@ -1,0 +1,3 @@
+renaming a java project wipes out linked sourcefolders
+
+20030214 as a consequence of core making SHALLOW not default. arrrgh! have a fix - entered the report so that it's verified

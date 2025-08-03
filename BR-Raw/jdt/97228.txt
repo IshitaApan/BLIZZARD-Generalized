@@ -1,0 +1,3 @@
+[navigation] NLSKeyHyperlink to reveal/goto the key in the properties file editor
+
+if you go to the key in the properties file editor in NLSKeyHyperlink, when the user klicks on a key in the java editor, you work with "hard coded" code! this is very bad because plugins like Jinto(which support a own properties file editor) have no chance to goto the right line in its editor! please go over IAdaptable(IGoToMarker???) and let make the editor do its job!!!

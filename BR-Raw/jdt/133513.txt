@@ -1,0 +1,3 @@
+[outline] Visible Java categories dialog list changes check state of elements on select
+
+I20060328-0010 Single-clicking on a category element in the list control changes its check state. It should only change check state on double click.

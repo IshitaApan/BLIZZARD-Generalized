@@ -1,0 +1,3 @@
+[spell checking][nls toolsing] Add Quick Fix menu for Properties File editor
+
+3.1 M4 Candidate I've enabled spell checking and created a .properties file. If my values have spelling mistakes they are underlined, but I can't find a way to see the suggested words. If there quick fix in the properties editors?

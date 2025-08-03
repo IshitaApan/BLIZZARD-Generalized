@@ -1,0 +1,3 @@
+OptionalMessageDialog must not use CANCEL
+
+3.8. Code was introduced that uses the CANCEL constant. This does not work for cases where there are more than 2 buttons and 'Cancel' is not at position 1.

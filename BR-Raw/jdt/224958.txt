@@ -1,0 +1,3 @@
+[api] make CompilationUnitChange API
+
+In order to pass RFRS by Instantiations WindowBuilder product it should not contain any internal API usage. The functionality of org.eclipse.jdt.internal.corext.refactoring.changes.CompilationUnitChange can't be implemented using public API, please move it into public scope.

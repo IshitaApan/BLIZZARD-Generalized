@@ -1,0 +1,3 @@
+[Help][Context] NPE when trying to open help (F1) in drop-down.
+
+Created attachment 133150 Stack trace of the NPE To reproduce, open the drop down in editor breadcrumb and select F1. I have the same bug filed against the Debugger breadcrumb: bug 268187. I also debugged it and created a patch, but I would feel more comfortable if I had a second opinion on how to fix it.

@@ -1,0 +1,3 @@
+TextEdits: replace != delete + insert
+
+see TextBufferTest.testReplaceAndInsert1

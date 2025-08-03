@@ -1,0 +1,3 @@
+ArrayIndexOutOfBounds: editing Build Path .jar
+
+F2 - File -> New -> Project... - Plug-in Development - Plug-in Project -> Next - set name="asd", Next - Next - select Hello World wizard, Next - Finish -> creates new Project "asd" - select it in the Packages view, right-click -> Properties... - go to Java Build Path page - go to contained Libraries tab - select any of the ECLIPSE_HOME... libraries shown in the list - press Edit... - press OK in the subsequent Variable Extension dialog, get the attached exception

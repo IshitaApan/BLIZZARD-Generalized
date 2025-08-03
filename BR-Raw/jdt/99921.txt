@@ -1,0 +1,3 @@
+Empty working set name remains in working set group
+
+3.1 RC3. If an empty working set is present (see bug ) the working set filter group always restores this one if none was selected before. I approve this one for 3.1 RC3 since the bug affects all JDT views and the fix is trivial. Dirk?

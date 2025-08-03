@@ -1,0 +1,3 @@
+Progress bar gets cleared during project creation
+
+IMPORTANT: Start a new empty workspace Start to create a Java project Enter "JUnit" as name Press "Finish" ==> Progress bar goes to right, then gets cleared and user has to wait without knowing what's going to happen.

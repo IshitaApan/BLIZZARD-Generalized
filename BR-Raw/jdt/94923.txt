@@ -1,0 +1,3 @@
+Filter checkbox in Project Specific Configuration dialog should be left aligned [preferences]
+
+I20050509-2010 summary says it all

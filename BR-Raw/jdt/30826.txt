@@ -1,0 +1,3 @@
+Pull Up should support pulling up static fields and methods into an interface [refactoring]
+
+If methods are selected the method should be kept in the class and made "abstract" in the interface.

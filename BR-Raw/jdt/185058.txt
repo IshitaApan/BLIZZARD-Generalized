@@ -1,0 +1,3 @@
+[render] Colored Labels: Selected elements rendered wrong
+
+20070205 The rendering of selected elements seems to be different on Vista. Vista doesn't use the inverted color but just adds a border. The colored labels code used TextLayout.draw(... with selection) to draw these labels. if (isSelected) { fTextLayout.draw(gc, x, y, 0, text.length() - 1, null, null); } else { fTextLayout.draw(gc, x, y); } SWT, do you have a suggestion what to do? Special case for Vista?

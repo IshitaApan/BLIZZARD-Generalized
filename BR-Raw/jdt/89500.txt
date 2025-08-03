@@ -1,0 +1,3 @@
+[nls tooling] Externalize String wizard: usability improvements
+
+M6 Test pass Since most of the Java developers will not be faces with the Eclipse's mode I would move the check box down to the area of the Accessor class. Furthermore the wizard shouldn't provide the option if org.eclipse.osgi.util.NLS isn't present in the workspace. This will avoid that normal Java developers are faces with the option at all.

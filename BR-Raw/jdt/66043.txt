@@ -1,0 +1,3 @@
+Java editor not released when window closed
+
+build I20040607-0800 - new window - open a Java editor - close window - ASTProvider maintains a ref to the editor: GC Roots -> Object EditorPane #013d394d: Reverse Paths | +---org.eclipse.ui.internal.EditorPane (#013d394d) | +---pane of org.eclipse.ui.internal.EditorSite (#0154c573) | +---partSite of org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor (#0006b4ee) | +---fActiveEditor of org.eclipse.jdt.internal.ui.javaeditor.ASTProvider (#00eea6dc) | +---fASTProvider of org.eclipse.jdt.internal.ui.JavaPlugin (#019777af) | +---fgJavaPlugin of org.eclipse.jdt.internal.ui.JavaPlugin (#01c0a077)

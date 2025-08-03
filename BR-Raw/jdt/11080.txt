@@ -1,0 +1,3 @@
+Package statements for nested classes not updated properly
+
+If a class that contains references to nested classes of another class in the same package is moved into a different package the automatically inserted package statements unnecessarily include the nested classes explicitely. Instead of: import p1.A The following (illegal) statements are inserted: import p1.A; import p1.A$B; import p1.A$B$C; -- Eric Jain

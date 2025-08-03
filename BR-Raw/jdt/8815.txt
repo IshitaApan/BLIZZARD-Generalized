@@ -1,0 +1,3 @@
+Open Hierarchy does not set focus correctly
+
+If I open the type hierarchy then the Hierarchy view has the focus but the element inside its viewer is gray - it should be blue. This affects the Java Browsers: the selection is not propagated and the Members view remains empty.

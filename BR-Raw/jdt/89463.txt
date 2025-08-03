@@ -1,0 +1,3 @@
+[search] new search filters (inexact & erasure) should be in view menu where applicable
+
+I20050329-2000 The new search filters (inexact & erasure) should appear directly in the view menu where applicable. Currently the user always has to open the filters dialog to toggle them. Inexact is always applicable. Erasure is applicable for references and occurrences search for generic types and methods.

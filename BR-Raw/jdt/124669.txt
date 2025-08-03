@@ -1,0 +1,3 @@
+React to change in Team Compare UI
+
+I have refactored the ICompareAdapter so that it no longer provides the strucutre and content compare views. Instead, clients should register their viewers by either extension (ITypedElement#getType()) or content type. The class AbstractRefactoringCompareAdapter has a findContentViewer that should be removed. The way to get the viewer now is to register an IViewerCreator with the org.eclipse.compare.contentMergeViewer extension point.

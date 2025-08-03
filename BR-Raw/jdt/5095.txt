@@ -1,0 +1,3 @@
+template: toarray incorrect
+
+its defintion should be: (${type}[]) ${collection}.toArray(new ${type}[${collection}.size()]); rather than (${type}[]) ${collection}.toArray(new ${type}[${collection}]);

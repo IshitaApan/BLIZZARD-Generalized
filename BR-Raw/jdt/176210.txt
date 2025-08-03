@@ -1,0 +1,3 @@
+[package explorer] Support the new IJarEntryResource
+
+If bug 148944 is released, the following patch adds support in JDT.UI

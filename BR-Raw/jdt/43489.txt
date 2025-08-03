@@ -1,0 +1,3 @@
+Conflicts between "Segmented Java Editor" and "Correct Indentation"
+
+I20030917 + plugin export for smoke test Correct Indentation (Ctrl+I) causes problems in segmented java editor (Toolbar > click "Show Source of selected element only"). - org.junit as source - open TestCase.java - enable "Show Source of selected element only" - select method "run()" in outline - set cursor to 1:1 - Ctrl+I -> whole type becomes visible in editor - select method "run()" in outline again - manually mangle indentation by insterting/deleting tabs - Ctrl+A, Ctrl+I -> whole type becomes visible in editor - Ctrl+Z (Undo) -> the undo TextEdits are applied to the wrong offset and destroy +/- arbitrary parts of my source!

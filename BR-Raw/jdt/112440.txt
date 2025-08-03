@@ -1,0 +1,3 @@
+Generate Delegate Methods does not work in anonymous types
+
+Build ID: I20051011-1655 When selecting "Generate Delegate Methods" for an anonymous type, the refactoring does not use the fields of the anonymous type, but of the enclosing type as a reference (1). When inserting methods (from fields of the enclosing type) at the current position, it fails without an error message (2). 1) Select "Foo()", invoke the Refactoring => No generation possible 2) Add a field to top-level class Foo, select "Foo()" invoke the Refactoring, select some method and "insert at current position" => Generation possible, but methods do not get inserted. ---- public class Foo { 	public void foo() { 		Foo d= new Foo() { 			Foo d; 		}; 	} } ----

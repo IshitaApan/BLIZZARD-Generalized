@@ -1,0 +1,3 @@
+[preferences] Add options for new FORMATTER_INSERT_NEW_LINE_AFTER_ANNOTATION_ON_* constants
+
+HEAD Add options for new FORMATTER_INSERT_NEW_LINE_AFTER_ANNOTATION_ON_* constants (bug 308000) in the UI.

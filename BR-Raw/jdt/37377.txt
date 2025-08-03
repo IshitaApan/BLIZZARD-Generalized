@@ -1,0 +1,3 @@
+Extract constant should propose name for String constants [refactoring]
+
+I was extracting the constant string "Fit.FileRunner". In this case I would have expected that the refactoring can already propose a name for the constant -> FIT_FILERUNNER

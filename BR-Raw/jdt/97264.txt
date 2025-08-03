@@ -1,0 +1,3 @@
+[implementation][preferences] Preferences not stored correctly
+
+build rc1 LinkedModeConfigurationBlock#performOk has the following code: Platform.getPreferencesService().getRootNode().node(EditorsUI.PLUGIN_ID).flush(); This is incorrect and the preferences will not actually be stored in this case. The first node under the root is the scope (instance, project, configuration, default) and then the plug-in id is next. If the intention is to store the settings in the instance scope, then you can do the following: Platform.getPreferencesService().getRootNode().node(InstanceScope.SCOPE).node(EditorsUI.PLUGIN_ID).flush(); or equivalently: new InstanceScope().getNode(EditorsUI.PLUGIN_ID).flush();

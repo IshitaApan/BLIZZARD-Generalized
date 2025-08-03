@@ -1,0 +1,3 @@
+modify parameters: should be enabled if a parameter is selected in the editor [refactoring]
+
+currently, you have to select a method

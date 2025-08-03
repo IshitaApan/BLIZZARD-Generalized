@@ -1,0 +1,3 @@
+getters/setters dialog: layout [code manipulation]
+
+I20030604 label and comboboxes should be aligned horizontally (not vertically) -> more space efficient -> required for accessability?

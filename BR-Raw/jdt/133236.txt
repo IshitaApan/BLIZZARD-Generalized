@@ -1,0 +1,3 @@
+[Model Sync] Java with incoming src directory has no children
+
+I checked out the root directory of a project and then synced. The Java content provider did not show any incoming changes. The resource content provider did.

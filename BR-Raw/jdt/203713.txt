@@ -1,0 +1,3 @@
+No SWT templates after adding SWT to maven
+
+20080918 When adding SWT to maven, the maven container adds new children. The delta is org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN} MavenTest2[*]: {CHILDREN} C:\Users\aes\.m2\repository\junit\junit\4.1\junit-4.1.jar[*]: {ADDED TO CLASSPATH} C:\Users\aes\.m2\repository\swt\swt-win32\3.0m8\swt-win32-3.0m8.jar[*]: {ADDED TO CLASSPATH}]

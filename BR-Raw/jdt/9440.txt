@@ -1,0 +1,3 @@
+Duplicate non-qualified class names no handled by import generator
+
+If I have two types: org.acme.goodstuff.MyType and org.acme.coolstuff.MyType and I use Code Completion (or something that invokes the smart import logic). The smart import stuff generates imports for both references to these types, ignoring the fact that one of them has to remain qualified in the code in order not to conflict with the other. You cannot have two import statements which resolve the same non-qualified type identifier. The standard library has some instances of this (for instance the Interface 'Certificate' and the abstract Class 'Certificate').

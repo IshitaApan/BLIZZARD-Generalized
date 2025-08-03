@@ -1,0 +1,3 @@
+[Drag and Drop] Drag and drop (move) for project
+
+Drag and drop (move) for project onto Explorer deletes the project from the file system. But this is not reflected in the workspace. Pressing refresh - provides dialog "location deleted" and remove project from the workspace.

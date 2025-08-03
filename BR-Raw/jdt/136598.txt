@@ -1,0 +1,3 @@
+[hovering] Don't read css file for each hover
+
+N20060412-0010. We currently add a link to a style sheet when creating the hover HTML. This forces the browser to access the disk for each hover. Same applies to Javadoc view.

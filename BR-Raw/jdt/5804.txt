@@ -1,0 +1,3 @@
+Bug in ClassFileEditor.getCorrespondingElement
+
+protected IJavaElement getCorrespondingElement(IJavaElement element) { 	IJavaElement parent= JavaModelUtil.findParentOfKind(element, IJavaElement.CLASS_FILE); 		return (parent == this ? element : null); 	} 'this' is a ClassFileEditor, so parent will never be 'this'

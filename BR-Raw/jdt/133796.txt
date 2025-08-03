@@ -1,0 +1,2 @@
+JavaElementLabels should render all categeries, not just first one
+

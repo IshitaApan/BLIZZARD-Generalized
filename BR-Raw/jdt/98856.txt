@@ -1,0 +1,3 @@
+[refactoring] Inlining method results in compiler errors.
+
+Inline the method Derived.routeOrder(...) and see that the incremental compiler marks many lines as erroneous (red x). Source file attached. I'm using RC1.

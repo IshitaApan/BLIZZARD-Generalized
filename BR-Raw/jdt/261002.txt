@@ -1,0 +1,3 @@
+[refactoring] 'Preview' button always enabled
+
+N20090113-2000. The 'Preview' button is always enabled. Most likely a regression from enabling the 'Back' button again.

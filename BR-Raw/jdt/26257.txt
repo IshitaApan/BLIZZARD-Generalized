@@ -1,0 +1,3 @@
+JUnit: New Test Case wizard generates code which does not compile
+
+Build 20021113 This might be intentional: when I choose to generate the main class then the generate code contains a compile error: 	public static void main(String[] args) { 		junit.textui.TestRunner.run(TestCaseTest.suite()); 	} TestCaseTest.suite() does not exist.

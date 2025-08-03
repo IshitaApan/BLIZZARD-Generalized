@@ -1,0 +1,3 @@
+[Decorators] Color and Font decorators dissapear in Package Explorer
+
+3.0 M2 The CVS font/color decorations dissapear in the packages explorer, or do not apply to all the elements they should. I will investigate on our end, but this seems to be a package explorer problem since the navigator always shows these decorations correctly.

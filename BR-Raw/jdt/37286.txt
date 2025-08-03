@@ -1,0 +1,3 @@
+SourceReferenceAction.isDeletedFromEditor fails on initializer from class file [ccp] [dnd]
+
+If the specified ISourceReference is an IInitializer from a class file, org.eclipse.jdt.internal.ui.reorg.SourceReferenceAction.isDeletedFromEditor fails with a NullPointerException. This is due to the fact that IMember.isBinary always returns false for initializers (see comments on Bug #37199 why this is so). Thus, the "non-binary" initializer has no compilation unit, since it is loaded from a class file.

@@ -1,0 +1,3 @@
+AddImport in editor does not work for empty selection
+
+Code resolve now works in that case and all actions must be adjusted

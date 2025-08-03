@@ -1,0 +1,3 @@
+[misc] Class File Editor clips large class files
+
+3.0M8 1. Get a JOGL version from https://jogl.dev.java.net/servlets/ProjectDocumentList 2. Add the jogl.jar to a project. 3. Double click e.g. on net.java.games.jogl/GL.class 4. In about the middle of the class file editor, the content is clipped, and the rest is gray. The content of the class file is correctly displayed in the outline view.

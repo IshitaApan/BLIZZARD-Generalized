@@ -1,0 +1,3 @@
+[jar exporter] remove unused methods in JarPackagerUtil
+
+3.2 RC4 The method getRefactoringHistory(...) is unused and should be removed

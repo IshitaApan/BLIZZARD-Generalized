@@ -1,0 +1,3 @@
+[spell checking] "Ignore non-letters at word boundaries" appears not to work
+
+If you open a plugin.xml with the text editor lots of properly spelled words are highlighted. For example "<extension>" is flagged as an error even though it's spelled correctly. Similarly for EMF generated code @generated and @model are flagged as an errors, and that appears to be purely because of the @ in front of the word. Isn't that option to ignore non-letters at word boundaries supposed to address these kinds of issues?

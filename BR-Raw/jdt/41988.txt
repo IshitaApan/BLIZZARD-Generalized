@@ -1,0 +1,3 @@
+Select Next/Previous Word strange for CamelCase java words
+
+I20030820 + export20030826_1219 - Ctrl+T, type "TestCase", press Enter - Arrow_Left - Ctrl+Shift+Arrow_Right - Ctrl+Shift+Arrow_Right - Ctrl+Shift+Arrow_Left => I would expect that "Test" is selected, but "Case " is. BTW: Try walking around with Ctrl+Shift+Arrow_Left/Arrow_Right ;-)

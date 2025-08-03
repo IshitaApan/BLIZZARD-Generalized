@@ -1,0 +1,3 @@
+[quick fix] QuickFix doesn't offer to surround exception with try/catch block.
+
+-------------------- Bug.java ---------------------- class Bug { { Class.forName(null); } }

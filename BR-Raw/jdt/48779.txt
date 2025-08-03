@@ -1,0 +1,3 @@
+Extract local should work in initializers as well [refactoring]
+
+I20031211 Title says it all.

@@ -1,0 +1,3 @@
+[clean up] 'Remove unnecessary casts' should work for nested casts
+
+I20060214-0010 Clean up only removes one of the unnecessary casts: boolean m() { return (boolean) (Boolean) Boolean.TRUE; }

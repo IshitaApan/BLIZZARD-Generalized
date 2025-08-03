@@ -1,0 +1,3 @@
+Search view hanging while resorting search matches
+
+Build 3.0 M4 Search all references to type String in self-hosted workspace. Finds almost 80.000 of them. Now sort them by parent name... it will take minutes to recover, while it works UI is entirely non responsive.

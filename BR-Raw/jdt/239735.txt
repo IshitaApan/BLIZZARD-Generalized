@@ -1,0 +1,3 @@
+[quick fix][preferences] quick fix should use fully qualified type if already fully qualified
+
+Build ID: I20080617-2000 Steps To Reproduce: Example. Create a class called Timer and a method. Start typing in the method body: new Timer Press Ctrl-Space Select java.util.Timer i.e. you have new java.util.Timer Complete to new java.util.Timer(); Press Ctrl-1 for Quickfix Select Assign statment to new local variable which gives the following uncompilable piece of code. package mypackage; import java.util.Timer; public class Timer { 	public static void main(String[] args) { 		Timer timer = new java.util.Timer(); 	} } More information:

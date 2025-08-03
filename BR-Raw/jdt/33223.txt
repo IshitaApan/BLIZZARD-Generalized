@@ -1,0 +1,3 @@
+Extract interface does not use method code templates
+
+Build 2.1 RC1 The genreated interface uses file and type code templates but does not use method code templates.

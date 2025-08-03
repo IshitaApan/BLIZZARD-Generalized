@@ -1,0 +1,3 @@
+Link with Editor does not reveal selection if unchanged
+
+build I20031218 - open a CU - in package explorer, toggle Link with Editor on - it shows the selection - scroll the selection out of view - toggle Link with Editor off then back on - the selection is not shown

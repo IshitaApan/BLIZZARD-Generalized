@@ -1,0 +1,3 @@
+Template Pref page: Edit: Copy/paste context menu
+
+The text field to edit the templates should have a context menu with copy/paste.

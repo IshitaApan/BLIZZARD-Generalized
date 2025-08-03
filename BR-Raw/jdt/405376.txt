@@ -1,0 +1,3 @@
+Open Input action in info views should be disabled if the input is empty/null
+
+R3.8. The Open Input action in the info views should be disabled if the input is empty/null. Currently, it is not, and clicking it, gives an error dialog saying: Problem opening editor for '': 'Could not get an editor input for the given element'

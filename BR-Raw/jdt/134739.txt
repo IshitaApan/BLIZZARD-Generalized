@@ -1,0 +1,3 @@
+Cleanup use parenthisis around expressions not working
+
+Running cleanup on the following: if (((upProductNumber.length() == 0 && upProductRevision.length() > 0)) || ((upProductNumber.length() > 0 && upProductRevision.length() == 0))) results in: if (() || ()) { using Eclipse 3.2M6

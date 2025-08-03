@@ -1,0 +1,3 @@
+Please Imporve "Generate Get and Set "
+
+the "generate get" of "private String bankName;" result in public setBankName(String string) { bankName = string; } but I think public setBankName(String bankName) { this.bankName = bankName; } is much better

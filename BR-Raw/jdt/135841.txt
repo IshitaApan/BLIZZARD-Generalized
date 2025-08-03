@@ -1,0 +1,3 @@
+[hovering] SourceViewerInformationControl does not respect size hint
+
+I20060410 SourceViewerInformationControl (the jdt-ui one) does not respect the size hint - its setSizeConstraints method is a noop. We should remember the size constraints and use them when computing the size, similar to what DefaultInformationControl does. Patch is ready.

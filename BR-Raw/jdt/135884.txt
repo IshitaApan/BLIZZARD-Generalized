@@ -1,0 +1,3 @@
+[content assist][api] Ctrl+Space does not toggle content assist groups when popup has focus
+
+N20060410-0010 Ctrl+Space does not toggle content assist groups when popup has focus: - press Ctrl+Space, press Tab => popup has focus and affordance says "Press 'Ctrl+Space' to show Template Proposals", but Ctrl+Space only selects/unselects the current table item

@@ -1,0 +1,3 @@
+Packages view: Open in context menu for * imports
+
+Test pass 1 - JUnit setup - open AboutDialog - select java.awt.event.* - open context menu observe: Open is in context menu, although it can't be applied.

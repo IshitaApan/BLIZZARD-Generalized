@@ -1,0 +1,3 @@
+JavaElementLabelProvider API - small issue
+
+everytime i use this label provider it annoys me that i have to type new JavaElementLabelProvider(JavaElementLabelProvider.SHOW_DEFAULT) if it's default then it should be default, if you know what i mean. all i need is: public JavaElementLabelProvider() { this(JavaElementLabelProvider.SHOW_DEFAULT); } it'd make things easier. i'd fix it myself but it's API so i guess it should be blessed first.

@@ -1,0 +1,3 @@
+Change method signature: More comfort for entering types [refactoring]
+
+20031119 In the 'Refactoring > Change Method Signature' dialog, entering the return type as well as entering parameter type is very cumbersome. - No browse to choose a type - No combo for 'int', 'void' ect - Not clear how imports are handled. Do I have to enter qualified types to get imports, or will this result in qualified names in the code? - No validation as you type in for parameter fields. As this is a refactoring it looks strange that you can enter a non-existing file name. I would suggest that always fully qualified type are shown and that the refactoring creates imports but uses simple names.

@@ -1,0 +1,3 @@
+[refactoring] NPE from convert anonymous to nested inside enum
+
+Against I20050513-0010 Code: public enum CopyOfHelperType { 	SETUP, TEARDOWN; 	public void invokeTheAnnotation() { 		new Object() { 			void invoke() { 			} 		}.invoke(); 	} } Try to convert the anonymous object to nested. On every keystroke when entering the new name, an NPE (below) is logged in the error log, and the OK button is never enabled

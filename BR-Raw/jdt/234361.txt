@@ -1,0 +1,3 @@
+[breadcrumb] Does not resize if switching back from other editor
+
+I20080527-2000 1. Open java.awt.Button 2. Resize editor such that first few left elements are collapsed 3. Ctrl-Click on String in field 'label' 4. Go back to editor with Button Is: Cursor is on 'label' field but the field is not visible in the breadcrumb because items on the left are not collapsed. Should: Collapse items on the left to make space for field label

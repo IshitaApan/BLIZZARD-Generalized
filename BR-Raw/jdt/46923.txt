@@ -1,0 +1,3 @@
+Introduce Factory: Preview doesn't work sometimes
+
+I20031119 The preview doesn't work when introducing a factory method on this example: public class HelloWorld { 	private static HelloWorld instance; 	 	public static void main(String [] args) { 		instance= new HelloWorld(); 		instance.run(); 	} 	 	private HelloWorld() { 	} 	 	private void run() { 	} } The factory method is introduced correctly, though. It must have something to do with the constructor being private; if it is public, the preview appears as expected.

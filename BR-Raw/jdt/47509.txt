@@ -1,0 +1,3 @@
+Refactor name of package fragment does not handle on demand import
+
+Build Eclipse 2.1.2 On the following setup, select package fragment 'p' located in project B and rename it into 'q'. It will rename the 'import p.*;' statement, but did not realize there was still a use for it due to other fragment. It should have inserted an extra import during the rename action. Project A +- package p +- A.java Project B prereqs A +- package p | +- B.java +- package c +- C.java package c; import p.*; public class C { }

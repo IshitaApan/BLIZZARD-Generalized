@@ -1,0 +1,3 @@
+[Extract Class] Increment replacement fails if qualifier is used
+
+public class QualifiedIncrements { 	private int test; 	private void foo() { 		QualifiedIncrements qi = new QualifiedIncrements(); 		qi.test++; 	} } Use Extract Class on all fields with getters&setters.

@@ -1,0 +1,3 @@
+[refactoring] Convert anonymous: generates unnecessary call to super()
+
+Against I20050527-0010 Given code: public void foo(final int pVar1) { final int lVar2= 1; Runnable r= new Runnable() { 		public void run() { 			int x= pVar1 + lVar2; 		} }; } When converting anonymous inner class to nested class TheThing, the generated class contains an unnecessary call to super() in the constructor: private TheThing(int pVar1, int pVar2) { 	super(); 	fVar1 = pVar1; 	fVar2 = pVar2; }

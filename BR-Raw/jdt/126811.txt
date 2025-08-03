@@ -1,0 +1,3 @@
+Compile errors after updating to latest changes
+
+I updated my workspace to have the latest changes from UI and noticed a few compile errors from JDT. 1) CorrectionMarkerResolutionGenerator calls an abstract method from the superclass (in JDT/UI) 2) MockWorkbenchSite in the Refactoring tests needs to add a new method that was added to the IWorkbenchSite interface

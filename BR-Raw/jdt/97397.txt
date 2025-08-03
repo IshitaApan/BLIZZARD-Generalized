@@ -1,0 +1,3 @@
+[Refactor] Change Method Signature - Varargs not allowed
+
+Version: 3.1.0 Build id: I20050527-1300 (RC1) Steps to reproduce: 1.) Have a Method public void foo(String... strings) { } 2.) Call Refactor > Change Method Signature on foo() 3.) Edit the Parameter "String... strings" 4.) Remove a single point from "String..." in the Type Input 5.) Add a single point to the Type Actual Results: "String..." is not a valid parameter Type Name Expected Results: "String..." is valid Regards, Ben

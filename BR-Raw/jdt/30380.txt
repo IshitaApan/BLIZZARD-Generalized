@@ -1,0 +1,3 @@
+Show outline doesn't get focus
+
+I2003-01-22 Assuming this is an SWT issue. Using the newly "Show Outline" feature brings up the outline popup. However, on MacOS X, the input area doesn't have the focus, so performing some keyboard input results in changes to the editor instead ....

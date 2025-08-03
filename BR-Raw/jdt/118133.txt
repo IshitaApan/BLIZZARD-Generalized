@@ -1,0 +1,3 @@
+[refactoring] InvocationTargetException on a valid refactoring
+
+In the constructor, I had code like: xyz = ClassA.staticMethod().someOtherMethod(); where xyz is declared as a final variable in the class. I also had in several methods the following code: abc = ClassA.staticMethod(); I selected "ClassA.staticMethod()" that was in the constructor, then chose to extract constant. I gave it the name "abc". Pressing OK gave me an error dialog saying that an internal error happened. Attached is eclipse's log.

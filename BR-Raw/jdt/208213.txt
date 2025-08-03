@@ -1,0 +1,3 @@
+[preferences] Export User Libraries not working
+
+Build ID: M20071023-1652 Steps To Reproduce: 1.Window>Preferences>Java>Build Path>User Libraries>Export ... 2.Select Libraries to export and Fill in File Location 3.Click "OK" More information: Cannot export user libraries. From the "Export User Libraries" dialog, you can select the libraries you want to export and choose the file location. But when you click "OK" nothing happens. The dialog remains open and the export file is not created.

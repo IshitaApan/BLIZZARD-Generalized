@@ -1,0 +1,3 @@
+Missing resource
+
+20020409: Package View>Context Menu>OpenNewWindowAction.text

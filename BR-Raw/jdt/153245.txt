@@ -1,0 +1,3 @@
+[content assist] Must better handle evil javadocCompletionProcessor
+
+I20060809-0010. Currently an evil javadocCompletionProcessor contribution that takes a long time to complete results in a dialog and there is no way to - detect which processor causes it - disable the bad processor At a minimum for 3.2.1 we must - list all possible candidates - provide a way to disable the LegacyJavadocCompletionProposalComputer

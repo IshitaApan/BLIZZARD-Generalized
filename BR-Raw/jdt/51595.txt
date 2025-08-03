@@ -1,0 +1,3 @@
+[rulers] annotation roll-over: selecting "quick fix" from context menu does not work any longer
+
+M7 Testpass on I200402102000 1. Enable the annotation roll over 2. Open TestCase.java 3. Try to invoke quick fix using the ruler context menu on a warning -> nothing happens -> the roll over hover does its own action invocation thing (see createCompositeRuler in JavaEditor).

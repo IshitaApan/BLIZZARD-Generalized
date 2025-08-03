@@ -1,0 +1,3 @@
+[1.5][compiler] method override check does not detect differences in additional type bounds
+
+I20050811-1530 + jdt.core v_606 Ecipse compiles these classes without error, although the methods in B and C don't override the one from A: import java.io.Serializable; class A { <S extends Number & Serializable & Runnable > void foo2(S s) { } } class B extends A { @Override // should error <S extends Number & Runnable> void foo2(S s) { } } class C extends A { @Override // should error <S extends Number & Runnable & Cloneable> void foo2(S s) { } } class D extends A { @Override // correct <S extends Number & Runnable & Serializable> void foo2(S s) { } }

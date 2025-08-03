@@ -1,0 +1,3 @@
+[templates] Add template to add static imports
+
+For the JUnit4 "Test" template, I'd like to add a static import: import static org.junit.Assert.*; This is currently not possible with the imports(..) variable from bug 200000.

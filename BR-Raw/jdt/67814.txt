@@ -1,0 +1,3 @@
+Show In > Package Explorer doesn't ask for removal of last filter [package explorer]
+
+200406180010; Not a dup of 66646. 'Show In > Package Explorer' doesn't ask for removal of a filter iff there's only a single filter set. Steps: - Disable all filters in Package Explorer, except for 'Referenced Libraries'. - Open editor for java.util.Vector - Navigate > Show In > Package Explorer => fails, doesn't ask for filter removal. Works iff at least one other filter (which would not filter the element) is active.

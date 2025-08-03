@@ -1,0 +1,3 @@
+[JUnit] Upgrade to JUnit 4.3
+
+JUnit 4.3 is released and contains several bug fixes. Eclipse ships with JUnit 4.1.

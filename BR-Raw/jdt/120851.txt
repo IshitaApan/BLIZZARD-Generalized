@@ -1,0 +1,3 @@
+NewTypeWizardPage doesnt add imports of contributed type content
+
+Extending on the NewTypeWizardPage and wanting to provide my own content for the type, I overrode 'constructCUContent(cu, typeContent, delimiter)' and passed in the typeContent which included the correct imports. Even though the correct imports were passed in, the ImportsManager doesnt add them finally to the document. How does one add imports to the provided content?

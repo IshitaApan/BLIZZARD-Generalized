@@ -1,0 +1,3 @@
+Quickfix (create method) generates wrong parameter type if same name exists in other package [quick fix]
+
+given two types with same name, package a; public class A { } package b; public class A { 	public void doSomething(a.A obj) { 		newMethod(obj); // this should be quickfixed 	} } the generated method has the signature private void newMethod(A obj), but should have private void newMethod(a.A obj). I admit this to be not the classic style, we experience this behaviour, because we are generating lots of code and all the generated code goes to one directory, making calls to handwritten code with the same type name (by convention) in other packages.

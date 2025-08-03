@@ -1,0 +1,3 @@
+ProblemsLabelDecorator throws ResourceException when project not open
+
+In the F2 build, org.eclipse.jdt.ui.ProblemsLabelDecorator throws a ResourceException if the IResource passed to decorateImage() is a Project that is closed. The exception is a result of calling findMarkers() on line 178 with the closed project. The fix is to change the first line of getErrorTicksFromMarkers() on line 164 from: if (res == null || !res.exists()) { to: if (res == null || !res.isAccessible()) { isAccessible() is the same as exists() except for projects it tests that the project is open. Thanks.

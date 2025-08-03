@@ -1,0 +1,3 @@
+warning on unused labels
+
+we have warnings for all sorts of unused things. one for unused labels would be good too.

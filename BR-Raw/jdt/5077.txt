@@ -1,0 +1,3 @@
+org.eclipse.jdt.junit does not compile under Java 1.2.2
+
+org.eclipse.jdt.junit.internal.LauncherUtil:29 getPath() is not defined in URL

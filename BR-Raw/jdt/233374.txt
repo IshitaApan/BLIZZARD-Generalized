@@ -1,0 +1,3 @@
+[search] styled label not supported by search participant's label provider
+
+Wouldn't it be nice if Java search query participants' results were colored just the same as those returned by the Java search proper? Currently IMatchPresentation's createLabelProvider returns an ILabelProvider, which the code uses as is. With a few small changes the code could check if that label provider implements IStyledLabelProvider and use it to get colored labels.

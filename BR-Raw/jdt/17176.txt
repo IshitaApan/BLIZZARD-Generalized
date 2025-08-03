@@ -1,0 +1,3 @@
+java outliner - decorator clash for synchronized and override/implement
+
+F1 linux-gtk, but assume that this happens on all platforms. Either the decorators are on top of each other or it's a single decorator which is not very recognizable. Also, the override/implements icon looks ugly when the item is selected. The border color should not be white. It should be more like the public icon, which looks good both on bright and dark background.

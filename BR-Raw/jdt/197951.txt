@@ -1,0 +1,3 @@
+[pull up] selecting members triggers a long operation
+
+3.3. - select class which implements an interface - execute pull up - select a member to pull up Observe: this triggers a long op which IMO makes the refactoring hard to use. In my workspace I waited 1 minute for the operation to return.

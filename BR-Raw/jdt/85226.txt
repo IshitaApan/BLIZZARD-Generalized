@@ -1,0 +1,3 @@
+[1.5] EnumConstantDeclaration should declare resolveConstructorBinding
+
+I20050209 (jdt-core of 20050215) EnumConstantDeclaration should allow me to query its method binding, as declaring an enum constant also invokes a constructor: enum Natural { ONE(1), TWO(2); private final int fInt; Natural(int n) { fInt= n; } } I would expect a method similar to ClassInstanceCreation: public IMethodBinding resolveConstructorBinding();

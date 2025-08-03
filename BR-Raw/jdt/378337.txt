@@ -1,0 +1,3 @@
+[quick fix] improve description for adding library with default null annotations to a bundle
+
+I20120502-2000. We should improve the description for adding library with default null annotations to a bundle. Currently it's a bit confusing because it talks about the build.properties file only.

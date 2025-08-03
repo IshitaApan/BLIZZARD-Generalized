@@ -1,0 +1,3 @@
+[breadcrumb] Don't make dropdown smaller when user expands tree item
+
+I20080318-0800.from20080319_1256 - open org.eclipse.jdt.core.search.MethodReferenceMatch from CVS - in breadcrumbs, click arrow before type - resize dropdown (make it wider and higher) - expand a type => height is reset to some default height

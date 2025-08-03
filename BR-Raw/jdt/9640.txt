@@ -1,0 +1,3 @@
+template pref page: more vars should be availale in javadoc mode
+
+vars like: package project sometimes even type (rarely method) are useful also in javadoc context

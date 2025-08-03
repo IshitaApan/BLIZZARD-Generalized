@@ -1,0 +1,3 @@
+[JUnit] JUnit runner should check that the suite() method is static before invoking it
+
+Using HEAD. Since this method is invoked with null as the receiver (because it is static), the runner should check that it is static. Otherwise you'll get a NPE.

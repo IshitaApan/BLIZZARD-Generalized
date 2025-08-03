@@ -1,0 +1,3 @@
+Unused type parameter problem should also depend on option to consider @param tag
+
+Created attachment 225460 Fix for UI Follow-up to bug 385780 The JavaCore.COMPILER_PB_UNUSED_TYPE_PARAMETER option should also depend on COMPILER_PB_UNUSED_PARAMETER_INCLUDE_DOC_COMMENT_REFERENCE. I don't think it makes sense to add a separate sub-option.

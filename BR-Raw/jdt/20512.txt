@@ -1,0 +1,3 @@
+TVT2: truncated strings in buttons on Modify Parameters window
+
+Build F2, running latest NL fragments. I have been unable to confirm this problem in F3, because we have not migrated to that build yet for our fragments. This problem was reported in Portugese Brazilian, but it probably will occur in all languages, especially German. Here's how to get to the offending buttons. I will also attach a screenshot showing which ones are affected in Brazilian. This bug was opened in response to TPRS ID=125

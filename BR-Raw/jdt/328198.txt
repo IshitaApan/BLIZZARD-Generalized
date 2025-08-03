@@ -1,0 +1,3 @@
+[nls tooling] NLSStringHover and PropertiesFileHover should not use HTMLTextPresenter
+
+Whitespace information gets lost in NLSStringHover and PropertiesFileHover. For example a string like "This \t string \n has \t whitespace" is simply shown as "This string has whitespace" Both these hovers use DefaultInformationControl which in turn uses HTMLTextPresenter by default.

@@ -1,0 +1,3 @@
+[nls tooling] Externalize Strings misses inner classes
+
+Build ID: I20080330-1350 Steps To Reproduce: 1. Create a class with a inner class in a method like this: public void test() { text.addSelectionListener(new SelectionAdapter() { @Override public void widgetDefaultSelected(final SelectionEvent e) { String world = "Hello world!"; } }); } 2. Select the project and choose Source > Externalize Strings 3. The string is not found More information: It works in Eclipse 3.3.2. It seems that it has something to do with: object.methodcall({innerclass}); This will work: object = new interface(){innerclass};

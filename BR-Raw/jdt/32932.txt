@@ -1,0 +1,3 @@
+Restore from local history with UTF16 encoding
+
+Build RC1 - change workbench encoding to UTF16 - create a Java class - add a method - delete method in outliner - open "Restore from local History" - select the deleted method - press "Restore" -> garbage in editor

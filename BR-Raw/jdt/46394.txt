@@ -1,0 +1,3 @@
+RCP: Add marker action disabled for Java editor
+
+N20031111 Start fresh workspace and create a class in a Java project. The following actions are disabled: Edit > Add Bookmark... Edit > Add Task... It works in the standard text editor.

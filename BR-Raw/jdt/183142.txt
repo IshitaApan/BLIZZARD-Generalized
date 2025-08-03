@@ -1,0 +1,3 @@
+[package explorer] [working sets] Remove from WS does not work for resource working sets
+
+I20070417-0800 1. Create a new java project P01 2. In PkgExpl select Top Level Elements>Working Sets 3. Create new Resource Working Set RWS and add P01 to it 4. Show RWS in PE 5. Right click on P01 6. Remove From Working Set Is: Nothing happen Should: Be moved to Other Projects

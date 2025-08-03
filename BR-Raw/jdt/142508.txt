@@ -1,0 +1,3 @@
+[rename] Refactoring text search fails to find occurences preceeded by #
+
+On renaming a class (f.ex. myPack.MyClass ) via refactoring RefactoringScanner fails to find occurences in special comments looking like /*#myPackMyClass hiddenField*/ The reason is that code in RefactoringScanner around line 172 looks like: if (beforeQualifierPos >= 0) { char beforeQualifierChar= value.charAt(beforeQualifierPos); boolean charBeforeQualifierIsQualifierPart= isQualifierPart(beforeQualifierChar); // true if the char before the qualifier is a normal letter 			// (and therefore invalidates the whole string) 			return charBeforeQualifierIsQualifierPart ? NO_MATCH : MATCH_QUALIFIED; 		}

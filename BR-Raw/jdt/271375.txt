@@ -1,0 +1,3 @@
+[nls tooling] Externalize Strings wizard always defaults to the "legacy" mechanism
+
+The Externalize Strings wizard offers the option "Use Eclipse's string externalization mechanism" which is a superior choice. However, it does not default to that option when available nor does it remember the user's selection of that option for future invocations of the wizard. It should be encouraging use of the newer mechanism, especially since converting form the old to the new is a tedious manual process.

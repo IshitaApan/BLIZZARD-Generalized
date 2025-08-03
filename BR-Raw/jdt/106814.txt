@@ -1,0 +1,3 @@
+[code manipulation] 'Add import' leaves '.' before type name
+
+Build id: I20050627-1435 Does not happen always, seps are like this: 1. Type a class name within method body and hit Ctrl + Space to resolve class - this adds fully qualified class since auto imports are disabled. 2. Type '.' and access a field. Code looks like this: com.some.util.TypeDocs.SALES_MEMO 3. Hit Ctrl+Shif+M to add import. Import is added, but the dot before class name remains and must be removed manually. Code is like this: .TypeDocs.SALES_MEMO

@@ -1,0 +1,3 @@
+Invalid "Unsupported search pattern" message while search again
+
+This problem exist since 3.0 I guess, here's the scenario.. Test case is a simple class: class X { void foo() {} void bar() { foo(); } } Here are steps: 1) Search reference to foo() method => you get 1 match in Search view: OK 2) Rename foo (using refactoring or directly in code, it does not matter) 3) Go back to Search view and select "Search again" item => you get "Java Search" dialog: 'Unsupported search pattern: "foo"' I think user should have a better error message than this one which definitely sounds like an internal error. perhaps something like: Java element "foo" does no longer exist...

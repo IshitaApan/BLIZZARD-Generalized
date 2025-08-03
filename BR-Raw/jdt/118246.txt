@@ -1,0 +1,3 @@
+Definition of getJavaLikeExtensions() leads to programming errors
+
+I20051123-1200 In contrast to all existing get*Extension* methods for file (names) in the Platform the new getJavaLikeExtensions() method is containing the '.'. This leads to programming errors when working with extensions in Eclipse: IFile.getFileExtension() returns 'java' for Foo.java IFileEditorMapping.getExtension() for the Java editor returns 'java' BUT: JavaCore.getJavaLikeExtensions() returns '.java'

@@ -1,0 +1,3 @@
+new TestCase does not store settings
+
+All checkboxes are not persisted

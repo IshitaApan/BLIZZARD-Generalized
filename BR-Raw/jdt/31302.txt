@@ -1,0 +1,3 @@
+Push Down activation issues
+
+first issue: - open a java editor - select the name of a method in the method declaration - invoke "Push Down" -> dialog opens, the selected method is checked but not selected -> It should be selected and revealed. second issue: - open java editor - remove any selection - invoke "Push Down" from the tool bar menu -> you are asked to select a method or field first -> the action only needs to know the type of which methods should be pushed down in order to populate the dialog rather than any concrete method

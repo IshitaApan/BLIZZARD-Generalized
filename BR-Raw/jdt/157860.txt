@@ -1,0 +1,3 @@
+[clean up] both serial option radio buttons checked
+
+I20060919-0010 1. Open the built-in clean up preference (click Show) 2. go to Missing Code page ==> both radio buttons under serial version id are marked

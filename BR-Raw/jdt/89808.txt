@@ -1,0 +1,3 @@
+Wording on the acess rules pages
+
+20050329 - we should use 'Forbidden' instead of 'Non-accessible' to be consistent with jdt.core and the compiler settings - the text on the 'new access rules' should give examples for patterns

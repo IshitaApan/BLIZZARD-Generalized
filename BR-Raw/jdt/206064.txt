@@ -1,0 +1,3 @@
+[GlobalActions] Provide LTK aware IDE actions
+
+org.eclipse.ui.ide RenameResourceAction should use the LTK rename refactoring instead of the MoveResourcesOperation.

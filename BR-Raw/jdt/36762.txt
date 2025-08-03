@@ -1,0 +1,3 @@
+call hierarchy: should work on classfiles too
+
+AST.parseCompilationUnit works on IClassFiles as well - the view should take advantage of that - now, no binary method is reported to have any callees

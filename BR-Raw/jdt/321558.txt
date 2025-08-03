@@ -1,0 +1,3 @@
+[preferences] problem filtering should allow to combine name with value search
+
+I20100802-1800. I tried to search a certain set of options (by name) along with a given value but failed. We should support name~value patterns, e.g. "param~warn"

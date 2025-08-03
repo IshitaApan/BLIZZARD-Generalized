@@ -1,0 +1,3 @@
+[nls tooling] Externalize Strings Wizard should not touch annotation arguments
+
+I20050627-1435 Externalize Strings Wizard should not touch strings that are annotation arguments. In the example below, the string "unused" cannot be externalized and should not appear in the table at all. See also JDT/Core bug 102130 (don't warn about non-externalized string in annotation). public class Klass { 	void use() { 		@SuppressWarnings("unused") 		String s; 	} }

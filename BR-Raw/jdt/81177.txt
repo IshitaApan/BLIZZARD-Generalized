@@ -1,0 +1,3 @@
+[refactoring] switch with enums: disable extract refactorings
+
+20041215 In the following code you can do various extractions on 'A', but most fail as it seems that it's not allowed to have something else but the enum constant private void foo(Enu e) { switch (e) { case A: break; } }

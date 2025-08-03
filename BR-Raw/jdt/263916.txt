@@ -1,0 +1,3 @@
+[content assist] Auto completion of innerclasses does not work as expected
+
+Here's a snippet of code that I have in my editor: new Text(null, 0).addControlListener(TYPE+HERE); if I type new 'ControlListener' and auto complete, M5 seems to provide a nice stub, however it also introduces a compile error when it removes the closing brackets at the end of the statement: new Text(null, 0).addControlListener(new ControlListener(){ public void controlResized(ControlEvent e) { } public void controlMoved(ControlEvent e) { } }; <<--- SHOULD BE A CLOSING PAREN HERE

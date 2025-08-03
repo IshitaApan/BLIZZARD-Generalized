@@ -1,0 +1,3 @@
+JUnit view toolbar run button enabled when no test can be run [JUnit]
+
+Version 3.1M3. JUnit view toolbar run button enabled when no test can be run/ -Run a JUnit test from the JUnit View. -Shutdown Eclipse. -Start Eclipse. -The JUnit view toolbar run button is enabled, clicking it does nothing. The button should be disabled when no test can be run. Additionally, the JUnit view could remember the last test run accross shutown/restarts. Gary

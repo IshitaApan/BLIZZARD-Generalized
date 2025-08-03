@@ -1,0 +1,3 @@
+[breadcrumb] Search dialogs are not initialized with selection
+
+I20080122-1600 1. Select a package in the breadcrumb 2. Press Ctrl-H Is: Java search page is not initialized with the package Should: Be initialized with values depending on breadcrumb selection

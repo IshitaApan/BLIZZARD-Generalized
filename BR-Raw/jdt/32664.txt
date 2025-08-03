@@ -1,0 +1,3 @@
+Package Explorer: hierarchical layout and back-linking don't work allways together.
+
+The following triggers it: - initially 'flat layout' is used, 'link with editor' is on or off - open a java file - use 'collapse all' in the package explorer - select 'hierarchical layout' - switch 'link with editor' on or off&on -> no back-linking

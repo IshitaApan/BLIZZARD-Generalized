@@ -1,0 +1,3 @@
+[preferences] EditTemplateDialog does not restrict code assist to the right field
+
+R3.4 The EditTemplateDialog does not restrict code assist to the right field.

@@ -1,0 +1,3 @@
+Extract Interface: Interface name clash checking done on Next
+
+As like the new class wizard does, Extract Interface should check the existence of an interface as you type and not wait until the user hits Next.

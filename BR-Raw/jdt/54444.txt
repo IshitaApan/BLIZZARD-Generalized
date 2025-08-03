@@ -1,0 +1,3 @@
+Extract local var and Convert local to field suggest bad name [refactoring]
+
+I20040310 I have the following line, no errors. SortByDefiningTypeAction fSortByDefiningTypeAction= new SortByDefiningTypeAction(); When I convert this variable to a field the suggested name is fAction

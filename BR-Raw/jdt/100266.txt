@@ -1,0 +1,3 @@
+[type wizards] "generate comments" not left enabled in new class and new type wizards
+
+Every time I create a new class by right-clicking on a package and choosing New->Class, the "Generate comments" checkbox is not selected. So, I have to manually select it every time. It would be nice if it retained the value from the last use of the dialog. (I seem to recall that this used to be the default behavior, but in 3.1RC1 and 3.1RC2 this value does not seem to stick.)

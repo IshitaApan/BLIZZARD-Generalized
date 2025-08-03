@@ -1,0 +1,3 @@
+[breadcrumb] filter list must be fully on screen
+
+I20080205-0010 With long parent chains, it can happen that the filter list for the last (empty) breadcrumb item appears partly out of screen.

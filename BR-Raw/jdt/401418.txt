@@ -1,0 +1,3 @@
+[clean up] Add test case for bug 346230
+
+4.3 M5. Add test case for bug 346230.

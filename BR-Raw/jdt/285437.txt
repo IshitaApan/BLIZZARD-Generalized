@@ -1,0 +1,3 @@
+[extract superclass] action not enabled any more when class is selected
+
+3.5 'Refactor > Extract Superclass' action is not enabled any more when a class is selected.

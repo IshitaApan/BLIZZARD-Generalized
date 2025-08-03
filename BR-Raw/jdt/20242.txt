@@ -1,0 +1,3 @@
+TVT2: Buttons not resizing in Java prefs (truncation)
+
+Build F2 In Window>Preferences, Java>Templates all of the buttons on the right side of the prefs page are not resizing with translated text. This is a critical issue for TVT, since there are translations that cannot be shortened to accomodate a particular button size.

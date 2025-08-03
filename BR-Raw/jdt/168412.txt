@@ -1,0 +1,3 @@
+[navigation] CTRL+O tree should expand first level items when editor opened on nested class
+
+I have EMF in my classpath. I open a nested, top-level class (EcoreUtil$Copier). When I invoke CTRL+O, I see the outline with only the class name shown. Expectation is that the top-level treeitems should be expanded initially. Maybe it is being calculated as 2nd-level because of the filtered outer class.

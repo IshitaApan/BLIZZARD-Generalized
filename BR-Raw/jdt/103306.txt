@@ -1,0 +1,3 @@
+Failure when importing a WSDL file in another WSDL for WTP > M4
+
+I have a WSDL file that references another WSDL file. Both are located in the same dirctory. Under WTP 1.0 M4 all is fine and dandy and the WSDL file validate Under WTP 1.0 M5 the same file does not validate and eclipse complains that : The 'messages-0.2.wsdl' document could not be imported. Check that the document exists and that the location is correct.	bindings-0.2.wsdl	SPP/wsdl	line 11	11 juillet 2005 13:29:38 I have both versions of WTP installed in parallel so I can confirm this is a regression, not some wsdl that changed between the checks

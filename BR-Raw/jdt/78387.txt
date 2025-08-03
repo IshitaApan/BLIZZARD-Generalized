@@ -1,0 +1,3 @@
+[search] Missing API to specify scope in search engine
+
+Currently, there is no way to pass a search scope to the following methods in SearchEngine: - searchDeclarationsOfAccessedFields - searchDeclarationsOfReferencedTypes - searchDeclarationsOfSentMessages In order to handle visibility issues during refactoring, we must search for all referenced members, but are not interested in occurrences in system libraries. We must be able to either provide an include mask or the search scope itself.

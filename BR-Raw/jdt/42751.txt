@@ -1,0 +1,3 @@
+TrackPositionTest uses "assert" as method name
+
+Invalid for JDK 1.4. I'll attach a patch.

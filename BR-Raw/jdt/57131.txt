@@ -1,0 +1,3 @@
+Remove references to AST#parseCompilationUnit from java.compare
+
+JDT Core wants to remove the following methods (that have been deprecated for several builds now) for next integration build: - AST#parseCompilationUnit(ICompilationUnit,boolean,WorkingCopyOwner) (use ASTParser instead) - ICompilationUnit#reconcile(boolean, IProgressMonitor) (use reconcile(boolean, boolean, WorkingCopyOwner, IProgressMonitor) instead)

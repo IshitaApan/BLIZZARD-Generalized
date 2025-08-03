@@ -1,0 +1,3 @@
+[package explorer] Filter for empty package doesn't work
+
+In eclipse 3.4, setting the filter to remove empty parent packages has no effect. This however worked in eclipse 3.3

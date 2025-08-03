@@ -1,0 +1,3 @@
+JUnit and Java App shortcuts overwrite each other
+
+The two shortcuts use the same naming convention for creating configs. If I select VectorTest to run as a Java App, a config is created. If I then run as "Junit" a new config is created with the same name (VectorTest [Junit]), which overwrites/deletes the first one.

@@ -1,0 +1,3 @@
+[organize imports] Organize imports dialog is sometimes unnecessary
+
+Sometimes on "organize imports" Eclipse asks me if I want to add: org.xml.sax.SAXException or org.xml.sax.SAXException This is because I have two XML/HTML/SAX parsers (or whatever) in my classpath. Now regardless of which one I choose I always get the same import row in my source; thus the dialog is redundant and can be removed.

@@ -1,0 +1,3 @@
+[surround with] quick menu shows too many entries for word in Javadoc
+
+Created attachment 127386 Screenshot HEAD 'Source > Surround With' quick menu shows too many entries for word in Javadoc, see screenshot. Only the first 4 make sense.

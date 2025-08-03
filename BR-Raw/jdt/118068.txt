@@ -1,0 +1,3 @@
+[working sets] 'Aggregate for window 1132932971442' working set name
+
+Version: 3.2.0 Build id: N20051125-0010 In the Package Explorer menu of an empty working, open the 'Select Working Set...' dialog and select the 'Window Working Sets' option (no working sets exist) and click OK. The go back to the 'Edit Active Working Set...' dialog and you will be presented with the dialog and a working set name similar to 'Aggregate for window 1132932971442' (most likely because there is no working set defined). This only happens in the Package Explorer menu as the Resource Navigator menu seems to disable the 'Edit Active Working Set...' menuitem when the working set is empty.

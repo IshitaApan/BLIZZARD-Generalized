@@ -1,0 +1,3 @@
+delete top-level type should not ask for cu deletion and just do it [ccp] [refactoring]
+
+20030520 delete top-level type should not ask for cu deletion and just do it or, there should be a checkbox 'never ask me again'

@@ -1,0 +1,3 @@
+[preferences] Fup of bug 165210, please surface the new code formatter option
+
+Once the code formatter is fixed, the code formatter preference page should surface it. I'll try to provide a patch to get accustomed with this code.

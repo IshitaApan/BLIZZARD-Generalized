@@ -1,0 +1,3 @@
+[quick fix] Provide quick fix for incorrect @Override annotation
+
+Version: 3.3.0 Build id: I20060922-0010 If you specify an @Override annotation on a method that does not override a method in a superclass you correctly get a compiler error stating as much. It would be nice if there were a quick fix for this problem to remove the offending annotation. Another possible fix would be to add the missing superclass method, but this possibly less useful. A similar fix could be provided when you specify an annotation in the wrong position (like on a constructor)

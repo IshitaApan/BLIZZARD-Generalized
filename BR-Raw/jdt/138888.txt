@@ -1,0 +1,3 @@
+view history should use a radio menu items, not check items
+
+N20060426 Several views have a history drop down in their tool bars: Type Hierarchy, JUnit, Search views. The drop down typically marks the currently active element with a check mark. We should use a radio-style decoration instead of a check mark, since only one element can be active at any time. This is not so much an issue on win32, but on GTK, the decoration looks funny - will attach a shot.

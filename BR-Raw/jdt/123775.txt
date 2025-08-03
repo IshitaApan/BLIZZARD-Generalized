@@ -1,0 +1,3 @@
+[cleanup] Provide Select All/Deselect All/Select Default buttons on page to select fixes
+
+I20060105-0800 For better usability, there should be buttons to control the selection behavior, eg. to execute one fix only (removing all unnecessary NLS tags)

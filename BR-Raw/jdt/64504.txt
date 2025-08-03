@@ -1,0 +1,3 @@
+"Foreground color for potential matches" preference has no effect
+
+I20040528-0010: Preferences > Search > Foreground color for potential matches The color preference has no effect on potential matches in the search results view. Potential matches are always black. P.S. A quick way to generate a potential match: - file a/A.java: package a; public class A { B b; } - file b/B.java package b; public class B{} - search for references to b.B

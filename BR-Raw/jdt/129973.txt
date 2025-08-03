@@ -1,0 +1,3 @@
+[JUnit] Leaking TestCaseElements
+
+I20060228 After removing all terminated test runs (and none was running), I still had 19384 instances of TestCaseElement (counting for 775 360 bytes).

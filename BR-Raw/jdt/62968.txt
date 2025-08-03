@@ -1,0 +1,3 @@
+Source folders disappear in Package Explorer if set to Hierarchical Layout
+
+I200405190010 If I set the view to "Hierarchical Layout" in the Package Explorer my "src" folder shows as empty if there are no java files in the root package (i.e. only sub-packages at the first level). Setting to "Flat" and they appear again. Tried a new Java project to recreate, but the problem is not showing on new projects. PB

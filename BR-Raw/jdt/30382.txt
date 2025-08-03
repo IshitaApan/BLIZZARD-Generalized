@@ -1,0 +1,3 @@
+Incosistent dialog UI when specifying different output locations per source folder
+
+Please see attached image. The dialog says ".. enter a path _RELATIVE_ to 'path/to/sourcefolder'" but the "Browse" dialog generates a path that is relative to sourcefolder parent. It should be clarified, which path will be expected! I suggest removing the current confusing behavior and replace it with a consistent behavior of project relative pathes. I assume a project relative path is stored in the IClasspathEntry anyway.

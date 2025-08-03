@@ -1,0 +1,3 @@
+Breakpoint image specification is on jdt.ui instead of debug.ui
+
+The breakpoint org.eclipse.ui.editors.markerAnnotationSpecification for org.eclipse.debug.core.breakpoint is currently in jdt.ui. since there is more then jdt the adds breakpoints (CDT) the image currently shows as a red square for cdt until the jdt plugin is loaded, if cdt adds the same specifcation, then the reverse happens jdt gets a red square until the cdt plugin is loaded.

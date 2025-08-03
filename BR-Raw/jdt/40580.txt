@@ -1,0 +1,3 @@
+[navigation] Matching brace (Ctrl+Shift+P) should work anywhere in the file
+
+Now you have to be exactly behind a brace to get CTRL-SHIFT-P working. This is a bit annoying. Can't it just work every where in the file? then it just searches for the brace i am in and toggles between begin and end. for example: int foo() { // code <<< cursor here 1. if(bar()) { // code <<< cursor here 2. // some more code } } with cursor here 1 it shows the braces of the complete method with cursor here 2 it shows the braces of the if.

@@ -1,0 +1,3 @@
+Segmented view misses field comment
+
+Build 20011025 1. Create the following CU: X.java ------ public class X { 	String s1 = "s1"; //comment for s1 } 2. Make sure that 'Show Source of Selected Element Only' is selected 3. In the Outline, select field 's1' Observe: The comment doesn't appear near the field declaration.

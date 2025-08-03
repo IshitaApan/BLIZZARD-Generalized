@@ -1,0 +1,3 @@
+inline temp: should disallow iniling arrays intialized with array constants
+
+class A{ void f(A a){ A[] arr= {a}; arr[0]= null; } } cannot inline arr

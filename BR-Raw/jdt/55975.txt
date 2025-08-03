@@ -1,0 +1,3 @@
+User Libraries lose jars after save, load [build path]
+
+I20040324-0800 Saving and then re-loading the saved user library misses some of the jars. Steps: - new workspace, import org.apache.ant as binary - new java project "abc" - on abc: Properties, Buildpath, Libraries, Add Library - User Library, Next, User Libraries - New: "Ameisen" (not system) - Add Jars... - add ant.jar and ant-antlr.jar from org.apache.ant/lib - Save... into ameisen.userlibraries - Load... from ameisen.userlibraries, load "Ameisen" -> only ant-antlr.jar is loaded -> cannot remove ant-antlr.jar (no reaction, log empty)

@@ -1,0 +1,3 @@
+[quick assist] Intention "Split variable declaration" loses "final"
+
+Example: final FcFile file = lockNextFile(); Invoke the intention on variable 'file' and you get: FcFile file; file = lockNextFile(); instead of the expected: final FcFile file; file = lockNextFile();

@@ -1,0 +1,3 @@
+[hovering] Quick Fix hover cuts message
+
+Created attachment 176481 Screenshot I20100810-0800 Quick Fix hover cuts message on the constructor invocation: package xy; class InfixExpression { } class ASTNode { } class AssociativeInfixExpressionFragment { AssociativeInfixExpressionFragment() { InfixExpression ie= null; java.util.List<ASTNode> list= null; Object o= new AssociativeInfixExpressionFragment(ie, list); } }

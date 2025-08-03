@@ -1,0 +1,3 @@
+[hovering][BiDi] ComplexExpression-Hebrew data in tooltip on method name is unreadable (BIDI3.6_BDL)
+
+Build Identifier: 3.6.0 - I20100313-1044 BIDI3.6_BDL: ComplexExpression-Hebrew data in tooltip on method name is unreadable 1. Open Eclipse, create Java project and java class inside the project 2. Declare some Hebrew-named method which recieves two Hebrew-named parameters of Hebrew-named types 3. Put mouse on the method's declaration and examine the appeared tooltip Result: Hebrew data became unreadable (see attached screenshot) Reproducible: Always

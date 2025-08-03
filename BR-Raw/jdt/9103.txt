@@ -1,0 +1,3 @@
+Search reports no references to SWT.Help
+
+1) Open class SWT 2) Select field Help 3) References>Workspace Nothing found

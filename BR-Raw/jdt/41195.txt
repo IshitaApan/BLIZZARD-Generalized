@@ -1,0 +1,3 @@
+ASTRewrite: strange output when deactivating part of edits
+
+I20030730++ - create class package p; class A { 	int field; } - select field -> Encapsulate Field - go to preview page - open tree for A and only select Add Getter Method. ==> observe the output: class A { 	int field;int getField() { 		return field; 	} }

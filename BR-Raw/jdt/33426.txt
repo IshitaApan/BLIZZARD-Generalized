@@ -1,0 +1,3 @@
+Refactoring Dialog should have two lines high message line
+
+RC1 The new refactoring dialog is affected.

@@ -1,0 +1,3 @@
+JDIDebugModel still using types for breakpoints
+
+This should be changed to just check on a type name. The current implementation is doing an equality check on a type and a type name.

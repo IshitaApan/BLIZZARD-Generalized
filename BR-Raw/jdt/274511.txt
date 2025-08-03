@@ -1,0 +1,3 @@
+[call hierarchy] improve context menu
+
+I20090429-1800. The Call Hierarchy's context menu is confusing: the 'Copy Expanded Hierarchy' should be together with the other copy/paste actions. The confusion is now more prominent with the new 'Expand with Constructors'.

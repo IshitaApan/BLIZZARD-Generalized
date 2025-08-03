@@ -1,0 +1,3 @@
+[clean up] Clean up requires two passes to add 'final'
+
+When cleanup changes legacy for loops to use the new foreach format (i.e.: "for (Type x : collection_of_x) ..."), it does not add the initial 'final' keyword unless a second pass is made, changing the code to "for (final Type x : collection_of_x) ..."

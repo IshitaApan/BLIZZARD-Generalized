@@ -1,0 +1,3 @@
+[content assist] Regression: Javadoc popup not displayed for constructors
+
+Given: Tracker tracker = new Tracker(<<CONTENT ASSIST>>); The 4 proposals are tracker's two constructors, and 2 anonymous inner class entries. The javadoc for Tracker's constructors only get displayed if I select the anonymous suggestions. I tried other classes and got the same behavior.

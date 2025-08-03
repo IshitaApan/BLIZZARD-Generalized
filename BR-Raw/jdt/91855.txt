@@ -1,0 +1,3 @@
+Duplicate members in JDT views
+
+I20050414-11..-gtk + ZRH export of 20050418 - In a Java5 project, open java.lang.StringBuffer - Note that some of the overloaded append and insert methods appear twice

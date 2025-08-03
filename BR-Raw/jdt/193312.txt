@@ -1,0 +1,3 @@
+[introduce parameter object] Scriptable refactoring not implemented
+
+The current introduce parameter object does not create a valid script.

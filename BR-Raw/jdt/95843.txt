@@ -1,0 +1,3 @@
+[open type] Open Type dialog re-selects selected item.
+
+Version: 3.1.0 Build id: I20050509-2010 When opening a type in the open type dialog on M7, if you type in text that does not change the current selection (i.e. continue typing already matched text) the dialog re-selects the item and causes a lot of flashing.

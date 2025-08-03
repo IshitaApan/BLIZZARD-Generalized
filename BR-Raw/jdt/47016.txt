@@ -1,0 +1,3 @@
+JDT new wizards do not follow schema [code manipulation]
+
+20031119 The JDT new wizards all have an extra tag "javatype" which does not follow the schema from org.eclipse.ui.newWizards. If this is useful to you we should consider adding an "args" tag to the new wizards for general use.

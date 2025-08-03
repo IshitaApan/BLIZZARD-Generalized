@@ -1,0 +1,3 @@
+M7: JUnit assumes that development mode includes "bin" folders
+
+JUnitLaunchConfiguration.java, starting at line 127: if (BootLoader.inDevelopmentMode()) { // assumption is that the output folder is called bin! List junitEntries= new ArrayList(); junitEntries.add(Platform.asLocalURL(new URL(url, "bin")).getFile()); //$NON-NLS-1$ If the plug-in is in the workspace as binary, or with linked content only, the bin folder does not exist, and line 130 quits with an IOException.

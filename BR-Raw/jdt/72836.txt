@@ -1,0 +1,3 @@
+[refactor] InLine simple method with "this." created extra code
+
+For example, start with: public class InLineTest { private void foo() { System.out.println(); } private void bar() { this.foo(); } } Select foo() to in-line and you get: public class InLineTest { private void bar() { InLineTest r = this; // THIS EXTRA LINE IS NOT NEEDED AT ALL! ;-) System.out.println(); } } Version 3.1M1.

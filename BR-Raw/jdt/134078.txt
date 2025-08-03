@@ -1,0 +1,3 @@
+Resize behavior of Cleanu Up dialog is bad
+
+I20060330-0010 When shrinking the dialog it gets two horizontal scroll bars one of which gets partially hidden.

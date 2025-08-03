@@ -1,0 +1,3 @@
+Patch for resizable Type Hierarchy History
+
+see attachment

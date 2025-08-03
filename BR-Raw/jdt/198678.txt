@@ -1,0 +1,3 @@
+[reorg] Wrong message for copy of closed project
+
+Take a closed project and copy it. Paste it to the workpsace. The messagge is:"Destination Folder must be accessible". But is the source that is not accessible.

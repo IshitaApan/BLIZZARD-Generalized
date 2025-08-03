@@ -1,0 +1,3 @@
+[Navigator] "Link with" button in Navigator doesn't scroll to current file if it's already selected
+
+If you double-click on a file to open it, scroll the navigator so that you can no longer see the highlighted file, and then click on the "Link with" button in the toolbar menu, the navigator doesn't scroll to make the file visible. Clicking it repeatedly (to turn it off and on) doesn't scroll either. Intuitively one would expect that if linking is off and you click the button to turn it on, then the currently edited file should be made visible in the Navigator. Package Explorer works the same way.

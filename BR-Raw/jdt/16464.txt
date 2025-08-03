@@ -1,0 +1,3 @@
+Yes To All should come before No
+
+Build 20020508 I just changed a couple of places in UI where we had a Yes/No/Yes To All/Cancel prompt. They now use Yes/Yes To All/No/Cancel. Should fix up occurrences in JDT as well. Suggest searching for refs to IDialogConstants.YES_TO_ALL_LABEL.

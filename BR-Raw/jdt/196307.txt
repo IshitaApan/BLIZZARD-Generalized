@@ -1,0 +1,3 @@
+[refactoring] 'Refactor > Create Script' silently fails and leaves empty script
+
+I20070710-1416 'Refactor > Create Script' silently fails and leaves empty script if I try to export a refactoring script for org.eclipse.jdt.ui.tests.refactoring It looks like an exception is swallowed in CreateRefactoringScriptWizard.writeRefactoringDescriptorProxies(..)

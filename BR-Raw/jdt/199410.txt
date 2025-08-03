@@ -1,0 +1,3 @@
+[content assist] Parameter hints not working for abstract constructor
+
+In I20070809-0010. I have the following code in my createPartControl(*): 		final Action a = new Action() { 			public void run() { 				System.out.println("Run away!"); //$NON-NLS-1$ 			} 		}; using org.eclipse.jface.action.Action. When I put my cursor in Action(^) and hit CTRL+SPACE I see the list of constructors I can use. Selecting one pops up the Override/Implement methods dialog and doesn't leave me with the contructor "parameter tooltips" like I expected. It might have something to do with Action being declared abstract ... but I've already made it concrete. PW

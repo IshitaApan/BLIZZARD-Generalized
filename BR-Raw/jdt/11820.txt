@@ -1,0 +1,3 @@
+[find/replace] find in scope - java only or not
+
+is find in scope limited to java editor? if so - then this option should be disabled when i open the dialog in other places if not, then the color preference should be move out of java editor and chacking 'Selected Range' in the dialog should actually do someting (currently it just clears the selection without even coloring it)

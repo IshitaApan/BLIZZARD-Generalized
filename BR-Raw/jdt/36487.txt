@@ -1,0 +1,3 @@
+call hierarchy: drop should set input
+
+dropping a method to the call hierarchy view should have the same effect as 'focus on'

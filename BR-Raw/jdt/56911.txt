@@ -1,0 +1,3 @@
+JUnit socket communication uses wrong encoding [JUnit]
+
+M8 socket communication between client and server of jdt.junit uses default encoding. This does not work in general because arbitrary Unicode strings are sent between client and server and the default encoding may not be Unicode preserving.

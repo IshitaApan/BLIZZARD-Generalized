@@ -1,0 +1,3 @@
+[clean up][infrastructure] Show hit ctrl-enter message
+
+See Bug 113333 [api][content assist] API for setMessage in ContentAssistant without cycling mode enabled Use it to show 'hit control-enter' message in status line of proposal pop up.

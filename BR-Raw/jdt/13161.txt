@@ -1,0 +1,3 @@
+Javadoc wizard: Message on Export wizard page not conforming to others
+
+Build 20020409 All other export operations tell the user what the wizard does. Javadoc wizard says that it's a wizard ("Javadoc Generation Wizard"). It should tell the user what it is going to do.

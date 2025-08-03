@@ -1,0 +1,3 @@
+[misc] 'Goto Matching Bracket' fails when 'Show Source of Selected Element Only' is selected
+
+When the 'Show Source of Selected Element Only' button is pressed and the editor is narrowed down to the selected method the Goto Matching Bracket action fails. It reports 'No Matching Bracket' found in the status bar. Invoking the same action on the same bracket when the editor shows the whole of the source file works as expected.

@@ -1,0 +1,3 @@
+Rerunning single test with keepalive: no indication when test run has finished [JUnit]
+
+I200411240800 I launch tests in debug mode with 'Keep JUnit running ...' enabled. When rerunning single tests (test's context menu > Run), there's no indication when the test run has finished. If the test produces a different result than the last time, the user can maybe spot a change in the failure trace pane - otherwise, there's no sure way to tell whether the test has finished (apart from looking at the CPU load ;-). I would expect this: - view title becomes italic during the test run, and upright after end of run - view's ContentDescription changes to $test_name$ and then to "Finished after $not_so_many$ seconds"

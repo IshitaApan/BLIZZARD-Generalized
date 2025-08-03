@@ -1,0 +1,3 @@
+[common navigator] action groups are not disposed
+
+I20081202-1812. All Java action (groups) are leaked when the Project Explorer is closed.

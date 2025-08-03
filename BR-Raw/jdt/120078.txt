@@ -1,0 +1,3 @@
+[clean up][infrastructure] rename Convert*LoopProposal as Convert*LoopOperation and move to corext
+
+Version: 3.2.0 Build id: I20051206-1200

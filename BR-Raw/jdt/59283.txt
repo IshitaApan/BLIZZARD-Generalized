@@ -1,0 +1,3 @@
+Introduce Factory misses references in depending project
+
+20040420 1. do 'Introduce Factory' on OldASTRewrite(ASTNode) in jdt.corext.dom 2. No updates in the test projects (org.eclipse.jdt.tests.ui) that require jdt.ui and have references to the constructor

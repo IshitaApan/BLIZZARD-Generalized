@@ -1,0 +1,3 @@
+NamingConventions.suggestXXXNames should call suggestVariableNames()
+
+The old API NamingConventions.suggestXXXNames() should call the new API NamingConventions.suggestVariableNames().

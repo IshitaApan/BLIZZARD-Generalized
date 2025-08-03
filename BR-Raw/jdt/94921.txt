@@ -1,0 +1,3 @@
+Inconsistent hyperlink descriptions in Java Editor preference page [preferences]
+
+I20050509-2010: Typing: Hover of compiler warnings and spell checking preferences links show same description Code Assist: Missing hover for restricted references link Syntax Coloring: Wrong description for text editors link

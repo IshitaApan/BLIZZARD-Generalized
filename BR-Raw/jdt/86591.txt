@@ -1,0 +1,3 @@
+Don't Use Internal Workbench Code in tests
+
+N200502250010 see: I've fixed the compile error in N20050225-0010 by inlining the string but there are other areas that can break any time.

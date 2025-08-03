@@ -1,0 +1,3 @@
+move method prompts for parameter name even if not needed
+
+M4 test pass (I20041214-2000-gtk) 1. have the type below 2. move 'method' to 'Inner' note that method does not reference anything from type 'Test', and the refactoring correctly does not introduce a parameter to reference the original type. The dialog that comes up first still prompts me for a name of that parameter, which could be confusing. Also, since I can specify the parameter, I may also want to specify javadoc for it?

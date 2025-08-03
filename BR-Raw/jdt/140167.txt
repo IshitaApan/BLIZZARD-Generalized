@@ -1,0 +1,3 @@
+build path: add source folder acts funnily if an existing folder name is chosen
+
+3.2 RC2 See also bug 140164. - Have a project with source folders S and normal folder F. - open the build path properties on the source folder page - Add a source folder, choose to 'Create New Folder' - as name enter 'F', press 'OK' > note: in the folder display, there are now two subfolders of the project that have the name 'F' - press OK > the previous normal folder F is now a source folder < expected: entering the name of an existing folder should give an error.

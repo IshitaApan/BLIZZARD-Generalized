@@ -1,0 +1,3 @@
+Infer Type Arguments should respect existing type arguments
+
+public class Z { 	 	void foo() { 		List l= new ArrayList(); 		bar(l); 		l.add(new Object()); 	} 	 	void bar(List<String> l) { 		 	} } In the following example generify converts the list to List<Object> which produces a compile error. We should leave the code unchanged in this example.

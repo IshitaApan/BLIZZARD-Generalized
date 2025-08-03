@@ -1,0 +1,3 @@
+[quick fix] remove generic type parameter
+
+New quick fix suggestion: remove generic type parameter. This quick fix would be usable while fixing errors like: "The type Foo is not generic; it cannot be parameterized with arguments <Bar>"

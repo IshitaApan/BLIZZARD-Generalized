@@ -1,0 +1,3 @@
+[build path] no feedback when removing source attachement
+
+I20061212-0010 1. expand rt.jar on the 'Libraries' build path page 2. click 'Remove' ==> the entry is not update (still shows the source location) If you den select the entry again, the button is grayed out. Also, when hitting 'Edit...' no location is shown. Look like an update problem of the entry text and the 'Remove' button.

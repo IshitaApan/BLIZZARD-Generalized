@@ -1,0 +1,3 @@
+api: IType::getMethod - how to distinguish constructors in this case?
+
+it is legal to have both a constructor and a method with the same signature however, IType::getMethod does lot let me distinguish between the 2 cases given this code: class A { public A() {} protected void A() {} } call to IType::getMethod("A", new String[0]) returns the constructor (and it does, as suspected, return the method if i revert them in the source file :-) ) i think a new method on IType IMethod getMethod(String name, String[] parameterTypeSignatures, boolean constructor); would solve this problem

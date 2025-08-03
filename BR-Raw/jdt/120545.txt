@@ -1,0 +1,3 @@
+Misleading constant: CODEASSIST_TIMEOUT_FOR_PARAMETER_NAME_FROM_ATTACHED_JAVADOC
+
+I20051213-0010 CODEASSIST_TIMEOUT_FOR_PARAMETER_NAME_FROM_ATTACHED_JAVADOC is not restricted to code assist but affects all clients using BinaryMethod.getParamterNames() which is OK. To be correct we should rename the constant to: TIMEOUT_FOR_PARAMETER_NAME_FROM_ATTACHED_JAVADOC.

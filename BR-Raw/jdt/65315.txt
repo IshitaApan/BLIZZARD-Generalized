@@ -1,0 +1,3 @@
+[validateEdit] CVS-Edit: refactoring doesn't show request dialog
+
+RC1 1. On the CVS preference page check 'Configure projects to use Watch/Edit' and 'Send a CVS edit notification to the server' and 'Always prompt' 2. Check out a CVS project and open a file in the editor 3. Rename the type -> no 'Perform Edit' request dialog is shown, although I said 'Always prompt'

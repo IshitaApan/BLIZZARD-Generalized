@@ -1,0 +1,3 @@
+[quick assist] convert to StringBuilder
+
+NEW refactoring "Convert to StringBuffer/StringBuilder..." String a = "aaa " + bbb + " ccc " + ddd + ...; method( a, ... ) ===> StringBuilder a = new StringBuilder( <guess initial size by SUM(length(fixed strings))> ); a.append( "aaa " ); a.append( bbb ); ... method( a.toString() );

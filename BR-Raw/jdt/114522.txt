@@ -1,0 +1,3 @@
+[clean up] wrong selection when starting clean up
+
+3.2 M3 test pass - have a CU open with a couple of quick-fixable problems - choose Source>Clean up > the selection dialog opens > the CU is correctly checked in the tree > expected: - any tree node that is only partially checked is expanded - the tree selection is on the first tree node that has at least one (partially) checked sibling and is itself (partially) checked. (example: - for a single CU, the CU would be selected - for two CUs in the same package, the package is selected - for two CUs in different projects, the first project is selected) - if possible: the project containing the selection (as above) is visible < actual: - the selection is on the first project

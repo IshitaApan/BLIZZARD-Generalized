@@ -1,0 +1,3 @@
+Export Jar takes forever [jar creation]
+
+The "Saving Files..." part of the Export Jar wizard takes several minutes. This could be because the jar I am rebuilding in on my classpath... I do not know since the feedback only says "Saving Files...". So, perhaps only better feedback is needed if e is recompiling my project. Version: 2.1.0 Build id: 200303202147

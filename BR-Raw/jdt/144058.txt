@@ -1,0 +1,3 @@
+[build path] Default Java project layout should create separate source and output folders
+
+Eclipse 3.2 Currently, when a user creates a new Java project, the default project layout is set to use the project's folder as the root for source and output class files. This creates a very cluttered directory structure for the user, should there ever be a need to examine the project's folder in the "Navigator" view or in some file manager. Most developers creates a separate build folder when compiling with Ant, so having this similar "feature" activated from the get-go as the default will teach new (Java) programmers how to properly organize their files in the event that they are not using an IDE.

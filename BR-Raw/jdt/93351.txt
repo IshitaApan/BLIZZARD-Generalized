@@ -1,0 +1,3 @@
+[new wizard] Need way to change label texts in NewTypeWizardPage
+
+I am using org.eclipse.jdt.ui.wizards.NewTypeWizardPage as a base for a wizard for creating java-like types. I use some of nice controls like the SuperClassControls but I would like to change the left label text to something more descriptive for my use case. Unfortunately, I can't currently do this as all NewTypeWizardPage controls are private and no accessor methods for labels are available. Trivial public accessor methods that allow me to change the labels would be nice!!

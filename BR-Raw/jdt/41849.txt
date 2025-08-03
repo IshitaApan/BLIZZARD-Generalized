@@ -1,0 +1,3 @@
+[typing] LinkedPositionManager sets illegal positions
+
+Eclipse: 200308201005 on Mac OS X Jaguar Files I'm editing and saving are not being saved to disk. There are no errors in the logs. It appears that this is an editor problem, because the compiler compiles what is on disk. Chang

@@ -1,0 +1,3 @@
+Support with replace with previous
+
+This is likely a dup, but filed as a reminder. The replace from local history action should provide a replace with previous action.

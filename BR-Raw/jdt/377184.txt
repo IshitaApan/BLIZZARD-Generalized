@@ -1,0 +1,3 @@
+[content assist] Override method proposal does not format in subclass with type parameter
+
+Override method proposal does not format the resulting method in cases where a subclass has a type parameter and forwards it to the superclass. Example: package bug; class Super<T> { void foo(T t) { } } public class Impl<T2 extends Number> extends Super<T2> { foo } Result: void foo(T2 t) {}; Problem is a bad subsignature implementation in Bindings#isEqualMethod(IMethodBinding, String, String[])

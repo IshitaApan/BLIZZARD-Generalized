@@ -1,0 +1,3 @@
+Rename package -> selection incorrect
+
+1. select text in a .java file 2. rename the package of that file using the rename menu option 3. notice that the selection has moved Perhaps because selection index isn't updated when the .java file text changes to reflect the new package.

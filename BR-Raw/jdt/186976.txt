@@ -1,0 +1,3 @@
+[preferences] use SWT.COLOR_WIDGET_BACKGROUND for disabled backgrounds; use SWT.COLOR_DARK_GRAY for disabled foregrounds
+
+SWT.COLOR_WIDGET_BACKGROUND should be used for "disabled" backgrounds of Text, StyledText, List etc. > search/replace on JDT codebase "SWT.COLOR_GRAY", "SWT.COLOR_DARK_GRAY", "SWT.COLOR_LIGHT_GRAY", "disabled" This bug originated in bug 186161.

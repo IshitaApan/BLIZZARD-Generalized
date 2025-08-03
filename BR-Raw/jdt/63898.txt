@@ -1,0 +1,3 @@
+[reconciling] Multiple threads calling IJavaReconcilingListener#reconciled() at the same time
+
+3.0M9 + HEAD - enable "close editors automatically" - set "n. of open editors" to 1 - quickly switch between CUs -> the old reconciling thread may still run while the new one is launched I found IOOBs and NPEs while running in the semantic highlighting reconciling listener which are likely caused by this. Bug 34800 discusses a similar problem.

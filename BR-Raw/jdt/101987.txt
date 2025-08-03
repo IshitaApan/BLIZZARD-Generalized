@@ -1,0 +1,3 @@
+Convert anonymous: does not add comments
+
+In I20050627-1435. Convert anonymous to nested does not add comments to the new field if specified in the preferences. I would expect comments on: - The new type - Any generated constructor - Any generated field

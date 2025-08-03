@@ -1,0 +1,3 @@
+Change the order of Focus on... and Focus on Selection
+
+In the context menu of the type hierarchy Focus on Selection should come before Focus...

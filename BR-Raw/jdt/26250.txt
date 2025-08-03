@@ -1,0 +1,3 @@
+inline method - breaks code when inlining virtual methods [refactoring]
+
+I-20021113 w2k w/ jdt.core patch: When inlining the method Test0.getMessage(), there could be some warning that overridden methods exist in the workspace. In general, this is only safe if the method is private or final. public class Test0 { 	private static class Inner extends Test0 { 		String getMessage() { 			return "overridden"; 		} 	}		 	String getMessage() { 		return "original"; 	} 	void printMessage() { 		System.out.println(getMessage()); 	} 	public static void main(String[] args) { 		new Inner().printMessage(); 	} }

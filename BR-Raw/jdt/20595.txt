@@ -1,0 +1,3 @@
+Preference listeners should use equals, not ==
+
+F3 build From bug 20471, the following methods use == instead of equals when comparing property names in an IPropertyChangeListener. There is no guarantee that the property names are identical. In particular, when preferences are imported, the strings are read from a file and are not interned (see bug 20534). Recommend considering for F4. propertyChange(PropertyChangeEvent) - org.eclipse.jdt.internal.junit.ui.TestRunnerViewPart propertyChange(PropertyChangeEvent) - org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart

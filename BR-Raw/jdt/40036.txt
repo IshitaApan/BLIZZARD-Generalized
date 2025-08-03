@@ -1,0 +1,3 @@
+[misc] <clinit>() shows up in outline prompter
+
+build I20030710 - open a binary type with a static initializer, e.g. PluginClassLoader - Ctrl+O - <clinit>() shows up in the list (constructors are OK though) - open Outline view - <clinit> is not shown

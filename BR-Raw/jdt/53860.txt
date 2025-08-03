@@ -1,0 +1,3 @@
+Extract Local does not work on static parameter in call to constructor [refactoring]
+
+I20040304 Extract Local on "SWT.NORMAL" in the following statement does not work: fRanges.add(new StyleRange(j, word.length(), fLocalColor, null, SWT.NORMAL)); Error Message: Cannot extract this name - try selecting the whole instance creation expression.

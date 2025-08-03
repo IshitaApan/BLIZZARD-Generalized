@@ -1,0 +1,3 @@
+"Show source of selected elements only" for the Ant Editor
+
+In the java perspective, browse to a java type file. Enable "Show source for selected elements only". Now browse to a build.xml file. The editor will only show the element (target, classpath etc) that you have selected in the outline. This is reasonable. However, you cannot toggle the "Show source of selected elements only" button. Workaround: browse back to a java type file, snap out of segmented view, browse back. Solving bug 32659, solves this one (but it is not the only way to do it). Platform: W2K, 3.0M8

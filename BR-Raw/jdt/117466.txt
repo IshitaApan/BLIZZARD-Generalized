@@ -1,0 +1,3 @@
+[build path] Edited linked source can't be reedited
+
+Version: 3.2.0 Build id: I20051116-1332 Java Project -> Configure Build Path Add a link to a source !link can't be edited Now close properties page and reopen properties page for build path Link can be edited Edit link !link can't be edited anymore

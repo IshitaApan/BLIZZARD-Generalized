@@ -1,0 +1,3 @@
+[render] colored labels: inherited not well distinguishable
+
+I20070502-0010. If pressing Ctrl+O Ctrl+O the inherited members are not well distinguishable as they are grey like the qualification. We should use a different color. Currently I like the non-colored version better as the main diff I like to see is the between inherited and non-inherited members i.e. the diff between Ctrl+O and Ctrl+O Ctrl+O.

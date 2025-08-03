@@ -1,0 +1,3 @@
+[jar exporter] confusing UI to select relative destination
+
+3.3.2 see also bug 37197. The UI is very confusing when you try to select destination for a JAR relative to the workspace. There is no GUI indication for it, the Browse button opens the OS file dialog. The way I found it is by searching bugzilla, which is suboptimal as a user guidance. To get relative destination, the user is supposed to type (no dialog to help you select!) the destination without the leading "/" (for example "myproject/myjar.jar"). But this is very very unituitive, because on the second page of the wizard, relative destination (Description file) does use the leading "/" (for example "/myproject/myjar.desc")

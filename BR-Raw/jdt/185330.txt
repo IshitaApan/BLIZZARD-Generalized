@@ -1,0 +1,3 @@
+[introduce parameter object] does not 'this' qualified field accesses in setter
+
+I20070502-0010 Given: package test; public class E01 { 	public E01(int number) {} } 1. Select constructor E01 2. Introduce parameter object 3. Check 'generate setters', accept other defaults Is: public void setNumber(int number) { 	number = number; } Should: public void setNumber(int number) { 	this.number = number; } Major since with the default settings this only leads to a compiler warning and not an error.

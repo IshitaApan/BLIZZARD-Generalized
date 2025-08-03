@@ -1,0 +1,3 @@
+[breadcrumb] Allow to move back to editor via key binding
+
+We should reuse the 'Show in Breadcrumb' action / key binding for this (but with different label).

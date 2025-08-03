@@ -1,0 +1,3 @@
+Show in Navigator doesn't work for non-java resources
+
+1) select logo.gif in JUnit 2) show in navigator -> action

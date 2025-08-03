@@ -1,0 +1,3 @@
+[nls] NLS wizard broken when editing translated strings
+
+20080312 It seems that fix for bug 202815 broke the NLS wizard when editing changed files - create file public class Test { 	String comment= "Hello"; } - NLS the file, use defaults - Open the NLS wizard on the file again - In the first column, change "Hello" to "Hello1" Wizard complains about 'Conflicting entries: Same key but different values'

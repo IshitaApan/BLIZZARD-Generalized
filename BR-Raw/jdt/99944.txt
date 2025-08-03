@@ -1,0 +1,3 @@
+Quick Fix offers to change type to List<> [quick fix][5.0]
+
+I20050610-1757 (3.1RC2) import java.util.List; class Try { void m(List<? extends Number> arg) { Lsit raw= arg; } } The first quick fix offers to change 'Lsit' to 'List<>'. The problem is that arg is a capture type and the quick fix does not seem to use the import structure to get a valid type from the capture.

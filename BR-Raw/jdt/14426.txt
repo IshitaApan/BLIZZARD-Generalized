@@ -1,0 +1,3 @@
+junit: status line on finish could give more details
+
+time is less interesting than numbers of failures and errors

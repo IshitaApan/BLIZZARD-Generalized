@@ -1,0 +1,3 @@
+Convert Line Delimiters should disable on read-only files
+
+20020521 1. Make a CU read-only, open it in the editor 2. Source->Convert Line Delimiters actions are enabled, should be disabled

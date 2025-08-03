@@ -1,0 +1,3 @@
+NamingConvention: Tests fail
+
+20030122 I changed our tests to use NamingConvention. There are failuers, please check. NameProposerTest in jdt.ui.tests

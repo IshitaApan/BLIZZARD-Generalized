@@ -1,0 +1,3 @@
+[preferences] Should be able to export from 'Formatter' preference page
+
+I200312162000 I am used that I can press Export and Import on the preference dialog and get the formatter prefs as well. We now introduced another page where the user has to do this manually. This might change with the new settings story. In addition, I cannot export my formatter prefs at once: I have to export every single profile manually.

@@ -1,0 +1,3 @@
+Refactorings with wizard based user interface have bad dialog sizes
+
+I20060214-0010 (old problem of Pull Up, became more apparent with Clean Up Wizard) Refactorings with RefactoringWizard#WIZARD_BASED_USER_INTERFACE ('Clean Up' and 'Pull Up') always remember just one dialog size. They should make the input page as compact as possible and remember the preview pages size like the dialog based user interface already does. I think the problem is that RefactoringWizardDialog misses some important tweaks of RefactoringWizardDialog2.

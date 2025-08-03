@@ -1,0 +1,3 @@
+[breadcrumb] Test failure in org.eclipse.jdt.ui.tests.leaks.JavaLeakTest.testJavaEditorBreadcrumbCloseOneOfTwo2()
+
+I20080502-0100 This test fails on the Build machine and on my machine but not in ottawa. Investigation with yourkit reveals, that the failure is real: an instance of CompilationUnitEditor is leaked. Removing the BuildActionGroup from the JavaEditorBreadcrumbActionGroup makes the leak go away and the test green again. Need to investigate a fix and why this test does not fail in ottawa.

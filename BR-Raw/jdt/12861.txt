@@ -1,0 +1,3 @@
+Replace from local history does not always preserve line delimiters.
+
+If a history file contains the two line delimiters '\r\n\r' the second '\r' is not preserved.

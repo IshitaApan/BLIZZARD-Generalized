@@ -1,0 +1,3 @@
+Documentation (Javadoc) location selector does not show up with ZIP files
+
+When having a ZIP (not JAR) file included as library there can no documentation location be selected on its properties page. When I rename the file to "*.jar" then it works.

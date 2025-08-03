@@ -1,0 +1,3 @@
+[surround with] Surround With menu: Sort code templates
+
+As a part of (I believe) 135285, The Surround With... menu was created, and the proposals were removed from Quick Fix. This causes two issues: 1) users must learn another keystroke, and 2) the sort order to access the templates is completely different. Can we make this available as an option? Or, and I know this is not easy, what about making Ctrl+1 cycle in a way similar to how Ctrl+Space now works. Pat.

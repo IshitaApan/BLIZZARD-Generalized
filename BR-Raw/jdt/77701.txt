@@ -1,0 +1,3 @@
+'enum' declaration entry should not appear in 'Line wrapping' page of code formatter dialog preferences
+
+JDT/Core code formatter does not support alignements for enums. So, it should not exist any entries for 'enum' declaration in code formatter preferences dialog...

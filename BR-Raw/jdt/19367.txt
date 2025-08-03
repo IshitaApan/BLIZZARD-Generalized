@@ -1,0 +1,3 @@
+Generate Getter and Setter dialog for final fields takes the wrong action
+
+As of F2, when generating a getters and setters for final fields, a dialog asks if it's "OK to only create getter". The options are Yes, Yes to All, No, and Cancel. It looks like selecting "Yes to All" actually acts like No (i.e. the setter gets created), and vice versa.

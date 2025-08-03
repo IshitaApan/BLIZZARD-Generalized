@@ -1,0 +1,3 @@
+Sort members should warn about possible semantic changes
+
+I20050509-2010 Sort members changes the order of the literals in enumerations, which changes the values of the literals and can impact compatibility between network clients and storage formats. Also under some circumstances the initialization order of fields can affect the result.

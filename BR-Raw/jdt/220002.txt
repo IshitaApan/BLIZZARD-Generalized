@@ -1,0 +1,3 @@
+[hovering] Add 'Show in Properties File' action to NLS key hover
+
+I20080219-1124 We can add an action in the toolbar or a link in the hover to open the properties file and go to the key. Same action as Ctrl-Alt-Click. But Ctrl-Alt-Click is not easy to discover. With the new AbstractInformationControl this should be almost trivial to implement.

@@ -1,0 +1,3 @@
+[reorg] Two confirmation dialogs displayed when using model provider in Eclipse
+
+Hi, My plugin uses the extension point org.eclipse.core.resources.modelProviders to provider a model provider that Eclipse will call. That is, eclipse call my model provider's method 'public IStatus validateChange(IResourceDelta delta, IProgressMonitor monitor)'. My validateChange(...) return an IStatus of IStatus.WARNING that causes Eclipse to put up a warning (Yes/No) dialog. This dialog is display by the method IDE.promptToConfirm(...). Upon clicking on "Yes", there is another confirmation dialog displayed. There should only be one? no?

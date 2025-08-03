@@ -1,0 +1,3 @@
+[render] Package Explorer file icons not updated when file associations change
+
+build I20050426 When the default file associations change (e.g. via the File Associations preference page), the Package Explorer is left showing the icons for the old associations. I just fixed this (ancient) bug in for the Navigator (see bug 2175), but the Package Explorer still has the problem. The PE apparently does not use WorkbenchLabelProvider or it would have gotten the fix for free. Should check the browser views too.

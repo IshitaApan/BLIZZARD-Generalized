@@ -1,0 +1,3 @@
+Enter key not working in packages view
+
+Build 20020612 (F3) Linux-GTK Selecting a file in the packages view and hitting the ENTER key does not open the file. Unless there's another way to open a file without the mouse, the is a serious accessibility problem.

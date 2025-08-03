@@ -1,0 +1,3 @@
+Extract method refactoring remove local variable definition resulting in compilation errors [refactoring]
+
+I'll attach a before after pictures. Øyvind

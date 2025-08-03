@@ -1,0 +1,3 @@
+jar no longer exported after attach source
+
+1206 1. Create a project test. 2. Add a jar (say resources.jar) to the classpath and export the entry 3. Attach source (say resourcessrc.zip) to the jar. Notice, the jar is no longer exported - this information is discarded during the attach source process.

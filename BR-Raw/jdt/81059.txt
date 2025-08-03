@@ -1,0 +1,3 @@
+[5.0] Preview on method declaration in annotation with int return value leads to platfrom crash
+
+Using I200412142000 public @interface RequestForEnhancement { int id(); String synopsis(); String engineer() default "[unassigned]"; String date(); default "[unimplemented]"; } On renaming id() to id2 and pressing 'preview', the platform freezes and does no longer respond.

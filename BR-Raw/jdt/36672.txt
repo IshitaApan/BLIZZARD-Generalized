@@ -1,0 +1,3 @@
+call hierarchy: Should show a progress bar
+
+The Call Hierarchy view should show a progress bar when searching for callers/callees, allowing the user to abort the search.

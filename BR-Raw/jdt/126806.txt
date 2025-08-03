@@ -1,0 +1,3 @@
+Should JDT Team content provider stop at file when expanding
+
+Currently, the Java Team content provider expands .java files to show the class within. I wonder if it shouldn't show this extra level. In the context of a Team operation, itI find this extra ebtry for each file distracting, expecially when performing an Expand All.

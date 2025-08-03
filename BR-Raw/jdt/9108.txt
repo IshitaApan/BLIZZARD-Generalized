@@ -1,0 +1,3 @@
+Preference page for templates - position of edit is awkward (minor)
+
+stable 20020125 (not really a bug - just feedback) On the Templates preference page the "Edit..." butt is poorly placed. - Initially I didn't notice it and kept trying to use what looked to to be the text/edit area at the bottom of the page - only to discover it was read only. - Now that I have found it <g>, I have unfortunately twice picked remove which is the button sandwiched right below it. Is there a way to make hte edit more obvious? Should it be to the right of the bottom txt area? Definitely needs to be away from the remove.

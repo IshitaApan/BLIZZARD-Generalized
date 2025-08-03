@@ -1,0 +1,3 @@
+[api] add support for toggling folding for IJavaElement's
+
+For tools that want to use the IJavaFoldingStructureProviderExtension, but want finer-grained control of what to collapse, it would be useful to have the following methods: - collapseElements(List<IJavaElement> elements) - expandElements(List<IJavaElement> elements) My use case is Mylar, which currently needs to set it's own folding structure provider, but with this could simply use the default one and drive the folding based on selections. Note that for selections this would only be getting called with a single element, but when a file is opened it would need to be called with a list, hance the suggest to take lists (or arrays if JDT is not moving to Java 5).

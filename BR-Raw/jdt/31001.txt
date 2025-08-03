@@ -1,0 +1,3 @@
+Filterdialog shows clipped items
+
+1) In the package explorer drop down the view menu 2) select filters 3) the filter dialog shows up Notice that the initial size of the table clips the last entry and this looks ugly. The initial size of the table should be a multiple of the item height. There is support to do this.

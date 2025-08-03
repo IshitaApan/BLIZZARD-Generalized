@@ -1,0 +1,3 @@
+Error ticks should also cover search results (1GKPVSU) [search]
+
+Search matches do not get decorated with red Xs, though it could be interesting to show. Indeed when dealing with a large set of errors, one way to navigate is through search operations. NOTES:

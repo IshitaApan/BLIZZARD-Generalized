@@ -1,0 +1,3 @@
+[JUnit] Update test suite wizard for JUnit 4: @RunWith(Suite.class)...
+
+JUnit plugin is not working as described. Follow the "Writing and running JUnit tests" help section and after you create JUnit test case with the wizzard, the new Test Suit is not detecting the newly created Test Case as an available Test Case to be added to the suite. Before closing the bug down and bouncing it back (as ~I noticed you tend to do it here) just follow the steps and see it repeated.

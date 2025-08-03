@@ -1,0 +1,3 @@
+[build path] External jar Dialog cannot set both Javadoc Location and Java Source Attachment in one iteration
+
+Add an external jar to the project. From the context menu of the jar select properties. Select Javadoc location, browse to the desired location. Select Java Source Attachment. Browse to an external file. Press OK. From the context menu of the jar select properties again. Javadoc location is empty. (At this point it can be entered again without problems)

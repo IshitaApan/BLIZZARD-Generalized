@@ -1,0 +1,3 @@
+[linked mode] Incorrect selection and caret position after rename in file
+
+I20101028-1441 Steps - Select longName - Ctrl+1 > Rename in file - Rename the variable to 'name', press enter to exit linked mode - 'n' in 'name' is selected and the caret is also placed after 'n' Correct behavior: 'name' is selected and caret placed after 'name' package test1; public class E { 	private void foo() { 		int longName = 10; //select on this line 		longName++; 		longName--; 		--longName; 		++longName; 	} } This works correctly with Ctrl+1 > Rename in Workspace. (Though if you notice carefully, for a split second it shows the same selection as Rename in File before it corrects itself.)

@@ -1,0 +1,3 @@
+[content assist] Support incremental content assist
+
+I've been spoiled by content assist. What would be a great addition would be a Unix-style "look ahead" invoked by the TAB key, like at a Unix Shell. If non-whitespace characters appear to the left of the Caret, it is unlikely that a TAB is going to be inserted in that line. This is why I think it's ok to use TAB for this. Basically, pressing TAB will be equivalent to the combination of: Control+SPACE, followed by ENTER. So, given: for (int i = 0; i < cols.length; i++) { 	Entry entry = cols[i]; 	double distance; 	 	if (entry.side == -1) { 		distance = Math.abs(baseRect.preciseX - entry.offset); 		if (distance < best) { 			bestSide = -1; 			best = dis<<CARET>> Pressing the TAB key will insert "tance".

@@ -1,0 +1,3 @@
+[junit] Edit JUnit library dialog issues
+
+I20060428-1315 Steps to reproduce: - Create a new project - Create a JUnit4 testcase in it, using the wizard - Verify that JUnit 4 container is visible under the project - Select JUnit 4, select Configure... -> Font of the current location field is not dialog font, but system font -> The dialog misses the Library wizard banner image -> The description should not talk about containers and how they resolve, but rather something like "Select the JUnit version to use in this project"

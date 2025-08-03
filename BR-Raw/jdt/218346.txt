@@ -1,0 +1,3 @@
+[package explorer] Performance problem during refresh
+
+I do some performance tests during investigation of bug 216794. The steps are the same, my sample project contains two folders with 10k files each. Steps from the bug 216794 "I create an essentially empty project, then copy a bunch of files underneath and hit Refresh." Full refresh took more than 3 minutes. And Resource#refreshLocal was only 6ms. Most of the time Eclipse spent in org.eclipse.jdt.internal.ui.viewsupport.ProblemTreeViewer#isExpandable which underneath calls org.eclipse.core.internal.resources.Container#members, what takes relatively a long time. I will attach the call tree illustrating the issue.

@@ -1,0 +1,3 @@
+Open Type dialog is missing types
+
+I can't find any of the classes in some of my packages in the Open Type(Ctrl- Shift-T) dialog. They just aren't there... Class files exist for them. 20011106

@@ -1,0 +1,3 @@
+Search string for constructor should not include constructor name [search]
+
+I20040529 1. Create package p in Java project Test 2. Create type X in p: package p; public class X { X(String s) { } X(Integer i) { } } 3. Select constructor X(String) 4. Search > Search Observe: the following search string is shown: p.X.X(String) This doesn't make sense as the name of the constrcutor can only be X. It should show p.X(String). Note that if you edit the given search string and replace String with Integer so that you have p.X.X(Integer), searching for declarations of this constrcutor will find nothing. The SearchEngine doesn't support this search string format for a constrcutor. See bug 53072 for details.

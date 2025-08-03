@@ -1,0 +1,3 @@
+Replace custom Link implementation with SWT Link
+
+I20050215-0800 Replace custom Link implementation with SWT Link. Note: improve work for translators and get rid of cutom escape chars in string.

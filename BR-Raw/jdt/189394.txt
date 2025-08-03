@@ -1,0 +1,3 @@
+[clean up] Does not remove unused local variable if assignment
+
+I20070525-0010 Given: package e; import java.util.Random; public class A { 	public void foo() { 		Random ran= new Random(); 	} } 1. Run Source>Clean Up... 2. Select 'Remove unused local variables' Is: No changes Should: 	public void foo() { 		new Random(); 	}

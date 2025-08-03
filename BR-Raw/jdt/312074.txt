@@ -1,0 +1,3 @@
+The "Link Source' wizard in the Build Path property page does not show Project Path Variables
+
+Reproducible: Always Steps to Reproduce: * In the Java perspective, right click a Java project, goto Build Path > Link Source... * Select Variables... Notice that none of the project path variables are listed (to see the project path variable list, see the property page "Resource / Linked Resources"). This is done by adding in 'AddSourceFolderWizardPage.java" line 171: PathVariableSelectionDialog dialog = new PathVariableSelectionDialog(getShell(), variableTypes); dialog.setResource(fParent); Note that internally, the resolution of that Path (if done manually) must call IResource.getPathVariableManager() instead of IWorkspace.getPathVariableManager().

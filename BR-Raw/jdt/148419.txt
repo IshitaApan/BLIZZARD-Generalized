@@ -1,0 +1,3 @@
+[clean up] convert to enhanced for loop ignores assignment to array if field access
+
+I ran the source clean up on a large body of code with the use enhanced for loop where possible option turned on. Fortunately, I examined the results of the refactoring before applying. The clean-up turned code such as this: Foo[] foos = new Foo[10]; for (int i = 0; i < foos.length; ++i) { foos[i] = new Foo(); ... set some other properties on foos[i]... } into this: Foo[] foos = new Foo[10]; for (Foo element : foos) { element = new Foo(); // this is a problem .. set some other properties on element ... } The refactoring should not be allowed if the array variable appears on the left hand side of an = sign.

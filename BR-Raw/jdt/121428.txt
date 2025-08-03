@@ -1,0 +1,3 @@
+[import rewrite] organize imports removes header comments
+
+3.2M4 This is a bad regression in 3.2M4 that may warrant a 3.2M4a version. When you run organize imports, the header comments are deleted, whether they are regular comments or Javadoc style comments. Here's a test case: --snip-- /* * comment */ import javax.imageio.ImageIO; public class Hello { 	public static void main(String[] args) { 		System.out.println("Hello world " + ImageIO.class); 	} } --snip-- Create a new java file, paste this in, save, and hit Ctrl+Shift+O or ise the context menu from the Package explorer. This may or may not be related to bug 102939, but that's an older bug. Something has definitely changed in 3.2M4 as compared to 3.2M3.

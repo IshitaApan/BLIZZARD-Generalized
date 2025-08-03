@@ -1,0 +1,3 @@
+Project Open/Close items are disabled when Package Explorer active
+
+Project Open/Close option in the Project menu is disabled in Plugin prespective.

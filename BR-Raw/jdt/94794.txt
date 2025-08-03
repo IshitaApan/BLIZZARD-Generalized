@@ -1,0 +1,3 @@
+quick fix for missing javadoc tags inserts @param at wrong position
+
+I20050509-2010 E.g. here, the @param is placed before @author, but should be placed after it: /** * Klazze * @author me */ public class Klazze<T> {} Same problem for method parameters. Here's the recommended ordering: http://java.sun.com/j2se/javadoc/writingdoccomments/index.html#orderoftags

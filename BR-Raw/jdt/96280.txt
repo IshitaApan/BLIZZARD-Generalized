@@ -1,0 +1,3 @@
+[typing] Smart paste has problems if second line has only whitespaces
+
+N20050523-0010 Paste the following into a method: void hasOneExitPoint() { } void hasTwoExitPoints(int i) { if (i < 0) callsMethodThatThrowsRuntimeException(i); }

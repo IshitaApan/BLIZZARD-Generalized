@@ -1,0 +1,3 @@
+[typing] Mysterious /*${cursor}*/ added when completing an else
+
+N20050519-0010 1. Enter the following: if (true) { } el<ctrl+space> 2. Choose "else" as the completion. 3. The result is: 		if (true) { 		} else { 			/*${cursor}*/ 		} I am not sure what ${cursor} means, but it seems like this is a bug.

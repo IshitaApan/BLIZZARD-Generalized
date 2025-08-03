@@ -1,0 +1,3 @@
+[clean up] Message dialog for every save
+
+build I20081021-0905 For our projects, we have Save Actions turned on and since I updated to this build, every time I save a Java file I get a message dialog saying that the Organize Imports save action is very slow and I may want to turn it off. I don't mind hitting the "Do not show this message again" checkbox but I wonder if perhaps the tolerance should be modified... I would assume things like formatting and organize imports would be common save actions for users.

@@ -1,0 +1,3 @@
+[syntax highlighting] Allow different colors for brackets and operators
+
+The syntax coloring preferences dialog for the Java editor has one category for "brackets and operators". I prefer having brackets with bright colors that stand out (especially braces since they help delinate code blocks), but since operators are so much more common in code, having them also be bright is distracting. Apps like JCreator and even TextPad have separate classifications for brackets and operators - Eclipse should too!

@@ -1,0 +1,3 @@
+Cannot set Preferences>Builder>Abort build preferences
+
+checking the checkbox has no effect

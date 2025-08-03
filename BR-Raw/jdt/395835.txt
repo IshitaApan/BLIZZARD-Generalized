@@ -1,0 +1,3 @@
+[General] Consolidate the code which finds the Javadoc for an element.
+
+The code to find the Javadoc for an element is currently duplicated in the classes JavadocView -> getJavadocHtml and JavadocHover -> getHoverInfo. This needs to be consolidated to a common class.

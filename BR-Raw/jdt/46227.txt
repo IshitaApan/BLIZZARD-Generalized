@@ -1,0 +1,3 @@
+MarkerResolution extension point broken?
+
+20031106 With the RCP change, the extension point org.eclipse.ui.ide.markerResolution seems to be broken. IDE.getMarkerHelpRegistry().getResolutions does not return anything.

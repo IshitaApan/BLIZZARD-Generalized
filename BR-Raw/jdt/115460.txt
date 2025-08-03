@@ -1,0 +1,3 @@
+[key binding] Move keybindings for word caret moving to dialogAndWindow context
+
+I20051102-1600 To allow a fix for bug 64665 (JDT controls with symbol names should be camel-case aware), several keybindings for org.eclipse.ui.edit.text.*word* actions should be moved to the "org.eclipse.ui.contexts.dialogAndWindow" scope (otherwise, they are not available in dialogs. I have a working implementation for bug 64665, which will be released as soon as the keybindings have been moved. I'll attach a patch.

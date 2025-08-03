@@ -1,0 +1,3 @@
+[code templates] make method name available as variable
+
+For code generation in the preferences | java | code generation | code and comments in case of exception there seems to be available only: date, dollar, exception_type, exception_var, time, todo, user, year Is it possible to make the enclosing method name accessible the exception is generated in? Thanks Ido

@@ -1,0 +1,3 @@
+Update JDT test framework to Java 1.6 (rtstubs.jar, etc.)
+
+Update the JDT test framework to Java 1.6 (rtstubs.jar, etc.)

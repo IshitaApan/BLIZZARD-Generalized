@@ -1,0 +1,3 @@
+Move Instance Method shows referenced field twice in list [refactoring] [move]
+
+I200411042000 class C { 	Other fField; 	void method() { 		fField.toString(); 	} } class Other {	 } - 'Refactor > Move' on method() -> fField is shown twice in the list of possible targets

@@ -1,0 +1,3 @@
+JUnit View: Scroll Lock does not lock list in Failure tab [JUnit]
+
+I20050104-1600 JUnit View: Scroll Lock does not lock list in Failure tab. Only locks Hierarchy.

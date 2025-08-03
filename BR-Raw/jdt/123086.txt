@@ -1,0 +1,3 @@
+Strange code assist for static imports
+
+I20060105-0800 Test case: package p; public class Decl { 	public static final int VALUE= 0; } package q; import static Decl<code assit> public class A { } - execute code assist after import static Decl - pick p.Decl observe: you get package q; import static Decl import p.Decl; public class A { }

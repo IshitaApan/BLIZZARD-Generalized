@@ -1,0 +1,3 @@
+[jar exporter] refactorings should be selected by default
+
+20060214-0010 - Open the JAR exporter on a project - enter a JAR name - check the 'export refactoring into JAR file' - press finish Note, no refactoring stored in the the refactoring file I should have gone to the 3rd page to check the refactorings Is there a reason not to select all refactorings by default?

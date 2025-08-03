@@ -1,0 +1,3 @@
+Refactor: moving a method with vararg parameter changes to a string array parameter
+
+Example: public void bar(String... string) { } Moving this method into another class changes the vararg parameter into a string[]: public void bar(String[] string) { }

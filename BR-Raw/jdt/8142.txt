@@ -1,0 +1,3 @@
+no scoped type hierarchy on binary projects
+
+When I hit F4 on a binary project selection (e.g. org.apache.ant), I get: 'No declaration of selected members in the chosen hierarchy of 'org.apache.ant'. I would expect to see the class hierarchies of the internal jars. BTW, what does the message mean? I don't understand it.

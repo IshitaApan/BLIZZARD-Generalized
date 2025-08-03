@@ -1,0 +1,3 @@
+[Perspectives] 'Show In' targets not added to existing perspectives
+
+N20100328-2000 I tried to test the fixes for bug 175857 and bug 127450, but I ran into problems when migrating an existing workspace from an older build (e.g. 3.5.2). The 'Show In' targets are only added to new perspectives, but old perspectives are not updated. Since the user cannot configure 'Show In' targets, this causes quite some work. To get the new targets in an existing perspective, I would have to reset the perspective and then manually restore all the other state (open views, layouts, fast views, ...). For perspectives saved under a different name, even resetting is not enough. I have to remove the perspective and create a new copy from the original one.

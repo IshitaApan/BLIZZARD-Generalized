@@ -1,0 +1,3 @@
+Quick Fix new class does not update imports [quick fix]
+
+1. Ctrl-1 New Class to resolve non-existing type 2. Change package target for new class 3. New class created but need to add import manually because package doesn't match.

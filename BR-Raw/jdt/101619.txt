@@ -1,0 +1,3 @@
+[formatter] Formatter profiles store even though I clicked 'Cancel'
+
+I20050624-0010 1. open the formatter preference page 2. switch from existing profile p1 to another, lets say p2 3. click 'Cancel' Expected: my formatter profile is still p1 but it is now p2.

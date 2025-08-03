@@ -1,0 +1,3 @@
+[quick fix] nonexistent type import proposed for unresolved type
+
+Build ID: I20080330-1350 I have no idea how to reproduce it. It happends only "recentely" (3.4M5/6). Sometimes, on an Unresolved type name (simplename), the tooltip with quick fix appears when i put the mouse cursor on the type name, and one "nonexistent" type appears. If the java editor is containing class "a.b.c.A", and the unresolved typename is "MyClass", the wrong quick fix would be 'Import a.b.c.MyClass', while the class doesn't exist.

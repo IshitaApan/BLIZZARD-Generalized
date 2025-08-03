@@ -1,0 +1,3 @@
+[EditorMgmt] Leak editor++ on open/close
+
+Build I20040226 1. Create a simple project P; create a file file.txt. 2. Open file.txt; close file.txt Using a profiler, check if there are any instances hanging around. I discover a left-over editor. In addition, I leak many ActionHandler and HandlerSubmissions (equal number). (I appear to leak 1 additional editor and N ActionHandler and HandlerSubmission instances for each pair of open/close operations) (I can also cause this with the java editor)

@@ -1,0 +1,3 @@
+[build path] Regression to Overlapping products in source tree tutorial
+
+I20060718-0800 Step 7. of the Getting Started Tutorial 'Overlapping products in Source Tree': The DialogPackageExplorer does not render the content correct. Looks like getChildren is worng.

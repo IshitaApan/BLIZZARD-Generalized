@@ -1,0 +1,3 @@
+[quick fix] @SuppressWarnings("nls") on static initializer causes error
+
+If you have static block with non-externalised strings and you add "SuppressWarning" quick fix to the block, jdt compiler reports error on the static key word saying "Syntax error, insert "enum Identifier" to complete EnumHeader" Cheers

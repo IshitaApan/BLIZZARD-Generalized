@@ -1,0 +1,3 @@
+Externalize Strings at end of file doesn't break lines correctly [refactoring] [nls]
+
+I2004-06-10 I externalized a String such that the new key in the properties file was inserted at the end of file. I ended up with the following: TextSearchLabelProvider.matchCountFormat={0} ({1} matches)LimitElementsAction.label=Limit Root Elements instead of TextSearchLabelProvider.matchCountFormat={0} ({1} matches)<newline> LimitElementsAction.label=Limit Root Elements i.e. no newline was inserted before the new key.

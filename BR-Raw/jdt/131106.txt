@@ -1,0 +1,3 @@
+[nls tooling] Externalized to Igonored does not add nls tag
+
+I20060307-1315 With eclipse style nlsed strings. Given an externalized string and package test2; public class E2 { 	String s1= Messages.E2_0; } Run source->Externalize Strings... on the above cu Change to 'Ignore' Finish the wizard Result is: package test2; public class E2 { 	String s1= "string"; } Expected: package test2; public class E2 { 	String s1= "string"; //$NON-NLS-1$ }

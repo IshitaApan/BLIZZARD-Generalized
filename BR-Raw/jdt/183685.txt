@@ -1,0 +1,3 @@
+[preferences] UI for Wrap binary expression before operator
+
+Please add the constant referred in bug 79068 comment 4.

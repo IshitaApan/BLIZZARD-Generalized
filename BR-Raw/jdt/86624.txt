@@ -1,0 +1,3 @@
+Need UI to control @Override annotation
+
+M5a public class X extends ArrayList<String> { } - add a add(String) method using code assit. You get 	@Override 	public boolean add(String o) { 		return super.add(o); 	} which is great. However we need UI to control whether @Override should be generated or not.

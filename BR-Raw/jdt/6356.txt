@@ -1,0 +1,3 @@
+Outliner has to delete actions
+
+Product version: smoke test for integration build 20011127 - load compilation unit into Java editor - open context menu in outliner observe: there are two delete actions

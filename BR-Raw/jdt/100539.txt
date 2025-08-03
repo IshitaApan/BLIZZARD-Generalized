@@ -1,0 +1,3 @@
+[open type] JDK compression doesn't work under MacOS
+
+RC2 See bug 100443 for the details.

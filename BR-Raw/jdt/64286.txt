@@ -1,0 +1,3 @@
+Mark exit points does not mark selected element (inconsistency)
+
+I200405250800 in all other occurrence marking things the selected element is also highlighted.

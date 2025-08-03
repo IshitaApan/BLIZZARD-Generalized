@@ -1,0 +1,3 @@
+Fields, static fields and member classes not correctly ordered by visibility
+
+3.0RC1 - enable sorting by visiblility (Java->Appearance->Members Sort Order) - use CU: public class Sort { 	class T16 {} 	protected class T17 {} 	private class T15 {} 	public class T18 {} 	static int t16; 	protected static int t15; 	private static int t13; 	public static int t14; 	int t12; 	protected int t10; 	private int t9; 	public int t11; } - invoke Source->Sort Members -> sorts by category and lexically, but not by visibility

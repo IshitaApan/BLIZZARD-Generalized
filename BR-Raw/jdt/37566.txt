@@ -1,0 +1,3 @@
+Cannot rename a Java Project referenced by a Simple Project [refactoring]
+
+In the Package explorer, create a java project and a simple project. In the simple project, create a reference to the java project (right click on simple project -> properties -> project references). Now, if you try to rename the java project, the operation will fail with the reason being that the simple project does not exist. Also, note that it does not matter whether or not, when renaming the java project, you pick the option to update references.

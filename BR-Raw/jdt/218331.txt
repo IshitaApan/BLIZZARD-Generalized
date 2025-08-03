@@ -1,0 +1,3 @@
+[key bindings][content assist] Ctrl (not Command) should toggle insert/overwrite
+
+I20080207-1530, Mac OS X 10.5.1 Content Assist: Ctrl should toggle insert/overwrite not Command. The preferences page is correct, but only the Command key actually toggles the mode.

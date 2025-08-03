@@ -1,0 +1,3 @@
+[dnd] can no longer move a cu to a folder
+
+I20090127-0100. 1. create Java project 'P' 2. create CU 'Test' in 'src' 3. create folder 'f' in 'P' 4. try to move 'Test' to 'f' using drag and drop

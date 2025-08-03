@@ -1,0 +1,3 @@
+Generate constructor using fields generates wrong parameter name
+
+private static class Data { 		public int modifier; 		public char[] name; 		public char[] packageName; 		public char[][] enclosingNames; 		public String path; 	} Generate constructor using field. Observer: you get two parameters named "name".

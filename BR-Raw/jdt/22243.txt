@@ -1,0 +1,3 @@
+[preferences] java editor does not respect high contrast settings
+
+Java editor does not respect system's high contrast setting. control panel->accessibility options->display->use high contrast settings (default scheme is white on black) now in java editor note that the editor's appearance stays the same. the same small font with the same text colors (including a default foreground color of black for "other" in the java editor settings). it would be nice if the java editor at least followed the color scheme.

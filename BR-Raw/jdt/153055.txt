@@ -1,0 +1,3 @@
+[create on paste] Pasting illegal clipboard content gives crypted error message
+
+I20060807-2000 Paste this into an empty Package Explorer: public MyClass( int param1, String param2, long param3 ) { } ==> you get a strange error message talking about selected elements.

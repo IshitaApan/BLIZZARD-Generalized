@@ -1,0 +1,3 @@
+Package explorer forgets active working set [package explorer]
+
+3.1 M4 1. open pkg explorer. 2. select a working set, pkg explorer updates and filters out projects. 3. close pkg explorer. 4. open package explorer again and the working set is no longer applied. This used to work.

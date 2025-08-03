@@ -1,0 +1,3 @@
+[implementation] clean up performSaveAs(...) workaround
+
+N20060412-0010. In order reuse the performSaveAs(...) code when fixing bug 74375 we added a hack that allows to keep the behavior for all clients except for those in the Eclipse SDK that want to reuse the new code. For 3.3 we will remove the hack and enable the perfomSaveAs code for all AbstractDecoratedTextEditor sub-classes. This might "break" clients that wrongly call super.performSaveAs(...). This is wrong because the API specs "Subclasses may reimplement.". Clients can then simply remove their performSaveAs(...) method to get feature described in bug 74375.

@@ -1,0 +1,2 @@
+Java Browsing: Editor with non-java resource flushes views
+

@@ -1,0 +1,3 @@
+Find declaring node doesn't work for type variables
+
+public class A_test1105 { 	public <E> void foo(E param) { 		/*[*/E local= param; 		foo(local);/*]*/ 	} } - calling CompllationUnit#findDeclaringNode with the type binding representing E doesn't return the node <E> (e.g. the one in the method declaration)
