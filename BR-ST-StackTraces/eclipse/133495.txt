@@ -1,0 +1,14 @@
+org.eclipse.core.internal.localstore.FileSystemResourceManager.read
+org.eclipse.core.internal.resources.File.getContents
+org.eclipse.core.internal.resources.File.getContents
+org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.getInputStream
+org.eclipse.search.internal.core.text.FileCharSequenceProvider$FileCharSequence.reset
+org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence
+org.eclipse.search.internal.core.text.TextSearchVisitor.processFile
+org.eclipse.search.internal.core.text.TextSearchVisitor.processFiles
+org.eclipse.search.internal.core.text.TextSearchVisitor.search
+org.eclipse.search.internal.core.text.TextSearchVisitor.search
+org.eclipse.search.core.text.TextSearchEngine$1.search
+org.eclipse.search.internal.ui.text.FileSearchQuery.run
+org.eclipse.search2.internal.ui.InternalSearchUI$InternalSearchJob.run
+org.eclipse.core.internal.jobs.Worker.run

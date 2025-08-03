@@ -1,0 +1,16 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.e4.ui.widgets.CTabItem.setText
+org.eclipse.e4.workbench.ui.renderers.swt.StackRenderer.showChild
+org.eclipse.e4.workbench.ui.renderers.swt.LazyStackRenderer.processContents
+org.eclipse.e4.ui.workbench.swt.internal.PartRenderingEngine.createGui
+org.eclipse.e4.ui.workbench.swt.internal.PartRenderingEngine.createGui
+org.eclipse.e4.workbench.ui.renderers.swt.SWTPartRenderer.processContents
+org.eclipse.e4.ui.workbench.swt.internal.PartRenderingEngine.createGui
+org.eclipse.e4.ui.workbench.swt.internal.PartRenderingEngine.createGui
+org.eclipse.e4.workbench.ui.renderers.swt.SWTPartRenderer.processContents
+org.eclipse.e4.workbench.ui.renderers.swt.WBWRenderer.processContents
+org.eclipse.e4.ui.workbench.swt.internal.PartRenderingEngine.createGui
+org.eclipse.e4.ui.workbench.swt.internal.PartRenderingEngine.createGui
+org.eclipse.e4.ui.workbench.swt.internal.PartRenderingEngine$4.run

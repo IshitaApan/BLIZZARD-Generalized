@@ -1,0 +1,16 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Composite.setTabList
+org.eclipse.ui.internal.WorkbenchPage$1.run
+org.eclipse.ui.internal.WorkbenchPage$8.run
+org.eclipse.swt.custom.BusyIndicator.showWhile
+org.eclipse.vcm.internal.ui.sync.SyncAction.run
+org.eclipse.ui.internal.PluginAction.run
+org.eclipse.jface.action.Action.runWithEvent
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.UIMain.main

@@ -1,0 +1,16 @@
+org.eclipse.jface.viewers.SWTFocusCellManager$4.getName
+org.eclipse.swt.accessibility.Accessible.get_accName
+org.eclipse.swt.accessibility.Accessible$1.method10
+org.eclipse.swt.internal.ole.win32.COMObject.callback10
+org.eclipse.swt.internal.win32.OS.CallNextHookEx
+org.eclipse.swt.ole.win32.OleFrame.getMsgProc
+org.eclipse.swt.internal.win32.OS.PeekMessageW
+org.eclipse.swt.internal.win32.OS.PeekMessage
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.ui.internal.Workbench.runEventLoop
+org.eclipse.ui.internal.Workbench.runUI
+org.eclipse.ui.internal.Workbench.access$4
+org.eclipse.ui.internal.Workbench$5.run
+org.eclipse.core.databinding.observable.Realm.runWithDefault
+org.eclipse.ui.internal.Workbench.createAndRunWorkbench
+org.eclipse.ui.PlatformUI.createAndRunWorkbench

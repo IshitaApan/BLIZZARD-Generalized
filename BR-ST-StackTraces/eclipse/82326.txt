@@ -1,0 +1,9 @@
+org.eclipse.ui.dialogs.ContainerGenerator$1.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ui.dialogs.ContainerGenerator.generateContainer
+org.eclipse.ui.dialogs.WizardNewFolderMainPage$3.execute
+org.eclipse.ui.actions.WorkspaceModifyOperation$1.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ui.actions.WorkspaceModifyOperation.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

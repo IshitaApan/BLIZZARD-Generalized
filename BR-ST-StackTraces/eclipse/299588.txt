@@ -1,0 +1,12 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Widget.checkWidget
+org.eclipse.swt.widgets.Control.getAccessible
+org.eclipse.ui.forms.widgets.FormText.notifySelectionChanged
+org.eclipse.ui.forms.widgets.FormText.endSelection
+org.eclipse.ui.forms.widgets.FormText.handleMouseClick
+org.eclipse.ui.forms.widgets.FormText.access$16
+org.eclipse.ui.forms.widgets.FormText$6.mouseUp
+org.eclipse.swt.widgets.TypedListener.handleEvent

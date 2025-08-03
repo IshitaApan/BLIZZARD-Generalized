@@ -1,0 +1,14 @@
+org.eclipse.ui.internal.WorkbenchPage.checkEditor
+org.eclipse.ui.internal.WorkbenchPage.findEditors
+org.eclipse.ui.internal.WorkbenchPage.findEditor
+org.eclipse.ui.NavigationLocation.getEditorPart
+org.eclipse.ui.NavigationLocation.getText
+org.eclipse.ui.internal.EditorReference.getId
+org.eclipse.ui.internal.quickaccess.EditorElement.getId
+org.eclipse.ui.internal.quickaccess.EditorProvider.getElements
+org.eclipse.ui.internal.quickaccess.QuickAccessProvider.getElementsSorted
+org.eclipse.ui.internal.quickaccess.QuickAccessContents.computeMatchingEntries
+org.eclipse.ui.internal.quickaccess.QuickAccessContents.refresh
+org.eclipse.ui.internal.quickaccess.QuickAccessContents.access$1
+org.eclipse.ui.internal.quickaccess.QuickAccessContents$4$1.run
+org.eclipse.swt.widgets.Display.runTimer

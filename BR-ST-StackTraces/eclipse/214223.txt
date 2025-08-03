@@ -1,0 +1,17 @@
+org.eclipse.core.internal.resources.Marker.checkInfo
+org.eclipse.core.internal.resources.Marker.getType
+org.eclipse.ui.views.markers.internal.MarkerGroup$GroupMarkerField.compare
+org.eclipse.ui.internal.provisional.views.markers.MarkerComparator.compare
+java.util.Arrays.mergeSort
+java.util.Arrays.mergeSort
+java.util.Arrays.mergeSort
+java.util.Arrays.mergeSort
+java.util.Arrays.mergeSort
+java.util.Arrays.mergeSort
+java.util.Arrays.mergeSort
+java.util.Arrays.mergeSort
+java.util.Arrays.sort
+org.eclipse.ui.internal.provisional.views.markers.CachedMarkerBuilder.sortAndMakeCategories
+org.eclipse.ui.internal.provisional.views.markers.CachedMarkerBuilder.buildAllMarkers
+org.eclipse.ui.internal.provisional.views.markers.CachedMarkerBuilder$1.run
+org.eclipse.core.internal.jobs.Worker.run

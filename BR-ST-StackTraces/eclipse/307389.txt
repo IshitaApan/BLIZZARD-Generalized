@@ -1,0 +1,8 @@
+org.eclipse.ui.internal.Workbench.getWorkbenchWindows
+org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.install
+org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.<init>
+org.eclipse.jdt.internal.ui.JavaPlugin.getASTProvider
+org.eclipse.jdt.internal.ui.JavaPlugin.start
+org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run
+java.security.AccessController.doPrivileged
+org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator

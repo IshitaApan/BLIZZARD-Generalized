@@ -1,0 +1,2 @@
+org.eclipse.jface.util.ListenerList.add
+org.eclipse.core.internal.jobs.Worker.run

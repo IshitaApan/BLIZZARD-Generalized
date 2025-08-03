@@ -1,0 +1,7 @@
+java.util.TreeMap$PrivateEntryIterator.nextEntry
+java.util.TreeMap$KeyIterator.next
+org.eclipse.ui.internal.AbstractWorkingSetManager.getWorkingSetsForId
+org.eclipse.ui.internal.AbstractWorkingSetManager.bundleChanged
+org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent
+org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent
+org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run

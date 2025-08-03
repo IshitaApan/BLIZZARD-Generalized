@@ -1,0 +1,15 @@
+java.util.AbstractList$Itr.checkForComodification
+java.util.AbstractList$Itr.remove
+java.util.AbstractCollection.remove
+org.eclipse.ui.internal.progress.StatusLineProgressListener.remove
+org.eclipse.ui.internal.progress.JobProgressManager.remove
+org.eclipse.ui.internal.progress.JobProgressManager.done
+org.eclipse.core.internal.jobs.JobListeners$3.notify
+org.eclipse.core.internal.jobs.JobListeners$7.run
+org.eclipse.core.internal.runtime.InternalPlatform.run
+org.eclipse.core.runtime.Platform.run
+org.eclipse.core.internal.jobs.JobListeners.doNotify
+org.eclipse.core.internal.jobs.JobListeners.done
+org.eclipse.core.internal.jobs.JobManager.endJob
+org.eclipse.core.internal.jobs.WorkerPool.endJob
+org.eclipse.core.internal.jobs.Worker.run

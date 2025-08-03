@@ -1,0 +1,4 @@
+org.eclipse.ui.internal.progress.JobInfo.beginTask
+org.eclipse.ui.internal.progress.ProgressManager$JobMonitor.beginTask
+org.eclipse.ui.internal.decorators.DecorationScheduler$1.run
+org.eclipse.core.internal.jobs.Worker.run

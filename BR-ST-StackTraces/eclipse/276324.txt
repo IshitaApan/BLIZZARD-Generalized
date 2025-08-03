@@ -1,0 +1,4 @@
+org.eclipse.ui.internal.CycleBaseHandler.openDialog
+org.eclipse.ui.internal.CycleBaseHandler.execute
+org.eclipse.ui.internal.handlers.HandlerProxy.execute
+org.eclipse.core.commands.Command.executeWithChecks

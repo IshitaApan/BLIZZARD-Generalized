@@ -1,0 +1,7 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Composite.layout
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.handleEvent
+org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run

@@ -1,0 +1,2 @@
+org.eclipse.ui.internal.handlers.PinEditorHandler.updateElement
+org.eclipse.ui.internal.handlers.HandlerProxy.updateElement

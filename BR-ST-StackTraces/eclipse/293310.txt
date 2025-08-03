@@ -1,0 +1,17 @@
+org.eclipse.ui.internal.ide.StringMatcher.<init>
+org.eclipse.ui.internal.ide.misc.StringMatcherFilter$FilterType.<init>
+org.eclipse.ui.internal.ide.misc.StringMatcherFilter.instantiate
+org.eclipse.core.internal.resources.Filter.match
+org.eclipse.core.internal.resources.Filter.filterIncludes
+org.eclipse.core.internal.resources.Filter.filter
+org.eclipse.core.internal.resources.Resource.filterChildren
+org.eclipse.core.internal.localstore.UnifiedTree.getLocalList
+org.eclipse.core.internal.localstore.UnifiedTree.addChildren
+org.eclipse.core.internal.localstore.UnifiedTree.addNodeChildrenToQueue
+org.eclipse.core.internal.localstore.UnifiedTree.accept
+org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource
+org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh
+org.eclipse.core.internal.resources.Resource.refreshLocal
+org.eclipse.core.internal.refresh.RefreshJob.runInWorkspace
+org.eclipse.core.internal.resources.InternalWorkspaceJob.run
+org.eclipse.core.internal.jobs.Worker.run

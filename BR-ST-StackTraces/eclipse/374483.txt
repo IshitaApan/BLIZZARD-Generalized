@@ -1,0 +1,6 @@
+org.eclipse.ui.internal.Workbench.activate
+org.eclipse.ui.internal.Workbench.showPerspective
+org.eclipse.ui.internal.Workbench.showPerspective
+org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager.switchToPerspective
+org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager$4.runInUIThread
+org.eclipse.ui.progress.UIJob$1.run

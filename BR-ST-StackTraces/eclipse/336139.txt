@@ -1,0 +1,12 @@
+org.eclipse.e4.ui.workbench.renderers.swt.TrimBarLayout.isStatusLine
+org.eclipse.e4.ui.workbench.renderers.swt.TrimBarLayout.computeSize
+org.eclipse.e4.ui.workbench.renderers.swt.TrimBarLayout.access$0
+org.eclipse.e4.ui.workbench.renderers.swt.TrimBarLayout$TrimLine.addControl
+org.eclipse.e4.ui.workbench.renderers.swt.TrimBarLayout.computeSize
+org.eclipse.swt.widgets.Composite.computeSize
+org.eclipse.e4.ui.workbench.renderers.swt.TrimmedPartLayout.layout
+org.eclipse.swt.widgets.Composite.updateLayout
+org.eclipse.swt.widgets.Composite.updateLayout
+org.eclipse.swt.widgets.Composite.layout
+org.eclipse.swt.widgets.Composite.layout
+org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.postProcess

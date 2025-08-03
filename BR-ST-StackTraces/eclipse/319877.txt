@@ -1,0 +1,11 @@
+org.eclipse.e4.ui.workbench.renderers.swt.ToolItemRenderer$7$1.run
+org.eclipse.core.runtime.SafeRunner.run
+org.eclipse.e4.ui.workbench.renderers.swt.ToolItemRenderer$7.run
+org.eclipse.swt.widgets.Display.runTimer
+org.eclipse.swt.widgets.Display.messageProc
+org.eclipse.swt.internal.win32.OS.DispatchMessageW
+org.eclipse.swt.internal.win32.OS.DispatchMessage
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run
+org.eclipse.core.databinding.observable.Realm.runWithDefault
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run

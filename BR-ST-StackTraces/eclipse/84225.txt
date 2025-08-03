@@ -1,0 +1,10 @@
+org.eclipse.ui.internal.registry.WorkingSetRegistry.getDescriptorsForNamespace
+org.eclipse.ui.internal.AbstractWorkingSetManager.bundleChanged
+org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent
+org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent
+org.eclipse.osgi.framework.eventmgr.EventThread.run
+org.eclipse.ui.internal.registry.WorkingSetRegistry.getDescriptorsForNamespace
+org.eclipse.ui.internal.AbstractWorkingSetManager.bundleChanged
+org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent
+org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent
+org.eclipse.osgi.framework.eventmgr.EventThread.run

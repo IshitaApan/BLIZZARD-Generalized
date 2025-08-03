@@ -1,0 +1,11 @@
+org.eclipse.jface.action.ActionContributionItem.update
+org.eclipse.jface.action.ActionContributionItem.fill
+org.eclipse.jface.action.MenuManager.update
+org.eclipse.jface.action.MenuManager.update
+org.eclipse.jface.action.MenuManager.createMenuBar
+org.eclipse.jface.window.ApplicationWindow.createTrimWidgets
+org.eclipse.jface.window.ApplicationWindow.configureShell
+org.eclipse.jface.window.Window.createShell
+org.eclipse.jface.window.Window.create
+org.eclipse.jface.window.Window.open
+MenuActionTest.main

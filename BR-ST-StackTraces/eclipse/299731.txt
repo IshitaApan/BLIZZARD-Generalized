@@ -1,0 +1,16 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages
+org.eclipse.swt.widgets.Display.runAsyncMessages
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.ui.Test.main
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Widget.checkWidget
+org.eclipse.swt.widgets.Control.setEnabled
+org.eclipse.jface.dialogs.ProgressMonitorDialog.setOperationCancelButtonEnabled
+org.eclipse.jface.dialogs.ProgressMonitorDialog$1.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages

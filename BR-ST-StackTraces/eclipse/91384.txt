@@ -1,0 +1,17 @@
+org.eclipse.ui.internal.dialogs.FileEditorsPreferencePage.createContents
+org.eclipse.jface.preference.PreferencePage.createControl
+org.eclipse.jface.preference.PreferencePage.createControl
+org.eclipse.jface.preference.PreferenceDialog.createPageControl
+org.eclipse.jface.preference.PreferenceDialog$13.run
+org.eclipse.core.internal.runtime.InternalPlatform.run
+org.eclipse.core.runtime.Platform.run
+org.eclipse.ui.internal.JFaceUtil$1.run
+org.eclipse.jface.util.SafeRunnable.run
+org.eclipse.jface.preference.PreferenceDialog.showPage
+org.eclipse.ui.tests.dialogs.PreferenceDialogWrapper.showPage
+org.eclipse.ui.tests.dialogs.UIPreferencesAuto.getPreferenceDialog
+org.eclipse.ui.tests.dialogs.UIPreferencesAuto.testFileEditorsPref
+sun.reflect.NativeMethodAccessorImpl.invoke0
+sun.reflect.NativeMethodAccessorImpl.invoke
+sun.reflect.DelegatingMethodAccessorImpl.invoke
+java.lang.reflect.Method.invoke

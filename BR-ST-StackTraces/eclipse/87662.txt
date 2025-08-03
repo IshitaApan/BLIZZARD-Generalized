@@ -1,0 +1,6 @@
+org.eclipse.ui.views.properties.PropertySheetViewer.updateChildrenOf
+org.eclipse.ui.views.properties.PropertySheetViewer.setInput
+org.eclipse.ui.views.properties.PropertySheetPage.refresh
+com.rational.clearcase.RSCMService$19.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages

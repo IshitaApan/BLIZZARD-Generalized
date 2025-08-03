@@ -1,0 +1,12 @@
+org.eclipse.pde.internal.runtime.spy.sections.ActiveHelpSection.processControlHelp
+org.eclipse.pde.internal.runtime.spy.sections.ActiveHelpSection.build
+org.eclipse.pde.internal.runtime.spy.dialogs.SpyDialog.createDialogArea
+org.eclipse.pde.internal.runtime.spy.dialogs.SpyDialog.createContents
+org.eclipse.jface.window.Window.create
+org.eclipse.pde.internal.runtime.spy.handlers.SpyHandler.execute
+org.eclipse.ui.internal.handlers.HandlerProxy.execute
+org.eclipse.ui.internal.handlers.E4HandlerProxy.execute
+sun.reflect.GeneratedMethodAccessor34.invoke
+sun.reflect.DelegatingMethodAccessorImpl.invoke
+java.lang.reflect.Method.invoke
+org.eclipse.e4.core.internal.di.MethodRequestor.execute

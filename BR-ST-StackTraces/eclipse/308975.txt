@@ -1,0 +1,9 @@
+java.net.URI.create
+org.eclipse.core.internal.resources.ProjectPathVariableManager.getURIValue
+org.eclipse.ui.internal.ide.dialogs.PathVariablesGroup.initTemporaryState
+org.eclipse.ui.internal.ide.dialogs.PathVariablesGroup.setResource
+org.eclipse.ui.internal.ide.dialogs.ProjectLinkedResourcePage.createContents
+org.eclipse.jface.preference.PreferencePage.createControl
+org.eclipse.jface.preference.PreferenceDialog.createPageControl
+org.eclipse.jface.preference.PreferenceDialog$14.run
+org.eclipse.core.runtime.SafeRunner.run

@@ -1,0 +1,17 @@
+org.eclipse.ui.part.PageBookView.partClosed
+org.eclipse.ui.internal.PartListenerList$3.run
+org.eclipse.core.runtime.Platform.run
+org.eclipse.ui.internal.WorkbenchPage.firePartClosed
+org.eclipse.ui.internal.WorkbenchPage.dispose
+org.eclipse.ui.internal.WorkbenchWindow.closePage
+org.eclipse.swt.widgets.TypedListener.handleEvent
+org.eclipse.swt.widgets.Widget.notifyListeners
+org.eclipse.swt.widgets.Display.runDeferredEvents
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.ui.internal.Workbench.runEventLoop
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

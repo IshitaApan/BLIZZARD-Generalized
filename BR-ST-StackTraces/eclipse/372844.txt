@@ -1,0 +1,4 @@
+org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.createWidget
+org.eclipse.e4.ui.menu.tests.MToolItemTest.testActionSetAddedToFile
+org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.createWidget
+org.eclipse.e4.ui.menu.tests.MToolItemTest.testActionSetAddedToMyToolbar

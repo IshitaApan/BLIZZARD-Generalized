@@ -1,0 +1,14 @@
+java.util.ArrayList.get
+java.util.AbstractList$Itr.next
+java.util.AbstractList.hashCode
+org.eclipse.ui.internal.WorkingSet.hashCode
+java.util.AbstractList.hashCode
+org.eclipse.ui.internal.WorkingSet.hashCode
+java.util.AbstractList.hashCode
+org.eclipse.ui.internal.WorkingSet.hashCode
+java.util.AbstractList.hashCode
+org.eclipse.ui.internal.WorkingSet.hashCode
+java.util.AbstractList.hashCode
+org.eclipse.ui.internal.WorkingSet.hashCode
+java.util.AbstractList.hashCode
+org.eclipse.ui.internal.WorkingSet.hashCode

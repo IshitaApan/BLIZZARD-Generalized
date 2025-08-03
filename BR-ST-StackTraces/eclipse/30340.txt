@@ -1,0 +1,17 @@
+org.eclipse.ui.internal.EditorManager.restoreState
+org.eclipse.ui.internal.WorkbenchPage.restoreState
+org.eclipse.ui.internal.WorkbenchWindow.restoreState
+org.eclipse.ui.internal.Workbench.restoreState
+org.eclipse.ui.internal.Workbench.access$9
+org.eclipse.ui.internal.Workbench$10.run
+org.eclipse.core.internal.runtime.InternalPlatform.run
+org.eclipse.core.runtime.Platform.run
+org.eclipse.ui.internal.Workbench.openPreviousWorkbenchState
+org.eclipse.ui.internal.Workbench.init
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.internal.boot.InternalBootLoader.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

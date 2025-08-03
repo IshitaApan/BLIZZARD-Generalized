@@ -1,0 +1,5 @@
+org.eclipse.ui.internal.activities.Identifier.fireIdentifierChanged
+org.eclipse.ui.internal.activities.MutableActivityManager.notifyIdentifiers
+org.eclipse.ui.internal.activities.MutableActivityManager.access$3
+org.eclipse.ui.internal.activities.MutableActivityManager$2.run
+org.eclipse.core.internal.jobs.Worker.run

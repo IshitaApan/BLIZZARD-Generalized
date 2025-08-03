@@ -1,0 +1,10 @@
+org.eclipse.ui.internal.progress.WorkbenchSiteProgressService.incrementBusy
+org.eclipse.ui.internal.progress.ProgressManager$1.aboutToRun
+org.eclipse.core.internal.jobs.JobListeners$1.notify
+org.eclipse.core.internal.jobs.JobListeners$7.run
+org.eclipse.core.internal.runtime.InternalPlatform.run
+org.eclipse.core.internal.jobs.JobListeners.doNotify
+org.eclipse.core.internal.jobs.JobListeners.aboutToRun
+org.eclipse.core.internal.jobs.JobManager.startJob
+org.eclipse.core.internal.jobs.WorkerPool.startJob
+org.eclipse.core.internal.jobs.Worker.run

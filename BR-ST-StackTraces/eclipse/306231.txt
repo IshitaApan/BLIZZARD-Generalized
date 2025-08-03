@@ -1,0 +1,4 @@
+java.util.regex.Pattern.error
+java.util.regex.Pattern.sequence
+java.util.regex.Pattern.expr
+java.util.regex.Pattern.compile

@@ -1,0 +1,15 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.e4.ui.widgets.CTabItem.setControl
+org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab
+org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.childRendered
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run
+org.eclipse.core.runtime.SafeRunner.run
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui
+org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab
+org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent
+org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run

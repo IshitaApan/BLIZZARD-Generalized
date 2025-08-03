@@ -1,0 +1,14 @@
+org.eclipse.core.internal.filesystem.Policy.error
+org.eclipse.core.internal.filesystem.Policy.error
+org.eclipse.core.internal.filesystem.local.LocalFile.mkdir
+org.eclipse.core.internal.localstore.FileSystemResourceManager.write
+org.eclipse.core.internal.localstore.FileSystemResourceManager.internalWrite
+org.eclipse.core.internal.resources.Project.writeDescription
+org.eclipse.core.internal.resources.Project.writeDescription
+org.eclipse.core.internal.resources.Project.create
+org.eclipse.ui.wizards.newresource.BasicNewProjectResourceWizard.createProject
+org.eclipse.ui.wizards.newresource.BasicNewProjectResourceWizard$1.execute
+org.eclipse.ui.actions.WorkspaceModifyOperation$1.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ui.actions.WorkspaceModifyOperation.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

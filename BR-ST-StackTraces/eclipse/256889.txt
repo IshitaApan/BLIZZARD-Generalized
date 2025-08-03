@@ -1,0 +1,17 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Table.getItem
+org.eclipse.jface.viewers.TableViewer.doGetItem
+org.eclipse.jface.viewers.AbstractTableViewer.getVirtualSelection
+org.eclipse.jface.viewers.AbstractTableViewer.getSelectionFromWidget
+org.eclipse.jface.viewers.StructuredViewer.getSelection
+VirtualTableTest$2.widgetSelected
+org.eclipse.swt.widgets.TypedListener.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Display.runDeferredEvents
+org.eclipse.swt.widgets.Display.readAndDispatch
+VirtualTableTest.runTableTest
+VirtualTableTest.main

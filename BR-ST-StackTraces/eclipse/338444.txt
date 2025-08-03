@@ -1,0 +1,4 @@
+org.eclipse.ui.internal.Workbench.contains
+org.eclipse.ui.internal.Workbench.defineBindingTable
+org.eclipse.ui.internal.Workbench.setReference
+org.eclipse.ui.internal.Workbench.access$19

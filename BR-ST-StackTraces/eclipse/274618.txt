@@ -1,0 +1,11 @@
+org.eclipse.ui.internal.EditorReference.getPart
+org.eclipse.ui.internal.EditorReference.getEditor
+org.eclipse.ui.internal.EditorReference.getName
+org.eclipse.ui.internal.part.NullEditorInput.getName
+org.eclipse.ui.internal.EditorReference.getName
+org.eclipse.ui.internal.part.NullEditorInput.getName
+org.eclipse.ui.internal.EditorReference.getName
+org.eclipse.ui.internal.part.NullEditorInput.getName
+org.eclipse.ui.internal.EditorReference.getName
+org.eclipse.ui.internal.part.NullEditorInput.getName
+org.eclipse.ui.internal.EditorReference.getName

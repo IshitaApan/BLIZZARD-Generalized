@@ -1,0 +1,2 @@
+org.eclipse.ui.statushandlers.WorkbenchStatusDialogManager.addStatusAdapter
+org.eclipse.ui.statushandlers.WorkbenchErrorHandler.showStatusAdapter

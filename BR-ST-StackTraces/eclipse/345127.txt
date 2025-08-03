@@ -1,0 +1,4 @@
+org.eclipse.swt.internal.Library.loadLibrary
+org.eclipse.swt.internal.Library.loadLibrary
+org.eclipse.swt.internal.C.<clinit>
+org.eclipse.swt.widgets.Display.<clinit>

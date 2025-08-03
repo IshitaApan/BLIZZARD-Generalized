@@ -1,0 +1,3 @@
+org.eclipse.egit.ui.internal.repository.RepositoriesViewContentProvider.<init>
+org.eclipse.egit.ui.internal.clone.GitSelectRepositoryPage.createControl
+org.eclipse.jface.wizard.Wizard.createPageControls

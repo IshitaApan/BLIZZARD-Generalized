@@ -1,0 +1,5 @@
+java.io.FileInputStream.open
+java.io.FileInputStream.<init>
+1.transfer
+h
+formFinish

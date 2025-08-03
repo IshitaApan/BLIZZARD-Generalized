@@ -1,0 +1,17 @@
+org.eclipse.ui.internal.PlatformUIPreferenceListener.preferenceChange
+org.eclipse.core.internal.preferences.EclipsePreferences$2.run
+org.eclipse.core.runtime.SafeRunner.run
+org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent
+org.eclipse.core.internal.preferences.EclipsePreferences.put
+org.eclipse.core.internal.preferences.PreferencesService.copyFromTo
+org.eclipse.core.internal.preferences.PreferencesService$6.visit
+org.eclipse.core.internal.preferences.EclipsePreferences.accept
+org.eclipse.core.internal.preferences.EclipsePreferences.accept
+org.eclipse.core.internal.preferences.EclipsePreferences.accept
+org.eclipse.core.internal.preferences.PreferencesService.internalApply
+org.eclipse.core.internal.preferences.PreferencesService.applyPreferences
+org.eclipse.ui.internal.wizards.preferences.WizardPreferencesImportPage1.transfer
+org.eclipse.ui.internal.wizards.preferences.WizardPreferencesPage.finish
+org.eclipse.ui.internal.wizards.preferences.PreferencesImportWizard.performFinish
+org.eclipse.jface.wizard.WizardDialog.finishPressed
+org.eclipse.jface.wizard.WizardDialog.buttonPressed

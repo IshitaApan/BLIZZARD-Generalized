@@ -1,0 +1,7 @@
+org.eclipse.ui.internal.WorkbenchLayoutSettingsTransfer.getCurrentPresentationClassName
+org.eclipse.ui.internal.WorkbenchLayoutSettingsTransfer.saveEditorState
+org.eclipse.ui.internal.WorkbenchLayoutSettingsTransfer.saveState
+org.eclipse.ui.internal.WorkbenchLayoutSettingsTransfer.saveState
+org.eclipse.ui.internal.WorkbenchLayoutSettingsTransfer.saveSettings
+org.eclipse.ui.internal.WorkbenchLayoutSettingsTransfer.transferSettings
+org.eclipse.ui.internal.ide.ChooseWorkspaceWithSettingsDialog$4.run

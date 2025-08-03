@@ -1,0 +1,8 @@
+org.eclipse.core.runtime.Assert.isTrue
+org.eclipse.core.databinding.observable.ObservableTracker.getterCalled
+org.eclipse.core.databinding.observable.set.AbstractObservableSet.getterCalled
+org.eclipse.core.internal.databinding.identity.IdentityObservableSet.clear
+org.eclipse.core.internal.databinding.property.value.MapSimpleValueObservableMap.dispose
+org.eclipse.core.databinding.ObservablesManager.dispose
+org.eclipse.emf.example.databinding.project.ui.rcp.views.ProjectAdminViewPart.dispose
+org.eclipse.ui.internal.WorkbenchPartReference.doDisposePart

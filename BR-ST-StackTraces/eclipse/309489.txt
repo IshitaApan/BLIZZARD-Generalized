@@ -1,0 +1,6 @@
+org.eclipse.e4.workbench.ui.internal.E4CommandProcessor.defineBindingTable
+org.eclipse.e4.workbench.ui.internal.E4CommandProcessor.processBindings
+org.eclipse.e4.workbench.ui.internal.E4Workbench.init
+org.eclipse.e4.workbench.ui.internal.E4Workbench.<init>
+org.eclipse.e4.ui.workbench.swt.internal.E4Application.createE4Workbench
+org.eclipse.e4.ui.workbench.swt.internal.E4Application.start

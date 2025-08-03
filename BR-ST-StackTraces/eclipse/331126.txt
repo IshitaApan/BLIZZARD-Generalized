@@ -1,0 +1,16 @@
+org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl$1.validate
+org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl$1.validate
+org.eclipse.emf.common.util.BasicEList.addUnique
+org.eclipse.emf.common.notify.impl.NotifyingListImpl.doAddUnique
+org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique
+org.eclipse.emf.common.util.AbstractEList.add
+org.eclipse.ui.internal.e4.compatibility.ModeledPageLayout.insert
+org.eclipse.ui.internal.e4.compatibility.ModeledPageLayout.insert
+org.eclipse.ui.internal.e4.compatibility.ModeledPageLayout.insertView
+org.eclipse.ui.internal.e4.compatibility.ModeledPageLayout.addStandaloneView
+b.perspectives.RelEngPerspective.createInitialLayout
+org.eclipse.ui.internal.WorkbenchPage.setPerspective
+org.eclipse.ui.handlers.ShowPerspectiveHandler.openPerspective
+org.eclipse.ui.handlers.ShowPerspectiveHandler.openOther
+org.eclipse.ui.handlers.ShowPerspectiveHandler.execute
+org.eclipse.ui.internal.handlers.HandlerProxy.execute

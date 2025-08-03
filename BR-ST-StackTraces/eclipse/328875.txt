@@ -1,0 +1,12 @@
+org.eclipse.ui.internal.PopupMenuExtender.createModelFor
+org.eclipse.ui.internal.PopupMenuExtender.<init>
+org.eclipse.ui.internal.PartSite.registerContextMenu
+org.eclipse.ui.part.PageSite.registerContextMenu
+org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.createControl
+org.eclipse.ui.internal.console.ConsoleView.doCreatePage
+org.eclipse.ui.part.PageBookView.createPage
+org.eclipse.ui.part.PageBookView.partActivated
+org.eclipse.ui.internal.console.ConsoleView.display
+org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.showConsole
+org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePartitioner.warnOfContentChange
+org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePartitioner$1.run

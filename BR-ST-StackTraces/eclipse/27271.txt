@@ -1,0 +1,4 @@
+java.lang.NullPointerException.<init>
+org.eclipse.ui.dialogs.WizardNewLinkPage.handleVariablesButtonPressed
+org.eclipse.ui.dialogs.WizardNewLinkPage.access$7
+org.eclipse.ui.dialogs.WizardNewLinkPage$4.widgetSelected

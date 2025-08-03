@@ -1,0 +1,12 @@
+LocalFileNatives.internalGetFileInfoW
+ReadOnlyStateChecker.checkReadOnlyResources
+ReadOnlyStateChecker.checkAcceptedResource
+ReadOnlyStateChecker.checkReadOnlyResources
+ReadOnlyStateChecker.checkReadOnlyResources
+DeleteResourceAction.getResourcesToDelete
+DeleteResourceAction.run
+DeleteAction.run
+SelectionDispatchAction.dispatchRun
+SelectionDispatchAction.run
+Action.runWithEvent
+ActionContributionItem.handleWidgetSelection

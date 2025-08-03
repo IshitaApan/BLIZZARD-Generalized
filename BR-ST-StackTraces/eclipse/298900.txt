@@ -1,0 +1,15 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.MenuItem.setText
+org.eclipse.e4.workbench.ui.renderers.swt.MenuItemRenderer.setItemText
+org.eclipse.e4.workbench.ui.renderers.swt.MenuItemRenderer.createWidget
+org.eclipse.e4.ui.workbench.swt.internal.PartRenderingEngine.createWidget
+org.eclipse.e4.ui.workbench.swt.internal.PartRenderingEngine.createGui
+org.eclipse.e4.ui.workbench.swt.internal.PartRenderingEngine.createGui
+org.eclipse.e4.workbench.ui.renderers.swt.SWTPartRenderer.processContents
+org.eclipse.e4.ui.workbench.swt.internal.PartRenderingEngine.createGui
+org.eclipse.e4.workbench.ui.renderers.swt.WBWRenderer.processContents
+org.eclipse.e4.ui.workbench.swt.internal.PartRenderingEngine.createGui
+org.eclipse.e4.ui.workbench.swt.internal.PartRenderingEngine.createGui

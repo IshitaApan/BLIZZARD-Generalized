@@ -1,0 +1,17 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.graphics.Image.createGdipImage
+org.eclipse.swt.graphics.GC.drawImage
+org.eclipse.swt.graphics.GC.drawImage
+org.eclipse.ui.internal.forms.widgets.BusyIndicator$2.run
+org.eclipse.swt.graphics.Image.dispose
+org.eclipse.ui.internal.forms.widgets.BusyIndicator.clearImages
+org.eclipse.ui.internal.forms.widgets.BusyIndicator.access$0
+org.eclipse.ui.internal.forms.widgets.BusyIndicator$2.run
+org.eclipse.swt.graphics.Image.createGdipImage
+org.eclipse.swt.graphics.GC.drawImage
+org.eclipse.swt.graphics.GC.drawImage
+org.eclipse.ui.internal.forms.widgets.BusyIndicator$2.run
+org.eclipse.swt.graphics.Image.getImageData
+org.eclipse.ui.internal.forms.widgets.BusyIndicator$2.run

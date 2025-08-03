@@ -1,0 +1,11 @@
+org.eclipse.core.commands.Command.executeWithChecks
+org.eclipse.core.commands.ParameterizedCommand.executeWithChecks
+org.eclipse.ui.internal.handlers.HandlerService.executeCommand
+org.eclipse.ui.internal.handlers.SlaveHandlerService.executeCommand
+org.eclipse.ui.menus.CommandContributionItem.handleWidgetSelection
+org.eclipse.ui.menus.CommandContributionItem.access$10
+org.eclipse.ui.menus.CommandContributionItem$4.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Display.runDeferredEvents
+org.eclipse.swt.widgets.Display.readAndDispatch

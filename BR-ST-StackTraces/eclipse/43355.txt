@@ -1,0 +1,4 @@
+java.util.AbstractList$Itr.next
+org.eclipse.core.runtime.Platform.run
+org.eclipse.core.runtime.Platform.run
+org.eclipse.core.internal.jobs.Worker.run

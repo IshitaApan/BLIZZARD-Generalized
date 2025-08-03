@@ -1,0 +1,3 @@
+org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.hideChild
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui

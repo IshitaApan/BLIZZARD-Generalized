@@ -1,0 +1,11 @@
+oolbarAction
+org.eclipse.swt.custom.BusyIndicator.showWhile
+org.eclipse.swt.custom.BusyIndicator.showWhile
+org.eclipse.ui.internal.Workbench.init
+org.eclipse.ui.internal.Workbench.runUI
+org.eclipse.ui.PlatformUI.createAndRunWorkbench
+sun.reflect.NativeMethodAccessorImpl.invoke0
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

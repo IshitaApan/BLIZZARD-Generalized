@@ -1,0 +1,7 @@
+org.eclipse.ui.handlers.HandlerUtil.noVariableFound
+org.eclipse.ui.handlers.HandlerUtil.getVariableChecked
+org.eclipse.ui.handlers.HandlerUtil.getActiveEditorChecked
+org.eclipse.ui.internal.CloseEditorHandler.execute
+org.eclipse.ui.internal.handlers.HandlerProxy.execute
+org.eclipse.ui.internal.handlers.E4HandlerProxy.execute
+sun.reflect.NativeMethodAccessorImpl.invoke0

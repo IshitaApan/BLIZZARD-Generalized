@@ -1,0 +1,10 @@
+org.eclipse.ui.internal.browser.DefaultBrowserSupport.removeBrowser
+org.eclipse.ui.internal.browser.InternalBrowserInstance$1.partClosed
+org.eclipse.ui.internal.PartListenerList$3.run
+org.eclipse.core.runtime.SafeRunner.run
+org.eclipse.core.runtime.Platform.run
+org.eclipse.ui.internal.PartListenerList.fireEvent
+org.eclipse.ui.internal.PartListenerList.firePartClosed
+org.eclipse.ui.internal.PartService.firePartClosed
+org.eclipse.ui.internal.WorkbenchPagePartList.firePartClosed
+org.eclipse.ui.internal.PartList.partClosed

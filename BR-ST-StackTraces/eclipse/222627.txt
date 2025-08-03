@@ -1,0 +1,17 @@
+org.eclipse.ui.internal.activities.MutableActivityManager.getRequiredActivityIds
+org.eclipse.ui.internal.activities.MutableActivityManager.setEnabledActivityIds
+org.eclipse.ui.internal.activities.MutableActivityManager$2.propertyChange
+org.eclipse.ui.internal.services.EvaluationAuthority.firePropertyChange
+org.eclipse.ui.internal.services.EvaluationAuthority.addEvaluationListener
+org.eclipse.ui.internal.services.EvaluationService.addEvaluationListener
+org.eclipse.ui.internal.activities.MutableActivityManager.updateActivity
+org.eclipse.ui.internal.activities.MutableActivityManager.getActivity
+org.eclipse.ui.internal.activities.MutableActivityManager.getRequiredActivityIds
+org.eclipse.ui.internal.activities.MutableActivityManager.setEnabledActivityIds
+org.eclipse.ui.internal.activities.MutableActivityManager$2.propertyChange
+org.eclipse.ui.internal.services.EvaluationAuthority.firePropertyChange
+org.eclipse.ui.internal.services.EvaluationAuthority.addEvaluationListener
+org.eclipse.ui.internal.services.EvaluationService.addEvaluationListener
+org.eclipse.ui.internal.activities.MutableActivityManager.updateActivity
+org.eclipse.ui.internal.activities.MutableActivityManager.getActivity
+org.eclipse.ui.internal.activities.MutableActivityManager.getRequiredActivityIds

@@ -1,0 +1,11 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Shell.<init>
+org.eclipse.swt.widgets.Shell.<init>
+org.eclipse.jface.window.Window.createShell
+org.eclipse.jface.window.Window.create
+org.eclipse.jface.window.Window.open
+org.eclipse.core.runtime.Platform.run
+orator
+java.lang.Thread.run

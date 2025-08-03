@@ -1,0 +1,17 @@
+org.eclipse.jface.tests.images.ImageCacheTest.testDispose
+sun.reflect.NativeMethodAccessorImpl.invoke0
+sun.reflect.NativeMethodAccessorImpl.invoke
+sun.reflect.DelegatingMethodAccessorImpl.invoke
+org.eclipse.test.EclipseTestRunner.run
+org.eclipse.test.EclipseTestRunner.run
+org.eclipse.test.CoreTestApplication.runTests
+org.eclipse.test.CoreTestApplication.run
+org.eclipse.core.internal.runtime.PlatformActivator$1.run
+org.eclipse.core.runtime.adaptor.EclipseStarter.run
+org.eclipse.core.runtime.adaptor.EclipseStarter.run
+sun.reflect.NativeMethodAccessorImpl.invoke0
+sun.reflect.NativeMethodAccessorImpl.invoke
+sun.reflect.DelegatingMethodAccessorImpl.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

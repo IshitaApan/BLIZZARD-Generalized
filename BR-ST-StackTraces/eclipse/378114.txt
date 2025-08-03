@@ -1,0 +1,12 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages
+org.eclipse.swt.widgets.Display.runAsyncMessages
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run
+org.eclipse.jdt.internal.ui.infoviews.JavadocView.doSetInput
+org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView.doSetInput
+org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView.access$2
+org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2$1.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages

@@ -1,0 +1,17 @@
+org.eclipse.ui.internal.PageLayout.createView
+org.eclipse.ui.internal.PageLayout.addView
+org.eclipse.ui.internal.Perspective.loadPredefinedPersp
+org.eclipse.ui.internal.Perspective.createPresentation
+org.eclipse.ui.internal.Perspective.<init>
+org.eclipse.ui.internal.WorkbenchPage.createPerspective
+org.eclipse.ui.internal.WorkbenchPage.init
+org.eclipse.ui.internal.WorkbenchPage.<init>
+org.eclipse.ui.internal.WorkbenchWindow.busyOpenPage
+org.eclipse.ui.internal.WorkbenchWindow$6.run
+org.eclipse.swt.custom.BusyIndicator.showWhile
+org.eclipse.ui.internal.WorkbenchWindow.openPage
+org.eclipse.ui.internal.Workbench.openFirstTimeWindow
+org.eclipse.ui.internal.Workbench.init
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+EclipseRuntimeLauncher.main

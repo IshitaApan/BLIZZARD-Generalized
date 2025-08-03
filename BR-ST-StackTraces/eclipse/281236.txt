@@ -1,0 +1,5 @@
+org.eclipse.e4.demo.contacts.handlers.ThemeUtil$1.run
+org.eclipse.swt.widgets.Synchronizer.syncExec
+org.eclipse.swt.widgets.Display.syncExec
+org.eclipse.e4.demo.contacts.handlers.ThemeUtil.switchTheme
+org.eclipse.e4.demo.contacts.handlers.BrightThemeHandler.execute

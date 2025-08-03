@@ -1,0 +1,4 @@
+org.eclipse.e4.workbench.ui.renderers.swt.SWTPartRenderer.createMenu
+org.eclipse.e4.workbench.ui.renderers.swt.StackRenderer.showMenu
+org.eclipse.e4.workbench.ui.renderers.swt.StackRenderer$8.widgetSelected
+org.eclipse.swt.widgets.TypedListener.handleEvent

@@ -1,0 +1,13 @@
+com.sun.org.apache.xerces.internal.dom.ParentNode.getLength
+org.eclipse.ui.XMLMemento.getChildren
+org.eclipse.ui.internal.AggregateWorkingSet.restoreWorkingSet
+org.eclipse.ui.internal.AbstractWorkingSet.getElementsArray
+org.eclipse.ui.internal.AbstractWorkingSet.getElements
+org.eclipse.ui.internal.AggregateWorkingSet.constructElements
+org.eclipse.ui.internal.AggregateWorkingSet.restoreWorkingSet
+org.eclipse.ui.internal.AbstractWorkingSet.getElementsArray
+org.eclipse.ui.internal.AbstractWorkingSet.getElements
+org.eclipse.ui.internal.AggregateWorkingSet.constructElements
+org.eclipse.ui.internal.AggregateWorkingSet.restoreWorkingSet
+org.eclipse.ui.internal.AbstractWorkingSet.getElementsArray
+org.eclipse.ui.internal.AbstractWorkingSet.getElements

@@ -1,0 +1,4 @@
+java.util.AbstractList$Itr.checkForComodification
+java.util.AbstractList$Itr.next
+org.eclipse.core.commands.operations.DefaultOperationHistory.filter
+org.eclipse.core.commands.operations.DefaultOperationHistory.getUndoHistory

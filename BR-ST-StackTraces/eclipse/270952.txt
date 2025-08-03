@@ -1,0 +1,6 @@
+org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.makeSmallString
+org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getStyledText
+org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getStyledText
+org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getStyledText
+org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getStyledText
+org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider.getText

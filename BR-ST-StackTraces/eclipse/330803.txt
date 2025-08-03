@@ -1,0 +1,16 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Widget.checkWidget
+org.eclipse.swt.widgets.Menu.setLocation
+org.eclipse.e4.ui.workbench.renderers.swt.ToolItemRenderer$5.widgetSelected
+org.eclipse.swt.widgets.TypedListener.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Display.runDeferredEvents
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$6.run
+org.eclipse.core.databinding.observable.Realm.runWithDefault
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run
+org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI

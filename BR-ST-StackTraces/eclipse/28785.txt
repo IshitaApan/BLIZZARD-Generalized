@@ -1,0 +1,10 @@
+org.eclipse.jface.resource.FontRegistry.get
+es
+org.eclipse.core.runtime.Plugin.getPluginPreferences
+sun.reflect.NativeConstructorAccessorImpl.newInstance0
+java.lang.reflect.Constructor.newInstance
+java.lang.Class.newInstance0
+java.lang.Class.newInstance
+org.eclipse.core.runtime.Platform.run
+org.eclipse.core.runtime.Platform.run
+org.eclipse.core.internal.resources.Project.build

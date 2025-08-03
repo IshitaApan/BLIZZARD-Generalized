@@ -1,0 +1,17 @@
+org.eclipse.ui.internal.EditorArea.updateTabList
+org.eclipse.ui.internal.EditorPane.showFocus
+org.eclipse.ui.internal.WorkbenchPage$2.run
+org.eclipse.core.runtime.Platform.run
+org.eclipse.jface.util.OpenStrategy.handleOpen
+org.eclipse.jface.util.OpenStrategy.access$5
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.notifyListeners
+org.eclipse.swt.widgets.Display.runDeferredEvents
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.ui.internal.Workbench.runEventLoop
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

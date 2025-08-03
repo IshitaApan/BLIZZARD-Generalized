@@ -1,0 +1,8 @@
+org.eclipse.ui.internal.navigator.NavigatorSaveablesService.computeSaveables
+org.eclipse.ui.internal.navigator.NavigatorSaveablesService.recomputeSaveablesAndNotify
+org.eclipse.ui.internal.navigator.NavigatorSaveablesService.handleBundleStopped
+org.eclipse.ui.internal.navigator.NavigatorSaveablesService.bundleChanged
+org.eclipse.ui.internal.navigator.NavigatorPlugin$1.bundleChanged
+org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent
+org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent
+org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run

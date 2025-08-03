@@ -1,0 +1,10 @@
+org.eclipse.ui.help.WorkbenchHelp$1.helpRequested
+org.eclipse.swt.widgets.TypedListener.handleEvent
+org.eclipse.jface.window.Window.open
+org.eclipse.jface.action.Action.runWithEvent
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

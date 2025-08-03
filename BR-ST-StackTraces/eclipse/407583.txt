@@ -1,0 +1,8 @@
+org.eclipse.e4.core.internal.di.InjectorImpl.invoke
+org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke
+org.eclipse.e4.ui.internal.workbench.ModelAssembler.runProcessor
+org.eclipse.e4.ui.internal.workbench.ModelAssembler.processModel
+org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadMostRecentModel
+org.eclipse.e4.ui.internal.workbench.swt.E4Application.loadApplicationModel
+org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench
+org.eclipse.ui.internal.Workbench$5.run

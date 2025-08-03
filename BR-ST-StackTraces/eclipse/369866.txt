@@ -1,0 +1,3 @@
+java.lang.String.charAt
+org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.updateTab
+org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$2.handleEvent

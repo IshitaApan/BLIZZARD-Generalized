@@ -1,0 +1,6 @@
+Main$5.dispose
+org.eclipse.jface.wizard.WizardDialog.hardClose
+org.eclipse.jface.wizard.WizardDialog.close
+org.eclipse.jface.window.Window.handleShellCloseEvent
+org.eclipse.jface.window.Window$3.shellClosed
+org.eclipse.swt.widgets.TypedListener.handleEvent

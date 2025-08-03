@@ -1,0 +1,5 @@
+org.eclipse.ui.internal.WorkbenchPage.closePerspective
+org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher.closePerspective
+org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher.access$6
+org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$13.widgetSelected
+org.eclipse.swt.widgets.TypedListener.handleEvent

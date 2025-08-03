@@ -1,0 +1,9 @@
+org.eclipse.ui.internal.progress.AnimationManager.setAnimated
+org.eclipse.ui.internal.progress.AnimationManager$2.incrementJobCount
+org.eclipse.ui.internal.progress.AnimationManager$2.addJob
+org.eclipse.ui.internal.progress.AnimationManager$2.refreshJobInfo
+org.eclipse.ui.internal.progress.ProgressManager.refreshJobInfo
+org.eclipse.ui.internal.progress.ProgressManager$JobMonitor.beginTask
+org.eclipse.core.internal.events.AutoBuildJob.doBuild
+org.eclipse.core.internal.events.AutoBuildJob.run
+org.eclipse.core.internal.jobs.Worker.run

@@ -1,0 +1,7 @@
+org.eclipse.ui.internal.PerspectiveHelper.partChangeAffectsZoom
+org.eclipse.ui.internal.WorkbenchPage.partChangeAffectsZoom
+org.eclipse.ui.internal.WorkbenchPage.activate
+org.eclipse.ui.internal.CyclePartAction.activate
+org.eclipse.ui.internal.CyclePartAction.runWithEvent
+org.eclipse.ui.commands.ActionHandler.execute
+org.eclipse.ui.internal.commands.Command.execute

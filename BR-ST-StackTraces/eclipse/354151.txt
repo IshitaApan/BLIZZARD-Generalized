@@ -1,0 +1,6 @@
+junit.framework.Assert.assertEquals
+junit.framework.Assert.assertEquals
+org.eclipse.ui.tests.api.workbenchpart.ArbitraryPropertyTest.testViewProperties
+junit.framework.Assert.assertEquals
+junit.framework.Assert.assertEquals
+org.eclipse.ui.tests.api.workbenchpart.ArbitraryPropertyTest.testEditorProperties

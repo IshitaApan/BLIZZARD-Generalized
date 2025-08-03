@@ -1,0 +1,9 @@
+org.eclipse.jface.resource.JFaceResources.getResources
+org.eclipse.jface.resource.JFaceResources.getResources
+org.eclipse.ui.internal.decorators.OverlayCache.<init>
+org.eclipse.ui.internal.decorators.LightweightDecoratorManager.<init>
+org.eclipse.ui.internal.decorators.DecoratorManager.initializeDecoratorDefinitions
+org.eclipse.ui.internal.decorators.DecoratorManager.getLightweightManager
+org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached
+org.eclipse.ui.internal.decorators.DecorationScheduler$1.run
+org.eclipse.core.internal.jobs.Worker.run

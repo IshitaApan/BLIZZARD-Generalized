@@ -1,0 +1,6 @@
+junit.framework.Assert.fail
+junit.framework.Assert.assertTrue
+junit.framework.Assert.assertNull
+org.eclipse.ui.tests.propertysheet.PropertySheetAuto.testInputIfHiddenBug69953
+sun.reflect.NativeMethodAccessorImpl.invoke0
+sun.reflect.NativeMethodAccessorImpl.invoke

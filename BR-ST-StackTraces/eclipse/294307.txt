@@ -1,0 +1,2 @@
+org.eclipse.ui.tests.statushandlers.StatusDialogManagerTest.testList2
+org.eclipse.ui.tests.statushandlers.StatusDialogManagerTest.testList3

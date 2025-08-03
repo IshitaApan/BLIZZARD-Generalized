@@ -1,0 +1,7 @@
+org.eclipse.core.internal.expressions.WithExpression.evaluate
+org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr
+org.eclipse.core.internal.expressions.OrExpression.evaluate
+org.eclipse.core.internal.expressions.ReferenceExpression.evaluate
+org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd
+org.eclipse.core.internal.expressions.AndExpression.evaluate
+org.eclipse.e4.ui.workbench.renderers.swt.MenuItemRenderer$VisibleRAT.changed

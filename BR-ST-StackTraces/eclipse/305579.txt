@@ -1,0 +1,7 @@
+org.eclipse.ui.internal.WorkbenchPage.addPostSelectionListener
+org.eclipse.ui.internal.views.markers.ExtendedMarkersView.addPageAndPartSelectionListener
+org.eclipse.ui.internal.views.markers.ExtendedMarkersView.createPartControl
+org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl
+org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl
+org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create
+sun.reflect.NativeMethodAccessorImpl.invoke0

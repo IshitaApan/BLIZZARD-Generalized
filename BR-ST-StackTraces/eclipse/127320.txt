@@ -1,0 +1,4 @@
+org.eclipse.core.internal.resources.Workspace.loadProjectDescription
+org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage$ProjectRecord.setProjectName
+org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage$ProjectRecord.<init>
+org.eclipse.ui.internal.wizards.datatransfer.WizardProjectsImportPage.collectProjectFilesFromProvider

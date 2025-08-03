@@ -1,0 +1,3 @@
+org.eclipse.core.runtime.jobs.Job.schedule
+org.eclipse.core.internal.jobs.WorkerPool.endJob
+org.eclipse.core.internal.jobs.Worker.run

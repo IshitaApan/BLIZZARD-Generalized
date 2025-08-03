@@ -1,0 +1,10 @@
+org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.notifyListeners
+org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.access$3
+org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl$2.changed
+org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update
+org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled
+org.eclipse.e4.core.internal.contexts.EclipseContext.set
+org.eclipse.e4.ui.internal.workbench.swt.ShellActivationListener$2.run
+org.eclipse.core.runtime.SafeRunner.run
+org.eclipse.e4.ui.internal.workbench.swt.ShellActivationListener.activate
+org.eclipse.e4.ui.internal.workbench.swt.ShellActivationListener.handleEvent

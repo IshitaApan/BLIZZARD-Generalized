@@ -1,0 +1,10 @@
+org.eclipse.emf.common.util.AbstractEList.getNonDuplicates
+org.eclipse.emf.common.util.AbstractEList.addAll
+org.eclipse.e4.ui.model.application.impl.ApplicationImpl.eSet
+org.eclipse.emf.ecore.impl.BasicEObjectImpl.eSet
+org.eclipse.e4.workbench.ui.internal.EMFModelDeltaSet.apply
+org.eclipse.e4.workbench.ui.internal.ModelReconcilingService.applyDeltas
+org.eclipse.e4.workbench.ui.internal.ModelReconcilingService.applyDeltas
+org.eclipse.e4.workbench.ui.internal.ResourceHandler.loadMostRecentModel
+org.eclipse.e4.ui.workbench.swt.internal.E4Application.loadApplicationModel
+org.eclipse.e4.ui.workbench.swt.internal.E4Application.createE4Workbench

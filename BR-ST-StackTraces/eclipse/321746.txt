@@ -1,0 +1,7 @@
+org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl
+org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create
+sun.reflect.NativeMethodAccessorImpl.invoke0
+sun.reflect.NativeMethodAccessorImpl.invoke
+sun.reflect.DelegatingMethodAccessorImpl.invoke
+java.lang.reflect.Method.invoke
+org.eclipse.e4.core.internal.di.MethodRequestor.execute

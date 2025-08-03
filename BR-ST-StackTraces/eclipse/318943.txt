@@ -1,0 +1,11 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Widget.checkWidget
+org.eclipse.swt.widgets.Scrollable.getClientArea
+org.eclipse.ui.internal.quickaccess.QuickAccessContents.computeNumberOfItems
+org.eclipse.ui.internal.quickaccess.QuickAccessContents.refresh
+org.eclipse.ui.internal.quickaccess.QuickAccessContents.access$1
+org.eclipse.ui.internal.quickaccess.QuickAccessContents$2.modifyText
+org.eclipse.swt.widgets.TypedListener.handleEvent

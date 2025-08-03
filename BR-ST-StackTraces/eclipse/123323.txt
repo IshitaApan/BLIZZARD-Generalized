@@ -1,0 +1,14 @@
+org.eclipse.ui.views.markers.internal.TableSorter.compare
+org.eclipse.ui.views.markers.internal.TableSorter.compare
+org.eclipse.ui.views.markers.internal.TableSorter.compare
+org.eclipse.ui.views.markers.internal.TableSorter.compare
+org.eclipse.ui.views.markers.internal.TableSorter.compare
+org.eclipse.ui.views.markers.internal.CategorySorter.compare
+org.eclipse.ui.views.markers.internal.CategorySorter.compare
+org.eclipse.ui.views.markers.internal.SortUtil.partitionHelper
+org.eclipse.ui.views.markers.internal.SortUtil.getFirst
+org.eclipse.ui.views.markers.internal.SortUtil.getFirst
+org.eclipse.ui.views.markers.internal.MarkerAdapter.buildAllMarkers
+org.eclipse.ui.views.markers.internal.MarkerView.updateForContentsRefresh
+org.eclipse.ui.views.markers.internal.MarkerView$MarkerProcessJob.run
+org.eclipse.core.internal.jobs.Worker.run

@@ -1,0 +1,7 @@
+org.eclipse.core.internal.expressions.WithExpression.evaluate
+org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd
+org.eclipse.core.internal.expressions.EnablementExpression.evaluate
+org.eclipse.ui.internal.navigator.wizards.CommonWizardDescriptor.isEnabledFor
+org.eclipse.ui.internal.navigator.wizards.CommonWizardDescriptorManager.getEnabledCommonWizardDescriptors
+org.eclipse.ui.navigator.WizardActionGroup.setContext
+org.eclipse.ui.internal.navigator.resources.actions.NewActionProvider.fillContextMenu

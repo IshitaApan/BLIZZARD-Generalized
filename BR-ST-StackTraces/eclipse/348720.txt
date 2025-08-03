@@ -1,0 +1,14 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Widget.getDisplay
+org.eclipse.e4.ui.workbench.addons.dndaddon.DnDInfo.update
+org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager.startDrag
+org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager$1$1.dragDetected
+org.eclipse.swt.widgets.TypedListener.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Display.runDeferredEvents
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run

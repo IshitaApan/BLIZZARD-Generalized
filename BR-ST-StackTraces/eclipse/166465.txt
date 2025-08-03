@@ -1,0 +1,12 @@
+org.eclipse.core.commands.operations.DefaultOperationHistory.execute
+org.eclipse.ui.actions.DeleteResourceAction$3.run
+org.eclipse.core.internal.jobs.Worker.run
+org.eclipse.ui.internal.ide.undo.ContainerDescription.recordStateFromHistory
+org.eclipse.ui.ide.undo.WorkspaceUndoUtil.delete
+org.eclipse.ui.ide.undo.WorkspaceUndoUtil.delete
+org.eclipse.ui.ide.undo.AbstractResourcesOperation.delete
+org.eclipse.ui.ide.undo.DeleteResourcesOperation.doExecute
+org.eclipse.ui.ide.undo.AbstractWorkspaceOperation$1.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute
+org.eclipse.core.commands.operations.DefaultOperationHistory.execute

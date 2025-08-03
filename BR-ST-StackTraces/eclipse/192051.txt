@@ -1,0 +1,3 @@
+org.eclipse.ui.internal.statushandlers.StatusNotificationManager$3.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages

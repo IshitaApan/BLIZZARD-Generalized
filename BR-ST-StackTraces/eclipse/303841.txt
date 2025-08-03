@@ -1,0 +1,7 @@
+org.eclipse.e4.ui.model.application.impl.PerspectiveStackImpl.eSet
+org.eclipse.emf.ecore.impl.BasicEObjectImpl.eSet
+org.eclipse.e4.workbench.ui.internal.EMFModelDeltaSet.apply
+org.eclipse.e4.workbench.ui.internal.EMFModelDeltaDelayedSet.apply
+org.eclipse.e4.workbench.ui.internal.ModelReconcilingService.applyDeltas
+org.eclipse.e4.workbench.ui.internal.ModelReconcilingService.applyDeltas
+org.eclipse.e4.workbench.ui.internal.ResourceHandler.loadMostRecentModel

@@ -1,0 +1,12 @@
+org.eclipse.search2.internal.ui.SearchViewManager.activateSearchView
+org.eclipse.search2.internal.ui.InternalSearchUI.runSearchInBackground
+org.eclipse.search.ui.NewSearchUI.runQueryInBackground
+org.eclipse.search.ui.NewSearchUI.runQueryInBackground
+org.eclipse.jdt.internal.ui.search.SearchUtil.runQueryInBackground
+org.eclipse.jdt.ui.actions.FindAction.performNewSearch
+org.eclipse.jdt.ui.actions.FindAction.run
+org.eclipse.jdt.ui.actions.FindReferencesAction.run
+org.eclipse.jdt.ui.actions.FindAction.run
+org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun
+org.eclipse.jdt.ui.actions.SelectionDispatchAction.run
+org.eclipse.jface.action.Action.runWithEvent

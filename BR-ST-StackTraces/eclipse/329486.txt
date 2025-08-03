@@ -1,0 +1,4 @@
+junit.framework.Assert.fail
+org.eclipse.e4.ui.tests.application.UIEventsTest.ensureAllSet
+org.eclipse.e4.ui.tests.application.UIEventsTest.checkForFailures
+org.eclipse.e4.ui.tests.application.UIEventsTest.testAllTopics

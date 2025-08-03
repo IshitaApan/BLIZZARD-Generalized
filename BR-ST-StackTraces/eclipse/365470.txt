@@ -1,0 +1,3 @@
+junit.framework.Assert.assertEquals
+junit.framework.Assert.assertEquals
+org.eclipse.e4.ui.menu.tests.MToolItemTest.testActionSetAddedToMyToolbar

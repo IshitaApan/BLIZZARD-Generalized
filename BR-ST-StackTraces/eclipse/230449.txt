@@ -1,0 +1,9 @@
+org.eclipse.ui.internal.keys.model.KeyController.updateTrigger
+org.eclipse.ui.internal.keys.model.KeyController$4.propertyChange
+org.eclipse.ui.internal.keys.model.KeyController.firePropertyChange
+org.eclipse.ui.internal.keys.model.BindingElement.setTrigger
+org.eclipse.ui.internal.keys.NewKeysPreferencePage$5.propertyChange
+org.eclipse.jface.bindings.keys.KeySequenceText.firePropertyChangeEvent
+org.eclipse.jface.bindings.keys.KeySequenceText.setKeySequence
+org.eclipse.jface.bindings.keys.KeySequenceText$KeyTrapListener.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent

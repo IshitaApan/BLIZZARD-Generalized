@@ -1,0 +1,14 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Widget.checkWidget
+org.eclipse.swt.widgets.Menu.isVisible
+org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.dropdownEvent
+org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.handleWidgetSelection
+org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.access$1
+org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem$2.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Display.runDeferredEvents
+org.eclipse.swt.widgets.Display.readAndDispatch

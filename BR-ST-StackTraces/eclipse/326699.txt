@@ -1,0 +1,5 @@
+org.eclipse.ui.internal.WorkbenchWindow.hardClose
+org.eclipse.ui.internal.WorkbenchWindow.busyClose
+org.eclipse.ui.internal.WorkbenchWindow.access$9
+org.eclipse.ui.internal.WorkbenchWindow$6.run
+org.eclipse.swt.custom.BusyIndicator.showWhile

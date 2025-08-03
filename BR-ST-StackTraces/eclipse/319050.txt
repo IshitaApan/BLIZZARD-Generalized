@@ -1,0 +1,3 @@
+org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler
+org.eclipse.ui.handlers.ShowViewHandler.execute
+org.eclipse.ui.internal.handlers.HandlerProxy.execute

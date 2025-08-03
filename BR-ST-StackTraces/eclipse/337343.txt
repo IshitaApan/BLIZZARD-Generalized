@@ -1,0 +1,7 @@
+junit.framework.Assert.fail
+junit.framework.Assert.failNotEquals
+junit.framework.Assert.assertEquals
+junit.framework.Assert.assertEquals
+junit.framework.Assert.assertEquals
+org.eclipse.ui.tests.multipageeditor.MultiVariablePageTest.testOneEditor
+org.eclipse.ui.tests.multipageeditor.MultiVariablePageTest.testPagePartListener

@@ -1,0 +1,8 @@
+org.eclipse.ui.internal.Workbench.getWorkbenchWindows
+org.eclipse.ui.internal.ExtensionEventHandler.registryChanged
+org.eclipse.core.internal.registry.ExtensionRegistry$2.run
+org.eclipse.core.runtime.SafeRunner.run
+org.eclipse.core.internal.registry.ExtensionRegistry.processChangeEvent
+org.eclipse.core.runtime.spi.RegistryStrategy.processChangeEvent
+org.eclipse.core.internal.registry.osgi.ExtensionEventDispatcherJob.run
+org.eclipse.core.internal.jobs.Worker.run

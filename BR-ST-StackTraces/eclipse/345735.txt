@@ -1,0 +1,6 @@
+junit.framework.Assert.fail
+junit.framework.Assert.assertTrue
+org.eclipse.jdt.ui.leaktest.LeakTestCase.assertInstanceCount
+org.eclipse.jdt.ui.tests.leaks.JavaLeakTest.internalTestEditorClose
+org.eclipse.jdt.ui.tests.leaks.JavaLeakTest.internalTestEditorClose
+org.eclipse.jdt.ui.tests.leaks.JavaLeakTest.testTextEditorClose

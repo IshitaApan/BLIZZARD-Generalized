@@ -1,0 +1,11 @@
+org.eclipse.ui.internal.WorkbenchPage.showView
+org.eclipse.ui.internal.ide.IDEWorkbenchPlugin$2.run
+org.eclipse.swt.widgets.Display.timerProc
+org.eclipse.swt.internal.gtk.OS._g_main_context_iteration
+org.eclipse.swt.internal.gtk.OS.g_main_context_iteration
+org.eclipse.swt.widgets.Shell.setVisible
+org.eclipse.ui.internal.FaderAnimationFeedback.initialize
+org.eclipse.ui.internal.AnimationEngine.<init>
+org.eclipse.ui.internal.AnimationEngine.<init>
+org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.maximize
+org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon$8.handleEvent

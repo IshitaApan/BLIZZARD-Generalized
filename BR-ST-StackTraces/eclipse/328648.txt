@@ -1,0 +1,10 @@
+org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.<init>
+org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.createWorkbenchWindowAdvisor
+org.eclipse.ui.internal.WorkbenchWindow.getWindowAdvisor
+org.eclipse.ui.internal.WorkbenchWindow.fireWindowOpening
+org.eclipse.ui.internal.WorkbenchWindow.setup
+sun.reflect.NativeMethodAccessorImpl.invoke0
+sun.reflect.NativeMethodAccessorImpl.invoke
+sun.reflect.DelegatingMethodAccessorImpl.invoke
+java.lang.reflect.Method.invoke
+org.eclipse.e4.core.internal.di.MethodRequestor.execute

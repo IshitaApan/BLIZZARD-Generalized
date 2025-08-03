@@ -1,0 +1,11 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.dnd.DND.error
+org.eclipse.swt.dnd.DND.error
+org.eclipse.swt.dnd.Clipboard.setContents
+org.eclipse.swt.dnd.Clipboard.setContents
+ecute
+org.eclipse.core.commands.Command.executeWithChecks
+xt
+lected

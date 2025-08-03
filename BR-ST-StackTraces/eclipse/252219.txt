@@ -1,0 +1,12 @@
+java.lang.Class.getMethod
+org.eclipse.core.internal.databinding.beans.ListenerSupport.processListener
+org.eclipse.core.internal.databinding.beans.ListenerSupport.hookListener
+org.eclipse.core.internal.databinding.beans.JavaBeanObservableValue.firstListenerAdded
+org.eclipse.core.databinding.observable.ChangeManager.addListener
+org.eclipse.core.databinding.observable.value.AbstractObservableValue.addValueChangeListener
+org.eclipse.core.databinding.ValueBinding.<init>
+org.eclipse.core.databinding.DataBindingContext.bindValue
+org.eclipse.jface.examples.databinding.snippets.Snippet000HelloWorld$View.createShell
+org.eclipse.jface.examples.databinding.snippets.Snippet000HelloWorld$1.run
+org.eclipse.core.databinding.observable.Realm.runWithDefault
+org.eclipse.jface.examples.databinding.snippets.Snippet000HelloWorld.main

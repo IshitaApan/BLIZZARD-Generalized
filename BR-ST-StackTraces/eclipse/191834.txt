@@ -1,0 +1,9 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.graphics.GC.<init>
+org.eclipse.swt.graphics.GC.<init>
+org.eclipse.jface.layout.LayoutConstants.initializeConstants
+org.eclipse.jface.layout.LayoutConstants.getSpacing
+org.eclipse.jface.layout.GridLayoutFactory.fillDefaults
+org.eclipse.jface.dialogs.PopupDialog.<clinit>

@@ -1,0 +1,11 @@
+org.eclipse.ui.internal.PartSite.getTopLevelModelWindow
+org.eclipse.ui.internal.PartSite.setWindow
+org.eclipse.ui.internal.PartSite.<init>
+org.eclipse.ui.internal.EditorSite.<init>
+org.eclipse.ui.internal.EditorReference.initialize
+org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create
+sun.reflect.NativeMethodAccessorImpl.invoke0
+sun.reflect.NativeMethodAccessorImpl.invoke
+sun.reflect.DelegatingMethodAccessorImpl.invoke
+java.lang.reflect.Method.invoke
+org.eclipse.e4.core.internal.di.MethodRequestor.execute

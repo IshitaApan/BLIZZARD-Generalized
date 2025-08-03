@@ -1,0 +1,13 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Widget.checkWidget
+org.eclipse.swt.widgets.TreeItem.getBounds
+org.eclipse.jface.viewers.TreeViewerRow.getBounds
+org.eclipse.jface.viewers.ViewerCell.getBounds
+org.eclipse.jface.viewers.FocusCellOwnerDrawHighlighter.focusCellChanged
+org.eclipse.jface.viewers.SWTFocusCellManager.setFocusCell
+org.eclipse.jface.viewers.SWTFocusCellManager.handleSelection
+org.eclipse.jface.viewers.SWTFocusCellManager.access$2
+org.eclipse.jface.viewers.SWTFocusCellManager$1.handleEvent

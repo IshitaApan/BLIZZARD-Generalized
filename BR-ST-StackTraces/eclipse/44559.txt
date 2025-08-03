@@ -1,0 +1,13 @@
+org.eclipse.ui.internal.progress.ProgressViewUpdater.scheduleUpdate
+org.eclipse.ui.internal.progress.ProgressViewUpdater.refreshAll
+org.eclipse.ui.internal.progress.ProgressManager.refreshAll
+org.eclipse.ui.internal.progress.ProgressManager.done
+org.eclipse.core.internal.jobs.JobListeners$3.notify
+org.eclipse.core.internal.jobs.JobListeners$7.run
+org.eclipse.core.internal.runtime.InternalPlatform.run
+org.eclipse.core.runtime.Platform.run
+org.eclipse.core.internal.jobs.JobListeners.doNotify
+org.eclipse.core.internal.jobs.JobListeners.done
+org.eclipse.core.internal.jobs.JobManager.endJob
+org.eclipse.core.internal.jobs.WorkerPool.endJob
+org.eclipse.core.internal.jobs.Worker.run

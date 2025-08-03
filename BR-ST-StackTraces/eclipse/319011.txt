@@ -1,0 +1,3 @@
+org.eclipse.ui.part.PageBookView$4.partHidden
+org.eclipse.ui.internal.WorkbenchPage.firePartHidden
+org.eclipse.ui.internal.WorkbenchPage.access$9

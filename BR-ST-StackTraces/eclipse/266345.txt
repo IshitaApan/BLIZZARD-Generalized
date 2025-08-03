@@ -1,0 +1,5 @@
+junit.framework.Assert.fail
+junit.framework.Assert.assertTrue
+junit.framework.Assert.assertNotNull
+junit.framework.Assert.assertNotNull
+org.eclipse.ui.tests.services.WorkbenchSiteProgressServiceTest.testWaitCursor

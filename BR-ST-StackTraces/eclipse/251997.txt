@@ -1,0 +1,10 @@
+org.eclipse.ui.internal.registry.WizardsRegistryReader.getWizardElements
+org.eclipse.ui.internal.registry.WizardsRegistryReader.finishPrimary
+org.eclipse.ui.internal.registry.WizardsRegistryReader.readWizards
+org.eclipse.ui.internal.registry.WizardsRegistryReader.getWizardElements
+org.eclipse.ui.internal.registry.WizardsRegistryReader.finishPrimary
+org.eclipse.ui.internal.registry.WizardsRegistryReader.readWizards
+org.eclipse.ui.internal.registry.WizardsRegistryReader.getWizardElements
+org.eclipse.ui.internal.registry.WizardsRegistryReader.finishPrimary
+org.eclipse.ui.internal.registry.WizardsRegistryReader.readWizards
+org.eclipse.ui.internal.registry.WizardsRegistryReader.getWizardElements

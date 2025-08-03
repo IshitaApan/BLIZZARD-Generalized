@@ -1,0 +1,7 @@
+org.eclipse.ui.internal.PopupMenuExtender.dispose
+tk.eclipse.plugin.htmleditor.editors.SplitPageHTMLEditor$SplitEditorSite.dispose
+tk.eclipse.plugin.htmleditor.editors.SplitPageHTMLEditor.dispose
+tk.eclipse.plugin.htmleditor.editors.HTMLEditor.dispose
+org.eclipse.ui.internal.WorkbenchPartReference.doDisposePart
+org.eclipse.ui.internal.EditorReference.doDisposePart
+org.eclipse.ui.internal.WorkbenchPartReference.dispose

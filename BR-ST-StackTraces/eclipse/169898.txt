@@ -1,0 +1,5 @@
+org.eclipse.ui.internal.EditorManager.saveEditorState
+org.eclipse.ui.internal.EditorManager.saveState
+org.eclipse.ui.internal.WorkbenchPage.saveState
+org.eclipse.ui.internal.WorkbenchWindow.saveState
+org.eclipse.ui.internal.Workbench.saveState

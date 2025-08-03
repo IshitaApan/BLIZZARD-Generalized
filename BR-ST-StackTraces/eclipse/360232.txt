@@ -1,0 +1,8 @@
+org.eclipse.e4.ui.model.internal.ModelUtils.getContainingContext
+org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.getContainingContext
+org.eclipse.e4.ui.internal.workbench.swt.AbstractPartRenderer.getContextForParent
+org.eclipse.e4.ui.internal.workbench.swt.AbstractPartRenderer.getContext
+org.eclipse.e4.ui.internal.workbench.swt.AbstractPartRenderer.activate
+org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$ActivationJob.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages

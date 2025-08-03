@@ -1,0 +1,6 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.ui.internal.provisional.views.markers.ExtendedMarkersView$10.runInUIThread
+org.eclipse.ui.progress.UIJob$1.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages

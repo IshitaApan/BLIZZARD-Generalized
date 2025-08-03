@@ -1,0 +1,4 @@
+org.eclipse.ui.views.markers.internal.MarkerView.scheduleCountUpdate
+org.eclipse.ui.views.markers.internal.MarkerAdapter.fetchDeferredChildren
+org.eclipse.ui.progress.DeferredTreeContentManager$1.run
+org.eclipse.core.internal.jobs.Worker.run

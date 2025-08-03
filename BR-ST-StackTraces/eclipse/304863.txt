@@ -1,0 +1,5 @@
+org.eclipse.ui.internal.console.OpenConsoleAction.getMenu
+org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection
+org.eclipse.jface.action.ActionContributionItem.access$2
+org.eclipse.jface.action.ActionContributionItem$6.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent

@@ -1,0 +1,12 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.custom.TreeEditor$1.treeCollapsed
+org.eclipse.swt.internal.win32.OS.CallWindowProcW
+org.eclipse.swt.internal.win32.OS.DispatchMessageW
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

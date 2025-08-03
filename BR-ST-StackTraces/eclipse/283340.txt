@@ -1,0 +1,7 @@
+org.eclipse.e4.workbench.ui.renderers.swt.StackModelFactory.childRemoved
+org.eclipse.e4.workbench.ui.renderers.swt.StackModelFactory$2.notifyChanged
+org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify
+org.eclipse.e4.ui.model.internal.application.MPartImpl.setVisible
+org.eclipse.e4.workbench.ui.renderers.swt.StackModelFactory$5.close
+org.eclipse.swt.custom.CTabFolder.onMouse
+org.eclipse.swt.custom.CTabFolder$1.handleEvent

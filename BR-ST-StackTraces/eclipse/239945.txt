@@ -1,0 +1,12 @@
+java.util.ArrayList.get
+org.eclipse.jface.action.CoolBarManager.adjustContributionList
+org.eclipse.jface.action.CoolBarManager.refresh
+org.eclipse.jface.action.CoolBarManager.update
+org.nightlabs.base.ui.action.registry.AbstractActionRegistry.removeAllFromCoolBar
+org.nightlabs.base.ui.app.DefaultActionBuilder.contributeToCoolBar
+org.nightlabs.base.ui.app.DefaultActionBuilder.contribute
+org.nightlabs.base.ui.app.DefaultActionBuilder.createContributionItemSetRegistry
+org.nightlabs.base.ui.app.DefaultActionBuilder.access$200
+org.nightlabs.base.ui.app.DefaultActionBuilder$2$1.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages

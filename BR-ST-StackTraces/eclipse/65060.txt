@@ -1,0 +1,4 @@
+org.eclipse.ui.examples.jobs.TestJob.run
+org.eclipse.core.internal.jobs.Worker.run
+org.eclipse.ui.examples.jobs.TestJob.run
+org.eclipse.core.internal.jobs.Worker.run

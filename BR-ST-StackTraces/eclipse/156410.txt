@@ -1,0 +1,9 @@
+org.eclipse.ui.internal.Workbench$13.run
+org.eclipse.core.runtime.SafeRunner.run
+org.eclipse.ui.internal.Workbench.saveAllEditors
+org.eclipse.ui.internal.Workbench.busyClose
+org.eclipse.ui.internal.Workbench.access$8
+org.eclipse.ui.internal.Workbench$14.run
+org.eclipse.swt.custom.BusyIndicator.showWhile
+org.eclipse.ui.internal.Workbench.close
+org.eclipse.ui.internal.Workbench.close

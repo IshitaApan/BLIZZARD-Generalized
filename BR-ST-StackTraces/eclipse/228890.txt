@@ -1,0 +1,4 @@
+java.awt.ContainerOrderFocusTraversalPolicy.getLastComponent
+javax.swing.DefaultFocusManager.getLastComponent
+javax.swing.LegacyGlueFocusTraversalPolicy.getLastComponent
+java.awt.ContainerOrderFocusTraversalPolicy.getLastComponent

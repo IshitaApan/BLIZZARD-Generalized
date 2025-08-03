@@ -1,0 +1,9 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Widget.checkWidget
+org.eclipse.swt.widgets.Tree.setRedraw
+org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread
+org.eclipse.ui.progress.UIJob$1.run
+org.eclipse.swt.widgets.RunnableLock.run

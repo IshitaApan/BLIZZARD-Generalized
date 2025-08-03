@@ -1,0 +1,9 @@
+org.eclipse.ui.internal.CoolBarToTrimManager.fill
+org.eclipse.ui.internal.CoolBarToTrimManager.update
+org.eclipse.ui.internal.WorkbenchWindow.updateActionBars
+org.eclipse.ui.internal.WWinActionBars.updateActionBars
+org.eclipse.jface.action.ContributionManager.itemAdded
+org.eclipse.jface.action.ContributionManager.insert
+org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.addToManager
+org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.processSeparator
+org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.modelProcessSwitch

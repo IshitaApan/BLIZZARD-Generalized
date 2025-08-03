@@ -1,0 +1,15 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Shell.<init>
+org.eclipse.swt.widgets.Shell.<init>
+org.eclipse.jface.window.Window.createShell
+org.eclipse.jface.window.Window.create
+org.eclipse.jface.dialogs.Dialog.create
+org.eclipse.jface.window.Window.open
+org.eclipse.jface.dialogs.ErrorDialog.open
+org.eclipse.jface.dialogs.ErrorDialog.openError
+org.eclipse.jface.dialogs.ErrorDialog.openError
+org.eclipse.ui.dialogs.WizardNewFileCreationPage$4.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

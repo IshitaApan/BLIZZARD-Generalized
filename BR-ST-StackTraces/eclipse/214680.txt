@@ -1,0 +1,14 @@
+org.eclipse.core.runtime.Assert.isTrue
+org.eclipse.core.runtime.Assert.isTrue
+org.eclipse.jface.action.ToolBarContributionItem.<init>
+org.eclipse.jface.internal.provisional.action.ToolBarContributionItem2.<init>
+myplugin.MyPresentationFactory.createToolBarContributionItem
+org.eclipse.ui.internal.menus.MenuAdditionCacheEntry.createToolBarAdditionContribution
+org.eclipse.ui.internal.menus.MenuAdditionCacheEntry.createContributionItems
+org.eclipse.ui.internal.menus.TrimContributionManager.update
+org.eclipse.ui.internal.WorkbenchWindow.updateLayoutDataForContents
+org.eclipse.ui.internal.WorkbenchWindow.setLayoutDataForContents
+org.eclipse.ui.internal.WorkbenchWindow.createDefaultContents
+org.eclipse.ui.internal.WorkbenchWindowConfigurer.createDefaultContents
+org.eclipse.ui.application.WorkbenchWindowAdvisor.createWindowContents
+myplugin.ApplicationWorkbenchWindowAdvisor.createWindowContents

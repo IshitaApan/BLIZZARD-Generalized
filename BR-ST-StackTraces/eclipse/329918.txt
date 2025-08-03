@@ -1,0 +1,6 @@
+org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.setCSSInfo
+org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.trackActivePart
+sun.reflect.GeneratedMethodAccessor13.invoke
+sun.reflect.DelegatingMethodAccessorImpl.invoke
+java.lang.reflect.Method.invoke
+org.eclipse.e4.core.internal.di.MethodRequestor.execute

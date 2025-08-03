@@ -1,0 +1,8 @@
+org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.getToolTipText
+org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.updateToolItem
+org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.update
+org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.update
+org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem$2.run
+org.eclipse.core.runtime.SafeRunner.run
+org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.updateItemEnablement
+org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem$ToolItemUpdateTimer.run

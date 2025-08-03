@@ -1,0 +1,10 @@
+org.eclipse.ui.internal.ViewPane.showViewMenu
+org.eclipse.jface.action.Action.runWithEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.notifyListeners
+org.eclipse.swt.widgets.Display.runDeferredEvents
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.ui.internal.Workbench.runEventLoop
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+SlimLauncher.main

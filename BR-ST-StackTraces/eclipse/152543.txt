@@ -1,0 +1,4 @@
+org.eclipse.jface.internal.databinding.internal.ValueBinding.doUpdateTargetFromModel
+org.eclipse.jface.internal.databinding.internal.ValueBinding.updateTargetFromModel
+org.eclipse.jface.internal.databinding.internal.ValueBinding.<init>
+Snippet.main

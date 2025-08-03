@@ -1,0 +1,7 @@
+org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.childRendered
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui
+org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents
+org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui

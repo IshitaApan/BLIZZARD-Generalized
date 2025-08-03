@@ -1,0 +1,9 @@
+org.eclipse.ui.internal.about.AboutBundleData.isSigned
+org.eclipse.ui.internal.dialogs.AboutPluginsDialog$2.run
+org.eclipse.core.internal.jobs.Worker.run
+org.eclipse.osgi.internal.verifier.PKCS7Processor.<init>
+org.eclipse.osgi.internal.verifier.SignedBundleFile.processSigner
+org.eclipse.osgi.internal.verifier.SignedBundleFile.setBundleFile
+org.eclipse.osgi.internal.verifier.SignedBundleHook.getVerifier
+org.eclipse.osgi.internal.verifier.SignedBundleHook.getVerifier
+org.eclipse.ui.internal.about.AboutBundleData.isSigned

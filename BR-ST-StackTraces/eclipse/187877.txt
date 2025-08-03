@@ -1,0 +1,3 @@
+org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore
+org.eclipse.core.filesystem.EFS.getStore
+org.eclipse.ui.part.FileEditorInput.getPath

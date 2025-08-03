@@ -1,0 +1,2 @@
+org.eclipse.ui.internal.dialogs.ContentTypesPreferencePage$2.keyReleased
+org.eclipse.swt.widgets.TypedListener.handleEvent

@@ -1,0 +1,4 @@
+org.eclipse.ui.views.markers.internal.MarkerAdapter.buildAllMarkers
+org.eclipse.ui.views.markers.internal.MarkerView.updateForContentsRefresh
+org.eclipse.ui.views.markers.internal.MarkerView$MarkerProcessJob.run
+org.eclipse.core.internal.jobs.Worker.run

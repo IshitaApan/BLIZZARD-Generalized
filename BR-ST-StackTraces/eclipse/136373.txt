@@ -1,0 +1,5 @@
+org.eclipse.ui.internal.ide.dialogs.CreateLinkedResourceGroup.handleLinkTargetBrowseButtonPressed
+org.eclipse.ui.internal.ide.dialogs.CreateLinkedResourceGroup.access$13
+org.eclipse.ui.internal.ide.dialogs.CreateLinkedResourceGroup$3.widgetSelected
+org.eclipse.swt.widgets.TypedListener.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent

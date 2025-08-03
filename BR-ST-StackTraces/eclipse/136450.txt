@@ -1,0 +1,13 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Widget.getDisplay
+org.eclipse.ui.internal.progress.ProgressMonitorFocusJobDialog$4.runAsync
+org.eclipse.ui.internal.progress.ProgressMonitorFocusJobDialog$4.done
+org.eclipse.ui.internal.progress.ProgressManager$JobMonitor.done
+org.eclipse.update.internal.operations.BatchInstallOperation.execute
+org.eclipse.update.internal.ui.wizards.InstallWizard2.install
+org.eclipse.update.internal.ui.wizards.InstallWizard2.access$1
+org.eclipse.update.internal.ui.wizards.InstallWizard2$1.run
+org.eclipse.core.internal.jobs.Worker.run

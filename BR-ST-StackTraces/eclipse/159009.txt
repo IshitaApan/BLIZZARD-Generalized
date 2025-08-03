@@ -1,0 +1,8 @@
+java.util.LinkedHashMap$LinkedHashIterator.nextEntry
+java.util.LinkedHashMap$ValueIterator.next
+org.eclipse.ui.dialogs.ResourceSearcher$ResourceHistory.getMatchedElements
+org.eclipse.ui.dialogs.ResourceSearcher$ResourceSearchEngineJob.getFilteredHistory
+org.eclipse.ui.dialogs.AbstractSearcher$AbstractSearchJob.internalRun
+org.eclipse.ui.dialogs.AbstractSearcher$AbstractSearchJob.doRun
+org.eclipse.ui.dialogs.AbstractSearcher$AbstractJob.run
+org.eclipse.core.internal.jobs.Worker.run

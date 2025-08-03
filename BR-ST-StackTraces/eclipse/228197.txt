@@ -1,0 +1,12 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Label.setImage
+org.eclipse.ui.statushandlers.WorkbenchStatusDialogManager.refreshSingleStatusArea
+org.eclipse.ui.statushandlers.WorkbenchStatusDialogManager.updateTitleArea
+org.eclipse.ui.statushandlers.WorkbenchStatusDialogManager.refresh
+org.eclipse.ui.statushandlers.WorkbenchStatusDialogManager.access$32
+org.eclipse.ui.statushandlers.WorkbenchStatusDialogManager$5.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages

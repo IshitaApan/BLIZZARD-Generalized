@@ -1,0 +1,16 @@
+org.eclipse.jface.resource.FontRegistry.disposeFonts
+org.eclipse.jface.resource.FontRegistry.clearCaches
+org.eclipse.jface.resource.FontRegistry$1.run
+org.eclipse.swt.widgets.Display.release
+org.eclipse.swt.graphics.Device.dispose
+org.eclipse.ui.internal.ide.IDEApplication.run
+org.eclipse.core.internal.runtime.PlatformActivator$1.run
+org.eclipse.core.runtime.adaptor.EclipseStarter.run
+org.eclipse.core.runtime.adaptor.EclipseStarter.run
+sun.reflect.NativeMethodAccessorImpl.invoke0
+sun.reflect.NativeMethodAccessorImpl.invoke
+sun.reflect.DelegatingMethodAccessorImpl.invoke
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

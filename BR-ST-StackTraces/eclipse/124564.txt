@@ -1,0 +1,12 @@
+org.eclipse.ui.internal.DetachedWindow.add
+org.eclipse.ui.internal.PerspectiveHelper.detach
+org.eclipse.ui.internal.PerspectiveHelper.detachPart
+org.eclipse.ui.internal.WorkbenchPage.detachView
+org.eclipse.ui.internal.ViewPane.doDetach
+org.eclipse.ui.internal.presentations.SystemMenuDetach.run
+org.eclipse.ui.internal.DetachedWindow.add
+org.eclipse.ui.internal.PerspectiveHelper.detach
+org.eclipse.ui.internal.PerspectiveHelper.detachPart
+org.eclipse.ui.internal.WorkbenchPage.detachView
+org.eclipse.ui.internal.ViewPane.doDetach
+org.eclipse.ui.internal.presentations.SystemMenuDetach.run

@@ -1,0 +1,9 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Display.error
+org.eclipse.swt.widgets.Display.checkDevice
+org.eclipse.swt.widgets.Display.update
+org.eclipse.jface.window.Window.runEventLoop
+org.eclipse.jface.window.Window.open
+win32.Main1.main

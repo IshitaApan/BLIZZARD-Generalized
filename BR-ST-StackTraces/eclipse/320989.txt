@@ -1,0 +1,11 @@
+org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.findAction
+org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.runAction
+org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.quitMenuItemSelected
+org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.actionProc
+org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper
+org.eclipse.swt.widgets.Display.applicationSendEvent
+org.eclipse.swt.widgets.Display.applicationProc
+org.eclipse.swt.internal.cocoa.OS.objc_msgSend
+org.eclipse.swt.internal.cocoa.NSApplication.sendEvent
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run

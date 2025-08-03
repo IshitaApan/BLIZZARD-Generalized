@@ -1,0 +1,5 @@
+org.eclipse.ui.statushandlers.WorkbenchStatusDialogManager.openStatusDialog
+org.eclipse.ui.statushandlers.WorkbenchStatusDialogManager.access$34
+org.eclipse.ui.statushandlers.WorkbenchStatusDialogManager$6.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages

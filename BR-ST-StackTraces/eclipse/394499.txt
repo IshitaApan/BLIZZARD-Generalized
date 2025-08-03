@@ -1,0 +1,3 @@
+org.eclipse.ui.internal.navigator.NavigatorSaveablesService.getActiveSaveables
+org.eclipse.ui.navigator.CommonNavigator.getActiveSaveables
+org.eclipse.ui.internal.SaveableHelper.needsSave

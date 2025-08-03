@@ -1,0 +1,4 @@
+java.util.AbstractList$Itr.next
+org.eclipse.core.internal.jobs.JobManager.endJob
+org.eclipse.core.internal.jobs.WorkerPool.endJob
+org.eclipse.core.internal.jobs.Worker.run

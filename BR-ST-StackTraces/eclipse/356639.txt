@@ -1,0 +1,4 @@
+junit.framework.Assert.fail
+org.eclipse.e4.ui.tests.application.ModelElementTest.testForMApplicationInterface
+junit.framework.Assert.fail
+org.eclipse.e4.ui.tests.application.ModelElementTest.testForOptimalBaseClass

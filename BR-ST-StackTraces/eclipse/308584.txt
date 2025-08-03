@@ -1,0 +1,14 @@
+org.eclipse.e4.core.internal.di.InjectorImpl.logError
+org.eclipse.e4.core.internal.di.InjectorImpl.update
+org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.notify
+org.eclipse.e4.core.internal.contexts.EclipseContext$TrackableComputationExt.notify
+org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled
+org.eclipse.e4.core.internal.contexts.EclipseContext.set
+org.eclipse.e4.workbench.ui.internal.PartServiceImpl.activate
+org.eclipse.e4.ui.workbench.swt.internal.AbstractPartRenderer.activate
+org.eclipse.e4.workbench.ui.renderers.swt.StackRenderer$ActivationJob.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages
+org.eclipse.swt.widgets.Display.runAsyncMessages
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.e4.ui.workbench.swt.internal.PartRenderingEngine$5.run

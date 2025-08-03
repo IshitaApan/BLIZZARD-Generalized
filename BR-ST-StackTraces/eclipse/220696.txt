@@ -1,0 +1,5 @@
+org.eclipse.ui.ide.undo.AbstractResourcesOperation.setTargetResources
+org.eclipse.ui.ide.undo.AbstractResourcesOperation.<init>
+org.eclipse.ui.ide.undo.DeleteResourcesOperation.<init>
+org.eclipse.ui.actions.DeleteResourceAction$4.run
+org.eclipse.core.internal.jobs.Worker.run

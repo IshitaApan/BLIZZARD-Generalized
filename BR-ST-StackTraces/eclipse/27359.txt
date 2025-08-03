@@ -1,0 +1,13 @@
+f
+s
+org.eclipse.ui.internal.Workbench.restoreState
+org.eclipse.ui.internal.Workbench.access$7
+org.eclipse.ui.internal.Workbench$8.run
+org.eclipse.core.runtime.Platform.run
+org.eclipse.ui.internal.Workbench.init
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main
