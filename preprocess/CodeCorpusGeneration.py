@@ -7,16 +7,26 @@ import re
 TEXT_BLOCK_PATTERN = re.compile(r'"""\s*(.*?)\s*"""', re.DOTALL)
 
 def fix_text_blocks(code):
-    """Replace Java text blocks with safe string concatenation format."""
+    """"
+    1) Convert Java text blocks (\"\"\"...\"\"\") into safe concatenated string literals.
+    2) Remove illegal backslash-newline sequences (e.g. '\\\\\n').
+    3) Replace stray '\\s' escapes with a plain space.
+    4) Escape any remaining double-quotes.
+    """
     def replace_block(match):
         content = match.group(1)
-        # Remove illegal backslash-newline
+        # Remove backslash + newline inside the block
         content = re.sub(r'\\\s*\n', '', content)
-        # Escape quotes
-        content = content.replace('"', '\\"')
-        # Convert multiline to concatenation
+        # Replace stray '\s' escapes with space
+        content = re.sub(r'\\s', ' ', content)
+        # Strip any backslash followed by spaces or tabs
+        content = re.sub(r'\\[ \t]+', '', content)
+        # Escape any embedded double-quotes
+        content = content.replace('"', r'\"')
+        
+        # Split into lines and join as concatenated string
         lines = content.splitlines()
-        return '"{}"'.format('" +\n"'.join(lines))
+        return '"{}"'.format('" +\n"'.join(lines)) 
     return re.sub(TEXT_BLOCK_PATTERN, replace_block, code)
 
 
