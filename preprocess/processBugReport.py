@@ -42,13 +42,10 @@ def dump_bug_reports(xml_path, output_dir, bugIds_file):
             f.write(f"{bid}\n")
 
 if __name__ == "__main__":
-    # xml_file = "/home/ishita/BugLocalization/Data-22k/aspectj-updated-data.xml"         # replace with your XML path
-    # output_folder = "//home/ishita/BugLocalization/Data-22k/BR-RAW-Query/aspectj"    # directory to hold the .txt files
-    # bugIds_file = "/home/ishita/BugLocalization/Data-22k/aspectj_bug_ids.txt"  # file to hold the bug IDs
-
-    xml_file = "/home/ishita/BugLocalization/Data-22k/eclipse-updated-data.xml"         # replace with your XML path
-    output_folder = "/home/ishita/BugLocalization/Data-22k/BR-RAW-Query/eclipse"    # directory to hold the .txt files
-    bugIds_file = "/home/ishita/BugLocalization/Data-22k/eclipse_bug_ids.txt"  # file to hold the bug IDs
+    project_name = "swt"  # replace with your project name, [aspectj, birt, eclipse, jdt, swt]
+    xml_file = f"/home/ishita/BugLocalization/Data-22k/{project_name}-updated-data.xml"         # replace with your XML path
+    output_folder = f"/home/ishita/BugLocalization/Data-22k/BR-RAW-Query/{project_name}"    # directory to hold the .txt files
+    bugIds_file = f"/home/ishita/BugLocalization/Data-22k/{project_name}_bug_ids.txt"  # file to hold the bug IDs
     dump_bug_reports(xml_file, output_folder, bugIds_file)
-    print(f"Written all bug files to ./{output_folder}/")
     print(f"Processed {len(os.listdir(output_folder))} reports; bug_ids written.") 
+    print(f"Written all bug files to ./{output_folder}/")
