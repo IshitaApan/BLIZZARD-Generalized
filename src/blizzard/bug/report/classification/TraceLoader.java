@@ -29,6 +29,11 @@ public class TraceLoader {
 				String bugReport = BugReportLoader.loadBugReport(repoName, bugID);
 				TraceCollector traceCollector = new TraceCollector(null);
 				straces = traceCollector.extractStackTraces(bugReport);
+				// if the directory does not exist, create it
+				File dir = new File(StaticData.STACK_TRACE_DIR + "/" + repoName);
+				if (!dir.exists()) {
+					dir.mkdirs();
+				}
 				// write code to Save the extracted stack traces to a file
 				try (BufferedWriter writer = new BufferedWriter(new FileWriter(tFile))) {
 					for (String entry : straces) {
