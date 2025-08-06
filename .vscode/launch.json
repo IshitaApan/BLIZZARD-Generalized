@@ -150,5 +150,13 @@
         // "projectName": "BLIZZARD-Tool-New",
         "args": "-task reformulateQuery -repo jdt -bugIDFile inputs/jdt_bug_ids.txt -queryFile outputs/reformulated-query-jdt.txt"
     },
+    {
+        "type": "java",
+        "name": "Launch BLIZZARDRunner: swt",
+        "request": "launch",
+        "mainClass": "blizzard.core.items.BLIZZARDRunner",
+        // "projectName": "BLIZZARD-Tool-New",
+        "args": "-task reformulateQuery -repo swt -bugIDFile inputs/swt_bug_ids.txt -queryFile outputs/reformulated-query-swt.txt"
+    },
     ]
 }
