@@ -1,0 +1,3 @@
+org.eclipse.swt.graphics.GC.setClipping
+org.eclipse.swt.graphics.GC.setClipping
+xyz.swt.simpletable.SimpleTable$4.paintControl

@@ -1,0 +1,4 @@
+org.eclipse.swt.tests.junit.Test_org_eclipse_swt_widgets_List.test_remove$I
+org.eclipse.swt.tests.junit.Test_org_eclipse_swt_widgets_List.runTest
+org.eclipse.swt.tests.junit.Test_org_eclipse_swt_widgets_Table.test_removeII
+org.eclipse.swt.tests.junit.Test_org_eclipse_swt_widgets_Table.runTest

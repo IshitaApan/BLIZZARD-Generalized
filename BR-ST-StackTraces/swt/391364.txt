@@ -1,0 +1,15 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.custom.StyledText.getBidiSegments
+org.eclipse.swt.custom.StyledTextRenderer.getTextLayout
+org.eclipse.swt.custom.StyledTextRenderer.getTextLayout
+org.eclipse.swt.custom.StyledTextRenderer.calculate
+org.eclipse.swt.custom.StyledTextRenderer.calculateClientArea
+org.eclipse.swt.custom.StyledText.handleResize
+org.eclipse.swt.custom.StyledText$7.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Control.WM_SIZE

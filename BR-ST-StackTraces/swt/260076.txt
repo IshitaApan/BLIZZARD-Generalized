@@ -1,0 +1,3 @@
+org.eclipse.swt.widgets.Tree.clearCustomWidths
+org.eclipse.swt.widgets.Tree.clearCustomWidths
+org.eclipse.swt.widgets.Tree.clearCustomWidths

@@ -1,0 +1,2 @@
+org.eclipse.swt.widgets.Shell.createHandle
+Shell.createHandle

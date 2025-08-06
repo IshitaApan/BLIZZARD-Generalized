@@ -1,0 +1,15 @@
+java.lang.NullPointerException.<init>
+org.eclipse.swt.widgets.Text.sendKeyEvent
+org.eclipse.swt.widgets.Control.sendKeyEvent
+org.eclipse.swt.widgets.Control.WM_CHAR
+org.eclipse.swt.widgets.Text.WM_CHAR
+org.eclipse.swt.internal.win32.OS.DispatchMessageW
+org.eclipse.ui.internal.Workbench.runEventLoop
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.AccessibleObject.invokeImpl
+java.lang.reflect.AccessibleObject.invokeL
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

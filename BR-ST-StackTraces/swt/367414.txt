@@ -1,0 +1,9 @@
+org.eclipse.swt.widgets.Table._getItem
+org.eclipse.swt.widgets.Table.getSelection
+org.eclipse.jface.viewers.TableViewer.doGetSelection
+org.eclipse.jface.viewers.AbstractTableViewer.getSelectionFromWidget
+org.eclipse.jface.viewers.StructuredViewer.getSelection
+org.eclipse.jface.viewers.StructuredViewer.setSelection
+org.eclipse.jface.viewers.TableViewer.setSelection
+org.eclipse.jface.viewers.Viewer.setSelection
+org.eclipse.jface.tests.viewers.StructuredViewerTest.testClearSelection

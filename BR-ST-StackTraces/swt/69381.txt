@@ -1,0 +1,13 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Control.createHandle
+org.eclipse.swt.widgets.Composite.createHandle
+org.eclipse.swt.widgets.Shell.createHandle
+org.eclipse.swt.widgets.Control.createWidget
+org.eclipse.swt.widgets.Scrollable.createWidget
+org.eclipse.swt.widgets.Shell.<init>
+org.eclipse.swt.widgets.Shell.win32_new
+org.eclipse.swt.awt.SWT_AWT.new_Shell
+org.damselfly.jdev.swt.ole.text.EditorTest.main

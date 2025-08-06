@@ -1,0 +1,13 @@
+org.eclipse.swt.custom.WrappedContent.reset
+org.eclipse.swt.custom.StyledText$6.textChanged
+org.eclipse.swt.custom.StyledText.modifyContent
+org.eclipse.swt.custom.StyledText.sendKeyEvent
+org.eclipse.swt.custom.StyledText.doBackspace
+org.eclipse.swt.custom.StyledText.invokeAction
+org.eclipse.swt.custom.StyledText.handleKey
+org.eclipse.swt.custom.StyledText.handleKeyDown
+org.eclipse.swt.custom.StyledText$8.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Display.runDeferredEvents
+org.eclipse.swt.widgets.Display.readAndDispatch

@@ -1,0 +1,3 @@
+org.eclipse.swt.graphics.Font.destroy
+org.eclipse.swt.graphics.Resource.dispose
+PR.main

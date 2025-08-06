@@ -1,0 +1,6 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.custom.WrappedContent.getLine
+org.eclipse.swt.custom.StyledText$Printing.print
+org.eclipse.swt.custom.StyledText$Printing.run
+org.eclipse.jface.text.TextViewer$4.run

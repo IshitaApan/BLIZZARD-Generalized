@@ -1,0 +1,14 @@
+org.eclipse.swt.graphics.ImageData.blit
+org.eclipse.swt.graphics.Image.putImage
+org.eclipse.swt.graphics.Image.init
+org.eclipse.swt.graphics.Image.<init>
+org.eclipse.swt.custom.BusyIndicator.showWhile
+org.eclipse.swt.custom.BusyIndicator.showWhile
+org.eclipse.ui.internal.Workbench.init
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+sun.reflect.NativeMethodAccessorImpl.invoke0
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

@@ -1,0 +1,15 @@
+org.eclipse.swt.internal.gtk.OS.gtk_editable_delete_selection
+org.eclipse.swt.widgets.Combo.clearSelection
+urationId
+org.eclipse.swt.custom.BusyIndicator.showWhile
+org.eclipse.jface.util.OpenStrategy.access$800
+org.eclipse.jface.util.OpenStrategy$3.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Display.runAsyncMessages
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.jface.window.Window.runEventLoop
+org.eclipse.jface.window.Window.open
+org.eclipse.jface.action.Action.runWithEvent
+Event
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent

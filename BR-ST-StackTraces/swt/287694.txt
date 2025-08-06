@@ -1,0 +1,7 @@
+org.eclipse.swt.widgets.Spinner.setIncrement
+SpinnerTest$1$1.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages
+org.eclipse.swt.widgets.Display.runAsyncMessages
+org.eclipse.swt.widgets.Display.readAndDispatch
+SpinnerTest.main

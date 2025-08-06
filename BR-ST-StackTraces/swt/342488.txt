@@ -1,0 +1,10 @@
+sun.reflect.NativeMethodAccessorImpl.invoke0
+sun.reflect.NativeMethodAccessorImpl.invoke
+sun.reflect.DelegatingMethodAccessorImpl.invoke
+java.lang.reflect.Method.invoke
+com.sun.javaws.Launcher.invokeMainMethod
+org.eclipse.swt.widgets.Display.init
+org.eclipse.swt.graphics.Device.<init>
+org.eclipse.swt.widgets.Display.<init>
+org.eclipse.swt.widgets.Display.<init>
+org.eclipse.swt.examples.controlexample.ControlExample.main

@@ -1,0 +1,16 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.graphics.TextLayout.getStyle
+org.eclipse.swt.custom.StyledTextRenderer.getTextLayout
+org.eclipse.swt.custom.StyledTextRenderer.getTextLayout
+org.eclipse.swt.custom.StyledTextRenderer.calculate
+org.eclipse.swt.custom.StyledTextRenderer.calculateClientArea
+org.eclipse.swt.custom.StyledText.resetCache
+org.eclipse.swt.custom.StyledText.reset
+org.eclipse.swt.custom.StyledText.handleTextSet
+org.eclipse.swt.custom.StyledText$6.textSet
+org.eclipse.swt.custom.StyledTextListener.handleEvent
+org.eclipse.swt.custom.DefaultContent.sendTextEvent
+org.eclipse.swt.custom.DefaultContent.setText
+org.eclipse.swt.custom.StyledText.setText

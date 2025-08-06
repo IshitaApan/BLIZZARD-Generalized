@@ -1,0 +1,8 @@
+org.eclipse.swt.custom.CCombo.setVisible
+org.eclipse.swt.bugs.CComboSetVisibleNPE1$2.mouseUp
+org.eclipse.swt.widgets.TypedListener.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Display.runDeferredEvents
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.swt.bugs.CComboSetVisibleNPE1.main

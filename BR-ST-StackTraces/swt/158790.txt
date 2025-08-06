@@ -1,0 +1,7 @@
+org.eclipse.ui.internal.browser.BrowserDescriptorDialog.createDialogArea
+org.eclipse.jface.dialogs.Dialog.createContents
+org.eclipse.jface.window.Window.create
+org.eclipse.jface.dialogs.Dialog.create
+org.eclipse.jface.window.Window.open
+org.eclipse.ui.internal.browser.WebBrowserPreferencePage$3.doubleClick
+org.eclipse.jface.viewers.StructuredViewer$1.run

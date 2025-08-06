@@ -1,0 +1,15 @@
+junit.framework.Assert.fail
+junit.framework.Assert.assertTrue
+Z
+junit.framework.TestCase.runBare
+junit.framework.TestResult$1.protect
+junit.framework.TestResult.runProtected
+junit.framework.TestResult.run
+junit.framework.TestCase.run
+junit.framework.TestSuite.runTest
+junit.framework.TestSuite.run
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run
+java.lang.reflect.Method.invoke
+com.apple.buckyball.app.LaunchRunner.run
+com.apple.buckyball.app.LaunchRunner.callMain
+com.apple.buckyball.app.CarbonLibApp.launch

@@ -1,0 +1,5 @@
+org.eclipse.swt.graphics.Image.init
+org.eclipse.swt.graphics.Image.init
+org.eclipse.swt.graphics.Image.<init>
+org.eclipse.jface.resource.ImageDescriptor.createImage
+org.eclipse.jface.resource.ImageDescriptor.createImage

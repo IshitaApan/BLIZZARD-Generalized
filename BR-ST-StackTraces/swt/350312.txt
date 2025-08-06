@@ -1,0 +1,11 @@
+org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper
+org.eclipse.swt.widgets.Widget.callSuper
+org.eclipse.swt.widgets.Widget.windowSendEvent
+org.eclipse.swt.widgets.Shell.windowSendEvent
+org.eclipse.swt.widgets.Display.windowProc
+org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper
+org.eclipse.swt.widgets.Widget.callSuper
+org.eclipse.swt.widgets.Widget.windowSendEvent
+org.eclipse.swt.widgets.Shell.windowSendEvent
+org.eclipse.swt.widgets.Display.windowProc
+org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper

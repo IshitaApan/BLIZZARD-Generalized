@@ -1,0 +1,9 @@
+org.eclipse.swt.widgets.Menu.menuDidClose
+org.eclipse.swt.widgets.Display.windowProc
+org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper
+org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask
+org.eclipse.swt.widgets.Display.applicationProc
+org.eclipse.swt.internal.cocoa.OS.objc_msgSend
+org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask
+org.eclipse.swt.widgets.Display.readAndDispatch
+PR270379.main

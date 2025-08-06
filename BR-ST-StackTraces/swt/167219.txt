@@ -1,0 +1,3 @@
+org.eclipse.swt.widgets.Menu._setVisible
+org.eclipse.swt.widgets.Display.runPopups
+org.eclipse.swt.widgets.Display.readAndDispatch

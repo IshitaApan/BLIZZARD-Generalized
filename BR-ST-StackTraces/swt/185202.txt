@@ -1,0 +1,3 @@
+org.eclipse.swt.custom.CTabFolder.antialias
+org.eclipse.swt.custom.CTabFolder.drawTabArea
+org.eclipse.swt.custom.CTabFolder.onPaint

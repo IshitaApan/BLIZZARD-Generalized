@@ -1,0 +1,14 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Widget.checkWidget
+org.eclipse.swt.widgets.Combo.getText
+org.eclipse.swt.examples.controlexample.Tab.resetLabels
+org.eclipse.swt.examples.controlexample.Tab$35.widgetSelected
+org.eclipse.swt.widgets.TypedListener.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Display.runDeferredEvents
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.swt.examples.controlexample.ControlExample.main

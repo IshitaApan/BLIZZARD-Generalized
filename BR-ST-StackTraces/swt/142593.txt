@@ -1,0 +1,17 @@
+org.eclipse.swt.internal.win32.OS.CallWindowProcW
+org.eclipse.swt.internal.win32.OS.CallWindowProc
+org.eclipse.swt.widgets.Table.callWindowProc
+org.eclipse.swt.widgets.Table.callWindowProc
+org.eclipse.swt.widgets.Composite.WM_SYSCOMMAND
+org.eclipse.swt.widgets.Control.windowProc
+org.eclipse.swt.widgets.Display.windowProc
+org.eclipse.swt.internal.win32.OS.CallWindowProcW
+org.eclipse.swt.internal.win32.OS.CallWindowProc
+org.eclipse.swt.widgets.Table.callWindowProc
+org.eclipse.swt.widgets.Table.callWindowProc
+org.eclipse.swt.widgets.Control.windowProc
+org.eclipse.swt.widgets.Display.windowProc
+org.eclipse.swt.internal.win32.OS.DispatchMessageW
+org.eclipse.swt.internal.win32.OS.DispatchMessage
+org.eclipse.swt.widgets.Display.readAndDispatch
+com.hb.gui.api.swt.SwtFactory$SwtRunnable.run

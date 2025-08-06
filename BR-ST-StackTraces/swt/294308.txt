@@ -1,0 +1,16 @@
+org.eclipse.jface.tests.viewers.Bug201002TableViewerTest.testBug201002
+org.eclipse.test.EclipseTestRunner.run
+org.eclipse.test.EclipseTestRunner.run
+org.eclipse.test.CoreTestApplication.runTests
+org.eclipse.test.CoreTestApplication.run
+org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException
+org.eclipse.equinox.internal.app.EclipseAppHandle.run
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start
+org.eclipse.core.runtime.adaptor.EclipseStarter.run
+org.eclipse.core.runtime.adaptor.EclipseStarter.run
+org.eclipse.equinox.launcher.Main.invokeFramework
+org.eclipse.equinox.launcher.Main.basicRun
+org.eclipse.equinox.launcher.Main.run
+org.eclipse.equinox.launcher.Main.main
+org.eclipse.core.launcher.Main.main

@@ -1,0 +1,3 @@
+org.eclipse.swt.custom.CTabItem.drawClose
+org.eclipse.swt.custom.CTabItem.drawSelected
+org.eclipse.swt.custom.CTabItem.onPaint

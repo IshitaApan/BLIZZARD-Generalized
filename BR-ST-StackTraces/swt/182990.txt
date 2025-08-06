@@ -1,0 +1,3 @@
+org.eclipse.swt.widgets.Display.monitorEnumProc
+org.eclipse.swt.internal.win32.OS.EnumDisplayMonitors
+org.eclipse.swt.widgets.Display.getMonitors

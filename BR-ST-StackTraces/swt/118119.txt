@@ -1,0 +1,7 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Tree.setItemCount
+org.eclipse.swt.widgets.Tree.setItemCount
+org.eclipse.swt.snippets.Snippet202.main

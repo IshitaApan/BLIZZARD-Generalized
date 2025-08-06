@@ -1,0 +1,3 @@
+org.eclipse.core.commands.Command.executeWithChecks
+org.eclipse.core.commands.ParameterizedCommand.executeWithChecks
+org.eclipse.ui.internal.handlers.HandlerService.executeCommand

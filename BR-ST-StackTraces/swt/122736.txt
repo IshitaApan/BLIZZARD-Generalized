@@ -1,0 +1,10 @@
+java.lang.System.arraycopy
+org.eclipse.swt.custom.StyledTextRenderer.textChanging
+org.eclipse.swt.custom.StyledText.handleTextChanging
+org.eclipse.swt.custom.StyledText$6.textChanging
+org.eclipse.swt.custom.StyledTextListener.handleEvent
+org.eclipse.swt.custom.DefaultContent.sendTextEvent
+org.eclipse.swt.custom.DefaultContent.replaceTextRange
+org.eclipse.swt.custom.StyledText.modifyContent
+org.eclipse.swt.custom.StyledText.replaceTextRange
+org.eclipse.swt.custom.StyledText.append

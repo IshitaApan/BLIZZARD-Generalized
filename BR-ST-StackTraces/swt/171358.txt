@@ -1,0 +1,7 @@
+org.eclipse.swt.browser.Browser.error
+org.eclipse.swt.browser.PromptService.getBrowser
+org.eclipse.swt.browser.PromptService.Confirm
+org.eclipse.swt.browser.PromptService$2.method5
+org.eclipse.swt.internal.mozilla.XPCOMObject.callback5
+org.eclipse.swt.internal.gtk.OS._gtk_main_do_event
+org.eclipse.swt.internal.gtk.OS.gtk_main_do_event

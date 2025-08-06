@@ -1,0 +1,3 @@
+org.eclipse.swt.browser.Mozilla.error
+org.eclipse.swt.browser.Mozilla.create
+org.eclipse.swt.browser.Browser.<init>

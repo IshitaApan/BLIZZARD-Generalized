@@ -1,0 +1,8 @@
+java.lang.String.substring
+org.eclipse.swt.widgets.TableColumn.computeDisplayText
+org.eclipse.swt.widgets.TableColumn.setSortDirection
+org.eclipse.swt.widgets.Table.setSortColumn
+java.lang.String.substring
+org.eclipse.swt.widgets.TableColumn.updateWidth
+org.eclipse.swt.widgets.Table.updateColumnWidth
+org.eclipse.swt.widgets.TableColumn.setWidth

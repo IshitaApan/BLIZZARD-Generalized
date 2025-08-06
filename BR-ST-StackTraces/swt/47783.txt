@@ -1,0 +1,8 @@
+java.lang.System.arraycopy
+org.eclipse.swt.internal.image.JPEGFileFormat.compress
+org.eclipse.swt.internal.image.JPEGFileFormat.convertMultiRGBToYCbCr
+org.eclipse.swt.internal.image.JPEGFileFormat.convertImageToYCbCr
+org.eclipse.swt.internal.image.JPEGFileFormat.unloadIntoByteStream
+org.eclipse.swt.internal.image.FileFormat.unloadIntoStream
+org.eclipse.swt.internal.image.FileFormat.save
+org.eclipse.swt.graphics.ImageLoader.save

@@ -1,0 +1,8 @@
+org.eclipse.swt.internal.C.memmove
+org.eclipse.swt.widgets.Table.rendererGetSizeProc
+org.eclipse.swt.widgets.Display.rendererGetSizeProc
+org.eclipse.swt.internal.gtk.OS._gtk_tree_view_column_cell_get_size
+org.eclipse.swt.internal.gtk.OS.gtk_tree_view_column_cell_get_size
+org.eclipse.swt.widgets.Table.getItemHeight
+org.eclipse.ui.internal.quickaccess.QuickAccessDialog.computeNumberOfItems
+org.eclipse.ui.internal.quickaccess.QuickAccessDialog.refresh

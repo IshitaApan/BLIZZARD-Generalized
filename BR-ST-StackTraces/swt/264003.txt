@@ -1,0 +1,16 @@
+org.eclipse.swt.widgets.Combo.dragDetect
+org.eclipse.swt.widgets.Control.mouseEvent
+org.eclipse.swt.widgets.Control.mouseDown
+org.eclipse.swt.widgets.Combo.mouseDown
+org.eclipse.swt.widgets.Display.windowDelegateProc
+org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper
+org.eclipse.swt.widgets.Widget.callSuper
+org.eclipse.swt.widgets.Widget.windowSendEvent
+org.eclipse.swt.widgets.Display.windowDelegateProc
+org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper
+org.eclipse.swt.widgets.Display.applicationSendEvent
+org.eclipse.swt.widgets.Display.applicationProc
+org.eclipse.swt.internal.cocoa.OS.objc_msgSend
+org.eclipse.swt.internal.cocoa.NSApplication.sendEvent
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.swt.examples.controlexample.ControlExample.main

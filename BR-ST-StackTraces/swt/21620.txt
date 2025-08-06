@@ -1,0 +1,5 @@
+org.eclipse.swt.internal.win32.TCHAR.toString
+org.eclipse.swt.graphics.FontData.EnumLocalesProc
+org.eclipse.swt.internal.win32.OS.EnumSystemLocalesA
+org.eclipse.swt.internal.win32.OS.EnumSystemLocales
+org.eclipse.swt.graphics.FontData.setLocale

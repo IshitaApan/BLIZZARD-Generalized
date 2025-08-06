@@ -1,0 +1,6 @@
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Menu._setVisible
+org.eclipse.swt.widgets.Display.runPopups
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.swt.examples.controlexample.ControlExample.main

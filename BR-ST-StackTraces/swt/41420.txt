@@ -1,0 +1,4 @@
+org.eclipse.swt.widgets.ImageList.get
+org.eclipse.swt.widgets.Table.destroyItem
+org.eclipse.swt.widgets.Widget.dispose
+ColumnDeleteProblem.main

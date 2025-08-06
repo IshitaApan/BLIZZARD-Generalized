@@ -1,0 +1,10 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.ExpandBar.createHandle
+org.eclipse.swt.widgets.Widget.createWidget
+org.eclipse.swt.widgets.Control.createWidget
+org.eclipse.swt.widgets.Scrollable.createWidget
+org.eclipse.swt.widgets.Control.<init>
+org.eclipse.swt.snippets.Snippet223.main

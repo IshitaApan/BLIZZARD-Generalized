@@ -1,0 +1,5 @@
+org.eclipse.swt.custom.StyledTextRenderer$LineInfo.<init>
+org.eclipse.swt.custom.StyledTextRenderer.copyInto
+org.eclipse.swt.custom.StyledText$Printing.cacheLineData
+org.eclipse.swt.custom.StyledText$Printing.<init>
+org.eclipse.swt.custom.StyledText.print

@@ -1,0 +1,8 @@
+org.eclipse.swt.widgets.TableItem.getImageBounds
+org.eclipse.swt.custom.ControlEditor.resize
+org.eclipse.swt.custom.TableEditor.resize
+org.eclipse.swt.custom.TableEditor.setItem
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Display.runDeferredEvents
+org.eclipse.swt.widgets.Display.readAndDispatch

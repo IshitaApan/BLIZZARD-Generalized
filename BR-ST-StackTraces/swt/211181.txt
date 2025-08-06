@@ -1,0 +1,12 @@
+org.eclipse.swt.browser.IE.handleMouseEvent
+org.eclipse.swt.browser.IE$2.handleEvent
+org.eclipse.swt.ole.win32.OleEventTable.sendEvent
+org.eclipse.swt.ole.win32.OleEventSink.notifyListener
+org.eclipse.swt.ole.win32.OleEventSink.Invoke
+org.eclipse.swt.ole.win32.OleEventSink.access$1
+org.eclipse.swt.ole.win32.OleEventSink$1.method6
+org.eclipse.swt.internal.ole.win32.COMObject.callback6
+org.eclipse.swt.internal.win32.OS.DispatchMessageW
+org.eclipse.swt.internal.win32.OS.DispatchMessage
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.help.ui.internal.browser.embedded.EmbeddedBrowserAdapter$UIThread2.run

@@ -1,0 +1,14 @@
+org.eclipse.swt.internal.win32.OS.VtblCall
+org.eclipse.swt.internal.ole.win32.IUnknown.AddRef
+org.eclipse.swt.accessibility.Accessible.<init>
+org.eclipse.swt.widgets.Control.new_Accessible
+org.eclipse.swt.widgets.Control.getAccessible
+org.eclipse.jface.window.Window.create
+org.eclipse.ui.internal.Workbench.init
+org.eclipse.ui.internal.Workbench.runUI
+org.eclipse.ui.PlatformUI.createAndRunWorkbench
+sun.reflect.NativeMethodAccessorImpl.invoke0
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

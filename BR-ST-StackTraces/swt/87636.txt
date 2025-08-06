@@ -1,0 +1,3 @@
+org.eclipse.swt.widgets.ImageList.add
+org.eclipse.swt.widgets.TreeItem.setImage
+org.eclipse.swt.widgets.TreeItem.setImage

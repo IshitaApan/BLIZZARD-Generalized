@@ -1,0 +1,4 @@
+org.eclipse.swt.internal.mozilla.XPCOM.VtblCall
+org.eclipse.swt.internal.gtk.OS.gtk_main_iteration
+org.eclipse.swt.widgets.Display.readAndDispatch
+WB.main

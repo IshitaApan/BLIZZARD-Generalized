@@ -1,0 +1,16 @@
+junit.framework.Assert.fail
+junit.framework.Assert.failNotEquals
+junit.framework.Assert.assertEquals
+aphics_Color
+junit.framework.TestCase.runBare
+junit.framework.TestResult$1.protect
+junit.framework.TestResult.runProtected
+junit.framework.TestResult.run
+junit.framework.TestCase.run
+junit.framework.TestSuite.runTest
+junit.framework.TestSuite.run
+junit.framework.TestSuite.runTest
+junit.framework.TestSuite.run
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main

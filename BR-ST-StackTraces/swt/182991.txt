@@ -1,0 +1,8 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Widget.checkWidget
+org.eclipse.swt.widgets.Table.getColumnCount
+org.eclipse.swt.custom.TableEditor.dispose
+com.abc.sample.testswt.TestTableEditorBug.main

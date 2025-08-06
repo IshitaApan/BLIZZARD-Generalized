@@ -1,0 +1,17 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.custom.StyledText.setStyleRanges
+org.eclipse.swt.custom.StyledText.setStyleRanges
+org.eclipse.swt.examples.controlexample.StyledTextTab.createExampleWidgets
+org.eclipse.swt.examples.controlexample.Tab.recreateExampleWidgets
+org.eclipse.swt.examples.controlexample.Tab$1.widgetSelected
+org.eclipse.swt.widgets.TypedListener.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Widget.notifyListeners
+org.eclipse.swt.widgets.Display.runDeferredEvents
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.swt.examples.controlexample.CustomControlExample.main

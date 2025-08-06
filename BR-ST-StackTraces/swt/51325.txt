@@ -1,0 +1,12 @@
+sun.awt.windows.WWindowPeer.displayChanged
+sun.awt.SunDisplayChanger.notifyListeners
+sun.awt.Win32GraphicsDevice.displayChanged
+sun.awt.Win32GraphicsEnvironment.displayChanged
+sun.awt.windows.WToolkit$4.run
+java.awt.event.InvocationEvent.dispatch
+java.awt.EventQueue.dispatchEvent
+java.awt.EventDispatchThread.pumpOneEventForHierarchy
+java.awt.EventDispatchThread.pumpEventsForHierarchy
+java.awt.EventDispatchThread.pumpEvents
+java.awt.EventDispatchThread.pumpEvents
+java.awt.EventDispatchThread.run

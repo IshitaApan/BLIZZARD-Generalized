@@ -1,0 +1,6 @@
+org.eclipse.swt.widgets.Canvas.viewWillMoveToWindow
+org.eclipse.swt.widgets.Display.windowProc
+org.eclipse.swt.internal.cocoa.OS.objc_msgSend
+org.eclipse.swt.internal.cocoa.NSView.addSubview
+org.eclipse.swt.widgets.Control.setParent
+steve.opengl.GLCanvasParentSwap.main

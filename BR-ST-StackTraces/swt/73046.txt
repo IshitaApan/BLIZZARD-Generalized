@@ -1,0 +1,12 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.awt.SWT_AWT.new_Shell
+java.lang.ClassLoader.loadLibrary0
+java.lang.ClassLoader.loadLibrary
+java.lang.Runtime.loadLibrary0
+java.lang.System.loadLibrary
+org.eclipse.swt.awt.SWT_AWT.loadLibrary
+org.eclipse.swt.awt.SWT_AWT.new_Shell
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Display.runAsyncMessages
+org.eclipse.swt.widgets.Display.readAndDispatch

@@ -1,0 +1,10 @@
+org.eclipse.swt.widgets.Scrollable.updateScrollBarValue
+org.eclipse.swt.widgets.ScrollBar.gtk_value_changed
+org.eclipse.swt.widgets.Widget.windowProc
+org.eclipse.swt.widgets.Display.windowProc
+org.eclipse.swt.internal.gtk.OS._gtk_main_do_event
+org.eclipse.swt.internal.gtk.OS.gtk_main_do_event
+org.eclipse.swt.widgets.Display.eventProc
+org.eclipse.swt.internal.gtk.OS._g_main_context_iteration
+org.eclipse.swt.internal.gtk.OS.g_main_context_iteration
+org.eclipse.swt.widgets.Display.readAndDispatch

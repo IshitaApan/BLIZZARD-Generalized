@@ -1,0 +1,3 @@
+org.eclipse.swt.graphics.ImageData.blit
+org.eclipse.swt.graphics.ImageData.scaledTo
+com.ibm.team.process.internal.ide.ui.ImageUtilities.scale

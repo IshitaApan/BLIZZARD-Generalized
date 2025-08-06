@@ -1,0 +1,5 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.graphics.TextLayout.getLineIndex
+org.eclipse.swt.custom.StyledText.getBaseline

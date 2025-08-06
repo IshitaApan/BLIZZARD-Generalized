@@ -1,0 +1,4 @@
+org.eclipse.swt.graphics.GC.setString
+org.eclipse.swt.graphics.GC.textExtent
+org.eclipse.swt.graphics.GC.stringExtent
+Main.main

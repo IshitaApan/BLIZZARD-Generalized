@@ -1,0 +1,11 @@
+org.eclipse.swt.widgets.TreeItem.computeDisplayText
+org.eclipse.swt.widgets.TreeItem.updateColumnWidth
+org.eclipse.swt.widgets.Tree.updateColumnWidth
+org.eclipse.swt.widgets.TreeColumn.setWidth
+org.eclipse.ui.views.properties.PropertySheetViewer$1.controlResized
+org.eclipse.ui.views.properties.PropertySheetViewer.updateChildrenOf
+org.eclipse.ui.views.properties.PropertySheetViewer.setInput
+org.eclipse.ui.views.properties.PropertySheetPage.selectionChanged
+org.eclipse.ui.views.properties.PropertySheet.selectionChanged
+org.eclipse.ui.internal.AbstractSelectionService$3.run
+org.eclipse.core.internal.runtime.InternalPlatform.run

@@ -1,0 +1,5 @@
+org.eclipse.swt.custom.StyledText.doVisualNext
+org.eclipse.swt.custom.StyledText$4.run
+org.eclipse.swt.widgets.Display.runTimer
+org.eclipse.swt.widgets.Display.messageProc
+org.eclipse.swt.internal.win32.OS.DispatchMessageW

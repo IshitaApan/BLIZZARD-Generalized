@@ -1,0 +1,11 @@
+java.lang.String.<init>
+org.eclipse.swt.custom.DefaultContent.getTextRange
+org.eclipse.swt.custom.StyledText.getBlockSelectionText
+org.eclipse.swt.custom.StyledText.copySelection
+org.eclipse.swt.custom.StyledText.handleMouseUp
+org.eclipse.swt.custom.StyledText$7.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Display.runDeferredEvents
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.swt.examples.texteditor.TextEditor.main

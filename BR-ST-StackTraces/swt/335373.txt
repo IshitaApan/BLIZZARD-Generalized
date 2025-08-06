@@ -1,0 +1,16 @@
+org.eclipse.swt.browser.Mozilla.execute
+org.eclipse.swt.browser.Mozilla.OnStateChange
+org.eclipse.swt.browser.Mozilla$9.method3
+org.eclipse.swt.internal.mozilla.XPCOMObject.callback3
+org.eclipse.swt.internal.mozilla.XPCOM._JS_EvaluateUCScriptForPrincipals
+org.eclipse.swt.internal.mozilla.XPCOM.JS_EvaluateUCScriptForPrincipals
+org.eclipse.swt.browser.Mozilla.execute
+org.eclipse.swt.browser.WebBrowser.evaluate
+org.eclipse.swt.browser.Browser.evaluate
+org.eclipse.swt.snippets.Snippet308$1.widgetSelected
+org.eclipse.swt.widgets.TypedListener.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Display.runDeferredEvents
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.swt.snippets.Snippet308.main

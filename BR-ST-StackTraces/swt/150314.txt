@@ -1,0 +1,16 @@
+org.eclipse.swt.graphics.Pattern.createPattern
+org.eclipse.swt.graphics.GC.setTransform
+org.eclipse.swt.examples.graphics.RGBTab.paint
+org.eclipse.swt.examples.graphics.GraphicsExample$2.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Control.drawWidget
+org.eclipse.swt.widgets.Widget.kEventControlDraw
+org.eclipse.swt.widgets.Canvas.kEventControlDraw
+org.eclipse.swt.widgets.Widget.controlProc
+org.eclipse.swt.widgets.Display.controlProc
+org.eclipse.swt.internal.carbon.OS.ReceiveNextEvent
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.swt.examples.graphics.GraphicsExample.main

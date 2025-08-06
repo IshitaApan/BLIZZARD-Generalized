@@ -1,0 +1,8 @@
+TextLayout.draw
+org.eclipse.swt.graphics.Device.new_Object
+org.eclipse.swt.graphics.Region.<init>
+org.eclipse.swt.graphics.Region.<init>
+org.eclipse.swt.graphics.TextLayout.draw
+org.eclipse.swt.custom.StyledTextRenderer.drawLine
+org.eclipse.swt.custom.StyledText.performPaint
+org.eclipse.swt.custom.StyledText.handlePaint

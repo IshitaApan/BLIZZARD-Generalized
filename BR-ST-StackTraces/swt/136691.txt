@@ -1,0 +1,6 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.graphics.Image.init
+org.eclipse.swt.graphics.Image.<init>
+org.eclipse.swt.snippets.Snippet139.main

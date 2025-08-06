@@ -1,0 +1,3 @@
+java.lang.Thread.dumpStack
+org.eclipse.swt.internal.wpf.OS.RegistryKey_OpenSubKey
+org.eclipse.swt.program.Program.findProgram

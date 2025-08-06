@@ -1,0 +1,9 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.graphics.Image.<init>
+org.eclipse.jface.resource.URLImageDescriptor.createImage
+org.eclipse.jface.resource.ImageDescriptor.createImage
+org.eclipse.jface.resource.ImageDescriptor.createImage
+com.ibm.rcp.toolbox.WebFragmentPallete$ViewLabelProvider$1.run
+org.eclipse.core.internal.jobs.Worker.run

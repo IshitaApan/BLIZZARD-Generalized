@@ -1,0 +1,10 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.awt.SWT_AWT.new_Shell
+SwtBrowserTest$1.run
+org.eclipse.swt.widgets.Synchronizer.syncExec
+org.eclipse.swt.widgets.Display.syncExec
+SwtBrowserTest$2.run
+SwtBrowserTest.run
+java.lang.Thread.run

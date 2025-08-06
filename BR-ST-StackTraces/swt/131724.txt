@@ -1,0 +1,10 @@
+org.eclipse.swt.widgets.Table.rendererRenderProc
+org.eclipse.swt.widgets.Display.rendererRenderProc
+org.eclipse.swt.internal.gtk.OS._gtk_main_do_event
+org.eclipse.swt.internal.gtk.OS.gtk_main_do_event
+org.eclipse.swt.widgets.Display.eventProc
+org.eclipse.swt.internal.gtk.OS._gdk_window_process_updates
+org.eclipse.swt.internal.gtk.OS.gdk_window_process_updates
+org.eclipse.swt.widgets.Control.update
+org.eclipse.swt.widgets.Shell.setVisible
+org.eclipse.swt.widgets.Shell.open

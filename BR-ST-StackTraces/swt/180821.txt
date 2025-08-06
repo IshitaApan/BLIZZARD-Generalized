@@ -1,0 +1,13 @@
+org.eclipse.swt.internal.wpf.OS.Color_FromArgb
+org.eclipse.swt.graphics.Color.init
+org.eclipse.swt.graphics.Color.<init>
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Display.runAsyncMessages
+org.eclipse.swt.internal.wpf.OS.Dispatcher_PushFrame
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.ui.internal.Workbench.runUI
+org.eclipse.ui.internal.Workbench.access$4
+org.eclipse.ui.internal.Workbench$4.run
+org.eclipse.ui.PlatformUI.createAndRunWorkbench
+cation
+sun.reflect.NativeMethodAccessorImpl.invoke0

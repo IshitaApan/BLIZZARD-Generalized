@@ -1,0 +1,4 @@
+java.lang.String.<init>
+org.eclipse.swt.internal.win32.TCHAR.toString
+org.eclipse.swt.widgets.Text.wmClipboard
+org.eclipse.swt.widgets.Text.windowProc

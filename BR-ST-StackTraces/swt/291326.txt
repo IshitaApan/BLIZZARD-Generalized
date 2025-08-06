@@ -1,0 +1,10 @@
+apple.awt.CToolkit.doAWTRunLoop
+apple.awt.CToolkit.invokeAndWait
+apple.awt.CToolkit.invokeAndWait
+apple.awt.ComponentModel.handlePaint
+org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper
+org.eclipse.swt.widgets.Display.applicationSendEvent
+org.eclipse.swt.widgets.Display.applicationProc
+org.eclipse.swt.internal.cocoa.OS.objc_msgSend
+org.eclipse.swt.internal.cocoa.NSApplication.sendEvent
+org.eclipse.swt.widgets.Display.readAndDispatch

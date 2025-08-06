@@ -1,0 +1,9 @@
+org.eclipse.jface.resource.FontRegistry.get
+org.eclipse.jface.window.Window.create
+org.eclipse.jface.dialogs.Dialog.create
+org.eclipse.jface.window.Window.open
+sun.reflect.NativeMethodAccessorImpl.invoke0
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

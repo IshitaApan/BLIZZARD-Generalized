@@ -1,0 +1,8 @@
+org.eclipse.swt.custom.CBanner.onPaint
+org.eclipse.swt.custom.CBanner$1.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Composite.XExposure
+org.eclipse.swt.widgets.Widget.windowProc

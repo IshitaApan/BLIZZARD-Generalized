@@ -1,0 +1,6 @@
+org.eclipse.swt.browser.WebBrowser$EvaluateFunction.function
+org.eclipse.swt.browser.Safari.callJava
+org.eclipse.swt.browser.Safari.handleCallback
+org.eclipse.swt.browser.Safari.eventProc7
+org.eclipse.swt.internal.cocoa.Cocoa.objc_msgSend
+org.eclipse.swt.browser.Safari.execute

@@ -1,0 +1,11 @@
+org.eclipse.swt.widgets.Control.hasFocus
+org.eclipse.swt.widgets.Control.isFocusControl
+org.eclipse.swt.widgets.Control.forceFocus
+org.eclipse.swt.widgets.Control.setFocus
+org.eclipse.swt.widgets.Composite.setFocus
+org.eclipse.swt.widgets.Control.fixFocus
+org.eclipse.swt.widgets.Control.setEnabled
+win32.Main3$1.run
+org.eclipse.swt.widgets.Display.runTimers
+org.eclipse.swt.widgets.Display.readAndDispatch
+win32.Main3.main
