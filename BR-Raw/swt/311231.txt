@@ -1,0 +1,2 @@
+Warnings printed to console when running AccessibleValueExample
+

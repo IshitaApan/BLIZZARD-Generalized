@@ -1,0 +1,3 @@
+Tree should not show hand pointer by default on Windows 7
+
+I20101005-0800 On Windows 7, the Tree widget should not show the hand pointer by default when the user moves the mouse over an item. The tree in the Windows Explorer does that because clicking a folder executes an action (feeds the right pane). But that's not the case in general. E.g. compmgmt.msc behaves like WinXP, Linux, and the Mac (shows the normal arrow cursor). In some popups (Breadcrumb, Ctrl+O, Ctrl+E, Ctrl+3, etc.), we have special code that turns the cursor into a hand if the item under the mouse will be opened on single-click (bug 277862). In the breadcrumb, we compute the cursor individually per item (e.g. a folder does not get the hand pointer), but this information is lost on Windows 7.

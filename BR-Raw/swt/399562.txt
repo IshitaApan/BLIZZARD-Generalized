@@ -1,0 +1,3 @@
+[GTK3] ProgressBar does not send any mouse events
+
+- 4.3M5 test build, observed on Ubuntu 12.04LTS - run ControlExample, go to the ProgressBar tab, turn on all events - note that the only events shown are Move, Resize, Paint, even if you click on the example control

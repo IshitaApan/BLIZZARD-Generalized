@@ -1,0 +1,3 @@
+Compile warning in official build
+
+I20090518-2000. 1. WARNING in /JUnit Tests/org/eclipse/swt/tests/junit/AllTests.java (at line 14) import org.eclipse.swt.*; The import org.eclipse.swt is never used

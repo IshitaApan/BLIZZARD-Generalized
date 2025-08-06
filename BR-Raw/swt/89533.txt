@@ -1,0 +1,2 @@
+[Themes] Colors and Fonts preferences page has funny icons for color entries
+

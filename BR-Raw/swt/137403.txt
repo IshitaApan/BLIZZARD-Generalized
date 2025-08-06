@@ -1,0 +1,3 @@
+setImage on Label doesn't display image
+
+when using latest code version (3230), setImage of Label doesn't render the image. // button to goto previous date leftLabel = new Label(dateNavComposite, SWT.NONE); Image leftArrowImage = new Image(display,getClass().getResourceAsStream("/images/left_arrow.gif")); leftLabel.setImage(leftArrowImage);

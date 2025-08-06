@@ -1,0 +1,3 @@
+[Coolbar] Unnecessary flash when remove/add last item
+
+RC1 Run the attached test case. Press the Delete/Add button, which removes the last coolitem, then adds a new coolitem at the end. Notice that the 3 coolitems before the deleted/added item are erased and redrawn. This causes unnecessary flash and is quite apparent in Eclipse. Note that the test case includes a delay to illustrate the point. If you take out the delay you will see flash.

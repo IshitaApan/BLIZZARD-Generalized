@@ -1,0 +1,3 @@
+DND.FEEDBACK_INSERT_BEFORE and  DND.FEEDBACK_INSERT_AFTER  support for table
+
+I've been unsuccessfully trying to show an insert mark when dragging to a table. The following works for DND.FEEDBACK_SELECT but when using DND.FEEDBACK_INSERT_BEFORE or DND.FEEDBACK_INSERT_AFTER the selection feedback disappears, but no insert marks are shown: DropTarget target = new DropTarget(table, operations); target.setTransfer(types); DropTargetAdapter listener = new DropTargetAdapter() { public void dragOver(DropTargetEvent event) { event.feedback = DND.FEEDBACK_SELECT; } }; DND Javadoc states the before/after feedbacks apply to tables and trees. See also: http://dev.eclipse.org/mhonarc/lists/platform-swt-dev/msg03265.html

@@ -1,0 +1,3 @@
+Typo in field name in carbon
+
+"sizof" must be replaced with "sizeof" in: org\eclipse\swt\internal\carbon\ThemeButtonDrawInfo.java, org\eclipse\swt\internal\carbon\TXNBackground.java

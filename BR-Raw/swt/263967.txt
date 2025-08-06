@@ -1,0 +1,3 @@
+Spinner is missing getText() method
+
+Spinner is missing getText() method

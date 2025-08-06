@@ -1,0 +1,3 @@
+Event fields javadoc needs update due to ImeComposition event
+
+Javadoc for the following org.eclipse.swt.widgets.Event fields: start, end, index, count now needs to mention that they can be set in the event handler. Returned values are used by the ImeComposition event.

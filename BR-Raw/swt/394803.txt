@@ -1,0 +1,3 @@
+[CTabFolder] Javadocs missing for API CTabFolderRenderer.PART_*
+
+Follow-up to bug 377113 The API constants CTabFolderRenderer.PART_* are missing Javadocs. The best solution is probably to refer the the class Javadoc and explain all the constants and their relationships there. There is a bit of explanation in CTabFolderRenderer#draw(..), but for computeSize and computeTrim, these need to be specified more clearly. E.g. is PART_BORDER the border around the whole control, or just around (BODY - HEADER)? Is HEADER inside BODY or on top/bottom of the latter?

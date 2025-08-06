@@ -1,0 +1,3 @@
+Javadoc warning in official build
+
+/builds/N201111172000/src/plugins/org.eclipse.platform.doc.isv/../org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/TreeCursor.java:277: warning - Tag @see: reference not found: SelectionEvent 1 warning

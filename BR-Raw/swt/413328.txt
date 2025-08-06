@@ -1,0 +1,3 @@
+[GTK2 clean-up] ExpandBar widget uses unused 2.10 code and version guard
+
+ExpandBar widget uses unused 2.10 code and version guard

@@ -1,0 +1,2 @@
+Button widget does not support images with transparent color.
+

@@ -1,0 +1,3 @@
+crash on windows xp korean
+
+On a Windows XP Korean enable the option: "Extend support of advanced text services to all programs" Under Control Panel->Regional and Language Options->Languages->Details- >Advance. Run Eclipse, open a editor (java editor or text editor), type a line long enough of korean characters causing the editor to scroll. Eclipse crashes

@@ -1,0 +1,3 @@
+[DND] No dragStart event when dragging from Combo
+
+When you drag some text from a Combo widget, there are no drag source events. It appears that the native dnd is initiating the drag and not SWT. STEPS: - Run the DNDExample - select Combo as the dragSource - drag some text from the dragSource into the target (eg. Label) Result: - the text appears to be dragged and dropped properly - there are no dragSourceEvents (eg. dragStart, dragSetData) Expected Result: - dragSourceEvents to be sent so that the user can control the drag

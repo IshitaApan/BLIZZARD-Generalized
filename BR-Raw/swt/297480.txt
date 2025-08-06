@@ -1,0 +1,3 @@
+[Widgets] Cocoa:Lines not visible in Table/Tree
+
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.5) Gecko/20091102 Firefox/3.5.5 Build Identifier: I20091207-1800 When we set the lines in Table/tree using setLinesVisible(true), lines are not visible in the background. Verified that it works fine in 3.6M1 Reproducible: Always Steps to Reproduce: 1.Run a snippet which has setLinesVisible(true) for table/tree. Eg: run Snippet110. 2.Table doesn't show the alternating lines in the background. Same with Tree.

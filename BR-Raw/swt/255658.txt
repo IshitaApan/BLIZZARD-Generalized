@@ -1,0 +1,3 @@
+SWT.UNDERLINE_LINK needs more doc
+
+I20081118-0800. Either SWT.UNDERLINE_LINK and/or TextStyle.underlineStyle need more doc: it should mention the important side effect of changing the cursor.

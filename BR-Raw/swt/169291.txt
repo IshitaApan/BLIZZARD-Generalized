@@ -1,0 +1,3 @@
+[DnD] Combo: Incorrect DragStart when mouse hover still inside combo region
+
+[Env] Win XP SP2 Eclipse 3.2.1 [Step to reproduce] 1. Create a Combo, set to DragSource object. 2. Add DragListener to a combo. 3. Run it. Input some text in the combo. 4. Use mouse to select some typed text chars. [Result:] * A dragstart is triggered, no matter the mouse hover is inside the combo region of out of combo region. [Expected:] * It should select text chars when the mouse focus is still inside the combo * The dragstart should be started after the mouse is out of combo region. [Problem] If we enable Drag on a Combo, the user cannot select text by mouse.

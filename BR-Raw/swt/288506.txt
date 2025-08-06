@@ -1,0 +1,3 @@
+[Widgets] DirectoryDialog should show hidden files
+
+See bug 279671.

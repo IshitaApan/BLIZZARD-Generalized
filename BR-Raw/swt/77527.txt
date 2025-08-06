@@ -1,0 +1,3 @@
+setting the background colour in one widget, sets it as the default
+
+In the control example, if the background colour is set for table, and the example is closed and restarted, that background colour of the table is now the background colour of the listener output area. Version: 3.1.0 Build id: 200411020800

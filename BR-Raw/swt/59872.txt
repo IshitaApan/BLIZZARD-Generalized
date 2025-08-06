@@ -1,0 +1,3 @@
+Documentation fix for RowLayout
+
+The attached patch to RowLayout.java clarifies the meaning of the fill member for vertical layouts.

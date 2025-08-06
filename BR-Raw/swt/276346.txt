@@ -1,0 +1,3 @@
+TableEditor positioning wrong on cocoa
+
+Created attachment 135821 Screenshot The position of the TableEditor on Cocoa is ~2px to much on the right side. See the attached screenshot where one is seeing the starting of the T from the Item-Text.

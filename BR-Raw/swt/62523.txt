@@ -1,0 +1,3 @@
+launch eclipse with -DMBCS as a vmarg and copy-paste works incorrectly / ctrl f6 shows undisplayable characters
+
+until recently (2.1.3) i used to launch eclipse with DMBCS option (eclipse -vmarg -DMBCS) but in eclipse M8 if I launch eclipse with that option copy paste does not work correctly, say I select the word 'Test' say in a java editor or plugin.xml editor and copy paste it I would get 'Tes' also if I have multiple editors open when I hit Ctrl F6 all the editor names appear as undisplayable characters.

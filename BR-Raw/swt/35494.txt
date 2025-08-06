@@ -1,0 +1,3 @@
+ControlExample - Table preferred size does not adjust width
+
+RC3a Run ControlExample, tab 'table' Make sure 'Preferred' size is selected. Change font size. The height of the table is correctly adjusted, the width is unchanged, regardless of the font size.

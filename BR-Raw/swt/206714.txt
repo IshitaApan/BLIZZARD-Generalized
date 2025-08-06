@@ -1,0 +1,3 @@
+Combo#toString() behaves differently on linux/gtk/x86_64 and windows
+
+Combo#toString() which is actually Widget#toString(), invokes Widget#getNameText(). Subclasses of Widget are supposed to override Widget#getNameText(), which returns a default of an empty string. Apparently, Combo#getNameText() on windows is implemented such that it returns Combo#getText(). Combo#getNameText() on linux/gtk/x86_64 does not seem to be implemented -- as a result it defaults to what is returned by Widget#getNameString(). On windows this is what Combo#toString() returns: Combo {SWT.INHERIT_NONE} On linux/gtk/x86_64 this is what Combo#toString() returns: Combo {} I do not know what the behavior is on other os/ws combination.

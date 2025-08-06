@@ -1,0 +1,3 @@
+Chaff in table tree of property sheet
+
+F2 1) Install the examlpes 2) Create a file test.usr 3) Select a user in the list (ex. richard) 4) Expand adress and click on province 5) Go back to the outline and select "Team1" 6) Note the extra horizontal lines in the property sheet.

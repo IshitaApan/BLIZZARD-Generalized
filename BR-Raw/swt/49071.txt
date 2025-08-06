@@ -1,0 +1,3 @@
+Hitting Enter while editing a detail formatter close the dialog
+
+Open a detail formatter dialog (create a new detail formatter or edit an existing one), give the focus to the text area, hit Enter, the dialog is close, as if 'OK' button was used. It makes creating a complex detail formatter really painfull. May be a linux-GTK only problem, please check no other platforms.

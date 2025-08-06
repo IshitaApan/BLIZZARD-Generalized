@@ -1,0 +1,3 @@
+GTK-BIDI: RTL support in Menu
+
+SWT should set orientation of MenuItem's tree og GTK widgets. It is supposed here, that general problem, which is described in the bug 41184, is solved by the newly suggested way.

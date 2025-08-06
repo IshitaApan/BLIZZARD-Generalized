@@ -1,0 +1,3 @@
+[10.7] TabFolder doesn't look native (selected item's text not inverted)
+
+Created attachment 201891 Screenshot I20110816-0800 On 10.7, TabFolder doesn't look native: Selected tab item's text is not inverted.

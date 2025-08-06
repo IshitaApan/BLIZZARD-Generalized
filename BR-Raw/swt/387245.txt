@@ -1,0 +1,2 @@
+Widget.RESIZING value same as Widget.WEBKIT_EVENTS_FIX value
+

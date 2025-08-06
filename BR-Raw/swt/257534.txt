@@ -1,0 +1,3 @@
+Javadoc of MouseEvent.stateMask should mention mouse masks
+
+HEAD Javadoc of MouseEvent.stateMask should tell that it also includes mouse masks (like Event.stateMask, from where this value is copied in the constructor).

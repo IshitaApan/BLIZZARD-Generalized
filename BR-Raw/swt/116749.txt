@@ -1,0 +1,2 @@
+Some widgets don't match default background inside Group
+

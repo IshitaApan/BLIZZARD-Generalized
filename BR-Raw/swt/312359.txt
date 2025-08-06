@@ -1,0 +1,3 @@
+77% of CPU used doing nothing
+
+Created attachment 167848 VM dump when the CPU is pegged at 77% In the last few weeks, I have been observing some really weird problems on the cocoa 64bits where Eclipse uses around 80% of my CPU while I'm not using it. I just have eclipse (with focus) on the java perspective with all the editors closed. When I try to use this instance, it is basically unusable as it is way to slow to type or do anything significant. At first I thought this was caused by additional plugins, but for the attached dump I'm using stock eclipse SDK I20100509-0800. The only way I found to get rid of this problem is to either restart eclipse.

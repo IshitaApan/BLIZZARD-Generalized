@@ -1,0 +1,3 @@
+Interface Disposeable
+
+Please add an interface declaring the methods dispose() and isDisposed() and let it be included by all class that have these methods. Reason: I now had two projects where i have to dynamicaly create diferent widgets. It is nicer to add them all to one single vector and dispose them all when they are not needed anymore. Unfortunally that means that i have to check each entry for what it is...

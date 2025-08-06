@@ -1,0 +1,3 @@
+path.close() has no effect
+
+In the attached file, path.close() has no effect.

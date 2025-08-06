@@ -1,0 +1,3 @@
+[GTK3] Use GTK 3.x (when available) by default on Linux/Unix instead of GTK 2.x
+
+Bug 393681 added launcher support to load the SWT GTK+ 3 port on Linux whenever the environment variable SWT_GTK3 is set to 1. Starting from Luna M3 build, we intend to use GTK+ 3 by default on Linux/Unix whenever the GTK+ 3.x libraries are installed and available. The launcher needs to change accordingly to load GTK+ 3 by default. GTK+ 2 will be loaded in case GTK+ 3 is not available on the machine or if the environment variable SWT_GTK3 is set to 0.

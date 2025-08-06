@@ -1,0 +1,3 @@
+Label creates SWTView that it doesn't register.
+
+Should either register the view, or use an NSView

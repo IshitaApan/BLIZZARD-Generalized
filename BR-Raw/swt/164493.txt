@@ -1,0 +1,3 @@
+StyledText doesn't support advanced text services for Korean IME
+
+The fix for Bug 84740 was to turn off advanced text services, which forces the Korean IME to be a floating gray window instead of an inline thing (which originally caused the crash in bug 84740). Opening this bug to track support of advanced text services for StyledText and Korean XP.

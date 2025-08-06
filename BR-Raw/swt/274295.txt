@@ -1,0 +1,3 @@
+Did you mean "image/jpeg"?
+
+I wanted to use the new ImageTransfer class but looking at it (the GTK variant) I noticed 'private static final String JPEG = "image/jpge";' in the code. I guess that should be 'jpeg'.

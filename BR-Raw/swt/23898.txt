@@ -1,0 +1,2 @@
+Group.setBackground() don't work on Gtk
+

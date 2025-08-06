@@ -1,0 +1,2 @@
+Mac - manually added external editors fail to launch
+

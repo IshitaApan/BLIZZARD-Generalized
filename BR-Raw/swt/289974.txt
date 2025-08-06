@@ -1,0 +1,3 @@
+SWT.MouseWheel Javadoc should mention that it is for vertical wheel
+
+3.6 M2. Since we now have SWT.MouseVerticalWheel and SWT.MouseHorizontalWheel, SWT.MouseWheel's Javadoc should mention that it is for the vertical wheel and maybe even deprecated it or at least recommend to use SWT.MouseVerticalWheel in the code.

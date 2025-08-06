@@ -1,0 +1,3 @@
+changing link foreground does not repaint
+
+- run the ControlExample, go to the Link tab - change the foreground colour and note that the example Link on the page does not change accordingly - use another window to damage part of the Link and note that the Link repaints with the new foreground colour when the other window is moved away

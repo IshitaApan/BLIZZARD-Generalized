@@ -1,0 +1,3 @@
+SWT.UP/DOWN do not spec that it can be used with org.eclipse.swt.widgets.Table.setSortDirection(int)
+
+I20080221-0010 SWT.UP/DOWN do not spec that it can be used with org.eclipse.swt.widgets.Table.setSortDirection(int)

@@ -1,0 +1,3 @@
+Use canonical signal names
+
+I noticed from the GNOME bug below that the canonical name for a signal may be to use dashes rather than underscores. For example, "expose-event" versus "expose_event". It apparently cuts down the work they need to do, although I couldn't notice any real speed improvement when I tried it out. http://bugzilla.gnome.org/show_bug.cgi?id=171746 Still, it's easy to change and seems reasonable.

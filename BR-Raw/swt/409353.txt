@@ -1,0 +1,3 @@
+JavadocBasher should only change comments
+
+When running the JavadocBasher for 4.3, it somehow generated the following bizarre change in the cocoa version of GCData.java: -	/** -	 * @noreference This field is not intended to be referenced by clients. -	 */ -	public double /*float*/ [] foreground, background; + +	public double[] /*float*/ [] foreground; + +	public double[] background; The JavadocBasher should be fixed so that this does not happen again.

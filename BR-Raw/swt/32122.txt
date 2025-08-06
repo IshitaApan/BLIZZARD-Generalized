@@ -1,0 +1,3 @@
+Cannot insert lines into new file code template (regression failure)
+
+I can edit the templates for new Java files (Java -> Code Generation -> Code and Comments -> Code -> New Java Files) but I cannot insert a new blank line. Whilst I am editing, the [OK] button is still highlighted with the result that when I press return, the [OK] button is pressed and no new line appears. I believe that this functionality has been broken in M4->M5, since in M4 the default [OK] button did not respond to return characters.

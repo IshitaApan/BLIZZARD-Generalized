@@ -1,0 +1,2 @@
+Do not use nested jars in swt examples.
+

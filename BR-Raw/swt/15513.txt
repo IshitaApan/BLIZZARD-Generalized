@@ -1,0 +1,3 @@
+CCombo.setTooltipText() doesn't work
+
+CCombo.setTooltipText() doesn't work at all. How about the following implementation ? CCombo.setTooltipText(String text) { text.setTooltipText(text); arrow.setTooltipText(text); }

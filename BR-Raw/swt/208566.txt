@@ -1,0 +1,3 @@
+[64] cheese can appear if SetPoint is running
+
+Created attachment 81964 screenshot 3.4M3 test build - on a 64-bit XP install run SetPoint and eclipse (only tested with 64-bit eclipse; assume it happens on 32-bit eclipse on 64-bit XP as well unless indicated otherwise in a later comment) - open the Run... dialog and select a Launch configuration - resize the dialog to be very small and then take it back to its original size - there will be some cheese in the right half of the dialog - screen shot is attached (for some reason in the attached image the OK/Cancel buttons don't have their text, but in the actual window these texts are there)

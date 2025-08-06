@@ -1,0 +1,3 @@
+SWT controls: Foreground Color not applied correctly
+
+Builds: Eclipse SDK Mac OSX Cocoa N20081126-2000 (compared to Carbon N20081126-2000) In the context of the SWT Controls Example, re the Foreground Color parameter: Foreground Color is not being applied (as for Carbon) for these controls: Link, Group (for Title Text)

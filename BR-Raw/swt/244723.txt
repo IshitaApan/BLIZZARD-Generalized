@@ -1,0 +1,3 @@
+Embedding external widgets into SWT using the EMBEDDED Style
+
+Build ID: M20070212-1330 Steps To Reproduce: We are working with a customer and trying to embed their native widgets into SWT using the SWT Composite. We would like to have access to one of the private member in the Composite.java (org.eclipse.swt.widgets.Composite.java class for the gtk toolkit. The member we need access to is the socketHandle. Is there way to make this member public or provide a getter method to access it. Here is how i am creating a composite... Composite nativeComposite = new Composite(parent, SWT.EMBED); More information:

@@ -1,0 +1,3 @@
+Cannot invoke a contextual menu from a perspective button.
+
+Attempting to invoke a contextual menu from a perspective button in order to reset/customize/close/etc. the perspective has no effect.

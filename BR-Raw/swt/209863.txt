@@ -1,0 +1,3 @@
+Path leaks currentFigure and currentPoint when disposed
+
+currentFigure and currentPoint should be freed in dispose

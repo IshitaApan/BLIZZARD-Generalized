@@ -1,0 +1,3 @@
+Compiler warnings in I20080522-0800
+
+1. WARNING in /builds/I/src/plugins/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/List.java (at line 15) import org.eclipse.swt.internal.carbon.DataBrowserAccessibilityItemInfo; The import org.eclipse.swt.internal.carbon.DataBrowserAccessibilityItemInfo is never used

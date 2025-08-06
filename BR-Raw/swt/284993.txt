@@ -1,0 +1,3 @@
+GC#setAlpha() not respected by GC#drawImage()
+
+Created attachment 142873 Test snippet It looks like setAlpha() has no effect on drawImage

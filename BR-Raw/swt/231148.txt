@@ -1,0 +1,3 @@
+[Accessibility] StyledText typed characters are not accessible on Leopard
+
+I20080502-0100 Open any editor, or run the CustomControlExample to get a StyledText. Turn on VoiceOver. Type some characters into the StyledText. The typed characters are not spoken.

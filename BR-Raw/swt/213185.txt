@@ -1,0 +1,3 @@
+DropTargetEvent does not mention DND.DROP_DEFAULT
+
+3.4 M4 The DropTargetEvent does not mention DND.DROP_DEFAULT. Its Javadoc ('detail' and 'operation' should mention that DND.DROP_DEFAULT is also a valid value.

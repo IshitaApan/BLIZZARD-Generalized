@@ -1,0 +1,3 @@
+[SashForm] Add getter/setter methods to control SashForm.SASH_WIDTH
+
+Not only is this an instance variable that is deceptively named like a constant, it is not exposed via typical get/set methods. Please add setSashWidth() and getSashWidth() methods so it can be controlled like other widget properties.

@@ -1,0 +1,3 @@
+Browser - mozilla GTK into Motif appears in top level window
+
+instead of being embedded into parent shell

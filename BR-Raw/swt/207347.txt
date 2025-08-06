@@ -1,0 +1,2 @@
+Snippet279 draws bad (draw icon with GDI+ gc)
+

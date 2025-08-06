@@ -1,0 +1,3 @@
+Javadoc on Text missing possible style
+
+In the class comment for Text, the PASSWORD style is not listed as a possible style. I didn't realise that there was a password style was supported until I noticed the constanct in the Text.widgetStyle() method

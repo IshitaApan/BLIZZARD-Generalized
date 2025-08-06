@@ -1,0 +1,3 @@
+Combo doesn't produce modification event for ALT-DOWN
+
+If I fill the NewWizardPage only with my keyboard, the Finish button won't be enabled...

@@ -1,0 +1,3 @@
+Remove GdkImage_sizeof
+
+Method is not used anywhere and breaks compilation on GTK 3.x.

@@ -1,0 +1,3 @@
+Combo with SWT.READ_ONLY doesn't fire mouseevents
+
+Created attachment 80600 Testcase Build ID: 3.3 Steps To Reproduce: When creating a Combo using SWT.READ_ONLY and registering a MouseDown-Listener on it, it won't fire events. A SWT.NONE-Combo would only fire events when clicked in the textfield, not on the button. Under Win32, everything works fine. More information:

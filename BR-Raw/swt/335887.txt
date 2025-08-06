@@ -1,0 +1,3 @@
+SWT reports API breakage
+
+I have SWT from HEAD with an API baseline of 3.6.0. Description	Resource	Path	Location	Type The method org.eclipse.swt.browser.WebKit.create(Composite, int) has been removed	WebKit.java	/org.eclipse.swt/Eclipse SWT WebKit/gtk/org/eclipse/swt/browser	line 26	Compatibility Problem The major version should be incremented in version 3.7.0.qualifier, since API breakage occurred since version 3.6.0.v3650b	MANIFEST.MF	/org.eclipse.swt/META-INF	line 5	Version Numbering Problem It reports that the create(*) method has been remove from WebKit and that 3.7.0 needs to be incremented to 4.0.0 PW

@@ -1,0 +1,3 @@
+Error in SWT#SCROLL_LOCK JavaDoc
+
+I200405131200 In the JavaDoc of SWT#SCROLL_LOCK the 'num' should be replaced by 'scroll'.

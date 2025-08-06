@@ -1,0 +1,3 @@
+ControlExample: Select Listeners dialog opens behind menu bar
+
+Created attachment 93381 Fix HEAD ControlExample: Select Listeners dialog opens behind menu bar on the Mac.

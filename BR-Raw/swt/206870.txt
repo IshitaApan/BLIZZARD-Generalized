@@ -1,0 +1,3 @@
+[Mac] New Project wizard Finish button isn't enabled for Japanese project name
+
+Created attachment 80756 screenshot In new project wizard, when entering Japanese project name by a input method editor, Next and Finish buttons are not enabled. Build 3.4 I20071017-1638 Mac OS X 10.4.10 Java for Mac OS X 10.4 release 5 Steps to recreate 1- File > New > Project..., select General > Project 2- Enter Japanese name at Project Name This issue happens on New File wizard as well. Work around is to delete a character with Back space key.

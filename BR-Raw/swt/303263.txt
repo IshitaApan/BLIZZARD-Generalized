@@ -1,0 +1,3 @@
+Need to expose CFRunLoopRunInMode and CFRunLoopStop for Adobe
+
+Adobe Flash Catalyst will eventually be adopting Cocoa, but to do so they need to do run loop manipulation. Specifically, the methods CFRunLoopRunInMode and CFRunLoopStop were defined in the Carbon SWT but are not defined in the Cocoa SWT. These should be exposed so they can use them without having to rebuild the Cocoa SWT themselves.

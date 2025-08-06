@@ -1,0 +1,3 @@
+double tool-tip on 'learn more' link in tooltip
+
+hovering over the 'Learn More' link in the discovery overview pop-up causes two tooltips to appear.

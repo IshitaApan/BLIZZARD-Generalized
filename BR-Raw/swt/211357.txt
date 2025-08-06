@@ -1,0 +1,3 @@
+FileViewer crashes
+
+Run FileViewer Double click on a directory Boom!

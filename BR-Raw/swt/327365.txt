@@ -1,0 +1,3 @@
+Need methods in internal Cocoa classes
+
+I'm trying to make use of NSApplication.arrangeInFront & NSWindow.setRepresentedFilename for few mac tweaks. It would be great to have those methods in the SWT Cocoa internal classes (without them I'm unable to proceed). These methods are not directly used in SWT, so there is no reason for SWT to add them. Thats why I decided to bribe with a beer for the person who adds these :-)

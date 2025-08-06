@@ -1,0 +1,3 @@
+SWT doesnt work on WinCE 6.0 since v3312. Missing check on OS.IsWinCE
+
+Build Identifier: SWT doesnt work on WinCE because of commit 1.298 in org.eclipse.swt/Eclipse SWT PI/win32/org/eclipse/swt/internal/win32/OS.java /* Make the process DPI aware for Windows Vista */ if (OS.WIN32_VERSION >= OS.VERSION (6, 0)) OS.SetProcessDPIAware (); should be replaced by /* Make the process DPI aware for Windows Vista */ if (!OS.IsWinCE && OS.WIN32_VERSION >= OS.VERSION (6, 0)) OS.SetProcessDPIAware (); Reproducible: Always Steps to Reproduce: 1. start an SWT App on WinCE 6.0

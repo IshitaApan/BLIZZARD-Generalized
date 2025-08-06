@@ -1,0 +1,3 @@
+List - changing font size doesn't update item height
+
+Created attachment 116317 screen shot see screen shot

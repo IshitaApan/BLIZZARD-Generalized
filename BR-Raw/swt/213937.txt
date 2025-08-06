@@ -1,0 +1,3 @@
+The Method getBorderWidth () from Control returns 0 every time
+
+Build ID: SWT Build 3.4 22a See the sourcecode of the class Control: public int getBorderWidth () { 	checkWidget(); return 0; }

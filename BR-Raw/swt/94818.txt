@@ -1,0 +1,3 @@
+XGetModifierMapping call in Display leaks
+
+XFreeModifiermap has to be called.

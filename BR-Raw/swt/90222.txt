@@ -1,0 +1,3 @@
+Device constructor
+
+As part of trimming down the SWT API for eSWT, the DeviceData class was removed and a new constructor for Device was introduced (i.e., Device()). However, doing so has broken binary compatibility between eSWT and SWT. Could you add this new constructor for Device for the 3.1 release? public Device() { this(null); } If not, I can add back DeviceData, but I'd rather not. It is not a necessary class from our perspective.

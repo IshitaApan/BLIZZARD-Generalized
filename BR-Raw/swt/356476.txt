@@ -1,0 +1,3 @@
+ControlExample: Can't enter multi-digit values in ProgressBar's spinners
+
+Created attachment 202606 Fix ControlExample: Can't enter multi-digit values in ProgressBar's spinners, because updateSpinners always sets all values, which also selects the whole text field of the focused spinner.

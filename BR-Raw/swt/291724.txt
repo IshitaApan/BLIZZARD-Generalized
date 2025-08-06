@@ -1,0 +1,3 @@
+Link widget has problems with mnemonics on GTK
+
+HEAD Fix for bug 202414 also needs to be ported to GTK.

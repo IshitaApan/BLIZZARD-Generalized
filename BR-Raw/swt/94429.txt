@@ -1,0 +1,3 @@
+Group label doesn't fire mouse events
+
+3.1M7 test build - run the ControlExample, go to the Group tab - turn on the Title Text checkbox - listen for MouseDown, MouseUp, MouseMove, MenuDetect events - these fire if the pointer is within the group, but not if it's over the label - this probably just requires hooking these listeners to the label handle that's internal to the group

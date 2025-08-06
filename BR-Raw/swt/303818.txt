@@ -1,0 +1,3 @@
+Spinner value hidden if having 2 Spinners in a Composite
+
+Snippet: public class Main { public static void main(String[] args) { Display display = new Display(); Shell shell = new Shell(display); shell.setLayout(new GridLayout()); Spinner spinner = new Spinner(shell, SWT.BORDER); spinner.setSelection(100); spinner = new Spinner(shell, SWT.BORDER); spinner.setSelection(100); shell.open(); while (!shell.isDisposed()) { if (!display.readAndDispatch()) { display.sleep(); } } } } Results: - the second spinner remains empty until focus is passed into This is especially bad if you have something like a TabFolder with N Tabs where the chance is bigger that you have more than one Spinner per composite in different TabItems.

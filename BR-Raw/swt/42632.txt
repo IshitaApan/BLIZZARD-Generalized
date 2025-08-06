@@ -1,0 +1,3 @@
+Clipboard becomes empty after shell closes
+
+Selecting text from one of the properties page in Linux GTK and then copying has no effect despite the option being there. STEPS 1) Open a preference pahe on a project 2) Select the path 3)Pop up the menu and select copy or use Ctrl-C 4) Paste somewhere - the clipboard is empty or the previous contents.

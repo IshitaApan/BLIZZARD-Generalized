@@ -1,0 +1,3 @@
+[64] Text fields in Project Properties dialog have incorrect background
+
+Created attachment 120952 Screenshot They're white instead of grey.

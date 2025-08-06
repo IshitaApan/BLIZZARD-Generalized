@@ -1,0 +1,3 @@
+Support the @noreference Javadoc tag on types
+
+SWT has a class GCData that is a public type in an API package. However, the class is documented as: * <b>IMPORTANT:</b> This class is <em>not</em> part of the public * API for SWT. It is marked public only so that it can be shared * within the packages provided by SWT. It is not available on all * platforms, and should never be called from application code. The class has a binary incomatibililty in it (vs 3.3 a removed field), however the problem should not be flagged. It can be filtered, but really, the type should have a @noreference or @private tag on it so clients would be warned about any reference to it, and all problems would be filtered automatically.

@@ -1,0 +1,2 @@
+hitTest wrong on controls with Region
+

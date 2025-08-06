@@ -1,0 +1,3 @@
+Webkit on windows can fail with newer Safari versions
+
+With new Safari (tried with 5.1.4) on Windows, Apple Application Support directory can be under \Program Files\Safari instead of \Program Files\Common Files\Apple. Hence, launching SWT Browser with SWT.WEBKIT style can fail. Workaround: Add the Apple Application Support directory to the Windows PATH.

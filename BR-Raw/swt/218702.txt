@@ -1,0 +1,2 @@
+Tree getSelectionCount not implemented
+

@@ -1,0 +1,3 @@
+class ST misuses javadoc comments as category headers
+
+I20060216-2000 Class org.eclipse.swt.custom.ST misuses javadoc comments as category headers. The generated javadoc looks strange, since only a few apparently random constants have a javadoc. Either each constant should get its own javadoc, or the javadocs should be converted back to non-javadoc comments.

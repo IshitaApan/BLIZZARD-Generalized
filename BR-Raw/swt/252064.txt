@@ -1,0 +1,3 @@
+Accessibility API needs to work on Label
+
+- get the latest org.eclipse.swt and org.eclipse.swt.examples from HEAD - run org.eclipse.swt.examples.accessibility.ControlsWithAccessibleNamesExample - turn on VoiceOver - hover the mouse over the large image of a running man in the right-hand column VoiceOver should say "Overriding platform name for Label" or something like that, but instead, it is saying "image". This is an SWT Label control with an image and no text. The getName accessibility listener has been added, but it is not being called. This works for Button, and may other controls now, but it needs to work for Label, too.

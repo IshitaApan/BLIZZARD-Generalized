@@ -1,0 +1,3 @@
+Compile warnings in official build I20100124-0800
+
+I20100124-0800. 1. WARNING in /temp.folder/@dot.src/org/eclipse/swt/accessibility/Accessible.java (at line 14) import org.eclipse.swt.SWT; The import org.eclipse.swt.SWT is never used

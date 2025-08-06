@@ -1,0 +1,2 @@
+Glib error when disposing a Combo
+

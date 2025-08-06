@@ -1,0 +1,3 @@
+GC drawFocus not implemented
+
+there's no code in drawFocus.

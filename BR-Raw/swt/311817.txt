@@ -1,0 +1,3 @@
+Strings in Relation class need to be localized
+
+Strings in Relation class need to be localized. 	static final String[] localizedRelationTypeString = { 		"controlled by", 		"controller for", 		"described by", 		"description for", 		"embedded by", 		"embeds", 		"flows from", 		"flows to", 		"label for", 		"labelled by", 		"member of", 		"node child of", 		"parent window of", 		"popup for", 		"subwindow of", 	};

@@ -1,0 +1,3 @@
+eclipse should enable XP visual styles if available (from comctl32.dll)
+
+in order to appear a completely native windows XP application, Eclipse should indicate that it desires version 6.0 of comctl32.dll if it is available. this is apparently done with an "application manifest" file, i'm not sure how well this maps, if at all, to the way the SWT dll works. the main noticeable difference if this is implemented would be the style of the standard push-buttons. (currently they still look very much like windows 2000 controls on XP).

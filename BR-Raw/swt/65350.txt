@@ -1,0 +1,3 @@
+StyledText leaves second caret behind
+
+RC1 (known problem, but I couldn't find an existing report with a test case) - run the CustomControlExample, go to the StyledText tab - use Shift+Right_Arrow to select a few characters - press Option+Right_Arrow and nothing appears to happen - press Option+Right_Arrow again and now the caret moves to the next word, but also leaves an old caret at the previous location

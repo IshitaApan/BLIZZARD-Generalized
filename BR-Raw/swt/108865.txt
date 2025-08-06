@@ -1,0 +1,3 @@
+SWT.DOUBLE_BUFFERED + GC.drawFocus()  equals cheese
+
+Snippet incoming...

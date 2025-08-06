@@ -1,0 +1,3 @@
+Remove code that was inadvertently committed
+
+Created attachment 168403 patch to remove code that was accidentally committed When the patch for bug 311809 was committed, some extra code was accidentally committed. The attached patch removes this extra code.

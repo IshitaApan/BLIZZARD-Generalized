@@ -1,0 +1,3 @@
+GTK: mouse wheel doesn't work on the compare editor
+
+Build 200211191210 Linux-GTK Select two files in the Navigator view, right click>compare with>each other. The mouse wheel doesn't work on the created editor. Works on win32

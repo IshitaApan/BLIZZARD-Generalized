@@ -1,0 +1,3 @@
+Document that SWT.SEARCH and SWT.CANCEL are HINTs for Text
+
+I20090106-1323 Document that SWT.SEARCH and SWT.CANCEL are HINTs for the Text widget.

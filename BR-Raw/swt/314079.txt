@@ -1,0 +1,3 @@
+wrong constant value in SWT.OrientationChange javadoc
+
+Created attachment 169649 patch

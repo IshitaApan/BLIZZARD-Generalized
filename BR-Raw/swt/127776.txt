@@ -1,0 +1,3 @@
+ControlExample Scale does not lose background image
+
+Feb. 14th 8:00am build - run the ControlExample, go to the Slider/Scale tab - check the Background Image checkbox, and both example widgets are given a background image - now uncheck the Background Image checkbox and note that the example Scale widget does not lose its background image -> attempting to damage it with another window does not make the background image go away either, but clicking on it does

@@ -1,0 +1,3 @@
+[DND] Cannot drag from StyledText
+
+tested using DragExample.

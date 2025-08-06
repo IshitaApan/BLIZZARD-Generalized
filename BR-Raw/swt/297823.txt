@@ -1,0 +1,3 @@
+TextTransfer should specify more clearly that it does not translate \n into platform line delimiter
+
+3.6 M4. In Java strings '\n' normally means to introduce a line break. This is what happens with most SWT APIs, e.g. Text.setText(...) or StyledText.setText(...) where a line break appears in the UI. However, when using TextTransfer and pasting outside Eclipse, a line break is not happening because '\n' is not translated to "\r\n" on Windows. I suspect this is intentional and specified by saying "converting plain text represented as a java <code>String</code>" but it would help to clarify this even more.

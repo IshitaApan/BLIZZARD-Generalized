@@ -1,0 +1,3 @@
+Need access to highlight* fields in CTabFolder
+
+build I20040316 In order to do their custom part presentation, LWP needs access to be able to set (and presumably get) the highlight_header and highlight_margin fields. Can you please provide accessors for these, soonest?

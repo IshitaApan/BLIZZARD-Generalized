@@ -1,0 +1,3 @@
+SWT.WRAP missing in Button JavaDoc
+
+It seems that the WRAP style is missing in the Button JavaDoc although the button does support this style flag in 3.7: http://dev.eclipse.org/viewcvs/viewvc.cgi/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet345.java?view=co

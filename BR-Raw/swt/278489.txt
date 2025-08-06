@@ -1,0 +1,3 @@
+Text field fails to move caret if layout is updated after setting focus
+
+To reproduce (in code): # create a composite with some things in it # later add a Text(SWT.SEARCH|SWT.CANCEL|SWT.BORDER) # call text.setFocus() # call composite.layout(true) # observe that the caret is in the wrong position reversing the order of text.setFocus() and composite.layout(true) causes the caret to be displayed in the correct location

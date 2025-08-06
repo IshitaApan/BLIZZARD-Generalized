@@ -1,0 +1,3 @@
+NullPointerException in monitorEnumProc() in Class Display
+
+Description: The method getMonitors is not reentrant if multiple user interface threads are used. The variable 'monitors' is static and could be set to null by an other thread while one thread still executes getMonitors. This will result in a NullPointerException. StackTrace: java.lang.NullPointerException 	at org.eclipse.swt.widgets.Display.monitorEnumProc(Display.java:2731) 	at org.eclipse.swt.internal.win32.OS.EnumDisplayMonitors(Native Method) 	at org.eclipse.swt.widgets.Display.getMonitors(Display.java:1710)

@@ -1,0 +1,3 @@
+Toolbar should support animated gifs
+
+Build ID: 3.3 Steps To Reproduce: Currently if an animated gif is passed to the toolbar it will just display a still image instead of the animation itself. We need toolbars to have the ability to support and display animated gifs. More information:

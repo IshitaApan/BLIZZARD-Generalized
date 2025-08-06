@@ -1,0 +1,3 @@
+G_CONST_RETURN is removed from recent glib builds
+
+G_CONST_RETURN macro has been deprecated for some time, and in recent builds it is entirely removed. SWT will not build with that version of GLIB.

@@ -1,0 +1,3 @@
+[Browser] Arrow_Down does not scroll after tabbing into Browser
+
+I20090203-1200, was OK in 3.4.1 After a Browser widget got the keyboard focus, it sometimes does not react on the Arrow_Down (which should scroll down). This happens e.g. when I press F2 on a documented element in the Java editor and then try to scroll in the sticky Javadoc hover. It can also be reproduced in the ControlExample: - launch - with the mouse, click the 'Browser' tab - press the Tab key - press Arrow_Down => does not scroll any more As soon as I clicked into the Browser with the mouse, scrolling usually works. But then, Ctrl+(Shift+)Tab don't let me escape from the Browser any more. Tab without Ctrl seems to be fine to get out.

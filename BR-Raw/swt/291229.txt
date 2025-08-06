@@ -1,0 +1,3 @@
+KeyEvent#stateMask also contains mouse buttons
+
+HEAD (but problem is not new) The KeyEvent#stateMask field also contains mouse buttons, but its Javadoc only tells about "keyboard modifier keys". It also mentions "key code constants", but e.g. SWT#CTRL says it's an "event mask". I would add these references to make it clear what masks are meant: 	 * @see org.eclipse.swt.SWT#MODIFIER_MASK 	 * @see org.eclipse.swt.SWT#BUTTON_MASK

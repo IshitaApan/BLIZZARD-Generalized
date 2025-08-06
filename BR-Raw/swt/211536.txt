@@ -1,0 +1,3 @@
+RTFTransfer not implemented; code demonstrating NSPasteboard attached
+
+The org.eclipse.swt.dnd.RTFTransfer isn't implemented

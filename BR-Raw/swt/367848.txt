@@ -1,0 +1,3 @@
+Typo in Text#addSelectionListener JavaDoc
+
+The JavaDoc of Text#addSelectionListener refers to SWT.CANCEL, this should probably be SWT.ICON_CANCEL.

@@ -1,0 +1,3 @@
+patch for org.eclipse.swt.win32.wce_ppc.arm/build_custom.xml
+
+to address compile error Sonia and I looked at the custom build script and it is missing some elements that exist in the generated build scripts. Please release the patch and I will start a test build to ensure that the build doesn't fail tonight.

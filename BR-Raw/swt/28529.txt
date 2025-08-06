@@ -1,0 +1,3 @@
+ProgressBar direction wrong + cheese
+
+I20021216 In progress bar tab of the control example: select SWT.HORIZONTAL. select 100x100 Progress bar draws vertically and leaves cheese.

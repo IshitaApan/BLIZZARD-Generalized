@@ -1,0 +1,3 @@
+LineAttributes should implement equals()
+
+LineAttributes does not implement equals(), which leaves proper comparison of LineAttributes to clients. Instead, LineAttributes should implement equals() (as well as hashCode()).

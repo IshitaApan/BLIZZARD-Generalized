@@ -1,0 +1,3 @@
+GTK-BIDI: RTL support in Group
+
+Text direction of label, which is used as title of SWT Group widget, should be set separately.

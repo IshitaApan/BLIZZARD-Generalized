@@ -1,0 +1,3 @@
+AccessibleTextEvent needs @since tags for new API fields
+
+HEAD AccessibleTextEvent needs @since tags for the new API fields. An while you're at it: The @since tag in org.eclipse.swt.custom.BidiSegmentEvent.segmentsChars has a typo (@ missing).

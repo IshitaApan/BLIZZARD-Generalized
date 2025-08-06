@@ -1,0 +1,3 @@
+WebKitGTK's minimum version should be 1.2.0
+
+Created attachment 167397 patch The specified minimum WebKitGTK version is currently 1.1.90, because this was the version in the last Ubuntu 10.04 beta release. However now that the final Ubuntu 10.04 has been released its shipped WebKitGTK version is 1.2.0. This WebKitGTK release is functionally identical to 1.1.90, but is no longer considered to be of the dev stream since its minor version is even (2). SWT's minimum WebKitGTK version should bump up to 1.2.0.

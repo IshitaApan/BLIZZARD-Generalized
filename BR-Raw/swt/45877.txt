@@ -1,0 +1,3 @@
+many German strings are not displayed
+
+See this on 2.1.1, any string containing a non-english character. Seems like converter problem.

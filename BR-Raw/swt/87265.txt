@@ -1,0 +1,3 @@
+Link widget javadoc does not mention style bits
+
+M5 The javadoc for link does not menton which style bits are valid for it. This is an issue as the default style (SWT.NONE) renders a link widget that is just a label and cannot be selected.

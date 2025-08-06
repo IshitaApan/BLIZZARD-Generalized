@@ -1,0 +1,2 @@
+GC textExtent leaks NSAttributedString
+

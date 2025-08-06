@@ -1,0 +1,3 @@
+Text Fields too big
+
+Created attachment 127551 Screen shot of launch dialog Single line text fields have gotten bigger. See screen shot

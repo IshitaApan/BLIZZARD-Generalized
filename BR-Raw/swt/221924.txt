@@ -1,0 +1,2 @@
+Perspective Switcher context menu appears in bad location
+

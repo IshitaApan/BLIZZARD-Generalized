@@ -1,0 +1,3 @@
+Typo in SWT doc for ON_TOP
+
+* <li><code>Decorations</code>and subclasses</li> should be: * <li><code>Decorations</code> and subclasses</li> Without the space in the javadoc view it looks silly.

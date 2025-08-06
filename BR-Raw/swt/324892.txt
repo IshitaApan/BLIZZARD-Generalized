@@ -1,0 +1,3 @@
+Wrong constant values for some IA2 events
+
+Created attachment 178547 Patch to fix bad IA2 event constant values Some of the IA2_EVENT_* constant values are incorrect. This means that those events are not being sent. This was first noticed with IA2_EVENT_TEXT_INSERTED and IA2_EVENT_TEXT_REMOVED. The attached patch fixes the bad values. This should go out for 3.6.2.

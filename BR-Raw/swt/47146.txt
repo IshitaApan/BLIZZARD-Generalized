@@ -1,0 +1,3 @@
+Group label should have same foreground/background as Group
+
+It does currently get the font, but not the colours.

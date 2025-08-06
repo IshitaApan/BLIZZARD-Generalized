@@ -1,0 +1,3 @@
+Link widget has problems with mnemonics
+
+R3.3 and I20070529-0010. Links.setText(String) claims it allows mnemonics. I added one into the normal text and I also tried to put one into the link text (i.e. between <a> and </a>) but they are only rendered in the UI but not usable i.e. neither is the link opened nor the widget is getting focus. Another issue is that the underscore (_) of the mnemonic is always rendered and not just when being activated via 'Alt' key. Test Case: 1. go to Package Explorer 2. view menu > Top Level Elements > Working Sets 3. select a folder 4. context menu > Assign Working Sets...

@@ -1,0 +1,2 @@
+NPE in WebKit.handleEventFromFunction() on mouse-wheel from within VMWare
+

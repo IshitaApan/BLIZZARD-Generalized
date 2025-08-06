@@ -1,0 +1,3 @@
+Label: SWT.LEFT, SWT.CENTER, SWT.RIGHT not implemented
+
+See summary

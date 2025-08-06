@@ -1,0 +1,3 @@
+Cant attach Menu to a Link widget
+
+setMenu() has no effect, listeners to catch mouse events to display the menu that way are never called

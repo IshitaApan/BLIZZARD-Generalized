@@ -1,0 +1,3 @@
+Javadoc for class swt/widgets/Dialog missing <pre>
+
+The source code example in the Javadoc comment for the class http://download.eclipse.org/downloads/documentation/2.0/html/plugins/org.eclipse .platform.doc.isv/reference/api/org/eclipse/swt/widgets/Dialog.html is missing <pre> tags.

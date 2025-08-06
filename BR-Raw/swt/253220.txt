@@ -1,0 +1,2 @@
+Support native image loading
+

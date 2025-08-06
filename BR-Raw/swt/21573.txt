@@ -1,0 +1,2 @@
+TableTreeItem should have get/setGrayed() methods like TableItem
+

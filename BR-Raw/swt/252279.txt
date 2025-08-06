@@ -1,0 +1,3 @@
+Group foreground and background color don't work
+
+public static void main(String[] args) { 		try { 			Display.setAppName("Kevin"); 			final Display display = new Display(); 			final Shell shell = new Shell(display); 			shell.setText("Parent Shell"); 			shell.setLayout(new FillLayout()); 			 			Group g = new Group(shell, SWT.NONE); 			g.setForeground(display.getSystemColor(SWT.COLOR_BLUE)); 			g.setBackground(display.getSystemColor(SWT.COLOR_YELLOW)); 			g.setText("Busted"); 			 			shell.open(); 			while (!shell.isDisposed()) { 				if (!display.readAndDispatch()) 					display.sleep(); 			} 			display.dispose(); 		} catch (Throwable t) { 			t.printStackTrace(); 		} 	}

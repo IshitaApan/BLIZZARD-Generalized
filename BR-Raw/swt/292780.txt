@@ -1,0 +1,2 @@
+failing to dispose GC can cause huge error message spew
+

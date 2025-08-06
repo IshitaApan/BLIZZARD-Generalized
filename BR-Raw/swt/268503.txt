@@ -1,0 +1,3 @@
+[doc] DateTime Javadoc should tell that DROP_DOWN is a hint
+
+I20090312-2000 Javadoc of DateTime should tell that DROP_DOWN is a hint.

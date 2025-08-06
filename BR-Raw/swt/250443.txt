@@ -1,0 +1,3 @@
+Content assist shells should not have title bar
+
+.

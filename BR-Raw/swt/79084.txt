@@ -1,0 +1,3 @@
+Load TrueType fonts directly from a file..
+
+In AWT a TrueType font file can be loaded directly into a Font object; File ttfFile = new File("MICR E13B Normal.ttf"); FileInputStream fis = new FileInputStream(ttfFile); Font font = Font.createFont(Font.TRUETYPE_FONT, fis); This functionality is important with applications that display financial documents because security fonts or MICR fonts are rarely installed on an end-user systems. The ability to load a TrueType font file into a org.eclipse.swt.graphics.Font object, or convert a AWT to a SWT is the feature request.

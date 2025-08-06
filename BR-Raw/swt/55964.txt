@@ -1,0 +1,3 @@
+[ViewMgmt] spacing between border and text of "classic" tab style
+
+I20040324 IMO the spacing between the border and the text for tabs in the classic style should be a little bit increase. If you have a lots of tabs in a row it looks a little bit squeezed

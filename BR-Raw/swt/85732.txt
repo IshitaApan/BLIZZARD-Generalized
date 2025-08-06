@@ -1,0 +1,3 @@
+getClientArea() cause Shell to be resized to its initial size
+
+linux gtk build I20050217-0800 fedora core 3 (gtk 2.4.14) On eclipse if I move the mouse over the toolbar the tooltip resizes (width) according with the length of the string (the string depends on with toolitem the mouse is over). When I do the same over the ctabfolder tabs the tooltip doesn't resize, it keeps the same width it first shows. I tried to capture a screenshot but the tooltip doesn't on it. I can reproduce this problem on my machine consistently.

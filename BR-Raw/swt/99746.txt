@@ -1,0 +1,2 @@
+Table and Tree column resize line matches foreground color
+

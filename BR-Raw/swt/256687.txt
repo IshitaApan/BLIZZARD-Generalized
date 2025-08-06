@@ -1,0 +1,3 @@
+NPE in Tree setSelection
+
+calling setSelection(new TreeItem[] {null}) causes an NPE.

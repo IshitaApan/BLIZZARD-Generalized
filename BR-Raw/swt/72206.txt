@@ -1,0 +1,3 @@
+StyledText Javadoc needs italic doc.
+
+Version 3.1M1. The StyledText Javadoc does not mention that italic is now supported.

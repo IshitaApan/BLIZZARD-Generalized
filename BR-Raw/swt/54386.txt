@@ -1,0 +1,3 @@
+Stray pixel in SWT table
+
+I20040310 - make some errors show up in problems viewer Observe: there are some stray pixels in the table's first column. See attached screenshot.

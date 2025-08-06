@@ -1,0 +1,3 @@
+[KeyBindings] 2 popups displayed on Linux
+
+In certain controls in the workbench (like a table control), when we press Shift+F10 to display the context menu, 2 popup menus (one for the control, another one for the OS) are displayed. steps to recreate problem: - start Eclipse on Linux - give focus to the Navigtor view - press Shift+F10

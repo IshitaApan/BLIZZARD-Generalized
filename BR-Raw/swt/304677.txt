@@ -1,0 +1,3 @@
+Javadoc warnings in N201003032000
+
+Created attachment 160939 Proposed fix /builds/N201003032000/src/plugins/org.eclipse.platform.doc.isv/../org.eclipse.swt/Eclipse SWT Accessibility/common/org/eclipse/swt/accessibility/ACC.java:492: warning - Tag @see: reference not found: EVENT_TEXT_ATTRIBUTE_CHANGED /builds/N201003032000/src/plugins/org.eclipse.platform.doc.isv/../org.eclipse.swt/Eclipse SWT Accessibility/common/org/eclipse/swt/accessibility/ACC.java:558: warning - Tag @see: reference not found: EVENT_OBJECT_ATTRIBUTE_CHANGED 6 warnings

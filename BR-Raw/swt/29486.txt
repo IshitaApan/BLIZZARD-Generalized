@@ -1,0 +1,3 @@
+Keys need stronger filtering.
+
+Right now keys like CapsLock, ScrollLock, etc will cause garbage characters to be entered into StyledText widget buffers. Need to filter out the Photon control keys that have no mapping in the SWT world.

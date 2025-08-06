@@ -1,0 +1,3 @@
+Javadoc warning in N201104072000
+
+/builds/N201104072000/src/plugins/org.eclipse.platform.doc.isv/../org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/widgets/Touch.java:27: warning - Tag @see: reference not found: TouchEvent 1 warning

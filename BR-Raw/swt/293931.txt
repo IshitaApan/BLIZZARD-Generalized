@@ -1,0 +1,3 @@
+Javadoc of PrinterData.startPage/endPage is wrong
+
+3.6 M3. The Javadoc for PrinterData.startPage says: 	 * the start page of a page range, used when scope is PAGE_RANGE. 	 * This value can be from 1 to the maximum number of pages for the platform. However, the default value is '0'. Either the default needs to be changed to '1' or the Javadoc has to mention '0'. Same applies to endPage.

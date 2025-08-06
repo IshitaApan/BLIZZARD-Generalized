@@ -1,0 +1,3 @@
+[Performance] Improve CTabRendering drawing time
+
+This is a bug to track the optimization work being done for CTabFolder drawing.

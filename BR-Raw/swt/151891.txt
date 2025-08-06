@@ -1,0 +1,2 @@
+Table.computeSize returns wrong value on GTK
+

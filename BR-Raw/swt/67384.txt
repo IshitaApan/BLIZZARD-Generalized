@@ -1,0 +1,3 @@
+SWT_AWT not implemented for Mac
+
+(This was formerly bug #53790.) It isn't possible to run Swing/AWT code from within an SWT-based application. The simple attached plug-in, which just provides a menu item that opens a Swing dialog, demonstrates the problem: it hangs trying to load libawt.jnilib from /System/Libraries/Frameworks/javaVM.framework/Version/1.4.2/Libraries. (The plug-in works under Windows, by the way.) Wee need to execute Swing & AWT components from within the Eclipse IDE in our Swing Designer GUI builder product (which works fine under Windows and Linux).

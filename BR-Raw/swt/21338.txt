@@ -1,0 +1,3 @@
+Accents and ñ don't work in editor using gtk
+
+When I type ñ (eñe) or vocals with accents (like á, é, í, ó, ú) don't work. This in java editor or text editor I use Eclipse 2 final release, on SuSe linux 7.3 and gnome 1.4. The value LANG variable is es_ES. When I run gtk-demo I can use accent and ñ, and when I use a eclipse wizard (like dialog for entry new task) I can use ñ and accents too.

@@ -1,0 +1,3 @@
+[browser] IBM VM removes entries in the LD_LIBRARY_PATH causing Browser to fail
+
+From Konrad: It looks like the browser installed with RHEL 3.0 does not meet requirements of SWT. I have RHEL3.0U1 with all RHN updates, and they upgraded Mozilla to 1.4.2, which I am afraid is not GTK version. If you would like to see the browser embedded, a different mozilla (GTK2 build) needs to be installed

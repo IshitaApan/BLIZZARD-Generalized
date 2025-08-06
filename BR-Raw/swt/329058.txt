@@ -1,0 +1,2 @@
+BrowserFunction should map java null to JS null, not to undefined
+

@@ -1,0 +1,3 @@
+[consistency] Link does not fire double-click events
+
+3.3 - see this in the ControlExample - on other platforms this event does fire

@@ -1,0 +1,3 @@
+MouseEvent#button, SWT#BUTTON*, and SWT#MOD* should spell out usual mapping
+
+MouseEvent#button, SWT#BUTTON*, and SWT#MOD* should spell out the commonly used physical mapping of these buttons/keys. I always have to guess the mapping of the middle and right mouse buttons, and the common order of modifiers.

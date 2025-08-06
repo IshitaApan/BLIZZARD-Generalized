@@ -1,0 +1,3 @@
+Combo toString missing detail.
+
+getNameText() is missing from Combo. String getNameText () { 	return getText (); }

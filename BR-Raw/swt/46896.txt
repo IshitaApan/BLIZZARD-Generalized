@@ -1,0 +1,3 @@
+CCombo setEnabled
+
+When using CCombo and setting it to be disabled the Text and button do not appear disabled (using swt-win32-2135.dll) I've created a similar control (a composite that includes a Text and a Button) which pops up a calendar dialog and found that I had to implement setEnabled in the following way: public void setEnabled(boolean enable) { super.setEnabled( enable ); text.setEnabled( enable ); arrow.setEnabled( enable ); } Can the previous code be added to the CCombo class so the text field and button appear disabled like a normal Combo?

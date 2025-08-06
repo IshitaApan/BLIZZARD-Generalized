@@ -1,0 +1,3 @@
+Stochastic disease model needs to be modeled explicitly
+
+The stochastic disease model needs to be modeled in the "standard" disease models.

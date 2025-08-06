@@ -1,0 +1,3 @@
+Can not resolve an instance reference from another method
+
+Can not bring up shell with a composite,

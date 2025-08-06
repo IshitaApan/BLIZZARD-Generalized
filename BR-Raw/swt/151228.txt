@@ -1,0 +1,2 @@
+three-button Mozilla "confirm" dialog has same label on all three buttons
+

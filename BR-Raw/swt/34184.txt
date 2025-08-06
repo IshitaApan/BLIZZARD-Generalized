@@ -1,0 +1,3 @@
+Native Tree: No tooltips
+
+I2003-03-07 On windows, when an item is to long to be completely displayed, a tooltip will popup showing the complete label. This doesn't happen on OSX.

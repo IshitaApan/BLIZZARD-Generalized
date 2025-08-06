@@ -1,0 +1,3 @@
+Provide 'since' javadoc in snippets
+
+It would be a useful additional information in some snippets if there were an @since javadoc tag that tells from which version on the snippet will work. For instance, snippet 175 works only from Eclipse 3.1 on, since it uses the GridData.exclude field which was introduced in 3.1
