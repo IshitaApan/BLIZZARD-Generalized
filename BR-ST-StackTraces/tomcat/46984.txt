@@ -1,0 +1,2 @@
+sun.net.www.protocol.http.HttpURLConnection.getInputStream
+sun.net.www.protocol.http.HttpURLConnection.getHeaderFields

@@ -1,0 +1,10 @@
+org.apache.jasper.servlet.JspServletWrapper.getServletContext
+org.apache.jasper.compiler.JspRuntimeContext.checkCompile
+org.apache.jasper.servlet.JspServlet.periodicEvent
+org.apache.catalina.core.StandardWrapper.backgroundProcess
+org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren
+org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren
+org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren
+org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren
+org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run
+java.lang.Thread.run

@@ -1,0 +1,4 @@
+org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection
+org.apache.tomcat.jdbc.pool.ConnectionPool.getConnectionAsync
+org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnectionAsync
+org.apache.tomcat.jdbc.test.FairnessTest$TestThread.run

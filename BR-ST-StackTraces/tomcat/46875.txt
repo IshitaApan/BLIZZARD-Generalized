@@ -1,0 +1,14 @@
+org.apache.catalina.session.StandardSession.removeAttribute
+org.apache.catalina.session.StandardSession.removeAttribute
+org.apache.catalina.session.StandardSessionFacade.removeAttribute
+org.apache.catalina.valves.CometConnectionManagerValve.event
+org.apache.catalina.core.StandardHostValve.event
+org.apache.catalina.valves.ValveBase.event
+org.apache.catalina.core.StandardEngineValve.event
+org.apache.catalina.connector.CoyoteAdapter.event
+org.apache.coyote.http11.Http11NioProcessor.event
+org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.event
+org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run
+java.util.concurrent.ThreadPoolExecutor$Worker.runTask
+java.util.concurrent.ThreadPoolExecutor$Worker.run
+java.lang.Thread.run

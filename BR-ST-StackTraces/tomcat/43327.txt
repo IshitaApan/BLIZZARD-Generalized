@@ -1,0 +1,3 @@
+org.apache.tomcat.util.net.AprEndpoint.init
+org.apache.coyote.http11.Http11AprProtocol.init
+org.apache.catalina.connector.Connector.initialize

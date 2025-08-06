@@ -1,0 +1,17 @@
+org.apache.catalina.session.ManagerBase.createSession
+org.apache.catalina.connector.Request.doGetSession
+org.apache.catalina.connector.Request.getSession
+org.apache.catalina.connector.RequestFacade$GetSessionPrivilegedAction.run
+org.apache.catalina.connector.RequestFacade$GetSessionPrivilegedAction.run
+java.security.AccessController.doPrivileged
+org.apache.catalina.connector.RequestFacade.getSession
+org.apache.catalina.connector.RequestFacade.getSession
+org.apache.jasper.runtime.PageContextImpl._initialize
+org.apache.jasper.runtime.PageContextImpl.initialize
+org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext
+org.apache.jasper.runtime.JspFactoryImpl.access$000
+org.apache.jasper.runtime.JspFactoryImpl$PrivilegedGetPageContext.run
+org.apache.jasper.runtime.JspFactoryImpl$PrivilegedGetPageContext.run
+java.security.AccessController.doPrivileged
+org.apache.jasper.runtime.JspFactoryImpl.getPageContext
+org.apache.jsp.jsp.num.numguess_jsp._jspService

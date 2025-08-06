@@ -1,0 +1,2 @@
+org.apache.catalina.manager.HTMLManagerServlet.list
+org.apache.catalina.manager.HTMLManagerServlet.doGet

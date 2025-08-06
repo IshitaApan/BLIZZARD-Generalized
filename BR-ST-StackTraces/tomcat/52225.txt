@@ -1,0 +1,3 @@
+org.apache.catalina.connector.Request.getHost
+org.apache.catalina.core.StandardEngineValve.invoke
+org.apache.catalina.connector.Request.getHost

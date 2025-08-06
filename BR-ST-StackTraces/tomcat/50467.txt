@@ -1,0 +1,2 @@
+org.apache.tomcat.util.net.NioEndpoint$Poller.run
+java.lang.Thread.run

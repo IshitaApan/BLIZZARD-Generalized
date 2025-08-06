@@ -1,0 +1,5 @@
+org.apache.catalina.ha.session.DeltaSession.expire
+org.apache.catalina.ha.session.DeltaSession.expire
+org.apache.catalina.session.StandardSession.expire
+org.apache.catalina.session.StandardSession.invalidate
+org.apache.catalina.session.StandardSessionFacade.invalidate

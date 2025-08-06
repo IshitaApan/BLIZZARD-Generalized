@@ -1,0 +1,7 @@
+org.apache.jasper.servlet.JspCServletContext.getResource
+org.apache.jasper.servlet.JspCServletContext.getResource
+org.apache.jasper.compiler.TldCache.getLastModified
+org.apache.jasper.compiler.TldCache.<init>
+org.apache.jasper.JspC.initServletContext
+org.apache.jasper.JspC.execute
+org.apache.jasper.JspC.main

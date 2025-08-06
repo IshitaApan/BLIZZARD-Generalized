@@ -1,0 +1,10 @@
+java.security.AccessControlContext.checkPermission
+java.security.AccessController.checkPermission
+java.lang.SecurityManager.checkPermission
+java.lang.SecurityManager.checkPackageAccess
+sun.misc.Launcher$AppClassLoader.loadClass
+java.lang.ClassLoader.loadClass
+java.lang.ClassLoader.loadClass
+java.lang.ClassLoader.loadClassInternal
+org.apache.jasper.runtime.ProtectedFunctionMapper.getMapForFunction
+org.apache.jsp.jsp.jsp2.el.implicit_002dobjects_jsp.<clinit>

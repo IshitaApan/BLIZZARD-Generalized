@@ -1,0 +1,4 @@
+org.apache.catalina.servlets.WebdavServlet.parseProperties
+org.apache.catalina.servlets.WebdavServlet.doPropfind
+org.apache.catalina.servlets.WebdavServlet.service
+javax.servlet.http.HttpServlet.service

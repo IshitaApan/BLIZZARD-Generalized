@@ -1,0 +1,6 @@
+org.apache.jmeter.protocol.jdbc.sampler.JDBCSampler.getStringFromResultSet
+org.apache.jmeter.protocol.jdbc.sampler.JDBCSampler.resultSetsToString
+org.apache.jmeter.protocol.jdbc.sampler.JDBCSampler.sample
+org.apache.jmeter.threads.JMeterThread.process_sampler
+org.apache.jmeter.threads.JMeterThread.run
+java.lang.Thread.run
