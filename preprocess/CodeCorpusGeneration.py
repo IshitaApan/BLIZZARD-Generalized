@@ -1,11 +1,21 @@
 import os
-import shutil
 import csv
 import re
 
+# Test code cleaning for a specific file 
+def test_file_fixing():
+    """
+    Reads a Java file, applies the text block fixing, and prints the result.
+    """
+    with open("Corpus/jdt/3488.java", 'r', encoding='utf-8') as f:
+        content = f.read()
+    fixed_content = fix_text_blocks(content)
+
+    with open("Corpus/jdt/3488.java", 'w', encoding='utf-8') as f:
+        f.write(fixed_content)
+
 # Regex to detect Java text block ("""...""")
 TEXT_BLOCK_PATTERN = re.compile(r'"""\s*(.*?)\s*"""', re.DOTALL)
-
 def fix_text_blocks(code):
     """"
     1) Convert Java text blocks (\"\"\"...\"\"\") into safe concatenated string literals.
@@ -30,12 +40,14 @@ def fix_text_blocks(code):
         lines = content.splitlines()
         return '"{}"'.format('" +\n"'.join(lines)) 
     code = re.sub(TEXT_BLOCK_PATTERN, replace_block, code)
-    code = code.replace(r'\u000A', r'\n')
-    code = code.replace(r'\u000D', r'\r')
+    code = re.sub(r'\\u000[aA]', r'\\n', code)
+    code = re.sub(r'\\u000[cC]', r'\\f', code)
+    code = re.sub(r'\\u000[dD]', r'\\r', code)
+    code = re.sub(r'\\u000[9]',  r'\\t', code)
+    code = re.sub(r'\\u0020', ' ', code)
     # code = re.sub(r'\\(?="(?=[,\s\)\}]))', '', code)
     # code = re.sub(r'\\(?="(?=[,;]))', '\\', code)
     return code
-
 
 def collect_and_copy_java(src_dir, dest_dir, mapping_file_path, stats_csv_path):
     """
@@ -89,9 +101,9 @@ def collect_and_copy_java(src_dir, dest_dir, mapping_file_path, stats_csv_path):
     total_files = counter - 1
     print(f"Total .java files found and copied: {total_files}")
 
-
-
 if __name__ == "__main__":
+
+    # test_file_fixing()  # Uncomment to test the text block fixing function
     
     # Example usage
     project_name = "jdt"  # replace with your project name, [aspectj, birt, eclipse, jdt]
@@ -107,16 +119,3 @@ if __name__ == "__main__":
     collect_and_copy_java(source_directory, destination_directory, mapping_file, stats_csv_file)
     print(f"Copied {len(os.listdir(destination_directory))} files to '{destination_directory}'")
     print(f"Mapping written to '{mapping_file}'")
-
-
-# Test code cleaning for a specific file 
-def test_file_fixing(file_path):
-    """
-    Reads a Java file, applies the text block fixing, and prints the result.
-    """
-    with open("/home/ishita/BugLocalization/Data-22k/Code Corpus/jdt/org.eclipse.jdt.text.tests/src/org/eclipse/jdt/text/tests/NewForLoopJavaContextTest.java", 'r', encoding='utf-8') as f:
-        content = f.read()
-    fixed_content = fix_text_blocks(content)
-
-    with open("/home/ishita/BugLocalization/Data-22k/_NewForLoopJavaContextTest.java", 'w', encoding='utf-8') as f:
-        f.write(fixed_content)
