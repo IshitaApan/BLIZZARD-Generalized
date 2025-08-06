@@ -42,7 +42,7 @@ def dump_bug_reports(xml_path, output_dir, bugIds_file):
             f.write(f"{bid}\n")
 
 if __name__ == "__main__":
-    project_name = "swt"  # replace with your project name, [aspectj, birt, eclipse, jdt, swt]
+    project_name = "tomcat"  # replace with your project name, [aspectj, birt, eclipse, jdt, swt, tomcat]
     xml_file = f"/home/ishita/BugLocalization/Data-22k/{project_name}-updated-data.xml"         # replace with your XML path
     output_folder = f"/home/ishita/BugLocalization/Data-22k/BR-RAW-Query/{project_name}"    # directory to hold the .txt files
     bugIds_file = f"/home/ishita/BugLocalization/Data-22k/{project_name}_bug_ids.txt"  # file to hold the bug IDs

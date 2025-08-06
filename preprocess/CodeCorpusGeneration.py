@@ -106,7 +106,7 @@ if __name__ == "__main__":
     # test_file_fixing()  # Uncomment to test the text block fixing function
     
     # Example usage
-    project_name = "jdt"  # replace with your project name, [aspectj, birt, eclipse, jdt]
+    project_name = "tomcat"  # replace with your project name, [aspectj, birt, eclipse, jdt, swt, tomcat]
     source_directory = f"/home/ishita/BugLocalization/Data-22k/Code Corpus/{project_name}"  # replace with your source directory if needed
     destination_directory = f"Corpus/{project_name}"  # directory to hold the copied .java files
     os.makedirs(destination_directory, exist_ok=True)
