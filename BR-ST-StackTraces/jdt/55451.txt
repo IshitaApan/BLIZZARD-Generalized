@@ -1,0 +1,4 @@
+org.eclipse.jface.text.Assert$AssertionFailedException.<init>
+org.eclipse.jface.text.Assert.isTrue
+org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST
+org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$1.run

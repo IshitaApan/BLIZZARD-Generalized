@@ -1,0 +1,17 @@
+java.lang.String.substring
+java.lang.String.substring
+NLSSearchResultRequestor.findKey
+NLSSearchResultRequestor.acceptSearchMatch
+report
+matchReportImportRef
+matchLevelAndReportImportRef
+reportMatching
+process
+locateMatches
+locateMatches
+locateMatches
+locateMatches
+org.eclipse.jdt.core.search.SearchEngine.search
+run
+run
+org.eclipse.core.internal.jobs.Worker.run

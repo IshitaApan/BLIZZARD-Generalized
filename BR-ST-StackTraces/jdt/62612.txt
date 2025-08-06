@@ -1,0 +1,10 @@
+org.eclipse.core.internal.preferences.EclipsePreferences.internalGet
+org.eclipse.core.internal.preferences.EclipsePreferences.get
+org.eclipse.core.internal.preferences.PreferenceForwarder.contains
+org.eclipse.ui.plugin.AbstractUIPlugin$CompatibilityPreferenceStore.contains
+org.eclipse.ui.texteditor.ChainedPreferenceStore.getVisibleStore
+org.eclipse.ui.texteditor.ChainedPreferenceStore.getBoolean
+org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo
+org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo
+org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo
+org.eclipse.jface.text.TextViewerHoverManager$4.run

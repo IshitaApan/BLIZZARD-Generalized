@@ -1,0 +1,9 @@
+org.eclipse.jdt.core.dom.ASTParser.internalCreateAST
+org.eclipse.jdt.core.dom.ASTParser.createAST
+org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run
+org.eclipse.core.internal.runtime.InternalPlatform.run
+org.eclipse.core.runtime.Platform.run
+org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST
+org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST
+org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$7.run
+org.eclipse.core.internal.jobs.Worker.run

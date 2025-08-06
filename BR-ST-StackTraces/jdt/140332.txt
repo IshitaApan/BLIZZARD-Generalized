@@ -1,0 +1,9 @@
+org.eclipse.jdt.internal.ui.refactoring.binary.BinaryRefactoringHistoryWizard$2.createCompilationUnit
+org.eclipse.jdt.internal.corext.refactoring.binary.StubCreationOperation.run
+org.eclipse.jdt.internal.corext.refactoring.binary.AbstractCodeCreationOperation.run
+org.eclipse.jdt.internal.ui.refactoring.binary.BinaryRefactoringHistoryWizard.createNecessarySourceCode
+org.eclipse.jdt.internal.ui.refactoring.binary.BinaryRefactoringHistoryWizard.aboutToPerformRefactoring
+org.eclipse.ltk.ui.refactoring.history.RefactoringHistoryWizard.createRefactoring
+org.eclipse.ltk.ui.refactoring.history.RefactoringHistoryWizard.access$12
+org.eclipse.ltk.ui.refactoring.history.RefactoringHistoryWizard$8.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

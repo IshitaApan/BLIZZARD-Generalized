@@ -1,0 +1,9 @@
+org.eclipse.jdt.internal.corext.refactoring.generics.InferTypeArgumentsConstraintsSolver.getChosenType
+org.eclipse.jdt.internal.corext.refactoring.generics.InferTypeArgumentsConstraintsSolver.findCastsToRemove
+org.eclipse.jdt.internal.corext.refactoring.generics.InferTypeArgumentsConstraintsSolver.solveConstraints
+org.eclipse.jdt.internal.corext.refactoring.generics.InferTypeArgumentsRefactoring.checkFinalConditions
+org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run
+org.eclipse.ltk.core.refactoring.CreateChangeOperation.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

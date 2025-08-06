@@ -1,0 +1,8 @@
+org.eclipse.jdt.internal.formatter.DefaultCodeFormatter.format
+org.eclipse.jdt.internal.corext.util.CodeFormatterUtil.reformat
+org.eclipse.jdt.internal.corext.fix.CodeFormatFix.createCleanUp
+org.eclipse.jdt.internal.ui.fix.CodeFormatCleanUp.createFix
+org.eclipse.jdt.internal.corext.fix.CleanUpRefactoring.calculateChange
+org.eclipse.jdt.internal.corext.fix.CleanUpPostSaveListener.saved
+org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider$5.run
+org.eclipse.core.runtime.SafeRunner.run

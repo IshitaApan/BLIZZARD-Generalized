@@ -1,0 +1,9 @@
+tImage
+org.eclipse.jface.viewers.TableViewer.doUpdateItem
+org.eclipse.core.runtime.Platform.run
+org.eclipse.jface.viewers.TableViewer.internalRefresh
+org.eclipse.jface.viewers.TableViewer.internalRefresh
+org.eclipse.jface.viewers.StructuredViewer$7.run
+org.eclipse.jface.viewers.StructuredViewer.refresh
+org.eclipse.jface.viewers.StructuredViewer.refresh
+ble

@@ -1,0 +1,5 @@
+org.eclipse.jdt.internal.corext.buildpath.ClasspathModifier.validateAndAddEntry
+org.eclipse.jdt.internal.corext.buildpath.ClasspathModifier.setNewEntry
+org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.AddArchiveToBuildpathAction.addExternalJars
+org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.AddArchiveToBuildpathAction$1.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

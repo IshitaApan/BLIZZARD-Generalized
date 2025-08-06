@@ -1,0 +1,3 @@
+java.lang.NullPointerException.<init>
+nfo
+getHoverInfo

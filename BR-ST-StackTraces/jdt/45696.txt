@@ -1,0 +1,10 @@
+java.lang.String.charAt
+org.eclipse.jsp.AbstractJspParser.parseAttributes
+org.eclipse.jsp.AbstractJspParser.parseTag
+org.eclipse.jsp.AbstractJspParser.parse
+org.eclipse.jsp.JspTranslator.translate
+org.eclipse.jdt.internal.ui.examples.jspeditor.Jsp2JavaReconcileStep.reconcileModel
+org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile
+org.eclipse.jdt.internal.ui.examples.jspeditor.JspReconcilingStrategy.reconcile
+org.eclipse.jface.text.reconciler.MonoReconciler.process
+org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run

@@ -1,0 +1,11 @@
+org.eclipse.core.runtime.Assert.isTrue
+org.eclipse.core.runtime.Assert.isTrue
+org.eclipse.jdt.internal.corext.refactoring.code.ExtractConstantRefactoring.computeConstantDeclarationLocation
+org.eclipse.jdt.internal.corext.refactoring.code.ExtractConstantRefactoring.insertFirst
+org.eclipse.jdt.internal.corext.refactoring.code.ExtractConstantRefactoring.createConstantDeclaration
+org.eclipse.jdt.internal.corext.refactoring.code.ExtractConstantRefactoring.checkFinalConditions
+org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run
+org.eclipse.ltk.core.refactoring.CreateChangeOperation.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

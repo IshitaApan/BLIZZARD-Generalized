@@ -1,0 +1,7 @@
+org.eclipse.jface.util.Assert.isNotNull
+org.eclipse.jface.util.Assert.isNotNull
+er
+dit
+ToDestinationPackage
+geManager
+nager

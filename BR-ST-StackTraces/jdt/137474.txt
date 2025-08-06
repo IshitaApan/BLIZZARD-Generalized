@@ -1,0 +1,11 @@
+org.eclipse.jdt.internal.corext.util.MethodOverrideTester.hasCompatibleTypeParameters
+org.eclipse.jdt.internal.corext.util.MethodOverrideTester.isSubsignature
+org.eclipse.jdt.internal.corext.util.MethodOverrideTester.findOverriddenMethodInType
+org.eclipse.jdt.internal.corext.util.MethodOverrideTester.findOverriddenMethodInHierarchy
+org.eclipse.jdt.internal.corext.util.MethodOverrideTester.findOverriddenMethod
+org.eclipse.jdt.ui.actions.OpenSuperImplementationAction.findSuperImplementation
+org.eclipse.jdt.ui.actions.OpenSuperImplementationAction.checkMethod
+org.eclipse.jdt.ui.actions.OpenSuperImplementationAction.selectionChanged
+org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchSelectionChanged
+org.eclipse.jdt.ui.actions.SelectionDispatchAction.selectionChanged
+org.eclipse.jface.viewers.Viewer$2.run

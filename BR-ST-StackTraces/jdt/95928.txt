@@ -1,0 +1,5 @@
+org.eclipse.jdt.internal.corext.Assert.isTrue
+org.eclipse.jdt.internal.corext.refactoring.structure.ChangeTypeRefactoring.findConstraintVariableForSelectedNode
+org.eclipse.jdt.internal.corext.refactoring.structure.ChangeTypeRefactoring.computeValidTypes
+org.eclipse.jdt.internal.ui.refactoring.ChangeTypeWizard$1.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

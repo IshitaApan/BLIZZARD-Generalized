@@ -1,0 +1,7 @@
+org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.TypeEnvironment.createParameterizedType
+org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.TypeEnvironment.create
+org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.HierarchyType.initialize
+org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.ParameterizedType.initialize
+org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.TypeEnvironment.createParameterizedType
+org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.TypeEnvironment.create
+org.eclipse.jdt.internal.corext.refactoring.typeconstraints.types.ParameterizedType.initialize

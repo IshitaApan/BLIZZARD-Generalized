@@ -1,0 +1,5 @@
+org.eclipse.jdt.text.tests.contentassist.AbstractCompletionTest.findNonNullProposal
+org.eclipse.jdt.text.tests.contentassist.AbstractCompletionTest.assertProposal
+org.eclipse.jdt.text.tests.contentassist.AbstractCompletionTest.assertMethodBodyProposal
+org.eclipse.jdt.text.tests.contentassist.TypeCompletionTest.testBug182468
+junit.extensions.TestDecorator.basicRun

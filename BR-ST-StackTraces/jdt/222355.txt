@@ -1,0 +1,12 @@
+org.eclipse.swt.graphics.Device.new_Object
+org.eclipse.swt.graphics.Resource.init
+org.eclipse.swt.graphics.Image.<init>
+org.eclipse.jface.resource.ImageDescriptor.createImage
+org.eclipse.jface.resource.ImageDescriptor.createImage
+org.eclipse.jface.resource.ImageDescriptor.createImage
+org.eclipse.jdt.internal.ui.refactoring.CreateTextFileChangePreviewViewer$CreateTextFilePreviewer.setText
+org.eclipse.jdt.internal.ui.refactoring.CreateTextFileChangePreviewViewer.setInput
+org.eclipse.ltk.internal.ui.refactoring.AbstractChangeNode.feedInput
+org.eclipse.ltk.internal.ui.refactoring.PreviewWizardPage.showPreview
+org.eclipse.ltk.internal.ui.refactoring.PreviewWizardPage.access$6
+org.eclipse.ltk.internal.ui.refactoring.PreviewWizardPage$7.selectionChanged

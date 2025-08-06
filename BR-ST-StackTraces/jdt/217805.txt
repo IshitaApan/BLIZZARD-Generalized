@@ -1,0 +1,10 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Widget.error
+org.eclipse.swt.widgets.Widget.checkWidget
+org.eclipse.swt.widgets.Table.setRedraw
+org.eclipse.jdt.internal.ui.javaeditor.breadcrumb.FilteredTable$3.runInUIThread
+org.eclipse.ui.progress.UIJob$1.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages

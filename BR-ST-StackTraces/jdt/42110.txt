@@ -1,0 +1,17 @@
+java.lang.ClassCastException.<init>
+org.eclipse.jface.dialogs.Dialog$1.widgetSelected
+org.eclipse.jface.window.Window.open
+org.eclipse.ui.internal.Workbench.press
+org.eclipse.ui.internal.Workbench$2.handleEvent
+org.eclipse.swt.widgets.Control.sendKeyEvent
+org.eclipse.swt.widgets.Control.sendKeyEvent
+org.eclipse.swt.widgets.Control.WM_CHAR
+org.eclipse.swt.widgets.Tree.WM_CHAR
+org.eclipse.swt.internal.win32.OS.DispatchMessageW
+org.eclipse.ui.internal.Workbench.runEventLoop
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

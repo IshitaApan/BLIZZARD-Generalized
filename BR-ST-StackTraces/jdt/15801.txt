@@ -1,0 +1,13 @@
+org.eclipse.jface.wizard.WizardPage.getShell
+org.eclipse.jface.wizard.Wizard.createPageControls
+org.eclipse.jface.wizard.WizardDialog.showPage
+org.eclipse.jface.dialogs.Dialog$1.widgetSelected
+org.eclipse.jface.window.Window.open
+org.eclipse.ui.actions.NewWizardAction.run
+org.eclipse.jface.action.Action.runWithEvent
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

@@ -1,0 +1,6 @@
+.getMethod
+.needsVisibilityUpdate
+.updateDeclarationNode
+.modifyMethodOccurrences
+.createChangeManager
+.checkInput

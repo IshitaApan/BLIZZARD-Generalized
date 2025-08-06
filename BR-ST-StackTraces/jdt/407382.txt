@@ -1,0 +1,2 @@
+org.eclipse.e4.core.internal.di.MethodRequestor.execute
+org.eclipse.jdt.internal.ui.refactoring.contentassist.CUPositionCompletionProcessor.computeCompletionProposals

@@ -1,0 +1,12 @@
+org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleValueTag
+org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleInlineTagElement
+org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements
+org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements
+org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.toHTML
+org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.javadoc2HTML
+org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource
+org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent
+org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo
+org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo
+org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2
+org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2

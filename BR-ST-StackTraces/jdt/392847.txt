@@ -1,0 +1,5 @@
+java.util.HashMap.get
+org.eclipse.jdt.core.dom.DefaultBindingResolver.resolveTypeBindingForName
+org.eclipse.jdt.core.dom.DefaultBindingResolver.resolveExpressionType
+org.eclipse.jdt.core.dom.Expression.resolveTypeBinding
+org.eclipse.jdt.internal.ui.text.correction.AdvancedQuickAssistProcessor.getAssists

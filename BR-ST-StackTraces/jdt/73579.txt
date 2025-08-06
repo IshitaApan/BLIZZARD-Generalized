@@ -1,0 +1,3 @@
+java.lang.String.charAt
+org.eclipse.jdt.internal.ui.infoviews.SourceView.computeInput
+org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run

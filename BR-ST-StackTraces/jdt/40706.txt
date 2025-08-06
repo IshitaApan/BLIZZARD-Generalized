@@ -1,0 +1,15 @@
+org.eclipse.jdt.internal.corext.Assert.isTrue
+org.eclipse.jdt.internal.corext.Assert.isTrue
+sAndCusReorgPolicy.verifyDestination
+.setDestination
+Paster.canPasteOn
+org.eclipse.jface.viewers.Viewer$2.run
+org.eclipse.jface.util.OpenStrategy.access$3
+org.eclipse.ui.internal.Workbench.runEventLoop
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.AccessibleObject.invokeL
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

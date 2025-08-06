@@ -1,0 +1,16 @@
+org.eclipse.jface.viewers.TreeViewer.doUpdateItem
+abelProviderChanged
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Display.runAsyncMessages
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.jface.operation.ModalContext.run
+org.eclipse.ui.actions.WorkspaceAction.run
+org.eclipse.jface.action.Action.runWithEvent
+org.eclipse.swt.widgets.EventTable.sendEvent
+org.eclipse.swt.widgets.Widget.sendEvent
+org.eclipse.swt.widgets.Display.runDeferredEvents
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.ui.internal.Workbench.runEventLoop
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+EclipseRuntimeLauncher.main

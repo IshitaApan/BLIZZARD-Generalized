@@ -1,0 +1,9 @@
+org.eclipse.jdt.internal.corext.refactoring.reorg.DeleteChangeCreator.createDeleteChange
+org.eclipse.jdt.internal.corext.refactoring.reorg.ReorgPolicyFactory$MoveSubCuElementsPolicy.createChange
+org.eclipse.jdt.internal.corext.refactoring.reorg.JavaMoveProcessor.createChange
+org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.createChange
+org.eclipse.ltk.core.refactoring.CreateChangeOperation.run
+org.eclipse.ltk.core.refactoring.PerformChangeOperation.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

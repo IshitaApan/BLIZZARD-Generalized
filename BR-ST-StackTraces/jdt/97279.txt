@@ -1,0 +1,7 @@
+org.eclipse.jdt.internal.corext.refactoring.structure.ChangeTypeRefactoring.determineSelection
+org.eclipse.jdt.internal.corext.refactoring.structure.ChangeTypeRefactoring.checkSelection
+org.eclipse.jdt.internal.corext.refactoring.structure.ChangeTypeRefactoring.checkInitialConditions
+org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

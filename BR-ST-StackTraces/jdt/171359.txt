@@ -1,0 +1,16 @@
+java.lang.String.charAt
+org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog$TypeItemsComparator.compareName
+org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog$TypeItemsComparator.compare
+org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$HistoryComparator.compare
+java.util.Arrays.mergeSort
+java.util.Arrays.mergeSort
+java.util.Arrays.mergeSort
+java.util.Arrays.sort
+java.util.Collections.sort
+org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ContentProvider.getItems
+org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$ContentProvider.rememberResult
+org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.filterContent
+org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$AbstractFilterJob.internalRun
+org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$AbstractFilterJob.doRun
+org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$AbstractFilterJob.run
+org.eclipse.core.internal.jobs.Worker.run

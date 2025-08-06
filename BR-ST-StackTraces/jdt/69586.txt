@@ -1,0 +1,9 @@
+org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset
+org.eclipse.jface.text.AbstractDocument.getLineOfOffset
+org.eclipse.jdt.internal.ui.text.correction.QuickAssistLightBulbUpdater.hasQuickFixLightBulb
+org.eclipse.jdt.internal.ui.text.correction.QuickAssistLightBulbUpdater.doSelectionChanged
+org.eclipse.jdt.internal.ui.text.correction.QuickAssistLightBulbUpdater.access$0
+org.eclipse.jdt.internal.ui.text.correction.QuickAssistLightBulbUpdater$1.selectionChanged
+org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform
+org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run
+org.eclipse.core.internal.jobs.Worker.run

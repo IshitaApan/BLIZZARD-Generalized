@@ -1,0 +1,17 @@
+org.eclipse.jdt.internal.corext.refactoring.code.flow.LocalFlowInfo.<init>
+org.eclipse.jdt.internal.corext.refactoring.code.flow.FlowAnalyzer.endVisit
+org.eclipse.jdt.core.dom.SimpleName.accept0
+org.eclipse.jdt.core.dom.ASTNode.accept
+org.eclipse.jdt.core.dom.ASTNode.acceptChild
+org.eclipse.jdt.core.dom.InfixExpression.accept0
+org.eclipse.jdt.core.dom.ASTNode.accept
+org.eclipse.jdt.core.dom.ASTNode.acceptChild
+org.eclipse.jdt.core.dom.IfStatement.accept0
+org.eclipse.jdt.core.dom.ASTNode.accept
+org.eclipse.jdt.internal.corext.refactoring.code.flow.InOutFlowAnalyzer.perform
+org.eclipse.jdt.internal.ui.text.correction.SurroundWith.getReads
+org.eclipse.jdt.internal.ui.text.correction.SurroundWith.getVariableDeclarationReadsInside
+org.eclipse.jdt.internal.ui.text.template.contentassist.SurroundWithTemplateProposal$SurroundWithTemplate.getVariableDeclarationReadsInside
+org.eclipse.jdt.internal.ui.text.correction.SurroundWith.getRewrite
+org.eclipse.jdt.internal.ui.text.template.contentassist.SurroundWithTemplateProposal.createNewContext
+org.eclipse.jdt.internal.ui.text.template.contentassist.SurroundWithTemplateProposal.apply

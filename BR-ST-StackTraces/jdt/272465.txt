@@ -1,0 +1,2 @@
+java.lang.Class.forName
+org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main

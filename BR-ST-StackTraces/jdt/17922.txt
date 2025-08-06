@@ -1,0 +1,8 @@
+t
+org.eclipse.jdt.core.dom.QualifiedName.accept0
+org.eclipse.jdt.core.dom.SimpleType.accept0
+org.eclipse.jdt.core.dom.ArrayType.accept0
+OccurrenceOffsets
+enameEdits
+AST
+put

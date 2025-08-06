@@ -1,0 +1,3 @@
+org.eclipse.jdt.internal.ui.text.java.hover.AbstractReusableInformationControlCreator.canReplace
+org.eclipse.jface.text.AbstractInformationControlManager.setCustomInformationControlCreator
+org.eclipse.jface.text.TextViewerHoverManager$4.run

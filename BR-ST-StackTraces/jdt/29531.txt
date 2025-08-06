@@ -1,0 +1,14 @@
+org.eclipse.jdt.ui.text.JavaTextTools.<init>
+eDocument
+ument
+tory.internalGetDocument
+tory.createBuffer
+org.eclipse.jdt.internal.core.Openable.getBuffer
+org.eclipse.jdt.internal.core.Openable.open
+org.eclipse.jdt.internal.core.WorkingCopy.open
+mentInfo
+er
+dit
+oSourcePackageTypes
+geManager
+nager

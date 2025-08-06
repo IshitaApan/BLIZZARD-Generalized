@@ -1,0 +1,9 @@
+org.eclipse.ui.internal.PluginAction.runWithEvent
+org.eclipse.ui.internal.WWinPluginAction.runWithEvent
+org.eclipse.swt.widgets.Widget.notifyListeners
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

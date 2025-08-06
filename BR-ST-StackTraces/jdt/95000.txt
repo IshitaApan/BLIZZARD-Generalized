@@ -1,0 +1,12 @@
+org.eclipse.jdt.internal.ui.text.correction.NewVariableCompletionProposal.evaluateFieldModifiers
+org.eclipse.jdt.internal.ui.text.correction.NewVariableCompletionProposal.doAddField
+org.eclipse.jdt.internal.ui.text.correction.NewVariableCompletionProposal.getRewrite
+org.eclipse.jdt.internal.ui.text.correction.ASTRewriteCorrectionProposal.addEdits
+org.eclipse.jdt.internal.ui.text.correction.CUCorrectionProposal.initializeTextChange
+org.eclipse.jdt.internal.ui.text.correction.CUCorrectionProposal.getAdditionalProposalInfo
+org.eclipse.jface.text.contentassist.AdditionalInfoController.computeInformation
+org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation
+org.eclipse.jface.text.AbstractInformationControlManager.showInformation
+org.eclipse.jface.text.contentassist.AdditionalInfoController$1.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages

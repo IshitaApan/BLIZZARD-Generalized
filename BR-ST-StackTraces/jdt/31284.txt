@@ -1,0 +1,4 @@
+org.eclipse.jdt.internal.corext.Assert.isTrue
+thRewriteEdits
+ChangeManager
+nput

@@ -1,0 +1,12 @@
+sun.net.www.protocol.http.HttpURLConnection.getInputStream
+org.eclipse.jdt.internal.core.JavaElement.getURLContents
+org.eclipse.jdt.internal.core.BinaryType.getJavadocContents
+org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc
+org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent
+org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo
+org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo
+org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2
+org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2
+org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2
+org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2
+org.eclipse.jface.text.TextViewerHoverManager$4.run

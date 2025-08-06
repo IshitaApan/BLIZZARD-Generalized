@@ -1,0 +1,6 @@
+org.eclipse.jdt.internal.corext.refactoring.structure.ParameterObjectFactory.<init>
+org.eclipse.jdt.internal.corext.refactoring.structure.IntroduceParameterObjectRefactoring.initializeFields
+org.eclipse.jdt.internal.corext.refactoring.structure.IntroduceParameterObjectRefactoring.<init>
+org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startIntroduceParameterObject
+org.eclipse.jdt.internal.ui.actions.IntroduceParameterObjectAction.run
+org.eclipse.jdt.internal.ui.actions.IntroduceParameterObjectAction.run

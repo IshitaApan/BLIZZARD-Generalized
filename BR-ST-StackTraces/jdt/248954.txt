@@ -1,0 +1,13 @@
+org.eclipse.jdt.internal.ui.model.JavaSynchronizationContentProvider.asJavaProject
+org.eclipse.jdt.internal.ui.model.JavaSynchronizationContentProvider.convertToJavaElements
+org.eclipse.jdt.internal.ui.model.JavaSynchronizationContentProvider.interceptAdd
+org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.interceptAdd
+org.eclipse.ui.internal.navigator.NavigatorPipelineService.pipelineInterceptAdd
+org.eclipse.ui.internal.navigator.NavigatorPipelineService.interceptAdd
+org.eclipse.ui.navigator.CommonViewer.add
+org.eclipse.ui.model.WorkbenchContentProvider$2.run
+org.eclipse.ui.model.WorkbenchContentProvider.runUpdates
+org.eclipse.ui.model.WorkbenchContentProvider.access$1
+org.eclipse.ui.model.WorkbenchContentProvider$1.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages

@@ -1,0 +1,7 @@
+java.util.AbstractList$Itr.next
+org.eclipse.jdt.internal.core.Openable.getBuffer
+org.eclipse.jdt.core.dom.AST.parseCompilationUnit
+org.eclipse.jdt.core.dom.AST.parseCompilationUnit
+tenerGroup.computeAST
+tenerGroup.calculateASTandInform
+org.eclipse.core.internal.jobs.Worker.run

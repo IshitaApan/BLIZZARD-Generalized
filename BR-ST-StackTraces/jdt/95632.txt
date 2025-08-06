@@ -1,0 +1,6 @@
+org.eclipse.jdt.internal.corext.buildpath.ClasspathModifier.validateAndAddEntry
+org.eclipse.jdt.internal.corext.buildpath.ClasspathModifier.setNewEntry
+org.eclipse.jdt.internal.corext.buildpath.ClasspathModifier.addToClasspath
+org.eclipse.jdt.internal.corext.buildpath.AddSelectedSourceFolderOperation.run
+org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.BuildPathAction$1.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

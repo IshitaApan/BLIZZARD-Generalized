@@ -1,0 +1,16 @@
+org.eclipse.core.runtime.Preferences.setValue
+java.util.Arrays.mergeSort
+java.util.Arrays.sort
+org.eclipse.jface.viewers.ViewerSorter.sort
+ageSelection
+n
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Display.runAsyncMessages
+org.eclipse.swt.widgets.Display.readAndDispatch
+org.eclipse.ui.internal.Workbench.runEventLoop
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

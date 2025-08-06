@@ -1,0 +1,6 @@
+org.eclipse.jdt.internal.corext.refactoring.Assert.isNotNull
+org.eclipse.jdt.internal.corext.refactoring.Assert.isNotNull
+ctPreviousAction.getNextNode
+ctionAction.getNewSelectionRange
+ctionAction.run
+org.eclipse.jface.action.Action.runWithEvent

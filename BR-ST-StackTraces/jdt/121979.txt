@@ -1,0 +1,13 @@
+org.eclipse.core.runtime.Assert.isLegal
+org.eclipse.core.internal.resources.Workspace.newResource
+org.eclipse.core.internal.resources.Container.getFolder
+org.eclipse.jdt.internal.ui.wizards.buildpaths.BuildPathsBlock.flush
+org.eclipse.jdt.internal.ui.wizards.buildpaths.BuildPathsBlock.configureJavaProject
+org.eclipse.jdt.internal.ui.preferences.BuildPathsPropertyPage$1.run
+org.eclipse.jdt.internal.core.BatchOperation.executeOperation
+org.eclipse.jdt.internal.core.JavaModelOperation.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.jdt.core.JavaCore.run
+org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run
+org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter$1.run
+org.eclipse.core.internal.jobs.Worker.run

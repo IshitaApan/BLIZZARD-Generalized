@@ -1,0 +1,13 @@
+org.eclipse.jdt.ui.wizards.NewTypeWizardPage.isValidComment
+org.eclipse.jdt.ui.wizards.NewTypeWizardPage.getTypeComment
+org.eclipse.jdt.ui.wizards.NewTypeWizardPage.constructTypeStub
+org.eclipse.jdt.ui.wizards.NewTypeWizardPage.createType
+org.eclipse.jdt.internal.ui.wizards.NewInterfaceCreationWizard.finishPage
+org.eclipse.jdt.internal.ui.wizards.NewElementWizard$2.run
+org.eclipse.jdt.internal.core.BatchOperation.executeOperation
+org.eclipse.jdt.internal.core.JavaModelOperation.execute
+org.eclipse.jdt.internal.core.JavaModelOperation.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.jdt.core.JavaCore.run
+org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run
+org.eclipse.jface.operation.ModalContext.runInCurrentThread

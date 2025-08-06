@@ -1,0 +1,13 @@
+java.lang.Throwable.<init>
+org.eclipse.swt.graphics.Device.new_Object
+org.eclipse.swt.graphics.Image.<init>
+org.eclipse.jface.resource.ImageDescriptor.createImage
+org.eclipse.jface.resource.ImageDescriptor.createImage
+org.eclipse.jface.resource.ImageDescriptor.createImage
+org.eclipse.jdt.internal.ui.workingsets.WorkingSetMenuContributionItem.fill
+org.eclipse.jface.action.MenuManager.update
+org.eclipse.ui.internal.ViewPane$PaneMenuManager.update
+org.eclipse.jface.action.MenuManager.handleAboutToShow
+org.eclipse.jface.action.MenuManager.access$1
+org.eclipse.jface.action.MenuManager$2.menuShown
+org.eclipse.swt.widgets.TypedListener.handleEvent

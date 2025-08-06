@@ -1,0 +1,7 @@
+org.eclipse.jdt.internal.corext.refactoring.code.IntroduceFactoryRefactoring.getCtorCallAt
+org.eclipse.jdt.internal.corext.refactoring.code.IntroduceFactoryRefactoring.replaceConstructorCalls
+org.eclipse.jdt.internal.corext.refactoring.code.IntroduceFactoryRefactoring.addAllChangesFor
+org.eclipse.jdt.internal.corext.refactoring.code.IntroduceFactoryRefactoring.createChange
+org.eclipse.ltk.core.refactoring.CreateChangeOperation.run
+org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

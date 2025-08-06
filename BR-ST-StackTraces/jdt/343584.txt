@@ -1,0 +1,11 @@
+org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform
+org.eclipse.ltk.core.refactoring.CompositeChange.perform
+org.eclipse.ltk.core.refactoring.CompositeChange.perform
+org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange
+org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange
+org.eclipse.ltk.core.refactoring.PerformChangeOperation.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

@@ -1,0 +1,13 @@
+org.eclipse.jface.util.Assert.isTrue
+org.eclipse.jdt.internal.corext.refactoring.rename.RippleMethodFinder2.getAllRippleMethods
+org.eclipse.jdt.internal.corext.refactoring.rename.RippleMethodFinder2.getRelatedMethods
+org.eclipse.jdt.internal.corext.refactoring.rename.RenameMethodProcessor.initializeMethodsToRename
+org.eclipse.jdt.internal.corext.refactoring.rename.RenameMethodProcessor.checkFinalConditions
+org.eclipse.jdt.internal.corext.refactoring.rename.RenameVirtualMethodProcessor.checkFinalConditions
+org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions
+org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run
+org.eclipse.ltk.core.refactoring.CreateChangeOperation.run
+org.eclipse.ltk.core.refactoring.PerformChangeOperation.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

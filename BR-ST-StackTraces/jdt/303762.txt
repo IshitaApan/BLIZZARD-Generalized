@@ -1,0 +1,13 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.dnd.DND.error
+org.eclipse.swt.dnd.DND.error
+org.eclipse.swt.dnd.Clipboard.setContents
+org.eclipse.swt.dnd.Clipboard.setContents
+org.eclipse.jdt.internal.ui.callhierarchy.LocationCopyAction.run
+org.eclipse.jface.action.Action.runWithEvent
+org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection
+org.eclipse.jface.action.ActionContributionItem.access$2
+org.eclipse.jface.action.ActionContributionItem$5.handleEvent
+org.eclipse.swt.widgets.EventTable.sendEvent

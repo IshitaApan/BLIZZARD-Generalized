@@ -1,0 +1,8 @@
+org.eclipse.jdt.internal.corext.refactoring.generics.ParametricStructureComputer.updateStructureOfIthParamFrom
+org.eclipse.jdt.internal.corext.refactoring.generics.ParametricStructureComputer.updateStructureOfType
+org.eclipse.jdt.internal.corext.refactoring.generics.ParametricStructureComputer.updateStructureOfIthParamFrom
+org.eclipse.jdt.internal.corext.refactoring.generics.ParametricStructureComputer.updateStructureOfType
+org.eclipse.jdt.internal.corext.refactoring.generics.ParametricStructureComputer.updateStructureOfIthParamFrom
+org.eclipse.jdt.internal.corext.refactoring.generics.ParametricStructureComputer.updateStructureOfType
+org.eclipse.jdt.internal.corext.refactoring.generics.ParametricStructureComputer.updateStructureOfIthParamFrom
+org.eclipse.jdt.internal.corext.refactoring.generics.ParametricStructureComputer.updateStructureOfType

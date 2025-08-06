@@ -1,0 +1,16 @@
+java.lang.NullPointerException.<init>
+org.eclipse.jface.text.TypedPosition.<init>
+mentAboutToBeChanged
+org.eclipse.jface.text.TextViewer.shiftRight
+org.eclipse.jface.text.TextViewer.shift
+org.eclipse.jface.text.TextViewer.doOperation
+.doOperation
+org.eclipse.jface.action.Action.runWithEvent
+org.eclipse.ui.internal.Workbench.runEventLoop
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.AccessibleObject.invokeL
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

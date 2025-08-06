@@ -1,0 +1,16 @@
+org.eclipse.jdt.internal.ui.preferences.JavaEditorPreferencePage.createColor
+org.eclipse.jdt.internal.ui.preferences.JavaEditorPreferencePage.initializeViewerColors
+org.eclipse.jdt.internal.ui.preferences.JavaEditorPreferencePage.createPreviewer
+org.eclipse.jdt.internal.ui.preferences.JavaEditorPreferencePage.createSyntaxPage
+org.eclipse.jdt.internal.ui.preferences.JavaEditorPreferencePage.createContents
+org.eclipse.jface.preference.PreferencePage.createControl
+org.eclipse.jdt.internal.ui.text.JavaColorManager.getColor
+org.eclipse.jdt.internal.ui.text.JavaColorManager.getColor
+org.eclipse.jdt.internal.ui.text.AbstractJavaScanner.addToken
+org.eclipse.jdt.internal.ui.text.AbstractJavaScanner.initialize
+org.eclipse.jdt.internal.ui.text.java.JavaCodeScanner.<init>
+org.eclipse.jdt.ui.text.JavaTextTools.<init>
+org.eclipse.jdt.internal.ui.preferences.JavaEditorPreferencePage.createPreviewer
+org.eclipse.jdt.internal.ui.preferences.JavaEditorPreferencePage.createSyntaxPage
+org.eclipse.jdt.internal.ui.preferences.JavaEditorPreferencePage.createContents
+org.eclipse.jface.preference.PreferencePage.createControl

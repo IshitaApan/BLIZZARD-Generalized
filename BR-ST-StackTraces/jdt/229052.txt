@@ -1,0 +1,14 @@
+org.eclipse.jdt.internal.ui.jarpackager.JarFileExportOperation.exportElement
+org.eclipse.jdt.internal.ui.jarpackager.JarFileExportOperation.exportJavaElement
+org.eclipse.jdt.internal.ui.jarpackager.JarFileExportOperation.exportElement
+org.eclipse.jdt.internal.ui.jarpackager.JarFileExportOperation.exportJavaElement
+org.eclipse.jdt.internal.ui.jarpackager.JarFileExportOperation.exportElement
+org.eclipse.jdt.internal.ui.jarpackager.JarFileExportOperation.exportJavaElement
+org.eclipse.jdt.internal.ui.jarpackager.JarFileExportOperation.exportElement
+org.eclipse.jdt.internal.ui.jarpackager.JarFileExportOperation.exportSelectedElements
+org.eclipse.jdt.internal.ui.jarpackager.JarFileExportOperation.singleRun
+org.eclipse.jdt.internal.ui.jarpackager.JarFileExportOperation.execute
+org.eclipse.ui.actions.WorkspaceModifyOperation$1.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ui.actions.WorkspaceModifyOperation.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

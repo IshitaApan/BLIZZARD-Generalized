@@ -1,0 +1,11 @@
+java.net.PlainSocketImpl.socketConnect
+java.net.PlainSocketImpl.doConnect
+java.net.PlainSocketImpl.connectToAddress
+java.net.PlainSocketImpl.connect
+java.net.Socket.connect
+java.net.Socket.connect
+java.net.Socket.<init>
+java.net.Socket.<init>
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.connect
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main

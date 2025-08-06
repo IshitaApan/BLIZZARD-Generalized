@@ -1,0 +1,12 @@
+java.lang.NullPointerException.<init>
+org.eclipse.jdt.internal.junit.ui.HierarchyRunView.handleDoubleClick
+org.eclipse.jdt.internal.junit.ui.HierarchyRunView$3.mouseDoubleClick
+org.eclipse.ui.internal.Workbench.runEventLoop
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.internal.boot.InternalBootLoader.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.AccessibleObject.invokeL
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

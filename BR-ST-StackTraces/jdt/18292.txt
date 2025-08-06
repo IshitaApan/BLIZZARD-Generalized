@@ -1,0 +1,7 @@
+java.lang.System.arraycopy
+org.eclipse.jdt.internal.corext.refactoring.structure.ReferenceFinderUtil.getTypesReferencedIn
+org.eclipse.jdt.internal.corext.refactoring.reorg.MoveRefactoring.checkReferencesToNotPublicTypes
+org.eclipse.jdt.internal.corext.refactoring.reorg.MoveRefactoring.checkInput
+org.eclipse.jdt.internal.ui.refactoring.CheckConditionsOperation.run
+org.eclipse.jdt.internal.ui.refactoring.CreateChangeOperation.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

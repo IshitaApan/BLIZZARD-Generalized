@@ -1,0 +1,16 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Display.error
+org.eclipse.swt.widgets.Display.checkDevice
+org.eclipse.swt.widgets.Display.disposeExec
+org.eclipse.jdt.internal.ui.viewsupport.ImageDescriptorRegistry.hookDisplay
+org.eclipse.jdt.internal.ui.viewsupport.ImageDescriptorRegistry.<init>
+org.eclipse.jdt.internal.ui.viewsupport.ImageDescriptorRegistry.<init>
+org.eclipse.jdt.internal.ui.JavaPlugin.internalGetImageDescriptorRegistry
+org.eclipse.jdt.internal.ui.JavaPlugin.getImageDescriptorRegistry
+org.eclipse.jdt.internal.ui.dialogs.TypeInfoViewer$TypeInfoLabelProvider.getImage
+org.eclipse.jdt.internal.ui.dialogs.TypeInfoViewer$AbstractSearchJob.internalRun
+org.eclipse.jdt.internal.ui.dialogs.TypeInfoViewer$AbstractSearchJob.doRun
+org.eclipse.jdt.internal.ui.dialogs.TypeInfoViewer$AbstractJob.run
+org.eclipse.core.internal.jobs.Worker.run

@@ -1,0 +1,11 @@
+org.eclipse.jdt.internal.corext.dom.ASTRewriteAnalyzer.doVisit
+org.eclipse.jdt.internal.corext.dom.ASTRewriteAnalyzer.rewriteNode
+org.eclipse.jdt.internal.corext.dom.ASTRewriteAnalyzer.visit
+org.eclipse.jdt.core.dom.AssertStatement.accept0
+org.eclipse.jdt.core.dom.ASTNode.accept
+org.eclipse.jdt.internal.corext.dom.ASTRewriteAnalyzer.doVisit
+org.eclipse.jdt.internal.corext.dom.ASTRewriteAnalyzer.rewriteParagraph
+org.eclipse.jdt.internal.corext.dom.ASTRewriteAnalyzer.visit
+org.eclipse.jdt.core.dom.Block.accept0
+org.eclipse.jdt.core.dom.ASTNode.accept
+org.eclipse.jdt.internal.corext.dom.ASTRewriteAnalyzer.doVisit

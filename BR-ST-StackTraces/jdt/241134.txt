@@ -1,0 +1,9 @@
+org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource
+org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent
+org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent
+org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc
+org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo
+org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo
+org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo
+org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run
+org.eclipse.core.internal.jobs.Worker.run

@@ -1,0 +1,7 @@
+org.eclipse.jdt.internal.ui.search.MethodExitsFinder.markReferences
+org.eclipse.jdt.internal.ui.search.MethodExitsFinder.perform
+org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.updateOccurrenceAnnotations
+org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$6.selectionChanged
+org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform
+org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$3.run
+org.eclipse.core.internal.jobs.Worker.run

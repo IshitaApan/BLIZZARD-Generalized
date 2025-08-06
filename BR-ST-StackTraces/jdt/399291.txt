@@ -1,0 +1,14 @@
+org.eclipse.jdt.internal.core.JavaElement.newJavaModelException
+org.eclipse.jdt.internal.core.Openable.generateInfos
+org.eclipse.jdt.internal.core.JavaElement.openWhenClosed
+org.eclipse.jdt.internal.core.JavaElement.getElementInfo
+org.eclipse.jdt.internal.core.JavaElement.getElementInfo
+org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind
+org.eclipse.jdt.internal.corext.javadoc.JavaDocLocations.getExplanationForMissingJavadoc
+org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo
+org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo
+org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2
+org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2
+org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2
+org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2
+org.eclipse.jface.text.TextViewerHoverManager$4.run

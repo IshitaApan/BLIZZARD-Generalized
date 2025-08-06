@@ -1,0 +1,17 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.graphics.ImageLoader.save
+org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL
+org.eclipse.jdt.internal.ui.viewsupport.ImagesOnFileSystemRegistry.getImageURL
+org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText
+org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo
+org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo
+org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2
+org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2
+org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2
+org.eclipse.jface.text.TextViewerHoverManager$4.run
+java.io.FileOutputStream.open
+java.io.FileOutputStream.<init>
+java.io.FileOutputStream.<init>
+org.eclipse.swt.internal.Compatibility.newFileOutputStream
+org.eclipse.swt.graphics.ImageLoader.save

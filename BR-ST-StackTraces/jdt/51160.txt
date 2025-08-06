@@ -1,0 +1,3 @@
+org.eclipse.jdt.core.dom.ASTNode.checkNewChild
+org.eclipse.jdt.core.dom.ASTNode$NodeList.add
+put

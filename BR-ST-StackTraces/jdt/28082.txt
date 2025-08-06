@@ -1,0 +1,4 @@
+org.eclipse.jface.viewers.TreeViewer.doUpdateItem
+org.eclipse.swt.widgets.Synchronizer.syncExec
+org.eclipse.swt.widgets.Display.syncExec
+org.eclipse.core.runtime.Platform.run

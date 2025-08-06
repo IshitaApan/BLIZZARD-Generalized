@@ -1,0 +1,15 @@
+org.eclipse.jface.util.Assert.isNotNull
+org.eclipse.jdt.internal.ui.refactoring.RefactoringWizard.<init>
+org.eclipse.jdt.internal.ui.refactoring.RenameParametersWizard.<init>
+org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringGroup$1.createWizard
+org.eclipse.jdt.internal.ui.refactoring.actions.OpenRefactoringWizardAction.run
+org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringActionDelegate.run
+org.eclipse.ui.internal.PluginAction.run
+org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.internal.boot.InternalBootLoader.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

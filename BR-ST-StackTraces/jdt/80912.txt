@@ -1,0 +1,3 @@
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main

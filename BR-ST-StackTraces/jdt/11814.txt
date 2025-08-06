@@ -1,0 +1,12 @@
+org.eclipse.jdt.internal.core.JavaProject.findElement
+org.eclipse.jdt.internal.ui.actions.OpenExternalJavadocAction.run
+org.eclipse.ui.texteditor.RetargetTextEditorAction.run
+org.eclipse.jface.action.Action.runWithEvent
+org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.internal.boot.InternalBootLoader.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.UIMain.main

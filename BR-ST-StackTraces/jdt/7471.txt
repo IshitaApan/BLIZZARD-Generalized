@@ -1,0 +1,12 @@
+Changed
+n
+org.eclipse.ui.internal.EditorManager$9.run
+org.eclipse.jface.operation.ModalContext.run
+org.eclipse.ui.internal.SaveAction.run
+org.eclipse.jface.action.Action.runWithEvent
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

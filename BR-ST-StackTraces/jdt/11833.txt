@@ -1,0 +1,14 @@
+org.eclipse.swt.custom.StyledText.setTabs
+org.eclipse.swt.widgets.Text.wmCommandChild
+org.eclipse.swt.widgets.Control.WM_COMMAND
+org.eclipse.swt.internal.win32.OS.CallWindowProcW
+org.eclipse.swt.widgets.Text.callWindowProc
+org.eclipse.swt.internal.win32.OS.DispatchMessageW
+org.eclipse.jface.window.Window.open
+org.eclipse.jface.action.Action.runWithEvent
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

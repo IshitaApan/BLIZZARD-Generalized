@@ -1,0 +1,2 @@
+org.eclipse.jdt.internal.ui.text.correction.AdvancedQuickAssistProcessor.getSplitOrConditionProposals
+org.eclipse.jdt.internal.ui.text.correction.AdvancedQuickAssistProcessor.getAssists

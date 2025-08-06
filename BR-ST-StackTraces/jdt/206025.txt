@@ -1,0 +1,8 @@
+org.eclipse.jdt.internal.corext.refactoring.code.CallInliner.replaceCall
+org.eclipse.jdt.internal.corext.refactoring.code.CallInliner.perform
+org.eclipse.jdt.internal.corext.refactoring.code.InlineMethodRefactoring.checkFinalConditions
+org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run
+org.eclipse.ltk.core.refactoring.CreateChangeOperation.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

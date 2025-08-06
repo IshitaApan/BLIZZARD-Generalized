@@ -1,0 +1,12 @@
+org.eclipse.core.runtime.Assert.isNotNull
+org.eclipse.core.runtime.Assert.isNotNull
+org.eclipse.jface.text.contentassist.ContentAssistant.setRepeatedInvocationTrigger
+org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor$2.assistSessionStarted
+org.eclipse.jface.text.contentassist.ContentAssistant.fireSessionBeginEvent
+org.eclipse.jface.text.contentassist.ContentAssistant.prepareToShowCompletions
+org.eclipse.jface.text.contentassist.ContentAssistant.completePrefix
+org.eclipse.jdt.text.tests.contentassist.AbstractCompletionTest.incrementalAssist
+org.eclipse.jdt.text.tests.contentassist.AbstractCompletionTest.assertIncrementalCompletion
+org.eclipse.jdt.text.tests.contentassist.AbstractCompletionTest.assertMethodBodyIncrementalCompletion
+org.eclipse.jdt.text.tests.contentassist.TypeCompletionTest.testIncrementalInsertion
+junit.extensions.TestDecorator.basicRun

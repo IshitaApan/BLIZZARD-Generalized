@@ -1,0 +1,10 @@
+org.eclipse.jdt.core.dom.rewrite.ImportRewrite.create
+org.eclipse.jdt.ui.CodeStyleConfiguration.createImportRewrite
+org.eclipse.jdt.internal.corext.codemanipulation.StubUtility.createImportRewrite
+org.eclipse.jdt.internal.corext.codemanipulation.OrganizeImportsOperation.createTextEdit
+org.eclipse.jdt.internal.corext.codemanipulation.OrganizeImportsOperation.run
+org.eclipse.jdt.ui.actions.OrganizeImportsAction$3.run
+org.eclipse.ui.internal.UILockListener.doPendingWork
+org.eclipse.ui.internal.UISynchronizer$2.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages

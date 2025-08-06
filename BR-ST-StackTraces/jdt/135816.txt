@@ -1,0 +1,5 @@
+org.eclipse.jdt.internal.corext.refactoring.code.IntroduceIndirectionRefactoring.checkInitialConditions
+org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

@@ -1,0 +1,3 @@
+org.eclipse.jdt.internal.corext.Assert.isTrue
+getNode
+Change

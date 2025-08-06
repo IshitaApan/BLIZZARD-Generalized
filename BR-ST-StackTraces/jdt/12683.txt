@@ -1,0 +1,4 @@
+org.eclipse.swt.SWT.error
+org.eclipse.swt.SWT.error
+org.eclipse.swt.widgets.Display.getSystemColor
+nType

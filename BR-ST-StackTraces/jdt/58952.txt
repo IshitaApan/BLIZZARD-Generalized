@@ -1,0 +1,14 @@
+java.lang.NullPointerException.<init>
+org.eclipse.ui.internal.EditorManager$1.run
+org.eclipse.ui.internal.WorkbenchPage$9.run
+org.eclipse.jdt.ui.actions.OpenAction.run
+org.eclipse.jdt.ui.actions.OpenAction.run
+ndleOpen
+org.eclipse.ui.internal.Workbench.runEventLoop
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.AccessibleObject.invokeL
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

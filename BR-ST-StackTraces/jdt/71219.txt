@@ -1,0 +1,16 @@
+java.util.ArrayList.RangeCheck
+java.util.ArrayList.get
+org.eclipse.jdt.internal.corext.util.SuperTypeHierarchyCache.addTypeHierarchyToCache
+org.eclipse.jdt.internal.corext.util.SuperTypeHierarchyCache.getTypeHierarchy
+org.eclipse.jdt.internal.corext.util.SuperTypeHierarchyCache.getTypeHierarchy
+org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators
+org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags
+org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate
+org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate
+org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run
+org.eclipse.core.internal.runtime.InternalPlatform.run
+org.eclipse.core.runtime.Platform.run
+org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate
+org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations
+org.eclipse.ui.internal.decorators.DecorationScheduler$1.run
+org.eclipse.core.internal.jobs.Worker.run

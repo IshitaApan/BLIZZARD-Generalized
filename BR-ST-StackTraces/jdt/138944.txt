@@ -1,0 +1,11 @@
+org.eclipse.jdt.internal.corext.dom.Bindings.equals
+org.eclipse.jdt.internal.corext.refactoring.structure.ChangeSignatureRefactoring$DeclarationUpdate.removeExceptionFromNodeList
+org.eclipse.jdt.internal.corext.refactoring.structure.ChangeSignatureRefactoring$DeclarationUpdate.changeExceptions
+org.eclipse.jdt.internal.corext.refactoring.structure.ChangeSignatureRefactoring$DeclarationUpdate.updateNode
+org.eclipse.jdt.internal.corext.refactoring.structure.ChangeSignatureRefactoring.createChangeManager
+org.eclipse.jdt.internal.corext.refactoring.structure.ChangeSignatureRefactoring.checkFinalConditions
+org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run
+org.eclipse.ltk.ui.refactoring.history.RefactoringHistoryWizard.checkConditions
+org.eclipse.ltk.ui.refactoring.history.RefactoringHistoryWizard.access$13
+org.eclipse.ltk.ui.refactoring.history.RefactoringHistoryWizard$8.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

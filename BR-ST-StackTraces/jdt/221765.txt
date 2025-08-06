@@ -1,0 +1,4 @@
+sun.io.ByteToCharUTF8.convert
+org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST
+org.eclipse.jdt.ui.SharedASTProvider.getAST
+org.eclipse.jdt.internal.ui.javaeditor.JavaEditor$ActivationListener.windowActivated

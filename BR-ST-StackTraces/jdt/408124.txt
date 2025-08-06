@@ -1,0 +1,3 @@
+org.eclipse.jface.operation.ModalContext.run
+org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run
+org.eclipse.jdt.internal.corext.refactoring.structure.ExtractClassRefactoring.createParameterObject

@@ -1,0 +1,11 @@
+org.eclipse.jdt.internal.core.JavaModelOperation.runOperation
+org.eclipse.jdt.internal.core.JavaProject.setRawClasspath
+org.eclipse.jdt.internal.core.JavaProject.setRawClasspath
+org.eclipse.jdt.ui.actions.AddToClasspathAction$1.addToClassPath
+org.eclipse.jdt.ui.actions.AddToClasspathAction$1.run
+org.eclipse.jdt.internal.core.BatchOperation.executeOperation
+org.eclipse.jdt.internal.core.JavaModelOperation.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.jdt.core.JavaCore.run
+org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

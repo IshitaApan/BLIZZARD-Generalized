@@ -1,0 +1,11 @@
+org.eclipse.jdt.internal.corext.refactoring.structure.ExtractSupertypeProcessor.registerChanges
+org.eclipse.jdt.internal.corext.refactoring.structure.PullUpRefactoringProcessor.createChangeManager
+org.eclipse.jdt.internal.corext.refactoring.structure.PullUpRefactoringProcessor.checkFinalConditions
+org.eclipse.jdt.internal.corext.refactoring.structure.ExtractSupertypeProcessor.checkFinalConditions
+org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions
+org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run
+org.eclipse.ltk.core.refactoring.CreateChangeOperation.run
+org.eclipse.ltk.core.refactoring.PerformChangeOperation.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

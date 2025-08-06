@@ -1,0 +1,10 @@
+getLabel
+createControl
+createContents
+org.eclipse.jface.window.Window.create
+org.eclipse.jface.dialogs.Dialog.create
+org.eclipse.jface.window.Window.open
+run
+org.eclipse.swt.custom.BusyIndicator.showWhile
+run
+activate

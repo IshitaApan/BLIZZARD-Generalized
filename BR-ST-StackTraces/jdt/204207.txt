@@ -1,0 +1,15 @@
+org.eclipse.ui.texteditor.spelling.SpellingReconcileStrategy$SpellingProblemCollector.accept
+org.eclipse.jdt.internal.ui.text.spelling.SpellingEngine$SpellEventListener.handle
+org.eclipse.jdt.internal.ui.text.spelling.engine.DefaultSpellChecker.fireEvent
+org.eclipse.jdt.internal.ui.text.spelling.engine.DefaultSpellChecker.execute
+org.eclipse.jdt.internal.ui.text.spelling.TextSpellingEngine.check
+org.eclipse.jdt.internal.ui.text.spelling.SpellingEngine.check
+org.eclipse.jdt.internal.ui.text.spelling.DefaultSpellingEngine.check
+org.eclipse.ui.texteditor.spelling.SpellingService$1.run
+org.eclipse.core.runtime.SafeRunner.run
+org.eclipse.ui.texteditor.spelling.SpellingService.check
+org.eclipse.ui.texteditor.spelling.SpellingService.check
+org.eclipse.ui.texteditor.spelling.SpellingReconcileStrategy.reconcile
+org.eclipse.ui.texteditor.spelling.SpellingReconcileStrategy.initialReconcile
+org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess
+org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run

@@ -1,0 +1,10 @@
+java.util.ArrayList.RangeCheck
+java.util.ArrayList.get
+ap.get
+ionUnitAnnotationModel.addAnnotation
+teLightBulb
+tionChanged
+0
+tionChanged
+tenerGroup.calculateASTandInform
+org.eclipse.core.internal.jobs.Worker.run

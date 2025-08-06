@@ -1,0 +1,3 @@
+org.eclipse.jdt.testplugin.StringAsserts.assertEqualString
+org.eclipse.jdt.ui.tests.core.CoreTests.assertEqualString
+org.eclipse.jdt.ui.tests.core.JavaElementLabelsTest.testTypeLabelAnonymousInAnonymous

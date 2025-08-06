@@ -1,0 +1,7 @@
+org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding.getAnnotationTagBits
+org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding.retrieveAnnotationHolder
+org.eclipse.jdt.internal.compiler.lookup.ReferenceBinding.retrieveAnnotations
+org.eclipse.jdt.internal.compiler.lookup.ReferenceBinding.getAnnotations
+org.eclipse.jdt.core.dom.TypeBinding.getAnnotations
+org.eclipse.jdt.junit.tests.JUnit4TestFinderTest.testNPE
+sun.reflect.NativeMethodAccessorImpl.invoke0

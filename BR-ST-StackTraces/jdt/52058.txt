@@ -1,0 +1,7 @@
+g.addExceptionToNodeList
+g.changeExceptions
+g.updateDeclarationNode
+g.updateMethodOccurrenceNode
+g.createChangeManager
+g.checkInput
+org.eclipse.jdt.core.JavaCore.run

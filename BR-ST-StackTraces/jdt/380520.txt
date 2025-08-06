@@ -1,0 +1,7 @@
+org.eclipse.jdt.internal.ui.text.java.hover.JavaSourceHover.getBracketHoverInfo
+org.eclipse.jdt.internal.ui.text.java.hover.JavaSourceHover.getHoverInfo
+org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getHoverInfo2
+org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2
+org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2
+org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2
+org.eclipse.jface.text.TextViewerHoverManager$4.run

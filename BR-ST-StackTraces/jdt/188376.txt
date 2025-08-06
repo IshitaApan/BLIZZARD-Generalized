@@ -1,0 +1,10 @@
+org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart.saveState
+org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart.dispose
+org.eclipse.jdt.ui.tests.packageview.MockPluginView.dispose
+org.eclipse.ui.internal.WorkbenchPartReference.doDisposePart
+org.eclipse.ui.internal.ViewReference.doDisposePart
+org.eclipse.ui.internal.WorkbenchPartReference.dispose
+org.eclipse.ui.internal.WorkbenchPage.disposePart
+org.eclipse.ui.internal.WorkbenchPage.partRemoved
+org.eclipse.ui.internal.ViewFactory.releaseView
+org.eclipse.ui.internal.Perspective.hideView

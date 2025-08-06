@@ -1,0 +1,5 @@
+org.eclipse.jdt.internal.corext.fix.AbstractFix.getAdditionalInfo
+org.eclipse.jdt.internal.ui.text.correction.FixCorrectionProposal.getAdditionalProposalInfo
+org.eclipse.jface.text.contentassist.AdditionalInfoController$6.run
+org.eclipse.swt.widgets.RunnableLock.run
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages

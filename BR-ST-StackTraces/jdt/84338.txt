@@ -1,0 +1,7 @@
+org.eclipse.jface.util.Assert.isTrue
+pleMethods
+dMethods
+izeMethodsToRename
+nalConditions
+checkFinalConditions
+alConditions

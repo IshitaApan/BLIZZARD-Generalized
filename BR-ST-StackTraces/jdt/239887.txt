@@ -1,0 +1,2 @@
+org.eclipse.jdt.internal.ui.text.correction.ReturnTypeSubProcessor.addMissingReturnTypeProposals
+org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process

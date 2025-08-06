@@ -1,0 +1,17 @@
+org.eclipse.jdt.internal.core.JavaElement.newNotPresentException
+org.eclipse.jdt.internal.core.CompilationUnit.buildStructure
+org.eclipse.jdt.internal.core.Openable.generateInfos
+org.eclipse.jdt.internal.core.SourceRefElement.generateInfos
+org.eclipse.jdt.internal.core.JavaElement.openWhenClosed
+org.eclipse.jdt.internal.core.JavaElement.getElementInfo
+org.eclipse.jdt.internal.core.JavaElement.getElementInfo
+org.eclipse.jdt.internal.core.SourceType.getTypeParameters
+org.eclipse.jdt.internal.corext.refactoring.structure.PullUpRefactoringProcessor.checkGenericDeclaringType
+org.eclipse.jdt.internal.corext.refactoring.structure.PullUpRefactoringProcessor.checkFinalConditions
+org.eclipse.jdt.internal.corext.refactoring.structure.ExtractSupertypeProcessor.checkFinalConditions
+org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions
+org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run
+org.eclipse.ltk.core.refactoring.CreateChangeOperation.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run

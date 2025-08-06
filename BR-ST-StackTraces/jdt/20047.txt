@@ -1,0 +1,12 @@
+org.eclipse.jface.action.Action.runWithEvent
+org.eclipse.swt.widgets.Menu.setVisible
+org.eclipse.swt.widgets.Control.WM_CONTEXTMENU
+org.eclipse.swt.internal.win32.OS.DefWindowProcW
+org.eclipse.swt.widgets.Control.WM_RBUTTONUP
+org.eclipse.swt.internal.win32.OS.DispatchMessageW
+org.eclipse.ui.internal.Workbench.run
+org.eclipse.core.boot.BootLoader.run
+java.lang.reflect.Method.invoke
+org.eclipse.core.launcher.Main.basicRun
+org.eclipse.core.launcher.Main.run
+org.eclipse.core.launcher.Main.main

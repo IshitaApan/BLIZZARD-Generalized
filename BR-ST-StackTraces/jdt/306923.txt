@@ -1,0 +1,8 @@
+org.eclipse.jface.text.templates.persistence.TemplateReaderWriter.read
+org.eclipse.jface.text.templates.persistence.TemplateReaderWriter.read
+org.eclipse.jface.text.templates.persistence.TemplateReaderWriter.read
+org.eclipse.jface.text.templates.persistence.TemplateStore.loadCustomTemplates
+org.eclipse.jface.text.templates.persistence.TemplateStore.load
+org.eclipse.cdt.ui.CUIPlugin.getTemplateStore
+org.eclipse.cdt.internal.ui.text.template.TemplateEngine.complete
+org.eclipse.cdt.internal.ui.text.contentassist.TemplateCompletionProposalComputer.computeCompletionProposals

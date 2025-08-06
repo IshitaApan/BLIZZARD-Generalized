@@ -1,0 +1,10 @@
+org.eclipse.jdt.core.dom.ASTNode.checkNewChild
+org.eclipse.jdt.core.dom.ASTNode.preReplaceChild
+org.eclipse.jdt.core.dom.Assignment.setRightHandSide
+org.eclipse.jdt.internal.corext.refactoring.code.PromoteTempToFieldRefactoring.createExpressionStatementThatInitializesField
+org.eclipse.jdt.internal.corext.refactoring.code.PromoteTempToFieldRefactoring.addLocalDeclarationSplit
+org.eclipse.jdt.internal.corext.refactoring.code.PromoteTempToFieldRefactoring.createChange
+org.eclipse.ltk.core.refactoring.CreateChangeOperation.run
+org.eclipse.core.internal.resources.Workspace.run
+org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run
+org.eclipse.jface.operation.ModalContext$ModalContextThread.run
