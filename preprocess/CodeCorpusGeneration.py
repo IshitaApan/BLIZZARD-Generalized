@@ -60,6 +60,7 @@ def collect_and_copy_java(src_dir, dest_dir, mapping_file_path, stats_csv_path):
                 src_path = os.path.join(root, file)
                 dest_path = os.path.join(dest_dir, f"{counter}.java")
                 
+                # cleaning needed for java parser compatibility issues raised in Blizzard
                 # Read and fix content
                 with open(src_path, 'r', encoding='utf-8') as f:
                     content = f.read()
@@ -91,22 +92,31 @@ def collect_and_copy_java(src_dir, dest_dir, mapping_file_path, stats_csv_path):
 
 
 if __name__ == "__main__":
-    # # test cleanup
-    # with open("/home/ishita/BugLocalization/Data-22k/Code Corpus/jdt/org.eclipse.jdt.text.tests/src/org/eclipse/jdt/text/tests/NewForLoopJavaContextTest.java", 'r', encoding='utf-8') as f:
-    #     content = f.read()
-    # fixed_content = fix_text_blocks(content)
-
-    # with open("/home/ishita/BugLocalization/Data-22k/_NewForLoopJavaContextTest.java", 'w', encoding='utf-8') as f:
-    #     f.write(fixed_content)
-
     
     # Example usage
-    source_directory = r"/home/ishita/BugLocalization/Data-22k/Code Corpus/jdt" # replace project names with aspectj, birt, eclipse, jdt
-    destination_directory = r"Corpus/jdt"
+    project_name = "jdt"  # replace with your project name, [aspectj, birt, eclipse, jdt]
+    source_directory = f"/home/ishita/BugLocalization/Data-22k/Code Corpus/{project_name}"  # replace with your source directory if needed
+    destination_directory = f"Corpus/{project_name}"  # directory to hold the copied .java files
+    os.makedirs(destination_directory, exist_ok=True)
     mapping_file_directory = r"Lucene-Index2File-Mapping"
-    mapping_file = os.path.join(mapping_file_directory, "jdt.ckeys")
-    stats_csv_file = os.path.join(mapping_file_directory, "jdt.csv")
+    os.makedirs(mapping_file_directory, exist_ok=True)
+    # Define paths for mapping and stats CSV
+    mapping_file = os.path.join(mapping_file_directory, f"{project_name}.ckeys")
+    stats_csv_file = os.path.join(mapping_file_directory, f"{project_name}.csv")
 
     collect_and_copy_java(source_directory, destination_directory, mapping_file, stats_csv_file)
     print(f"Copied {len(os.listdir(destination_directory))} files to '{destination_directory}'")
     print(f"Mapping written to '{mapping_file}'")
+
+
+# Test code cleaning for a specific file 
+def test_file_fixing(file_path):
+    """
+    Reads a Java file, applies the text block fixing, and prints the result.
+    """
+    with open("/home/ishita/BugLocalization/Data-22k/Code Corpus/jdt/org.eclipse.jdt.text.tests/src/org/eclipse/jdt/text/tests/NewForLoopJavaContextTest.java", 'r', encoding='utf-8') as f:
+        content = f.read()
+    fixed_content = fix_text_blocks(content)
+
+    with open("/home/ishita/BugLocalization/Data-22k/_NewForLoopJavaContextTest.java", 'w', encoding='utf-8') as f:
+        f.write(fixed_content)
