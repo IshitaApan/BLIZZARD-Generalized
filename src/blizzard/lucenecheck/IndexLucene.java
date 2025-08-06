@@ -123,7 +123,7 @@ public class IndexLucene {
 
 	public static void main(String[] args) {
 		long start = System.currentTimeMillis();
-		String repoName = "birt"; // Change this to your project name like aspectj, birt, etc.
+		String repoName = "tomcat"; // Change this to your project name like aspectj, birt, eclipse, jdt, swt, tomcat.
 
 		String docs = StaticData.HOME_DIR + "/Corpus/" + repoName;
 		String index = StaticData.HOME_DIR + "/Lucene-Index/" + repoName;
