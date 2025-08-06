@@ -1,0 +1,126 @@
+folder_path,java_file_count
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/cairo/org/eclipse/swt/graphics,3
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/cocoa/org/eclipse/swt/graphics,15
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/cocoa/org/eclipse/swt/internal,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/cocoa/org/eclipse/swt/internal/graphics,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/cocoa/org/eclipse/swt/widgets,45
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt,5
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/events,56
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics,21
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/internal,8
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/internal/image,47
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/layout,12
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/widgets,13
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/emulated/bidi/org/eclipse/swt/internal,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/emulated/expand/org/eclipse/swt/widgets,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/emulated/taskbar/org/eclipse/swt/widgets,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/emulated/tooltip/org/eclipse/swt/widgets,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/gtk/org/eclipse/swt/graphics,12
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/gtk/org/eclipse/swt/internal,8
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/gtk/org/eclipse/swt/widgets,46
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/win32/org/eclipse/swt/graphics,15
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/win32/org/eclipse/swt/internal,11
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT/win32/org/eclipse/swt/widgets,53
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT AWT/cocoa/org/eclipse/swt/awt,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT AWT/gtk/org/eclipse/swt/awt,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT AWT/win32/org/eclipse/swt/awt,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Accessibility/cocoa/org/eclipse/swt/accessibility,7
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Accessibility/common/org/eclipse/swt/accessibility,34
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Accessibility/gtk/org/eclipse/swt/accessibility,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Accessibility/win32/org/eclipse/swt/accessibility,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Browser/cocoa/org/eclipse/swt/browser,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Browser/common/org/eclipse/swt/browser,21
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Browser/gtk/org/eclipse/swt/browser,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser,4
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom,65
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Drag and Drop/cocoa/org/eclipse/swt/dnd,16
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Drag and Drop/common/org/eclipse/swt/dnd,11
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Drag and Drop/gtk/org/eclipse/swt/dnd,18
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Drag and Drop/gtk/org/eclipse/swt/internal/dnd/gtk,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Drag and Drop/win32/org/eclipse/swt/dnd,17
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT OLE Win32/win32/org/eclipse/swt/internal/ole/win32,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT OLE Win32/win32/org/eclipse/swt/ole/win32,14
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT OpenGL/cocoa/org/eclipse/swt/opengl,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT OpenGL/common/org/eclipse/swt/opengl,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT OpenGL/glx/org/eclipse/swt/internal/opengl/glx,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT OpenGL/gtk/org/eclipse/swt/opengl,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT OpenGL/win32/org/eclipse/swt/internal/opengl/win32,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT OpenGL/win32/org/eclipse/swt/opengl,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT PI/cairo/org/eclipse/swt/internal/cairo,4
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa,210
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT PI/common/org/eclipse/swt/internal,3
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/accessibility/gtk,13
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk,28
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk3,11
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk4,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT PI/win32/org/eclipse/swt/internal,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT PI/win32/org/eclipse/swt/internal/gdip,7
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT PI/win32/org/eclipse/swt/internal/ole/win32,92
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT PI/win32/org/eclipse/swt/internal/win32,126
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT PI/win32/org/eclipse/swt/internal/win32/version,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Printing/cocoa/org/eclipse/swt/printing,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Printing/common/org/eclipse/swt/printing,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Printing/gtk/org/eclipse/swt/printing,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Printing/win32/org/eclipse/swt/printing,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Program/cocoa/org/eclipse/swt/program,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Program/gtk/org/eclipse/swt/program,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Program/win32/org/eclipse/swt/program,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Tests/win32/org/eclipse/swt/browser,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Tests/win32/org/eclipse/swt/graphics,6
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Tests/win32/org/eclipse/swt/internal,6
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT Tests/win32/org/eclipse/swt/widgets,4
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT WebKit/cocoa/org/eclipse/swt/browser,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT WebKit/gtk/org/eclipse/swt/browser,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/Eclipse SWT WebKit/gtk/org/eclipse/swt/internal/webkit,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt/build-scripts,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt.svg/src/org/eclipse/swt/svg,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt.tools/Icon Exe/org/eclipse/swt/tools/internal,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt.tools/JNI Generation/org/eclipse/swt/tools/internal,36
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt.tools/JavadocBasher/org/eclipse/swt/tools/internal,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt.tools/Mac Generation/org/eclipse/swt/tools/internal,3
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt.tools/src/org/eclipse/swt/tools/builders,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/bundles/org.eclipse.swt.tools/src/org/eclipse/swt/tools/views,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/accessibility,13
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/addressbook,4
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/browserexample,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/clipboard,3
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample,37
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/dnd,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/fileviewer,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/graphics,41
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/helloworld,5
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/hoverhelp,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/imageanalyzer,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/javaviewer,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/layoutexample,7
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/paint,31
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/texteditor,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples.browser.demos/src/org/eclipse/swt/examples/browser/demos,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples.browser.demos/src/org/eclipse/swt/examples/browser/demos/views,3
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples.launcher/src/org/eclipse/swt/examples/launcher,5
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples.ole.win32/src/org/eclipse/swt/examples/ole/win32,4
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples.views/src/org/eclipse/swt/examples/browserexample,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples.views/src/org/eclipse/swt/examples/controls,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples.views/src/org/eclipse/swt/examples/layouts,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples.views/src/org/eclipse/swt/examples/paint,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.examples.watchdog/src/org/eclipse/swt/examples/watchdog,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.opengl.examples/src/org/eclipse/swt/opengl/examples,17
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets,375
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/tests/org.eclipse.swt.tests/JUnit Tests/org/eclipse/swt/tests/graphics,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/tests/org.eclipse.swt.tests/JUnit Tests/org/eclipse/swt/tests/junit,129
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/tests/org.eclipse.swt.tests/JUnit Tests/org/eclipse/swt/tests/junit/memoryleak,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/tests/org.eclipse.swt.tests/JUnit Tests/org/eclipse/swt/tests/junit/performance,5
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/tests/org.eclipse.swt.tests/ManualTests/org/eclipse/swt/tests/manual,49
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/tests/org.eclipse.swt.tests.cocoa/JUnit Tests/org/eclipse/swt/tests/cocoa,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/tests/org.eclipse.swt.tests.cocoa/ManualTests/org/eclipse/swt/tests/cocoa/snippets,6
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/tests/org.eclipse.swt.tests.gtk/JUnit Tests/org/eclipse/swt/tests/gtk,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/tests/org.eclipse.swt.tests.gtk/ManualTests/org/eclipse/swt/tests/gtk/snippets,354
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/tests/org.eclipse.swt.tests.gtk/ManualTests/org/eclipse/swt/tests/manualJUnit,5
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/tests/org.eclipse.swt.tests.win32/JUnit Tests/org/eclipse/swt/graphics,1
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/tests/org.eclipse.swt.tests.win32/JUnit Tests/org/eclipse/swt/tests/win32,6
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/tests/org.eclipse.swt.tests.win32/JUnit Tests/org/eclipse/swt/tests/win32/widgets,2
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/tests/org.eclipse.swt.tests.win32/ManualTests/org/eclipse/swt/tests/win32/snippets,28
+/home/ishita/BugLocalization/Data-22k/Code Corpus/swt/tests/org.eclipse.swt.tests.win32/ManualTests/org/eclipse/swt/widgets,1
