@@ -23,11 +23,18 @@ def fix_text_blocks(code):
         content = re.sub(r'\\[ \t]+', '', content)
         # Escape any embedded double-quotes
         content = content.replace('"', r'\"')
+        # strip a trailing '\' on the very end of the block
+        content = re.sub(r'\\\s*$', '', content)
         
         # Split into lines and join as concatenated string
         lines = content.splitlines()
         return '"{}"'.format('" +\n"'.join(lines)) 
-    return re.sub(TEXT_BLOCK_PATTERN, replace_block, code)
+    code = re.sub(TEXT_BLOCK_PATTERN, replace_block, code)
+    code = code.replace(r'\u000A', r'\n')
+    code = code.replace(r'\u000D', r'\r')
+    # code = re.sub(r'\\(?="(?=[,\s\)\}]))', '', code)
+    # code = re.sub(r'\\(?="(?=[,;]))', '\\', code)
+    return code
 
 
 def collect_and_copy_java(src_dir, dest_dir, mapping_file_path, stats_csv_path):
@@ -84,14 +91,22 @@ def collect_and_copy_java(src_dir, dest_dir, mapping_file_path, stats_csv_path):
 
 
 if __name__ == "__main__":
+    # # test cleanup
+    # with open("/home/ishita/BugLocalization/Data-22k/Code Corpus/jdt/org.eclipse.jdt.text.tests/src/org/eclipse/jdt/text/tests/NewForLoopJavaContextTest.java", 'r', encoding='utf-8') as f:
+    #     content = f.read()
+    # fixed_content = fix_text_blocks(content)
+
+    # with open("/home/ishita/BugLocalization/Data-22k/_NewForLoopJavaContextTest.java", 'w', encoding='utf-8') as f:
+    #     f.write(fixed_content)
+
+    
     # Example usage
-    source_directory = r"/home/ishita/BugLocalization/Data-22k/Code Corpus/eclipse" # replace project names with aspectj, birt, eclipse, 
-    destination_directory = r"Corpus/eclipse"
+    source_directory = r"/home/ishita/BugLocalization/Data-22k/Code Corpus/jdt" # replace project names with aspectj, birt, eclipse, jdt
+    destination_directory = r"Corpus/jdt"
     mapping_file_directory = r"Lucene-Index2File-Mapping"
-    mapping_file = os.path.join(mapping_file_directory, "eclipse.ckeys")
-    stats_csv_file = os.path.join(mapping_file_directory, "eclipse.csv")
+    mapping_file = os.path.join(mapping_file_directory, "jdt.ckeys")
+    stats_csv_file = os.path.join(mapping_file_directory, "jdt.csv")
 
     collect_and_copy_java(source_directory, destination_directory, mapping_file, stats_csv_file)
     print(f"Copied {len(os.listdir(destination_directory))} files to '{destination_directory}'")
     print(f"Mapping written to '{mapping_file}'")
-# 7121 java files for aspectj
