@@ -11,6 +11,7 @@
 
 
 ### Query Reformulation for other projects (except the 6 projects used in BLIZZARD)
+#### Projects (aspectj, eclipse, birt, jdt)
 #### Preprocessing bug reports
 1. clone related projects, download bug reports(xml files)
 2. run the python file (preprocess/processBugReport.py) modifying file names and folders related to the project (eg. aspectj). It will create a [project] folder containing bug report raw query files named per bug_id. also it will create [project]_bug_ids.txt containing the list of bug ids. keep the raw query folder to (BR-Raw/[project]) and bug ids to (inputs) folder.
@@ -30,26 +31,37 @@
 
 7. Now create launch settings for [project] run reformulated query for [project]. Inside inputs folder, keep the list of bug ids and inside BR-RAW, there are raw bug report queries
 
+8. Finally run query reformulation. 
 
-TODO: Run query reformulation for other porjects, getting problem for one file in eclipse. for 6776.java file creates error: 
-"
-Exception in thread "main" com.github.javaparser.TokenMgrError: Lexical error at line 148, column 46.  Encountered: "\n" (10), after : "\""
-"
-looked like it happended because of the old version of Java parser that didn't support text block syntax """...""". so java parser failed.
-
-while generating corpus, added code block to clean some code like """.."""
-
-
-again for bug report 7712 (7718.java), it created problem. for debugging need to change input file to bug id only from 7712 and then run code & debug for investigate.
-
-
-manually changed jdt->3373.java(CodeFormatterUtilTest.java)
 Problems:
+
+1. Encountered javaparser.TokenMgrError exceptions for some of java files from corpus. Found reasons
+    a. While query reformulation, to created extended query for NL-group bug reports, they scan the java files and find relevant terms for query extension.
+    b. Blizzard used blizzard.lib/javaparser-core-2.3.0.jar for parsing java codes. But the old version of Java parser doesn't support text block syntax """...""" .
+    b. upgrading javaparser created compatibility issues.
+    c. couldn't modify code before parsing as it has used acer.coderank for getting extended query, they used jar files so code cannot be edited.
+    d. as a result needed to clean code while generating corpus (preprocess/CodeCorpusGeneration.py). Converted Java text blocks ("""...""") into safe concatenated string literals.
+    e. example of exception: for 6776.java file in jdt project creates the following exception: 
+        "
+        Exception in thread "main" com.github.javaparser.TokenMgrError: Lexical error at line 148, column 46.  Encountered: "\n" (10), after : "\""
+        "
+        again for bug report 7712 id, 7718.java file got exception.
+
+        Jdt project, bug report id: 77585(NL Group), Java file: 3488.java, 
+        Exception: javaparser.TokenMgrError: Lexical error at line 314, column 49.  Encountered: "\n" (10), after "\"\t\t\t 
+        case 10: /* "
+
+    f. Some file needed manual intervention. 
+        i. TODO: need to check whether manually changed jdt->3373.java(CodeFormatterUtilTest.java)
+        
 
 1. Project specific Stack traces
 2. Project specific Lucene Index, if lucene index is created manually, it doesn't reproduce the original result for the original projects BLIZZARD used
 
-solved
-1. cannot git push, as large file detected, solved by git rebase
+Problems solved:
+1. couldn't git push, as large file detected, solved by git rebase
 2. after indexing, query reformulation creating issue, probably because i need to index only java files but i index all type of files like .xml,.pom,.git etc. another problem may be, in original code they named the files like 1.java, 2.java etc, but in my case, the file names are kept as it is. need to figure out this
 
+Not in Github repo because of size issue (code to reproduce is described above)
+1. Corpus
+2. Lucene-Index 
