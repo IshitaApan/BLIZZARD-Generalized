@@ -1,0 +1,3 @@
+JAASRealm useContextClassLoader has problems
+
+The useContextClassLoader config option doesn't work right. - it is ignored when setting userClassNames and roleClassNames - it's respected when the LoginContext is created, but that is insufficient, because all the needed classes are not necessarily loaded until loginContext.login() is called Patch to follow. With it I'm able to keep everything related to the JAASRealm in my webapp.

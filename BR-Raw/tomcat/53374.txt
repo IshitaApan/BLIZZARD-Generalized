@@ -1,0 +1,3 @@
+DataSourceFactory does not support commitOnReturn property
+
+DataSourceFactory does not support commitOnReturn property. DataSourceFactory.ALL_PROPERTIES and DataSourceFactory.parsePoolProperties() omit commitOnReturn property.

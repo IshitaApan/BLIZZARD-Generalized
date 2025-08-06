@@ -1,0 +1,3 @@
+Reader not closed
+
+SHTML files are locked when using windows. Closing the reader solves the problem.

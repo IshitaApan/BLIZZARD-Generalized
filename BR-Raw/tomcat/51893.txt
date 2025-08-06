@@ -1,0 +1,3 @@
+JMX notification/Exception for empty/exhausted connection pool
+
+Currently, if there is an error getting a connection from the pool, a generic SQLException is thrown. The only way to determine if the problem is a result of the connection pool being exhausted is to catch the SQLException and parse the message (i.e. look for "Pool empty" in ex.getMessage()). Would like to see the following: 1) A subclass of SQLException thrown in the case of an empty pool 2) A JMX notification sent in the case of an empty pool (e.g. [POOL EXHAUSTED])

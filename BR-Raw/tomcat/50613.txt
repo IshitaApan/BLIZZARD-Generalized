@@ -1,0 +1,3 @@
+ConnectionPool.size corruption when evictions enabled:
+
+When (the various forms of) eviction run on the connection pool, ConnectionPool.size goes negative. This appears to be a concurrency problem. Attached is a unit test that illustrates the issue.

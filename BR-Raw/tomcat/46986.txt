@@ -1,0 +1,3 @@
+org.apache.jasper.Constants public arrays are mutable
+
+There are various public String arrays in org.apache.jasper.Constants. Although the array variables are final, any code can change any of the array constants.

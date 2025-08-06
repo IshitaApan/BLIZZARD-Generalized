@@ -1,0 +1,3 @@
+Add a debug statement when some necessary header information is missing
+
+Reference: org.apache.coyote.http11.Http11Processor.java It would be helpful for developers to get informed when some required header information is missing. eg when headers.getValue("host"); returns null and http11 is true. Couldn't you add a log.debug statement that informs the user about missing header-fields? (For example in Http11Processor.java:1391)

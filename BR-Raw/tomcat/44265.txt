@@ -1,0 +1,3 @@
+Improve JspWriterImpl performance with "inline" sub method
+
+As you know, the JspWriterImpl.write method was always invoked in JSP file frequently. But I found its performance is poor because too many sub method were invoked as well. After copying two sub method's code to write method, the performance was improved observably.

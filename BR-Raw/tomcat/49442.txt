@@ -1,0 +1,3 @@
+Make StringManager fields final
+
+Created attachment 25592 Patch to make fields final

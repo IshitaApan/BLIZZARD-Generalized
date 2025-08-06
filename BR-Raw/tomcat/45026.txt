@@ -1,0 +1,3 @@
+Custom HTTP-Error codes get remapped to 500er codes
+
+We use Apache 2.2.8 with mod_JK 1.2.26 as a load-balancer for a Tomcat 5.5 cluster. We use Custom HTTP-Error codes like 450 for authentication-purposes. Those codes get remapped to 500. The Error-Code 450 is in the RFC2616 described as valid return code so this is a bug. The custom error-codes worked fine in Apache 1.3.41 with MOD_JK/1.2.25. You can easily reproduce this bug by writing a simple jsp-page with the following line: <%response.setStatus(450);%>

@@ -1,0 +1,3 @@
+ErrorReportValve does not provide an error report
+
+rev 535915 changed the behavior of ErrorReportValve in tomcat6 to not produce an error report when response.sendError() is called. For example, using this code in a servlet's service() does not produce an error report: response.sendError(HttpServletResponse.SC_GONE, "error occurred"); The underlying cause is that the valve's check for response.isCommitted() was replaced with response.isAppCommitted(). The latter returns true, which causes the Valve's invoke() method to immediately return instead of producing the report.

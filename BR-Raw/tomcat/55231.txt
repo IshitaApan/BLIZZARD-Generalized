@@ -1,0 +1,3 @@
+NPE and incorrect version detection in JspC
+
+JspC's JspConfig now reads version and jsp-config information from the ServletContext. It uses getMajorVersion() which returns the maximum version supported by the container. It should use getEffectiveVersion() to use the version of the web application. ServletContext.getJspConfigDescriptor() can return null if there is no <jsp-config> in the web.xml. JspConfig does not allow for this and will throw a NPE e.g. if there is no web.xml in the application.

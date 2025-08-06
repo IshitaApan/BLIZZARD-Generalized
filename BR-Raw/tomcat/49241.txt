@@ -1,0 +1,3 @@
+DataSourceFactory.parsePoolProperties() doesn't look for "suspectTimeout"
+
+If you call the DataSourceFactory.parsePoolProperties() method, passing in a Properties object with the "suspectTimeout" property set, that key/value pair is never passed on to the PoolProperties.setSuspectTimeout() method.

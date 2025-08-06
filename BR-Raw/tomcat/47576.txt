@@ -1,0 +1,3 @@
+Javadoc errors - Exception name misspelt
+
+The files FairBlockingQueue.java MultiLockFairBlockingQueue.java use * @throws UnsupportedOperation This should be * @throws UnsupportedOperationException

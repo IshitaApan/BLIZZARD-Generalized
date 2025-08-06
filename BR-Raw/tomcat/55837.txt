@@ -1,0 +1,3 @@
+ServletContext.getRealPath() returns null
+
+[code] String path = servletContext.getRealPath('/test'); if no file or folder named '/test' exist in webroot then path return null but int tomcat 5\6\7, it will return the correct value , ex /data/oschina/webapp/test

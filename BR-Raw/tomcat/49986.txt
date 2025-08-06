@@ -1,0 +1,3 @@
+Double-check locking. Possible data-race in JspServletWrapper
+
+r998053 http://svn.apache.org/repos/asf/tomcat/tc6.0.x/trunk/java/org/apache/jasper/servlet/JspServletWrapper.java Common anti-pattern: Double checked locking. I don't know is this race dangerous or no. Race on private boolean reload public Servlet getServlet() throws ServletException, IOException, FileNotFoundException { if (reload) { synchronized (this) { // Synchronizing on jsw enables simultaneous loading // of different pages, but not the same page. if (reload) { // This is to maintain the original protocol. .......... theServlet = servlet; reload = false; } } } return theServlet; }

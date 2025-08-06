@@ -1,0 +1,3 @@
+WsFilter performs handshake validation even if it doesn't have a mapped endpoint
+
+WsFilter performs several validations on WebSocket requests before checking if there is a registered Endpoint. I think the check for registered Endponts (and delegation to the next Filter) should take place first and the filter should do no further processing if there is mapped Endpoint for that URL. For example a SockJS protocol test send a POST request with a connection and upgrade headers but no ws version header and expects back a 405 (invalid HTTP method) where WsFilter sends 426 even though it has no Endpoint mapped at that URL.

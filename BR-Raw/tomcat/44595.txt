@@ -1,0 +1,3 @@
+Add possibility to request the QueueSize of an executor via JMX
+
+Created attachment 21660 Patch against 6.0.16 The attached patch adds the possibility to check the QueueSize of an executor via JMX.

@@ -1,0 +1,3 @@
+NullPointerException in JNDIRealm
+
+Created attachment 24824 Patch to fix NPE There is a NullPointerException being thrown when the server attempts to look up a non-existent user in JNDIRealm. Specifically, the getUser(DirContext, String) method will return null if the user is not found. However, getPrincipal(DirContext, String) will not check to see if the result from getUser() is null. I'm attaching a patch from the 6.0.20 tag but this should also be backported to the 5.5.x branch as well because the issue exists there.

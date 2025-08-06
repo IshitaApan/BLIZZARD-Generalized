@@ -1,0 +1,3 @@
+.ConnectionPool.terminateTransaction unsafe == check of Boolean
+
+The method ConnectionPool.terminateTransaction(PooledConnection con) uses == to check the value of a Boolean, viz: if (con.getPoolProperties().getDefaultAutoCommit()==Boolean.FALSE) { This is not 100% safe - if the user sets the property as follows: String value; // e.g. derived from property file ... setDefaultAutoCommit(new Boolean(value)); then the condition will never be true, even if value="false". Although it is better to use Boolean.valueOf(value), which would not have the same problem, the code ought to work regardless.

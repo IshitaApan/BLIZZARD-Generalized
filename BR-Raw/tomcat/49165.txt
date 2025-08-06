@@ -1,0 +1,3 @@
+Enhancement - Allow %{TIME_FORMAT}t As Configuration for AccessLogValve
+
+AccessLogValve.DateAndTimeElement() can currently be configured only with %t which output the date/time in Common Log Format. By adding the capability to configure with %{TIME_FORMAT}, one could override (at least) the timeFormatter property of the class ... or it could go further and allow overriding of all the [day, month, year, time]Formatter properties. Justification for enhancement: The log currenlty provide the ability to log processing time in millis (via %T), but an accurate log of the order in which requests are received cannot be determined without the capabilities of logging a a format with milliseconds using the %t element.

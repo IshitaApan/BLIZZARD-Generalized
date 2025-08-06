@@ -1,0 +1,3 @@
+@PathParam is not working with @OnMessage
+
+I have defined server end-point as: @ServerEndpoint(value = "/ws/{mid}/{rid}/{uid}") When using @PathParam with @OnMessage, values are null. Other annotations like @OnOpen and @OnClose print values specified in URL. @OnMessage public void onTextMessage(@PathParam("mid") Long mid, @PathParam("rid") Integer rid, @PathParam("uid") Long uid, Session session, String message, boolean pair) { 	log.debug("[TEXT]" + " : " + mid + " : " + rid + " : " + uid + message + " : " + session.getRequestURI()); }

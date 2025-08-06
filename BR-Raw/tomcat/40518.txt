@@ -1,0 +1,3 @@
+The message key "requestListenerValve.requestInit" has not be referred to correctly.
+
+The bug is: An illegal message is output to the log when the listener application that implements ServletRequestListener interface throws RuntimeException from the requestInitialized method or the requestDestroyed method. message: "Cannot find message associated with key requestListenerValve.requestInit" cause: The key exists in the properties file "org.apache.catalina.valves.LocalStrings.properties", but the logic refers other properties file "org.apache.catalina.core.LocalStrings.properties"

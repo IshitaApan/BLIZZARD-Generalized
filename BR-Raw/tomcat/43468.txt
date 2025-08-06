@@ -1,0 +1,3 @@
+HTMLManagerServlet NullPointerException listing context
+
+Obtained the following NullPointerException, stack trace below java.lang.NullPointerException 	org.apache.catalina.manager.HTMLManagerServlet.list(HTMLManagerServlet.java:437) 	org.apache.catalina.manager.HTMLManagerServlet.doGet(HTMLManagerServlet.java:136) Code is: args[11] = new Integer(context.getManager().getMaxInactiveInterval()/60); Seemingly the getManager() is returning null.

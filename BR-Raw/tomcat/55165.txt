@@ -1,0 +1,3 @@
+subprotocols not available with  annotated serverendpoint
+
+Created attachment 30507 adds subprotocols in serverendpoint initialization During initialization of annotated serverendpoint the subprotocols configurations is not handled. Here is the patch.

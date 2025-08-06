@@ -1,0 +1,3 @@
+MemoryUserRule doesn't validate user attributes
+
+The implementation of org.apache.catalina.realm.MemoryRuleSet.begin dosen't validate the attribute values before adding a user to the MemoryRealm. If username or name are not present then a null username is used which can cause odd problems later on. Basically the method should check that parameters passed to MemoryRealm.addUser are not null before calling the method.

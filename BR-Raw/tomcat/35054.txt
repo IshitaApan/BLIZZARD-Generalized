@@ -1,0 +1,3 @@
+warn if appBase is not existing as a File or directory
+
+otherwise, it may very hard to find what is wrong

@@ -1,0 +1,3 @@
+org.apache.catalina.tribes.io.ChannelData.EMPTY_DATA_ARRAY should be final
+
+org.apache.catalina.tribes.io.ChannelData.EMPTY_DATA_ARRAY should be final

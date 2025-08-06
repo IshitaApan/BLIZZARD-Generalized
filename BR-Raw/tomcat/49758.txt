@@ -1,0 +1,3 @@
+[Patch] Generics warnings - rawtypes
+
+Created attachment 25894 Fix up some raw type warnings

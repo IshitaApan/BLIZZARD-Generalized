@@ -1,0 +1,3 @@
+GzipInterceptor#decompress is not completly implemented
+
+Created attachment 27254 Patch file für GzipInterceptor While testing the GzipInterceptor I was wondering about the strange errors: "Unable to decompress byte contents". At first I thougt, I was using the interceptor in wrong order. But taking a look the source shows a TODO at method decompress: "Fix to create an automatically growing buffer." Because we have session properties which are compressed larger than 2048 bytes, the interceptor didn't work, in our case. I've created a patch. See my attachement.

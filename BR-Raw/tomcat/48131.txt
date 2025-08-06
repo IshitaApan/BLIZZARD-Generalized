@@ -1,0 +1,3 @@
+Add @deprecated annotations to deprecated elements
+
+Created attachment 24475 Patch to add @deprecated annotations to deprecated elements Patch to add @deprecated annotations to deprecated elements

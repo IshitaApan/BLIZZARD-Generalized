@@ -1,0 +1,3 @@
+Typo in Embedded.java log message
+
+There's a debug log message in Embedded.java with a typo in it: "INITIAL_CONTEXT_FACTORY alread set " Attached is a patch against the 6_0_29 tag, but the issue exists in tc6.0.x/trunk

@@ -1,0 +1,3 @@
+InternalNioOutputBuffer unused (debug?) code
+
+The class InternalNioOutputBuffer includes the field: int total = 0; This is currently defined at line 227, which is between the Javadoc and method body to which the Javadoc applies, i.e. private synchronized int writeToSocket. This invalidates the method Javadoc. The field is used to keep a running total of bytes written by the method; however the field is not actually referenced - the System.out.println statement is commented out. The field and associated code shcould probably be deleted. If the field is to be kept, it should be private, and it should probably be changed to long, and of course should be moved so it does not invalidate the method Javadoc.

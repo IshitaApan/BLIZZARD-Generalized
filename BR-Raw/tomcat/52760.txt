@@ -1,0 +1,3 @@
+Mime type for javascript incorrect  in documentation
+
+The mime type for javascript for the expires by type filter is documented as text/javascript. Tomcat actually serves javascript with the mime-type application/javascript. http://tomcat.apache.org/tomcat-7.0-doc/config/filter.html Says <init-param> <param-name>ExpiresByType text/javascript</param-name> <param-value>access plus 1 month</param-value> </init-param> Should say <init-param> <param-name>ExpiresByType application/javascript</param-name> <param-value>access plus 1 month</param-value> </init-param>

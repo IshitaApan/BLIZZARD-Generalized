@@ -1,0 +1,3 @@
+full-qualified names instead of imports
+
+Hi, Jasper generated *.java-files that are compiled. The template for those files is very "unaesthetic". I could demonstrate nice side-effects using a simple <%@ page import="mypackage.Jspfactory" %> You should use full qualified names instead of a bunch of import-staments. For example _jspxFactory = JspFactory.getDefaultFactory(); would become _jspxFactory = javax.servlet.jsp.JspFactory.getDefaultFactory(); and if you don't already do, you should use the this-reference where possible. I don't know what the spec says about that conflict, but it shouldn't be a bad idea to use full-qualified names instead of imports.

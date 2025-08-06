@@ -1,0 +1,3 @@
+String.getBytes() and new String(byte[]) use default charset - may cause problems in some Locales
+
+There seem to be rather a lot of instances where Strings and bytes are cconverted using the default charset. Since the default charset is unknown, its behaviour cannot be relied on.

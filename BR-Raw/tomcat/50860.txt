@@ -1,0 +1,3 @@
+In case of invalid or empty slqQuery connection are always invalidated without usefull information
+
+The code is (in PooledConnection.java#validate(int validateAction,String sql) ) Statement stmt = null; try { stmt = connection.createStatement(); stmt.execute(query); stmt.close(); this.lastValidated = now; return true; } catch (Exception ignore) { if (log.isDebugEnabled()) log.debug("Unable to validate object:",ignore); if (stmt!=null) try { stmt.close();} catch (Exception ignore2){/*NOOP*/} } return false; So in the case of null or invalid query (connection is always invalidated : seems normal :-) ). But without any usefull message (except if you use debug : but seems complicated in a production env). So IMHO adding a log.warning in case of null query could be usefull.

@@ -1,0 +1,3 @@
+the iterator from javax.el.CompositeELResolver#getFeatureDescriptor() must not return null values
+
+According to the spec the iterator which is returned by javax.el.CompositeELResolver#getFeatureDescriptor() must skip any null FeatureDescriptor of a containing el resolver. Currently any feature descriptor value is returned whether it is null or not. I have a working testcase (including a fix) in myfaces 1.2 TestCase: http://svn.apache.org/viewvc/myfaces/core/branches/jsf12/impl/src/test/java/org/apache/myfaces/el/CompositeELResolverTest.java?revision=527076&pathrev=527076 Fix: http://svn.apache.org/viewvc/myfaces/core/branches/jsf12/impl/src/main/java/org/apache/myfaces/el/CompositeELResolver.java?revision=527076&pathrev=527076

@@ -1,0 +1,3 @@
+Database failure may cause pool to hang
+
+during the con.connect(); call in the method protected PooledConnection borrowConnection(long now, PooledConnection con, String username, String password) in ConnectionPool.java There is no counting down the size of the pool. This means, if a connection failure happens here, the pool size remains the same. This means that 'size' will show the pool as full, but in reality the pool is empty

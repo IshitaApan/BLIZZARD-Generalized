@@ -1,0 +1,3 @@
+Fix in MsgByte encoder and decoder TestEncodingDecoding websocket test
+
+Created attachment 30492 TestEncodingDecoding.patch The bytebuffer needs to be flipped during encoding and position doesn't need to be changed during decoding (it was already changed during willDecode call)

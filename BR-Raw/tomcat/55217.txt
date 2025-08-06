@@ -1,0 +1,3 @@
+Common EntityResolver that can be used by Catalina and Jasper
+
+Duplicate functionality exists in both SchemaResolver and ParserUtils.MyEntityResolver. There's also a basic version in Digester.

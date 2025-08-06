@@ -1,0 +1,3 @@
+schemaLocation references between servlet and jsp XSDs are invalid
+
+The javax/servlet/resources package does not contain the JSP specification XSDs. These are referenced from the web-app or web-common xsds and define elements like <jsp-config>.

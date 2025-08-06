@@ -1,0 +1,3 @@
+ServletInputStream still readable even when closed
+
+Created attachment 21716 Echo "OK" if the behaviour is correct, "KO" otherwise InputBuffer does not check "closed" in any read, mark, skip operation, thus bytes can be read even when the application has requested to close the inputstream. This causes programming problems to go unnoticed. See the attached test case.

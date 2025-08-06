@@ -1,0 +1,3 @@
+POST request ignores command line parameters
+
+example: <form method="POST" action="test.exe?test1"><input type="hidden" value="test2"><input type="submit"></form> this code does invoke the test.exe without passing the test1 command line parameter the example works in apache httpd and ms iis fix: CGIServlet.java if (!"GET".equals(req.getMethod()) && !"POST".equals(req.getMethod()) && !"HEAD".equals(req.getMethod())) return;

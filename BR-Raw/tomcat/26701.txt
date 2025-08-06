@@ -1,0 +1,3 @@
+Enabling web applications to register their own stream handlers
+
+A stream handler factory can be registered once per VM and tomcat registers the DirContextStreamHandlerFactory for the jndi protocol. However if there are web applications running inside that want to register handlers for custom scheme currently it is not possible. Can the DirContextStreamHandlerFactory be enhanced to allow applications to register stream handler for custom schemes they might have. Or better can this be a made a property in the context.xml file ? Is this already there - or can this enhanced in the future?

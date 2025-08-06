@@ -1,0 +1,3 @@
+possible nullpointer exception in RequestUtil.parseParameters
+
+Created attachment 27376 set default encoding, if none is given When encoding is null, RequestUtil.parseParameters will throw a NPE at B2CConverter.getCharset.

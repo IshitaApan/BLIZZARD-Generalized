@@ -1,0 +1,3 @@
+JspC throws ClassNotFoundException from Digester
+
+Created attachment 30583 log file from ant run When run from Ant, the <jasper> task ia unable to location descriptor classes used in an ObjectCreateRule. The Digester does not have a classloader configured and is configured to use the TCCL but that is Ant's classloader and not the task's.

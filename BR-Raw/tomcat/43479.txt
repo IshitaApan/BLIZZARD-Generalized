@@ -1,0 +1,3 @@
+APR sendfile thread leaks memory
+
+The APR sendfile thread leaks memory by adding SendfileData objects to its HashMap and failing to remove them.

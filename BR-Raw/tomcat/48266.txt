@@ -1,0 +1,3 @@
+Patch to fix generics in catalina
+
+Created attachment 24596 Patch to fix generics in catalina As the subject says

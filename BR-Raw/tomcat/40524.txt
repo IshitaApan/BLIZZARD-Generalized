@@ -1,0 +1,3 @@
+request.getAuthType() returns different string from HttpServletRequest.CLIENT_CERT_AUTH
+
+using inspect: request.getAuthType() (java.lang.String) CLIENT-CERT 	 HttpServletRequest.CLIENT_CERT_AUTH (java.lang.String) CLIENT_CERT api says they should be the same object (== should work)

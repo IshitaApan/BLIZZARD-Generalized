@@ -1,0 +1,3 @@
+Enhancements to TestFormAuthenticator
+
+Created attachment 30266 svn diff: update to test class I have attached an extensive patch to this existing test class. The main benefit is better comments and self-documenting arguments to the common worker methods, which should be helpful to anyone investigating tomcat authentication behaviour but who does not have a detailed understanding of its internal logic. The motive and techniques used here bring the source into line with an earlier enhancement to the TestNonLoginAndBasicAuthenticator, i.e. https://issues.apache.org/bugzilla/show_bug.cgi?id=54190#c4 All tests should pass with the latest trunk. Code style should be acceptable.

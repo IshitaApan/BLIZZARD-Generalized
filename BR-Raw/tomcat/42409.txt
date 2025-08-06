@@ -1,0 +1,3 @@
+Extra response headers not sent when using custom error page
+
+If I create a servlet that does the following: response.setHeader("X-BUG", "Value"); response.sendError(HttpServletResponse.SC_BAD_REQUEST); If I use the tomcat default error page for 400 responses, the response will contain the header "X-BUG" with value "Value". However, if I create a custom error page, the response headers do NOT contain the "X-BUG" header in the response. Here is my web.xml, for example: <error-page> <error-code>400</error-code> <location>/400.jsp</location> </error-page> 400.jsp contains plain html: <html> <body> <h3>Custom 400 error page</h3> </body> </html>

@@ -1,0 +1,3 @@
+PublishRequest.java can not be compiled
+
+There is a log used in org.apache.tomcat.bayeux.request.PublishRequest,but it was not be defined,so the class can not be complied successfully,there should be something like this? private static final Log log = LogFactory.getLog(PublishRequest.class);

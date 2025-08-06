@@ -1,0 +1,3 @@
+The path /foo/a/a/bar causes IllegalArgumentException when WsServerContainer creates UriTemplate
+
+WsFilter calls WsServerContainer.findMapping("/foo/a/a/bar"), which in turn calls new UriTemplate(path). If the path contains repeated segments, it causes the following code in the UriTemplate constructor to throw an exception: Segment old = this.segments.put(segment, new Segment(index, segment)); if (old != null) { throw new IllegalArgumentException( sm.getString("uriTemplate.duplicateName", segment)); } This would be valid if the duplicates were URI variable names but not when their plain path segments.

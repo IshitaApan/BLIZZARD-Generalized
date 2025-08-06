@@ -1,0 +1,3 @@
+Wrong and misleading documentation in JDBCAccessLogValve
+
+In the class JDBCAccessLogValve is an example for an table to hold access log values. In this table is a column ts which is defined as not null. This will only work on MySQL, because this value is never written by the Valve and other databases will complain about a column which is not filled with a value.

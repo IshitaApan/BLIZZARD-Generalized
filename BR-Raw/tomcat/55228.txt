@@ -1,0 +1,3 @@
+AbstractHttp11Processor overwrites Date header, even when set by application
+
+If the application sets the Date header, then it is most likely for caching purposes and Tomcat needs to return it as is. A consistent Date header is very important for proper Age/Max-Age calculations. http://www.w3.org/Protocols/HTTP/Issues/add-age.html

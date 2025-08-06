@@ -1,0 +1,3 @@
+Possible thread/memory leak with use of WebSocketContainer
+
+Whenever WebSocketContainer is used to connect to a server endpoint, the following message appears when Tomcat shuts down: SEVERE: The web application [/websocket-test] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. The message is repeated for 6 different threads. I don't have proof this is caused by the use of WebSocketContainer but the messages don't appear when it isn't used. The Endpoint used to connect is very simple. It sends a message when the session is opened to the EchoEndpoint on the server side, and prints the response and closes when the message is echoed back.

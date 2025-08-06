@@ -1,0 +1,3 @@
+Log uncovered HTTP methods in combined security constraints
+
+It is usually an error (and a security hole) if security constraints are defined for some but not all HTTP methods for a given URL. If such a situation is detected on web application start, log it.

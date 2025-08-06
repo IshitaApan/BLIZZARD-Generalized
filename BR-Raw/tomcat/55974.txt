@@ -1,0 +1,3 @@
+Honor the order when reporting XML parsing errors and warnings in XmlErrorHandler class
+
+Originally reported in comment 1 of bug 55973. o.a.t.util.descriptor.XmlErrorHandler class stores the errors and warnings in a HashSet. A hashset does not preserve ordering. If there are several errors, then a) When all errors are printed (e.g. via XmlErrorHandler#logFindings(...)), their order is random. b) When only one error is reported (e.g. by code added in r1552826), the one error is chosen randomly. The ordering can be preserved if the collection is stored as LinkedHashSet or an ArrayList. Is there a benefit of using a 'set' here, or a 'list' would suffice?

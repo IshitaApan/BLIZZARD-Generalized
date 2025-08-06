@@ -1,0 +1,3 @@
+tag names that are xml:Name but not java identifier are not accepted
+
+According to the JSP 2.0 specification, custom tag prefix and name should be of the type XML:Name. However, for Tomcat 5.5.8, if the name is not a legal java identifier, then a compilation error occurs. For instance, Tomcat won't accept Da~te`T#ag as a legal name for the Tag.

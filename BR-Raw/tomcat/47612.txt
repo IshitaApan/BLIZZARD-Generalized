@@ -1,0 +1,3 @@
+[PATCH] fix unsafe public string array in AbstractCreateStatementInterceptor
+
+Created attachment 24070 Protect array against changes; remove "magic" numbers As previously mentioned on the Tomcat-dev list, the AbstractCreateStatementInterceptor class has two public static String arrays. These can easily be changed accidentally or deliberately. There subclasses which use the arrays also depend on the order of the entries in the arrays. The patch makes the arrays private, and makes the array order explicit, eliminating the "magic" numbers currently used to access the array entries.

@@ -1,0 +1,3 @@
+Reconfigure pool on the fly using JMX
+
+Provide a way to reconfigure the jdbc-pool using JMX and have it take effect when changes are submitted. http://markmail.org/message/x6wem3zkxl4ps7ki

@@ -1,0 +1,3 @@
+SimpleTcpReplicationManager.startInternal() ignores Exception
+
+ha.session.SimpleTcpReplicationManager.startInternal() ignores Exception when invoking Thread.sleep() - it only needs to ignore InterruptedException.

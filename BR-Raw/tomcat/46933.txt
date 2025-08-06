@@ -1,0 +1,3 @@
+Using Java 1.5 in StringManager
+
+Created attachment 23424 update method to java 1.5 Using Java 1.5 in StringManager

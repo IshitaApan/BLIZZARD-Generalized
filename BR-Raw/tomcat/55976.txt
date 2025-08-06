@@ -1,0 +1,3 @@
+Broken response from NIO connector in Tomcat 7.0.50
+
+Tomcat 7.0.50 (proposed for voting at the time of submitting this issue) with Oracle Java 1.7.0_40 on Win7 64-bit, sometimes returns incorrect response when NIO connector is used. Start of the report, and steps to reproduce the problem are in this thread: http://www.mail-archive.com/dev@tomcat.apache.org/msg80175.html -Ognjen

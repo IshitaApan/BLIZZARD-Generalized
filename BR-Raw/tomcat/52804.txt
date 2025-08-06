@@ -1,0 +1,3 @@
+Make PoolProperties implement Cloneable.
+
+It would be very useful to have the PoolProperties class implement the java.lang.Cloneable interface. We have many databases that share the same schema, username, password, configuration etc but differ only in their URL. Implementing a routing datasource based on something like org.springframework.jdbc.datasource.AbstractDataSource can then just clone a PoolProperties object and set the one or two properties that differ in the clone. In a spring project the properties that are common across all the datasources are only supplied once.

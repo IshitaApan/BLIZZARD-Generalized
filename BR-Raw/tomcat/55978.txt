@@ -1,0 +1,3 @@
+Initial call to onWritePossible() not made by container when using HTTP upgrade
+
+When using a WriteListener and non-blocking IO with the Servlet async API, the container makes the first call to onWritePossible() as per the spec. When using a WriteListener and non-blocking IO with the Servlet HTTP upgrade API the container does not make the initial call to onWritePossible(). When fixing this bug it is worth checking the initial call to onDataAvailable() as well.

@@ -1,0 +1,3 @@
+Add prestartminSpareThreads attribute for Executor
+
+The attached patch adds the boolean attribute prestartminSpareThreads to the Executor element. This allows the admin to prestart minspareThreads for this Executor during the start of Tomcat. The default value is false which is the old behaviour. A documentation patch for executor.xml can be created if there is interest in committing this patch.

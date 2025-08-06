@@ -1,0 +1,3 @@
+Allow explicit use of FIPS mode in APR lifecycle listener
+
+Both OpenSSL and JSSE allow themselves to be put into FIPS mode, and we should allow SSL connectors to request it (and have them fail if FIPS mode can't be set). OpenSSL: http://www.mail-archive.com/openssl-dev@openssl.org/msg20882.html

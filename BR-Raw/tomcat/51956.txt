@@ -1,0 +1,3 @@
+RemoteAddrFilter uses remote host (not address) in doFilterEvent
+
+public void doFilterEvent(CometEvent event, CometFilterChain chain) throws IOException, ServletException { processCometEvent(event.getHttpServletRequest().getRemoteHost(), event, chain); } Use of getRemoteHost should be getRemoteAddr.

@@ -1,0 +1,3 @@
+Ping and Pong messages should have identical application data
+
+Created attachment 30520 PingPongMessages.patch As described in RFC 6455 Ping and Pong should have identical application data. http://tools.ietf.org/html/rfc6455#section-5.5.3 Current implementation can return application data ByteBuffer with extra bytes hence have different length from "ping" message which means that those are not identical. Here is a patch + test case cheers niki

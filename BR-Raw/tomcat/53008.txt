@@ -1,0 +1,3 @@
+New test case for Basic Authenticator
+
+Created attachment 28519 patch file for test org.apache.catalina.authenticator.TestNonLoginAndBasicAuthenticator RFC2617 states the authentication scheme is case-insensitive. A new test case has been added which confirms that tomcat already complies with the requirement. The attached patch file passes checkstyle and all tests run successfully against the trunk.

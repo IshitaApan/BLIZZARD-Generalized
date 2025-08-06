@@ -1,0 +1,3 @@
+Make private immutable fields final
+
+Created attachment 26090 Patch javax.el package Patches to make immutable private fields final.

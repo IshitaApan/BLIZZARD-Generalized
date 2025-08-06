@@ -1,0 +1,3 @@
+RemoteIpValve examples refer to "connector" package
+
+Hi, The API doc https://tomcat.apache.org/tomcat-6.0-doc/api/org/apache/catalina/valves/RemoteIpValve.html uses "connector" package in the examples. Took me 10 minutes to figure out :) Best regards, -Bjarni

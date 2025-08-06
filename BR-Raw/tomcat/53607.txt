@@ -1,0 +1,3 @@
+No message set for PING: TcpPingInterceptor fail with NullPointerException in ChannelData.getDataPackageLength()
+
+I added data.setMessage(new XByteBuffer(TCP_PING_DATA, false)); to TcpPingInterceptor send ping message function by: protected void sendPingMessage(Member[] members) { if ( members == null || members.length == 0 ) return; ChannelData data = new ChannelData(true);//generates a unique Id data.setAddress(getLocalMember(false)); data.setTimestamp(System.currentTimeMillis()); data.setOptions(getOptionFlag()); data.setMessage(new XByteBuffer(TCP_PING_DATA, false)); try { super.sendMessage(members, data, null); }catch (ChannelException x) { log.warn("Unable to send TCP ping.",x); } } error also for Tomcat 6 regards fred

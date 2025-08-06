@@ -1,0 +1,3 @@
+filter-mapping doesn't support * for servlet-name
+
+SRV 6.2.5 of the servlet 2.5 spec introduces support for '*' as the servlet-name in a filter-mapping. TC6 does not currently support that value as specified. I will attach a patch shortly.

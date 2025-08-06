@@ -1,0 +1,3 @@
+toString on byte[] array probably is not correct
+
+Two examples of using toString() on a byte[] array, which is unlikely to produce the desired output: ha.deploy.FileMessageFactory.writeMessage() log message uses toString on msg.getData() which is a byte[] array coyote.ajp.AjpMessage.dump use toString on "msg" which is of type byte[]

@@ -1,0 +1,3 @@
+with APR bytessent bytesreceived performance data is not collected
+
+with APR bytes received and bytes sent are always 0.

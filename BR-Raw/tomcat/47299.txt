@@ -1,0 +1,3 @@
+Cannot override StandardContext in embedding case because of StandardSession.fireContainerEvent
+
+StandardSession.fireContainerEvent checks for the String class name! Why not just use an instanceof check here?

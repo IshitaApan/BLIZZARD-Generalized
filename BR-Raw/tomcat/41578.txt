@@ -1,0 +1,3 @@
+Avoid SimplePool.get/put synchronization in JspFactoryImpl
+
+Only 1 instance of the JspFactory object (JspFactoryImpl) is created. Consequently there is a single SimplePool of PageContext objects for all JSP requests and so every JSP request must synchronize on the lock inside SimplePool when getting and releasing a PageContext instance. Moreover, the pool has a fixed capacity and after that, the code in JspFactoryImpl will first acquire the lock to see if there are any free objects in the pool, failing which a new PageContext object is created. Instead of a single process-wide pool, a per thread pool of PageContext objects can be used by JspFactoryImpl.

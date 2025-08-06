@@ -1,0 +1,3 @@
+Improve JreMemoryLeakPreventionListener against leak caused by sun.java2d.Disposer
+
+The sun.java2d.Disposer class, when loaded, starts an endless daemon thread that can inherit the WebappClassLoader as its context loader. This will cause a leak when the webapp is unloaded. It would be useful if JreMemoryLeakPreventionListener could load this class to prevent the leak.

@@ -1,0 +1,3 @@
+[Patch] o.a.c.c.StandardServer swallows error on storeConfig.
+
+When o.a.c.c.StandardServer#storeConfig is called all exceptions were getting swallowed. This lead to the impresssion it was working correctly when saved either through the manager application /manager/save or through jconsole. I've removed the catch throwable block and thrown an exception upon not finding the registerd MBean.

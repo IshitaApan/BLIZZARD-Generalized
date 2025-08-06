@@ -1,0 +1,3 @@
+CometConnectionManagerValve is adding non-serializable Request[] to Session
+
+CometConnectionManagerValve is adding HttpServletRequest[] to HttpSession which is preventing the Session being serialized in a Clustered setup. We're resolving this locally using a serializable ConnectionList class with a transient Request[] i.e. public class ConnectionList implements Serializable { 	 	transient Request[] connectionList = null; 	 	ConnectionList(Request[] connectionList){ 		this.connectionList = connectionList; 	} 	 	public Request[] get(){ 		return connectionList; 	} }

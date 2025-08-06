@@ -1,0 +1,3 @@
+if path include relative char, eg: ../, classloader will not find zhe file
+
+I use ibatis in my project, config file path include '..', tomcat can not find the file, command line show: Could not find resource ../ibatis/code/sendType.xml

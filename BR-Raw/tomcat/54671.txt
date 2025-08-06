@@ -1,0 +1,3 @@
+Spec says ServerContainerProvider#getServerContainer() should be public, but implemented package-private in Tomcat 8.0
+
+Created attachment 30039 Patch to resolve issue Fixed with attached patch.

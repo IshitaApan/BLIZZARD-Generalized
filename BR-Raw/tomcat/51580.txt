@@ -1,0 +1,3 @@
+Severe error deploying WAR application (ExpandWar error)
+
+Created attachment 27330 Catalina log file with the error. When trying to deploy a WAR application (50MB approx) I get: "SEVERE: Error deploying web application archive gestaoApolices.war java.lang.NullPointerException" Complete stacktrace is attached. I've seen in the sources that this might be related with the correction of "Bugzilla 33636" Let me know if the war file is needed, in case you're not able to reproduce the problem.

@@ -1,0 +1,3 @@
+When calling the API that relates to the buffer after the response is committed, ISE with no messages is thrown.
+
+After the response is committed, following API throws IllegalStateException. It's O.K. but the message of the exception is not set. - HttpServletResponse#resetBuffer - HttpServletResponse#sendError - HttpServletResponse#sendRedirect - HttpServletResponse#setBufferSize To understand the bug of the application, it is hoped that the message is set like other exceptions.

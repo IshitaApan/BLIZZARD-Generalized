@@ -1,0 +1,3 @@
+[websocket] NPE in Util$DecoderMatch during application start
+
+Created attachment 30934 TestEncodingDecoding.patch NPE is thrown when WS endpoint has associated encoder or decoder with type using generics. Example: Decoder.Text<List<String>> Here I attach patch of org.apache.tomcat.websocket.pojo.TestEncodingDecoding illustrating the case.

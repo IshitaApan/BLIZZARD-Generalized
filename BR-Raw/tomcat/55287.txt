@@ -1,0 +1,3 @@
+ServletContainerInitializer in parent classloader may not be found
+
+To include the JasperInitializer in the test environment I added an entry in testclasses/META-INF/services. This is not picked up when the parent classloader is searched because this path is a directory not a JAR file. It would be picked up if the "scanAllDirectories" extension was enabled but that should not be necessary if the search is to be semantically equivalent to j.u.ServiceLoader (which does locate it).

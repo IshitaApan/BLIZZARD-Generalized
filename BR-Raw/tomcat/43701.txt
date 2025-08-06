@@ -1,0 +1,3 @@
+Error while starting tomcat
+
+this is my NIO Connector configuration in server.xml <Connector acceptCount="100" enableLookups="false" port="80" protocol="org.apache.coyote.http11.Http11NioProtocol" acceptorThreadCount="2" socket.bufferPool="-1" connectionTimeout="60000" maxKeepAliveRequests="-1" maxThreads="200" minSpareThreads="25" redirectPort="8443" /> when I am starting my tomcat it is giving following error in the console several time SEVERE: java.lang.NullPointerException 	at org.apache.tomcat.util.net.NioEndpoint.setSocketOptions(NioEndpoint.java:985) 	at org.apache.tomcat.util.net.NioEndpoint$Acceptor.run(NioEndpoint.java:1169) 	at java.lang.Thread.run(Thread.java:595)

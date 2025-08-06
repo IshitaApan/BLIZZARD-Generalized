@@ -1,0 +1,3 @@
+some misspellings I  found in the "org.apache.coyote" package and "org.apache.el" package
+
+Created attachment 24496 svn patch for "org.apache.coyote" and "org.apache.el" package see the attached svn patch file

@@ -1,0 +1,3 @@
+Spurious @deprecated tags in ServletContext
+
+Created attachment 26960 Remove spurious tags There are some spurious @deprecated tags in ServletContext.

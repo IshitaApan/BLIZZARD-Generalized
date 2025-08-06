@@ -1,0 +1,3 @@
+Please make AsyncFileHandler and OneLineFormatter the default for logging.properties
+
+Apache Tomcat 7 has created some very important enhancements to logging, and we should exploit them. Please make the org.apache.juli.AsyncFileHandler and org.apache.juli.OneLineFormatter the defaults for shipped conf/logging.properties. These enhancements have been vetted with over 20 releases of Apache Tomcat, let's give them some first class status.

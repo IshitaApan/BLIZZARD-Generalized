@@ -1,0 +1,3 @@
+NPE in BodyContentImpl
+
+Created attachment 29688 Patch for BodyContentImpl.java Similar as BUG 35410, there is a NPE when calling BodyContentImpl#write(String) if the String is NULL.

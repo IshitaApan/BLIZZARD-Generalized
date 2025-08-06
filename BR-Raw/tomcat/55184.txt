@@ -1,0 +1,3 @@
+NPE in PojoMethodMapping getMessageHandler
+
+Created attachment 30525 PojoMethodMapping.patch A check for null value is missed. Here is the patch

@@ -1,0 +1,3 @@
+Add a ThreadFactory implementation to the ExecutorService used to deploy applications
+
+Created attachment 28488 ThreadFactory implementation for ContainerBase ExecutorService The current implementation of the ExecutorService (in ContainerBase) uses the default thread factory, producing Threads named "pool-1-thread-1". Thread properties can be customised using a thread factory, modifying the naming scheme will help users identify container threads. Patch attached.

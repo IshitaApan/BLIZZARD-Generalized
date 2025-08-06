@@ -1,0 +1,3 @@
+An incomplete fix for the resource leak bugs in StandardManager.java
+
+The fix revision 907502 was aimed to remove an resource leak bug on the FileOutputStream object "fos" and the ObjectOutputStream "oos" in the method "doUnload" of the file "/tomcat/tc6.0.x/trunk/java/org/apache/catalina/session/StandardManager.java" , but it is incomplete. When the ObjectOutputStream object is created unsuccessfully but the temp BufferedOutputStream object is created successfully, the temp object will be leaked. Besides that, the "oos" is not closed in all the pathes. The best way to close such resource object is putting such close operations in the finaly block of a try-catch-finally structure.

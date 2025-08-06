@@ -1,0 +1,3 @@
+Provide support for renaming  JSESSIONID
+
+Created attachment 22673 Diff to add support for changing the value of JSESSIONID When Tomcat is used in conjunction with other application servers behind an Apache HTTPD proxy connection, the session cookie JSESSIONID will be over-written be each other. The solution is to allow the JSESSIONID cookie to be renamed to something else. Equivalent support is already provided by JBOSS and Weblogic. The purpose of this ticket is to mirror the bug opened for Tomcat 5. The bug number is bug 42419. I attached a patch to that bug to allow for the requested functionality and have added an equivalent for Tomcat 6 to this ticket.

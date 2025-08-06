@@ -1,0 +1,3 @@
+URL with Query String can't work over SPDY
+
+Created attachment 30173 Patch for SpdyProcessor I setup SPDY over tomcat 8. For normal URL such as https://localhost/test.jsp, it can work. However if the URL contains Query String, such as https://localhost/test.jsp?test=abc A SC_NOT_FOUND (404) will be given by Mapper. The root cause is SpdyProcessor missing the QueryString parsing. Attached a patch for it.

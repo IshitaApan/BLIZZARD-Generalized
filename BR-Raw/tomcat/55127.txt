@@ -1,0 +1,3 @@
+Encoders init and destroy methods are never called
+
+Created attachment 30470 encoders lifecycle patch Non of the lifecycle methods (init and destroy) related to the encoders are get called. Here is a patch with extended test case (TestEncodingDecoding). The provides the implementation. (It is a proposal impl.) I think we need CLOSING state checked in WsSession as the decoders destroy are called during that phase and current implementation of checkState() method does not consider this state. Mark, this time I used the checkstyle.xml found in res folder and hope that at least the sources are in proper shape from syntax point of view. cheers

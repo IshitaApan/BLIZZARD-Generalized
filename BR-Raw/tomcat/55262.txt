@@ -1,0 +1,3 @@
+Duplicate preludes and codas in same <jsp-property-group> are ignored
+
+If a <jsp-property-group> contains multiple <include-prelude> elements that happen to refer to the same file only one include is performed. The same applies to codas. This happens because WebXml stores these in a LinkedHashSet rather than a List. When multiple <jsp-property-group>s are combined, JspConfig uses a Vector and so preserves duplicates as required by the JSP spec. I have a test case demonstrating this but before committing a fix I would like confirmation that WebXml's behaviour is incorrect.

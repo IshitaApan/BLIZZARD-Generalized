@@ -1,0 +1,3 @@
+Support is required to disable TLS compression to prevent against CRIME attacks
+
+Support is required to disable TLS compression to prevent against CRIME attacks. Please see: https://community.qualys.com/blogs/securitylabs/2012/09/14/crime-information-leakage-attack-against-ssltls This security issue is flagged for Tomcat during PCI compliance scan.

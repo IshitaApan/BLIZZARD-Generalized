@@ -1,0 +1,3 @@
+clean way to avoid setURLStreamHandlerFactory call
+
+A current method is to set WebappLoader.first via reflection (because private). I think the setURLStreamHandlerFactory should be move to Catalina.start ('first' static field can be move in Catalina). So we could have a static method in Catalina to prevent setURLStreamHandlerFactory call while first starting.

@@ -1,0 +1,3 @@
+Javadoc for WebAppClassLoader constructor has copy/paste error
+
+The constructor that takes a parent class loader has a copy of the doc string from the constructor that does not take a parent class loader.

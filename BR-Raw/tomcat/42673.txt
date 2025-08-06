@@ -1,0 +1,3 @@
+SSI virtual include broken for context path with slashes
+
+If the context path of an application contains slashes (e.g. "a/b") the method getPathWithoutContext of class org.apache.catalina.ssi.SSIServletExternalResolver simply cuts from the second slash, so for url "/a/b/do?.." it tries to include "b/do?.." instead of "do?..". The patch is to include the context path and strip the path off: Line 419 String noContext = getPathWithoutContext(normContext.getContextPath(), normalized); Line 356ff protected String getPathWithoutContext(final String contextPath, final String servletPath) { if (servletPath.startsWith(contextPath)) { return servletPath.substring(contextPath.length()); } return servletPath; }

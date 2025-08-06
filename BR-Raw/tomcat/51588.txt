@@ -1,0 +1,3 @@
+Change access modifiers in AccessLogValve to make it easier to extend
+
+I'm adding some fields to a subclass of org.apache.catalina.valves.AccessLogValve but createLogElements() is the closest extension point available. Rather than reimplement the functionality there it would be preferable if both of the createAccessLogElement() methods were protected rather than private then it's a simple method of matching the char you want to use and falling back to super.createAccessLogElement().

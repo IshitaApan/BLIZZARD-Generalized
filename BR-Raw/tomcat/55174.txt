@@ -1,0 +1,3 @@
+[jsr 356][websocket] MessageHandler never gets notified again after it throws exception
+
+I have a test which adds a MessageHandler which gets notified on text messages. If its implementation method onMessage(String text) throws some exception (e.g. runtime exception), this MessageHandler will never ever be notified again for any new text messages received by the session. I suppose this happens because the exception actually kills the underlying thread in which the notification has happened. I think the client side implementation shall be more robust and expect and be prepared for exceptions coming from calls to user code.

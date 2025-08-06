@@ -1,0 +1,3 @@
+Upgrade Digester to be based on DefaultHandler2 and use LexicalHandler to detect publicId
+
+Digester uses SAX2 features but is still based the SAX1 DefaultHandler. By upgrading to DefaultHandler2 it would be able to handle baseURIs when resolving entities and would have a default implementation of a LexicalHandler. Using LexicalHandler would allow it to respond directly to the startDTD event that reports the DOCTYPE (if present) so that it would not need to infer that from the first attempt to resolve an entity.

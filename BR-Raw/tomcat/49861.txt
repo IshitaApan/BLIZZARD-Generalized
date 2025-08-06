@@ -1,0 +1,3 @@
+Log format of RMI ports can be improved, remove ","
+
+I've enabled the fixed JMX port listen capability described in http://tomcat.apache.org/tomcat-6.0-doc/config/listeners.html and found, that fixed ports are logged, but format is not proper imho: Is: INFO: The JMX Remote Listener has configured the registry on port 10,001 and the server on port 10,002 for the Platform server Should: INFO: The JMX Remote Listener has configured the registry on port 10001 and the server on port 10002 for the Platform server Just note that is very uncommon logging TCP/UDP ports with a ","

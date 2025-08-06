@@ -1,0 +1,3 @@
+JspC does not initialize tldLocationsCache resulting in NPE
+
+Change in how ServletContext was created missed initialization of tldLocationsCache

@@ -1,0 +1,3 @@
+JMXAccessorTask String constants should be final
+
+Created attachment 23452 Patch to make fields final JMXAccessorTask String constants should be final

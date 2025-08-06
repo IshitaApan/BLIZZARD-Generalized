@@ -1,0 +1,3 @@
+SlowQueryReport interceptor does not log anything
+
+The documentation I've seen for the SlowQueryInterceptor (http://people.apache.org/~fhanik/jdbc-pool/jdbc-pool.html#org.apache.tomcat.jdbc.pool.interceptor.SlowQueryReport) indicate that it is supposed to log a message with level WARN when a slow query is detected or there is a failure. However, it appears that no logging is ever done. reportSlowQuery and reportFailedQuery simply record the event with the QueryStats object. No call to the logging framework is ever made.

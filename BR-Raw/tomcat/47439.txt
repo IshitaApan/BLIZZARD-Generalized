@@ -1,0 +1,3 @@
+PooledConnection.connect() fails to check for null connection
+
+PooledConnection.connect() fails to check for null return from java.sql.Driver.connect() method. This can result in an NPE when the connection is used later.

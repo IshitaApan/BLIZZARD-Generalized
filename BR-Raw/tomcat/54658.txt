@@ -1,0 +1,3 @@
+Implement Part#getSubmittedFileName from SERVLET_SPEC-57
+
+Created attachment 30030 Implemented method http://java.net/jira/browse/SERVLET_SPEC-57 You will find a patch attached to complete this. - Added javax.servlet.http.Part#getSubmittedFileName - Added o.a.c.core.ApplicationPart#getSubmittedFileName - Deprecated o.a.c.core.ApplicationPart#getFilename and wrapped it around getSubmittedFileName - Changed o.a.c.connector.Request to use getSubmittedFileName instead of getFilename

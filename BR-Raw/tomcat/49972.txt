@@ -1,0 +1,3 @@
+Double-check idiom. Possible data-race.
+
+r998053 class org/apache/tomcat/util/http/FastHttpDateFormat http://svn.apache.org/repos/asf/tomcat/tc6.0.x/trunk/java/org/apache/tomcat/util/http/FastHttpDateFormat.java There is double-check anti-pattern in public static final String getCurrentDate() method on protected static long currentDateGenerated variable Concurrent read on line 112 Concurrent write on line 115 P.S.: Maybe I have mistake with determine component

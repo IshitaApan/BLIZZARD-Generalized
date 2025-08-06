@@ -1,0 +1,3 @@
+IOException in echo WebSocket example
+
+The IOException "New frame received after a close control frame" is raised after pressing Disconnect. The exception can be detected by adding an onError method to EchoEndpoint.

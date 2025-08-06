@@ -1,0 +1,3 @@
+Disable / drop support for SSLv2
+
+Hi, SSL 2.0 support got removed from many Debian GNU/Linux (and many others linux distro) and SSL 2.0 is disabled by default in Internet Explorer 7, Mozilla Firefox 3, Opera and Safari. It's use has been deprecated, because of weaknesses in the security of the protocol. For exemple, http://www.openssl.org/news/secadv_20051011.txt I propose to simply drop any support for SSLv2 in Tomcat Native lib with the attached patch.

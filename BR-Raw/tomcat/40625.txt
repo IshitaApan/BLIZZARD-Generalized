@@ -1,0 +1,3 @@
+CGIServlet eats root cause
+
+The code below doesn't make sense: <snip> catch (IOException e){ log ("Caught exception " + e); throw new IOException (e.toString()); } </snip> It should be "throw e;". IMHO, It seems no need to log this exception here, so the cache block can be removed.

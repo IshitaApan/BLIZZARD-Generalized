@@ -1,0 +1,2 @@
+HTML pages should not use GET to restart web-apps.
+

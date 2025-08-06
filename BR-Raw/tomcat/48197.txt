@@ -1,0 +1,3 @@
+XByteBuffer: privatize public fields; fix Javadoc
+
+Created attachment 24536 Patch to fix various problems in XByteBuffer. Patch to fix various problems in XByteBuffer.

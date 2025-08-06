@@ -1,0 +1,3 @@
+Split AccessLogValve and extract the formatting logic in an AbstractAccessLogValve
+
+Created attachment 31120 Patch file Split AccessLogValve in an AbstractAccessLogValve with the formatting logic and an AccessLogValve with the logic to write logs into files. This split will ease alternate implementations of access logs valves. For example, a valve that would output access logs to a Syslog server.

@@ -1,0 +1,3 @@
+Loggers should be final
+
+Created attachment 24516 Patch to make log fields final where possible Log fields should be final (see r834226)

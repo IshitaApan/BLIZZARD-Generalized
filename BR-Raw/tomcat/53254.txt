@@ -1,0 +1,3 @@
+Support for purging connection pool
+
+It is a common function of a connection pool to support "purging" the pool of all current connections and getting all fresh connections. Oracle UCP and Websphere pools are two such examples. It would be great if this pool supported such an operation as well. It would be useful if the operation were exposed through JMX too.

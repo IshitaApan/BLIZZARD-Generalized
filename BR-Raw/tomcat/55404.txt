@@ -1,0 +1,3 @@
+ContextConfig#validateSecurityRoles emits three info log messages which contain a warning
+
+ContextConfig#validateSecurityRoles emits three info log messages but the messages start with 'WARNING:'. This is quite irrtating. > contextConfig.role.auth=WARNING: Security role name {0} used in an <auth-constraint> without being defined in a <security-role> > contextConfig.role.link=WARNING: Security role name {0} used in a <role-link> without being defined in a <security-role> > contextConfig.role.runas=WARNING: Security role name {0} used in a <run-as> without being defined in a <security-role> Remove the warning and set the log level from info to warning.

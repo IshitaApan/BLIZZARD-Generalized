@@ -1,0 +1,3 @@
+EL-expression evaluation slow due to synchronization caused by JspFactory.getDefaultFactory
+
+Tomcat version 6.0.16 trunk (and earlier) PageContextImpl.java has: public static Object proprietaryEvaluate() that does a: final ExpressionFactory exprFactory = JspFactory.getDefaultFactory().get JspApplicationContext(pageContext.getServletContext()).getExpressionFactory(); Our benchmarking of pages using large amounts of EL-expression shows this turns into a bottleneck due to the fact that JspFactory.getDefaultFactory() is synchronized. The bug is very similar to bug #41558 I have a patch that fixes the issue, coming up...

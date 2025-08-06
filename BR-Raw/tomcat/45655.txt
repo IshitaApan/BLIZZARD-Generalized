@@ -1,0 +1,3 @@
+check permisson
+
+Created attachment 22458 check permission just check permission if it is allowed don't use cast to same class

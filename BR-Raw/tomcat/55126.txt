@@ -1,0 +1,3 @@
+IAE is thrown during deployment of ServerEndPoint having multiple text decoders
+
+Created attachment 30468 Patch in PojoMethodMapping MessageMethod PojoMethodMappin.MessageMethod can throw IAE when there are multiple text decoders. The looping through the text decoders should be breaked. Here I attach the patch.

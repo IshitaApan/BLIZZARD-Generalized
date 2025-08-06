@@ -1,0 +1,3 @@
+Externalize Strings "catalina.base" and "catalina.home"
+
+Created attachment 25169 Patch externalizing strings Strings "catalina.base" and "catalina.home" are present multiple times in the code base. Most of them should be replaced by a reference to a constant.

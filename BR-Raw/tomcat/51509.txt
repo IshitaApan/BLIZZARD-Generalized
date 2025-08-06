@@ -1,0 +1,3 @@
+Csrf Prevention Filter's LruCache is not thread save
+
+The LruCache (org.apache.catalina.filters.CsrfPreventionFilter$LruCache) use by Csrf Prevention Filter is base on LinkedHashMap. From the LinkedHashMap Java Doc: Note that this implementation is not synchronized. If multiple threads access a linked hash map concurrently, and at least one of the threads modifies the map structurally, it must be synchronized externally. ... But the LruCache implementation does not synchronize the access to the map.

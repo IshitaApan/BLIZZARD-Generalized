@@ -1,0 +1,3 @@
+Add ability to report time taken to prepare response
+
+Created attachment 30438 Patch against trunk@r1493385 to record and output time to commit Tomcat's AccessLogValve is able to report the time taken to send an entire request using %D. This is the total processing time and may be affected by network conditions. It is sometimes useful to be able to record the time taken by the server to prepare the response and send the first content to the client. Attached is a patch that records the time the response is committed and then allows that to be reported in the access log using a '%F' pattern (which is the same as used by the mod-log-firstbyte module for HTTPD).

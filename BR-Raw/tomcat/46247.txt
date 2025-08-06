@@ -1,0 +1,3 @@
+SVN property patches
+
+Created attachment 22905 Patch for tomcat trunk to set SVN properties Script file that can be used to set some missing properties on Tomcat trunk. Usable on Unix and Windows; best run from the OS that last updated the file.

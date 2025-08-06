@@ -1,0 +1,3 @@
+Request: support for NIO in Embedded Tomcat
+
+in org.apache.catalina.startup.Embedded there is no direct API to create an NIO connector. This would be very helpful for all applications which use tomcat in embedded mode and require the CometProcessor.

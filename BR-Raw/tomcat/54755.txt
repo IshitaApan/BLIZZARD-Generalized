@@ -1,0 +1,3 @@
+Type-based Endpoint's cannot be deployed by instance
+
+For type-based Endpoint's, WsServlet instantiates the Endpoint via reflection instead of using the Configurator as is done in PojoEndpointServer: sec.getConfigurator().getEndpointInstance(sec.getEndpointClass())

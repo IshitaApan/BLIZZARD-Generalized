@@ -1,0 +1,3 @@
+addWebXmlMappings does not place servlet tags correctly
+
+If there is a commented-out <security-constraint> or commented-out <servlet> tag and addWebXmlMappings="true", the JSP's servlet and servlet-mapping tags are placed incorrectly and Tomcat will not start due to "--" being inside a comment. Basically, it seems the web.xml is not parsed correctly when using addWebXmlMappings and you cannot have above tags commented out, or new servlet tags will be placed incorrectly and comment tags not respected.

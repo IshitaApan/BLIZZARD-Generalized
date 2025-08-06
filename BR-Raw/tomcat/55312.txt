@@ -1,0 +1,3 @@
+No SCI scan in embedded Tomcat
+
+I like the fact that SCI scanning is off by default in a Tomcat embedded instance, but I'd lik eto be able to switch it on. It might even be possible already, but the API is non-obvious. Maybe a method in Tomcat or associated friendly helper? Would also be nice in Tomcat 7.

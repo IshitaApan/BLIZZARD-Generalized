@@ -1,0 +1,2 @@
+If landingpage is a XHTML (JSF/CDI), nullpointer exception.
+

@@ -1,0 +1,3 @@
+some misspellings I can find in the "org.apache.naming" package
+
+Created attachment 24494 svn patch file for the org.apache.naming package see the attached svn patch file

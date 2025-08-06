@@ -1,0 +1,3 @@
+JSSESocketFactory conditionally converts alias to lower case; condition is unwise
+
+JSSESocketFactory conditionally converts the alias to lower case. The condition is coded as follows: private static final String defaultKeystoreType = "JKS"; ... if (JSSESocketFactory.defaultKeystoreType.equals(keystoreType)) { alias = alias.toLowerCase(Locale.ENGLISH); } If the intention is to downcase only JKS store aliases, then the comparison should be made with "JKS", not a constant that happens to contain "JKS" at present. Using a specific comparator would both clarify the code and protect against a possible change to the default (albeit very unlikely).

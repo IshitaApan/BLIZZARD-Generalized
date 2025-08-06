@@ -1,0 +1,3 @@
+[CVE-2013-2071] runtime exception in onComplete of AsyncListener, will make org.apache.catalina.connector.Request not recycled (orginally reported MESSAGE POST to tomcat, but it called doGet)
+
+one HTTP request use POST method, but in tomcat it calls doGet() what is really strage. as I only tested in 7.0.23, and 7.0.32. in 7.0.32, 7.0.32 is more reproduceable than 7.0.23. I know it must be a very strange issue, as tomcat has so many release. I can't believe it if I didn't see it with my own eyes. so I attache the image.

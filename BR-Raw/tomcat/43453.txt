@@ -1,0 +1,3 @@
+ClassCastException at org.apache.catalina.core.StandardContext.findStatusPage(int)
+
+StandardContext.java reads public String findStatusPage(int status) { return ((String) statusPages.get(new Integer(status))); } This is wrong and it should be public String findStatusPage(int status) { return ((ErrorPage) statusPages.get(new Integer(status))).getLocation(); } Regards, lg

@@ -1,0 +1,3 @@
+Unnecessary synchronization caused by JspFactory.getDefaultFactory while servicing JSPs
+
+Tomcat version: 6.0.x trunk Every generated JSP has try { _jspxFactory = JspFactory.getDefaultFactory(); response.setContentType("text/html"); in its _jspService method. The use of JspFactory.getDefaultFactory during request processing should be avoided as it is a *static synchronized* method. I have a diff that addresses this and will attach it to this bug.

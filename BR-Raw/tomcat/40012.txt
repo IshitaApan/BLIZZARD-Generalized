@@ -1,0 +1,3 @@
+Legacy EL Support not resolving variables correctly
+
+Given the following page: <% pageContext.setAttribute("t", "foo"); %> ${t} <% out.print( pageContext.getExpressionEvaluator().evaluate( "${t}", String.class, pageContext.getVariableResolver(), null)); %> You will notice that the ${t} prints out fine when in the JSP but does not resolve using the scriplet and prints nothing. For a sanity check, I tested this and it worked in glassfish to ensure I wasn't doing anything odd. I'm trying to find root cause; but haven't found it yet, so I'm logging it in case anyone else has the itch to scratch.

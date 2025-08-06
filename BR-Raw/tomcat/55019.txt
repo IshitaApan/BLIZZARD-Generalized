@@ -1,0 +1,3 @@
+<jsp:include page="blabla" flush="true"/> failed to compile under security manager
+
+Created attachment 30328 Patch to fix the problem With 2 JSP on including the other with <jsp:include page="blabla" flush="true"/> you get: java.lang.RuntimePermission accessClassInPackage.org.apache.coyote.http11 when calling the jsp the first time subsequent requests are working.

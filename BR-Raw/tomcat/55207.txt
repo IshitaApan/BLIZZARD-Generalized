@@ -1,0 +1,3 @@
+In XML syntax, jsp:text does not error on sub-elements from other namespaces
+
+Created attachment 30557 patch to reject on any element inside <jsp:text> JspDocumentParser does check for sub-elements within a jsp:text element but only fails if they are from the jsp namespace

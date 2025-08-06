@@ -1,0 +1,3 @@
+Cannot expire session via html manager webapp
+
+The html manager webapp done not work correctly when clicking the expire sessions button. The idle param is missing from the form. The following html shows this bug... <form method="POST" action="/manager/html/expire?path=/"> <small> &nbsp;<input type="submit" value="Expire sessions">&nbsp;with idle &ge;&nbsp;<input type="text" name="expire" size="5" value="30">&nbsp;minutes&nbsp; </small> </form> The name of the text input should be idle.

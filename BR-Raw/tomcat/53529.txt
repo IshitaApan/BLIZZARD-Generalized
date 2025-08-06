@@ -1,0 +1,3 @@
+Call interrupt() after InterruptedException instead interrupted()
+
+In class: org\apache\catalina\tribes\group\GroupChannel.java line 692 org\apache\catalina\tribes\group\interceptors\NonBlockingCoordinator.java line 228 org\apache\catalina\tribes\group\interceptors\TcpPingInterceptor.java line 173 org\apache\catalina\tribes\membership\McastServiceImpl.java line 542 org\apache\juli\AsyncFileHandler.java line 124 line 146 org\apache\tomcat\util\net\AprEndpoint.java line 640 org\apache\tomcat\util\net\NioBlockingSelector.java line 112 line 177 org\apache\tomcat\util\threads\ThreadPoolExecutor.java line 187 Affect 7.0.29 (and previous release) but affect also Tomcat 6.

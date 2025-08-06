@@ -1,0 +1,3 @@
+Make "compress" configurable in SpdyProxyProtocol
+
+I tried to setup SpdyProtocol in Tomcat and make it cordinating with HAProxy. Spdy from tomcat 8 supports NPN(Next Protocol Negotiation) by using JNI modules from APR. It's not easy to deploy APR in different System. So we are tring to make NPN running in Load Balancer and Tomcat 8 only takes the role of pure SPDY server. Here is the detail of this model. http://www.igvita.com/2012/10/31/simple-spdy-and-npn-negotiation-with-haproxy/ HAProxy takes the role of Load Balancer and it supports NPN. HAProxy talks with SPDY server in "compress" mode. However the "compress" mode can't be configurable in SpdyProxyProtocol. So I suggest let's make it configurable. Attached a patch for this enhancment.

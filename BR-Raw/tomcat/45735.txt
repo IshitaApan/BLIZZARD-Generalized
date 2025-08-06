@@ -1,0 +1,3 @@
+Updated ResourceAttributes.getETag
+
+After looking at a user's list post, I noticed the implementation was not consistent with the other getters (like getName). I propose changing it to: public String getETag(boolean strong) { if (strong) { // The strong ETag must always be calculated by the resources if (strongETag != null) return strongETag; if (attributes != null) { Attribute attribute = attributes.get(ETAG); if (attribute != null) { try { strongETag = attribute.get().toString(); } catch (NamingException e) { ; // No value for the attribute } } } return strongETag; } else { // The weakETag is contentLenght + lastModified if (weakETag == null) { weakETag = "W/\"" + getContentLength() + "-" + getLastModified() + "\""; } return weakETag; } }

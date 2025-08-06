@@ -1,0 +1,3 @@
+Unnecessary work in JspConfig
+
+JspProperty is the same for all url patterns in a group; the current code creates a new one each iteration

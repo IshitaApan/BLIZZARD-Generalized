@@ -1,0 +1,3 @@
+RequestUtil.URLDecode(byte[] bytes, String enc)
+
+the enc is not used in the implementation public static String URLDecode(byte[] bytes, String enc) { return URLDecode(bytes, null, false); }

@@ -1,0 +1,3 @@
+[websocket] SOE in NioEndpoint
+
+Created attachment 30581 StackOverflowError websocket load test reveals StackOverflowError in NioEndpoint

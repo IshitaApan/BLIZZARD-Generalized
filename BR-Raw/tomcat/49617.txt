@@ -1,0 +1,3 @@
+Fix ExpiresFilter docs (remove remaining ExpiresActive reference)
+
+Remove the last references to the removed configuration parameter ExpiresActive.

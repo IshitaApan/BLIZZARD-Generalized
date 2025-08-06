@@ -1,0 +1,3 @@
+if you install tomcat in a directory with spaces it ignores TLD files inside jar files
+
+if you install tomcat or a web application in a directory with spaces in the name, for example "C:\Program Files\vds\tomcat" for tomcat or "C:\Program Files\vds\console" for a web application. the TLD files that are inside the META-INF directory of the jar files will not be loaded. the problem is is the file treatment inside the TldConfig class ... I have attached a patch with the correction. this bug is found in Tomcat 6 too

@@ -1,0 +1,3 @@
+Cannot jspc precompile jsps with nested .tag files
+
+myjsp.jsp: HELLO <tag1/> tag1.tag: <tag2> tag2.tag: WORLD Crashes (null pointer) while trying to load tag2.class, called by TagFileProcessor.loadTagFile. Very Initial analysis:- TagFileProcessor.loadTagFile creates wrapper, but ctxt.getTagFileJarUrl (tagFilePath) returns null for nested .tag. Thus in JspCompilationContext.Compile JspCCtx.isPackagedFile == false, so outDated test is wrong So tag2.tag not compiled, thus class cannot be loaded. But problem also appears if tags not packaged in a .jar, so there is more going on. Work around is to create dummy.jsp that calls the .tags in leaf first order so .class files are created.

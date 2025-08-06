@@ -1,0 +1,3 @@
+<jsp:plugin> error
+
+<jsp:plugin type="applet"> generates type="application/x-java-applet;" instead of type = "application/x-java-applet". Firefox with Java-plugin cannot display Java applets because ";" is added.

@@ -1,0 +1,3 @@
+Enhancement to set security-provider within AjpAprProcessor
+
+Created attachment 26742 Patches to set a securityProvider We need support of X.509 certificates using elliptic curves for client-auth within an servlet-application. The certificates we use are coded using DomainParameters within the PublicKey object. When using the sun-jdk this will lead to an error because the sun-jce implementation only supports elliptic curves as NamedCurves. The best way to fix this is to use another security-provider e.g. bouncycastle. For that we need a way to configure it within tomcat.

@@ -1,0 +1,3 @@
+RemoteIpValve : remoteIpHeader vs remoteIPHeader
+
+In the doc for the RemoteIpValve (http://tomcat.apache.org/tomcat-6.0-doc/config/valve.html), the remoteIPHeader attribute is mentionned, but actually it should be remoteIpHeader (notice the lowercase "p") since the setter method is setRemoteIpHeader(..).

@@ -1,0 +1,3 @@
+Same env-entry (web.xml) and ResourceLink (context) names causes NPE
+
+Having the following in web.xml: <env-entry> <env-entry-name>testIt</env-entry-name> <env-entry-type>java.lang.String</env-entry-type> <env-entry-value>test</env-entry-value> </env-entry> and the following in your context descriptor: <ResourceLink name="testIt" global="testIt" type="java.lang.String"/> causes an NPE on context load. java.lang.NullPointerException 	at org.apache.catalina.deploy.NamingResources.addEnvironment(NamingResources.java:188) 	 This assumes you have an entry for 'testIt' in the <GlobalNamingResources> section of server.xml to link to. This worked in 5.5.20. No longer works in 5.5.23.

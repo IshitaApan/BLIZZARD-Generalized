@@ -1,0 +1,3 @@
+Test failures on Windows 7, 24 thread system
+
+testPoolThreads20Connections10FairAsync [junit] java.sql.SQLException: [tomcat-pool-10] NoWait: Pool empty. Unable to fetch a connection, none available[10 in use]. [junit] at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:615) [junit] at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnectionAsync(ConnectionPool.java:143) [junit] at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnectionAsync(DataSourceProxy.java:122) [junit] at org.apache.tomcat.jdbc.test.FairnessTest$TestThread.run(FairnessTest.java:231)

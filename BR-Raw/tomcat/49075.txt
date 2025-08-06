@@ -1,0 +1,3 @@
+protected Class User doesn't check argument roles for null
+
+Created attachment 25246 check for null to guard Collections.unmodifiableList If roles is null, Collections.unmodifiableList will throw a NPE.

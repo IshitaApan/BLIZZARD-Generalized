@@ -1,0 +1,3 @@
+junit test ignores failures in threads
+
+Created attachment 25328 channel exceptions from different threads to main junit thread org.apache.catalina.tribes.test.interceptors.TestOrderInterceptor#testOrder2 starts a few threads to test concurrently sending events to one destination. It tries to make the junit test case fail in case of an exception. Junit will not see those failures, since they are in different threads. Attached patch will channel the exception to main junit thread, which can call fail() if exceptions were catched. It will log only the first exception in the queue.

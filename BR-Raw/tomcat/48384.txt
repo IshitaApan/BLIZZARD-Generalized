@@ -1,0 +1,3 @@
+globalXsltFile parameter for the DefaultServlet
+
+When overriding the DefaultServlet for a given application, the globalXsltFile path need to be relative to Tomcat root. for example: <init-param> <param-name>globalXsltFile</param-name> <param-value>webapps/quercus/WEB-INF/listing.xsl</param-value> </init-param> it would be nice if the path could be relative to the application context.
