@@ -65,3 +65,7 @@ Problems solved:
 Not in Github repo because of size issue (code to reproduce is described above)
 1. Corpus
 2. Lucene-Index 
+
+
+TODO: i've written code for saving a file "ReportGroup/ReportGroupLists.txt" with the information of [project] <space> [Bug_id] <space> [ReportGroup]
+need to crosscheck whether it works, didn't test.

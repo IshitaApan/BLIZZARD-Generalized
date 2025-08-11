@@ -12,6 +12,8 @@ public class BLIZZARDQueryManager {
 	HashMap<Integer, String> reportMap;
 	HashMap<Integer, String> reportTitleMap;
 	HashMap<Integer, String> suggestedQueryMap;
+	public ArrayList<String> suggestedReportClasList;
+
 
 	public BLIZZARDQueryManager(String repoName, String bugIDFile) {
 		this.repoName = repoName;
@@ -20,6 +22,7 @@ public class BLIZZARDQueryManager {
 		this.reportTitleMap = new HashMap<Integer, String>();
 		this.reportMap = loadReportMap();
 		this.reportTitleMap = loadReportTitleMap(reportMap);
+		this.suggestedReportClasList = new ArrayList<>();
 	}
 
 	protected String extractTitle(String reportContent) {
@@ -60,6 +63,7 @@ public class BLIZZARDQueryManager {
 			String suggestedQuery = provider.provideBLIZZARDQuery();
 			System.out.println("Done: " + bugID);
 			this.suggestedQueryMap.put(bugID, suggestedQuery);
+			this.suggestedReportClasList.add(repoName + " " + bugID + " " + provider.reportGroup);
 		}
 		System.out.println("Query Reformulation completed successfully :-)");
 		return this.suggestedQueryMap;

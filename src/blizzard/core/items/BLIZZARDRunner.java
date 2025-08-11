@@ -6,6 +6,7 @@ import blizzard.utility.ContentWriter;
 import blizzard.query.BLIZZARDQueryManager;
 import blizzard.query.evaluation.BLIZZARDResultProvider;
 import blizzard.query.evaluation.ReportedPerformanceProvider;
+import blizzard.config.StaticData;
 
 public class BLIZZARDRunner {
 
@@ -17,6 +18,11 @@ public class BLIZZARDRunner {
 			results.add(line);
 		}
 		ContentWriter.writeContent(outputFile, results);
+	}
+	public static void appendItems(String outputFile,
+			ArrayList<String> content) {
+		
+		ContentWriter.appendContent(outputFile, content);
 	}
 
 	public static void saveItemList(String outputFile,
@@ -84,9 +90,12 @@ public class BLIZZARDRunner {
 
 				if (!repoName.isEmpty() && !bugIDFile.isEmpty()
 						&& !queryFile.isEmpty()) {
-					HashMap<Integer, String> suggestedQueries = new BLIZZARDQueryManager(
-							repoName, bugIDFile).getSuggestedQueries();
+					BLIZZARDQueryManager queryManager = new BLIZZARDQueryManager(
+							repoName, bugIDFile);
+					HashMap<Integer, String> suggestedQueries = queryManager
+							.getSuggestedQueries();
 					saveItems(queryFile, suggestedQueries);
+					appendItems(StaticData.ReportGroup_File, queryManager.suggestedReportClasList);
 				}
 				break;
 			case "getResult":
