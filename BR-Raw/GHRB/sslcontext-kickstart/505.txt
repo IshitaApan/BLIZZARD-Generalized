@@ -1,0 +1,13 @@
+LoggingX509ExtendedTrustManager should log CertificateException
+
+**Is your feature request related to a problem? Please describe.**
+[LoggingX509ExtendedTrustManager](https://github.com/Hakky54/sslcontext-kickstart/blob/cb5edd6dfea8edf9a120c1fede1abcc860a36698/sslcontext-kickstart/src/main/java/nl/altindag/ssl/trustmanager/LoggingX509ExtendedTrustManager.java#L37) should log CertificateException thrown by the delegate.
+
+**Describe the solution you'd like**
+Apply try/catch to each delegate call and log the exception. Log message should include brief detail of the certificate like CN
+
+**Describe alternatives you've considered**
+None
+
+**Additional context**
+Add any other context or screenshots about the feature request here.

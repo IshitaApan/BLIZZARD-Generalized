@@ -1,0 +1,5 @@
+Using hash as revision for DISTRO data verification
+
+Sometimes client data may not be synced properly via DISTRO verification.
+
+Using hash as ephemeral client's revision for distro data verification.

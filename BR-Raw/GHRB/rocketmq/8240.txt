@@ -1,0 +1,43 @@
+[Bug] In the case of single-replica synchronous disk flushing, messages may be lost during a crash
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+All platforms
+
+### RocketMQ version
+
+All versions
+
+### JDK Version
+
+Not related to the JDK version
+
+### Describe the Bug
+
+![image](https://github.com/apache/rocketmq/assets/21963954/d25e5531-ef06-4b33-bb11-165092885461)
+As shown in the image, the consumer might read unflushed messages, leading to premature consumption and a forward shift of the consumption offset. After a crash, the consumeQueue may roll back, and new messages could have a chance of not being consumed.
+
+### Steps to Reproduce
+
+In a single-replica scenario with synchronous disk flushing configured, send a message and perform a crash test to check for message loss.
+
+### What Did You Expect to See?
+
+No Messages lost.
+
+### What Did You See Instead?
+
+Messages lost.
+
+### Additional Context
+
+Under the condition of synchronous disk flushing, unflushed messages should be unacknowledged messages. Such messages should not be consumed prematurely, as this would lead to the consumption offset moving forward, resulting in potential phantom reads or message loss on the consumer side.

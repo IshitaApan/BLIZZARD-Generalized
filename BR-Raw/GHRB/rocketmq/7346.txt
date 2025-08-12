@@ -1,0 +1,49 @@
+[Bug] wrong result of searchOffset in tiered storage
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+Ubuntu
+
+### RocketMQ version
+
+5.1.0
+
+### JDK Version
+
+1.8.0
+
+### Describe the Bug
+
+There are 3 segments in fileSegmentList, TieredFlatFile.getFileByTime(timestamp=0, boundaryType=LOWER) should return the first segment, but now returns the last segment.
+
+![image](https://github.com/apache/rocketmq/assets/14816818/61133d1e-27b2-4f04-a781-a17f91d7c939)
+
+
+### Steps to Reproduce
+
+1. start broker with tiered storage
+2. send some messages.
+3. use consumer.searchOffset to search offset with parameter timestamp=0, boundaryType=LOWER
+
+### What Did You Expect to See?
+
+searchOffset  should return min offset.
+
+
+### What Did You See Instead?
+
+searchOffset not returns min offset.
+
+
+### Additional Context
+
+_No response_

@@ -1,0 +1,79 @@
+[Bug] Retries of revive process are not executed in backoff pattern as expected
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+macos/centos
+
+### RocketMQ version
+
+develop
+
+### JDK Version
+
+1.8
+
+### Describe the Bug
+
+When pop consumption based on rocksdb is enabled, retries of revive process are not executed in backoff pattern as expected.
+
+### Steps to Reproduce
+
+org.apache.rocketmq.broker.pop.PopConsumerServiceTest
+```
+@Test
+public void test() {
+    Mockito.when(brokerController.getEscapeBridge()).thenReturn(Mockito.mock(EscapeBridge.class));
+    PopConsumerService consumerServiceSpy = Mockito.spy(consumerService);
+
+    consumerService.getPopConsumerStore().start();
+
+    long popTime = 1000000000L;
+    long invisibleTime = 60 * 1000L;
+    PopConsumerRecord record = new PopConsumerRecord();
+    record.setPopTime(popTime);
+    record.setInvisibleTime(invisibleTime);
+    record.setTopicId("topic");
+    record.setGroupId("group");
+    record.setQueueId(0);
+    record.setOffset(0);
+    consumerService.getPopConsumerStore().writeRecords(Collections.singletonList(record));
+
+    Mockito.doReturn(CompletableFuture.completedFuture(Triple.of(Mockito.mock(MessageExt.class), "", false)))
+        .when(consumerServiceSpy).getMessageAsync(any(PopConsumerRecord.class));
+    Mockito.when(brokerController.getEscapeBridge().putMessageToSpecificQueue(any(MessageExtBrokerInner.class))).thenReturn(
+        new PutMessageResult(PutMessageStatus.UNKNOWN_ERROR, new AppendMessageResult(AppendMessageStatus.UNKNOWN_ERROR))
+    );
+
+    long visibleTimestamp = popTime + invisibleTime;
+
+    // revive fails
+    Assert.assertEquals(1, consumerServiceSpy.revive(visibleTimestamp, 1));
+    // should be invisible now
+    Assert.assertEquals(0, consumerService.getPopConsumerStore().scanExpiredRecords(visibleTimestamp, 1).size());
+    // will be visible again in 10 seconds
+    Assert.assertEquals(1, consumerService.getPopConsumerStore().scanExpiredRecords(visibleTimestamp + 10 * 1000, 1).size());
+
+    consumerService.shutdown();
+}
+```
+
+### What Did You Expect to See?
+
+Retry in backoff pattern.
+
+### What Did You See Instead?
+
+Retry immediately.
+
+### Additional Context
+
+_No response_

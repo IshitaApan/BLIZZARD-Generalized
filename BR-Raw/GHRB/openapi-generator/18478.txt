@@ -1,0 +1,106 @@
+[BUG][JAVA] Prevent generating "pattern" and "size" to ENUM
+
+#### Bug Report Checklist
+
+- [x] Have you provided a full/minimal spec to reproduce the issue?
+- [x] Have you validated the input using an OpenAPI validator ([example](https://apidevtools.org/swagger-parser/online/))?
+- [x] Have you [tested with the latest master](https://github.com/OpenAPITools/openapi-generator/wiki/FAQ#how-to-test-with-the-latest-master-of-openapi-generator) to confirm the issue still exists?
+- [x] Have you searched for related issues/PRs?
+- [x] What's the actual output vs expected output?
+- [ ] [Optional] Sponsorship to speed up the bug fix or feature request ([example](https://github.com/OpenAPITools/openapi-generator/issues/6178))
+
+
+##### Description
+
+Related to this [issue](https://github.com/OpenAPITools/openapi-generator/issues/18095), in addition to the types already excluded, we should add the case of those listed below
+
+##### openapi-generator version
+
+7.5.0
+
+##### OpenAPI declaration file content or url
+
+```yaml
+openapi: 3.0.6
+
+info:
+  title: My service
+  version: 2.0.0
+  description: Layer API
+
+    
+paths:
+  /api/v1/products:
+    post:
+      summary: My summary
+      operationId: operationId1
+      requestBody:
+        description: Request Body
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Product"
+      responses:
+        "200":
+          description: OK status
+  
+components:    
+  schemas:   
+    Product:
+      properties:
+        types:
+          type: array
+          maxItems: 1000
+          minItems: 1
+          items:
+            $ref: "#/components/schemas/TypeEnum"    
+    TypeEnum:
+      type: string
+      maxLength: 2147483647
+      enum:
+        - TYPE_1
+        - TYPE_2
+```
+
+##### Generation Details
+
+```
+java -jar openapi-generator-cli-7.5.0.jar generate -g spring -i spec.yaml -o tmp --additional-properties library=spring-boot
+```
+
+##### Steps to reproduce
+
+. Generate source:
+```java
+@JsonTypeName("Product")
+@Generated(value = "com.inditex.amigafwk.common.rest.server.codegen.AmigaSpringCodegen", date = "2024-04-24T10:22:47.180348556+02:00[Europe/Madrid]")
+public class ProductDTO implements Serializable {
+
+  private static final long serialVersionUID = 1L;
+
+  @Valid
+  private List<@Size(max = 2147483647)TypeEnumDTO> types; // Incorrect constraint
+
+//...
+```
+
+Trace:
+```java
+jakarta.servlet.ServletException: Request processing failed: jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.Size' validating type ...'
+
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+```
+
+##### Related issues/PRs
+
+- https://github.com/OpenAPITools/openapi-generator/issues/18095
+
+##### Suggest a fix
+
+Add enums to ModelsUtils#shouldIgnoreBeanValidation

@@ -1,0 +1,36 @@
+When `Include.NON_DEFAULT` setting is used, `isEmpty()` method is not called on the serializer
+
+### Search before asking
+
+- [X] I searched in the [issues](https://github.com/FasterXML/jackson-databind/issues) and found nothing similar.
+
+### Describe the bug
+
+Documentation says that when Include.NON_DEFAULT is used, null, empty and default values of a property are skipped on serialization. It is not clear how the empty check is done because the isEmpty method of the serializer is called only when Include.NON_EMPTY is used explicitly.
+
+I have a case where I set Include.NON_DEFAULT globally on the ObjectMapper, and I have implemented a custom serializer to override the isEmpty method and thus let Jackson know when my object is empty. But my custom implementation of the isEmpty method is not called.
+The only way to have it called by Jackson is to explicitly override the property inclusion configuration and use NON_EMPTY instead of the global NON_DEFAULT.
+
+### Version Information
+
+2.15.3
+
+### Reproduction
+
+<-- Any of the following
+1. Brief code sample/snippet: include here in preformatted/code section
+2. Longer example stored somewhere else (diff repo, snippet), add a link
+3. Textual explanation: include here
+ -->
+```java
+// Your code here
+``` 
+
+
+### Expected behavior
+
+_No response_
+
+### Additional context
+
+_No response_

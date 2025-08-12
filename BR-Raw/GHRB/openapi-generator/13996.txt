@@ -1,0 +1,101 @@
+[BUG] [Python] Generated files with syntax errors if spec contains 204 response
+
+#### Bug Report Checklist
+
+- [x] Have you provided a full/minimal spec to reproduce the issue?
+- [x] Have you validated the input using an OpenAPI validator ([example](https://apidevtools.org/swagger-parser/online/))?
+- [x] Have you [tested with the latest master](https://github.com/OpenAPITools/openapi-generator/wiki/FAQ#how-to-test-with-the-latest-master-of-openapi-generator) to confirm the issue still exists?
+- [x] Have you searched for related issues/PRs?
+- [x] What's the actual output vs expected output?
+- [ ] [Optional] Sponsorship to speed up the bug fix or feature request ([example](https://github.com/OpenAPITools/openapi-generator/issues/6178))
+
+<!--
+Please follow the issue template below for bug reports.
+Also please indicate in the issue title which language/library is concerned. Eg:  [BUG][JAVA] Bug generating foo with bar 
+-->
+
+##### Description
+
+<!-- describe what is the question, suggestion or issue and why this is a problem for you. -->
+
+Generated `python` codes have syntax errors when a spec file contains `204 No Content` response.
+This is caused by type hint `typing.Union` without any type arguments.
+
+```python
+@dataclass
+class ApiResponseFor204(api_client.ApiResponse):
+    response: urllib3.HTTPResponse
+    body: typing.Union[ # syntax error
+    ]
+    headers: schemas.Unset = schemas.unset
+```
+
+(Note: `typing.Union` requires one or more type arguments https://docs.python.org/3/library/typing.html#typing.Union)
+
+##### openapi-generator version
+
+<!-- which version of openapi-generator are you using, is it a regression? -->
+
+v6.2.1 (and master branch)
+
+##### OpenAPI declaration file content or url
+
+<!-- if it is a bug, a json or yaml that produces it.
+If you post the code inline, please wrap it with
+```yaml
+(here your code)
+```
+(for YAML code) or
+```json
+(here your code)
+```
+(for JSON code), so it becomes more readable. If it is longer than about ten lines,
+please create a Gist (https://gist.github.com) or upload it somewhere else and
+link it here.
+  -->
+
+Gist link: https://gist.githubusercontent.com/Syuparn/0a9d22599b087f61ddfd5beb7bcbc26a/raw/62d003fc54d8df3e97251d6e33103b89a738fd7c/sample.yaml
+
+This is originated from  https://swagger.io/docs/specification/2-0/describing-responses/ `Empty Response Body` sample.
+
+##### Generation Details
+
+<!-- 
+    Prefer CLI steps, including the language, libraries and various options. 
+    Providing config-based settings allows for simpler testing across CLI and plugins. 
+    For examples, see https://github.com/OpenAPITools/openapi-generator/tree/master/bin/configs
+-->
+
+##### Steps to reproduce
+
+<!-- unambiguous set of steps to reproduce the bug.-->
+
+```bash
+$ docker run --rm -v "${PWD}:/local" openapitools/openapi-generator-cli generate \
+     -i https://gist.githubusercontent.com/Syuparn/0a9d22599b087f61ddfd5beb7bcbc26a/raw/62d003fc54d8df3e97251d6e33103b89a738fd7c/sample.yaml \
+     -g python \
+     -o /local/out/python
+```
+
+`out/python/openapi_client/paths/report/delete.py` has the syntax errors written above.
+
+##### Related issues/PRs
+
+- https://github.com/OpenAPITools/openapi-generator/issues/12265
+- https://github.com/OpenAPITools/openapi-generator/pull/12287
+
+##### Suggest a fix
+
+<!-- if you can't fix the bug yourself, perhaps you can point to what might be
+  causing the problem (line of code or commit), or simply make a suggestion -->
+
+This type hint should be `schemas.Unset`. Template is intended to render `schemas.Unset` type hint when a body (`content`) is empty.
+
+https://github.com/OpenAPITools/openapi-generator/blob/master/modules/openapi-generator/src/main/resources/python/endpoint.handlebars#L164
+
+However, this is unexpectedly treated as non-empty value because `content`, which is `LinkedHashMap`, is always treated as truthy by conditional blocks `{{#if}}`, `{{#or}}`, and, `{{#and}}`.
+
+- definition of `content` key https://github.com/OpenAPITools/openapi-generator/blob/master/modules/openapi-generator/src/main/java/org/openapitools/codegen/CodegenResponse.java#L92
+- handlebars function definition (used for `{{#if}}`, `{{#or}}`, `{{#and}}` blocks):  https://github.com/jknack/handlebars.java/blob/master/handlebars/src/main/java/com/github/jknack/handlebars/Handlebars.java#L200
+
+To fix the issue, we need another way to check whether `content` is empty (adding boolean flag `hasContent` to `CodegenResponse`  class for example).

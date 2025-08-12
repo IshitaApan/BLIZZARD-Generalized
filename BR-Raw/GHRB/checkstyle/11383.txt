@@ -1,0 +1,62 @@
+False positive: SummaryJavadocCheck
+
+From [comment1](https://github.com/checkstyle/checkstyle/pull/11051/files#r775167621) and [comment2](https://github.com/checkstyle/checkstyle/pull/11051/files#r775200466)
+I have read check documentation: https://checkstyle.sourceforge.io/config_javadoc.html#SummaryJavadoc
+I have downloaded the latest checkstyle from: https://checkstyle.org/cmdline.html#Download_and_Run
+I have executed the cli and showed it below, as cli describes the problem better than 1,000 words
+
+```bash
+/var/tmp $ javac Test2.java
+
+/var/tmp $ cat config.xml
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+        "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+        "https://checkstyle.org/dtds/configuration_1_3.dtd">
+<module name="Checker">
+    <module name="TreeWalker">
+        <module name="SummaryJavadocCheck"/>
+    </module>
+</module>
+
+/var/tmp $ cat Test2.java
+// unexpected violation below
+/**
+ * This is the actual summary.
+ * {@summary This is wrong usage}
+ */
+public class Test2 {
+}
+
+// expected violation below
+/**
+ * This is summary
+ */
+class foo {
+}
+
+/var/tmp $ RUN_LOCALE="-Duser.language=en -Duser.country=US"
+/var/tmp $ java $RUN_LOCALE -jar checkstyle-9.2.1-all.jar -c config.xml Test2.java
+Starting audit...
+[ERROR] /home/vyom/IdeaProjects/ConfigCheckstyle/src/TestP/Test2.java:2: Summary of Javadoc is missing an ending period. [SummaryJavadoc]
+[ERROR] /home/vyom/IdeaProjects/ConfigCheckstyle/src/TestP/Test2.java:10: First sentence of Javadoc is missing an ending period. [SummaryJavadoc]
+Audit done.
+Checkstyle ends with 2 errors.
+```
+---
+
+**Describe what you expect in detail.**
+```
+Starting audit...
+[ERROR] /home/vyom/IdeaProjects/ConfigCheckstyle/src/TestP/Test2.java:10: First sentence of Javadoc is missing an ending period. [SummaryJavadoc]
+Audit done.
+```
+
+If the first line is present then `@summary` is ignored, though a warning is given by the Javadoc tool.
+```
+Test.java:4: warning: invalid use of @summary
+     * {@summary This is wrong usage}
+```
+see all details at https://github.com/checkstyle/checkstyle/pull/11051#discussion_r775167621
+
+Expected: only violation on second javadoc

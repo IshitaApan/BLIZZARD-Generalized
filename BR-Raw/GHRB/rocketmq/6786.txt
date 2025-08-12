@@ -1,0 +1,42 @@
+[Bug] The subscription data of Remoting may overlap in proxy
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+Ubuntu
+
+### RocketMQ version
+
+branch: develop
+
+### JDK Version
+
+OpenJDK 1.8
+
+### Describe the Bug
+
+For the order version client of remoting, the channel is shared between different pushConsumers. As a result, subscription data from different groups may overlap when receiving channel data from other proxies.
+
+### Steps to Reproduce
+
+Start two remoting pushConsumers with different groups with proxy
+
+### What Did You Expect to See?
+
+The subscription data is consistent with the subscription set in the client
+
+### What Did You See Instead?
+
+The subscription data is not consistent with the subscription set in the client
+
+### Additional Context
+
+_No response_

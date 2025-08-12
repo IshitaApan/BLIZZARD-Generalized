@@ -1,0 +1,47 @@
+[Bug] Consumer send message back failed due to mistaken permission check
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+Centos 7
+
+### RocketMQ version
+
+5.2.0
+
+### JDK Version
+
+1.8
+
+### Describe the Bug
+
+<img width="1971" alt="image" src="https://github.com/apache/rocketmq/assets/103550934/6f7cff5e-c821-4d9d-824f-c9afdfc16770">
+
+<img width="1236" alt="image" src="https://github.com/apache/rocketmq/assets/103550934/e4f66009-863b-4740-85fb-0a5202b01acc">
+
+Why gengrate retry topic by producer group? IMO, using the topic in request is just fine.
+
+
+### Steps to Reproduce
+
+/
+
+### What Did You Expect to See?
+
+/
+
+### What Did You See Instead?
+
+/
+
+### Additional Context
+
+_No response_

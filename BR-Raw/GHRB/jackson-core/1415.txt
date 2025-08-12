@@ -1,0 +1,11 @@
+More cases of Non-blocking parser reporting incorrect locations when fed with non-zero offset
+
+Related to https://github.com/FasterXML/jackson-core/issues/531 -- it looks like there's still an offset calculation glitch when `ByteArrayFeeder.feed()` is called with a non-zero array offset.
+
+Jackson version: 2.18.3
+
+I've attached a slightly more comprehensive unit test. `feedByteByByteFromOffsetZero()` passes, but the others fail.
+
+Thanks!
+
+[ByteArrayFeederOffsetTest.java.txt](https://github.com/user-attachments/files/19330280/ByteArrayFeederOffsetTest.java.txt)

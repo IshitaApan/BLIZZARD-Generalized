@@ -1,0 +1,90 @@
+[Bug] After a producer sends a message and deletes the Topic, the Topic remains in the producer's topicPublishInfoTable, continuously triggering warning logs during topic route updates
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+Windows 11
+
+### RocketMQ version
+
+newest develop branch
+
+### JDK Version
+
+JDK8
+
+### Describe the Bug
+
+After a producer sends a message to a Topic and then deletes that Topic, the Topic will not be removed from the producer's topicPublishInfoTable. Each time the Topic routing information is updated, warning logs will continue to be printed.
+
+### Steps to Reproduce
+
+1. create a topic called `TopicTest`
+2. create a producer and send a message on this topic
+3. delete topic `TopicTest`
+4. keep the process and the producer running
+5. retrieve rocketmqclient.log file
+
+### What Did You Expect to See?
+
+no warning log, and `TopicTest` was removed from `topicPublishInfoTable` in the producer
+
+### What Did You See Instead?
+
+warning log
+```log
+2024-04-16 15:16:41.784 WARN  [157104] [MQClientFactoryScheduledThread] [o.a.r.c.i.MQClientAPIImpl#?:?] - get Topic [TopicTest] RouteInfoFromNameServer is not exist value
+2024-04-16 15:16:41.784 WARN  [157104] [MQClientFactoryScheduledThread] [o.a.r.c.i.f.MQClientInstance#?:?] - updateTopicRouteInfoFromNameServer Exception
+org.apache.rocketmq.client.exception.MQClientException: CODE: 17  DESC: No topic route info in name server for the topic: TopicTest
+See https://rocketmq.apache.org/docs/bestPractice/06FAQ for further details.
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.getTopicRouteInfoFromNameServer(MQClientAPIImpl.java:2024)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.getTopicRouteInfoFromNameServer(MQClientAPIImpl.java:1995)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:781)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:573)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:410)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.lambda$startScheduledTask$3(MQClientInstance.java:344)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-16 15:17:11.768 WARN  [157104] [MQClientFactoryScheduledThread] [o.a.r.c.i.MQClientAPIImpl#?:?] - get Topic [TopicTest] RouteInfoFromNameServer is not exist value
+2024-04-16 15:17:11.768 WARN  [157104] [MQClientFactoryScheduledThread] [o.a.r.c.i.f.MQClientInstance#?:?] - updateTopicRouteInfoFromNameServer Exception
+org.apache.rocketmq.client.exception.MQClientException: CODE: 17  DESC: No topic route info in name server for the topic: TopicTest
+See https://rocketmq.apache.org/docs/bestPractice/06FAQ for further details.
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.getTopicRouteInfoFromNameServer(MQClientAPIImpl.java:2024)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.getTopicRouteInfoFromNameServer(MQClientAPIImpl.java:1995)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:781)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:573)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:410)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.lambda$startScheduledTask$3(MQClientInstance.java:344)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+```
+
+and `TopicTest` still in `topicPublishInfoTable` in the producer
+
+### Additional Context
+
+The reason is
+After the producer sends messages to a topic, the topic will be saved info `topicPublishInfoTable` in the producer.
+When updating the topic route from nameserver, the client instance will find the topic does not exist and throw an exception.
+
+https://github.com/apache/rocketmq/blob/ac5545cca47d4075c1f4e6f9bbdcbe9b34da5465/client/src/main/java/org/apache/rocketmq/client/impl/factory/MQClientInstance.java#L765-L839
+
+https://github.com/apache/rocketmq/blob/ac5545cca47d4075c1f4e6f9bbdcbe9b34da5465/client/src/main/java/org/apache/rocketmq/client/impl/MQClientAPIImpl.java#L1998-L2025

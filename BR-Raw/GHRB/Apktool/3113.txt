@@ -1,0 +1,5 @@
+Update for VanillaIceCream
+
+https://github.com/aosp-mirror/platform_frameworks_base/commit/1dd09eb77941713254f5c0192d1332c5826dd3f9
+
+ * Also support `UpsideDownCake`

@@ -1,0 +1,61 @@
+Regression: CyclomaticComplexity.switchBlockAsSingleDecisionPoint does not work properly anymore (10.21.1)
+
+I have read check documentation: https://checkstyle.org/checks/metrics/cyclomaticcomplexity.html
+I have downloaded the latest checkstyle from: https://checkstyle.org/cmdline.html#Download_and_Run
+I have executed the cli and showed it below, as cli describes the problem better than 1,000 words
+
+```bash
+/var/tmp $ javac Test.java
+Successfully compiled with JDK 21
+
+/var/tmp $ cat config.xml
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+        "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+<module name="Checker">
+    <property name="charset" value="UTF-8"/>
+    <module name="TreeWalker">
+        <module name="CyclomaticComplexity">
+            <property name="max" value="3"/>
+            <property name="switchBlockAsSingleDecisionPoint" value="true"/>
+        </module>
+    </module>
+</module>
+
+/var/tmp $ cat Test.java
+public class Test {
+    // Passed: Cyclomatic Complexity is 2
+    void test(Object obj) { // 1, method declaration
+        switch (obj) { // 2, switch
+            case Integer i -> System.out.println("Integer: " + i);
+            case String s -> System.out.println("String " + s);
+            default -> System.out.println("none");
+        }
+    }
+
+    // Violation: Cyclomatic Complexity is 4, but must be 2 since
+    // switchBlockAsSingleDecisionPoint = true and "when" literals must not be counted
+    void test2(Object obj1, Object obj2) { // 1, method declaration
+        switch (obj1) { // 2, switch
+            case Integer i1 when obj2 instanceof Integer i2 -> System.out.println("Integers: %d, %d".formatted(i1, i2));
+            case String s1 when obj2 instanceof String s2 -> System.out.println("Strings: %s, %s".formatted(s1, s2));
+            default -> System.out.println("none");
+        }
+    }
+}
+
+/var/tmp $ RUN_LOCALE="-Duser.language=en -Duser.country=US"
+/var/tmp $ java $RUN_LOCALE -jar checkstyle-10.21.1-all.jar -c config.xml Test.java
+Starting audit...
+[ERROR] /var/tmp/Test.java:13:5: Cyclomatic Complexity is 4 (max allowed is 3). [CyclomaticComplexity]
+Audit done.
+Checkstyle ends with 1 errors.
+```
+---
+
+switchBlockAsSingleDecisionPoint is set to true in config.xml, so switch block should be treated as a single decision point.
+However, in case of "test2" method "when" literals are counted, when must not.
+This is regression after fix of #15341
+
+---

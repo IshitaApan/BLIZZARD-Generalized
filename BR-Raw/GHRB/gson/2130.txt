@@ -1,0 +1,9 @@
+JsonWriter don't work correctly with float
+
+float x = 3.723379;
+JsonWriter writer = ...
+writer.value(x); //is will call value(double value), so it will wrong
+result is 3.723378896713257
+
+Please add new function for float.
+Thank you.

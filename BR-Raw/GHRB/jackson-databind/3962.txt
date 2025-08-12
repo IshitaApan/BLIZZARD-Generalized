@@ -1,0 +1,63 @@
+Incorrect target type when disabling coercion, trying to deserialize String from Array/Object
+
+When disabling coercions and providing a wrong type on an array element, the error message is specifying that we are trying to coerce the type of the array when it should mention we are trying to coerce the type of the element of the array. See the example below. This is another instance of https://github.com/FasterXML/jackson-databind/issues/3690/.
+
+```
+// Test class.
+public static class Input<T> {
+    private T field;
+
+    public T getField() {
+        return field;
+    }
+
+    public void setField(T field) {
+        this.field = field;
+    }
+}
+
+// Building a strict ObjectMapper.
+ObjectMapper objectMapper = JsonMapper.builder()
+    .withCoercionConfigDefaults(config -> {
+        config.setCoercion(CoercionInputShape.Boolean, CoercionAction.Fail)
+            .setCoercion(CoercionInputShape.Integer, CoercionAction.Fail)
+            .setCoercion(CoercionInputShape.Float, CoercionAction.Fail)
+            .setCoercion(CoercionInputShape.String, CoercionAction.Fail)
+            .setCoercion(CoercionInputShape.Array, CoercionAction.Fail)
+            .setCoercion(CoercionInputShape.Object, CoercionAction.Fail);
+    })
+    .build();
+TypeFactory typeFactory = objectMapper.getTypeFactory();
+
+// Test.
+JavaType arrayType = typeFactory.constructParametricType(List.class, String.class);
+JavaType inputType = typeFactory.constructParametricType(Input.class, arrayType);
+try {
+    // Returns class java.lang.String + VALUE_NUMBER_INT -> correct.
+    objectMapper.readValue("{ \"field\": [ 1 ] }", inputType);
+    // Returns class java.util.ArrayList + START_ARRAY -> was expecting target type to be String.
+    objectMapper.readValue("{ \"field\": [ [ 1 ] ] }", inputType);
+    // Returns class java.util.ArrayList + START_OBJECT -> was expecting target type to be String.
+    objectMapper.readValue("{ \"field\": [ { \"field\": 1 } ] }", inputType);
+} catch (MismatchedInputException exception) {
+    JsonParser parser = (JsonParser) exception.getProcessor();
+    System.out.println(exception.getTargetType());
+    System.out.println(parser.currentToken());
+}
+
+// A truly strict String parser.
+// If we register this deserializer in the ObjectMapper above we will then get the expected target type.
+public class StringDeserializer extends JsonDeserializer<String> {
+    @Override
+    public String deserialize(JsonParser parser, DeserializationContext context) throws IOException {
+        if (!parser.hasToken(VALUE_STRING)) {
+            throw context.wrongTokenException(parser, String.class, VALUE_STRING, null);
+        }
+
+        return parser.getText();
+    }
+}
+```
+
+This is our test suite for JSON strict parsing which we have used to open many such issues in the past, in case you want to take inspiration for Jackson tests.
+[Test.zip](https://github.com/FasterXML/jackson-databind/files/11461536/Test.zip)

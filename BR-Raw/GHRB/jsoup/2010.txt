@@ -1,0 +1,5 @@
+formData retrieves "input type=image" incorrectly
+
+Method "formData()" from FormElement retrieve "input type=image" incorrectly
+
+In the HTML form, in the submission form "input type=image" is not sent in the body, but using jsoup it is retrieved.

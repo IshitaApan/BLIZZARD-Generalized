@@ -1,0 +1,70 @@
+Difference in the handling of `ObjectId-property` in `JsonIdentityInfo` depending on the deserialization route
+
+**Describe the bug**
+This is the problem reported in https://github.com/FasterXML/jackson-module-kotlin/issues/378 .
+
+Setter-based deserialization does not generate an error if the `id-property` is not present on the `JSON`.
+On the other hand, instantiator-based deserialization throws a `MismatchedInputException` if the `id-property` is not present in the `JSON`.
+
+**Version information**
+It has been present since at least 2.9.9 and is reproduced in 2.15.0-rc1.
+
+**To Reproduce**
+
+```java
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.junit.jupiter.api.Test;
+
+public class ObjectId {
+    @JsonIdentityInfo(property = "id", generator = ObjectIdGenerators.PropertyGenerator.class)
+    static class SetterBased {
+        private String id;
+
+        public String getId() {
+            return id;
+        }
+
+        public void setId(String id) {
+            this.id = id;
+        }
+    }
+
+    @JsonIdentityInfo(property = "id", generator = ObjectIdGenerators.PropertyGenerator.class)
+    static class CreatorBased {
+        private final String id;
+
+        @JsonCreator
+        CreatorBased(@JsonProperty(value = "id") String id) {
+            this.id = id;
+        }
+
+        public String getId() {
+            return id;
+        }
+    }
+
+    @Test
+    void test() throws JsonProcessingException {
+        ObjectMapper mapper = new ObjectMapper();
+
+        // -> no error
+        SetterBased t1 = mapper.readValue("{}", SetterBased.class);
+        System.out.println(t1.id); // -> null
+
+        // -> MismatchedInputException thrown
+        CreatorBased t2 = mapper.readValue("{}", CreatorBased.class);
+    }
+}
+```
+
+**Expected behavior**
+It would be correct to be one of the following summarized below.
+https://github.com/FasterXML/jackson-module-kotlin/issues/378#issuecomment-1477141827
+
+**Additional context**
+n/a

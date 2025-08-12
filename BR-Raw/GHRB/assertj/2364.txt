@@ -1,0 +1,83 @@
+Extracting through field names not supported for optional in java 17
+
+#### Summary
+I'm upgrading to java 17 (from java 11), and I have some tests failing due to an incompatibility between java 17 and assertJ.
+One of the breaking changes introduced by java 17 is [JEP 396: Strongly Encapsulate JDK Internals by Default](https://openjdk.java.net/jeps/396).
+It seems that assertJ try to force access to non public value (not public) when extracting them through field name => extract the value from an optional ("object.value") and since the value is not public I got this exception:
+```
+org.assertj.core.util.introspection.IntrospectionError: 
+Can't find any field or property with name 'value'.
+Error when introspecting properties was :
+- No getter for property 'value' in java.util.Optional 
+Error when introspecting fields was :
+- Unable to obtain the value of the field <'value'> from <Optional[john]>
+
+	at org.assertj.core.util.introspection.PropertyOrFieldSupport.getSimpleValue(PropertyOrFieldSupport.java:88)
+	at org.assertj.core.util.introspection.PropertyOrFieldSupport.getValueOf(PropertyOrFieldSupport.java:60)
+	at org.assertj.core.util.introspection.PropertyOrFieldSupport.getValueOf(PropertyOrFieldSupport.java:57)
+	at org.assertj.core.extractor.ByNameSingleExtractor.apply(ByNameSingleExtractor.java:29)
+	at org.assertj.core.api.AbstractAssert.extracting(AbstractAssert.java:1059)
+	at org.assertj.core.api.AbstractObjectAssert.extracting(AbstractObjectAssert.java:834)
+	at fr.witchbird.cl.negotiation.test.functional.VersionIT.should_access(VersionIT.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.assertj.core.util.introspection.IntrospectionError: Unable to obtain the value of the field <'value'> from <Optional[john]>
+	at org.assertj.core.util.introspection.FieldSupport.readSimpleField(FieldSupport.java:248)
+	at org.assertj.core.util.introspection.FieldSupport.fieldValue(FieldSupport.java:202)
+	at org.assertj.core.util.introspection.PropertyOrFieldSupport.getSimpleValue(PropertyOrFieldSupport.java:70)
+	... 28 more
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.lang.Object java.util.Optional.value accessible: module java.base does not "opens java.util" to unnamed module @7fbe847c
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172)
+	at org.assertj.core.util.introspection.FieldUtils.getField(FieldUtils.java:67)
+	at org.assertj.core.util.introspection.FieldUtils.readField(FieldUtils.java:143)
+	at org.assertj.core.util.introspection.FieldSupport.readSimpleField(FieldSupport.java:208)
+	... 30 more
+```
+
+#### Example
+
+```java
+       private static class Person {
+		private final Optional<String> name;
+
+		public Person(final Optional<String> name) {
+			this.name = name;
+		}
+
+		public Optional<String> getName() {
+			return name;
+		}
+	}
+
+	@Test
+	public void should_access() {
+		final Optional<String> name = Optional.of("john");
+		final var person = new Person(name);
+		Assertions.assertThat(person)
+		        .extracting("name.value")
+		        .isEqualTo("john");
+	}
+```

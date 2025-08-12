@@ -1,0 +1,44 @@
+[Bug] There is an error adding values to topicGroupTable in ConsumerManager
+
+### Before Creating the Bug Report
+
+- [x] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [x] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [x] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+all
+
+### RocketMQ version
+
+develop
+
+### JDK Version
+
+jdk11
+
+### Describe the Bug
+
+There is a value setting error in the org.apache.rocketmq.broker.client.ConsumerManager#registerConsumerWithoutSub method.
+
+<img width="794" alt="Image" src="https://github.com/user-attachments/assets/c3c458f5-810f-4166-81b8-05ecc09d9541" />
+
+### Steps to Reproduce
+
+Execute the method org.apache.rocketmq.broker.client.ConsumerManager#registerConsumerWithoutSub.
+
+### What Did You Expect to See?
+
+The data cached in org.apache.rocketmq.broker.client.ConsumerManager#topicGroupTable is `topic-group`.
+
+### What Did You See Instead?
+
+The data cached in org.apache.rocketmq.broker.client.ConsumerManager#topicGroupTable is `topic-topic`.
+
+### Additional Context
+
+_No response_

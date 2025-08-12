@@ -1,0 +1,61 @@
+[Bug]  missing brokerName in sendMessageBack request
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+Ubuntu 24.04
+
+### RocketMQ version
+
+5.3.0
+
+### JDK Version
+
+1.8
+
+### Describe the Bug
+
+issue #3905 adds brokerName in remoting protocol, but in sendMessageBack request, the brokerName is missing. 
+
+when request proxy, and the broker address is not available in network, the consumer cannot send message back.
+
+### Steps to Reproduce
+
+start a consumer that returns RECONSUME_LATER
+
+```
+        DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("group");
+
+        consumer.setNamesrvAddr("localhost:8080");
+
+        consumer.subscribe("topic", "*");
+        consumer.registerMessageListener(new MessageListenerConcurrently() {
+
+            @Override
+            public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> msgs, ConsumeConcurrentlyContext context) {
+                System.out.printf("%s Receive New Messages: %s %n", Thread.currentThread().getName(), msgs);
+                return ConsumeConcurrentlyStatus.RECONSUME_LATER;
+            }
+        });
+```
+
+
+### What Did You Expect to See?
+
+send message back request contains brokerName.
+
+### What Did You See Instead?
+
+brokerName is null in send message back request. 
+
+### Additional Context
+
+_No response_

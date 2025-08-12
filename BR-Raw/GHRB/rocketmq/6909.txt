@@ -1,0 +1,51 @@
+[Bug] The proxy in the cluster mode obtains the wrong address of the broker
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+OS: CentOS 6.9
+
+### RocketMQ version
+
+branch: (develop|tag 5.1.1) version: 5.1.1
+
+### JDK Version
+
+JDK: 1.8.0_202
+
+### Describe the Bug
+
+When I connect to the clustered proxy to consume messages using the remoting protocol, some messages from one broker cannot be consumed. 
+After debugging, I found that the obtained offset of broker is wrong.
+![bug](https://github.com/apache/rocketmq/assets/10137071/c3b88b07-33f5-4365-8ec2-e078b0c5915e)
+
+As shown in the figure above, when [`ClusterTopicRouteService.getBrokerAddr()`](https://github.com/apache/rocketmq/blob/develop/proxy/src/main/java/org/apache/rocketmq/proxy/service/route/ClusterTopicRouteService.java#L66) obtains the broker address, the brokerName in the **parameter is broker-a**, but the **obtained address is broker-b**.
+
+### Steps to Reproduce
+
+1. Deploy a new broker-a, start it.
+2. Create some topics in broker-a for testing, such as message produing and consuming, that is not important.
+4. When I deploy a new broker, such as broker-b,  I need **copy topics.json from broker-a to broker-b**, then start it.
+5. Now broker-b‘s topics have broker-a and broker-b.
+
+When [`ClusterTopicRouteService.getBrokerAddr()`](https://github.com/apache/rocketmq/blob/develop/proxy/src/main/java/org/apache/rocketmq/proxy/service/route/ClusterTopicRouteService.java#L66) obtains the broker address, the code's logic did not consider this situation(Topic `broker-a` exist in broker-a and broker-b), so got the wrong broker addr.
+
+### What Did You Expect to See?
+
+Got the right broker addr.
+
+### What Did You See Instead?
+
+Got the wrong broker addr.
+
+### Additional Context
+
+_No response_

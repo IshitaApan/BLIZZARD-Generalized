@@ -1,0 +1,51 @@
+[Bug] Failed to send delay message by setting property TIMER_DELAY_MS when topic message type checking is enabled
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+all
+
+### RocketMQ version
+
+develop
+
+### JDK Version
+
+1.8
+
+### Describe the Bug
+
+rocketmq-spring
+<img width="1157" alt="image" src="https://github.com/apache/rocketmq/assets/103550934/8d4047e4-ce2b-4f49-8a7e-787a34f9bf21">
+
+<img width="1577" alt="image" src="https://github.com/apache/rocketmq/assets/103550934/2f042fcf-fa0a-4b90-8c70-4083bf205c60">
+
+topics.json
+<img width="466" alt="image" src="https://github.com/apache/rocketmq/assets/103550934/59d61c2b-6e4c-498b-99e9-44e8994dde08">
+
+
+### Steps to Reproduce
+
+1. Boot a producer with rocketmq-spring-boot-starter (version 2.2.3)
+2. Send delay message by calling rocketMQTemplate.syncSendDelayTimeMills
+
+### What Did You Expect to See?
+
+Sent successfully
+
+### What Did You See Instead?
+
+Sending failure. 
+"TopicMessageType validate failed, the expected type is DELAY, but actual type is NORMAL"
+
+### Additional Context
+
+_No response_

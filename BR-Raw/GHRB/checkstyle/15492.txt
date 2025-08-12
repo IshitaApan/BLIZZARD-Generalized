@@ -1,0 +1,91 @@
+RedundantModifer Should Violate Final Modifer on Unnamed Variables if jdkVersion GTE 22
+
+child of #14942 
+
+Check documentation: https://checkstyle.org/checks/modifier/redundantmodifier.html#RedundantModifier
+
+---
+
+```
+PS D:\CS\test> cat config.xml
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+          "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+          "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+  <module name="TreeWalker">
+    <module name="RedundantModifier"/>
+    <property name="jdkVersion" value="21"/>
+  </module>
+</module>
+PS D:\CS\test> cat src/Test.java
+public class Test {
+    void m(Object o) throws Exception {
+        try (final var a = lock()) {  // violation , resource is effective final
+        }
+
+        if (o instanceof R(final int _)) { // expected violation, unnamed pattern variable is effective final
+
+        }
+
+        final int _ = sideEffect(); // expected violation, unnamed variable is effective final
+    }
+    AutoCloseable lock() { return null; }
+    record R(int x) { }
+    int sideEffect() { return 0; }
+}
+PS D:\CS\test> java  -jar checkstyle-10.17.0-all.jar -c config.xml  src/Test.java                                           
+Starting audit...
+[ERROR] D:\CS\test\src\Test.java:3:14: Redundant 'final' modifier. [RedundantModifier]
+Audit done.
+Checkstyle ends with 1 errors.
+PS D:\CS\test> 
+```
+
+---
+
+[JLS](https://docs.oracle.com/javase/specs/jls/se22/html/jls-6.html#jls-6.3) :
+
+> If a declaration does not include an identifier, but instead includes the keyword _ (underscore), then the entity cannot be referred to by name. The following kinds of entity may be declared using an underscore:
+
+Like resources, unnamed variables are effectively final which means that whether the unnamed variable has final modifier or not. the variable can't be reassigned. I expect a violation on the redundant modifer check on unnamed variables.
+
+
+---
+**Describe what you want in detail.**
+
+We should update `RedundantModifer`  to violate the `final` modifier on unnamed variables if `jdkVersion` is >= 22. If a user is on old Java versions (below Java 9). the final modifier will not be redundant because `_` is a normal identifier in this case. 
+
+Example:
+
+```
+PS D:\CS\test> cat config.xml
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+          "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+          "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+  <module name="TreeWalker">
+    <module name="RedundantModifier"/>
+    <property name="jdkVersion" value="8"/>
+  </module>
+</module>
+PS D:\CS\test> cat src/Test.java
+public class Test {
+    void m(Object o) throws Exception {
+        final int _ = sideEffect(); // ok, jdkVersion is 8. underscore can be used as normal identifier so final is not redundant
+    }
+    AutoCloseable lock() { return null; }
+    record R(int x) { }
+    int sideEffect() { return 0; }
+}
+PS D:\CS\test> java  -jar checkstyle-10.17.0-all.jar -c config.xml  src/Test.java                                           
+Starting audit...
+Audit done.
+Checkstyle ends with 0 errors.
+
+```
+
+**Note**: This update also includes `final` modifier on unnamed lambda parameters and unnamed catch parameters.

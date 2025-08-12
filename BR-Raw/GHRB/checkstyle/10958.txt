@@ -1,0 +1,239 @@
+NPE in IllegalTypeCheck when checking a record (Java 14)
+
+Hello,
+
+https://checkstyle.org/config_coding.html#IllegalType
+
+I'm trying JDK 16 with language-level 16 I've run into an NPE. I've discovered this on Checkstyle 9.0, but the same problem is still unresolved on the `master` branch.
+
+Since the build is configured to run on `1.8`, I had to modify the source+target language to allow for the reproducer test-case, which I've prepared here: https://github.com/fprochazka/checkstyle/commit/0e18223a4fd8e91cb3264fd970573f0e6e1c0a5d, it's probably not ideal, but IMHO it should pass a verifiable reproducer.
+
+if you run the `IllegalTypeCheckTest` from my commit, you'll see the following errors: 
+
+<details>
+ <summary>InputIllegalTypeTestRecordsPass fail</summary>
+
+```
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: Exception was thrown while processing /home/fprochazka/devel/libs/checkstyle/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/coding/illegaltype/InputIllegalTypeTestRecordsPass.java
+
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:302)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at com.puppycrawl.tools.checkstyle.AbstractModuleTestSupport.getActualViolationsForFile(AbstractModuleTestSupport.java:442)
+	at com.puppycrawl.tools.checkstyle.AbstractModuleTestSupport.verifyViolations(AbstractModuleTestSupport.java:416)
+	at com.puppycrawl.tools.checkstyle.AbstractModuleTestSupport.verifyWithInlineConfigParser(AbstractModuleTestSupport.java:269)
+	at com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheckTest.testValidateRecordsPass(IllegalTypeCheckTest.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.lang.NullPointerException: Cannot invoke "com.puppycrawl.tools.checkstyle.api.DetailAST.getFirstChild()" because "modifiers" is null
+	at com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck.isContainVerifiableType(IllegalTypeCheck.java:516)
+	at com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck.isVerifiable(IllegalTypeCheck.java:502)
+	at com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck.visitVariableDef(IllegalTypeCheck.java:577)
+	at com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck.visitToken(IllegalTypeCheck.java:477)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.notifyVisit(TreeWalker.java:335)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processIter(TreeWalker.java:406)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.walk(TreeWalker.java:273)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:154)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:328)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:289)
+	... 70 more
+```
+
+</details>
+
+
+<details>
+ <summary>InputIllegalTypeTestInnerRecordsPass fail</summary>
+
+```
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: Exception was thrown while processing /home/fprochazka/devel/libs/checkstyle/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/coding/illegaltype/InputIllegalTypeTestInnerRecordsPass.java
+
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:302)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at com.puppycrawl.tools.checkstyle.AbstractModuleTestSupport.getActualViolationsForFile(AbstractModuleTestSupport.java:442)
+	at com.puppycrawl.tools.checkstyle.AbstractModuleTestSupport.verifyViolations(AbstractModuleTestSupport.java:416)
+	at com.puppycrawl.tools.checkstyle.AbstractModuleTestSupport.verifyWithInlineConfigParser(AbstractModuleTestSupport.java:269)
+	at com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheckTest.testValidateInnerRecordsPass(IllegalTypeCheckTest.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.lang.NullPointerException: Cannot invoke "com.puppycrawl.tools.checkstyle.api.DetailAST.getFirstChild()" because "modifiers" is null
+	at com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck.isContainVerifiableType(IllegalTypeCheck.java:516)
+	at com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck.isVerifiable(IllegalTypeCheck.java:502)
+	at com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck.visitVariableDef(IllegalTypeCheck.java:577)
+	at com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck.visitToken(IllegalTypeCheck.java:477)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.notifyVisit(TreeWalker.java:335)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processIter(TreeWalker.java:406)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.walk(TreeWalker.java:273)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:154)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:328)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:289)
+	... 70 more
+```
+
+</details>
+
+
+
+The interesting part is IMHO this: 
+
+```
+java.lang.NullPointerException: Cannot invoke "com.puppycrawl.tools.checkstyle.api.DetailAST.getFirstChild()" because "modifiers" is null
+	at com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck.isContainVerifiableType(IllegalTypeCheck.java:516)
+	at com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck.isVerifiable(IllegalTypeCheck.java:502)
+	at com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck.visitVariableDef(IllegalTypeCheck.java:577)
+	at com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck.visitToken(IllegalTypeCheck.java:477)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.notifyVisit(TreeWalker.java:335)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processIter(TreeWalker.java:406)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.walk(TreeWalker.java:273)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:154)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:328)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:289)
+```
+
+My configuration of the check is baked into the comment in the tested source file.
+
+If I change
+
+```
+memberModifiers = LITERAL_PUBLIC, LITERAL_PROTECTED, LITERAL_STATIC
+```
+
+to 
+
+```
+memberModifiers = (default)
+```
+
+it starts to pass
+
+...
+
+Am I configuring it incorrectly? IMHO it should not throw an NPE even when configured incorrectly.

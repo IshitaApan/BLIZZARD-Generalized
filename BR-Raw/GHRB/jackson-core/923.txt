@@ -1,0 +1,6 @@
+investigate Toml big string tests
+
+* tests added in #383
+* testBiggerString indicates that only the TextBuffer.contentAsString() check is catching the issue with the string being too big
+  * no matter how big the len is set to
+  * this is far from ideal - we should be catching exceptions when the buffer is extended but the toml code has its own logic and somehow bypasses the checks in TextBuffer until the contentAsString() call.

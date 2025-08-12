@@ -1,0 +1,322 @@
+[BUG] [Java/Spring] Openapi Generator 7.4.0 generates Integer Min and Max Values for int64 array instead of Long Values causing compile errors
+
+#### Bug Report Checklist
+
+- [x] Have you provided a full/minimal spec to reproduce the issue?
+- [x] Have you validated the input using an OpenAPI validator ([example](https://apidevtools.org/swagger-parser/online/))?
+- [x] Have you [tested with the latest master](https://github.com/OpenAPITools/openapi-generator/wiki/FAQ#how-to-test-with-the-latest-master-of-openapi-generator) to confirm the issue still exists?
+- [x] Have you searched for related issues/PRs?
+- [x] What's the actual output vs expected output?
+- [ ] [Optional] Sponsorship to speed up the bug fix or feature request ([example](https://github.com/OpenAPITools/openapi-generator/issues/6178))
+
+<!--
+Please follow the issue template below for bug reports.
+Also please indicate in the issue title which language/library is concerned. Eg:  [BUG][JAVA] Bug generating foo with bar 
+-->
+
+##### Description
+
+Since version 7.4.0 arrays of int64 items with defined min and max values are generated with @Min and @Max annotations.
+The values are generated as Integer instead of Long. which results in "integer number too large" errors.
+
+Generated code:
+```java
+  @Valid
+  private List<@Min(1000000000000) @Max(1999999999999)Long> ids;
+```
+
+##### openapi-generator version
+
+Since 7.4.0
+
+##### OpenAPI declaration file content or url
+
+```yaml
+openapi: 3.0.3
+info:
+  title: test
+  description: Test API
+  version: 1.0.1
+
+paths:
+  /test:
+    get:
+      responses:
+        200:
+          description: Valid response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SomeLongIdArrayObject'
+
+components:
+  schemas:
+    SomeLongIdArrayObject:
+      type: object
+      properties:
+        ids:
+          type: array
+          items:
+            type: integer
+            format: int64
+            minimum: 1000000000000
+            maximum: 1999999999999
+```
+
+##### Generation Details
+
+pom - Plugin
+```xml
+<plugin>
+                <groupId>org.openapitools</groupId>
+                <artifactId>openapi-generator-maven-plugin</artifactId>
+                <version>7.4.0</version>
+                <executions>
+
+                    <execution>
+                        <id>test-v1</id>
+
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <inputSpec>${project.basedir}/src/main/resources/swagger/example.yaml
+                            </inputSpec>
+                            <generatorName>spring</generatorName>
+                            <generateApiTests>false</generateApiTests>
+                            <generateApiDocumentation>false</generateApiDocumentation>
+                            <generateModelTests>false</generateModelTests>
+                            <apiPackage>de.test.v1.controller</apiPackage>
+                            <modelPackage>de.test.v1.dto</modelPackage>
+                            <ignoreFileOverride>${project.basedir}/.openapi-generator-ignore</ignoreFileOverride>
+                            <skipIfSpecIsUnchanged>true</skipIfSpecIsUnchanged>
+                            <configOptions>
+                                <interfaceOnly>true</interfaceOnly>
+                                <hideGenerationTimestamp>true</hideGenerationTimestamp>
+                                <annotationLibrary>swagger2</annotationLibrary>
+                                <useSpringBoot3>true</useSpringBoot3>
+                                <skipDefaultInterface>true</skipDefaultInterface>
+                            </configOptions>
+                            <output>${project.basedir}/target/generated-sources</output>
+                        </configuration>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <!-- https://mvnrepository.com/artifact/org.codehaus.plexus/plexus-utils -->
+                    <dependency>
+                        <groupId>org.codehaus.plexus</groupId>
+                        <artifactId>plexus-utils</artifactId>
+                        <version>${plexus.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            
+```
+
+##### Steps to reproduce
+
+Generate via maven plugin results in
+
+```java
+package de.test.v1.dto;
+
+import java.net.URI;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
+
+/**
+ * SomeLongIdArrayObject
+ */
+
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", comments = "Generator version: 7.4.0")
+public class SomeLongIdArrayObject {
+
+  @Valid
+  private List<@Min(1000000000000) @Max(1999999999999)Long> ids;
+
+  public SomeLongIdArrayObject ids(List<@Min(1000000000000) @Max(1999999999999)Long> ids) {
+    this.ids = ids;
+    return this;
+  }
+
+  public SomeLongIdArrayObject addIdsItem(Long idsItem) {
+    if (this.ids == null) {
+      this.ids = new ArrayList<>();
+    }
+    this.ids.add(idsItem);
+    return this;
+  }
+
+  /**
+   * Get ids
+   * @return ids
+  */
+  
+  @Schema(name = "ids", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ids")
+  public List<@Min(1000000000000) @Max(1999999999999)Long> getIds() {
+    return ids;
+  }
+
+  public void setIds(List<@Min(1000000000000) @Max(1999999999999)Long> ids) {
+    this.ids = ids;
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    SomeLongIdArrayObject someLongIdArrayObject = (SomeLongIdArrayObject) o;
+    return Objects.equals(this.ids, someLongIdArrayObject.ids);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(ids);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class SomeLongIdArrayObject {\n");
+    sb.append("    ids: ").append(toIndentedString(ids)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    if (o == null) {
+      return "null";
+    }
+    return o.toString().replace("\n", "\n    ");
+  }
+}
+
+
+```
+
+##### Suggest a fix
+
+Generate Min and Max Value as Long values instead, as for normal int64 fields.
+
+Expected Output:
+```java
+package de.test.v1.dto;
+
+import java.net.URI;
+import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
+
+/**
+ * SomeLongIdArrayObject
+ */
+
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", comments = "Generator version: 7.4.0")
+public class SomeLongIdArrayObject {
+
+  @Valid
+  private List<@Min(1000000000000L) @Max(1999999999999L)Long> ids;
+
+  public SomeLongIdArrayObject ids(List<@Min(1000000000000L) @Max(1999999999999L)Long> ids) {
+    this.ids = ids;
+    return this;
+  }
+
+  public SomeLongIdArrayObject addIdsItem(Long idsItem) {
+    if (this.ids == null) {
+      this.ids = new ArrayList<>();
+    }
+    this.ids.add(idsItem);
+    return this;
+  }
+
+  /**
+   * Get ids
+   * @return ids
+  */
+  
+  @Schema(name = "ids", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ids")
+  public List<@Min(1000000000000L) @Max(1999999999999L)Long> getIds() {
+    return ids;
+  }
+
+  public void setIds(List<@Min(1000000000000L) @Max(1999999999999L)Long> ids) {
+    this.ids = ids;
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    SomeLongIdArrayObject someLongIdArrayObject = (SomeLongIdArrayObject) o;
+    return Objects.equals(this.ids, someLongIdArrayObject.ids);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(ids);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class SomeLongIdArrayObject {\n");
+    sb.append("    ids: ").append(toIndentedString(ids)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private String toIndentedString(Object o) {
+    if (o == null) {
+      return "null";
+    }
+    return o.toString().replace("\n", "\n    ");
+  }
+}
+
+
+```

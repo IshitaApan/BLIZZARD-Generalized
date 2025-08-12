@@ -1,0 +1,54 @@
+[Bug] corner case, pop of retryTopic from maxOffset will skip a few messages incorrectly when EscapeBridge enabled
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+All
+
+### RocketMQ version
+
+5.x
+
+### JDK Version
+
+All
+
+### Describe the Bug
+
+See commit: 
+https://github.com/apache/rocketmq/commit/f868d9925eb6a4d9fbace50ceb419ac7e6459485
+
+We've fixed the issue that pop from maxOffset when retryTopic created, but things become a bit more complex when EscapeBridge enabled.
+
+1. addRetryTopicIfNotExist in current brokerA(probably a slave broker) 
+2. enableSlaveActingMaster and enableRemoteEscape both set true
+3. send to remote brokerB
+4. brokerB has no retry for now and thus no retry offset committed
+5. consumer runs in ConsumeInitMode.MAX and one or more judgements in getInitOffset() return false
+
+then we face the same issue as f868d99, that's why we describe it as a corner case.
+We'd better fix it in an upper place, getInitOffset(), ignore the initMode and use minOffset, distinguishing between normal and retry topic seems more logical.
+
+### Steps to Reproduce
+
+See Above
+
+### What Did You Expect to See?
+
+pop retry from minOffset=0
+
+### What Did You See Instead?
+
+pop retry from maxOffset
+
+### Additional Context
+
+_No response_

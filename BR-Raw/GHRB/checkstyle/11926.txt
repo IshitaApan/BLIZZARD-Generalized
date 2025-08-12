@@ -1,0 +1,39 @@
+InvalidJavadocPosition: false positive for the generic constructor without access modifier
+
+Check documentation: https://checkstyle.sourceforge.io/config_javadoc.html#InvalidJavadocPosition
+
+/var/tmp $ javac Test.java
+
+/var/tmp $ cat Test.java
+```
+public class Test {
+    /**
+    * Test       
+    */
+    <E extends Enum> Test(E a) {
+    }
+}
+```
+
+/var/tmp $ cat config.xml
+```
+<!DOCTYPE module PUBLIC
+        "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+<module name="Checker">
+    <module name="TreeWalker">
+        <module name="InvalidJavadocPosition"/>
+    </module>
+</module>
+
+```
+/var/tmp $ RUN_LOCALE="-Duser.language=en -Duser.country=US"
+/var/tmp $ java $RUN_LOCALE -jar checkstyle-X.XX-all.jar -c config.xml Test.java
+````
+Starting audit...                                                                                                                                                                                       
+[ERROR] C:\Projects\checkstyle\Test.java:2:5: Javadoc comment is placed in the wrong location. [InvalidJavadocPosition]                                                                                 
+Audit done.                                                                                                                                                                                             
+Checkstyle ends with 1 errors.            
+````
+
+Expected: no validation error

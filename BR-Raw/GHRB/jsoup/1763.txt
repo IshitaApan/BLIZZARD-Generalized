@@ -1,0 +1,15 @@
+Copy constructor of Safelist shares state
+
+The copy constructor of Safelist `public Safelist(Safelist copy)` does not deep copy the data structures as advertised in the JavaDoc but shares the nested data structures, e.g. `Map<TagName, Set<AttributeKey>>`. This causes unexpected mutation.
+
+An example would be:
+```java
+Safelist safelist1 = Safelist.none().addAttributes("foo", "bar");
+Safelist safelist2 = new Safelist(safelist1);
+safelist1.addAttributes("foo", "baz");
+
+final String html = "<foo bar=\"val\" baz=\"val\" />";
+System.out.println(Jsoup.clean(html, safelist1));
+System.out.println(Jsoup.clean(html, safelist2));
+```
+The second output should not contain the `baz` attribute but does.

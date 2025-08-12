@@ -1,0 +1,26 @@
+[Enhancement] Use fastjson2 in broker module
+
+### Before Creating the Enhancement Request
+
+- [x] I have confirmed that this should be classified as an enhancement rather than a bug/feature.
+
+
+### Summary
+
+Use fastjson2 to replace fastjson1.
+
+### Motivation
+
+Use fastjson2 to replace fastjson1.
+
+### Describe the Solution You'd Like
+
+Use fastjson2 to replace fastjson1.
+
+### Describe Alternatives You've Considered
+
+No
+
+### Additional Context
+
+_No response_

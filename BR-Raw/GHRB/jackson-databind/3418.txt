@@ -1,0 +1,32 @@
+Empty list incorrectly deserialized when `ACCEPT_SINGLE_VALUE_AS_ARRAY` is enabled
+
+When `ACCEPT_SINGLE_VALUE_AS_ARRAY` is enabled, an empty `List<String>` is incorrectly deserialized as a list containing a single empty string (`List.of("")`). Test case:
+
+```java
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.util.List;
+
+public class EmptyElementTest {
+    @Test
+    public void test() throws JsonProcessingException {
+        XmlMapper mapper = new XmlMapper();
+        mapper.enable(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY);
+        List<String> list = mapper.readValue("<values/>", new TypeReference<List<String>>() {});
+        Assert.assertTrue(list.isEmpty());
+    }
+}
+```
+
+This is technically correct behavior, because `<values/>` can be deserialized as an empty string, which can then be wrapped in a list. However imo this should still be fixed.
+
+Looking at the code, the issue is in databind `StringCollectionDeserializer`. For the test case, `isExpectedStartArrayToken` returns false, which triggers the `handleNonArray` logic. This logic checks for the `ACCEPT_SINGLE_VALUE_AS_ARRAY` *first*, before trying to coerce the empty string to a list, which would succeed here.
+
+I see two approaches to fix this. Either change `FromXmlParser.isExpectedStartArrayToken` to return `true` for an empty string token, or change `StringCollectionDeserializer` to attempt a coercion from empty string *before* wrapping the value. imo the former should work fine.
+
+I can work on a fix for this once my corp CLA is cleared, which will be soon(tm).

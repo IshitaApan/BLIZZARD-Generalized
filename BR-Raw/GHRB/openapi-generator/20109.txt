@@ -1,0 +1,72 @@
+[BUG] [typescript-fetch] ModelNamePrefix is added twice to import statements thereby breaking the build
+
+#### Bug Report Checklist
+
+- [x] Have you provided a full/minimal spec to reproduce the issue?
+- [x] Have you validated the input using an OpenAPI validator ([example](https://apidevtools.org/swagger-parser/online/))?
+- [x] Have you [tested with the latest master](https://github.com/OpenAPITools/openapi-generator/wiki/FAQ#how-to-test-with-the-latest-master-of-openapi-generator) to confirm the issue still exists?
+- [x] Have you searched for related issues/PRs?
+- [x] What's the actual output vs expected output?
+- [ ] [Optional] Sponsorship to speed up the bug fix or feature request ([example](https://github.com/OpenAPITools/openapi-generator/issues/6178))
+
+<!--
+Please follow the issue template below for bug reports.
+Also please indicate in the issue title which language/library is concerned. Eg:  [BUG][JAVA] Bug generating foo with bar 
+-->
+
+##### Description
+
+When generating the model files the prefix is properly added once in front of the generated files. However, in the import statements the prefix is added _twice_ resulting in erroneous statements breaking the build. 
+
+When e.g. `SomePrefix` is set for `modelNamePrefix`, then the following model files are generated for `example-for-file-naming-option.yaml`:
+ * `SomePrefixPetCategory.ts`
+ * `SomePrefixPet.ts`
+
+However, _within_ `SomePrefixPet.ts` it looks like this:
+```typescript
+import type { SomePrefixPetCategory } from './SomePrefixSomePrefixPetCategory';
+import {
+    SomePrefixPetCategoryFromJSON,
+    SomePrefixPetCategoryFromJSONTyped,
+    SomePrefixPetCategoryToJSON,
+} from './SomePrefixSomePrefixPetCategory';
+```
+I.e. `SomePrefix` is added twice.
+
+
+##### openapi-generator version
+
+Issue started in version `7.6.0` and is still there in current `master`.
+
+Version `7.5.0` is working fine.
+
+
+##### OpenAPI declaration file content or url
+
+It can be reproduced using `modules/openapi-generator/src/test/resources/3_0/typescript-fetch/example-for-file-naming-option.yaml` from the repo:
+https://github.com/OpenAPITools/openapi-generator/blob/v7.6.0/modules/openapi-generator/src/test/resources/3_0/typescript-fetch/example-for-file-naming-option.yaml
+
+
+##### Generation Details
+
+```shell
+java -jar modules/openapi-generator-cli/target/openapi-generator-cli.jar generate \
+	-i modules/openapi-generator/src/test/resources/3_0/typescript-fetch/example-for-file-naming-option.yaml \
+	-g typescript-fetch \
+	--additional-properties modelNamePrefix=SomePrefix \
+	-o generator_out/
+```
+
+
+##### Steps to reproduce
+
+See command above
+
+##### Related issues/PRs
+
+Nothing found.
+
+
+##### Suggest a fix
+
+It's probably due to this PR which touched a bit of relevant code between 7.5.0 and 7.6.0: #18284

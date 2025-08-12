@@ -1,0 +1,47 @@
+[Bug] Pop retry topic was not deleted when topic was removed
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+Windows 10
+
+### RocketMQ version
+
+branch: develop
+
+### JDK Version
+
+JDK8
+
+### Describe the Bug
+
+Messages retry in pop mode will create a pop retry topic for this topic and consumer combination.
+When the original topic was removed, the pop retry topic of the original topic wasn't deleted.
+
+### Steps to Reproduce
+
+1. create a topic
+2. produce some messages on this topic
+3. consume this topic using pop consumer, but not ack, wait for messages to revive
+4. pop retry topic will be created 
+5. delete the original topic
+
+### What Did You Expect to See?
+
+All pop retry topics of this topic will be deleted.
+
+### What Did You See Instead?
+
+Pop retry topics aren't deleted.
+
+### Additional Context
+
+_No response_

@@ -1,0 +1,17 @@
+multi-instances created with same endpoint  and different context path and cluster will influences each other's local config snapshot
+
+multi-instances created with endpoint will influences each other's local config snapshot 
+
+**Describe the bug**
+multi-instances created with endpoint will influences each other's local config snapshot 
+each CacheData initialize on startup will read local snapshot to content filed ,but two different  instance will share the same local cache config.
+
+
+**Expected behavior**
+two different instances's local cache will not influence each other.
+
+**Acutally behavior**
+two different instances's local cache will influence each other and it will result in a extra notificaiton.
+
+**How to Reproduce**
+Create two NacosConfigService with two different endpoint and no namespace appointed and subscribe same dataId and group , it will notify once on startup.

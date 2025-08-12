@@ -1,0 +1,44 @@
+[Bug] Fix get the earliest time error when data is clean up in tiered storage
+
+### Before Creating the Bug Report
+
+- [x] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [x] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [x] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+[Bug] Fix get earliest time error when data is clean up in tiered storage
+
+### RocketMQ version
+
+before develop 5.3.2-SNAPSHOT
+
+### JDK Version
+
+JDK11
+
+### Describe the Bug
+
+Get earliest time error when data is clean up in tiered storage
+
+### Steps to Reproduce
+
+Get earliest time error when data is clean up in tiered storage
+
+![Image](https://github.com/user-attachments/assets/8621e228-296b-4a11-84f3-a1d6c193d4f4)
+
+### What Did You Expect to See?
+
+No error
+
+### What Did You See Instead?
+
+Get earliest time success
+
+### Additional Context
+
+_No response_

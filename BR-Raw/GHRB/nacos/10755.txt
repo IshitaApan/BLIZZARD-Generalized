@@ -1,0 +1,8 @@
+optimize config server dump consistence when notify fail
+
+**Is your feature request related to a problem? Please describe.**
+If a node  receive a config update request ,it will persist into db and async notify other nodes  to dump config to local disk in AsyncNotifyCenter .
+There is a case ,if this node crashed before notify other nodes, other nodes won't receive config dump change request and stay behind of last config version until interval 6 hour all dump task running. 
+
+**Describe the solution you'd like**
+As a supplement ， add  a dump change task to check new updated configs in db to make up for the problem above.

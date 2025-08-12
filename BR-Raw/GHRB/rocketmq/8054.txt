@@ -1,0 +1,46 @@
+[Bug] Producer should be retry put message if OS_PAGE_CACHE_BUSY
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+Ubuntu 20.04
+
+### RocketMQ version
+
+develop
+
+### JDK Version
+
+JDK 8
+
+### Describe the Bug
+
+If the broker is overloaded or disk IO is busy, it will clean up some expired requests and return with SYSTEM_BUSY, at which point the producer will not retry to put the message  into the broker. So I think PutMessageStatus is OS_PAGE_CACHE_BUSY should also return SYSTEM_BUSY.
+
+reference: https://github.com/apache/rocketmq/blob/develop/broker/src/main/java/org/apache/rocketmq/broker/processor/SendMessageProcessor.java#L432
+
+### Steps to Reproduce
+
+1. mock PutMessageStatus=OS_PAGE_CACHE_BUSY
+2. put the message into broker
+3. observe the number of produce retries
+
+### What Did You Expect to See?
+
+The producer does not retry putting the message when the PutMessageStatus is OS_PAGE_CACHE_BUSY.
+
+### What Did You See Instead?
+
+The producer retries putting the message when the PutMessageStatus is OS_PAGE_CACHE_BUSY.
+
+### Additional Context
+
+_No response_
