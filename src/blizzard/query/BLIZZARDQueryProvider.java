@@ -30,7 +30,7 @@ public class BLIZZARDQueryProvider {
 		this.bugID = bugID;
 		this.bugReportTitle = bugtitle;
 		this.reportContent = reportContent;
-		this.reportGroup = new BugReportClassifier(this.reportContent).determineReportClass();
+		this.reportGroup = new BugReportClassifier(this.reportContent, this.repoName, this.bugID).determineReportClass();
 	}
 
 	protected ArrayList<String> getSalientItemsFromST(ArrayList<String> traces) {

@@ -4,6 +4,7 @@ public class StaticData {
 
 	public static String HOME_DIR = "/home/ishita/BugLocalization/BLIZZARD-Generalized";
 	public static String STACK_TRACE_DIR = HOME_DIR + "/BR-ST-StackTraces";
+	public static String PROGRAM_ELEMENT_DIR = HOME_DIR + "/BR-PEs";
 	public static String STOPWORD_DIR = HOME_DIR + "/data";
 	public static String CORPUS_INDEX_KEY_MAPPING = HOME_DIR + "/Lucene-Index2File-Mapping";
 	public static String INDEX_DIR = HOME_DIR + "/Lucene-Index";

@@ -1,17 +1,27 @@
 package blizzard.bug.report.classification;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import blizzard.config.StaticData;
 
 public class BugReportClassifier {
 
 	String reportContent;
 	ArrayList<String> traces;
+	ArrayList<String> invocations;
+	String repoName;
+	int bugID;
 
-	public BugReportClassifier(String reportContent) {
+	public BugReportClassifier(String reportContent, String repoName, int bugID) {
 		this.reportContent = reportContent;
+		this.repoName = repoName;
+		this.bugID = bugID;
 		this.traces = new ArrayList<>();
+		this.invocations = new ArrayList<>();
 	}
 
 	public String determineReportClass() {
@@ -20,8 +30,9 @@ public class BugReportClassifier {
 			this.traces = traces;
 			return "ST";
 		} else {
-			ArrayList<String> invocations = extractMethodInvocations(this.reportContent);
+			this.invocations = extractMethodInvocations(this.reportContent);
 			if (!invocations.isEmpty()) {
+				this.saveInvocations();
 				return "PE";
 			} else {
 				return "NL";
@@ -71,6 +82,23 @@ public class BugReportClassifier {
 			entry = entry.substring(0, leftBraceIndex);
 		}
 		return entry;
+	}
+
+	// Save Program Element invocations for each bug report to a file
+	protected void saveInvocations() {
+		File dir = new File(StaticData.PROGRAM_ELEMENT_DIR + "/" + repoName);
+		if (!dir.exists()) {
+			dir.mkdirs();
+		}
+		String invocationFile = dir + "/" + bugID + ".txt";
+		try (BufferedWriter writer = new BufferedWriter(new FileWriter(invocationFile))) {
+			for (String entry : invocations) {
+				writer.write(entry);
+				writer.newLine();
+			}
+		} catch (Exception e) {
+			System.err.println("Error writing to file: " + e.getMessage());
+		}
 	}
 
 }
