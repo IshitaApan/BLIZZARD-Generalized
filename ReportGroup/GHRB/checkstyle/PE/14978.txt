@@ -1,0 +1,59 @@
+LocalVariableNameCheck incorrectly flags variables named `_` (see JEP456)
+
+https://openjdk.org/jeps/456 allows `_` to be used as a variable name to signify that it is "unused".
+
+checkstyle issues the following warning on `var _`:
+
+```
+Name '_' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]Lint(Java)
+```
+
+Seems like the [regex in `LocalVariableNameCheck`](https://github.com/checkstyle/checkstyle/blob/master/src/main/java/com/puppycrawl/tools/checkstyle/checks/naming/LocalVariableNameCheck.java#L74) needs to be updated to support this new language feature.
+
+-----------------------------------------
+I have read check documentation: https://checkstyle.org/checks/naming/localvariablename.html#LocalVariableName
+I have downloaded the latest checkstyle from: https://checkstyle.org/cmdline.html#Download_and_Run
+I have executed the cli and showed it below, as cli describes the problem better than 1,000 words
+
+```
+PS D:\CS\test> javac src/Test.java
+PS D:\CS\test> cat src/Test.java
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+class Test {
+    void test() {
+        Queue<Integer> q = new PriorityQueue<>();
+        q.add(1);
+        while (!q.isEmpty()) {
+            var _ = q.poll();   // violation
+        }
+    }
+}
+PS D:\CS\test> cat config.xml
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+          "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+          "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+    <property name="charset" value="UTF-8"/>
+ <module name="TreeWalker">
+    <module name="LocalVariableName">
+    </module>
+ </module>
+</module>
+PS D:\CS\test> java  -jar checkstyle-10.14.2-all.jar -c config.xml  src/Test.java
+Starting audit...
+[ERROR] D:\CS\test\src\Test.java:9:17: Name '_' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
+Audit done.
+Checkstyle ends with 1 errors.
+```
+
+---
+
+**Describe what you expect in detail.**
+
+I want this check to allow unnamed variables by default.
+
+---

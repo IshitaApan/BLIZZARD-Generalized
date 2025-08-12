@@ -1,0 +1,42 @@
+[Bug] Batch send messages will have the same message id when consumed
+
+### Before Creating the Bug Report
+
+- [x] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [x] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [x] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+any
+
+### RocketMQ version
+
+any
+
+### JDK Version
+
+_No response_
+
+### Describe the Bug
+
+any
+
+### Steps to Reproduce
+
+any
+
+### What Did You Expect to See?
+
+any
+
+### What Did You See Instead?
+
+any
+
+### Additional Context
+
+_No response_

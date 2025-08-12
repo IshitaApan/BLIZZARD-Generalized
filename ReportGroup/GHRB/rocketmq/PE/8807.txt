@@ -1,0 +1,53 @@
+[Bug] AutoBatch bug when connecting multiple RocketMQ clusters.
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+macos 11.7.10
+
+### RocketMQ version
+
+5.3.0
+
+### JDK Version
+
+jdk 1.8
+
+### Describe the Bug
+
+If multiple RocketMQ clusters are connected and autoBatch is enabled, messages may be sent to the wrong cluster if multiple clusters happen to have the same theme.
+
+### Steps to Reproduce
+
+If I connect to multiple RocketMQ clusters on the same client and enable autoBatch, the topic name happens to be the same.
+<img width="1211" alt="image" src="https://github.com/user-attachments/assets/f62cfea4-a1a9-43f3-b1ec-e7477fffc849">
+
+
+
+Messages may be sent to the wrong cluster
+<img width="1400" alt="image" src="https://github.com/user-attachments/assets/1a32eb0b-7e8a-4127-9080-d8da6b821828">
+
+
+### What Did You Expect to See?
+
+The message should be sent to the correct cluster
+
+### What Did You See Instead?
+
+When creating a Default MQProducer on the client side, an internal Producer Accumulator is initialized
+Put the information into the accumulator table map, where key is the client ID and value is the created Producer Accumulator.
+When initializing, it will first determine whether the Producer Accumulator has been created based on the client ID. But at this time, the user has not had the opportunity to set InstanceName or UnitName. So at this point, the client IDs within the same service are all the same.
+So currently, multiple Default MQProducers created on the same client internally use the same produceAccumulator.
+If the topic names of different clusters happen to be the same, it will be sent to the wrong cluster.
+
+### Additional Context
+
+_No response_

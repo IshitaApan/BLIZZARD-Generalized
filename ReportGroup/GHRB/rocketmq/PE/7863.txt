@@ -1,0 +1,46 @@
+[Bug] Exception when pop messages with multiple LMQ indexes
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+all
+
+### RocketMQ version
+
+develop
+
+### JDK Version
+
+_No response_
+
+### Describe the Bug
+
+NumberFormatException is thrown when pop messages with multiple LMQ indexes.
+
+<img width="1012" alt="image" src="https://github.com/apache/rocketmq/assets/103550934/e679f718-0732-4066-9e4b-a332d4e6dc63">
+
+
+
+### Steps to Reproduce
+
+/
+
+### What Did You Expect to See?
+
+/
+
+### What Did You See Instead?
+
+/
+
+### Additional Context
+
+_No response_

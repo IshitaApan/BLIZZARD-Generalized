@@ -1,0 +1,72 @@
+[Bug] proxy findOneBroker will always use first
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+```
+protected Optional<BrokerData> findOneBroker(String topic) throws Exception {
+        try {
+            return topicRouteService.getAllMessageQueueView(ProxyContext.createForInner(this.getClass()), topic).getTopicRouteData().getBrokerDatas().stream().findAny();
+        } catch (Exception e) {
+            if (TopicRouteHelper.isTopicNotExistError(e)) {
+                return Optional.empty();
+            }
+            throw e;
+        }
+    }
+```
+
+### RocketMQ version
+
+develop
+
+### JDK Version
+
+_No response_
+
+### Describe the Bug
+
+stream then findany will always first，The broker's load will show relatively noticeable imbalance.
+
+### Steps to Reproduce
+
+```
+    @Test
+    public void testParseRequestContent() {
+        List<BrokerData> brokerDataList = new ArrayList<>();
+        BrokerData brokerData = new BrokerData();
+        brokerData.setBrokerName("brokerName");
+
+        BrokerData brokerData2 = new BrokerData();
+        brokerData2.setBrokerName("brokerName2");
+
+        brokerDataList.add(brokerData);
+        brokerDataList.add(brokerData2);
+
+        for (int i=0;i<1000;i++){
+            //Collections.shuffle(brokerDataList);
+            String rs = brokerDataList.stream().findAny().get().getBrokerName();
+            System.out.println(rs);
+        }
+    }
+```
+
+### What Did You Expect to See?
+
+broker1 and broker2
+
+### What Did You See Instead?
+
+always broekrname
+
+### Additional Context
+
+_No response_

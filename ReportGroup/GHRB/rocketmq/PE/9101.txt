@@ -1,0 +1,42 @@
+[Bug] Messages are duplicated when using LMQ for pop consumption
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+Any platform
+
+### RocketMQ version
+
+rocketmq 5.3.1
+
+### JDK Version
+
+jdk 8
+
+### Describe the Bug
+
+Messages are duplicated when using LMQ for pop consumption
+
+### Steps to Reproduce
+
+Use LMQ for pop consumption
+
+### What Did You Expect to See?
+
+Messages are not duplicated
+
+### What Did You See Instead?
+
+Messages are duplicated
+
+### Additional Context
+
+No

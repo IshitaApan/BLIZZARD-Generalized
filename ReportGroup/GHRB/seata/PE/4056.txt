@@ -1,0 +1,8 @@
+optimize DurationUtil
+
+the code in DurationUtil can be optimize.
+1. should support the `ISO-8601` format,  like `P1DT1M` means 1day and 1min.
+2. unified the return value of parse when input is not expect.
+3. other optimize
+
+if someone wanna optimize it, please leave a message below

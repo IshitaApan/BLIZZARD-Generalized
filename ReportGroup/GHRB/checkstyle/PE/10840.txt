@@ -1,0 +1,47 @@
+JavadocMethod accessModifiers incorrectly interpreted for interface class
+
+I have read check documentation: https://checkstyle.org/config_javadoc.html#JavadocMethod
+I have downloaded the latest checkstyle from: https://checkstyle.org/cmdline.html#Download_and_Run
+I have executed the cli and showed it below, as cli describes the problem better than 1,000 words
+
+```bash
+/var/tmp $ javac YOUR_FILE.java
+#[[MAKE SURE THERE IS SUCCESSFUL COMPILATION]]
+public interface MyInterface {
+  /** Javadoc ok here. */
+  void test();
+
+  class MyClass {
+    /** Missing parameter here. */
+    public MyClass(Integer amount) {
+    }
+  }
+}
+
+/var/tmp $ cat config.xml
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+"-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+"http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+<module name="Checker">
+  <property name="charset" value="UTF-8"/>
+  <property name="fileExtensions" value="java, xml, properties"/>
+  <module name="TreeWalker">
+    <module name="JavadocMethod">
+      <property name="accessModifiers" value="public"/>
+      <property name="allowMissingParamTags" value="false"/>
+      <property name="allowMissingReturnTag" value="true"/>
+    </module>  
+  </module>
+</module>
+
+/var/tmp $ cat YOUR_FILE.java
+#[[PLACE YOU OUTPUT HERE]]
+
+/var/tmp $ RUN_LOCALE="-Duser.language=en -Duser.country=US"
+/var/tmp $ java $RUN_LOCALE -jar checkstyle-9.0-all.jar -c config.xml YOUR_FILE.java
+Starting audit...
+Audit done.
+````
+I expect checkstyle to report constructor to have missing javadoc param. Reason for that is that interface of this inner class is implicitly considered public according to java specs (Some IDEs even mark explicit public keyword as unnecessary).
+If I add public keyword to class declaration, constructor is reported by checkstyle as expected.

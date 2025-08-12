@@ -1,0 +1,64 @@
+CQ building exceeds confirmOffset when node restarts to recover in ha mode
+
+The issue tracker is used for bug reporting purposes **ONLY** whereas feature request needs to follow the [RIP process](https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal). To avoid unnecessary duplication, please check whether there is a previous issue before filing a new one.
+
+It is recommended to start a discussion thread in the [mailing lists](http://rocketmq.apache.org/about/contact/) or [github discussions](https://github.com/apache/rocketmq/discussions) in cases of discussing your deployment plan, API clarification, and other non-bug-reporting issues.
+We welcome any friendly suggestions, bug fixes, collaboration, and other improvements.
+
+Please ensure that your bug report is clear and self-contained. Otherwise, it would take additional rounds of communication, thus more time, to understand the problem itself.
+
+Generally, fixing an issue goes through the following steps:
+1. Understand the issue reported;
+1. Reproduce the unexpected behavior locally;
+1. Perform root cause analysis to identify the underlying problem;
+1. Create test cases to cover the identified problem;
+1. Work out a solution to rectify the behavior and make the newly created test cases pass;
+1. Make a pull request and go through peer review;
+
+As a result, it would be very helpful yet challenging if you could provide an isolated project reproducing your reported issue. Anyway, please ensure your issue report is informative enough for the community to pick up. At a minimum, include the following hints:
+
+**BUG REPORT**
+
+1. Please describe the issue you observed:
+we found this phenomenon in the following case :
+[1] first, node1 as master, node2 as slave
+[2] 2023-04-17 15:24:22, node1 is down, node2 will be elected as master
+[3] 2023-04-17 15:24:23, node2 is down right after being elected as master
+[4] 2023-04-17 15:26:03, node1 restarts
+[5] 2023-04-17 15:46:05, node2 restarts
+[6] 2023-04-17 15:46:20, node2 is elected as master and node1 is elected as slave.
+
+![image](https://user-images.githubusercontent.com/10379042/232707435-3bb1950d-8a54-4c34-bf27-684e6a0cf8e2.png)
+
+we found that 4 messages was lost, those  4 messages was stored to node2's commitlog at 2023-04-17 15:46:42
+![image](https://user-images.githubusercontent.com/10379042/232707614-ea2e3899-dae6-47e2-83a8-ac47c817d557.png)
+
+By checking the recovery log of node1, it is found that node1 builds cq with 4 dirty messages which will be truncate in the future.
+![image](https://user-images.githubusercontent.com/10379042/232710514-d1f32589-c976-468d-9af1-50ffe92899ab.png)
+![image](https://user-images.githubusercontent.com/10379042/232710444-6cc0d184-7d8e-4929-b4ed-8dbce88d6c43.png)
+
+
+Also, broker has enabled reading messages from the slave. Client subscribes node1 at  2023-04-17 15:26:24 and consumes those 
+4 dirty messages, then commit the offset of these queue.
+
+After node2 is elected as master and node1 is elected to slave, those 4 dirty messages is truncate by node1, and another 4 new messages is appended to commitlog. However, the offset of these messages has already being commited.
+
+This also explains why messages are lost.
+
+2. Please tell us about your environment:
+
+3. Other information (e.g. detailed explanation, logs, related issues, suggestions on how to fix, etc):
+
+**FEATURE REQUEST**
+
+1. Please describe the feature you are requesting.
+
+2. Provide any additional detail on your proposed use case for this feature.
+
+3. Indicate the importance of this issue to you (blocker, must-have, should-have, nice-to-have). Are you currently using any workarounds to address this issue?
+
+4. If there are some sub-tasks involved, use -[] for each sub-task and create a corresponding issue to map to the sub-task:
+
+- [sub-task1-issue-number](example_sub_issue1_link_here): sub-task1 description here, 
+- [sub-task2-issue-number](example_sub_issue2_link_here): sub-task2 description here,
+- ...

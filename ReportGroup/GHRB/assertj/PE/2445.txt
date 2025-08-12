@@ -1,0 +1,24 @@
+isExactlyInstanceOf gives confusing error message when instance is an anonymous inner class
+
+#### Summary
+
+When using isExactlyInstanceOf and the actual value is an anonymous inner class, the message is confusing as it claims that the actual value is an "instance of null".
+
+#### Example
+
+```java
+    assertThat(x.red).isNotNull().isExactlyInstanceOf(A.class);
+```
+Will not fail `isNotNull` but fails on `isExactlyInstanceOf` with:
+```
+java.lang.AssertionError: 
+Expecting:
+ <hs.ddif.core.inject.store.BindingProvider$ProviderBinding$1@4f1bfe23>
+to be exactly an instance of:
+ <hs.ddif.core.InjectorProviderTest.A>
+but was an instance of:
+ <null>
+```
+This led me to believe the value in `x.red` is `null`, but it clearly isn't.
+
+If it is not possible to detect the anonymous inner class type here  (it in this case is an anonymous implementation of the interface `Provider`) perhaps change the message to `but was an instance of an anonymous class`.

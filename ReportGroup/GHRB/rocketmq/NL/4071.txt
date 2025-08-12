@@ -1,0 +1,18 @@
+[BatchCQ]Query Message by time failed
+
+**BUG REPORT**
+Query Message by time failed  caused by returning min offset when the target timestamp is larger than the max queue timestamp.
+1. Please describe the issue you observed:
+
+- What did you do (The steps to reproduce)?
+
+When I searched message in BatchCQ by timestamp, if the target timestamp was larger than the max timestamp in CQ unit. I got minimum offset of the BatchCQ, causing offset of the begin time is larger than the end time's. As follows:
+![image](https://user-images.githubusercontent.com/50660789/160822624-6160bf74-290f-4df8-9202-34a8044f6822.png)
+![image](https://user-images.githubusercontent.com/50660789/160822552-7e509215-2f28-4826-90c1-bb53a240e3cb.png)
+
+- What is expected to see?
+If the target timestamp is larger than the max timestamp, there need return max offset.
+- What did you see instead?
+Return min offset.
+2. Please tell us about your environment:
+5.0.0-beta

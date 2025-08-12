@@ -1,0 +1,88 @@
+Custom key deserialiser registered for `Object.class` in nested Map object is ignored when Map key type not defined
+
+### Search before asking
+
+- [X] I searched in the [issues](https://github.com/FasterXML/jackson-databind/issues) and found nothing similar.
+
+### Describe the bug
+
+I'm working on a piece of software which accepts arbitrary JSON, flattens it, and then writes it to CSV. The main issue here is that we don't know the schema of the JSON—it can be anything. This, in turn, results in untyped deserialization.
+
+Before starting processing of the parsed object, the field names must be sanitised (yes, it's crucial to sanitise the field names during the parsing phase). Unfortunately `UntypedObjectDeserializerNR` ignores the custom key deserialiser I'm trying to provide:
+
+```java
+package libraries;
+
+import com.fasterxml.jackson.databind.DeserializationContext;
+import com.fasterxml.jackson.databind.KeyDeserializer;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.module.SimpleModule;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+import java.util.Map;
+
+public class ObjectMapperTest {
+
+    @Test
+    void customKeyDeserializerShouldBeUsedWhenTypeNotDefined() throws Exception {
+        // given
+        var json = """
+                {
+                    "name*": "Erik",
+                    "address*": {
+                        "city*": {
+                            "id*": 1,
+                            "name*": "Berlin"
+                        },
+                        "street*": "Elvirastr"
+                    }
+                }
+                                
+                """;
+
+        var objectMapper = new ObjectMapper();
+        var keySanitizationModule = new SimpleModule("key-sanitization");
+        keySanitizationModule.addKeyDeserializer(String.class, new KeyDeserializer() {
+            @Override
+            public Object deserializeKey(String key, DeserializationContext ctxt) {
+                return key.replace("*", "_");
+            }
+        });
+        objectMapper.registerModule(keySanitizationModule);
+
+        // when
+        var result = objectMapper.readValue(json, Object.class);
+
+        // then
+        Assertions.assertEquals("Erik", ((Map<String, Object>) result).get("name_"));
+
+        var addressMap = (Map<String, Object>) ((Map<String, Object>) result).get("address_");
+        Assertions.assertEquals("Elvirastr", addressMap.get("street_"));
+
+        var cityMap = (Map<String, Object>) addressMap.get("city_");
+        Assertions.assertEquals(1, cityMap.get("id_"));
+        Assertions.assertEquals("Berlin", cityMap.get("name_"));
+    }
+}
+```
+
+I have 2 questions in regards of this behaviour: 
+1. Is that something expected?
+2. Is there a workaround for the problem in question?
+
+### Version Information
+
+2.14.3
+
+### Reproduction
+
+_No response_
+
+### Expected behavior
+
+_No response_
+
+### Additional context
+
+_No response_

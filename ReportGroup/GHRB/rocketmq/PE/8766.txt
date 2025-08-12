@@ -1,0 +1,45 @@
+[Bug] Bad performace of delay message in rocksdb consumequeue
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+Ubuntu 24.04
+
+### RocketMQ version
+
+5.3.1
+
+### JDK Version
+
+1.8
+
+### Describe the Bug
+
+Bad performace of delay message in rocksdb consumequeue
+
+### Steps to Reproduce
+
+1. set `storeType=defaultRocksDB` in broker.conf
+2. send delay messages with delaylever=2 using `cd benchmark;sh producer.sh -n localhost:9876 -t testTopic -d true -e 2`
+3. watch delay message count using `mqadmin topicstatus -n localhost:9876  -t SCHEDULE_TOPIC_XXXX`
+4. watch delay message deliver count using `cat ${storeRootPath}/config/delayOffset.json`
+
+### What Did You Expect to See?
+
+delay message are deliverd quick.
+
+### What Did You See Instead?
+
+delay message are deliverd slow.
+
+### Additional Context
+
+_No response_

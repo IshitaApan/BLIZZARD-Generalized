@@ -1,0 +1,21 @@
+NPE found when timerWheel disabled
+
+```
+2023-02-24 11:12:10 INFO PopReviveService_0 - reviveQueueId=0, old offset is -1
+2023-02-24 11:12:10 INFO PopReviveService_1 - reviveQueueId=1, old offset is -1
+2023-02-24 11:12:10 ERROR PopReviveService_2 - reviveQueueId=2, revive error
+java.lang.NullPointerException: null
+	at org.apache.rocketmq.broker.processor.PopReviveService.consumeReviveMessage(PopReviveService.java:327)
+	at org.apache.rocketmq.broker.processor.PopReviveService.run(PopReviveService.java:606)
+	at java.lang.Thread.run(Thread.java:766)
+2023-02-24 11:12:10 ERROR PopReviveService_6 - reviveQueueId=6, revive error
+java.lang.NullPointerException: null
+	at org.apache.rocketmq.broker.processor.PopReviveService.consumeReviveMessage(PopReviveService.java:327)
+	at org.apache.rocketmq.broker.processor.PopReviveService.run(PopReviveService.java:606)
+	at java.lang.Thread.run(Thread.java:766)
+2023-02-24 11:12:10 ERROR PopReviveService_4 - reviveQueueId=4, revive error
+```
+
+TimerMessageStore could be null when timerWheelEnable setting false.
+
+Since some processors are related with [timerWheelEnable], such as PopMessageProcessor, AckMessageProcessor, and only initialized once before startup, so can we check this switch and skip instantiation when disabled?

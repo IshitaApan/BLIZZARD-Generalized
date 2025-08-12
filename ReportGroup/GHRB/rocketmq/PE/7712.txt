@@ -1,0 +1,77 @@
+[Bug] Deleting the last item problem of the ACL topic/group perms or the global white list caused by the UtilAll#split func flaw
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+OS(CentOS release 7.6.1810)
+
+### RocketMQ version
+
+branch(develop) version(5.1.5-SNAPSHOT)
+
+### JDK Version
+
+Compliler(Oracke JDK 1.8.0_361) OS(CentOS release 7.6.1810)
+
+### Describe the Bug
+
+I found an bug of ACL during my work on RocketMQ.
+When I tried to delete the last item of the ACL topic/group perms, there was an error which indicates the resouce fomat is incrorrect. And there's also an similar problem of the global white list, which is always remain an empty data at last.
+
+### Steps to Reproduce
+
+**To reproduce you can use two ways:**
+1. If you use the Dashboard(take the topic/group perms for example)
+1.1 Create an ACL with mutiple topic perms and group perms.
+1.2 Delete the topic perms or group perms one by one.
+1.3 The error woud appear when delete the last one.
+
+![AgAACF5zlnReY1XDkERMf6P-SgV5fqC1](https://github.com/apache/rocketmq/assets/29912051/10e0ddc4-84a9-4306-9f13-b29a26c2cddc)
+![AgAACF5zlnR_G2hISrFGkp9IHvbLVnhw](https://github.com/apache/rocketmq/assets/29912051/641c7900-25ae-422f-b892-78725dba4fe3)
+![AgAACF5zlnQIxRfBwMZA4odWFJ1KCjd_](https://github.com/apache/rocketmq/assets/29912051/64ca490f-838a-43da-b16a-92fc2995a509)
+
+2. If you want to create an test method for reproduce
+2.1 New an DefaultMQAdminExt and config it with namesrv and then start it.
+2.2 New an PlainAccessConfig and setGroupPerms(Collections.EMPTY_LIST), setTopicPerms(Collections.EMPTY_LIST).
+2.3 Then call DefaultMQAdminExt #createAndUpdatePlainAccessConfig.
+2.4 Or to call DefaultMQAdminExt #updateGlobalWhiteAddrConfig with the second parmeter an empty string.
+
+![图片](https://github.com/apache/rocketmq/assets/29912051/978d469c-a105-4109-bc9a-76491a5b7cbc)
+![图片](https://github.com/apache/rocketmq/assets/29912051/f0c277ee-1e91-4c6e-a627-320c2ac59ec4)
+
+
+### What Did You Expect to See?
+
+For the topic/group perms, it should not be an error to delete the last item.
+![图片](https://github.com/apache/rocketmq/assets/29912051/26cc5b3d-6b9f-455f-a1ba-5c67668dc20f)
+
+
+For the global white list, it should not be an empty data
+
+![图片](https://github.com/apache/rocketmq/assets/29912051/04377834-cdd7-4a6f-a929-c68bd00482ce)
+
+
+### What Did You See Instead?
+
+For the topic/group perms, it popup an error: 
+org.apache.rocketmq.client.exception.MQClientException: CODE: 209  DESC: Parse Resource format error for .
+The expected resource format is 'Res=Perm'. For example: topicA=SUB
+
+![AgAACF5zlnReY1XDkERMf6P-SgV5fqC1](https://github.com/apache/rocketmq/assets/29912051/b06c98b8-852e-4227-9d13-dde47df42f03)
+
+For the global white list, it remains an empty data
+
+![AgAACF5zlnR_G2hISrFGkp9IHvbLVnhw](https://github.com/apache/rocketmq/assets/29912051/794828f0-6471-446c-a885-6e4cd4949803)
+
+
+### Additional Context
+
+**I've already found and fixed the bug, and I'll submit an PR later.**

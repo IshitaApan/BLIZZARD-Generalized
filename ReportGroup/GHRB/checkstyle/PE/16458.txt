@@ -1,0 +1,87 @@
+Make references optional for link and linkplain tags
+
+Base on [discussion at #12979](https://github.com/checkstyle/checkstyle/pull/12979/files/d30dd8dc7cf1c1dd9fa303a679266940ba8b44f6#r1181359281)
+
+We need to update grammar for `{@link}, {@linkplain}` so their reference can be empty.
+
+CLI:
+```
+$ cat Test1.java
+class Test {
+
+  /**
+   * {@link}
+   */
+  public void method(String a)
+  {
+
+  }
+}
+
+$ cat config1.xml
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+        "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+        "https://checkstyle.org/dtds/configuration_1_3.dtd">
+<module name = "Checker">
+    <property name="charset" value="UTF-8"/>
+
+    <module name="TreeWalker">
+       <module name="NonEmptyAtclauseDescription"/>
+    </module>
+
+</module>
+```
+
+```
+$ java -jar checkstyle-10.9.3-all.jar -c config1.xml Test1.java
+Starting audit...
+[ERROR] E:\Parse\Test1.java:4: Javadoc comment at column 11 has parse error. 
+Details: mismatched input '}' expecting {LEADING_ASTERISK, WS, NEWLINE} while 
+parsing JAVADOC_INLINE_TAG [NonEmptyAtclauseDescription]
+Audit done.
+Checkstyle ends with 1 errors.
+```
+
+Excepted:
+Have no parse error. 
+```
+$ javadoc -d doc Test1.java
+Loading source file Test1.java...
+Constructing Javadoc information...
+Creating destination directory: "doc\"
+Standard Doclet version 11.0.18
+Building tree for all the packages and classes...
+Generating doc\Test1.html...
+Test1.java:6: warning: no @param for a
+  public void method(String a)
+              ^
+Generating doc\package-summary.html...
+Generating doc\package-tree.html...
+Generating doc\constant-values.html...
+Building index for all the packages and classes...
+Generating doc\overview-tree.html...
+Generating doc\index-all.html...
+Building index for all classes...
+Generating doc\allclasses-index.html...
+Generating doc\allpackages-index.html...
+Generating doc\deprecated-list.html...
+Building index for all classes...
+Generating doc\allclasses.html...
+Generating doc\allclasses.html...
+Generating doc\index.html...
+Generating doc\help-doc.html...
+1 warning
+```
+
+![2023-05-04](https://user-images.githubusercontent.com/67487202/236229971-2a496637-5269-483b-a460-8466d3a8b8b4.png)
+
+
+Current grammar:
+https://github.com/checkstyle/checkstyle/blob/477006469777636d28ec4cfbc453a987e02a8fcc/src/main/resources/com/puppycrawl/tools/checkstyle/grammar/javadoc/JavadocParser.g4#LL1181C1-L1184C46
+
+```
+LINK_LITERAL (WS | NEWLINE | LEADING_ASTERISK)+ reference (WS | NEWLINE)* ((WS | NEWLINE) description)?
+
+LINKPLAIN_LITERAL (WS | NEWLINE | LEADING_ASTERISK)+ reference (WS | NEWLINE)* ((WS | NEWLINE) description)?
+```

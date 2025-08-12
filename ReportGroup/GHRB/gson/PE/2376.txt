@@ -1,0 +1,46 @@
+Don't silently ignore missing type information from `TypeTokens`.
+
+I'm active on Stack Overflow, and often see questions with code more or less like this:
+
+```
+public class Main {
+		
+	public static void main(String[] args) {
+            // should work right?
+	    MyClass mc = new Gson().fromJson("{}", Main.<MyClass>typeTokenHelper());
+	}
+	
+	static class MyClass {}
+	
+	public static <T> Type typeTokenHelper() {
+		return new TypeToken<T>() {}.getType();
+	}
+
+}
+```
+
+Of course this fails with:
+
+```
+java.lang.ClassCastException: com.google.gson.internal.LinkedTreeMap cannot be cast to test.Main$MyClass
+```
+
+Since there is not actually any type information available from the `TypeToken`. The `Type` that you get is the generic type `T`:
+
+```
+Type t = Main.<MyClass>typeTokenHelper();
+System.out.println(t); // prints 'T'. instead of the naïvely expected 'MyClass'
+```
+
+This is confusing. The missing type information should not be silently ignored only to get a `ClassCastException` later. The missing type information is caused by a design time error and should be flagged as early as possible.
+
+At first glance a check like this:
+
+```
+// where 'typeOfT' is the type returned by TypeToken::getType
+if(typeOfT instanceof TypeVariable) {  // java.lang.reflect.TypeVariable
+    throw new RuntimeExcepiton(...);
+}
+```
+
+Somewhere might fix this issue. Perhaps in [`TypeToken::getSuperclassTypeParameter`](https://github.com/google/gson/blob/0636635cbffa08157bdbd558b1212e4d806474eb/gson/src/main/java/com/google/gson/reflect/TypeToken.java#L81) or in [`Gson::fromJson`](https://github.com/google/gson/blob/0636635cbffa08157bdbd558b1212e4d806474eb/gson/src/main/java/com/google/gson/Gson.java#L878). (I don't know where the use of TypeTokens with TypeVariables might be required though)

@@ -1,0 +1,43 @@
+[Bug] Broker switch enableMixedMessageType doesn't work
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+all
+
+### RocketMQ version
+
+develop
+
+### JDK Version
+
+1.8
+
+### Describe the Bug
+
+Broker switch enableMixedMessageType doesn't work. MIXED type topic can be created even if this switch is off.
+
+### Steps to Reproduce
+
+1. Set enableMixedMessageType to false.
+2. Try create MIXED message type topic.
+
+### What Did You Expect to See?
+
+Creation failed.
+
+### What Did You See Instead?
+
+Creation succeeded.
+
+### Additional Context
+
+_No response_

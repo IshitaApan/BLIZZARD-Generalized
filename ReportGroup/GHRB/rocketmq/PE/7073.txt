@@ -1,0 +1,44 @@
+[Bug] with the same clientId, the groupChannelTable in ProducerManager has data, but the clientChannelTable does not
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+Linux version 3.10.0-1160.49.1.el7.x86_64
+
+
+### RocketMQ version
+
+broker 4.9.3
+
+### JDK Version
+
+jdk17
+
+### Describe the Bug
+
+ with the same clientId, the groupChannelTable in ProducerManager has data, but the clientChannelTable does not
+
+### Steps to Reproduce
+
+send sync message, but no response
+
+
+### What Did You Expect to See?
+
+response the correct data
+
+### What Did You See Instead?
+
+Caused by: org.apache.rocketmq.client.exception.MQBrokerException: CODE: 1  DESC: push reply message fail, channel of <XXXXX@599#20869074073> not found. BROKER: XXX:10911
+
+### Additional Context
+
+_No response_

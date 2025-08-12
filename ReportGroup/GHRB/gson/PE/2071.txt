@@ -1,0 +1,41 @@
+`EnumMap` deserialization fails with `ClassCastException`
+
+# Gson version
+e2e851c9bc692cec68ba7b0cbb002f82b4a229e4
+
+# Java / Android version
+openjdk version "11.0.13" 2021-10-19
+OpenJDK Runtime Environment Temurin-11.0.13+8 (build 11.0.13+8)
+OpenJDK 64-Bit Server VM Temurin-11.0.13+8 (build 11.0.13+8, mixed mode)
+
+# Description
+`EnumMap` deserialization fails with `ClassCastException`:
+```
+java.lang.ClassCastException: class java.util.LinkedHashMap cannot be cast to class java.util.EnumMap
+```
+
+The underlying issue is related to #1708, it appears special handling for `EnumMap` is missing.
+(I am a bit surprised that this issue has not been mentioned here anywhere before.)
+
+# Reproduction steps
+Test case:
+```java
+private static enum MyEnum {
+  VALUE1, VALUE2
+}
+
+public void testEnumMap() throws Exception {
+  EnumMap<MyEnum, String> map = new EnumMap<MyEnum, String>(MyEnum.class);
+  map.put(MyEnum.VALUE1, "test");
+  String json = gson.toJson(map);
+  assertEquals("{\"VALUE1\":\"test\"}", json);
+
+  Type type = new TypeToken<EnumMap<MyEnum, String>>() {}.getType();
+  EnumMap<?, ?> actualMap = gson.fromJson("{\"VALUE1\":\"test\"}", type);
+  Map<?, ?> expectedMap = Collections.singletonMap(MyEnum.VALUE1, "test");
+  assertEquals(expectedMap, actualMap);
+}
+```
+
+# Exception stack trace
+Not really useful because `ClassCastException` occurs in user code.

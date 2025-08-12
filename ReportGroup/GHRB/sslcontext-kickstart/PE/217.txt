@@ -1,0 +1,29 @@
+Version 7.4.3 fails to accept all certificates
+
+**Describe the bug**
+It seems that changes in version 7.4.3 skips accept-all truststore configured using 
+`builder.withUnsafeTrustMaterial()` or `builder.withTrustingAllCertificatesWithoutValidation()`
+
+This is because UnsafeX509ExtendedTrustManager has 0 accepted X509Certificate
+therefore it is skipped during checking in CombinableX509TrustManager 
+
+**To Reproduce**
+```
+SSLFactory.Builder builder = SSLFactory.builder().withDefaultTrustMaterial();
+builder.withUnsafeTrustMaterial();
+SSLFactory factory = builder.build();
+
+SSLContext sslContext = factory.getSslContext();
+SSLContext.setDefault(sslContext);
+```
+
+**Expected behavior**
+Validation of the TLS certificate should pass and connection should be established
+
+**Environmental Data:**
+ - Java Version 11.0
+ - Gradle
+- OS MacOS
+
+**Additional context**
+The test passes with 7.3.0 and 7.4.2

@@ -1,0 +1,127 @@
+LazilyParsedNumber being serialised as JsonObject
+
+When I deserialise a JSON object into a map and back into JSON it seems to serialise the `LazilyParsedNumber` as an object.
+
+JSON being parsed:
+
+``` js
+{
+    "class": "Setting",
+    "event": 4,
+    "severity": 2,
+    "notify": true,
+    "sound": false,
+    "feeds": [
+        {
+            "code": "USGS",
+            "language": "eng"
+        }
+    ]
+}
+```
+
+Class JSON is being parsed into 
+
+``` java
+@NoArgsConstructor
+@AllArgsConstructor(suppressConstructorProperties = true)
+@Accessors(chain = true) @Data
+public class MonitoredLocationSetting
+{
+    @SerializedName("class") private final String className = "Setting";
+
+    protected int event = -1;
+    protected Map<String, Object> settings = new HashMap<>();
+    protected List<LocationSettingFeed> feeds = new ArrayList<>();
+}
+```
+
+Basically all im doing is deserialising all fields except "event", "feeds", and "class" into the `settings` map using the following adapters
+
+``` java
+builder.registerTypeAdapter(MonitoredLocationSetting.class, new JsonDeserializer<MonitoredLocationSetting>()
+{
+    @Override public MonitoredLocationSetting deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context) throws JsonParseException
+    {
+        MonitoredLocationSetting setting = new Gson().fromJson(json, typeOfT);
+
+        if (setting != null)
+        {
+            // Ignore for setting.settings
+            List<String> fieldsToIgnore = new ArrayList<String>(Arrays.asList(new String[]{"event", "feeds", "class"}));
+            Iterator<Map.Entry<String, JsonElement>> entries = json.getAsJsonObject().entrySet().iterator();
+            while (entries.hasNext())
+            {
+                Map.Entry<String, JsonElement> next = entries.next();
+
+                if (!fieldsToIgnore.contains(next.getKey()))
+                {
+                    if (next.getValue().isJsonPrimitive())
+                    {
+                        if (next.getValue().getAsJsonPrimitive().isBoolean())
+                        {
+                            setting.getSettings().put(next.getKey(), next.getValue().getAsBoolean());
+                        }
+                        else if (next.getValue().getAsJsonPrimitive().isNumber())
+                        {
+                            // This deserialises as LazilyParsedNumber
+                            setting.getSettings().put(next.getKey(), next.getValue().getAsNumber());
+                        }
+                        else if (next.getValue().getAsJsonPrimitive().isString())
+                        {
+                            setting.getSettings().put(next.getKey(), next.getValue().getAsString());
+                        }
+                        else
+                        {
+                            setting.getSettings().put(next.getKey(), next.getValue());
+                        }
+                    }
+                }
+            }
+        }
+
+        return setting;
+    }
+});
+builder.registerTypeAdapter(MonitoredLocationSetting.class, new JsonSerializer<MonitoredLocationSetting>()
+{
+    @Override public JsonElement serialize(MonitoredLocationSetting src, Type typeOfSrc, JsonSerializationContext context)
+    {
+        JsonObject serialised = (JsonObject)new Gson().toJsonTree(src);
+        // After the above line is called the following JSON is produced
+        /*
+                {
+                    "class": "Setting",
+                    "event": 4,
+                    "feeds": [
+                        {
+                            "code": "USGS",
+                            "language": "eng"
+                        }
+                    ],
+                    "settings": {
+                        "notify": true,
+                        "severity": {  <-- Issue here
+                            "value": "2"
+                        },
+                        "sound": false
+                    }
+                }
+        */
+        JsonObject setting = serialised.get("settings").getAsJsonObject();
+
+        // Ignore for setting.settings
+        Iterator<Map.Entry<String, JsonElement>> entries = setting.entrySet().iterator();
+        while (entries.hasNext())
+        {
+            Map.Entry<String, JsonElement> next = entries.next();
+            serialised.add(next.getKey(), next.getValue());
+        }
+
+        serialised.remove("settings");
+        return serialised;
+    }
+});
+```
+
+From what I can see, _technically_ this is correct because as far as Gson is concerned `LazilyParsedNumber` IS an object and not a 'primitive', however, doing a straight convert from and then back to json causes a problem because the object isnt parsed back as a primitive after being read as a primitive (Number)

@@ -1,0 +1,18 @@
+"@HeaderMap parameter type must be Map" is not precise enough, since HeaderMap supports Headers too !
+
+Bug report.
+
+"@HeaderMap parameter type must be Map" is not precise enough, since HeaderMap supports Headers too !
+
+```java
+        } else if (annotation instanceof HeaderMap) {
+        if (type == Headers.class) {
+          return new ParameterHandler.Headers(method, p);
+        }
+
+        validateResolvableType(p, type);
+        Class<?> rawParameterType = Utils.getRawType(type);
+        if (!Map.class.isAssignableFrom(rawParameterType)) {
+          throw parameterError(method, p, "@HeaderMap parameter type must be Map.");
+        }
+```

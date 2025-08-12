@@ -1,0 +1,38 @@
+Allow TokenFIlter to skip last elements in arrays
+
+When the last element in array is an array or object and that element is skipped, the `FilteringParserDelegate` will end up in a loop from which it cannot exit. This means that the rest of the input will be skipped too. This results in incorrect JSON.
+
+This behaviour exists since 2.9+
+I believe this is due to https://github.com/FasterXML/jackson-core/commit/7db467ddec7c2899038249b55695b7e44c7b5c3e#diff-f6642caef61e0c403f51a6150ecf45263034fca5002782fd02eacd01e53fe549L694 where the `if (gotEnd)` conditions where removed.
+I think this should be added as currently the logic is:
+```
+ boolean gotEnd = (_headContext == buffRoot);
+                    boolean returnEnd = gotEnd && _headContext.isStartHandled();
+
+                    _headContext = _headContext.getParent();
+                    _itemFilter = _headContext.getFilter();
+
+                    if (returnEnd) {
+                        return t;
+                    }
+```
+and that means that it can only exit when `_headContext.isStartHandled()` is true. For skipped elements this is false.
+
+This can be easily reproduced with this testcase
+```
+ @Test
+    public void testCustomIncludesWithMultipleObjectsInArrayMissLast() throws Exception {
+        var factory = new JsonFactory();
+        var baseParser = factory.createParser("{\"foo\":[{\"bar\":\"baz\"},{\"bing\":\"boom\"}]}");
+        var filteredParser = getFilteredParser(baseParser, filter("foo", "bar"));
+        var writer = new StringWriter();
+        var generator = factory.createGenerator(writer);
+        Assertions.assertTrue(filteredParser.nextToken().isStructStart());
+        generator.copyCurrentStructure(filteredParser);
+        generator.flush();
+        Assertions.assertEquals("{\"foo\":[{\"bar\":\"baz\"}]}", writer.toString());
+        //Expected :{"foo":[{"bar":"baz"}]}
+        //Actual   :{"foo":[{"bar":"baz"} 
+    }
+```
+cc @tvernum who coauthored the fix and the testcases

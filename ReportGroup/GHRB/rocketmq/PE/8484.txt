@@ -1,0 +1,39 @@
+[Enhancement] Unnecessary broker back notification (notifyConsumerIdsChanged) in broadcast mode
+
+### Before Creating the Enhancement Request
+
+- [X] I have confirmed that this should be classified as an enhancement rather than a bug/feature.
+
+
+### Summary
+
+Hi, community, recently I found an unnecessary broker reverse notification (notifyConsumerIdsChanged) in broadcast mode.
+
+Background: In one of our online incident investigations, there were thousands of single group broadcast clients, and it was found that the broker had been sending notifyConsumerIdsChanged requests to the broadcast clients.
+
+<img width="1009" alt="image" src="https://github.com/user-attachments/assets/474971c4-832a-48f7-b0ed-a78f403d6d85">
+
+![企业微信截图_8e88e985-7986-494f-8971-8a4aafacbd2f](https://github.com/user-attachments/assets/4db90c96-5e46-4766-8078-80653a605c95)
+
+![企业微信截图_b5c15368-849d-4cd1-bf6d-7bbdc80bbd29](https://github.com/user-attachments/assets/69c70a14-b4c1-4ec8-9c65-0c9f79924420)
+
+![企业微信截图_b0d6dd68-a323-4025-9b26-3acc99074024](https://github.com/user-attachments/assets/4402a6eb-b15d-41e2-932a-df022c50fbec)
+
+
+
+
+### Motivation
+
+Analysis: In broadcast mode, each Consumer consumes complete data, and its rebalance operation only updates the messagequeue information, which is also updated by a scheduled task and has nothing to do with the change in the number of Consumers. So I think that in broadcast mode, if there is any change in Consumer, there is no need to send notifyConsumerIdsChanged requests to all broadcast clients.
+
+### Describe the Solution You'd Like
+
+Modification: When sending ConsumerGroupEvent.CHANGE events in ConsumerManager, it is sent only when it is determined to be in non-broadcast mode.
+
+### Describe Alternatives You've Considered
+
+No
+
+### Additional Context
+
+_No response_

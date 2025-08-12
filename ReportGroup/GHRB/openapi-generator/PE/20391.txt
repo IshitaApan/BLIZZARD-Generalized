@@ -1,0 +1,100 @@
+[BUG]  [typescript-fetch] Incorrect uppercase enum name when having colon
+
+#### Bug Report Checklist
+
+- [ X ] Have you provided a full/minimal spec to reproduce the issue?
+- [ X ] Have you validated the input using an OpenAPI validator ([example](https://apidevtools.org/swagger-parser/online/))?
+- [ X ] Have you [tested with the latest master](https://github.com/OpenAPITools/openapi-generator/wiki/FAQ#how-to-test-with-the-latest-master-of-openapi-generator) to confirm the issue still exists?
+- [ X ] Have you searched for related issues/PRs?
+- [ X ] What's the actual output vs expected output?
+
+##### Description
+
+When generating a typescript client, the following enum value is not good translated.
+When using enumPropertyNaming = Uppercase : 
+API : **ASKING_FOR:desc**
+Generated name (default/pascalCase) : **AskingFoRdesc**
+Generated name (uppercase) : **ASKING_FO_RDESC**
+
+The real name should be :  **ASKING_FOR_DESC**
+
+##### openapi-generator version
+
+Openapi generator used : 7.10.0
+In past version (4.3.0) the result name was : 
+**ASKINGFORDESC**
+
+##### OpenAPI declaration file content or url
+
+```yaml
+openapi: "3.0.0"
+servers:
+  - url: 'https://lecomptoirdespharmacies.fr/v1'
+info:
+  description: "This is the REST API of LCDP products"
+  version: "1.0.0"
+  title: "LCDP REST API"
+  termsOfService: "https://www.lecomptoirdespharmacies.fr/mentions-legales"
+  contact:
+    email: "contact@lecomptoirdespharmacies.fr"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+tags:
+  - name: "searchSaleOffer"
+    description: "Search sale offer"
+paths:
+
+  /sale-offers/{saleOfferStatus}:
+    get:
+      tags:
+        - "searchSaleOffer"
+      summary: "Search sale offers by status"
+      operationId: "getSaleOffersByStatus"
+      parameters:
+        - $ref: "#/components/parameters/SaleOfferStatusParameter"
+      responses:
+        200:
+          description: "Success"
+        403:
+          description: "Access denied"
+        400:
+          description: "Bad Request"
+
+
+components:
+
+  parameters:
+    SaleOfferStatusParameter:
+      in: path
+      name: saleOfferStatus
+      required: true
+      schema:
+        $ref: '#/components/schemas/SaleOfferStatus'
+
+  schemas:
+    SaleOfferStatus:
+      type: string
+      enum: ["ASKING_FOR:desc"]
+      description: "Is this sale offer enabled or not"
+
+```
+
+##### Generation Details
+
+java -jar openapi-generator-cli-7.10.0.jar generate -g typescript-fetch -o output -i openapi.yaml --additional-properties enumPropertyNaming=UPPERCASE
+
+
+##### Steps to reproduce
+
+1. Run the CLI
+2. Go in output/models/SaleOfferStatus.ts to see the bad result
+
+##### Related issues/PRs
+
+* https://github.com/OpenAPITools/openapi-generator/pull/9940
+* https://github.com/OpenAPITools/openapi-generator/issues/6810
+
+##### Suggest a fix
+
+See  https://github.com/OpenAPITools/openapi-generator/pull/20391

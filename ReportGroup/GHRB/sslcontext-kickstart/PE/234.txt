@@ -1,0 +1,17 @@
+FenixHostnameVerifier issues
+
+Should this be an endsWith()? 
+
+https://github.com/Hakky54/sslcontext-kickstart/blob/c779b17a64f0738d1dd2d2ec9c5e02bc6f5521f3/sslcontext-kickstart/src/main/java/nl/altindag/ssl/hostnameverifier/FenixHostnameVerifier.java#L188
+
+can the !empty be removed if you check for size=2 anyway?
+
+https://github.com/Hakky54/sslcontext-kickstart/blob/c779b17a64f0738d1dd2d2ec9c5e02bc6f5521f3/sslcontext-kickstart/src/main/java/nl/altindag/ssl/hostnameverifier/FenixHostnameVerifier.java#L124
+
+Is this intentionally not checking CN?
+
+https://github.com/Hakky54/sslcontext-kickstart/blob/c779b17a64f0738d1dd2d2ec9c5e02bc6f5521f3/sslcontext-kickstart/src/main/java/nl/altindag/ssl/hostnameverifier/FenixHostnameVerifier.java#L119
+
+i can provide a PR for those issues if youmagree it needs to be fixed.
+
+this verifier should probably also carry a warning that it does not know/forbid patterns in TLDs (*.co.uk instead of *.dom.co.uk or even *.com)?

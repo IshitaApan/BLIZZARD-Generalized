@@ -1,0 +1,47 @@
+[Bug] Ordered messages of different message group may affect each other for grpc pushConsumer
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+
+### Runtime platform environment
+
+Ubuntu
+
+### RocketMQ version
+
+branch: develop
+
+### JDK Version
+
+OpenJDK 1.8
+
+
+
+### Describe the Bug
+
+In the grpc pushConsumer, the concurrency of orderly consumption is equal to the number of partitions returned by queryAssignment.
+Now, due to the number of partitions being equal to the number of brokers, the consumption speed of ordered messages in different partitions of the same broker will affect each other.
+
+### Steps to Reproduce
+
+1. create a fifo topic with two queue on broker.
+3. send some messages with two different message groups and ensure that these messages are stored in separate message queues.
+4. start a push consumer, for one message group we consume messages slowly.
+
+### What Did You Expect to See?
+
+The slowly consumption group expect not to effect another group.
+
+### What Did You See Instead?
+
+The slowly consumption group effect another group.
+
+### Additional Context
+
+_No response_

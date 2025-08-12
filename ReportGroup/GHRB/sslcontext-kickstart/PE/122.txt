@@ -1,0 +1,5 @@
+Remove/Disable logging in unsafe HostnameVerifier and TrustManager
+
+the logging in the unsafe variants of HostnameVerifier and TrustManager spam logs. There should be a way to disable this or at least log it to DEBUG.
+
+I see no reason why i would like to know that a self signed certificate is trusted. that's exactly what i want to do else i wouldn't use this specific verifier.

@@ -1,0 +1,39 @@
+A false negative about the rule ClassMemberImpliedModifier
+
+I have read check documentation: https://checkstyle.sourceforge.io/config_modifier.html#ClassMemberImpliedModifier
+I have downloaded the latest checkstyle from: https://checkstyle.org/cmdline.html#Download_and_Run
+I have executed the cli and showed it below, as cli describes the problem better than 1,000 words
+
+```bash
+/var/tmp $ javac Test.java
+
+/var/tmp $ cat config.xml
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+    "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+    "https://checkstyle.org/dtds/configuration_1_3.dtd">
+<module name="Checker">
+  <property name="severity" value="error"/>
+  <property name="fileExtensions" value="java, properties, xml"/>
+  <module name="TreeWalker">
+    <module name="ClassMemberImpliedModifier" />
+  </module>
+</module>
+
+/var/tmp $ cat Test.java
+public class Test {
+  Object obj = new Object() {
+    public record BadRecord() {}  // should report a warning in this line
+  };
+}
+
+/var/tmp $ RUN_LOCALE="-Duser.language=en -Duser.country=US"
+/var/tmp $ java $RUN_LOCALE -jar checkstyle-10.1-all.jar -c config.xml Test.java
+Starting audit...
+Audit done.
+```
+---
+**Describe what you expect in detail.**
+---
+Hi, I found a false negative about the rule ClassMemberImpliedModifier. CheckStyle should have reported a warning in line 3. But it does not. Thanks for your consideration.
+Static modifier is expected to be present.

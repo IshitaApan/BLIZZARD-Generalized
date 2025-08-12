@@ -1,0 +1,58 @@
+ClassFanOutComplexity fails to count all classes in multicatch and implements clause, remove unused CheckUtil#createFullType method
+
+I have read check documentation: https://checkstyle.sourceforge.io/config_metrics.html#ClassFanOutComplexity
+I have downloaded the latest checkstyle from: https://checkstyle.org/cmdline.html#Download_and_Run
+I have executed the cli and showed it below, as cli describes the problem better than 1,000 words
+
+```
+
+➜  src javac Test.java
+Note: Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+➜  src cat config.xml 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC
+        "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+        "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+    <module name="TreeWalker">
+        <module name="ClassFanOutComplexity">
+          <property name="max" value="1"/>
+<!--          <property name="memberModifiers" value="LITERAL_PUBLIC, FINAL"/>-->
+        </module>
+    </module>
+</module>
+
+➜  src cat Test.java
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.EmptyStackException;
+
+public class Test {
+    public static void main(String[] args) {
+        try {
+            System.out.println(args[7]);
+            File myFile = new File("myfile.txt"); // 1
+
+            InputStream stream = myFile.toURL().openStream(); // 2
+        } catch (IOException  | EmptyStackException e) { // 3,4
+
+        }
+    }
+
+}
+
+➜  src java -jar checkstyle-8.43-all.jar -c config.xml Test.java
+Starting audit...
+[ERROR] /home/nick/Desktop/Tester/src/Test.java:6:1: Class Fan-Out Complexity is 3 (max allowed is 1). [ClassFanOutComplexity]
+Audit done.
+Checkstyle ends with 1 errors.
+➜  src 
+
+
+```
+
+I would expect the "Class Fan-Out Complexity" to be 4.

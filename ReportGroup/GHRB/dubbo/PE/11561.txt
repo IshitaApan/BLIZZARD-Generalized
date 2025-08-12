@@ -1,0 +1,51 @@
+StackOverflowError occurred in SerializeSecurityConfigurator
+
+<!-- If you need to report a security issue please visit https://github.com/apache/dubbo/security/policy -->
+
+- [ ] I have searched the [issues](https://github.com/apache/dubbo/issues) of this repository and believe that this is not a duplicate.
+
+### Environment
+
+* Dubbo version: xxx
+* Operating System version: xxx
+* Java version: xxx
+
+### Steps to reproduce this issue
+
+Original class `com.baomidou.mybatisplus.extension.conditions.AbstractChainWrapper` in mybatis-plus-extension
+
+1. Defines a class like
+```java
+public abstract class DemoService4<T, R, Param extends DemoService5<T, R, Param>> {
+    public DemoService4() {
+    }
+
+    public DemoService5<T, R, Param> getWrapper() {
+        return null;
+    }
+
+}
+```
+
+2. Define another class like
+```java
+public abstract class DemoService5<T, R, Children extends DemoService5<T, R, Children>> {
+}
+```
+
+Pls. provide [GitHub address] to reproduce this issue.
+
+### Expected Behavior
+
+<!-- What do you expect from the above steps？-->
+
+### Actual Behavior
+![image](https://user-images.githubusercontent.com/9292748/218632676-cdbce7e6-aa85-407f-9997-dbfa6bfd3641.png)
+
+<!-- What actually happens? -->
+
+If there is an exception, please attach the exception trace:
+
+```
+Just put your stack trace here!
+```

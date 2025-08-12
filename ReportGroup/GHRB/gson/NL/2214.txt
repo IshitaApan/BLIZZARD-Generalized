@@ -1,0 +1,10 @@
+Excluder rejects field when version exceeds or is equal to version in @Until
+
+Based on [this Stack Overflow question](http://stackoverflow.com/questions/41962820/until-annotation-in-gson-not-working-as-expected).
+
+[`@Until`](http://static.javadoc.io/com.google.code.gson/gson/2.8.0/com/google/gson/annotations/Until.html) is specified as
+
+> Basically, if `Gson` is created with a version number that **exceeds** the value stored in the `Until` annotation then the field will be ignored from the JSON output.
+
+However, the [`Excluder` that implements](
+https://github.com/google/gson/blob/c935f89b23c69e7c9d6d98df87f81635b3eb3700/gson/src/main/java/com/google/gson/internal/Excluder.java#L245) this logic rejects if a field if the version number exceeds **or is equal to** the version in `@Until`.

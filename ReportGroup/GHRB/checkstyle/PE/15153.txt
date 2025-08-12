@@ -1,0 +1,38 @@
+Add Check Support for Java 21 Unnamed Variables & Patterns Syntax: LambdaParameterName
+
+child of https://github.com/checkstyle/checkstyle/issues/14942
+I have read check documentation: https://checkstyle.org/checks/naming/lambdaparametername.html#LambdaParameterName
+I have downloaded the latest checkstyle from: https://checkstyle.org/cmdline.html#Download_and_Run
+I have executed the cli and showed it below, as cli describes the problem better than 1,000 words
+
+```
+PS D:\CS\test> cat src/Test.java
+import java.util.List;
+
+public class Test {
+        List<String> list = List.of("a", "b", "c");
+        List<String> newList = list.stream().map(_ -> "x").toList(); // violation
+}
+PS D:\CS\test> cat config.xml   
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+        "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+<module name="Checker">
+    <property name="charset" value="UTF-8"/>
+    <module name="TreeWalker">
+         <module name="LambdaParameterName"/>
+    </module>
+</module>
+PS D:\CS\test> java  -jar checkstyle-10.17.0-all.jar -c config.xml src/Test.java              
+Starting audit...
+[ERROR] D:\CS\test\src\Test.java:5:50: Name '_' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LambdaParameterName]
+Audit done.
+Checkstyle ends with 1 errors.
+PS D:\CS\test> 
+```
+
+
+Describe what you expect in detail.
+
+`LambdaParameterName` should allow unnamed pattern variables by default

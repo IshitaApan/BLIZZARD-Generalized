@@ -1,0 +1,23 @@
+[Bug] Fix index service upload last file when broker shutdown and fetcher check in tiered storage
+
+### Before Creating the Bug Report
+
+- [X] I found a bug, not just asking a question, which should be created in [GitHub Discussions](https://github.com/apache/rocketmq/discussions).
+- [X] I have searched the [GitHub Issues](https://github.com/apache/rocketmq/issues) and [GitHub Discussions](https://github.com/apache/rocketmq/discussions)  of this repository and believe that this is not a duplicate.
+- [X] I have confirmed that this bug belongs to the current repository, not other repositories of RocketMQ.
+
+### Runtime platform environment
+
+Unrelated to specific platforms
+
+### RocketMQ version
+
+develop branch
+
+### JDK Version
+
+JDK11
+
+### Describe the Bug
+
+Fix index service upload last file when broker shutdown and fetcher check in tiered storage

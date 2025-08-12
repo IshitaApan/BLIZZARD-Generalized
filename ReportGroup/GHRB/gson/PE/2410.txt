@@ -1,0 +1,5 @@
+Rename `master` branch to `main`
+
+In keeping with [recent practice](https://github.com/github/renaming), we should rename the `master` branch on GitHub to `main`. This change is well-supported on GitHub.
+
+One notable effect is that we can change the [links](https://github.com/google/gson/blob/2d7cc2e9f4e12163d4405a601fa8e814a66c9725/gson/src/main/java/com/google/gson/internal/TroubleshootingGuide.java#L10) to the troubleshooting guide that were recently added to some exception messages, so that they look like `https://github.com/google/gson/blob/main/Troubleshooting.md#foo` instead of `https://github.com/google/gson/blob/master/Troubleshooting.md#foo`. (The old links will continue to work after the rename, but the new ones will be preferred.)

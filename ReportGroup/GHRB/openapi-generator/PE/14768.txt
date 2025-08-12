@@ -1,0 +1,3 @@
+[BUG] [swift5] modelNamePrefix gets prepended to AnyCodable
+
+With `modelNamePrefix` set to `Foo`, all occurrences of `AnyCodable` in the generated models get named `FooAnyCodable`. Any ideas on how to fix this? I couldn't figure out where this happens exactly.

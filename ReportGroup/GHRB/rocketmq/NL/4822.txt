@@ -1,0 +1,13 @@
+Add integration tests for POP consumption when slave is acting master
+
+Slave acting master mode has been introduced in RIP-32, but there are few test cases to cover POP consumption mode when slave is acting master. It is necessary to add more test cases to guard this feature.
+
+I'd like to add integration tests to check the behavior of POP consumption in slave-acting-master mode.
+
+Test cases include:
+3 broker containers are set up, each with 1 master and 2 slaves. In every case, N messages are sent to `Container1-Master1`.
+
+|                   | consumed success (ACK)                                                   | reconsume later (non-ACK)                                                |
+|-------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| escaping locally  | - N messages should be consumed. <br>- No more messages can be consumed. | - N messages should be consumed. <br>- N retry messages can be consumed. |
+| escaping remotely | - N messages should be consumed. <br>- No more messages can be consumed. | - N messages should be consumed. <br>- N retry messages can be consumed. |

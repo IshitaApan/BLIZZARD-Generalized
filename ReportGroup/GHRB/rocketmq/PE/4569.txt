@@ -1,0 +1,10 @@
+Improve performance to ConsumeQueue when reclaiming disk space
+
+When commit log files are deleted, **ALL** consume queues scan its last file linearly, from beginning to its written position. RocketMQ is designed to serve a large number of topics, thus an even bigger number of consume-queues... This style of scan becomes very inefficient when these numbers grow larger and system memory is tight. 
+
+We recently observed this correction procedure takes a significant amount of IO bandwidth, impacting QoS noticeably in production.
+
+A few improvements can be made to mitigate/resolve this issue observed.
+1. For topics/consume queues that are deprecated, this scan should be zero overhead;
+2. Scan should start from the previous min-offset wherever possible, instead of the beginning of the first file;
+3. The scan should employ binary search as entries in consume queue are naturally sorted.
