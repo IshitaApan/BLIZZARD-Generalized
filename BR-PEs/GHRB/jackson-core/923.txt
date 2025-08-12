@@ -1,0 +1,4 @@
+BiggerString
+TextBuffer.contentAsString
+TextBuffer
+AsString

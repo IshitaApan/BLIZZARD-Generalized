@@ -1,0 +1,16 @@
+CyclomaticComplexity
+BlockAsSingleDecisionPoint
+TreeWalker
+CyclomaticComplexity
+BlockAsSingleDecisionPoint
+out.println
+out.println
+out.println
+BlockAsSingleDecisionPoint
+out.println
+.formatted
+out.println
+.formatted
+out.println
+CyclomaticComplexity
+BlockAsSingleDecisionPoint

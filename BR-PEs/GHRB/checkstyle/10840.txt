@@ -1,0 +1,9 @@
+JavadocMethod
+JavadocMethod
+MyInterface
+MyClass
+MyClass
+TreeWalker
+JavadocMethod
+MissingParamTags
+MissingReturnTag

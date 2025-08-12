@@ -1,0 +1,6 @@
+Gson.getAdapter
+TypeToken
+TypeToken
+NullPointerException
+GitHub
+TypeToken

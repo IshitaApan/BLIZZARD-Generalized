@@ -1,0 +1,10 @@
+ResourceUrl
+.getResource
+InputStream
+testResourceUrl.openStream
+Jsoup.parse
+testResourceUrl.toString
+.fromJsoup
+domDocument.getDocumentElement
+.getNamespaceURI
+AssertionError

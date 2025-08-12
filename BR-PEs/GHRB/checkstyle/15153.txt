@@ -1,0 +1,10 @@
+LambdaParameterName
+LambdaParameterName
+List.of
+list.stream
+.map
+.toList
+TreeWalker
+LambdaParameterName
+LambdaParameterName
+LambdaParameterName

@@ -1,0 +1,11 @@
+AbstractRustCodegen
+AuthenticationMethod
+AbstractRustCodegen
+MicrosoftGraphFido2AuthenticationMethod
+MicrosoftPeriodGraphPeriodFido2AuthenticationMethod
+AbstractRustCodegen
+MicrosoftGraphFido2AuthenticationMethod
+SingleRequestParameter
+AbstractRustCodegen
+DefaultCodegen
+AbstractRustCodegen

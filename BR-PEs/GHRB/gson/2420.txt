@@ -1,0 +1,12 @@
+ProGuard
+ProGuard
+MyClass
+MyClass
+GsonBuilder.disableJdkUnsafe
+ProGuard
+SerializedName
+SerializedName
+SerializedName
+SerializedName
+SerializedName
+DeclaredConstructors

@@ -1,0 +1,9 @@
+AbstractKotlinCodegenTest
+AbstractKotlinCodegenTest
+codegen.toEnumVarName
+MinusName
+AbstractKotlinCodegen
+AbstractKotlinCodegen
+MinusName
+PascalCase
+LongName

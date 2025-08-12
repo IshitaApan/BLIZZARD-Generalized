@@ -1,0 +1,13 @@
+JacksonXmlText
+JsonRawValue
+JsonRawValue
+JacksonXmlText
+JacksonXlmText
+JacksonXmlRootElement
+TestPojo
+JacksonXmlProperty
+JacksonXmlText
+JsonRawValue
+TestPojo
+TestPojo
+JsonProperty

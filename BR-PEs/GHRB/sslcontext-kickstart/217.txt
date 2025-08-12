@@ -1,0 +1,11 @@
+builder.withUnsafeTrustMaterial
+builder.withTrustingAllCertificatesWithoutValidation
+UnsafeX509ExtendedTrustManager
+X509Certificate
+CombinableX509TrustManager
+SSLFactory.builder
+.withDefaultTrustMaterial
+builder.withUnsafeTrustMaterial
+builder.build
+factory.getSslContext
+SSLContext.setDefault

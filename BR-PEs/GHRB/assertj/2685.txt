@@ -1,0 +1,4 @@
+ContainsIgnoringCase
+ContainsIgnoringCase
+LowerCase
+UpperCase

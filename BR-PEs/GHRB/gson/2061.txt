@@ -1,0 +1,4 @@
+JsonReader.hasNext
+JsonReader.hasNext
+reader.peek
+JsonToken

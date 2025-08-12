@@ -1,0 +1,13 @@
+SummaryJavadocCheck
+SummaryJavadoc
+TreeWalker
+SummaryJavadocCheck
+IdeaProjects
+ConfigCheckstyle
+SummaryJavadoc
+IdeaProjects
+ConfigCheckstyle
+SummaryJavadoc
+IdeaProjects
+ConfigCheckstyle
+SummaryJavadoc

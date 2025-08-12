@@ -1,0 +1,14 @@
+PropertyNaming
+AskingFoRdesc
+OfService
+SaleOffer
+OfferStatus
+SaleOffer
+SaleOffersByStatus
+SaleOfferStatusParameter
+SaleOfferStatusParameter
+OfferStatus
+SaleOfferStatus
+SaleOfferStatus
+PropertyNaming
+SaleOfferStatus
