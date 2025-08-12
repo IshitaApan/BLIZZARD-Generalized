@@ -166,5 +166,13 @@
         // "projectName": "BLIZZARD-Tool-New",
         "args": "-task reformulateQuery -repo tomcat -bugIDFile inputs/tomcat_bug_ids.txt -queryFile outputs/reformulated-query-tomcat.txt"
     },
+    {
+        "type": "java",
+        "name": "Launch BLIZZARDRunner: classify reports",
+        "request": "launch",
+        "mainClass": "blizzard.core.items.BLIZZARDRunner",
+        // "projectName": "BLIZZARD-Tool-New",
+        "args": "-task classifyReport"
+    },
     ]
 }

@@ -27,6 +27,6 @@ public class StaticData {
 
 	public static int CROWD_API_OCC_THRESHOLD = 5;
 
-	public static String ReportGroup_File = HOME_DIR + "ReportGroup/ReportGroupLists.txt";
+	public static String ReportGroup_File = HOME_DIR + "/ReportGroup/ReportGroupLists.txt";
 	
 }

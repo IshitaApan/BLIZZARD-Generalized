@@ -1,5 +1,6 @@
 package blizzard.core.items;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import blizzard.utility.ContentWriter;
@@ -68,6 +69,33 @@ public class BLIZZARDRunner {
 			int topk = 10;
 
 			switch (task) {
+
+			case "classifyReport":
+				String repo_dir = "BR-Raw/GHRB";
+				// Create a File object from the provided directory path.
+				File directory = new File(repo_dir);
+				// Check if the file exists and is a directory.
+				if (!directory.exists()) {
+					System.out.println("Error: The directory '" + repo_dir + "' does not exist.");
+					return;
+				}
+				// Get a list of all files and sub-folders in the directory.
+        		File[] allItems = directory.listFiles();
+				for (File item : allItems) {
+					// Check if the current item is a directory.
+					if (item.isDirectory()) {
+						repoName = "GHRB/" + item.getName();
+						bugIDFile = "inputs/" + repoName + "_bug_ids.txt";
+						System.out.println(repoName);
+						if (!repoName.isEmpty() && !bugIDFile.isEmpty()) {
+							BLIZZARDQueryManager queryManager = new BLIZZARDQueryManager(
+									repoName, bugIDFile);
+							ArrayList<String> suggestedReportClassList = queryManager.getSuggestedReportGroup();
+							appendItems(StaticData.ReportGroup_File, suggestedReportClassList);
+						}
+					}
+				}
+				break;
 			case "reformulateQuery":
 				if (keymap.containsKey("-repo")) {
 					repoName = keymap.get("-repo");
@@ -95,7 +123,6 @@ public class BLIZZARDRunner {
 					HashMap<Integer, String> suggestedQueries = queryManager
 							.getSuggestedQueries();
 					saveItems(queryFile, suggestedQueries);
-					appendItems(StaticData.ReportGroup_File, queryManager.suggestedReportClasList);
 				}
 				break;
 			case "getResult":

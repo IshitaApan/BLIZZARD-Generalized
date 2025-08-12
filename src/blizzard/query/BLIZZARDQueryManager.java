@@ -12,7 +12,7 @@ public class BLIZZARDQueryManager {
 	HashMap<Integer, String> reportMap;
 	HashMap<Integer, String> reportTitleMap;
 	HashMap<Integer, String> suggestedQueryMap;
-	public ArrayList<String> suggestedReportClasList;
+	ArrayList<String> suggestedReportClasList;
 
 
 	public BLIZZARDQueryManager(String repoName, String bugIDFile) {
@@ -63,10 +63,22 @@ public class BLIZZARDQueryManager {
 			String suggestedQuery = provider.provideBLIZZARDQuery();
 			System.out.println("Done: " + bugID);
 			this.suggestedQueryMap.put(bugID, suggestedQuery);
-			this.suggestedReportClasList.add(repoName + " " + bugID + " " + provider.reportGroup);
 		}
 		System.out.println("Query Reformulation completed successfully :-)");
 		return this.suggestedQueryMap;
+	}
+
+	public ArrayList<String> getSuggestedReportGroup() {
+		System.out.println("Finding Report Group for each Bug Report. Please wait...");
+		for (int bugID : this.reportMap.keySet()) {
+			String reportContent = this.reportMap.get(bugID);
+			String title=this.reportTitleMap.get(bugID);
+			BLIZZARDQueryProvider provider = new BLIZZARDQueryProvider(this.repoName, bugID, title, reportContent);
+			System.out.println("Done: " + repoName + " " + bugID + " " + provider.reportGroup);
+			this.suggestedReportClasList.add(repoName + " " + bugID + " " + provider.reportGroup);
+		}
+		System.out.println("Bug report classification completed successfully :-)");
+		return this.suggestedReportClasList;
 	}
 
 	public static void main(String[] args) {

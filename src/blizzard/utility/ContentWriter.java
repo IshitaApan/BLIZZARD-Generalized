@@ -26,7 +26,16 @@ public class ContentWriter {
 		// writing content to output
 		boolean written = false;
 		try {
-			FileWriter fwriter = new FileWriter(new File(outFile), true);
+			File file = new File(outFile);
+			if(!file.exists()) {
+				try {
+					file.createNewFile();
+				}
+				catch (Exception e) {
+					System.err.println("Error creating file: " + e.getMessage());
+				}
+			}
+			FileWriter fwriter = new FileWriter(file, true);
 			for (String item : items) {
 				fwriter.write(item + "\n");
 			}
