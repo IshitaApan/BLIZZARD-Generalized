@@ -84,4 +84,4 @@ def process_all_project_bug_reports(folder_path):
         print(f"An unexpected error occurred: {e}")
 
 if __name__ == "__main__":
-    process_all_project_bug_reports("/home/ishita/BugLocalization/GHRB")
+    process_all_project_bug_reports("/home/ishita/BugLocalization/Data-GHRB")
