@@ -12,7 +12,7 @@ public class BugReportClassifierTest {
 		String repoName = "eclipse.jdt.core";
 		int bugID = 395663;
 		String bugReport = BugReportLoader.loadBugReport(repoName, bugID);
-		BugReportClassifier classifier = new BugReportClassifier(bugReport);
+		BugReportClassifier classifier = new BugReportClassifier(bugReport, repoName, bugID);
 		boolean response = false;
 		if (classifier.determineReportClass().equals("NL")) {
 			response = true;
@@ -26,7 +26,7 @@ public class BugReportClassifierTest {
 		String repoName = "eclipse.jdt.core";
 		int bugID = 388085;
 		String bugReport = BugReportLoader.loadBugReport(repoName, bugID);
-		BugReportClassifier classifier = new BugReportClassifier(bugReport);
+		BugReportClassifier classifier = new BugReportClassifier(bugReport, repoName, bugID);
 		boolean response = false;
 		if (classifier.determineReportClass().equals("PE")) {
 			response = true;
@@ -39,7 +39,7 @@ public class BugReportClassifierTest {
 		String repoName = "eclipse.jdt.core";
 		int bugID = 427207;
 		String bugReport = BugReportLoader.loadBugReport(repoName, bugID);
-		BugReportClassifier classifier = new BugReportClassifier(bugReport);
+		BugReportClassifier classifier = new BugReportClassifier(bugReport, repoName, bugID);
 		boolean response = false;
 		if (classifier.determineReportClass().equals("ST")) {
 			response = true;
