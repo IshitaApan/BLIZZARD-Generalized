@@ -1,0 +1,3 @@
+"project_name","bug_id","kw_classes","kw_class_hits","kw_methods","kw_method_hits","kw_variables","kw_variable_hits","list_class_found","list_class_not_found","list_method_found","list_method_not_found","list_var_found","list_var_not_found"
+"checkstyle","10839","7","2","5","1","4","3","[""CheckUtil"", ""Test""]","[""ClassFanOutComplexity"", ""java.io.File"", ""java.io.IOException"", ""java.io.InputStream"", ""java.util.EmptyStackException""]","[""createFullType""]","[""main"", ""openStream"", ""println"", ""toURL""]","[""args"", ""e"", ""stream""]","[""myFile""]"
+"assertj","2445","4","2","0","0","2","2","[""A"", ""Provider""]","[""hs.ddif.core.InjectorProviderTest.A"", ""hs.ddif.core.inject.store.BindingProvider$ProviderBinding$1""]","[]","[]","[""red"", ""x""]","[]"

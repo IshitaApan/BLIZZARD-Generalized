@@ -1,0 +1,14 @@
+{
+  "classes": [
+    "A",
+    "hs.ddif.core.inject.store.BindingProvider$ProviderBinding$1",
+    "hs.ddif.core.InjectorProviderTest.A",
+    "Provider"
+  ],
+  "methods": [],
+  "variables": [
+    { "name": "x", "kind": "unknown" },
+    { "name": "red", "kind": "unknown", "context": "x" }
+  ]
+}
+

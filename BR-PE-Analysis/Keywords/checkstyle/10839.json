@@ -1,0 +1,54 @@
+{
+  "classes": [
+    "CheckUtil",
+    "ClassFanOutComplexity",
+    "Test",
+    "java.io.File",
+    "java.io.IOException",
+    "java.io.InputStream",
+    "java.util.EmptyStackException"
+  ],
+  "methods": [
+    {
+      "name": "createFullType",
+      "class": "CheckUtil"
+    },
+    {
+      "name": "main",
+      "class": "Test"
+    },
+    {
+      "name": "openStream"
+    },
+    {
+      "name": "println",
+      "class": "System.out"
+    },
+    {
+      "name": "toURL"
+    }
+  ],
+  "variables": [
+    {
+      "name": "args",
+      "kind": "parameter",
+      "context": "Test#main"
+    },
+    {
+      "name": "e",
+      "kind": "parameter",
+      "context": "Test#main"
+    },
+    {
+      "name": "myFile",
+      "kind": "local",
+      "context": "Test#main"
+    },
+    {
+      "name": "stream",
+      "kind": "local",
+      "context": "Test#main"
+    }
+  ]
+}
+
